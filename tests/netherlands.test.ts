@@ -66,7 +66,7 @@ test('Dutch policy facts distinguish future, exhausted and closed application wi
 });
 
 test('Friesland annual publications advance without losing previous scan history',()=>{
- const entry=discoveryForYear(2027).find(d=>d.region==='NL-FR'&&d.kind==='law')!;
+ const entry=discoveryForYear(2027).find(d=>d.region==='NL-FR'&&d.url.includes('bekendmakingen-'))!;
  assert.equal(entry.url,'https://www.fryslan.frl/bekendmakingen-2027');
  const scans=candidate.tables.scan_runs.map((r:{data:string})=>JSON.parse(r.data));
  const coverage=coverageRows(scans,2027).find(c=>c.url===entry.url)!;

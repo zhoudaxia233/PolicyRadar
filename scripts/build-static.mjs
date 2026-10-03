@@ -12,8 +12,8 @@ await mkdir('.build-tmp',{recursive:true});
 const output=await mkdtemp(resolve('.build-tmp/static-build-'));
 try {
   await build({stdin:{contents:'import React from "react";import {createRoot} from "react-dom/client";import Home from "./app/page";createRoot(document.getElementById("root")).render(<Home/>);',resolveDir:process.cwd(),loader:'tsx'},bundle:true,minify:true,jsx:'automatic',outfile:resolve(output,'app.js'),platform:'browser',define:{'process.env.NODE_ENV':'"production"'}});
-  await writeFile(resolve(output,'style.css'),(await readFile('app/globals.css','utf8')).replace('@import "tailwindcss";',''));
-  await writeFile(resolve(output,'index.html'),'<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>政策雷达 · 德国</title><link rel="icon" href="./favicon.svg"><link rel="stylesheet" href="./style.css"></head><body><div id="root"></div><script type="module" src="./app.js"></script></body></html>');
+  await writeFile(resolve(output,'style.css'),(await readFile('app/globals.css','utf8')));
+  await writeFile(resolve(output,'index.html'),'<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="color-scheme" content="light dark"><title>政策雷达</title><script>try{const t=localStorage.getItem(\'theme\');if(t===\'light\'||t===\'dark\')document.documentElement.dataset.theme=t}catch{}</script><link rel="icon" href="./favicon.svg"><link rel="stylesheet" href="./style.css"></head><body><div id="root"></div><script type="module" src="./app.js"></script></body></html>');
   await copyFile('public/favicon.svg',resolve(output,'favicon.svg'));
   await writeFile(resolve(output,'.nojekyll'),'');
   await writeFile(resolve(output,'data.json'),JSON.stringify(data));

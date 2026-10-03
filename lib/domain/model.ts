@@ -1,5 +1,8 @@
 import { z } from 'zod';
 export const regions = [{id:'DE',name:'德国联邦',de:'Bund'}, {id:'DE-HE',name:'黑森',de:'Hessen'}, {id:'DE-BY',name:'巴伐利亚',de:'Bayern'}, {id:'DE-BW',name:'巴登-符腾堡',de:'Baden-Württemberg'}, {id:'DE-BE',name:'柏林',de:'Berlin'}, {id:'DE-BB',name:'勃兰登堡',de:'Brandenburg'}, {id:'DE-HB',name:'不来梅',de:'Bremen'}, {id:'DE-HH',name:'汉堡',de:'Hamburg'}, {id:'DE-MV',name:'梅克伦堡-前波美拉尼亚',de:'Mecklenburg-Vorpommern'}, {id:'DE-NI',name:'下萨克森',de:'Niedersachsen'}, {id:'DE-NW',name:'北莱茵-威斯特法伦',de:'Nordrhein-Westfalen'}, {id:'DE-RP',name:'莱茵兰-普法尔茨',de:'Rheinland-Pfalz'}, {id:'DE-SL',name:'萨尔',de:'Saarland'}, {id:'DE-SN',name:'萨克森',de:'Sachsen'}, {id:'DE-ST',name:'萨克森-安哈尔特',de:'Sachsen-Anhalt'}, {id:'DE-SH',name:'石勒苏益格-荷尔斯泰因',de:'Schleswig-Holstein'}, {id:'DE-TH',name:'图林根',de:'Thüringen'}];
+// A region id is an ISO 3166-2 code (or the bare country code for the national level), so its country is the prefix.
+export const countries = [{id:'DE',name:'德国',de:'Deutschland',national:'联邦',subdivision:'州'}];
+export const countryOf = (region:string) => region.slice(0,2);
 export const dateSchema = z.string().regex(/^\d{4}-\d{2}-\d{2}$/).refine(v => !Number.isNaN(Date.parse(v)) && new Date(v).toISOString().slice(0,10) === v, 'Invalid date');
 const date = dateSchema;
 export const tagsSchema=z.array(z.string().trim().min(1).max(30)).max(12).refine(tags=>new Set(tags).size===tags.length,'Duplicate tags');
@@ -30,6 +33,8 @@ export const policySchema = z.object({
 });
 export type Policy=z.infer<typeof policySchema>;
 export function effectiveDateLabel(p:Policy){return p.effectiveDate?'本次改动开始生效':'最近已确认进展';}
+// The date a reader cares about first: a near-term next step, otherwise when the change took effect.
+export function keyDate(p:Policy,today:string){const soon=!!p.nextDate&&p.nextDate>=today&&(!p.effectiveDate||Date.parse(p.nextDate)-Date.parse(today)<=120*864e5);return soon?{date:p.nextDate!,label:p.nextLabel??'下一步',kind:'next' as const}:{date:p.effectiveDate??p.lastEventDate,label:effectiveDateLabel(p),kind:p.effectiveDate?'effective' as const:'progress' as const};}
 export const importSchema=z.object({policies:z.array(policySchema).max(50),expectedVersions:z.record(z.number().int().min(0))});
 export function validateRevision(old:Policy, next:Policy){
  if(old.id!==next.id||old.officialId!==next.officialId)throw new Error('Stable identity cannot change');

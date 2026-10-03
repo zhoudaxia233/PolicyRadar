@@ -2,12 +2,14 @@ import {build} from 'esbuild';
 import {mkdir,writeFile,readFile,copyFile,rm,rename,mkdtemp} from 'node:fs/promises';
 import {resolve,dirname} from 'node:path';
 import {createHash} from 'node:crypto';
+import {createLocalization} from '../lib/i18n/build.ts';
 import {createStaticData,snapshotKey} from '../lib/static-data.ts';
 
 const source=resolve(process.argv[2]||JSON.parse(await readFile('data/current-export.json','utf8')).path);
 const raw=await readFile(source,'utf8');
 const exported=JSON.parse(raw);
 const data=createStaticData(exported);
+data.localization=createLocalization(data,JSON.parse(await readFile('data/translations/content.json','utf8')),JSON.parse(await readFile('data/translations/bindings.json','utf8')));
 await mkdir('.build-tmp',{recursive:true});
 const output=await mkdtemp(resolve('.build-tmp/static-build-'));
 try {
@@ -16,7 +18,7 @@ try {
   // Version asset URLs by content so a new index.html never pairs with a cached old app.js or style.css.
   const version=async f=>createHash('sha256').update(await readFile(resolve(output,f))).digest('hex').slice(0,10);
   const [jsVersion,cssVersion]=await Promise.all([version('app.js'),version('style.css')]);
-  await writeFile(resolve(output,'index.html'),'<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="color-scheme" content="light dark"><title>政策雷达</title><script>try{const t=localStorage.getItem(\'theme\');if(t===\'light\'||t===\'dark\')document.documentElement.dataset.theme=t}catch{}</script><link rel="icon" href="./favicon.svg"><link rel="stylesheet" href="./style.css?v='+cssVersion+'"></head><body><div id="root"></div><script type="module" src="./app.js?v='+jsVersion+'"></script></body></html>');
+  await writeFile(resolve(output,'index.html'),'<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="color-scheme" content="light dark"><title>Policy Radar</title><script>try{const t=localStorage.getItem(\'theme\');if(t===\'light\'||t===\'dark\')document.documentElement.dataset.theme=t}catch{}</script><link rel="icon" href="./favicon.svg"><link rel="stylesheet" href="./style.css?v='+cssVersion+'"></head><body><div id="root"></div><script type="module" src="./app.js?v='+jsVersion+'"></script></body></html>');
   await copyFile('public/favicon.svg',resolve(output,'favicon.svg'));
   await writeFile(resolve(output,'.nojekyll'),'');
   await writeFile(resolve(output,'data.json'),JSON.stringify(data));

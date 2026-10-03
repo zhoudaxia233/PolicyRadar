@@ -10,6 +10,7 @@ export function policyTags(p:{tags?:string[];topic?:string}){return p.tags?.leng
 const text = z.string().min(1).max(6000);
 export const sourceSchema = z.object({id:z.string().regex(/^[a-z0-9-]+$/),title:text,url:z.string().url().refine(u=>u.startsWith('https://')),publisher:text,kind:z.enum(['law','parliament','government']),note:text});
 export const policySchema = z.object({
+ originalLanguage:z.string().regex(/^[a-z]{2,3}(?:-[A-Za-z0-9]+)*$/).optional(),
  id:z.string().regex(/^[a-z0-9-]+$/), officialId:text,title:text,originalTitle:text,region:z.string().refine(r=>regions.some(x=>x.id===r)),topic:z.string().trim().min(1).max(60),tags:tagsSchema.optional(),
  phase:z.enum(['adopted','pending','closed']),status:text,summary:text,before:text,after:text,impact:text,limits:text,
  verifiedAt:date,lastEventDate:date,effectiveDate:date.nullable(),nextDate:date.nullable(),nextLabel:z.string().max(200),
@@ -40,7 +41,7 @@ export function validateRevision(old:Policy, next:Policy){
  if(old.id!==next.id||old.officialId!==next.officialId)throw new Error('Stable identity cannot change');
  for(const e of old.events){const same=next.events.find(n=>n.id===e.id);if(!same||JSON.stringify(same)!==JSON.stringify(e))throw new Error('Historical events are immutable; append a correction');}
 }
-export function selectPolicies(items:Policy[],view:string,region:string,topic:string,query:string,tags:string[]=[]){const q=query.trim().toLocaleLowerCase();return items.filter(p=>(view==='all'||view==='updates'||p.phase===view)&&(region==='all'||p.region===region)&&(topic==='all'||p.topic===topic)&&(!tags.length||tags.some(t=>policyTags(p).includes(t)))&&(!q||[p.title,p.originalTitle,p.summary,p.officialId,...policyTags(p)].join(' ').toLocaleLowerCase().includes(q))).sort((a,b)=>b.lastEventDate.localeCompare(a.lastEventDate));}
+export function selectPolicies(items:Policy[],view:string,region:string,topic:string,query:string,tags:string[]=[],searchText?:(p:Policy)=>string){const q=query.trim().toLocaleLowerCase();return items.filter(p=>(view==='all'||view==='updates'||p.phase===view)&&(region==='all'||p.region===region)&&(topic==='all'||p.topic===topic)&&(!tags.length||tags.some(t=>policyTags(p).includes(t)))&&(!q||(searchText?.(p)??[p.title,p.originalTitle,p.summary,p.officialId,...policyTags(p)].join(' ')).toLocaleLowerCase().includes(q))).sort((a,b)=>b.lastEventDate.localeCompare(a.lastEventDate));}
 export function lifecycle(p:Policy,today:string){
  if(p.phase!=='adopted')return p.nextDate&&p.nextDate<today?'已过计划日期 · 结果待核实':p.status;
  if(p.nextDate&&p.nextDate<today&&/到期|期限结束/.test(p.nextLabel))return '期限已到 · 后续待核实';

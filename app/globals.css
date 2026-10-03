@@ -65,7 +65,6 @@ h1,h2,h3,h4,p{margin:0}
 .breadcrumb{display:flex;gap:8px;align-items:center;font-size:13px;color:var(--muted);min-width:0}
 .crumb-sep{flex-shrink:0;color:var(--faint)}
 .crumb-view{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
-.country-switch select{border:1px solid var(--line);background:var(--surface-2);border-radius:7px;padding:3px 8px;font-size:13px;font-weight:650;color:var(--ink)}
 .top-actions{display:flex;align-items:center;gap:14px}
 .quiet-button{display:inline-flex;align-items:center;gap:7px;font-size:13px;padding:7px 0;color:var(--muted);white-space:nowrap}
 .theme-button{display:grid;place-items:center;width:34px;height:34px;border-radius:50%;border:1px solid var(--line);color:var(--muted)}
@@ -366,3 +365,36 @@ dialog.drawer::backdrop{background:var(--backdrop)}
 
 .sidebar-count-note{font-size:11px;color:var(--muted);padding:6px 12px;line-height:1.6}
 .filter-summary{font-size:12px;color:var(--muted);margin:8px 0;overflow-wrap:anywhere}
+
+/* Language controls and longer translated labels retain their natural wrapping. */
+.compact-select{position:relative;flex-shrink:0;font-size:12px;font-weight:600;line-height:1;letter-spacing:.035em}
+.compact-select summary{display:flex;align-items:center;justify-content:space-between;gap:9px;height:34px;min-width:62px;padding:0 10px;list-style:none;cursor:pointer;color:var(--ink);background:var(--surface-2);border:1px solid var(--line);border-radius:7px;user-select:none}
+.compact-select summary:focus:not(:focus-visible){outline:none}
+.compact-select summary::-webkit-details-marker{display:none}
+.compact-select summary svg{color:var(--muted);transition:transform .15s ease}
+.compact-select[open] summary{border-color:var(--line-strong)}
+.compact-select[open] summary svg{transform:rotate(180deg)}
+.compact-select summary:hover{border-color:var(--line-strong)}
+.compact-options{position:absolute;right:0;top:calc(100% + 6px);z-index:30;min-width:max(82px,100%);padding:4px;background:var(--surface);border:1px solid var(--line-strong);border-radius:9px;box-shadow:0 8px 24px var(--shadow)}
+.compact-select[data-align="left"] .compact-options{left:0;right:auto}
+.compact-options button{display:flex;align-items:center;justify-content:space-between;gap:16px;width:100%;height:32px;padding:0 9px;border-radius:5px;font:inherit;letter-spacing:inherit;color:var(--muted);background:transparent}
+.compact-options button:hover,.compact-options button:focus-visible{background:var(--surface-2);color:var(--ink)}
+.compact-options button[aria-pressed="true"]{color:var(--accent);background:var(--accent-soft)}
+.compact-select summary:focus-visible,.compact-options button:focus-visible{outline:2px solid var(--focus);outline-offset:2px}
+.translation-note{display:block;font-size:12px;font-weight:400;color:var(--muted);margin:6px 0;line-height:1.5}
+.explanation-label{font-size:12px;color:var(--muted);line-height:1.5}
+.nav-label,.nav-short,.card-main,.milestone>div,.breadcrumb{min-width:0;overflow-wrap:anywhere}
+:root:not([lang="zh-CN"]) .nav-item{white-space:normal;line-height:1.35}
+:root:not([lang="zh-CN"]) .card-date em{white-space:normal;overflow-wrap:anywhere;line-height:1.25}
+@media(max-width:700px){
+ .top-actions{gap:7px;flex-shrink:0}
+ .topbar .breadcrumb{display:none}
+ :root:not([lang="zh-CN"]) .nav-short{font-size:10px;line-height:1.2}
+}
+@media(max-width:380px){.mobile-brand{font-size:13px}.topbar{padding:0 10px}.top-actions{gap:4px}}
+.breadcrumb{overflow:visible;overflow-wrap:normal}
+.crumb-root,.crumb-view{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.crumb-sep,.top-actions{flex-shrink:0}
+@media(max-width:1200px){.crumb-root,.crumb-root+.crumb-sep{display:none}}
+.detail-actions{display:flex;align-items:center;gap:10px;flex-shrink:0}
+.detail-top>span{min-width:0;overflow-wrap:anywhere}

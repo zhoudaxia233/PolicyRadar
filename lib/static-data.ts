@@ -31,6 +31,7 @@ export function createStaticData(input:unknown) {
   return {
     exportedAt:data.exportedAt,
     policies,
+    policyVersions:Object.fromEntries(data.tables.policies.map(p=>[p.id,p.version])),
     status:{
       checks:data.tables.checks,
       settings:Object.fromEntries(data.tables.settings.filter(s=>['lastReviewAt','reviewNote'].includes(s.key)).map(s=>[s.key,s.value])),

@@ -34,3 +34,11 @@ test('complete scans require enumeration, reconciliation and a closed day',()=>{
 test('later successful scans cannot skip an earlier date gap',()=>{const base=scanSchema.parse({...baseline.scans[0],status:'complete',allPagesChecked:true,totalListed:0,recordIds:[],excluded:[]});const later={...base,id:'later',windowStart:'2026-10-04',windowEnd:'2026-10-05'};let c=coverageRows([later],2026).find(c=>c.url===base.sourceUrl)!;assert.equal(c.coveredThrough,null);c=coverageRows([base,later],2026).find(c=>c.url===base.sourceUrl)!;assert.equal(c.coveredThrough,'2026-10-02');const fill={...base,id:'fill',windowStart:'2026-10-03',windowEnd:'2026-10-03'};assert.equal(coverageRows([base,later,fill],2026).find(c=>c.url===base.sourceUrl)!.coveredThrough,'2026-10-05');assert.equal(coverageRows([{...base,status:'partial'}],2026).find(c=>c.url===base.sourceUrl)!.coveredThrough,null);});
 test('every region belongs to a configured country',()=>{for(const r of regions)assert(countries.some(c=>c.id===countryOf(r.id)),r.id);assert.equal(readFilters('?region=DE-HE').country,'DE');assert.equal(readFilters('?country=XX').country,countries[0].id);});
 test('key date prefers a near-term next step over a distant expiry',()=>{const p=structuredClone(seed[0]);p.effectiveDate='2025-07-23';p.nextDate='2029-12-31';p.nextLabel='期限结束';assert.equal(keyDate(p,'2026-10-03').kind,'effective');p.nextDate='2026-10-08';assert.deepEqual(keyDate(p,'2026-10-03'),{date:'2026-10-08',label:'期限结束',kind:'next'});p.effectiveDate=null;p.nextDate='2029-12-31';assert.equal(keyDate(p,'2026-10-03').kind,'next');});
+
+test('refresh preserves every selected category, including crypto selected thirteenth',()=>{
+ const tags=['工资','工作','公共采购','公共服务','公务员','环境','建筑','交通','教师','教育','科研','能源','加密资产'];
+ const before={view:'all',country:'DE',region:'all',query:'',tags};
+ const after=readFilters(filterSearch('',before));
+ assert.deepEqual(after,before);
+ assert.deepEqual(selectPolicies(seed,after.view,after.region,'all',after.query,after.tags),selectPolicies(seed,before.view,before.region,'all',before.query,before.tags));
+});

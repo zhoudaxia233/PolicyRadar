@@ -314,7 +314,7 @@ dialog.drawer::backdrop{background:var(--backdrop)}
  body{padding-bottom:calc(60px + env(safe-area-inset-bottom,0px))}
  .app-shell{display:block}
  .sidebar{inset:auto 0 0 0;width:100%;height:auto;padding:0 0 env(safe-area-inset-bottom,0px);border-right:0;border-top:1px solid var(--line)}
- .brand,.sidebar-bottom,.region-nav{display:none}
+ .brand,.sidebar-bottom,.region-nav,.sidebar-count-note{display:none}
  .sidebar nav{display:grid;grid-template-columns:repeat(6,minmax(0,1fr))}
  .nav-item{flex-direction:column;gap:1px;padding:7px 0 6px;margin:0;border-radius:0;font-size:11px;position:relative}
  .nav-item.active{background:none}
@@ -363,3 +363,6 @@ dialog.drawer::backdrop{background:var(--backdrop)}
  footer>span:last-child{display:none}
 }
 @media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+
+.sidebar-count-note{font-size:11px;color:var(--muted);padding:6px 12px;line-height:1.6}
+.filter-summary{font-size:12px;color:var(--muted);margin:8px 0;overflow-wrap:anywhere}

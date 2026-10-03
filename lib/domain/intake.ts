@@ -8,6 +8,7 @@ const text=z.string().trim().min(1).max(6000);
 export const intakeSchema=z.object({
  originalLanguage:z.string().regex(/^[a-z]{2,3}(?:-[A-Za-z0-9]+)*$/).optional(),
  id:z.string().regex(/^[a-z0-9-]+$/).max(100),region:z.string().refine(r=>regions.some(x=>x.id===r)),
+ supersedes:z.string().regex(/^[a-z0-9-]+$/).max(100).optional(),
  title:text,titleZh:text.optional(),date:dateSchema,dateKind:z.enum(['published','adopted','announced']).default('published'),
  adoptionDate:dateSchema.nullable().optional(),effectiveDate:dateSchema.nullable().optional(),
  url,sourceUrl:url,officialId:text.optional(),kind:z.enum(['law','regulation','decision','announcement']),

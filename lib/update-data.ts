@@ -3,7 +3,7 @@ import {isDeepStrictEqual as equal} from 'node:util';
 import {createStaticData} from './static-data.ts';
 import {policySchema,validateRevision} from './domain/model.ts';
 import {scanSchema,intakeSchema,validateScanTime,berlinDate} from './domain/intake.ts';
-import {discoveryForYear} from './domain/coverage.ts';
+import {discoveryForYear,sourceSupportsRegion} from './domain/coverage.ts';
 
 type Row={id?:string;data?:string;[key:string]:unknown};
 type Export={exportedAt:string;tables:Record<string,Row[]>};
@@ -56,7 +56,7 @@ export function validateUpdate(previous:unknown,candidate:unknown,now=new Date()
  const records=new Map(next.tables.intake.map(row=>{const r=intakeSchema.parse(JSON.parse(row.data!));if(row.id!==r.id)throw Error('Intake row identity mismatch');return [r.id,r];}));
  const oldRecords=new Set(old.tables.intake.map(r=>r.id));
  for(const [id,r] of records)if(!oldRecords.has(id)){
-  if(sources.get(r.sourceUrl)?.region!==r.region||r.date>berlinDate(now))throw Error('Invalid discovery source, region or date');
+  if(!sourceSupportsRegion(sources.get(r.sourceUrl),r.region)||r.date>berlinDate(now))throw Error('Invalid discovery source, region or date');
  }
  const oldScans=new Set(old.tables.scan_runs.map(r=>r.id));
  for(const row of next.tables.scan_runs){
@@ -64,7 +64,7 @@ export function validateUpdate(previous:unknown,candidate:unknown,now=new Date()
   const scan=scanSchema.parse(JSON.parse(row.data!));validateScanTime(scan,now);
   if(row.id!==scan.id||row.source_url!==scan.sourceUrl||row.checked_at!==scan.checkedAt)throw Error('Scan row identity mismatch');
   if(!sources.has(scan.sourceUrl))throw Error('Unregistered scan source');
-  for(const id of scan.recordIds){const r=records.get(id);if(!r||r.region!==sources.get(scan.sourceUrl)!.region||r.date<scan.windowStart||r.date>scan.windowEnd)throw Error('Scan references a missing or out-of-window record');}
+  for(const id of scan.recordIds){const r=records.get(id);if(!r||!sourceSupportsRegion(sources.get(scan.sourceUrl),r.region)||r.date<scan.windowStart||r.date>scan.windowEnd)throw Error('Scan references a missing or out-of-window record');}
  }
  return {policies:policies.size,revisions:revisions.size,scans:next.tables.scan_runs.length};
 }

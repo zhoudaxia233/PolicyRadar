@@ -1,8 +1,11 @@
 import {frenchDiscovery} from './france.ts';
-// Official discovery entries for Germany and France.
+import {dutchDiscovery} from './netherlands.ts';
+export function sourceSupportsRegion(source:{region:string;supportedRegions?:string[]}|undefined,region:string){return !!source&&(source.supportedRegions??[source.region]).includes(region);}
+// Official discovery entries for Germany, France and the Netherlands.
 // A registered entry is not a claim of exhaustive coverage or a successful fetch.
 export const discovery = [
   ...frenchDiscovery,
+  ...dutchDiscovery,
   {region:'FR',url:'https://www.legifrance.gouv.fr/jorf/jo',title:'法国官方公报',publisher:'Légifrance',kind:'law'},
   {region:'FR',url:'https://www.service-public.gouv.fr/particuliers/actualites',title:'法国公共服务：个人政策动态',publisher:'DILA',kind:'government'},
   {region:'FR',url:'https://entreprendre.service-public.gouv.fr/actualites',title:'法国公共服务：企业政策动态',publisher:'DILA',kind:'government'},
@@ -396,4 +399,4 @@ export const discovery = [
 ];
 
 // Resolve the calendar year during a request: Worker module initialization has no live clock.
-export function discoveryForYear(year:number){return discovery.map(d=>d.url.includes('/2026')?{...d,title:d.title.replace('2026',String(year)),url:d.url.replace('/2026','/'+year)}:d);}
+export function discoveryForYear(year:number){return discovery.map(d=>/[/-]2026(?:\/|$)/.test(d.url)?{...d,title:d.title.replace('2026',String(year)),url:d.url.replace(/([/-])2026(?=\/|$)/,(_,separator)=>separator+year)}:d);}

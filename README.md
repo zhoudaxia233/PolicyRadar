@@ -1,6 +1,6 @@
 # Policy Radar
 
-German federal/state and French national/regional policy changes, explained in Chinese, German and English with official sources, policy timelines and explicit coverage gaps.
+German federal/state, French national/regional and Dutch national/provincial policy changes, explained in Chinese, German and English with official sources, policy timelines and explicit coverage gaps.
 
 The website is static: it loads published JSON and filters records in the browser. It needs no login, database or application server.
 
@@ -12,7 +12,7 @@ parameter (`zh`, `de`, `en`), saved preference, supported browser language, then
 English. Switching preserves filters, search and the selected policy. Search
 matches explanations and topic labels across all three languages.
 
-German is the original language of German official sources; French records retain their French originals. German
+German is the original language of German official sources; French and Dutch records retain their original-language text. German
 summaries, like Chinese and English summaries, are **editorial explanations**,
 not the official legal text. Original titles, citations and archived source files
 remain intact. Original language is recorded per item, independently of the
@@ -133,3 +133,48 @@ links from old region bookmarks. New links should always use `filterSearch`.
 Legacy global review metadata is mapped to Germany only at read time; the old
 France-specific initial fields map to France only. The UI uses country-scoped
 review metadata and shows an explicit unreviewed state when it is absent.
+
+
+## Netherlands
+
+The Dutch view covers the national level and all 12 provinces in the European
+Netherlands. Provinces use ISO 3166-2 identifiers (`NL-DR`, `NL-FL`, `NL-FR`,
+`NL-GE`, `NL-GR`, `NL-LI`, `NL-NB`, `NL-NH`, `NL-OV`, `NL-UT`, `NL-ZE`, `NL-ZH`).
+`NL-FR` is Friesland, not France. Dutch original names and `originalLanguage: "nl"`
+are preserved alongside Chinese, German and English explanations. Existing
+German default URLs and French legacy URLs retain their behavior.
+
+Provinces are not German-style federal states. Municipalities, water authorities
+and the Caribbean public bodies are not connected. Aruba, Curaçao and Sint Maarten,
+other countries within the Kingdom, are also outside this baseline. See the
+[official administrative structure](https://www.government.nl/themes/government-and-democracy/public-administration/provinces-municipalities-and-water-authorities)
+and [Caribbean public bodies](https://www.government.nl/themes/government-and-democracy/caribbean-parts-of-the-kingdom/governance-of-bonaire-st-eustatius-and-saba).
+
+The 2026-10-04 baseline adds 14 explanations: two national rules and one record
+for each province (13 adopted/operational measures and one pending budget proposal).
+Six dated official announcements are also retained as progress records and linked
+to their explanations without double-counting policy totals. It includes wage and social-rent rules, housing, farming, habitat protection,
+community grants, energy, mobility, heritage, SME support and a proposed budget.
+This is a researched starting set, not an exhaustive inventory of Dutch policy.
+
+The review export preserves the baseline and appends corrections to three timelines
+and six announcement titles. Current views follow validated `supersedes` links;
+the downloadable export retains all prior events and intake records. Known grant
+closures are separate from scheduled dates and unknown quota-exhaustion dates.
+Central Dutch publication channels explicitly list their supported jurisdictions,
+so a provincial discovery can retain its province without relaxing other channels.
+Closed and exhausted application rounds are labelled explicitly; a scheduled
+council discussion does not establish approval. Application dates do not imply
+legal enactment dates, and tentative 2027 reopenings have no invented exact date.
+
+There are 38 registered official channels: six national indexes (government,
+national and local law, official publications, and both parliamentary chambers),
+plus government and council entries for every province and eight additional
+publication/decision portals. All were attempted; 37 are partial and the Flevoland
+council portal is blocked by a browser security challenge. That challenge is not
+archived as successful evidence. No Dutch interval is marked complete.
+
+Country-scoped review markers preserve Germany's and France's prior review dates.
+All prior policy, revision, intake and evidence history remains unchanged in the
+new export. Select `?country=NL` or a province such as `?region=NL-FR`; the same
+filters work with `lang=zh`, `lang=de` and `lang=en`.

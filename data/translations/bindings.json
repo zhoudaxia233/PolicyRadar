@@ -332,6 +332,119 @@
       "verbatim": [
         "Mayotte"
       ]
+    },
+    "nl-national-minimum-wage": {
+      "version": 1,
+      "hash": "6d962639d20ffa6387852cff6bb8c87d44318305f088500d5d146e091f03d422",
+      "verbatim": [
+        "Rijksoverheid"
+      ],
+      "originalLanguage": "nl"
+    },
+    "nl-national-social-rent-cap": {
+      "version": 1,
+      "hash": "e3519ba4ea0cea6a1ab73bec03095ea629752ed14f2eaa0e728813108c29dc91",
+      "verbatim": [
+        "Rijksoverheid"
+      ],
+      "originalLanguage": "nl"
+    },
+    "nl-gr-farm-experiments": {
+      "version": 1,
+      "hash": "e4679695731de38bd116557053917a5b829a2364a10e09ac8c675fc74c949bee",
+      "verbatim": [
+        "Provincie Groningen"
+      ],
+      "originalLanguage": "nl"
+    },
+    "nl-fr-housing-conversion": {
+      "version": 1,
+      "hash": "9958708726a2a3cc4d56f4e3e0d40288f192cbd34261bf15eaf40c3da7d66e16",
+      "verbatim": [
+        "Provincie Fryslân"
+      ],
+      "originalLanguage": "nl"
+    },
+    "nl-dr-rural-investment": {
+      "version": 1,
+      "hash": "6845b4aee829e677c95efc2869fddf1f36c1a7110d0409cc21834f1cbeab18b3",
+      "verbatim": [
+        "Provincie Drenthe"
+      ],
+      "originalLanguage": "nl"
+    },
+    "nl-ov-canal-community": {
+      "version": 1,
+      "hash": "2dc5568a959f8d585e8ab5cda871cd2b74e9c4bed20a34b8102828f7ba03e971",
+      "verbatim": [
+        "Provincie Overijssel"
+      ],
+      "originalLanguage": "nl"
+    },
+    "nl-fl-home-battery": {
+      "version": 2,
+      "hash": "8645ea2beab1784ff704a1445b782aeef99db4a33ff03ffb1a447c28d0c316c5",
+      "verbatim": [
+        "Provincie Flevoland"
+      ],
+      "originalLanguage": "nl"
+    },
+    "nl-ge-livestock-modernisation": {
+      "version": 1,
+      "hash": "d94a5d7aaf5d3c085a3ecada6d25e4d7c98e6142d4d273cd7552cc45a1d92c55",
+      "verbatim": [
+        "Provincie Gelderland"
+      ],
+      "originalLanguage": "nl"
+    },
+    "nl-ut-mobility-grants": {
+      "version": 2,
+      "hash": "89fb50953bc2382e32117b65c90a50a351ba9d439b6c2ec540ca297f89c70759",
+      "verbatim": [
+        "Provincie Utrecht"
+      ],
+      "originalLanguage": "nl"
+    },
+    "nl-nh-solar-parking": {
+      "version": 2,
+      "hash": "7189c00d211a5900a1d303110fe4cbd2301dbfab10be594f26c2e39da56587a5",
+      "verbatim": [
+        "Provincie Noord-Holland",
+        "Provincie Noord-Holland"
+      ],
+      "originalLanguage": "nl"
+    },
+    "nl-zh-species-habitats": {
+      "version": 1,
+      "hash": "6a8b372e4494de8ad6c69c1db66666e451c088ff8efff4e3606d59295b63fc69",
+      "verbatim": [
+        "Provincie Zuid-Holland"
+      ],
+      "originalLanguage": "nl"
+    },
+    "nl-ze-heritage-2027": {
+      "version": 1,
+      "hash": "b225c79060f7d577d04d080e4e4eafffe0aedf11dda5fed9008f7b2358d0154e",
+      "verbatim": [
+        "Provincie Zeeland"
+      ],
+      "originalLanguage": "nl"
+    },
+    "nl-nb-budget-2027": {
+      "version": 1,
+      "hash": "d1571490fc6d4d5d4525fb58eae1eb396b1c8cf3ca65dec2ad73ef678c276ea9",
+      "verbatim": [
+        "Provincie Noord-Brabant"
+      ],
+      "originalLanguage": "nl"
+    },
+    "nl-li-sme-sprint": {
+      "version": 1,
+      "hash": "0842f7424310cebab1ea36cc717ae80f887f46458d4199b0508d8e4b83ab9b4a",
+      "verbatim": [
+        "Provincie Limburg"
+      ],
+      "originalLanguage": "nl"
     }
   },
   "intake": {
@@ -484,6 +597,72 @@
       "originalLanguage": "fr",
       "titleIsOriginal": false,
       "verbatim": []
+    },
+    "nl-gr-farm-experiments-announcement": {
+      "hash": "a6a4b8bed18444d5f87e167422c0040589f03a3e6783cdbdbb555395ae136efe",
+      "verbatim": [],
+      "originalLanguage": "nl"
+    },
+    "nl-dr-rural-investment-announcement": {
+      "hash": "285e139f0698b4332158c0c2001753f833b3b68f740ba023a68a68be3f2274e4",
+      "verbatim": [],
+      "originalLanguage": "nl"
+    },
+    "nl-ov-canal-community-announcement": {
+      "hash": "6ebf5c5d9b4c12547da3d653b2ef08b7b15ac2a5977756378263f2c341be52d1",
+      "verbatim": [],
+      "originalLanguage": "nl"
+    },
+    "nl-zh-species-habitats-announcement": {
+      "hash": "0b7722335ee098542fcdfcbf047e19659977af7f65a2fb3c86f9c18bd92429a4",
+      "verbatim": [],
+      "originalLanguage": "nl"
+    },
+    "nl-ze-heritage-2027-announcement": {
+      "hash": "6f37007f45097da914792f0962adda41e33853a8ffb28c87c35f770a5495da52",
+      "verbatim": [],
+      "originalLanguage": "nl"
+    },
+    "nl-nb-budget-2027-announcement": {
+      "hash": "ada960cf514d35dfaae6433e362ad4893fb28ba55cc954f9fe6de1ad669ef0dc",
+      "verbatim": [],
+      "originalLanguage": "nl"
+    },
+    "nl-gr-farm-experiments-announcement-title-correction": {
+      "hash": "fb53d08abac3a039f1d3ca83786e55550849183249f7439baf5900627384632e",
+      "verbatim": [],
+      "originalLanguage": "nl",
+      "titleIsOriginal": true
+    },
+    "nl-dr-rural-investment-announcement-title-correction": {
+      "hash": "7c134e19c7ec557575ed93eb276eb42ed3a02e7e3eb457751865bc708deb1921",
+      "verbatim": [],
+      "originalLanguage": "nl",
+      "titleIsOriginal": true
+    },
+    "nl-ov-canal-community-announcement-title-correction": {
+      "hash": "f8b7aa57f6e0c8858728c1f0536f2dd90f48368af4ecabeed8d065571919dab3",
+      "verbatim": [],
+      "originalLanguage": "nl",
+      "titleIsOriginal": true
+    },
+    "nl-zh-species-habitats-announcement-title-correction": {
+      "hash": "037dda4b9ef8040205b31977eecc95e07fbf2a98ede3072167ec3f7f3e1f53e2",
+      "verbatim": [],
+      "originalLanguage": "nl",
+      "titleIsOriginal": true
+    },
+    "nl-ze-heritage-2027-announcement-title-correction": {
+      "hash": "ec7f65ce43cbcfd856eec27cf6daa4aa0b5591c58e0962b8e749ef71c6a0360f",
+      "verbatim": [],
+      "originalLanguage": "nl",
+      "titleIsOriginal": true
+    },
+    "nl-nb-budget-2027-announcement-title-correction": {
+      "hash": "381ee83142dcd92ca1cc882cb3d21452a0924c5615d44f879c7f6b259829003d",
+      "verbatim": [],
+      "originalLanguage": "nl",
+      "titleIsOriginal": true
     }
   }
 }

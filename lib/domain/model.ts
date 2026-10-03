@@ -1,9 +1,11 @@
 import { z } from 'zod';
+import {currentRecords} from './corrections.ts';
+import {dutchProvinces} from './netherlands.ts';
 import {frenchRegions} from './france.ts';
-export const regions = [{id:'FR',name:'法国全国层面',de:'Nationale Ebene',fr:'Niveau national',en:'National level'}, ...frenchRegions, {id:'DE',name:'德国联邦',de:'Bund'}, {id:'DE-HE',name:'黑森',de:'Hessen'}, {id:'DE-BY',name:'巴伐利亚',de:'Bayern'}, {id:'DE-BW',name:'巴登-符腾堡',de:'Baden-Württemberg'}, {id:'DE-BE',name:'柏林',de:'Berlin'}, {id:'DE-BB',name:'勃兰登堡',de:'Brandenburg'}, {id:'DE-HB',name:'不来梅',de:'Bremen'}, {id:'DE-HH',name:'汉堡',de:'Hamburg'}, {id:'DE-MV',name:'梅克伦堡-前波美拉尼亚',de:'Mecklenburg-Vorpommern'}, {id:'DE-NI',name:'下萨克森',de:'Niedersachsen'}, {id:'DE-NW',name:'北莱茵-威斯特法伦',de:'Nordrhein-Westfalen'}, {id:'DE-RP',name:'莱茵兰-普法尔茨',de:'Rheinland-Pfalz'}, {id:'DE-SL',name:'萨尔',de:'Saarland'}, {id:'DE-SN',name:'萨克森',de:'Sachsen'}, {id:'DE-ST',name:'萨克森-安哈尔特',de:'Sachsen-Anhalt'}, {id:'DE-SH',name:'石勒苏益格-荷尔斯泰因',de:'Schleswig-Holstein'}, {id:'DE-TH',name:'图林根',de:'Thüringen'}];
+export const regions = [{id:'NL',name:'荷兰全国层面',de:'Nationale Ebene',nl:'Landelijk niveau',en:'National level'}, ...dutchProvinces, {id:'FR',name:'法国全国层面',de:'Nationale Ebene',fr:'Niveau national',en:'National level'}, ...frenchRegions, {id:'DE',name:'德国联邦',de:'Bund'}, {id:'DE-HE',name:'黑森',de:'Hessen'}, {id:'DE-BY',name:'巴伐利亚',de:'Bayern'}, {id:'DE-BW',name:'巴登-符腾堡',de:'Baden-Württemberg'}, {id:'DE-BE',name:'柏林',de:'Berlin'}, {id:'DE-BB',name:'勃兰登堡',de:'Brandenburg'}, {id:'DE-HB',name:'不来梅',de:'Bremen'}, {id:'DE-HH',name:'汉堡',de:'Hamburg'}, {id:'DE-MV',name:'梅克伦堡-前波美拉尼亚',de:'Mecklenburg-Vorpommern'}, {id:'DE-NI',name:'下萨克森',de:'Niedersachsen'}, {id:'DE-NW',name:'北莱茵-威斯特法伦',de:'Nordrhein-Westfalen'}, {id:'DE-RP',name:'莱茵兰-普法尔茨',de:'Rheinland-Pfalz'}, {id:'DE-SL',name:'萨尔',de:'Saarland'}, {id:'DE-SN',name:'萨克森',de:'Sachsen'}, {id:'DE-ST',name:'萨克森-安哈尔特',de:'Sachsen-Anhalt'}, {id:'DE-SH',name:'石勒苏益格-荷尔斯泰因',de:'Schleswig-Holstein'}, {id:'DE-TH',name:'图林根',de:'Thüringen'}];
 // Subdivisions use ISO 3166-2; INSEE codes are separate French metadata.
 // A bare country code denotes the national level; every region retains the country prefix.
-export const countries = [{id:'DE',name:'德国',de:'Deutschland',national:'联邦',subdivision:'州'}, {id:'FR',name:'法国',de:'Frankreich',national:'全国层面',subdivision:'大区'}];
+export const countries = [{id:'DE',name:'德国',de:'Deutschland',national:'联邦',subdivision:'州'}, {id:'FR',name:'法国',de:'Frankreich',national:'全国层面',subdivision:'大区'}, {id:'NL',name:'荷兰',de:'Niederlande',national:'全国层面',subdivision:'省'}];
 export const countryOf = (region:string) => region.slice(0,2);
 export const dateSchema = z.string().regex(/^\d{4}-\d{2}-\d{2}$/).refine(v => !Number.isNaN(Date.parse(v)) && new Date(v).toISOString().slice(0,10) === v, 'Invalid date');
 const date = dateSchema;
@@ -23,15 +25,17 @@ export const policySchema = z.object({
   proposedBy:z.object({name:text,party:text.nullable(),sourceId:z.string()}).optional(),
   votes:z.array(z.object({body:text,date,result:text,counts:z.object({for:z.number().int().min(0),against:z.number().int().min(0),abstain:z.number().int().min(0)}).nullable(),note:text,sourceId:z.string()})).max(10).optional()
  }).optional(),
- events:z.array(z.object({id:z.string().regex(/^[a-z0-9-]+$/),date,kind:z.enum(['proposal','adopted','published','effective','scheduled','withdrawn','correction']),title:text,detail:text,sourceId:z.string()})).min(1).max(100)
+ events:z.array(z.object({id:z.string().regex(/^[a-z0-9-]+$/),supersedes:z.string().optional(),date,kind:z.enum(['proposal','adopted','published','effective','scheduled','withdrawn','correction','closed']),title:text,detail:text,sourceId:z.string()})).min(1).max(100)
 }).superRefine((p,c)=>{
+ let events;
+ try{events=currentRecords(p.events);}catch(error){c.addIssue({code:'custom',message:(error as Error).message});return;}
  const sourceIds=new Set(p.sources.map(s=>s.id));
  if(sourceIds.size!==p.sources.length)c.addIssue({code:'custom',message:'Duplicate source IDs'});
  if(new Set(p.events.map(e=>e.id)).size!==p.events.length)c.addIssue({code:'custom',message:'Duplicate event IDs'});
  for(const item of [...(p.rules??[]),...(p.politics?.proposedBy?[p.politics.proposedBy]:[]),...(p.politics?.votes??[])])if(!sourceIds.has(item.sourceId))c.addIssue({code:'custom',message:'Rule and political metadata require a cited source'});
  for(const vote of p.politics?.votes??[])if(vote.date>p.verifiedAt)c.addIssue({code:'custom',message:'Future votes cannot have results'});
  for(const e of p.events){if(!sourceIds.has(e.sourceId))c.addIssue({code:'custom',message:'Event requires a cited source'}); if(e.kind!=='scheduled'&&e.date>p.verifiedAt)c.addIssue({code:'custom',message:'Future events must be scheduled'});}
- if(p.phase==='adopted'&&!p.events.some(e=>['adopted','published','effective'].includes(e.kind)))c.addIssue({code:'custom',message:'Adoption requires evidence'});
+ if(p.phase==='adopted'&&!events.some(e=>['adopted','published','effective'].includes(e.kind)))c.addIssue({code:'custom',message:'Adoption requires evidence'});
  if(p.lastEventDate>p.verifiedAt)c.addIssue({code:'custom',message:'Last confirmed event cannot be in future'});
 });
 export type Policy=z.infer<typeof policySchema>;

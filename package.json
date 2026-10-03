@@ -9,7 +9,8 @@
     "dev": "npm run build && npm start",
     "build": "node --experimental-strip-types scripts/build-static.mjs",
     "start": "vite preview --config vite.static.config.ts",
-    "test": "node --experimental-strip-types --test tests/*.test.ts"
+    "test": "node --experimental-strip-types --test tests/*.test.ts",
+    "data:select": "node --experimental-strip-types scripts/select-export.mjs"
   },
   "dependencies": {
     "lucide-react": "^1.31.0",

@@ -21,7 +21,7 @@ Every push to `main` runs the checks, builds `dist/` and deploys it to GitHub Pa
 
 ## Data
 
-The default dataset is `data/exports/2026-10-03/policy-radar-export.json`: 24 policies, 59 revisions, 18 intake records, 51 scan records and 137 archived source files.
+The active dataset is selected by `data/current-export.json`. The initial export is `data/exports/2026-10-03/policy-radar-export.json`: 24 policies, 59 revisions, 18 intake records, 51 scan records and 137 archived source files.
 
 - `data.json` in `dist/` is the browser dataset generated at build time.
 - Archived HTML/PDF sources are published with `.bin` extensions as downloads, so third-party HTML never runs on the site's origin.
@@ -34,6 +34,21 @@ npm run build -- data/exports/YYYY-MM-DD/policy-radar-export.json
 ```
 
 A rebuild does not mean the policies were re-verified. The interface shows the review dates and scan coverage recorded in the data.
+
+## Weekly updates
+
+A local Codex scheduled chat performs official-source collection and AI review
+weekly on Sunday at 08:30 Europe/Berlin. It requires the computer and Codex to be
+available, and uses the workflow in [data/UPDATE.md](data/UPDATE.md). The schedule
+is managed in Codex, not by GitHub Actions. AI review does not guarantee accuracy.
+
+Prepare a new export with its source archive, then build it using the explicit
+path above. Run `npm run data:select -- data/exports/RUN/policy-radar-export.json`
+to validate history and evidence and select it for subsequent default builds.
+Never edit an active or historical export in place. After validation, the weekly
+task is authorized to commit and push its data updates to `main`, triggering
+GitHub Pages publication. It must verify the deployment and preserve unrelated
+work. Application changes are outside this recurring authorization.
 
 ## Checks
 

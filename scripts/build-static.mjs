@@ -4,7 +4,7 @@ import {resolve,dirname} from 'node:path';
 import {createHash} from 'node:crypto';
 import {createStaticData,snapshotKey} from '../lib/static-data.ts';
 
-const source=resolve(process.argv[2]||'data/exports/2026-10-03/policy-radar-export.json');
+const source=resolve(process.argv[2]||JSON.parse(await readFile('data/current-export.json','utf8')).path);
 const raw=await readFile(source,'utf8');
 const exported=JSON.parse(raw);
 const data=createStaticData(exported);

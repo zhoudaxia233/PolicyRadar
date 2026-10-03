@@ -17,7 +17,7 @@ Open http://127.0.0.1:8080. `npm run dev` builds the site and serves it; run it 
 
 ## Publish
 
-The complete website is in `dist/`. Publish only this directory to GitHub Pages or another static host; all URLs are relative, so a project path such as `/PolicyRadar/` works. Do not publish the source checkout.
+Every push to `main` runs the checks, builds `dist/` and deploys it to GitHub Pages (`.github/workflows/pages.yml`). All URLs are relative, so the site works under the project path `/PolicyRadar/` or on any other static host.
 
 ## Data
 

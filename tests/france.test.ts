@@ -41,8 +41,8 @@ test('France lists verified policy separately from unverified discoveries and is
 test('French baseline preserves German history, evidence gates and original language',()=>{
  validateUpdate(previous,candidate,new Date(candidate.exportedAt));
  assert.deepEqual(candidate.tables.policies.filter((p:{region:string})=>p.region!=='FR'),previous.tables.policies);
- assert.equal(data.status.settings.lastReviewAt,createStaticData(previous).status.settings.lastReviewAt);
- assert(data.status.settings.frInitialReviewAt);
+ assert.equal(data.status.settings['lastReviewAt:DE'],createStaticData(previous).status.settings['lastReviewAt:DE']);
+ assert(data.status.settings['lastReviewAt:FR']);
  const localization=createLocalization(data,read('../data/translations/content.json'),read('../data/translations/bindings.json'));
  for(const p of data.policies.filter(p=>p.region==='FR')){
   assert.equal(localization.policies[p.id],'current');assert.equal(p.originalLanguage,'fr');

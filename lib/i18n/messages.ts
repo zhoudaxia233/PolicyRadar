@@ -1,4 +1,5 @@
 export const messages = {
+ "尚未事实复核": ["Noch nicht inhaltlich geprüft", "Facts not yet reviewed"],
  "法国是单一制共和国，大区不等同于德国联邦州。科西嘉、法属圭亚那、马提尼克和马约特具有特殊的地方机构安排；这里按18个大区地理范围归类。省、市镇及其他特殊海外属地尚未接入。": ["Frankreich ist eine Einheitsrepublik; seine Regionen entsprechen nicht deutschen Bundesländern. Korsika, Französisch-Guayana, Martinique und Mayotte haben besondere institutionelle Regelungen. Die Einteilung folgt 18 regionalen geografischen Gebieten. Départements, Gemeinden und weitere besondere Überseegebiete sind noch nicht angebunden.", "France is a unitary republic; its regions are not equivalent to German federal states. Corsica, French Guiana, Martinique and Mayotte have special local institutions. This classification follows 18 regional geographic areas. Departments, municipalities and other special overseas territories are not yet connected."],
  '追踪范围：法国全国层面及18个大区范围（本土13个、海外5个）。':['Umfang: Frankreichs nationale Ebene und 18 regionale Gebiete (13 im Mutterland, fünf in Übersee).','Scope: France’s national level and 18 regional areas (13 metropolitan, five overseas).'],
 

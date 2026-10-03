@@ -1,3 +1,4 @@
+import {migrateExportRegions,countryReviewSettings} from './export-regions.ts';
 import { z } from 'zod';
 import { policySchema } from './domain/model.ts';
 import { intakeSchema, scanSchema, coverageRows, trackingStart } from './domain/intake.ts';
@@ -6,7 +7,7 @@ import { discoveryForYear } from './domain/coverage.ts';
 export const snapshotKey = /^sources\/[a-f0-9]{64}\/[a-f0-9]{64}\.(html|pdf)$/;
 const dataRow = z.object({data:z.string()});
 const exportSchema = z.object({
-  format:z.literal('policy-radar-export'), schemaVersion:z.literal(2), exportedAt:z.string().datetime(),
+  format:z.literal('policy-radar-export'), schemaVersion:z.literal(3), exportedAt:z.string().datetime(),
   tables:z.object({
     policies:z.array(dataRow.extend({id:z.string(),version:z.number().int().positive()})),
     revisions:z.array(dataRow.extend({policy_id:z.string(),version:z.number().int().positive()})),
@@ -20,7 +21,7 @@ const exportSchema = z.object({
 
 // Build-time projection only. The browser never opens a database or writes to the Site.
 export function createStaticData(input:unknown) {
-  const data=exportSchema.parse(input);
+  const data=exportSchema.parse(migrateExportRegions(input));
   const year=new Date(data.exportedAt).getUTCFullYear();
   const policies=data.tables.policies.map(r=>policySchema.parse(JSON.parse(r.data)));
   for(const r of data.tables.revisions) policySchema.parse(JSON.parse(r.data));
@@ -34,7 +35,7 @@ export function createStaticData(input:unknown) {
     policyVersions:Object.fromEntries(data.tables.policies.map(p=>[p.id,p.version])),
     status:{
       checks:data.tables.checks,
-      settings:Object.fromEntries(data.tables.settings.filter(s=>['lastReviewAt','reviewNote','frInitialReviewAt','frInitialReviewNote'].includes(s.key)||/^(lastReviewAt|reviewNote):(DE|FR)$/.test(s.key)).map(s=>[s.key,s.value])),
+      settings:countryReviewSettings(data.tables.settings),
       coverage:[...new Set(discovery.map(s=>s.region))],discovery,
     },
     intake:{trackingStart,records:data.tables.intake.map(r=>({...intakeSchema.parse(JSON.parse(r.data)),discoveredAt:r.discovered_at})),coverage:coverageRows(scans,year)},

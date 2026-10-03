@@ -16,7 +16,7 @@ const candidate=read('../data/exports/2026-10-03-france-regions/policy-radar-exp
 const data=createStaticData(candidate),fr=regions.filter(r=>countryOf(r.id)==='FR');
 
 test('France has 18 geographical areas with three channels and a record per area',()=>{
- assert.deepEqual(fr.filter(r=>r.id!=='FR').map(r=>r.id).sort(),['01','02','03','04','06','11','24','27','28','32','44','52','53','75','76','84','93','94'].map(c=>'FR-'+c));
+ assert.deepEqual(fr.filter(r=>r.id!=='FR').map(r=>r.id).sort(),['ARA','BFC','BRE','CVL','20R','GES','HDF','IDF','NOR','NAQ','OCC','PDL','PAC','971','972','973','974','976'].map(c=>'FR-'+c).sort());
  assert.equal(discovery.filter(d=>countryOf(d.region)==='FR').length,59);
  assert.equal(new Set(discovery.map(d=>d.url)).size,discovery.length);
  for(const r of fr.filter(r=>r.id!=='FR')){
@@ -47,7 +47,7 @@ test('French policy and source views isolate countries and retain uncertain disc
 test('regional evidence and translations pass the same gates without rewriting history',()=>{
  validateUpdate(previous,candidate,new Date(candidate.exportedAt));
  for(const table of ['policies','revisions','intake','scan_runs','snapshots'])for(const row of previous.tables[table])assert(candidate.tables[table].some((r:unknown)=>JSON.stringify(r)===JSON.stringify(row)));
- const old=createStaticData(previous);assert.equal(data.status.settings.lastReviewAt,old.status.settings.lastReviewAt);
+ const old=createStaticData(previous);assert.equal(data.status.settings['lastReviewAt:DE'],old.status.settings['lastReviewAt:DE']);
  assert(data.status.settings['lastReviewAt:FR']);
  const l=createLocalization(data,read('../data/translations/content.json'),read('../data/translations/bindings.json'));
  for(const p of data.policies.filter(p=>countryOf(p.region)==='FR'))assert.equal(l.policies[p.id],'current');

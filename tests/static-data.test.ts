@@ -10,7 +10,7 @@ test('static publication retains live policies, intake and honest historical cov
  assert.deepEqual(result.policies,exported.tables.policies.map((r:{data:string})=>JSON.parse(r.data)));
  assert.equal(result.intake.records.length,exported.tables.intake.length);
  assert.deepEqual(result.intake.coverage,coverageRows(exported.tables.scan_runs.map((r:{data:string})=>JSON.parse(r.data)),2026));
- assert.equal(result.status.settings.lastReviewAt,exported.tables.settings.find((r:{key:string})=>r.key==='lastReviewAt').value);
+ assert.equal(result.status.settings['lastReviewAt:DE'],exported.tables.settings.find((r:{key:string})=>r.key==='lastReviewAt').value);
  assert.equal('scheduleLabel' in result.status.settings,false);
 });
 test('publication rejects malformed policy data and missing evidence instead of a partial empty site',()=>{

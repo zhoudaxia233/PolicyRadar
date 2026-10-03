@@ -86,7 +86,8 @@ npm run build
 France uses a national level and 18 regional geographic areas: 13 metropolitan and
 five overseas. These are not German-style federal states. Corsica, Guyane,
 Martinique and Mayotte have special institutional arrangements. Region identifiers
-use `FR-` plus INSEE region codes; Germany retains its ISO subdivision codes.
+use ISO 3166-2 codes, as Germany does. INSEE region codes and French original
+names are separate metadata; German and English labels are localized.
 The [official prefecture directory](https://www.prefectures-regions.gouv.fr/) and
 [INSEE regional atlas](https://www.insee.fr/fr/statistiques/8887938?sommaire=8887976)
 define this geographical scope. Departments, municipalities and other special
@@ -108,3 +109,27 @@ an archived original; blocked downloads and unreviewed attachments remain in int
 The regional sweep records all 54 portal attempts as partial or blocked, never
 complete. Registering 18 regions does not mean all their policies have been found.
 Country-specific review markers prevent a French update from re-dating Germany.
+
+
+### Region identifier migration
+
+The current export uses schema version 3 with ISO subdivision identifiers.
+Examples: `FR-IDF` (Île-de-France), `FR-NAQ` (Nouvelle-Aquitaine), `FR-20R`
+(Corsica), and `FR-971`/`FR-972`/`FR-973`/`FR-974`/`FR-976` for the five overseas
+geographical areas. The ISO identifiers represent different institutional types;
+listing them together does not assert that all are ordinary regional councils.
+The code list was cross-checked against the maintained
+[ISO 3166 dataset](https://github.com/wooorm/iso-3166/blob/main/2.js).
+
+Version-2 export files remain byte-for-byte unchanged. The reader and update gate
+apply a version-specific conversion of only the region fields in policies,
+revisions and intake; a new version-3 export saves that representation. Stable
+record IDs, factual-review dates, evidence, events and other history are unchanged.
+Version-3 input never interprets an ISO department code as a legacy region.
+
+Pre-release unversioned region URLs retain their old meaning and are rewritten to
+canonical URLs with `regionFormat=iso`. This marker separates future ISO department
+links from old region bookmarks. New links should always use `filterSearch`.
+Legacy global review metadata is mapped to Germany only at read time; the old
+France-specific initial fields map to France only. The UI uses country-scoped
+review metadata and shows an explicit unreviewed state when it is absent.

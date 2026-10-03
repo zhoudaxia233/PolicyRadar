@@ -27,5 +27,7 @@ export function formatDate(value:string,locale:Locale,options:Intl.DateTimeForma
  return new Intl.DateTimeFormat(languageTags[locale],{timeZone:'Europe/Berlin',...options}).format(new Date(value.length===10?value+'T12:00:00Z':value));
 }
 const englishRegions:Record<string,string>={FR:'National level',DE:'Federal government','DE-HE':'Hesse','DE-BY':'Bavaria','DE-BW':'Baden-Württemberg','DE-BE':'Berlin','DE-BB':'Brandenburg','DE-HB':'Bremen','DE-HH':'Hamburg','DE-MV':'Mecklenburg-Western Pomerania','DE-NI':'Lower Saxony','DE-NW':'North Rhine-Westphalia','DE-RP':'Rhineland-Palatinate','DE-SL':'Saarland','DE-SN':'Saxony','DE-ST':'Saxony-Anhalt','DE-SH':'Schleswig-Holstein','DE-TH':'Thuringia'};
-export function regionName(id:string,locale:Locale){const r=regions.find(r=>r.id===id);return locale==='zh'?r?.name??id:locale==='de'?r?.de??id:englishRegions[id]??r?.de??id;}
+export function regionName(id:string,locale:Locale){const r=regions.find(r=>r.id===id);return locale==='zh'?r?.name??id:locale==='de'?r?.de??id:(r&&'en' in r?r.en:undefined)??englishRegions[id]??r?.de??id;}
 export function countryName(id:string,locale:Locale){return id==='DE'?({zh:'德国',de:'Deutschland',en:'Germany'}[locale]):id==='FR'?({zh:'法国',de:'Frankreich',en:'France'}[locale]):id;}
+
+export function originalRegionName(id:string){const r=regions.find(r=>r.id===id);return r&&'fr' in r?{name:r.fr,language:'fr'}:{name:r?.de??id,language:'de'};}

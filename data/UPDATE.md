@@ -132,3 +132,14 @@ sources. Preserve the local institutional name rather than assuming every area
 has an ordinary regional council. An application deadline is not a law's expiry;
 a renewed grant campaign does not prove a new benefit or an increased amount.
 An agenda or adoption of a draft does not establish final adoption or legal effect.
+
+
+## Export schema 3
+
+New exports use ISO 3166-2 region identifiers. Read schema-2 snapshots through
+`migrateExportRegions` before working with their policy, revision and intake region
+fields. Never rewrite the saved historical files or substitute identifiers in free
+text, source files, event IDs or policy IDs. The update gate compares both exports
+in their canonical representation and still rejects any other historical change.
+Do not downgrade a version-3 export or feed its identifiers through legacy aliases.
+A representation-only migration must preserve factual-review dates and notes.

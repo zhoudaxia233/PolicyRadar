@@ -15,3 +15,12 @@ export function selectListing(items:Policy[],records:IntakeRecord[],filters:Retu
  const progress=selectIntake(intake,region,tags,query,searchText);
  return {policies,raw,progress,count:view==='intake'?progress.length:policies.length+raw.length};
 }
+
+// A country's source panel must not leak another country's check history.
+export function countrySourceUrls(country:string,items:Policy[],records:IntakeRecord[],discovery:{region:string;url:string}[]){
+ return new Set([
+  ...items.filter(p=>countryOf(p.region)===country).flatMap(p=>p.sources.map(s=>s.url)),
+  ...records.filter(r=>countryOf(r.region)===country).map(r=>r.url),
+  ...discovery.filter(d=>countryOf(d.region)===country).map(d=>d.url),
+ ]);
+}

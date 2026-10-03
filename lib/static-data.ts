@@ -34,7 +34,7 @@ export function createStaticData(input:unknown) {
     policyVersions:Object.fromEntries(data.tables.policies.map(p=>[p.id,p.version])),
     status:{
       checks:data.tables.checks,
-      settings:Object.fromEntries(data.tables.settings.filter(s=>['lastReviewAt','reviewNote'].includes(s.key)).map(s=>[s.key,s.value])),
+      settings:Object.fromEntries(data.tables.settings.filter(s=>['lastReviewAt','reviewNote','frInitialReviewAt','frInitialReviewNote'].includes(s.key)||/^(lastReviewAt|reviewNote):(DE|FR)$/.test(s.key)).map(s=>[s.key,s.value])),
       coverage:[...new Set(discovery.map(s=>s.region))],discovery,
     },
     intake:{trackingStart,records:data.tables.intake.map(r=>({...intakeSchema.parse(JSON.parse(r.data)),discoveredAt:r.discovered_at})),coverage:coverageRows(scans,year)},

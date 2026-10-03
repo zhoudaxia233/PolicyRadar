@@ -1,6 +1,13 @@
-// Reviewed official discovery entries for the federation and every German state.
+import {frenchDiscovery} from './france.ts';
+// Official discovery entries for Germany and France.
 // A registered entry is not a claim of exhaustive coverage or a successful fetch.
 export const discovery = [
+  ...frenchDiscovery,
+  {region:'FR',url:'https://www.legifrance.gouv.fr/jorf/jo',title:'法国官方公报',publisher:'Légifrance',kind:'law'},
+  {region:'FR',url:'https://www.service-public.gouv.fr/particuliers/actualites',title:'法国公共服务：个人政策动态',publisher:'DILA',kind:'government'},
+  {region:'FR',url:'https://entreprendre.service-public.gouv.fr/actualites',title:'法国公共服务：企业政策动态',publisher:'DILA',kind:'government'},
+  {region:'FR',url:'https://www.assemblee-nationale.fr/dyn/17/dossiers',title:'法国国民议会立法进程',publisher:'Assemblée nationale',kind:'parliament'},
+  {region:'FR',url:'https://www.senat.fr/dossiers-legislatifs/lois-promulguees.html',title:'法国参议院已公布法律',publisher:'Sénat',kind:'parliament'},
   {
     "region": "DE",
     "url": "https://www.bundesregierung.de/breg-de/suche/gesetzliche-neuregelungen-442800",

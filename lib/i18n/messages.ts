@@ -1,4 +1,7 @@
 export const messages = {
+ "法国是单一制共和国，大区不等同于德国联邦州。科西嘉、法属圭亚那、马提尼克和马约特具有特殊的地方机构安排；这里按18个大区地理范围归类。省、市镇及其他特殊海外属地尚未接入。": ["Frankreich ist eine Einheitsrepublik; seine Regionen entsprechen nicht deutschen Bundesländern. Korsika, Französisch-Guayana, Martinique und Mayotte haben besondere institutionelle Regelungen. Die Einteilung folgt 18 regionalen geografischen Gebieten. Départements, Gemeinden und weitere besondere Überseegebiete sind noch nicht angebunden.", "France is a unitary republic; its regions are not equivalent to German federal states. Corsica, French Guiana, Martinique and Mayotte have special local institutions. This classification follows 18 regional geographic areas. Departments, municipalities and other special overseas territories are not yet connected."],
+ '追踪范围：法国全国层面及18个大区范围（本土13个、海外5个）。':['Umfang: Frankreichs nationale Ebene und 18 regionale Gebiete (13 im Mutterland, fünf in Übersee).','Scope: France’s national level and 18 regional areas (13 metropolitan, five overseas).'],
+
   "官方站点暂不接受自动读取": [
     "Die offizielle Website erlaubt derzeit keinen automatischen Abruf",
     "The official website currently blocks automated access"
@@ -191,10 +194,7 @@ export const messages = {
     "Daten neu laden",
     "Reload data"
   ],
-  "从 2026 年 10 月 2 日起，按官方来源收集各类别新公布法律、条例、已通过的决定及待决事项；不按兴趣挑选。此前记录是历史样例，逐步回补。瑞士及其他国家尚未接入。": [
-    "Seit dem 2. Oktober 2026 werden neue Gesetze, Verordnungen, beschlossene Maßnahmen und offene Vorhaben aus offiziellen Quellen themenübergreifend erfasst. Ältere Einträge sind historische Beispiele und werden schrittweise ergänzt. Die Schweiz und weitere Länder sind noch nicht angebunden.",
-    "Since 2 October 2026, official sources are monitored across topics for new laws, regulations, adopted decisions and pending matters. Earlier records are historical examples being backfilled. Switzerland and other countries are not yet covered."
-  ],
+"从 2026 年 10 月 2 日起，按官方来源收集各类别新公布法律、条例、已通过的决定及待决事项；不按兴趣挑选。此前记录是历史样例，逐步回补。来源已接入不代表文件已全部查完；瑞士及其他国家尚未接入。": ["Seit dem 2. Oktober 2026 werden amtliche Quellen themenübergreifend auf neue Gesetze, Verordnungen, verabschiedete Entscheidungen und offene Vorhaben geprüft. Ältere Einträge sind historische Beispiele und werden ergänzt. Registrierte Quellen bedeuten keine vollständige Dokumentprüfung; die Schweiz und weitere Länder fehlen.", "Since 2 October 2026, official sources are monitored across topics for new laws, regulations, adopted decisions and pending matters. Earlier records are historical examples being backfilled. Registered sources do not mean every document has been reviewed; Switzerland and other countries are not yet covered."],
   "上次事实复核：": [
     "Letzte inhaltliche Prüfung: ",
     "Last factual review: "

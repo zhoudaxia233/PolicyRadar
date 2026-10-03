@@ -1,3 +1,4 @@
+import {migrateExportRegions} from './export-regions.ts';
 import {isDeepStrictEqual as equal} from 'node:util';
 import {createStaticData} from './static-data.ts';
 import {policySchema,validateRevision} from './domain/model.ts';
@@ -15,7 +16,8 @@ function index(rows:Row[],key:(r:Row)=>unknown){
 // This gate checks evidence structure and history, not whether an AI interpretation is true.
 export function validateUpdate(previous:unknown,candidate:unknown,now=new Date()){
  createStaticData(previous);createStaticData(candidate);
- const old=previous as Export,next=candidate as Export;
+ if((previous as {schemaVersion:number}).schemaVersion>(candidate as {schemaVersion:number}).schemaVersion)throw Error('Export schema cannot regress');
+ const old=migrateExportRegions(previous) as Export,next=migrateExportRegions(candidate) as Export;
  if(Date.parse(next.exportedAt)<Date.parse(old.exportedAt)||Date.parse(next.exportedAt)>now.getTime()+60000)throw Error('Invalid export time');
  for(const [table,key] of Object.entries({revisions:(r:Row)=>`${r.policy_id}:${r.version}`,intake:(r:Row)=>r.id,scan_runs:(r:Row)=>r.id,snapshots:(r:Row)=>r.key})){
   const saved=index(old.tables[table],key),incoming=index(next.tables[table],key);

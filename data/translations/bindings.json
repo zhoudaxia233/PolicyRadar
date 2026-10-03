@@ -220,6 +220,118 @@
         "Staatskanzlei Rheinland-Pfalz"
       ],
       "version": 1
+    },
+    "fr-electronic-invoicing-2026": {
+      "version": 1,
+      "hash": "6224f85348a654e02724d66592fface5240f85980c56f2b33c3da993a212055c",
+      "verbatim": [
+        "DILA"
+      ],
+      "originalLanguage": "fr"
+    },
+    "fr-84-driving-licence": {
+      "version": 1,
+      "hash": "6821ea4957c8955fbd65271766e6a1f42377ffa3ae84184346321762d2631ef5",
+      "originalLanguage": "fr",
+      "verbatim": [
+        "Auvergne-Rhône-Alpes"
+      ]
+    },
+    "fr-27-mobility-levy": {
+      "version": 1,
+      "hash": "968e01dda6d7b61aabfbc2e86d977d412421faf4ff0e9fbbe97a551ad8873285",
+      "originalLanguage": "fr",
+      "verbatim": [
+        "Bourgogne-Franche-Comté"
+      ]
+    },
+    "fr-94-year-end-aid": {
+      "version": 1,
+      "hash": "1f9db3c9351edca0a4823644efa8b4dda316606fed73311c5b547e02d6a0b785",
+      "originalLanguage": "fr",
+      "verbatim": [
+        "Corse"
+      ]
+    },
+    "fr-44-water-call": {
+      "version": 1,
+      "hash": "35c2c9e89178b6328766df3d4853cc54a3a016cebb05d5b60a266c67760935b6",
+      "originalLanguage": "fr",
+      "verbatim": [
+        "Grand Est"
+      ]
+    },
+    "fr-32-carpool-strategy": {
+      "version": 1,
+      "hash": "e8ce6d22595a8b4d2bb675aaedb55c7bdc676fa097c649df9afcd1e2fa99e3a6",
+      "originalLanguage": "fr",
+      "verbatim": [
+        "Hauts-de-France"
+      ]
+    },
+    "fr-11-daeu-grant": {
+      "version": 1,
+      "hash": "7d9b980bcb88a9be05ac25ef8835d5626eb4942ae25cc96a3a6bad77c3d11d63",
+      "originalLanguage": "fr",
+      "verbatim": [
+        "Île-de-France"
+      ]
+    },
+    "fr-75-homework-support": {
+      "version": 1,
+      "hash": "e61e797c02c500c6c75f9fcb1cfa871b36ee628e921d3c6ced126cdce025ad52",
+      "originalLanguage": "fr",
+      "verbatim": [
+        "Nouvelle-Aquitaine"
+      ]
+    },
+    "fr-76-disaster-aid": {
+      "version": 1,
+      "hash": "0ed02ae0a3336cd2571b237fde63b3b70ba6b88fb114c388132201bdcd86d165",
+      "originalLanguage": "fr",
+      "verbatim": [
+        "Occitanie"
+      ]
+    },
+    "fr-52-event-transport": {
+      "version": 1,
+      "hash": "6747412ea93490fea10594e1570b3da5f97cd5478bf989113e1b588e54851aea",
+      "originalLanguage": "fr",
+      "verbatim": [
+        "Pays de la Loire"
+      ]
+    },
+    "fr-93-outdoor-pass": {
+      "version": 1,
+      "hash": "f0cc68775a73fa1778ea91abbbb5b449b63636eb106a82f952c8d1f3d51fc1a4",
+      "originalLanguage": "fr",
+      "verbatim": [
+        "Provence-Alpes-Côte d’Azur"
+      ]
+    },
+    "fr-03-student-aid": {
+      "version": 1,
+      "hash": "35470d46452b63e2845ba1930d0723c18a91d3c798818b733403fb6d50fd906a",
+      "originalLanguage": "fr",
+      "verbatim": [
+        "Guyane"
+      ]
+    },
+    "fr-04-quebec-mobility": {
+      "version": 1,
+      "hash": "d29dc696f69aecf7679f199af9b97f2e536dd0a5768b2aed948e037b2b14d0a0",
+      "originalLanguage": "fr",
+      "verbatim": [
+        "La Réunion"
+      ]
+    },
+    "fr-06-port-tariff": {
+      "version": 1,
+      "hash": "698838eee12ff7d13193b82906fc13f11baa47a15baab8f9105d8a1ecf54ff82",
+      "originalLanguage": "fr",
+      "verbatim": [
+        "Mayotte"
+      ]
     }
   },
   "intake": {
@@ -330,6 +442,48 @@
       "originalLanguage": "de",
       "verbatim": [],
       "titleIsOriginal": true
+    },
+    "fr-decree-2026-920": {
+      "hash": "e078b8870713d2a3a4e91239e1ab5a61af8870558f785bf45934b89765bd0729",
+      "verbatim": [],
+      "originalLanguage": "fr",
+      "titleIsOriginal": true
+    },
+    "fr-decree-2026-921": {
+      "hash": "44328103d8636cba8b41e68487d9d3fbf4affbef0c9784d694e3cfd61c67ce0f",
+      "verbatim": [],
+      "originalLanguage": "fr",
+      "titleIsOriginal": true
+    },
+    "fr-53-initial-discovery": {
+      "hash": "f7625337a93d21ee658e4d64b52385d2218e187a8abe5c59d55ec579e57bf923",
+      "originalLanguage": "fr",
+      "titleIsOriginal": false,
+      "verbatim": []
+    },
+    "fr-24-initial-discovery": {
+      "hash": "a7a8648d2d23c6a23baad89f57b94a52464fcb1eba8891ca48b16afb646c5fd4",
+      "originalLanguage": "fr",
+      "titleIsOriginal": false,
+      "verbatim": []
+    },
+    "fr-28-initial-discovery": {
+      "hash": "2dd61765d45a823e348cbe79561ea174819839d837267a1d25d29e3fe2912086",
+      "originalLanguage": "fr",
+      "titleIsOriginal": false,
+      "verbatim": []
+    },
+    "fr-01-initial-discovery": {
+      "hash": "741485931109cef0d127262c1a055908cc183f0bae53595ff023be8c012ead69",
+      "originalLanguage": "fr",
+      "titleIsOriginal": false,
+      "verbatim": []
+    },
+    "fr-02-initial-discovery": {
+      "hash": "7c6d65292b218996dc941e9629ebdf9614c8a421406509adb2060c1b9c60c189",
+      "originalLanguage": "fr",
+      "titleIsOriginal": false,
+      "verbatim": []
     }
   }
 }

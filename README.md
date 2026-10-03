@@ -1,6 +1,6 @@
 # Policy Radar
 
-German federal and state policy changes, explained in Chinese, German and English with official sources, policy timelines and explicit coverage gaps.
+German federal/state and French national/regional policy changes, explained in Chinese, German and English with official sources, policy timelines and explicit coverage gaps.
 
 The website is static: it loads published JSON and filters records in the browser. It needs no login, database or application server.
 
@@ -12,11 +12,11 @@ parameter (`zh`, `de`, `en`), saved preference, supported browser language, then
 English. Switching preserves filters, search and the selected policy. Search
 matches explanations and topic labels across all three languages.
 
-German is the original language of the current German official sources. German
+German is the original language of German official sources; French records retain their French originals. German
 summaries, like Chinese and English summaries, are **editorial explanations**,
 not the official legal text. Original titles, citations and archived source files
 remain intact. Original language is recorded per item, independently of the
-country and interface language, so future countries need not use German sources.
+country and interface language, so countries need not use German sources.
 Language availability does not imply coverage of additional countries.
 
 The site uses a typed UI dictionary and checked-in content translations, with no
@@ -80,3 +80,56 @@ npm test
 npx tsc --noEmit --incremental false
 npm run build
 ```
+
+## France
+
+France uses a national level and 18 regional geographic areas: 13 metropolitan and
+five overseas. These are not German-style federal states. Corsica, Guyane,
+Martinique and Mayotte have special institutional arrangements. Region identifiers
+use ISO 3166-2 codes, as Germany does. INSEE region codes and French original
+names are separate metadata; German and English labels are localized.
+The [official prefecture directory](https://www.prefectures-regions.gouv.fr/) and
+[INSEE regional atlas](https://www.insee.fr/fr/statistiques/8887938?sommaire=8887976)
+define this geographical scope. Departments, municipalities and other special
+overseas territories are not independently connected.
+
+The registry contains five national channels and three entry points per regional
+area: local authority announcements, administrative acts/decisions and the state
+prefecture. Prefecture and council homepages are discovery entry points, not a
+claim that gazette documents have been exhausted. Every region supports the same
+filters, URL state, source checks, evidence downloads and multilingual detail view
+as German regions. French originals remain available; explanations support Chinese,
+German and English.
+
+The initial French baseline contains 14 explanations (12 adopted/operational,
+two pending) and seven unverified discoveries. Existing schemes and new application
+rounds are distinguished from new legislation. Publication, adoption, application
+windows and legal commencement are not interchangeable. Every explanation cites
+an archived original; blocked downloads and unreviewed attachments remain in intake.
+The regional sweep records all 54 portal attempts as partial or blocked, never
+complete. Registering 18 regions does not mean all their policies have been found.
+Country-specific review markers prevent a French update from re-dating Germany.
+
+
+### Region identifier migration
+
+The current export uses schema version 3 with ISO subdivision identifiers.
+Examples: `FR-IDF` (Île-de-France), `FR-NAQ` (Nouvelle-Aquitaine), `FR-20R`
+(Corsica), and `FR-971`/`FR-972`/`FR-973`/`FR-974`/`FR-976` for the five overseas
+geographical areas. The ISO identifiers represent different institutional types;
+listing them together does not assert that all are ordinary regional councils.
+The code list was cross-checked against the maintained
+[ISO 3166 dataset](https://github.com/wooorm/iso-3166/blob/main/2.js).
+
+Version-2 export files remain byte-for-byte unchanged. The reader and update gate
+apply a version-specific conversion of only the region fields in policies,
+revisions and intake; a new version-3 export saves that representation. Stable
+record IDs, factual-review dates, evidence, events and other history are unchanged.
+Version-3 input never interprets an ISO department code as a legacy region.
+
+Pre-release unversioned region URLs retain their old meaning and are rewritten to
+canonical URLs with `regionFormat=iso`. This marker separates future ISO department
+links from old region bookmarks. New links should always use `filterSearch`.
+Legacy global review metadata is mapped to Germany only at read time; the old
+France-specific initial fields map to France only. The UI uses country-scoped
+review metadata and shows an explicit unreviewed state when it is absent.

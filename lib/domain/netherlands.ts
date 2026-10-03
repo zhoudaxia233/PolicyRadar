@@ -266,6 +266,7 @@ export const dutchDiscovery = [
   {
     "region": "NL",
     "url": "https://zoek.officielebekendmakingen.nl/",
+    "supportedRegions": ["NL", ...dutchProvinces.map(p=>p.id)],
     "title": "荷兰官方公报与议会文件",
     "publisher": "Rijksoverheid",
     "kind": "law"
@@ -280,6 +281,7 @@ export const dutchDiscovery = [
   {
     "region": "NL",
     "url": "https://lokaleregelgeving.overheid.nl/",
+    "supportedRegions": dutchProvinces.map(p=>p.id),
     "title": "荷兰地方现行法规",
     "publisher": "Rijksoverheid",
     "kind": "law"

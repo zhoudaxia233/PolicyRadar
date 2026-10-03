@@ -1,5 +1,6 @@
 import {frenchDiscovery} from './france.ts';
 import {dutchDiscovery} from './netherlands.ts';
+export function sourceSupportsRegion(source:{region:string;supportedRegions?:string[]}|undefined,region:string){return !!source&&(source.supportedRegions??[source.region]).includes(region);}
 // Official discovery entries for Germany, France and the Netherlands.
 // A registered entry is not a claim of exhaustive coverage or a successful fetch.
 export const discovery = [

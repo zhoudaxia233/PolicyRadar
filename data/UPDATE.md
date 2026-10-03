@@ -80,6 +80,15 @@ up from stored coverage, rather than skip to the latest week.
    interface must show the missing/stale notice and retain the existing explanation.
    Also translate new review and scan notes and topic labels. Translation work alone
    never advances `verifiedAt`, `lastReviewAt` or scan coverage.
+   To correct an immutable event or intake record, append a new record with a new
+   ID and `supersedes` pointing to the earlier record. Never modify the target.
+   Corrections must form a single ordered chain; intake corrections must retain
+   the document's region, URL, source channel and official identifier. The build
+   displays only the current record while the export retains the complete chain.
+   Append a dated `correction` event explaining factual timeline repairs. Use
+   `closed` for an evidenced application closure, distinct from legal expiry;
+   elapsed scheduled dates alone do not establish closure. Undated quota exhaustion
+   stays undated: a review date is not the date the quota was exhausted.
 6. Before selecting the candidate, run:
 
    ```sh
@@ -154,6 +163,11 @@ both parliamentary chambers, provincial government/council entries and additiona
 publication portals. A council introduction page is only an entry point: follow
 its meeting and document links before claiming coverage. Register access challenges
 as blocked; do not save a security-check page as an official document.
+The central official-publications channel accepts national and provincial records;
+the local-law channel accepts the 12 provinces only. Their `supportedRegions`
+lists define this scope explicitly; retain the actual province on each discovery.
+Single-region channels remain restricted to their registered region. A complete
+scan of a shared channel must cover all of its supported regions, not one province.
 
 Use ISO province identifiers and Dutch originals (`originalLanguage: "nl"`).
 Keep `NL-FR` separate from France's `FR`/`FR-*` identities. Read both the current

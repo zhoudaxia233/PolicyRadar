@@ -12,7 +12,8 @@ import {selectListing,countrySourceUrls} from '../lib/domain/listing.ts';
 import {countryName,regionName,originalRegionName,translator} from '../lib/i18n/index.ts';
 const read=(p:string)=>JSON.parse(readFileSync(new URL(p,import.meta.url),'utf8'));
 const previous=read('../data/exports/2026-10-03-france-iso/policy-radar-export.json');
-const candidate=read('../data/exports/2026-10-04-netherlands/policy-radar-export.json');
+const baseline=read('../data/exports/2026-10-04-netherlands/policy-radar-export.json');
+const candidate=read('../data/exports/2026-10-04-netherlands-review/policy-radar-export.json');
 const data=createStaticData(candidate),nl=data.policies.filter(p=>p.region.startsWith('NL'));
 
 test('Dutch provinces use ISO identities and round-trip without colliding with France',()=>{
@@ -44,7 +45,8 @@ test('Netherlands connects all provinces but does not assert full scan coverage'
  for(const p of data.policies.filter(p=>!p.region.startsWith('NL')))for(const s of p.sources)assert(!urls.has(s.url));
 });
 test('Dutch baseline preserves German and French history and review markers',()=>{
- validateUpdate(previous,candidate,new Date(candidate.exportedAt));
+ validateUpdate(previous,baseline,new Date(baseline.exportedAt));
+ validateUpdate(baseline,candidate,new Date(candidate.exportedAt));
  assert.deepEqual(candidate.tables.policies.filter((p:{region:string})=>!p.region.startsWith('NL')),previous.tables.policies);
  assert.deepEqual(candidate.tables.revisions.slice(0,previous.tables.revisions.length),previous.tables.revisions);
  assert.deepEqual(candidate.tables.intake.slice(0,previous.tables.intake.length),previous.tables.intake);

@@ -156,6 +156,13 @@ Six dated official announcements are also retained as progress records and linke
 to their explanations without double-counting policy totals. It includes wage and social-rent rules, housing, farming, habitat protection,
 community grants, energy, mobility, heritage, SME support and a proposed budget.
 This is a researched starting set, not an exhaustive inventory of Dutch policy.
+
+The review export preserves the baseline and appends corrections to three timelines
+and six announcement titles. Current views follow validated `supersedes` links;
+the downloadable export retains all prior events and intake records. Known grant
+closures are separate from scheduled dates and unknown quota-exhaustion dates.
+Central Dutch publication channels explicitly list their supported jurisdictions,
+so a provincial discovery can retain its province without relaxing other channels.
 Closed and exhausted application rounds are labelled explicitly; a scheduled
 council discussion does not establish approval. Application dates do not imply
 legal enactment dates, and tentative 2027 reopenings have no invented exact date.

@@ -382,8 +382,8 @@
       "originalLanguage": "nl"
     },
     "nl-fl-home-battery": {
-      "version": 1,
-      "hash": "63bb81f2838067bb8569acd51a263139f883bb959cb43f5c07f1f6c67029f7c9",
+      "version": 2,
+      "hash": "8645ea2beab1784ff704a1445b782aeef99db4a33ff03ffb1a447c28d0c316c5",
       "verbatim": [
         "Provincie Flevoland"
       ],
@@ -398,16 +398,16 @@
       "originalLanguage": "nl"
     },
     "nl-ut-mobility-grants": {
-      "version": 1,
-      "hash": "aa35d6a32957e3019a454a660423a658fe827fd703efaf375e3241f71986bcbe",
+      "version": 2,
+      "hash": "89fb50953bc2382e32117b65c90a50a351ba9d439b6c2ec540ca297f89c70759",
       "verbatim": [
         "Provincie Utrecht"
       ],
       "originalLanguage": "nl"
     },
     "nl-nh-solar-parking": {
-      "version": 1,
-      "hash": "5281bded1bb0d132c49cdb3a6b4e7549db935abab8b5bbb5d99133659e2adbc8",
+      "version": 2,
+      "hash": "7189c00d211a5900a1d303110fe4cbd2301dbfab10be594f26c2e39da56587a5",
       "verbatim": [
         "Provincie Noord-Holland",
         "Provincie Noord-Holland"
@@ -627,6 +627,42 @@
       "hash": "ada960cf514d35dfaae6433e362ad4893fb28ba55cc954f9fe6de1ad669ef0dc",
       "verbatim": [],
       "originalLanguage": "nl"
+    },
+    "nl-gr-farm-experiments-announcement-title-correction": {
+      "hash": "fb53d08abac3a039f1d3ca83786e55550849183249f7439baf5900627384632e",
+      "verbatim": [],
+      "originalLanguage": "nl",
+      "titleIsOriginal": true
+    },
+    "nl-dr-rural-investment-announcement-title-correction": {
+      "hash": "7c134e19c7ec557575ed93eb276eb42ed3a02e7e3eb457751865bc708deb1921",
+      "verbatim": [],
+      "originalLanguage": "nl",
+      "titleIsOriginal": true
+    },
+    "nl-ov-canal-community-announcement-title-correction": {
+      "hash": "f8b7aa57f6e0c8858728c1f0536f2dd90f48368af4ecabeed8d065571919dab3",
+      "verbatim": [],
+      "originalLanguage": "nl",
+      "titleIsOriginal": true
+    },
+    "nl-zh-species-habitats-announcement-title-correction": {
+      "hash": "037dda4b9ef8040205b31977eecc95e07fbf2a98ede3072167ec3f7f3e1f53e2",
+      "verbatim": [],
+      "originalLanguage": "nl",
+      "titleIsOriginal": true
+    },
+    "nl-ze-heritage-2027-announcement-title-correction": {
+      "hash": "ec7f65ce43cbcfd856eec27cf6daa4aa0b5591c58e0962b8e749ef71c6a0360f",
+      "verbatim": [],
+      "originalLanguage": "nl",
+      "titleIsOriginal": true
+    },
+    "nl-nb-budget-2027-announcement-title-correction": {
+      "hash": "381ee83142dcd92ca1cc882cb3d21452a0924c5615d44f879c7f6b259829003d",
+      "verbatim": [],
+      "originalLanguage": "nl",
+      "titleIsOriginal": true
     }
   }
 }

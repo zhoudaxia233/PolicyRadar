@@ -1,0 +1,1956 @@
+[
+  {
+    "id": "de-rent-cap-2029",
+    "officialId": "BGBl. 2025 I Nr. 163",
+    "title": "租金刹车延长至 2029 年",
+    "originalTitle": "Verlängerung der Mietpreisbremse",
+    "region": "DE",
+    "topic": "住房",
+    "phase": "adopted",
+    "status": "已生效",
+    "summary": "联邦允许各州把“新租约租金通常不超过当地可比租金110%”这条规则继续用到2029年底。具体哪些城市适用、当地条例续到何时，仍由各州决定。",
+    "before": "联邦对各州使用这项新租约限价工具的授权原本到2025年底。",
+    "after": "授权延长至2029年底；110%的基本限价线没有因这次延期提高或降低。",
+    "impact": "在被指定地区寻找出租住房的人，以及出租人。",
+    "limits": "这次延长的是联邦授权，不会自动让全国每套住房限价，也不会自动延长各州自己的条例。2014年10月1日后首次使用并出租的住房、全面现代化改造后首次出租等有例外；现有租约涨租是另一套规则。 普通装修不等于法律所说的全面现代化改造。",
+    "verifiedAt": "2026-10-02",
+    "lastEventDate": "2025-07-23",
+    "effectiveDate": "2025-07-23",
+    "nextDate": null,
+    "nextLabel": "继续关注各州的适用区域与期限",
+    "disputed": false,
+    "dispute": "",
+    "sources": [
+      {
+        "id": "rent-federal",
+        "title": "联邦政府：租金刹车延长至2029年",
+        "url": "https://www.bundesregierung.de/breg-de/aktuelles/verlaengerung-mietpreisbremse-2350648",
+        "publisher": "Bundesregierung",
+        "kind": "government",
+        "note": "支持页面中的政策事实；以原文适用范围为准。"
+      },
+      {
+        "id": "rent-vote",
+        "title": "联邦议院：延期法案提出方与表决结果",
+        "url": "https://www.bundestag.de/dokumente/textarchiv/2025/kw26-pa-recht-mietpreisbremse-1086914",
+        "publisher": "Deutscher Bundestag",
+        "kind": "parliament",
+        "note": "页面记录2025年6月26日全会表决党团立场；未提供逐票数字。"
+      }
+    ],
+    "events": [
+      {
+        "id": "law-date",
+        "date": "2025-07-17",
+        "kind": "adopted",
+        "title": "法律签署",
+        "detail": "法律日期：2025年7月17日，BGBl. 2025 I Nr. 163。",
+        "sourceId": "rent-federal"
+      },
+      {
+        "id": "in-force",
+        "date": "2025-07-23",
+        "kind": "effective",
+        "title": "延长法生效",
+        "detail": "联邦政府确认该法于7月23日生效。",
+        "sourceId": "rent-federal"
+      }
+    ],
+    "dateExplanation": "2025年7月23日是联邦延期法开始生效；2029年12月31日是联邦授权期限。你所在城市是否适用，还要看州条例。",
+    "rules": [
+      {
+        "title": "限制重新出租时的起租价",
+        "detail": "在各州指定的紧张住房市场，通常不高于当地同类住房参考租金的110%；并非按上一份租约直接加10%。",
+        "sourceId": "rent-federal"
+      },
+      {
+        "title": "只延长各州可以使用工具的时间",
+        "detail": "是否指定你的城市、州条例何时结束，需要另外核对。联邦授权继续存在，不等于地方条例已自动续期。",
+        "sourceId": "rent-federal"
+      }
+    ],
+    "politics": {
+      "proposedBy": {
+        "name": "联邦议院CDU/CSU与SPD党团",
+        "party": "CDU/CSU、SPD",
+        "sourceId": "rent-vote"
+      },
+      "votes": [
+        {
+          "body": "联邦议院全会",
+          "date": "2025-06-26",
+          "result": "通过：CDU/CSU、SPD、绿党赞成；AfD反对；左翼党弃权。",
+          "counts": null,
+          "note": "这里记录党团立场，不将议会席位数冒充实际投票数。",
+          "sourceId": "rent-vote"
+        }
+      ]
+    },
+    "tags": [
+      "租房",
+      "住房"
+    ]
+  },
+  {
+    "id": "de-minimum-wage-2026",
+    "officialId": "MiLoV5",
+    "title": "最低工资分两步升至 €14.60",
+    "originalTitle": "Fünfte Mindestlohnanpassungsverordnung",
+    "region": "DE",
+    "topic": "工作与收入",
+    "phase": "adopted",
+    "status": "分步生效",
+    "summary": "2026年最低时薪为13.90欧元；下一次已确定的上调在2027年1月。",
+    "before": "2025年最低时薪为12.82欧元。",
+    "after": "2026年1月1日起13.90欧元；2027年1月1日起14.60欧元，均为税前每小时。",
+    "impact": "适用法定最低工资的雇员和雇主。",
+    "limits": "行业最低工资可能更高。此处跟踪法定调整，不把名义工资上调直接等同于实际购买力上升。",
+    "verifiedAt": "2026-10-02",
+    "lastEventDate": "2026-01-01",
+    "effectiveDate": "2026-01-01",
+    "nextDate": "2027-01-01",
+    "nextLabel": "第二步：最低时薪升至 €14.60",
+    "disputed": false,
+    "dispute": "",
+    "sources": [
+      {
+        "id": "wage-bmas",
+        "title": "第五次最低工资调整条例",
+        "url": "https://www.bmas.de/DE/Service/Gesetze-und-Gesetzesvorhaben/fuenfte-mindestlohnanpassungsverordnung-milov5.html",
+        "publisher": "BMAS",
+        "kind": "government",
+        "note": "支持页面中的政策事实；以原文适用范围为准。"
+      },
+      {
+        "id": "wage-law",
+        "title": "MiLoV5 法律全文",
+        "url": "https://www.gesetze-im-internet.de/milov5/",
+        "publisher": "Gesetze im Internet",
+        "kind": "law",
+        "note": "支持页面中的政策事实；以原文适用范围为准。"
+      }
+    ],
+    "events": [
+      {
+        "id": "proposal",
+        "date": "2025-06-27",
+        "kind": "proposal",
+        "title": "最低工资委员会提出建议",
+        "detail": "委员会提出两阶段调整建议，后被联邦政府以条例落实。",
+        "sourceId": "wage-bmas"
+      },
+      {
+        "id": "first",
+        "date": "2026-01-01",
+        "kind": "effective",
+        "title": "第一阶段实施",
+        "detail": "最低时薪调整为13.90欧元。",
+        "sourceId": "wage-law"
+      },
+      {
+        "id": "second",
+        "date": "2027-01-01",
+        "kind": "scheduled",
+        "title": "第二阶段实施",
+        "detail": "条例确定最低时薪上调为14.60欧元。",
+        "sourceId": "wage-bmas"
+      }
+    ],
+    "dateExplanation": "2026年1月1日既是本条例开始生效日，也是13.90欧元档的开始日。14.60欧元档已写入条例，从2027年1月1日开始。",
+    "rules": [
+      {
+        "title": "2026年每工作一小时，税前至少13.90欧元",
+        "detail": "适用法定最低工资的雇员，按实际工作时间计算税前下限；不是到手收入。",
+        "sourceId": "wage-law"
+      },
+      {
+        "title": "2027年再升到14.60欧元",
+        "detail": "第二步已确定，不是仍待表决的承诺。行业或合同约定高于这个标准的，不能据此降薪。",
+        "sourceId": "wage-law"
+      }
+    ],
+    "tags": [
+      "工作",
+      "工资"
+    ]
+  },
+  {
+    "id": "de-crypto-reporting-dac8",
+    "officialId": "DIP 324801 / KStTG",
+    "title": "加密平台要向税务部门报告用户身份和交易信息",
+    "originalTitle": "Kryptowerte-Steuertransparenz-Gesetz (DAC8)",
+    "region": "DE",
+    "topic": "税务与加密资产",
+    "phase": "adopted",
+    "status": "已生效 · 分步实施",
+    "summary": "符合条件的加密平台需收集用户税务居民身份、税号及交易汇总，向德国联邦中央税务局申报。义务首次覆盖2026年，通常在次年7月31日前申报；这不等于取消个人持币一年的税务待遇。",
+    "before": "原有金融账户信息交换制度不能完整覆盖加密资产交易。",
+    "after": "平台按法律收集和核实用户税务信息，并按年报告交易汇总，供国内征税及符合条件的跨国信息交换使用。",
+    "impact": "加密资产服务商及属于该制度申报范围的用户。",
+    "limits": "并非每个钱包、每类资产或每位用户都一律被申报，需符合该法适用范围。它改变信息收集与申报，不直接决定某笔收益应纳多少税，也不取消持有期规则。既有用户身份核实存在过渡期限。",
+    "verifiedAt": "2026-10-02",
+    "lastEventDate": "2026-01-01",
+    "effectiveDate": "2025-12-24",
+    "nextDate": "2027-01-01",
+    "nextLabel": "既有用户身份核实过渡期限",
+    "disputed": false,
+    "dispute": "",
+    "sources": [
+      {
+        "id": "crypto-law",
+        "title": "KStTG：加密资产税务信息申报法",
+        "url": "https://www.gesetze-im-internet.de/ksttg/",
+        "publisher": "Gesetze im Internet",
+        "kind": "law",
+        "note": "支持页面中的政策事实；以原文适用范围为准。"
+      },
+      {
+        "id": "crypto-dip",
+        "title": "DAC8 立法过程：DIP 324801",
+        "url": "https://dip.bundestag.de/vorgang/-/324801",
+        "publisher": "Deutscher Bundestag",
+        "kind": "parliament",
+        "note": "支持页面中的政策事实；以原文适用范围为准。"
+      },
+      {
+        "id": "crypto-full-law",
+        "title": "KStTG全文：生效脚注及第7、9、21条",
+        "url": "https://www.gesetze-im-internet.de/ksttg/BJNR1600B0025.html",
+        "publisher": "Gesetze im Internet",
+        "kind": "law",
+        "note": "生效日、用户识别过渡期、年度申报期限和首次适用年度。"
+      }
+    ],
+    "events": [
+      {
+        "id": "bundestag",
+        "date": "2025-11-06",
+        "kind": "adopted",
+        "title": "联邦议院完成二、三读",
+        "detail": "DIP记录2025年11月6日的二、三读。",
+        "sourceId": "crypto-dip"
+      },
+      {
+        "id": "bundesrat",
+        "date": "2025-12-19",
+        "kind": "adopted",
+        "title": "联邦参议院第二轮处理",
+        "detail": "DIP记录12月19日第二轮处理。",
+        "sourceId": "crypto-dip"
+      },
+      {
+        "id": "law",
+        "date": "2025-12-22",
+        "kind": "adopted",
+        "title": "法律形成",
+        "detail": "DIP记录法律日期为2025年12月22日。",
+        "sourceId": "crypto-dip"
+      },
+      {
+        "id": "effective-law-confirmed",
+        "date": "2025-12-24",
+        "kind": "effective",
+        "title": "法律开始生效",
+        "detail": "法律全文脚注确认2025年12月24日开始生效。",
+        "sourceId": "crypto-full-law"
+      },
+      {
+        "id": "first-applicable-year",
+        "date": "2026-01-01",
+        "kind": "effective",
+        "title": "进入首个适用年度",
+        "detail": "第21条规定相关义务首次适用于2026日历年。",
+        "sourceId": "crypto-full-law"
+      },
+      {
+        "id": "existing-user-deadline",
+        "date": "2027-01-01",
+        "kind": "scheduled",
+        "title": "既有用户身份核实过渡期限",
+        "detail": "第7条规定2025年底前已有业务关系用户的身份核实期限。",
+        "sourceId": "crypto-full-law"
+      },
+      {
+        "id": "first-reporting-deadline",
+        "date": "2027-07-31",
+        "kind": "scheduled",
+        "title": "2026年度通常申报截止",
+        "detail": "按第9条次年7月31日及第21条首次2026年度共同确定。",
+        "sourceId": "crypto-full-law"
+      }
+    ],
+    "dateExplanation": "法律于2025年12月24日开始生效；相关义务首次适用于2026日历年。2026年度的通常首次申报截止日由“次年7月31日”规则得出，为2027年7月31日。",
+    "rules": [
+      {
+        "title": "用户可能被要求补交税号和税务居住地",
+        "detail": "平台需确认哪些用户需要申报；2025年底前已建立业务关系的既有用户，身份核实措施最迟于2027年1月1日前完成。",
+        "sourceId": "crypto-full-law"
+      },
+      {
+        "title": "平台按年向税务部门申报",
+        "detail": "符合条件的用户身份和交易汇总，在次年7月31日前报送德国联邦中央税务局；首次覆盖2026年度。",
+        "sourceId": "crypto-full-law"
+      }
+    ],
+    "tags": [
+      "投资",
+      "加密资产",
+      "税务"
+    ]
+  },
+  {
+    "id": "he-rent-protection-2025",
+    "officialId": "GVBl. Hessen 2025 Nr. 74",
+    "title": "黑森三项租房保护续期至2026年11月",
+    "originalTitle": "Verordnung zur Änderung der Mieterschutzverordnung",
+    "region": "DE-HE",
+    "topic": "住房",
+    "phase": "adopted",
+    "status": "已生效 · 适用有争议",
+    "summary": "法兰克福等49个市镇继续实行：新租约租金原则上不超过当地可比租金的110%；已有普通租约按规定涨租，三年累计最多15%；符合条件的房屋改为分户产权后出售，买家须等8年才能以自用等理由解约。现行期限到2026年11月25日。",
+    "before": "这三项保护原已存在，条例原定2025年11月25日到期。",
+    "after": "本次只将既有条例续期一年，至2026年11月25日；49个市镇的名单和三项基本规则不变，并非新设三项权利。",
+    "impact": "条例列明的49个市镇，包括法兰克福、达姆施塔特、威斯巴登等；不同保护各有适用条件。",
+    "limits": "不是黑森所有住房都适用。新租约限价有2014年10月1日后首次使用并出租的住房、全面现代化改造后首次出租及合法较高前租金等例外；15%主要针对按当地可比租金提出的普通涨租，不是所有费用都被锁住。8年等待期只针对入住后分户产权转换再出售等法定情形，旧交易还需查过渡规定。拟扩大到71个市镇尚未通过。 普通装修不等于法律所说的全面现代化改造。",
+    "verifiedAt": "2026-10-02",
+    "lastEventDate": "2026-10-02",
+    "effectiveDate": "2025-11-18",
+    "nextDate": "2026-11-25",
+    "nextLabel": "现行条例到期；需核实是否已有接续条例",
+    "disputed": true,
+    "dispute": "黑森州政府2026年6月24日的说明确认，法兰克福地方法院已有相关个案判决。州政府认为判决仅影响该案双方，不等于整部条例被普遍撤销；是否上诉当时未知。本站尚未补齐判决原文及后续诉讼结果，因此保留适用争议，不把政府说明当成法院最终结论。",
+    "sources": [
+      {
+        "id": "he-law",
+        "title": "黑森法律公报：2025年第74号",
+        "url": "https://verkuendung.hessen.de/sites/verkuendung.hessen.de/files/veroeffentlichungsplattform_plugin/published/1174/GVBl_2025_Nr_74_Regelungstext.pdf",
+        "publisher": "Hessische Landesregierung",
+        "kind": "law",
+        "note": "支持页面中的政策事实；以原文适用范围为准。"
+      },
+      {
+        "id": "he-info",
+        "title": "黑森住房部门：现行条例与拟议修订",
+        "url": "https://wirtschaft.hessen.de/wohnen-und-bauen/wohnungsrecht/mieterschutzverordnung",
+        "publisher": "Hessen Wirtschaft",
+        "kind": "government",
+        "note": "支持页面中的政策事实；以原文适用范围为准。"
+      },
+      {
+        "id": "he-litigation",
+        "title": "黑森州对延期条例司法争议的说明",
+        "url": "https://wirtschaft.hessen.de/presse/verlaengerung-der-mischuv-war-richtige-uebergangsloesung-ministerium-beantwortet-wichtige-fragen",
+        "publisher": "Hessisches Wirtschaftsministerium",
+        "kind": "government",
+        "note": "这是州政府2026年6月24日对判决影响的解释，不是判决原文。"
+      },
+      {
+        "id": "conversion-clock",
+        "title": "官方租房指南：产权转换后解约等待期如何起算",
+        "url": "https://www.berlin.de/sen/wohnen/wissen-fuer-mieter/berliner-mietratgeber/umwandlung/",
+        "publisher": "Senatsverwaltung Berlin",
+        "kind": "government",
+        "note": "仅用于解释BGB下首次转让及买家产权登记的起算机制；本州具体年限另由本州条例来源支持。"
+      }
+    ],
+    "events": [
+      {
+        "id": "signed",
+        "date": "2025-11-12",
+        "kind": "adopted",
+        "title": "州政府制定修订条例",
+        "detail": "延长现行条例的有效期。",
+        "sourceId": "he-law"
+      },
+      {
+        "id": "published",
+        "date": "2025-11-17",
+        "kind": "published",
+        "title": "法律公报公布",
+        "detail": "2025年第74号法律公报。",
+        "sourceId": "he-law"
+      },
+      {
+        "id": "effective",
+        "date": "2025-11-18",
+        "kind": "effective",
+        "title": "公布次日生效",
+        "detail": "第2条规定公布次日生效。",
+        "sourceId": "he-law"
+      },
+      {
+        "id": "expiry",
+        "date": "2026-11-25",
+        "kind": "scheduled",
+        "title": "现行期限结束",
+        "detail": "新条例尚需独立核实，不能默认自动续期。",
+        "sourceId": "he-info"
+      },
+      {
+        "id": "clarify-rules-and-dispute",
+        "date": "2026-10-02",
+        "kind": "correction",
+        "title": "补充具体保护与适用争议",
+        "detail": "纠正初版只写“现行租客保护”而未说明内容的遗漏，并补录6月24日官方披露的诉讼争议；此日为本站补证日，不是判决日。",
+        "sourceId": "he-litigation"
+      }
+    ],
+    "dateExplanation": "2025年11月18日是这次“延期修订”开始生效；原条例从2020年11月26日起实施。2026年11月25日是现行期限结束日，不是开始生效日。",
+    "rules": [
+      {
+        "title": "新签租约：原则上不超过当地可比租金的110%",
+        "detail": "可比租金是当地同类住房的参考租金，不是房东想报多少就算多少。适用房屋重新出租时，通常最多高出这一参考值10%。",
+        "sourceId": "he-info"
+      },
+      {
+        "title": "住着不搬：普通涨租三年累计最多15%",
+        "detail": "房东按当地可比租金要求提高现有租金时，三年累计涨幅最多15%，同时还不能超过当地可比租金。一般地区的相应上限为20%。",
+        "sourceId": "he-info"
+      },
+      {
+        "title": "入住后房屋被改为分户产权并出售：特定解约须等8年",
+        "detail": "在法定转换、出售情形下，新买家不能马上以自己要住或经济处置为由解约；等待期为8年。不是所有卖房、所有解约理由都适用。",
+        "sourceId": "he-info"
+      },
+      {
+        "title": "解约等待期如何起算",
+        "detail": "法定转换出售情形，通常按首次转让和新买家完成产权登记起算；等待期结束后，解约仍需符合理由及通知期限等规定。",
+        "sourceId": "conversion-clock"
+      }
+    ],
+    "politics": {
+      "proposedBy": {
+        "name": "黑森州政府（延期条例制定机关）",
+        "party": null,
+        "sourceId": "he-law"
+      }
+    },
+    "tags": [
+      "租房",
+      "住房"
+    ]
+  },
+  {
+    "id": "by-rent-protection-2026",
+    "officialId": "MiSchuV Bayern / Neufassung 2025-12-16",
+    "title": "巴伐利亚租金保护扩至 285 个市镇",
+    "originalTitle": "Neufassung der Mieterschutzverordnung",
+    "region": "DE-BY",
+    "topic": "住房",
+    "phase": "adopted",
+    "status": "已生效",
+    "summary": "285个市镇适用更强租房保护：新租约租金原则上不超当地可比租金的110%；已有普通租约三年涨租最多15%；入住后房屋改成分户产权并出售，特定解约等待期为10年。新名单有100个市镇加入、23个退出。",
+    "before": "此前覆盖208个市镇。",
+    "after": "2026年1月1日起，覆盖市镇从208个变为285个：新增100个，移出23个。应核对新名单，不能默认原来的市镇都保留。",
+    "impact": "新增覆盖地区及原覆盖地区中符合规定的租赁关系。",
+    "limits": "不是全州所有住房一律适用。2014年10月1日后首次使用并出租的住房、全面现代化改造后首次出租及合法较高前租金等可有例外；15%上限针对按可比租金提出的普通涨租；10年等待期只用于法定产权转换和出售情形。需核对市镇名单及个案条件。 普通装修不等于法律所说的全面现代化改造。",
+    "verifiedAt": "2026-10-02",
+    "lastEventDate": "2026-01-01",
+    "effectiveDate": "2026-01-01",
+    "nextDate": null,
+    "nextLabel": "关注条例后续调整与适用地区",
+    "disputed": false,
+    "dispute": "",
+    "sources": [
+      {
+        "id": "by-government",
+        "title": "巴伐利亚：2026年起覆盖285个市镇",
+        "url": "https://www.bayern.de/neufassung-der-mieterschutzverordnung-mietpreisbremse-gilt-ab-januar-2026-in-285-staedten-und-gemeinden-ausweitung-vor-allem-im-grossraum-muenchen-und-im-oberland-justizminister-eisenreich-me/",
+        "publisher": "Bayerische Staatsregierung",
+        "kind": "government",
+        "note": "支持页面中的政策事实；以原文适用范围为准。"
+      },
+      {
+        "id": "conversion-clock",
+        "title": "官方租房指南：产权转换后解约等待期如何起算",
+        "url": "https://www.berlin.de/sen/wohnen/wissen-fuer-mieter/berliner-mietratgeber/umwandlung/",
+        "publisher": "Senatsverwaltung Berlin",
+        "kind": "government",
+        "note": "仅用于解释BGB下首次转让及买家产权登记的起算机制；本州具体年限另由本州条例来源支持。"
+      }
+    ],
+    "events": [
+      {
+        "id": "adopted",
+        "date": "2025-12-16",
+        "kind": "adopted",
+        "title": "州政府通过新版条例",
+        "detail": "官方公布新条例及覆盖范围。",
+        "sourceId": "by-government"
+      },
+      {
+        "id": "effective",
+        "date": "2026-01-01",
+        "kind": "effective",
+        "title": "新条例生效",
+        "detail": "覆盖市镇数量从208增至285。",
+        "sourceId": "by-government"
+      }
+    ],
+    "dateExplanation": "2026年1月1日是这版州条例开始生效；不表示这些租客保护原则第一次出现。",
+    "rules": [
+      {
+        "title": "新签租约时：原则上限在可比租金的110%",
+        "detail": "适用名单内、符合条件的房屋重新出租时，起租价最多比当地同类住房参考租金高10%。",
+        "sourceId": "by-government"
+      },
+      {
+        "title": "现有普通租约：三年涨租最多15%",
+        "detail": "按当地可比租金涨租时，同时受三年15%的累计涨幅和当地可比租金上限约束。",
+        "sourceId": "by-government"
+      },
+      {
+        "title": "产权转换再出售：特定解约等待10年",
+        "detail": "住房在租客入住后改成分户产权再出售，买家以自用等规定理由解约，适用延长的等待期；不是普通卖房就一律禁止解约。",
+        "sourceId": "by-government"
+      },
+      {
+        "title": "解约等待期如何起算",
+        "detail": "法定转换出售情形，通常按首次转让和新买家完成产权登记起算；等待期结束后，解约仍需符合理由及通知期限等规定。",
+        "sourceId": "conversion-clock"
+      }
+    ],
+    "tags": [
+      "租房",
+      "住房"
+    ]
+  },
+  {
+    "id": "de-fuel-relief-2026",
+    "officialId": "Spritpreis-Entlastungspaket / 2026-10",
+    "title": "汽柴油能源税临时下调至年底",
+    "originalTitle": "Steuersenkung für Diesel und Benzin bis Jahresende",
+    "region": "DE",
+    "topic": "税务与加密资产",
+    "phase": "adopted",
+    "status": "已生效 · 临时措施",
+    "summary": "联邦政府确认：2026年10月1日至年底，汽柴油能源税每升下调14欧分。",
+    "before": "此前没有本轮临时每升14欧分的能源税减让。",
+    "after": "能源税每升减少14欧分，计入相应增值税影响后税收减让约为17欧分。",
+    "impact": "购买汽柴油的个人与企业。",
+    "limits": "税额变化不等同于加油站售价必然等额下降。当前依据政府正式实施说明，尚未补齐法律公报编号。",
+    "verifiedAt": "2026-10-02",
+    "lastEventDate": "2026-10-01",
+    "effectiveDate": "2026-10-01",
+    "nextDate": "2026-12-31",
+    "nextLabel": "临时减税期限结束",
+    "disputed": false,
+    "dispute": "",
+    "sources": [
+      {
+        "id": "fuel-government",
+        "title": "联邦政府：汽柴油临时减税",
+        "url": "https://www.bundesregierung.de/breg-de/aktuelles/entlastung-spritpreise-2453192",
+        "publisher": "Bundesregierung",
+        "kind": "government",
+        "note": "支持页面中的政策事实；以原文适用范围为准。"
+      }
+    ],
+    "events": [
+      {
+        "id": "effective",
+        "date": "2026-10-01",
+        "kind": "effective",
+        "title": "减税开始实施",
+        "detail": "政府说明起止期间为10月1日至2026年底。",
+        "sourceId": "fuel-government"
+      },
+      {
+        "id": "end",
+        "date": "2026-12-31",
+        "kind": "scheduled",
+        "title": "临时措施到期",
+        "detail": "继续检查是否延期，不自动推定延期。",
+        "sourceId": "fuel-government"
+      }
+    ],
+    "dateExplanation": "2026年10月1日是本轮临时减税开始实施日；2026年12月31日是目前确定的结束日。",
+    "rules": [
+      {
+        "title": "减少每升燃油所含的能源税",
+        "detail": "汽油和柴油的能源税临时每升减少14欧分；计入对应增值税影响，税收减让约17欧分。",
+        "sourceId": "fuel-government"
+      },
+      {
+        "title": "加油站零售价不保证同步少17欧分",
+        "detail": "国际油价、进货和销售利润也会变化。税率变化和实际省下的钱必须分开看。",
+        "sourceId": "fuel-government"
+      }
+    ],
+    "tags": [
+      "交通",
+      "能源",
+      "税务"
+    ]
+  },
+  {
+    "id": "he-rent-protection-proposal-2026",
+    "officialId": "Hessen MiSchuV Neufassung / Entwurf 2026",
+    "title": "黑森拟将租客保护扩至 71 个市镇",
+    "originalTitle": "Geplante Neufassung der Mieterschutzverordnung",
+    "region": "DE-HE",
+    "topic": "住房",
+    "phase": "pending",
+    "status": "拟议修订",
+    "summary": "黑森拟把新租约限价、普通涨租上限等保护从49个市镇扩到71个；但特定房屋产权转换再出售后的解约等待期拟从8年缩到6年。范围扩大和部分保护缩短同时发生，尚未通过。",
+    "before": "现行49个市镇适用新租约通常110%可比租金上限、普通涨租三年15%上限，以及符合条件的8年解约等待期。",
+    "after": "拟扩大到71个市镇；新租约限价延长3年，其他保护规定期限5年；特定解约等待期从8年缩到6年。",
+    "impact": "拟新增覆盖地区的租客，以及涉及住房产权转换的租赁关系。",
+    "limits": "官方预计2026年11月中旬提交内阁；这是预期时间，不是已经通过。不同变动对不同租客的影响可能不同。",
+    "verifiedAt": "2026-10-02",
+    "lastEventDate": "2026-10-02",
+    "effectiveDate": null,
+    "nextDate": null,
+    "nextLabel": "官方预计11月中旬内阁审议，具体日期未确认",
+    "disputed": false,
+    "dispute": "",
+    "sources": [
+      {
+        "id": "he-info",
+        "title": "黑森住房部门：现行条例与拟议修订",
+        "url": "https://wirtschaft.hessen.de/wohnen-und-bauen/wohnungsrecht/mieterschutzverordnung",
+        "publisher": "Hessen Wirtschaft",
+        "kind": "government",
+        "note": "支持页面中的政策事实；以原文适用范围为准。"
+      }
+    ],
+    "events": [
+      {
+        "id": "proposal-verified",
+        "date": "2026-10-02",
+        "kind": "proposal",
+        "title": "核实官方拟议修订说明",
+        "detail": "核实日：官方称8月已开展市镇前期参与，预计11月中旬由内阁通过。具体会议日期未确认。",
+        "sourceId": "he-info"
+      }
+    ],
+    "dateExplanation": "这是拟议方案，没有已确认的生效日。官方预计2026年11月中旬内阁审议，不能把预计时间当成已经通过。",
+    "rules": [
+      {
+        "title": "更多市镇拟进入保护范围",
+        "detail": "拟从49个扩到71个；名单和最终条文需等正式条例。",
+        "sourceId": "he-info"
+      },
+      {
+        "title": "部分买家可更早提出特定解约",
+        "detail": "入住后产权转换再出售的法定情形中，拟把等待期8年改为6年；对这类租客是保护时长缩短，并非所有变化都更有利。",
+        "sourceId": "he-info"
+      }
+    ],
+    "politics": {
+      "proposedBy": {
+        "name": "黑森州政府",
+        "party": null,
+        "sourceId": "he-info"
+      }
+    },
+    "tags": [
+      "租房",
+      "住房"
+    ]
+  },
+  {
+    "id": "de-crypto-holding-proposal",
+    "officialId": "BT-Drs. 21/5752",
+    "title": "取消加密资产持有期优惠的议案",
+    "originalTitle": "Gesetzentwurf für höhere Besteuerung von Kryptowerten",
+    "region": "DE",
+    "topic": "税务与加密资产",
+    "phase": "pending",
+    "status": "议案已提出 · 后续待核实",
+    "summary": "绿党议案主张对私人出售加密资产的所得，不论持有时间长短，适用个人所得税税率。",
+    "before": "按现行规则，私人持有的比特币等，购入超过一年再出售的增值，通常不按这一类私人出售交易征税。企业资产、其他收益和特殊代币须另查规则。",
+    "after": "该议案拟取消持有期因素；目前收录材料只证明议案已提出。",
+    "impact": "以私人财产持有和出售加密资产的人。",
+    "limits": "不等于现行规则已修改，也不与政府的其他税改设想合并。已查到的官方记录截至5月6日，后续办理状态仍需补证。",
+    "verifiedAt": "2026-10-02",
+    "lastEventDate": "2026-05-06",
+    "effectiveDate": null,
+    "nextDate": null,
+    "nextLabel": "核实21/5752的后续审议与表决记录",
+    "disputed": false,
+    "dispute": "",
+    "sources": [
+      {
+        "id": "crypto-proposal",
+        "title": "联邦议院：绿党加密资产税收法案",
+        "url": "https://www.bundestag.de/presse/hib/kurzmeldungen-1174328",
+        "publisher": "Deutscher Bundestag",
+        "kind": "parliament",
+        "note": "支持页面中的政策事实；以原文适用范围为准。"
+      },
+      {
+        "id": "crypto-current-tax",
+        "title": "财政部所得税手册：加密资产私人出售的一年期限",
+        "url": "https://amtliche-handbuecher.bundesfinanzministerium.de/esth/2025/B-Anhaenge/Anhang-04/anhang-4.html",
+        "publisher": "Bundesministerium der Finanzen",
+        "kind": "government",
+        "note": "第53段及相关段落说明私人出售的一年期限；不等于所有加密资产收入都一律免税。"
+      }
+    ],
+    "events": [
+      {
+        "id": "introduced",
+        "date": "2026-05-06",
+        "kind": "proposal",
+        "title": "联邦议院发布议案说明",
+        "detail": "议案编号21/5752；现有证据不支持标为已通过。",
+        "sourceId": "crypto-proposal"
+      }
+    ],
+    "dateExplanation": "目前只确认法案提出，没有可以标成已生效的日期。",
+    "politics": {
+      "proposedBy": {
+        "name": "联邦议院Bündnis 90/Die Grünen党团",
+        "party": "绿党",
+        "sourceId": "crypto-proposal"
+      }
+    },
+    "rules": [
+      {
+        "title": "现行持有期优惠是什么",
+        "detail": "按现行规则，私人持有的比特币等，购入超过一年再出售的增值，通常不按这一类私人出售交易征税。企业资产、其他收益和特殊代币须另查规则。",
+        "sourceId": "crypto-current-tax"
+      },
+      {
+        "title": "拟让私人出售加密资产不再按持有时间获得这项优惠",
+        "detail": "即使长期持有，出售收益也拟按个人所得税税率处理。这是该议案主张，不是本网站确认已经改变的现行法。",
+        "sourceId": "crypto-proposal"
+      }
+    ],
+    "tags": [
+      "投资",
+      "加密资产",
+      "税务"
+    ]
+  },
+  {
+    "id": "de-carf-agreement-2026",
+    "officialId": "BT-Drs. 21/7195",
+    "title": "加密资产国际信息交换协定待表决",
+    "originalTitle": "Mehrseitige Vereinbarung über den automatischen Austausch von Informationen nach dem Melderahmen für Kryptowerte",
+    "region": "DE",
+    "topic": "税务与加密资产",
+    "phase": "pending",
+    "status": "已排入表决议程",
+    "summary": "联邦议院公布了10月8日的表决安排，涉及2023年多边加密资产信息交换协定。",
+    "before": "德国已于2024年签署协定；签署不等于此次国内立法程序已经完成。",
+    "after": "拟通过法律落实该多边协定的国内批准程序，促进相关税务信息跨境交换。",
+    "impact": "加密资产信息申报及国际税务合作涉及的机构和用户。",
+    "limits": "议程可能调整；10月8日尚未到来，不能预先记录通过或否决。此事项与DAC8和持有期税改分开。",
+    "verifiedAt": "2026-10-02",
+    "lastEventDate": "2026-09-28",
+    "effectiveDate": null,
+    "nextDate": "2026-10-08",
+    "nextLabel": "联邦议院计划表决",
+    "disputed": false,
+    "dispute": "",
+    "sources": [
+      {
+        "id": "carf-parliament",
+        "title": "联邦议院：10月8日拟表决加密信息交换协定法案",
+        "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-de-kryptowerte-1217548",
+        "publisher": "Deutscher Bundestag",
+        "kind": "parliament",
+        "note": "支持页面中的政策事实；以原文适用范围为准。"
+      }
+    ],
+    "events": [
+      {
+        "id": "bill",
+        "date": "2026-07-16",
+        "kind": "proposal",
+        "title": "政府法案文件",
+        "detail": "法案编号21/7195。",
+        "sourceId": "carf-parliament"
+      },
+      {
+        "id": "agenda",
+        "date": "2026-09-28",
+        "kind": "proposal",
+        "title": "公布表决安排",
+        "detail": "议会预告10月8日审议表决。",
+        "sourceId": "carf-parliament"
+      },
+      {
+        "id": "vote",
+        "date": "2026-10-08",
+        "kind": "scheduled",
+        "title": "计划表决",
+        "detail": "表决结果尚未发生，届时回查官方记录。",
+        "sourceId": "carf-parliament"
+      }
+    ],
+    "dateExplanation": "2026年10月8日只是计划表决日；生效日和表决结果都尚未确认。",
+    "rules": [
+      {
+        "title": "让参与国税务机关自动交换加密资产申报信息",
+        "detail": "本案处理德国对多边协定的国内批准程序。它与平台如何收集信息、个人卖币如何缴税是相关但不同的事项。",
+        "sourceId": "carf-parliament"
+      }
+    ],
+    "politics": {
+      "proposedBy": {
+        "name": "德国联邦政府",
+        "party": null,
+        "sourceId": "carf-parliament"
+      }
+    },
+    "tags": [
+      "投资",
+      "加密资产",
+      "税务"
+    ]
+  },
+  {
+    "id": "nw-rent-cap-extension-2025",
+    "officialId": "GV. NRW. 2025 S. 848 / Verordnung vom 28. Oktober 2025",
+    "title": "北威州57个市镇的新租约租金上限延长至2029年底",
+    "originalTitle": "Verordnung zur Änderung der Mieterschutzverordnung NRW vom 28. Oktober 2025",
+    "region": "DE-NW",
+    "topic": "住房",
+    "phase": "adopted",
+    "status": "已生效",
+    "summary": "在条例列出的57个市镇，重新出租的普通住宅，起租租金原则上不能比当地同类住房的可比租金高出10%以上。这次只延长有效期，适用市镇没有改变。",
+    "before": "2025年3月起适用的57个市镇，原本只能执行这项新租约租金限制到2025年12月31日。",
+    "after": "2025年11月7日起生效的修订，把这项限制延长到2029年12月31日。它限制的是换租客时的起租租金，不是每年允许上涨10%。",
+    "impact": "在条例名单内市镇重新租房的人，以及出租这些住宅的房东。应先核对住房所在市镇是否在附件中。",
+    "limits": "新建住房、全面现代化后的首次出租、依法保留的既有较高租金等仍有法定例外。本次修订不改变已有租约涨租和产权转换后解约等待期的规则；也不能由此断言实际租金已经下降。 普通装修不等于法律所说的全面现代化改造。",
+    "verifiedAt": "2026-10-02",
+    "lastEventDate": "2025-11-07",
+    "effectiveDate": "2025-11-07",
+    "nextDate": "2029-12-31",
+    "nextLabel": "本次延长的新租约租金限制期限结束",
+    "disputed": false,
+    "dispute": "",
+    "sources": [
+      {
+        "id": "nw-amendment",
+        "title": "北威州法律公报：2025年第43期第848页",
+        "url": "https://recht.nrw.de/gvnrw/2025-s848/",
+        "publisher": "Ministerium des Innern Nordrhein-Westfalen",
+        "kind": "law",
+        "note": "修订只把2025改为2029；11月6日公布，次日生效。"
+      },
+      {
+        "id": "nw-reasons",
+        "title": "北威州延期条例的官方理由",
+        "url": "https://recht.nrw.de/system/files/2025-11/gv2025-43-1anlage.pdf",
+        "publisher": "Landesregierung Nordrhein-Westfalen",
+        "kind": "law",
+        "note": "确认57个市镇范围不变，本次仅延长新租约租金限制。"
+      },
+      {
+        "id": "nw-current",
+        "title": "北威州租客保护条例：2025年11月7日起文本",
+        "url": "https://recht.nrw.de/lrgv/rechtsverordnung/07112025-mieterschutzverordnung-nrw-mietschvo-nrw/",
+        "publisher": "RECHT.NRW",
+        "kind": "law",
+        "note": "现行条例及其生效、到期、过渡规则；附件列适用市镇。"
+      },
+      {
+        "id": "bgb-rent",
+        "title": "德国民法典第556d至556f条：新租约租金限制及例外",
+        "url": "https://www.gesetze-im-internet.de/bgb/__556d.html",
+        "publisher": "Gesetze im Internet",
+        "kind": "law",
+        "note": "起租租金原则上不超过当地可比租金110%；例外见相邻556e和556f条。"
+      }
+    ],
+    "events": [
+      {
+        "id": "issued",
+        "date": "2025-10-28",
+        "kind": "adopted",
+        "title": "州政府制定延期条例",
+        "detail": "决定将新租约租金限制的截止日期延至2029年底，57个市镇名单保持不变。",
+        "sourceId": "nw-amendment"
+      },
+      {
+        "id": "published",
+        "date": "2025-11-06",
+        "kind": "published",
+        "title": "法律公报公布",
+        "detail": "GV. NRW. 2025第43期，第848页。",
+        "sourceId": "nw-amendment"
+      },
+      {
+        "id": "effective",
+        "date": "2025-11-07",
+        "kind": "effective",
+        "title": "本次延期修订开始生效",
+        "detail": "第2条规定公布次日生效；这不是原有租客保护第一次开始的日期。",
+        "sourceId": "nw-amendment"
+      },
+      {
+        "id": "expiry",
+        "date": "2029-12-31",
+        "kind": "scheduled",
+        "title": "新租约租金限制期限结束",
+        "detail": "是否再次延期需另行核实。",
+        "sourceId": "nw-current"
+      }
+    ],
+    "dateExplanation": "2025年11月7日是本次延期修订开始生效；2029年12月31日是新的结束日期，不是开始日期。",
+    "politics": {
+      "proposedBy": {
+        "name": "Landesregierung Nordrhein-Westfalen（条例制定机关）",
+        "party": null,
+        "sourceId": "nw-amendment"
+      }
+    },
+    "tags": [
+      "租房",
+      "住房"
+    ]
+  },
+  {
+    "id": "rp-rent-cap-2025",
+    "officialId": "GVBl. Rheinland-Pfalz 2025 S. 537 / Mietpreisbegrenzungsverordnung vom 16. September 2025",
+    "title": "莱法州把新租约租金上限扩大到沃尔姆斯等地区",
+    "originalTitle": "Landesverordnung über die Bestimmung der Gebiete mit Mietpreisbegrenzung nach § 556d BGB vom 16. September 2025",
+    "region": "DE-RP",
+    "topic": "住房",
+    "phase": "adopted",
+    "status": "已生效",
+    "summary": "美因茨、兰道、路德维希港、施派尔、沃尔姆斯，以及阿尔蔡-沃尔姆斯县和莱茵-普法尔茨县所有市镇，重新出租的普通住宅起租价原则上不得超过当地可比租金的110%。",
+    "before": "旧名单包含特里尔。新一轮调整前，沃尔姆斯和上述两个县尚未纳入这一版新增范围，旧条例期限也即将结束。",
+    "after": "2025年10月8日起执行新名单，并延续至2029年12月31日。新增沃尔姆斯和两个县；特里尔因评估不再符合条件而退出。",
+    "impact": "上述地区寻找出租住房的人和房东。比如当地同类住房可比租金为每平方米10欧元，通常起租租金上限就是11欧元；法定例外另算。",
+    "limits": "它管换租客时的起租价格，不是把已签合同自动降租，也不是全州统一限价。新建、全面现代化后首次出租、符合条件的既有较高租金等有例外。已有租约涨租上限属于另一套规则。 普通装修不等于法律所说的全面现代化改造。",
+    "verifiedAt": "2026-10-02",
+    "lastEventDate": "2025-10-08",
+    "effectiveDate": "2025-10-08",
+    "nextDate": "2029-12-31",
+    "nextLabel": "本条例规定的有效期结束",
+    "disputed": false,
+    "dispute": "",
+    "sources": [
+      {
+        "id": "rp-law",
+        "title": "莱法州法律公报：2025年9月25日第18期，第537页",
+        "url": "https://lfbk.rlp.de/fileadmin/lfbk/Service/Dokumente/GVBl.Nr._18_vom_25.09.2025.pdf",
+        "publisher": "Land Rheinland-Pfalz",
+        "kind": "law",
+        "note": "PDF第26页列条例正文、适用地区和2025-10-08至2029-12-31期限；后续页为官方理由。"
+      },
+      {
+        "id": "rp-ministry",
+        "title": "莱法州住房部门：现行租客保护规则",
+        "url": "https://mkbwk.rlp.de/themen/bauen-und-wohnen/rheinland-pfaelzische-mieterschutzregelungen",
+        "publisher": "Ministerium für Kommunen, Bauen, Wohnen und Kultur Rheinland-Pfalz",
+        "kind": "government",
+        "note": "确认2025年9月16日条例、适用名单和生效期限。"
+      },
+      {
+        "id": "rp-change",
+        "title": "莱法州内阁：更新租金刹车范围",
+        "url": "https://fm.rlp.de/service/presse/detail/ministerrat-beschliesst-neue-mietpreisbegrenzungsverordnung-fuer-rheinland-pfalz",
+        "publisher": "Ministerium der Finanzen Rheinland-Pfalz",
+        "kind": "government",
+        "note": "9月9日是草案同意，不作为最终签署日期；用于说明新增地区和特里尔退出的理由。"
+      }
+    ],
+    "events": [
+      {
+        "id": "issued",
+        "date": "2025-09-16",
+        "kind": "adopted",
+        "title": "州政府制定新版条例",
+        "detail": "最终条例日期为9月16日，不把9月9日的草案同意当作正式条例日期。",
+        "sourceId": "rp-law"
+      },
+      {
+        "id": "published",
+        "date": "2025-09-25",
+        "kind": "published",
+        "title": "法律公报公布",
+        "detail": "在州法律公报第537页公布。",
+        "sourceId": "rp-law"
+      },
+      {
+        "id": "effective",
+        "date": "2025-10-08",
+        "kind": "effective",
+        "title": "新名单和新期限开始适用",
+        "detail": "新增沃尔姆斯和两个县，特里尔退出；起租租金限制按新范围执行。",
+        "sourceId": "rp-law"
+      },
+      {
+        "id": "expiry",
+        "date": "2029-12-31",
+        "kind": "scheduled",
+        "title": "条例有效期结束",
+        "detail": "是否接续须以新条例为准。",
+        "sourceId": "rp-law"
+      }
+    ],
+    "dateExplanation": "2025年10月8日是新版条例和名单开始适用日；2029年12月31日是当前确定的期限结束日。",
+    "politics": {
+      "proposedBy": {
+        "name": "Landesregierung Rheinland-Pfalz（条例制定机关）",
+        "party": null,
+        "sourceId": "rp-law"
+      }
+    },
+    "tags": [
+      "租房",
+      "住房"
+    ]
+  },
+  {
+    "id": "bw-rent-cap-2026",
+    "officialId": "GBl. Baden-Württemberg 2025 Nr. 144",
+    "title": "巴符州130个市镇执行新租约租金上限，期限至2026年底",
+    "originalTitle": "Mietpreisbegrenzungsverordnung Baden-Württemberg vom 16. Dezember 2025",
+    "region": "DE-BW",
+    "topic": "住房",
+    "phase": "adopted",
+    "status": "已生效",
+    "summary": "在新名单的130个市镇，普通住宅重新出租时，租金原则上最多比当地同类住房的可比租金高10%。名单有进有出，不能认为原来的89个市镇全部保留。",
+    "before": "2025年的条例覆盖89个市镇，到2025年12月31日结束。",
+    "after": "2026年1月1日起改为130个市镇：46个保留、84个新增、43个退出。新版条例先执行到2026年12月31日。",
+    "impact": "新名单内寻找出租住房的人，以及此前受保护但所在市镇已退出名单的租客；应按实际租约时间和地点核对。",
+    "limits": "不是每年可以涨10%，也不会让现有合同自动降租。新建住房、全面现代化后的首次出租、符合条件的较高既有租金等有例外。2027年接续方案目前只进入听证，不能提前视为通过。 普通装修不等于法律所说的全面现代化改造。",
+    "verifiedAt": "2026-10-02",
+    "lastEventDate": "2026-09-22",
+    "effectiveDate": "2026-01-01",
+    "nextDate": "2026-12-31",
+    "nextLabel": "本条例到期；接续草案仍需通过",
+    "disputed": false,
+    "dispute": "",
+    "sources": [
+      {
+        "id": "bw-law",
+        "title": "巴符州法律公报2025年第144号",
+        "url": "https://www.baden-wuerttemberg.de/de/service/gesetze-und-verordnungen/gesetzblatt/detail/2025-144",
+        "publisher": "Staatsministerium Baden-Württemberg",
+        "kind": "law",
+        "note": "官方页面及所附PDF：12月16日签署、12月19日公布，第2条规定2026-01-01生效、2026-12-31到期。"
+      },
+      {
+        "id": "bw-adoption",
+        "title": "巴符州：租金刹车延长一年并更新名单",
+        "url": "https://mlw.baden-wuerttemberg.de/de/service/presse-und-oeffentlichkeitsarbeit/pressemitteilung/pid/mietpreisbremse-wird-um-ein-jahr-verlaengert",
+        "publisher": "Ministerium für Landesentwicklung und Wohnen Baden-Württemberg",
+        "kind": "government",
+        "note": "2025-12-16发布，说明130市镇及84新增、43退出；不得把页面对其它法律的一般性概述当作本条例内容。"
+      },
+      {
+        "id": "bw-current",
+        "title": "巴符州住房部门：租金刹车现行规则与后续听证",
+        "url": "https://mlw.baden-wuerttemberg.de/de/bauen-wohnen/wohnungsbau/mietpreisbremse/",
+        "publisher": "Ministerium für Landesentwicklung und Wohnen Baden-Württemberg",
+        "kind": "government",
+        "note": "确认2026-09-22接续草案进入听证；页面有一处将2025-12-16误写成2026-12-16，生效证据采用公报和原新闻稿。"
+      }
+    ],
+    "events": [
+      {
+        "id": "issued",
+        "date": "2025-12-16",
+        "kind": "adopted",
+        "title": "州政府制定新版条例",
+        "detail": "采用新的市镇名单，延长租金上限一年。",
+        "sourceId": "bw-law"
+      },
+      {
+        "id": "published",
+        "date": "2025-12-19",
+        "kind": "published",
+        "title": "法律公报公布",
+        "detail": "GBl. 2025 Nr. 144。",
+        "sourceId": "bw-law"
+      },
+      {
+        "id": "effective",
+        "date": "2026-01-01",
+        "kind": "effective",
+        "title": "本版条例开始生效",
+        "detail": "130个市镇按新版名单执行；旧名单不再直接沿用。",
+        "sourceId": "bw-law"
+      },
+      {
+        "id": "successor-hearing",
+        "date": "2026-09-22",
+        "kind": "proposal",
+        "title": "接续草案进入听证",
+        "detail": "州政府批准把2027年接续草案交付听证，尚不能认定接续条例已通过。",
+        "sourceId": "bw-current"
+      },
+      {
+        "id": "expiry",
+        "date": "2026-12-31",
+        "kind": "scheduled",
+        "title": "本版条例有效期结束",
+        "detail": "继续回查2027年接续条例是否正式公布。",
+        "sourceId": "bw-law"
+      }
+    ],
+    "dateExplanation": "2026年1月1日是本版条例开始生效，12月31日到期。2027年接续方案尚在听证，不能当作已延长。",
+    "politics": {
+      "proposedBy": {
+        "name": "Landesregierung Baden-Württemberg（条例制定机关）",
+        "party": null,
+        "sourceId": "bw-law"
+      }
+    },
+    "tags": [
+      "租房",
+      "住房"
+    ]
+  },
+  {
+    "id": "sl-cleaning-public-contract-wages-2025",
+    "officialId": "Amtsblatt des Saarlandes I 2025 S. 275 / Dritte Gebäudereinigungs-Verordnung vom 9. März 2025",
+    "title": "萨尔公共清洁项目：普通室内清洁时薪底线升至€15",
+    "originalTitle": "Dritte Verordnung über zwingende Arbeitsbedingungen für die Ausführung öffentlicher Aufträge im Gebäudereinigerhandwerk vom 9. März 2025",
+    "region": "DE-SL",
+    "topic": "工作与收入",
+    "phase": "adopted",
+    "status": "已生效",
+    "summary": "承接萨尔州相关公共清洁订单的企业，要按州条例给执行订单的员工支付规定工资。普通室内和日常保洁这一档，2026年1月起税前时薪为15欧元。",
+    "before": "本条例2025年执行的普通室内及日常保洁工资档为每小时税前14.25欧元。",
+    "after": "同一工资档从2026年1月1日起升至税前15欧元，即每小时增加0.75欧元；不同清洁任务对应不同工资档，不能一概按最低档计算。",
+    "impact": "执行适用公共订单的清洁员工、承包企业及分包企业。它是公共采购履约条件的一部分，重点是政府订单不能靠压低约定劳动条件来竞争。",
+    "limits": "这条州条例只针对其定义的公共采购和清洁业务范围，不是给萨尔所有雇员设定15欧元统一最低工资。全国或行业另有更高强制工资时，仍须遵守；本文只举普通室内保洁这一档，不能据此确定其他工种工资。",
+    "verifiedAt": "2026-10-02",
+    "lastEventDate": "2026-01-01",
+    "effectiveDate": "2025-04-01",
+    "nextDate": null,
+    "nextLabel": "继续关注本行业公共采购劳动条件更新",
+    "disputed": false,
+    "dispute": "",
+    "sources": [
+      {
+        "id": "sl-clean-law",
+        "title": "萨尔州公报：第三次公共清洁订单劳动条件条例",
+        "url": "https://www.saarland.de/SharedDocs/Downloads/DE/masfg/tariftreue/vo/dld_dritte_vo_gebaudereinigung.pdf?__blob=publicationFile&v=2",
+        "publisher": "Ministerium für Arbeit, Soziales, Frauen und Gesundheit Saarland",
+        "kind": "law",
+        "note": "官方公报副本第275页起；第3条工资表列普通室内保洁14.25及15.00欧元，2026年1月1日执行第二档。当前直接抓取返回403，文本经官方文件的搜索索引核实。"
+      },
+      {
+        "id": "sl-register",
+        "title": "萨尔州劳动部门：公共采购劳动条件条例目录",
+        "url": "https://www.saarland.de/masfg/DE/portale/arbeit/tarifregister/tariftreuegesetz/tariftreuegesetz",
+        "publisher": "Ministerium für Arbeit, Soziales, Frauen und Gesundheit Saarland",
+        "kind": "government",
+        "note": "官方目录确认第三次清洁行业条例自2025-04-01有效，不把工资表中更早的基准日误当作条例生效日。"
+      }
+    ],
+    "events": [
+      {
+        "id": "issued",
+        "date": "2025-03-09",
+        "kind": "adopted",
+        "title": "劳动部门制定条例",
+        "detail": "明确公共清洁订单应执行的工资等劳动条件。",
+        "sourceId": "sl-clean-law"
+      },
+      {
+        "id": "published",
+        "date": "2025-03-27",
+        "kind": "published",
+        "title": "州公报公布",
+        "detail": "Amtsblatt I，第275页起。",
+        "sourceId": "sl-clean-law"
+      },
+      {
+        "id": "effective",
+        "date": "2025-04-01",
+        "kind": "effective",
+        "title": "本条例开始生效",
+        "detail": "以劳动部门官方目录列明的有效日期为准。",
+        "sourceId": "sl-register"
+      },
+      {
+        "id": "wage-step",
+        "date": "2026-01-01",
+        "kind": "effective",
+        "title": "第二阶段工资标准开始适用",
+        "detail": "普通室内和日常清洁工资档由14.25升至15.00欧元/小时，均为税前。",
+        "sourceId": "sl-clean-law"
+      }
+    ],
+    "dateExplanation": "条例本身从2025年4月1日生效；标题所说的15欧元工资档，从2026年1月1日开始适用。两者不是同一天。",
+    "politics": {
+      "proposedBy": {
+        "name": "Ministerium für Arbeit, Soziales, Frauen und Gesundheit Saarland（条例制定机关）",
+        "party": null,
+        "sourceId": "sl-clean-law"
+      }
+    },
+    "tags": [
+      "工作",
+      "工资",
+      "公共采购"
+    ]
+  },
+  {
+    "id": "sh-new-homes-solar-2025",
+    "officialId": "GVOBl. Schl.-H. 2025/26; EWKG § 26",
+    "title": "石荷州新建住宅也要配太阳能设备，旧住宅修屋顶不因此强制安装",
+    "originalTitle": "Gesetz zur Änderung des Energiewende- und Klimaschutzgesetzes Schleswig-Holstein und zur Aufhebung und Anpassung weiterer Rechtsvorschriften – Photovoltaikpflicht bei Gebäuden",
+    "region": "DE-SH",
+    "topic": "消费与环境",
+    "phase": "adopted",
+    "status": "已生效",
+    "summary": "新建住宅原则上要在适合的屋顶区域安装并运行太阳能发电设备。修法于2025年3月29日生效，但在随后一年内已提交建房申请、申报或实际开工的住宅项目可获过渡豁免。",
+    "before": "这次修法前，州里的屋顶太阳能安装义务没有普遍覆盖新建住宅。",
+    "after": "义务扩展到新建住宅；非住宅翻修超过10%的屋顶，也可能触发安装义务。业主可让第三方安装运营，也可用法律认可的其他太阳能方案履行。",
+    "impact": "准备在石荷州新建住房的业主和开发商，需要把设备及相关成本纳入建房计划。",
+    "limits": "普通旧住宅仅翻修屋顶不触发这项义务。只有适合利用太阳能的部分受约束；确实无法安装或造成不合理负担时，可向建筑主管部门申请豁免。页面的开始日期指这次修法生效，不表示所有住宅从当天起都必须安装。",
+    "verifiedAt": "2026-10-02",
+    "lastEventDate": "2025-03-29",
+    "effectiveDate": "2025-03-29",
+    "nextDate": null,
+    "nextLabel": "继续核对实施细则与豁免规则",
+    "disputed": false,
+    "dispute": "",
+    "sources": [
+      {
+        "id": "sh-solar-law",
+        "title": "2025/26号法律公报：EWKG修法全文",
+        "url": "https://verkuendungsportal.schleswig-holstein.de/home/gvobl/veroeffentlichungen/2025/2025_maerz/2025-26_maerz28.pdf?__blob=publicationFile",
+        "publisher": "Verkündungsportal Schleswig-Holstein",
+        "kind": "law",
+        "note": "第34—35页的§26规定住宅太阳能义务、替代措施及一年过渡豁免；末页第5条规定公布次日生效。"
+      },
+      {
+        "id": "sh-solar-faq",
+        "title": "州政府解答：哪些建筑必须安装太阳能",
+        "url": "https://www.schleswig-holstein.de/DE/fachinhalte/E/energiewende/_faqs_ewkg/faq_ewkg_pv/faq_ewkg_pv_gebaeude/akkordeon_faq_ewkg_pv_gebaeude",
+        "publisher": "Landesregierung Schleswig-Holstein",
+        "kind": "government",
+        "note": "明确旧住宅屋顶翻修不受此安装义务约束，并说明屋顶适用范围、替代方案及过渡安排。"
+      }
+    ],
+    "events": [
+      {
+        "id": "published",
+        "date": "2025-03-28",
+        "kind": "published",
+        "title": "修法正式公布",
+        "detail": "2025/26号法律公报刊登3月25日签署的EWKG修法。",
+        "sourceId": "sh-solar-law"
+      },
+      {
+        "id": "effective",
+        "date": "2025-03-29",
+        "kind": "effective",
+        "title": "本次修法开始生效",
+        "detail": "依第5条于公布次日生效；新建住宅另有一年内提交申请、申报或开工的过渡豁免。",
+        "sourceId": "sh-solar-law"
+      }
+    ],
+    "dateExplanation": "2025年3月29日是修法开始生效日。新建住宅另有一年内申请、申报或开工的过渡豁免，不是当天起所有项目都必须安装。",
+    "tags": [
+      "住房",
+      "能源",
+      "环境"
+    ]
+  },
+  {
+    "id": "hh-rent-cap-2026",
+    "officialId": "Mietpreisbegrenzungsverordnung vom 25. November 2025; HmbGVBl. 2025 S. 684",
+    "title": "汉堡续行新租约租金上限：通常最多为当地可比租金的110%",
+    "originalTitle": "Verordnung zur zulässigen Miethöhe bei Mietbeginn nach § 556d des Bürgerlichen Gesetzbuchs vom 25. November 2025",
+    "region": "DE-HH",
+    "topic": "住房",
+    "phase": "adopted",
+    "status": "已生效",
+    "summary": "汉堡全市把新租约的租金刹车续到2029年底：普通住宅换租客时，新租金原则上不得超过当地同类住房可比租金的110%。这次延长没有把上限降得更低。",
+    "before": "上一轮全市适用的条例到2025年12月31日结束。",
+    "after": "新条例从2026年1月1日接续实施，至2029年12月31日结束。比如一套住房依法确定的可比净冷租是每平方米10欧元，一般上限就是11欧元。",
+    "impact": "在汉堡重新签普通住宅租约的人及其房东；全市都在指定范围内。",
+    "limits": "这是新租约起始租金的规则，不能理解为现有租约每年都可涨10%。2014年10月1日后首次使用并出租的住房、全面现代化改造后首次出租、符合条件的原有较高租金等仍有联邦法例外；比较的是净冷租，不是把取暖费等也加进去的总租金。 普通装修不等于法律所说的全面现代化改造。",
+    "verifiedAt": "2026-10-02",
+    "lastEventDate": "2026-01-01",
+    "effectiveDate": "2026-01-01",
+    "nextDate": "2029-12-31",
+    "nextLabel": "本轮条例期限结束",
+    "disputed": false,
+    "dispute": "",
+    "sources": [
+      {
+        "id": "hh-rent-senate",
+        "title": "汉堡州政府：租金刹车延续至2029年底",
+        "url": "https://www.hamburg.de/politik-und-verwaltung/behoerden/behoerde-fuer-stadtentwicklung-und-wohnen/aktuelles/pressemeldungen/senat-erlaesst-mietpreisbegrenzungsverordnung-bis-ende-2029-1120602",
+        "publisher": "Behörde für Stadtentwicklung und Wohnen Hamburg",
+        "kind": "government",
+        "note": "2025年11月25日说明已正式颁布条例，适用全市，普通新租约以可比租金加10%为上限。"
+      },
+      {
+        "id": "hh-rent-law",
+        "title": "汉堡2025年第41号法律公报，第684页起",
+        "url": "https://www.hamburg.de/resource/blob/1127230/f4eeaf811b75b9b992bc00add53192d9/d-hmbgvbl-nr-41-dezember-2025-data.pdf",
+        "publisher": "Hamburgisches Gesetz- und Verordnungsblatt",
+        "kind": "law",
+        "note": "第684页§2写明2026年1月1日生效及2029年12月31日到期；附件说明净冷租口径及联邦法例外。"
+      }
+    ],
+    "events": [
+      {
+        "id": "issued",
+        "date": "2025-11-25",
+        "kind": "adopted",
+        "title": "州政府正式颁布接续条例",
+        "detail": "汉堡Senat以条例将全市租金刹车延续至2029年底。",
+        "sourceId": "hh-rent-senate"
+      },
+      {
+        "id": "published",
+        "date": "2025-12-02",
+        "kind": "published",
+        "title": "条例刊登法律公报",
+        "detail": "公布于HmbGVBl. 2025年第41号，第684页起。",
+        "sourceId": "hh-rent-law"
+      },
+      {
+        "id": "effective",
+        "date": "2026-01-01",
+        "kind": "effective",
+        "title": "本轮条例开始生效",
+        "detail": "接替到2025年底结束的旧条例；不是汉堡第一次开始实行租金刹车。",
+        "sourceId": "hh-rent-law"
+      },
+      {
+        "id": "expiry",
+        "date": "2029-12-31",
+        "kind": "scheduled",
+        "title": "本轮条例到期",
+        "detail": "现行条例规定当日结束时失效；是否再次延长须跟踪后续法律。",
+        "sourceId": "hh-rent-law"
+      }
+    ],
+    "dateExplanation": "2026年1月1日是本轮续期条例开始生效，接替上一版；不是汉堡首次实施限价。2029年12月31日是本轮结束日。",
+    "politics": {
+      "proposedBy": {
+        "name": "Senat der Freien und Hansestadt Hamburg",
+        "party": null,
+        "sourceId": "hh-rent-law"
+      }
+    },
+    "tags": [
+      "租房",
+      "住房"
+    ]
+  },
+  {
+    "id": "hb-rent-cap-2025",
+    "officialId": "Mietenbegrenzungsverordnung vom 18. November 2025; Brem.GBl. 2025 S. 1254",
+    "title": "不来梅市续行租金刹车至2029年底，不包括不来梅港",
+    "originalTitle": "Verordnung über die zulässige Miethöhe gemäß § 556d Absatz 2 des Bürgerlichen Gesetzbuchs vom 18. November 2025",
+    "region": "DE-HB",
+    "topic": "住房",
+    "phase": "adopted",
+    "status": "已生效",
+    "summary": "在不来梅市，新签普通住宅租约时，租金原则上不得高于当地同类住房可比租金的110%。新条例把这项保护接续到2029年底；同属该州的不来梅港没有被纳入。",
+    "before": "此前不来梅市已经实施新租约租金限制，但联邦此前的授权只支持到2025年底。",
+    "after": "本轮条例于2025年12月1日开始生效，延续同样的10%上浮上限，到2029年12月31日结束。比如可比净冷租为每平方米10欧元，通常上限为11欧元。",
+    "impact": "在不来梅市找房并签新租约的人及房东；需要先确认房屋位于Stadtgemeinde Bremen。",
+    "limits": "不覆盖不来梅港。它限制换租客时的新租金，不是对所有租约一律降租。2014年10月1日后首次使用并出租的住房、全面现代化改造后首次出租及符合条件的原有较高租金等有例外；现有租约涨租上限由另一套规则管理。 普通装修不等于法律所说的全面现代化改造。",
+    "verifiedAt": "2026-10-02",
+    "lastEventDate": "2025-12-01",
+    "effectiveDate": "2025-12-01",
+    "nextDate": "2029-12-31",
+    "nextLabel": "本轮条例期限结束",
+    "disputed": false,
+    "dispute": "",
+    "sources": [
+      {
+        "id": "hb-rent-law",
+        "title": "不来梅透明门户：2025年11月18日租金限制条例",
+        "url": "https://www.transparenz.bremen.de/metainformationen/verordnung-ueber-die-zulaessige-miethoehe-gemaess-556d-absatz-2-des-buergerlichen-gesetzbuchs-mietenbegrenzungsverordnung-vom-18-november-2025-306286?template=20_gp_ifg_meta_detail_d",
+        "publisher": "Transparenzportal Bremen",
+        "kind": "law",
+        "note": "§1只指定不来梅市；§2、§3列出结束与开始日期。附件A解释10%上限、新租约适用范围及例外。"
+      }
+    ],
+    "events": [
+      {
+        "id": "issued",
+        "date": "2025-11-18",
+        "kind": "adopted",
+        "title": "州政府颁布条例",
+        "detail": "Senat颁布新一轮Mietenbegrenzungsverordnung，法规日期为11月18日。",
+        "sourceId": "hb-rent-law"
+      },
+      {
+        "id": "effective",
+        "date": "2025-12-01",
+        "kind": "effective",
+        "title": "本轮条例开始生效",
+        "detail": "§3规定从12月1日开始适用；不是整个不来梅州都适用。",
+        "sourceId": "hb-rent-law"
+      },
+      {
+        "id": "expiry",
+        "date": "2029-12-31",
+        "kind": "scheduled",
+        "title": "本轮条例到期",
+        "detail": "按§2于当日结束时失效。",
+        "sourceId": "hb-rent-law"
+      }
+    ],
+    "dateExplanation": "2025年12月1日是本轮条例开始生效；2029年12月31日是期限结束。只有不来梅市在本条例范围内。",
+    "politics": {
+      "proposedBy": {
+        "name": "Senat der Freien Hansestadt Bremen",
+        "party": null,
+        "sourceId": "hb-rent-law"
+      }
+    },
+    "tags": [
+      "租房",
+      "住房"
+    ]
+  },
+  {
+    "id": "ni-building-rules-2025",
+    "officialId": "Nds. GVBl. 2025 Nr. 52; Änderung der Niedersächsischen Bauordnung",
+    "title": "下萨克森放宽阁楼改住房限制，部分小型建造免办建筑许可",
+    "originalTitle": "Änderung der Niedersächsischen Bauordnung 2025",
+    "region": "DE-NI",
+    "topic": "住房",
+    "phase": "adopted",
+    "status": "已生效",
+    "summary": "州里修改楼层计算方式，让部分阁楼可改成住房而不必先修改城市规划；并扩大免办建筑许可的小型工程范围，例如满足面积、高度及地界距离条件的露台顶棚、冬季花园。",
+    "before": "一些阁楼改建会因规划允许的完整楼层数量而被卡住；免办建筑许可的工程范围也较窄。",
+    "after": "2025年7月1日起，按新规则认定阁楼是否算一个完整楼层。符合条件的露台顶棚可到40平方米，冬季花园可到30平方米、高5米，且都须离邻地边界至少3米，才进入相应免许可范围。",
+    "impact": "打算把阁楼变成住房，或修建露台顶棚、冬季花园的业主，可少走部分审批程序。",
+    "limits": "免办建筑许可不等于可以随便建：规划、消防、结构安全和邻地规则仍须满足。不是所有阁楼都不算楼层，也不是每座冬季花园都免许可。这里跟踪2025年这次修法，不把2024年的其他放宽措施当作本次新增。",
+    "verifiedAt": "2026-10-02",
+    "lastEventDate": "2025-07-01",
+    "effectiveDate": "2025-07-01",
+    "nextDate": null,
+    "nextLabel": "关注实施解释及后续修法",
+    "disputed": false,
+    "dispute": "",
+    "sources": [
+      {
+        "id": "ni-building-faq",
+        "title": "州建筑主管部门：NBauO问答，2026年1月30日版",
+        "url": "https://www.mw.niedersachsen.de/download/225899",
+        "publisher": "Niedersächsisches Ministerium für Wirtschaft, Verkehr und Bauen",
+        "kind": "government",
+        "note": "第12页确认2025年6月24日州议会通过、7月1日生效；第17—19页解释阁楼，第56—59页解释免许可工程及继续适用的建筑要求。"
+      },
+      {
+        "id": "ni-building-law",
+        "title": "下萨克森2025年第52号法律公报",
+        "url": "https://www.verkuendung-niedersachsen.de/ndsgvbl/2025/52/",
+        "publisher": "Verkündungsplattform Niedersachsen",
+        "kind": "law",
+        "note": "州主管部门问答页面链接的正式修法公报入口；页面依赖脚本，具体事实本次以可读取的官方问答PDF核对。"
+      }
+    ],
+    "events": [
+      {
+        "id": "adopted",
+        "date": "2025-06-24",
+        "kind": "adopted",
+        "title": "州议会通过修法",
+        "detail": "官方问答记载由SPD与绿党议会党团提出的19/6816号方案在这天获州议会通过。",
+        "sourceId": "ni-building-faq"
+      },
+      {
+        "id": "effective",
+        "date": "2025-07-01",
+        "kind": "effective",
+        "title": "本次建筑条例修法开始生效",
+        "detail": "适用新的阁楼认定方式及扩大的免许可工程目录。",
+        "sourceId": "ni-building-faq"
+      }
+    ],
+    "dateExplanation": "2025年7月1日是本次建筑条例修法开始生效，适用新的阁楼与免许可规则。",
+    "politics": {
+      "proposedBy": {
+        "name": "SPD-Fraktion、Fraktion Bündnis 90/Die Grünen",
+        "party": "SPD、绿党",
+        "sourceId": "ni-building-faq"
+      }
+    },
+    "tags": [
+      "住房",
+      "建筑"
+    ]
+  },
+  {
+    "id": "mv-public-contract-wage-2026",
+    "officialId": "TVgG M-V § 8; Vergabemindestlohn-Anpassung zum 1. Oktober 2026",
+    "title": "梅前州政府采购用工最低时薪升至15.27欧元",
+    "originalTitle": "Anpassung des vergaberechtlichen Mindestlohns in Mecklenburg-Vorpommern zum 1. Oktober 2026",
+    "region": "DE-MV",
+    "topic": "工作与收入",
+    "phase": "adopted",
+    "status": "已生效",
+    "summary": "从2026年10月1日起，为梅前州或当地市镇执行适用公共采购合同、又没有相关集体工资协议的员工，合同要求的最低税前时薪由14.68欧元升至15.27欧元。",
+    "before": "本次上调前，适用的公共采购最低税前时薪为14.68欧元。",
+    "after": "每小时提高0.59欧元。企业参加适用采购项目时，需要承诺在履行合同时按15.27欧元的最低标准支付；该标准按工资水平变化定期调整。",
+    "impact": "承接州政府或市镇适用采购项目的企业，以及实际执行这些合同的员工。",
+    "limits": "这不是把全州所有人的法定最低工资改成15.27欧元。是否适用取决于采购法和合同范围；有适用集体工资协议的，须按相应规则核算，不能用这个数字替代更高的应付工资。开始日期指本次金额调整，不是采购法最初施行日期。",
+    "verifiedAt": "2026-10-02",
+    "lastEventDate": "2026-10-01",
+    "effectiveDate": "2026-10-01",
+    "nextDate": null,
+    "nextLabel": "跟踪下一次年度金额调整",
+    "disputed": false,
+    "dispute": "",
+    "sources": [
+      {
+        "id": "mv-wage-announcement",
+        "title": "州政府宣布采购最低工资升至15.27欧元",
+        "url": "https://www.regierung-mv.de/Aktuell/?id=222836&processor=processor.sa.pressemitteilung",
+        "publisher": "Staatskanzlei Mecklenburg-Vorpommern",
+        "kind": "government",
+        "note": "2026年8月25日公告明确原金额、新金额、10月1日开始日期以及没有适用集体工资协议时的范围。"
+      },
+      {
+        "id": "mv-wage-form",
+        "title": "2026年10月1日版采购工资承诺表",
+        "url": "https://www.regierung-mv.de/static/Regierungsportal/Ministerium%20f%C3%BCr%20Wirtschaft,%20Arbeit%20und%20Gesundheit/Dateien/Oeffentliches%20Auftragswesen/%C3%96ffentliches_Auftragswesen_-_Erkl%C3%A4rungen_nach_Tariftreue-_und_Vergabegesetz_MV_Stand_01.10.2026.pdf",
+        "publisher": "Wirtschaftsministerium Mecklenburg-Vorpommern",
+        "kind": "government",
+        "note": "第2页采购承诺条款已写入每小时税前15.27欧元，用于确认金额已进入实际执行文件。"
+      }
+    ],
+    "events": [
+      {
+        "id": "announced",
+        "date": "2026-08-25",
+        "kind": "published",
+        "title": "州政府公布本轮金额调整",
+        "detail": "公告确认10月1日起从14.68欧元升至15.27欧元。",
+        "sourceId": "mv-wage-announcement"
+      },
+      {
+        "id": "effective",
+        "date": "2026-10-01",
+        "kind": "effective",
+        "title": "新金额开始适用",
+        "detail": "官方采购工资承诺表的10月1日版本列入每小时税前15.27欧元。",
+        "sourceId": "mv-wage-form"
+      }
+    ],
+    "dateExplanation": "2026年10月1日指本次15.27欧元金额调整开始适用，不是公共采购法最早开始实施的日期。",
+    "tags": [
+      "工作",
+      "工资",
+      "公共采购"
+    ]
+  },
+  {
+    "id": "be-rent-brake-2026",
+    "officialId": "Mietenbegrenzungsverordnung Berlin vom 11. November 2025",
+    "title": "柏林新租约租金上限继续适用到2029年底",
+    "originalTitle": "Verordnung zur zulässigen Miethöhe bei Mietbeginn gemäß § 556d Absatz 2 BGB vom 11. November 2025",
+    "region": "DE-BE",
+    "topic": "住房",
+    "phase": "adopted",
+    "status": "已生效",
+    "summary": "在柏林重新出租住房时，新合同起租价原则上最多比当地同类住房的可比租金高10%。新版条例从2026年1月1日起接续旧条例，保护覆盖全市，延续到2029年底。",
+    "before": "柏林此前已经实行租金刹车；这次修改是续期，没有把10%的上限进一步降低。",
+    "after": "例如，同类住房的可比月租为800欧元，没有法定例外时，新租约原则上最多880欧元。这是新租约起租价的限制，不是允许房东每年加租10%。",
+    "impact": "在柏林签新租约的租客及出租人。住在原房、继续履行旧合同的人，不能仅凭这条续期条例要求现有租金自动下调。",
+    "limits": "2014年10月1日后首次使用并出租的住房、全面现代化改造后的首次出租等有例外；前一租约租金和近期现代化改造也可能影响上限。2026年1月1日是本次新版条例开始生效的日期，并非柏林首次引入租金刹车的日期。 普通装修不等于法律所说的全面现代化改造。",
+    "verifiedAt": "2026-10-02",
+    "lastEventDate": "2026-01-01",
+    "effectiveDate": "2026-01-01",
+    "nextDate": "2029-12-31",
+    "nextLabel": "本版条例有效期结束；届时核实有无接续规定",
+    "disputed": false,
+    "dispute": "",
+    "sources": [
+      {
+        "id": "be-senate-rent",
+        "title": "柏林州政府：全市租金刹车续期四年",
+        "url": "https://www.berlin.de/rbmskzl/aktuelles/pressemitteilungen/2025/pressemitteilung.1615170.php",
+        "publisher": "Senat von Berlin",
+        "kind": "government",
+        "note": "2025年11月11日的正式内阁决定，明确全市范围、10%上限及2026年1月1日至2029年12月31日的期限。"
+      },
+      {
+        "id": "be-rent-explainer",
+        "title": "柏林住房部门：租金刹车怎么计算、哪些情况例外",
+        "url": "https://www.berlin.de/sen/stadt/service/mieterschutz/",
+        "publisher": "Senatsverwaltung für Stadtentwicklung, Bauen und Wohnen",
+        "kind": "government",
+        "note": "说明同类住房可比租金、10%上限以及新房、现代化改造、前租金等例外。"
+      }
+    ],
+    "events": [
+      {
+        "id": "senate-adoption",
+        "date": "2025-11-11",
+        "kind": "adopted",
+        "title": "州政府通过新版条例",
+        "detail": "由住房参议员Christian Gaebler提交，州政府决定把全市租金刹车延续到2029年底。",
+        "sourceId": "be-senate-rent"
+      },
+      {
+        "id": "new-regulation-start",
+        "date": "2026-01-01",
+        "kind": "effective",
+        "title": "本次续期条例开始生效",
+        "detail": "无缝接续既有规则；10%的新租约租金上限继续适用。",
+        "sourceId": "be-senate-rent"
+      },
+      {
+        "id": "regulation-end",
+        "date": "2029-12-31",
+        "kind": "scheduled",
+        "title": "本版条例期限结束",
+        "detail": "法律规定的终止日期；是否再次续期需另行核实。",
+        "sourceId": "be-senate-rent"
+      }
+    ],
+    "dateExplanation": "2026年1月1日是这版续期条例开始生效，不是柏林首次实行租金限制；本轮期限到2029年12月31日。",
+    "politics": {
+      "proposedBy": {
+        "name": "柏林住房参议员Christian Gaebler提交州政府",
+        "party": null,
+        "sourceId": "be-senate-rent"
+      }
+    },
+    "tags": [
+      "租房",
+      "住房"
+    ]
+  },
+  {
+    "id": "bb-kita-income-relief-permanent",
+    "officialId": "GVBl. Brandenburg I/2024 Nr. 55",
+    "title": "勃兰登堡按家庭收入减免托育费，不再于2024年底到期",
+    "originalTitle": "Siebtes Gesetz zur Änderung des Kindertagesstättengesetzes vom 11. Dezember 2024",
+    "region": "DE-BB",
+    "topic": "公共服务",
+    "phase": "adopted",
+    "status": "已生效",
+    "summary": "家庭全年净收入不超过35,000欧元，继续免交托育家长费；高于35,000但不超过55,000欧元，收费继续受分档上限约束。修法取消原有到期日，让减免在2025年以后继续有效。",
+    "before": "这套收入减免措施从2023年开始，原定2024年12月31日结束。",
+    "after": "修法删掉了到期限制。例如，家庭年净收入为38,000欧元、孩子未满3岁、每天托育8小时，家长费每月最多60欧元；实际收费较低时仍按较低金额收取。",
+    "impact": "在勃兰登堡使用托婴、幼儿园、课后托管或日间保育的低中收入家庭。对本来已按年龄免交家长费的儿童，不能把两项减免重复计算成额外补贴。",
+    "limits": "这里的35,000/55,000欧元是法律口径下的家庭全年净收入，不是税前工资；上限因年龄、托育时数及收入档位而异，餐费等不等于一并全免。本次修法于2024年12月12日生效，2025年1月1日是跨过原到期日后继续享受减免的起点。",
+    "verifiedAt": "2026-10-02",
+    "lastEventDate": "2024-12-12",
+    "effectiveDate": "2024-12-12",
+    "nextDate": null,
+    "nextLabel": "跟踪收入门槛、收费上限及后续托育法修订",
+    "disputed": false,
+    "dispute": "",
+    "sources": [
+      {
+        "id": "bb-kita-law",
+        "title": "勃兰登堡2024年第55号法律公报：取消收费减免期限",
+        "url": "https://bravors.brandenburg.de/fm/76/GVBl_I_55_2024.pdf",
+        "publisher": "Landtag Brandenburg / BRAVORS",
+        "kind": "law",
+        "note": "第1条删除2024年底的期限；第2条规定公布次日生效。公报日期为2024年12月11日。"
+      },
+      {
+        "id": "bb-kita-explainer",
+        "title": "教育部：2025年起托育费减免继续实施及收入分档表",
+        "url": "https://mbjs.brandenburg.de/sixcms/media.php/140/informationsschreiben_fortsetzung_eb-entlastung_2025.pdf",
+        "publisher": "Ministerium für Bildung, Jugend und Sport Brandenburg",
+        "kind": "government",
+        "note": "解释35,000及55,000欧元家庭净收入门槛，并列出不同托育时数和收入档位的月费上限。"
+      },
+      {
+        "id": "bb-kita-parents",
+        "title": "教育部：家长托育费用说明",
+        "url": "https://mbjs.brandenburg.de/kinder-und-jugend/kindertagesbetreuung/eltern-informations-flyer.html",
+        "publisher": "Ministerium für Bildung, Jugend und Sport Brandenburg",
+        "kind": "government",
+        "note": "明确家长费免除不包含餐费或第三方额外服务；同时说明3岁至入学前的年龄型免收费制度。"
+      }
+    ],
+    "events": [
+      {
+        "id": "law-published",
+        "date": "2024-12-11",
+        "kind": "published",
+        "title": "公布永久延续减免的修法",
+        "detail": "第七次托育法修法公布，删去收入型减免原有的2024年底终止日期。",
+        "sourceId": "bb-kita-law"
+      },
+      {
+        "id": "amendment-start",
+        "date": "2024-12-12",
+        "kind": "effective",
+        "title": "本次取消期限的修法生效",
+        "detail": "公布次日生效；不是从这一天才首次开始收入型减免。",
+        "sourceId": "bb-kita-law"
+      }
+    ],
+    "dateExplanation": "2024年12月12日是取消到期限制的修法开始生效；收入减免从2023年已存在。2025年1月1日只是越过原到期日后继续享受的起点。",
+    "tags": [
+      "育儿",
+      "教育",
+      "公共服务"
+    ]
+  },
+  {
+    "id": "sn-rent-brake-2026",
+    "officialId": "SächsGVBl. 2025 Nr. 17 S. 454",
+    "title": "德累斯顿、莱比锡的新租约租金上限续至2027年6月",
+    "originalTitle": "Sächsische Mietpreisbegrenzungsverordnung vom 2. Dezember 2025",
+    "region": "DE-SN",
+    "topic": "住房",
+    "phase": "adopted",
+    "status": "已生效",
+    "summary": "德累斯顿和莱比锡继续实行租金刹车：新租约起租价原则上不得超过当地同类住房可比租金的110%。新版州条例从2026年1月1日起接续，期限到2027年6月30日。",
+    "before": "两市原有条例到2025年12月31日结束；这次没有把适用范围扩到萨克森全州。",
+    "after": "同类住房可比月租若为700欧元，没有例外时新合同起租价原则上不超过770欧元。续期保留这个限制，没有下调原来的10%幅度。",
+    "impact": "在德累斯顿、莱比锡签新租约的租客及出租人；其他萨克森城市不因这份条例自动受此限制。",
+    "limits": "不是冻结所有租金，也不是旧租约每年最多涨10%。2014年10月1日后首次使用并出租的住房、全面现代化改造后的首次出租有例外，前租金等特殊规则还需核对BGB。2026年1月1日指新版条例的生效起日。 普通装修不等于法律所说的全面现代化改造。",
+    "verifiedAt": "2026-10-02",
+    "lastEventDate": "2026-01-01",
+    "effectiveDate": "2026-01-01",
+    "nextDate": "2027-06-30",
+    "nextLabel": "本版租金刹车条例到期，需核实接续条例",
+    "disputed": false,
+    "dispute": "",
+    "sources": [
+      {
+        "id": "sn-rent-law",
+        "title": "萨克森新版租金刹车条例全文",
+        "url": "https://www.revosax.sachsen.de/vorschrift/21416-Saechsische-Mietpreisbegrenzungsverordnung",
+        "publisher": "Sächsische Staatskanzlei / REVOSax",
+        "kind": "law",
+        "note": "第1条只列德累斯顿和莱比锡；第2、3条明确2026年1月1日起至2027年6月30日止。"
+      },
+      {
+        "id": "sn-rent-adoption",
+        "title": "萨克森州政府：通过两市租金刹车续期条例",
+        "url": "https://www.medienservice.sachsen.de/medien/news/1092960",
+        "publisher": "Sächsische Staatsregierung",
+        "kind": "government",
+        "note": "2025年12月2日的正式通过说明；不要与10月仅启动听证的草案公告混淆。"
+      },
+      {
+        "id": "sn-rent-bgb-cap",
+        "title": "德国民法典第556d条：新租约的10%上限",
+        "url": "https://www.gesetze-im-internet.de/bgb/__556d.html",
+        "publisher": "Bundesministerium der Justiz / Bundesamt für Justiz",
+        "kind": "law",
+        "note": "州条例划定区域，实际10%限制来自联邦民法典。"
+      },
+      {
+        "id": "sn-rent-bgb-exception",
+        "title": "德国民法典第556f条：新房及全面现代化例外",
+        "url": "https://www.gesetze-im-internet.de/bgb/__556f.html",
+        "publisher": "Bundesministerium der Justiz / Bundesamt für Justiz",
+        "kind": "law",
+        "note": "用于说明不能把起租价限制理解为对全部出租住房一律适用。"
+      }
+    ],
+    "events": [
+      {
+        "id": "adopted",
+        "date": "2025-12-02",
+        "kind": "adopted",
+        "title": "州政府通过新版条例",
+        "detail": "决定续接德累斯顿、莱比锡的租金刹车。",
+        "sourceId": "sn-rent-adoption"
+      },
+      {
+        "id": "effective",
+        "date": "2026-01-01",
+        "kind": "effective",
+        "title": "新版条例开始生效",
+        "detail": "取代到2025年底结束的原条例，保持两市租金刹车连续适用。",
+        "sourceId": "sn-rent-law"
+      },
+      {
+        "id": "expires",
+        "date": "2027-06-30",
+        "kind": "scheduled",
+        "title": "本版条例期限结束",
+        "detail": "条例第2条规定在本日结束时失效；之后有无新规需另行跟踪。",
+        "sourceId": "sn-rent-law"
+      }
+    ],
+    "dateExplanation": "2026年1月1日是新版州条例开始生效，接替上一版；期限到2027年6月30日，并非联邦授权的2029年底。",
+    "politics": {
+      "proposedBy": {
+        "name": "萨克森州政府",
+        "party": null,
+        "sourceId": "sn-rent-adoption"
+      }
+    },
+    "tags": [
+      "租房",
+      "住房"
+    ]
+  },
+  {
+    "id": "st-care-home-reform-2026",
+    "officialId": "GVBl. LSA 2026 Nr. 12 S. 287 / Gesetz vom 16. Juni 2026",
+    "title": "萨克森-安哈尔特护理机构要公开检查结果；低风险机构可两年一查",
+    "originalTitle": "Gesetz zur Änderung des Wohn- und Teilhabegesetzes vom 16. Juni 2026",
+    "region": "DE-ST",
+    "topic": "公共服务",
+    "phase": "adopted",
+    "status": "已生效",
+    "summary": "从2026年9月1日起，适用的护理、照护居住机构要展示最新例行检查的质量结果，入住前可索取副本；同时，无缺陷或仅有轻微缺陷等符合条件的机构，例行检查可由每年一次改为两年一次。",
+    "before": "州主管部门说明，例行检查原来每年进行；旧版由监管部门发布质量报告的制度早已因法院裁判停止执行。",
+    "after": "机构须在现场显眼位置展示或在网站公布检查结果，并加强防暴力、虐待和不当限制人身自由的措施。法律还要求相关护理机构申报可入住床位，为公开的床位查询平台提供数据。",
+    "impact": "考虑入住、已经入住相关养老护理机构或受照护居住安排的人，以及家属和运营方。签约前可以主动索要最近的检查结果。",
+    "limits": "两年一查有条件，并非所有机构自动减少检查；床位数据申报义务不代表本页面已经验证查询平台全面上线。普通自主居住、可自由选择护理服务的辅助居住等不当然全部纳入。2026年9月1日是本次修法生效日期，原法早在2011年开始实施。",
+    "verifiedAt": "2026-10-02",
+    "lastEventDate": "2026-09-01",
+    "effectiveDate": "2026-09-01",
+    "nextDate": null,
+    "nextLabel": "继续检查床位查询配套条例与公开查询平台的实际运行",
+    "disputed": false,
+    "dispute": "",
+    "sources": [
+      {
+        "id": "st-care-law",
+        "title": "萨克森-安哈尔特法律公报：护理居住法2026年修订",
+        "url": "https://pflege.sachsen-anhalt.de/fileadmin/Bibliothek/Politik_und_Verwaltung/MS/MS/2_Pflege/WTG_LSA/WTG_Verk%C3%BCndung_GVBl_LSA_22-06.pdf",
+        "publisher": "Land Sachsen-Anhalt, Gesetz- und Verordnungsblatt",
+        "kind": "law",
+        "note": "公报2026年第12期于6月22日发行。第4条规定公布后的第三个日历月第一天生效，即9月1日；第8、19、30a条列出检查公开、周期及床位申报规则。"
+      },
+      {
+        "id": "st-care-explainer",
+        "title": "州护理门户：2026年修法的14项主要变化",
+        "url": "https://pflege.sachsen-anhalt.de/wohnen-und-teilhabe/wohn-und-teilhabegesetz",
+        "publisher": "Ministerium für Arbeit, Soziales, Gesundheit und Gleichstellung Sachsen-Anhalt",
+        "kind": "government",
+        "note": "确认5月20日议会通过、9月1日生效及新旧规则对照。网页将6月16日称作公布日，与公报页眉6月22日不同，本记录采用公报日期。"
+      }
+    ],
+    "events": [
+      {
+        "id": "parliament-adopted",
+        "date": "2026-05-20",
+        "kind": "adopted",
+        "title": "州议会通过修法",
+        "detail": "政府提出的护理居住法修订获通过。",
+        "sourceId": "st-care-explainer"
+      },
+      {
+        "id": "published",
+        "date": "2026-06-22",
+        "kind": "published",
+        "title": "修法刊入法律公报",
+        "detail": "法律签署日期为6月16日，公报发行日期为6月22日，两者分别记录。",
+        "sourceId": "st-care-law"
+      },
+      {
+        "id": "effective",
+        "date": "2026-09-01",
+        "kind": "effective",
+        "title": "本次护理居住法修订开始生效",
+        "detail": "按公布后第三个日历月首日计算，日期为2026年9月1日。",
+        "sourceId": "st-care-law"
+      }
+    ],
+    "dateExplanation": "2026年9月1日是本次修法开始生效；原法从2011年已有。法律签署日6月16日、公报公布日6月22日也不是生效日。",
+    "politics": {
+      "proposedBy": {
+        "name": "萨克森-安哈尔特州政府",
+        "party": null,
+        "sourceId": "st-care-explainer"
+      }
+    },
+    "tags": [
+      "养老",
+      "医疗",
+      "公共服务"
+    ]
+  },
+  {
+    "id": "th-kita-third-free-year-2026",
+    "officialId": "Thüringer Landtag Drs. 8/3127 / Fünftes Gesetz zur Änderung des Thüringer Kindergartengesetzes",
+    "title": "图林根已决定把免托育费延长为入学前三年，2027/28学年起实施",
+    "originalTitle": "Fünftes Gesetz zur Änderung des Thüringer Kindergartengesetzes",
+    "region": "DE-TH",
+    "topic": "公共服务",
+    "phase": "adopted",
+    "status": "已通过 · 第三年免费尚未开始",
+    "summary": "州议会已决定增加一个免家长费的幼儿园年度：从2027/28幼儿园学年起，入学前的免费时段由两年变三年。家长现在不能把已通过理解为第三年已经免交费用。",
+    "before": "现有安排免除入学前两年的家长费；再早一年的费用原则上仍按当地规则承担。",
+    "after": "新增第三个免费年度，州政府补偿市镇因此减少的收费收入。修法同时要求幼儿园有明确的教学方案、持续记录儿童发展和语言进展，并为部分小规模园所提供一次性支持。",
+    "impact": "孩子将在2027/28学年及以后进入入学前三年阶段的图林根家庭，以及幼儿园和市镇。实际减免额度取决于原本应付的家长费。",
+    "limits": "免费指幼儿园家长费，不能据此断言餐费、额外服务或入学后的托管费也全部取消。本次已核实议会通过及2027/28学年启动安排，正式公报中的分期生效条款尚未逐条核实，因此不填单一生效日期。",
+    "verifiedAt": "2026-10-02",
+    "lastEventDate": "2026-06-25",
+    "effectiveDate": null,
+    "nextDate": null,
+    "nextLabel": "第三个免费年度从2027/28幼儿园学年开始；补核公报中的具体实施日",
+    "disputed": false,
+    "dispute": "",
+    "sources": [
+      {
+        "id": "th-kita-adoption",
+        "title": "图林根州议会：已通过第三个免费幼儿园年度",
+        "url": "https://www.thueringer-landtag.de/plenum/neue-gesetze-im-landtag/",
+        "publisher": "Thüringer Landtag",
+        "kind": "parliament",
+        "note": "2026年6月的新法栏目明确8/3127已经通过，第三个免费年度从2027/28学年起实施，并介绍教学和小园所资助变化。"
+      },
+      {
+        "id": "th-kita-vote",
+        "title": "图林根州议会2026年6月25日会议记录，第3692—3702页",
+        "url": "https://parldok.thueringer-landtag.de/ParlDok/dokument/108131/?seiten=3692-3702",
+        "publisher": "Thüringer Landtag",
+        "kind": "parliament",
+        "note": "末页记录终表决：CDU、BSW、SPD、Die Linke赞成，AfD弃权，多数通过；未提供数字票数。"
+      },
+      {
+        "id": "th-kita-bill",
+        "title": "图林根8/3127原始法案：CDU、BSW、SPD提出",
+        "url": "https://parldok.thueringer-landtag.de/ParlDok/dokument/106314",
+        "publisher": "Thüringer Landtag",
+        "kind": "parliament",
+        "note": "只用于核实提出党团及原有两年免费制度；原始法案不能替代最终通过文本的生效条款。"
+      }
+    ],
+    "events": [
+      {
+        "id": "bill-introduced",
+        "date": "2026-03-18",
+        "kind": "proposal",
+        "title": "CDU、BSW、SPD党团提出法案",
+        "detail": "法案编号8/3127；文件封面日期为2026年3月18日。",
+        "sourceId": "th-kita-bill"
+      },
+      {
+        "id": "parliament-adopted",
+        "date": "2026-06-25",
+        "kind": "adopted",
+        "title": "州议会终表决通过",
+        "detail": "CDU、BSW、SPD、Die Linke党团赞成，AfD党团弃权，获多数通过；会议记录未列数字票数。",
+        "sourceId": "th-kita-vote"
+      }
+    ],
+    "dateExplanation": "2026年6月25日是议会通过日。新增第三个免费年度从2027/28幼儿园学年实施；正式公报的分期生效日尚未核实，因此没有猜填一个具体日期。",
+    "politics": {
+      "proposedBy": {
+        "name": "CDU、BSW、SPD州议会党团",
+        "party": "CDU、BSW、SPD",
+        "sourceId": "th-kita-bill"
+      },
+      "votes": [
+        {
+          "body": "图林根州议会终表决",
+          "date": "2026-06-25",
+          "result": "多数通过。CDU、BSW、SPD、左翼党赞成；AfD弃权。",
+          "counts": null,
+          "note": "起立表决记录列出党团立场，未提供数字票数。",
+          "sourceId": "th-kita-vote"
+        }
+      ]
+    },
+    "tags": [
+      "育儿",
+      "教育",
+      "公共服务"
+    ]
+  }
+]

@@ -1,0 +1,335 @@
+{
+  "policies": {
+    "de-rent-cap-2029": {
+      "hash": "13b79a564a090957c6be8fc20304062287c42093381d953cd0ec395bdda4677d",
+      "originalLanguage": "de",
+      "verbatim": [
+        "Bundesregierung",
+        "Deutscher Bundestag",
+        "CDU/CSU、SPD"
+      ],
+      "version": 3
+    },
+    "de-minimum-wage-2026": {
+      "hash": "cd128c9e56594241b48004cf4ca8454107226a34be083bf32fef8142da251b02",
+      "originalLanguage": "de",
+      "verbatim": [
+        "BMAS",
+        "Gesetze im Internet"
+      ],
+      "version": 3
+    },
+    "de-crypto-reporting-dac8": {
+      "hash": "ccd70de8acdc5bae5d9a44e61992082f1dd43cdc6604b0cc1532c043f24d18aa",
+      "originalLanguage": "de",
+      "verbatim": [
+        "Gesetze im Internet",
+        "Deutscher Bundestag"
+      ],
+      "version": 3
+    },
+    "he-rent-protection-2025": {
+      "hash": "78c78c2cb7c45c2737b0bfdbf928281b0c865d9eb668001bfa1966a3a2ef5a46",
+      "originalLanguage": "de",
+      "verbatim": [
+        "Hessische Landesregierung",
+        "Hessen Wirtschaft",
+        "Hessisches Wirtschaftsministerium",
+        "Senatsverwaltung Berlin"
+      ],
+      "version": 3
+    },
+    "by-rent-protection-2026": {
+      "hash": "9cf35178114e60952d63451e996d528325f0639bf991241c33e44bf49c94c4f1",
+      "originalLanguage": "de",
+      "verbatim": [
+        "Bayerische Staatsregierung",
+        "Senatsverwaltung Berlin"
+      ],
+      "version": 3
+    },
+    "de-fuel-relief-2026": {
+      "hash": "a116039564a8386801540d59633e26982f4c921f504838f66ff4394978026e8e",
+      "originalLanguage": "de",
+      "verbatim": [
+        "Bundesregierung"
+      ],
+      "version": 3
+    },
+    "he-rent-protection-proposal-2026": {
+      "hash": "417fc660ee9c313c0401a93f3ec57077a2608d215bfdf356ff1186b2987b3d16",
+      "originalLanguage": "de",
+      "verbatim": [
+        "Hessen Wirtschaft"
+      ],
+      "version": 3
+    },
+    "de-crypto-holding-proposal": {
+      "hash": "3bbc475e71688fd84803a41fc483f656890b45bd6dfbc66595f847ccdecc9e4e",
+      "originalLanguage": "de",
+      "verbatim": [
+        "Deutscher Bundestag",
+        "Bundesministerium der Finanzen"
+      ],
+      "version": 4
+    },
+    "de-carf-agreement-2026": {
+      "hash": "1d12b4152fb3be3328bbb7682bc7b87a1a5f201ddae6abb0f0c941e791e9a673",
+      "originalLanguage": "de",
+      "verbatim": [
+        "Deutscher Bundestag"
+      ],
+      "version": 5
+    },
+    "nw-rent-cap-extension-2025": {
+      "hash": "07e10d248cc371e94c13c2703dd8ff51a79ab24d19f673776404db196b784a38",
+      "originalLanguage": "de",
+      "verbatim": [
+        "Ministerium des Innern Nordrhein-Westfalen",
+        "Landesregierung Nordrhein-Westfalen",
+        "RECHT.NRW",
+        "Gesetze im Internet"
+      ],
+      "version": 2
+    },
+    "rp-rent-cap-2025": {
+      "hash": "420b974174846d0b4bf80393722276bc8a8e9f8097be44def86dbb6049a3e126",
+      "originalLanguage": "de",
+      "verbatim": [
+        "Land Rheinland-Pfalz",
+        "Ministerium für Kommunen, Bauen, Wohnen und Kultur Rheinland-Pfalz",
+        "Ministerium der Finanzen Rheinland-Pfalz"
+      ],
+      "version": 2
+    },
+    "bw-rent-cap-2026": {
+      "hash": "474992c60a6c24956fe441dc70dbd37e819dba2b7e10ef086e25bf5b735b2c2d",
+      "originalLanguage": "de",
+      "verbatim": [
+        "Staatsministerium Baden-Württemberg",
+        "Ministerium für Landesentwicklung und Wohnen Baden-Württemberg",
+        "GBl. 2025 Nr. 144。"
+      ],
+      "version": 2
+    },
+    "sl-cleaning-public-contract-wages-2025": {
+      "hash": "e05266718a6df7ecb9116d33763f17d25faa054e75c54167a32b8318cbfcf71b",
+      "originalLanguage": "de",
+      "verbatim": [
+        "Ministerium für Arbeit, Soziales, Frauen und Gesundheit Saarland"
+      ],
+      "version": 2
+    },
+    "sh-new-homes-solar-2025": {
+      "hash": "0b73791173815c5f80227389743d7001a177007b0c81ba5f8ce489ce9ccca76c",
+      "originalLanguage": "de",
+      "verbatim": [
+        "Verkündungsportal Schleswig-Holstein",
+        "Landesregierung Schleswig-Holstein"
+      ],
+      "version": 2
+    },
+    "hh-rent-cap-2026": {
+      "hash": "ec33b66413a3e6a20ab0e96f3b20d1ea7c1979809e88087d7845af805c36a974",
+      "originalLanguage": "de",
+      "verbatim": [
+        "Behörde für Stadtentwicklung und Wohnen Hamburg",
+        "Hamburgisches Gesetz- und Verordnungsblatt",
+        "Senat der Freien und Hansestadt Hamburg"
+      ],
+      "version": 2
+    },
+    "hb-rent-cap-2025": {
+      "hash": "2eefcb56ebe3b51a73bb8f6569c523634498e778faf094e7e92306b0d3f4b66c",
+      "originalLanguage": "de",
+      "verbatim": [
+        "Transparenzportal Bremen",
+        "Senat der Freien Hansestadt Bremen"
+      ],
+      "version": 2
+    },
+    "ni-building-rules-2025": {
+      "hash": "37052ba9bba94bfa12b5e6de989b4846d17d95f8af3ddaa6c66f4bb996ce75c4",
+      "originalLanguage": "de",
+      "verbatim": [
+        "Niedersächsisches Ministerium für Wirtschaft, Verkehr und Bauen",
+        "Verkündungsplattform Niedersachsen",
+        "SPD-Fraktion、Fraktion Bündnis 90/Die Grünen"
+      ],
+      "version": 2
+    },
+    "mv-public-contract-wage-2026": {
+      "hash": "afddf97e1dfe4e049a50298ca234290dc4ade55cfca46dd681af35b7b14670ad",
+      "originalLanguage": "de",
+      "verbatim": [
+        "Staatskanzlei Mecklenburg-Vorpommern",
+        "Wirtschaftsministerium Mecklenburg-Vorpommern"
+      ],
+      "version": 2
+    },
+    "be-rent-brake-2026": {
+      "hash": "c97e1ed9577213592681404dd57c4f931c3d85e7f7b2b7f37a446a20d8f73a89",
+      "originalLanguage": "de",
+      "verbatim": [
+        "Senat von Berlin",
+        "Senatsverwaltung für Stadtentwicklung, Bauen und Wohnen"
+      ],
+      "version": 2
+    },
+    "bb-kita-income-relief-permanent": {
+      "hash": "183351e574cd6cd44a02629849e68975889b00cc9fc8205684e8ce375b332957",
+      "originalLanguage": "de",
+      "verbatim": [
+        "Landtag Brandenburg / BRAVORS",
+        "Ministerium für Bildung, Jugend und Sport Brandenburg"
+      ],
+      "version": 2
+    },
+    "sn-rent-brake-2026": {
+      "hash": "815dc9be953421f9835fd40d365e189bd6679118b4407aad7ceceb2c7dfaffad",
+      "originalLanguage": "de",
+      "verbatim": [
+        "Sächsische Staatskanzlei / REVOSax",
+        "Sächsische Staatsregierung",
+        "Bundesministerium der Justiz / Bundesamt für Justiz"
+      ],
+      "version": 2
+    },
+    "st-care-home-reform-2026": {
+      "hash": "ed0f0aba1009e97ccb95e42eae36a696a9331b8c36ecf6a676e89dc0aa4697fd",
+      "originalLanguage": "de",
+      "verbatim": [
+        "Land Sachsen-Anhalt, Gesetz- und Verordnungsblatt",
+        "Ministerium für Arbeit, Soziales, Gesundheit und Gleichstellung Sachsen-Anhalt"
+      ],
+      "version": 2
+    },
+    "th-kita-third-free-year-2026": {
+      "hash": "a9db2472664da8b520f4ffdee7e3e6b38bbba3130368a08f916660055e803ed1",
+      "originalLanguage": "de",
+      "verbatim": [
+        "Thüringer Landtag",
+        "CDU、BSW、SPD"
+      ],
+      "version": 2
+    },
+    "rp-teacher-trainee-cap-geography-2026": {
+      "hash": "09c98c23fa8cf17cf80b802fa9f3f21a870e26dd08ba24133a78b13b073bdb2a",
+      "originalLanguage": "de",
+      "verbatim": [
+        "Staatskanzlei Rheinland-Pfalz"
+      ],
+      "version": 1
+    }
+  },
+  "intake": {
+    "doc-6cc5f77d6c478a814ac3d1a7": {
+      "hash": "3eca0907bdaf04d13a1544bb2d3332d39f07287a16ff3af862fada046292481d",
+      "originalLanguage": "de",
+      "verbatim": [],
+      "titleIsOriginal": true
+    },
+    "doc-0a516f980309b447804aa169": {
+      "hash": "2c19f86e7750a95ca24173935182666e8bf7023bace066d9335f03e759e4d948",
+      "originalLanguage": "de",
+      "verbatim": [],
+      "titleIsOriginal": true
+    },
+    "doc-b53cec7c430106ff11867966": {
+      "hash": "1072496b1cc1fe7f22fab44e6dc87e9104cc0ddff1d2bdf00cd1147220ada7f2",
+      "originalLanguage": "de",
+      "verbatim": [],
+      "titleIsOriginal": true
+    },
+    "doc-30e536448a9856964e240d0b": {
+      "hash": "534b7477018aafb012885a02703d59e69722766bea26147318f101d537ce8e3b",
+      "originalLanguage": "de",
+      "verbatim": [],
+      "titleIsOriginal": true
+    },
+    "doc-57be003982e82ac753a52394": {
+      "hash": "ded9c265349a190594a81f737bfec10e5185760d9f2bc29d5877b4e964b330da",
+      "originalLanguage": "de",
+      "verbatim": [],
+      "titleIsOriginal": true
+    },
+    "doc-67810dccc10e0954347b8df6": {
+      "hash": "bd8df1bacf8b558d012cdcfadcb2a36c6f4eb69f9cab165934e67ce967f961ff",
+      "originalLanguage": "de",
+      "verbatim": [],
+      "titleIsOriginal": true
+    },
+    "doc-9a1233cc670255bd38f87e29": {
+      "hash": "d62f18626d4a3a082e44df3ac185ed9e3b1cf40cda36e904ba01c2a0f5bdc8d6",
+      "originalLanguage": "de",
+      "verbatim": [],
+      "titleIsOriginal": true
+    },
+    "doc-0b2b96979cad8acfce28d046": {
+      "hash": "21fa81bbca453ebe02ccee3312d5f70a4906f41501ffa6555363d4e3a3424493",
+      "originalLanguage": "de",
+      "verbatim": [],
+      "titleIsOriginal": true
+    },
+    "doc-977a866874079ec46cd6d9fa": {
+      "hash": "7d472f98e5226563aabcfae7744631094b720c49621b18467873c2b410adbdd6",
+      "originalLanguage": "de",
+      "verbatim": [],
+      "titleIsOriginal": true
+    },
+    "doc-87efc8a2937f0a64d969d3d8": {
+      "hash": "bb1846760002b3bf0ee179d09d1e38dd55201d3a999dbf0b4ca177aed798cc6e",
+      "originalLanguage": "de",
+      "verbatim": [],
+      "titleIsOriginal": true
+    },
+    "doc-8e46b7b9e68aa2080ff7fff7": {
+      "hash": "2a40d6f8cfcdde2afd1c8501247bc1f15aaa01a1cdbb2fa46a6699d0bbd8dfb2",
+      "originalLanguage": "de",
+      "verbatim": [],
+      "titleIsOriginal": false
+    },
+    "doc-8a47e37a8c6e022339ba6940": {
+      "hash": "e07205d75cc53508ef418e562114dcf93b97f37fa4a23efb73668bc8254afd9f",
+      "originalLanguage": "de",
+      "verbatim": [],
+      "titleIsOriginal": false
+    },
+    "doc-1fdc2f318aa34bfadf55403b": {
+      "hash": "21cb7855cd8a418b02416e8c9736de13a86464ddfa6ba9bee4967c7427422091",
+      "originalLanguage": "de",
+      "verbatim": [],
+      "titleIsOriginal": false
+    },
+    "de-bt-21-7195-first-reading-2026-09-24": {
+      "hash": "7f47d07c7f0d177e7ba8b08a8597dd167e07e428fc0b2e0e8f191f60af35a441",
+      "originalLanguage": "de",
+      "verbatim": [],
+      "titleIsOriginal": true
+    },
+    "rp-gvbl-2026-31-teacher-trainee-cap-geography": {
+      "hash": "07810b1bf295ced6386f2924a0ada2469573e52dd15c5ff2c673eff8f56c7726",
+      "originalLanguage": "de",
+      "verbatim": [],
+      "titleIsOriginal": true
+    },
+    "bt-21-5752-finance-committee-recommends-rejection": {
+      "hash": "7cbd16c16de419fa3015910c58f30a8601c087e162c35931d57687b501748927",
+      "originalLanguage": "de",
+      "verbatim": [],
+      "titleIsOriginal": true
+    },
+    "bt-21-5752-plenary-vote-announced-2026-10-08": {
+      "hash": "4ad6579ce410080dd91d8cfb50eca135acf8e47df5b24ad17eae242a669c920c",
+      "originalLanguage": "de",
+      "verbatim": [],
+      "titleIsOriginal": true
+    },
+    "bt-21-7195-plenary-vote-announced-2026-10-08": {
+      "hash": "b3d8d185781604e7db94b539d533729fa87409c458eb06f84bc3e7a792b59410",
+      "originalLanguage": "de",
+      "verbatim": [],
+      "titleIsOriginal": true
+    }
+  }
+}

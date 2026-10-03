@@ -35,7 +35,7 @@ up from stored coverage, rather than skip to the latest week.
    proposal, cabinet approval, parliamentary adoption, publication, effective
    start and expiry. Do not infer passage from a scheduled date, or copy a parent
    law's start date into a new amendment. Unknown facts stay explicit or null.
-   Chinese explanations must state practical rules, affected people, before/after,
+   Explanations in Chinese, German and English must state practical rules, affected people, before/after,
    scope and exceptions, with source-linked events. AI review is fallible; schema
    checks are not proof of legal accuracy. Keep conflicting evidence visible.
 
@@ -57,9 +57,22 @@ up from stored coverage, rather than skip to the latest week.
    factual review. Clear a source's `changed` flag only after reviewing that exact
    content, not merely because it downloaded successfully.
 4. Set `exportedAt` to the actual export time. Update `lastReviewAt` and a factual
-   Chinese `reviewNote` only for work actually performed. Name coverage gaps,
+   `reviewNote` only for work actually performed. Name coverage gaps,
    affected channels and unresolved facts. Do not claim full nationwide coverage.
-5. Before selecting the candidate, run:
+5. Maintain `data/translations/content.json` and `data/translations/bindings.json`
+   alongside changed data, following [the translation contract](translations/README.md).
+   Translate explanations into German and English without changing dates, scope,
+   exceptions, uncertainty or source references. A German explanation is still
+   editorial text; the original official German document remains the authority.
+   Record the actual original language per item rather than deriving it from the
+   interface language or country. Keep canonical tags and identifiers unchanged.
+   Bind a reviewed translation to the candidate policy version and complete record
+   hash only after checking it. Never bulk-refresh hashes to hide stale translations.
+   New/changed records without finished translations may still be published: the
+   interface must show the missing/stale notice and retain the existing explanation.
+   Also translate new review and scan notes and topic labels. Translation work alone
+   never advances `verifiedAt`, `lastReviewAt` or scan coverage.
+6. Before selecting the candidate, run:
 
    ```sh
    npm test
@@ -73,7 +86,7 @@ up from stored coverage, rather than skip to the latest week.
    history, missing revisions, unarchived policy citations, invalid scans and
    corrupt/missing source files. Selection changes only the local active-data
    pointer. If any gate fails, fix the candidate; do not select an invalid export.
-6. Verify the built `dist/data.json` contains the intended records and real review
+7. Verify the built `dist/data.json` contains the intended records and real review
    dates. Report the actual policy changes, discovered records and material gaps
    in Chinese. Keep quiet on unchanged/non-actionable runs; notify for meaningful
    changes, new failures, or required owner action.
@@ -83,7 +96,8 @@ up from stored coverage, rather than skip to the latest week.
 On 2026-10-03 the owner explicitly authorized publishing this implementation and
 automatically publishing subsequent weekly data updates after validation.
 Commit and push only the validated new export, its public source archive and
-`data/current-export.json` to `main`. Do not include unrelated changes or publish
+`data/current-export.json`, and reviewed translation data in
+`data/translations/content.json` and `data/translations/bindings.json` to `main`. Do not include unrelated changes or publish
 unreviewed local commits. Check the remote state first; use only a fast-forward
 push, never force-push. If unrelated work or divergence prevents safe publication,
 preserve the prepared update and report the specific blocker.

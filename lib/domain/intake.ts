@@ -4,8 +4,9 @@ import {discoveryForYear} from './coverage.ts';
 export const trackingStart='2026-10-02';
 const url=z.string().url().refine(u=>{const p=new URL(u);return p.protocol==='https:'&&!p.username&&!p.password&&!p.port;});
 const text=z.string().trim().min(1).max(6000);
-// Raw discoveries remain available even before a Chinese policy explanation exists.
+// Raw discoveries remain available even before a policy explanation exists.
 export const intakeSchema=z.object({
+ originalLanguage:z.string().regex(/^[a-z]{2,3}(?:-[A-Za-z0-9]+)*$/).optional(),
  id:z.string().regex(/^[a-z0-9-]+$/).max(100),region:z.string().refine(r=>regions.some(x=>x.id===r)),
  title:text,titleZh:text.optional(),date:dateSchema,dateKind:z.enum(['published','adopted','announced']).default('published'),
  adoptionDate:dateSchema.nullable().optional(),effectiveDate:dateSchema.nullable().optional(),

@@ -1,8 +1,31 @@
 # Policy Radar
 
-German federal and state policy changes, explained in Chinese with official sources, policy timelines and explicit coverage gaps.
+German federal and state policy changes, explained in Chinese, German and English with official sources, policy timelines and explicit coverage gaps.
 
 The website is static: it loads published JSON and filters records in the browser. It needs no login, database or application server.
+
+## Languages
+
+Use the language selector to switch between **中文**, **Deutsch** and **English**,
+including inside an open policy detail. Selection priority is the `lang` URL
+parameter (`zh`, `de`, `en`), saved preference, supported browser language, then
+English. Switching preserves filters, search and the selected policy. Search
+matches explanations and topic labels across all three languages.
+
+German is the original language of the current German official sources. German
+summaries, like Chinese and English summaries, are **editorial explanations**,
+not the official legal text. Original titles, citations and archived source files
+remain intact. Original language is recorded per item, independently of the
+country and interface language, so future countries need not use German sources.
+Language availability does not imply coverage of additional countries.
+
+The site uses a typed UI dictionary and checked-in content translations, with no
+translation service or additional runtime dependency. Translation bindings include
+the policy version and a hash of the complete canonical record. A changed record
+invalidates its old translations; missing or stale explanations remain visible in
+the existing language with an explicit notice rather than disappearing from the
+list. Translation work does not advance factual review dates. See
+[data/translations/README.md](data/translations/README.md) for maintenance.
 
 ## Run locally
 

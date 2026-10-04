@@ -398,3 +398,5 @@ dialog.drawer::backdrop{background:var(--backdrop)}
 @media(max-width:1200px){.crumb-root,.crumb-root+.crumb-sep{display:none}}
 .detail-actions{display:flex;align-items:center;gap:10px;flex-shrink:0}
 .detail-top>span{min-width:0;overflow-wrap:anywhere}
+
+.status-note{font-size:12px;line-height:1.6;color:var(--muted);margin:6px 0;overflow-wrap:anywhere}

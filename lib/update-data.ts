@@ -1,7 +1,8 @@
+import {exportRegistry} from './export-registry.ts';
 import {migrateExportRegions} from './export-regions.ts';
 import {isDeepStrictEqual as equal} from 'node:util';
 import {createStaticData} from './static-data.ts';
-import {policySchema,validateRevision} from './domain/model.ts';
+import {policySchema,statusCodeSchema,validateRevision} from './domain/model.ts';
 import {scanSchema,intakeSchema,validateScanTime,berlinDate} from './domain/intake.ts';
 import {discoveryForYear,sourceSupportsRegion} from './domain/coverage.ts';
 
@@ -30,6 +31,8 @@ export function validateUpdate(previous:unknown,candidate:unknown,now=new Date()
  const checks=index(next.tables.checks,r=>r.url);
  for(const row of old.tables.checks){
   const updated=checks.get(row.url);
+  if(row.last_success_at&&(!updated?.last_success_at||Date.parse(String(updated.last_success_at))<Date.parse(String(row.last_success_at))))throw Error('Last successful snapshot timestamp must be retained: '+row.url);
+  if(row.snapshot_key&&(!updated?.snapshot_key||(updated.error&&(updated.snapshot_key!==row.snapshot_key||updated.last_success_at!==row.last_success_at))))throw Error('Last successful snapshot must be retained: '+row.url);
   if(!updated||Date.parse(String(updated.checked_at))<Date.parse(String(row.checked_at)))throw Error('Source check removed or regressed');
  }
  for(const row of next.tables.policies){
@@ -52,7 +55,7 @@ export function validateUpdate(previous:unknown,candidate:unknown,now=new Date()
   const p=policySchema.parse(JSON.parse(revision.data!)),current=policies.get(revision.policy_id);
   if(p.id!==revision.policy_id||!current||Number(revision.version)>Number(current.version))throw Error('Orphan revision');
  }
- const sources=new Map(Array.from({length:Math.max(1,now.getUTCFullYear()-2026+1)},(_,i)=>discoveryForYear(2026+i)).flat().map(s=>[s.url,s]));
+ const sources=new Map(Array.from({length:Math.max(1,now.getUTCFullYear()-2026+1)},(_,i)=>discoveryForYear(2026+i,exportRegistry(next))).flat().map(s=>[s.url,s]));
  const records=new Map(next.tables.intake.map(row=>{const r=intakeSchema.parse(JSON.parse(row.data!));if(row.id!==r.id)throw Error('Intake row identity mismatch');return [r.id,r];}));
  const oldRecords=new Set(old.tables.intake.map(r=>r.id));
  for(const [id,r] of records)if(!oldRecords.has(id)){
@@ -67,4 +70,21 @@ export function validateUpdate(previous:unknown,candidate:unknown,now=new Date()
   for(const id of scan.recordIds){const r=records.get(id);if(!r||!sourceSupportsRegion(sources.get(scan.sourceUrl),r.region)||r.date<scan.windowStart||r.date>scan.windowEnd)throw Error('Scan references a missing or out-of-window record');}
  }
  return {policies:policies.size,revisions:revisions.size,scans:next.tables.scan_runs.length};
+}
+
+// Operational selection is stricter than replaying legacy exports.
+export function validateSelection(previous:unknown,candidate:unknown,now=new Date()){
+ const result=validateUpdate(previous,candidate,now);
+ const next=candidate as Export & {discoveryRegistry?:unknown};
+ if(!next.discoveryRegistry)throw Error('New exports must include discoveryRegistry');
+ const prior=index((previous as Export).tables.policies,r=>r.id);
+ const oldSettings=index((previous as Export).tables.settings,r=>r.key);
+ for(const row of next.tables.settings)if(['lastReviewAt','reviewNote'].includes(String(row.key))&&!equal(oldSettings.get(row.key),row))throw Error('Use country-specific review settings');
+ for(const row of next.tables.policies){
+  if(equal(prior.get(row.id),row))continue;
+  const p=policySchema.parse(JSON.parse(row.data!));
+  statusCodeSchema.parse(p.status);
+  if(p.nextDate&&!p.nextKind)throw Error('Dated next steps require nextKind');
+ }
+ return result;
 }

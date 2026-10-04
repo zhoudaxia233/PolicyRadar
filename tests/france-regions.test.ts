@@ -1,3 +1,4 @@
+import {readSnapshot} from '../lib/source-archive.ts';
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
@@ -54,7 +55,7 @@ test('regional evidence and translations pass the same gates without rewriting h
  for(const r of data.intake.records.filter(r=>countryOf(r.region)==='FR'))assert.equal(l.intake[r.id],'current');
  const snapshotKeys=new Set(previous.tables.snapshots.map((s:{key:string})=>s.key));
  for(const s of candidate.tables.snapshots.filter((s:{key:string})=>!snapshotKeys.has(s.key))){
-  const bytes=readFileSync(new URL('../data/exports/2026-10-03-france-regions/'+s.key,import.meta.url));
+  const bytes=readSnapshot('data/exports/2026-10-03-france-regions/policy-radar-export.json',s);
   assert.equal(createHash('sha256').update(bytes).digest('hex'),s.hash);
  }
  const challenge=data.status.checks.find(c=>c.url==='https://www.auvergnerhonealpes.fr/');

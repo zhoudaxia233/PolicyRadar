@@ -52,7 +52,8 @@ test('Swiss upcoming reminders include all four confirmed future milestones',()=
 });
 
 test('Swiss corrections preserve immutable history and other countries while keeping translations current',()=>{
- validateUpdate(before,after,new Date(after.exportedAt));
+ // This historical correction dropped invalid snapshot pointers; the strengthened gate rejects that shape.
+ assert.throws(()=>validateUpdate(before,after,new Date(after.exportedAt)),/snapshot.*must be retained/);
  for(const table of ['revisions','intake','scan_runs','snapshots'])assert.deepEqual(after.tables[table].slice(0,before.tables[table].length),before.tables[table]);
  const changed=new Set(['ch-be-information-security','ch-zh-premium-subsidy-2027']);
  for(const row of after.tables.policies){

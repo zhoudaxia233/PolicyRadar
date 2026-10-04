@@ -1,4 +1,21 @@
 export const messages = {
+  "申请安排已公布 · 后续进展待核实": ["Antragsmodalitäten veröffentlicht · weitere Entwicklung ungeprüft", "Application arrangements announced · subsequent progress unverified"],
+  "申请安排已公布 · 期限已到，后续待核实": ["Antragsmodalitäten veröffentlicht · Frist verstrichen, Folgestand ungeprüft", "Application arrangements announced · deadline passed, follow-up unverified"],
+  "已通过 · 期限已到，后续待核实": ["Verabschiedet · Frist verstrichen, Folgestand ungeprüft", "Adopted · deadline passed, follow-up unverified"],
+  "已通过 · 后续进展待核实": ["Verabschiedet · weitere Entwicklung ungeprüft", "Adopted · subsequent progress unverified"],
+  "申请安排已公布": ["Antragsmodalitäten veröffentlicht", "Application arrangements announced"],
+  "上次核实时的说明：": ["Erläuterung bei der letzten Prüfung:", "Explanation at the last review:"],
+  "既有补助 · 说明已更新": ["Bestehende Förderung · Erläuterung aktualisiert", "Existing grant · explanation updated"],
+  "已生效 · 临时措施": ["In Kraft · befristete Maßnahme", "In effect · temporary measure"],
+  "已生效 · 分步实施": ["In Kraft · schrittweise Umsetzung", "In effect · phased implementation"],
+  "已生效": ["In Kraft", "In effect"],
+  "已通过 · 待生效": ["Verabschiedet · noch nicht in Kraft", "Adopted · not yet effective"],
+  "尚未通过": ["Noch nicht verabschiedet", "Not yet adopted"],
+  "已过计划日期 · 结果待核实": ["Geplanter Termin verstrichen · Ergebnis ungeprüft", "Scheduled date passed · outcome unverified"],
+  "期限已到 · 后续待核实": ["Frist verstrichen · Folgestand zu prüfen", "Deadline passed · follow-up unverified"],
+  "本轮申请已结束": ["Diese Antragsrunde ist geschlossen", "This application round is closed"],
+  "已结束": ["Abgeschlossen", "Closed"],
+  "已通过 · 生效日未确认": ["Verabschiedet · Inkrafttreten nicht bestätigt", "Adopted · effective date unconfirmed"],
   "追踪范围：瑞士联邦及全部26个州。": ["Abdeckung: Schweizer Bund und alle 26 Kantone.", "Coverage: Swiss federal level and all 26 cantons."],
   '瑞士是联邦国家，包含26个州（Kantone / cantons / cantoni / chantuns）。州政府、州议会、州法律及联邦投票入口已登记；市镇未独立接入。议会通过、公投结果和生效日期分别核实，原文语言按具体文件保留。': ['Die Schweiz ist ein Bundesstaat mit 26 Kantonen. Regierungs-, Parlaments-, Rechts- und eidgenössische Abstimmungsportale sind registriert; Gemeinden werden nicht separat erfasst. Parlamentsbeschlüsse, Volksabstimmungen und Inkrafttreten werden getrennt geprüft. Die Originalsprache wird je Dokument erhalten.', 'Switzerland is a federal state with 26 cantons. Government, parliamentary, legal and federal voting portals are registered; municipalities are not independently connected. Parliamentary adoption, popular votes and entry into force are verified separately. Each document retains its original language.'],
 "追踪范围：荷兰全国层面及欧洲部分全部12个省。":["Umfang: nationale Ebene der Niederlande und alle zwölf Provinzen im europäischen Landesteil.", "Scope: the Dutch national level and all 12 provinces in the European Netherlands."],
@@ -369,10 +386,7 @@ export const messages = {
     "Filter zurücksetzen",
     "Clear filters"
   ],
-  "自 2026.10.02 起持续登记，既有政策为历史样例。": [
-    "Fortlaufende Erfassung seit 02.10.2026; ältere Einträge sind historische Beispiele.",
-    "Tracking since 2 October 2026; earlier entries are historical examples."
-  ],
+  "登记起点为 2026.10.02；各国实际核查范围请查看覆盖缺口。": ["Erfassung ab 02.10.2026; den tatsächlichen Prüfumfang je Land zeigen die Abdeckungslücken.", "Records start on 2 October 2026; see coverage gaps for each country’s actual review scope."],
   "查看覆盖缺口": [
     "Abdeckungslücken ansehen",
     "View coverage gaps"

@@ -59,9 +59,12 @@ test('selection switches the build pointer only after checking archive bytes',()
   const exports=join(root,'data/exports');mkdirSync(exports,{recursive:true});
   const fixture=fileURLToPath(new URL('../data/exports/2026-10-03',import.meta.url));
   cpSync(fixture,join(exports,'old'),{recursive:true});cpSync(fixture,join(exports,'new'),{recursive:true});
+  const candidate=copy();candidate.discoveryRegistry=JSON.parse(readFileSync(new URL('../data/discovery-registry.json',import.meta.url),'utf8'));writeFileSync(join(exports,'new/policy-radar-export.json'),JSON.stringify(candidate));
   const pointer=join(root,'data/current-export.json');writeFileSync(pointer,JSON.stringify({path:'data/exports/old/policy-radar-export.json'}));
   const run=()=>spawnSync(process.execPath,['--experimental-strip-types',fileURLToPath(new URL('../scripts/select-export.mjs',import.meta.url)),'data/exports/new/policy-radar-export.json'],{cwd:root,encoding:'utf8'});
-  const snapshot=old.tables.snapshots[0].key,bytes=readFileSync(join(exports,'new',snapshot));
+  cpSync(fileURLToPath(new URL('../data/sources',import.meta.url)),join(root,'data/sources'),{recursive:true});
+  const snapshot=old.tables.snapshots[0].key,bytes=readFileSync(join(root,'data/sources',snapshot.split('/').at(-1)!));
+  mkdirSync(join(exports,'new',snapshot,'..'),{recursive:true});
   writeFileSync(join(exports,'new',snapshot),'corrupt');
   const failed=run();assert.notEqual(failed.status,0);assert.match(failed.stderr,/checksum mismatch/);
   assert.equal(JSON.parse(readFileSync(pointer,'utf8')).path,'data/exports/old/policy-radar-export.json');

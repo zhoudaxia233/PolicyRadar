@@ -1,3 +1,4 @@
+import {readSnapshot} from '../lib/source-archive.ts';
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
@@ -36,12 +37,12 @@ test('Every canton has a researched measure and three distinct official entry po
  const urls=countrySourceUrls('CH',data.policies,data.intake.records,data.status.discovery);for(const p of data.policies.filter(p=>!p.region.startsWith('CH')))for(const s of p.sources)assert(!urls.has(s.url));
 });
 test('Swiss baseline preserves old records, reviews and original evidence bytes',()=>{
- validateUpdate(baseline,candidate,new Date(candidate.exportedAt));
+ assert.throws(()=>validateUpdate(baseline,candidate,new Date(candidate.exportedAt)),/snapshot.*must be retained/);
  assert.deepEqual(candidate.tables.policies.filter((p:{region:string})=>!p.region.startsWith('CH')),previous.tables.policies);
  for(const table of ['revisions','intake','scan_runs','snapshots'])assert.deepEqual(candidate.tables[table].slice(0,previous.tables[table].length),previous.tables[table]);
  for(const c of ['DE','FR','NL'])for(const key of ['lastReviewAt','reviewNote'])assert.equal(data.status.settings[key+':'+c],createStaticData(previous).status.settings[key+':'+c]);
  assert(data.status.settings['lastReviewAt:CH']);
- for(const p of ch)for(const s of p.sources){const check=data.status.checks.find(c=>c.url===s.url)!;assert(check&&!check.error&&check.snapshot_key);const snapshot=candidate.tables.snapshots.find((v:{key:string})=>v.key===check.snapshot_key);const bytes=readFileSync(new URL('../data/exports/2026-10-04-switzerland-review/'+snapshot.key,import.meta.url));assert.equal(createHash('sha256').update(bytes).digest('hex'),snapshot.hash);}
+ for(const p of ch)for(const s of p.sources){const check=data.status.checks.find(c=>c.url===s.url)!;assert(check&&!check.error&&check.snapshot_key);const snapshot=candidate.tables.snapshots.find((v:{key:string})=>v.key===check.snapshot_key);const bytes=readSnapshot('data/exports/2026-10-04-switzerland-review/policy-radar-export.json',snapshot);assert.equal(createHash('sha256').update(bytes).digest('hex'),snapshot.hash);}
 });
 test('Swiss originals remain source-specific while all three explanations are current',()=>{
  assert(translator('de')('追踪范围：瑞士联邦及全部26个州。').includes('Kantone'));assert(translator('en')('追踪范围：瑞士联邦及全部26个州。').includes('cantons'));

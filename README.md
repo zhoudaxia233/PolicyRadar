@@ -50,7 +50,10 @@ The active dataset is selected by `data/current-export.json`. The initial export
 - Archived HTML/PDF sources are published with `.bin` extensions as downloads, so third-party HTML never runs on the site's origin.
 - The build validates the policy data and every archived source's SHA-256 hash, and fails if evidence is missing or corrupt.
 
-To build from a newer export, keep its `sources/` directory beside it and run:
+Original evidence is shared in `data/sources/<content-hash>.html` or `.pdf`.
+Historical logical keys are preserved; builds also accept legacy adjacent `sources/`
+folders, checking the exact bytes in either layout. New exports snapshot
+`data/discovery-registry.json` as `discoveryRegistry`. To build an export, run:
 
 ```sh
 npm run build -- data/exports/YYYY-MM-DD/policy-radar-export.json

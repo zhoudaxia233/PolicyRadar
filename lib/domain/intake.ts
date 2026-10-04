@@ -1,6 +1,6 @@
 import {z} from 'zod';
 import {dateSchema,regions,tagsSchema} from './model.ts';
-import {discoveryForYear} from './coverage.ts';
+import {discoveryForYear,type DiscoverySource} from './coverage.ts';
 export const trackingStart='2026-10-02';
 const url=z.string().url().refine(u=>{const p=new URL(u);return p.protocol==='https:'&&!p.username&&!p.password&&!p.port;});
 const text=z.string().trim().min(1).max(6000);
@@ -35,9 +35,9 @@ export function validateScanTime(s:Scan,now=new Date()){
  if(s.status==='complete'&&(s.windowEnd>=berlinDate(now)||s.windowEnd>=berlinDate(new Date(s.checkedAt))))throw Error('An ongoing day cannot be marked complete');
 }
 const nextDay=(date:string)=>new Date(Date.parse(date+'T12:00:00Z')+86400000).toISOString().slice(0,10);
-export function coverageRows(scans:Scan[],year:number){return discoveryForYear(year).map(source=>{
+export function coverageRows(scans:Scan[],year:number,registry?:DiscoverySource[]){return discoveryForYear(year,registry).map(source=>{
  // Annual source URLs represent one channel. Do not reset its history at New Year.
- const sourceUrls=new Set(Array.from({length:Math.max(1,year-2026+1)},(_,i)=>discoveryForYear(2026+i).find(d=>d.region===source.region&&d.publisher===source.publisher&&d.title.replace(/20\d{2}/g,'YEAR')===source.title.replace(/20\d{2}/g,'YEAR'))?.url).filter(Boolean));
+ const sourceUrls=new Set(Array.from({length:Math.max(1,year-2026+1)},(_,i)=>discoveryForYear(2026+i,registry).find(d=>d.region===source.region&&d.publisher===source.publisher&&d.title.replace(/20\d{2}/g,'YEAR')===source.title.replace(/20\d{2}/g,'YEAR'))?.url).filter(Boolean));
  sourceUrls.add(source.url);
  const history=scans.filter(s=>sourceUrls.has(s.sourceUrl)).sort((a,b)=>b.checkedAt.localeCompare(a.checkedAt));
  let next=trackingStart,coveredThrough:string|null=null;

@@ -1,5 +1,5 @@
 import type {Locale} from './index.ts';
-import type {Policy} from '../domain/model.ts';
+import {policyStatusNote,type Policy} from '../domain/model.ts';
 import type {IntakeRecord} from '../domain/intake.ts';
 export type ContentCatalog=Record<string,readonly [string,string]>;
 export type TranslationState='current'|'missing'|'stale';
@@ -11,11 +11,11 @@ export function contentText(text:string|undefined,locale:Locale,catalog:ContentC
 }
 // Only explanatory text is projected. Identifiers, original titles, dates, stages,
 // status codes, tags, citations and evidence remain canonical, in every language.
-export function policyTextFields(p:Policy):string[]{return [p.title,p.summary,p.before,p.after,p.impact,p.limits,p.nextLabel,p.dispute,p.dateExplanation??'',...p.sources.flatMap(s=>[s.title,s.note,s.publisher]),...(p.rules??[]).flatMap(r=>[r.title,r.detail]),...p.events.flatMap(e=>[e.title,e.detail]),...(p.politics?.proposedBy?[p.politics.proposedBy.name,p.politics.proposedBy.party??'']:[]),...(p.politics?.votes??[]).flatMap(v=>[v.body,v.result,v.note])];}
+export function policyTextFields(p:Policy):string[]{return [p.title,p.summary,p.before,p.after,p.impact,p.limits,p.nextLabel,p.dispute,p.dateExplanation??'',policyStatusNote(p)??'',...p.sources.flatMap(s=>[s.title,s.note,s.publisher]),...(p.rules??[]).flatMap(r=>[r.title,r.detail]),...p.events.flatMap(e=>[e.title,e.detail]),...(p.politics?.proposedBy?[p.politics.proposedBy.name,p.politics.proposedBy.party??'']:[]),...(p.politics?.votes??[]).flatMap(v=>[v.body,v.result,v.note])];}
 export function localizePolicy(p:Policy,locale:Locale,l:Localization):Policy {
  if(locale==='zh'||l.policies[p.id]!=='current')return p;
  const t=(s:string)=>contentText(s,locale,l.messages);
- return {...p,title:t(p.title),summary:t(p.summary),before:t(p.before),after:t(p.after),impact:t(p.impact),limits:t(p.limits),nextLabel:t(p.nextLabel),dispute:t(p.dispute),dateExplanation:p.dateExplanation&&t(p.dateExplanation),sources:p.sources.map(s=>({...s,title:t(s.title),note:t(s.note),publisher:t(s.publisher)})),rules:p.rules?.map(r=>({...r,title:t(r.title),detail:t(r.detail)})),events:p.events.map(e=>({...e,title:t(e.title),detail:t(e.detail)})),politics:p.politics&&{...p.politics,proposedBy:p.politics.proposedBy&&{...p.politics.proposedBy,name:t(p.politics.proposedBy.name),party:p.politics.proposedBy.party&&t(p.politics.proposedBy.party)},votes:p.politics.votes?.map(v=>({...v,body:t(v.body),result:t(v.result),note:t(v.note)}))}};
+ return {...p,...(policyStatusNote(p)?{statusNote:t(policyStatusNote(p)!)}:{}),title:t(p.title),summary:t(p.summary),before:t(p.before),after:t(p.after),impact:t(p.impact),limits:t(p.limits),nextLabel:t(p.nextLabel),dispute:t(p.dispute),dateExplanation:p.dateExplanation&&t(p.dateExplanation),sources:p.sources.map(s=>({...s,title:t(s.title),note:t(s.note),publisher:t(s.publisher)})),rules:p.rules?.map(r=>({...r,title:t(r.title),detail:t(r.detail)})),events:p.events.map(e=>({...e,title:t(e.title),detail:t(e.detail)})),politics:p.politics&&{...p.politics,proposedBy:p.politics.proposedBy&&{...p.politics.proposedBy,name:t(p.politics.proposedBy.name),party:p.politics.proposedBy.party&&t(p.politics.proposedBy.party)},votes:p.politics.votes?.map(v=>({...v,body:t(v.body),result:t(v.result),note:t(v.note)}))}};
 }
 export function localizeIntake(r:IntakeRecord,locale:Locale,l:Localization):IntakeRecord {
  if(locale==='zh'||l.intake[r.id]!=='current')return r;

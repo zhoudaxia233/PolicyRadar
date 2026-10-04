@@ -1,3 +1,4 @@
+import {readSnapshot} from '../lib/source-archive.ts';
 import {build} from 'esbuild';
 import {mkdir,writeFile,readFile,copyFile,rm,rename,mkdtemp} from 'node:fs/promises';
 import {resolve,dirname} from 'node:path';
@@ -25,7 +26,7 @@ try {
   await writeFile(resolve(output,'policy-radar-export.json'),raw);
   for(const s of exported.tables.snapshots){
     if(!snapshotKey.test(s.key))throw Error('Unsafe snapshot key');
-    const bytes=await readFile(resolve(dirname(source),s.key));
+    const bytes=readSnapshot(source,s);
     if(createHash('sha256').update(bytes).digest('hex')!==s.hash)throw Error('Snapshot checksum mismatch: '+s.key);
     // Original third-party HTML is downloadable evidence, never an executable page on our origin.
     const target=resolve(output,s.key+'.bin');

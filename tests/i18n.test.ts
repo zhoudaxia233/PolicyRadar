@@ -89,8 +89,8 @@ test('translated search matches all languages while category identities and coun
 });
 test('canonical lifecycle decisions remain independent of translated next-step wording',()=>{
  const original=data.policies.find(p=>p.id==='de-fuel-relief-2026')!;
- assert.equal(lifecycle(original,'2027-01-02'),'期限已到 · 后续待核实');
- for(const locale of ['de','en'] as const){const translated=localizePolicy(original,locale,l);assert.equal(keyDate(translated,'2026-10-03').date,keyDate(original,'2026-10-03').date);assert(!/[\u3400-\u9fff]/.test(contentText(lifecycle(original,'2027-01-02'),locale,l.messages)));}
+ assert.equal(lifecycle(original,'2027-01-02'),'已通过 · 期限已到，后续待核实');
+ for(const locale of ['de','en'] as const){const translated=localizePolicy(original,locale,l);assert.equal(keyDate(translated,'2026-10-03').date,keyDate(original,'2026-10-03').date);assert(!/[\u3400-\u9fff]/.test(translator(locale)(lifecycle(original,'2027-01-02'))));}
 });
 test('original-language metadata is record-specific, not inferred from the chosen language',()=>{
  const custom=structuredClone(bindings);custom.policies[data.policies[0].id].originalLanguage='fr';

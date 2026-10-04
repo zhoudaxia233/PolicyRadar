@@ -31,7 +31,7 @@ test('multi-tag filtering is OR within tags, AND with region and phase',()=>{con
 test('new categories are accepted and missing tags never exclude default results',()=>{const p=structuredClone(seed[0]);p.topic='农业与食品';p.tags=['农业','食品安全'];assert(policySchema.safeParse(p).success);delete p.tags;assert.equal(selectPolicies([p],'all','all','all','').length,1);});
 test('filter URL round-trip preserves multilingual categories and policy detail',()=>{const state={view:'all',country:'DE',region:'DE-HE',query:'租金 & 税',tags:['租房','投资']};const url=filterSearch('?policy=test',state);assert.deepEqual(readFilters(url),state);assert.equal(new URLSearchParams(url).get('policy'),'test');assert.equal(readFilters('?region=invalid&view=evil').region,'all');});
 test('complete scans require enumeration, reconciliation and a closed day',()=>{const source=baseline.scans[0].sourceUrl;const complete={...baseline.scans[0],sourceUrl:source,checkedAt:'2026-10-03T01:00:00Z',status:'complete',allPagesChecked:true,totalListed:0,recordIds:[],excluded:[]};assert(scanSchema.safeParse(complete).success);assert(!scanSchema.safeParse({...complete,allPagesChecked:false}).success);assert(!scanSchema.safeParse({...complete,totalListed:1}).success);assert.throws(()=>validateScanTime(complete,new Date('2026-10-02T20:00:00Z')),/ongoing|future/);assert.doesNotThrow(()=>validateScanTime(complete,new Date('2026-10-03T20:00:00Z')));});
-test('later successful scans cannot skip an earlier date gap',()=>{const base=scanSchema.parse({...baseline.scans[0],windowStart:'2026-09-02',status:'complete',allPagesChecked:true,totalListed:0,recordIds:[],excluded:[]});const later={...base,id:'later',windowStart:'2026-10-04',windowEnd:'2026-10-05'};let c=coverageRows([later],2026).find(c=>c.url===base.sourceUrl)!;assert.equal(c.coveredThrough,null);c=coverageRows([base,later],2026).find(c=>c.url===base.sourceUrl)!;assert.equal(c.coveredThrough,'2026-10-02');const fill={...base,id:'fill',windowStart:'2026-10-03',windowEnd:'2026-10-03'};assert.equal(coverageRows([base,later,fill],2026).find(c=>c.url===base.sourceUrl)!.coveredThrough,'2026-10-05');assert.equal(coverageRows([{...base,status:'partial'}],2026).find(c=>c.url===base.sourceUrl)!.coveredThrough,null);});
+test('later successful scans cannot skip an earlier date gap',()=>{const base=scanSchema.parse({...baseline.scans[0],windowStart:'2026-08-02',status:'complete',allPagesChecked:true,totalListed:0,recordIds:[],excluded:[]});const later={...base,id:'later',windowStart:'2026-10-04',windowEnd:'2026-10-05'};let c=coverageRows([later],2026).find(c=>c.url===base.sourceUrl)!;assert.equal(c.coveredThrough,null);c=coverageRows([base,later],2026).find(c=>c.url===base.sourceUrl)!;assert.equal(c.coveredThrough,'2026-10-02');const fill={...base,id:'fill',windowStart:'2026-10-03',windowEnd:'2026-10-03'};assert.equal(coverageRows([base,later,fill],2026).find(c=>c.url===base.sourceUrl)!.coveredThrough,'2026-10-05');assert.equal(coverageRows([{...base,status:'partial'}],2026).find(c=>c.url===base.sourceUrl)!.coveredThrough,null);});
 test('every region belongs to a configured country',()=>{for(const r of regions)assert(countries.some(c=>c.id===countryOf(r.id)),r.id);assert.equal(readFilters('?region=DE-HE').country,'DE');assert.equal(readFilters('?country=XX').country,countries[0].id);});
 test('key date prefers a near-term next step over a distant expiry',()=>{const p=structuredClone(seed[0]);p.effectiveDate='2025-07-23';p.nextDate='2029-12-31';p.nextLabel='期限结束';assert.equal(keyDate(p,'2026-10-03').kind,'effective');p.nextDate='2026-10-08';assert.deepEqual(keyDate(p,'2026-10-03'),{date:'2026-10-08',label:'期限结束',kind:'next'});p.effectiveDate=null;p.nextDate='2029-12-31';assert.equal(keyDate(p,'2026-10-03').kind,'next');});
 
@@ -43,14 +43,17 @@ test('refresh preserves every selected category, including crypto selected thirt
  assert.deepEqual(selectPolicies(seed,after.view,after.region,'all',after.query,after.tags),selectPolicies(seed,before.view,before.region,'all',before.query,before.tags));
 });
 
-test('one-month extension keeps September uncovered until a reconciled scan fills it',()=>{
+test('two-month extension keeps August uncovered despite complete September and October scans',()=>{
  const oct=scanSchema.parse({...baseline.scans[0],status:'complete',allPagesChecked:true,totalListed:0,recordIds:[],excluded:[]});
  const row=()=>coverageRows([oct],2026).find(c=>c.url===oct.sourceUrl)!;
- assert.equal(row().nextUncovered,'2026-09-02');
+ assert.equal(row().nextUncovered,'2026-08-02');
  assert.equal(row().coveredThrough,null);
  const sept={...oct,id:'september-backfill',windowStart:'2026-09-02',windowEnd:'2026-10-01'};
  assert(scanSchema.safeParse(sept).success);
- assert(!scanSchema.safeParse({...sept,windowStart:'2026-09-01'}).success);
+ assert(!scanSchema.safeParse({...sept,windowStart:'2026-08-01'}).success);
  assert.equal(coverageRows([{...sept,status:'partial'},oct],2026).find(c=>c.url===oct.sourceUrl)!.coveredThrough,null);
- assert.equal(coverageRows([sept,oct],2026).find(c=>c.url===oct.sourceUrl)!.coveredThrough,'2026-10-02');
+ assert.equal(coverageRows([sept,oct],2026).find(c=>c.url===oct.sourceUrl)!.coveredThrough,null);
+ const aug={...sept,id:'august-backfill',windowStart:'2026-08-02',windowEnd:'2026-09-01'};
+ assert.equal(coverageRows([{...aug,status:'partial'},sept,oct],2026).find(c=>c.url===oct.sourceUrl)!.coveredThrough,null);
+ assert.equal(coverageRows([aug,sept,oct],2026).find(c=>c.url===oct.sourceUrl)!.coveredThrough,'2026-10-02');
 });

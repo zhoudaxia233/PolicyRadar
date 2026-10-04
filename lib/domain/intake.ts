@@ -1,7 +1,7 @@
 import {z} from 'zod';
 import {dateSchema,regions,tagsSchema} from './model.ts';
 import {discoveryForYear,type DiscoverySource} from './coverage.ts';
-export const trackingStart='2026-08-02';
+export const trackingStart='2026-01-01';
 const url=z.string().url().refine(u=>{const p=new URL(u);return p.protocol==='https:'&&!p.username&&!p.password&&!p.port;});
 const text=z.string().trim().min(1).max(6000);
 // Raw discoveries remain available even before a policy explanation exists.

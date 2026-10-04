@@ -1011,6 +1011,54 @@
       "hash": "58e09a333e1e3c26e0688760743c44e7177816d34852528f50653b35fa148986",
       "originalLanguage": "en",
       "verbatim": []
+    },
+    "de-digital-certificate-2026": {
+      "version": 1,
+      "hash": "93e2e95af791ad2e0b7427cef5f3955538e68ffbee9a47440706750ba926fbc0",
+      "originalLanguage": "de",
+      "verbatim": []
+    },
+    "fr-reusable-menstrual-products-2026": {
+      "version": 1,
+      "hash": "da6dbeee55b411833ba49b9c73191a846850adf00f2f7c6a711a7e6ba5bb84b8",
+      "originalLanguage": "fr",
+      "verbatim": []
+    },
+    "nl-rent-commission-2027": {
+      "version": 1,
+      "hash": "2041107f8496dc14fe8178a555e9cff1e994b483fe31e0afd55950b04f5dddf6",
+      "originalLanguage": "nl",
+      "verbatim": []
+    },
+    "nl-energy-emergency-fund-2027": {
+      "version": 1,
+      "hash": "5fb21afaeaff8ae03e2e99a83aae2c8d157287318f3c124425e021615cfa6287",
+      "originalLanguage": "nl",
+      "verbatim": []
+    },
+    "nl-self-employed-consultation-2026": {
+      "version": 1,
+      "hash": "80839708d8a161157ea809a3483d529cd51fb4fcbca472c8c71574667db0dbbf",
+      "originalLanguage": "nl",
+      "verbatim": []
+    },
+    "ch-health-premiums-2027": {
+      "version": 1,
+      "hash": "367ce964a094ce75f629fc2aded5870b926860c6f43f34bd6ecb8feb5ace97de",
+      "originalLanguage": "de",
+      "verbatim": []
+    },
+    "ch-ai-even-2026": {
+      "version": 1,
+      "hash": "5c4a5b00e82ba11cf8f967970bbd5574f8201459e08fef729859fc4de27c7a5b",
+      "originalLanguage": "de",
+      "verbatim": []
+    },
+    "eu-pfhxa-consumer-2026": {
+      "version": 1,
+      "hash": "ea6a13122a87c1103745b956fd81dea46ad6eb304991d85421b98ed352e7aec8",
+      "originalLanguage": "en",
+      "verbatim": []
     }
   },
   "intake": {
@@ -1461,6 +1509,144 @@
     "it-sardegna-small-town-first-home-2026-discovery": {
       "hash": "12af14349e2e1acc42a811e8ae2cce3b8428261a0b64832eff8748406f055620",
       "originalLanguage": "it",
+      "titleIsOriginal": true,
+      "verbatim": []
+    },
+    "it-audit-26a05182": {
+      "hash": "30f6381b0bea41428179ebcbf88a0aba6a0e0558c721c6a0567ec4daa8ff5b83",
+      "originalLanguage": "it",
+      "titleIsOriginal": true,
+      "verbatim": []
+    },
+    "it-audit-26a05167": {
+      "hash": "d78b13c53cdc67400d9c6374800da04386f598c5295c5af261c42fb7ae843285",
+      "originalLanguage": "it",
+      "titleIsOriginal": true,
+      "verbatim": []
+    },
+    "it-audit-26a05193": {
+      "hash": "12ffd491ea0ba6eed91c99c7c440f19236f8a3f923c904add2cab4df372e3725",
+      "originalLanguage": "it",
+      "titleIsOriginal": true,
+      "verbatim": []
+    },
+    "it-audit-26a05189": {
+      "hash": "7d4ad5210fdd05fe48c6f84d27ad55bab731f9342493c1e0514c596a07540075",
+      "originalLanguage": "it",
+      "titleIsOriginal": true,
+      "verbatim": []
+    },
+    "it-audit-26a05190": {
+      "hash": "79acfdf7f4324b1b531bc80e67bd4829a092755d28388f9492fbe5ebe2f6949d",
+      "originalLanguage": "it",
+      "titleIsOriginal": true,
+      "verbatim": []
+    },
+    "it-audit-26a05191": {
+      "hash": "867a18085fdaf27e94539618724d46b9d9fce55eae6f19fff2e1ad11da1e5d14",
+      "originalLanguage": "it",
+      "titleIsOriginal": true,
+      "verbatim": []
+    },
+    "it-audit-26a05144": {
+      "hash": "3486d28af481be9ae215c6d7304c01f8e084ae9c8f502e04de102e8092084740",
+      "originalLanguage": "it",
+      "titleIsOriginal": true,
+      "verbatim": []
+    },
+    "it-audit-26a05145": {
+      "hash": "08e341273752b6d61a8eb63b903f6ea4007f1ee1336a6c138140fde9c2d3125f",
+      "originalLanguage": "it",
+      "titleIsOriginal": true,
+      "verbatim": []
+    },
+    "it-audit-26a05146": {
+      "hash": "e428c4c16c80a295e992d1e379ce13b6286090e4c6b4f9ba87f5d2f091ed8e7c",
+      "originalLanguage": "it",
+      "titleIsOriginal": true,
+      "verbatim": []
+    },
+    "it-audit-26a05147": {
+      "hash": "82ae2cf65324a52905c0a397fa79d2e4fd0b84a50e0aa6b38bebf59bdb79a4ec",
+      "originalLanguage": "it",
+      "titleIsOriginal": true,
+      "verbatim": []
+    },
+    "it-audit-26a05168": {
+      "hash": "0de39fb9ea2c9a7f89d6bac2573f4860fc3e36b472a7edefe674f4e296e5c5f1",
+      "originalLanguage": "it",
+      "titleIsOriginal": true,
+      "verbatim": []
+    },
+    "it-audit-26a05169": {
+      "hash": "5397a8cb9063fd9645407eb0805a30b41c7b7faba03df55ece7937a54e6721f5",
+      "originalLanguage": "it",
+      "titleIsOriginal": true,
+      "verbatim": []
+    },
+    "it-audit-26a05170": {
+      "hash": "f1a60940302672b7df8d6e851bdfb69fa4558d88fe0323aaa74ccacdf59d0cac",
+      "originalLanguage": "it",
+      "titleIsOriginal": true,
+      "verbatim": []
+    },
+    "it-audit-26a05171": {
+      "hash": "65e6a61f95b84f1156996a99129fe0074596e069b39f05aaf843c7c46ec5f32c",
+      "originalLanguage": "it",
+      "titleIsOriginal": true,
+      "verbatim": []
+    },
+    "it-audit-26a05194": {
+      "hash": "0524a7dd0f35053fa43856a9293ed8affdd167815bb49f868f2ae6bec2b053e3",
+      "originalLanguage": "it",
+      "titleIsOriginal": true,
+      "verbatim": []
+    },
+    "it-audit-26a05195": {
+      "hash": "d3b9d0fb43197754e1c12b78e84214574b5a0d3bbbc40ec8aa1844e64523b300",
+      "originalLanguage": "it",
+      "titleIsOriginal": true,
+      "verbatim": []
+    },
+    "it-audit-26r00269": {
+      "hash": "e86e4bd16607341c15bdde7cba2d700496cd01d40e7bc3abcd0f02a96549602c",
+      "originalLanguage": "it",
+      "titleIsOriginal": true,
+      "verbatim": []
+    },
+    "it-audit-26r00270": {
+      "hash": "589be90024d27039356db8d181373ade4936a9c8fee316f1e40ed23ddb5ef222",
+      "originalLanguage": "it",
+      "titleIsOriginal": true,
+      "verbatim": []
+    },
+    "it-audit-26r00271": {
+      "hash": "42564e9aa91f835fe2bf090b015033c312a3678d6dcae9cb019abcac5bdf3072",
+      "originalLanguage": "it",
+      "titleIsOriginal": true,
+      "verbatim": []
+    },
+    "audit-ch-zh-police": {
+      "hash": "28119983b1065bd7f0abcbceab967eb7a66dcb8e68e9154f94b6813058490e71",
+      "originalLanguage": "de",
+      "titleIsOriginal": true,
+      "verbatim": []
+    },
+    "audit-nl-mental-health": {
+      "hash": "19cf0510664aa9002414b26c809b2523224ab8295a802c38add1a7f049b889ae",
+      "originalLanguage": "nl",
+      "titleIsOriginal": true,
+      "verbatim": []
+    },
+    "audit-it-marche-water": {
+      "hash": "d30186c9e6fd251a59e95ec4757fd392eb6f4e55b43fe51808d06deab27f9ce5",
+      "originalLanguage": "it",
+      "titleIsOriginal": true,
+      "verbatim": []
+    },
+    "audit-fr-psy-law": {
+      "hash": "9da1718a981eac80f7b073b5eea09b5530b326c8a0a843278c6d2ae45ebd363f",
+      "originalLanguage": "fr",
       "titleIsOriginal": true,
       "verbatim": []
     }

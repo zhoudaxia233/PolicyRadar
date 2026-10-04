@@ -23,7 +23,7 @@ up from stored coverage, rather than skip to the latest week.
    Germany’s federation and all sixteen states, plus France’s national level and
    all 18 registered regional geographic areas, and the Netherlands’ national level
    plus all 12 European provinces, Switzerland’s federation and all 26 cantons,
-   and Italy’s national level and all 20 regions,
+   and Italy’s national level and all 20 regions, plus the EU supranational level,
    across all policy topics. French
    departments, municipalities and other special overseas territories are not
    independently connected. Dutch municipalities, water authorities, Caribbean
@@ -89,7 +89,7 @@ up from stored coverage, rather than skip to the latest week.
 4. Set `exportedAt` to the actual export time. Preserve historical `lastReviewAt` and
    `reviewNote` only in legacy exports; do not write these global keys in new
    exports. Update `lastReviewAt:DE` / `reviewNote:DE` and/or
-   `lastReviewAt:FR` / `reviewNote:FR` and/or `lastReviewAt:NL` / `reviewNote:NL` and/or `lastReviewAt:CH` / `reviewNote:CH` and/or `lastReviewAt:IT` / `reviewNote:IT` only for the countries actually reviewed;
+   `lastReviewAt:FR` / `reviewNote:FR` and/or `lastReviewAt:NL` / `reviewNote:NL` and/or `lastReviewAt:CH` / `reviewNote:CH` and/or `lastReviewAt:IT` / `reviewNote:IT` and/or `lastReviewAt:EU` / `reviewNote:EU` only for the countries actually reviewed;
    the UI falls back to the preserved initial markers until a country is updated.
    Name coverage gaps,
    affected channels and unresolved facts. Do not claim full nationwide coverage.
@@ -279,3 +279,35 @@ bilingual institutional names. Cabinet approval of a bill is not parliamentary
 adoption; distinguish decree-law commencement, conversion and expiry.
 The initial parental-leave explanation is historical backfill, not evidence of
 a complete monitoring scan since 2026-10-02.
+
+## European Union review
+
+Use the EU channels in the registry for regulations, directives, decisions and
+proposals. Distinguish legal instruments: regulations are directly applicable;
+directives require national transposition; decisions can address specific parties.
+Use `effectiveDateKind: "application"` when the card date is the start of applying
+requirements rather than legal commencement; omit it for legacy commencement dates.
+Do not substitute an application date for the act’s entry into force.
+Verify adoption, publication, entry into force, application dates and transposition
+deadlines separately. A directive deadline does not prove national implementation.
+Do not assume that EU membership, the euro area, EEA or SEPA participation have
+identical legal scope; non-members such as Switzerland are not automatically covered.
+
+Store each EU measure once under region `EU`. National implementing laws are
+separate measures, with their own evidence and dates. The first version does not
+automatically include EU records in national views or claim national transposition
+coverage. Preserve the other countries' records and review markers on EU-only runs.
+
+The first three explanations are historical backfill, not a completed scan since
+2026-10-02. Their evidence consists of archived Commission and ECB explanations.
+EUR-Lex document downloads returned empty HTTP 202 responses during intake; those
+responses are not legal-text snapshots. Follow the law links on the official
+explanation pages and obtain the authoritative text when access permits. Do not
+bypass access restrictions or label explanatory pages as the legal text.
+
+The initial EU addition has two validated selections: `2026-10-04-eu-130806`
+then `2026-10-04-eu-date-review-131101`. Preserve that order in separate commits
+when publishing: the charger starts at version 1 and the date-kind correction
+advances it to version 2. Selecting only the final export directly from the
+pre-EU commit fails the existing first-version history gate. Bind translations
+to the selected version in each commit; do not squash away this transition.

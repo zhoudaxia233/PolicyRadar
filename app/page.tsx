@@ -779,9 +779,13 @@ export default function Home() {
                       <span>
                         <CalendarDays size={14} />
                         {ct(keyDate(p, today).label)}
-
+                        {' '}
                         {fmt(keyDate(p, today).date)}
                       </span>
+                      {keyDate(p, today).kind !== 'progress' && <span>
+                        <Activity size={14} />
+                        {tr('最近进展 {0}', [fmt(p.lastEventDate)])}
+                      </span>}
                       <span>
                         <FileText size={14} />
                         {p.sources.length === 1 ? tr('1 个官方来源') : tr('{0} 个官方来源', [p.sources.length])}

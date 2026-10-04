@@ -732,6 +732,10 @@ export const messages = {
   "1 个官方来源": [
     "1 offizielle Quelle",
     "1 official source"
+  ],
+  "最近进展 {0}": [
+    "Letzte Entwicklung {0}",
+    "Latest development {0}"
   ]
 } as const;
 export type MessageKey = keyof typeof messages;

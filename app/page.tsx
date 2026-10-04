@@ -236,7 +236,7 @@ export default function Home() {
     }
   }
   const nav = [
-    { id: 'intake', label: tr("官方进展"), short: tr("进展"), icon: FileText, count: viewCount('intake') },
+    { id: 'intake', label: tr("官方进展"), short: tr("进展#nav"), icon: FileText, count: viewCount('intake') },
     { id: 'adopted', label: tr("已经通过"), short: tr("已通过"), icon: LayoutDashboard, count: viewCount('adopted') },
     { id: 'pending', label: tr("待决议题"), short: tr("待决"), icon: Clock3, count: viewCount('pending') },
     { id: 'all', label: tr("全部政策"), short: tr("全部"), icon: Layers, count: viewCount('all') },

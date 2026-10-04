@@ -1,0 +1,784 @@
+<!-- Tempo di esecuzione: 32 ms -->
+<!DOCTYPE html>
+<html  lang="it-IT">
+<head id="Head"><script src="/tarteaucitron/tarteaucitron.min.js"></script>
+<script type="text/javascript">
+    var _paq = window._paq = window._paq || [];
+    _paq.push(['trackPageView']);
+    _paq.push(['enableLinkTracking']);
+    _paq.push(['optUserOut']);
+
+    (function () {
+        var u = "//webanalytics.regione.marche.it/";
+        _paq.push(['setTrackerUrl', u + 'matomo.php']);
+        _paq.push(['setSiteId', '1']);
+
+        // Add this code below within the Matomo JavaScript tracker code
+        // Important: the tracker url includes the /matomo.php
+        var secondaryTrackerUrl = 'https://ingestion.webanalytics.italia.it/matomo.php';
+        var secondaryWebsiteId = 'RBJ3Bbr3X6';
+        // Also send all of the tracking data to this other Matomo server, in website ID 77
+        _paq.push(['addTracker', secondaryTrackerUrl, secondaryWebsiteId]);
+        // That's it!
+
+        var d = document, g = d.createElement('script'), s = d.getElementsByTagName('script')[0];
+        g.type = 'text/javascript'; g.async = true; g.src = u + 'matomo.js'; s.parentNode.insertBefore(g, s);
+    })();
+</script>
+<script>
+    var waitForTrackerCount = 0;
+    function matomoWaitForTracker() {
+        if (typeof _paq === 'undefined' || typeof tarteaucitron === 'undefined') {
+            if (waitForTrackerCount < 40) {
+                setTimeout(matomoWaitForTracker, 250);
+                waitForTrackerCount++;
+                return;
+            }
+        }
+        // Initialise Tarteaucitron after the tracker is loaded script
+        //tarteaucitron.init({
+        //    //optionally add non-default Tarteaucitron configs here
+        //});
+        tarteaucitron.services.MatomoAnalytics = {
+            "key": "MatomoAnalytics",
+            "type": "analytic",
+            "name": "Matomo Analytics",
+            "needConsent": true,
+            "cookies": ['_pk_id', '_pk_sess', '_pk_ref'],
+            "js": function () {
+                "use strict";
+                // When user allow cookie
+                ('Matomo cookies accepted');
+                var _paq = window._paq = window._paq || [];
+                _paq.push(['setConsentGiven']);
+            },
+            "fallback": function () {
+                "use strict";
+                // when use deny cookie
+                ('Matomo cookies rejected');
+                var _paq = window._paq = window._paq || [];
+                _paq.push(['forgetConsentGiven']);
+                _paq.push(['deleteCookies']);
+            }
+        };
+        // Ensure that tarteaucitron is loaded before pushing the job
+        tarteaucitron.job = tarteaucitron.job || [];
+        tarteaucitron.job.push('MatomoAnalytics');
+    }
+    document.addEventListener('DOMContentLoaded', matomoWaitForTracker);
+
+</script>
+<script type="text/javascript">
+    tarteaucitron.init({
+        "privacyUrl": "/Informativa-privacy", /* Privacy policy url */
+        "bodyPosition": "top", /* top to bring it as first element for accessibility */
+
+        "hashtag": "#tarteaucitron", /* Open the panel with this hashtag */
+        "cookieName": "tarteaucitron", /* Cookie name */
+
+        "orientation": "middle", /* Banner position (top - bottom) */
+
+        "groupServices": true, /* Group services by category */
+        "showDetailsOnClick": true, /* Click to expand the description */
+        "serviceDefaultState": "wait", /* Default state (true - wait - false) */
+
+        "showAlertSmall": false, /* Show the small banner on bottom right */
+        "cookieslist": false, /* Show the cookie list in a mini banner */
+        "cookieslistEmbed": false, /* Show the cookie list on the control panel */
+
+        "closePopup": true, /* Show a close X on the banner */
+
+        "showIcon": true, /* Show cookie icon to manage cookies */
+        //"iconSrc": "", /* Optionnal: URL or base64 encoded image */
+        "iconPosition": "TopRight", /* Position of the cookie (BottomRight - BottomLeft - TopRight - TopLeft) */
+
+        "adblocker": false, /* Show a Warning if an adblocker is detected */
+
+        "DenyAllCta": true, /* Show the deny all button */
+        "AcceptAllCta": true, /* Show the accept all button */
+        "highPrivacy": true, /* HIGHLY RECOMMANDED Disable auto consent */
+        "alwaysNeedConsent": false, /* Ask the consent for "Privacy by design" services */
+
+        "handleBrowserDNTRequest": false, /* If Do Not Track == 1, disallow all */
+
+        "removeCredit": true, /* Remove credit link */
+        "moreInfoLink": false, /* Show more info link */
+
+        "useExternalCss": false, /* Expert mode: do not load the tarteaucitron.css file */
+        "useExternalJs": false, /* Expert mode: do not load the tarteaucitron js files */
+
+        //"cookieDomain": ".my-multisite-domaine.fr", /* Shared cookie for multisite */
+
+        "readmoreLink": "/Informativa-privacy", /* Change the default readmore link */
+
+        "mandatory": true, /* Show a message about mandatory cookies */
+        "mandatoryCta": false, /* Show the disabled accept button when mandatory on */
+
+        //"customCloserId": "", /* Optional a11y: Custom element ID used to open the panel */
+
+        "googleConsentMode": true, /* Enable Google Consent Mode v2 for Google ads & GA4 */
+        "bingConsentMode": true, /* Enable Bing Consent Mode for Clarity & Bing Ads */
+        "softConsentMode": false, /* Soft consent mode (consent is required to load the services) */
+
+        "dataLayer": false, /* Send an event to dataLayer with the services status */
+        "serverSide": false, /* Server side only, tags are not loaded client side */
+
+        "partnersList": true /* Show the number of partners on the popup/middle banner */
+    });
+</script>
+<script>
+    tarteaucitron.user.matomoId = 1;
+    (tarteaucitron.job = tarteaucitron.job || []).push('matomo');
+</script>
+<script>tarteaucitron.user.matomoHost = '//webanalytics.regione.marche.it/';</script><title>
+	Comunicati Stampa
+</title><meta id="MetaRobots" name="ROBOTS" content="INDEX, FOLLOW" /><link href="/Resources/Shared/stylesheets/dnndefault/7.0.0/default.css?cdv=250" type="text/css" rel="stylesheet"/><link href="/Portals/_default/admin.css?cdv=250" type="text/css" rel="stylesheet"/><link href="/Resources/Search/SearchSkinObjectPreview.css?cdv=250" type="text/css" rel="stylesheet"/><link href="/Portals/_default/Skins/Bravo/skin.css?cdv=250" type="text/css" rel="stylesheet"/><link href="/Portals/_default/Containers/Bravo/container.css?cdv=250" type="text/css" rel="stylesheet"/><link href="/Portals/0/portal.css?cdv=250" type="text/css" rel="stylesheet"/><link href="/DesktopModules/DDRMenu/RM_Accordion/RM_accordion.css?cdv=250" type="text/css" rel="stylesheet"/><script src="/Resources/libraries/jQuery/03_05_01/jquery.js?cdv=250" type="text/javascript"></script><script src="/Resources/libraries/jQuery-Migrate/03_02_00/jquery-migrate.js?cdv=250" type="text/javascript"></script><script src="/Resources/libraries/jQuery-UI/01_12_01/jquery-ui.js?cdv=250" type="text/javascript"></script><!--[if IE 8]><link id="IE8Minus" rel="stylesheet" type="text/css" href="/Portals/_default/Skins/Bravo/css/ie8style.css" /><![endif]-->   
+
+		  <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=2.0" /><script>var __uzdbm_1 = "dc1f4ed3-e6fb-49b9-96fb-905ccf7219c2";var __uzdbm_2 = "ZmI2ZGIzYzItZDNvdS00ZTkyLTk1NjYtNDg4YzdlZTdiODAzJDkxLjYzLjExNi4xNDQ=";var __uzdbm_3 = "7f9000dc1f4ed3-e6fb-49b9-96fb-905ccf7219c21-17911171519310-005888e4d8c6771325810";var __uzdbm_4 = "false";var __uzdbm_5 = "uzmx";var __uzdbm_6 = "7fc0003424dce4-00e9-4985-b977-099834613cd11-17911171519310-007a0bf8ae5cb0d8e1f10";var __uzdbm_7 = "regione.marche.it";</script> <script>   (function (w, d, e, u, c, g, a, b) {     w["SSJSConnectorObj"] = w["SSJSConnectorObj"] || {       ss_cid: c,       domain_info: "auto",     };     w[g] = function (i, j) {       w["SSJSConnectorObj"][i] = j;     };     a = d.createElement(e);     a.async = true;     if (       navigator.userAgent.indexOf('MSIE') !== -1 ||       navigator.appVersion.indexOf('Trident/') > -1     ) {       u = u.replace("/advanced/", "/advanced/ie/");     }     a.src = u;     b = d.getElementsByTagName(e)[0];     b.parentNode.insertBefore(a, b);   })(     window, document, "script", "https://www.regione.marche.it/18f5227b-e27b-445a-a53f-f845fbe69b40/stormcaster.js", "d3ow", "ssConf"   );   ssConf("c1", "https://www.regione.marche.it");   ssConf("c3", "c99a4269-161c-4242-a3f0-28d44fa6ce24");   ssConf("au", "regione.marche.it");   ssConf("cu", "validate.perfdrive.com, ssc"); </script></head>
+<body id="Body">
+    
+    <a href="#main" tabindex="0"></a>
+    <form method="post" action="/In-Primo-Piano/ComunicatiStampa?id=33747" id="Form" enctype="multipart/form-data">
+<div class="aspNetHidden">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="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" />
+</div>
+
+
+<script type="text/javascript">
+//<![CDATA[
+var __cultureInfo = {"name":"it-IT","numberFormat":{"CurrencyDecimalDigits":2,"CurrencyDecimalSeparator":",","IsReadOnly":false,"CurrencyGroupSizes":[3],"NumberGroupSizes":[3],"PercentGroupSizes":[3],"CurrencyGroupSeparator":".","CurrencySymbol":"€","NaNSymbol":"NaN","CurrencyNegativePattern":8,"NumberNegativePattern":1,"PercentPositivePattern":1,"PercentNegativePattern":1,"NegativeInfinitySymbol":"-∞","NegativeSign":"-","NumberDecimalDigits":2,"NumberDecimalSeparator":",","NumberGroupSeparator":".","CurrencyPositivePattern":3,"PositiveInfinitySymbol":"∞","PositiveSign":"+","PercentDecimalDigits":2,"PercentDecimalSeparator":",","PercentGroupSeparator":".","PercentSymbol":"%","PerMilleSymbol":"‰","NativeDigits":["0","1","2","3","4","5","6","7","8","9"],"DigitSubstitution":1},"dateTimeFormat":{"AMDesignator":"","Calendar":{"MinSupportedDateTime":"\/Date(-62135596800000)\/","MaxSupportedDateTime":"\/Date(253402297199999)\/","AlgorithmType":1,"CalendarType":1,"Eras":[1],"TwoDigitYearMax":2049,"IsReadOnly":false},"DateSeparator":"/","FirstDayOfWeek":1,"CalendarWeekRule":2,"FullDateTimePattern":"dddd d MMMM yyyy HH:mm:ss","LongDatePattern":"dddd d MMMM yyyy","LongTimePattern":"HH:mm:ss","MonthDayPattern":"d MMMM","PMDesignator":"","RFC1123Pattern":"ddd, dd MMM yyyy HH\u0027:\u0027mm\u0027:\u0027ss \u0027GMT\u0027","ShortDatePattern":"dd/MM/yyyy","ShortTimePattern":"HH:mm","SortableDateTimePattern":"yyyy\u0027-\u0027MM\u0027-\u0027dd\u0027T\u0027HH\u0027:\u0027mm\u0027:\u0027ss","TimeSeparator":":","UniversalSortableDateTimePattern":"yyyy\u0027-\u0027MM\u0027-\u0027dd HH\u0027:\u0027mm\u0027:\u0027ss\u0027Z\u0027","YearMonthPattern":"MMMM yyyy","AbbreviatedDayNames":["dom","lun","mar","mer","gio","ven","sab"],"ShortestDayNames":["do","lu","ma","me","gi","ve","sa"],"DayNames":["domenica","lunedì","martedì","mercoledì","giovedì","venerdì","sabato"],"AbbreviatedMonthNames":["gen","feb","mar","apr","mag","giu","lug","ago","set","ott","nov","dic",""],"MonthNames":["gennaio","febbraio","marzo","aprile","maggio","giugno","luglio","agosto","settembre","ottobre","novembre","dicembre",""],"IsReadOnly":false,"NativeCalendarName":"calendario gregoriano","AbbreviatedMonthGenitiveNames":["gen","feb","mar","apr","mag","giu","lug","ago","set","ott","nov","dic",""],"MonthGenitiveNames":["gennaio","febbraio","marzo","aprile","maggio","giugno","luglio","agosto","settembre","ottobre","novembre","dicembre",""]},"eras":[1,"d.C.",null,0]};//]]>
+</script>
+
+<script src="/ScriptResource.axd?d=D9drwtSJ4hBlj_fba0jFEik_j2pQJQZpGLulCQEfWddT7ajqXmluokZR7msQEyvyLY97NGcTjQCQlxIpoh12OqyUL2yd5ilX-whHz3_t0jYJ238Gv337tO3pmOnjZo_abifZ7yBYjs2k1Eai0&amp;t=74258c30" type="text/javascript"></script>
+<script type="text/javascript">
+//<![CDATA[
+if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side framework failed to load.');
+//]]>
+</script>
+
+<script src="/ScriptResource.axd?d=JnUc-DEDOM7s19LLlVdmCmGICJzBndNHxwUGUgR7d401fXNy_6SIzdaruiWrIzPSUSGvERkqxPTdn-2o_D7-1jeEP0QXMdF1prFQa1_SjhWj7TAsGDBrcQbLlQyUNeZLYk9BNLPjylnR1YHBIYSewK0c--g1&amp;t=74258c30" type="text/javascript"></script><script src="/js/dnn.js?cdv=250" type="text/javascript"></script><script src="/Resources/Shared/Scripts/jquery/jquery.hoverIntent.min.js?cdv=250" type="text/javascript"></script><script src="/js/Debug/dnncore.js?cdv=250" type="text/javascript"></script><script src="/Resources/Search/SearchSkinObjectPreview.js?cdv=250" type="text/javascript"></script><script src="/js/Debug/dnn.servicesframework.js?cdv=250" type="text/javascript"></script><script src="/DesktopModules/DDRMenu/RM_Accordion/RM_LeftMenu.js?cdv=250" type="text/javascript"></script><script src="/Resources/Shared/Scripts/dnn.jquery.js?cdv=250" type="text/javascript"></script><script type="text/javascript">
+//<![CDATA[
+Sys.WebForms.PageRequestManager._initialize('ScriptManager', 'Form', [], [], [], 90, '');
+//]]>
+</script>
+
+        
+        
+        
+<!--[if lt IE 9]>
+<script src="https://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+
+
+
+
+<!--  -->
+<div id="ControlPanelWrapper">
+    
+
+    </div>
+<div id="skin_wrapper" class="boxed">
+<link property='stylesheet' id="headerCSS" rel="stylesheet" href="/Portals/_default/Skins/Bravo/commonparts/Header3.css">
+
+
+
+
+<!-- Begin Cookie Consent plugin by Silktide - http://silktide.com/cookieconsent -->
+
+<!-- Across Tabs -->
+<script type="text/javascript">
+    $(function () {
+        var hash = window.location.hash;
+        hash && $('ul.nav a[href="' + hash + '"]').tab('show');
+    });
+</script>
+
+<!-- End Cookie Consent plugin -->
+<style>
+    #RM_leftMenu li.selected > a > span {
+        background-color: #074392;
+        color: #fff !important;
+        font-weight: bolder !important;
+    }
+
+    #RM_leftMenu .RM_leftRoot > li.rootnode-container > a > span {
+        border: 1px solid #074392;
+    }
+
+    #RM_leftMenu li.item a span:hover {
+        border: 1px solid #074392;
+    }
+</style>
+<!--start skin header-->
+<header id="HeaderThree">
+    <div class="Rm_Header_wrapper">
+        <!--start skin top-->
+        <section class="skin_top">
+            <div class="skin_width clearafter">
+                <div id="Search">
+                    <span id="dnn_Header3_dnnSEARCH_ClassicSearch">
+    
+    
+    <span class="searchInputContainer" data-moreresults="Guarda Altri Risultati" data-noresult="Nessun Risultato Trovato">
+        <input name="dnn$Header3$dnnSEARCH$txtSearch" type="text" maxlength="255" size="20" id="dnn_Header3_dnnSEARCH_txtSearch" class="NormalTextBox" aria-label="Ricerca" autocomplete="off" placeholder="Ricerca..." />
+        <a class="dnnSearchBoxClearText" title="Clear search text"></a>
+    </span>
+    <a id="dnn_Header3_dnnSEARCH_cmdSearch" class="searchcss" href="javascript:__doPostBack(&#39;dnn$Header3$dnnSEARCH$cmdSearch&#39;,&#39;&#39;)">Ricerca</a>
+</span>
+
+
+<script type="text/javascript">
+    $(function() {
+        if (typeof dnn != "undefined" && typeof dnn.searchSkinObject != "undefined") {
+            var searchSkinObject = new dnn.searchSkinObject({
+                delayTriggerAutoSearch : 400,
+                minCharRequiredTriggerAutoSearch : 2,
+                searchType: 'S',
+                enableWildSearch: true,
+                cultureCode: 'it-IT',
+                portalId: -1
+                }
+            );
+            searchSkinObject.init();
+            
+            
+            // attach classic search
+            var siteBtn = $('#dnn_Header3_dnnSEARCH_SiteRadioButton');
+            var webBtn = $('#dnn_Header3_dnnSEARCH_WebRadioButton');
+            var clickHandler = function() {
+                if (siteBtn.is(':checked')) searchSkinObject.settings.searchType = 'S';
+                else searchSkinObject.settings.searchType = 'W';
+            };
+            siteBtn.on('change', clickHandler);
+            webBtn.on('change', clickHandler);
+            
+            
+        }
+    });
+</script>
+
+                </div>
+                <div class="user_bar clearafter">
+                    <div class="language_position">
+                        <div class="language-object" >
+
+
+</div>
+                    </div>
+
+                    
+                    <div class="user_style">
+                        <a class="Login" href="/Amministrazione_Trasparente">Amministrazione Trasparente</a>
+                        |
+						<a class="Login" href="/Entra-in-Regione/Profile-del-committente">Profilo del committente</a>
+                        |
+		                <a class="Login" href="https://procedimenti.regione.marche.it/">ProcediMarche</a>
+                        |
+		                <a class="Login" href="/Rubrica">Rubrica</a>
+                        |
+		                <a class="Login" href="/URP">URP: la Regione risponde</a>
+                        
+
+                        <!-- <a id="dnn_Header3_dnnLOGIN_loginLink" title="Login" class="Login" rel="nofollow" onclick="this.disabled=true;" href="https://www.regione.marche.it/Login?returnurl=%2fIn-Primo-Piano%2fComunicatiStampa%3fid%3d33747">Login</a>
+ -->
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+        <!--end skin top3-->
+        <!--start logo bar -->
+        <section class="skin_header">
+            <div class="skin_width clearafter">
+                <div class="logo_style clearafter">
+                    <!--site logo-->
+                    <div class="site_logo">
+                        <a id="dnn_Header3_dnnLOGO_hypLogo" title="Regione Marche" aria-label="Regione Marche" href="https://www.regione.marche.it/"><img id="dnn_Header3_dnnLOGO_imgLogo" src="/Portals/0/Images/LogoSmall.png?ver=Ur2iQF2w8cQv8TbBK_u4jg%3d%3d" alt="Regione Marche" /></a>
+                    </div>
+                    <!--mobile menu button-->
+                    <div class="mobile_nav">
+                        <a href="#" class="menuclick">
+                            <img alt="Menu" class="click_img" src="/Portals/_default/Skins/Bravo/commonparts/images/blank.gif" /></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="skin_menu">
+            <div class="skin_width clearafter">
+                <nav class="menu_box ">
+
+                    <div id="standardMenu">
+                        <ul class="rootMenu" role="menu">
+                            <li class="item first haschild child-1" aria-haspopup="true" role="menuitem">
+                                <a href="/">
+                                    <span>In Primo Piano<i class="navarrow"></i></span>
+                                </a>
+                            </li>
+                            <li class="item selected haschild child-2" role="menuitem">
+                                <a href="/Temi">
+                                    <span>Regione Utile<i class="navarrow"></i></span>
+                                </a>
+                            </li>
+                            <li class="item haschild child-3" aria-haspopup="true" role="menuitem">
+                                <a href="/Entra-in-Regione">
+                                    <span>Entra in Regione<i class="navarrow"></i></span></a></li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </section>
+        <!--end logo bar -->
+    </div>
+</header>
+<!--end skin header-->
+
+
+<script>
+    $("#HeaderThree").find(".child-4").hide()
+</script>
+
+
+
+
+
+<div id="dnn_HeaderPane" class="headerpane"><div class="DnnModule DnnModule-DNN_HTML DnnModule-6092"><a name="6092"></a>
+
+<div class="Bt2_style">
+  <div class="Bt2_top clearafter">
+    <div class="c_icon">
+      
+    </div>
+    <h2 class="c_title">
+      <span id="dnn_ctr6092_dnnTITLE_titleLabel" class="c_title_black">Text/HTML</span>
+
+
+
+    </h2>
+  </div>
+  <div class="c_content_style">
+    <div id="dnn_ctr6092_ContentPane" class="Bt2_content"><!-- Start_Module_6092 --><div id="dnn_ctr6092_ModuleContent" class="DNNModuleContent ModDNNHTMLC">
+	<div id="dnn_ctr6092_HtmlModule_lblContent" class="Normal">
+	<div class="header_demo clearafter">
+<div class="contact_info">Call us now<br />
++123 456 7890</div>
+<div id="weather"></div>
+</div>
+</div>
+
+</div><!-- End_Module_6092 --></div>
+  </div>
+</div>
+
+</div></div>
+    <div id="dnn_ContactPane" class="contactpane"><div class="DnnModule DnnModule-DNN_HTML DnnModule-6094"><a name="6094"></a>
+
+<div class="Bt2_style">
+  <div class="Bt2_top clearafter">
+    <div class="c_icon">
+      
+    </div>
+    <h2 class="c_title">
+      <span id="dnn_ctr6094_dnnTITLE_titleLabel" class="c_title_black">Text/HTML</span>
+
+
+
+    </h2>
+  </div>
+  <div class="c_content_style">
+    <div id="dnn_ctr6094_ContentPane" class="Bt2_content"><!-- Start_Module_6094 --><div id="dnn_ctr6094_ModuleContent" class="DNNModuleContent ModDNNHTMLC">
+	<div id="dnn_ctr6094_HtmlModule_lblContent" class="Normal">
+	<div class="contact_style">
+<p><span class="fa fa-envelope-o"></span><a href="mailto:contact@bestdnnskins.com">contact@bestdnnskins.com</a><span class="fa fa-phone"></span><a href="#" target="_blank">+05 123 456789</a></p>
+</div>
+</div>
+
+</div><!-- End_Module_6094 --></div>
+  </div>
+</div>
+
+</div><div class="DnnModule DnnModule-DDRMenu DnnModule-38993"><a name="38993"></a><div id="dnn_ctr38993_ContentPane"><!-- Start_Module_38993 --><style type="text/css">
+#RM_leftMenu li.selected > a > span{ background-color: #5A5959; color: #fff !important; font-weight: bolder !important;}
+#RM_leftMenu .RM_leftRoot > li.rootnode-container > a > span{ border: 1px solid #5A5959;}
+#RM_leftMenu li.item a  span:hover{ border: 1px solid #5A5959;}
+</style><div id="dnn_ctr38993_ModuleContent" class="DNNModuleContent ModDDRMenuC">
+	
+</div><!-- End_Module_38993 --></div>
+</div></div>
+    <!--start page name-->
+    <section class="page_name">
+        <div class="skin_width pagename_style">
+            <!-- <h1>Comunicati Stampa</h1> -->
+            <span id="dnn_dnnBREADCRUMB_lblBreadCrumb" itemprop="breadcrumb" itemscope="" itemtype="https://schema.org/breadcrumb"><span itemscope itemtype="http://schema.org/BreadcrumbList"><span itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a href="https://www.regione.marche.it/" class="Breadcrumb" itemprop="item"><span itemprop="name">In Primo Piano</span></a><meta itemprop="position" content="1" /></span>  /  <span itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a href="https://www.regione.marche.it/In-Primo-Piano/ComunicatiStampa" class="Breadcrumb" itemprop="item"><span itemprop="name">Comunicati Stampa</span></a><meta itemprop="position" content="2" /></span></span></span>
+            <div class="breadcrumb_style">
+            </div>
+        </div>
+    </section>
+    <!--end page name-->
+    <!--start skin main-->
+    <div class="skin_main">
+        <section class="skin_main">
+            <div class="skin_width">
+                <div class="skin_top_content">
+                    <div class="row dnnpane">
+                        <div id="dnn_TopTitleGrid12" class="l_five_grid12 col-sm-12 DNNEmptyPane"></div>
+                    </div>
+                    <div class="LM_main_content clearafter">
+
+                        <section class="col-sm-4">
+                            <nav class="navbar navbar-default collapsed" id="leftside_Rm_menu">
+                                <!-- Brand and toggle get grouped for better mobile display -->
+                                <div class="navbar-header">
+                                    <button type="button" id="c_b_m" class="btn-block navbar-toggle" data-toggle="collapse" data-target="#prova3">
+                                        <span class="sr-only">Toggle navigation</span>
+                                        <span style="text-align: center;">MENU & Contatti</span>
+                                        <span style="margin: 3px auto;" class="icon-bar"></span>
+                                        <span style="margin: 3px auto;" class="icon-bar"></span>
+                                        <span style="margin: 3px auto;" class="icon-bar"></span>
+                                    </button>
+                                </div>
+                                <div class="navbar-collapse collapse" id="prova3" style="height: 1px;">
+                                    <div id="dnn_LeftSidePane" class="leftsidepane"><div class="DnnModule DnnModule-DNN_HTML DnnModule-5981"><a name="5981"></a>
+
+<div class="Bt_IPP_style">
+  <div class="Bt_IPP_top clearafter">
+    <div class="c_icon">
+      
+    </div>
+    <h2 class="c_title">
+      <span id="dnn_ctr5981_dnnTITLE_titleLabel" class="c_title_black">Comunicazione</span>
+
+
+
+    </h2>
+  </div>
+  <div class="c_content_style">
+    <div id="dnn_ctr5981_ContentPane" class="Bt2_content"><!-- Start_Module_5981 --><div id="dnn_ctr5981_ModuleContent" class="DNNModuleContent ModDNNHTMLC">
+	<div id="dnn_ctr5981_HtmlModule_lblContent" class="Normal">
+	<div class="panel panel-default Primo Comunicazione">
+<ul class="list-group">
+ <li class="list-group-item"><a href="/In-Primo-Piano/Le-Marche-da-leggere">Le Marche - trimestrale</a></li>
+ <li class="list-group-item"><a href="/sala-stampa-virtuale">Sala Stampa virtuale</a></li>
+ <li class="list-group-item"><a href="/In-Primo-Piano/ComunicatiStampa">Comunicati Stampa</a></li>
+ <li class="list-group-item"><a href="/News-ed-Eventi">News ed Eventi</a></li>
+ <li class="list-group-item"><a href="/In-Primo-Piano/Piano-di-Comunicazione">Piano di Comunicazione</a></li>
+ <li class="list-group-item"><a href="/In-Primo-Piano/Social-Media-Policy">Social Media Policy</a></li>
+ <li class="list-group-item"><a href="/rassegna-stampa">Rassegna Stampa</a></li>
+</ul>
+</div>
+
+</div>
+
+</div><!-- End_Module_5981 --></div>
+  </div>
+</div></div></div>
+                                </div>
+                            </nav>
+                        </section>
+                        <section class="col-sm-8">
+                            <div class="row dnnpane">
+                                <div id="main">
+                                    <div id="dnn_ContentPane" class="content_grid12 col-sm-12"><div class="DnnModule DnnModule-RegioneMarcheComunicatiStampa DnnModule-6311"><a name="6311"></a><div id="dnn_ctr6311_ContentPane"><!-- Start_Module_6311 --><div id="dnn_ctr6311_ModuleContent" class="DNNModuleContent ModRegioneMarcheComunicatiStampaC">
+	<div id="dnn_ctr6311_View_IDCssClass_pnl">
+		
+    
+            <div class="DettaglioNotizia">
+                <table>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <div class="Title">
+                                    <small><i><span id="dnn_ctr6311_View_lbl_Data">17/06/2026</span></i></small><br />
+                                    <h1><span id="dnn_ctr6311_View_lbl_Titolo">INTERVENTO MULTILEVA PER LA RESIDENZIALITÀ SOCIO-SANITARIA E SOCIALE, AL VIA LE MISURE DI SOSTEGNO PER LE FAMIGLIE </span></h1>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="TextNews">
+                                    <span id="dnn_ctr6311_View_lbl_Testo">Voucher fino a 250 euro al mese per le famiglie, risorse per gli enti gestori e un sostegno concreto alle donne caregiver. La Regione Marche rafforza la rete di assistenza per anziani, persone con disabilità e cittadini con problemi di salute mentale mettendo in campo un investimento senza precedenti di 30,5 milioni di euro nel triennio 2025-2027. L’obiettivo è rafforzare il sistema della residenzialità socio-sanitaria e sociale, sostenere le famiglie alle prese con il costo delle rette e garantire maggiore qualità e sostenibilità ai servizi destinati alle persone più fragili. Nella conferenza stampa che si è svolta questo pomeriggio a Palazzo Raffaello, sono stati presentati in particolare gli interventi destinati alle famiglie delle persone ospitate nelle strutture residenziali autorizzate socio-sanitarie e sociali tramite dei voucher mensili, per 9,6 milioni di euro attraverso contributi economici per il pagamento delle rette in base al reddito ISEE.“Quella che presentiamo oggi – ha spiegato il presidente della Regione Marche Francesco Acquaroli – è un’operazione che nasce da un lavoro avviato oltre un anno fa. Per questo desidero rivolgere un sincero ringraziamento ai sindacati, che hanno fornito un contributo fondamentale, e a tutta la struttura che ha lavorato con impegno per raggiungere questo risultato. Si tratta di un primo passo molto importante, considerata la rilevanza economica e sociale di questo intervento. È una misura che guarda concretamente alle famiglie a medio-basso reddito, agli anziani e alle persone più fragili, che ogni mese si trovano a sostenere costi significativi per le rette delle strutture assistenziali. Sappiamo bene che c’è ancora molto da fare. Per questo stiamo lavorando per offrire risposte non solo immediate, ma anche di prospettiva, a un settore che per troppo tempo è rimasto fermo, mentre i bisogni della società cambiavano profondamente. Questo intervento rappresenta una pietra miliare per la Regione Marche. Oggi possiamo affermare con soddisfazione di aver dato una risposta concreta a un problema che incide direttamente sulla vita quotidiana di tante famiglie e di tante persone che affrontano sacrifici importanti per garantire assistenza e cura ai propri cari. Per il 2027 il nostro auspicio è quello di ampliare ulteriormente la platea dei beneficiari grazie anche alle opportunità offerte dalla futura programmazione europea. Valuteremo le condizioni e le risorse disponibili, ma oggi possiamo dire di aver posto basi solide”. “Parliamo di un intervento complessivo destinato alle famiglie che vale 9,6 milioni di euro, articolato in due fondi distinti: uno da 7,6 milioni di euro e un secondo di 1,9 milioni – ha proseguito l’assessore alla Sanità Paolo Calcinaro -. Il fondo principale è finalizzato a sostenere la qualità della vita delle donne, favorendo una migliore conciliazione tra tempi di vita e tempi di cura. Si rivolge in particolare alle donne che hanno un familiare, fino al secondo grado di parentela, ospite in una struttura residenziale. Si tratta di una misura molto significativa che prevede, per gli anni 2026 e 2027, un contributo di 250 euro al mese, riconosciuto anche con effetto retroattivo per il 2026. Accanto a questo, abbiamo previsto un secondo fondo da quasi 2 milioni di euro, pensato per quei casi residuali in cui non sia presente nel nucleo familiare una donna che possa presentare domanda. In questo caso, la soglia ISEE per l’accesso è fissata a 20.000 euro, mentre per il fondo principale è pari a 25.000 euro. L’ISEE forma anche la graduatoria d’accesso.  La nostra scelta è stata quindi quella di privilegiare l’equità e l’efficacia dell’intervento, destinando le risorse a coloro che si trovano nelle condizioni economiche più difficili e che hanno maggiore necessità di un sostegno concreto”.Il provvedimento prevede l'istituzione di un contributo mensile di 250 euro, erogato alle famiglie che sostengono i costi della permanenza dei propri cari nelle strutture autorizzate. Il contributo potrà raggiungere i 3.000 euro annui per beneficiario.Il programma interessa un sistema che nelle Marche conta oltre 11.270 posti letto autorizzati nelle strutture residenziali per anziani (9.984), persone con disabilità (714) e utenti dell'area salute mentale (573).La finalità è quella di sostenere le famiglie a reddito medio/basso che hanno il carico del pagamento della retta per familiari che si trovano in strutture residenziali autorizzate per aree di utenza anziani, disabili e salute mentale, che sono in struttura. Un ulteriore obiettivo è di evitare che, in una condizione familiare di reddito medio/basso, le donne lascino il lavoro o interrompano la ricerca di un lavoro per assumere il ruolo di caregiver e prendersi direttamente cura dei loro familiari perché impossibilitate a far fronte alla retta delle strutture residenziali. Per questo motivo particolare attenzione è riservata alle donne, spesso chiamate a conciliare lavoro, cura familiare e assistenza ai propri cari. Oltre 7,6 milioni di euro dei 9,6 complessivi, saranno infatti destinati a donne familiari di persone ospitate nelle strutture residenziali, con l'obiettivo di favorire la permanenza nel mercato del lavoro e prevenire l'abbandono dell'occupazione per esigenze di assistenza. (vedi slides)Le risorse saranno gestite attraverso una collaborazione tra Regione Marche, Ambiti Territoriali Sociali e Ministero del Lavoro e delle Politiche Sociali. Gli ATS avranno il compito di raccogliere le domande, verificarne l'ammissibilità ed erogare i contributi ai beneficiari finali.</span>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <br />
+                                <div class="BackCommand">
+                                    <a class="btn btn-default" href="/In-Primo-Piano/ComunicatiStampa//p/1">Torna indietro</a>
+                                    
+                                </div>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        
+
+	</div>
+
+
+</div><!-- End_Module_6311 --></div>
+</div></div>
+                                </div>
+                            </div>
+                            <div class="row dnnpane">
+                                <div id="dnn_OneGrid4" class="l_one_grid8 col-sm-4 DNNEmptyPane"></div>
+                                <div id="dnn_OneGrid8" class="l_one_grid4 col-sm-8 DNNEmptyPane"></div>
+                            </div>
+                            <div class="row dnnpane">
+                                <div id="dnn_TwoGrid6A" class="l_two_grid6a col-sm-6 DNNEmptyPane"></div>
+                                <div id="dnn_TwoGrid6B" class="l_two_grid6b col-sm-6 DNNEmptyPane"></div>
+                            </div>
+                            <div class="row dnnpane">
+                                <div id="dnn_ThreeGrid4" class="l_three_grid4 col-sm-4 DNNEmptyPane"></div>
+                                <div id="dnn_ThreeGrid8" class="l_three_grid8 col-sm-8 DNNEmptyPane"></div>
+                            </div>
+                            <div class="row dnnpane">
+                                <div id="dnn_MiddleGrid12" class="l_five_grid12 col-sm-12 DNNEmptyPane"></div>
+                            </div>
+                            <div class="row dnnpane">
+                                <div id="dnn_FourGrid4A" class="l_four_grid4a col-sm-4 DNNEmptyPane"></div>
+                                <div id="dnn_FourGrid4B" class="l_four_grid4b col-sm-4 DNNEmptyPane"></div>
+                                <div id="dnn_FourGrid4C" class="l_four_grid4c col-sm-4 DNNEmptyPane"></div>
+                            </div>
+                            <div class="row dnnpane">
+                                <div id="dnn_FiveGrid12" class="l_five_grid12 col-sm-12 DNNEmptyPane"></div>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <!--end skin main-->
+    <!--start skin footer top-->
+    <section class="footer_top">
+        <div class="skin_width">
+            <div class="footerpane_style skin_main_padding">
+                <div class="row dnnpane">
+                    <div id="dnn_FooterGrid3A" class="footer_grid3a col-md-3 DNNEmptyPane"></div>
+                    <div id="dnn_FooterGrid3B" class="footer_grid3b col-md-3 DNNEmptyPane"></div>
+                    <div id="dnn_FooterGrid3C" class="footer_grid3c col-md-3 DNNEmptyPane"></div>
+                    <div id="dnn_FooterGrid3D" class="footer_grid3d col-md-3 DNNEmptyPane"></div>
+                </div>
+                <div class="row dnnpane">
+                    <div id="dnn_FooterGrid12" class="footer_grid12 col-md-12 DNNEmptyPane"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--end skin footer top-->
+    <!--start footer-->
+  
+
+
+ <footer class="skin_footer">
+		<div class="rm_footer_heading" id="rm_footer_heading_main">
+			<span>Regione Marche Giunta Regionale (CF 80008630420 P.IVA 00481070423) via Gentile da Fabriano, 9 - 60125 Ancona - tel. 071.8061&nbsp;&nbsp;&nbsp;
+				<br/>
+				casella p.e.c. istituzionale :<a class="rm_footer" href="mailto:regione.marche.protocollogiunta@emarche.it"> regione.marche.protocollogiunta@emarche.it</a>
+				<br/>
+				Sito realizzato su CMS DotNetNuke by DotNetNuke Corporation&nbsp;&nbsp;&nbsp;
+				<br/>
+				Autorizzazione SIAE n° 1225/I/1298
+				<br/>
+				DUNS - Data Universal Numbering System: 514216030 
+				</span>
+		</div>
+		<div class="copyright_bar">
+			<div class="skin_width clearafter">
+				<div class="footer_left">
+					<span id="dnn_dnnCOPYRIGHT_lblCopyright" class="Footer">Copyright 2026 by Regione Marche </span>
+
+				</div>
+				<!--<div class="footer_right">
+                    |
+                    <a class="Footer" href="http://cohesion.regione.marche.it/cohesioninformativo/Informativa-Cookie">Informativa sui Cookie</a>
+                </div> -->
+				<div class="footer_right">
+					<a id="dnn_dnnPRIVACY_hypPrivacy" class="rm_footer" rel="nofollow" href="https://www.regione.marche.it/Informativa-privacy">Privacy</a>
+					|
+					<a id="dnn_dnnTERMS_hypTerms" class="rm_footer" rel="nofollow" href="https://www.regione.marche.it/Terms">Termini Di Utilizzo</a>
+					|
+					<a class="rm_footer no_pdf" href="https://www.regione.marche.it/Portals/0/documenti/Informativa_trattamento_dati_VDCTEAMS.pdf">Informativa TEAMS</a>
+					|
+                    <a class="rm_footer" href="http://cohesion.regione.marche.it/cohesioninformativo/Informativa-Cookie">Informativa sui Cookie</a>
+					|
+					<a class="rm_footer" href="/Regione-Utile/Agenda-Digitale/Accessibilità">Accessibilità</a>
+					|
+					<a class="rm_footer" href="https://form.agid.gov.it/r_marche/sito_istituzionale_giunta_regione_marche/dichiarazione">Dichiarazione di Accessibilità</a>
+					|
+		            <a class="rm_footer" href="/Mappa-del-sito">Sitemap</a>
+					|
+		            <a class="rm_footer" href="?ctl=login">Login</a>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+  
+
+
+
+    <!--end footer-->
+
+    <a href="#top" id="top-link" title="Top"><span class="fa fa-angle-up"></span></a>
+</div>
+<script type="text/javascript" src="/Portals/_default/Skins/Bravo/bootstrap/js/bootstrap.js"></script>
+<script type="text/javascript" src="/Portals/_default/Skins/Bravo/js/trans-banner.min.js"></script>
+<script type="text/javascript" src="/Portals/_default/Skins/Bravo/js/jquery.fancybox.min.js"></script>
+<script type="text/javascript" src="/Portals/_default/Skins/Bravo/js/jquery.easing.1.3.min.js"></script>
+<script type="text/javascript" src="/Portals/_default/Skins/Bravo/js/jquery.unoslider.js"></script>
+<script type="text/javascript" src="/Portals/_default/Skins/Bravo/js/jquery.accordion.js"></script>
+<script type="text/javascript" src="/Portals/_default/Skins/Bravo/js/jquery.carouFredSel-6.2.1-packed.js"></script>
+<script type="text/javascript" src="/Portals/_default/Skins/Bravo/js/jquery.touchSwipe.min.js"></script>
+<script type="text/javascript" src="/Portals/_default/Skins/Bravo/js/jquery.isotope.min.js"></script>
+<script type="text/javascript" src="/Portals/_default/Skins/Bravo/js/jquery.flexslider.min.js"></script>
+<!-- <script type="text/javascript" src="/Portals/_default/Skins/Bravo/js/cookieconsent.min.js"></script> -->
+
+<script type="text/javascript" src="/Portals/_default/Skins/Bravo/js/jquery.kxbdMarquee.js"></script>
+<script type="text/javascript" src="/Portals/_default/Skins/Bravo/js/custom.js"></script>
+
+<!--[if IE 9]>
+<script type="text/javascript">
+//Disable Animation:
+jQuery(document).ready(function() {
+	 $(".animation").css({"opacity": "1"});
+});
+</script>
+<![endif]-->
+
+<link rel="stylesheet" href="/Portals/_default/Skins/Bravo/Left_RM_CustomStyle.css">
+<link rel="stylesheet" href="/Portals/_default/Skins/Bravo/skiplinks.css?id=4">
+
+<!-- <script src="https://code.jquery.com/jquery-3.0.0.js"></script> -->
+<!--  <script src="http://code.jquery.com/jquery-migrate-1.2.1.js"></script> -->
+<!-- <script src="https://code.jquery.com/jquery-migrate-3.0.0.js"></script> -->
+
+<script>
+
+document.addEventListener('DOMContentLoaded', function() {
+    // Seleziona il link esistente
+    var existingLink = document.querySelector('a[href="#main"][tabindex="0"]');
+    
+    // Crea il nuovo menù skiplink
+    var skiplinksNav = document.createElement('nav');
+    skiplinksNav.className = 'skiplinks';
+    skiplinksNav.setAttribute('aria-label', 'Scorciatoie di navigazione');
+    
+    var ul = document.createElement('ul');
+    
+    var li1 = document.createElement('li');
+    li1.className = 'visually-hidden-focusable';
+    var a1 = document.createElement('a');
+    a1.href = '#leftside_Rm_menu';
+    a1.textContent = 'Vai al menu';
+    li1.appendChild(a1);
+    
+    var li2 = document.createElement('li');
+    li2.className = 'visually-hidden-focusable';
+    var a2 = document.createElement('a');
+    a2.href = '#dnn_ContentPane';
+    a2.textContent = 'Vai al contenuto';
+    li2.appendChild(a2);
+    
+    var li3 = document.createElement('li');
+    li3.className = 'visually-hidden-focusable';
+    var a3 = document.createElement('a');
+    a3.href = '#rm_footer_heading_main';
+    a3.textContent = 'Vai al piede';
+    li3.appendChild(a3);
+
+    var li4 = document.createElement('li');
+    li4.className = 'visually-hidden-focusable';
+    var a4 = document.createElement('a');
+    a4.href = '/Amministrazione-Trasparente';
+    a4.textContent = 'Vai alla sezione Amministrazione Trasparente';
+    li4.appendChild(a4);
+
+     ul.appendChild(li2);
+     ul.appendChild(li3);
+    ul.appendChild(li1);
+   ul.appendChild(li4);
+    
+    
+    skiplinksNav.appendChild(ul);
+    
+    // Sostituisci il link esistente con il nuovo menù skiplink
+    existingLink.parentNode.replaceChild(skiplinksNav, existingLink);
+});
+
+</script>
+
+        <input name="ScrollTop" type="hidden" id="ScrollTop" />
+        <input name="__dnnVariable" type="hidden" id="__dnnVariable" autocomplete="off" value="`{`__scdoff`:`1`,`sf_siteRoot`:`/`,`sf_tabId`:`634`}" />
+        <input name="__RequestVerificationToken" type="hidden" value="fNPMcxXBhpMtJh8Zvjd-yINir9jqkotdXl6oy3u8A_FgmND8C16Bd3mIBy3i9Sxc9bk_xQ2" />
+    
+<div class="aspNetHidden">
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="CA0B0334" />
+	<input type="hidden" name="__VIEWSTATEENCRYPTED" id="__VIEWSTATEENCRYPTED" value="" />
+</div></form>
+    <!--CDF(Javascript|/js/Debug/dnncore.js?cdv=250|DnnBodyProvider|100)--><!--CDF(Css|/Resources/Shared/stylesheets/dnndefault/7.0.0/default.css?cdv=250|DnnPageHeaderProvider|5)--><!--CDF(Css|/Portals/_default/Skins/Bravo/skin.css?cdv=250|DnnPageHeaderProvider|15)--><!--CDF(Css|/Portals/_default/Containers/Bravo/container.css?cdv=250|DnnPageHeaderProvider|25)--><!--CDF(Css|/Portals/_default/Containers/Bravo/container.css?cdv=250|DnnPageHeaderProvider|25)--><!--CDF(Css|/Portals/_default/Containers/Bravo/container.css?cdv=250|DnnPageHeaderProvider|25)--><!--CDF(Css|/Portals/_default/admin.css?cdv=250|DnnPageHeaderProvider|6)--><!--CDF(Css|/Portals/0/portal.css?cdv=250|DnnPageHeaderProvider|35)--><!--CDF(Css|/Resources/Search/SearchSkinObjectPreview.css?cdv=250|DnnPageHeaderProvider|10)--><!--CDF(Javascript|/Resources/Search/SearchSkinObjectPreview.js?cdv=250|DnnBodyProvider|100)--><!--CDF(Css|/Resources/Search/SearchSkinObjectPreview.css?cdv=250|DnnPageHeaderProvider|10)--><!--CDF(Javascript|/Resources/Search/SearchSkinObjectPreview.js?cdv=250|DnnBodyProvider|100)--><!--CDF(Css|/Resources/Search/SearchSkinObjectPreview.css?cdv=250|DnnPageHeaderProvider|10)--><!--CDF(Javascript|/Resources/Search/SearchSkinObjectPreview.js?cdv=250|DnnBodyProvider|100)--><!--CDF(Css|/Resources/Search/SearchSkinObjectPreview.css?cdv=250|DnnPageHeaderProvider|10)--><!--CDF(Javascript|/Resources/Search/SearchSkinObjectPreview.js?cdv=250|DnnBodyProvider|100)--><!--CDF(Css|/Resources/Search/SearchSkinObjectPreview.css?cdv=250|DnnPageHeaderProvider|10)--><!--CDF(Javascript|/Resources/Search/SearchSkinObjectPreview.js?cdv=250|DnnBodyProvider|100)--><!--CDF(Css|/Resources/Search/SearchSkinObjectPreview.css?cdv=250|DnnPageHeaderProvider|10)--><!--CDF(Javascript|/Resources/Search/SearchSkinObjectPreview.js?cdv=250|DnnBodyProvider|100)--><!--CDF(Css|/Resources/Search/SearchSkinObjectPreview.css?cdv=250|DnnPageHeaderProvider|10)--><!--CDF(Javascript|/Resources/Search/SearchSkinObjectPreview.js?cdv=250|DnnBodyProvider|100)--><!--CDF(Javascript|/js/dnn.js?cdv=250|DnnBodyProvider|12)--><!--CDF(Javascript|/js/Debug/dnn.servicesframework.js?cdv=250|DnnBodyProvider|100)--><!--CDF(Css|/DesktopModules/DDRMenu/RM_Accordion/RM_accordion.css?cdv=250|DnnPageHeaderProvider|100)--><!--CDF(Javascript|/DesktopModules/DDRMenu/RM_Accordion/RM_LeftMenu.js?cdv=250|DnnBodyProvider|100)--><!--CDF(Javascript|/Resources/Shared/Scripts/jquery/jquery.hoverIntent.min.js?cdv=250|DnnBodyProvider|55)--><!--CDF(Javascript|/Resources/Shared/Scripts/jquery/jquery.hoverIntent.min.js?cdv=250|DnnBodyProvider|55)--><!--CDF(Javascript|/Resources/Shared/Scripts/dnn.jquery.js?cdv=250|DnnBodyProvider|100)--><!--CDF(Javascript|/Resources/libraries/jQuery-UI/01_12_01/jquery-ui.js?cdv=250|DnnPageHeaderProvider|10)--><!--CDF(Javascript|/Resources/libraries/jQuery/03_05_01/jquery.js?cdv=250|DnnPageHeaderProvider|5)--><!--CDF(Javascript|/Resources/libraries/jQuery-Migrate/03_02_00/jquery-migrate.js?cdv=250|DnnPageHeaderProvider|6)-->
+    
+
+    <script>
+        $(document).ready(function () {
+
+
+            if (typeof (WebForm_DoPostBackWithOptions) == 'undefined') {
+
+                WebForm_DoPostBackWithOptions =
+                    function (options) {
+                        var validationResult = true;
+                        if (options.validation) {
+                            if (typeof (Page_ClientValidate) == 'function') {
+                                validationResult = Page_ClientValidate(options.validationGroup);
+                            }
+                        }
+                        if (validationResult) {
+                            if ((typeof (options.actionUrl) != "undefined") && (options.actionUrl != null) && (options.actionUrl.length > 0)) {
+                                theForm.action = options.actionUrl;
+                            }
+                            if (options.trackFocus) {
+                                var lastFocus = theForm.elements["__LASTFOCUS"];
+                                if ((typeof (lastFocus) != "undefined") && (lastFocus != null)) {
+                                    if (typeof (document.activeElement) == "undefined") {
+                                        lastFocus.value = options.eventTarget;
+                                    }
+                                    else {
+                                        var active = document.activeElement;
+                                        if ((typeof (active) != "undefined") && (active != null)) {
+                                            if ((typeof (active.id) != "undefined") && (active.id != null) && (active.id.length > 0)) {
+                                                lastFocus.value = active.id;
+                                            }
+                                            else if (typeof (active.name) != "undefined") {
+                                                lastFocus.value = active.name;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                        if (options.clientSubmit) {
+                            __doPostBack(options.eventTarget, options.eventArgument);
+                        }
+                    };
+            }
+
+            if (typeof (WebForm_PostBackOptions) == 'undefined') {
+
+                WebForm_PostBackOptions = function (eventTarget, eventArgument, validation, validationGroup, actionUrl, trackFocus, clientSubmit) {
+                    this.eventTarget = eventTarget;
+                    this.eventArgument = eventArgument;
+                    this.validation = validation;
+                    this.validationGroup = validationGroup;
+                    this.actionUrl = actionUrl;
+                    this.trackFocus = trackFocus;
+                    this.clientSubmit = clientSubmit;
+                }
+            }
+        });
+
+    </script>
+</body>
+</html>

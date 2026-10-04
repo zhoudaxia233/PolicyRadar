@@ -1,0 +1,517 @@
+
+
+
+
+ <!DOCTYPE html>
+<html>
+	<head>
+	    
+		<meta charset="ISO-8859-15">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="viewport" content="width=device-width">
+        <title>Arianna Banca Dati Normativa</title>
+
+ 
+	  <!-- CSS -->
+	  <link href="/web/templates/purity_iii/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+	  <link rel="stylesheet" href="/ris/css/assets/templates.purity_iii.less.bootstrap.less.css" type="text/css" />
+
+	  <link rel="stylesheet" href="/ris/css/assets/plugins.system.t3.base-bs3.less.t3.less.css" type="text/css" />
+	  <link rel="stylesheet" href="/ris/css/assets/templates.purity_iii.less.core.less.css" type="text/css" />
+	  <link rel="stylesheet" href="/ris/css/assets/templates.purity_iii.less.typography.less.css" type="text/css" />
+	  <link rel="stylesheet" href="/ris/css/assets/templates.purity_iii.local.less.themes.crp.typography.less.css" type="text/css" />
+	  <link rel="stylesheet" href="/ris/css/assets/templates.purity_iii.less.forms.less.css" type="text/css" />
+	  <link rel="stylesheet" href="/ris/css/assets/templates.purity_iii.less.navigation.less.css" type="text/css" />
+	  <link rel="stylesheet" href="/ris/css/assets/templates.purity_iii.local.less.themes.crp.navigation.less.css" type="text/css" />
+	  <link rel="stylesheet" href="/ris/css/assets/templates.purity_iii.less.navbar.less.css" type="text/css" />
+	  <link rel="stylesheet" href="/ris/css/assets/templates.purity_iii.less.modules.less.css" type="text/css" />
+	  <link rel="stylesheet" href="/ris/css/assets/templates.purity_iii.less.joomla.less.css" type="text/css" />
+	  <link rel="stylesheet" href="/ris/css/assets/templates.purity_iii.less.components.less.css" type="text/css" />
+	  <link rel="stylesheet" href="/ris/css/assets/templates.purity_iii.less.style.less.css" type="text/css" />
+	  <link rel="stylesheet" href="/ris/css/assets/templates.purity_iii.local.less.themes.crp.style.less.css" type="text/css" />
+	  <link rel="stylesheet" href="/ris/css/assets/templates.purity_iii.less.components-addons.less.css" type="text/css" />
+	  <link rel="stylesheet" href="/ris/css/assets/templates.purity_iii.local.less.themes.crp.template.less.css" type="text/css" />
+	  <link rel="stylesheet" href="/ris/css/assets/templates.purity_iii.less.template.less.css" type="text/css" />
+	  <link rel="stylesheet" href="/ris/css/assets/plugins.system.t3.base-bs3.less.megamenu.less.css" type="text/css" />
+	  <link rel="stylesheet" href="/ris/css/assets/templates.purity_iii.local.less.themes.crp.megamenu.less.css" type="text/css" />
+	  <link rel="stylesheet" href="/ris/css/assets/templates.purity_iii.less.megamenu.less.css" type="text/css" />
+	  <link rel="stylesheet" href="/ris/css/assets/plugins.system.t3.base-bs3.less.off-canvas.less.css" type="text/css" />
+	  <link rel="stylesheet" href="/ris/css/assets/templates.purity_iii.less.off-canvas.less.css" type="text/css" />
+	  <link rel="stylesheet" href="/web/templates/purity_iii/fonts/font-awesome/css/font-awesome.min.css" type="text/css" />
+	  <link rel="stylesheet" href="/web/media/system/css/modal.css" type="text/css" />
+	
+     <style type="text/css">
+			#outerMain {
+				opacity: 0;
+				transition: opacity .5s ease;
+			}						
+		</style> 
+
+		<!-- JQUERY -->
+		<script type="text/javascript" src="/applicativi/iterlegcoordweb/jquery/jquery-1.11.1.min.js" ></script>
+
+		<!-- JQUERY UI - BLITZER THEME -->
+		<link type="text/css" rel="stylesheet" href="/applicativi/iterlegcoordweb/jquery/jquery-ui.min.css" 	media="screen" />
+		<script type="text/javascript" src="/applicativi/iterlegcoordweb/jquery/jquery-ui.min.js" ></script>
+		<!-- JQUERY UI - ITALIAN I18N -->
+		<!-- script type="text/javascript" src="/applicativi/iterlegcoordweb/jquery/jquery.ui.datepicker-it.js"></script -->
+
+		<!-- VIS TIMELINE -->
+		<script src="/applicativi/iterlegcoordweb/js/d3.v3.min.js" charset="utf-8"></script>
+		<script src="/applicativi/iterlegcoordweb/js/d3-timeline.js"></script>
+
+		<!-- OVERRIDE WITH FONT AWESOME 4.4.0 -->
+		<link rel="stylesheet" href="/applicativi/iterlegcoordweb/font-awesome-4.4.0/css/font-awesome.min.css" type="text/css" />
+  
+		<!-- SCRIPT -->
+		<script type="text/javascript" src="/applicativi/iterlegcoordweb/bootstrap-select/js/bootstrap-select.min.js"></script>
+		<script type="text/javascript" src="/applicativi/iterlegcoordweb/bootstrap-select/js/i18n/defaults-it_IT.min.js"></script>
+		<script type="text/javascript" src="/applicativi/iterlegcoordweb/js/bootstrap.min.js?s2b=2.0.1"></script>
+
+		<!-- CSS -->
+		<link rel="stylesheet" href="/applicativi/iterlegcoordweb/bootstrap-select/css/bootstrap-select.min.css" type="text/css" />
+		<!-- PREFIXER FREE -->
+		<script type="text/javascript" src="/applicativi/iterlegcoordweb/js/prefixfree.min.js" ></script>
+
+		<!-- MODERNIZR -->
+		<script type="text/javascript" src="/applicativi/iterlegcoordweb/js/modernizr.custom.54968.js"></script>
+
+		<!-- RESIZE SENSOR -->
+		<script type="text/javascript" src="/applicativi/iterlegcoordweb/js/ResizeSensor.js"></script>
+		<script type="text/javascript" src="/applicativi/iterlegcoordweb/js/ElementQueries.js"></script>
+
+
+		<!-- CSS CUSTOM -->
+		<link rel="stylesheet" href="/applicativi/iterlegcoordweb/css/css.css" type="text/css" /> 
+		<link rel="stylesheet" href="/applicativi/iterlegcoordweb/css/timeline.css" type="text/css" /> 
+		<link rel="stylesheet" href="/applicativi/iterlegcoordweb/css/strutturatesto.css" type="text/css" /> 
+		<link rel="stylesheet" href="/applicativi/iterlegcoordweb/css/print.css" type="text/css"  media="print" />
+		
+		<!-- JS CUSTOM -->
+		<script type="text/javascript" src="/applicativi/iterlegcoordweb/js/funzioni.js"></script>
+
+
+	<script type="text/javascript">
+
+		/*function getCurrentOffsetTop(){
+		   
+			return $('#stickyPagination').offset().top - ($("#headerBanner").height() + 20 + 1);
+		} */
+
+
+		
+		/* function isBodySmallerThanViewport(){
+			// navHeight = 60;
+			// footerHeight = 213;
+			// #outerMain's margin-top = 40; 
+			var height = $("#outerMain")[0].getBoundingClientRect().height + 60 + 213 + 40;
+			return (height <= (window.innerHeight || document.documentElement.clientHeight));
+		} */
+
+		
+		
+
+		/* var doPosition = function(e) {	
+			if (isBodySmallerThanViewport()){
+				$("#t3-footer").addClass("fixed");
+			} else {
+				$("#t3-footer").removeClass("fixed");
+			}
+			
+			if ($('#stickyPaginationWrapper').length > 0) {
+				$('#stickyPaginationWrapper').height($("#stickyPagination").height());
+				$('#stickyPagination').data('bs.affix').options.offset.top = getCurrentOffsetTop();			
+			}
+
+		}; */
+
+		/*
+		$(window).load(function(e) {
+			doPosition(e);
+		})
+		.smartresize(function(e){
+			doPosition(e);
+		});	
+		
+		*/
+		
+	</script>
+
+	<script type="text/javascript">
+		
+		var $buoop = {vs:{i:7,f:15,o:10.6,s:4,n:9}} 
+		$buoop.ol = window.onload; 
+		window.onload=function(){ 
+		 try {if ($buoop.ol) $buoop.ol();}catch (e) {} 
+		 var e = document.createElement("script"); 
+		 e.setAttribute("type", "text/javascript"); 
+		 e.setAttribute("src", "https://browser-update.org/update.js");
+		 document.body.appendChild(e); 
+		}
+	</script>  
+      
+ 
+	 <script type="text/javascript">
+	 	$( document ).ready(function() {
+			 // controllo esistenza div timeline
+			 if ( typeof datiTimeline !== 'undefined' && datiTimeline.length>0 && $('#timeline').length )
+		     {				 
+				 if(datiTimeline[0].times[0].selezionato!='true')
+				 {
+					 $('.formulainiziale').hide();
+					 $('.formulafinale').hide();
+					 $('.conclusione').hide();
+					 $('.bur').hide();
+				 }	 
+				 
+				 
+				 
+				// valorizzo dopo gli estremi legge il periodo di vigenza
+				 for(var i=0;i<datiTimeline.length;i++) { 	 
+					if(datiTimeline[i].times[0].selezionato=='true')
+					{
+						if(datiTimeline[i].times[0].nota.toLowerCase().indexOf(" al ") > 0) {
+							$('#periodoVigente').html(datiTimeline[i].times[0].nota.toLowerCase());
+						}
+						break;
+					}
+				 }	
+			}
+		 });
+	 </script>
+ </head>
+
+<body id="mainbody" class="applicativo" ontouchstart="">
+<a id="top"></a>
+<nav id="headerBanner" class="navbar navbar-inverse navbar-fixed-top">
+	<div class="container">
+        <div class="row">
+			<div class="col-xs-12 col-sm-3 col-md-3 navbar-header">
+			 <a class="navbar-brand" href="/"><img src="/applicativi/iterlegcoordweb/img/logo_crp.gif" /></a>
+			</div>
+		 <div class="col-xs-12 col-sm-6  col-md-5" id="navbar">
+				<h1>Banca Dati Normativa</h1>
+			</div> 
+		 <div class="col-xs-12 col-sm-3  col-md-3" id="navbar-header">	
+		     		<a href="/"><img src="/applicativi/iterlegcoordweb/img/negativo_h36.png"></a>
+   			</div> 
+			<!--/.nav-collapse -->
+            </div> <!-- chiude row-->
+	</div><!--chiude container -->
+</nav>
+
+<div id="outerMain" class="container">
+  <div class="noPrint">
+    <div class="module-ct">
+      <ol class="breadcrumb ">
+        <li class="active"><span class="hasTooltip"><i class="fa fa-map-marker"></i></span></li>
+        <li><a href="/">Home</a></li>
+        <li>Leggi Regionali</li>
+        
+          <li>
+            <span>
+              Legge regionale n. 13 del 11 giugno 2026
+            </span>
+            <a id="btnBack" href="javascript:history.back();" class="btn btn-default btn-back hide">
+              <i class="fa fa-hand-o-left"></i>
+              Torna indietro
+            </a>    
+          </li>
+                     
+      </ol>
+    </div>
+    </div>
+    
+    <!-- TIMELINE -->
+      <div class="noPrint">
+	      <div id="timeline">
+	        <div id="tooltip"></div>
+	      </div>
+      </div>
+        
+    
+    <!-- Gestione timeline e sommario -->
+      <script type="text/javascript">
+      
+		        var datiTimeline = new Array();
+		        
+		                    
+		           datiTimeline.push(
+		        		  {
+		        			  times: [
+		                  {
+		                	  
+		                	   "nota":"dal 11/06/2026",
+		                	 
+		                	   
+		                	 "urn":"./dettaglioLegge.do?urnLegge=urn:nir:regione.piemonte:legge:2026-06-11;13@2026-06-11",
+		                	  
+		                	     "color":"#c1392b",
+		                	     "selezionato":"true",
+		                	 
+		                	 
+		                	 "label":"V0",
+		        	         "starting_time":"1781128800000", 
+		        	         "ending_time":  "1791117307082"
+		        	        }
+		                ]
+		        		  }
+		        	 );
+		        
+		                           
+		        // renderizzazione timeline
+		        timelineRect(datiTimeline);
+        
+      </script>
+      <!-- FINE TIMELINE -->
+      
+		      <h5 id="titoloDoc"><i class="fa fa-caret-right"></i>
+		          <span class="lead">Legge regionale n. 13 del 11 giugno 2026
+		          
+		          
+		              &nbsp;( Versione vigente <span id="periodoVigente"></span>
+		              
+		          )</span>
+		      </h5>
+      
+      
+      <div class="noPrint" id="spinLoadPage">
+          <i class="fa fa-spinner fa-pulse fa-5x"></i>
+      </div>
+        
+      <div id="main">
+      <a id="boxTitolo"></a>
+      <div class="row">
+        <div class="col-md-12">
+          <div class="panel panel-default">
+              <div class="panel-body" id="titoloAtto">
+                
+                  Disposizioni urgenti in materia di dichiarazione e gestione dello stato di emergenza di rilievo regionale. 
+                  <div class="bur">
+                      (B.U. 11 giugno 2026, 4&deg; suppl.  al n. 23)
+                  </div>
+                
+                  
+              </div>
+          </div>
+        </div>
+    </div>
+
+
+  <!-- blocco sommario dinamico -->
+    
+	    <div class="noPrint row">
+	      <div class="intestazioneSommario col-md-12">
+	      <p>
+          <i class="fa fa-list-alt iconsommario"></i> <a href="javascript:espandi('apri1')"><strong>Sommario</strong>:</a>
+          <span style="float: right;">
+            <span>
+              
+                  <a class="fa fa-book noevidenziato" target="_blank" title="Dossier Virtuale" href="https://arianna.cr.piemonte.it/iterlegfo/dossierPagina.do?numLegge=13&amp;annoLegge=2026"></a>
+              
+            </span>
+            <span>
+              
+                  <a class="fa fa-newspaper-o noevidenziato" target="_blank" title="Dossier Virtuale Post Vigenza" href="https://www.cr.piemonte.it/dvattivigfo?urn=urn:nir:regione.piemonte:legge:2026-06-11;13"></a>
+              
+            </span>
+            <span><a class="fa fa-expand noevidenziato" title="Riferimenti Attivati" href="riferimentiAttivati.do?numLegge=13&annoLegge=2026"></a></span>&nbsp;&nbsp;
+            <span><a class="fa fa-compress noevidenziato" title="Riferimenti Subiti" href="riferimentiSubiti.do?numLegge=13&annoLegge=2026"></a></span>&nbsp;&nbsp;
+            <span><a class="fa fa-info noevidenziato" title="Iter Legge" href="https://arianna.cr.piemonte.it/iterlegfo/datiiter.do?numLegge=13&amp;annoLegge=2026"></a></span>&nbsp;&nbsp;
+            
+               <span><a class="fa fa-file-text-o noevidenziato" title="Progetto licenziato" href="https://arianna.cr.piemonte.it/iterlegcoordweb/dettaglioProgetto.do?urnProgetto=urn:nir:regione.piemonte;consiglio:testo.licenziato.commissione.pdl:12;141,1&amp;tornaIndietro=true&amp;progettoLicenziato=true"></a></span>&nbsp;&nbsp;
+            
+            <span><a class="fa fa-file-text-o noevidenziato" title="Progetto presentato" href="https://arianna.cr.piemonte.it/iterlegcoordweb/dettaglioProgetto.do?urnProgetto=urn:nir:regione.piemonte;consiglio:testo.presentato.pdl:12;141&amp;tornaIndietro=true"></a></span>&nbsp;&nbsp;
+          </span> 
+        </p>
+	        <div style="display: none;" id="apri1" class="toc">
+	          <ul>
+	            
+	              
+	                <li class="articoloToc"><span class="articoloToc"><a href="#art1"><strong><i class="fa fa-caret-down"></i>Art. 1.</strong> (Dichiarazione dello stato di emergenza di rilievo regionale)</a></span></li>
+	              
+	              
+	            
+	              
+	                <li class="articoloToc"><span class="articoloToc"><a href="#art2"><strong><i class="fa fa-caret-down"></i>Art. 2.</strong> (Ordinanze di protezione civile)</a></span></li>
+	              
+	              
+	            
+	              
+	                <li class="articoloToc"><span class="articoloToc"><a href="#art3"><strong><i class="fa fa-caret-down"></i>Art. 3.</strong> (Cessazione dello stato di emergenza e gestione ordinaria)</a></span></li>
+	              
+	              
+	            
+	              
+	                <li class="articoloToc"><span class="articoloToc"><a href="#art4"><strong><i class="fa fa-caret-down"></i>Art. 4.</strong> (Sostituzione dell'articolo 9 della legge regionale 29 giugno 1978, n. 38 )</a></span></li>
+	              
+	              
+	            
+	              
+	                <li class="articoloToc"><span class="articoloToc"><a href="#art5"><strong><i class="fa fa-caret-down"></i>Art. 5.</strong> (Clausola di invarianza finanziaria)</a></span></li>
+	              
+	              
+	            
+	              
+	                <li class="articoloToc"><span class="articoloToc"><a href="#art6"><strong><i class="fa fa-caret-down"></i>Art. 6.</strong> (Dichiarazione d'urgenza)</a></span></li>
+	              
+	              
+	            
+	          </ul>
+	        </div>
+	      </div>
+	     </div>
+      
+
+<div class="NIR">
+      <a id="LR" name="LR"></a>
+      <div class="LeggeRegionale">
+      <p class="formulainiziale">
+                   <div class="formulainiziale">
+				<p><div class="formulainiziale">Il Consiglio regionale ha approvato</div></p>
+				<p><div class="formulainiziale">IL PRESIDENTE DELLA GIUNTA REGIONALE</div></p>
+				<p><div class="formulainiziale">Promulga</div></p>
+				<p><div class="formulainiziale">la seguente legge:</div></p>
+			</div>
+      </p>
+      
+			<div class="articolato" id="articolato">
+			  <div id="tooltipnota"></div>
+			  <!-- id: 1121961 --><a id="art1" name="art1"></a><div class="articolo">
+<div class="num">Art. 1.&nbsp;</div><div class="rubrica">(Dichiarazione dello stato di emergenza di rilievo regionale)</div><!-- id: 1121963 --><a id="art1-com1" name="art1-com1"></a><div class="comma">
+<div class="num">1.&nbsp;</div><div class="corpo">La presente legge, in attuazione dell'
+							 <a target="_blank" href="http://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2018-01-02;1~art24-com9">articolo 24, comma 9, del decreto legislativo 2 gennaio 2018, n. 1</a>
+							(Codice della protezione civile), disciplina la dichiarazione e la gestione dello stato di emergenza di rilievo regionale, nei limiti della potestà legislativa regionale e nel rispetto dei principi fondamentali stabiliti dal medesimo decreto.</div>  
+</div>
+<!-- id: 1121965 --><a id="art1-com2" name="art1-com2"></a><div class="comma">
+<div class="num">2.&nbsp;</div><div class="corpo">La Giunta regionale può dichiarare lo stato di emergenza di rilievo regionale al verificarsi degli eventi di cui all'
+							 <a target="_blank" href="http://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2018;1~art7-com1-letb">articolo 7, comma 1, lettera b), del decreto legislativo 1/2018</a>
+							, quando tali eventi, per natura, intensità o estensione, non possono essere fronteggiati con gli strumenti ordinari di intervento e richiedono l'adozione di misure straordinarie, anche mediante l'esercizio temporaneo di poteri straordinari.</div>  
+</div>
+<!-- id: 1121967 --><a id="art1-com3" name="art1-com3"></a><div class="comma">
+<div class="num">3.&nbsp;</div><div class="corpo">La dichiarazione dello stato di emergenza di cui al comma 2 è adottata su proposta del Presidente della Giunta regionale, previa istruttoria delle strutture tecniche regionali competenti, anche sulla base delle richieste formulate dagli enti locali interessati.</div>  
+</div>
+<!-- id: 1121969 --><a id="art1-com4" name="art1-com4"></a><div class="comma">
+<div class="num">4.&nbsp;</div><div class="alinea">La deliberazione di dichiarazione dello stato di emergenza individua:</div><!-- id: 1121971 --><a id="art1-com4-leta" name="art1-com4-leta"></a><div class="el">
+<div class="num">a)&nbsp;</div><div class="corpo">la durata dello stato di emergenza, non superiore a dodici mesi, prorogabile per non più di ulteriori dodici mesi con motivata deliberazione della Giunta regionale;</div>  
+</div>
+<!-- id: 1121973 --><a id="art1-com4-letb" name="art1-com4-letb"></a><div class="el">
+<div class="num">b)&nbsp;</div><div class="corpo">l'ambito territoriale interessato;</div>  
+</div>
+<!-- id: 1121975 --><a id="art1-com4-letc" name="art1-com4-letc"></a><div class="el">
+<div class="num">c)&nbsp;</div><div class="corpo">le prime misure urgenti da porre in essere;</div>  
+</div>
+<!-- id: 1121977 --><a id="art1-com4-letd" name="art1-com4-letd"></a><div class="el">
+<div class="num">d)&nbsp;</div><div class="corpo">l'avvio della ricognizione dei fabbisogni e del censimento degli interventi e delle misure riconducibili all'articolo 25, comma 2, lettere a), b), c) e d), del
+								 <a target="_blank" href="http://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2018;1">decreto legislativo 1/2018</a>
+								;</div>  
+</div>
+<!-- id: 1121979 --><a id="art1-com4-lete" name="art1-com4-lete"></a><div class="el">
+<div class="num">e)&nbsp;</div><div class="corpo">la struttura regionale competente al coordinamento della gestione emergenziale.</div>  
+</div>
+  
+</div>
+  
+</div>
+<!-- id: 1121981 --><a id="art2" name="art2"></a><div class="articolo">
+<div class="num">Art. 2.&nbsp;</div><div class="rubrica">(Ordinanze di protezione civile)</div><!-- id: 1121983 --><a id="art2-com1" name="art2-com1"></a><div class="comma">
+<div class="num">1.&nbsp;</div><div class="corpo">Il Presidente della Giunta regionale, durante la vigenza dello stato di emergenza di rilievo regionale, nei limiti e per le finalità indicate nella deliberazione di cui all'articolo 1, adotta ordinanze di protezione civile al fine di fronteggiare la situazione emergenziale e assicurare il coordinamento e la realizzazione degli interventi necessari.</div>  
+</div>
+<!-- id: 1121985 --><a id="art2-com2" name="art2-com2"></a><div class="comma">
+<div class="num">2.&nbsp;</div><div class="corpo">Le ordinanze, adottate nel rispetto dei principi generali dell'ordinamento giuridico e dell'ordinamento dell'Unione europea, possono disporre deroghe alle disposizioni legislative e regolamentari regionali vigenti, con espressa indicazione delle norme derogate e debita motivazione, ai sensi dell'
+							 <a target="_blank" href="http://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2018;1~art25-com11">articolo 25, comma 11, del decreto legislativo 1/2018</a>
+							.</div>  
+</div>
+<!-- id: 1121987 --><a id="art2-com3" name="art2-com3"></a><div class="comma">
+<div class="num">3.&nbsp;</div><div class="corpo">Le ordinanze individuano gli interventi e le misure emergenziali, i relativi soggetti attuatori, di norma individuati tra le amministrazioni pubbliche e gli enti competenti per materia o per territorio, e disciplinano le modalità amministrative e contabili della loro gestione.</div>  
+</div>
+<!-- id: 1121989 --><a id="art2-com4" name="art2-com4"></a><div class="comma">
+<div class="num">4.&nbsp;</div><div class="corpo">Le ordinanze adottate sono pubblicate sul Bollettino ufficiale della Regione e in un'apposita sezione del sito istituzionale regionale, al fine di garantire la massima diffusione e conoscibilità dei provvedimenti derogatori.</div>  
+</div>
+  
+</div>
+<!-- id: 1121991 --><a id="art3" name="art3"></a><div class="articolo">
+<div class="num">Art. 3.&nbsp;</div><div class="rubrica">(Cessazione dello stato di emergenza e gestione ordinaria)</div><!-- id: 1121993 --><a id="art3-com1" name="art3-com1"></a><div class="comma">
+<div class="num">1.&nbsp;</div><div class="corpo">La Giunta regionale, con la deliberazione di cessazione dello stato di emergenza, disciplina il trasferimento alla gestione ordinaria delle attività e delle risorse eventualmente residue.</div>  
+</div>
+<!-- id: 1121995 --><a id="art3-com2" name="art3-com2"></a><div class="comma">
+<div class="num">2.&nbsp;</div><div class="corpo">Le disposizioni derogatorie contenute nelle ordinanze perdono efficacia con la cessazione dello stato di emergenza e sono fatti salvi gli effetti degli atti amministrativi adottati e dei contratti stipulati durante la vigenza dello stato di emergenza.</div>  
+</div>
+<!-- id: 1121997 --><a id="art3-com3" name="art3-com3"></a><div class="comma">
+<div class="num">3.&nbsp;</div><div class="corpo">Gli interventi e le misure avviati durante lo stato di emergenza e non conclusi alla data della sua cessazione proseguono, senza deroghe, secondo la normativa ordinaria vigente, a opera dei soggetti attuatori già individuati, sotto il coordinamento delle strutture regionali competenti, fino al loro completamento.</div>  
+</div>
+  
+</div>
+<!-- id: 1121999 --><a id="art4" name="art4"></a><div class="articolo">
+<div class="num">Art. 4.&nbsp;</div><div class="rubrica">(Sostituzione dell'articolo 9 della legge regionale 29 giugno 1978, n. 38 )</div><!-- id: 1122001 --><a id="art4-com1" name="art4-com1"></a><div class="comma">
+<div class="num">1.&nbsp;</div><div class="corpo"><div class="mod"><div class="corpo">L' 
+ <a target="_blank" href="https://arianna.cr.piemonte.it/iterlegcoordweb/dettaglioLegge.do?urnLegge=urn:nir:regione.piemonte:legge:1978-06-29;38@2026-10-04#art9">articolo 9 della legge regionale 29 giugno 1978, n. 38</a> (Disciplina e organizzazione degli interventi in dipendenza di calamità naturali) è sostituito dal seguente: " 
+<div class="virgolette"><div class="corpo"><div class="articolo"><div class="corpo"><div class="num"><div class="corpo">Art. 9.</div></div> (Riconoscimento di calamità gravi) 
+<div class="comma"><div class="corpo"><div class="num"><div class="corpo">1.</div></div> Le provvidenze previste all'articolo 2 sono disposte in relazione agli eventi di cui all'articolo 7, comma 1, lettere b) e c), del 
+ <a target="_blank" href="http://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2018-01-02;1">decreto legislativo 2 gennaio 2018, n. 1</a> (Codice della protezione civile), anche a seguito della dichiarazione dello stato di emergenza di rilievo regionale o della deliberazione del Consiglio dei ministri con cui è dichiarato lo stato di emergenza di rilievo nazionale.</div></div></div></div></div></div> ".</div></div></div>  
+</div>
+  
+</div>
+<!-- id: 1122003 --><a id="art5" name="art5"></a><div class="articolo">
+<div class="num">Art. 5.&nbsp;</div><div class="rubrica">(Clausola di invarianza finanziaria)</div><!-- id: 1122005 --><a id="art5-com1" name="art5-com1"></a><div class="comma">
+<div class="num">1.&nbsp;</div><div class="corpo">Dall'attuazione della presente legge non derivano nuovi o maggiori oneri a carico del bilancio regionale.</div>  
+</div>
+  
+</div>
+<!-- id: 1122007 --><a id="art6" name="art6"></a><div class="articolo">
+<div class="num">Art. 6.&nbsp;</div><div class="rubrica">(Dichiarazione d'urgenza)</div><!-- id: 1122009 --><a id="art6-com1" name="art6-com1"></a><div class="comma">
+<div class="num">1.&nbsp;</div><div class="corpo">La presente legge è dichiarata urgente ai sensi dell'
+							 <a target="_blank" href="http://serviziweb.csi.it/solverweb/SolverServlet?urn=urn:nir:regione.piemonte:statuto:2005-03-04;1">articolo 47 dello Statuto</a>
+							ed entra in vigore il giorno successivo alla sua pubblicazione sul Bollettino ufficiale della Regione Piemonte.</div>  
+</div>
+  
+</div>
+
+			</div>
+			
+		<div class="formulafinale">
+      
+				<p>La presente legge regionale sarà pubblicata nel Bollettino Ufficiale della Regione. E' fatto obbligo a chiunque spetti di osservarla e di farla osservare come legge della Regione Piemonte.</p>
+			
+    </div>
+		
+		<div class="conclusione">
+      
+				<div class="dataeluogo">Data a Torino, addì 11 giugno 2026</div>
+				Alberto Cirio
+			
+    </div>
+
+		
+		
+		<div class="col-xs-12"><hr></div>
+    
+    <!-- blocco note al testo -->
+        
+    
+    </div> <!-- fine Legge Regionale -->
+    </div> <!-- fine NIR -->
+    <div class="noPrint toTop"><a href="#top"><i style="color:white;" class="fa fa-caret-up"></i></a></div>
+    </div> <!-- fine div main -->
+  </div> <!-- fine outer main -->
+    
+			
+
+ 
+		<footer id="t3-footer" class="wrap t3-footer">
+			<section class="t3-copyright">
+				<div class="container">
+					<div class="custom"></div>
+				</div>
+			</section>
+		</footer>
+
+
+ 
+      <script type="text/javascript">
+        $(function(){
+          $("#outerMain").css('opacity','1');
+        });
+      </script> 
+    </body>
+</html>

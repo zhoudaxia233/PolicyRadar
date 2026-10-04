@@ -477,6 +477,18 @@ export const messages = {
     "Festgelegter Umsetzungstermin",
     "Confirmed implementation milestone"
   ],
+  "法定到期日": [
+    "Gesetzliches Ablaufdatum",
+    "Statutory expiry date"
+  ],
+  "截止日期": [
+    "Fristende",
+    "Deadline"
+  ],
+  "已公布的后续安排": [
+    "Angekündigter nächster Schritt",
+    "Announced next step"
+  ],
   "通过，和生效之间": [
     "Verabschiedung und Inkrafttreten",
     "Adoption and entry into force"

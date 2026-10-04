@@ -46,6 +46,11 @@ export const policySchema = z.object({
  if(p.lastEventDate>p.verifiedAt)c.addIssue({code:'custom',message:'Last confirmed event cannot be in future'});
 });
 export type Policy=z.infer<typeof policySchema>;
+function resolvedNextKind(p:Policy){return p.nextKind??legacyNextKind[p.nextLabel as keyof typeof legacyNextKind]??'scheduled';}
+export function nextStepLabel(p:Policy){
+ if(p.phase==='pending')return '待表决 / 待确认';
+ return ({expiry:'法定到期日',deadline:'截止日期',implementation:'已确定的实施节点',scheduled:'已公布的后续安排'} as const)[resolvedNextKind(p)];
+}
 export function effectiveDateLabel(p:Policy){return p.effectiveDate?(p.effectiveDateKind==='application'?'本次要求开始适用':'本次改动开始生效'):'最近已确认进展';}
 // The date a reader cares about first: a near-term next step, otherwise when the change took effect.
 export function keyDate(p:Policy,today:string){const soon=!!p.nextDate&&p.nextDate>=today&&(!p.effectiveDate||Date.parse(p.nextDate)-Date.parse(today)<=120*864e5);return soon?{date:p.nextDate!,label:p.nextLabel??'下一步',kind:'next' as const}:{date:p.effectiveDate??p.lastEventDate,label:effectiveDateLabel(p),kind:p.effectiveDate?(p.effectiveDateKind==='application'?'application' as const:'effective' as const):'progress' as const};}
@@ -62,7 +67,7 @@ export function policyStatusNote(p:Policy){
 }
 export function lifecycle(p:Policy,today:string){
  const code=legacyStatus[p.status as keyof typeof legacyStatus]??p.status;
- const nextKind=p.nextKind??legacyNextKind[p.nextLabel as keyof typeof legacyNextKind]??'scheduled';
+ const nextKind=resolvedNextKind(p);
  const nextPassed=!!p.nextDate&&p.nextDate<today;
  if(code==='application_closed')return '本轮申请已结束';
  if(p.phase==='closed')return '已结束';

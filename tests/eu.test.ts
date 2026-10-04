@@ -1,7 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
-import {countries,regions,countryOf,policySchema,lifecycle,keyDate,effectiveDateLabel} from '../lib/domain/model.ts';
+import {countries,regions,countryOf,policySchema,lifecycle,keyDate,effectiveDateLabel,nextStepLabel} from '../lib/domain/model.ts';
 import {readFilters,filterSearch} from '../lib/domain/filters.ts';
 import {selectListing,countrySourceUrls} from '../lib/domain/listing.ts';
 import {countryName,regionName,translator} from '../lib/i18n/index.ts';
@@ -14,11 +14,42 @@ import {readSnapshot} from '../lib/source-archive.ts';
 const read=(p:string)=>JSON.parse(readFileSync(p,'utf8'));
 const initial=read('data/exports/2026-10-04-eu-130806/policy-radar-export.json');
 const dateReview=read('data/exports/2026-10-04-eu-date-review-131101/policy-radar-export.json');
-const path='data/exports/2026-10-04-eu-roaming-review-132839/policy-radar-export.json';
+const roamingReview=read('data/exports/2026-10-04-eu-roaming-review-132839/policy-radar-export.json');
+const path='data/exports/2026-10-04-eu-payment-review-134352/policy-radar-export.json';
 const before=read('data/exports/2026-10-04-italy-evidence-review-124438/policy-radar-export.json');
 const after=read(path),data=createStaticData(after),old=createStaticData(before);
 const localization=createLocalization(data,read('data/translations/content.json'),read('data/translations/bindings.json'));
 const policies=data.policies.filter(p=>p.region==='EU');
+
+test('translated prose uses local date formats',()=>{
+ for(const [text,translations] of Object.entries(localization.messages))for(const translated of translations)assert(!/\d{4}-\d{2}-\d{2}/.test(translated),text);
+});
+
+test('the German roaming correction quotes the actual previous event title',()=>{
+ const roaming=policies.find(p=>p.id==='eu-roaming-2022')!;
+ const correction=localizePolicy(roaming,'de',localization).events.find(e=>e.kind==='correction')!;
+ assert(correction.detail.includes('„'+localization.messages['要求开始适用'][0]+'“'));
+ assert.deepEqual(after.tables.policies.find((p:{id:string})=>p.id===roaming.id),roamingReview.tables.policies.find((p:{id:string})=>p.id===roaming.id));
+ assert.equal(createLocalization(createStaticData(roamingReview),read('data/translations/content.json'),read('data/translations/bindings.json')).policies[roaming.id],'current');
+});
+
+test('instant payments retain all later implementation deadlines as sourced scheduled events',()=>{
+ const instant=policies.find(p=>p.id==='eu-instant-euro-payments-2024')!;
+ assert.deepEqual(instant.events.filter(e=>e.kind==='scheduled').map(e=>e.date).sort(),['2027-01-09','2027-04-09','2027-07-09','2028-06-09']);
+ for(const e of instant.events.filter(e=>e.kind==='scheduled'))assert.equal(e.sourceId,'instant');
+});
+
+test('upcoming labels distinguish expiry and deadlines from implementation in every locale',()=>{
+ const roaming=policies.find(p=>p.id==='eu-roaming-2022')!;
+ assert.equal(nextStepLabel(roaming),'法定到期日');
+ assert.equal(nextStepLabel({...roaming,nextKind:'deadline'}),'截止日期');
+ assert.equal(nextStepLabel({...roaming,nextKind:'implementation'}),'已确定的实施节点');
+ assert.equal(nextStepLabel({...roaming,nextKind:'scheduled'}),'已公布的后续安排');
+ assert.equal(nextStepLabel({...roaming,phase:'pending'}),'待表决 / 待确认');
+ const legacy=old.policies.filter(p=>['he-rent-protection-2025','de-fuel-relief-2026'].includes(p.id));assert.equal(legacy.length,2);
+ for(const p of legacy)assert.equal(nextStepLabel(p),'法定到期日');
+ for(const label of ['法定到期日','截止日期','已确定的实施节点','已公布的后续安排'] as const)for(const locale of ['de','en'] as const)assert(!/[\u3400-\u9fff]/u.test(translator(locale)(label)));
+});
 
 test('roaming commencement uses consistent wording in the event and card',()=>{
  const roaming=policies.find(p=>p.id==='eu-roaming-2022')!;
@@ -66,7 +97,8 @@ test('EU is a supranational jurisdiction and round-trips without changing the de
 test('EU intake preserves every historical row and other countries review settings',()=>{
  validateSelection(before,initial,new Date(initial.exportedAt));
  validateSelection(initial,dateReview,new Date(dateReview.exportedAt));
- validateSelection(dateReview,after,new Date(after.exportedAt));
+ validateSelection(dateReview,roamingReview,new Date(roamingReview.exportedAt));
+ validateSelection(roamingReview,after,new Date(after.exportedAt));
  assert.equal(policies.length,3);
  assert.deepEqual(after.tables.policies.filter((r:{region:string})=>r.region!=='EU'),before.tables.policies);
  for(const table of ['revisions','intake','scan_runs','snapshots','checks'])assert.deepEqual(after.tables[table].slice(0,before.tables[table].length),before.tables[table],table);
@@ -94,7 +126,7 @@ test('EU records and sources stay separate from national measures and counts',()
 test('EU multilingual search and counts use complete version-bound translations',()=>{
  const index=new Map(policies.map(p=>[p.id,searchText(p,localization)]));
  for(const p of policies){
-  assert.equal(data.policyVersions[p.id],p.id==='eu-instant-euro-payments-2024'?1:2);assert.equal(localization.policies[p.id],'current');
+  assert.equal(data.policyVersions[p.id],2);assert.equal(localization.policies[p.id],'current');
   for(const locale of ['de','en'] as const){
    const translated=localizePolicy(p,locale,localization);
    assert(policyTextFields(translated).every(s=>!/[\u3400-\u9fff]/u.test(s)),p.id);
@@ -132,6 +164,7 @@ test('EU sources are real archived official explanations; failed legal downloads
  assert.match(originals['roaming-term'],/tritt zum 1\. Juli 2022 in Kraft/);
  assert.match(originals['roaming-term'],/bis 30\. Juni 2032 gelten/);
  assert.match(originals.instant,/9 January 2027/);assert.match(originals.instant,/9 April 2027/);
+ assert.match(originals.instant,/9 July 2027/);assert.match(originals.instant,/9 June 2028/);
  assert.match(originals.charger,/28.{0,20}April.{0,20}2026/);
  const failures=after.tables.checks.filter((c:{url:string;error:string|null})=>c.url.startsWith('https://eur-lex.europa.eu/')&&c.error);
  assert.equal(failures.length,3);assert(failures.every((c:{snapshot_key:string|null})=>c.snapshot_key===null));

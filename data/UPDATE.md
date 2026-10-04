@@ -81,6 +81,17 @@ up from stored coverage, rather than skip to the latest week.
    Every dated next step requires `nextKind`: `implementation`, `scheduled`,
    `expiry`, or `deadline`. A deadline passing means follow-up is unverified;
    it does not prove an application closed or a pending measure passed.
+   Revisit every approaching or elapsed `nextDate`, including dates missed by a
+   delayed run. For phased implementation, recheck the official timetable and
+   advance `nextDate` / `nextLabel` to the earliest remaining applicable milestone,
+   retaining `nextKind: "implementation"` and `status: "phased"` while further
+   stages remain. Save a new version, revision and reviewed translation binding.
+   A scheduled event alone does not advance the card or the Coming up panel:
+   both read the saved `nextDate`. Preserve earlier scheduled events; only append
+   confirmed outcomes when evidence supports them. A passed implementation date
+   does not prove that providers complied. If a review cannot resolve the next
+   step, retain the evidence and record that uncertainty instead of claiming that
+   all implementation is complete.
    Do not invent an exact date for a month-only payment or expected implementation. Preserve every
    old policy, revision, discovery, scan and snapshot row. Reuse existing policy
    IDs for the same tracked measure. Only advance `verifiedAt` after substantive
@@ -305,15 +316,26 @@ responses are not legal-text snapshots. Follow the law links on the official
 explanation pages and obtain the authoritative text when access permits. Do not
 bypass access restrictions or label explanatory pages as the legal text.
 
-The initial EU addition has three validated selections: `2026-10-04-eu-130806`,
-`2026-10-04-eu-date-review-131101`, then `2026-10-04-eu-roaming-review-132839`.
+For instant euro payments, the recorded implementation sequence is 9 January 2027
+(non-euro area receipt and charges), 9 April 2027 (electronic money/payment
+institutions' receipt and euro area sending), 9 July 2027 (non-euro area sending
+and payee verification), then 9 June 2028 (the specific non-euro national-currency
+account exception outside business hours). At each review, verify and advance the
+next step as above; do not leave it at January once that milestone has passed.
+
+The initial EU addition has four validated selections: `2026-10-04-eu-130806`,
+`2026-10-04-eu-date-review-131101`, `2026-10-04-eu-roaming-review-132839`, then
+`2026-10-04-eu-payment-review-134352`.
 Preserve that order in separate commits when publishing: all three policies start
 at version 1, the date-kind correction advances the charger to version 2, and the
 commencement-title correction and expiry addition advance roaming to version 2.
+Completing the later payment milestones advances instant payments to version 2.
 The original roaming event remains in history and is superseded by the corrected
-event. Bind translations to the selected version in each commit.
+event. Bind translations to the selected version in each commit. German and
+English wording-only corrections in the translation catalog do not alter the
+canonical record hash, policy version or export.
 
 When merging is authorized, select **Create a merge commit**. Squashing would make
-the charger and roaming first enter selected history at version 2 and fail the
+all three EU policies first enter selected history at version 2 and fail the
 first-version gate. The PR workflow validates the existing commit history; it does
-not prevent choosing squash in GitHub's merge UI. Preserve all three transitions.
+not prevent choosing squash in GitHub's merge UI. Preserve all four transitions.

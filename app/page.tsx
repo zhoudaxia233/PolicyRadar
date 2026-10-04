@@ -2,7 +2,7 @@
 import {PolicyStatusNote} from './policy-status-note';
 import { useEffect, useMemo, useState, useRef, type ReactNode } from 'react';
 import { Radar, LayoutDashboard, Clock3, Activity, Database, Search, ChevronRight, ChevronDown, ExternalLink, Download, RefreshCw, MapPin, CalendarDays, FileText, X, ShieldCheck, AlertCircle, Layers, Sun, Moon, Monitor } from 'lucide-react';
-import { regions, countries, countryOf, keyDate, policyTags, lifecycle, type Policy } from '../lib/domain/model';
+import { regions, countries, countryOf, keyDate, policyTags, lifecycle, nextStepLabel, type Policy } from '../lib/domain/model';
 import { trackingStart, type IntakeRecord, type coverageRows } from '../lib/domain/intake';
 import { IntakeView } from './intake-view';
 import { LanguageSwitch } from './language-switch';
@@ -824,7 +824,7 @@ export default function Home() {
                 </div>
                 <div>
                   <span className={'mini-label ' + (p.phase === 'pending' ? 'amber-text' : '')}>
-                    {p.phase === 'pending' ? tr("待表决 / 待确认") : tr("已确定的实施节点")}
+                    {tr(nextStepLabel(canonicalItems.find(original=>original.id===p.id)??p))}
                   </span>
                   <h3 lang={explanationLang(p)}>
                     {p.nextLabel}

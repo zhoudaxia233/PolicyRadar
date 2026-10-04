@@ -6962,5 +6962,585 @@
   "欧盟历史解读现有11项，本轮补充数字服务、数字市场、数据访问、产品安全、无障碍、维修权、设备耐用性及铁路旅客权利8项。已核读并归档官方说明；部分入口受阻，EUR-Lex 原文下载未取得可用正文。未完成逐日扫描，未逐国核查指令转化，不代表完整覆盖。": [
     "Die EU umfasst nun elf historische Erläuterungen; neu sind acht zu digitalen Diensten und Märkten, Datenzugang, Produktsicherheit, Barrierefreiheit, Reparatur, Gerätehaltbarkeit und Bahnfahrgastrechten. Amtliche Erläuterungen wurden geprüft und archiviert. Einige Zugänge waren blockiert; EUR-Lex lieferte keine nutzbaren Volltexte. Keine vollständige Tagesprüfung oder länderweise Prüfung der Richtlinienumsetzung; keine vollständige Abdeckung.",
     "The EU now has eleven historical explanations, adding eight on digital services and markets, data access, product safety, accessibility, repair, device durability and rail passenger rights. Official explanations were reviewed and archived. Some entry points were blocked; EUR-Lex returned no usable legal texts. Daily monitoring and country-by-country directive transposition checks remain incomplete; coverage is not exhaustive."
+  ],
+  "已核读并保存官方说明；该页不是法律原文，未核实的范围和日期另行注明。": [
+    "Amtliche Erläuterung geprüft und archiviert; kein Gesetzestext. Ungeprüfter Umfang und ungeprüfte Termine werden gesondert genannt.",
+    "Official explanation reviewed and archived; this is not the legal text. Unverified scope and dates are identified separately."
+  ],
+  "行政与数字服务": [
+    "Verwaltung und digitale Dienste",
+    "Administration and digital services"
+  ],
+  "医疗与社会保障": [
+    "Gesundheit und soziale Sicherung",
+    "Health and social protection"
+  ],
+  "住房与租房": [
+    "Wohnen und Mieten",
+    "Housing and renting"
+  ],
+  "就业与劳动": [
+    "Beschäftigung und Arbeit",
+    "Employment and labour"
+  ],
+  "电子无犯罪记录证明常见问题": [
+    "FAQ zum Digitalen Führungszeugnis",
+    "Digital certificate of conduct FAQ"
+  ],
+  "德国联邦司法局": [
+    "Bundesamt für Justiz",
+    "Federal Office of Justice"
+  ],
+  "德国10月新规": [
+    "Neuregelungen im Oktober",
+    "Germany’s October changes"
+  ],
+  "德国：无犯罪记录证明可选择电子 PDF": [
+    "Deutschland: Führungszeugnis auch als digitales PDF",
+    "Germany: certificate of conduct available as a digital PDF"
+  ],
+  "网上申请私人用途的无犯罪记录证明时，可选择通过 BundID 接收电子 PDF，效力与纸质证明相同。": [
+    "Bei Online-Anträgen für private Zwecke kann ein digitales Führungszeugnis als PDF über BundID gewählt werden; es hat dieselbe Rechtsgültigkeit wie die Papierfassung.",
+    "Online applicants for private purposes can choose a digital PDF certificate delivered through BundID, with the same legal validity as the paper version."
+  ],
+  "此前通常以纸质证明寄送；线上申请不等于已经支持电子签发。": [
+    "Zuvor wurde das Zeugnis normalerweise auf Papier versandt; ein Online-Antrag bedeutete noch keine digitale Ausstellung.",
+    "Previously, certificates were normally posted on paper; online application did not itself mean digital issuance."
+  ],
+  "电子证明通过 BundID 送达，可下载、转发或打印，并通过电子印章或二维码核验。": [
+    "Das Zeugnis wird über BundID zugestellt, kann heruntergeladen, weitergeleitet oder gedruckt und über Siegel oder QR-Code geprüft werden.",
+    "The certificate is delivered through BundID and can be downloaded, forwarded or printed, with seal or QR-code verification."
+  ],
+  "申请人需要支持线上身份认证的证件、NFC 手机及 BundID 账户；费用仍为13欧元。": [
+    "Erforderlich sind ein Ausweis mit Online-Funktion, ein NFC-Smartphone und ein BundID-Konto. Die Gebühr bleibt bei 13 Euro.",
+    "Applicants need an identity document supporting online identification, an NFC phone and a BundID account. The fee remains €13."
+  ],
+  "私人用途的普通、扩展及符合条件的欧洲证明可电子签发；向行政机关提交的证明不在此列。欧洲证明或需补充核查的申请可能更久，不保证几小时办结。": [
+    "Einfache, erweiterte und gegebenenfalls europäische Zeugnisse für private Zwecke sind erfasst, nicht Behördenführungszeugnisse. Europäische Zeugnisse oder Rückfragen können länger dauern; eine Erledigung binnen Stunden ist nicht garantiert.",
+    "Ordinary, extended and eligible European certificates for private purposes qualify; certificates for submission to an authority do not. European certificates or cases needing clarification may take longer; issuance within hours is not guaranteed."
+  ],
+  "2026-10-01 是电子签发服务开始提供的日期，本条不据此认定整部修法同日生效。": [
+    "Der 01.10.2026 bezeichnet den Start der digitalen Ausstellung, nicht zwingend das Inkrafttreten der gesamten Gesetzesänderung.",
+    "1 October 2026 marks the start of digital issuance, not necessarily commencement of the entire amending law."
+  ],
+  "适用条件与限制": [
+    "Voraussetzungen und Grenzen",
+    "Conditions and limits"
+  ],
+  "可重复使用经期用品报销说明": [
+    "Erstattung wiederverwendbarer Menstruationsprodukte",
+    "Reimbursement of reusable menstrual products"
+  ],
+  "法国医保机构": [
+    "Französische Krankenversicherung",
+    "French Health Insurance"
+  ],
+  "法国：符合条件的经期用品开始纳入医保": [
+    "Frankreich: Erstattung bestimmter Menstruationsprodukte",
+    "France: eligible menstrual products become reimbursable"
+  ],
+  "未满26岁的参保经期人群，以及不限年龄的 C2S 受益人，可在药房购买列入报销目录的经期内裤或月经杯。": [
+    "Menstruierende Versicherte unter 26 sowie C2S-Berechtigte jeden Alters können gelistete Menstruationsunterwäsche oder -tassen in Apotheken erstattet bekommen.",
+    "Menstruating insured people under 26 and C2S beneficiaries of any age can obtain reimbursement for listed period underwear or menstrual cups from pharmacies."
+  ],
+  "这项针对列名可重复使用用品的医保报销安排此前尚未开始。": [
+    "Diese Erstattungsregelung für gelistete wiederverwendbare Produkte war zuvor noch nicht gestartet.",
+    "This reimbursement scheme for listed reusable products had not previously started."
+  ],
+  "每个12个月周期最多报销2件，从首次报销购买日开始计算；未满26岁通常报销60%，C2S 全额支付且无需垫付。": [
+    "Pro Zwölfmonatszeitraum ab dem ersten erstatteten Kauf sind höchstens zwei Produkte erfasst. Unter 26 werden regulär 60 % erstattet; bei C2S vollständig und ohne Vorleistung.",
+    "Up to two products are covered per 12-month period starting with the first reimbursed purchase. Under-26s normally receive 60% reimbursement; C2S covers the full amount without upfront payment."
+  ],
+  "携带 Carte Vitale 到药房，无需处方；其余费用能否由补充保险承担，须看合同。": [
+    "Mit Carte Vitale in die Apotheke gehen; ein Rezept ist nicht nötig. Die Übernahme des Restbetrags hängt von der Zusatzversicherung ab.",
+    "Bring a Carte Vitale to the pharmacy; no prescription is needed. Coverage of the remainder depends on supplementary insurance."
+  ],
+  "只报销已列名产品，超市或网络购买不适用这项药房安排。内裤限价每件19欧元，月经杯15.80欧元；不等于所有经期用品免费。": [
+    "Nur gelistete Produkte sind erfasst; Supermarkt- oder Onlinekäufe fallen nicht unter diese Apothekenregelung. Preisobergrenzen: 19 Euro für Unterwäsche, 15,80 Euro für Tassen. Nicht alle Menstruationsprodukte sind kostenlos.",
+    "Only listed products qualify; supermarket or online purchases are outside this pharmacy scheme. Price caps are €19 for underwear and €15.80 for cups. Not all menstrual products are free."
+  ],
+  "2026-10-01 是这项报销安排开始适用的日期。": [
+    "Die Erstattungsregelung gilt ab 01.10.2026.",
+    "The reimbursement scheme starts applying on 1 October 2026."
+  ],
+  "租金委员会新法获参议院通过": [
+    "Senat billigt neues Huurcommissie-Gesetz",
+    "Senate approves new Rent Tribunal law"
+  ],
+  "荷兰政府": [
+    "Niederländische Regierung",
+    "Dutch Government"
+  ],
+  "租金委员会新法生效": [
+    "Neues Huurcommissie-Gesetz tritt in Kraft",
+    "New Rent Tribunal law takes effect"
+  ],
+  "荷兰：租金委员会新法已通过，2027年起扩大涨租审查": [
+    "Niederlande: neues Gesetz erweitert Mietprüfung ab 2027",
+    "Netherlands: adopted law expands rent review from 2027"
+  ],
+  "参议院已通过新法，扩大部分租客对涨租提出异议的途径，并调整房屋缺陷和投诉程序。": [
+    "Der Senat hat ein Gesetz beschlossen, das bestimmten Mietern weitere Einwände gegen Mieterhöhungen ermöglicht und Mängel- sowie Beschwerdeverfahren anpasst.",
+    "The Senate has approved legislation expanding some tenants’ routes to challenge rent increases and changing defect and complaint procedures."
+  ],
+  "社会住房租客对合同约定涨租的委员会审查途径较窄，中端租房的严重缺陷异议规则也不同。": [
+    "Bei Sozialwohnungen war die Prüfung vertraglicher Erhöhungen enger; für mittlere Mietsegmente galten andere Regeln zu erheblichen Mängeln.",
+    "Social tenants had narrower access to tribunal review of contractual increases; serious-defect rules also differed for mid-market rentals."
+  ],
+  "社会住房租客可将合同约定的涨租提交委员会；中端租客在涨租前已被委员会认定存在严重缺陷时，也可提出异议。": [
+    "Sozialmieter können vertragliche Erhöhungen vorlegen. Mieter im mittleren Segment können widersprechen, wenn die Huurcommissie vor der Erhöhung erhebliche Mängel festgestellt hat.",
+    "Social tenants can submit contractual increases for review. Mid-market tenants can object where the tribunal established serious defects before the increase."
+  ],
+  "房屋缺陷须先书面告知房东，再向委员会提起程序；保存书面记录。": [
+    "Mängel müssen vor Einleitung des Verfahrens schriftlich beim Vermieter gemeldet werden; Belege aufbewahren.",
+    "Defects must first be reported to the landlord in writing before tribunal proceedings; keep written evidence."
+  ],
+  "新规则尚未生效，不代表所有涨租都可阻止。委员会针对房东行为的投诉程序将取消，相关投诉转向市政举报点、住房协会或法院。": [
+    "Die neuen Regeln gelten noch nicht und verhindern nicht jede Erhöhung. Das Verfahren zu Vermieterverhalten entfällt; entsprechende Beschwerden gehen an kommunale Stellen, Wohnungsunternehmen oder Gerichte.",
+    "The new rules are not yet in force and do not block every increase. The tribunal’s landlord-conduct complaint procedure ends; such complaints go to municipal reporting points, housing associations or courts."
+  ],
+  "政府公告确认新法于2027-01-01生效；参议院通过日期为2026-09-29。": [
+    "Laut Regierung tritt das Gesetz am 01.01.2027 in Kraft; der Senat stimmte am 29.09.2026 zu.",
+    "The government confirms commencement on 1 January 2027; the Senate approved it on 29 September 2026."
+  ],
+  "参议院通过新法": [
+    "Senat billigt das Gesetz",
+    "Senate approves the law"
+  ],
+  "政府确认参议院通过，实施安排为下一年1月。": [
+    "Die Regierung bestätigt die Zustimmung und den Start im folgenden Januar.",
+    "The government confirms Senate approval and commencement the following January."
+  ],
+  "新法预定生效": [
+    "Vorgesehenes Inkrafttreten",
+    "Scheduled commencement"
+  ],
+  "政府公布的新法生效日期。": [
+    "Von der Regierung genanntes Inkrafttreten.",
+    "Commencement date stated by the government."
+  ],
+  "能源紧急基金开放安排": [
+    "Öffnungsplan des Energie-Notfonds",
+    "Energy emergency fund opening schedule"
+  ],
+  "开放咨询和申请准备": [
+    "Beratung und Antragsvorbereitung beginnen",
+    "Enquiries and application preparation open"
+  ],
+  "荷兰：能源紧急基金公布2027年申请安排": [
+    "Niederlande: Energie-Notfonds veröffentlicht Antragsplan für 2027",
+    "Netherlands: energy emergency fund announces 2027 applications"
+  ],
+  "低收入、高能源负担家庭可按条件申请支持；12月先开放咨询，正式申请自2027-01-04起。": [
+    "Haushalte mit niedrigem Einkommen und hoher Energielast können unter Bedingungen Unterstützung beantragen. Beratung beginnt im Dezember, Anträge ab 04.01.2027.",
+    "Low-income households with high energy burdens can qualify for support. Enquiries open in December; applications start on 4 January 2027."
+  ],
+  "以往轮次可能因预算用尽提前关闭；这轮公告承诺符合条件并申请的家庭均获支持。": [
+    "Frühere Runden konnten bei ausgeschöpftem Budget schließen; diesmal wird Unterstützung für alle berechtigten Antragsteller angekündigt.",
+    "Earlier rounds could close when funds ran out; this announcement promises support for all eligible applicants."
+  ],
+  "家庭毛收入不超过社会最低标准130%时，能源支出比例须至少8%；130%至200%档须至少10%。基金支付超出相应比例部分的一半，总额120至1800欧元。": [
+    "Bei Bruttoeinkommen bis 130 % des sozialen Minimums gilt eine Energiequote von mindestens 8 %, zwischen 130 und 200 % mindestens 10 %. Der Fonds übernimmt die Hälfte des übersteigenden Betrags, insgesamt 120 bis 1.800 Euro.",
+    "Gross income up to 130% of the social minimum requires an energy burden of at least 8%; the 130–200% band requires at least 10%. The fund covers half the amount above that threshold, totalling €120–€1,800."
+  ],
+  "集中供暖、热网及其他能源用户也可能符合条件；正式申请期间应核查家庭收入和能源费用。": [
+    "Auch Blockheizungs-, Wärmenetz- und andere Energienutzer können berechtigt sein. Einkommen und Energiekosten sind bei Antragstellung zu prüfen.",
+    "Users of communal heating, heat networks and other energy sources may also qualify. Household income and energy costs must be checked when applying."
+  ],
+  "12月咨询开放不是正式申请开放，也不是补助到账。申请截止2027-05-07，具体资格仍须审核；不得把政策公告日期当成法律生效日期。": [
+    "Die Beratung im Dezember ist weder Antragseröffnung noch Auszahlung. Antragsfrist ist der 07.05.2027; die Berechtigung wird geprüft. Das Ankündigungsdatum ist kein gesetzliches Inkrafttreten.",
+    "December enquiries are neither application opening nor payment. Applications close on 7 May 2027 and eligibility must be assessed. The announcement date is not legal commencement."
+  ],
+  "本条记录已公布的申请安排，没有单独确认法律生效日。": [
+    "Dieser Eintrag erfasst veröffentlichte Antragstermine; ein gesetzliches Inkrafttreten wurde nicht gesondert bestätigt.",
+    "This entry records published application arrangements; legal commencement has not been separately established."
+  ],
+  "公布基金安排": [
+    "Zeitplan veröffentlicht",
+    "Fund schedule published"
+  ],
+  "正式申请开放": [
+    "Anträge werden geöffnet",
+    "Applications open"
+  ],
+  "正式申请截止": [
+    "Antragsfrist",
+    "Application deadline"
+  ],
+  "自雇法草案公开咨询": [
+    "Konsultation zum Selbständigengesetz",
+    "Consultation on self-employment bill"
+  ],
+  "自雇法草案咨询截止": [
+    "Konsultation zum Selbständigengesetz endet",
+    "Self-employment bill consultation closes"
+  ],
+  "荷兰：自雇法草案征求意见，尚未通过": [
+    "Niederlande: Selbständigengesetz in Konsultation, noch nicht beschlossen",
+    "Netherlands: self-employment bill under consultation, not adopted"
+  ],
+  "政府草案拟用自雇者和工作关系两项测试明确独立经营认定；公众可在10月29日前提交意见。": [
+    "Der Entwurf soll Selbständigkeit anhand einer Unternehmer- und einer Arbeitsbeziehungsprüfung klären. Stellungnahmen sind bis 29. Oktober möglich.",
+    "The draft proposes tests of the entrepreneur and working relationship to clarify self-employment. Comments can be submitted through 29 October."
+  ],
+  "现行认定规则仍然适用，草案没有立即改变劳动关系。": [
+    "Die geltenden Einordnungsregeln bleiben bestehen; der Entwurf ändert Arbeitsverhältnisse nicht sofort.",
+    "Existing classification rules still apply; the draft does not immediately change working relationships."
+  ],
+  "拟议测试考虑独立开票、商会登记、客户数量、经营风险及工作组织自主性；实际做法也须符合。": [
+    "Die vorgeschlagenen Tests berücksichtigen eigene Rechnungen, Handelsregistereintrag, Kundenzahl, Risiken und organisatorische Freiheit; auch die Praxis muss entsprechen.",
+    "Proposed tests consider invoicing, chamber registration, client numbers, business risks and organisational independence; actual practice must also comply."
+  ],
+  "自雇者和委托方可参与咨询，但不应据草案认定现在已获得法律豁免。": [
+    "Selbständige und Auftraggeber können Stellung nehmen, aber aus dem Entwurf keine bestehende rechtliche Ausnahme ableiten.",
+    "Self-employed people and clients can respond, but should not treat the draft as an existing legal exemption."
+  ],
+  "草案尚在咨询，目标为2028年1月实施，未确定具体日期；不保证最终通过，也不能仅凭纸面合同满足拟议标准。": [
+    "Der Entwurf ist in Konsultation. Angestrebt wird Januar 2028, ohne festes Tagesdatum; Verabschiedung ist nicht garantiert. Ein Vertrag allein erfüllt die geplanten Kriterien nicht.",
+    "The draft remains under consultation, targeting January 2028 without an exact date. Adoption is not guaranteed, and a contract alone does not satisfy the proposed tests."
+  ],
+  "2026-10-29 是咨询截止日，不是生效日。": [
+    "Der 29.10.2026 ist das Konsultationsende, nicht das Inkrafttreten.",
+    "29 October 2026 is the consultation deadline, not commencement."
+  ],
+  "草案进入公开咨询": [
+    "Entwurf in öffentlicher Konsultation",
+    "Draft enters public consultation"
+  ],
+  "政府公告明确仍为拟议法律。": [
+    "Die Regierungsmitteilung bezeichnet das Vorhaben als Gesetzentwurf.",
+    "The government announcement identifies the measure as a draft law."
+  ],
+  "咨询截止": [
+    "Konsultationsfrist",
+    "Consultation deadline"
+  ],
+  "截止并不代表草案获通过。": [
+    "Fristablauf bedeutet keine Verabschiedung.",
+    "The deadline passing does not mean adoption."
+  ],
+  "2027年医保保费公告": [
+    "Krankenversicherungsprämien 2027",
+    "Health insurance premiums for 2027"
+  ],
+  "瑞士联邦卫生局": [
+    "Bundesamt für Gesundheit",
+    "Federal Office of Public Health"
+  ],
+  "2027年基本医保保费开始适用": [
+    "Grundversicherungsprämien 2027 gelten",
+    "2027 basic health premiums apply"
+  ],
+  "瑞士：2027年基本医保平均保费上升5.0%": [
+    "Schweiz: mittlere Grundversicherungsprämie steigt 2027 um 5,0 %",
+    "Switzerland: average basic health premium rises 5.0% in 2027"
+  ],
+  "联邦卫生局公布2027年全体参保人平均月保费412瑞郎，比2026年增加19.70瑞郎。": [
+    "Das BAG nennt für 2027 eine mittlere Monatsprämie aller Versicherten von 412 Franken, 19.70 Franken mehr als 2026.",
+    "The health office reports an average monthly premium across all insured people of CHF412 for 2027, CHF19.70 above 2026."
+  ],
+  "此前适用2026年的保费；每个人的账单取决于各自合同。": [
+    "Zuvor gelten die Prämien für 2026; die persönliche Rechnung hängt vom jeweiligen Vertrag ab.",
+    "Previously, 2026 premiums apply; each person’s bill depends on their contract."
+  ],
+  "成年人平均月费487.60瑞郎，年轻成年人338.80瑞郎，儿童128.10瑞郎；这些是群体平均值。": [
+    "Die mittleren Monatsprämien betragen 487.60 Franken für Erwachsene, 338.80 für junge Erwachsene und 128.10 für Kinder; dies sind Gruppenmittelwerte.",
+    "Average monthly premiums are CHF487.60 for adults, CHF338.80 for young adults and CHF128.10 for children; these are group averages."
+  ],
+  "可用 Priminfo 比较本人所在地区、免赔额和保险模式的具体保费，而不是直接按5%计算自己的涨幅。": [
+    "Über Priminfo lassen sich konkrete Prämien für Wohnort, Franchise und Modell vergleichen; der eigene Anstieg ist nicht automatisch 5 %.",
+    "Use Priminfo to compare premiums for your area, deductible and model; your own increase is not automatically 5%."
+  ],
+  "这是经监管审查的年度保费公告，不是所有人统一收费或新的现金补助。个人保费取决于年龄、居住地、保险公司、免赔额和模式。": [
+    "Dies ist eine aufsichtlich geprüfte jährliche Prämienankündigung, kein Einheitstarif oder neuer Geldzuschuss. Persönliche Prämien hängen von Alter, Wohnort, Versicherer, Franchise und Modell ab.",
+    "This is a regulator-reviewed annual premium announcement, not a uniform tariff or new cash benefit. Personal premiums depend on age, residence, insurer, deductible and model."
+  ],
+  "2027-01-01 标记2027保费年度开始，不是新法律的生效日期。": [
+    "Der 01.01.2027 markiert den Beginn des Prämienjahres 2027, nicht das Inkrafttreten eines neuen Gesetzes.",
+    "1 January 2027 marks the start of the 2027 premium year, not commencement of a new law."
+  ],
+  "官方公布适用安排": [
+    "Amtliche Anwendungsinformationen veröffentlicht",
+    "Official application arrangements published"
+  ],
+  "能源证明电子平台说明": [
+    "Elektronische Energienachweise",
+    "Electronic energy compliance documentation"
+  ],
+  "内阿彭策尔州政府": [
+    "Kanton Appenzell Innerrhoden",
+    "Canton of Appenzell Innerrhoden"
+  ],
+  "旧PDF表格过渡期结束": [
+    "Übergangsfrist für bisherige PDF-Formulare endet",
+    "Transition for old PDF forms ends"
+  ],
+  "内阿彭策尔：能源证明转向 EVEN，旧表格可用至年底": [
+    "Appenzell Innerrhoden: Energienachweise über EVEN, alte Formulare bis Jahresende",
+    "Appenzell Innerrhoden: EVEN energy documentation, old forms accepted until year-end"
+  ],
+  "建筑许可中的能源证明开始通过 EVEN 提交和处理；旧 PDF 表格仍可在2026年底前使用。": [
+    "Energienachweise im Baubewilligungsverfahren werden über EVEN eingereicht und bearbeitet; bisherige PDF-Formulare bleiben bis Ende 2026 nutzbar.",
+    "Energy compliance documentation in building permit procedures moves to EVEN; existing PDF forms remain usable until the end of 2026."
+  ],
+  "原流程采用 EN-101 至 EN-141 等 PDF 表格。": [
+    "Bisher wurden PDF-Formulare wie EN-101 bis EN-141 verwendet.",
+    "The previous process used PDF forms such as EN-101 to EN-141."
+  ],
+  "从分项证明录入、向执行机关提交，到州审核和能源档案放行，流程集中到 EVEN。": [
+    "Erfassung, Einreichung, kantonale Prüfung und Freigabe des Energiedossiers erfolgen über EVEN.",
+    "Entry, submission, cantonal review and release of the energy dossier take place through EVEN."
+  ],
+  "建设方和专业人员应按州说明使用平台及其帮助资料，并留意旧表格过渡期。": [
+    "Bauherrschaften und Fachpersonen sollten die kantonalen Plattformhinweise und Hilfen nutzen und die Übergangsfrist beachten.",
+    "Applicants and professionals should follow cantonal platform guidance and support materials and note the transition period."
+  ],
+  "此条仅确认内阿彭策尔办理方式变化，不代表所有瑞士州同日上线，也不取消建筑能源要求；10月起仍保留旧表格过渡。": [
+    "Bestätigt wird nur die Verfahrensumstellung in Appenzell Innerrhoden, kein schweizweiter Start oder Wegfall energetischer Anforderungen. Ab Oktober gilt weiterhin eine Formularübergangsfrist.",
+    "This confirms the procedural change in Appenzell Innerrhoden, not a nationwide launch or removal of building energy requirements. A transition for old forms remains after October."
+  ],
+  "2026-10-01 是平台办理开始日期；旧 PDF 表格允许使用至2026年底。": [
+    "Der Plattformstart ist der 01.10.2026; bisherige PDF-Formulare sind bis Ende 2026 zulässig.",
+    "The platform starts on 1 October 2026; existing PDF forms are allowed through the end of 2026."
+  ],
+  "能源证明线上办理开始": [
+    "Elektronisches Verfahren beginnt",
+    "Electronic procedure starts"
+  ],
+  "开始通过 EVEN 办理，并保留旧表格过渡期。": [
+    "EVEN beginnt mit einer Übergangsfrist für alte Formulare.",
+    "EVEN starts with a transition for old forms."
+  ],
+  "旧表格过渡期结束": [
+    "Übergangsfrist für alte Formulare endet",
+    "Transition for old forms ends"
+  ],
+  "官方说明旧 PDF 可使用至2026年底，后续执行须按届时说明核查。": [
+    "Laut Mitteilung sind alte PDFs bis Ende 2026 nutzbar; die weitere Umsetzung ist dann zu prüfen.",
+    "The announcement allows old PDFs through the end of 2026; subsequent implementation requires review."
+  ],
+  "欧盟PFHxA限制说明": [
+    "EU-Erläuterung zur PFHxA-Beschränkung",
+    "EU explanation of PFHxA restrictions"
+  ],
+  "列明消费品的PFHxA限制开始适用": [
+    "PFHxA-Beschränkungen für erfasste Verbraucherprodukte beginnen",
+    "PFHxA restrictions start for listed consumer products"
+  ],
+  "欧盟：部分消费品的PFHxA限制将于10月10日适用": [
+    "EU: PFHxA-Beschränkungen für bestimmte Verbraucherprodukte ab 10. Oktober",
+    "EU: PFHxA restrictions for certain consumer products from 10 October"
+  ],
+  "已通过的 PFHxA 限制将适用于列明服装、食品包装、消费者混合物及化妆品用途。": [
+    "Die beschlossene PFHxA-Beschränkung betrifft erfasste Kleidung, Lebensmittelverpackungen, Verbrauchergemische und Kosmetika.",
+    "The adopted PFHxA restriction covers listed clothing, food packaging, consumer mixtures and cosmetics."
+  ],
+  "这些消费品用途处于已通过法规规定的过渡期。": [
+    "Diese Verbraucheranwendungen befinden sich in der Übergangsfrist der beschlossenen Verordnung.",
+    "These consumer uses are in the transition period set by the adopted regulation."
+  ],
+  "相关物质在列明用途中的销售和使用受到限制，须按法规的浓度界限及例外判断。": [
+    "Verkauf und Verwendung der betreffenden Stoffe in erfassten Anwendungen werden nach Konzentrationsgrenzen und Ausnahmen beschränkt.",
+    "Sale and use of the relevant substances in covered applications are restricted subject to concentration limits and exceptions."
+  ],
+  "消费者和供应商可关注服装、防水喷雾、包装及化妆品的材料信息；不能把这项规则理解为所有 PFAS 全面禁用。": [
+    "Verbraucher und Anbieter können Materialangaben zu Kleidung, Imprägniersprays, Verpackungen und Kosmetika prüfen. Dies ist kein vollständiges Verbot aller PFAS.",
+    "Consumers and suppliers can check material information for clothing, waterproofing sprays, packaging and cosmetics. This is not a blanket ban on all PFAS."
+  ],
+  "本条仅跟踪10月消费品阶段，不涵盖其他纺织品和消防泡沫的完整时间表。限制针对 PFHxA 及相关物质，不是所有用途零容许；法律原文下载受阻，具体浓度和豁免未在此逐项重述。": [
+    "Dieser Eintrag verfolgt nur die Verbraucherproduktstufe im Oktober, nicht den vollständigen Zeitplan für andere Textilien und Löschschäume. Er betrifft PFHxA und verwandte Stoffe, keine Nulltoleranz für alle Anwendungen. Der Gesetzestext-Download war blockiert; Einzelgrenzen und Ausnahmen werden hier nicht vollständig wiedergegeben.",
+    "This entry tracks only the October consumer-product stage, not the full timetable for other textiles and firefighting foams. It concerns PFHxA and related substances, not zero tolerance for every use. The legal-text download was blocked; detailed limits and exemptions are not exhaustively restated here."
+  ],
+  "2026-10-10 是列明消费品用途的适用日期，不是法规生效日；截至本次核查尚未到达。": [
+    "Der 10.10.2026 ist der Anwendungsbeginn für die erfassten Verbraucheranwendungen, nicht das Inkrafttreten; er liegt zum Prüfzeitpunkt noch in der Zukunft.",
+    "10 October 2026 is the application date for the covered consumer uses, not legal commencement; it is still in the future at this review."
+  ],
+  "已核对公报中的文件身份及公布日期；尚未完成所有条文、附件和适用范围的核查，不将公布日当作生效日。": [
+    "Identität und Veröffentlichungsdatum im Amtsblatt geprüft; nicht sämtliche Vorschriften, Anlagen und Geltungsbereiche geprüft. Veröffentlichung ist nicht gleich Inkrafttreten.",
+    "Document identity and gazette publication date checked; all provisions, annexes and scope have not yet been fully reviewed. Publication is not treated as commencement."
+  ],
+  "意大利：果树品种登记更新": [
+    "Italien: Aktualisierung des Obstsortenregisters",
+    "Italy: fruit variety register update"
+  ],
+  "意大利：2026年集中采购基金分配标准": [
+    "Italien: Verteilung des Beschaffungsfonds 2026",
+    "Italy: allocation of the 2026 procurement fund"
+  ],
+  "意大利：企业登记系统 Fedra 7.10 更新": [
+    "Italien: Unternehmensregister Fedra 7.10",
+    "Italy: Fedra 7.10 company register update"
+  ],
+  "意大利：利古里亚接续2024年恶劣天气应急工作": [
+    "Italien: Ligurien übernimmt Folgeaufgaben nach Unwettern 2024",
+    "Italy: Liguria takes over follow-up to 2024 severe weather"
+  ],
+  "意大利：艾米利亚—罗马涅接续2024年灾后工作": [
+    "Italien: Emilia-Romagna übernimmt Katastrophenfolgen von 2024",
+    "Italy: Emilia-Romagna takes over 2024 disaster follow-up"
+  ],
+  "意大利：伦巴第接续2023年恶劣天气应急工作": [
+    "Italien: Lombardei übernimmt Folgeaufgaben nach Unwettern 2023",
+    "Italy: Lombardy takes over follow-up to 2023 severe weather"
+  ],
+  "意大利：Pregabalin Medreg 上市许可变更": [
+    "Italien: Zulassungsänderung für Pregabalin Medreg",
+    "Italy: marketing authorisation amendment for Pregabalin Medreg"
+  ],
+  "意大利：Mibecol 上市许可变更": [
+    "Italien: Zulassungsänderung für Mibecol",
+    "Italy: marketing authorisation amendment for Mibecol"
+  ],
+  "意大利：Kayexalate 上市许可持有人变更": [
+    "Italien: Wechsel des Zulassungsinhabers für Kayexalate",
+    "Italy: change of marketing authorisation holder for Kayexalate"
+  ],
+  "意大利：Tovanira 上市许可变更": [
+    "Italien: Zulassungsänderung für Tovanira",
+    "Italy: marketing authorisation amendment for Tovanira"
+  ],
+  "意大利：应持有人申请撤销 Balcoga 上市许可": [
+    "Italien: Rücknahme der Balcoga-Zulassung auf Antrag",
+    "Italy: Balcoga authorisation withdrawn at the holder’s request"
+  ],
+  "意大利：应持有人申请撤销 Esmeron 上市许可": [
+    "Italien: Rücknahme der Esmeron-Zulassung auf Antrag",
+    "Italy: Esmeron authorisation withdrawn at the holder’s request"
+  ],
+  "意大利：应持有人申请撤销 Lansoprazolo Tecnigen Italia 许可": [
+    "Italien: Rücknahme der Zulassung für Lansoprazolo Tecnigen Italia auf Antrag",
+    "Italy: Lansoprazolo Tecnigen Italia authorisation withdrawn on request"
+  ],
+  "意大利：应申请撤销部分药品平行进口许可": [
+    "Italien: Rücknahme bestimmter Parallelimportzulassungen auf Antrag",
+    "Italy: certain parallel import authorisations withdrawn on request"
+  ],
+  "意大利：汽车产业小型发展合同支持安排": [
+    "Italien: kleine Entwicklungsverträge für die Automobilindustrie",
+    "Italy: mini development contracts for the automotive industry"
+  ],
+  "意大利：汽车产业创新协议补助11月25日起申请": [
+    "Italien: Anträge für Automobil-Innovationsförderung ab 25. November",
+    "Italy: automotive innovation aid applications from 25 November"
+  ],
+  "瓦莱达奥斯塔：可再生能源选址与许可法律补刊": [
+    "Aostatal: nachveröffentlichte Regeln zu erneuerbaren Energien",
+    "Aosta Valley: republication of renewable energy siting and permit law"
+  ],
+  "国家公报补刊2025年的大区法律；2026-10-03不是新法通过或生效日期，条文和原大区公布情况仍待核查。": [
+    "Das nationale Amtsblatt veröffentlicht Regionalgesetze von 2025 nach. Der 03.10.2026 ist weder eine neue Verabschiedung noch Inkrafttreten; Vorschriften und regionale Erstveröffentlichung bleiben zu prüfen.",
+    "The national gazette republishes regional laws from 2025. 3 October 2026 is not new adoption or commencement; provisions and original regional publication remain to be checked."
+  ],
+  "瓦莱达奥斯塔：旅游和商业投资支持法律补刊": [
+    "Aostatal: nachveröffentlichte Investitionsförderung für Tourismus und Handel",
+    "Aosta Valley: republication of tourism and commercial investment support law"
+  ],
+  "瓦莱达奥斯塔：工业与手工业竞争力法律补刊": [
+    "Aostatal: nachveröffentlichtes Gesetz zur Wettbewerbsfähigkeit von Industrie und Handwerk",
+    "Aosta Valley: republication of industrial and craft competitiveness law"
+  ],
+  "苏黎世：警察法及数据处理条例确定12月生效": [
+    "Zürich: Polizeigesetz und Datenverordnung ab Dezember",
+    "Zurich: police law and data ordinance to take effect in December"
+  ],
+  "官方确认2026-12-01生效；法院驳回的是暂停执行申请，不据此断言实体诉讼已最终结束。具体权力及数据保障条文仍待逐条核查。": [
+    "Der Kanton bestätigt den 01.12.2026. Abgewiesen wurde der Antrag auf aufschiebende Wirkung; daraus folgt kein abschließendes Sachurteil. Befugnisse und Datenschutzregeln bleiben im Einzelnen zu prüfen.",
+    "The canton confirms 1 December 2026. The court rejected suspensive effect; this does not establish a final merits ruling. Specific powers and data safeguards remain to be examined."
+  ],
+  "荷兰：政府宣布心理健康改革方向，具体实施待核查": [
+    "Niederlande: angekündigte Reformen der psychischen Versorgung",
+    "Netherlands: mental health reforms announced, implementation requires review"
+  ],
+  "公告包含改革及试点方向，未给出各项生效日期；不能据此认定非签约心理医疗报销已经取消。": [
+    "Die Mitteilung enthält Reform- und Erprobungspläne ohne einzelne Starttermine. Sie belegt nicht, dass Erstattung nichtvertraglicher psychischer Versorgung bereits abgeschafft ist.",
+    "The announcement sets reform and pilot directions without individual commencement dates. It does not establish that reimbursement of non-contracted mental health care has already ended."
+  ],
+  "马尔凯：目录公告称部分河流取水暂停延至10月31日": [
+    "Marken: Verzeichnis meldet verlängerte Wasserentnahme-Sperre bis 31. Oktober",
+    "Marche: index announces river abstraction suspension through 31 October"
+  ],
+  "仅核读政府目录标题；详情页被访问验证拦截，尚未核实河流范围、例外和命令原文。": [
+    "Nur der amtliche Verzeichnistitel wurde geprüft. Die Detailseite war durch eine Zugangskontrolle blockiert; Flüsse, Ausnahmen und Verfügungstext sind ungeprüft.",
+    "Only the government index title was reviewed. An access challenge blocked the detail page; covered rivers, exceptions and the order text remain unverified."
+  ],
+  "法国：心理咨询医保份额免垫付的实施细节待核实": [
+    "Frankreich: Umsetzung der Direktabrechnung bei psychologischer Beratung ungeklärt",
+    "France: direct billing for psychological care requires implementation checks"
+  ],
+  "政府10月概览称10月1日起推广医保份额免垫付，但医保说明仍列旧流程。法律网页可核读到授权条文，下载归档受阻；具体实施规则未核齐，不宣称所有心理咨询免费。": [
+    "Der Regierungsüberblick kündigt ab 1. Oktober Direktabrechnung des Pflichtversicherungsanteils an, während die Versicherungsseite noch das alte Verfahren beschreibt. Die gesetzliche Ermächtigung war lesbar, der Archivdownload blockiert. Umsetzungsregeln sind unvollständig geprüft; keine Aussage über generell kostenlose Beratung.",
+    "The government overview announces direct billing of the compulsory-insurance share from 1 October, while the insurance page still describes the old process. The legal enabling provision was readable, but archive download was blocked. Implementation rules remain incompletely checked; this is not a claim that all psychological care is free."
+  ],
+  "已尝试访问登记入口，仅对部分可见目录和文件继续核读；未完成全部分页、条文和附件核读，不能据此认定期间没有其他更新。": [
+    "Registrierter Einstieg aufgerufen; nur ausgewählte Verzeichnisse und Dokumente wurden weiter geprüft; nicht alle Seiten, Vorschriften und Anlagen geprüft. Weitere Änderungen im Zeitraum sind nicht ausgeschlossen.",
+    "The registered entry point was accessed; only selected indexes and documents received further review; all pages, provisions and annexes have not been reviewed. Other updates in the period cannot be ruled out."
+  ],
+  "登记入口访问失败或仅返回验证／空壳页面；保留既有证据，当前期间未完成核查。": [
+    "Registrierter Einstieg nicht zugänglich oder nur Prüf-/Shell-Seite; bisherige Belege bleiben erhalten, Zeitraum nicht abschließend geprüft.",
+    "The registered entry point failed or returned only a challenge or shell; existing evidence is retained and the period remains unreviewed."
+  ],
+  "已读10月3日期号目录，记录3项瓦莱达奥斯塔法律补刊；博尔扎诺两项文件属于尚未单独接入的自治省，未冒充大区法规。未核齐正文、其他日期和附件，覆盖仍不完整。": [
+    "Verzeichnis vom 3. Oktober geprüft, drei nachveröffentlichte Gesetze des Aostatals erfasst. Zwei Bozner Texte betreffen die noch nicht eigenständig angebundene autonome Provinz und wurden nicht als Regionalrecht umetikettiert. Texte, weitere Tage und Anlagen sind unvollständig geprüft.",
+    "The 3 October issue index was read and three republished Aosta Valley laws recorded. Two Bolzano documents concern an autonomous province not separately connected and were not relabelled as regional law. Texts, other dates and annexes remain incompletely reviewed."
+  ],
+  "本轮尝试访问58个登记入口，其中6个受阻；并比对现有政策来源。入口可访问不等于完整扫描。已补充可靠的新发现，未核齐的公告保留待核实；未确认既有待决政策已获通过。": [
+    "58 registrierte Einstiege wurden aufgerufen, 6 waren blockiert; bestehende Politikquellen wurden verglichen. Erreichbarkeit ist keine vollständige Prüfung. Belastbare Neufunde wurden ergänzt, ungeklärte Meldungen bleiben offen. Keine bestätigte Verabschiedung bisher offener Vorhaben.",
+    "Attempted 58 registered entry points, of which 6 were blocked, and compared existing policy sources. Access is not a complete scan. Reliable discoveries were added and unresolved announcements retained for verification. No adoption of previously pending measures was confirmed."
+  ],
+  "本轮尝试访问59个登记入口，其中32个受阻；并比对现有政策来源。入口可访问不等于完整扫描。已补充可靠的新发现，未核齐的公告保留待核实；未确认既有待决政策已获通过。": [
+    "59 registrierte Einstiege wurden aufgerufen, 32 waren blockiert; bestehende Politikquellen wurden verglichen. Erreichbarkeit ist keine vollständige Prüfung. Belastbare Neufunde wurden ergänzt, ungeklärte Meldungen bleiben offen. Keine bestätigte Verabschiedung bisher offener Vorhaben.",
+    "Attempted 59 registered entry points, of which 32 were blocked, and compared existing policy sources. Access is not a complete scan. Reliable discoveries were added and unresolved announcements retained for verification. No adoption of previously pending measures was confirmed."
+  ],
+  "本轮尝试访问38个登记入口，其中4个受阻；并比对现有政策来源。入口可访问不等于完整扫描。已补充可靠的新发现，未核齐的公告保留待核实；未确认既有待决政策已获通过。": [
+    "38 registrierte Einstiege wurden aufgerufen, 4 waren blockiert; bestehende Politikquellen wurden verglichen. Erreichbarkeit ist keine vollständige Prüfung. Belastbare Neufunde wurden ergänzt, ungeklärte Meldungen bleiben offen. Keine bestätigte Verabschiedung bisher offener Vorhaben.",
+    "Attempted 38 registered entry points, of which 4 were blocked, and compared existing policy sources. Access is not a complete scan. Reliable discoveries were added and unresolved announcements retained for verification. No adoption of previously pending measures was confirmed."
+  ],
+  "本轮尝试访问82个登记入口，其中29个受阻；并比对现有政策来源。入口可访问不等于完整扫描。已补充可靠的新发现，未核齐的公告保留待核实；未确认既有待决政策已获通过。": [
+    "82 registrierte Einstiege wurden aufgerufen, 29 waren blockiert; bestehende Politikquellen wurden verglichen. Erreichbarkeit ist keine vollständige Prüfung. Belastbare Neufunde wurden ergänzt, ungeklärte Meldungen bleiben offen. Keine bestätigte Verabschiedung bisher offener Vorhaben.",
+    "Attempted 82 registered entry points, of which 29 were blocked, and compared existing policy sources. Access is not a complete scan. Reliable discoveries were added and unresolved announcements retained for verification. No adoption of previously pending measures was confirmed."
+  ],
+  "本轮尝试访问27个登记入口，其中5个受阻；并比对现有政策来源。入口可访问不等于完整扫描。已补充可靠的新发现，未核齐的公告保留待核实；未确认既有待决政策已获通过。": [
+    "27 registrierte Einstiege wurden aufgerufen, 5 waren blockiert; bestehende Politikquellen wurden verglichen. Erreichbarkeit ist keine vollständige Prüfung. Belastbare Neufunde wurden ergänzt, ungeklärte Meldungen bleiben offen. Keine bestätigte Verabschiedung bisher offener Vorhaben.",
+    "Attempted 27 registered entry points, of which 5 were blocked, and compared existing policy sources. Access is not a complete scan. Reliable discoveries were added and unresolved announcements retained for verification. No adoption of previously pending measures was confirmed."
+  ],
+  "本轮尝试访问4个登记入口，其中0个受阻；并比对现有政策来源。入口可访问不等于完整扫描。已补充可靠的新发现，未核齐的公告保留待核实；未确认既有待决政策已获通过。": [
+    "4 registrierte Einstiege wurden aufgerufen, 0 waren blockiert; bestehende Politikquellen wurden verglichen. Erreichbarkeit ist keine vollständige Prüfung. Belastbare Neufunde wurden ergänzt, ungeklärte Meldungen bleiben offen. Keine bestätigte Verabschiedung bisher offener Vorhaben.",
+    "Attempted 4 registered entry points, of which 0 were blocked, and compared existing policy sources. Access is not a complete scan. Reliable discoveries were added and unresolved announcements retained for verification. No adoption of previously pending measures was confirmed."
+  ],
+  "电子签发服务开始提供": [
+    "Digitale Ausstellung startet",
+    "Digital issuance service starts"
+  ],
+  "将服务启动节点改引明确记载10月1日的司法部说明，并将笼统的要求标题改为服务启动。补充官方对申请设备的不同表述。": [
+    "Der Servicestart verweist nun auf die Ministeriumsseite mit dem ausdrücklichen 1. Oktober; der pauschale Anforderungstitel wird durch den Servicestart ersetzt. Die unterschiedlichen amtlichen Geräteangaben werden ergänzt.",
+    "The service-start event now cites the ministry page explicitly giving 1 October, and replaces the generic requirements title with a service-start title. Different official descriptions of application devices are also included."
+  ],
+  "将笼统的要求标题改为2027年保费开始适用；日期和金额未改变。": [
+    "Der pauschale Anforderungstitel wird durch den Beginn der Prämien 2027 ersetzt; Datum und Beträge bleiben unverändert.",
+    "The generic requirements title is replaced with the start of 2027 premiums; the date and amounts are unchanged."
+  ],
+  "适用节点改引明确写出2026-10-10的德国政府公告；原委员会概览支持范围说明，但未列出该具体日期。": [
+    "Der Anwendungstermin verweist auf die Regierungsmitteilung mit dem ausdrücklichen 10.10.2026. Die bisherige Kommissionsübersicht belegt den Umfang, nennt aber nicht dieses genaue Datum.",
+    "The application event now cites the government announcement explicitly giving 10 October 2026. The previous Commission overview supports scope but does not give that exact date."
+  ],
+  "司法部：无犯罪记录证明与电子签发": [
+    "Justizministerium: Führungszeugnis und digitale Ausstellung",
+    "Justice ministry: certificate of conduct and digital issuance"
+  ],
+  "德国联邦司法与消费者保护部": [
+    "Bundesministerium der Justiz und für Verbraucherschutz",
+    "Federal Ministry of Justice and Consumer Protection"
+  ],
+  "司法部10月1日说明确认电子证明规定当日生效，并列出申请方式；本条主日期仍表示服务开始提供。": [
+    "Die Ministeriumsseite vom 1. Oktober bestätigt das Inkrafttreten der Vorschriften an diesem Tag und nennt Antragswege. Das Hauptdatum bezeichnet weiterhin den Servicestart.",
+    "The ministry page of 1 October confirms commencement of the provisions that day and describes application methods. The main date continues to represent the service launch."
+  ],
+  "申请人需要支持线上身份认证的证件和 BundID 账户。司法局说明使用 NFC 手机，司法部也列出电脑配读卡器方式；具体设备支持以申请入口为准。通常费用为13欧元。": [
+    "Erforderlich sind ein Ausweis mit Online-Funktion und ein BundID-Konto. Das BfJ nennt ein NFC-Smartphone, das Ministerium auch Computer mit Kartenlesegerät; maßgeblich ist die Unterstützung im Antragsportal. Die reguläre Gebühr beträgt 13 Euro.",
+    "Applicants need an identity document supporting online identification and a BundID account. The BfJ lists an NFC phone; the ministry also lists a computer with a card reader. Actual device support depends on the application portal. The standard fee is €13."
+  ],
+  "核对时间线标题与来源": [
+    "Zeitlinientitel und Quelle geprüft",
+    "Timeline title and source reviewed"
   ]
 }

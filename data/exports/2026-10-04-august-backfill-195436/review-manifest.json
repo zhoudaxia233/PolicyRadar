@@ -1,0 +1,51 @@
+{
+  "base": "data/exports/2026-10-04-month-backfill-metadata/policy-radar-export.json",
+  "candidate": "data/exports/2026-10-04-august-backfill-195436/policy-radar-export.json",
+  "added": [
+    "de-intelligence-reform-august-2026",
+    "fr-phone-consent-2026",
+    "fr-commercial-deposit-transfer-2026",
+    "fr-school-allowance-august-2026",
+    "nl-cybersecurity-act-august-2026",
+    "nl-critical-entities-august-2026",
+    "ch-finance-initiative-august-2026",
+    "ch-status-s-august-2026",
+    "eu-ai-transparency-august-2026",
+    "eu-packaging-pfas-august-2026",
+    "it-birth-bonus-august-deadline-2026",
+    "it-disability-card-draft-august-2026",
+    "it-product-liability-draft-august-2026"
+  ],
+  "newIntake": [
+    "de-intelligence-reform-august-2026-discovery",
+    "fr-phone-consent-2026-discovery",
+    "fr-commercial-deposit-transfer-2026-discovery",
+    "fr-school-allowance-august-2026-discovery",
+    "nl-cybersecurity-act-august-2026-discovery",
+    "nl-critical-entities-august-2026-discovery",
+    "ch-finance-initiative-august-2026-discovery",
+    "ch-status-s-august-2026-discovery",
+    "eu-packaging-pfas-august-2026-discovery",
+    "it-birth-bonus-august-deadline-2026-discovery",
+    "it-disability-card-draft-august-2026-discovery",
+    "it-product-liability-draft-august-2026-discovery"
+  ],
+  "correctedIntake": [],
+  "reviewedSources": [
+    "ch-finance",
+    "ch-status",
+    "de-intelligence",
+    "eu-ai",
+    "eu-ai-law",
+    "eu-packaging",
+    "fr-ars",
+    "fr-commercial",
+    "fr-phone",
+    "it-birth",
+    "it-cabinet",
+    "nl-cyber"
+  ],
+  "windowStart": "2026-08-02",
+  "windowEnd": "2026-09-01",
+  "complete": false
+}

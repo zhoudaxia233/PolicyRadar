@@ -105,7 +105,7 @@ test('EU intake preserves every historical row and other countries review settin
  for(const row of before.tables.settings)assert.deepEqual(after.tables.settings.find((r:{key:string})=>r.key===row.key),row);
  assert.deepEqual(after.discoveryRegistry.filter((r:{region:string})=>r.region!=='EU'),exportRegistry(before));
  const coverage=data.intake.coverage.filter(r=>r.region==='EU');assert.equal(coverage.length,4);
- assert(coverage.every(r=>r.coveredThrough===null&&r.latestScan===null&&r.nextUncovered==='2026-09-02'));
+ assert(coverage.every(r=>r.coveredThrough===null&&r.latestScan===null&&r.nextUncovered==='2026-08-02'));
  assert(data.status.settings['reviewNote:EU'].includes('未逐国核查'));
 });
 

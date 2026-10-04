@@ -231,7 +231,7 @@ export const messages = {
     "Daten neu laden",
     "Reload data"
   ],
-"从 2026 年 9 月 2 日起，按官方来源收集各类别新公布法律、条例、已通过的决定及待决事项；不按兴趣挑选。此前记录是历史样例，逐步回补。来源已接入不代表文件已全部查完；其他国家尚未接入。": ["Seit dem 2. September 2026 werden amtliche Quellen themenübergreifend auf neue Gesetze, Verordnungen, verabschiedete Entscheidungen und offene Vorhaben geprüft. Ältere Einträge sind historische Beispiele und werden ergänzt. Registrierte Quellen bedeuten keine vollständige Dokumentprüfung; weitere Länder fehlen.", "Since 2 September 2026, official sources are monitored across topics for new laws, regulations, adopted decisions and pending matters. Earlier records are historical examples being backfilled. Registered sources do not mean every document has been reviewed; other countries are not yet covered."],
+"从 2026 年 8 月 2 日起，按官方来源收集各类别新公布法律、条例、已通过的决定及待决事项；不按兴趣挑选。此前记录是历史样例，逐步回补。来源已接入不代表文件已全部查完；其他国家尚未接入。": ["Seit dem 2. August 2026 werden amtliche Quellen themenübergreifend auf neue Gesetze, Verordnungen, verabschiedete Entscheidungen und offene Vorhaben geprüft. Ältere Einträge sind historische Beispiele und werden ergänzt. Registrierte Quellen bedeuten keine vollständige Dokumentprüfung; weitere Länder fehlen.", "Since 2 August 2026, official sources are monitored across topics for new laws, regulations, adopted decisions and pending matters. Earlier records are historical examples being backfilled. Registered sources do not mean every document has been reviewed; other countries are not yet covered."],
   "上次事实复核：": [
     "Letzte inhaltliche Prüfung: ",
     "Last factual review: "
@@ -400,7 +400,7 @@ export const messages = {
     "Filter zurücksetzen",
     "Clear filters"
   ],
-  "登记起点为 2026.09.02；各国实际核查范围请查看覆盖缺口。": ["Erfassung ab 02.09.2026; den tatsächlichen Prüfumfang je Land zeigen die Abdeckungslücken.", "Records start on 2 September 2026; see coverage gaps for each country’s actual review scope."],
+  "登记起点为 2026.08.02；各国实际核查范围请查看覆盖缺口。": ["Erfassung ab 02.08.2026; den tatsächlichen Prüfumfang je Land zeigen die Abdeckungslücken.", "Records start on 2 August 2026; see coverage gaps for each country’s actual review scope."],
   "查看覆盖缺口": [
     "Abdeckungslücken ansehen",
     "View coverage gaps"
@@ -725,9 +725,9 @@ export const messages = {
     "Vollständige Erläuterung ausstehend · Originaleintrag erhalten",
     "Full explanation pending · Original record retained"
   ],
-  "同一政策可以有多条进展记录；从 2026 年 9 月 2 日起登记，解读未完成也保留原文。": [
-    "Seit dem 2. September 2026 erfasst. Eine Maßnahme kann mehrere Einträge haben; Originale bleiben auch ohne Erläuterung verfügbar.",
-    "Tracked since 2 September 2026. A policy may have multiple entries; originals remain available even before an explanation is ready."
+  "同一政策可以有多条进展记录；从 2026 年 8 月 2 日起登记，解读未完成也保留原文。": [
+    "Seit dem 2. August 2026 erfasst. Eine Maßnahme kann mehrere Einträge haben; Originale bleiben auch ohne Erläuterung verfügbar.",
+    "Tracked since 2 August 2026. A policy may have multiple entries; originals remain available even before an explanation is ready."
   ],
   "1 个官方来源": [
     "1 offizielle Quelle",

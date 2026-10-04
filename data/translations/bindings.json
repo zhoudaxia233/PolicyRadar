@@ -1364,6 +1364,111 @@
       "verbatim": [
         "Council of the European Union"
       ]
+    },
+    "de-intelligence-reform-august-2026": {
+      "version": 1,
+      "hash": "86d694370a2cc3e949110e7447f7f0f4534fcb82559c35de775a462414c7065e",
+      "originalLanguage": "de",
+      "verbatim": [
+        "Presse- und Informationsamt der Bundesregierung"
+      ]
+    },
+    "fr-phone-consent-2026": {
+      "version": 1,
+      "hash": "b30b8f6604b92e0a83ac99713f7470249521fed1d332b1ae0623a2dfa2d027ce",
+      "originalLanguage": "fr",
+      "verbatim": [
+        "Direction de l’information légale et administrative"
+      ]
+    },
+    "fr-commercial-deposit-transfer-2026": {
+      "version": 1,
+      "hash": "21be49bc153ad3f476a6d1862ff22b1b8cc7837360e3d989957ea5fe35850357",
+      "originalLanguage": "fr",
+      "verbatim": [
+        "Direction de l’information légale et administrative"
+      ]
+    },
+    "fr-school-allowance-august-2026": {
+      "version": 1,
+      "hash": "7e834b42ec6459973fc5b596872e18b819b45e8442f2bedb7ed4c5dd21a18fa4",
+      "originalLanguage": "fr",
+      "verbatim": [
+        "Direction de l’information légale et administrative"
+      ]
+    },
+    "nl-cybersecurity-act-august-2026": {
+      "version": 1,
+      "hash": "379bd61d0c864706a59139ef37934508c9d3e2d87373f29bdf9c6e15a02c7a38",
+      "originalLanguage": "nl",
+      "verbatim": [
+        "Rijksoverheid"
+      ]
+    },
+    "nl-critical-entities-august-2026": {
+      "version": 1,
+      "hash": "76afae052f5f696983d2accbf212d99f3ca191b05455aa1d87b59cca6b5b4496",
+      "originalLanguage": "nl",
+      "verbatim": [
+        "Rijksoverheid"
+      ]
+    },
+    "ch-finance-initiative-august-2026": {
+      "version": 1,
+      "hash": "aaaba46df4f22761522711418ac4382ca2881c4a49fe7fe8529fa364a0d8803d",
+      "originalLanguage": "de",
+      "verbatim": [
+        "Schweizerischer Bundesrat"
+      ]
+    },
+    "ch-status-s-august-2026": {
+      "version": 1,
+      "hash": "947beded4eacf2f61f68fe7f39146b7a003ecf53068d6d71ad7282a762ce1ce0",
+      "originalLanguage": "de",
+      "verbatim": [
+        "Schweizerischer Bundesrat"
+      ]
+    },
+    "eu-ai-transparency-august-2026": {
+      "version": 1,
+      "hash": "91f12affaea45d28d64c624a85b21bc1ce8435b1d091a048ec6c8193c61937e8",
+      "originalLanguage": "en",
+      "verbatim": [
+        "European Commission",
+        "European Union"
+      ]
+    },
+    "eu-packaging-pfas-august-2026": {
+      "version": 1,
+      "hash": "cd87e78e2502f0ec4ea6c3682485bf8ad3bb8fc35266799d78a0d3094e06aaa6",
+      "originalLanguage": "en",
+      "verbatim": [
+        "European Commission"
+      ]
+    },
+    "it-birth-bonus-august-deadline-2026": {
+      "version": 1,
+      "hash": "cc886690a98ddae3840e225549a0b8e8453cd40c402a79975f54cf60b93b23b1",
+      "originalLanguage": "it",
+      "verbatim": [
+        "INPS"
+      ]
+    },
+    "it-disability-card-draft-august-2026": {
+      "version": 1,
+      "hash": "73a43b5c0023e5166615e22e08a1b81b0e4dce000cf552651bb9180fca2969ed",
+      "originalLanguage": "it",
+      "verbatim": [
+        "Dipartimento per gli Affari Europei"
+      ]
+    },
+    "it-product-liability-draft-august-2026": {
+      "version": 1,
+      "hash": "adb39b6a4dac2d9309f7e10e622f38db4ee8853093180fc27c2618bb3aef76a2",
+      "originalLanguage": "it",
+      "verbatim": [
+        "Dipartimento per gli Affari Europei"
+      ]
     }
   },
   "intake": {
@@ -2204,6 +2309,78 @@
     "de-tax-help-rental-income-2026-discovery-metadata": {
       "hash": "092e2d81e596cc5828c108b6ac5c029bfab36b6ba315c5993a15f4291fcc9e1c",
       "originalLanguage": "de",
+      "titleIsOriginal": true,
+      "verbatim": []
+    },
+    "de-intelligence-reform-august-2026-discovery": {
+      "hash": "860a38de12eb3c100d5b9b84e4a83d72d8ad49e7b7fef316021c1d13a0b15de0",
+      "originalLanguage": "de",
+      "titleIsOriginal": true,
+      "verbatim": []
+    },
+    "fr-phone-consent-2026-discovery": {
+      "hash": "ebffa2472c04b5cf51b21332343686e7bdafcef8bd312b0adf0c7bfa36dc268d",
+      "originalLanguage": "fr",
+      "titleIsOriginal": true,
+      "verbatim": []
+    },
+    "fr-commercial-deposit-transfer-2026-discovery": {
+      "hash": "c299fbd3351bfac7420ce6acdb8cc19ba1594706eb6a68c03130d7e4677159ce",
+      "originalLanguage": "fr",
+      "titleIsOriginal": true,
+      "verbatim": []
+    },
+    "fr-school-allowance-august-2026-discovery": {
+      "hash": "b46e39687caf235df5a506913a8d8955a02f20d938cd2912151f6fe5f6cbb090",
+      "originalLanguage": "fr",
+      "titleIsOriginal": true,
+      "verbatim": []
+    },
+    "nl-cybersecurity-act-august-2026-discovery": {
+      "hash": "f3722b7b7f89366a7bedea3dca11bf13b9f0eacaf1e627d73549e810ac16436f",
+      "originalLanguage": "nl",
+      "titleIsOriginal": true,
+      "verbatim": []
+    },
+    "nl-critical-entities-august-2026-discovery": {
+      "hash": "02feb85afff4e17eddd02ffadae51cddf9d8f3cb70a3767b717d08c978d39409",
+      "originalLanguage": "nl",
+      "titleIsOriginal": true,
+      "verbatim": []
+    },
+    "ch-finance-initiative-august-2026-discovery": {
+      "hash": "4aca7524c7d9a62db32937e676ea60b3768e667dba679b2416d72ed49a1ec401",
+      "originalLanguage": "de",
+      "titleIsOriginal": true,
+      "verbatim": []
+    },
+    "ch-status-s-august-2026-discovery": {
+      "hash": "d0d1b573b7fdc7a18e587b1246fff39fc9076dd8c7c83a5551c218bb1d6efe29",
+      "originalLanguage": "de",
+      "titleIsOriginal": true,
+      "verbatim": []
+    },
+    "eu-packaging-pfas-august-2026-discovery": {
+      "hash": "cb542eb965ae99e4dc49c879a27d58313460f765d9d605e6b14f58b71f6ddbdc",
+      "originalLanguage": "en",
+      "titleIsOriginal": true,
+      "verbatim": []
+    },
+    "it-birth-bonus-august-deadline-2026-discovery": {
+      "hash": "c24643727dafe226794def3383b4f35c97ea41ff6e59b6599dd12bcbfa5d7950",
+      "originalLanguage": "it",
+      "titleIsOriginal": true,
+      "verbatim": []
+    },
+    "it-disability-card-draft-august-2026-discovery": {
+      "hash": "3c60f28e7adfa48434e63923578e0fe4cc2c5d8420d5b73ddcc300c54dfd02ef",
+      "originalLanguage": "it",
+      "titleIsOriginal": true,
+      "verbatim": []
+    },
+    "it-product-liability-draft-august-2026-discovery": {
+      "hash": "4e678c584225d38fbd3549f5e5fde7e70a6f145ee56ee2a5e3e3162ecacb361e",
+      "originalLanguage": "it",
       "titleIsOriginal": true,
       "verbatim": []
     }

@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, maximum-scale=1.0">
+                <title>Grand Conseil de Genève</title>        <script type="text/javascript" src="/grandconseil/appjs/const"></script>
+        <link rel="stylesheet" type="text/css" href="/grandconseil/appcss/dynamic" />
+                <script type="text/javascript" src="/grandconseil/js/mobile-detect.min.js?v4_02"></script>
+        <script type="text/javascript" src="/grandconseil/js/mobile-redirect.js?v4_02"></script>
+        <script type="text/javascript" src="/grandconseil/js/css3_mediaqueries_compatibility.js"></script>
+        <script type="text/javascript" src="/grandconseil/js/jquery.js"></script>
+        <script type="text/javascript" src="/grandconseil/js/jquery-ui.js"></script>
+        <script type="text/javascript" src="/grandconseil/js/history.js"></script>
+        <script type="text/javascript" src="/grandconseil/js/main.js?t=v4_02"></script>                <link href="/grandconseil/player/skin/functional.css?v4_02" media="screen" rel="stylesheet" type="text/css" >
+        <link href="/grandconseil/css/theme2/print.css?v4_02" media="print" rel="stylesheet" type="text/css" >
+        <link href="/grandconseil/css/theme2/main.css?v4_02" media="screen" rel="stylesheet" type="text/css" >
+        <link href="/grandconseil/css/theme2/jqueryui.css?v4_02" media="screen" rel="stylesheet" type="text/css" >
+        <link href="/grandconseil/images/favicon.ico" rel="shortcut icon" >        <!--[if IdE]>
+            <link rel="stylesheet" type="text/css" href="/grandconseil/css/theme2/ie.css" />
+        <![endif]-->
+        <!--[if lte IE 7]>
+            <link rel="stylesheet" type="text/css" href="/grandconseil/css/theme2/ie7.css" />
+        <![endif]-->
+        <!--[if lt IE 9]>
+            <script src="/grandconseil/js/ie8_html5_compatibility.js"></script>
+            <style>
+                main .docPdf {
+                    background: url('/grandconseil/css/theme2/images/pdf.gif') top left no-repeat;
+                    padding-left: 25px;
+                }
+                main .linkToVideo {
+                    background: url('/grandconseil/css/theme2/images/video.png') top left no-repeat;
+                    padding-left: 1.5em;
+                }
+                main .linkToMemo {
+                    background: url('/grandconseil/css/theme2/images/write.png') top left no-repeat;
+                    padding-left: 1.5em;
+                }
+                main .docPdf::before {
+                    content: "";
+                }
+                main .linkToVideo::before {
+                    content: "";
+                }
+                main .linkToMemo::before {
+                    content: "";
+                }
+                .noPdfIconIe {
+                    background: url('/grandconseil/images/inv.gif') top left no-repeat !important;
+                }
+                .noPdfIconIe::before {
+                    content: "";
+                    margin-right: 0;
+                }
+        </style>
+        <![endif]-->
+        <!--[if lte IE 6]>
+            <script type="text/javascript" src="/grandconseil/js/ie6_minmax_compatibility.js"></script>
+        <![endif]-->
+    </head>
+    <body>
+        <div id="mainContainer" class="mainDefaultContainer">
+    <header class="main">
+        <h1>
+            <a href="https://www.ge.ch" target="_blank">République et canton de Genève</a>
+        </h1>
+        <h2>
+            <a href="/grandconseil/">Grand Conseil</a>
+        </h2>
+    </header>
+    <!--[if !lte IE 7]><!-->
+        <menu type="toolbar">
+            <ul>
+                <li><a href="/grandconseil/secretariat/collaborateurs/#direction" class="menuContact" title="Contact">Contact</a></li>
+                <li><a href="/grandconseil" class="menuImpression" title="Imprimer">Imprimer</a></li>
+                <li><a href="/grandconseil/divers/conditions/" class="menuConditions" title="Conditions d'utilisation">Conditions d'utilisation</a></li>
+                <li><a href="/grandconseil" class="menuCouleurs" title="Couleurs des liens">Couleurs des liens</a></li>
+                <li><a href="https://accord-gc.app.ge.ch/accord-gc/" class="menuAccord" title="Accord-GC" target="_blank">Accord-GC</a></li>
+                <li><a href="/grandconseil/" class="menuHome" title="Accueil">Accueil</a></li>
+            </ul>
+        </menu>
+    <!--<![endif]-->
+    <div id="menuPart">
+        <nav class="main">
+            <div id="decoNav" class="decoNav_3"></div>
+            <ul>
+                <li>
+                    <a href="/grandconseil/gc/parlement/">Grand Conseil</a>
+                    <ul>
+                        <li><a href="/grandconseil/gc/parlement/">Parlement cantonal</a></li>
+                        <li><a href="/grandconseil/gc/presidence/">Présidence et Bureau</a></li>
+                        <li><a href="/grandconseil/gc/deputes/partis/">Membres</a></li>
+                        <li><a href="/grandconseil/gc/commissions/">Commissions</a></li>
+                        <li><a href="/grandconseil/gc/partis/">Partis politiques</a></li>
+                        <li><a href="/grandconseil/gc/elections/">Elections</a></li>
+                        <li><a href="/grandconseil/gc/histo-deputes/"><span class="smaller">Historique des membres</span></a></li>
+                        <li><a href="/grandconseil/gc/intercantonale_fr/"><span class="smaller">Bureau interparlementaire&nbsp; de coordination</span></a></li>
+                        <li><a href="/grandconseil/gc/intercantonale_de/"><span class="smaller">Interparlamentarische Koordinationsstelle</span></a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="/grandconseil/sessions/seances/">Sessions</a>
+                    <ul>
+                        <li><a href="/grandconseil/sessions/seances/">Documents de séance</a></li>
+                        <li><a href="/grandconseil/sessions/calendrier/2026/">Calendrier</a></li>
+                        <li><a href="/grandconseil/sessions/live/">Diffusion en direct</a></li>
+                        <li><a href="/grandconseil/sessions/videos/2026/">Diffusion en différé</a></li>
+                        <li><a href="/grandconseil/sessions/archives/"><span class="smaller">Archives procès-verbaux</span></a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="/grandconseil/publications/communiques/">Publications</a>
+                    <ul>
+                        <li><a href="/grandconseil/publications/lois/">Constitution et lois</a></li>
+                        <li><a href="/grandconseil/publications/tap/">Tirés à part</a></li>
+                        <li><a href="/grandconseil/publications/communications/">Communications</a></li>
+                        <li><a href="/grandconseil/publications/judiciaires/">Décisions judiciaires</a></li>
+                        <li><a href="/grandconseil/publications/rapports-gestion/">Rapports de gestion</a></li>
+                        <li><a href="/grandconseil/publications/publications-diverses/">Publications diverses</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="/grandconseil/secretariat/collaborateurs/#direction">Secrétariat</a>
+                    <ul>
+                        <li><a href="/grandconseil/secretariat/sautier/">Sautier</a></li>
+                        <li><a href="/grandconseil/secretariat/collaborateurs/#direction">Membres</a></li>
+                        <li><a href="/grandconseil/secretariat/masse/">Masse du sautier</a></li>
+                        <li><a href="/grandconseil/secretariat/salle/">Histoire de la salle du Grand Conseil</a></li>
+                        <li><a href="/grandconseil/secretariat/marronnier/">Marronnier officiel</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="/grandconseil/memorial/seances-last/">Mémorial</a>
+                    <ul>
+                        <li><a href="/grandconseil/memorial/presentation/">Présentation</a></li>
+                        <li><a href="/grandconseil/memorial/recherche/">Recherche avancée</a></li>
+                        <!--li><a href="/grandconseil/memorial/dossiers/">Dossiers thématiques</a></li-->
+                        <li><a href="/grandconseil/memorial/seances-last/">Séances</a></li>
+                    </ul>
+                                    </li>
+                <li>
+                    <a href="/grandconseil/faq/">FAQ</a>
+                    <ul>
+                        <li><a href="/grandconseil/faq/">FAQ</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+        <section id="search">
+            <h1>Recherche <a href="/grandconseil/search/help" class="searchHelper"><span>aide</span></a></h1>
+            <form action="/grandconseil/search" method="get" name="search">
+                <input class="search" type="text" name="search" id="frmSearch" placeholder="Num. d'objet/mots clés">
+                <input type="submit" class="frmSearchSubmit" value="Go">
+            </form>
+            <p><span class="smaller"><a href="/grandconseil/memorial/recherche/">Recherche avancée</a></span></p>
+        </section>
+                    <section id="contact">
+                <h1>Contacts</h1>
+                <div class="organization" itemscope itemtype="http://schema.org/GovernmentOrganization">
+                    <div itemprop="name">Secrétariat général du Grand Conseil</div>
+                    <div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+                        <div itemprop="streetAddress">
+                            Case Postale
+                        </div>
+                        <div>
+                            <span itemprop="postalCode">1211</span>
+                            <span itemprop="addressLocality">Genève 3</span>
+                        </div>
+                    </div>
+                    <div itemprop="location" itemscope itemtype="http://schema.org/PostalAddress">
+                        <div itemprop="streetAddress">
+                            Rue de l'Hôtel-de-Ville 2
+                        </div>
+                        <div>
+                            <span itemprop="postalCode">1204</span>
+                            <span itemprop="addressLocality">Genève</span>
+                        </div>
+                    </div>
+                    <div itemprop="telephone">T. (+41) 022 327 97 00</div>
+                    <div>
+                        <br>
+                        <b>Horaires</b><br>
+                        Lun. - Ven.<br>
+                        09h - 12h, 14h - 17h
+                    </div>
+                </div>
+            </section>
+            </div>
+    <main>
+        <div id="decoMain" class="decoMain_3"></div>
+            <article class="accueil">
+        <div class="container">
+            <div class="decoArticle"></div>
+            <h1>Session du Grand Conseil</h1>
+            <p>Prochaine session :<br />
+Jeudi 1er octobre 2026 à 17h00 et 20h30.<br />
+Vendredi 2 octobre 2026 à 14h00, 16h00 et 18h00.<br />
+<a href="/grandconseil/sessions/seances/2026/030405">Horaires et documents de séance.</a><br />
+<br />
+<a href="/grandconseil/gc/salle/">Plan de la salle du Grand Conseil</a><br />
+<br />
+Calendrier des sessions <a href="/grandconseil/sessions/calendrier/">2026-2027</a><br />
+<br />
+Les sessions du Grand Conseil sont publiques.<br />
+Elles se tiennent dans sa salle de séance, rue de l'Hôtel-de-Ville 2.</p>
+        </div>
+    </article>
+    <article>
+        <div class="container">
+            <h1>Information relative aux élections des magistrats titulaires du pouvoir judiciaire (session des 1er et 2 octobre 2026)</h1>
+            <p><a href="/grandconseil/data/elections_judiciaires/2026_09_16_magistrats_titulaires_candidats.pdf">Publié le mercredi 16 septembre 2026</a></p>
+        </div>
+    </article>
+    <article>
+        <div class="container">
+            <h1>500 ans</h1>
+            <p><div><div><p>En 2026, le Grand Conseil de la République et canton de Genève fête ses 500 ans d'existence.</p><p>Trouvez ici le communiqué de presse incluant le programme des festivités, la plaquette commémorative, ainsi que le discours de Mme Ana Roch, présidente du Grand Conseil, prononcé lors de la session du parlement du 12 février:<br />
+<br />
+  <a href="/grandconseil/data/divers_publication_pdf/2026_02_12_500_communique_presse.pdf" target="_blank">Communiqué de presse</a><br />
+  <a href="/grandconseil/data/divers_publication_pdf/2026_02_12_500_ans_du_parlement_genevois.pdf" target="_blank">Plaquette commémorative</a><br />
+  <a href="/grandconseil/data/divers_publication_pdf/2026_02_12_500_Discours_presidente.pdf" target="_blank">Discours de Mme Ana Roch</a></p><br />
+</div><br />
+<div style="max-width:532px;"><img src="https://grandconseil-ge.ch/images/ceremonie_12022026_500e.jpg" alt="500 ans" style="display:block;max-width:100%;height:auto;"></div></div></p>
+        </div>
+    </article>
+<article>
+    <div class="container">
+        <h1>Le Grand Conseil en direct</h1>
+        <p>
+            <a href="/grandconseil/sessions/live/">Voir la séance du Grand Conseil en direct</a>
+        </p>
+    </div>
+</article>
+<article>
+    <div class="container">
+        <h1>Conditions d'utilisation et Politique de confidentialité</h1>
+        <p>
+            Les <a href="/grandconseil/divers/conditions/">Conditions d'utilisation et la Politique de confidentialité</a> s'appliquent à la consultation du site Internet du Grand Conseil de la République et canton de Genève.
+            En naviguant sur le Site, vous reconnaissez les avoir lues et les accepter sans réserve.
+        </p>
+    </div>
+</article>
+    </main>
+</div>
+<script src="/grandconseil/css/theme2/js/menu.js"></script>
+<script src="/grandconseil/css/theme2/js/print.js"></script>
+<script src="/grandconseil/css/theme2/js/colorsLinks.js"></script>
+<script src="/grandconseil/css/theme2/js/articleThumbnails.js"></script>    </body>
+</html>

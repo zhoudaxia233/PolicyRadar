@@ -127,12 +127,16 @@ export const messages = {
     "Entwicklungen",
     "Progress"
   ],
+  "进展#nav": [
+    "Amtlich",
+    "Progress"
+  ],
   "已经通过": [
     "Beschlossen",
     "Adopted"
   ],
   "已通过": [
-    "Beschlossen",
+    "Erlassen",
     "Adopted"
   ],
   "待决议题": [

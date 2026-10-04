@@ -19,8 +19,9 @@ export function readLocale():Locale {
  let languages:readonly string[]=[];try{languages=navigator.languages?.length?navigator.languages:navigator.language?[navigator.language]:[];}catch{}
  return resolveLocale(location.search,saved,languages);
 }
+// A '#context' suffix separates keys whose Chinese text is shared but whose translations differ.
 export function translator(locale:Locale){return (key:MessageKey,values:readonly (string|number)[]=[])=>{
- const text=locale==='zh'?key:messages[key][locale==='de'?0:1];
+ const text=locale==='zh'?key.replace(/#.*$/,''):messages[key][locale==='de'?0:1];
  return text.replace(/\{(\d+)\}/g,(_,i)=>String(values[Number(i)]??'{'+i+'}'));
 };}
 export function formatDate(value:string,locale:Locale,options:Intl.DateTimeFormatOptions={year:'numeric',month:locale==='en'?'short':'2-digit',day:'2-digit'}){

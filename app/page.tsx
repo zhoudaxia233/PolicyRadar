@@ -98,6 +98,7 @@ export default function Home() {
     label={tr('语言')}
     onChange={changeLocale} />;
   const dialog = useRef<HTMLDialogElement>(null);
+  const regionNav = useRef<HTMLDivElement>(null);
   const navigationMode = useRef<'push' | 'replace'>('replace');
   const loadedPolicies = useRef<Policy[]>([]);
   function restoreNavigation() {
@@ -185,6 +186,23 @@ export default function Home() {
   const records = intake.records.filter(r => countryOf(r.region) === country);
   const countryInfo = countries.find(c => c.id === country) ?? countries[0];
   const countryRegions = regions.filter(r => countryOf(r.id) === country);
+  // Fade the region list's clipped edge so it reads as scrollable even where scrollbars are hidden.
+  useEffect(() => {
+    const el = regionNav.current;
+    if (!el) return;
+    const update = () => {
+      el.toggleAttribute('data-more-above', el.scrollTop > 1);
+      el.toggleAttribute('data-more-below', el.scrollTop + el.clientHeight < el.scrollHeight - 1);
+    };
+    update();
+    el.addEventListener('scroll', update, { passive: true });
+    const resize = new ResizeObserver(update);
+    resize.observe(el);
+    return () => {
+      el.removeEventListener('scroll', update);
+      resize.disconnect();
+    };
+  }, [country]);
   const filters = { view, country, region, query, tags };
   const listing = selectListing(items, intake.records, filters, matchText);
   const { policies: visible, raw: visibleRaw, progress: newRecords } = listing;
@@ -297,7 +315,7 @@ export default function Home() {
       <p className="sidebar-count-note">
         {tr("数字随筛选变化；官方进展按记录计数。")}
       </p>
-      <div className="region-nav" aria-label={cname + tr("各地区")}>
+      <div className="region-nav" ref={regionNav} aria-label={cname + tr("各地区")}>
         <h2>
           {cname}
         </h2>

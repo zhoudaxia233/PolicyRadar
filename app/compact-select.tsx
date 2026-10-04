@@ -1,6 +1,6 @@
 import {useEffect,useRef} from 'react';
 import {Check,ChevronDown} from 'lucide-react';
-type Option<T extends string>={value:T;label:string;accessibleLabel?:string;lang?:string};
+type Option<T extends string>={value:T;label:string;short?:string;accessibleLabel?:string;lang?:string};
 
 export function CompactSelect<T extends string>({value,label,options,onChange,align='right'}:{value:T;label:string;options:Option<T>[];onChange:(value:T)=>void;align?:'left'|'right'}){
  const selected=options.find(option=>option.value===value);
@@ -18,7 +18,7 @@ export function CompactSelect<T extends string>({value,label,options,onChange,al
   const next=e.key==='Home'?0:e.key==='End'?buttons.length-1:e.key==='ArrowDown'?(current+1)%buttons.length:(current<=0?buttons.length:current)-1;
   buttons[next]?.focus();
  }}>
-  <summary aria-label={`${label}: ${selected?.accessibleLabel??selected?.label??value}`} title={label}><span>{selected?.label??value}</span><ChevronDown size={13}/></summary>
+  <summary aria-label={`${label}: ${selected?.accessibleLabel??selected?.label??value}`} title={label}><span>{selected?.short??selected?.label??value}</span><ChevronDown size={13}/></summary>
   <div className="compact-options" role="group" aria-label={label}>{options.map(option=><button key={option.value} type="button" lang={option.lang} aria-label={option.accessibleLabel??option.label} title={option.accessibleLabel??option.label} aria-pressed={value===option.value} onClick={()=>{onChange(option.value);if(root.current){root.current.open=false;root.current.querySelector('summary')?.focus();}}}><span>{option.label}</span>{value===option.value&&<Check size={13}/>}</button>)}</div>
  </details>;
 }

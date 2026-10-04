@@ -299,15 +299,21 @@ automatically include EU records in national views or claim national transpositi
 coverage. Preserve the other countries' records and review markers on EU-only runs.
 
 The first three explanations are historical backfill, not a completed scan since
-2026-10-02. Their evidence consists of archived Commission and ECB explanations.
+2026-10-02. Their evidence consists of archived Commission, ECB and Bundesnetzagentur explanations.
 EUR-Lex document downloads returned empty HTTP 202 responses during intake; those
 responses are not legal-text snapshots. Follow the law links on the official
 explanation pages and obtain the authoritative text when access permits. Do not
 bypass access restrictions or label explanatory pages as the legal text.
 
-The initial EU addition has two validated selections: `2026-10-04-eu-130806`
-then `2026-10-04-eu-date-review-131101`. Preserve that order in separate commits
-when publishing: the charger starts at version 1 and the date-kind correction
-advances it to version 2. Selecting only the final export directly from the
-pre-EU commit fails the existing first-version history gate. Bind translations
-to the selected version in each commit; do not squash away this transition.
+The initial EU addition has three validated selections: `2026-10-04-eu-130806`,
+`2026-10-04-eu-date-review-131101`, then `2026-10-04-eu-roaming-review-132839`.
+Preserve that order in separate commits when publishing: all three policies start
+at version 1, the date-kind correction advances the charger to version 2, and the
+commencement-title correction and expiry addition advance roaming to version 2.
+The original roaming event remains in history and is superseded by the corrected
+event. Bind translations to the selected version in each commit.
+
+When merging is authorized, select **Create a merge commit**. Squashing would make
+the charger and roaming first enter selected history at version 2 and fail the
+first-version gate. The PR workflow validates the existing commit history; it does
+not prevent choosing squash in GitHub's merge UI. Preserve all three transitions.

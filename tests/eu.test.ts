@@ -13,11 +13,40 @@ import {exportRegistry} from '../lib/export-registry.ts';
 import {readSnapshot} from '../lib/source-archive.ts';
 const read=(p:string)=>JSON.parse(readFileSync(p,'utf8'));
 const initial=read('data/exports/2026-10-04-eu-130806/policy-radar-export.json');
-const path='data/exports/2026-10-04-eu-date-review-131101/policy-radar-export.json';
+const dateReview=read('data/exports/2026-10-04-eu-date-review-131101/policy-radar-export.json');
+const path='data/exports/2026-10-04-eu-roaming-review-132839/policy-radar-export.json';
 const before=read('data/exports/2026-10-04-italy-evidence-review-124438/policy-radar-export.json');
 const after=read(path),data=createStaticData(after),old=createStaticData(before);
 const localization=createLocalization(data,read('data/translations/content.json'),read('data/translations/bindings.json'));
 const policies=data.policies.filter(p=>p.region==='EU');
+
+test('roaming commencement uses consistent wording in the event and card',()=>{
+ const roaming=policies.find(p=>p.id==='eu-roaming-2022')!;
+ assert.equal(effectiveDateLabel(roaming),'本次改动开始生效');
+ assert.equal(keyDate(roaming,'2026-10-04').kind,'effective');
+ const event=roaming.events.find(e=>e.date==='2022-07-01'&&e.kind==='effective')!;
+ assert.equal(event.title,'法规生效');
+ assert.equal(roaming.events.filter(e=>e.date==='2022-07-01'&&e.kind==='effective').length,1);
+ for(const locale of ['de','en'] as const){
+  const translated=localizePolicy(roaming,locale,localization);
+  assert.equal(translated.events.find(e=>e.id===event.id)!.title,locale==='de'?'Inkrafttreten der Verordnung':'Regulation enters into force');
+ }
+ const prior=JSON.parse(dateReview.tables.policies.find((p:{id:string})=>p.id===roaming.id).data);
+ const saved=JSON.parse(after.tables.policies.find((p:{id:string})=>p.id===roaming.id).data);
+ for(const e of prior.events)assert.deepEqual(saved.events.find((x:{id:string})=>x.id===e.id),e);
+ assert.equal(saved.events.find((e:{id:string})=>e.id===event.id).supersedes,prior.events[0].id);
+ assert(roaming.events.some(e=>e.kind==='correction'));
+});
+
+test('roaming expiry preserves the main date until the upcoming window and requires follow-up after expiry',()=>{
+ const roaming=policies.find(p=>p.id==='eu-roaming-2022')!;
+ assert.equal(roaming.nextDate,'2032-06-30');assert.equal(roaming.nextKind,'expiry');
+ assert.equal(keyDate(roaming,'2026-10-04').date,'2022-07-01');
+ const daysBefore=(days:number)=>new Date(Date.parse(roaming.nextDate!)-days*864e5).toISOString().slice(0,10);
+ assert.equal(keyDate(roaming,daysBefore(121)).kind,'effective');
+ assert.equal(keyDate(roaming,daysBefore(120)).kind,'next');
+ assert.equal(lifecycle(roaming,'2032-07-01'),'已通过 · 期限已到，后续待核实');
+});
 
 test('EU is a supranational jurisdiction and round-trips without changing the default country',()=>{
  assert.equal(countryName('EU','zh'),'欧盟');assert.equal(countryName('EU','de'),'Europäische Union');assert.equal(countryName('EU','en'),'European Union');
@@ -30,12 +59,14 @@ test('EU is a supranational jurisdiction and round-trips without changing the de
  }
  assert(!policySchema.safeParse({...policies[0],region:'EU-DE'}).success);
  const eu=countries.find(c=>c.id==='EU')!;
+ assert.equal(eu.subdivision,'');
  for(const locale of ['de','en'] as const)for(const text of [eu.scope,eu.note,'国家／地区'] as const)assert(!/[\u3400-\u9fff]/u.test(translator(locale)(text)));
 });
 
 test('EU intake preserves every historical row and other countries review settings',()=>{
  validateSelection(before,initial,new Date(initial.exportedAt));
- validateSelection(initial,after,new Date(after.exportedAt));
+ validateSelection(initial,dateReview,new Date(dateReview.exportedAt));
+ validateSelection(dateReview,after,new Date(after.exportedAt));
  assert.equal(policies.length,3);
  assert.deepEqual(after.tables.policies.filter((r:{region:string})=>r.region!=='EU'),before.tables.policies);
  for(const table of ['revisions','intake','scan_runs','snapshots','checks'])assert.deepEqual(after.tables[table].slice(0,before.tables[table].length),before.tables[table],table);
@@ -63,7 +94,7 @@ test('EU records and sources stay separate from national measures and counts',()
 test('EU multilingual search and counts use complete version-bound translations',()=>{
  const index=new Map(policies.map(p=>[p.id,searchText(p,localization)]));
  for(const p of policies){
-  assert.equal(data.policyVersions[p.id],p.id==='eu-common-charger-2022'?2:1);assert.equal(localization.policies[p.id],'current');
+  assert.equal(data.policyVersions[p.id],p.id==='eu-instant-euro-payments-2024'?1:2);assert.equal(localization.policies[p.id],'current');
   for(const locale of ['de','en'] as const){
    const translated=localizePolicy(p,locale,localization);
    assert(policyTextFields(translated).every(s=>!/[\u3400-\u9fff]/u.test(s)),p.id);
@@ -97,6 +128,9 @@ test('EU sources are real archived official explanations; failed legal downloads
   originals[s.id]=bytes.toString('utf8').replace(/<[^>]+>/g,' ').replace(/&nbsp;/g,' ').replace(/\s+/g,' ');
  }
  assert.match(originals['roaming-extension'],/2032/);
+ assert.match(originals['roaming-extension'],/enters into force on 1 July 2022/);
+ assert.match(originals['roaming-term'],/tritt zum 1\. Juli 2022 in Kraft/);
+ assert.match(originals['roaming-term'],/bis 30\. Juni 2032 gelten/);
  assert.match(originals.instant,/9 January 2027/);assert.match(originals.instant,/9 April 2027/);
  assert.match(originals.charger,/28.{0,20}April.{0,20}2026/);
  const failures=after.tables.checks.filter((c:{url:string;error:string|null})=>c.url.startsWith('https://eur-lex.europa.eu/')&&c.error);

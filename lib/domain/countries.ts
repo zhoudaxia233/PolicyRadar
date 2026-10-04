@@ -55,7 +55,7 @@ export const countries = [
     "de": "Europäische Union",
     "en": "European Union",
     "national": "欧盟层面",
-    "subdivision": "成员国",
+    "subdivision": "",
     "scope": "追踪范围：欧盟层面的法规、指令和决定。",
     "note": "欧盟是超国家层级。法规、指令与各国落实措施分别核实；通过、生效、开始适用和转化期限不等同。第一批为历史补录，尚未完成逐日扫描及各成员国转化核查。瑞士等非成员国不自动纳入适用范围。"
   }

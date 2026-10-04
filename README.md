@@ -2,7 +2,7 @@
 
 English | [简体中文](README.zh-CN.md)
 
-Track policy changes in Germany, France, the Netherlands, Switzerland, Italy and the European Union, with Chinese, German and English explanations, official sources and policy timelines.
+Track policy changes in Germany, France, the Netherlands, Switzerland, Italy and the European Union, with official sources and policy timelines.
 
 A static website with browser-side search and filters. No login, database or application server required.
 

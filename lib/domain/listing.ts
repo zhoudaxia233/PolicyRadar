@@ -2,6 +2,12 @@ import {countryOf,selectPolicies,policyTags,type Policy} from './model.ts';
 import {type IntakeRecord} from './intake.ts';
 import {type readFilters} from './filters.ts';
 
+// Announcements without an official number use their exact source URL as identity.
+// Never match a numbered law by URL: one gazette can contain several laws.
+export function explainsRecord(p:Pick<Policy,'officialId'|'region'>,r:Pick<IntakeRecord,'officialId'|'region'|'url'>){
+ return p.region===r.region&&p.officialId===(r.officialId??r.url);
+}
+
 export function selectIntake(records:IntakeRecord[],region:string,tags:string[],query:string,searchText?:(p:{id:string})=>string){const q=query.trim().toLocaleLowerCase();return records.filter(r=>(region==='all'||r.region===region)&&(!tags.length||tags.some(t=>policyTags(r).includes(t)))&&(!q||(searchText?.(r)??[r.title,r.titleZh,r.officialId,r.note,...policyTags(r)].join(' ')).toLocaleLowerCase().includes(q))).sort((a,b)=>b.date.localeCompare(a.date));}
 
 // Lists and navigation counts share scope, matching and inclusion rules.
@@ -9,7 +15,7 @@ export function selectListing(items:Policy[],records:IntakeRecord[],filters:Retu
  const {country,view,region,query,tags}=filters;
  const scoped=items.filter(p=>countryOf(p.region)===country);
  const intake=records.filter(r=>countryOf(r.region)===country);
- const unexplained=intake.filter(r=>!scoped.some(p=>r.officialId&&p.officialId===r.officialId&&p.region===r.region));
+ const unexplained=intake.filter(r=>!scoped.some(p=>explainsRecord(p,r)));
  const policies=selectPolicies(scoped,view,region,'all',query,tags,searchText);
  const raw=selectIntake(unexplained,region,tags,query,searchText).filter(r=>view==='all'||r.stage===view);
  const progress=selectIntake(intake,region,tags,query,searchText);

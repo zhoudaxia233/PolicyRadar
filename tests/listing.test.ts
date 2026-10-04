@@ -46,3 +46,18 @@ test('view and region navigation honor search and categories with identical refr
 test('unverified records never appear in adopted or pending even with a matching category',()=>{
  for(const view of ['adopted','pending'])assert(select({...base,view,tags:['待分类']}).raw.every(r=>r.stage===view));
 });
+
+test('unnumbered announcements link by exact source identity without merging numbered laws',()=>{
+ const sample=data.intake.records.find(r=>!r.officialId)!;
+ const explanation={...data.policies[0],id:'announcement-explanation',region:sample.region,officialId:sample.url};
+ const result=selectListing([explanation],[sample],base);
+ assert.equal(result.raw.length,0);
+ assert.equal(result.count,1);
+ assert.equal(result.progress.length,1);
+ const numbered={...sample,officialId:'Separate law in the same gazette'};
+ assert.equal(selectListing([explanation],[numbered],base).raw.length,1);
+ const otherRegion={...explanation,region:sample.region==='DE-HH'?'DE-BY':'DE-HH'};
+ assert.equal(selectListing([otherRegion],[sample],base).raw.length,1);
+ const differentUrl={...sample,url:sample.url+'?other=document'};
+ assert.equal(selectListing([explanation],[differentUrl],base).raw.length,1);
+});

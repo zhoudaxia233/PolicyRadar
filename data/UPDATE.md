@@ -29,7 +29,7 @@ up from stored coverage, rather than skip to the latest week.
    independently connected. Dutch municipalities, water authorities, Caribbean
    public bodies and the other Kingdom countries are not connected. Swiss municipalities
    are not independently connected. Start at each
-   channel's oldest uncovered date (tracking starts 2026-10-02); work through
+   channel's oldest uncovered date (tracking starts 2026-09-02); work through
    yesterday in Berlin. Also revisit at least the previous seven days for delayed
    publications and revisit existing pending policies and approaching deadlines.
 4. Read the indexes, all relevant result pages, individual gazette issues and
@@ -53,6 +53,10 @@ up from stored coverage, rather than skip to the latest week.
    Explanations in Chinese, German and English must state practical rules, affected people, before/after,
    scope and exceptions, with source-linked events. AI review is fallible; schema
    checks are not proof of legal accuracy. Keep conflicting evidence visible.
+
+The owner extended the retrospective collection window by one month on 2026-10-04.
+The additional 2026-09-02 through 2026-10-01 interval remains a gap until each
+channel has a reconciled complete scan. Targeted backfills do not close it.
 
 ## Save and validate
 
@@ -173,7 +177,7 @@ fetch only establishes access, not a completed date interval; follow document
 lists, pagination and attachments before claiming completeness. Never archive an
 access challenge as an official source. Keep blocked or incompletely reviewed
 material in unverified intake. Earlier baseline articles belong to historical
-backfill, not the monitoring interval beginning 2026-10-02.
+backfill, not the monitoring interval beginning 2026-09-02.
 
 Use French original titles and `originalLanguage: "fr"` for French-language
 sources. Preserve the local institutional name rather than assuming every area
@@ -243,7 +247,7 @@ separately; do not invent a day for a December payment or a tentative January
 start. Identify federal implementation in a cantonal view rather than relabelling
 it a new cantonal law. Keep partial commencement, transitional arrangements,
 sector-specific wages and eligibility exceptions explicit. Historical backfill
-never advances the monitoring interval beginning on 2026-10-02.
+never advances the monitoring interval beginning on 2026-09-02.
 
 The Swiss baseline is 28 explanations and eight original announcements, with no
 claim to inventory all policies. Revisit the five pending measures, the planned

@@ -262,6 +262,9 @@ initial export without claiming a historical transition; the build still checks
 the archived bytes. This fallback does not claim to reconstruct an absent event
 baseline.
 
+History traversal includes feature-branch commits before their merge commit so
+intermediate selected exports remain subject to the same validation.
+
 ## Italian regional review
 
 The initial Italian registry includes national government, both parliamentary

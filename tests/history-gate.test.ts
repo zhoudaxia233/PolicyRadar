@@ -26,3 +26,25 @@ test('CI gate rejects skipped versions, intermediate bypasses and in-place edits
   assert.match(run(stable).stderr,/changed in place/);
  }finally{rmSync(root,{recursive:true,force:true});}
 });
+
+test('CI gate validates intermediate selections inside a merged feature branch',()=>{
+ const root=mkdtempSync(join(tmpdir(),'policy-merge-history-'));
+ const git=(...args:string[])=>execFileSync('git',args,{cwd:root,encoding:'utf8'}).trim();
+ const save=(path:string)=>{
+  const data=readFileSync(path,'utf8');
+  mkdirSync(join(root,path,'..'),{recursive:true});writeFileSync(join(root,path),data);
+  writeFileSync(join(root,'data/current-export.json'),JSON.stringify({path}));
+  git('add','.');git('commit','-qm',path);return git('rev-parse','HEAD');
+ };
+ try{
+  git('init','-q','-b','main');git('config','user.name','Test');git('config','user.email','test@example.invalid');
+  const base=save('data/exports/2026-10-04-weekly-translated/policy-radar-export.json');
+  git('switch','-qc','feature');
+  save('data/exports/2026-10-04-italy-121129/policy-radar-export.json');
+  save('data/exports/2026-10-04-italy-review-122041/policy-radar-export.json');
+  git('switch','-q','main');git('merge','--no-ff','feature','-m','Merge Italy');
+  const result=spawnSync(process.execPath,['--experimental-strip-types',fileURLToPath(new URL('../scripts/validate-history.mjs',import.meta.url)),base,'HEAD'],{cwd:root,encoding:'utf8'});
+  assert.equal(result.status,0,result.stderr);
+  assert.match(result.stdout,/Validated 3 commit transitions/);
+ }finally{rmSync(root,{recursive:true,force:true});}
+});

@@ -19,7 +19,9 @@ if(!base||/^0+$/.test(base)){
  }
 }
 git('merge-base','--is-ancestor',base,head);
-const commits=git('rev-list','--first-parent','--reverse',`${base}..${head}`).split('\n').filter(Boolean);
+// Include feature-branch selections before the merge commit; first-parent-only
+// traversal would mistake a reviewed policy's versions 1 -> 2 for a jump 0 -> 2.
+const commits=git('rev-list','--topo-order','--reverse',`${base}..${head}`).split('\n').filter(Boolean);
 let previous=base;
 for(const commit of commits){
  const oldPath=JSON.parse(read(previous,'data/current-export.json')).path;

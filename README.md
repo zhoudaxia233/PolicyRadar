@@ -1,6 +1,6 @@
 # Policy Radar
 
-German federal/state, French national/regional and Dutch national/provincial policy changes, explained in Chinese, German and English with official sources, policy timelines and explicit coverage gaps.
+German federal/state, French national/regional, Dutch national/provincial and Swiss federal/cantonal policy changes, explained in Chinese, German and English with official sources, policy timelines and explicit coverage gaps.
 
 The website is static: it loads published JSON and filters records in the browser. It needs no login, database or application server.
 
@@ -12,7 +12,7 @@ parameter (`zh`, `de`, `en`), saved preference, supported browser language, then
 English. Switching preserves filters, search and the selected policy. Search
 matches explanations and topic labels across all three languages.
 
-German is the original language of German official sources; French and Dutch records retain their original-language text. German
+German is the original language of German official sources; French, Dutch and Swiss records retain their document-specific original-language text. German
 summaries, like Chinese and English summaries, are **editorial explanations**,
 not the official legal text. Original titles, citations and archived source files
 remain intact. Original language is recorded per item, independently of the
@@ -178,3 +178,33 @@ Country-scoped review markers preserve Germany's and France's prior review dates
 All prior policy, revision, intake and evidence history remains unchanged in the
 new export. Select `?country=NL` or a province such as `?region=NL-FR`; the same
 filters work with `lang=zh`, `lang=de` and `lang=en`.
+
+
+## Switzerland
+
+The Swiss view covers the federation and all 26 cantons using ISO 3166-2 identifiers.
+`CH-FR` is Fribourg, `CH-GR` is Grisons and `CH-GE` is Geneva; they never pass
+through French legacy aliases or collide with Dutch provinces. Switzerland is a
+federal state. Municipal sources are not independently connected. Use
+`?country=CH`, `?region=CH-TI` or another canton, in any interface language.
+
+The initial baseline has 28 explanations: two federal measures and one per canton
+(23 adopted/operational, five pending). Eight dated original announcements are
+also retained in intake. This is a starting inventory, not exhaustive coverage.
+Examples include the 13th AHV pension, pillar 3a catch-up payments, cantonal wages,
+premium subsidies, public-document access, energy/building rules and consultations.
+
+There are 82 discovery channels: government, legislation and parliament for each
+canton, plus four federal channels including popular votes. All intervals remain
+partial or blocked; no continuous coverage is claimed. Thirty-two entry checks
+could not obtain a readable document list, including JavaScript-only shells and
+access failures. Individually downloaded law PDFs can support a policy even when
+their discovery portal remains blocked. Archives retain exact public source bytes.
+
+Chinese, German and English explanations are reviewed and bound to each record.
+Original titles use the actual document language, including Italian in Ticino and
+French in western cantons. Multilingual canton labels use `und`; this does not
+assign a language to their documents. Swiss review markers do not re-date other
+countries. Parliamentary adoption, a government bill, a popular vote, operational
+start and payment dates are distinct. Month-only or tentative dates remain null
+in day-precision fields; deferred provisions and scope exceptions stay visible.

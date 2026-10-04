@@ -16,10 +16,12 @@ up from stored coverage, rather than skip to the latest week.
 3. Use every channel in `discoveryForYear` in `lib/domain/coverage.ts`, covering
    Germany’s federation and all sixteen states, plus France’s national level and
    all 18 registered regional geographic areas, and the Netherlands’ national level
-   plus all 12 European provinces, across all policy topics. French
+   plus all 12 European provinces, and Switzerland’s federation and all 26 cantons,
+   across all policy topics. French
    departments, municipalities and other special overseas territories are not
    independently connected. Dutch municipalities, water authorities, Caribbean
-   public bodies and the other Kingdom countries are not connected. Start at each
+   public bodies and the other Kingdom countries are not connected. Swiss municipalities
+   are not independently connected. Start at each
    channel's oldest uncovered date (tracking starts 2026-10-02); work through
    yesterday in Berlin. Also revisit at least the previous seven days for delayed
    publications and revisit existing pending policies and approaching deadlines.
@@ -63,7 +65,7 @@ up from stored coverage, rather than skip to the latest week.
    content, not merely because it downloaded successfully.
 4. Set `exportedAt` to the actual export time. Update `lastReviewAt` and a factual
    `reviewNote` only for work actually performed. Also update `lastReviewAt:DE` / `reviewNote:DE` and/or
-   `lastReviewAt:FR` / `reviewNote:FR` and/or `lastReviewAt:NL` / `reviewNote:NL` only for the countries actually reviewed;
+   `lastReviewAt:FR` / `reviewNote:FR` and/or `lastReviewAt:NL` / `reviewNote:NL` and/or `lastReviewAt:CH` / `reviewNote:CH` only for the countries actually reviewed;
    the UI falls back to the preserved initial markers until a country is updated.
    Name coverage gaps,
    affected channels and unresolved facts. Do not claim full nationwide coverage.
@@ -180,3 +182,35 @@ and a scheduled council discussion remain pending until adoption is evidenced.
 The initial 14 explanations are historical backfill plus first discoveries. They
 do not establish that any date interval or topic is complete. Continue from the
 oldest uncovered date; preserve country-specific review times for untouched data.
+
+
+## Swiss cantonal review
+
+Follow all 82 entries in `swissDiscovery`: federal government, Fedlex, parliamentary
+business, federal popular votes, and each canton's government, legislation and
+parliament. Follow cantonal vote results and Landsgemeinde outcomes from those
+entries where relevant. Registration, a readable homepage, a rendered legal portal
+or one archived PDF does not establish a completed monitoring interval. Mark
+unreadable JavaScript shells and access failures honestly; do not archive them as
+successful document evidence. A separate readable PDF may substantiate a policy
+without resolving its discovery channel's coverage gap.
+
+Use ISO `CH-*` identities without applying French aliases. Preserve German,
+French, Italian or Romansh originals per document; a multilingual canton has no
+single inferred source language. Keep the real announcement title in intake,
+not the editorial policy label. Translate practical effects and exceptions into
+all three interface languages with version/hash bindings.
+
+Distinguish a government bill, parliamentary adoption, optional/mandatory popular
+votes, referendum deadlines and legal commencement. A returned Landsgemeinde bill
+is not adopted because other bills on the same agenda passed. Verify commencement
+separately; do not invent a day for a December payment or a tentative January
+start. Identify federal implementation in a cantonal view rather than relabelling
+it a new cantonal law. Keep partial commencement, transitional arrangements,
+sector-specific wages and eligibility exceptions explicit. Historical backfill
+never advances the monitoring interval beginning on 2026-10-02.
+
+The Swiss baseline is 28 explanations and eight original announcements, with no
+claim to inventory all policies. Revisit the five pending measures, the planned
+Vaud commencement, deferred Jura qualification clause, and approaching consultation
+deadlines. Preserve every other country's review markers on Swiss-only runs.

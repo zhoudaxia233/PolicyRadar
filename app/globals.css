@@ -369,7 +369,7 @@ dialog.drawer::backdrop{background:var(--backdrop)}
 .sidebar-count-note{font-size:11px;color:var(--muted);padding:6px 12px;line-height:1.6}
 .filter-summary{font-size:12px;color:var(--muted);margin:8px 0;overflow-wrap:anywhere}
 
-/* Language controls and longer translated labels retain their natural wrapping. */
+/* Compact controls stay on one line; longer page translations can wrap. */
 .compact-select{position:relative;flex-shrink:0;font-size:12px;font-weight:600;line-height:1;letter-spacing:.035em}
 .compact-select summary{display:flex;align-items:center;justify-content:space-between;gap:9px;height:34px;min-width:62px;padding:0 10px;list-style:none;cursor:pointer;color:var(--ink);background:var(--surface-2);border:1px solid var(--line);border-radius:7px;user-select:none}
 .compact-select summary:focus:not(:focus-visible){outline:none}
@@ -378,9 +378,10 @@ dialog.drawer::backdrop{background:var(--backdrop)}
 .compact-select[open] summary{border-color:var(--line-strong)}
 .compact-select[open] summary svg{transform:rotate(180deg)}
 .compact-select summary:hover{border-color:var(--line-strong)}
-.compact-options{position:absolute;right:0;top:calc(100% + 6px);z-index:30;min-width:max(82px,100%);padding:4px;background:var(--surface);border:1px solid var(--line-strong);border-radius:9px;box-shadow:0 8px 24px var(--shadow)}
+.compact-options{position:absolute;right:0;top:calc(100% + 6px);z-index:30;width:max-content;min-width:max(82px,100%);padding:4px;background:var(--surface);border:1px solid var(--line-strong);border-radius:9px;box-shadow:0 8px 24px var(--shadow)}
 .compact-select[data-align="left"] .compact-options{left:0;right:auto}
-.compact-options button{display:flex;align-items:center;justify-content:space-between;gap:16px;width:100%;height:32px;padding:0 9px;border-radius:5px;font:inherit;letter-spacing:inherit;color:var(--muted);background:transparent}
+.compact-options button{display:flex;align-items:center;justify-content:space-between;gap:16px;width:100%;height:32px;padding:0 9px;border-radius:5px;font:inherit;letter-spacing:inherit;white-space:nowrap;color:var(--muted);background:transparent}
+.compact-options button svg{flex-shrink:0}
 .compact-options button:hover,.compact-options button:focus-visible{background:var(--surface-2);color:var(--ink)}
 .compact-options button[aria-pressed="true"]{color:var(--accent);background:var(--accent-soft)}
 .compact-select summary:focus-visible,.compact-options button:focus-visible{outline:2px solid var(--focus);outline-offset:2px}

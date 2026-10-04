@@ -305,7 +305,7 @@ export const swissDiscovery = [
   },
   {
     "region": "CH-SZ",
-    "url": "https://www.sz.ch/behoerden/gesetzessammlung.html/8756-8758-8801",
+    "url": "https://www.sz.ch/kanton/gesetze.html/8756-8757-10021",
     "title": "施维茨：法律汇编",
     "publisher": "Schwyz",
     "kind": "law"

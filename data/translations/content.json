@@ -5150,5 +5150,45 @@
   "瑞士首批事实复核：联邦2项、26州各1项，共28项解释及8条原文公告。含待决和未来实施事项；全部82个来源渠道均未连续查全，部分入口读取受阻。市镇未独立接入。": [
     "Erste Schweizer Prüfung: zwei Bundes- und je eine kantonale Maßnahme, insgesamt 28 Erläuterungen und acht Originalmitteilungen, einschließlich offener und künftiger Regeln. Keiner der 82 Kanäle ist lückenlos geprüft; einige Zugriffe sind blockiert. Gemeinden sind nicht separat erfasst.",
     "Initial Swiss review: two federal measures and one per canton, totalling 28 explanations and eight original announcements, including pending and future rules. None of the 82 channels has continuous complete coverage; some access is blocked. Municipalities are not separately connected."
+  ],
+  "存档复核：仅有JavaScript提示或未加载的目录框架，没有可核对的法律或议案目录。": [
+    "Archivprüfung: Es liegen nur JavaScript-Hinweise oder ein nicht geladener Verzeichnisrahmen vor, kein prüfbares Gesetzes- oder Geschäftsverzeichnis.",
+    "Archive review: only JavaScript notices or an unloaded index shell are present, with no readable law or parliamentary-business index."
+  ],
+  "复核既有存档发现入口未加载法律或议案目录，撤销此前的成功标记并记为受阻。本次未重新抓取；历史存档和扫描保留，但不证明该期间已查全。": [
+    "Die Prüfung des vorhandenen Archivs ergab, dass kein Gesetzes- oder Geschäftsverzeichnis geladen wurde. Die frühere Erfolgsmarkierung wurde zurückgenommen und der Zugang als blockiert eingestuft. Es erfolgte kein erneuter Abruf; historische Archive und Prüfungen bleiben erhalten, belegen aber keine vollständige Abdeckung des Zeitraums.",
+    "Review of the existing archive found that the law or parliamentary-business index had not loaded. The previous success flag was withdrawn and the channel marked blocked. No new fetch was performed; historical archives and scans are retained but do not establish complete coverage of the period."
+  ],
+  "存档复核：旧法律汇编地址实际返回法院介绍页，已改用核实后的官方法律汇编入口。": [
+    "Archivprüfung: Die bisherige Adresse der Gesetzsammlung lieferte tatsächlich eine Gerichtsübersicht. Sie wurde durch den geprüften offiziellen Zugang zur Gesetzsammlung ersetzt.",
+    "Archive review: the former law-collection address actually returned a courts overview. It has been replaced with the verified official law-collection entry point."
+  ],
+  "已纠正法律汇编入口；本次下载返回HTTP 403，未保存成功原件，尚未核对目录、分页和具体法规。本期间保持受阻。": [
+    "Der Zugang zur Gesetzsammlung wurde korrigiert. Der Download lieferte HTTP 403; es wurde kein erfolgreich abgerufenes Original gespeichert. Verzeichnis, Folgeseiten und einzelne Erlasse wurden nicht geprüft. Der Zeitraum bleibt blockiert.",
+    "The law-collection entry point was corrected. The download returned HTTP 403, so no successfully fetched original was saved. The index, pagination and individual enactments have not been reviewed; the period remains blocked."
+  ],
+  "补齐已确认生效日期的提醒": [
+    "Erinnerung an den bestätigten Inkraftsetzungstermin ergänzt",
+    "Reminder added for the confirmed commencement date"
+  ],
+  "信息安全规则生效": [
+    "Informationssicherheitsregeln treten in Kraft",
+    "Information-security rules take effect"
+  ],
+  "官方已确定2026年11月1日生效；本次补齐下一节点提醒，原生效日期及历史事件不变。": [
+    "Das Inkrafttreten am 1. November 2026 ist amtlich bestätigt. Diese Korrektur ergänzt die Erinnerung an den nächsten Termin; das ursprüngliche Inkraftsetzungsdatum und die historischen Ereignisse bleiben unverändert.",
+    "Commencement on 1 November 2026 is officially confirmed. This correction adds the next-milestone reminder; the original effective date and historical events remain unchanged."
+  ],
+  "2027年医保补贴参数适用": [
+    "Prämienverbilligungsparameter 2027 gelten",
+    "2027 premium-subsidy parameters apply"
+  ],
+  "官方已确定2027年度补贴参数；本次补齐2027年1月1日的下一节点提醒，原适用日期及历史事件不变。": [
+    "Die Prämienverbilligungsparameter für 2027 sind amtlich festgelegt. Diese Korrektur ergänzt die Erinnerung für den 1. Januar 2027; das ursprüngliche Anwendungsdatum und die historischen Ereignisse bleiben unverändert.",
+    "The premium-subsidy parameters for 2027 are officially set. This correction adds the reminder for 1 January 2027; the original application date and historical events remain unchanged."
+  ],
+  "瑞士定向复核：纠正4个未加载目录入口的成功标记和施维茨法律汇编地址，补齐伯尔尼及苏黎世已确定日期的提醒。施维茨新入口下载返回HTTP 403；旧存档与历史扫描保留。28项解释及8条公告未扩增，全部82个渠道仍未连续查全，市镇未独立接入。": [
+    "Gezielte Schweizer Prüfung: Erfolgsmarkierungen von vier nicht geladenen Verzeichniszugängen und die Adresse der Schwyzer Gesetzsammlung wurden korrigiert; Erinnerungen an bestätigte Termine in Bern und Zürich wurden ergänzt. Der neue Schwyzer Zugang lieferte beim Download HTTP 403. Alte Archive und historische Prüfungen bleiben erhalten. Die 28 Erläuterungen und acht Meldungen wurden nicht erweitert; für keinen der 82 Kanäle ist eine lückenlose Abdeckung belegt. Gemeinden sind nicht eigenständig angebunden.",
+    "Targeted Swiss review: corrected success flags for four unloaded index portals and the Schwyz law-collection address, and added reminders for confirmed dates in Bern and Zurich. Downloading the new Schwyz entry point returned HTTP 403. Old archives and historical scans are retained. The 28 explanations and eight announcements were not expanded; none of the 82 channels has complete continuous coverage. Municipalities are not connected separately."
   ]
 }

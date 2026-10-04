@@ -23,7 +23,7 @@ up from stored coverage, rather than skip to the latest week.
    Germany’s federation and all sixteen states, plus France’s national level and
    all 18 registered regional geographic areas, and the Netherlands’ national level
    plus all 12 European provinces, Switzerland’s federation and all 26 cantons,
-   and Italy’s national level and all 20 regions,
+   and Italy’s national level and all 20 regions, plus the EU supranational level,
    across all policy topics. French
    departments, municipalities and other special overseas territories are not
    independently connected. Dutch municipalities, water authorities, Caribbean
@@ -81,6 +81,17 @@ up from stored coverage, rather than skip to the latest week.
    Every dated next step requires `nextKind`: `implementation`, `scheduled`,
    `expiry`, or `deadline`. A deadline passing means follow-up is unverified;
    it does not prove an application closed or a pending measure passed.
+   Revisit every approaching or elapsed `nextDate`, including dates missed by a
+   delayed run. For phased implementation, recheck the official timetable and
+   advance `nextDate` / `nextLabel` to the earliest remaining applicable milestone,
+   retaining `nextKind: "implementation"` and `status: "phased"` while further
+   stages remain. Save a new version, revision and reviewed translation binding.
+   A scheduled event alone does not advance the card or the Coming up panel:
+   both read the saved `nextDate`. Preserve earlier scheduled events; only append
+   confirmed outcomes when evidence supports them. A passed implementation date
+   does not prove that providers complied. If a review cannot resolve the next
+   step, retain the evidence and record that uncertainty instead of claiming that
+   all implementation is complete.
    Do not invent an exact date for a month-only payment or expected implementation. Preserve every
    old policy, revision, discovery, scan and snapshot row. Reuse existing policy
    IDs for the same tracked measure. Only advance `verifiedAt` after substantive
@@ -89,7 +100,7 @@ up from stored coverage, rather than skip to the latest week.
 4. Set `exportedAt` to the actual export time. Preserve historical `lastReviewAt` and
    `reviewNote` only in legacy exports; do not write these global keys in new
    exports. Update `lastReviewAt:DE` / `reviewNote:DE` and/or
-   `lastReviewAt:FR` / `reviewNote:FR` and/or `lastReviewAt:NL` / `reviewNote:NL` and/or `lastReviewAt:CH` / `reviewNote:CH` and/or `lastReviewAt:IT` / `reviewNote:IT` only for the countries actually reviewed;
+   `lastReviewAt:FR` / `reviewNote:FR` and/or `lastReviewAt:NL` / `reviewNote:NL` and/or `lastReviewAt:CH` / `reviewNote:CH` and/or `lastReviewAt:IT` / `reviewNote:IT` and/or `lastReviewAt:EU` / `reviewNote:EU` only for the countries actually reviewed;
    the UI falls back to the preserved initial markers until a country is updated.
    Name coverage gaps,
    affected channels and unresolved facts. Do not claim full nationwide coverage.
@@ -279,3 +290,52 @@ bilingual institutional names. Cabinet approval of a bill is not parliamentary
 adoption; distinguish decree-law commencement, conversion and expiry.
 The initial parental-leave explanation is historical backfill, not evidence of
 a complete monitoring scan since 2026-10-02.
+
+## European Union review
+
+Use the EU channels in the registry for regulations, directives, decisions and
+proposals. Distinguish legal instruments: regulations are directly applicable;
+directives require national transposition; decisions can address specific parties.
+Use `effectiveDateKind: "application"` when the card date is the start of applying
+requirements rather than legal commencement; omit it for legacy commencement dates.
+Do not substitute an application date for the act’s entry into force.
+Verify adoption, publication, entry into force, application dates and transposition
+deadlines separately. A directive deadline does not prove national implementation.
+Do not assume that EU membership, the euro area, EEA or SEPA participation have
+identical legal scope; non-members such as Switzerland are not automatically covered.
+
+Store each EU measure once under region `EU`. National implementing laws are
+separate measures, with their own evidence and dates. The first version does not
+automatically include EU records in national views or claim national transposition
+coverage. Preserve the other countries' records and review markers on EU-only runs.
+
+The first three explanations are historical backfill, not a completed scan since
+2026-10-02. Their evidence consists of archived Commission, ECB and Bundesnetzagentur explanations.
+EUR-Lex document downloads returned empty HTTP 202 responses during intake; those
+responses are not legal-text snapshots. Follow the law links on the official
+explanation pages and obtain the authoritative text when access permits. Do not
+bypass access restrictions or label explanatory pages as the legal text.
+
+For instant euro payments, the recorded implementation sequence is 9 January 2027
+(non-euro area receipt and charges), 9 April 2027 (electronic money/payment
+institutions' receipt and euro area sending), 9 July 2027 (non-euro area sending
+and payee verification), then 9 June 2028 (the specific non-euro national-currency
+account exception outside business hours). At each review, verify and advance the
+next step as above; do not leave it at January once that milestone has passed.
+
+The initial EU addition has four validated selections: `2026-10-04-eu-130806`,
+`2026-10-04-eu-date-review-131101`, `2026-10-04-eu-roaming-review-132839`, then
+`2026-10-04-eu-payment-review-134352`.
+Preserve that order in separate commits when publishing: all three policies start
+at version 1, the date-kind correction advances the charger to version 2, and the
+commencement-title correction and expiry addition advance roaming to version 2.
+Completing the later payment milestones advances instant payments to version 2.
+The original roaming event remains in history and is superseded by the corrected
+event. Bind translations to the selected version in each commit. German and
+English wording-only corrections in the translation catalog do not alter the
+canonical record hash, policy version or export.
+
+When merging is authorized, select **Create a merge commit**. Squashing would make
+all three EU policies first enter selected history at version 2 and fail the
+first-version gate. The PR workflow validates the existing commit history; it does
+not prevent choosing squash in GitHub's merge UI. Preserve all four transitions.

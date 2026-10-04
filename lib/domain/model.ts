@@ -5,9 +5,9 @@ import { z } from 'zod';
 import {currentRecords} from './corrections.ts';
 import {dutchProvinces} from './netherlands.ts';
 import {frenchRegions} from './france.ts';
-export const regions = [{id:'IT',name:'意大利全国层面',de:'Nationale Ebene',en:'National level',originalName:'Italia',originalLanguage:'it'}, ...italianRegions, {id:'CH',name:'瑞士联邦',de:'Bund',en:'Federal government',originalName:'Schweizerische Eidgenossenschaft / Confédération suisse / Confederazione Svizzera / Confederaziun svizra',originalLanguage:'und'}, ...swissCantons, {id:'NL',name:'荷兰全国层面',de:'Nationale Ebene',nl:'Landelijk niveau',en:'National level'}, ...dutchProvinces, {id:'FR',name:'法国全国层面',de:'Nationale Ebene',fr:'Niveau national',en:'National level'}, ...frenchRegions, {id:'DE',name:'德国联邦',de:'Bund',en:"Federal government"}, {id:'DE-HE',name:'黑森',de:'Hessen',en:"Hesse"}, {id:'DE-BY',name:'巴伐利亚',de:'Bayern',en:"Bavaria"}, {id:'DE-BW',name:'巴登-符腾堡',de:'Baden-Württemberg',en:"Baden-Württemberg"}, {id:'DE-BE',name:'柏林',de:'Berlin',en:"Berlin"}, {id:'DE-BB',name:'勃兰登堡',de:'Brandenburg',en:"Brandenburg"}, {id:'DE-HB',name:'不来梅',de:'Bremen',en:"Bremen"}, {id:'DE-HH',name:'汉堡',de:'Hamburg',en:"Hamburg"}, {id:'DE-MV',name:'梅克伦堡-前波美拉尼亚',de:'Mecklenburg-Vorpommern',en:"Mecklenburg-Western Pomerania"}, {id:'DE-NI',name:'下萨克森',de:'Niedersachsen',en:"Lower Saxony"}, {id:'DE-NW',name:'北莱茵-威斯特法伦',de:'Nordrhein-Westfalen',en:"North Rhine-Westphalia"}, {id:'DE-RP',name:'莱茵兰-普法尔茨',de:'Rheinland-Pfalz',en:"Rhineland-Palatinate"}, {id:'DE-SL',name:'萨尔',de:'Saarland',en:"Saarland"}, {id:'DE-SN',name:'萨克森',de:'Sachsen',en:"Saxony"}, {id:'DE-ST',name:'萨克森-安哈尔特',de:'Sachsen-Anhalt',en:"Saxony-Anhalt"}, {id:'DE-SH',name:'石勒苏益格-荷尔斯泰因',de:'Schleswig-Holstein',en:"Schleswig-Holstein"}, {id:'DE-TH',name:'图林根',de:'Thüringen',en:"Thuringia"}];
+export const regions = [{id:'EU',name:'欧盟层面',de:'EU-Ebene',en:'EU level',originalName:'European Union',originalLanguage:'en'}, {id:'IT',name:'意大利全国层面',de:'Nationale Ebene',en:'National level',originalName:'Italia',originalLanguage:'it'}, ...italianRegions, {id:'CH',name:'瑞士联邦',de:'Bund',en:'Federal government',originalName:'Schweizerische Eidgenossenschaft / Confédération suisse / Confederazione Svizzera / Confederaziun svizra',originalLanguage:'und'}, ...swissCantons, {id:'NL',name:'荷兰全国层面',de:'Nationale Ebene',nl:'Landelijk niveau',en:'National level'}, ...dutchProvinces, {id:'FR',name:'法国全国层面',de:'Nationale Ebene',fr:'Niveau national',en:'National level'}, ...frenchRegions, {id:'DE',name:'德国联邦',de:'Bund',en:"Federal government"}, {id:'DE-HE',name:'黑森',de:'Hessen',en:"Hesse"}, {id:'DE-BY',name:'巴伐利亚',de:'Bayern',en:"Bavaria"}, {id:'DE-BW',name:'巴登-符腾堡',de:'Baden-Württemberg',en:"Baden-Württemberg"}, {id:'DE-BE',name:'柏林',de:'Berlin',en:"Berlin"}, {id:'DE-BB',name:'勃兰登堡',de:'Brandenburg',en:"Brandenburg"}, {id:'DE-HB',name:'不来梅',de:'Bremen',en:"Bremen"}, {id:'DE-HH',name:'汉堡',de:'Hamburg',en:"Hamburg"}, {id:'DE-MV',name:'梅克伦堡-前波美拉尼亚',de:'Mecklenburg-Vorpommern',en:"Mecklenburg-Western Pomerania"}, {id:'DE-NI',name:'下萨克森',de:'Niedersachsen',en:"Lower Saxony"}, {id:'DE-NW',name:'北莱茵-威斯特法伦',de:'Nordrhein-Westfalen',en:"North Rhine-Westphalia"}, {id:'DE-RP',name:'莱茵兰-普法尔茨',de:'Rheinland-Pfalz',en:"Rhineland-Palatinate"}, {id:'DE-SL',name:'萨尔',de:'Saarland',en:"Saarland"}, {id:'DE-SN',name:'萨克森',de:'Sachsen',en:"Saxony"}, {id:'DE-ST',name:'萨克森-安哈尔特',de:'Sachsen-Anhalt',en:"Saxony-Anhalt"}, {id:'DE-SH',name:'石勒苏益格-荷尔斯泰因',de:'Schleswig-Holstein',en:"Schleswig-Holstein"}, {id:'DE-TH',name:'图林根',de:'Thüringen',en:"Thuringia"}];
 // Subdivisions use ISO 3166-2; INSEE codes are separate French metadata.
-// A bare country code denotes the national level; every region retains the country prefix.
+// A bare country code denotes the national level; EU denotes the supranational level.
 export {countries} from './countries.ts';
 export const countryOf = (region:string) => region.slice(0,2);
 export const dateSchema = z.string().regex(/^\d{4}-\d{2}-\d{2}$/).refine(v => !Number.isNaN(Date.parse(v)) && new Date(v).toISOString().slice(0,10) === v, 'Invalid date');
@@ -21,6 +21,8 @@ export const policySchema = z.object({
  originalLanguage:z.string().regex(/^[a-z]{2,3}(?:-[A-Za-z0-9]+)*$/).optional(),
  id:z.string().regex(/^[a-z0-9-]+$/), officialId:text,title:text,originalTitle:text,region:z.string().refine(r=>regions.some(x=>x.id===r)),topic:z.string().trim().min(1).max(60),tags:tagsSchema.optional(),
  phase:z.enum(['adopted','pending','closed']),status:z.union([statusCodeSchema,z.string().refine(s=>Object.hasOwn(legacyStatus,s),'Unknown legacy status')]),statusNote:text.optional(),nextKind:z.enum(['implementation','scheduled','expiry','deadline']).optional(),summary:text,before:text,after:text,impact:text,limits:text,
+ // Omitted kind preserves legacy commencement semantics. Application is not legal entry into force.
+ effectiveDateKind:z.enum(['commencement','application']).optional(),
  verifiedAt:date,lastEventDate:date,effectiveDate:date.nullable(),nextDate:date.nullable(),nextLabel:z.string().max(200),
  disputed:z.boolean(),dispute:z.string().max(6000),sources:z.array(sourceSchema).min(1).max(20),
  rules:z.array(z.object({title:text,detail:text,sourceId:z.string()})).max(8).optional(),
@@ -31,6 +33,7 @@ export const policySchema = z.object({
  }).optional(),
  events:z.array(z.object({id:z.string().regex(/^[a-z0-9-]+$/),supersedes:z.string().optional(),date,kind:z.enum(['proposal','adopted','published','effective','scheduled','withdrawn','correction','closed']),title:text,detail:text,sourceId:z.string()})).min(1).max(100)
 }).superRefine((p,c)=>{
+ if(p.effectiveDateKind&&!p.effectiveDate)c.addIssue({code:'custom',message:'Date kind requires an effective date'});
  let events;
  try{events=currentRecords(p.events);}catch(error){c.addIssue({code:'custom',message:(error as Error).message});return;}
  const sourceIds=new Set(p.sources.map(s=>s.id));
@@ -43,9 +46,14 @@ export const policySchema = z.object({
  if(p.lastEventDate>p.verifiedAt)c.addIssue({code:'custom',message:'Last confirmed event cannot be in future'});
 });
 export type Policy=z.infer<typeof policySchema>;
-export function effectiveDateLabel(p:Policy){return p.effectiveDate?'本次改动开始生效':'最近已确认进展';}
+function resolvedNextKind(p:Policy){return p.nextKind??legacyNextKind[p.nextLabel as keyof typeof legacyNextKind]??'scheduled';}
+export function nextStepLabel(p:Policy){
+ if(p.phase==='pending')return '待表决 / 待确认';
+ return ({expiry:'法定到期日',deadline:'截止日期',implementation:'已确定的实施节点',scheduled:'已公布的后续安排'} as const)[resolvedNextKind(p)];
+}
+export function effectiveDateLabel(p:Policy){return p.effectiveDate?(p.effectiveDateKind==='application'?'本次要求开始适用':'本次改动开始生效'):'最近已确认进展';}
 // The date a reader cares about first: a near-term next step, otherwise when the change took effect.
-export function keyDate(p:Policy,today:string){const soon=!!p.nextDate&&p.nextDate>=today&&(!p.effectiveDate||Date.parse(p.nextDate)-Date.parse(today)<=120*864e5);return soon?{date:p.nextDate!,label:p.nextLabel??'下一步',kind:'next' as const}:{date:p.effectiveDate??p.lastEventDate,label:effectiveDateLabel(p),kind:p.effectiveDate?'effective' as const:'progress' as const};}
+export function keyDate(p:Policy,today:string){const soon=!!p.nextDate&&p.nextDate>=today&&(!p.effectiveDate||Date.parse(p.nextDate)-Date.parse(today)<=120*864e5);return soon?{date:p.nextDate!,label:p.nextLabel??'下一步',kind:'next' as const}:{date:p.effectiveDate??p.lastEventDate,label:effectiveDateLabel(p),kind:p.effectiveDate?(p.effectiveDateKind==='application'?'application' as const:'effective' as const):'progress' as const};}
 export const importSchema=z.object({policies:z.array(policySchema).max(50),expectedVersions:z.record(z.number().int().min(0))});
 export function validateRevision(old:Policy, next:Policy){
  if(old.id!==next.id||old.officialId!==next.officialId)throw new Error('Stable identity cannot change');
@@ -59,13 +67,18 @@ export function policyStatusNote(p:Policy){
 }
 export function lifecycle(p:Policy,today:string){
  const code=legacyStatus[p.status as keyof typeof legacyStatus]??p.status;
- const nextKind=p.nextKind??legacyNextKind[p.nextLabel as keyof typeof legacyNextKind]??'scheduled';
+ const nextKind=resolvedNextKind(p);
  const nextPassed=!!p.nextDate&&p.nextDate<today;
  if(code==='application_closed')return '本轮申请已结束';
  if(p.phase==='closed')return '已结束';
  if(p.phase!=='adopted')return nextPassed?'已过计划日期 · 结果待核实':'尚未通过';
  if(nextPassed&&['expiry','deadline'].includes(nextKind))return code==='application_announced'?'申请安排已公布 · 期限已到，后续待核实':'已通过 · 期限已到，后续待核实';
  if(code==='application_announced')return nextPassed?'申请安排已公布 · 后续进展待核实':'申请安排已公布';
+ if(p.effectiveDate&&p.effectiveDateKind==='application'){
+  if(p.effectiveDate>today)return '已通过 · 待适用';
+  if(code==='temporary')return '已适用 · 临时措施';
+  return code==='phased'&&p.nextDate&&p.nextDate>today?'已适用 · 分步实施':'已适用';
+ }
  if(p.effectiveDate&&p.effectiveDate>today)return '已通过 · 待生效';
  if(p.effectiveDate&&code==='temporary')return '已生效 · 临时措施';
  if(p.effectiveDate)return code==='phased'&&p.nextDate&&p.nextDate>today?'已生效 · 分步实施':'已生效';

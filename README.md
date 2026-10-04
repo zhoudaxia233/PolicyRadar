@@ -1,10 +1,12 @@
 # Policy Radar
 
-Track policy changes in Germany, France, the Netherlands, Switzerland and Italy, with Chinese, German and English explanations, official sources and policy timelines.
+Track policy changes in Germany, France, the Netherlands, Switzerland, Italy and the European Union, with Chinese, German and English explanations, official sources and policy timelines.
 
 A static website with browser-side search and filters. No login, database or application server required.
 
 ## Coverage
+
+- European Union: a separate supranational level, with three initial historical explanations (roaming, instant euro payments and the common charger). Official EU discovery channels are registered; exhaustive monitoring and national transposition checks remain incomplete. EU policies are stored once in the EU view, without duplicating them as national measures.
 
 - Germany: federal level and all 16 states.
 - France: national level and 18 regional geographic areas.

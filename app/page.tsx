@@ -2,7 +2,7 @@
 import {PolicyStatusNote} from './policy-status-note';
 import { useEffect, useMemo, useState, useRef, type ReactNode } from 'react';
 import { Radar, LayoutDashboard, Clock3, Activity, Database, Search, ChevronRight, ChevronDown, ExternalLink, Download, RefreshCw, MapPin, CalendarDays, FileText, X, ShieldCheck, AlertCircle, Layers, Sun, Moon, Monitor } from 'lucide-react';
-import { regions, countries, countryOf, keyDate, policyTags, lifecycle, type Policy } from '../lib/domain/model';
+import { regions, countries, countryOf, keyDate, policyTags, lifecycle, nextStepLabel, type Policy } from '../lib/domain/model';
 import { trackingStart, type IntakeRecord, type coverageRows } from '../lib/domain/intake';
 import { IntakeView } from './intake-view';
 import { LanguageSwitch } from './language-switch';
@@ -363,7 +363,7 @@ export default function Home() {
           <ChevronRight size={14} className="crumb-sep" />
           <CompactSelect
             value={country}
-            label={tr("国家")}
+            label={tr("国家／地区")}
             align="left"
             onChange={value => {
               setCountry(value);
@@ -750,7 +750,7 @@ export default function Home() {
                         {formatDate(k.date, locale, { year: 'numeric', month: 'short' })}
                       </span>
                       <em>
-                        {k.kind === 'next' ? tr("下一步") : k.kind === 'effective' ? tr("生效") : tr("进展")}
+                        {k.kind === 'next' ? tr("下一步") : k.kind === 'effective' ? tr("生效") : k.kind === 'application' ? tr("适用") : tr("进展")}
                       </em>
                     </div>;
                   })()}
@@ -824,7 +824,7 @@ export default function Home() {
                 </div>
                 <div>
                   <span className={'mini-label ' + (p.phase === 'pending' ? 'amber-text' : '')}>
-                    {p.phase === 'pending' ? tr("待表决 / 待确认") : tr("已确定的实施节点")}
+                    {tr(nextStepLabel(canonicalItems.find(original=>original.id===p.id)??p))}
                   </span>
                   <h3 lang={explanationLang(p)}>
                     {p.nextLabel}
@@ -920,7 +920,7 @@ export default function Home() {
             <CalendarDays size={18} />
             <div>
               <strong>
-                {selected.effectiveDate ? tr("本次改动开始生效：") + fmt(selected.effectiveDate) : selected.phase === 'pending' ? tr("尚未确认通过，没有已生效日期") : tr("开始生效日期尚待核实")}
+                {selected.effectiveDate ? tr(selected.effectiveDateKind === 'application' ? "本次要求开始适用：" : "本次改动开始生效：") + fmt(selected.effectiveDate) : selected.phase === 'pending' ? tr("尚未确认通过，没有已生效日期") : tr("开始生效日期尚待核实")}
               </strong>
               <p lang={explanationLang(selected)}>
                 {selected.dateExplanation ?? tr("这里记录本次改动的开始生效日期；期限结束和后续步骤在下方时间线单独列出。")}

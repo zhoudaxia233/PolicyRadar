@@ -6342,5 +6342,325 @@
   "INPS说明属于政府机构公告；众议院税制说明仍归类为议会资料。税率、适用范围及日期未变。": [
     "Die INPS-Erläuterung ist eine Behördenmitteilung; die Steuerübersicht der Abgeordnetenkammer bleibt eine parlamentarische Quelle. Steuersätze, Geltungsbereich und Daten sind unverändert.",
     "The INPS explanation is a government-agency notice; the Chamber of Deputies tax overview remains a parliamentary source. Rates, scope and dates are unchanged."
+  ],
+  "EUR-Lex 原文下载返回空的 HTTP 202 响应；未保存为成功证据。": [
+    "Der EUR-Lex-Download lieferte eine leere HTTP-202-Antwort; sie wurde nicht als erfolgreicher Beleg gespeichert.",
+    "The EUR-Lex document download returned an empty HTTP 202 response; it was not saved as successful evidence."
+  ],
+  "欧盟委员会": [
+    "Europäische Kommission",
+    "European Commission"
+  ],
+  "欧洲中央银行": [
+    "Europäische Zentralbank",
+    "European Central Bank"
+  ],
+  "已核读并归档官方说明页；该页提供法律链接，但说明页不是法律原文。EUR-Lex 原文下载受阻。": [
+    "Die amtliche Erläuterungsseite wurde geprüft und archiviert. Sie verlinkt den Rechtsakt, ist aber nicht der Rechtstext. Der EUR-Lex-Download war nicht zugänglich.",
+    "The official explanation was reviewed and archived. It links to the act but is not the legal text. The EUR-Lex document download was inaccessible."
+  ],
+  "法律类型与适用范围": [
+    "Rechtsform und Geltungsbereich",
+    "Legal form and scope"
+  ],
+  "生效与开始适用": [
+    "Inkrafttreten und Anwendungsbeginn",
+    "Entry into force and application"
+  ],
+  "要求开始适用": [
+    "Beginn der Anwendung der Anforderungen",
+    "Requirements start applying"
+  ],
+  "欧盟法规。本条介绍欧盟内临时旅行的漫游规则；不要把欧盟、欧洲经济区与其他协议覆盖地区混为一谈，瑞士不自动包含。": [
+    "EU-Verordnung. Dieser Eintrag behandelt Roaming bei vorübergehenden Reisen innerhalb der EU. EU, EWR und durch andere Abkommen erfasste Gebiete sind zu unterscheiden; die Schweiz ist nicht automatisch erfasst.",
+    "EU regulation. This entry covers roaming during temporary travel within the EU. EU, EEA and territories covered by other agreements differ; Switzerland is not automatically included."
+  ],
+  "2022-07-01 是修订后漫游规则的生效日期；欧盟委员会确认“像在家一样漫游”延长至2032年。这是历史补录，不是2026年新通过的法律。": [
+    "Die überarbeiteten Roaming-Regeln traten am 01.07.2022 in Kraft. Die Kommission bestätigt die Verlängerung von „Roam like at home“ bis 2032. Dies ist ein historischer Eintrag, kein 2026 neu verabschiedetes Gesetz.",
+    "The revised roaming rules entered into force on 1 July 2022. The Commission confirms that roam-like-at-home was extended until 2032. This is historical backfill, not a law newly adopted in 2026."
+  ],
+  "欧盟漫游规则延长至2032年": [
+    "EU-Roaming-Regeln bis 2032 verlängert",
+    "EU roaming rules extended until 2032"
+  ],
+  "通信与数字生活": [
+    "Telekommunikation und digitaler Alltag",
+    "Telecommunications and digital life"
+  ],
+  "在欧盟内临时旅行时，通常按本国套餐价格通话、发短信和上网；2022年起延续并加强服务质量与费用提示保障。": [
+    "Bei vorübergehenden Reisen in der EU gelten in der Regel die Preise des Heimattarifs für Anrufe, SMS und Daten. Seit 2022 wurden die Regeln verlängert und die Vorgaben zu Qualität und Kostenhinweisen verbessert.",
+    "During temporary travel within the EU, calls, texts and data generally use domestic tariff prices. From 2022, the rules were extended with stronger quality and cost-information safeguards."
+  ],
+  "欧盟自2017年已取消一般零售漫游附加费；本次是延续和加强既有安排。": [
+    "Die EU schaffte allgemeine Endkunden-Roamingaufschläge bereits 2017 ab; diese Änderung verlängert und stärkt die bestehenden Regeln.",
+    "The EU had already removed general retail roaming surcharges in 2017; this change extends and strengthens existing arrangements."
+  ],
+  "在技术可行时，漫游服务质量应与本国相当；运营商须提示公平使用额度、增值号码及飞机或船上的非地面网络费用。": [
+    "Soweit technisch möglich, soll die Roaming-Qualität der im Heimatland entsprechen. Anbieter müssen über Fair-Use-Grenzen, Mehrwertnummern und Kosten nicht-terrestrischer Netze in Flugzeugen oder auf Schiffen informieren.",
+    "Where technically possible, roaming quality should match the domestic service. Operators must provide information on fair-use limits, premium numbers and non-terrestrial network costs on aircraft or ships."
+  ],
+  "旅行前查看套餐的漫游流量额度和例外；不要假定船上、机上卫星网络也按本国价格收费。": [
+    "Prüfen Sie vor Reisen Datenlimits und Ausnahmen Ihres Tarifs. Satellitennetze auf Schiffen oder in Flugzeugen sind nicht automatisch zum Heimattarif nutzbar.",
+    "Check your plan’s roaming data allowance and exceptions before travel. Satellite networks on ships or aircraft are not automatically charged at domestic rates."
+  ],
+  "适用于临时旅行，不支持长期在国外永久漫游；公平使用限制仍可适用。增值服务与非地面网络可能另收费；不等于所有跨国电话免费。": [
+    "Die Regel gilt für vorübergehende Reisen, nicht für dauerhaftes Roaming im Ausland. Fair-Use-Grenzen bleiben möglich. Mehrwertdienste und nicht-terrestrische Netze können zusätzlich kosten; nicht alle Auslandsgespräche sind kostenlos.",
+    "The rules cover temporary travel, not permanent roaming abroad. Fair-use limits can still apply. Premium services and non-terrestrial networks may cost extra; this does not make all international calls free."
+  ],
+  "欧盟委员会：漫游范围与例外": [
+    "Europäische Kommission: Roaming-Geltungsbereich und Ausnahmen",
+    "European Commission: roaming scope and exceptions"
+  ],
+  "欧盟委员会：2022年漫游规则延长公告": [
+    "Europäische Kommission: Mitteilung zur Verlängerung der Roaming-Regeln 2022",
+    "European Commission: 2022 roaming extension announcement"
+  ],
+  "欧盟法规，针对欧元转账；不能把所有欧盟货币或所有 SEPA 参与国视为具有相同适用期限。电子货币机构与支付机构有单独过渡期。": [
+    "EU-Verordnung für Überweisungen in Euro. Nicht alle EU-Währungen oder SEPA-Teilnehmerländer haben dieselben Anwendungsfristen. Für E-Geld- und Zahlungsinstitute gelten besondere Übergangsfristen.",
+    "EU regulation concerning euro credit transfers. Not all EU currencies or SEPA participant countries share the same application deadlines. Electronic money and payment institutions have separate transition periods."
+  ],
+  "法规于2024-04-08生效。欧元区一般支付服务商须于2025-01-09前提供收款并满足费用要求，于2025-10-09前提供付款和收款人核验；生效日不等于全部义务同日适用。": [
+    "Die Verordnung trat am 08.04.2024 in Kraft. Für Zahlungsdienstleister im Euroraum gelten grundsätzlich der 09.01.2025 für Empfang und Entgelte sowie der 09.10.2025 für Versand und Empfängerüberprüfung; nicht alle Pflichten beginnen mit dem Inkrafttreten.",
+    "The regulation entered into force on 8 April 2024. The general euro-area deadlines are 9 January 2025 for receiving payments and charges, and 9 October 2025 for sending payments and payee verification; entry into force does not start every obligation at once."
+  ],
+  "非欧元区：接收欧元即时转账及费用要求": [
+    "Nicht-Euroraum: Empfang von Euro-Echtzeitüberweisungen und Entgelte",
+    "Non-euro area: receiving instant euro transfers and charges"
+  ],
+  "非欧元区一般服务商接收和费用期限为2027-01-09，发送及收款人核验为2027-07-09。电子货币／支付机构接收期限为2027-04-09，发送期限在欧元区为2027-04-09、非欧元区为2027-07-09。部分非欧元本币账户营业时间外发送另有2028-06-09期限；未核查每家机构的实际履行。": [
+    "Für Anbieter außerhalb des Euroraums gelten grundsätzlich der 09.01.2027 für Empfang und Entgelte und der 09.07.2027 für Versand und Empfängerüberprüfung. E-Geld- und Zahlungsinstitute müssen ab 09.04.2027 empfangen und im Euroraum ab 09.04.2027, außerhalb ab 09.07.2027 senden. Für bestimmte Konten in nationaler Währung außerhalb des Euroraums gilt außerhalb der Geschäftszeiten der 09.06.2028. Die tatsächliche Umsetzung einzelner Anbieter wurde nicht geprüft.",
+    "General non-euro-area deadlines are 9 January 2027 for receiving and charges, and 9 July 2027 for sending and payee verification. Electronic money and payment institutions must receive by 9 April 2027 and send by 9 April 2027 in the euro area or 9 July 2027 outside it. Certain national-currency accounts outside the euro area have a 9 June 2028 deadline for sending outside business hours. Individual providers’ actual compliance was not checked."
+  ],
+  "欧元即时转账：费用不得高于对应普通转账": [
+    "Euro-Echtzeitüberweisungen: keine höheren Entgelte als für entsprechende Standardüberweisungen",
+    "Instant euro transfers: charges cannot exceed corresponding standard transfers"
+  ],
+  "银行与支付": [
+    "Banken und Zahlungsverkehr",
+    "Banking and payments"
+  ],
+  "欧盟分阶段要求提供欧元即时收付款、限制额外费用，并提供免费的收款人核验服务；欧元区与非欧元区期限不同。": [
+    "Die EU führt stufenweise Pflichten für Euro-Echtzeitüberweisungen, begrenzte Entgelte und eine kostenlose Empfängerüberprüfung ein. Die Fristen im und außerhalb des Euroraums unterscheiden sich.",
+    "The EU phases in instant euro sending and receiving, limits on charges and free payee verification. Euro-area and non-euro-area deadlines differ."
+  ],
+  "提供普通欧元转账不意味着此前必须同时提供即时转账；即时转账也可能收费更高。": [
+    "Das Angebot gewöhnlicher Euro-Überweisungen verpflichtete zuvor nicht automatisch zum Angebot von Echtzeitüberweisungen; diese konnten teurer sein.",
+    "Offering standard euro transfers did not previously automatically require offering instant transfers, which could also carry higher charges."
+  ],
+  "相关服务商须按适用期限提供即时转账；收费不得高于同类普通转账。收款人核验适用于普通及即时转账，并向付款人免费提供。": [
+    "Betroffene Anbieter müssen Echtzeitüberweisungen nach den jeweiligen Fristen anbieten, ohne höhere Entgelte als für entsprechende Standardüberweisungen. Die kostenlose Empfängerüberprüfung gilt für gewöhnliche und Echtzeitüberweisungen.",
+    "Covered providers must offer instant transfers by the applicable deadlines, charging no more than for corresponding standard transfers. Free payee verification covers standard and instant transfers."
+  ],
+  "使用银行服务时，可比较即时与普通转账费用，并查看收款人姓名与账户信息是否匹配的提示；不代表所有转账一律免费。": [
+    "Vergleichen Sie Entgelte für Echtzeit- und Standardüberweisungen und beachten Sie Hinweise zum Abgleich von Empfängername und Kontodaten. Nicht jede Überweisung ist dadurch kostenlos.",
+    "Compare instant and standard transfer charges and check the result of matching the payee’s name and account details. This does not make every transfer free."
+  ],
+  "欧洲央行：即时支付要求与分阶段期限": [
+    "EZB: Anforderungen und Fristen für Echtzeitüberweisungen",
+    "ECB: instant payment requirements and phased deadlines"
+  ],
+  "欧盟委员会：即时支付法规生效说明": [
+    "Europäische Kommission: Inkrafttreten der Echtzeitüberweisungsverordnung",
+    "European Commission: entry into force of the Instant Payments Regulation"
+  ],
+  "后续期限与机构例外": [
+    "Weitere Fristen und Ausnahmen für Institute",
+    "Later deadlines and institution-specific exceptions"
+  ],
+  "法规生效": [
+    "Inkrafttreten der Verordnung",
+    "Regulation enters into force"
+  ],
+  "欧盟委员会确认法规于2024-04-08生效，各项义务分阶段适用。": [
+    "Die Kommission bestätigt das Inkrafttreten am 08.04.2024; die Pflichten werden stufenweise anwendbar.",
+    "The Commission confirms entry into force on 8 April 2024, with obligations applying in stages."
+  ],
+  "欧元区一般接收及费用期限": [
+    "Allgemeine Frist für Empfang und Entgelte im Euroraum",
+    "General euro-area receiving and charges deadline"
+  ],
+  "欧元区一般接收义务及费用要求开始适用；电子货币／支付机构的收款期限另列。": [
+    "Im Euroraum beginnen grundsätzlich Empfangspflicht und Entgeltvorgaben; die Empfangsfristen für E-Geld- und Zahlungsinstitute sind gesondert aufgeführt.",
+    "General euro-area receiving and charges requirements begin; receiving deadlines for electronic money and payment institutions are listed separately."
+  ],
+  "欧元区一般发送及收款人核验期限": [
+    "Allgemeine Frist für Versand und Empfängerüberprüfung im Euroraum",
+    "General euro-area sending and payee verification deadline"
+  ],
+  "欧元区一般发送和收款人核验义务开始适用；特殊机构过渡期不变。": [
+    "Im Euroraum beginnen grundsätzlich Versand und Empfängerüberprüfung; besondere Übergangsfristen für Institute bleiben bestehen.",
+    "General euro-area sending and payee verification requirements begin; special institution transition periods remain."
+  ],
+  "欧盟指令，须由成员国转化落实。本条确认欧盟要求及时间表，未逐国核查转化法律或执法情况；不能据此认定每个国家已完成落实。": [
+    "EU-Richtlinie, die von den Mitgliedstaaten umzusetzen ist. Dieser Eintrag bestätigt die EU-Vorgaben und ihren Zeitplan, prüft aber weder nationale Umsetzungsgesetze noch den Vollzug in jedem Land.",
+    "EU directive requiring national transposition. This entry verifies EU requirements and their timetable, but not each country’s transposing legislation or enforcement; it does not establish complete implementation everywhere."
+  ],
+  "卡片日期2024-12-28指首批设备要求开始适用，不是指令本身的生效日；笔记本电脑自2026-04-28适用。指令生效日及各国转化期限未在本记录单独核定。": [
+    "Das Kartendatum 28.12.2024 bezeichnet den Anwendungsbeginn für die ersten Gerätegruppen, nicht das Inkrafttreten der Richtlinie. Für Laptops gilt der 28.04.2026. Inkrafttreten und nationale Umsetzungsfristen wurden in diesem Eintrag nicht gesondert festgestellt.",
+    "The card date, 28 December 2024, marks application to the first device groups, not the directive’s entry into force. Laptops are covered from 28 April 2026. This entry does not separately establish the directive’s entry-into-force date or national transposition deadlines."
+  ],
+  "欧盟通用充电接口：USB-C 要求已扩展至笔记本电脑": [
+    "EU-Ladeanschluss: USB-C-Anforderungen gelten auch für Laptops",
+    "EU common charging port: USB-C requirements now cover laptops"
+  ],
+  "电子产品与消费": [
+    "Elektronik und Konsum",
+    "Electronics and consumption"
+  ],
+  "手机等列明设备自2024-12-28适用通用充电要求，笔记本电脑自2026-04-28纳入；消费者应能选择不附充电器的版本。": [
+    "Für die aufgeführten Geräte wie Mobiltelefone gelten die Anforderungen seit 28.12.2024, für Laptops seit 28.04.2026. Verbraucher sollen Geräte auch ohne Ladegerät erwerben können.",
+    "Listed devices such as mobile phones have been subject to common charging requirements since 28 December 2024, and laptops since 28 April 2026. Consumers should be able to choose a version without a charger."
+  ],
+  "原有自愿协调未达到统一充电解决方案的目标，不同设备仍可能需要不同充电器。": [
+    "Die freiwillige Abstimmung erreichte das Ziel einer gemeinsamen Ladelösung nicht; unterschiedliche Geräte konnten weiterhin unterschiedliche Ladegeräte benötigen.",
+    "Voluntary coordination did not achieve the common charging objective; different devices could still require different chargers."
+  ],
+  "通用接口采用 USB-C，同时协调快充兼容性、充电器与设备分开销售的选择，以及功率和快充信息。": [
+    "USB-C wird als gemeinsamer Anschluss verwendet. Hinzu kommen harmonisierte Schnellladekompatibilität, die Kaufoption ohne Ladegerät und Informationen zu Leistung und Schnellladen.",
+    "USB-C is the common port, alongside harmonised fast-charging compatibility, an option to buy devices without a charger, and charging-power and fast-charging information."
+  ],
+  "购买设备时，可检查 USB-C、所需功率、是否支持快充及是否附充电器，判断现有充电器是否适配。": [
+    "Prüfen Sie beim Gerätekauf USB-C, Leistungsbedarf, Schnellladeunterstützung und ein enthaltenes Ladegerät, um die Kompatibilität vorhandener Ladegeräte zu beurteilen.",
+    "When buying a device, check USB-C, required power, fast-charging support and whether a charger is included to assess compatibility with an existing charger."
+  ],
+  "并非所有电子产品和无线充电都已纳入。欧盟委员会2026年报告讨论扩大设备范围，并不等于扩围已通过；另行规定的外部电源生态设计要求从2028年开始适用，不应混作本次设备接口要求。各国转化情况仍待核查。": [
+    "Nicht alle elektronischen Produkte oder kabellosen Ladelösungen sind erfasst. Der Kommissionsbericht 2026 erörtert eine Erweiterung, beschließt sie aber nicht. Gesonderte Ökodesign-Anforderungen für externe Netzteile gelten ab 2028 und sind von diesen Geräteanschlussregeln zu unterscheiden. Die nationale Umsetzung bleibt zu prüfen.",
+    "Not all electronics or wireless charging are covered. The Commission’s 2026 report considers broader coverage but does not itself adopt it. Separate ecodesign requirements for external power supplies apply from 2028 and should not be confused with these device-port requirements. National transposition remains to be checked."
+  ],
+  "欧盟委员会：通用充电要求及适用日期": [
+    "Europäische Kommission: Anforderungen und Anwendungsdaten für einheitliches Laden",
+    "European Commission: common charging requirements and application dates"
+  ],
+  "手机、平板电脑、相机、耳机等列明设备开始适用；笔记本电脑另有过渡期。": [
+    "Die aufgeführten Geräte wie Mobiltelefone, Tablets, Kameras und Kopfhörer werden erfasst; für Laptops gilt eine eigene Übergangsfrist.",
+    "Listed devices such as phones, tablets, cameras and headphones become subject to the requirements; laptops have a separate transition period."
+  ],
+  "笔记本电脑开始适用": [
+    "Anwendungsbeginn für Laptops",
+    "Application begins for laptops"
+  ],
+  "欧盟委员会确认通用充电要求自2026-04-28适用于笔记本电脑。": [
+    "Die Kommission bestätigt, dass die Anforderungen seit dem 28.04.2026 für Laptops gelten.",
+    "The Commission confirms that the common charging requirements apply to laptops from 28 April 2026."
+  ],
+  "欧盟首批历史补录：漫游、欧元即时转账和通用充电接口3项解读。已归档欧盟委员会与欧洲央行说明；EUR-Lex 法律原文下载返回空响应，尚未归档。未完成2026-10-02起逐日扫描，也未逐国核查指令转化；不代表欧盟全部法规。": [
+    "Erste historische EU-Ergänzung: drei Erläuterungen zu Roaming, Euro-Echtzeitüberweisungen und einheitlichen Ladeanschlüssen. Kommissions- und EZB-Erläuterungen sind archiviert; EUR-Lex-Rechtstextdownloads lieferten leere Antworten und sind nicht archiviert. Tagesprüfungen seit dem 02.10.2026 und länderspezifische Richtlinienumsetzungen sind nicht vollständig geprüft. Dies ist kein vollständiges EU-Rechtsverzeichnis.",
+    "Initial EU historical backfill: three explanations on roaming, instant euro transfers and common charging ports. Commission and ECB explanations are archived; EUR-Lex legal-text downloads returned empty responses and were not archived. Daily scans since 2 October 2026 and country-specific directive transposition have not been completed. This is not an inventory of all EU law."
+  ],
+  "欧盟法律文件：最新公布": [
+    "EU-Rechtsakte: neu veröffentlicht",
+    "EU legal acts: recently published"
+  ],
+  "欧盟官方公报": [
+    "Amtsblatt der Europäischen Union",
+    "Official Journal of the European Union"
+  ],
+  "欧洲议会立法观察站": [
+    "Legislative Beobachtungsstelle des Europäischen Parlaments",
+    "European Parliament Legislative Observatory"
+  ],
+  "欧盟委员会立法流程与提案入口": [
+    "Europäische Kommission: Gesetzgebung und Vorschläge",
+    "European Commission: law-making and proposals"
+  ],
+  "法规于2024-04-08生效；具体服务义务按欧洲央行所列时间表分阶段适用。": [
+    "Die Verordnung trat am 08.04.2024 in Kraft; die Dienstleistungspflichten gelten stufenweise nach dem von der EZB aufgeführten Zeitplan.",
+    "The regulation entered into force on 8 April 2024; service obligations apply in stages according to the ECB timetable."
+  ],
+  "欧元区一般适用期限": [
+    "Allgemeine Anwendungsfristen im Euroraum",
+    "General euro-area application deadlines"
+  ],
+  "欧元区一般接收义务及费用要求的期限为2025-01-09，发送及收款人核验为2025-10-09；特殊机构的收发期限见下。": [
+    "Im Euroraum gelten grundsätzlich der 09.01.2025 für Empfang und Entgelte sowie der 09.10.2025 für Versand und Empfängerüberprüfung; besondere Institutsfristen stehen unten.",
+    "General euro-area deadlines are 9 January 2025 for receiving and charges, and 9 October 2025 for sending and payee verification; institution-specific sending and receiving deadlines appear below."
+  ],
+  "USB-C 接口要求针对可通过有线充电的列明设备。并非所有电子产品和无线充电都已纳入。欧盟委员会2026年报告讨论扩大设备范围，并不等于扩围已通过；另行规定的外部电源生态设计要求从2028年开始适用，不应混作本次设备接口要求。各国转化情况仍待核查。": [
+    "Die USB-C-Anforderungen betreffen die aufgeführten Geräte, soweit sie kabelgebunden geladen werden können. Nicht alle elektronischen Produkte oder kabellosen Ladelösungen sind erfasst. Der Kommissionsbericht 2026 erörtert eine Erweiterung, beschließt sie aber nicht. Gesonderte Ökodesign-Anforderungen für externe Netzteile gelten ab 2028 und sind von diesen Geräteanschlussregeln zu unterscheiden. Die nationale Umsetzung bleibt zu prüfen.",
+    "USB-C requirements concern listed devices capable of wired charging. Not all electronics or wireless charging are covered. The Commission’s 2026 report considers broader coverage but does not itself adopt it. Separate ecodesign requirements for external power supplies apply from 2028 and should not be confused with these device-port requirements. National transposition remains to be checked."
+  ],
+  "区分开始适用与法律生效": [
+    "Anwendungsbeginn und Inkrafttreten unterscheiden",
+    "Distinguish application from entry into force"
+  ],
+  "将2024-12-28明确标为首批设备要求开始适用日期，避免页面误称为指令生效日；原有事件与适用日期均保留。": [
+    "Der 28.12.2024 wird ausdrücklich als Anwendungsbeginn für die ersten Gerätegruppen bezeichnet, nicht als Inkrafttreten der Richtlinie. Bisherige Ereignisse und Anwendungsdaten bleiben erhalten.",
+    "28 December 2024 is explicitly labelled as application to the first device groups, not the directive’s entry into force. Existing events and application dates are preserved."
+  ],
+  "本次要求开始适用": [
+    "Anwendungsbeginn der Anforderungen",
+    "Requirements start applying"
+  ],
+  "2022-07-01 是修订后漫游法规的生效日期；现行法定期限至2032-06-30。欧盟委员会和德国联邦网络局的官方说明支持这些日期。这是历史补录，不是2026年新通过的法律。": [
+    "Die Neufassung der Roaming-Verordnung trat am 01.07.2022 in Kraft; ihre derzeitige gesetzliche Laufzeit endet am 30.06.2032. Offizielle Erläuterungen der Europäischen Kommission und der Bundesnetzagentur belegen diese Daten. Dies ist eine historische Ergänzung, kein 2026 neu verabschiedetes Gesetz.",
+    "The recast Roaming Regulation entered into force on 1 July 2022; its current statutory term ends on 30 June 2032. Official explanations from the European Commission and Germany’s Federal Network Agency support these dates. This is historical backfill, not a law newly adopted in 2026."
+  ],
+  "生效与到期": [
+    "Inkrafttreten und Ablauf",
+    "Entry into force and expiry"
+  ],
+  "漫游法规法定期限届满": [
+    "Gesetzliche Laufzeit der Roaming-Verordnung endet",
+    "Statutory term of the Roaming Regulation ends"
+  ],
+  "德国联邦网络局：漫游法规生效与期限": [
+    "Bundesnetzagentur: Inkrafttreten und Laufzeit der Roaming-Verordnung",
+    "Germany’s Federal Network Agency: Roaming Regulation commencement and term"
+  ],
+  "德国联邦网络局": [
+    "Bundesnetzagentur",
+    "Germany’s Federal Network Agency"
+  ],
+  "已核读并归档德文官方说明，核对2022-07-01生效及2032-06-30到期；这是主管机关说明，不是法律原文。": [
+    "Die deutschsprachige amtliche Erläuterung wurde geprüft und archiviert, um das Inkrafttreten am 01.07.2022 und den Ablauf am 30.06.2032 zu bestätigen; sie ist eine Erläuterung der zuständigen Behörde, nicht der Gesetzestext.",
+    "The German-language official explanation was reviewed and archived to verify commencement on 1 July 2022 and expiry on 30 June 2032; it is guidance from the competent authority, not the legal text."
+  ],
+  "现行漫游法规的法定期限至2032-06-30；这是未来到期日，后续是否延长或替代须另行核实。": [
+    "Die derzeitige Roaming-Verordnung hat eine gesetzliche Laufzeit bis 30.06.2032; dies ist ein künftiges Ablaufdatum. Eine spätere Verlängerung oder Nachfolgeregelung muss gesondert geprüft werden.",
+    "The current Roaming Regulation has a statutory term ending on 30 June 2032; this is a future expiry date. Any subsequent extension or replacement must be verified separately."
+  ],
+  "更正生效事件并补录到期日": [
+    "Inkrafttretensereignis berichtigt und Ablaufdatum ergänzt",
+    "Commencement event corrected and expiry recorded"
+  ],
+  "原事件误用了“要求开始适用”标题；依据已归档的官方说明，更正为“法规生效”，保留2022-07-01生效日期，并补录2032-06-30到期日。原事件保留在历史中。": [
+    "Das ursprüngliche Ereignis trug irrtümlich den Titel „Beginn der Anwendung der Anforderungen“. Auf Grundlage archivierter amtlicher Erläuterungen wurde er in „Inkrafttreten der Verordnung“ berichtigt. Das Inkrafttreten am 01.07.2022 bleibt unverändert; der Ablauf am 30.06.2032 wurde ergänzt. Das ursprüngliche Ereignis bleibt in der Historie erhalten.",
+    "The original event incorrectly used the title “Requirements start applying”. Based on archived official explanations, it was corrected to “Regulation enters into force”. Commencement remains 1 July 2022, and expiry on 30 June 2032 was added. The original event is retained in history."
+  ],
+  "欧盟首批历史补录：漫游、欧元即时转账和通用充电接口3项解读。已归档欧盟委员会、欧洲央行及德国联邦网络局说明，并核对漫游的生效与到期日期；EUR-Lex 法律原文尚未归档。未完成2026-10-02起逐日扫描，也未逐国核查指令转化；不代表欧盟全部法规。": [
+    "Erste historische Ergänzungen zur EU: drei Erläuterungen zu Roaming, Euro-Echtzeitüberweisungen und einheitlichen Ladeanschlüssen. Erläuterungen der Europäischen Kommission, der EZB und der Bundesnetzagentur wurden archiviert; Inkrafttreten und Ablauf der Roaming-Regelung wurden geprüft. Die EUR-Lex-Gesetzestexte sind noch nicht archiviert. Keine vollständige tägliche Prüfung seit 02.10.2026 und keine Prüfung der Richtlinienumsetzung in jedem Land; kein vollständiger Bestand aller EU-Vorschriften.",
+    "Initial EU historical backfill: three explanations covering roaming, instant euro transfers and common charging ports. Explanations from the European Commission, ECB and Germany’s Federal Network Agency were archived, and roaming commencement and expiry dates were checked. EUR-Lex legal texts are not yet archived. No complete daily scan since 2 October 2026 or country-by-country directive transposition review; this is not an inventory of all EU rules."
+  ],
+  "电子货币／支付机构：接收及欧元区发送期限": [
+    "E-Geld- und Zahlungsinstitute: Frist für den Empfang sowie das Senden im Euroraum",
+    "Electronic money and payment institutions: receiving and euro area sending deadline"
+  ],
+  "电子货币机构与支付机构须于2027-04-09前提供欧元即时收款；位于欧元区的此类机构还须提供即时付款。非欧元区此类机构的付款期限为2027-07-09。": [
+    "E-Geld- und Zahlungsinstitute müssen bis zum 09.04.2027 den Empfang von Euro-Echtzeitüberweisungen anbieten; im Euroraum müssen diese Institute auch das Senden anbieten. Für das Senden durch solche Institute außerhalb des Euroraums gilt der 09.07.2027.",
+    "Electronic money institutions and payment institutions must offer receipt of instant euro transfers by 9 April 2027; those in the euro area must also offer sending. For sending by such institutions outside the euro area, the deadline is 9 July 2027."
+  ],
+  "非欧元区：发送欧元即时转账及收款人核验期限": [
+    "Außerhalb des Euroraums: Frist für das Senden von Euro-Echtzeitüberweisungen und die Empfängerüberprüfung",
+    "Outside the euro area: instant euro sending and payee verification deadline"
+  ],
+  "非欧元区一般服务商须于2027-07-09前提供欧元即时付款与收款人核验；非欧元区电子货币机构及支付机构的即时付款期限也是这一天。部分本币账户营业时间外发送另有过渡期。": [
+    "Zahlungsdienstleister außerhalb des Euroraums müssen grundsätzlich bis zum 09.07.2027 das Senden von Euro-Echtzeitüberweisungen und die Empfängerüberprüfung anbieten; für das Senden durch E-Geld- und Zahlungsinstitute außerhalb des Euroraums gilt derselbe Termin. Für bestimmte Konten in Landeswährung außerhalb der Geschäftszeiten besteht eine weitere Übergangsfrist.",
+    "Payment service providers outside the euro area must generally offer sending of instant euro transfers and payee verification by 9 July 2027; the same sending deadline applies to electronic money and payment institutions outside the euro area. A further transitional period applies to certain national-currency accounts outside business hours."
+  ],
+  "非欧元区本币账户：营业时间外即时付款期限": [
+    "Konten in Landeswährung außerhalb des Euroraums: Frist für das Senden außerhalb der Geschäftszeiten",
+    "National-currency accounts outside the euro area: sending outside business hours deadline"
+  ],
+  "非欧元区以本国货币计价的支付账户，在营业时间外发送欧元即时转账的过渡期限为2028-06-09；未核查每家机构的实际履行。": [
+    "Für das Senden von Euro-Echtzeitüberweisungen außerhalb der Geschäftszeiten von auf Landeswährung lautenden Zahlungskonten außerhalb des Euroraums endet die Übergangsfrist am 09.06.2028; die tatsächliche Erfüllung durch einzelne Institute wurde nicht geprüft.",
+    "The transitional deadline for sending instant euro transfers outside business hours from national-currency payment accounts in non-euro area Member States is 9 June 2028; actual compliance by individual institutions has not been checked."
+  ],
+  "补齐后续实施期限": [
+    "Spätere Umsetzungsfristen ergänzt",
+    "Later implementation deadlines added"
+  ],
+  "依据已归档的欧洲央行时间表，将正文已有的2027-04-09、2027-07-09和2028-06-09期限补入时间线。下一节点仍为2027-01-09；未来安排不代表已履行。": [
+    "Die bereits im Text genannten Fristen 09.04.2027, 09.07.2027 und 09.06.2028 wurden anhand des archivierten EZB-Zeitplans in die Zeitleiste aufgenommen. Der nächste Termin bleibt der 09.01.2027; künftige Termine belegen keine Erfüllung.",
+    "The deadlines of 9 April 2027, 9 July 2027 and 9 June 2028, already described in the text, were added to the timeline using the archived ECB schedule. The next milestone remains 9 January 2027; future plans do not establish compliance."
   ]
 }

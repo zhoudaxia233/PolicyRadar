@@ -1,6 +1,6 @@
 # Policy Radar
 
-Track policy changes in Germany, France, the Netherlands and Switzerland, with Chinese, German and English explanations, official sources and policy timelines.
+Track policy changes in Germany, France, the Netherlands, Switzerland and Italy, with Chinese, German and English explanations, official sources and policy timelines.
 
 A static website with browser-side search and filters. No login, database or application server required.
 
@@ -10,6 +10,7 @@ A static website with browser-side search and filters. No login, database or app
 - France: national level and 18 regional geographic areas.
 - Netherlands: national level and 12 European provinces.
 - Switzerland: federal level and all 26 cantons.
+- Italy: national level and all 20 regions; initial source registration and a first national explanation. Regional parliaments, regional gazettes and autonomous provinces are not yet individually connected.
 
 Coverage is incomplete; the site shows review dates, scan gaps and unverified discoveries. Explanations are editorial summaries, not official legal text. Original sources remain available, and pending proposals are distinguished from adopted measures.
 

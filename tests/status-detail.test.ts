@@ -20,6 +20,7 @@ test('elapsed next steps do not cast doubt on confirmed adoption',()=>{
  assert.equal(lifecycle({...p,nextKind:'deadline'},'2026-10-04'),'已通过 · 期限已到，后续待核实');
 });
 
+import {legacyStatus} from '../lib/domain/legacy-status.ts';
 import {policyStatusNote,policySchema} from '../lib/domain/model.ts';
 import {buildSync} from 'esbuild';
 import {createElement} from 'react';
@@ -32,9 +33,10 @@ const catalog=JSON.parse(readFileSync('data/translations/content.json','utf8'));
 test('detail notes suppress identical labels while preserving additional legacy details',()=>{
  for(const p of policies){
   const before=JSON.stringify(p);
-  assert.equal(policyStatusNote(p),p.statusNote??p.status,p.id);
+  const expectedNote=p.statusNote??(Object.hasOwn(legacyStatus,p.status)?p.status:undefined);
+  assert.equal(policyStatusNote(p),expectedNote,p.id);
   const html=renderToStaticMarkup(createElement(PolicyStatusNote,{policy:p,locale:'zh',messages:catalog,today:'2026-10-04'}));
-  if(policyStatusNote(p)===lifecycle(p,'2026-10-04'))assert.equal(html,'',p.id);
+  if(!expectedNote||expectedNote===lifecycle(p,'2026-10-04'))assert.equal(html,'',p.id);
   else {assert(html.includes('上次核实时的说明：'),p.id);assert(html.includes(p.statusNote??p.status),p.id);}
   assert.equal(JSON.stringify(p),before);
  }

@@ -29,7 +29,7 @@ up from stored coverage, rather than skip to the latest week.
    independently connected. Dutch municipalities, water authorities, Caribbean
    public bodies and the other Kingdom countries are not connected. Swiss municipalities
    are not independently connected. Start at each
-   channel's oldest uncovered date (tracking starts 2026-08-02); work through
+   channel's oldest uncovered date (tracking starts 2026-01-01); work through
    yesterday in Berlin. Also revisit at least the previous seven days for delayed
    publications and revisit existing pending policies and approaching deadlines.
 4. Read the indexes, all relevant result pages, individual gazette issues and
@@ -59,8 +59,13 @@ The additional 2026-09-02 through 2026-10-01 interval remains a gap until each
 channel has a reconciled complete scan. Targeted backfills do not close it.
 
 The owner requested another month of retrospective collection on 2026-10-04.
-Tracking now starts 2026-08-02. The added August interval remains uncovered until
+That extension moved the start to 2026-08-02. The added August interval remains uncovered until
 each channel has a reconciled complete scan; targeted explanations do not close it.
+
+The owner requested three further months of retrospective collection on 2026-10-04.
+That extension moved tracking to 2026-05-02. The added interval through 2026-08-01 remains
+a coverage gap until each channel has a reconciled complete scan. Targeted
+explanations and successful downloads do not close these gaps.
 
 ## Save and validate
 
@@ -181,7 +186,7 @@ fetch only establishes access, not a completed date interval; follow document
 lists, pagination and attachments before claiming completeness. Never archive an
 access challenge as an official source. Keep blocked or incompletely reviewed
 material in unverified intake. Earlier baseline articles belong to historical
-backfill, not the monitoring interval beginning 2026-08-02.
+backfill, not the monitoring interval beginning 2026-01-01.
 
 Use French original titles and `originalLanguage: "fr"` for French-language
 sources. Preserve the local institutional name rather than assuming every area
@@ -251,7 +256,7 @@ separately; do not invent a day for a December payment or a tentative January
 start. Identify federal implementation in a cantonal view rather than relabelling
 it a new cantonal law. Keep partial commencement, transitional arrangements,
 sector-specific wages and eligibility exceptions explicit. Historical backfill
-never advances the monitoring interval beginning on 2026-08-02.
+never advances the monitoring interval beginning on 2026-01-01.
 
 The Swiss baseline is 28 explanations and eight original announcements, with no
 claim to inventory all policies. Revisit the five pending measures, the planned
@@ -347,3 +352,7 @@ When merging is authorized, select **Create a merge commit**. Squashing would ma
 all three EU policies first enter selected history at version 2 and fail the
 first-version gate. The PR workflow validates the existing commit history; it does
 not prevent choosing squash in GitHub's merge UI. Preserve all four transitions.
+
+### January retrospective extension (4 October 2026)
+
+The subsequent owner request extends tracking to 2026-01-01. The new January–April backfill adds 26 source-grounded explanations and 24 discovery records, preserving earlier exports and revisions. Sources announced in 2025 are retained as historical records for measures applying in 2026. Undated implementation guidance is not assigned an invented publication date. All new scans are partial; national and regional completeness remains unverified.

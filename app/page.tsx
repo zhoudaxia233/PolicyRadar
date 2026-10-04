@@ -22,6 +22,9 @@ function sourceProblem(error:string){
   return '暂时无法自动读取，请打开官方原文核对';
 }
 
+// The phone top bar shows only the flag: a two-letter code would read like the language switch next to it (DE vs DE).
+const flag = (id: string) => String.fromCodePoint(...[...id].map(ch => 0x1f1a5 + ch.charCodeAt(0)));
+
 export default function Home() {
   const [locale, setLocale] = useState<Locale>(readLocale);
   const [localization, setLocalization] = useState<Localization>(emptyLocalization);
@@ -97,6 +100,12 @@ export default function Home() {
     locale={locale}
     label={tr('语言')}
     onChange={changeLocale} />;
+  function pickCountry(value: string) {
+    setCountry(value);
+    setRegion('all');
+    setTags([]);
+    setSelectedId(null);
+  }
   const dialog = useRef<HTMLDialogElement>(null);
   const regionNav = useRef<HTMLDivElement>(null);
   const navigationMode = useRef<'push' | 'replace'>('replace');
@@ -315,10 +324,15 @@ export default function Home() {
       <p className="sidebar-count-note">
         {tr("数字随筛选变化；官方进展按记录计数。")}
       </p>
+      <div className="country-switch">
+        <CompactSelect
+          value={country}
+          label={tr("国家／地区")}
+          align="left"
+          onChange={pickCountry}
+          options={countries.map(c => ({ value: c.id, label: countryName(c.id) }))} />
+      </div>
       <div className="region-nav" ref={regionNav} aria-label={cname + tr("各地区")}>
-        <h2>
-          {cname}
-        </h2>
         <button aria-current={region === 'all' ? 'true' : undefined} onClick={() => pickRegion('all')}>
           {tr("全部")}
           <b>
@@ -356,22 +370,22 @@ export default function Home() {
           <Radar size={18} />
           {tr("政策雷达")}
         </a>
+        <div className="mobile-country">
+          <CompactSelect
+            value={country}
+            label={tr("国家／地区")}
+            align="left"
+            onChange={pickCountry}
+            options={countries.map(c => ({ value: c.id, label: flag(c.id) + ' ' + countryName(c.id), short: flag(c.id), accessibleLabel: countryName(c.id) }))} />
+        </div>
         <div className="breadcrumb">
           <span className="crumb-root">
             {tr("观察站")}
           </span>
           <ChevronRight size={14} className="crumb-sep" />
-          <CompactSelect
-            value={country}
-            label={tr("国家／地区")}
-            align="left"
-            onChange={value => {
-              setCountry(value);
-              setRegion('all');
-              setTags([]);
-              setSelectedId(null);
-            }}
-            options={countries.map(c => ({ value: c.id, label: countryName(c.id) }))} />
+          <span className="crumb-country">
+            {cname}
+          </span>
           <ChevronRight size={14} className="crumb-sep" />
           <span className="crumb-view">
             {nav.find(n => n.id === view)?.label}

@@ -38,7 +38,7 @@ button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible,su
 h1,h2,h3,h4,p{margin:0}
 .sr-only{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
 
-/* Shell: views and the selected country's regions in the sidebar; the country switch sits in the top bar. */
+/* Shell: views, then the country switch above that country's regions in the sidebar; on phones the switch moves to the top bar. */
 .app-shell{display:flex;min-height:100vh}
 .sidebar{width:220px;position:fixed;inset:0 auto 0 0;background:var(--side);border-right:1px solid var(--line);padding:24px 14px 18px;display:flex;flex-direction:column;z-index:10}
 .brand{display:flex;align-items:center;gap:11px;padding:0 8px 22px;font-weight:750;font-size:20px;letter-spacing:.04em}
@@ -50,8 +50,11 @@ h1,h2,h3,h4,p{margin:0}
 .nav-item b{margin-left:auto;font-size:12px;font-weight:500;color:var(--faint);font-variant-numeric:tabular-nums}
 .nav-item.active b{color:var(--accent)}
 .nav-short{display:none}
-.region-nav{margin-top:14px;padding-top:12px;border-top:1px solid var(--line);overflow-y:auto;min-height:0;flex:1;scrollbar-width:thin}
-.region-nav h2{font-size:11px;font-weight:600;letter-spacing:.12em;color:var(--faint);padding:0 12px 6px}
+.country-switch{margin-top:14px;padding:12px 4px 6px;border-top:1px solid var(--line);flex-shrink:0}
+.country-switch .compact-select summary{width:100%;height:36px;font-size:14px;letter-spacing:0}
+.country-switch .compact-options{min-width:100%;font-size:14px;letter-spacing:0}
+.mobile-country{display:none}
+.region-nav{overflow-y:auto;min-height:0;flex:1;scrollbar-width:thin}
 .region-nav button{display:flex;width:100%;align-items:center;gap:8px;padding:5px 12px;border-radius:7px;font-size:14px;color:var(--text-2);text-align:left}
 .region-nav button:hover{background:var(--surface-2)}
 .region-nav button.zero{color:var(--faint)}
@@ -319,7 +322,7 @@ dialog.drawer::backdrop{background:var(--backdrop)}
  body{padding-bottom:calc(60px + env(safe-area-inset-bottom,0px))}
  .app-shell{display:block}
  .sidebar{inset:auto 0 0 0;width:100%;height:auto;padding:0 0 env(safe-area-inset-bottom,0px);border-right:0;border-top:1px solid var(--line)}
- .brand,.sidebar-bottom,.region-nav,.sidebar-count-note{display:none}
+ .brand,.sidebar-bottom,.country-switch,.region-nav,.sidebar-count-note{display:none}
  .sidebar nav{display:grid;grid-template-columns:repeat(6,minmax(0,1fr))}
  .nav-item{flex-direction:column;gap:1px;padding:7px 0 6px;margin:0;border-radius:0;font-size:11px;position:relative}
  .nav-item.active{background:none}
@@ -331,7 +334,10 @@ dialog.drawer::backdrop{background:var(--backdrop)}
  .topbar{height:50px;padding:0 16px;gap:10px}
  .mobile-brand{display:flex;gap:7px;align-items:center;font-weight:700;font-size:16px;white-space:nowrap}
  .mobile-brand svg{color:var(--accent)}
- .crumb-root,.crumb-view,.crumb-sep{display:none}
+ .mobile-country{display:block;margin-right:auto}
+ .mobile-country summary>span{font-size:18px;line-height:1}
+ .mobile-country .compact-options{font-size:14px;letter-spacing:0}
+ .crumb-root,.crumb-country,.crumb-view,.crumb-sep{display:none}
  .top-actions .quiet-button span{display:none}
  main{padding:18px 16px}
  h1{font-size:22px}
@@ -402,7 +408,8 @@ dialog.drawer::backdrop{background:var(--backdrop)}
 }
 @media(max-width:380px){.mobile-brand{font-size:13px}.topbar{padding:0 10px}.top-actions{gap:4px}}
 .breadcrumb{overflow:visible;overflow-wrap:normal}
-.crumb-root,.crumb-view{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.crumb-root,.crumb-country,.crumb-view{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.crumb-country{flex-shrink:0;color:var(--ink);font-weight:600}
 .crumb-sep,.top-actions{flex-shrink:0}
 @media(max-width:1200px){.crumb-root,.crumb-root+.crumb-sep{display:none}}
 .detail-actions{display:flex;align-items:center;gap:10px;flex-shrink:0}

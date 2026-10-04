@@ -1,12 +1,13 @@
+import {legacyStatus,legacyNextKind} from './legacy-status.ts';
 import {swissCantons} from './switzerland.ts';
 import { z } from 'zod';
 import {currentRecords} from './corrections.ts';
 import {dutchProvinces} from './netherlands.ts';
 import {frenchRegions} from './france.ts';
-export const regions = [{id:'CH',name:'瑞士联邦',de:'Bund',en:'Federal government',originalName:'Schweizerische Eidgenossenschaft / Confédération suisse / Confederazione Svizzera / Confederaziun svizra',originalLanguage:'und'}, ...swissCantons, {id:'NL',name:'荷兰全国层面',de:'Nationale Ebene',nl:'Landelijk niveau',en:'National level'}, ...dutchProvinces, {id:'FR',name:'法国全国层面',de:'Nationale Ebene',fr:'Niveau national',en:'National level'}, ...frenchRegions, {id:'DE',name:'德国联邦',de:'Bund'}, {id:'DE-HE',name:'黑森',de:'Hessen'}, {id:'DE-BY',name:'巴伐利亚',de:'Bayern'}, {id:'DE-BW',name:'巴登-符腾堡',de:'Baden-Württemberg'}, {id:'DE-BE',name:'柏林',de:'Berlin'}, {id:'DE-BB',name:'勃兰登堡',de:'Brandenburg'}, {id:'DE-HB',name:'不来梅',de:'Bremen'}, {id:'DE-HH',name:'汉堡',de:'Hamburg'}, {id:'DE-MV',name:'梅克伦堡-前波美拉尼亚',de:'Mecklenburg-Vorpommern'}, {id:'DE-NI',name:'下萨克森',de:'Niedersachsen'}, {id:'DE-NW',name:'北莱茵-威斯特法伦',de:'Nordrhein-Westfalen'}, {id:'DE-RP',name:'莱茵兰-普法尔茨',de:'Rheinland-Pfalz'}, {id:'DE-SL',name:'萨尔',de:'Saarland'}, {id:'DE-SN',name:'萨克森',de:'Sachsen'}, {id:'DE-ST',name:'萨克森-安哈尔特',de:'Sachsen-Anhalt'}, {id:'DE-SH',name:'石勒苏益格-荷尔斯泰因',de:'Schleswig-Holstein'}, {id:'DE-TH',name:'图林根',de:'Thüringen'}];
+export const regions = [{id:'CH',name:'瑞士联邦',de:'Bund',en:'Federal government',originalName:'Schweizerische Eidgenossenschaft / Confédération suisse / Confederazione Svizzera / Confederaziun svizra',originalLanguage:'und'}, ...swissCantons, {id:'NL',name:'荷兰全国层面',de:'Nationale Ebene',nl:'Landelijk niveau',en:'National level'}, ...dutchProvinces, {id:'FR',name:'法国全国层面',de:'Nationale Ebene',fr:'Niveau national',en:'National level'}, ...frenchRegions, {id:'DE',name:'德国联邦',de:'Bund',en:"Federal government"}, {id:'DE-HE',name:'黑森',de:'Hessen',en:"Hesse"}, {id:'DE-BY',name:'巴伐利亚',de:'Bayern',en:"Bavaria"}, {id:'DE-BW',name:'巴登-符腾堡',de:'Baden-Württemberg',en:"Baden-Württemberg"}, {id:'DE-BE',name:'柏林',de:'Berlin',en:"Berlin"}, {id:'DE-BB',name:'勃兰登堡',de:'Brandenburg',en:"Brandenburg"}, {id:'DE-HB',name:'不来梅',de:'Bremen',en:"Bremen"}, {id:'DE-HH',name:'汉堡',de:'Hamburg',en:"Hamburg"}, {id:'DE-MV',name:'梅克伦堡-前波美拉尼亚',de:'Mecklenburg-Vorpommern',en:"Mecklenburg-Western Pomerania"}, {id:'DE-NI',name:'下萨克森',de:'Niedersachsen',en:"Lower Saxony"}, {id:'DE-NW',name:'北莱茵-威斯特法伦',de:'Nordrhein-Westfalen',en:"North Rhine-Westphalia"}, {id:'DE-RP',name:'莱茵兰-普法尔茨',de:'Rheinland-Pfalz',en:"Rhineland-Palatinate"}, {id:'DE-SL',name:'萨尔',de:'Saarland',en:"Saarland"}, {id:'DE-SN',name:'萨克森',de:'Sachsen',en:"Saxony"}, {id:'DE-ST',name:'萨克森-安哈尔特',de:'Sachsen-Anhalt',en:"Saxony-Anhalt"}, {id:'DE-SH',name:'石勒苏益格-荷尔斯泰因',de:'Schleswig-Holstein',en:"Schleswig-Holstein"}, {id:'DE-TH',name:'图林根',de:'Thüringen',en:"Thuringia"}];
 // Subdivisions use ISO 3166-2; INSEE codes are separate French metadata.
 // A bare country code denotes the national level; every region retains the country prefix.
-export const countries = [{id:'DE',name:'德国',de:'Deutschland',national:'联邦',subdivision:'州'}, {id:'FR',name:'法国',de:'Frankreich',national:'全国层面',subdivision:'大区'}, {id:'NL',name:'荷兰',de:'Niederlande',national:'全国层面',subdivision:'省'}, {id:'CH',name:'瑞士',de:'Schweiz',national:'联邦',subdivision:'州'}];
+export {countries} from './countries.ts';
 export const countryOf = (region:string) => region.slice(0,2);
 export const dateSchema = z.string().regex(/^\d{4}-\d{2}-\d{2}$/).refine(v => !Number.isNaN(Date.parse(v)) && new Date(v).toISOString().slice(0,10) === v, 'Invalid date');
 const date = dateSchema;
@@ -14,10 +15,11 @@ export const tagsSchema=z.array(z.string().trim().min(1).max(30)).max(12).refine
 export function policyTags(p:{tags?:string[];topic?:string}){return p.tags?.length?p.tags:p.topic?[p.topic]:['待分类'];}
 const text = z.string().min(1).max(6000);
 export const sourceSchema = z.object({id:z.string().regex(/^[a-z0-9-]+$/),title:text,url:z.string().url().refine(u=>u.startsWith('https://')),publisher:text,kind:z.enum(['law','parliament','government']),note:text});
+export const statusCodeSchema=z.enum(['adopted','pending','closed','application_closed','existing','phased']);
 export const policySchema = z.object({
  originalLanguage:z.string().regex(/^[a-z]{2,3}(?:-[A-Za-z0-9]+)*$/).optional(),
  id:z.string().regex(/^[a-z0-9-]+$/), officialId:text,title:text,originalTitle:text,region:z.string().refine(r=>regions.some(x=>x.id===r)),topic:z.string().trim().min(1).max(60),tags:tagsSchema.optional(),
- phase:z.enum(['adopted','pending','closed']),status:text,summary:text,before:text,after:text,impact:text,limits:text,
+ phase:z.enum(['adopted','pending','closed']),status:z.union([statusCodeSchema,z.string().refine(s=>Object.hasOwn(legacyStatus,s),'Unknown legacy status')]),statusNote:text.optional(),nextKind:z.enum(['implementation','scheduled','expiry','deadline']).optional(),summary:text,before:text,after:text,impact:text,limits:text,
  verifiedAt:date,lastEventDate:date,effectiveDate:date.nullable(),nextDate:date.nullable(),nextLabel:z.string().max(200),
  disputed:z.boolean(),dispute:z.string().max(6000),sources:z.array(sourceSchema).min(1).max(20),
  rules:z.array(z.object({title:text,detail:text,sourceId:z.string()})).max(8).optional(),
@@ -50,9 +52,15 @@ export function validateRevision(old:Policy, next:Policy){
 }
 export function selectPolicies(items:Policy[],view:string,region:string,topic:string,query:string,tags:string[]=[],searchText?:(p:Policy)=>string){const q=query.trim().toLocaleLowerCase();return items.filter(p=>(view==='all'||view==='updates'||p.phase===view)&&(region==='all'||p.region===region)&&(topic==='all'||p.topic===topic)&&(!tags.length||tags.some(t=>policyTags(p).includes(t)))&&(!q||(searchText?.(p)??[p.title,p.originalTitle,p.summary,p.officialId,...policyTags(p)].join(' ')).toLocaleLowerCase().includes(q))).sort((a,b)=>b.lastEventDate.localeCompare(a.lastEventDate));}
 export function lifecycle(p:Policy,today:string){
- if(p.phase!=='adopted')return p.nextDate&&p.nextDate<today?'已过计划日期 · 结果待核实':p.status;
- if(p.nextDate&&p.nextDate<today&&/到期|期限结束/.test(p.nextLabel))return '期限已到 · 后续待核实';
- if(!p.effectiveDate)return p.status;
- if(p.effectiveDate>today)return '已通过 · 待生效';
- return p.status==='分步生效'?(p.nextDate&&p.nextDate>today?'已生效 · 分步实施':'已生效'):p.status;
+ const code=legacyStatus[p.status as keyof typeof legacyStatus]??p.status;
+ const nextKind=p.nextKind??legacyNextKind[p.nextLabel as keyof typeof legacyNextKind]??'scheduled';
+ if(code==='application_closed')return '本轮申请已结束';
+ if(p.phase==='closed')return '已结束';
+ if(p.nextDate&&p.nextDate<today&&['expiry','deadline'].includes(nextKind))return '期限已到 · 后续待核实';
+ if(p.phase!=='adopted')return p.nextDate&&p.nextDate<today?'已过计划日期 · 结果待核实':'尚未通过';
+ if(p.effectiveDate&&p.effectiveDate>today)return '已通过 · 待生效';
+ if(p.effectiveDate&&nextKind==='expiry')return '已生效 · 临时措施';
+ if(p.effectiveDate)return code==='phased'&&p.nextDate&&p.nextDate>today?'已生效 · 分步实施':'已生效';
+ if(p.nextDate&&p.nextDate<today)return '已过计划日期 · 结果待核实';
+ return code==='existing'?'既有补助 · 说明已更新':'已通过 · 生效日未确认';
 }

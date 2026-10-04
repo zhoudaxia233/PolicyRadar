@@ -18,7 +18,7 @@ export function createLocalization(data:ReturnType<typeof createStaticData>,cata
   if((kind==='policies'&&entry.version!==data.policyVersions[row.id])||entry.hash!==contentHash(row))return 'stale';
   return texts.some(t=>t&&!messages[t]&&!entry.verbatim.includes(t))?'missing':'current';
  };
- for(const p of data.policies)result.policies[p.id]=check(p,[...policyTextFields(p),p.topic,p.status,...(p.tags??[])],'policies');
+ for(const p of data.policies)result.policies[p.id]=check(p,[...policyTextFields(p),p.topic,...(p.tags??[])],'policies');
  for(const r of data.intake.records)result.intake[r.id]=check(r,[r.titleZh??r.title,r.note,...r.tags],'intake');
  return result;
 }

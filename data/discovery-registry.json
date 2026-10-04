@@ -1,0 +1,1669 @@
+[
+  {
+    "region": "CH-ZH",
+    "url": "https://www.zh.ch/de.html",
+    "title": "苏黎世：州政府公告",
+    "publisher": "Zürich",
+    "kind": "government"
+  },
+  {
+    "region": "CH-ZH",
+    "url": "https://www.zh.ch/de/politik-staat/gesetze-beschluesse/gesetzessammlung.html",
+    "title": "苏黎世：法律汇编",
+    "publisher": "Zürich",
+    "kind": "law"
+  },
+  {
+    "region": "CH-ZH",
+    "url": "https://www.kantonsrat.zh.ch/",
+    "title": "苏黎世：州议会文件",
+    "publisher": "Zürich",
+    "kind": "parliament"
+  },
+  {
+    "region": "CH-BE",
+    "url": "https://www.be.ch/de/start.html",
+    "title": "伯尔尼：州政府公告",
+    "publisher": "Bern / Berne",
+    "kind": "government"
+  },
+  {
+    "region": "CH-BE",
+    "url": "https://www.belex.sites.be.ch/",
+    "title": "伯尔尼：法律汇编",
+    "publisher": "Bern / Berne",
+    "kind": "law"
+  },
+  {
+    "region": "CH-BE",
+    "url": "https://www.gr.be.ch/de/start.html",
+    "title": "伯尔尼：州议会文件",
+    "publisher": "Bern / Berne",
+    "kind": "parliament"
+  },
+  {
+    "region": "CH-LU",
+    "url": "https://www.lu.ch/",
+    "title": "卢塞恩：州政府公告",
+    "publisher": "Luzern",
+    "kind": "government"
+  },
+  {
+    "region": "CH-LU",
+    "url": "https://srl.lu.ch/app/de/systematic",
+    "title": "卢塞恩：法律汇编",
+    "publisher": "Luzern",
+    "kind": "law"
+  },
+  {
+    "region": "CH-LU",
+    "url": "https://www.lu.ch/kr",
+    "title": "卢塞恩：州议会文件",
+    "publisher": "Luzern",
+    "kind": "parliament"
+  },
+  {
+    "region": "CH-UR",
+    "url": "https://www.ur.ch/",
+    "title": "乌里：州政府公告",
+    "publisher": "Uri",
+    "kind": "government"
+  },
+  {
+    "region": "CH-UR",
+    "url": "https://rechtsbuch.ur.ch/app/de/systematic",
+    "title": "乌里：法律汇编",
+    "publisher": "Uri",
+    "kind": "law"
+  },
+  {
+    "region": "CH-UR",
+    "url": "https://www.ur.ch/landrat",
+    "title": "乌里：州议会文件",
+    "publisher": "Uri",
+    "kind": "parliament"
+  },
+  {
+    "region": "CH-SZ",
+    "url": "https://www.sz.ch/",
+    "title": "施维茨：州政府公告",
+    "publisher": "Schwyz",
+    "kind": "government"
+  },
+  {
+    "region": "CH-SZ",
+    "url": "https://www.sz.ch/kanton/gesetze.html/8756-8757-10021",
+    "title": "施维茨：法律汇编",
+    "publisher": "Schwyz",
+    "kind": "law"
+  },
+  {
+    "region": "CH-SZ",
+    "url": "https://www.sz.ch/behoerden/kantonsrat.html/8756-8758-8799",
+    "title": "施维茨：州议会文件",
+    "publisher": "Schwyz",
+    "kind": "parliament"
+  },
+  {
+    "region": "CH-OW",
+    "url": "https://www.ow.ch/",
+    "title": "上瓦尔登：州政府公告",
+    "publisher": "Obwalden",
+    "kind": "government"
+  },
+  {
+    "region": "CH-OW",
+    "url": "https://gdb.ow.ch/app/de/systematic",
+    "title": "上瓦尔登：法律汇编",
+    "publisher": "Obwalden",
+    "kind": "law"
+  },
+  {
+    "region": "CH-OW",
+    "url": "https://www.ow.ch/kantonsratmain",
+    "title": "上瓦尔登：州议会文件",
+    "publisher": "Obwalden",
+    "kind": "parliament"
+  },
+  {
+    "region": "CH-NW",
+    "url": "https://www.nw.ch/",
+    "title": "下瓦尔登：州政府公告",
+    "publisher": "Nidwalden",
+    "kind": "government"
+  },
+  {
+    "region": "CH-NW",
+    "url": "https://gesetze.nw.ch/app/de/systematic",
+    "title": "下瓦尔登：法律汇编",
+    "publisher": "Nidwalden",
+    "kind": "law"
+  },
+  {
+    "region": "CH-NW",
+    "url": "https://www.nw.ch/landratmain",
+    "title": "下瓦尔登：州议会文件",
+    "publisher": "Nidwalden",
+    "kind": "parliament"
+  },
+  {
+    "region": "CH-GL",
+    "url": "https://www.gl.ch/",
+    "title": "格拉鲁斯：州政府公告",
+    "publisher": "Glarus",
+    "kind": "government"
+  },
+  {
+    "region": "CH-GL",
+    "url": "https://gesetze.gl.ch/app/de/systematic",
+    "title": "格拉鲁斯：法律汇编",
+    "publisher": "Glarus",
+    "kind": "law"
+  },
+  {
+    "region": "CH-GL",
+    "url": "https://www.gl.ch/parlament/landrat.html/250",
+    "title": "格拉鲁斯：州议会文件",
+    "publisher": "Glarus",
+    "kind": "parliament"
+  },
+  {
+    "region": "CH-ZG",
+    "url": "https://zg.ch/de",
+    "title": "楚格：州政府公告",
+    "publisher": "Zug",
+    "kind": "government"
+  },
+  {
+    "region": "CH-ZG",
+    "url": "https://bgs.zg.ch/app/de/systematic",
+    "title": "楚格：法律汇编",
+    "publisher": "Zug",
+    "kind": "law"
+  },
+  {
+    "region": "CH-ZG",
+    "url": "https://zg.ch/de/kantonsrat",
+    "title": "楚格：州议会文件",
+    "publisher": "Zug",
+    "kind": "parliament"
+  },
+  {
+    "region": "CH-FR",
+    "url": "https://www.fr.ch/",
+    "title": "弗里堡：州政府公告",
+    "publisher": "Fribourg / Freiburg",
+    "kind": "government"
+  },
+  {
+    "region": "CH-FR",
+    "url": "https://bdlf.fr.ch/app/fr/systematic/texts_of_law",
+    "title": "弗里堡：法律汇编",
+    "publisher": "Fribourg / Freiburg",
+    "kind": "law"
+  },
+  {
+    "region": "CH-FR",
+    "url": "https://www.fr.ch/parlinfo/programmes-et-dates-des-sessions-du-grand-conseil",
+    "title": "弗里堡：州议会文件",
+    "publisher": "Fribourg / Freiburg",
+    "kind": "parliament"
+  },
+  {
+    "region": "CH-SO",
+    "url": "https://so.ch/",
+    "title": "索洛图恩：州政府公告",
+    "publisher": "Solothurn",
+    "kind": "government"
+  },
+  {
+    "region": "CH-SO",
+    "url": "https://bgs.so.ch/app/de/systematic",
+    "title": "索洛图恩：法律汇编",
+    "publisher": "Solothurn",
+    "kind": "law"
+  },
+  {
+    "region": "CH-SO",
+    "url": "https://so.ch/parlament/",
+    "title": "索洛图恩：州议会文件",
+    "publisher": "Solothurn",
+    "kind": "parliament"
+  },
+  {
+    "region": "CH-BS",
+    "url": "https://www.bs.ch/",
+    "title": "巴塞尔城市：州政府公告",
+    "publisher": "Basel-Stadt",
+    "kind": "government"
+  },
+  {
+    "region": "CH-BS",
+    "url": "https://www.gesetzessammlung.bs.ch/app/de/systematic",
+    "title": "巴塞尔城市：法律汇编",
+    "publisher": "Basel-Stadt",
+    "kind": "law"
+  },
+  {
+    "region": "CH-BS",
+    "url": "https://grosserrat.bs.ch/",
+    "title": "巴塞尔城市：州议会文件",
+    "publisher": "Basel-Stadt",
+    "kind": "parliament"
+  },
+  {
+    "region": "CH-BL",
+    "url": "https://www.baselland.ch/",
+    "title": "巴塞尔乡村：州政府公告",
+    "publisher": "Basel-Landschaft",
+    "kind": "government"
+  },
+  {
+    "region": "CH-BL",
+    "url": "https://bl.clex.ch/app/de/systematic",
+    "title": "巴塞尔乡村：法律汇编",
+    "publisher": "Basel-Landschaft",
+    "kind": "law"
+  },
+  {
+    "region": "CH-BL",
+    "url": "https://www.baselland.ch/politik-und-behorden/landrat-parlament",
+    "title": "巴塞尔乡村：州议会文件",
+    "publisher": "Basel-Landschaft",
+    "kind": "parliament"
+  },
+  {
+    "region": "CH-SH",
+    "url": "https://sh.ch/",
+    "title": "沙夫豪森：州政府公告",
+    "publisher": "Schaffhausen",
+    "kind": "government"
+  },
+  {
+    "region": "CH-SH",
+    "url": "https://rechtsbuch.sh.ch/app/de/systematic",
+    "title": "沙夫豪森：法律汇编",
+    "publisher": "Schaffhausen",
+    "kind": "law"
+  },
+  {
+    "region": "CH-SH",
+    "url": "https://sh.ch/CMS/Webseite/Kanton-Schaffhausen/Beh-rde/Parlament-3085-DE.html",
+    "title": "沙夫豪森：州议会文件",
+    "publisher": "Schaffhausen",
+    "kind": "parliament"
+  },
+  {
+    "region": "CH-AR",
+    "url": "https://ar.ch/",
+    "title": "外阿彭策尔：州政府公告",
+    "publisher": "Appenzell Ausserrhoden",
+    "kind": "government"
+  },
+  {
+    "region": "CH-AR",
+    "url": "https://www.bgs.ar.ch/app/de/systematic",
+    "title": "外阿彭策尔：法律汇编",
+    "publisher": "Appenzell Ausserrhoden",
+    "kind": "law"
+  },
+  {
+    "region": "CH-AR",
+    "url": "https://ar.ch/kantonsrat/",
+    "title": "外阿彭策尔：州议会文件",
+    "publisher": "Appenzell Ausserrhoden",
+    "kind": "parliament"
+  },
+  {
+    "region": "CH-AI",
+    "url": "https://ai.ch/",
+    "title": "内阿彭策尔：州政府公告",
+    "publisher": "Appenzell Innerrhoden",
+    "kind": "government"
+  },
+  {
+    "region": "CH-AI",
+    "url": "https://ai.clex.ch/app/de/systematic",
+    "title": "内阿彭策尔：法律汇编",
+    "publisher": "Appenzell Innerrhoden",
+    "kind": "law"
+  },
+  {
+    "region": "CH-AI",
+    "url": "https://ai.ch/politik/grosser-rat",
+    "title": "内阿彭策尔：州议会文件",
+    "publisher": "Appenzell Innerrhoden",
+    "kind": "parliament"
+  },
+  {
+    "region": "CH-SG",
+    "url": "https://www.sg.ch/",
+    "title": "圣加仑：州政府公告",
+    "publisher": "St. Gallen",
+    "kind": "government"
+  },
+  {
+    "region": "CH-SG",
+    "url": "https://www.gesetzessammlung.sg.ch/app/de/systematic",
+    "title": "圣加仑：法律汇编",
+    "publisher": "St. Gallen",
+    "kind": "law"
+  },
+  {
+    "region": "CH-SG",
+    "url": "https://www.sg.ch/politik-verwaltung/kantonsrat.html",
+    "title": "圣加仑：州议会文件",
+    "publisher": "St. Gallen",
+    "kind": "parliament"
+  },
+  {
+    "region": "CH-GR",
+    "url": "https://www.gr.ch/de",
+    "title": "格劳宾登：州政府公告",
+    "publisher": "Graubünden / Grischun / Grigioni",
+    "kind": "government"
+  },
+  {
+    "region": "CH-GR",
+    "url": "https://www.gr-lex.gr.ch/app/de/systematic",
+    "title": "格劳宾登：法律汇编",
+    "publisher": "Graubünden / Grischun / Grigioni",
+    "kind": "law"
+  },
+  {
+    "region": "CH-GR",
+    "url": "https://www.gr.ch/DE/institutionen/parlament/Seiten/Start.aspx",
+    "title": "格劳宾登：州议会文件",
+    "publisher": "Graubünden / Grischun / Grigioni",
+    "kind": "parliament"
+  },
+  {
+    "region": "CH-AG",
+    "url": "https://www.ag.ch/de",
+    "title": "阿尔高：州政府公告",
+    "publisher": "Aargau",
+    "kind": "government"
+  },
+  {
+    "region": "CH-AG",
+    "url": "https://gesetzessammlungen.ag.ch/app/de/chronology",
+    "title": "阿尔高：法律汇编",
+    "publisher": "Aargau",
+    "kind": "law"
+  },
+  {
+    "region": "CH-AG",
+    "url": "https://www.ag.ch/de/ueber-uns/grosser-rat/ueber-uns/ratsmitglieder",
+    "title": "阿尔高：州议会文件",
+    "publisher": "Aargau",
+    "kind": "parliament"
+  },
+  {
+    "region": "CH-TG",
+    "url": "https://www.tg.ch/",
+    "title": "图尔高：州政府公告",
+    "publisher": "Thurgau",
+    "kind": "government"
+  },
+  {
+    "region": "CH-TG",
+    "url": "https://www.rechtsbuch.tg.ch/app/de/systematic",
+    "title": "图尔高：法律汇编",
+    "publisher": "Thurgau",
+    "kind": "law"
+  },
+  {
+    "region": "CH-TG",
+    "url": "https://www.parlament.tg.ch/",
+    "title": "图尔高：州议会文件",
+    "publisher": "Thurgau",
+    "kind": "parliament"
+  },
+  {
+    "region": "CH-TI",
+    "url": "https://www4.ti.ch/",
+    "title": "提契诺：州政府公告",
+    "publisher": "Ticino",
+    "kind": "government"
+  },
+  {
+    "region": "CH-TI",
+    "url": "https://www3.ti.ch/CAN/RLeggi/public/index.php",
+    "title": "提契诺：法律汇编",
+    "publisher": "Ticino",
+    "kind": "law"
+  },
+  {
+    "region": "CH-TI",
+    "url": "https://www4.ti.ch/poteri/gran-consiglio/",
+    "title": "提契诺：州议会文件",
+    "publisher": "Ticino",
+    "kind": "parliament"
+  },
+  {
+    "region": "CH-VD",
+    "url": "https://www.vd.ch/",
+    "title": "沃：州政府公告",
+    "publisher": "Vaud",
+    "kind": "government"
+  },
+  {
+    "region": "CH-VD",
+    "url": "https://prestations.vd.ch/pub/blv-publication/",
+    "title": "沃：法律汇编",
+    "publisher": "Vaud",
+    "kind": "law"
+  },
+  {
+    "region": "CH-VD",
+    "url": "https://www.vd.ch/gc",
+    "title": "沃：州议会文件",
+    "publisher": "Vaud",
+    "kind": "parliament"
+  },
+  {
+    "region": "CH-VS",
+    "url": "https://www.vs.ch/",
+    "title": "瓦莱：州政府公告",
+    "publisher": "Valais / Wallis",
+    "kind": "government"
+  },
+  {
+    "region": "CH-VS",
+    "url": "https://lex.vs.ch/app/fr/systematic",
+    "title": "瓦莱：法律汇编",
+    "publisher": "Valais / Wallis",
+    "kind": "law"
+  },
+  {
+    "region": "CH-VS",
+    "url": "https://parlement.vs.ch/",
+    "title": "瓦莱：州议会文件",
+    "publisher": "Valais / Wallis",
+    "kind": "parliament"
+  },
+  {
+    "region": "CH-NE",
+    "url": "https://www.ne.ch/",
+    "title": "纳沙泰尔：州政府公告",
+    "publisher": "Neuchâtel",
+    "kind": "government"
+  },
+  {
+    "region": "CH-NE",
+    "url": "https://rsn.ne.ch/",
+    "title": "纳沙泰尔：法律汇编",
+    "publisher": "Neuchâtel",
+    "kind": "law"
+  },
+  {
+    "region": "CH-NE",
+    "url": "https://www.ne.ch/autorites/GC/Pages/accueil.aspx",
+    "title": "纳沙泰尔：州议会文件",
+    "publisher": "Neuchâtel",
+    "kind": "parliament"
+  },
+  {
+    "region": "CH-GE",
+    "url": "https://www.ge.ch/",
+    "title": "日内瓦：州政府公告",
+    "publisher": "Genève",
+    "kind": "government"
+  },
+  {
+    "region": "CH-GE",
+    "url": "https://silgeneve.ch/legis/",
+    "title": "日内瓦：法律汇编",
+    "publisher": "Genève",
+    "kind": "law"
+  },
+  {
+    "region": "CH-GE",
+    "url": "https://ge.ch/grandconseil/",
+    "title": "日内瓦：州议会文件",
+    "publisher": "Genève",
+    "kind": "parliament"
+  },
+  {
+    "region": "CH-JU",
+    "url": "https://www.jura.ch/",
+    "title": "汝拉：州政府公告",
+    "publisher": "Jura",
+    "kind": "government"
+  },
+  {
+    "region": "CH-JU",
+    "url": "https://rsju.jura.ch/",
+    "title": "汝拉：法律汇编",
+    "publisher": "Jura",
+    "kind": "law"
+  },
+  {
+    "region": "CH-JU",
+    "url": "https://www.jura.ch/PLT",
+    "title": "汝拉：州议会文件",
+    "publisher": "Jura",
+    "kind": "parliament"
+  },
+  {
+    "region": "CH",
+    "url": "https://www.news.admin.ch/de",
+    "title": "瑞士联邦政府公告",
+    "publisher": "Schweizerische Eidgenossenschaft",
+    "kind": "government"
+  },
+  {
+    "region": "CH",
+    "url": "https://www.fedlex.admin.ch/de/oc",
+    "title": "瑞士联邦法律汇编",
+    "publisher": "Schweizerische Eidgenossenschaft",
+    "kind": "law"
+  },
+  {
+    "region": "CH",
+    "url": "https://www.parlament.ch/de/ratsbetrieb/suche-curia-vista",
+    "title": "瑞士联邦议会事务",
+    "publisher": "Schweizerische Eidgenossenschaft",
+    "kind": "parliament"
+  },
+  {
+    "region": "CH",
+    "url": "https://www.bk.admin.ch/de/volksabstimmungen",
+    "title": "瑞士联邦投票结果",
+    "publisher": "Schweizerische Eidgenossenschaft",
+    "kind": "government"
+  },
+  {
+    "region": "FR-ARA",
+    "url": "https://www.auvergnerhonealpes.fr/",
+    "title": "奥弗涅-罗讷-阿尔卑斯：地方政府公告",
+    "publisher": "Auvergne-Rhône-Alpes",
+    "kind": "government"
+  },
+  {
+    "region": "FR-ARA",
+    "url": "https://edelib.auvergnerhonealpes.fr/webdelibplus/jsp/seances.jsp?role=usager",
+    "title": "奥弗涅-罗讷-阿尔卑斯：地方决议及行政文件",
+    "publisher": "Auvergne-Rhône-Alpes",
+    "kind": "law"
+  },
+  {
+    "region": "FR-ARA",
+    "url": "https://www.prefectures-regions.gouv.fr/auvergne-rhone-alpes/",
+    "title": "奥弗涅-罗讷-阿尔卑斯：国家驻区机构入口",
+    "publisher": "Auvergne-Rhône-Alpes",
+    "kind": "government"
+  },
+  {
+    "region": "FR-BFC",
+    "url": "https://www.bourgognefranchecomte.fr/",
+    "title": "勃艮第-弗朗什-孔泰：地方政府公告",
+    "publisher": "Bourgogne-Franche-Comté",
+    "kind": "government"
+  },
+  {
+    "region": "FR-BFC",
+    "url": "https://abcdelib.bourgognefranchecomte.fr/",
+    "title": "勃艮第-弗朗什-孔泰：地方决议及行政文件",
+    "publisher": "Bourgogne-Franche-Comté",
+    "kind": "law"
+  },
+  {
+    "region": "FR-BFC",
+    "url": "https://www.prefectures-regions.gouv.fr/bourgogne-franche-comte/",
+    "title": "勃艮第-弗朗什-孔泰：国家驻区机构入口",
+    "publisher": "Bourgogne-Franche-Comté",
+    "kind": "government"
+  },
+  {
+    "region": "FR-BRE",
+    "url": "https://www.bretagne.bzh/",
+    "title": "布列塔尼：地方政府公告",
+    "publisher": "Bretagne",
+    "kind": "government"
+  },
+  {
+    "region": "FR-BRE",
+    "url": "https://www.bretagne.bzh/region/decisions/",
+    "title": "布列塔尼：地方决议及行政文件",
+    "publisher": "Bretagne",
+    "kind": "law"
+  },
+  {
+    "region": "FR-BRE",
+    "url": "https://www.prefectures-regions.gouv.fr/bretagne/",
+    "title": "布列塔尼：国家驻区机构入口",
+    "publisher": "Bretagne",
+    "kind": "government"
+  },
+  {
+    "region": "FR-CVL",
+    "url": "https://www.centre-valdeloire.fr/",
+    "title": "中央-卢瓦尔河谷：地方政府公告",
+    "publisher": "Centre-Val de Loire",
+    "kind": "government"
+  },
+  {
+    "region": "FR-CVL",
+    "url": "https://actes.centre-valdeloire.fr/webdelibplus/jsp/seances.jsp?role=usager",
+    "title": "中央-卢瓦尔河谷：地方决议及行政文件",
+    "publisher": "Centre-Val de Loire",
+    "kind": "law"
+  },
+  {
+    "region": "FR-CVL",
+    "url": "https://www.prefectures-regions.gouv.fr/centre-val-de-loire/",
+    "title": "中央-卢瓦尔河谷：国家驻区机构入口",
+    "publisher": "Centre-Val de Loire",
+    "kind": "government"
+  },
+  {
+    "region": "FR-20R",
+    "url": "https://www.isula.corsica/",
+    "title": "科西嘉：地方政府公告",
+    "publisher": "Corse",
+    "kind": "government"
+  },
+  {
+    "region": "FR-20R",
+    "url": "https://www.isula.corsica/Recueils-des-actes-administratifs_r100.html",
+    "title": "科西嘉：地方决议及行政文件",
+    "publisher": "Corse",
+    "kind": "law"
+  },
+  {
+    "region": "FR-20R",
+    "url": "https://www.prefectures-regions.gouv.fr/corse/",
+    "title": "科西嘉：国家驻区机构入口",
+    "publisher": "Corse",
+    "kind": "government"
+  },
+  {
+    "region": "FR-GES",
+    "url": "https://www.grandest.fr/",
+    "title": "大东部：地方政府公告",
+    "publisher": "Grand Est",
+    "kind": "government"
+  },
+  {
+    "region": "FR-GES",
+    "url": "https://www.grandest.fr/le-conseil-regional/deliberations/",
+    "title": "大东部：地方决议及行政文件",
+    "publisher": "Grand Est",
+    "kind": "law"
+  },
+  {
+    "region": "FR-GES",
+    "url": "https://www.prefectures-regions.gouv.fr/grand-est/",
+    "title": "大东部：国家驻区机构入口",
+    "publisher": "Grand Est",
+    "kind": "government"
+  },
+  {
+    "region": "FR-HDF",
+    "url": "https://www.hautsdefrance.fr/",
+    "title": "上法兰西：地方政府公告",
+    "publisher": "Hauts-de-France",
+    "kind": "government"
+  },
+  {
+    "region": "FR-HDF",
+    "url": "https://www.hautsdefrance.fr/conseil-regional-hdf/les-actes-institutionnels/",
+    "title": "上法兰西：地方决议及行政文件",
+    "publisher": "Hauts-de-France",
+    "kind": "law"
+  },
+  {
+    "region": "FR-HDF",
+    "url": "https://www.prefectures-regions.gouv.fr/hauts-de-france/",
+    "title": "上法兰西：国家驻区机构入口",
+    "publisher": "Hauts-de-France",
+    "kind": "government"
+  },
+  {
+    "region": "FR-IDF",
+    "url": "https://www.iledefrance.fr/",
+    "title": "法兰西岛：地方政府公告",
+    "publisher": "Île-de-France",
+    "kind": "government"
+  },
+  {
+    "region": "FR-IDF",
+    "url": "https://www.data.gouv.fr/datasets/actes-administratifs-de-la-region-ile-de-france",
+    "title": "法兰西岛：地方决议及行政文件",
+    "publisher": "Île-de-France",
+    "kind": "law"
+  },
+  {
+    "region": "FR-IDF",
+    "url": "https://www.prefectures-regions.gouv.fr/ile-de-france/",
+    "title": "法兰西岛：国家驻区机构入口",
+    "publisher": "Île-de-France",
+    "kind": "government"
+  },
+  {
+    "region": "FR-NOR",
+    "url": "https://www.normandie.fr/",
+    "title": "诺曼底：地方政府公告",
+    "publisher": "Normandie",
+    "kind": "government"
+  },
+  {
+    "region": "FR-NOR",
+    "url": "https://www.normandie.fr/deliberations-normandie-et-ex-haute-normandie",
+    "title": "诺曼底：地方决议及行政文件",
+    "publisher": "Normandie",
+    "kind": "law"
+  },
+  {
+    "region": "FR-NOR",
+    "url": "https://www.prefectures-regions.gouv.fr/normandie/",
+    "title": "诺曼底：国家驻区机构入口",
+    "publisher": "Normandie",
+    "kind": "government"
+  },
+  {
+    "region": "FR-NAQ",
+    "url": "https://www.nouvelle-aquitaine.fr/",
+    "title": "新阿基坦：地方政府公告",
+    "publisher": "Nouvelle-Aquitaine",
+    "kind": "government"
+  },
+  {
+    "region": "FR-NAQ",
+    "url": "https://www.nouvelle-aquitaine.fr/linstitution/le-conseil-regional/decisions-de-lassemblee-et-arretes-du-president",
+    "title": "新阿基坦：地方决议及行政文件",
+    "publisher": "Nouvelle-Aquitaine",
+    "kind": "law"
+  },
+  {
+    "region": "FR-NAQ",
+    "url": "https://www.prefectures-regions.gouv.fr/nouvelle-aquitaine/",
+    "title": "新阿基坦：国家驻区机构入口",
+    "publisher": "Nouvelle-Aquitaine",
+    "kind": "government"
+  },
+  {
+    "region": "FR-OCC",
+    "url": "https://www.laregion.fr/",
+    "title": "奥克西塔尼：地方政府公告",
+    "publisher": "Occitanie",
+    "kind": "government"
+  },
+  {
+    "region": "FR-OCC",
+    "url": "https://www.laregion.fr/Portail-de-publication-des-Deliberations-et-autres-actes-administratifs-de-la-Region",
+    "title": "奥克西塔尼：地方决议及行政文件",
+    "publisher": "Occitanie",
+    "kind": "law"
+  },
+  {
+    "region": "FR-OCC",
+    "url": "https://www.prefectures-regions.gouv.fr/occitanie/",
+    "title": "奥克西塔尼：国家驻区机构入口",
+    "publisher": "Occitanie",
+    "kind": "government"
+  },
+  {
+    "region": "FR-PDL",
+    "url": "https://www.paysdelaloire.fr/",
+    "title": "卢瓦尔河地区：地方政府公告",
+    "publisher": "Pays de la Loire",
+    "kind": "government"
+  },
+  {
+    "region": "FR-PDL",
+    "url": "https://www.paysdelaloire.fr/mon-conseil-regional/linstitution/les-actes-administratifs",
+    "title": "卢瓦尔河地区：地方决议及行政文件",
+    "publisher": "Pays de la Loire",
+    "kind": "law"
+  },
+  {
+    "region": "FR-PDL",
+    "url": "https://www.prefectures-regions.gouv.fr/pays-de-la-loire/",
+    "title": "卢瓦尔河地区：国家驻区机构入口",
+    "publisher": "Pays de la Loire",
+    "kind": "government"
+  },
+  {
+    "region": "FR-PAC",
+    "url": "https://www.maregionsud.fr/",
+    "title": "普罗旺斯-阿尔卑斯-蓝色海岸：地方政府公告",
+    "publisher": "Provence-Alpes-Côte d’Azur",
+    "kind": "government"
+  },
+  {
+    "region": "FR-PAC",
+    "url": "https://actes.maregionsud.fr/actes/",
+    "title": "普罗旺斯-阿尔卑斯-蓝色海岸：地方决议及行政文件",
+    "publisher": "Provence-Alpes-Côte d’Azur",
+    "kind": "law"
+  },
+  {
+    "region": "FR-PAC",
+    "url": "https://www.prefectures-regions.gouv.fr/provence-alpes-cote-dazur/",
+    "title": "普罗旺斯-阿尔卑斯-蓝色海岸：国家驻区机构入口",
+    "publisher": "Provence-Alpes-Côte d’Azur",
+    "kind": "government"
+  },
+  {
+    "region": "FR-971",
+    "url": "https://www.regionguadeloupe.fr/",
+    "title": "瓜德罗普：地方政府公告",
+    "publisher": "Guadeloupe",
+    "kind": "government"
+  },
+  {
+    "region": "FR-971",
+    "url": "https://www.regionguadeloupe.fr/Publication-des-actes-administratifs",
+    "title": "瓜德罗普：地方决议及行政文件",
+    "publisher": "Guadeloupe",
+    "kind": "law"
+  },
+  {
+    "region": "FR-971",
+    "url": "https://www.guadeloupe.gouv.fr/",
+    "title": "瓜德罗普：国家驻区机构入口",
+    "publisher": "Guadeloupe",
+    "kind": "government"
+  },
+  {
+    "region": "FR-972",
+    "url": "https://www.collectivitedemartinique.mq/",
+    "title": "马提尼克：地方政府公告",
+    "publisher": "Martinique",
+    "kind": "government"
+  },
+  {
+    "region": "FR-972",
+    "url": "https://www.collectivitedemartinique.mq/actes-adminitratifs/",
+    "title": "马提尼克：地方决议及行政文件",
+    "publisher": "Martinique",
+    "kind": "law"
+  },
+  {
+    "region": "FR-972",
+    "url": "https://www.martinique.gouv.fr/",
+    "title": "马提尼克：国家驻区机构入口",
+    "publisher": "Martinique",
+    "kind": "government"
+  },
+  {
+    "region": "FR-973",
+    "url": "https://www.ctguyane.fr/",
+    "title": "法属圭亚那：地方政府公告",
+    "publisher": "Guyane",
+    "kind": "government"
+  },
+  {
+    "region": "FR-973",
+    "url": "https://webdelib.ctguyane.fr/webdelibplus/jsp/seances.jsp?role=usager",
+    "title": "法属圭亚那：地方决议及行政文件",
+    "publisher": "Guyane",
+    "kind": "law"
+  },
+  {
+    "region": "FR-973",
+    "url": "https://www.guyane.gouv.fr/",
+    "title": "法属圭亚那：国家驻区机构入口",
+    "publisher": "Guyane",
+    "kind": "government"
+  },
+  {
+    "region": "FR-974",
+    "url": "https://regionreunion.com/",
+    "title": "留尼汪：地方政府公告",
+    "publisher": "La Réunion",
+    "kind": "government"
+  },
+  {
+    "region": "FR-974",
+    "url": "https://regionreunion.com/la-region/les-actes-administratifs/article/commission-permanente-assemblee-pleniere",
+    "title": "留尼汪：地方决议及行政文件",
+    "publisher": "La Réunion",
+    "kind": "law"
+  },
+  {
+    "region": "FR-974",
+    "url": "https://www.reunion.gouv.fr/",
+    "title": "留尼汪：国家驻区机构入口",
+    "publisher": "La Réunion",
+    "kind": "government"
+  },
+  {
+    "region": "FR-976",
+    "url": "https://www.mayotte.fr/",
+    "title": "马约特：地方政府公告",
+    "publisher": "Mayotte",
+    "kind": "government"
+  },
+  {
+    "region": "FR-976",
+    "url": "https://www.mayotte.fr/le-departement/transparence-administrative/publicite-des-actes",
+    "title": "马约特：地方决议及行政文件",
+    "publisher": "Mayotte",
+    "kind": "law"
+  },
+  {
+    "region": "FR-976",
+    "url": "https://www.mayotte.gouv.fr/",
+    "title": "马约特：国家驻区机构入口",
+    "publisher": "Mayotte",
+    "kind": "government"
+  },
+  {
+    "region": "NL-GR",
+    "url": "https://www.provinciegroningen.nl/",
+    "title": "格罗宁根：省政府公告",
+    "publisher": "Provincie Groningen",
+    "kind": "government"
+  },
+  {
+    "region": "NL-GR",
+    "url": "https://www.provinciegroningen.nl/bestuur-en-organisatie/provinciale-staten/",
+    "title": "格罗宁根：省议会文件",
+    "publisher": "Provincie Groningen",
+    "kind": "parliament"
+  },
+  {
+    "region": "NL-FR",
+    "url": "https://www.fryslan.frl/",
+    "title": "弗里斯兰：省政府公告",
+    "publisher": "Provincie Fryslân",
+    "kind": "government"
+  },
+  {
+    "region": "NL-FR",
+    "url": "https://www.fryslan.frl/provinciale-staten",
+    "title": "弗里斯兰：省议会文件",
+    "publisher": "Provincie Fryslân",
+    "kind": "parliament"
+  },
+  {
+    "region": "NL-DR",
+    "url": "https://www.provincie.drenthe.nl/",
+    "title": "德伦特：省政府公告",
+    "publisher": "Provincie Drenthe",
+    "kind": "government"
+  },
+  {
+    "region": "NL-DR",
+    "url": "https://www.provincie.drenthe.nl/organisatie-bestuur/provinciale-staten/",
+    "title": "德伦特：省议会文件",
+    "publisher": "Provincie Drenthe",
+    "kind": "parliament"
+  },
+  {
+    "region": "NL-OV",
+    "url": "https://www.overijssel.nl/",
+    "title": "上艾瑟尔：省政府公告",
+    "publisher": "Provincie Overijssel",
+    "kind": "government"
+  },
+  {
+    "region": "NL-OV",
+    "url": "https://www.overijssel.nl/bestuur/provinciale-staten/",
+    "title": "上艾瑟尔：省议会文件",
+    "publisher": "Provincie Overijssel",
+    "kind": "parliament"
+  },
+  {
+    "region": "NL-FL",
+    "url": "https://www.flevoland.nl/",
+    "title": "弗莱福兰：省政府公告",
+    "publisher": "Provincie Flevoland",
+    "kind": "government"
+  },
+  {
+    "region": "NL-FL",
+    "url": "https://stateninformatie.flevoland.nl/",
+    "title": "弗莱福兰：省议会文件",
+    "publisher": "Provincie Flevoland",
+    "kind": "parliament"
+  },
+  {
+    "region": "NL-GE",
+    "url": "https://www.gelderland.nl/",
+    "title": "海尔德兰：省政府公告",
+    "publisher": "Provincie Gelderland",
+    "kind": "government"
+  },
+  {
+    "region": "NL-GE",
+    "url": "https://www.gelderland.nl/themas/politiek/ps",
+    "title": "海尔德兰：省议会文件",
+    "publisher": "Provincie Gelderland",
+    "kind": "parliament"
+  },
+  {
+    "region": "NL-UT",
+    "url": "https://www.provincie-utrecht.nl/",
+    "title": "乌得勒支：省政府公告",
+    "publisher": "Provincie Utrecht",
+    "kind": "government"
+  },
+  {
+    "region": "NL-UT",
+    "url": "https://www.provincie-utrecht.nl/politiek-bestuur/provinciale-staten",
+    "title": "乌得勒支：省议会文件",
+    "publisher": "Provincie Utrecht",
+    "kind": "parliament"
+  },
+  {
+    "region": "NL-NH",
+    "url": "https://www.noord-holland.nl/",
+    "title": "北荷兰：省政府公告",
+    "publisher": "Provincie Noord-Holland",
+    "kind": "government"
+  },
+  {
+    "region": "NL-NH",
+    "url": "https://www.noord-holland.nl/Bestuur/Provinciale_Staten",
+    "title": "北荷兰：省议会文件",
+    "publisher": "Provincie Noord-Holland",
+    "kind": "parliament"
+  },
+  {
+    "region": "NL-ZH",
+    "url": "https://www.zuid-holland.nl/",
+    "title": "南荷兰：省政府公告",
+    "publisher": "Provincie Zuid-Holland",
+    "kind": "government"
+  },
+  {
+    "region": "NL-ZH",
+    "url": "https://www.zuid-holland.nl/politiek-bestuur/provinciale-staten/",
+    "title": "南荷兰：省议会文件",
+    "publisher": "Provincie Zuid-Holland",
+    "kind": "parliament"
+  },
+  {
+    "region": "NL-ZE",
+    "url": "https://www.zeeland.nl/",
+    "title": "泽兰：省政府公告",
+    "publisher": "Provincie Zeeland",
+    "kind": "government"
+  },
+  {
+    "region": "NL-ZE",
+    "url": "https://www.zeeland.nl/bestuur/provinciale-staten",
+    "title": "泽兰：省议会文件",
+    "publisher": "Provincie Zeeland",
+    "kind": "parliament"
+  },
+  {
+    "region": "NL-NB",
+    "url": "https://www.brabant.nl/",
+    "title": "北布拉班特：省政府公告",
+    "publisher": "Provincie Noord-Brabant",
+    "kind": "government"
+  },
+  {
+    "region": "NL-NB",
+    "url": "https://www.brabant.nl/bestuur/provinciale-staten/statenstukken/",
+    "title": "北布拉班特：省议会文件",
+    "publisher": "Provincie Noord-Brabant",
+    "kind": "parliament"
+  },
+  {
+    "region": "NL-LI",
+    "url": "https://www.limburg.nl/",
+    "title": "林堡：省政府公告",
+    "publisher": "Provincie Limburg",
+    "kind": "government"
+  },
+  {
+    "region": "NL-LI",
+    "url": "https://www.limburg.nl/bestuur/provinciale-staten/",
+    "title": "林堡：省议会文件",
+    "publisher": "Provincie Limburg",
+    "kind": "parliament"
+  },
+  {
+    "region": "NL",
+    "url": "https://www.rijksoverheid.nl/actueel/nieuws",
+    "title": "荷兰政府政策公告",
+    "publisher": "Rijksoverheid",
+    "kind": "government"
+  },
+  {
+    "region": "NL",
+    "url": "https://zoek.officielebekendmakingen.nl/",
+    "supportedRegions": [
+      "NL",
+      "NL-GR",
+      "NL-FR",
+      "NL-DR",
+      "NL-OV",
+      "NL-FL",
+      "NL-GE",
+      "NL-UT",
+      "NL-NH",
+      "NL-ZH",
+      "NL-ZE",
+      "NL-NB",
+      "NL-LI"
+    ],
+    "title": "荷兰官方公报与议会文件",
+    "publisher": "Rijksoverheid",
+    "kind": "law"
+  },
+  {
+    "region": "NL",
+    "url": "https://wetten.overheid.nl/",
+    "title": "荷兰现行国家法规",
+    "publisher": "Rijksoverheid",
+    "kind": "law"
+  },
+  {
+    "region": "NL",
+    "url": "https://lokaleregelgeving.overheid.nl/",
+    "supportedRegions": [
+      "NL-GR",
+      "NL-FR",
+      "NL-DR",
+      "NL-OV",
+      "NL-FL",
+      "NL-GE",
+      "NL-UT",
+      "NL-NH",
+      "NL-ZH",
+      "NL-ZE",
+      "NL-NB",
+      "NL-LI"
+    ],
+    "title": "荷兰地方现行法规",
+    "publisher": "Rijksoverheid",
+    "kind": "law"
+  },
+  {
+    "region": "NL",
+    "url": "https://www.tweedekamer.nl/kamerstukken/wetsvoorstellen",
+    "title": "荷兰众议院法案",
+    "publisher": "Staten-Generaal",
+    "kind": "parliament"
+  },
+  {
+    "region": "NL",
+    "url": "https://www.eerstekamer.nl/wetsvoorstellen_2",
+    "title": "荷兰参议院法案",
+    "publisher": "Staten-Generaal",
+    "kind": "parliament"
+  },
+  {
+    "region": "NL-FR",
+    "url": "https://www.fryslan.frl/bekendmakingen-2026",
+    "title": "弗里斯兰：官方公布与决定",
+    "publisher": "Provincie Fryslân",
+    "kind": "law"
+  },
+  {
+    "region": "NL-DR",
+    "url": "https://www.provincie.drenthe.nl/actueel/bekendmakingen/",
+    "title": "德伦特：官方公布与决定",
+    "publisher": "Provincie Drenthe",
+    "kind": "law"
+  },
+  {
+    "region": "NL-FL",
+    "url": "https://www.flevoland.nl/loket/openbare-documenten/overzicht-openbare-documenten/wet-en-regelgeving",
+    "title": "弗莱福兰：官方公布与决定",
+    "publisher": "Provincie Flevoland",
+    "kind": "law"
+  },
+  {
+    "region": "NL-UT",
+    "url": "https://www.provincie-utrecht.nl/actueel/gs-besluiten",
+    "title": "乌得勒支：官方公布与决定",
+    "publisher": "Provincie Utrecht",
+    "kind": "law"
+  },
+  {
+    "region": "NL-ZH",
+    "url": "https://www.zuid-holland.nl/actueel/bekendmakingen/",
+    "title": "南荷兰：官方公布与决定",
+    "publisher": "Provincie Zuid-Holland",
+    "kind": "law"
+  },
+  {
+    "region": "NL-ZE",
+    "url": "https://www.zeeland.nl/loket/Provinciaal-Blad-en-Bekendmakingen",
+    "title": "泽兰：官方公布与决定",
+    "publisher": "Provincie Zeeland",
+    "kind": "law"
+  },
+  {
+    "region": "NL-NB",
+    "url": "https://www.brabant.nl/actueel/bekendmakingen/",
+    "title": "北布拉班特：官方公布与决定",
+    "publisher": "Provincie Noord-Brabant",
+    "kind": "law"
+  },
+  {
+    "region": "NL-LI",
+    "url": "https://www.limburg.nl/actueel/bekendmakingen/",
+    "title": "林堡：官方公布与决定",
+    "publisher": "Provincie Limburg",
+    "kind": "law"
+  },
+  {
+    "region": "FR",
+    "url": "https://www.legifrance.gouv.fr/jorf/jo",
+    "title": "法国官方公报",
+    "publisher": "Légifrance",
+    "kind": "law"
+  },
+  {
+    "region": "FR",
+    "url": "https://www.service-public.gouv.fr/particuliers/actualites",
+    "title": "法国公共服务：个人政策动态",
+    "publisher": "DILA",
+    "kind": "government"
+  },
+  {
+    "region": "FR",
+    "url": "https://entreprendre.service-public.gouv.fr/actualites",
+    "title": "法国公共服务：企业政策动态",
+    "publisher": "DILA",
+    "kind": "government"
+  },
+  {
+    "region": "FR",
+    "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers",
+    "title": "法国国民议会立法进程",
+    "publisher": "Assemblée nationale",
+    "kind": "parliament"
+  },
+  {
+    "region": "FR",
+    "url": "https://www.senat.fr/dossiers-legislatifs/lois-promulguees.html",
+    "title": "法国参议院已公布法律",
+    "publisher": "Sénat",
+    "kind": "parliament"
+  },
+  {
+    "region": "DE",
+    "url": "https://www.bundesregierung.de/breg-de/suche/gesetzliche-neuregelungen-442800",
+    "title": "联邦政府每月新规索引",
+    "publisher": "Bundesregierung"
+  },
+  {
+    "region": "DE",
+    "url": "https://www.recht.bund.de/de/home/home_node.html",
+    "title": "联邦法律公报",
+    "publisher": "Bundesministerium der Justiz"
+  },
+  {
+    "region": "DE-NW",
+    "title": "北威州法律与条例公报",
+    "url": "https://recht.nrw.de/",
+    "publisher": "Ministerium des Innern Nordrhein-Westfalen"
+  },
+  {
+    "region": "DE-RP",
+    "title": "莱法州官方公布平台",
+    "url": "https://verkuendung.rlp.de/de/",
+    "publisher": "Land Rheinland-Pfalz"
+  },
+  {
+    "region": "DE-SL",
+    "title": "萨尔州官方公报与最新期号",
+    "url": "https://www.amtsblatt.saarland.de/jportal/portal/page/fpverksl.psml",
+    "publisher": "Saarländische Staatskanzlei"
+  },
+  {
+    "region": "DE-BW",
+    "title": "巴符州法律公报",
+    "url": "https://www.baden-wuerttemberg.de/de/service/gesetze-und-verordnungen/gesetzblatt",
+    "publisher": "Staatsministerium Baden-Württemberg"
+  },
+  {
+    "region": "DE-HE",
+    "title": "黑森官方公布平台",
+    "url": "https://verkuendung.hessen.de/",
+    "publisher": "Hessische Staatskanzlei"
+  },
+  {
+    "region": "DE-BY",
+    "title": "巴伐利亚官方公布平台",
+    "url": "https://www.verkuendung-bayern.de/",
+    "publisher": "Bayerische Staatsregierung"
+  },
+  {
+    "region": "DE-SH",
+    "title": "石荷州官方法律与行政公报",
+    "url": "https://verkuendungsportal.schleswig-holstein.de/home",
+    "publisher": "Verkündungsportal Schleswig-Holstein"
+  },
+  {
+    "region": "DE-HH",
+    "title": "汉堡法规发布及立法程序入口",
+    "url": "https://www.hamburg.de/politik-und-verwaltung/behoerden/bjv/veroeffentlichungen",
+    "publisher": "Behörde für Justiz und Verbraucherschutz Hamburg"
+  },
+  {
+    "region": "DE-HB",
+    "title": "不来梅法律公报",
+    "url": "https://www.gesetzblatt.bremen.de/",
+    "publisher": "Gesetzblatt Bremen"
+  },
+  {
+    "region": "DE-NI",
+    "title": "下萨克森官方公报入口",
+    "url": "https://www.niedersachsen.de/politik_staat/gesetze_verordnungen_und_sonstige_vorschriften/aktuelle_verkundungsblatter/download-verkuendungsblaetter-108794.html",
+    "publisher": "Portal Niedersachsen"
+  },
+  {
+    "region": "DE-MV",
+    "title": "梅前州法律及条例公报",
+    "url": "https://www.regierung-mv.de/Landesregierung/jm/service_justizministerium/verkuendungsblaetter/gesetz-verordnungsblaetter",
+    "publisher": "Justizministerium Mecklenburg-Vorpommern"
+  },
+  {
+    "region": "DE-BE",
+    "title": "柏林法律与条例公报：2026年各期",
+    "url": "https://www.berlin.de/sen/justiz/service/gesetze-und-verordnungen/2026/",
+    "publisher": "Senatsverwaltung für Justiz und Verbraucherschutz Berlin"
+  },
+  {
+    "region": "DE-BB",
+    "title": "勃兰登堡2026年公报时间顺序目录",
+    "url": "https://bravors.brandenburg.de/de/veroeffentlichungsblaetter_chronologisch/2026",
+    "publisher": "BRAVORS / Land Brandenburg"
+  },
+  {
+    "region": "DE-SN",
+    "title": "萨克森州政府官方新闻与条例发布",
+    "url": "https://www.medienservice.sachsen.de/",
+    "publisher": "Sächsische Staatskanzlei"
+  },
+  {
+    "region": "DE-SN",
+    "title": "REVOSax：萨克森现行法规检索",
+    "url": "https://www.revosax.sachsen.de/",
+    "publisher": "Sächsische Staatskanzlei"
+  },
+  {
+    "region": "DE-ST",
+    "title": "萨克森-安哈尔特议会：文件与审议记录入口",
+    "url": "https://www.landtag.sachsen-anhalt.de/dokumente/aktuelle-dokumente",
+    "publisher": "Landtag Sachsen-Anhalt"
+  },
+  {
+    "region": "DE-ST",
+    "title": "萨克森-安哈尔特议会：最新政策与会议信息",
+    "url": "https://www.landtag.sachsen-anhalt.de/",
+    "publisher": "Landtag Sachsen-Anhalt"
+  },
+  {
+    "region": "DE-TH",
+    "title": "图林根州议会：已通过的新法律",
+    "url": "https://www.thueringer-landtag.de/plenum/neue-gesetze-im-landtag/",
+    "publisher": "Thüringer Landtag"
+  },
+  {
+    "region": "DE-TH",
+    "title": "图林根议会文件、公报及立法程序入口",
+    "url": "https://www.thueringer-landtag.de/dokumente/parlamentsdokumentation/",
+    "publisher": "Thüringer Landtag"
+  },
+  {
+    "region": "DE-SH",
+    "title": "石荷州议会决议记录",
+    "url": "https://www.landtag.ltsh.de/infothek/wahl20/plenum/beschlusspro_seite/",
+    "publisher": "Schleswig-Holsteinischer Landtag",
+    "kind": "parliament"
+  },
+  {
+    "region": "DE-SH",
+    "title": "石荷州政府及各部新闻与决定",
+    "url": "https://www.schleswig-holstein.de/DE/landesportal/presse/pressemitteilungen",
+    "publisher": "Landesregierung Schleswig-Holstein",
+    "kind": "government"
+  },
+  {
+    "region": "DE-HH",
+    "title": "汉堡州议会表决与决议记录",
+    "url": "https://www.hamburgische-buergerschaft.de/recherche-info/protokolle",
+    "publisher": "Hamburgische Bürgerschaft",
+    "kind": "parliament"
+  },
+  {
+    "region": "DE-HH",
+    "title": "汉堡州政府各部门新闻与决定",
+    "url": "https://www.hamburg.de/politik-und-verwaltung/senat/presseservice-des-senats/pressemeldungen-des-senats",
+    "publisher": "Senat der Freien und Hansestadt Hamburg",
+    "kind": "government"
+  },
+  {
+    "region": "DE-HB",
+    "title": "不来梅州议会决议记录",
+    "url": "https://www.bremische-buergerschaft.de/index.php?id=480",
+    "publisher": "Bremische Bürgerschaft",
+    "kind": "parliament"
+  },
+  {
+    "region": "DE-HB",
+    "title": "不来梅州政府各部门新闻与决定",
+    "url": "https://www.senatspressestelle.bremen.de/pressemitteilungen-1464",
+    "publisher": "Pressestelle des Senats Bremen",
+    "kind": "government"
+  },
+  {
+    "region": "DE-NI",
+    "title": "下萨克森州议会文书与表决简报",
+    "url": "https://www.landtag-niedersachsen.de/dokumentensuche/",
+    "publisher": "Niedersächsischer Landtag",
+    "kind": "parliament"
+  },
+  {
+    "region": "DE-NI",
+    "title": "下萨克森州政府及公共机构公告",
+    "url": "https://www.niedersachsen.de/startseite/service/presse/presseinformationen/",
+    "publisher": "Portal Niedersachsen",
+    "kind": "government"
+  },
+  {
+    "region": "DE-MV",
+    "title": "梅前州议会全体会议与决议记录",
+    "url": "https://www.landtag-mv.de/plenum-und-ausschuesse/plenum/vergangene-plenarsitzungen",
+    "publisher": "Landtag Mecklenburg-Vorpommern",
+    "kind": "parliament"
+  },
+  {
+    "region": "DE-MV",
+    "title": "梅前州政府各部新闻与决定",
+    "url": "https://www.regierung-mv.de/Aktuell/",
+    "publisher": "Landesregierung Mecklenburg-Vorpommern",
+    "kind": "government"
+  },
+  {
+    "region": "DE-BE",
+    "title": "柏林议会文献库：法律与议会决议",
+    "url": "https://pardok.parlament-berlin.de/portala/start.tt.html",
+    "publisher": "Abgeordnetenhaus von Berlin",
+    "kind": "parliament"
+  },
+  {
+    "region": "DE-BE",
+    "title": "柏林州政府与市长办公厅新闻公告",
+    "url": "https://www.berlin.de/rbmskzl/aktuelles/pressemitteilungen/",
+    "publisher": "Senatskanzlei Berlin",
+    "kind": "government"
+  },
+  {
+    "region": "DE-BB",
+    "title": "勃兰登堡州议会已通过法律目录",
+    "url": "https://www.landtag.brandenburg.de/de/parlament/plenum_und_gesetze/beschlossene_gesetze/beschlossene_gesetze_der_8._wahlperiode/39257",
+    "publisher": "Landtag Brandenburg",
+    "kind": "parliament"
+  },
+  {
+    "region": "DE-BB",
+    "title": "勃兰登堡州政府新闻公告总入口",
+    "url": "https://landesregierung-brandenburg.de/",
+    "publisher": "Landesregierung Brandenburg",
+    "kind": "government"
+  },
+  {
+    "region": "DE-SN",
+    "title": "萨克森州议会全体会议及决议",
+    "url": "https://www.landtag.sachsen.de/de/aktuelles/plenarsitzungen/index.cshtml",
+    "publisher": "Sächsischer Landtag",
+    "kind": "parliament"
+  },
+  {
+    "region": "DE-SN",
+    "title": "萨克森州政府及各部门新闻公告",
+    "url": "https://www.medienservice.sachsen.de/medien/",
+    "publisher": "Sächsische Staatskanzlei",
+    "kind": "government"
+  },
+  {
+    "region": "DE-ST",
+    "title": "萨克森-安哈尔特州议会全体会议与表决结果档案",
+    "url": "https://www.landtag.sachsen-anhalt.de/archiv",
+    "publisher": "Landtag Sachsen-Anhalt",
+    "kind": "parliament"
+  },
+  {
+    "region": "DE-ST",
+    "title": "萨克森-安哈尔特州政府新闻公告",
+    "url": "https://www.sachsen-anhalt.de/lj/politik-und-verwaltung/service/politik-aktuell/pressemitteilungen",
+    "publisher": "Landesregierung Sachsen-Anhalt",
+    "kind": "government"
+  },
+  {
+    "region": "DE-TH",
+    "title": "图林根州议会全体会议记录及决议检索入口",
+    "url": "https://www.thueringer-landtag.de/plenum/protokolle/",
+    "publisher": "Thüringer Landtag",
+    "kind": "parliament"
+  },
+  {
+    "region": "DE-TH",
+    "title": "图林根州政府及各部门新闻公告",
+    "url": "https://thueringen.de/medienservice/medieninformationen",
+    "publisher": "Thüringer Staatskanzlei",
+    "kind": "government"
+  },
+  {
+    "region": "DE-NW",
+    "title": "北威州议会全体会议决定与会议记录",
+    "url": "https://www.landtag.nrw.de/cms/render/live/de/sites/landtag-r20/home/dokumente/dokumentensuche/ubersichtsseite-reden--protoko-1/protokolle-18-wahlperiode-2022-2.html?ausschuss=Plenum",
+    "publisher": "Landtag Nordrhein-Westfalen",
+    "kind": "parliament"
+  },
+  {
+    "region": "DE-NW",
+    "title": "北威州政府新闻与决定公告",
+    "url": "https://www.land.nrw/pressemitteilungen",
+    "publisher": "Landesregierung Nordrhein-Westfalen",
+    "kind": "government"
+  },
+  {
+    "region": "DE-RP",
+    "title": "莱法州议会最新文件与决定记录",
+    "url": "https://opal.rlp.de/portal/dokumente.tt.html",
+    "publisher": "Landtag Rheinland-Pfalz",
+    "kind": "parliament"
+  },
+  {
+    "region": "DE-RP",
+    "title": "莱法州政府新闻公告",
+    "url": "https://www.rlp.de/service/pressemitteilungen",
+    "publisher": "Staatskanzlei Rheinland-Pfalz",
+    "kind": "government"
+  },
+  {
+    "region": "DE-SL",
+    "title": "萨尔州议会动态与表决结果",
+    "url": "https://www.landtag-saar.de/aktuelles/",
+    "publisher": "Landtag des Saarlandes",
+    "kind": "parliament"
+  },
+  {
+    "region": "DE-SL",
+    "title": "萨尔州政府各部门新闻公告",
+    "url": "https://www.saarland.de/DE/presse-informationen/medienservice/medieninfos",
+    "publisher": "Landesregierung des Saarlandes",
+    "kind": "government"
+  },
+  {
+    "region": "DE-BW",
+    "title": "巴符州议会全体会议决定",
+    "url": "https://www.landtag-bw.de/de/aktuelles/beschluesse",
+    "publisher": "Landtag Baden-Württemberg",
+    "kind": "parliament"
+  },
+  {
+    "region": "DE-BW",
+    "title": "巴符州政府各部门新闻公告",
+    "url": "https://www.baden-wuerttemberg.de/de/service/presse/pressemitteilungen",
+    "publisher": "Landesregierung Baden-Württemberg",
+    "kind": "government"
+  },
+  {
+    "region": "DE-HE",
+    "title": "黑森州议会已通过法律目录（第21届）",
+    "url": "https://starweb.hessen.de/portal/browse.tt.html?action=link&searchgeneric1-parsed=%28WP%3D21+AND+SGEBES%3DANNAHME%29+NOT+NOWEB%3DX&type=generic1",
+    "publisher": "Hessischer Landtag",
+    "kind": "parliament"
+  },
+  {
+    "region": "DE-HE",
+    "title": "黑森州政府各部门新闻公告",
+    "url": "https://hessen.de/presse",
+    "publisher": "Hessische Landesregierung",
+    "kind": "government"
+  },
+  {
+    "region": "DE-BY",
+    "title": "巴伐利亚州议会已通过法律目录（第19届）",
+    "url": "https://www.bayern.landtag.de/parlament/dokumente/drucksachen/?anzahl_treffer=20&beschluss=zustimmung&dknr=&dlh=BeschlosseneGesetze19&dokumentenart=Drucksache&dokumentenart=Drucksache&erfassungsdatum%5Bend%5D=&erfassungsdatum%5Bstart%5D=&ist_basisdokument=off&q=&sort=date&suchverhalten=AND&suchvorgangsart%5B%5D=Gesetze%5C%5CGesetzentwurf&suchvorgangsart%5B%5D=Gesetze%5C%5CHaushaltsgesetz,+Nachtragshaushaltsgesetz&wahlperiodeid%5B%5D=19",
+    "publisher": "Bayerischer Landtag",
+    "kind": "parliament"
+  },
+  {
+    "region": "DE-BY",
+    "title": "巴伐利亚州政府各部门新闻公告",
+    "url": "https://www.bayern.de/presse/pressemitteilungen/",
+    "publisher": "Bayerische Staatsregierung",
+    "kind": "government"
+  },
+  {
+    "region": "DE",
+    "title": "联邦议会文件与立法进程",
+    "url": "https://www.bundestag.de/dokumente/parlamentsdokumentation",
+    "publisher": "Deutscher Bundestag",
+    "kind": "parliament"
+  },
+  {
+    "region": "DE",
+    "title": "联邦议会审议与表决新闻档案",
+    "url": "https://www.bundestag.de/dokumente/textarchiv",
+    "publisher": "Deutscher Bundestag",
+    "kind": "parliament"
+  },
+  {
+    "region": "DE",
+    "title": "联邦内阁议题与决定",
+    "url": "https://www.bundesregierung.de/breg-de/bundesregierung/kabinettsthemen",
+    "publisher": "Bundesregierung",
+    "kind": "government"
+  },
+  {
+    "region": "DE",
+    "title": "联邦参议院全体会议",
+    "url": "https://www.bundesrat.de/DE/plenum/plenum-node.html",
+    "publisher": "Bundesrat",
+    "kind": "parliament"
+  },
+  {
+    "region": "DE-BB",
+    "title": "勃兰登堡基础设施与规划部公告",
+    "url": "https://mil.brandenburg.de/mil/de/",
+    "publisher": "Ministerium für Infrastruktur und Landesplanung Brandenburg",
+    "kind": "government"
+  }
+]

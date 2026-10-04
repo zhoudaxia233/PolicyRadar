@@ -1,3 +1,4 @@
+import {exportRegistry,registrySchema} from './export-registry.ts';
 import {migrateExportRegions,countryReviewSettings} from './export-regions.ts';
 import { z } from 'zod';
 import { policySchema } from './domain/model.ts';
@@ -9,6 +10,7 @@ export const snapshotKey = /^sources\/[a-f0-9]{64}\/[a-f0-9]{64}\.(html|pdf)$/;
 const dataRow = z.object({data:z.string()});
 const exportSchema = z.object({
   format:z.literal('policy-radar-export'), schemaVersion:z.literal(3), exportedAt:z.string().datetime(),
+  discoveryRegistry:registrySchema.optional(),
   tables:z.object({
     policies:z.array(dataRow.extend({id:z.string(),version:z.number().int().positive()})),
     revisions:z.array(dataRow.extend({policy_id:z.string(),version:z.number().int().positive()})),
@@ -33,7 +35,7 @@ export function createStaticData(input:unknown) {
     const before=byId.get(record.supersedes);
     if(!before||['region','url','sourceUrl','officialId'].some(key=>record[key as keyof typeof record]!==before[key as keyof typeof before])||record.discoveredAt<before.discoveredAt)throw Error('Intake correction must preserve document identity and discovery order');
   }
-  const discovery=discoveryForYear(year);
+  const discovery=discoveryForYear(year,exportRegistry(data));
   const keys=new Set(data.tables.snapshots.map(s=>s.key));
   for(const c of data.tables.checks) if(c.snapshot_key&&!keys.has(c.snapshot_key)) throw Error('Missing registered snapshot: '+c.snapshot_key);
   return {
@@ -45,6 +47,6 @@ export function createStaticData(input:unknown) {
       settings:countryReviewSettings(data.tables.settings),
       coverage:[...new Set(discovery.map(s=>s.region))],discovery,
     },
-    intake:{trackingStart,records:currentRecords(records),coverage:coverageRows(scans,year)},
+    intake:{trackingStart,records:currentRecords(records),coverage:coverageRows(scans,year,exportRegistry(data))},
   };
 }

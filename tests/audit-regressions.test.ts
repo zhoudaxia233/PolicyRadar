@@ -39,7 +39,8 @@ test('foreign detail links select that country and remove incompatible filters',
  assert.deepEqual(readNavigation(navigationSearch('',state),rows),state);
 });
 test('operational gate requires a versioned registry without rewriting old exports',()=>{
- assert.throws(()=>validateSelection(active,active),/discoveryRegistry/);
+ const missingRegistry=structuredClone(active);delete missingRegistry.discoveryRegistry;
+ assert.throws(()=>validateSelection(active,missingRegistry),/discoveryRegistry/);
  const next={...structuredClone(active),discoveryRegistry:JSON.parse(readFileSync('data/discovery-registry.json','utf8'))};
  assert.doesNotThrow(()=>validateSelection(active,next));
 });

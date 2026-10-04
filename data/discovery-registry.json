@@ -1665,5 +1665,216 @@
     "url": "https://mil.brandenburg.de/mil/de/",
     "publisher": "Ministerium für Infrastruktur und Landesplanung Brandenburg",
     "kind": "government"
+  },
+  {
+    "region": "IT-21",
+    "url": "https://www.regione.piemonte.it/",
+    "title": "皮埃蒙特：大区政府入口",
+    "publisher": "Regione Piemonte",
+    "kind": "government"
+  },
+  {
+    "region": "IT-23",
+    "url": "https://www.regione.vda.it/",
+    "title": "瓦莱达奥斯塔：大区政府入口",
+    "publisher": "Regione Valle d’Aosta / Vallée d’Aoste",
+    "kind": "government"
+  },
+  {
+    "region": "IT-25",
+    "url": "https://www.regione.lombardia.it/",
+    "title": "伦巴第：大区政府入口",
+    "publisher": "Regione Lombardia",
+    "kind": "government"
+  },
+  {
+    "region": "IT-32",
+    "url": "https://www.regione.taa.it/",
+    "title": "特伦蒂诺-上阿迪杰：大区政府入口",
+    "publisher": "Regione Trentino-Alto Adige / Südtirol",
+    "kind": "government"
+  },
+  {
+    "region": "IT-34",
+    "url": "https://www.regione.veneto.it/",
+    "title": "威尼托：大区政府入口",
+    "publisher": "Regione Veneto",
+    "kind": "government"
+  },
+  {
+    "region": "IT-36",
+    "url": "https://www.regione.fvg.it/",
+    "title": "弗留利-威尼斯朱利亚：大区政府入口",
+    "publisher": "Regione Friuli Venezia Giulia",
+    "kind": "government"
+  },
+  {
+    "region": "IT-42",
+    "url": "https://www.regione.liguria.it/",
+    "title": "利古里亚：大区政府入口",
+    "publisher": "Regione Liguria",
+    "kind": "government"
+  },
+  {
+    "region": "IT-45",
+    "url": "https://www.regione.emilia-romagna.it/",
+    "title": "艾米利亚-罗马涅：大区政府入口",
+    "publisher": "Regione Emilia-Romagna",
+    "kind": "government"
+  },
+  {
+    "region": "IT-52",
+    "url": "https://www.regione.toscana.it/",
+    "title": "托斯卡纳：大区政府入口",
+    "publisher": "Regione Toscana",
+    "kind": "government"
+  },
+  {
+    "region": "IT-55",
+    "url": "https://www.regione.umbria.it/home",
+    "title": "翁布里亚：大区政府入口",
+    "publisher": "Regione Umbria",
+    "kind": "government"
+  },
+  {
+    "region": "IT-57",
+    "url": "https://www.regione.marche.it/",
+    "title": "马尔凯：大区政府入口",
+    "publisher": "Regione Marche",
+    "kind": "government"
+  },
+  {
+    "region": "IT-62",
+    "url": "https://www.regione.lazio.it/",
+    "title": "拉齐奥：大区政府入口",
+    "publisher": "Regione Lazio",
+    "kind": "government"
+  },
+  {
+    "region": "IT-65",
+    "url": "https://www.regione.abruzzo.it/",
+    "title": "阿布鲁佐：大区政府入口",
+    "publisher": "Regione Abruzzo",
+    "kind": "government"
+  },
+  {
+    "region": "IT-67",
+    "url": "https://www.regione.molise.it/",
+    "title": "莫利塞：大区政府入口",
+    "publisher": "Regione Molise",
+    "kind": "government"
+  },
+  {
+    "region": "IT-72",
+    "url": "https://www.regione.campania.it/",
+    "title": "坎帕尼亚：大区政府入口",
+    "publisher": "Regione Campania",
+    "kind": "government"
+  },
+  {
+    "region": "IT-75",
+    "url": "https://www.regione.puglia.it/",
+    "title": "普利亚：大区政府入口",
+    "publisher": "Regione Puglia",
+    "kind": "government"
+  },
+  {
+    "region": "IT-77",
+    "url": "https://www.regione.basilicata.it/",
+    "title": "巴西利卡塔：大区政府入口",
+    "publisher": "Regione Basilicata",
+    "kind": "government"
+  },
+  {
+    "region": "IT-78",
+    "url": "https://www.regione.calabria.it/",
+    "title": "卡拉布里亚：大区政府入口",
+    "publisher": "Regione Calabria",
+    "kind": "government"
+  },
+  {
+    "region": "IT-82",
+    "url": "https://www.regione.sicilia.it/",
+    "title": "西西里：大区政府入口",
+    "publisher": "Regione Sicilia",
+    "kind": "government"
+  },
+  {
+    "region": "IT-88",
+    "url": "https://www.regione.sardegna.it/",
+    "title": "撒丁：大区政府入口",
+    "publisher": "Regione Sardegna",
+    "kind": "government"
+  },
+  {
+    "region": "IT",
+    "url": "https://www.governo.it/",
+    "title": "意大利：政府公告",
+    "publisher": "Governo italiano",
+    "kind": "government"
+  },
+  {
+    "region": "IT",
+    "url": "https://www.gazzettaufficiale.it/",
+    "title": "意大利：国家公报",
+    "publisher": "Gazzetta Ufficiale",
+    "kind": "law"
+  },
+  {
+    "region": "IT",
+    "url": "https://www.normattiva.it/",
+    "title": "意大利：现行法律库",
+    "publisher": "Normattiva",
+    "kind": "law"
+  },
+  {
+    "region": "IT",
+    "url": "https://www.camera.it/",
+    "title": "意大利：众议院",
+    "publisher": "Camera dei deputati",
+    "kind": "parliament"
+  },
+  {
+    "region": "IT",
+    "url": "https://www.senato.it/",
+    "title": "意大利：参议院",
+    "publisher": "Senato della Repubblica",
+    "kind": "parliament"
+  },
+  {
+    "region": "IT",
+    "url": "https://www.inps.it/it/it/inps-comunica/notizie.html",
+    "title": "意大利：社会保障机构公告",
+    "publisher": "INPS",
+    "kind": "government"
+  },
+  {
+    "region": "IT",
+    "url": "https://www.gazzettaufficiale.it/30giorni/regioni",
+    "title": "意大利：国家公报大区法律栏目",
+    "publisher": "Gazzetta Ufficiale",
+    "kind": "law",
+    "supportedRegions": [
+      "IT-21",
+      "IT-23",
+      "IT-25",
+      "IT-32",
+      "IT-34",
+      "IT-36",
+      "IT-42",
+      "IT-45",
+      "IT-52",
+      "IT-55",
+      "IT-57",
+      "IT-62",
+      "IT-65",
+      "IT-67",
+      "IT-72",
+      "IT-75",
+      "IT-77",
+      "IT-78",
+      "IT-82",
+      "IT-88"
+    ]
   }
 ]

@@ -22,7 +22,8 @@ up from stored coverage, rather than skip to the latest week.
 3. Use every channel in `data/discovery-registry.json` (resolved by `discoveryForYear`), covering
    Germany’s federation and all sixteen states, plus France’s national level and
    all 18 registered regional geographic areas, and the Netherlands’ national level
-   plus all 12 European provinces, and Switzerland’s federation and all 26 cantons,
+   plus all 12 European provinces, Switzerland’s federation and all 26 cantons,
+   and Italy’s national level and all 20 regions,
    across all policy topics. French
    departments, municipalities and other special overseas territories are not
    independently connected. Dutch municipalities, water authorities, Caribbean
@@ -88,7 +89,7 @@ up from stored coverage, rather than skip to the latest week.
 4. Set `exportedAt` to the actual export time. Preserve historical `lastReviewAt` and
    `reviewNote` only in legacy exports; do not write these global keys in new
    exports. Update `lastReviewAt:DE` / `reviewNote:DE` and/or
-   `lastReviewAt:FR` / `reviewNote:FR` and/or `lastReviewAt:NL` / `reviewNote:NL` and/or `lastReviewAt:CH` / `reviewNote:CH` only for the countries actually reviewed;
+   `lastReviewAt:FR` / `reviewNote:FR` and/or `lastReviewAt:NL` / `reviewNote:NL` and/or `lastReviewAt:CH` / `reviewNote:CH` and/or `lastReviewAt:IT` / `reviewNote:IT` only for the countries actually reviewed;
    the UI falls back to the preserved initial markers until a country is updated.
    Name coverage gaps,
    affected channels and unresolved facts. Do not claim full nationwide coverage.
@@ -260,3 +261,19 @@ history gate checks HEAD against its first parent. A root commit validates its
 initial export without claiming a historical transition; the build still checks
 the archived bytes. This fallback does not claim to reconstruct an absent event
 baseline.
+
+
+## Italian initial coverage
+
+The initial Italian registry includes national government, both parliamentary
+chambers, national gazette, consolidated legislation, INPS news, all 20 regional
+government entry points and the national gazette’s regional-law series. The shared
+regional-law channel supports only its explicit 20 region identifiers.
+Regional parliaments and regional gazettes are not yet individually connected.
+Trento and Bolzano have autonomous legislative powers but are not separately
+registered: do not claim their coverage from the regional government portal.
+Use ISO region identifiers and the language of each original document; retain
+bilingual institutional names. Cabinet approval of a bill is not parliamentary
+adoption; distinguish decree-law commencement, conversion and expiry.
+The initial parental-leave explanation is historical backfill, not evidence of
+a complete monitoring scan since 2026-10-02.

@@ -7506,5 +7506,41 @@
   "本轮尝试访问4个登记入口，其中0个受阻；并比对现有政策来源。入口可访问不等于完整扫描。已补充可靠的新发现，未核齐的公告保留待核实；未确认既有待决政策已获通过。": [
     "4 registrierte Einstiege wurden aufgerufen, 0 waren blockiert; bestehende Politikquellen wurden verglichen. Erreichbarkeit ist keine vollständige Prüfung. Belastbare Neufunde wurden ergänzt, ungeklärte Meldungen bleiben offen. Keine bestätigte Verabschiedung bisher offener Vorhaben.",
     "Attempted 4 registered entry points, of which 0 were blocked, and compared existing policy sources. Access is not a complete scan. Reliable discoveries were added and unresolved announcements retained for verification. No adoption of previously pending measures was confirmed."
+  ],
+  "电子签发服务开始提供": [
+    "Digitale Ausstellung startet",
+    "Digital issuance service starts"
+  ],
+  "将服务启动节点改引明确记载10月1日的司法部说明，并将笼统的要求标题改为服务启动。补充官方对申请设备的不同表述。": [
+    "Der Servicestart verweist nun auf die Ministeriumsseite mit dem ausdrücklichen 1. Oktober; der pauschale Anforderungstitel wird durch den Servicestart ersetzt. Die unterschiedlichen amtlichen Geräteangaben werden ergänzt.",
+    "The service-start event now cites the ministry page explicitly giving 1 October, and replaces the generic requirements title with a service-start title. Different official descriptions of application devices are also included."
+  ],
+  "将笼统的要求标题改为2027年保费开始适用；日期和金额未改变。": [
+    "Der pauschale Anforderungstitel wird durch den Beginn der Prämien 2027 ersetzt; Datum und Beträge bleiben unverändert.",
+    "The generic requirements title is replaced with the start of 2027 premiums; the date and amounts are unchanged."
+  ],
+  "适用节点改引明确写出2026-10-10的德国政府公告；原委员会概览支持范围说明，但未列出该具体日期。": [
+    "Der Anwendungstermin verweist auf die Regierungsmitteilung mit dem ausdrücklichen 10.10.2026. Die bisherige Kommissionsübersicht belegt den Umfang, nennt aber nicht dieses genaue Datum.",
+    "The application event now cites the government announcement explicitly giving 10 October 2026. The previous Commission overview supports scope but does not give that exact date."
+  ],
+  "司法部：无犯罪记录证明与电子签发": [
+    "Justizministerium: Führungszeugnis und digitale Ausstellung",
+    "Justice ministry: certificate of conduct and digital issuance"
+  ],
+  "德国联邦司法与消费者保护部": [
+    "Bundesministerium der Justiz und für Verbraucherschutz",
+    "Federal Ministry of Justice and Consumer Protection"
+  ],
+  "司法部10月1日说明确认电子证明规定当日生效，并列出申请方式；本条主日期仍表示服务开始提供。": [
+    "Die Ministeriumsseite vom 1. Oktober bestätigt das Inkrafttreten der Vorschriften an diesem Tag und nennt Antragswege. Das Hauptdatum bezeichnet weiterhin den Servicestart.",
+    "The ministry page of 1 October confirms commencement of the provisions that day and describes application methods. The main date continues to represent the service launch."
+  ],
+  "申请人需要支持线上身份认证的证件和 BundID 账户。司法局说明使用 NFC 手机，司法部也列出电脑配读卡器方式；具体设备支持以申请入口为准。通常费用为13欧元。": [
+    "Erforderlich sind ein Ausweis mit Online-Funktion und ein BundID-Konto. Das BfJ nennt ein NFC-Smartphone, das Ministerium auch Computer mit Kartenlesegerät; maßgeblich ist die Unterstützung im Antragsportal. Die reguläre Gebühr beträgt 13 Euro.",
+    "Applicants need an identity document supporting online identification and a BundID account. The BfJ lists an NFC phone; the ministry also lists a computer with a card reader. Actual device support depends on the application portal. The standard fee is €13."
+  ],
+  "核对时间线标题与来源": [
+    "Zeitlinientitel und Quelle geprüft",
+    "Timeline title and source reviewed"
   ]
 }

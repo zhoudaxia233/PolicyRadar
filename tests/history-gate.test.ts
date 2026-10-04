@@ -15,9 +15,12 @@ test('CI gate rejects skipped versions, intermediate bypasses and in-place edits
  try{
   git('init','-q');git('config','user.name','Test');git('config','user.email','test@example.invalid');
   const base=save('old',old),next={...structuredClone(old),discoveryRegistry:registry};
+  for(const missing of ['', '0'.repeat(40)])assert.equal(run(missing).status,0,run(missing).stderr);
   save('valid',next);assert.equal(run(base).status,0);
+  assert.equal(run('0'.repeat(40)).status,0);
   const stable=git('rev-parse','HEAD');const bad=structuredClone(next);bad.tables.policies[0].version+=2;
   save('skipped',bad);assert.match(run(stable).stderr,/version must advance exactly once/);
+  assert.match(run('0'.repeat(40)).stderr,/version must advance exactly once/);
   save('restored',next);assert.match(run(stable).stderr,/version must advance exactly once/);
   git('reset','--hard',stable);const path=join(root,'data/exports/valid/policy-radar-export.json');writeFileSync(path,JSON.stringify({...next,exportedAt:'2026-10-04T08:00:00Z'}));git('add','.');git('commit','-qm','in-place');
   assert.match(run(stable).stderr,/changed in place/);

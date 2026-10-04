@@ -29,12 +29,13 @@ import {createLocalization} from '../lib/i18n/build.ts';
 const bundle=buildSync({entryPoints:['app/policy-status-note.tsx'],bundle:true,write:false,platform:'node',format:'esm',jsx:'automatic'}).outputFiles[0].text;
 const {PolicyStatusNote}=await import('data:text/javascript;base64,'+Buffer.from(bundle).toString('base64'));
 const catalog=JSON.parse(readFileSync('data/translations/content.json','utf8'));
-test('actual status-note UI preserves the saved details for every legacy policy',()=>{
+test('detail notes suppress identical labels while preserving additional legacy details',()=>{
  for(const p of policies){
   const before=JSON.stringify(p);
   assert.equal(policyStatusNote(p),p.statusNote??p.status,p.id);
-  const html=renderToStaticMarkup(createElement(PolicyStatusNote,{policy:p,locale:'zh',messages:catalog}));
-  assert(html.includes('上次核实时的说明：'),p.id);assert(html.includes(p.statusNote??p.status),p.id);
+  const html=renderToStaticMarkup(createElement(PolicyStatusNote,{policy:p,locale:'zh',messages:catalog,today:'2026-10-04'}));
+  if(policyStatusNote(p)===lifecycle(p,'2026-10-04'))assert.equal(html,'',p.id);
+  else {assert(html.includes('上次核实时的说明：'),p.id);assert(html.includes(p.statusNote??p.status),p.id);}
   assert.equal(JSON.stringify(p),before);
  }
  for(const id of ['de-crypto-holding-proposal','ch-thirteenth-ahv','ch-vd-energy-law','th-kita-third-free-year-2026','he-rent-protection-2025'])assert(policyStatusNote(by(id)));
@@ -44,7 +45,7 @@ test('saved status explanations retain German and English translations',()=>{
  for(const p of policies){
   assert.equal(localized.policies[p.id],'current',p.id);
   for(const locale of ['de','en']){
-   const html=renderToStaticMarkup(createElement(PolicyStatusNote,{policy:p,locale,messages:catalog}));
+   const html=renderToStaticMarkup(createElement(PolicyStatusNote,{policy:p,locale,messages:catalog,today:'2026-10-04'}));
    assert(!/[\u3400-\u9fff]/.test(html),p.id+' '+locale);
   }
  }
@@ -53,7 +54,7 @@ test('explicit notes override legacy fallback and enum codes are never shown as 
  const p=by('ch-thirteenth-ahv');
  assert.equal(policyStatusNote({...p,statusNote:'Confirmed payment month: December 2026'}),'Confirmed payment month: December 2026');
  assert.equal(policyStatusNote({...p,status:'adopted'}),undefined);
- assert.equal(renderToStaticMarkup(createElement(PolicyStatusNote,{policy:{...p,status:'adopted'},locale:'zh',messages:catalog})), '');
+ assert.equal(renderToStaticMarkup(createElement(PolicyStatusNote,{policy:{...p,status:'adopted'},locale:'zh',messages:catalog,today:'2026-10-04'})), '');
 });
 test('structured application and temporary statuses preserve the same distinctions',()=>{
  for(const status of ['application_announced','temporary'])assert(policySchema.safeParse({...by('de-fuel-relief-2026'),status}).success);
@@ -62,4 +63,32 @@ test('structured application and temporary statuses preserve the same distinctio
  assert.equal(lifecycle({...p,status:'temporary'},'2026-10-04'),'已生效 · 临时措施');
  assert.equal(lifecycle({...p,status:'application_announced'},'2026-10-04'),'申请安排已公布');
  assert.equal(lifecycle({...p,status:'application_announced'},'2027-01-01'),'申请安排已公布 · 期限已到，后续待核实');
+});
+
+
+test('detail-note comparison follows the date and also deduplicates translated text',()=>{
+ const p=by('ch-be-information-security');
+ const render=(policy:typeof p,today:string,locale='zh')=>renderToStaticMarkup(createElement(PolicyStatusNote,{policy,today,locale,messages:catalog}));
+ assert.equal(render(p,'2026-10-04'),'');
+ assert(render(p,'2026-11-01').includes('已通过 · 待生效'));
+ for(const locale of ['de','en'])assert.equal(render(by('de-rent-cap-2029'),'2026-10-04',locale),'');
+ const explicit={...p,status:'adopted',statusNote:'In effect'};
+ assert.equal(render(explicit,'2026-11-01','en'),'');
+});
+
+import {validateSelection} from '../lib/update-data.ts';
+test('weekly candidates accept both newer status codes through the operational selection gate',()=>{
+ for(const [id,status,nextKind] of [
+  ['de-fuel-relief-2026','temporary','expiry'],
+  ['nl-dr-rural-investment','application_announced','deadline']
+ ]){
+  const next=structuredClone(data);
+  next.discoveryRegistry=JSON.parse(readFileSync('data/discovery-registry.json','utf8'));
+  const row=next.tables.policies.find((r:{id:string})=>r.id===id);
+  const policy=JSON.parse(row.data);
+  row.version++;
+  row.data=JSON.stringify({...policy,status,statusNote:policy.status,nextKind});
+  next.tables.revisions.push({policy_id:id,version:row.version,data:row.data});
+  assert.doesNotThrow(()=>validateSelection(data,next),id);
+ }
 });

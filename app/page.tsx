@@ -14,7 +14,14 @@ import { contentText, localizePolicy, localizeIntake, searchText, emptyLocalizat
 type IntakeData = { trackingStart: string; records: IntakeRecord[]; coverage: ReturnType<typeof coverageRows> };
 type CheckRow = { url: string; checked_at: string; last_success_at: string | null; error: string | null; changed: number; snapshot_key: string | null };
 type Status = { checks: CheckRow[]; settings: Record<string, string>; coverage: string[]; discovery: { region: string; title: string; url: string; publisher: string }[] };
-const sourceProblem = (error: string) => /HTTP 403|HTTP 401/.test(error) ? '官方站点暂不接受自动读取' : /HTTP 404/.test(error) ? '原文地址暂时找不到，需核对新地址' : /timeout|timed out/i.test(error) ? '读取超时，稍后重试' : /交互|javascript|captcha/i.test(error) ? '需要浏览器交互，自动读取未完成' : '暂时无法自动读取，请打开官方原文核对';
+function sourceProblem(error:string){
+  if(/HTTP 403|HTTP 401/.test(error))return '官方站点暂不接受自动读取';
+  if(/HTTP 404/.test(error))return '原文地址暂时找不到，需核对新地址';
+  if(/timeout|timed out/i.test(error))return '读取超时，稍后重试';
+  if(/交互|javascript|captcha/i.test(error))return '需要浏览器交互，自动读取未完成';
+  return '暂时无法自动读取，请打开官方原文核对';
+}
+
 export default function Home() {
   const [locale, setLocale] = useState<Locale>(readLocale);
   const [localization, setLocalization] = useState<Localization>(emptyLocalization);
@@ -479,7 +486,12 @@ export default function Home() {
                       {c?.coveredThrough ? tr("连续核对至 ") + fmt(c.coveredThrough) : tr("尚无连续查全的日期范围")}
                     </strong>
                     <small>
-                      {c?.latestScan ? tr("最近核查：") + new Date(c.latestScan.checkedAt).toLocaleString(languageTags[locale], { timeZone: 'Europe/Berlin' }) + ' · ' + ({ complete: tr("该时间段已查完"), partial: tr("部分完成"), blocked: tr("读取受阻") }[c.latestScan.status]) : tr("尚未逐项核查")}
+                      {c?.latestScan
+                        ? tr("最近核查：")
+                          + new Date(c.latestScan.checkedAt).toLocaleString(languageTags[locale], { timeZone: 'Europe/Berlin' })
+                          + ' · '
+                          + ({ complete: tr("该时间段已查完"), partial: tr("部分完成"), blocked: tr("读取受阻") }[c.latestScan.status])
+                        : tr("尚未逐项核查")}
                     </small>
                     {c?.latestScan && <details>
                       <summary>
@@ -610,7 +622,15 @@ export default function Home() {
 
             <div className="list-meta">
               <span>
-                {view === 'intake' ? tr("{0} 条官方进展记录（同一政策可有多条）", [newRecords.length]) : view === 'updates' ? tr("{0} 个时间线节点 · 涉及 {1} 个政策议题", [scheduled.length + happened.length, visible.length]) : tr("{0} 项结果 · {1} 个已解读政策议题{2}", [listing.count, visible.length, visibleRaw.length ? tr(" · {0} 条待解读官方记录", [visibleRaw.length]) : ''])}
+                {view === 'intake'
+                  ? tr("{0} 条官方进展记录（同一政策可有多条）", [newRecords.length])
+                  : view === 'updates'
+                    ? tr("{0} 个时间线节点 · 涉及 {1} 个政策议题", [scheduled.length + happened.length, visible.length])
+                    : tr("{0} 项结果 · {1} 个已解读政策议题{2}", [
+                        listing.count,
+                        visible.length,
+                        visibleRaw.length ? tr(" · {0} 条待解读官方记录", [visibleRaw.length]) : ''
+                      ])}
               </span>
               {filtering && <button onClick={clearFilters}>
                 {tr("清除筛选")}
@@ -734,7 +754,6 @@ export default function Home() {
                       {p.title}
                     </h2>
                     {translationNotice(p)}
-                    <PolicyStatusNote policy={canonicalItems.find(original=>original.id===p.id)??p} locale={locale} messages={localization.messages}/>
                     <p className="card-summary" lang={explanationLang(p)}>
                       {p.summary}
                     </p>
@@ -864,7 +883,12 @@ export default function Home() {
             {stateLabel(selected)}
           </span>
           {translationNotice(selected)}
-          <PolicyStatusNote policy={canonicalItems.find(original=>original.id===selected.id)??selected} locale={locale} messages={localization.messages}/>
+          <PolicyStatusNote
+            policy={canonicalItems.find(original=>original.id===selected.id)??selected}
+            locale={locale}
+            messages={localization.messages}
+            today={today}
+          />
           <p className="explanation-label">
             {tr("政策解读 · 官方原文见下方来源")}
           </p>

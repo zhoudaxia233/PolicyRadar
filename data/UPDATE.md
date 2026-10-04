@@ -2,7 +2,13 @@
 
 The owner selected local Codex execution, once a week. The scheduled chat runs
 Sunday at 08:30 Europe/Berlin. The computer and Codex must be available; this is
-not a GitHub cloud job. No separate AI API key is needed. A missed run must catch
+not a GitHub cloud job. No separate AI API key is needed.
+
+`settings.scheduleLabel` in historical exports is deprecated metadata, not the
+live scheduler configuration. Do not copy it into new exports. The Codex task
+defines the schedule; this document and the current domain schemas define the
+update procedure and supported status codes. Do not maintain a second enum list
+in the task prompt. A missed run must catch
 up from stored coverage, rather than skip to the latest week.
 
 ## Scope and evidence
@@ -69,7 +75,8 @@ up from stored coverage, rather than skip to the latest week.
    of the legal commencement of a policy.
    Optional `statusNote` carries factual explanation, never a computed status.
    Legacy status prose remains visible as the last-reviewed explanation when
-   no explicit note exists; it is not presented as today's status.
+   no explicit note exists. Show this explanation only in details and omit it
+   when it repeats the computed label; it is not presented as today's status.
    Every dated next step requires `nextKind`: `implementation`, `scheduled`,
    `expiry`, or `deadline`. A deadline passing means follow-up is unverified;
    it does not prove an application closed or a pending measure passed.
@@ -247,3 +254,9 @@ CI checks every first-parent commit transition in a push/PR, including in-place
 changes to the active export. It uses the same operational selection gate as
 `data:select`; new exports require a registry snapshot and structured changed
 policy statuses. A schema/hash-only build is not a history check.
+
+When the event supplies no previous SHA (including an all-zero `before`), the
+history gate checks HEAD against its first parent. A root commit validates its
+initial export without claiming a historical transition; the build still checks
+the archived bytes. This fallback does not claim to reconstruct an absent event
+baseline.

@@ -31,10 +31,7 @@ jobs:
       - name: Validate every selected-data transition
         env:
           EVENT_BASE: ${{ github.event.pull_request.base.sha || github.event.before }}
-        run: |
-          BASE="$EVENT_BASE"
-          if [ -z "$BASE" ]; then BASE="$(git rev-parse HEAD^)"; fi
-          node --experimental-strip-types scripts/validate-history.mjs "$BASE" HEAD
+        run: node --experimental-strip-types scripts/validate-history.mjs "$EVENT_BASE" HEAD
       - run: npm test
       - run: npx tsc --noEmit --incremental false
       - run: npm run build

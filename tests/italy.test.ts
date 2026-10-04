@@ -11,10 +11,14 @@ import {validateSelection} from '../lib/update-data.ts';
 import {createLocalization} from '../lib/i18n/build.ts';
 import {localizePolicy,policyTextFields} from '../lib/i18n/content.ts';
 import {selectListing,countrySourceUrls} from '../lib/domain/listing.ts';
+import {lifecycle} from '../lib/domain/model.ts';
+import {readSnapshot} from '../lib/source-archive.ts';
 import {sourceSupportsRegion} from '../lib/domain/coverage.ts';
 const read=(p:string)=>JSON.parse(readFileSync(new URL(p,import.meta.url),'utf8'));
 const before=read('../data/exports/2026-10-04-weekly-translated/policy-radar-export.json');
-const after=read('../data/exports/2026-10-04-italy-121129/policy-radar-export.json');
+const initial=read('../data/exports/2026-10-04-italy-121129/policy-radar-export.json');
+const reviewedPath='data/exports/2026-10-04-italy-review-122041/policy-radar-export.json';
+const after=read('../'+reviewedPath);
 const data=createStaticData(after);
 
 test('Italy and all 20 ISO regions round-trip across languages',()=>{
@@ -43,7 +47,8 @@ test('Italian registration preserves explicit gaps and shared-channel boundaries
 });
 
 test('Italy selection preserves history and isolates sources and counts',()=>{
- validateSelection(before,after,new Date(after.exportedAt));
+ validateSelection(before,initial,new Date(initial.exportedAt));
+ validateSelection(initial,after,new Date(after.exportedAt));
  assert.deepEqual(after.tables.policies.filter((r:{region:string})=>r.region!=='IT'),before.tables.policies);
  for(const row of before.tables.settings)assert.deepEqual(after.tables.settings.find((r:{key:string})=>r.key===row.key),row);
  const list=selectListing(data.policies,data.intake.records,readFilters('?country=IT'));
@@ -61,4 +66,31 @@ test('Initial Italian explanation has complete translations and preserves factua
  for(const locale of ['de','en'] as const){const translated=localizePolicy(p,locale,l);assert(policyTextFields(translated).every(s=>!/[\u3400-\u9fff]/u.test(s)));assert.equal(translated.originalTitle,p.originalTitle);}
  assert(l.messages[data.status.settings['reviewNote:IT']]);
  for(const entry of italianDiscovery)assert(l.messages[entry.title]);
+});
+
+
+test('Italian review corrects status and adds directly archived legal evidence without rewriting history',()=>{
+ const p=data.policies.find(p=>p.id==='it-parental-leave-age-2026')!;
+ const old=JSON.parse(initial.tables.policies.find((r:{id:string})=>r.id===p.id).data);
+ assert.equal(p.status,'adopted');
+ assert.equal(lifecycle({...p,effectiveDate:null},'2026-10-04'),'已通过 · 生效日未确认');
+ assert.equal(p.officialId,old.officialId);assert.equal(data.policyVersions[p.id],2);
+ for(const event of old.events)assert.deepEqual(p.events.find(e=>e.id===event.id),event);
+ const notice=p.events.find(e=>e.id==='it-parental-leave-inps-notice')!;
+ assert.equal(notice.date,'2026-01-26');assert.equal(notice.kind,'published');assert.equal(notice.sourceId,'inps');
+ assert(p.events.some(e=>e.kind==='correction'&&e.sourceId==='gazette-article'));
+ assert.deepEqual(after.tables.scan_runs,initial.tables.scan_runs);
+ const sourceText=(id:string)=>{
+  const source=p.sources.find(s=>s.id===id)!;
+  const check=after.tables.checks.find((c:{url:string})=>c.url===source.url);
+  assert.equal(check.error,null);
+  const snapshot=after.tables.snapshots.find((s:{key:string})=>s.key===check.snapshot_key);
+  assert.equal(snapshot.url,source.url);
+  return readSnapshot(reviewedPath,snapshot).toString('utf8').replace(/<[^>]+>/g,' ').replace(/\s+/g,' ');
+ };
+ assert.match(sourceText('gazette-law'),/LEGGE 30 dicembre 2025, n\. 199/);
+ const article=sourceText('gazette-article');
+ assert.match(article,/219\. Al fine favorire/);
+ assert.match(article,/all'articolo 32.*?dodici.*?quattordici/);
+ assert.match(sourceText('inps'),/messaggio 26 gennaio 2026, n\. 251/);
 });

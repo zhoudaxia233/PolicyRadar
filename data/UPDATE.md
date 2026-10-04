@@ -262,8 +262,7 @@ initial export without claiming a historical transition; the build still checks
 the archived bytes. This fallback does not claim to reconstruct an absent event
 baseline.
 
-
-## Italian initial coverage
+## Italian regional review
 
 The initial Italian registry includes national government, both parliamentary
 chambers, national gazette, consolidated legislation, INPS news, all 20 regional

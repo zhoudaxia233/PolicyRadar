@@ -20,7 +20,8 @@ test('elapsed next steps do not cast doubt on confirmed adoption',()=>{
  assert.equal(lifecycle({...p,nextKind:'deadline'},'2026-10-04'),'已通过 · 期限已到，后续待核实');
 });
 
-import {policyStatusNote,policySchema,statusCodeSchema} from '../lib/domain/model.ts';
+import {legacyStatus} from '../lib/domain/legacy-status.ts';
+import {policyStatusNote,policySchema} from '../lib/domain/model.ts';
 import {buildSync} from 'esbuild';
 import {createElement} from 'react';
 import {renderToStaticMarkup} from 'react-dom/server';
@@ -32,7 +33,7 @@ const catalog=JSON.parse(readFileSync('data/translations/content.json','utf8'));
 test('detail notes suppress identical labels while preserving additional legacy details',()=>{
  for(const p of policies){
   const before=JSON.stringify(p);
-  const expectedNote=p.statusNote??(statusCodeSchema.safeParse(p.status).success?undefined:p.status);
+  const expectedNote=p.statusNote??(Object.hasOwn(legacyStatus,p.status)?p.status:undefined);
   assert.equal(policyStatusNote(p),expectedNote,p.id);
   const html=renderToStaticMarkup(createElement(PolicyStatusNote,{policy:p,locale:'zh',messages:catalog,today:'2026-10-04'}));
   if(!expectedNote||expectedNote===lifecycle(p,'2026-10-04'))assert.equal(html,'',p.id);

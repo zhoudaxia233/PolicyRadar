@@ -57,7 +57,7 @@ export default function Home() {
   };
   const tone = (p: Policy, today: string) => p.phase !== 'adopted' ? 'amber' : !p.effectiveDate || p.effectiveDate > today ? 'blue' : 'green';
   const headings: Record<string, [string, string]> = {
-    intake: [tr("官方进展记录"), tr("同一政策可以有多条进展记录；从 2026 年 10 月 2 日起登记，解读未完成也保留原文。")],
+    intake: [tr("官方进展记录"), tr("同一政策可以有多条进展记录；从 2026 年 9 月 2 日起登记，解读未完成也保留原文。")],
     adopted: [tr("看清已经发生的改变"), tr("从通过到生效，追踪政策最终改了什么、何时影响生活。")],
     pending: [tr("还在推进中的改变"), tr("跟进提案、审议与表决，保留尚未确定的部分。")],
     all: [tr("全部政策"), tr("已通过、待决议题及尚未解读的官方记录一起查看；待核实记录会单独标明。")],
@@ -460,7 +460,7 @@ export default function Home() {
               {tr(countryInfo.scope, [cname, countryRegions.length - 1])}
             </strong>
             <p>
-              {tr("从 2026 年 10 月 2 日起，按官方来源收集各类别新公布法律、条例、已通过的决定及待决事项；不按兴趣挑选。此前记录是历史样例，逐步回补。来源已接入不代表文件已全部查完；其他国家尚未接入。")}
+              {tr("从 2026 年 9 月 2 日起，按官方来源收集各类别新公布法律、条例、已通过的决定及待决事项；不按兴趣挑选。此前记录是历史样例，逐步回补。来源已接入不代表文件已全部查完；其他国家尚未接入。")}
             </p>
 
 
@@ -654,7 +654,7 @@ export default function Home() {
                 {tr("清除筛选")}
               </button>}
               <span className="tracking-note">
-                {tr("登记起点为 2026.10.02；各国实际核查范围请查看覆盖缺口。")}
+                {tr("登记起点为 2026.09.02；各国实际核查范围请查看覆盖缺口。")}
                 <button onClick={() => go('sources')}>
                   {tr("查看覆盖缺口")}
                 </button>

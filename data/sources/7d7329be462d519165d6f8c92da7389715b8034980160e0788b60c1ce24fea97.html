@@ -1,0 +1,819 @@
+<!-- Tempo di esecuzione: 47 ms -->
+<!DOCTYPE html>
+<html  lang="it-IT">
+<head id="Head"><script src="/tarteaucitron/tarteaucitron.min.js"></script>
+<script type="text/javascript">
+    var _paq = window._paq = window._paq || [];
+    _paq.push(['trackPageView']);
+    _paq.push(['enableLinkTracking']);
+    _paq.push(['optUserOut']);
+
+    (function () {
+        var u = "//webanalytics.regione.marche.it/";
+        _paq.push(['setTrackerUrl', u + 'matomo.php']);
+        _paq.push(['setSiteId', '1']);
+
+        // Add this code below within the Matomo JavaScript tracker code
+        // Important: the tracker url includes the /matomo.php
+        var secondaryTrackerUrl = 'https://ingestion.webanalytics.italia.it/matomo.php';
+        var secondaryWebsiteId = 'RBJ3Bbr3X6';
+        // Also send all of the tracking data to this other Matomo server, in website ID 77
+        _paq.push(['addTracker', secondaryTrackerUrl, secondaryWebsiteId]);
+        // That's it!
+
+        var d = document, g = d.createElement('script'), s = d.getElementsByTagName('script')[0];
+        g.type = 'text/javascript'; g.async = true; g.src = u + 'matomo.js'; s.parentNode.insertBefore(g, s);
+    })();
+</script>
+<script>
+    var waitForTrackerCount = 0;
+    function matomoWaitForTracker() {
+        if (typeof _paq === 'undefined' || typeof tarteaucitron === 'undefined') {
+            if (waitForTrackerCount < 40) {
+                setTimeout(matomoWaitForTracker, 250);
+                waitForTrackerCount++;
+                return;
+            }
+        }
+        // Initialise Tarteaucitron after the tracker is loaded script
+        //tarteaucitron.init({
+        //    //optionally add non-default Tarteaucitron configs here
+        //});
+        tarteaucitron.services.MatomoAnalytics = {
+            "key": "MatomoAnalytics",
+            "type": "analytic",
+            "name": "Matomo Analytics",
+            "needConsent": true,
+            "cookies": ['_pk_id', '_pk_sess', '_pk_ref'],
+            "js": function () {
+                "use strict";
+                // When user allow cookie
+                ('Matomo cookies accepted');
+                var _paq = window._paq = window._paq || [];
+                _paq.push(['setConsentGiven']);
+            },
+            "fallback": function () {
+                "use strict";
+                // when use deny cookie
+                ('Matomo cookies rejected');
+                var _paq = window._paq = window._paq || [];
+                _paq.push(['forgetConsentGiven']);
+                _paq.push(['deleteCookies']);
+            }
+        };
+        // Ensure that tarteaucitron is loaded before pushing the job
+        tarteaucitron.job = tarteaucitron.job || [];
+        tarteaucitron.job.push('MatomoAnalytics');
+    }
+    document.addEventListener('DOMContentLoaded', matomoWaitForTracker);
+
+</script>
+<script type="text/javascript">
+    tarteaucitron.init({
+        "privacyUrl": "/Informativa-privacy", /* Privacy policy url */
+        "bodyPosition": "top", /* top to bring it as first element for accessibility */
+
+        "hashtag": "#tarteaucitron", /* Open the panel with this hashtag */
+        "cookieName": "tarteaucitron", /* Cookie name */
+
+        "orientation": "middle", /* Banner position (top - bottom) */
+
+        "groupServices": true, /* Group services by category */
+        "showDetailsOnClick": true, /* Click to expand the description */
+        "serviceDefaultState": "wait", /* Default state (true - wait - false) */
+
+        "showAlertSmall": false, /* Show the small banner on bottom right */
+        "cookieslist": false, /* Show the cookie list in a mini banner */
+        "cookieslistEmbed": false, /* Show the cookie list on the control panel */
+
+        "closePopup": true, /* Show a close X on the banner */
+
+        "showIcon": true, /* Show cookie icon to manage cookies */
+        //"iconSrc": "", /* Optionnal: URL or base64 encoded image */
+        "iconPosition": "TopRight", /* Position of the cookie (BottomRight - BottomLeft - TopRight - TopLeft) */
+
+        "adblocker": false, /* Show a Warning if an adblocker is detected */
+
+        "DenyAllCta": true, /* Show the deny all button */
+        "AcceptAllCta": true, /* Show the accept all button */
+        "highPrivacy": true, /* HIGHLY RECOMMANDED Disable auto consent */
+        "alwaysNeedConsent": false, /* Ask the consent for "Privacy by design" services */
+
+        "handleBrowserDNTRequest": false, /* If Do Not Track == 1, disallow all */
+
+        "removeCredit": true, /* Remove credit link */
+        "moreInfoLink": false, /* Show more info link */
+
+        "useExternalCss": false, /* Expert mode: do not load the tarteaucitron.css file */
+        "useExternalJs": false, /* Expert mode: do not load the tarteaucitron js files */
+
+        //"cookieDomain": ".my-multisite-domaine.fr", /* Shared cookie for multisite */
+
+        "readmoreLink": "/Informativa-privacy", /* Change the default readmore link */
+
+        "mandatory": true, /* Show a message about mandatory cookies */
+        "mandatoryCta": false, /* Show the disabled accept button when mandatory on */
+
+        //"customCloserId": "", /* Optional a11y: Custom element ID used to open the panel */
+
+        "googleConsentMode": true, /* Enable Google Consent Mode v2 for Google ads & GA4 */
+        "bingConsentMode": true, /* Enable Bing Consent Mode for Clarity & Bing Ads */
+        "softConsentMode": false, /* Soft consent mode (consent is required to load the services) */
+
+        "dataLayer": false, /* Send an event to dataLayer with the services status */
+        "serverSide": false, /* Server side only, tags are not loaded client side */
+
+        "partnersList": true /* Show the number of partners on the popup/middle banner */
+    });
+</script>
+<script>
+    tarteaucitron.user.matomoId = 1;
+    (tarteaucitron.job = tarteaucitron.job || []).push('matomo');
+</script>
+<script>tarteaucitron.user.matomoHost = '//webanalytics.regione.marche.it/';</script><title>
+	Comunicati Stampa
+</title><meta id="MetaRobots" name="ROBOTS" content="INDEX, FOLLOW" /><link href="/Resources/Shared/stylesheets/dnndefault/7.0.0/default.css?cdv=250" type="text/css" rel="stylesheet"/><link href="/Portals/_default/admin.css?cdv=250" type="text/css" rel="stylesheet"/><link href="/Resources/Search/SearchSkinObjectPreview.css?cdv=250" type="text/css" rel="stylesheet"/><link href="/Portals/_default/Skins/Bravo/skin.css?cdv=250" type="text/css" rel="stylesheet"/><link href="/Portals/_default/Containers/Bravo/container.css?cdv=250" type="text/css" rel="stylesheet"/><link href="/Portals/0/portal.css?cdv=250" type="text/css" rel="stylesheet"/><link href="/DesktopModules/DDRMenu/RM_Accordion/RM_accordion.css?cdv=250" type="text/css" rel="stylesheet"/><script src="/Resources/libraries/jQuery/03_05_01/jquery.js?cdv=250" type="text/javascript"></script><script src="/Resources/libraries/jQuery-Migrate/03_02_00/jquery-migrate.js?cdv=250" type="text/javascript"></script><script src="/Resources/libraries/jQuery-UI/01_12_01/jquery-ui.js?cdv=250" type="text/javascript"></script><!--[if IE 8]><link id="IE8Minus" rel="stylesheet" type="text/css" href="/Portals/_default/Skins/Bravo/css/ie8style.css" /><![endif]-->   
+
+		  <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=2.0" /><script>var __uzdbm_1 = "dca970eb-9096-4d0a-99bc-2f46fa242e69";var __uzdbm_2 = "OTEyZDY2ZjQtZDNvdS00NDUwLWEwMDktOWIyMDY0OTMwMzEzJDkxLjYzLjExNi4xNDQ=";var __uzdbm_3 = "7f9000dca970eb-9096-4d0a-99bc-2f46fa242e691-17911409252100-005b52d1d605b7726e210";var __uzdbm_4 = "false";var __uzdbm_5 = "uzmx";var __uzdbm_6 = "7fc0005da83ed9-a244-4418-9ca0-94aedb084d111-17911409252100-007eebab8006850e88610";var __uzdbm_7 = "regione.marche.it";</script> <script>   (function (w, d, e, u, c, g, a, b) {     w["SSJSConnectorObj"] = w["SSJSConnectorObj"] || {       ss_cid: c,       domain_info: "auto",     };     w[g] = function (i, j) {       w["SSJSConnectorObj"][i] = j;     };     a = d.createElement(e);     a.async = true;     if (       navigator.userAgent.indexOf('MSIE') !== -1 ||       navigator.appVersion.indexOf('Trident/') > -1     ) {       u = u.replace("/advanced/", "/advanced/ie/");     }     a.src = u;     b = d.getElementsByTagName(e)[0];     b.parentNode.insertBefore(a, b);   })(     window, document, "script", "https://www.regione.marche.it/18f5227b-e27b-445a-a53f-f845fbe69b40/stormcaster.js", "d3ow", "ssConf"   );   ssConf("c1", "https://www.regione.marche.it");   ssConf("c3", "c99a4269-161c-4242-a3f0-28d44fa6ce24");   ssConf("au", "regione.marche.it");   ssConf("cu", "validate.perfdrive.com, ssc"); </script></head>
+<body id="Body">
+    
+    <a href="#main" tabindex="0"></a>
+    <form method="post" action="/In-Primo-Piano/ComunicatiStampa?id=33903" id="Form" enctype="multipart/form-data">
+<div class="aspNetHidden">
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="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" />
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['Form'];
+if (!theForm) {
+    theForm = document.Form;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<script src="/WebResource.axd?d=pynGkmcFUV32TwhlyYzKH0puyoQmWBjHV0RwrrI4kTylQO_RLvTS4CAsRys1&amp;t=638460274960000000" type="text/javascript"></script>
+
+
+<script type="text/javascript">
+//<![CDATA[
+var __cultureInfo = {"name":"it-IT","numberFormat":{"CurrencyDecimalDigits":2,"CurrencyDecimalSeparator":",","IsReadOnly":false,"CurrencyGroupSizes":[3],"NumberGroupSizes":[3],"PercentGroupSizes":[3],"CurrencyGroupSeparator":".","CurrencySymbol":"€","NaNSymbol":"NaN","CurrencyNegativePattern":8,"NumberNegativePattern":1,"PercentPositivePattern":1,"PercentNegativePattern":1,"NegativeInfinitySymbol":"-∞","NegativeSign":"-","NumberDecimalDigits":2,"NumberDecimalSeparator":",","NumberGroupSeparator":".","CurrencyPositivePattern":3,"PositiveInfinitySymbol":"∞","PositiveSign":"+","PercentDecimalDigits":2,"PercentDecimalSeparator":",","PercentGroupSeparator":".","PercentSymbol":"%","PerMilleSymbol":"‰","NativeDigits":["0","1","2","3","4","5","6","7","8","9"],"DigitSubstitution":1},"dateTimeFormat":{"AMDesignator":"","Calendar":{"MinSupportedDateTime":"\/Date(-62135596800000)\/","MaxSupportedDateTime":"\/Date(253402297199999)\/","AlgorithmType":1,"CalendarType":1,"Eras":[1],"TwoDigitYearMax":2049,"IsReadOnly":false},"DateSeparator":"/","FirstDayOfWeek":1,"CalendarWeekRule":2,"FullDateTimePattern":"dddd d MMMM yyyy HH:mm:ss","LongDatePattern":"dddd d MMMM yyyy","LongTimePattern":"HH:mm:ss","MonthDayPattern":"d MMMM","PMDesignator":"","RFC1123Pattern":"ddd, dd MMM yyyy HH\u0027:\u0027mm\u0027:\u0027ss \u0027GMT\u0027","ShortDatePattern":"dd/MM/yyyy","ShortTimePattern":"HH:mm","SortableDateTimePattern":"yyyy\u0027-\u0027MM\u0027-\u0027dd\u0027T\u0027HH\u0027:\u0027mm\u0027:\u0027ss","TimeSeparator":":","UniversalSortableDateTimePattern":"yyyy\u0027-\u0027MM\u0027-\u0027dd HH\u0027:\u0027mm\u0027:\u0027ss\u0027Z\u0027","YearMonthPattern":"MMMM yyyy","AbbreviatedDayNames":["dom","lun","mar","mer","gio","ven","sab"],"ShortestDayNames":["do","lu","ma","me","gi","ve","sa"],"DayNames":["domenica","lunedì","martedì","mercoledì","giovedì","venerdì","sabato"],"AbbreviatedMonthNames":["gen","feb","mar","apr","mag","giu","lug","ago","set","ott","nov","dic",""],"MonthNames":["gennaio","febbraio","marzo","aprile","maggio","giugno","luglio","agosto","settembre","ottobre","novembre","dicembre",""],"IsReadOnly":false,"NativeCalendarName":"calendario gregoriano","AbbreviatedMonthGenitiveNames":["gen","feb","mar","apr","mag","giu","lug","ago","set","ott","nov","dic",""],"MonthGenitiveNames":["gennaio","febbraio","marzo","aprile","maggio","giugno","luglio","agosto","settembre","ottobre","novembre","dicembre",""]},"eras":[1,"d.C.",null,0]};//]]>
+</script>
+
+<script src="/ScriptResource.axd?d=D9drwtSJ4hBlj_fba0jFEik_j2pQJQZpGLulCQEfWddT7ajqXmluokZR7msQEyvyLY97NGcTjQCQlxIpoh12OqyUL2yd5ilX-whHz3_t0jYJ238Gv337tO3pmOnjZo_abifZ7yBYjs2k1Eai0&amp;t=74258c30" type="text/javascript"></script>
+<script type="text/javascript">
+//<![CDATA[
+if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side framework failed to load.');
+//]]>
+</script>
+
+<script src="/ScriptResource.axd?d=JnUc-DEDOM7s19LLlVdmCmGICJzBndNHxwUGUgR7d401fXNy_6SIzdaruiWrIzPSUSGvERkqxPTdn-2o_D7-1jeEP0QXMdF1prFQa1_SjhWj7TAsGDBrcQbLlQyUNeZLYk9BNLPjylnR1YHBIYSewK0c--g1&amp;t=74258c30" type="text/javascript"></script><script src="/js/dnn.js?cdv=250" type="text/javascript"></script><script src="/Resources/Shared/Scripts/jquery/jquery.hoverIntent.min.js?cdv=250" type="text/javascript"></script><script src="/js/Debug/dnncore.js?cdv=250" type="text/javascript"></script><script src="/Resources/Search/SearchSkinObjectPreview.js?cdv=250" type="text/javascript"></script><script src="/js/Debug/dnn.servicesframework.js?cdv=250" type="text/javascript"></script><script src="/DesktopModules/DDRMenu/RM_Accordion/RM_LeftMenu.js?cdv=250" type="text/javascript"></script><script src="/Resources/Shared/Scripts/dnn.jquery.js?cdv=250" type="text/javascript"></script><script type="text/javascript">
+//<![CDATA[
+Sys.WebForms.PageRequestManager._initialize('ScriptManager', 'Form', [], [], [], 90, '');
+//]]>
+</script>
+
+        
+        
+        
+<!--[if lt IE 9]>
+<script src="https://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+
+
+
+
+<!--  -->
+<div id="ControlPanelWrapper">
+    
+
+    </div>
+<div id="skin_wrapper" class="boxed">
+<link property='stylesheet' id="headerCSS" rel="stylesheet" href="/Portals/_default/Skins/Bravo/commonparts/Header3.css">
+
+
+
+
+<!-- Begin Cookie Consent plugin by Silktide - http://silktide.com/cookieconsent -->
+
+<!-- Across Tabs -->
+<script type="text/javascript">
+    $(function () {
+        var hash = window.location.hash;
+        hash && $('ul.nav a[href="' + hash + '"]').tab('show');
+    });
+</script>
+
+<!-- End Cookie Consent plugin -->
+<style>
+    #RM_leftMenu li.selected > a > span {
+        background-color: #074392;
+        color: #fff !important;
+        font-weight: bolder !important;
+    }
+
+    #RM_leftMenu .RM_leftRoot > li.rootnode-container > a > span {
+        border: 1px solid #074392;
+    }
+
+    #RM_leftMenu li.item a span:hover {
+        border: 1px solid #074392;
+    }
+</style>
+<!--start skin header-->
+<header id="HeaderThree">
+    <div class="Rm_Header_wrapper">
+        <!--start skin top-->
+        <section class="skin_top">
+            <div class="skin_width clearafter">
+                <div id="Search">
+                    <span id="dnn_Header3_dnnSEARCH_ClassicSearch">
+    
+    
+    <span class="searchInputContainer" data-moreresults="Guarda Altri Risultati" data-noresult="Nessun Risultato Trovato">
+        <input name="dnn$Header3$dnnSEARCH$txtSearch" type="text" maxlength="255" size="20" id="dnn_Header3_dnnSEARCH_txtSearch" class="NormalTextBox" aria-label="Ricerca" autocomplete="off" placeholder="Ricerca..." />
+        <a class="dnnSearchBoxClearText" title="Clear search text"></a>
+    </span>
+    <a id="dnn_Header3_dnnSEARCH_cmdSearch" class="searchcss" href="javascript:__doPostBack(&#39;dnn$Header3$dnnSEARCH$cmdSearch&#39;,&#39;&#39;)">Ricerca</a>
+</span>
+
+
+<script type="text/javascript">
+    $(function() {
+        if (typeof dnn != "undefined" && typeof dnn.searchSkinObject != "undefined") {
+            var searchSkinObject = new dnn.searchSkinObject({
+                delayTriggerAutoSearch : 400,
+                minCharRequiredTriggerAutoSearch : 2,
+                searchType: 'S',
+                enableWildSearch: true,
+                cultureCode: 'it-IT',
+                portalId: -1
+                }
+            );
+            searchSkinObject.init();
+            
+            
+            // attach classic search
+            var siteBtn = $('#dnn_Header3_dnnSEARCH_SiteRadioButton');
+            var webBtn = $('#dnn_Header3_dnnSEARCH_WebRadioButton');
+            var clickHandler = function() {
+                if (siteBtn.is(':checked')) searchSkinObject.settings.searchType = 'S';
+                else searchSkinObject.settings.searchType = 'W';
+            };
+            siteBtn.on('change', clickHandler);
+            webBtn.on('change', clickHandler);
+            
+            
+        }
+    });
+</script>
+
+                </div>
+                <div class="user_bar clearafter">
+                    <div class="language_position">
+                        <div class="language-object" >
+
+
+</div>
+                    </div>
+
+                    
+                    <div class="user_style">
+                        <a class="Login" href="/Amministrazione_Trasparente">Amministrazione Trasparente</a>
+                        |
+						<a class="Login" href="/Entra-in-Regione/Profile-del-committente">Profilo del committente</a>
+                        |
+		                <a class="Login" href="https://procedimenti.regione.marche.it/">ProcediMarche</a>
+                        |
+		                <a class="Login" href="/Rubrica">Rubrica</a>
+                        |
+		                <a class="Login" href="/URP">URP: la Regione risponde</a>
+                        
+
+                        <!-- <a id="dnn_Header3_dnnLOGIN_loginLink" title="Login" class="Login" rel="nofollow" onclick="this.disabled=true;" href="https://www.regione.marche.it/Login?returnurl=%2fIn-Primo-Piano%2fComunicatiStampa%3fid%3d33903">Login</a>
+ -->
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+        <!--end skin top3-->
+        <!--start logo bar -->
+        <section class="skin_header">
+            <div class="skin_width clearafter">
+                <div class="logo_style clearafter">
+                    <!--site logo-->
+                    <div class="site_logo">
+                        <a id="dnn_Header3_dnnLOGO_hypLogo" title="Regione Marche" aria-label="Regione Marche" href="https://www.regione.marche.it/"><img id="dnn_Header3_dnnLOGO_imgLogo" src="/Portals/0/Images/LogoSmall.png?ver=Ur2iQF2w8cQv8TbBK_u4jg%3d%3d" alt="Regione Marche" /></a>
+                    </div>
+                    <!--mobile menu button-->
+                    <div class="mobile_nav">
+                        <a href="#" class="menuclick">
+                            <img alt="Menu" class="click_img" src="/Portals/_default/Skins/Bravo/commonparts/images/blank.gif" /></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="skin_menu">
+            <div class="skin_width clearafter">
+                <nav class="menu_box ">
+
+                    <div id="standardMenu">
+                        <ul class="rootMenu" role="menu">
+                            <li class="item first haschild child-1" aria-haspopup="true" role="menuitem">
+                                <a href="/">
+                                    <span>In Primo Piano<i class="navarrow"></i></span>
+                                </a>
+                            </li>
+                            <li class="item selected haschild child-2" role="menuitem">
+                                <a href="/Temi">
+                                    <span>Regione Utile<i class="navarrow"></i></span>
+                                </a>
+                            </li>
+                            <li class="item haschild child-3" aria-haspopup="true" role="menuitem">
+                                <a href="/Entra-in-Regione">
+                                    <span>Entra in Regione<i class="navarrow"></i></span></a></li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </section>
+        <!--end logo bar -->
+    </div>
+</header>
+<!--end skin header-->
+
+
+<script>
+    $("#HeaderThree").find(".child-4").hide()
+</script>
+
+
+
+
+
+<div id="dnn_HeaderPane" class="headerpane"><div class="DnnModule DnnModule-DNN_HTML DnnModule-6092"><a name="6092"></a>
+
+<div class="Bt2_style">
+  <div class="Bt2_top clearafter">
+    <div class="c_icon">
+      
+    </div>
+    <h2 class="c_title">
+      <span id="dnn_ctr6092_dnnTITLE_titleLabel" class="c_title_black">Text/HTML</span>
+
+
+
+    </h2>
+  </div>
+  <div class="c_content_style">
+    <div id="dnn_ctr6092_ContentPane" class="Bt2_content"><!-- Start_Module_6092 --><div id="dnn_ctr6092_ModuleContent" class="DNNModuleContent ModDNNHTMLC">
+	<div id="dnn_ctr6092_HtmlModule_lblContent" class="Normal">
+	<div class="header_demo clearafter">
+<div class="contact_info">Call us now<br />
++123 456 7890</div>
+<div id="weather"></div>
+</div>
+</div>
+
+</div><!-- End_Module_6092 --></div>
+  </div>
+</div>
+
+</div></div>
+    <div id="dnn_ContactPane" class="contactpane"><div class="DnnModule DnnModule-DNN_HTML DnnModule-6094"><a name="6094"></a>
+
+<div class="Bt2_style">
+  <div class="Bt2_top clearafter">
+    <div class="c_icon">
+      
+    </div>
+    <h2 class="c_title">
+      <span id="dnn_ctr6094_dnnTITLE_titleLabel" class="c_title_black">Text/HTML</span>
+
+
+
+    </h2>
+  </div>
+  <div class="c_content_style">
+    <div id="dnn_ctr6094_ContentPane" class="Bt2_content"><!-- Start_Module_6094 --><div id="dnn_ctr6094_ModuleContent" class="DNNModuleContent ModDNNHTMLC">
+	<div id="dnn_ctr6094_HtmlModule_lblContent" class="Normal">
+	<div class="contact_style">
+<p><span class="fa fa-envelope-o"></span><a href="mailto:contact@bestdnnskins.com">contact@bestdnnskins.com</a><span class="fa fa-phone"></span><a href="#" target="_blank">+05 123 456789</a></p>
+</div>
+</div>
+
+</div><!-- End_Module_6094 --></div>
+  </div>
+</div>
+
+</div><div class="DnnModule DnnModule-DDRMenu DnnModule-38993"><a name="38993"></a><div id="dnn_ctr38993_ContentPane"><!-- Start_Module_38993 --><style type="text/css">
+#RM_leftMenu li.selected > a > span{ background-color: #5A5959; color: #fff !important; font-weight: bolder !important;}
+#RM_leftMenu .RM_leftRoot > li.rootnode-container > a > span{ border: 1px solid #5A5959;}
+#RM_leftMenu li.item a  span:hover{ border: 1px solid #5A5959;}
+</style><div id="dnn_ctr38993_ModuleContent" class="DNNModuleContent ModDDRMenuC">
+	
+</div><!-- End_Module_38993 --></div>
+</div></div>
+    <!--start page name-->
+    <section class="page_name">
+        <div class="skin_width pagename_style">
+            <!-- <h1>Comunicati Stampa</h1> -->
+            <span id="dnn_dnnBREADCRUMB_lblBreadCrumb" itemprop="breadcrumb" itemscope="" itemtype="https://schema.org/breadcrumb"><span itemscope itemtype="http://schema.org/BreadcrumbList"><span itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a href="https://www.regione.marche.it/" class="Breadcrumb" itemprop="item"><span itemprop="name">In Primo Piano</span></a><meta itemprop="position" content="1" /></span>  /  <span itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a href="https://www.regione.marche.it/In-Primo-Piano/ComunicatiStampa" class="Breadcrumb" itemprop="item"><span itemprop="name">Comunicati Stampa</span></a><meta itemprop="position" content="2" /></span></span></span>
+            <div class="breadcrumb_style">
+            </div>
+        </div>
+    </section>
+    <!--end page name-->
+    <!--start skin main-->
+    <div class="skin_main">
+        <section class="skin_main">
+            <div class="skin_width">
+                <div class="skin_top_content">
+                    <div class="row dnnpane">
+                        <div id="dnn_TopTitleGrid12" class="l_five_grid12 col-sm-12 DNNEmptyPane"></div>
+                    </div>
+                    <div class="LM_main_content clearafter">
+
+                        <section class="col-sm-4">
+                            <nav class="navbar navbar-default collapsed" id="leftside_Rm_menu">
+                                <!-- Brand and toggle get grouped for better mobile display -->
+                                <div class="navbar-header">
+                                    <button type="button" id="c_b_m" class="btn-block navbar-toggle" data-toggle="collapse" data-target="#prova3">
+                                        <span class="sr-only">Toggle navigation</span>
+                                        <span style="text-align: center;">MENU & Contatti</span>
+                                        <span style="margin: 3px auto;" class="icon-bar"></span>
+                                        <span style="margin: 3px auto;" class="icon-bar"></span>
+                                        <span style="margin: 3px auto;" class="icon-bar"></span>
+                                    </button>
+                                </div>
+                                <div class="navbar-collapse collapse" id="prova3" style="height: 1px;">
+                                    <div id="dnn_LeftSidePane" class="leftsidepane"><div class="DnnModule DnnModule-DNN_HTML DnnModule-5981"><a name="5981"></a>
+
+<div class="Bt_IPP_style">
+  <div class="Bt_IPP_top clearafter">
+    <div class="c_icon">
+      
+    </div>
+    <h2 class="c_title">
+      <span id="dnn_ctr5981_dnnTITLE_titleLabel" class="c_title_black">Comunicazione</span>
+
+
+
+    </h2>
+  </div>
+  <div class="c_content_style">
+    <div id="dnn_ctr5981_ContentPane" class="Bt2_content"><!-- Start_Module_5981 --><div id="dnn_ctr5981_ModuleContent" class="DNNModuleContent ModDNNHTMLC">
+	<div id="dnn_ctr5981_HtmlModule_lblContent" class="Normal">
+	<div class="panel panel-default Primo Comunicazione">
+<ul class="list-group">
+ <li class="list-group-item"><a href="/In-Primo-Piano/Le-Marche-da-leggere">Le Marche - trimestrale</a></li>
+ <li class="list-group-item"><a href="/sala-stampa-virtuale">Sala Stampa virtuale</a></li>
+ <li class="list-group-item"><a href="/In-Primo-Piano/ComunicatiStampa">Comunicati Stampa</a></li>
+ <li class="list-group-item"><a href="/News-ed-Eventi">News ed Eventi</a></li>
+ <li class="list-group-item"><a href="/In-Primo-Piano/Piano-di-Comunicazione">Piano di Comunicazione</a></li>
+ <li class="list-group-item"><a href="/In-Primo-Piano/Social-Media-Policy">Social Media Policy</a></li>
+ <li class="list-group-item"><a href="/rassegna-stampa">Rassegna Stampa</a></li>
+</ul>
+</div>
+
+</div>
+
+</div><!-- End_Module_5981 --></div>
+  </div>
+</div></div></div>
+                                </div>
+                            </nav>
+                        </section>
+                        <section class="col-sm-8">
+                            <div class="row dnnpane">
+                                <div id="main">
+                                    <div id="dnn_ContentPane" class="content_grid12 col-sm-12"><div class="DnnModule DnnModule-RegioneMarcheComunicatiStampa DnnModule-6311"><a name="6311"></a><div id="dnn_ctr6311_ContentPane"><!-- Start_Module_6311 --><div id="dnn_ctr6311_ModuleContent" class="DNNModuleContent ModRegioneMarcheComunicatiStampaC">
+	<div id="dnn_ctr6311_View_IDCssClass_pnl">
+		
+    
+            <div class="DettaglioNotizia">
+                <table>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <div class="Title">
+                                    <small><i><span id="dnn_ctr6311_View_lbl_Data">02/10/2026</span></i></small><br />
+                                    <h1><span id="dnn_ctr6311_View_lbl_Titolo">EMERGENZA IDRICA: PROROGATA AL 31 OTTOBRE LA SOSPENSIONE DEI PRELIEVI DAI CORSI D’ACQUA DELLA PROVINCIA DI PESARO E URBINO</span></h1>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="TextNews">
+                                    <span id="dnn_ctr6311_View_lbl_Testo">È stata prorogata fino al 31 ottobre 2026 la sospensione dei prelievi dai corsi d’acqua (fiumi e fossi) della provincia di Pesaro e Urbino.
+“La misura – spiega l’assessore regionale Tiziano Consoli - mira a salvaguardare la risorsa idrica e l’approvvigionamento potabile, messi sotto pressione dalle temperature elevate, dalla scarsità di piogge e dalla forte riduzione delle portate dei corsi d’acqua”.
+La proroga è stata disposta con decreto del Settore Genio Civile Marche Nord il 30 settembre scorso.
+Rimangono esclusi dalla sospensione i prelievi destinati all’uso idropotabile e all’abbeveraggio del bestiame. Restano inoltre consentiti i prelievi effettuati dagli impianti idroelettrici quando il punto di prelievo coincide con quello di restituzione.
+La sospensione si applica anche ai pozzi di subalveo che, per la vicinanza ai corsi d’acqua, sono equiparati ai prelievi di acque superficiali.  
+Il provvedimento riguarda in particolare i pozzi ubicati all’interno degli alvei e delle aree catastalmente appartenenti al demanio idrico; per i corsi d’acqua arginati, i pozzi a una distanza dalle sponde pari o inferiore al doppio della larghezza dell’alveo di piena, misurata dal piede esterno degli argini maestri; per i corsi d’acqua naturali non arginati, i pozzi a una distanza dal ciglio superiore delle sponde pari o inferiore al doppio della larghezza dell’alveo inciso, individuato tra i cigli delle sponde più esterne.
+Il provvedimento potrà essere modificato in base all’evoluzione delle condizioni meteo-climatiche e delle portate dei corsi d’acqua.
+In casi di particolare e grave necessità, adeguatamente documentati, e in assenza di fonti alternative di approvvigionamento, il Settore Genio Civile Marche Nord – Ufficio di Pesaro potrà concedere deroghe specifiche. Quelle già rilasciate in attuazione del precedente decreto del 31 luglio 2026 restano valide fino al 31 ottobre 2026.
+In caso di violazione delle disposizioni è prevista una sanzione amministrativa da 8.000 a 50.000 euro. Nei casi di particolare tenuità, la sanzione varia da 2.000 a 10.000 euro.
+
+Per informazioni e chiarimenti è possibile contattare il Settore Genio Civile Marche Nord – sede di Pesaro. Telefono: 071 806 7020 – 071 806 7091 – 071 806 7018
+E-mail: acque.pu@regione.marche.it
+
+
+</span>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <br />
+                                <div class="BackCommand">
+                                    <a class="btn btn-default" href="/In-Primo-Piano/ComunicatiStampa//p/1">Torna indietro</a>
+                                    
+                                </div>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        
+
+	</div>
+
+
+</div><!-- End_Module_6311 --></div>
+</div></div>
+                                </div>
+                            </div>
+                            <div class="row dnnpane">
+                                <div id="dnn_OneGrid4" class="l_one_grid8 col-sm-4 DNNEmptyPane"></div>
+                                <div id="dnn_OneGrid8" class="l_one_grid4 col-sm-8 DNNEmptyPane"></div>
+                            </div>
+                            <div class="row dnnpane">
+                                <div id="dnn_TwoGrid6A" class="l_two_grid6a col-sm-6 DNNEmptyPane"></div>
+                                <div id="dnn_TwoGrid6B" class="l_two_grid6b col-sm-6 DNNEmptyPane"></div>
+                            </div>
+                            <div class="row dnnpane">
+                                <div id="dnn_ThreeGrid4" class="l_three_grid4 col-sm-4 DNNEmptyPane"></div>
+                                <div id="dnn_ThreeGrid8" class="l_three_grid8 col-sm-8 DNNEmptyPane"></div>
+                            </div>
+                            <div class="row dnnpane">
+                                <div id="dnn_MiddleGrid12" class="l_five_grid12 col-sm-12 DNNEmptyPane"></div>
+                            </div>
+                            <div class="row dnnpane">
+                                <div id="dnn_FourGrid4A" class="l_four_grid4a col-sm-4 DNNEmptyPane"></div>
+                                <div id="dnn_FourGrid4B" class="l_four_grid4b col-sm-4 DNNEmptyPane"></div>
+                                <div id="dnn_FourGrid4C" class="l_four_grid4c col-sm-4 DNNEmptyPane"></div>
+                            </div>
+                            <div class="row dnnpane">
+                                <div id="dnn_FiveGrid12" class="l_five_grid12 col-sm-12 DNNEmptyPane"></div>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <!--end skin main-->
+    <!--start skin footer top-->
+    <section class="footer_top">
+        <div class="skin_width">
+            <div class="footerpane_style skin_main_padding">
+                <div class="row dnnpane">
+                    <div id="dnn_FooterGrid3A" class="footer_grid3a col-md-3 DNNEmptyPane"></div>
+                    <div id="dnn_FooterGrid3B" class="footer_grid3b col-md-3 DNNEmptyPane"></div>
+                    <div id="dnn_FooterGrid3C" class="footer_grid3c col-md-3 DNNEmptyPane"></div>
+                    <div id="dnn_FooterGrid3D" class="footer_grid3d col-md-3 DNNEmptyPane"></div>
+                </div>
+                <div class="row dnnpane">
+                    <div id="dnn_FooterGrid12" class="footer_grid12 col-md-12 DNNEmptyPane"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--end skin footer top-->
+    <!--start footer-->
+  
+
+
+ <footer class="skin_footer">
+		<div class="rm_footer_heading" id="rm_footer_heading_main">
+			<span>Regione Marche Giunta Regionale (CF 80008630420 P.IVA 00481070423) via Gentile da Fabriano, 9 - 60125 Ancona - tel. 071.8061&nbsp;&nbsp;&nbsp;
+				<br/>
+				casella p.e.c. istituzionale :<a class="rm_footer" href="mailto:regione.marche.protocollogiunta@emarche.it"> regione.marche.protocollogiunta@emarche.it</a>
+				<br/>
+				Sito realizzato su CMS DotNetNuke by DotNetNuke Corporation&nbsp;&nbsp;&nbsp;
+				<br/>
+				Autorizzazione SIAE n° 1225/I/1298
+				<br/>
+				DUNS - Data Universal Numbering System: 514216030 
+				</span>
+		</div>
+		<div class="copyright_bar">
+			<div class="skin_width clearafter">
+				<div class="footer_left">
+					<span id="dnn_dnnCOPYRIGHT_lblCopyright" class="Footer">Copyright 2026 by Regione Marche </span>
+
+				</div>
+				<!--<div class="footer_right">
+                    |
+                    <a class="Footer" href="http://cohesion.regione.marche.it/cohesioninformativo/Informativa-Cookie">Informativa sui Cookie</a>
+                </div> -->
+				<div class="footer_right">
+					<a id="dnn_dnnPRIVACY_hypPrivacy" class="rm_footer" rel="nofollow" href="https://www.regione.marche.it/Informativa-privacy">Privacy</a>
+					|
+					<a id="dnn_dnnTERMS_hypTerms" class="rm_footer" rel="nofollow" href="https://www.regione.marche.it/Terms">Termini Di Utilizzo</a>
+					|
+					<a class="rm_footer no_pdf" href="https://www.regione.marche.it/Portals/0/documenti/Informativa_trattamento_dati_VDCTEAMS.pdf">Informativa TEAMS</a>
+					|
+                    <a class="rm_footer" href="http://cohesion.regione.marche.it/cohesioninformativo/Informativa-Cookie">Informativa sui Cookie</a>
+					|
+					<a class="rm_footer" href="/Regione-Utile/Agenda-Digitale/Accessibilità">Accessibilità</a>
+					|
+					<a class="rm_footer" href="https://form.agid.gov.it/r_marche/sito_istituzionale_giunta_regione_marche/dichiarazione">Dichiarazione di Accessibilità</a>
+					|
+		            <a class="rm_footer" href="/Mappa-del-sito">Sitemap</a>
+					|
+		            <a class="rm_footer" href="?ctl=login">Login</a>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+  
+
+
+
+    <!--end footer-->
+
+    <a href="#top" id="top-link" title="Top"><span class="fa fa-angle-up"></span></a>
+</div>
+<script type="text/javascript" src="/Portals/_default/Skins/Bravo/bootstrap/js/bootstrap.js"></script>
+<script type="text/javascript" src="/Portals/_default/Skins/Bravo/js/trans-banner.min.js"></script>
+<script type="text/javascript" src="/Portals/_default/Skins/Bravo/js/jquery.fancybox.min.js"></script>
+<script type="text/javascript" src="/Portals/_default/Skins/Bravo/js/jquery.easing.1.3.min.js"></script>
+<script type="text/javascript" src="/Portals/_default/Skins/Bravo/js/jquery.unoslider.js"></script>
+<script type="text/javascript" src="/Portals/_default/Skins/Bravo/js/jquery.accordion.js"></script>
+<script type="text/javascript" src="/Portals/_default/Skins/Bravo/js/jquery.carouFredSel-6.2.1-packed.js"></script>
+<script type="text/javascript" src="/Portals/_default/Skins/Bravo/js/jquery.touchSwipe.min.js"></script>
+<script type="text/javascript" src="/Portals/_default/Skins/Bravo/js/jquery.isotope.min.js"></script>
+<script type="text/javascript" src="/Portals/_default/Skins/Bravo/js/jquery.flexslider.min.js"></script>
+<!-- <script type="text/javascript" src="/Portals/_default/Skins/Bravo/js/cookieconsent.min.js"></script> -->
+
+<script type="text/javascript" src="/Portals/_default/Skins/Bravo/js/jquery.kxbdMarquee.js"></script>
+<script type="text/javascript" src="/Portals/_default/Skins/Bravo/js/custom.js"></script>
+
+<!--[if IE 9]>
+<script type="text/javascript">
+//Disable Animation:
+jQuery(document).ready(function() {
+	 $(".animation").css({"opacity": "1"});
+});
+</script>
+<![endif]-->
+
+<link rel="stylesheet" href="/Portals/_default/Skins/Bravo/Left_RM_CustomStyle.css">
+<link rel="stylesheet" href="/Portals/_default/Skins/Bravo/skiplinks.css?id=4">
+
+<!-- <script src="https://code.jquery.com/jquery-3.0.0.js"></script> -->
+<!--  <script src="http://code.jquery.com/jquery-migrate-1.2.1.js"></script> -->
+<!-- <script src="https://code.jquery.com/jquery-migrate-3.0.0.js"></script> -->
+
+<script>
+
+document.addEventListener('DOMContentLoaded', function() {
+    // Seleziona il link esistente
+    var existingLink = document.querySelector('a[href="#main"][tabindex="0"]');
+    
+    // Crea il nuovo menù skiplink
+    var skiplinksNav = document.createElement('nav');
+    skiplinksNav.className = 'skiplinks';
+    skiplinksNav.setAttribute('aria-label', 'Scorciatoie di navigazione');
+    
+    var ul = document.createElement('ul');
+    
+    var li1 = document.createElement('li');
+    li1.className = 'visually-hidden-focusable';
+    var a1 = document.createElement('a');
+    a1.href = '#leftside_Rm_menu';
+    a1.textContent = 'Vai al menu';
+    li1.appendChild(a1);
+    
+    var li2 = document.createElement('li');
+    li2.className = 'visually-hidden-focusable';
+    var a2 = document.createElement('a');
+    a2.href = '#dnn_ContentPane';
+    a2.textContent = 'Vai al contenuto';
+    li2.appendChild(a2);
+    
+    var li3 = document.createElement('li');
+    li3.className = 'visually-hidden-focusable';
+    var a3 = document.createElement('a');
+    a3.href = '#rm_footer_heading_main';
+    a3.textContent = 'Vai al piede';
+    li3.appendChild(a3);
+
+    var li4 = document.createElement('li');
+    li4.className = 'visually-hidden-focusable';
+    var a4 = document.createElement('a');
+    a4.href = '/Amministrazione-Trasparente';
+    a4.textContent = 'Vai alla sezione Amministrazione Trasparente';
+    li4.appendChild(a4);
+
+     ul.appendChild(li2);
+     ul.appendChild(li3);
+    ul.appendChild(li1);
+   ul.appendChild(li4);
+    
+    
+    skiplinksNav.appendChild(ul);
+    
+    // Sostituisci il link esistente con il nuovo menù skiplink
+    existingLink.parentNode.replaceChild(skiplinksNav, existingLink);
+});
+
+</script>
+
+        <input name="ScrollTop" type="hidden" id="ScrollTop" />
+        <input name="__dnnVariable" type="hidden" id="__dnnVariable" autocomplete="off" value="`{`__scdoff`:`1`,`sf_siteRoot`:`/`,`sf_tabId`:`634`}" />
+        <input name="__RequestVerificationToken" type="hidden" value="1a4A_btsAjvX3es8fmTtZ2sJMfTIg-D_Yvr8kCsb4nUAL32iOT65SWsc7HOMbnPv8gSMbg2" />
+    
+<div class="aspNetHidden">
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="CA0B0334" />
+	<input type="hidden" name="__VIEWSTATEENCRYPTED" id="__VIEWSTATEENCRYPTED" value="" />
+</div></form>
+    <!--CDF(Javascript|/js/Debug/dnncore.js?cdv=250|DnnBodyProvider|100)--><!--CDF(Css|/Resources/Shared/stylesheets/dnndefault/7.0.0/default.css?cdv=250|DnnPageHeaderProvider|5)--><!--CDF(Css|/Portals/_default/Skins/Bravo/skin.css?cdv=250|DnnPageHeaderProvider|15)--><!--CDF(Css|/Portals/_default/Containers/Bravo/container.css?cdv=250|DnnPageHeaderProvider|25)--><!--CDF(Css|/Portals/_default/Containers/Bravo/container.css?cdv=250|DnnPageHeaderProvider|25)--><!--CDF(Css|/Portals/_default/Containers/Bravo/container.css?cdv=250|DnnPageHeaderProvider|25)--><!--CDF(Css|/Portals/_default/admin.css?cdv=250|DnnPageHeaderProvider|6)--><!--CDF(Css|/Portals/0/portal.css?cdv=250|DnnPageHeaderProvider|35)--><!--CDF(Css|/Resources/Search/SearchSkinObjectPreview.css?cdv=250|DnnPageHeaderProvider|10)--><!--CDF(Javascript|/Resources/Search/SearchSkinObjectPreview.js?cdv=250|DnnBodyProvider|100)--><!--CDF(Css|/Resources/Search/SearchSkinObjectPreview.css?cdv=250|DnnPageHeaderProvider|10)--><!--CDF(Javascript|/Resources/Search/SearchSkinObjectPreview.js?cdv=250|DnnBodyProvider|100)--><!--CDF(Css|/Resources/Search/SearchSkinObjectPreview.css?cdv=250|DnnPageHeaderProvider|10)--><!--CDF(Javascript|/Resources/Search/SearchSkinObjectPreview.js?cdv=250|DnnBodyProvider|100)--><!--CDF(Css|/Resources/Search/SearchSkinObjectPreview.css?cdv=250|DnnPageHeaderProvider|10)--><!--CDF(Javascript|/Resources/Search/SearchSkinObjectPreview.js?cdv=250|DnnBodyProvider|100)--><!--CDF(Css|/Resources/Search/SearchSkinObjectPreview.css?cdv=250|DnnPageHeaderProvider|10)--><!--CDF(Javascript|/Resources/Search/SearchSkinObjectPreview.js?cdv=250|DnnBodyProvider|100)--><!--CDF(Css|/Resources/Search/SearchSkinObjectPreview.css?cdv=250|DnnPageHeaderProvider|10)--><!--CDF(Javascript|/Resources/Search/SearchSkinObjectPreview.js?cdv=250|DnnBodyProvider|100)--><!--CDF(Css|/Resources/Search/SearchSkinObjectPreview.css?cdv=250|DnnPageHeaderProvider|10)--><!--CDF(Javascript|/Resources/Search/SearchSkinObjectPreview.js?cdv=250|DnnBodyProvider|100)--><!--CDF(Javascript|/js/dnn.js?cdv=250|DnnBodyProvider|12)--><!--CDF(Javascript|/js/Debug/dnn.servicesframework.js?cdv=250|DnnBodyProvider|100)--><!--CDF(Css|/DesktopModules/DDRMenu/RM_Accordion/RM_accordion.css?cdv=250|DnnPageHeaderProvider|100)--><!--CDF(Javascript|/DesktopModules/DDRMenu/RM_Accordion/RM_LeftMenu.js?cdv=250|DnnBodyProvider|100)--><!--CDF(Javascript|/Resources/Shared/Scripts/jquery/jquery.hoverIntent.min.js?cdv=250|DnnBodyProvider|55)--><!--CDF(Javascript|/Resources/Shared/Scripts/jquery/jquery.hoverIntent.min.js?cdv=250|DnnBodyProvider|55)--><!--CDF(Javascript|/Resources/Shared/Scripts/dnn.jquery.js?cdv=250|DnnBodyProvider|100)--><!--CDF(Javascript|/Resources/libraries/jQuery-UI/01_12_01/jquery-ui.js?cdv=250|DnnPageHeaderProvider|10)--><!--CDF(Javascript|/Resources/libraries/jQuery/03_05_01/jquery.js?cdv=250|DnnPageHeaderProvider|5)--><!--CDF(Javascript|/Resources/libraries/jQuery-Migrate/03_02_00/jquery-migrate.js?cdv=250|DnnPageHeaderProvider|6)-->
+    
+
+    <script>
+        $(document).ready(function () {
+
+
+            if (typeof (WebForm_DoPostBackWithOptions) == 'undefined') {
+
+                WebForm_DoPostBackWithOptions =
+                    function (options) {
+                        var validationResult = true;
+                        if (options.validation) {
+                            if (typeof (Page_ClientValidate) == 'function') {
+                                validationResult = Page_ClientValidate(options.validationGroup);
+                            }
+                        }
+                        if (validationResult) {
+                            if ((typeof (options.actionUrl) != "undefined") && (options.actionUrl != null) && (options.actionUrl.length > 0)) {
+                                theForm.action = options.actionUrl;
+                            }
+                            if (options.trackFocus) {
+                                var lastFocus = theForm.elements["__LASTFOCUS"];
+                                if ((typeof (lastFocus) != "undefined") && (lastFocus != null)) {
+                                    if (typeof (document.activeElement) == "undefined") {
+                                        lastFocus.value = options.eventTarget;
+                                    }
+                                    else {
+                                        var active = document.activeElement;
+                                        if ((typeof (active) != "undefined") && (active != null)) {
+                                            if ((typeof (active.id) != "undefined") && (active.id != null) && (active.id.length > 0)) {
+                                                lastFocus.value = active.id;
+                                            }
+                                            else if (typeof (active.name) != "undefined") {
+                                                lastFocus.value = active.name;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                        if (options.clientSubmit) {
+                            __doPostBack(options.eventTarget, options.eventArgument);
+                        }
+                    };
+            }
+
+            if (typeof (WebForm_PostBackOptions) == 'undefined') {
+
+                WebForm_PostBackOptions = function (eventTarget, eventArgument, validation, validationGroup, actionUrl, trackFocus, clientSubmit) {
+                    this.eventTarget = eventTarget;
+                    this.eventArgument = eventArgument;
+                    this.validation = validation;
+                    this.validationGroup = validationGroup;
+                    this.actionUrl = actionUrl;
+                    this.trackFocus = trackFocus;
+                    this.clientSubmit = clientSubmit;
+                }
+            }
+        });
+
+    </script>
+</body>
+</html>

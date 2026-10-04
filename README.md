@@ -6,7 +6,7 @@ A static website with browser-side search and filters. No login, database or app
 
 ## Coverage
 
-- European Union: a separate supranational level, with three initial historical explanations (roaming, instant euro payments and the common charger). Official EU discovery channels are registered; exhaustive monitoring and national transposition checks remain incomplete. EU policies are stored once in the EU view, without duplicating them as national measures.
+- European Union: a separate supranational level, with historical explanations covering digital services and markets, consumer rights, product requirements, payments and travel. Official EU discovery channels are registered; exhaustive monitoring and national transposition checks remain incomplete. EU policies are stored once in the EU view, without duplicating them as national measures.
 
 - Germany: federal level and all 16 states.
 - France: national level and 18 regional geographic areas.

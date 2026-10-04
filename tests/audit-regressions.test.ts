@@ -22,7 +22,7 @@ test('even unchanged policies cannot drop their archived check reference',()=>{
 
 test('structured statuses do not depend on explanatory language',()=>{
  const p={...policy('de-fuel-relief-2026'),status:'adopted',nextKind:'expiry' as const,nextLabel:'Expiry'};
- assert.equal(lifecycle(p,'2027-01-01'),'期限已到 · 后续待核实');
+ assert.equal(lifecycle(p,'2027-01-01'),'已通过 · 期限已到，后续待核实');
  assert.equal(lifecycle(policy('ch-thirteenth-ahv'),'2027-02-01'),'已通过 · 生效日未确认');
  assert.equal(lifecycle(policy('nl-fl-home-battery'),'2027-01-01'),'本轮申请已结束');
 });

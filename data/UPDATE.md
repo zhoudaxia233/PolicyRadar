@@ -63,8 +63,13 @@ up from stored coverage, rather than skip to the latest week.
    `lib/domain/model.ts`: keep stable IDs and historical events, append correction
    events, advance the version once, update row metadata, and append the identical
    complete payload to `revisions`. New policies start at version 1. New or edited policies must use a status code:
-   `adopted`, `pending`, `closed`, `application_closed`, `existing`, or `phased`.
+   `adopted`, `pending`, `closed`, `application_closed`, `application_announced`, `existing`, `phased`, or `temporary`.
+   An expiry date alone does not establish a temporary measure. Use
+   `application_announced` for published application arrangements, independently
+   of the legal commencement of a policy.
    Optional `statusNote` carries factual explanation, never a computed status.
+   Legacy status prose remains visible as the last-reviewed explanation when
+   no explicit note exists; it is not presented as today's status.
    Every dated next step requires `nextKind`: `implementation`, `scheduled`,
    `expiry`, or `deadline`. A deadline passing means follow-up is unverified;
    it does not prove an application closed or a pending measure passed.

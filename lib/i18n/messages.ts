@@ -1,4 +1,10 @@
 export const messages = {
+  "申请安排已公布 · 后续进展待核实": ["Antragsmodalitäten veröffentlicht · weitere Entwicklung ungeprüft", "Application arrangements announced · subsequent progress unverified"],
+  "申请安排已公布 · 期限已到，后续待核实": ["Antragsmodalitäten veröffentlicht · Frist verstrichen, Folgestand ungeprüft", "Application arrangements announced · deadline passed, follow-up unverified"],
+  "已通过 · 期限已到，后续待核实": ["Verabschiedet · Frist verstrichen, Folgestand ungeprüft", "Adopted · deadline passed, follow-up unverified"],
+  "已通过 · 后续进展待核实": ["Verabschiedet · weitere Entwicklung ungeprüft", "Adopted · subsequent progress unverified"],
+  "申请安排已公布": ["Antragsmodalitäten veröffentlicht", "Application arrangements announced"],
+  "上次核实时的说明：": ["Erläuterung bei der letzten Prüfung:", "Explanation at the last review:"],
   "既有补助 · 说明已更新": ["Bestehende Förderung · Erläuterung aktualisiert", "Existing grant · explanation updated"],
   "已生效 · 临时措施": ["In Kraft · befristete Maßnahme", "In effect · temporary measure"],
   "已生效 · 分步实施": ["In Kraft · schrittweise Umsetzung", "In effect · phased implementation"],

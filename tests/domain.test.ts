@@ -15,7 +15,7 @@ test('text searches include official identifiers',()=>{assert.equal(selectPolici
 
 test('expiry is not mistaken for staged implementation',()=>{const p=seed.find((p:any)=>p.id==='de-fuel-relief-2026');assert.equal(lifecycle(p,'2026-10-02'),'已生效 · 临时措施');});
 
-test('expired temporary measure displays uncertainty instead of silently staying active',()=>{const p=seed.find((p:any)=>p.id==='de-fuel-relief-2026');assert.equal(lifecycle(p,'2027-01-02'),'期限已到 · 后续待核实');});
+test('expired temporary measure displays uncertainty instead of silently staying active',()=>{const p=seed.find((p:any)=>p.id==='de-fuel-relief-2026');assert.equal(lifecycle(p,'2027-01-02'),'已通过 · 期限已到，后续待核实');});
 
 test('every state has an evidenced record and an official discovery entry',()=>{for(const r of regions.filter(r=>countryOf(r.id)==='DE')){assert(seed.some((p:any)=>p.region===r.id),r.id);assert(discovery.some(d=>d.region===r.id),r.id);}});
 test('unknown and future voting evidence cannot become invented results',()=>{const p=structuredClone(seed[0]);p.politics.votes[0].date='2027-01-01';assert.equal(policySchema.safeParse(p).success,false);p.politics.votes[0].date='2025-06-26';p.politics.proposedBy.sourceId='unknown';assert.equal(policySchema.safeParse(p).success,false);p.politics.proposedBy.sourceId='rent-vote';assert.equal(policySchema.parse(p).politics?.votes?.[0].counts,null);});

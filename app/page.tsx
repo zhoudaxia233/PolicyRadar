@@ -1,4 +1,5 @@
 'use client';
+import {PolicyStatusNote} from './policy-status-note';
 import { useEffect, useMemo, useState, useRef, type ReactNode } from 'react';
 import { Radar, LayoutDashboard, Clock3, Activity, Database, Search, ChevronRight, ChevronDown, ExternalLink, Download, RefreshCw, MapPin, CalendarDays, FileText, X, ShieldCheck, AlertCircle, Layers, Sun, Moon, Monitor } from 'lucide-react';
 import { regions, countries, countryOf, keyDate, policyTags, lifecycle, type Policy } from '../lib/domain/model';
@@ -733,6 +734,7 @@ export default function Home() {
                       {p.title}
                     </h2>
                     {translationNotice(p)}
+                    <PolicyStatusNote policy={canonicalItems.find(original=>original.id===p.id)??p} locale={locale} messages={localization.messages}/>
                     <p className="card-summary" lang={explanationLang(p)}>
                       {p.summary}
                     </p>
@@ -862,9 +864,7 @@ export default function Home() {
             {stateLabel(selected)}
           </span>
           {translationNotice(selected)}
-          {selected.statusNote && <p>
-            {ct(selected.statusNote)}
-          </p>}
+          <PolicyStatusNote policy={canonicalItems.find(original=>original.id===selected.id)??selected} locale={locale} messages={localization.messages}/>
           <p className="explanation-label">
             {tr("政策解读 · 官方原文见下方来源")}
           </p>

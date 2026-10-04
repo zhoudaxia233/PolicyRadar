@@ -15,7 +15,7 @@ export const tagsSchema=z.array(z.string().trim().min(1).max(30)).max(12).refine
 export function policyTags(p:{tags?:string[];topic?:string}){return p.tags?.length?p.tags:p.topic?[p.topic]:['待分类'];}
 const text = z.string().min(1).max(6000);
 export const sourceSchema = z.object({id:z.string().regex(/^[a-z0-9-]+$/),title:text,url:z.string().url().refine(u=>u.startsWith('https://')),publisher:text,kind:z.enum(['law','parliament','government']),note:text});
-export const statusCodeSchema=z.enum(['adopted','pending','closed','application_closed','existing','phased']);
+export const statusCodeSchema=z.enum(['adopted','pending','closed','application_closed','existing','phased','temporary','application_announced']);
 export const policySchema = z.object({
  originalLanguage:z.string().regex(/^[a-z]{2,3}(?:-[A-Za-z0-9]+)*$/).optional(),
  id:z.string().regex(/^[a-z0-9-]+$/), officialId:text,title:text,originalTitle:text,region:z.string().refine(r=>regions.some(x=>x.id===r)),topic:z.string().trim().min(1).max(60),tags:tagsSchema.optional(),
@@ -51,16 +51,23 @@ export function validateRevision(old:Policy, next:Policy){
  for(const e of old.events){const same=next.events.find(n=>n.id===e.id);if(!same||JSON.stringify(same)!==JSON.stringify(e))throw new Error('Historical events are immutable; append a correction');}
 }
 export function selectPolicies(items:Policy[],view:string,region:string,topic:string,query:string,tags:string[]=[],searchText?:(p:Policy)=>string){const q=query.trim().toLocaleLowerCase();return items.filter(p=>(view==='all'||view==='updates'||p.phase===view)&&(region==='all'||p.region===region)&&(topic==='all'||p.topic===topic)&&(!tags.length||tags.some(t=>policyTags(p).includes(t)))&&(!q||(searchText?.(p)??[p.title,p.originalTitle,p.summary,p.officialId,...policyTags(p)].join(' ')).toLocaleLowerCase().includes(q))).sort((a,b)=>b.lastEventDate.localeCompare(a.lastEventDate));}
+// Keep saved explanations separate from the date-computed badge. Never mutate
+// historical payloads or their translation hashes to add a compatibility field.
+export function policyStatusNote(p:Policy){
+ return p.statusNote??(Object.hasOwn(legacyStatus,p.status)?p.status:undefined);
+}
 export function lifecycle(p:Policy,today:string){
  const code=legacyStatus[p.status as keyof typeof legacyStatus]??p.status;
  const nextKind=p.nextKind??legacyNextKind[p.nextLabel as keyof typeof legacyNextKind]??'scheduled';
+ const nextPassed=!!p.nextDate&&p.nextDate<today;
  if(code==='application_closed')return '本轮申请已结束';
  if(p.phase==='closed')return '已结束';
- if(p.nextDate&&p.nextDate<today&&['expiry','deadline'].includes(nextKind))return '期限已到 · 后续待核实';
- if(p.phase!=='adopted')return p.nextDate&&p.nextDate<today?'已过计划日期 · 结果待核实':'尚未通过';
+ if(p.phase!=='adopted')return nextPassed?'已过计划日期 · 结果待核实':'尚未通过';
+ if(nextPassed&&['expiry','deadline'].includes(nextKind))return code==='application_announced'?'申请安排已公布 · 期限已到，后续待核实':'已通过 · 期限已到，后续待核实';
+ if(code==='application_announced')return nextPassed?'申请安排已公布 · 后续进展待核实':'申请安排已公布';
  if(p.effectiveDate&&p.effectiveDate>today)return '已通过 · 待生效';
- if(p.effectiveDate&&nextKind==='expiry')return '已生效 · 临时措施';
+ if(p.effectiveDate&&code==='temporary')return '已生效 · 临时措施';
  if(p.effectiveDate)return code==='phased'&&p.nextDate&&p.nextDate>today?'已生效 · 分步实施':'已生效';
- if(p.nextDate&&p.nextDate<today)return '已过计划日期 · 结果待核实';
+ if(nextPassed)return '已通过 · 后续进展待核实';
  return code==='existing'?'既有补助 · 说明已更新':'已通过 · 生效日未确认';
 }

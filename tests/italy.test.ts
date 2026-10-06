@@ -1,3 +1,4 @@
+// Fixed historical exports use the reviewed bindings saved before later data updates.
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
@@ -59,7 +60,7 @@ test('Italy selection preserves history and isolates sources and counts',()=>{
 });
 
 test('Initial Italian explanation has complete translations and preserves factual limits',()=>{
- const l=createLocalization(data,read('../data/translations/content.json'),read('../data/translations/bindings.json'));
+ const l=createLocalization(data,read('../data/translations/content.json'),read('./fixtures/pre-politics-i18n-bindings.json'));
  const p=data.policies.find(p=>p.id==='it-parental-leave-age-2026')!;
  assert.equal(l.policies[p.id],'current');assert.equal(p.effectiveDate,'2026-01-01');assert.equal(p.nextDate,null);assert.equal(p.originalLanguage,'it');
  assert(p.before.includes('12'));assert(p.after.includes('14'));assert(p.limits.includes('仅限雇员'));assert(p.limits.includes('成年'));

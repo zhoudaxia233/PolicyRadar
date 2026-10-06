@@ -1,3 +1,4 @@
+// Fixed historical exports use the reviewed bindings saved before later data updates.
 import {readSnapshot} from '../lib/source-archive.ts';
 import test from 'node:test';
 import assert from 'node:assert/strict';
@@ -16,7 +17,7 @@ const previous=read('../data/exports/2026-10-04-netherlands-review/policy-radar-
 const baseline=read('../data/exports/2026-10-04-switzerland/policy-radar-export.json');
 const candidate=read('../data/exports/2026-10-04-switzerland-review/policy-radar-export.json');
 const data=createStaticData(candidate),ch=data.policies.filter(p=>p.region.startsWith('CH'));
-const localization=createLocalization(data,read('../data/translations/content.json'),read('../data/translations/bindings.json'));
+const localization=createLocalization(data,read('../data/translations/content.json'),read('./fixtures/pre-politics-i18n-bindings.json'));
 
 test('Swiss canton URLs preserve ISO identities across France, Netherlands and Germany',()=>{
  assert.deepEqual(swissCantons.map(r=>r.id).sort(),['ZH','BE','LU','UR','SZ','OW','NW','GL','ZG','FR','SO','BS','BL','SH','AR','AI','SG','GR','AG','TG','TI','VD','VS','NE','GE','JU'].map(c=>'CH-'+c).sort());

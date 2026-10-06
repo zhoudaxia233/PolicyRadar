@@ -1,3 +1,4 @@
+// Fixed historical exports use the reviewed bindings saved before later data updates.
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
@@ -13,7 +14,7 @@ const before=read('data/exports/2026-10-04-eu-payment-review-134352/policy-radar
 const after=read(path),data=createStaticData(after);
 const priorIds=new Set(before.tables.policies.map((p:{id:string})=>p.id));
 const added=data.policies.filter(p=>!priorIds.has(p.id));
-const localization=createLocalization(data,read('data/translations/content.json'),read('data/translations/bindings.json'));
+const localization=createLocalization(data,read('data/translations/content.json'),read('tests/fixtures/pre-politics-i18n-bindings.json'));
 
 test('EU backfill preserves existing records and does not claim new monitoring coverage',()=>{
  validateSelection(before,after,new Date(after.exportedAt));

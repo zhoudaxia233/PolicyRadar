@@ -80,8 +80,8 @@
     "CDU/CSU and SPD parliamentary groups"
   ],
   "联邦议院全会": [
-    "Bundestagsplenum",
-    "Bundestag plenary"
+    "Plenum des Deutschen Bundestages",
+    "German Bundestag plenary"
   ],
   "通过：CDU/CSU、SPD、绿党赞成；AfD反对；左翼党弃权。": [
     "Angenommen: CDU/CSU, SPD und Grüne dafür; AfD dagegen; Linke enthielt sich.",
@@ -849,7 +849,7 @@
   ],
   "德国联邦政府": [
     "Deutsche Bundesregierung",
-    "German federal government"
+    "German Federal Government"
   ],
   "政府法案文件": [
     "Regierungsentwurf",
@@ -11190,5 +11190,165 @@
   "财政委员会建议否决；10月8日拟记名表决，最终结果尚待确认。": [
     "Der Finanzausschuss empfiehlt Ablehnung; am 8. Oktober ist eine namentliche Abstimmung geplant, deren Ergebnis noch aussteht.",
     "The Finance Committee recommends rejection; a roll-call vote is planned for 8 October, with the outcome still unconfirmed."
+  ],
+  "用于核对历史立法表决及讨论；不以当时的预期时间替代已公布法律的适用日期。": [
+    "Beleg für historische Abstimmungen und Beratungen; damalige Zeitprognosen ersetzen nicht die Anwendungsdaten des veröffentlichten Rechts.",
+    "Evidence of historical votes and deliberations; forecasts at the time do not replace the application dates of published law."
+  ],
+  "补充历史表决与政治背景": [
+    "Historische Abstimmungen und politischen Kontext ergänzt",
+    "Historical votes and political context added"
+  ],
+  "本次补核议会原文并补充表决、立法角色或争议背景；这是资料回补，不代表今天新通过法律。其余适用规则与日期沿用此前审阅。": [
+    "Parlamentsquellen für Abstimmungen, Gesetzgebungsrollen oder Kontroversen nachgeprüft. Dies ist eine historische Ergänzung, keine heutige Gesetzesverabschiedung. Sonstige Regeln und Termine stammen aus der bisherigen Prüfung.",
+    "Parliamentary sources checked for votes, legislative roles or controversies. This is a historical backfill, not a law newly passed today. Other rules and dates retain the previous review."
+  ],
+  "欧洲议会全会": [
+    "Plenum des Europäischen Parlaments",
+    "European Parliament plenary"
+  ],
+  "这是欧洲议会对整项法案的表决，不是对本页某一条款的单独表决，也不是理事会表决。来源未列各党团逐票明细，不能从总票数推断党团一致立场。": [
+    "Abstimmung des Europäischen Parlaments über den gesamten Rechtsakt, nicht über eine einzelne hier erläuterte Vorschrift oder im Rat. Die Quelle enthält keine namentliche Aufschlüsselung nach Fraktionen; Summen belegen keine einheitliche Fraktionsposition.",
+    "European Parliament vote on the entire act, not a separate vote on the provision explained here or a Council vote. The source gives no roll-call breakdown by group; totals do not establish a unanimous group position."
+  ],
+  "议会原文：表决与立法讨论": [
+    "Parlamentsquelle: Abstimmung und Gesetzgebungsdebatte",
+    "Parliamentary source: vote and legislative debate"
+  ],
+  "通过": [
+    "Angenommen",
+    "Adopted"
+  ],
+  "当时的议会报告员／牵头议员：Michiel Hoogeveen (ECR, NL)。括号为当时欧洲议会党团及国家，不代表该党团全体投票一致，也不等于法案的正式提出机构。": [
+    "Damalige Berichterstatter bzw. federführende Abgeordnete: Michiel Hoogeveen (ECR, NL). Klammern nennen damalige EP-Fraktion und Land, weder ein geschlossenes Abstimmungsverhalten noch den formellen Initiator.",
+    "Rapporteurs or lead MEPs at the time: Michiel Hoogeveen (ECR, NL). Parentheses identify their EP group and country then, not a unanimous group vote or the formal proposing institution."
+  ],
+  "立法角色与证据边界": [
+    "Gesetzgebungsrollen und Beleggrenzen",
+    "Legislative roles and evidence limits"
+  ],
+  "当时的议会报告员／牵头议员：Alex Agius Saliba (S&D, MT)。括号为当时欧洲议会党团及国家，不代表该党团全体投票一致，也不等于法案的正式提出机构。": [
+    "Damalige Berichterstatter bzw. federführende Abgeordnete: Alex Agius Saliba (S&D, MT). Klammern nennen damalige EP-Fraktion und Land, weder ein geschlossenes Abstimmungsverhalten noch den formellen Initiator.",
+    "Rapporteurs or lead MEPs at the time: Alex Agius Saliba (S&D, MT). Parentheses identify their EP group and country then, not a unanimous group vote or the formal proposing institution."
+  ],
+  "欧洲委员会（2021年9月23日提出）": [
+    "Europäische Kommission (Vorlage am 23. September 2021)",
+    "European Commission (proposal on 23 September 2021)"
+  ],
+  "当时的议会报告员／牵头议员：Pilar del Castillo Vera (EPP, ES)。括号为当时欧洲议会党团及国家，不代表该党团全体投票一致，也不等于法案的正式提出机构。": [
+    "Damalige Berichterstatter bzw. federführende Abgeordnete: Pilar del Castillo Vera (EPP, ES). Klammern nennen damalige EP-Fraktion und Land, weder ein geschlossenes Abstimmungsverhalten noch den formellen Initiator.",
+    "Rapporteurs or lead MEPs at the time: Pilar del Castillo Vera (EPP, ES). Parentheses identify their EP group and country then, not a unanimous group vote or the formal proposing institution."
+  ],
+  "当时的议会报告员／牵头议员：René Repasi (S&D, DE)。括号为当时欧洲议会党团及国家，不代表该党团全体投票一致，也不等于法案的正式提出机构。": [
+    "Damalige Berichterstatter bzw. federführende Abgeordnete: René Repasi (S&D, DE). Klammern nennen damalige EP-Fraktion und Land, weder ein geschlossenes Abstimmungsverhalten noch den formellen Initiator.",
+    "Rapporteurs or lead MEPs at the time: René Repasi (S&D, DE). Parentheses identify their EP group and country then, not a unanimous group vote or the formal proposing institution."
+  ],
+  "当时的议会报告员／牵头议员：Dita Charanzová (Renew, CZ)。括号为当时欧洲议会党团及国家，不代表该党团全体投票一致，也不等于法案的正式提出机构。": [
+    "Damalige Berichterstatter bzw. federführende Abgeordnete: Dita Charanzová (Renew, CZ). Klammern nennen damalige EP-Fraktion und Land, weder ein geschlossenes Abstimmungsverhalten noch den formellen Initiator.",
+    "Rapporteurs or lead MEPs at the time: Dita Charanzová (Renew, CZ). Parentheses identify their EP group and country then, not a unanimous group vote or the formal proposing institution."
+  ],
+  "当时的议会报告员／牵头议员：Brando Benifei (S&D, IT); Dragos Tudorache (Renew, RO)。括号为当时欧洲议会党团及国家，不代表该党团全体投票一致，也不等于法案的正式提出机构。": [
+    "Damalige Berichterstatter bzw. federführende Abgeordnete: Brando Benifei (S&D, IT); Dragos Tudorache (Renew, RO). Klammern nennen damalige EP-Fraktion und Land, weder ein geschlossenes Abstimmungsverhalten noch den formellen Initiator.",
+    "Rapporteurs or lead MEPs at the time: Brando Benifei (S&D, IT); Dragos Tudorache (Renew, RO). Parentheses identify their EP group and country then, not a unanimous group vote or the formal proposing institution."
+  ],
+  "当时的议会报告员／牵头议员：Frédérique Ries (Renew, BE)。括号为当时欧洲议会党团及国家，不代表该党团全体投票一致，也不等于法案的正式提出机构。": [
+    "Damalige Berichterstatter bzw. federführende Abgeordnete: Frédérique Ries (Renew, BE). Klammern nennen damalige EP-Fraktion und Land, weder ein geschlossenes Abstimmungsverhalten noch den formellen Initiator.",
+    "Rapporteurs or lead MEPs at the time: Frédérique Ries (Renew, BE). Parentheses identify their EP group and country then, not a unanimous group vote or the formal proposing institution."
+  ],
+  "当时的议会报告员／牵头议员：Angelika Winzig (EPP, AT)。括号为当时欧洲议会党团及国家，不代表该党团全体投票一致，也不等于法案的正式提出机构。": [
+    "Damalige Berichterstatter bzw. federführende Abgeordnete: Angelika Winzig (EPP, AT). Klammern nennen damalige EP-Fraktion und Land, weder ein geschlossenes Abstimmungsverhalten noch den formellen Initiator.",
+    "Rapporteurs or lead MEPs at the time: Angelika Winzig (EPP, AT). Parentheses identify their EP group and country then, not a unanimous group vote or the formal proposing institution."
+  ],
+  "当时的议会报告员／牵头议员：Christel Schaldemose (S&D, DK)。括号为当时欧洲议会党团及国家，不代表该党团全体投票一致，也不等于法案的正式提出机构。": [
+    "Damalige Berichterstatter bzw. federführende Abgeordnete: Christel Schaldemose (S&D, DK). Klammern nennen damalige EP-Fraktion und Land, weder ein geschlossenes Abstimmungsverhalten noch den formellen Initiator.",
+    "Rapporteurs or lead MEPs at the time: Christel Schaldemose (S&D, DK). Parentheses identify their EP group and country then, not a unanimous group vote or the formal proposing institution."
+  ],
+  "当时的议会报告员／牵头议员：Andreas Schwab (EPP, DE)。括号为当时欧洲议会党团及国家，不代表该党团全体投票一致，也不等于法案的正式提出机构。": [
+    "Damalige Berichterstatter bzw. federführende Abgeordnete: Andreas Schwab (EPP, DE). Klammern nennen damalige EP-Fraktion und Land, weder ein geschlossenes Abstimmungsverhalten noch den formellen Initiator.",
+    "Rapporteurs or lead MEPs at the time: Andreas Schwab (EPP, DE). Parentheses identify their EP group and country then, not a unanimous group vote or the formal proposing institution."
+  ],
+  "议会原文记录党团立场，未给出实际赞成、反对、弃权人数；不以议席数替代票数。": [
+    "Die Parlamentsquelle nennt Fraktionspositionen, keine tatsächlichen Ja-, Nein- und Enthaltungszahlen; Sitzzahlen ersetzen keine Stimmen.",
+    "The parliamentary source records group positions without actual counts for, against and abstaining; seat totals are not vote counts."
+  ],
+  "通过：CDU/CSU、SPD赞成；AfD、绿党、左翼党反对。": [
+    "Angenommen: CDU/CSU und SPD dafür; AfD, Grüne und Linke dagegen.",
+    "Adopted: CDU/CSU and SPD in favour; AfD, Greens and the Left against."
+  ],
+  "立法争议（联邦议院2026年3月25日听证记录）：产业代表支持收紧诉讼规则以加快基础设施审批；Green Legal Impact的Henrike Lindemann认为新限制不能解决人手不足、数字化不足等延误原因，反而制造法律不确定性。律师Franziska Heß质疑部分限制与欧盟法、国际法相容。上述为听证意见，不是法院已判定法律无效；受邀专家的意见也不等于邀请党团的最终投票。": [
+    "Gesetzgebungskontroverse laut Bundestagsanhörung vom 25. März 2026: Industrievertreter befürworteten strengere Klageregeln zur Beschleunigung von Infrastrukturverfahren. Henrike Lindemann (Green Legal Impact) sah Personal- und Digitalisierungsdefizite ungelöst und neue Rechtsunsicherheit. Rechtsanwältin Franziska Heß bezweifelte die Vereinbarkeit einzelner Einschränkungen mit EU- und Völkerrecht. Das sind Anhörungspositionen, kein gerichtliches Ungültigkeitsurteil; eingeladene Experten vertreten nicht automatisch das spätere Fraktionsvotum.",
+    "Legislative controversy in the Bundestag hearing of 25 March 2026: industry representatives supported tighter litigation rules to speed infrastructure procedures. Henrike Lindemann (Green Legal Impact) argued that staffing and digitalisation problems remained unresolved and new legal uncertainty would arise. Lawyer Franziska Heß questioned compatibility of some restrictions with EU and international law. These are hearing opinions, not a court ruling invalidating the law; invited experts do not automatically represent their inviting group’s final vote."
+  ],
+  "立法争议（联邦议院2025年12月1日听证记录）：DIHK的Rainer Kambeck支持以免税鼓励退休年龄后继续工作；IAB的Enzo Weber指出，已经工作的退休者也会受益，额外劳动供给和财政回报仍不确定。法学者Simon Kempny质疑雇员与自雇者、高低收入者之间的差别待遇。这里是专家对设计及成本的异议，不是已作出的违宪判决。": [
+    "Kontroverse laut Bundestagsanhörung vom 1. Dezember 2025: Rainer Kambeck (DIHK) unterstützte steuerliche Anreize zum Weiterarbeiten. Enzo Weber (IAB) verwies auf Mitnahmeeffekte für bereits Beschäftigte sowie unsichere zusätzliche Arbeit und fiskalische Erträge. Rechtswissenschaftler Simon Kempny beanstandete die unterschiedliche Behandlung von Arbeitnehmern und Selbstständigen sowie höheren und niedrigeren Einkommen. Das sind Einwände gegen Gestaltung und Kosten, kein Urteil der Verfassungswidrigkeit.",
+    "Controversy in the Bundestag hearing of 1 December 2025: Rainer Kambeck (DIHK) supported tax incentives for continued work. Enzo Weber (IAB) highlighted windfall benefits for people already working and uncertain additional labour supply and fiscal returns. Legal scholar Simon Kempny questioned unequal treatment of employees and the self-employed, and of higher and lower earners. These are objections to design and cost, not a ruling of unconstitutionality."
+  ],
+  "此处为Aktivrentengesetz的表决；同日另一部养老金水平法的318票赞成、225票反对、53票弃权不属于本法，不能混用。": [
+    "Erfasst ist das Aktivrentengesetz. Die 318 Ja-, 225 Nein-Stimmen und 53 Enthaltungen zum Rentenniveaugesetz am selben Tag gehören zu einem anderen Gesetz.",
+    "This records the Aktivrentengesetz. The 318 votes for, 225 against and 53 abstentions for the pension-level law on the same day concern a different act."
+  ],
+  "立法争议（联邦议院2025年6月23日听证）：房地产行业代表Dirk Salewski与Haus & Grund的Kai Warnecke反对延期，担心影响新建及翻新投资；德国租客协会的Melanie Weber-Moritz支持延期，并要求加强保护。争点是租金保护的效果、投资激励和执行力度。专家由党团邀请不代表其意见就是该党团最终投票；这也不是法院认定租金刹车无效。": [
+    "Gesetzgebungskontroverse in der Bundestagsanhörung vom 23. Juni 2025: Immobilienvertreter Dirk Salewski und Kai Warnecke (Haus & Grund) lehnten die Verlängerung wegen befürchteter Investitionshemmnisse bei Neubau und Sanierung ab. Melanie Weber-Moritz (Deutscher Mieterbund) unterstützte sie und verlangte stärkeren Schutz. Umstritten waren Wirkung, Investitionsanreize und Durchsetzung. Die Einladung durch eine Fraktion macht eine Expertenmeinung nicht zu deren Schlussvotum; ein gerichtlicher Ungültigkeitsbefund liegt damit nicht vor.",
+    "Legislative controversy in the Bundestag hearing of 23 June 2025: property-sector representatives Dirk Salewski and Kai Warnecke (Haus & Grund) opposed extension, citing risks to construction and renovation investment. Melanie Weber-Moritz (German Tenants’ Association) supported extension and stronger protection. The dispute concerned effectiveness, investment incentives and enforcement. Invitation by a group does not turn an expert opinion into that group’s final vote; this is not a court finding that the rent cap is invalid."
+  ],
+  "沃州政府（Conseil d’État）": [
+    "Waadtländer Staatsrat (Conseil d’État)",
+    "Vaud government (Conseil d’État)"
+  ],
+  "沃州大议会": [
+    "Waadtländer Grosser Rat",
+    "Vaud Grand Council"
+  ],
+  "第三次审议后的全法最终表决；与同一会议随后处理的各项报告表决分开。未由总票数推算各党立场。": [
+    "Schlussabstimmung über das gesamte Gesetz nach dritter Beratung, getrennt von späteren Berichtsabstimmungen derselben Sitzung. Keine Parteipositionen aus Summen abgeleitet.",
+    "Final vote on the entire law after the third reading, separate from subsequent report votes at the same sitting. Party positions are not inferred from totals."
+  ],
+  "立法争议（2026年2月3日大议会逐字记录）：Georges Zünd（PLR）反对，认为改造、补贴和行政执行的负担过重，主张分步推进；Pierre Zwahlen（VER）支持，但批评最终文本削弱了节能改造要求。这些是具名议员的意见，不代表整个党团一致；本条不据此推断公投结果或法律生效。": [
+    "Kontroverse im Wortprotokoll vom 3. Februar 2026: Georges Zünd (PLR) lehnte das Gesetz wegen Belastungen durch Sanierung, Förderung und Verwaltung ab und verlangte ein schrittweises Vorgehen. Pierre Zwahlen (VER) unterstützte es, kritisierte aber abgeschwächte Sanierungsvorgaben. Dies sind individuelle Abgeordnetenpositionen, keine einheitlichen Fraktionsvoten; daraus werden weder ein Referendumsergebnis noch das Inkrafttreten abgeleitet.",
+    "Controversy in the transcript of 3 February 2026: Georges Zünd (PLR) opposed the law over renovation, subsidy and administrative burdens and advocated a gradual approach. Pierre Zwahlen (VER) supported it but criticised weakened renovation requirements. These are named members’ views, not unanimous group positions; no referendum outcome or commencement is inferred."
+  ],
+  "荷兰众议院": [
+    "Niederländische Tweede Kamer",
+    "Dutch House of Representatives"
+  ],
+  "通过。赞成：SP, 50PLUS, GroenLinks-PvdA, D66, Volt, PvdD, CDA, DENK, VVD, SGP, ChristenUnie, JA21, BBB, Lid Keijzer, Groep Markuszower, PVV；反对：FVD。": [
+    "Angenommen. Dafür: SP, 50PLUS, GroenLinks-PvdA, D66, Volt, PvdD, CDA, DENK, VVD, SGP, ChristenUnie, JA21, BBB, Lid Keijzer, Groep Markuszower, PVV; dagegen: FVD.",
+    "Adopted. In favour: SP, 50PLUS, GroenLinks-PvdA, D66, Volt, PvdD, CDA, DENK, VVD, SGP, ChristenUnie, JA21, BBB, Lid Keijzer, Groep Markuszower, PVV; against: FVD."
+  ],
+  "荷兰参议院": [
+    "Niederländische Eerste Kamer",
+    "Dutch Senate"
+  ],
+  "通过。赞成：PRO, Volt, ChristenUnie, CDA, SGP, D66, SP, PvdD, VVD, PVV, JA21, Fractie-Van de Sanden, Fractie-Visseren-Hamakers, 50PLUS, OPNL, Fractie-Beukering；反对：FVD, BBB。": [
+    "Angenommen. Dafür: PRO, Volt, ChristenUnie, CDA, SGP, D66, SP, PvdD, VVD, PVV, JA21, Fractie-Van de Sanden, Fractie-Visseren-Hamakers, 50PLUS, OPNL, Fractie-Beukering; dagegen: FVD, BBB.",
+    "Adopted. In favour: PRO, Volt, ChristenUnie, CDA, SGP, D66, SP, PvdD, VVD, PVV, JA21, Fractie-Van de Sanden, Fractie-Visseren-Hamakers, 50PLUS, OPNL, Fractie-Beukering; against: FVD, BBB."
+  ],
+  "起立／就座表决；缺席党团：Fractie-Van Gasteren, Fractie-Walenkamp。缺席不等于弃权；资料未给逐票人数。": [
+    "Abstimmung durch Aufstehen/Sitzenbleiben; abwesend: Fractie-Van Gasteren, Fractie-Walenkamp. Abwesenheit ist keine Enthaltung; keine Einzelstimmenzahlen angegeben.",
+    "Vote by standing/sitting; absent groups: Fractie-Van Gasteren, Fractie-Walenkamp. Absence is not abstention; no individual vote counts are given."
+  ],
+  "意大利众议院": [
+    "Italienische Abgeordnetenkammer",
+    "Italian Chamber of Deputies"
+  ],
+  "A.C.2750（2026预算法）的最终记名表决，覆盖整部预算法，不是本页措施的独立票决；也不是前一天的信任投票。": [
+    "Namentliche Schlussabstimmung über A.C.2750 (Haushaltsgesetz 2026), nicht über die hier erläuterte Einzelmaßnahme und nicht die Vertrauensabstimmung des Vortags.",
+    "Final roll-call vote on A.C.2750 (2026 Budget Act), not a separate vote on this specific measure or the previous day’s confidence vote."
+  ],
+  "本轮针对性补充3篇政策的历史表决、立法角色或争议资料；不代表全量政策已补齐。未完成各渠道自1月1日起的逐页历史扫描，既有覆盖缺口保留。": [
+    "Gezielte Ergänzung historischer Abstimmungen, Gesetzgebungsrollen oder Kontroversen bei 3 Erläuterungen; keine vollständige Anreicherung aller Maßnahmen. Die seitenweise Kanalprüfung seit 1. Januar bleibt unvollständig; Abdeckungslücken bestehen fort.",
+    "Targeted enrichment of historical votes, legislative roles or controversies for 3 explanations; not all policies are complete. Page-by-page channel review since 1 January remains unfinished and existing coverage gaps remain."
+  ],
+  "本轮针对性补充1篇政策的历史表决、立法角色或争议资料；不代表全量政策已补齐。未完成各渠道自1月1日起的逐页历史扫描，既有覆盖缺口保留。": [
+    "Gezielte Ergänzung historischer Abstimmungen, Gesetzgebungsrollen oder Kontroversen bei 1 Erläuterungen; keine vollständige Anreicherung aller Maßnahmen. Die seitenweise Kanalprüfung seit 1. Januar bleibt unvollständig; Abdeckungslücken bestehen fort.",
+    "Targeted enrichment of historical votes, legislative roles or controversies for 1 explanations; not all policies are complete. Page-by-page channel review since 1 January remains unfinished and existing coverage gaps remain."
+  ],
+  "本轮针对性补充2篇政策的历史表决、立法角色或争议资料；不代表全量政策已补齐。未完成各渠道自1月1日起的逐页历史扫描，既有覆盖缺口保留。": [
+    "Gezielte Ergänzung historischer Abstimmungen, Gesetzgebungsrollen oder Kontroversen bei 2 Erläuterungen; keine vollständige Anreicherung aller Maßnahmen. Die seitenweise Kanalprüfung seit 1. Januar bleibt unvollständig; Abdeckungslücken bestehen fort.",
+    "Targeted enrichment of historical votes, legislative roles or controversies for 2 explanations; not all policies are complete. Page-by-page channel review since 1 January remains unfinished and existing coverage gaps remain."
+  ],
+  "本轮针对性补充10篇政策的历史表决、立法角色或争议资料；不代表全量政策已补齐。未完成各渠道自1月1日起的逐页历史扫描，既有覆盖缺口保留。": [
+    "Gezielte Ergänzung historischer Abstimmungen, Gesetzgebungsrollen oder Kontroversen bei 10 Erläuterungen; keine vollständige Anreicherung aller Maßnahmen. Die seitenweise Kanalprüfung seit 1. Januar bleibt unvollständig; Abdeckungslücken bestehen fort.",
+    "Targeted enrichment of historical votes, legislative roles or controversies for 10 explanations; not all policies are complete. Page-by-page channel review since 1 January remains unfinished and existing coverage gaps remain."
   ]
 }

@@ -1,0 +1,460 @@
+<!--  <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html xmlns="http://www.w3.org/1999/xhtml" xml:lang="it">
+--><!DOCTYPE html>
+<head>
+    <title>
+        CAN - Raccolta delle leggi del Cantone Ticino    </title>
+	<link rel="shortcut icon" href="/CAN/RLeggi/public/images/favicon.ico" />
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+	<meta name="author" content="CANC - ASG" />
+	<meta name="dipartimento" content="Cancelleria dello Stato" />
+	<meta name="livello1" content="Servizi giuridici del Consiglio di Stato" />
+	<meta name="livello2" content="Servizio della legislazione" />
+	<meta name="temamatomo" content="RL" />
+	<meta name="tipopagina" content="Pagina di spiegazione" />
+
+    
+   	<link rel="stylesheet" type="text/css" media="all" href="/CAN/RLeggi/public/css/jquery-ui.css" /><link rel="stylesheet" type="text/css" media="all" href="/CAN/RLeggi/public/css/struttura.css" /><link rel="stylesheet" type="text/css" media="all" href="/CAN/RLeggi/public/css/css960.css" /><link rel="stylesheet" type="text/css" media="print" href="/CAN/RLeggi/public/css/stampa.css" /><link rel="stylesheet" type="text/css" media="all" href="/CAN/RLeggi/public/css/ie9.css" />
+	<link media="all" href="//www4.ti.ch/typo3conf/ext/theme/Resources/Public/plugins/font-awesome/css/font-awesome.min.css" type="text/css" rel="stylesheet">
+	
+	<script type="text/javascript" >
+		var baseurl = '/CAN/RLeggi/public/';
+		var controller = 'raccolta-leggi';
+	</script>
+    
+	<script type="text/javascript" src="/CAN/RLeggi/public/scripts/jquery.js"></script><script type="text/javascript" src="/CAN/RLeggi/public/scripts/jquery-ui.js"></script><script type="text/javascript" src="/CAN/RLeggi/public/scripts/js960.js"></script><script type="text/javascript" src="/CAN/RLeggi/public/scripts/jquery.blockUI.js"></script><script type="text/javascript" src="/CAN/RLeggi/public/scripts/jquery.scrollIntoView.js"></script><script type="text/javascript" src="/CAN/RLeggi/public/scripts/sha1.js"></script><script type="text/javascript" src="/CAN/RLeggi/public/scripts/ui.datepicker-it.js"></script><script type="text/javascript" src="/CAN/RLeggi/public/scripts/jsUtente.js"></script>	<script>
+		var isIE = window.navigator.msPointerEnabled;
+		if(isIE){
+			function ieFunzione(){
+				$("#sottotitoloLegge span.input-group-btn button").css({'margin-top': '0px'});
+			}
+		}
+	</script>
+
+	<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-PSV3WQ6');</script>
+<!-- End Google Tag Manager -->
+
+</head>
+
+<body  onResize="javascript:altezzaCorpo1();">
+
+	<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PSV3WQ6"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+	
+	
+	<style>
+		.tich-avvisi.info {
+			border-bottom: 1px solid #fff;
+			background: #116df8;
+		}
+		.tich-avvisi {
+			color: #fff;
+			padding: 20px 0;
+			transition: all 0.1s;
+			overflow: hidden;
+		}
+		.tich-avvisi .inner {
+			max-width: 960px;
+			margin: 0 auto;
+			position: relative;
+		}
+		.tich-avvisi .text {
+			margin-left: 90px;
+		}
+		.tich-avvisi h5 {
+			font-size: 20px;
+			color: #fff !important;
+			margin-top: 10px;
+    		margin-bottom: 10px;
+			font-family: 'HelveticaNeueW01-67MdCn_692710', arial;
+			font-weight: normal;
+		}
+		.tich-avvisi.info h5 {
+			padding-right: 50px;
+		}
+		.tich-avvisi p {
+			font-size: 16px;
+			margin-top:0px;
+			margin-bottom: 10px;
+			line-height: 1.42857143;
+		}
+
+		.tich-avvisi .inner:after {
+			content: "\f05a";
+			position: absolute;
+			top: 0;
+			left: 20px;
+			font: normal normal normal 50px / 1 FontAwesome;
+			transition: all 0.1s;
+		}
+	</style>
+
+	
+	
+	<header id="wrapperHeader">
+
+		<div class="logo">
+			<h1>
+				<a class="a-logo" href="https://www.ti.ch"><img src="//www4.ti.ch/typo3conf/ext/theme/Resources/Public/images/comune/ti-ch.png" alt="Torna alla Home Page di ti.ch"></a>
+                <span class="alt-logo">Repubblica e Cantone Ticino</span>
+            </h1>
+        </div>
+        <div class="path"><a href="//www4.ti.ch">Repubblica e Cantone Ticino</a></div>
+        <div class="right">
+        	<a href="//www.ti.ch/can" target="_top">www.ti.ch/can</a>
+        	
+         </div>
+         <div class="clear"></div>
+    </header>
+
+	<div id="banner" role="banner">
+
+		<div id="wrapperBanner">
+	
+			<a href="/CAN/RLeggi/public/index.php"><h2>Raccolta delle leggi del Cantone Ticino</h2></a>
+
+			<div id="utilita">
+				<a onclick="javascript:controlloRicerca('raccolta-leggi','index','');" id="apriChiudiRicercaLink" title="ricerca">
+					<div class="lente" style="cursor: pointer;">Ricerca</div>
+				</a>
+				<div class="login"><a href="javascript:apriLogin();" title="accedi" id="apriChiudiLoginLink">Accedi</a></div>
+			</div>
+		</div>
+
+	</div>
+	<a style="position:absolute; top:0px; left:-1000px;" href="/CAN/RLeggi/public/index.php/raccolta-leggi/elenco-atti/">Versione per sintesi vocale</a>
+	<div class="wrapperRicerca">
+		<div id="ricerca" style="display:none;">
+		</div>
+		<div id="login" style="display:none;">
+		</div>
+		<div id="utente" style="display:none;">
+		</div>
+	</div>
+
+    <div id="main" >
+    	<div id="menu">
+          					<ul class="navigation">
+						<li class="active"><a href="/CAN/RLeggi/public/index.php/raccolta-leggi" title="Raccolta delle leggi">Raccolta delle leggi</a></li>
+<li class="chiuso"><a href="javascript:apriLogin();">Rivista ticinese di Diritto</a></li><li class="chiuso"><a href="javascript:apriLogin();">Locazione</a></li>				</ul>
+
+            <!--fine div header banner-->
+        </div>
+		<div id="wrapper">
+        	<div id="container"  role="main">
+
+				<div id="ultimoAggiornamento">
+	<span>DATA ULTIMO BU CON MODIFICHE</span><br />
+	02.10.2026	<BR/>
+	(<a href="//www3.ti.ch/CAN/fu/2026/BU_033.pdf" target="_blank">Bollettino ufficiale 33/2026</a>)
+</div>
+<div id="bloccato">
+	<div id="titolo">
+		<h1>
+					</h1>
+		<div class="clear"></div>
+	</div>
+</div>
+<div id="corpoIndice" onload="javascript:altezzaCorpoIndice()">
+	<div id="corpoIndiceCol1">
+
+		
+		<!--<div style="background-color:#eee;padding:15px;border:2px solid #900; margin-top:0px;  font-size:14px;">
+    		<span style="color:#900;font-weight:bold;font-size:16px;">Avviso di manutenzione</span></br><br/>
+    		Martedì <b>26 maggio</b> dalle <b>20.00 alle 22.00 (circa)</b>, si potrebbero verificare brevi interruzioni a causa di un intervento di manutenzione.<br>
+			Le applicazioni Android e iOS funzioneranno ma si prega di <b>non aggiornarne i dati</b> per evitare malfunzionamenti.<br><br>
+			Grazie per la comprensione.
+		</div>
+		<br >-->
+
+
+		<!-- ---------------------------------------------------------------------------------
+			stostituire sezione
+  ---------------------------------------------------------------------------------- -->
+
+  		<div class="rowIndice">
+			<div class="ricerca divIndice ricerca1 divIndice1" role="search">
+				<span class="titoloRicerca">RICERCA</span>
+
+				<form action="get" id="index1" class="homeForm"  name="myFormHome" target="#" onsubmit="javascript: risultato1(); return false;">
+					
+					<div class="form-group">
+						<div class="input-group">
+        			  		<input id="paroleBox" type="text" name="parole" aria-label="ricerca" placeholder="parole chiave" class="form-control clear-field" value=""   >
+        			  		<span class="input-group-btn">
+        		        		<button class="btn btn-default" type="submit"><i class="fa fa-search"></i></button>
+		     				 </span>
+						</div>
+					</div>
+					<div class="clear"></div>
+					<div>
+						<!--<div>
+    						<input type="checkbox" name="evidenziaBox" id="evidenziaBox" value="0">
+    						<label for="evidenziaBox" class="descrizioneRadioBianco" onclick="javascript: cambiaValoreCheckbox('evidenziaBox');">evidenzia i risultati</label>
+    					</div>-->
+						<div>
+    						<input type="radio" name="esattoBox" id="esatto2" value="3" checked>
+    						<label for="esatto2" class="descrizioneRadioBianco" onclick="javascript: cambiaValoreRadio('esattoBox','3');">prossimità</label>
+    					</div>
+    					<div>
+    						<input type="radio" name="esattoBox" id="esatto0" value="1" >
+    						<label for="esatto0" class="descrizioneRadioBianco" onclick="javascript: cambiaValoreRadio('esattoBox','1');">tutte le parole</label>
+    					</div>
+
+    					<div>
+    						<input type="radio" name="esattoBox" id="esatto1" value="2">
+    						<label for="esatto1" class="descrizioneRadioBianco" onclick="javascript: cambiaValoreRadio('esattoBox','2');">frase esatta</label>
+    					</div>
+    					
+
+					</div>
+				</form>
+
+			</div>
+			<div class="clear"></div>
+		</div>
+		<!--  <div class="rowIndice">
+			<div class="divIndice convertOldNew1 divIndice1" role="search">
+				<span class="titoloRicerca" id="converti-numerazione">CONVERSIONE NUMERAZIONE</span>
+
+				<form action="get" name="myFormLegge" target="#" onsubmit="javascript: convertiVecchioInNuovo1(); return false;">
+
+					<div class="form-group">
+						<div class="input-group">
+        			  		<input id="vecchioNumero" type="text" name="vecchioNumero" aria-labelledby="converti-numerazione" placeholder="es: 1.1.1.1" style="width: 160px;" class="form-control clear-field" value=""   >
+        			  		<span class="input-group-btn">
+        		        		<button class="btn btn-default" type="submit"><i class="fa fa-search"></i></button>
+		     				 </span>
+						</div>
+					</div>
+
+					<p></p>
+				</form>
+			</div>
+			<div class="clear"></div>
+		</div>-->
+
+		<div>
+
+			<ul class="elencoVolumi">
+    			<li>
+    				<a href="/CAN/RLeggi/public/index.php/raccolta-leggi/libro/n/1">
+    					<div class="numero">1</div>
+    					<span>STATO - POPOLO - AUTORITÀ</span>
+    				</a>
+    			</li>
+    			<li>
+    				<a href="/CAN/RLeggi/public/index.php/raccolta-leggi/libro/n/2">
+    					<div class="numero">2</div>
+    					<span>DIRITTO CIVILE</span>
+    				</a>
+    			</li>
+    			<li>
+    				<a href="/CAN/RLeggi/public/index.php/raccolta-leggi/libro/n/3">
+    					<div class="numero">3</div>
+    					<span>DIRITTO PENALE</span>
+    				</a>
+    			</li>
+    			<li>
+    				<a href="/CAN/RLeggi/public/index.php/raccolta-leggi/libro/n/4">
+    					<div class="numero">4</div>
+    					<span>SCUOLA - CULTURA - SPORT - NATURA</span>
+    				</a>
+    			</li>
+    			<li>
+    				<a href="/CAN/RLeggi/public/index.php/raccolta-leggi/libro/n/5">
+    					<div class="numero">5</div>
+    					<span>SICUREZZA</span>
+    				</a>
+    			</li>
+    			<li>
+    				<a href="/CAN/RLeggi/public/index.php/raccolta-leggi/libro/n/6">
+    					<div class="numero">6</div>
+    					<span>FINANZE</span>
+    				</a>
+    			</li>
+    			<li>
+    				<a href="/CAN/RLeggi/public/index.php/raccolta-leggi/libro/n/7">
+    					<div class="numero">7</div>
+    					<span>EDILIZIA - BENI PUBBLICI - ENERGIA - TRASPORTI</span>
+    				</a>
+    			</li>
+    			<li>
+    				<a href="/CAN/RLeggi/public/index.php/raccolta-leggi/libro/n/8">
+    					<div class="numero">8</div>
+    					<span>SANITÀ - AMBIENTE - LAVORO - SICUREZZA SOCIALE</span>
+    				</a>
+    			</li>
+    			<li>
+    				<a href="/CAN/RLeggi/public/index.php/raccolta-leggi/libro/n/9">
+    					<div class="numero">9</div>
+    					<span>ECONOMIA</span>
+    				</a>
+    			</li>
+			</ul>
+
+			<p class="nuovo-indice">PUBBLICAZIONE GRATUITA</p>
+			<span class="link-nuovo-indice"><a
+				href="https://www4.ti.ch/can/sgcds/legislazione/indici-e-massimari">Aggiornamento INDICI – Giurisprudenza ticinese e contributi dottrinali</a></span>
+		</div>
+
+		<!--  <div style="background-color:#eee;padding:15px;border:2px solid #900; margin-top:10px; width:640px; font-size:12px;">
+    		<span style="color:#900;font-weight:bold;font-size:16px;">Nuova numerazione</span></br><br/>
+    		Il 22 giugno, in concomitanza con l'introduzione di un nuovo sistema informatico di gestione, è cambiata la numerazione della Raccolta delle leggi.<br/><br/>
+La nuova numerazione è basata su due coppie di tre cifre separate da un punto, che informano sulla natura dell'atto normativo (101.000 = Costituzione, xxx.x00 = legge o decreto legislativo, xxx.xx0 = regolamento o decreto esecutivo, xxx.xxx = atto emanato da autorità diverse); gli atti sono ripartiti seguendo per quanto possibile il modello della raccolta sistematica federale e di quelle di altri Cantoni.
+<br/><br/>La vecchia numerazione, risalente al 1995, da tempo aveva perso la sua sistematicità; è stata quindi colta l’occasione della sostituzione del sistema informatico per procedere ad un riordino.
+
+		</div>
+		<br/><br/>-->
+
+  <!-- ----------------------------------------------------------------------------- -->
+	</div>
+	<div id="corpoIndiceCol2">
+		<!--  <p class="titoli">NUOVA PUBBLICAZIONE</p>
+		<ul>
+			<li><a
+				href="https://www4.ti.ch/can/sgcds/legislazione/indici-e-massimari">INDICI
+					- Giurisprudenza ticinese e contributi dottrinali 1976-2022</a>
+			</li>
+		</ul>
+		</br>-->
+
+		<!--<div class="divIndice convertOldNew1 divIndice1" role="search">
+				<span class="titoloRicerca" id="converti-numerazione">CONVERSIONE NUMERAZIONE</span>
+
+				<form action="get" name="myFormLegge" target="#" onsubmit="javascript: convertiVecchioInNuovo1(); return false;">
+
+					<div class="form-group">
+						<div class="input-group">
+        			  		<input id="vecchioNumero" type="text" name="vecchioNumero" aria-labelledby="converti-numerazione" placeholder="es: 1.1.1.1" style="width: 160px;" class="form-control clear-field" value=""   >
+        			  		<span class="input-group-btn">
+        		        		<button class="btn btn-default" type="submit"><i class="fa fa-search"></i></button>
+		     				 </span>
+						</div>
+					</div>
+
+					<p></p>
+				</form>
+			</div>
+			<div class="clear"></div>
+          -->
+
+
+		<!-- <div id="guidaStampa">
+			<div class="ico">
+				<img src="http://www3.ti.ch/CAN/RLeggi/public/images/stampa_info.png">
+			</div>
+			<div class="link">
+				<a href="http://www3.ti.ch/CAN/RLeggi/public/RL_stampa.pdf" target="_blank" title="apri la pagina">
+					Guida alla stampa degli atti normativi
+				</a>
+			</div>
+			<div class="clear"></div>
+		</div> -->
+
+
+		<p class="titoli">INFORMAZIONI</p>
+		<ul>
+			<!-- <li class="freccia">
+				<a href="/CAN/RLeggi/public/index.php/raccolta-leggi/variazioni/" title="apri la pagina">
+					Variazioni degli atti normativi
+				</a>
+			</li> -->
+			<li class="freccia">
+				<a href="/CAN/RLeggi/public/index.php/raccolta-leggi/variazioni-lista/" title="apri la pagina">
+					Variazioni degli atti normativi
+				</a>
+			</li>
+			<!--  <li class="freccia">
+				<a href="/CAN/RLeggi/public/index.php/raccolta-leggi/variazioni-tutte/" title="apri la pagina">
+					Variazioni degli atti normativi
+				</a>
+			</li>	-->
+			<li class="freccia">
+				<a href="/CAN/RLeggi/public/index.php/raccolta-leggi/entrataVigore/anno/2026" title="apri la pagina">
+					Indice del Bollettino ufficiale
+				</a>
+			</li>
+			<li class="freccia">
+				<a href="https://www4.ti.ch/can/bu/bu" target="_blank" title="apri la pagina">
+					Bollettino ufficiale delle leggi
+				</a>
+			</li>
+			<li class="freccia">
+				<a href="https://foglioufficiale.ti.ch/#!/gazette" target="_blank" title="apri la pagina">
+					Foglio ufficiale
+				</a>
+			</li>
+			<!--  <li class="freccia">
+				<a href="https://www.ti.ch/fu" target="_blank" title="apri la pagina">
+					Foglio e Bollettino ufficiali
+				</a>
+			</li>-->
+			<li class="freccia">
+				<a href="https://www4.ti.ch/poteri/gc/ricerca-messaggi-e-atti/ricerca/risultati" target="_blank" title="apri la pagina">
+					Ricerca messaggi governativi e atti parlamentari
+				</a>
+			</li>
+
+			<!--  <li class="freccia">
+				<a href="http://www4.ti.ch/poteri/cds/attivita/messaggi/" target="_blank" title="apri la pagina">
+					Elenco messaggi governativi
+				</a>
+			</li>-->
+			<li class="freccia">
+				<a href="/CAN/RLeggi/public/index.php/raccolta-leggi/elenco-atti" target="_blank" title="apri la pagina">
+					Raccolta delle leggi per sintesi vocale
+				</a>
+			</li>
+			<li class="freccia">
+				<a href="https://www4.ti.ch/can/sgcds/legislazione/legislazione/" target="_blank" title="apri la pagina">
+					Contatti
+				</a>
+			</li>
+			<li class="freccia">
+				<a href="https://www4.ti.ch/index.php?id=86178" target="_blank" title="apri la pagina">
+					Informazioni legali
+				</a>
+			</li>
+		</ul>
+		<!-- <p class="titoli">DIRITTO PROCEDURALE PREVIGENTE</p>-->
+		<ul>
+			<!--  <li class="freccia">
+				<a href="/CAN/RLeggi/public/index.php/raccolta-leggi/legge/num/627/previg/1" title="apri la pagina">
+					Codice di procedura civile del 17 febbraio 1971
+				</a>
+			</li>-->
+			<li>
+				<a href="//www4.ti.ch/can/sgcds/legislazione/versione-smartphone/" target="_blank" title="App per smartphone della Raccolta delle leggi" style="background-image: none;">
+					<br/>
+					<img src="/CAN/RLeggi/public/images/rl_promo1.png" alt="" />
+				</a>
+			</li>
+		</ul>
+	</div>
+</div>
+			</div>
+		</div>
+    </div>
+    <div id="footer1">
+    	&nbsp;
+    </div>
+
+
+    <script type="text/javascript">
+    
+    function messaggioLetto(){
+    	$.unblockUI();
+    }
+    
+    </script>
+    <script src="/javascript/footer.js"></script>
+</body>
+</html>

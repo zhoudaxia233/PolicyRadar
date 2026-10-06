@@ -65,21 +65,21 @@
       "version": 3
     },
     "de-crypto-holding-proposal": {
-      "hash": "3bbc475e71688fd84803a41fc483f656890b45bd6dfbc66595f847ccdecc9e4e",
+      "version": 6,
+      "hash": "b9b3938f167dcb893ee50830ccdf3a5d4de6cf6812f054a0be1f34bf86b72b63",
       "originalLanguage": "de",
       "verbatim": [
         "Deutscher Bundestag",
         "Bundesministerium der Finanzen"
-      ],
-      "version": 4
+      ]
     },
     "de-carf-agreement-2026": {
-      "hash": "1d12b4152fb3be3328bbb7682bc7b87a1a5f201ddae6abb0f0c941e791e9a673",
+      "version": 6,
+      "hash": "c92ae41fe24380b414ef802a49f07ab3e9dda2c09b230b787859b5745ed89312",
       "originalLanguage": "de",
       "verbatim": [
         "Deutscher Bundestag"
-      ],
-      "version": 5
+      ]
     },
     "nw-rent-cap-extension-2025": {
       "hash": "07e10d248cc371e94c13c2703dd8ff51a79ab24d19f673776404db196b784a38",
@@ -1878,6 +1878,159 @@
       "verbatim": [
         "European Commission"
       ]
+    },
+    "de-environmental-remedies-october-2026": {
+      "version": 1,
+      "hash": "a1c40b3807bfa1f6a86d968cfac7ac6fd237d34e8aa73da452cb5449de7bf03e",
+      "originalLanguage": "de",
+      "verbatim": [
+        "Bundesgesetzblatt"
+      ]
+    },
+    "be-international-projects-2027": {
+      "version": 1,
+      "hash": "9d40faeeb3ac41ae01e78ffe129658945ccb3899a8b40651d91e6309d67ef5ca",
+      "originalLanguage": "de",
+      "verbatim": [
+        "Senatskanzlei Berlin"
+      ]
+    },
+    "mv-regiobus-mv83-2026": {
+      "version": 1,
+      "hash": "baf84586de13698dc4d50ba7fb8e3cc49d71300944f837f0d3905f7cd7a2c137",
+      "originalLanguage": "de",
+      "verbatim": [
+        "Ministerium für Wirtschaft und Verkehr Mecklenburg-Vorpommern"
+      ]
+    },
+    "bw-domestic-violence-support-pilot-2026": {
+      "version": 1,
+      "hash": "abc3aa3454039ad6ba630f584928a28a4446a34aaf139a9325cd4ca219ed4ed5",
+      "originalLanguage": "de",
+      "verbatim": [
+        "Land Baden-Württemberg"
+      ]
+    },
+    "fr-prevention-physiotherapists-2026": {
+      "version": 1,
+      "hash": "f3a3fbf0834c992d6eba476ee9452693729be3754e80c5899718208e9a6d13d9",
+      "originalLanguage": "fr",
+      "verbatim": [
+        "Service Public / DILA"
+      ]
+    },
+    "fr-fuel-heavy-drivers-renewal-2026": {
+      "version": 1,
+      "hash": "0c4fc56f1a89b5a55b8e15a9a39baee98825bf9861c38c58eff74d0d858dcfe6",
+      "originalLanguage": "fr",
+      "verbatim": [
+        "Service Public / DILA"
+      ]
+    },
+    "fr-construction-diesel-aid-october-2026": {
+      "version": 1,
+      "hash": "9c40c389cb4be3a5c62d3003184109526906097c8580e20a19616c34609c80eb",
+      "originalLanguage": "fr",
+      "verbatim": [
+        "Entreprendre Service Public / DILA"
+      ]
+    },
+    "fr-fertiliser-cadmium-2027": {
+      "version": 1,
+      "hash": "ddd3eb1ab244822509c72336c67e7618296dd9f8c3e28fe74c2f6ae926c51198",
+      "originalLanguage": "fr",
+      "verbatim": [
+        "Ministère de la Transition écologique"
+      ]
+    },
+    "nl-internationalisation-bill-october-2026": {
+      "version": 1,
+      "hash": "bdd76c424f2a9f5de0c5df49042c30db5e0ee60577946ac51f4118d9fbd9e3ce",
+      "originalLanguage": "nl",
+      "verbatim": [
+        "Rijksoverheid"
+      ]
+    },
+    "nl-online-child-rights-strategy-2026": {
+      "version": 1,
+      "hash": "860b51cc7963da4da82982592f71e60ea44e7821f1b5e1c4a7d775c828165e66",
+      "originalLanguage": "nl",
+      "verbatim": [
+        "Rijksoverheid"
+      ]
+    },
+    "nl-nh-fauna-assessment-fees-2026": {
+      "version": 1,
+      "hash": "677555ef0d977c24dddb4d73650f21e762e4a18b0a0a39fa41e436db1c35e3e0",
+      "originalLanguage": "nl",
+      "verbatim": [
+        "Provincie Noord-Holland"
+      ]
+    },
+    "nl-nh-zoning-consultation-2026": {
+      "version": 1,
+      "hash": "b5fcd165decabc0474d6e568eb76c10d23053f0d63387b0ce999f86093379d13",
+      "originalLanguage": "nl",
+      "verbatim": [
+        "Provincie Noord-Holland"
+      ]
+    },
+    "ch-sg-childcare-regulation-consultation-2026": {
+      "version": 1,
+      "hash": "9bb0fe2ff29cf869436f2612b8258dd3f2b94e8f62ee331d301da551f93aa253",
+      "originalLanguage": "de",
+      "verbatim": [
+        "Kanton St.Gallen"
+      ]
+    },
+    "ch-ne-housing-credit-proposal-2026": {
+      "version": 1,
+      "hash": "8b024429863826706b64c5e37e781b80b8e9980f3c204b2346ab9262964700c2",
+      "originalLanguage": "fr",
+      "verbatim": [
+        "Conseil d’État de Neuchâtel"
+      ]
+    },
+    "ch-ju-climate-fund-proposal-2026": {
+      "version": 1,
+      "hash": "d5e016f040a9fe2c1dfbfb529c9390c86e251bf67ed0b339e10f1475e9594079",
+      "originalLanguage": "fr",
+      "verbatim": [
+        "Gouvernement de la République et Canton du Jura"
+      ]
+    },
+    "it-work-entry-applications-2027": {
+      "version": 1,
+      "hash": "c9ecd87ff07f7016fb8e5dd19883efa2ca73fb6d9ddb70e58703ac730f0f0250",
+      "originalLanguage": "it",
+      "verbatim": [
+        "Ministero del Lavoro e delle Politiche Sociali"
+      ]
+    },
+    "it-elder-care-plan-2025-2027": {
+      "version": 1,
+      "hash": "659ce5a2d59a265136809bff1c4ce401f14516c6dec70bc1e065a86ec122b9f3",
+      "originalLanguage": "it",
+      "verbatim": [
+        "Presidenza del Consiglio dei Ministri"
+      ]
+    },
+    "eu-return-regulation-adoption-2026": {
+      "version": 1,
+      "hash": "beae8a56df5e2f036b560273722b41166b19f2804127efa9ca274217524c8e19",
+      "originalLanguage": "en",
+      "verbatim": [
+        "European Union Agency for Asylum",
+        "Council of the European Union"
+      ]
+    },
+    "eu-nordkalk-biocidal-withdrawal-2026": {
+      "version": 1,
+      "hash": "0f098b162b371e2797df7521ac65c801a6bfab7a82011ee09fd8a4723ef25ae9",
+      "originalLanguage": "en",
+      "verbatim": [
+        "European Commission"
+      ]
     }
   },
   "intake": {
@@ -3078,6 +3231,120 @@
     "it-isee-dsu-update-2026-discovery": {
       "hash": "bb9d29d04682aa0f74d687fe2b52f8b3c77ac8ec5e082cb92badb15ff1709481",
       "originalLanguage": "it",
+      "titleIsOriginal": true,
+      "verbatim": []
+    },
+    "oct06-68ca80797964f5782f2b7e3e": {
+      "hash": "e25e4302467c6f60a0420b7a0d0bb4a581ee5566ab222366a68c38466846461f",
+      "originalLanguage": "de",
+      "titleIsOriginal": true,
+      "verbatim": []
+    },
+    "oct06-6b0553e0c258d5974f9724be": {
+      "hash": "44cc621f0ff563892d47b680321d64d2a8d30c782dd420587da227669e99ba42",
+      "originalLanguage": "de",
+      "titleIsOriginal": true,
+      "verbatim": []
+    },
+    "oct06-6851fba7faca6687c10e257a": {
+      "hash": "6310a6803ef9f632f9e7a821ee480d08af82da4a80041cb38a8642e9a98f8435",
+      "originalLanguage": "de",
+      "titleIsOriginal": true,
+      "verbatim": []
+    },
+    "oct06-e7554b3fb537ffeb5ba66394": {
+      "hash": "998f98c8b0c0eab68c59551733c51391873e8d780aa63094aac410a7c1288656",
+      "originalLanguage": "de",
+      "titleIsOriginal": true,
+      "verbatim": []
+    },
+    "oct06-d74fdf38f8f8ade2fb73ec4b": {
+      "hash": "5a95b8510ae5da86bd528f53cc6fd9e5f1b8ab61acd1afc9e34bce62de327151",
+      "originalLanguage": "fr",
+      "titleIsOriginal": true,
+      "verbatim": []
+    },
+    "oct06-fbbb6cee8d2c1ebe2f4084e6": {
+      "hash": "98545f74e003e2448c10a2523aef5fc7dafe2045456c0744eee7ca759bca961f",
+      "originalLanguage": "fr",
+      "titleIsOriginal": true,
+      "verbatim": []
+    },
+    "oct06-e4e03f54b42cd71aa40558c4": {
+      "hash": "4e36310d6ae2053a7bb454930890fba7571694fa0c9d8c8735752caf8b393851",
+      "originalLanguage": "fr",
+      "titleIsOriginal": true,
+      "verbatim": []
+    },
+    "oct06-15a262845f207a777e001ee3": {
+      "hash": "545fa117995e7f8c84fa9a38913085e08078d30831319e66cd229574c9566b96",
+      "originalLanguage": "fr",
+      "titleIsOriginal": true,
+      "verbatim": []
+    },
+    "oct06-1bea7370fe67c3028e28f44d": {
+      "hash": "b788c4f84a5f6e3481419c70b0a4401f8779d6a720d2e6995f0616fef28faf19",
+      "originalLanguage": "nl",
+      "titleIsOriginal": true,
+      "verbatim": []
+    },
+    "oct06-86f036c1e470208955d55c3b": {
+      "hash": "99c81e0c4e0b5371f580d67e6873a9a920d663003600e4b0f3d079e2e90450a4",
+      "originalLanguage": "nl",
+      "titleIsOriginal": true,
+      "verbatim": []
+    },
+    "oct06-7609f4ad57ef28d8e910b8fc": {
+      "hash": "27f89555b41336aa671900b94000da6239404f973a0fe5332acc3b64b1cafff3",
+      "originalLanguage": "nl",
+      "titleIsOriginal": true,
+      "verbatim": []
+    },
+    "oct06-08386c41c75ecf3b0aeb8962": {
+      "hash": "6a82350444b7032a502df7d1d17a3a37053f31ec4426d2d90e92603055641f3d",
+      "originalLanguage": "nl",
+      "titleIsOriginal": true,
+      "verbatim": []
+    },
+    "oct06-e18fb7758e01737d125845db": {
+      "hash": "dcea9aad3082f3bba712adbcd177bfc400bf2bd73d5bf917b885ce84fd436e0c",
+      "originalLanguage": "de",
+      "titleIsOriginal": true,
+      "verbatim": []
+    },
+    "oct06-e539844d9f9f01b8f79b5426": {
+      "hash": "65afec038bb932d7eec96e7e0cd3b60d5abb781bf8db62658d836aff6d2e42d0",
+      "originalLanguage": "fr",
+      "titleIsOriginal": true,
+      "verbatim": []
+    },
+    "oct06-3b13b55a7abca287489e937e": {
+      "hash": "049489546c323b376dc1ff3daa756a0dffaf2a436c3ce0e3200a8fed709ac855",
+      "originalLanguage": "fr",
+      "titleIsOriginal": true,
+      "verbatim": []
+    },
+    "oct06-1b991a6e33028777a323bc98": {
+      "hash": "6f43197d6a6b3f88d61e0c3442298b9e99b738398bb59505e1af836df99c229b",
+      "originalLanguage": "it",
+      "titleIsOriginal": true,
+      "verbatim": []
+    },
+    "oct06-59176c94a5bce96db7e545d9": {
+      "hash": "913f37fc1951612e974c814ff1e6c1075261777f7a7fecaa1608584c8ec2e72e",
+      "originalLanguage": "it",
+      "titleIsOriginal": true,
+      "verbatim": []
+    },
+    "oct06-a249dde1359eafb4206f900e": {
+      "hash": "f58b6a3af2f9f7b7e1511d6ad8ed0fd5ca11145c495c28f5a7993f5c2f5b40db",
+      "originalLanguage": "en",
+      "titleIsOriginal": true,
+      "verbatim": []
+    },
+    "oct06-410973c24d289ca29219b40b": {
+      "hash": "0651688c78db76d2c13e1dfe88fcf2a217207c7fb96b0560db9c4188c0043c48",
+      "originalLanguage": "en",
       "titleIsOriginal": true,
       "verbatim": []
     }

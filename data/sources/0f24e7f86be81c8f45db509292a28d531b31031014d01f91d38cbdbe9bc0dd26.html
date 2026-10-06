@@ -1,0 +1,2685 @@
+
+  
+
+
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta content="width=device-width, initial-scale=1" name="viewport">
+  <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+  <title>Landtag Rheinland-Pfalz OPAL</title>
+  
+	
+    <!-- START portal/components/common/common-favicon.tt.html -->
+    
+    
+    
+    
+
+    
+    
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicons/default/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicons/default/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicons/default/favicon-16x16.png">
+    <link rel="manifest" href="/favicons/default/site.webmanifest">
+    <link rel="mask-icon" href="/favicons/default/safari-pinned-tab.svg" color="#0e6ecb">
+    <meta name="msapplication-TileColor" content="#0e6ecb">
+    <meta name="theme-color" content="#ffffff">
+    <!-- END portal/components/common/common-favicon.tt.html -->
+	
+
+  <!-- START portal/components/common/common-head-include-js-STAR.tt.html -->
+
+<!-- common-head-include-js-v1.tt.html -->
+    <script>
+      
+        var portalBase = "portal";
+      
+    </script>
+
+    <script src="/public/dist/vendor.min.js"></script>
+    <script src="/js/history.js/scripts/bundled/html4+html5/jquery.history.js"></script>
+    <script src="/js/esearch/log4javascript-1.4.6/log4javascript.js"></script>
+    <script src="/js/esearch/esearch-utils.js"></script>
+    <script src="/public/js/scripts.tt.js"></script>
+    <!--<script src="/js/ckeditor/ckeditor.js"></script>-->
+    <script src="/js/jquery.deserialize.js"></script>
+    <script src="/js/moment.min.js"></script>
+    <script src="/js/bootstrap-datetimepicker.min.js"></script>
+    <script src="/portal/components/picklist/star/picklistIndex.tt.js"></script>
+    <script src="/js/picklistHandlerSTAR.js"></script>
+    <script>
+      // base path for starweb calls see config
+      var starwebbase = "RLP/portal";
+      var sweblog = "";
+      var comp_code = "RLP";
+    </script>
+    <script src="/js/account.js"></script>
+    <!-- END portal/components/common/common-head-include-js-STAR.tt.html -->
+  <!-- START portal/components/browse/browse-head-include.tt.html -->
+<script src="/js/esearch/eui.js"></script>
+
+<script src="/js/datatables/datatables.min.js"></script>
+<script src="/js/datatables/moment-with-locales.min.js"></script>
+<script src="/js/datatables/datetime-moment.js"></script>
+<script src="/js/bootstrap-multiselect.min.js"></script>
+<!-- START portal/components/common/common-toast.tt.html -->
+<script src="/public/js/jquery.toast.js"></script>
+<script src="/public/js/toasts.plugin.tt.js"></script>
+<link rel="stylesheet" href="/public/css/jquery.toast.css">
+<!-- END portal/components/common/common-toast.tt.html -->
+
+<!-- design css/js -->
+<link rel="stylesheet" href="/css/custom.css" type="text/css" />
+
+<!-- datatables sort -->
+<link rel="stylesheet" href="/css/datatables.min.css" type="text/css" />
+
+
+
+
+
+
+
+	
+		
+		
+	
+
+
+<link rel="stylesheet" href="/public/dist.custom/styles-custom.min.css" type="text/css" />
+
+<!-- multiselect -->
+<link rel="stylesheet" href="/css/bootstrap-datepicker3.min.css" type="text/css"/>
+<script src="/js/bootstrap-datepicker.min.js"></script>
+<script src="/js/bootstrap-datepicker.de.js"></script>
+
+
+<!-- autocomplete scrollbar -->
+<style>
+  .input-group .tt-menu {
+    max-height: 20em;
+    overflow-y: auto;
+  }
+
+  .searchfield-container.bg-rounded {
+    margin-top: -10.625rem;
+  }
+</style>
+
+<style>
+  @media screen and (max-width:1180px) {
+    .multiselect-container button.dropdown-item {
+      pointer-events: none;
+    }
+
+    .multiselect-container span.form-check input {
+      pointer-events: all;
+    }
+
+    .multiselect-container span.form-check label {
+      pointer-events: none;
+    }
+  }
+</style>
+
+<script>
+  $(document).ready(function() {
+    $('.multiselect').multiselect({
+      buttonClass: 'btn btn-block | border border-gray-300 | d-flex align-items-center justify-content-between | text-left pr-5 custom-select',
+      buttonContainer : '<div class="dropdown" />',
+      includeSelectAllOption: true,
+      selectAllText: 'Alle auswählen',
+      // templates: {
+      //   li: '<li class="dropdown-item | p-0"><a><label class="dropdown-label custom-control | mx-3 mb-0"></label></a></li>',
+      //   ul: '<ul class="multiselect-container dropdown-menu p-1 m-0"></ul>'
+      // },
+      maxHeight: 200,
+      
+      buttonText: function(options, select) {
+        if (options.length === 0) { 
+          return 'Bitte auswählen';
+        }
+        else if (options.length > 99) {
+          return 'More than 99 options selected!';
+        }
+        else {
+          var labels = [];
+          options.each(function() {
+            if ($(this).attr("data-label-short") !== undefined) {
+              labels.push($(this).attr('data-label-short'));
+            }
+            else if ($(this).attr('label') !== undefined) {
+              labels.push($(this).attr('label'));
+            }
+            else {
+              labels.push($(this).html());
+            }
+          });
+          return labels.join(', ') + '';
+        }
+      }
+    });
+
+  
+    $('.input-group.date').datepicker({
+			format: 'yyyy-mm-dd',
+			language: "de"
+		}).on('clearDate', function(e){
+      $(this).find('input').trigger('change');
+    });
+
+    function searchtermInsert(trigger, target) {
+      if (target.length) {
+        var $trigger = $(trigger);
+        var $target = $(target);
+
+        $trigger.on('click', function() {
+          var $this = $(this);
+          var val = $this.attr('data-searchterm');
+          $target.val(val);
+          $target.change();
+        });
+      }
+    }
+
+    searchtermInsert('.js-searchIndexTrigger', '#searchgeneric1-title');
+      $('.multiselect-option').keydown(function (e) {
+      if (e.which === 32) {
+        e.preventDefault();
+        const value = $(this).find('.form-check-input').val();
+        if ($(this).hasClass('active')) {
+          $(this).parents('.multiselect-native-select').children('.multiselect').multiselect('deselect', value);
+        } else {
+          $(this).parents('.multiselect-native-select').children('.multiselect').multiselect('select', value);
+        }
+      }
+    });
+
+     $('.js-noEnter').on('change', function(e) {
+      e.preventDefault();
+    });
+
+
+
+  });
+</script>
+
+<script src="/public/js/components/picklistMongo.tt.js"></script>
+<!-- END portal/components/browse/browse-head-include.tt.html -->
+  <!-- START portal/components/common/common-head-include-custom.tt.html -->
+
+
+<!-- END portal/components/common/common-head-include-custom.tt.html -->
+	<!-- START portal/components/common/common-head-include-specific.tt.html -->
+
+<script src="../public/js.specific/ytVideo.tt.js"></script>
+<script src="../public/js.specific/videoMore.tt.js"></script>
+<!-- END portal/components/common/common-head-include-specific.tt.html -->
+  <script src="/public/dist/scripts.min.tt.js"></script>
+  <script src="/js/components/fastlinkDokumente.tt.js"></script>
+  <script>
+    
+    $(document).ready(function() {
+      ESearch.init("esearch,local/reports","generic1");
+    });
+  </script>
+</head>
+<body class="de | theme-rlp"> 
+  <div class="no-print">
+    <fieldset id="qlink-fieldset" class="displaynone">
+  <input type="text" id="q" name="q">
+  <input type="text" id="searchbasic-parsed" name="searchbasic-parsed">
+  <a href="#" id="SearchDisplayTriggerQlink">Suchen</a>
+</fieldset>
+
+<header class="header">
+  
+  
+  <input id="sessionID" value="RLP20261006-222426-01290652" type="hidden">
+  
+
+  <div class="container | fixed-top | z-above-modal">
+    <div class="position-relative">
+      <div class="position-absolute position-right-0">
+        
+        
+
+<nav class="navbar navbar-expand-md navbar-light | justify-content-end | p-0">
+  <button class="navbar-toggler | mt-3 | bg-light" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <div class="card | shadow-sm">
+      <div class="card-body | p-0">
+        <div class="list-group list-group-horizontal-md">
+        
+            <a href="browse.tt.html" class="list-group-item list-group-item-small list-group-item-action">
+               <div class="icon-wrapper">
+                <span class="icon">
+                  <i class="fas fa-home"></i>
+                </span>
+                <span class="icon-text">Start</span>
+              </div>
+            </a>
+
+            <a href="browse.tt.html?$OnSearchPage=yes" class="list-group-item list-group-item-small list-group-item-action">
+              <div class="icon-wrapper">
+                <span class="icon">
+                  <i class="fas fa-search"></i>
+                </span>
+                <span class="icon-text">OPAL</span>
+              </div>
+            </a>
+          
+                      <a href="/eauth/login?log_dest=" onclick="this.href += window.location.href" class="list-group-item list-group-item-small list-group-item-action">
+              <div class="icon-wrapper">
+                <span class="icon">
+                  <i class="fas fa-sign-in-alt"></i>
+                </span>
+                <span class="icon-text">Anmelden</span>
+              </div>
+            </a>
+          
+
+          <a href="/portal/components/contact/contact.tt.html" class="list-group-item list-group-item-small list-group-item-action | js-open-modal">
+            <div class="icon-wrapper">
+              <span class="icon">
+                <i class="fas fa-envelope"></i>
+              </span>
+              <span class="icon-text">Kontakt</span>
+            </div>
+          </a>
+
+          <a href="/portal/components/help/help.tt.html" class="list-group-item list-group-item-small list-group-item-action | js-open-modal">
+            <div class="icon-wrapper">
+              <span class="icon">
+                <i class="fas fa-question"></i>
+              </span>
+              <span class="icon-text">Hilfe</span>
+            </div>
+          </a>
+          
+          <a href="/portal/accessibility.tt.html" class="list-group-item list-group-item-small list-group-item-action ">
+            <div class="icon-wrapper">
+              <span class="icon">
+                <i class="fas fa-hands"></i>
+              </span>
+              <span class="icon-text">Barrierefreiheit</span>
+            </div>
+          </a>
+
+          
+          
+        </div>
+        
+      </div>
+    </div>
+  </div>
+</nav>
+        
+        
+      </div>
+    </div>
+  </div>
+
+  <div class="header__bg" style="background-image: url(
+    
+  
+/public/img.custom/header/header-bg.jpg    
+    )">
+    
+  </div>
+
+  <div class="container | header__logo-wrapper-top">
+    <div class="row">
+      <div class="col-auto">
+        <a href="https://www.landtag.rlp.de/" class="d-inline-block" target="_blank" title="Logo Landtag Rheinland-Pfalz OPAL">
+          <img alt="Logo Landtag Rheinland-Pfalz OPAL" class="header__logo" src="
+  
+/public/img.custom/header/header-logo.png" style="background-color: #FFF;">
+        </a>
+      </div>
+    </div>
+  </div>
+</header>
+
+  </div>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section class="section">
+
+  <div class="container">
+    <div class="d-flex flex-md-row">
+      <div class="col-9 p-0">
+        <h2 class="h3 | text-primary font-weight-semibold">
+          <div class="icon-wrapper">
+            <span class="icon">
+              <i class="fas fa-book"></i>
+            </span>
+            <span class="icon-text | ml-2">Neue Dokumente</span>
+          </div>
+        </h2>
+        <h5 class="h5 mt-3">Eingang in der Woche vom <span id="date"></span> </h5>
+      </div>
+      <div class="col-auto ml-auto p-0">
+        <button class="btn btn-primary" id="weekBack">
+          <div class="icon-wrapper">
+            <span class="icon">
+              <i class="fas fa-backward"></i>
+            </span>
+            <span class="icon-text | ml-2">1 Woche zurück</span>
+          </div>
+        </button>
+        <button class="btn btn-primary d-none" id="weekForward">
+          <div class="icon-wrapper">
+            <span class="icon-text | mr-1">1 Woche vor</span>
+            <span class="icon">
+              <i class="fas fa-forward"></i>
+            </span>
+          </div>
+        </button>
+      </div>
+    </div>
+      
+
+    <div class="row mt-5">
+      <div class="col-12">
+        <div class="record-container" id="results-container">
+          
+          
+          <div class="sticky-top bg-white shadow-sm card mb-3">
+            <div class="card-body">
+              <h3 class="m-0">Sitzungsprotokolle</h3>
+            </div>
+          </div>
+          
+          <div id="" class="record mb-3 page-break | efxRecordRepeater"
+            data-efx-rec="1">
+            <div id="collapse-shortTabs-1">
+              <div class="card js-card-selected | shadow-sm ">
+                <div class="card-body">
+                  <div class="row | justify-content-between">
+                    <div class="col-12 col-md">
+
+                      
+                      
+                      
+                    
+                      
+                      
+                      <div class="row | align-items-center">
+                        <div class="col-md-10">
+                          <span class="h6">Ausschusssitzung Ausschuss für Inneres und Integration 19/3 01.10.2026 &nbsp;</span>
+                        </div>
+                        
+                        
+                        <div class="col-2 | d-flex justify-content-end align-items-center">
+                          <a href="https://dokumente.landtag.rlp.de/landtag/ausschuesse/innena-3-19.pdf" target="_blank" class="btn btn-white btn-sm btn-spacing mr-3">
+                            <div class="icon-wrapper">
+                              <span class="icon-text">Protokoll</span>
+                              <span class="icon | text-primary">
+                                <i class="fal fa-paperclip"></i>
+                              </span>
+                            </div>
+                          </a>
+                          <a class="btn btn-primary btn-sm" href="browse.tt.html?type=&action=qlink&q=DID=K-169243" title="Link zum Vorgang">
+                            <div class="icon-wrapper">
+                              <span class="icon">
+                                <i class="fas fa-arrow-right"></i>
+                              </span>
+                            </div>
+                          </a>
+                        </div>
+                        
+                        
+                      </div>
+                      
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          
+          <div id="" class="record mb-3 page-break | efxRecordRepeater"
+            data-efx-rec="2">
+            <div id="collapse-shortTabs-2">
+              <div class="card js-card-selected | shadow-sm ">
+                <div class="card-body">
+                  <div class="row | justify-content-between">
+                    <div class="col-12 col-md">
+
+                      
+                      
+                      
+                    
+                      
+                      
+                      <div class="row | align-items-center">
+                        <div class="col-md-10">
+                          <span class="h6">Ausschusssitzung Ausschuss für Wirtschaft, Tourismus, Energie und Klima 19/3 29.09.2026 &nbsp;</span>
+                        </div>
+                        
+                        
+                        <div class="col-2 | d-flex justify-content-end align-items-center">
+                          <a href="https://dokumente.landtag.rlp.de/landtag/ausschuesse/wirtschaftsa-3-19.pdf" target="_blank" class="btn btn-white btn-sm btn-spacing mr-3">
+                            <div class="icon-wrapper">
+                              <span class="icon-text">Protokoll</span>
+                              <span class="icon | text-primary">
+                                <i class="fal fa-paperclip"></i>
+                              </span>
+                            </div>
+                          </a>
+                          <a class="btn btn-primary btn-sm" href="browse.tt.html?type=&action=qlink&q=DID=K-169215" title="Link zum Vorgang">
+                            <div class="icon-wrapper">
+                              <span class="icon">
+                                <i class="fas fa-arrow-right"></i>
+                              </span>
+                            </div>
+                          </a>
+                        </div>
+                        
+                        
+                      </div>
+                      
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          
+          <div id="" class="record mb-3 page-break | efxRecordRepeater"
+            data-efx-rec="3">
+            <div id="collapse-shortTabs-3">
+              <div class="card js-card-selected | shadow-sm ">
+                <div class="card-body">
+                  <div class="row | justify-content-between">
+                    <div class="col-12 col-md">
+
+                      
+                      
+                      
+                    
+                      
+                      
+                      <div class="row | align-items-center">
+                        <div class="col-md-10">
+                          <span class="h6">Ausschusssitzung Ausschuss für Verkehr und Mobilität 19/3 25.09.2026 &nbsp;</span>
+                        </div>
+                        
+                        
+                        <div class="col-2 | d-flex justify-content-end align-items-center">
+                          <a href="https://dokumente.landtag.rlp.de/landtag/ausschuesse/verkehrsa-3-19.pdf" target="_blank" class="btn btn-white btn-sm btn-spacing mr-3">
+                            <div class="icon-wrapper">
+                              <span class="icon-text">Protokoll</span>
+                              <span class="icon | text-primary">
+                                <i class="fal fa-paperclip"></i>
+                              </span>
+                            </div>
+                          </a>
+                          <a class="btn btn-primary btn-sm" href="browse.tt.html?type=&action=qlink&q=DID=K-169148" title="Link zum Vorgang">
+                            <div class="icon-wrapper">
+                              <span class="icon">
+                                <i class="fas fa-arrow-right"></i>
+                              </span>
+                            </div>
+                          </a>
+                        </div>
+                        
+                        
+                      </div>
+                      
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          
+          <div class="sticky-top bg-white shadow-sm card mb-3">
+            <div class="card-body">
+              <h3 class="m-0">Drucksachen</h3>
+            </div>
+          </div>
+          
+          <div id="" class="record mb-3 page-break | efxRecordRepeater"
+            data-efx-rec="4">
+            <div id="collapse-shortTabs-4">
+              <div class="card js-card-selected | shadow-sm ">
+                <div class="card-body">
+                  <div class="row | justify-content-between">
+                    <div class="col-12 col-md">
+
+                      
+                      
+                      <div class="row">
+                        <div class="col">
+                          
+                            <h3 class="h5 | font-weight-semibold | mb-3">
+                              <span>Geplante Anpassung der gesetzlichen Grundlagen der Sportförderung</span>
+                            </h3>
+                          
+                        </div>
+                      </div>
+                      
+                      
+                    
+                      
+                      
+                      <div class="row | align-items-center">
+                        <div class="col-md-10">
+                          <span class="h6">Kleine Anfrage   Fabian Ehmann (BÜNDNIS 90/DIE GRÜNEN)  06.10.2026 Drucksache 19/785</span>
+                        </div>
+                        
+                        
+                        <div class="col-2 | d-flex justify-content-end align-items-center">
+                          <a href="https://dokumente.landtag.rlp.de/landtag/drucksachen/785-19.pdf" target="_blank" class="btn btn-white btn-sm btn-spacing mr-3">
+                            <div class="icon-wrapper">
+                              <span class="icon-text">Dokument</span>
+                              <span class="icon | text-primary">
+                                <i class="fal fa-paperclip"></i>
+                              </span>
+                            </div>
+                          </a>
+                          <a class="btn btn-primary btn-sm" href="browse.tt.html?type=&action=qlink&q=DID=K-169361" title="Link zum Vorgang">
+                            <div class="icon-wrapper">
+                              <span class="icon">
+                                <i class="fas fa-arrow-right"></i>
+                              </span>
+                            </div>
+                          </a>
+                        </div>
+                        
+                        
+                      </div>
+                      
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          
+          <div id="" class="record mb-3 page-break | efxRecordRepeater"
+            data-efx-rec="5">
+            <div id="collapse-shortTabs-5">
+              <div class="card js-card-selected | shadow-sm ">
+                <div class="card-body">
+                  <div class="row | justify-content-between">
+                    <div class="col-12 col-md">
+
+                      
+                      
+                      <div class="row">
+                        <div class="col">
+                          
+                            <h3 class="h5 | font-weight-semibold | mb-3">
+                              <span>Dritte Orte in Rheinland-Pfalz</span>
+                            </h3>
+                          
+                        </div>
+                      </div>
+                      
+                      
+                    
+                      
+                      
+                      <div class="row | align-items-center">
+                        <div class="col-md-10">
+                          <span class="h6">Antwort   Lisett Stuppy (BÜNDNIS 90/DIE GRÜNEN), Dr. Lea Heidbreder (BÜNDNIS 90/DIE GRÜNEN), Fabian Ehmann (BÜNDNIS 90/DIE GRÜNEN), Ministerium für Kommunen, Bauen, Wohnen und Kultur  05.10.2026 Drucksache 19/784</span>
+                        </div>
+                        
+                        
+                        <div class="col-2 | d-flex justify-content-end align-items-center">
+                          <a href="https://dokumente.landtag.rlp.de/landtag/drucksachen/784-19.pdf" target="_blank" class="btn btn-white btn-sm btn-spacing mr-3">
+                            <div class="icon-wrapper">
+                              <span class="icon-text">Dokument</span>
+                              <span class="icon | text-primary">
+                                <i class="fal fa-paperclip"></i>
+                              </span>
+                            </div>
+                          </a>
+                          <a class="btn btn-primary btn-sm" href="browse.tt.html?type=&action=qlink&q=DID=K-169360" title="Link zum Vorgang">
+                            <div class="icon-wrapper">
+                              <span class="icon">
+                                <i class="fas fa-arrow-right"></i>
+                              </span>
+                            </div>
+                          </a>
+                        </div>
+                        
+                        
+                      </div>
+                      
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          
+          <div id="" class="record mb-3 page-break | efxRecordRepeater"
+            data-efx-rec="6">
+            <div id="collapse-shortTabs-6">
+              <div class="card js-card-selected | shadow-sm ">
+                <div class="card-body">
+                  <div class="row | justify-content-between">
+                    <div class="col-12 col-md">
+
+                      
+                      
+                      <div class="row">
+                        <div class="col">
+                          
+                            <h3 class="h5 | font-weight-semibold | mb-3">
+                              <span>Genehmigte Windenergieanlagen in Trier-Stahlem und Trier-Wetterborn - Auswirkungen auf Wald und Natur sowie Nutzung städtischer Flächen</span>
+                            </h3>
+                          
+                        </div>
+                      </div>
+                      
+                      
+                    
+                      
+                      
+                      <div class="row | align-items-center">
+                        <div class="col-md-10">
+                          <span class="h6">Antwort   Ralf Schönborn (AfD), Ministerium für Kommunen, Bauen, Wohnen und Kultur  05.10.2026 Drucksache 19/783 (5 S.)</span>
+                        </div>
+                        
+                        
+                        <div class="col-2 | d-flex justify-content-end align-items-center">
+                          <a href="https://dokumente.landtag.rlp.de/landtag/drucksachen/783-19.pdf" target="_blank" class="btn btn-white btn-sm btn-spacing mr-3">
+                            <div class="icon-wrapper">
+                              <span class="icon-text">Dokument</span>
+                              <span class="icon | text-primary">
+                                <i class="fal fa-paperclip"></i>
+                              </span>
+                            </div>
+                          </a>
+                          <a class="btn btn-primary btn-sm" href="browse.tt.html?type=&action=qlink&q=DID=K-169359" title="Link zum Vorgang">
+                            <div class="icon-wrapper">
+                              <span class="icon">
+                                <i class="fas fa-arrow-right"></i>
+                              </span>
+                            </div>
+                          </a>
+                        </div>
+                        
+                        
+                      </div>
+                      
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          
+          <div id="" class="record mb-3 page-break | efxRecordRepeater"
+            data-efx-rec="7">
+            <div id="collapse-shortTabs-7">
+              <div class="card js-card-selected | shadow-sm ">
+                <div class="card-body">
+                  <div class="row | justify-content-between">
+                    <div class="col-12 col-md">
+
+                      
+                      
+                      <div class="row">
+                        <div class="col">
+                          
+                            <h3 class="h5 | font-weight-semibold | mb-3">
+                              <span>Neubau des Polizeipräsidiums Rheinpfalz in Ludwigshafen</span>
+                            </h3>
+                          
+                        </div>
+                      </div>
+                      
+                      
+                    
+                      
+                      
+                      <div class="row | align-items-center">
+                        <div class="col-md-10">
+                          <span class="h6">Kleine Anfrage   Carl-Bernhard von Heusinger (BÜNDNIS 90/DIE GRÜNEN), Katharina Binz (BÜNDNIS 90/DIE GRÜNEN)  05.10.2026 Drucksache 19/782</span>
+                        </div>
+                        
+                        
+                        <div class="col-2 | d-flex justify-content-end align-items-center">
+                          <a href="https://dokumente.landtag.rlp.de/landtag/drucksachen/782-19.pdf" target="_blank" class="btn btn-white btn-sm btn-spacing mr-3">
+                            <div class="icon-wrapper">
+                              <span class="icon-text">Dokument</span>
+                              <span class="icon | text-primary">
+                                <i class="fal fa-paperclip"></i>
+                              </span>
+                            </div>
+                          </a>
+                          <a class="btn btn-primary btn-sm" href="browse.tt.html?type=&action=qlink&q=DID=K-169358" title="Link zum Vorgang">
+                            <div class="icon-wrapper">
+                              <span class="icon">
+                                <i class="fas fa-arrow-right"></i>
+                              </span>
+                            </div>
+                          </a>
+                        </div>
+                        
+                        
+                      </div>
+                      
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          
+          <div id="" class="record mb-3 page-break | efxRecordRepeater"
+            data-efx-rec="8">
+            <div id="collapse-shortTabs-8">
+              <div class="card js-card-selected | shadow-sm ">
+                <div class="card-body">
+                  <div class="row | justify-content-between">
+                    <div class="col-12 col-md">
+
+                      
+                      
+                      <div class="row">
+                        <div class="col">
+                          
+                            <h3 class="h5 | font-weight-semibold | mb-3">
+                              <span>Neuordnung der polizeilichen Liegenschaften in Koblenz</span>
+                            </h3>
+                          
+                        </div>
+                      </div>
+                      
+                      
+                    
+                      
+                      
+                      <div class="row | align-items-center">
+                        <div class="col-md-10">
+                          <span class="h6">Kleine Anfrage   Carl-Bernhard von Heusinger (BÜNDNIS 90/DIE GRÜNEN)  05.10.2026 Drucksache 19/781</span>
+                        </div>
+                        
+                        
+                        <div class="col-2 | d-flex justify-content-end align-items-center">
+                          <a href="https://dokumente.landtag.rlp.de/landtag/drucksachen/781-19.pdf" target="_blank" class="btn btn-white btn-sm btn-spacing mr-3">
+                            <div class="icon-wrapper">
+                              <span class="icon-text">Dokument</span>
+                              <span class="icon | text-primary">
+                                <i class="fal fa-paperclip"></i>
+                              </span>
+                            </div>
+                          </a>
+                          <a class="btn btn-primary btn-sm" href="browse.tt.html?type=&action=qlink&q=DID=K-169357" title="Link zum Vorgang">
+                            <div class="icon-wrapper">
+                              <span class="icon">
+                                <i class="fas fa-arrow-right"></i>
+                              </span>
+                            </div>
+                          </a>
+                        </div>
+                        
+                        
+                      </div>
+                      
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          
+          <div id="" class="record mb-3 page-break | efxRecordRepeater"
+            data-efx-rec="9">
+            <div id="collapse-shortTabs-9">
+              <div class="card js-card-selected | shadow-sm ">
+                <div class="card-body">
+                  <div class="row | justify-content-between">
+                    <div class="col-12 col-md">
+
+                      
+                      
+                      <div class="row">
+                        <div class="col">
+                          
+                            <h3 class="h5 | font-weight-semibold | mb-3">
+                              <span>Verfahren und Zeitplan zur Änderung des Landesjagdgesetzes und zur Landesjagdverordnung</span>
+                            </h3>
+                          
+                        </div>
+                      </div>
+                      
+                      
+                    
+                      
+                      
+                      <div class="row | align-items-center">
+                        <div class="col-md-10">
+                          <span class="h6">Kleine Anfrage   Paul Bunjes (BÜNDNIS 90/DIE GRÜNEN)  05.10.2026 Drucksache 19/780</span>
+                        </div>
+                        
+                        
+                        <div class="col-2 | d-flex justify-content-end align-items-center">
+                          <a href="https://dokumente.landtag.rlp.de/landtag/drucksachen/780-19.pdf" target="_blank" class="btn btn-white btn-sm btn-spacing mr-3">
+                            <div class="icon-wrapper">
+                              <span class="icon-text">Dokument</span>
+                              <span class="icon | text-primary">
+                                <i class="fal fa-paperclip"></i>
+                              </span>
+                            </div>
+                          </a>
+                          <a class="btn btn-primary btn-sm" href="browse.tt.html?type=&action=qlink&q=DID=K-169356" title="Link zum Vorgang">
+                            <div class="icon-wrapper">
+                              <span class="icon">
+                                <i class="fas fa-arrow-right"></i>
+                              </span>
+                            </div>
+                          </a>
+                        </div>
+                        
+                        
+                      </div>
+                      
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          
+          <div id="" class="record mb-3 page-break | efxRecordRepeater"
+            data-efx-rec="10">
+            <div id="collapse-shortTabs-10">
+              <div class="card js-card-selected | shadow-sm ">
+                <div class="card-body">
+                  <div class="row | justify-content-between">
+                    <div class="col-12 col-md">
+
+                      
+                      
+                      <div class="row">
+                        <div class="col">
+                          
+                            <h3 class="h5 | font-weight-semibold | mb-3">
+                              <span>Neuordnung der polizeilichen Liegenschaften in Mainz</span>
+                            </h3>
+                          
+                        </div>
+                      </div>
+                      
+                      
+                    
+                      
+                      
+                      <div class="row | align-items-center">
+                        <div class="col-md-10">
+                          <span class="h6">Kleine Anfrage   Carl-Bernhard von Heusinger (BÜNDNIS 90/DIE GRÜNEN), Katharina Binz (BÜNDNIS 90/DIE GRÜNEN)  05.10.2026 Drucksache 19/779</span>
+                        </div>
+                        
+                        
+                        <div class="col-2 | d-flex justify-content-end align-items-center">
+                          <a href="https://dokumente.landtag.rlp.de/landtag/drucksachen/779-19.pdf" target="_blank" class="btn btn-white btn-sm btn-spacing mr-3">
+                            <div class="icon-wrapper">
+                              <span class="icon-text">Dokument</span>
+                              <span class="icon | text-primary">
+                                <i class="fal fa-paperclip"></i>
+                              </span>
+                            </div>
+                          </a>
+                          <a class="btn btn-primary btn-sm" href="browse.tt.html?type=&action=qlink&q=DID=K-169355" title="Link zum Vorgang">
+                            <div class="icon-wrapper">
+                              <span class="icon">
+                                <i class="fas fa-arrow-right"></i>
+                              </span>
+                            </div>
+                          </a>
+                        </div>
+                        
+                        
+                      </div>
+                      
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          
+          <div id="" class="record mb-3 page-break | efxRecordRepeater"
+            data-efx-rec="11">
+            <div id="collapse-shortTabs-11">
+              <div class="card js-card-selected | shadow-sm ">
+                <div class="card-body">
+                  <div class="row | justify-content-between">
+                    <div class="col-12 col-md">
+
+                      
+                      
+                      <div class="row">
+                        <div class="col">
+                          
+                            <h3 class="h5 | font-weight-semibold | mb-3">
+                              <span>Rundschreiben der Entwicklungsagentur Rheinland-Pfalz zu Immobiliennutzung durch rechtsextreme Gruppierungen</span>
+                            </h3>
+                          
+                        </div>
+                      </div>
+                      
+                      
+                    
+                      
+                      
+                      <div class="row | align-items-center">
+                        <div class="col-md-10">
+                          <span class="h6">Große Anfrage   AfD  01.10.2026 Drucksache 19/778</span>
+                        </div>
+                        
+                        
+                        <div class="col-2 | d-flex justify-content-end align-items-center">
+                          <a href="https://dokumente.landtag.rlp.de/landtag/drucksachen/778-19.pdf" target="_blank" class="btn btn-white btn-sm btn-spacing mr-3">
+                            <div class="icon-wrapper">
+                              <span class="icon-text">Dokument</span>
+                              <span class="icon | text-primary">
+                                <i class="fal fa-paperclip"></i>
+                              </span>
+                            </div>
+                          </a>
+                          <a class="btn btn-primary btn-sm" href="browse.tt.html?type=&action=qlink&q=DID=K-169352" title="Link zum Vorgang">
+                            <div class="icon-wrapper">
+                              <span class="icon">
+                                <i class="fas fa-arrow-right"></i>
+                              </span>
+                            </div>
+                          </a>
+                        </div>
+                        
+                        
+                      </div>
+                      
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          
+          <div id="" class="record mb-3 page-break | efxRecordRepeater"
+            data-efx-rec="12">
+            <div id="collapse-shortTabs-12">
+              <div class="card js-card-selected | shadow-sm ">
+                <div class="card-body">
+                  <div class="row | justify-content-between">
+                    <div class="col-12 col-md">
+
+                      
+                      
+                      <div class="row">
+                        <div class="col">
+                          
+                            <h3 class="h5 | font-weight-semibold | mb-3">
+                              <span> Finanzielle Auswirkungen des Tankrabatts auf Rheinland-Pfalz</span>
+                            </h3>
+                          
+                        </div>
+                      </div>
+                      
+                      
+                    
+                      
+                      
+                      <div class="row | align-items-center">
+                        <div class="col-md-10">
+                          <span class="h6">Kleine Anfrage   Katrin Eder (BÜNDNIS 90/DIE GRÜNEN), Pia Schellhammer (BÜNDNIS 90/DIE GRÜNEN)  05.10.2026 Drucksache 19/776 (2 S.)</span>
+                        </div>
+                        
+                        
+                        <div class="col-2 | d-flex justify-content-end align-items-center">
+                          <a href="https://dokumente.landtag.rlp.de/landtag/drucksachen/776-19.pdf" target="_blank" class="btn btn-white btn-sm btn-spacing mr-3">
+                            <div class="icon-wrapper">
+                              <span class="icon-text">Dokument</span>
+                              <span class="icon | text-primary">
+                                <i class="fal fa-paperclip"></i>
+                              </span>
+                            </div>
+                          </a>
+                          <a class="btn btn-primary btn-sm" href="browse.tt.html?type=&action=qlink&q=DID=K-169351" title="Link zum Vorgang">
+                            <div class="icon-wrapper">
+                              <span class="icon">
+                                <i class="fas fa-arrow-right"></i>
+                              </span>
+                            </div>
+                          </a>
+                        </div>
+                        
+                        
+                      </div>
+                      
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          
+          <div id="" class="record mb-3 page-break | efxRecordRepeater"
+            data-efx-rec="13">
+            <div id="collapse-shortTabs-13">
+              <div class="card js-card-selected | shadow-sm ">
+                <div class="card-body">
+                  <div class="row | justify-content-between">
+                    <div class="col-12 col-md">
+
+                      
+                      
+                      <div class="row">
+                        <div class="col">
+                          
+                            <h3 class="h5 | font-weight-semibold | mb-3">
+                              <span>Kosten des Vorsitzes der Ministerpräsidentenkonferenz</span>
+                            </h3>
+                          
+                        </div>
+                      </div>
+                      
+                      
+                    
+                      
+                      
+                      <div class="row | align-items-center">
+                        <div class="col-md-10">
+                          <span class="h6">Kleine Anfrage   Pia Schellhammer (BÜNDNIS 90/DIE GRÜNEN)  02.10.2026 Drucksache 19/777 (2 S.)</span>
+                        </div>
+                        
+                        
+                        <div class="col-2 | d-flex justify-content-end align-items-center">
+                          <a href="https://dokumente.landtag.rlp.de/landtag/drucksachen/777-19.pdf" target="_blank" class="btn btn-white btn-sm btn-spacing mr-3">
+                            <div class="icon-wrapper">
+                              <span class="icon-text">Dokument</span>
+                              <span class="icon | text-primary">
+                                <i class="fal fa-paperclip"></i>
+                              </span>
+                            </div>
+                          </a>
+                          <a class="btn btn-primary btn-sm" href="browse.tt.html?type=&action=qlink&q=DID=K-169350" title="Link zum Vorgang">
+                            <div class="icon-wrapper">
+                              <span class="icon">
+                                <i class="fas fa-arrow-right"></i>
+                              </span>
+                            </div>
+                          </a>
+                        </div>
+                        
+                        
+                      </div>
+                      
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          
+          <div id="" class="record mb-3 page-break | efxRecordRepeater"
+            data-efx-rec="14">
+            <div id="collapse-shortTabs-14">
+              <div class="card js-card-selected | shadow-sm ">
+                <div class="card-body">
+                  <div class="row | justify-content-between">
+                    <div class="col-12 col-md">
+
+                      
+                      
+                      <div class="row">
+                        <div class="col">
+                          
+                            <h3 class="h5 | font-weight-semibold | mb-3">
+                              <span>80 Jahre Rheinland-Pfalz: Open-Air-Veranstaltung von SWR und Staatskanzlei</span>
+                            </h3>
+                          
+                        </div>
+                      </div>
+                      
+                      
+                    
+                      
+                      
+                      <div class="row | align-items-center">
+                        <div class="col-md-10">
+                          <span class="h6">Antwort   Damian Lohr (AfD), Joachim Paul (AfD), Staatskanzlei  02.10.2026 Drucksache 19/775 (5 S.)</span>
+                        </div>
+                        
+                        
+                        <div class="col-2 | d-flex justify-content-end align-items-center">
+                          <a href="https://dokumente.landtag.rlp.de/landtag/drucksachen/775-19.pdf" target="_blank" class="btn btn-white btn-sm btn-spacing mr-3">
+                            <div class="icon-wrapper">
+                              <span class="icon-text">Dokument</span>
+                              <span class="icon | text-primary">
+                                <i class="fal fa-paperclip"></i>
+                              </span>
+                            </div>
+                          </a>
+                          <a class="btn btn-primary btn-sm" href="browse.tt.html?type=&action=qlink&q=DID=K-169347" title="Link zum Vorgang">
+                            <div class="icon-wrapper">
+                              <span class="icon">
+                                <i class="fas fa-arrow-right"></i>
+                              </span>
+                            </div>
+                          </a>
+                        </div>
+                        
+                        
+                      </div>
+                      
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          
+          <div id="" class="record mb-3 page-break | efxRecordRepeater"
+            data-efx-rec="15">
+            <div id="collapse-shortTabs-15">
+              <div class="card js-card-selected | shadow-sm ">
+                <div class="card-body">
+                  <div class="row | justify-content-between">
+                    <div class="col-12 col-md">
+
+                      
+                      
+                      <div class="row">
+                        <div class="col">
+                          
+                            <h3 class="h5 | font-weight-semibold | mb-3">
+                              <span>Geplante Novellierung des Polizei- und Ordnungsbehördengesetz in 2026</span>
+                            </h3>
+                          
+                        </div>
+                      </div>
+                      
+                      
+                    
+                      
+                      
+                      <div class="row | align-items-center">
+                        <div class="col-md-10">
+                          <span class="h6">Antwort   Carl-Bernhard von Heusinger (BÜNDNIS 90/DIE GRÜNEN), Ministerium des Innern, für Integration und Verkehr  02.10.2026 Drucksache 19/774 (6 S.)</span>
+                        </div>
+                        
+                        
+                        <div class="col-2 | d-flex justify-content-end align-items-center">
+                          <a href="https://dokumente.landtag.rlp.de/landtag/drucksachen/774-19.pdf" target="_blank" class="btn btn-white btn-sm btn-spacing mr-3">
+                            <div class="icon-wrapper">
+                              <span class="icon-text">Dokument</span>
+                              <span class="icon | text-primary">
+                                <i class="fal fa-paperclip"></i>
+                              </span>
+                            </div>
+                          </a>
+                          <a class="btn btn-primary btn-sm" href="browse.tt.html?type=&action=qlink&q=DID=K-169346" title="Link zum Vorgang">
+                            <div class="icon-wrapper">
+                              <span class="icon">
+                                <i class="fas fa-arrow-right"></i>
+                              </span>
+                            </div>
+                          </a>
+                        </div>
+                        
+                        
+                      </div>
+                      
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          
+          <div id="" class="record mb-3 page-break | efxRecordRepeater"
+            data-efx-rec="16">
+            <div id="collapse-shortTabs-16">
+              <div class="card js-card-selected | shadow-sm ">
+                <div class="card-body">
+                  <div class="row | justify-content-between">
+                    <div class="col-12 col-md">
+
+                      
+                      
+                      <div class="row">
+                        <div class="col">
+                          
+                            <h3 class="h5 | font-weight-semibold | mb-3">
+                              <span>Abstimmung über die Fortführung der Landespflegekammer</span>
+                            </h3>
+                          
+                        </div>
+                      </div>
+                      
+                      
+                    
+                      
+                      
+                      <div class="row | align-items-center">
+                        <div class="col-md-10">
+                          <span class="h6">Antwort   Josef Winkler (BÜNDNIS 90/DIE GRÜNEN), Ministerium für Arbeit, Soziales, Frauen, Familie und Jugend  02.10.2026 Drucksache 19/773 (5 S.)</span>
+                        </div>
+                        
+                        
+                        <div class="col-2 | d-flex justify-content-end align-items-center">
+                          <a href="https://dokumente.landtag.rlp.de/landtag/drucksachen/773-19.pdf" target="_blank" class="btn btn-white btn-sm btn-spacing mr-3">
+                            <div class="icon-wrapper">
+                              <span class="icon-text">Dokument</span>
+                              <span class="icon | text-primary">
+                                <i class="fal fa-paperclip"></i>
+                              </span>
+                            </div>
+                          </a>
+                          <a class="btn btn-primary btn-sm" href="browse.tt.html?type=&action=qlink&q=DID=K-169345" title="Link zum Vorgang">
+                            <div class="icon-wrapper">
+                              <span class="icon">
+                                <i class="fas fa-arrow-right"></i>
+                              </span>
+                            </div>
+                          </a>
+                        </div>
+                        
+                        
+                      </div>
+                      
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          
+          <div id="" class="record mb-3 page-break | efxRecordRepeater"
+            data-efx-rec="17">
+            <div id="collapse-shortTabs-17">
+              <div class="card js-card-selected | shadow-sm ">
+                <div class="card-body">
+                  <div class="row | justify-content-between">
+                    <div class="col-12 col-md">
+
+                      
+                      
+                      <div class="row">
+                        <div class="col">
+                          
+                            <h3 class="h5 | font-weight-semibold | mb-3">
+                              <span>Anerkennung ausländischer Berufsqualifikationen in Rheinland-Pfalz</span>
+                            </h3>
+                          
+                        </div>
+                      </div>
+                      
+                      
+                    
+                      
+                      
+                      <div class="row | align-items-center">
+                        <div class="col-md-10">
+                          <span class="h6">Antwort   Benjamin Haupt (fraktionslos), Ministerium für Wirtschaft, Tourismus, Energie und Klima  02.10.2026 Drucksache 19/772 (24 S.)</span>
+                        </div>
+                        
+                        
+                        <div class="col-2 | d-flex justify-content-end align-items-center">
+                          <a href="https://dokumente.landtag.rlp.de/landtag/drucksachen/772-19.pdf" target="_blank" class="btn btn-white btn-sm btn-spacing mr-3">
+                            <div class="icon-wrapper">
+                              <span class="icon-text">Dokument</span>
+                              <span class="icon | text-primary">
+                                <i class="fal fa-paperclip"></i>
+                              </span>
+                            </div>
+                          </a>
+                          <a class="btn btn-primary btn-sm" href="browse.tt.html?type=&action=qlink&q=DID=K-169344" title="Link zum Vorgang">
+                            <div class="icon-wrapper">
+                              <span class="icon">
+                                <i class="fas fa-arrow-right"></i>
+                              </span>
+                            </div>
+                          </a>
+                        </div>
+                        
+                        
+                      </div>
+                      
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          
+          <div id="" class="record mb-3 page-break | efxRecordRepeater"
+            data-efx-rec="18">
+            <div id="collapse-shortTabs-18">
+              <div class="card js-card-selected | shadow-sm ">
+                <div class="card-body">
+                  <div class="row | justify-content-between">
+                    <div class="col-12 col-md">
+
+                      
+                      
+                      <div class="row">
+                        <div class="col">
+                          
+                            <h3 class="h5 | font-weight-semibold | mb-3">
+                              <span>Pilotprojekt zur Videoüberwachung am Exerzierplatz in Pirmasens</span>
+                            </h3>
+                          
+                        </div>
+                      </div>
+                      
+                      
+                    
+                      
+                      
+                      <div class="row | align-items-center">
+                        <div class="col-md-10">
+                          <span class="h6">Antwort   Carl-Bernhard von Heusinger (BÜNDNIS 90/DIE GRÜNEN), Ministerium für Kommunen, Bauen, Wohnen und Kultur  02.10.2026 Drucksache 19/771 (5 S.)</span>
+                        </div>
+                        
+                        
+                        <div class="col-2 | d-flex justify-content-end align-items-center">
+                          <a href="https://dokumente.landtag.rlp.de/landtag/drucksachen/771-19.pdf" target="_blank" class="btn btn-white btn-sm btn-spacing mr-3">
+                            <div class="icon-wrapper">
+                              <span class="icon-text">Dokument</span>
+                              <span class="icon | text-primary">
+                                <i class="fal fa-paperclip"></i>
+                              </span>
+                            </div>
+                          </a>
+                          <a class="btn btn-primary btn-sm" href="browse.tt.html?type=&action=qlink&q=DID=K-169343" title="Link zum Vorgang">
+                            <div class="icon-wrapper">
+                              <span class="icon">
+                                <i class="fas fa-arrow-right"></i>
+                              </span>
+                            </div>
+                          </a>
+                        </div>
+                        
+                        
+                      </div>
+                      
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          
+          <div id="" class="record mb-3 page-break | efxRecordRepeater"
+            data-efx-rec="19">
+            <div id="collapse-shortTabs-19">
+              <div class="card js-card-selected | shadow-sm ">
+                <div class="card-body">
+                  <div class="row | justify-content-between">
+                    <div class="col-12 col-md">
+
+                      
+                      
+                      <div class="row">
+                        <div class="col">
+                          
+                            <h3 class="h5 | font-weight-semibold | mb-3">
+                              <span>Deutsches Sportabzeichen im Schulzeugnis</span>
+                            </h3>
+                          
+                        </div>
+                      </div>
+                      
+                      
+                    
+                      
+                      
+                      <div class="row | align-items-center">
+                        <div class="col-md-10">
+                          <span class="h6">Antwort   Joachim Paul (AfD), Stephan Stritter (AfD), Ministerium für Bildung  02.10.2026 Drucksache 19/770 (4 S.)</span>
+                        </div>
+                        
+                        
+                        <div class="col-2 | d-flex justify-content-end align-items-center">
+                          <a href="https://dokumente.landtag.rlp.de/landtag/drucksachen/770-19.pdf" target="_blank" class="btn btn-white btn-sm btn-spacing mr-3">
+                            <div class="icon-wrapper">
+                              <span class="icon-text">Dokument</span>
+                              <span class="icon | text-primary">
+                                <i class="fal fa-paperclip"></i>
+                              </span>
+                            </div>
+                          </a>
+                          <a class="btn btn-primary btn-sm" href="browse.tt.html?type=&action=qlink&q=DID=K-169341" title="Link zum Vorgang">
+                            <div class="icon-wrapper">
+                              <span class="icon">
+                                <i class="fas fa-arrow-right"></i>
+                              </span>
+                            </div>
+                          </a>
+                        </div>
+                        
+                        
+                      </div>
+                      
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          
+          <div id="" class="record mb-3 page-break | efxRecordRepeater"
+            data-efx-rec="20">
+            <div id="collapse-shortTabs-20">
+              <div class="card js-card-selected | shadow-sm ">
+                <div class="card-body">
+                  <div class="row | justify-content-between">
+                    <div class="col-12 col-md">
+
+                      
+                      
+                      <div class="row">
+                        <div class="col">
+                          
+                            <h3 class="h5 | font-weight-semibold | mb-3">
+                              <span>Mögliche Zugriffe Unbefugter auf kommunale IT-Systeme infolge der NetScaler-Sicherheitslücken</span>
+                            </h3>
+                          
+                        </div>
+                      </div>
+                      
+                      
+                    
+                      
+                      
+                      <div class="row | align-items-center">
+                        <div class="col-md-10">
+                          <span class="h6">Kleine Anfrage   Pia Schellhammer (BÜNDNIS 90/DIE GRÜNEN), Carl-Bernhard von Heusinger (BÜNDNIS 90/DIE GRÜNEN)  02.10.2026 Drucksache 19/769 (2 S.)</span>
+                        </div>
+                        
+                        
+                        <div class="col-2 | d-flex justify-content-end align-items-center">
+                          <a href="https://dokumente.landtag.rlp.de/landtag/drucksachen/769-19.pdf" target="_blank" class="btn btn-white btn-sm btn-spacing mr-3">
+                            <div class="icon-wrapper">
+                              <span class="icon-text">Dokument</span>
+                              <span class="icon | text-primary">
+                                <i class="fal fa-paperclip"></i>
+                              </span>
+                            </div>
+                          </a>
+                          <a class="btn btn-primary btn-sm" href="browse.tt.html?type=&action=qlink&q=DID=K-169327" title="Link zum Vorgang">
+                            <div class="icon-wrapper">
+                              <span class="icon">
+                                <i class="fas fa-arrow-right"></i>
+                              </span>
+                            </div>
+                          </a>
+                        </div>
+                        
+                        
+                      </div>
+                      
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          
+          <div id="" class="record mb-3 page-break | efxRecordRepeater"
+            data-efx-rec="21">
+            <div id="collapse-shortTabs-21">
+              <div class="card js-card-selected | shadow-sm ">
+                <div class="card-body">
+                  <div class="row | justify-content-between">
+                    <div class="col-12 col-md">
+
+                      
+                      
+                      <div class="row">
+                        <div class="col">
+                          
+                            <h3 class="h5 | font-weight-semibold | mb-3">
+                              <span>Digitale Medien-Staatsvertrag: Verhandlungsstand und Verfahren</span>
+                            </h3>
+                          
+                        </div>
+                      </div>
+                      
+                      
+                    
+                      
+                      
+                      <div class="row | align-items-center">
+                        <div class="col-md-10">
+                          <span class="h6">Kleine Anfrage   Pia Schellhammer (BÜNDNIS 90/DIE GRÜNEN)  02.10.2026 Drucksache 19/768 (2 S.)</span>
+                        </div>
+                        
+                        
+                        <div class="col-2 | d-flex justify-content-end align-items-center">
+                          <a href="https://dokumente.landtag.rlp.de/landtag/drucksachen/768-19.pdf" target="_blank" class="btn btn-white btn-sm btn-spacing mr-3">
+                            <div class="icon-wrapper">
+                              <span class="icon-text">Dokument</span>
+                              <span class="icon | text-primary">
+                                <i class="fal fa-paperclip"></i>
+                              </span>
+                            </div>
+                          </a>
+                          <a class="btn btn-primary btn-sm" href="browse.tt.html?type=&action=qlink&q=DID=K-169326" title="Link zum Vorgang">
+                            <div class="icon-wrapper">
+                              <span class="icon">
+                                <i class="fas fa-arrow-right"></i>
+                              </span>
+                            </div>
+                          </a>
+                        </div>
+                        
+                        
+                      </div>
+                      
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          
+          <div id="" class="record mb-3 page-break | efxRecordRepeater"
+            data-efx-rec="22">
+            <div id="collapse-shortTabs-22">
+              <div class="card js-card-selected | shadow-sm ">
+                <div class="card-body">
+                  <div class="row | justify-content-between">
+                    <div class="col-12 col-md">
+
+                      
+                      
+                      <div class="row">
+                        <div class="col">
+                          
+                            <h3 class="h5 | font-weight-semibold | mb-3">
+                              <span>Haushaltsvollzug Einzelplan 14 (Ministerium für Klimaschutz, Umwelt, Energie und Mobilität)</span>
+                            </h3>
+                          
+                        </div>
+                      </div>
+                      
+                      
+                    
+                      
+                      
+                      <div class="row | align-items-center">
+                        <div class="col-md-10">
+                          <span class="h6">Große Anfrage   AfD  01.10.2026 Drucksache 19/763 (13 S.)</span>
+                        </div>
+                        
+                        
+                        <div class="col-2 | d-flex justify-content-end align-items-center">
+                          <a href="https://dokumente.landtag.rlp.de/landtag/drucksachen/763-19.pdf" target="_blank" class="btn btn-white btn-sm btn-spacing mr-3">
+                            <div class="icon-wrapper">
+                              <span class="icon-text">Dokument</span>
+                              <span class="icon | text-primary">
+                                <i class="fal fa-paperclip"></i>
+                              </span>
+                            </div>
+                          </a>
+                          <a class="btn btn-primary btn-sm" href="browse.tt.html?type=&action=qlink&q=DID=K-169319" title="Link zum Vorgang">
+                            <div class="icon-wrapper">
+                              <span class="icon">
+                                <i class="fas fa-arrow-right"></i>
+                              </span>
+                            </div>
+                          </a>
+                        </div>
+                        
+                        
+                      </div>
+                      
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          
+          <div class="sticky-top bg-white shadow-sm card mb-3">
+            <div class="card-body">
+              <h3 class="m-0">Vorlagen</h3>
+            </div>
+          </div>
+          
+          <div id="" class="record mb-3 page-break | efxRecordRepeater"
+            data-efx-rec="23">
+            <div id="collapse-shortTabs-23">
+              <div class="card js-card-selected | shadow-sm ">
+                <div class="card-body">
+                  <div class="row | justify-content-between">
+                    <div class="col-12 col-md">
+
+                      
+                      
+                      <div class="row">
+                        <div class="col">
+                          
+                            <h3 class="h5 | font-weight-semibold | mb-3">
+                              <span>Lückenschluss der A 1</span>
+                            </h3>
+                          
+                        </div>
+                      </div>
+                      
+                      
+                    
+                      
+                      
+                      <div class="row | align-items-center">
+                        <div class="col-md-10">
+                          <span class="h6"> Ministerium des Innern, für Integration und Verkehr 05.10.2026 Vorlage 19/328 (Stand der Ausschreibung, Baustraße sowie Link zur Projektdokumentation der Autobahn GmbH)</span>
+                        </div>
+                        
+                        
+                        <div class="col-2 | d-flex justify-content-end align-items-center">
+                          <a href="https://dokumente.landtag.rlp.de/landtag/vorlagen/328-V-19.pdf" target="_blank" class="btn btn-white btn-sm btn-spacing mr-3">
+                            <div class="icon-wrapper">
+                              <span class="icon-text">Dokument</span>
+                              <span class="icon | text-primary">
+                                <i class="fal fa-paperclip"></i>
+                              </span>
+                            </div>
+                          </a>
+                          <a class="btn btn-primary btn-sm" href="browse.tt.html?type=&action=qlink&q=DID=K-169353" title="Link zum Vorgang">
+                            <div class="icon-wrapper">
+                              <span class="icon">
+                                <i class="fas fa-arrow-right"></i>
+                              </span>
+                            </div>
+                          </a>
+                        </div>
+                        
+                        
+                      </div>
+                      
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+</section>  
+  <div class="no-print">
+    <!-- START portal/components/common/common-footer.tt.html -->
+
+
+<!-- <footer class="footer">
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <div class="py-2 | border-top border-secondary">
+          <span class="small">© Landtag Rheinland-Pfalz OPAL | </span>
+          <span class="small | efxShowLog">2026</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer> -->
+<footer class="footer bg-light pt-5 pb-3">
+	<div class="container">
+		<hr class="pb-3 m-0" />
+		<div class="row">
+			<div class="col">
+				<div class="footer-menu">
+					<ul class="nav navbar-nav d-flex flex-row small">
+						<li>
+							<span>© Landtag Rheinland-Pfalz OPAL </span>
+							<span class="efxShowLog">2026</span>
+						</li>
+						<li class="divider"></li>
+						<li>
+							<a class="font-weight-light" target="_blank" href="https://landtag-rlp.de/de/footer/datenschutz.htm" title="Datenschutz">Datenschutz</a>
+						</li>
+						<li class="divider"></li>
+						<li>
+							<a class="font-weight-light" target="_blank" href="https://landtag-rlp.de/de/footer/impressum.htm#i247" title="Impressum">Impressum</a>
+						</li>
+						<li class="divider"></li>
+						<li>
+							<a class="font-weight-light" target="_blank" href="https://landtag-rlp.de/de/footer/barrierefreiheit.htm" title="Impressum">Barrierefreiheit</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</footer>
+
+<!-- END portal/components/common/common-footer.tt.html -->
+    <!-- START portal/components/browse/browse-modal-include.tt.html -->
+<div id="modal-wrapper"></div>
+
+  
+    <div class="modal fade" id="efxorder" tabindex="-1" role="dialog" aria-labelledby="efxOrderBasket">
+      <div class="modal-dialog modal-lg modal-dialog-scrollable modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="efxOrderBasket">Warenkorb Bestellungen</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body | efxOrderReportConditional">
+            <div id="OrderResponseError" class="alert alert-danger | displaynone">
+              <div class="icon-wrapper">
+                <span class="icon">
+                  <i class="fas fa-exclamation-triangle"></i>
+                </span>
+                <span class="icon-text">Sorry, we are experiencing a temporary problem. Please try again later or contact us by email.</span>
+              </div>
+            </div>
+            <div id="ReportContentOrder">
+              <!-- esearch Report Content for Order Forms here -->
+            </div>
+
+            <div class="displaynone" id="OrderResponseOK">
+              <!-- Feedback OK -->
+              <div class="alert alert-info | text-center">
+                <div class="icon-wrapper">
+                  <span class="icon">
+                    <i class="fas fa-check"></i>
+                  </span>
+                  <span class="icon-text">Vielen Dank für Ihre Bestellung!</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="modal-footer | justify-content-center">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+
+
+<!-- START portal/extensions/abo/abo-modal.tt.html -->
+<div class="modal | fade" id="efxabo" tabindex="-1" role="dialog" aria-labelledby="efxAboBasket">
+  <div class="modal-dialog modal-lg modal-dialog-scrollable modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+				<h5 class="modal-title" id="efxAboBasket">&Auml;nderungsdienst</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body | efxAboReportConditional">
+				<div class="text-center" style="padding-bottom: 10px">
+					<button type="button" class="btn btn-secondary" data-dismiss="modal">
+						<div class="icon-wrapper">
+							<span class="icon">
+								<i class="fas fa-close"></i>
+							</span>
+							<span class="icon-text">Abbrechen</span>
+						</div>
+					</button>
+					<button type="button" class="btn btn-primary | efxDisplayAboSubmitConditional" id="SubmitAbo">Änderungen abschicken</button>
+				</div>
+				<div id="AboResponseError" class="displaynone | alert alert-danger">
+					<div class="icon-wrapper">
+						<span class="icon">
+							<i class="fas fa-exclamation-triangle"></i>
+						</span>
+						<span class="icon-text">Sorry, we are experiencing a temporary problem. Please try again later or contact us by email.</span>
+					</div>
+				</div>
+				<div id="ReportContentAbo">
+					<!-- esearch Report Content for Abo Forms here -->
+				</div>
+      </div>
+
+			<div class="modal-body | displaynone" id="AboResponseOK">
+				<!-- Feedback OK -->
+				<div class="alert alert-info | text-center">
+					<div class="icon-wrapper">
+						<span class="icon">
+							<i class="fas fa-check"></i>
+						</span>
+						<span class="icon-text">Änderungsdienst gesendet</span>
+					</div>
+				</div>
+				<div class="justify-content-center">
+					<button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button>
+				</div>
+			</div>
+
+      <div class="modal-footer | justify-content-center | efxAboReportConditional">
+				<button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button>
+				<button type="button" class="btn btn-primary | efxDisplayAboSubmitConditional" id="SubmitAbo">Änderungen abschicken</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- END portal/extensions/abo/abo-modal.tt.html -->
+
+<!-- START portal/components/spinner-modal.tt.html -->
+<div class="modal | fade-up" id="spinnermodal" tabindex="-1" role="dialog" aria-labelledby="spinnertitle">
+  <div class="modal-dialog modal-sm" role="document">
+    <div class="modal-content | bg-transparent border-transparent">
+      <div class="modal-body | bg-transparent | text-center"><div >
+  <div class="spinner-border text-primary" role="status"></div>
+  <p class="h5 | text-white font-weight-bold | mt-2">Lädt...</p>
+</div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- END portal/components/spinner-modal.tt.html -->
+
+
+<!-- START portal/components/export/export-modal.tt.html -->
+<div class="modal fade" id="efxexport" tabindex="-1" role="dialog" aria-labelledby="efxExportHeader">
+  <div class="modal-dialog modal-lg modal-dialog-scrollable modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+				<h5 class="modal-title" id="efxExportHeader">Speichern/Exportieren</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="form-group | row">
+					<label class="col-md-3">Exportauswahl</label>
+					<div class="col-md-9">
+						<div class="custom-control custom-radio | efxExportDataMainConditional">
+							<input type="radio" id="efxExportData1" name="efxExportData" value="main" class="custom-control-input | js-export-select--main">
+							<label class="custom-control-label" for="efxExportData1">Suchergebnis anzeigen</label>
+							<span class="badge badge-pill badge-primary | ml-1 | efxItemCount"></span>
+						</div>
+						<div class="custom-control custom-radio | efxExportDataSelectionConditional">
+							<input type="radio" id="efxExportData2" name="efxExportData" value="SelectedRecords" class="custom-control-input | js-export-select--selection">
+							<label class="custom-control-label" for="efxExportData2">Ausgewählte Treffer</label>
+							<span class="badge badge-pill badge-primary | ml-1 | efxSelectionCounter"></span>
+						</div>
+					</div>
+				</div>
+
+				<div class="form-group | row">
+					<label class="col-md-3">Format</label>
+					<div class="col-md-9">
+						<select class="form-control" id="efxExportFormat"><option></option></select>
+					</div>
+				</div>
+
+				<div class="form-group | row">
+					<label class="col-md-3">Sortieren nach</label>
+					<div class="col-md-9">
+						<select id="efxExportSort" name="sSortExport" class="form-control">
+							<option value="sDNUM" selected="selected">Dokumentnummer</option>
+							<option value="sADAT">Ausgabedatum</option>
+						</select>
+					</div>
+				</div>
+
+				<div class="form-group | row">
+					<label class="col-md-3">Dateityp</label>
+					<div class="col-md-9">
+						<select id="efxExportMime" class="form-control"><option></option></select>
+					</div>
+				</div>
+			</div>
+      <div class="modal-footer">
+				<div class="text-center">
+					<button type="button" class="btn btn-secondary btn-spacing" data-dismiss="modal">
+						<div class="icon-wrapper">
+							<span class="icon">
+								<i class="fas fa-times"></i>
+							</span>
+							<span class="icon-text">Schließen</span>
+						</div>
+					</button>
+					<button type="button" class="btn btn-primary btn-spacing" id="SubmitExport">Datei generieren</button>
+				</div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- END portal/components/export/export-modal.tt.html -->
+
+<!-- START portal/components/mail/mail-modal.tt.html -->
+<div class="modal fade" id="efxmail" tabindex="-1" role="dialog" aria-labelledby="efxEmailHeader">
+	<div class="modal-dialog modal-lg modal-dialog-scrollable modal-dialog-centered" role="document">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="efxEmailHeader">E-Mail senden</h5>
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+				</button>
+			</div>
+
+			<div class="modal-body">
+				<div id="MailResponse" class="efxMailOKVariableConditional">
+					<!-- mail submission response goes here -->
+				</div>
+				<div id="MailFormCheck">
+					<!-- mail form check goes here-->
+				</div>
+
+				<form id="mailform" class="efxEmailSubmitOKConditional">
+					<div class="form-group | row">
+						<label class="col-md-3">Senden an</label>
+						<div class="col-md-9">
+							<input class="form-control" name="m-to" id="">
+						</div>
+					</div>
+
+					<div class="form-group | row">
+						<label class="col-md-3">Email Betreff</label>
+						<div class="col-md-9">
+							<input class="form-control" name="m-subject" value="[eSearch] email export">
+						</div>
+					</div>
+
+					<div class="form-group | row">
+						<label class="col-md-3">Email Notizen</label>
+						<div class="col-md-9">
+							<textarea class="form-control" name="m-body"></textarea>
+						</div>
+					</div>
+
+					<hr>
+
+					<!--h2 class="efxEmailDataMainConditional | displaynone">Suchergebnis anzeigen: <span class="efxMainCounter">${merged}</span> Treffer</h2>
+					<h2 class="efxEmailDataSelectionConditional | displaynone">Auswahl: <span class="efxSelectionCounter">${SelectedRecords}</span> Treffer</h2-->
+
+					<!--div class="form-group | row" id="emailsetAllCondition"-->
+					<div class="form-group | row">
+						<label class="col-md-3">Exportauswahl</label>
+						<div class="col-md-9">
+							<label class="radio-inline | efxEmailDataMainConditional"><input type="radio" name="efxEmailData" value="main">Suchergebnis anzeigen<span class="badge badge-pill badge-primary | ml-1 | efxItemCount"></span></label>
+							<label class="radio-inline | efxEmailDataSelectionConditional"><input type="radio" name="efxEmailData" value="SelectedRecords">Ausgewählte Treffer<span class="badge badge-pill badge-primary | ml-1 | efxSelectionCounter"></span></label>
+						</div>
+					</div>
+
+					<!--div class="form-group | row" id="emailsetSelectedCondition">
+						<label class="col-md-3">Exportauswahl</label>
+						<div class="col-md-9">
+						<label class="radio-inline"><input type="radio" name="efxEmailData" value="main">Suchergebnis anzeigen</label>
+						<label class="radio-inline"><input type="radio" name="efxEmailData" checked value="SelectedRecords">Ausgewählte Treffer</label>
+						</div>
+					</div-->
+
+					<p>Ihre Suchergebnisse werden Ihnen als E-Mail Anhang gesendet. Bitte wählen Sie das Format, die Sortierung, sowie den Dateityp für den Anhang.</p>
+
+					<div class="form-group | row">
+						<label class="col-md-3">Format</label>
+						<div class="col-md-9">
+							<select class="form-control" id="efxEmailFormat" name="m-format"></select>
+						</div>
+					</div>
+
+					<div class="form-group | row">
+						<label class="col-md-3">Sortieren nach</label>
+						<div class="col-md-9">
+							<select id="efxEmailSort" name="sSortEmail" class="form-control">
+								<option value="WEVSO1/D WEVSO2 WEVSO3" selected="selected">Datum, absteigend</option>
+								<option value="WEVSO1 WEVSO2 WEVSO3">Datum, aufsteigend</option>
+							</select>
+						</div>
+					</div>
+
+					<div class="form-group | row">
+						<label class="col-md-3">Dateityp</label>
+						<div class="col-md-9">
+							<select id="efxEmailMime" class="form-control" name="m-mime"></select>
+						</div>
+					</div>
+				</form>
+
+				<div id="efxEmailSubmitBusyConditional" class="displaynone text-center"><div >
+  <div class="spinner-border text-primary" role="status"></div>
+  <p class="h5 | text-white font-weight-bold | mt-2">Lädt...</p>
+</div>
+				</div>
+			</div>
+
+			<div class="modal-footer | justify-content-center">
+				<button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button>
+				<button type="button" class="btn btn-primary | efxEmailSubmitOKConditional" id="SubmitEmail">Email senden</button>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- END portal/components/mail/mail-modal.tt.html -->
+
+<!-- START portal/components/savecollection/savecollection-modal.tt.html -->
+<div class="modal fade" id="savecollection" tabindex="-1" role="dialog" aria-labelledby="efxSaveCollectionHeader">
+  <div class="modal-dialog modal-lg modal-dialog-scrollable modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+				<h5 class="modal-title" id="efxSaveCollectionHeader">Ausgewählte Artikel als Merkliste speichern</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+
+			<div class="modal-body">
+				<h2>
+					<span class="efxSelectionCounter">${SelectedRecords}</span>
+					<span>ausgewählte Elemente</span>
+				</h2>
+				<form name="savecollectionform">
+					<div class="form-group">
+						<label for="name">Geben Sie einen Namen für Ihre Merkliste ein:</label>
+						<input type="text" class="form-control" name="efxCollectionName">
+					</div>
+
+					<div id="savecollectionalert"></div>
+
+					<div class="alert alert-info | text-center | displaynone" id="efxSaveCollectionConditional">
+						<div class="icon-wrapper">
+							<span class="icon">
+								<i class="fas fa-check"></i>
+							</span>
+							<span class="icon-text">Merkliste gespeichert</span>
+						</div>
+					</div>
+				</form>
+			</div>
+
+			<div class="modal-footer | justify-content-center">
+				<button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button>
+				<button type="button" class="btn btn-primary" id="efxSaveCollectionTrigger">Merkliste speichern</button>
+			</div>
+		</div>
+  </div>
+</div>
+<!-- END portal/components/savecollection/savecollection-modal.tt.html -->
+
+<!-- START portal/components/search/savesearch-modal.tt.html -->
+<div class="modal | fade" id="savesearch" tabindex="-1" role="dialog" aria-labelledby="efxSaveSearchHeader">
+  <div class="modal-dialog modal-lg modal-dialog-scrollable modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+				<h5 class="modal-title" id="efxSaveSearchHeader">
+					<span class="efxSaveSearchConditional | displaynone">Suche speichern					</span>
+					<span class="efxSaveAlertConditional | displaynone">Suche im Profildienst einrichten					</span>
+				</h5>
+
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+
+			<div class="modal-body">
+				<form name="savesearchform">
+					<div class="form-group">
+						<label for="name" class="efxSaveSearchConditional | displaynone">Geben Sie einen Namen für Ihre Suche ein:</label>
+						<label for="name" class="efxSaveAlertConditional | displaynone">Geben Sie einen Namen für Ihr Profil ein und erhalten Sie zukünftig E-Mails, wenn es Neuigkeiten gibt zu Ihrer Suche gibt:</label>
+						<input type="text" class="form-control" id="name" name="efxSearchName">
+					</div>
+
+					<div id="savesearcherror"></div>
+					<div id="savealerterror"></div>
+
+				<div class="alert alert-success | text-center | displaynone efxSearchSavedConditional">
+					<div class="icon-wrapper justify-content-center">
+						<span class="icon">
+							<i class="fas fa-check"></i>
+						</span>
+						<span class="icon-text">Suche gespeichert</span>
+					</div>
+				</div>
+				
+				<div class="alert alert-success | text-center | displaynone efxAlertSavedConditional">
+					<div class="icon-wrapper justify-content-center">
+						<span class="icon">
+							<i class="fas fa-check"></i>
+						</span>
+						<span class="icon-text">Das Profil wurde gespeichert!<br>Die Einstellungen für die E-Mail-Benachrichtigung kann im Profildienst vorgenommen werden.</span>
+					</div>
+				</div>
+				</form>
+				</div>
+				<div class="modal-footer | justify-content-center">
+					<button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button>
+					<button type="button" class="btn btn-primary | displaynone" id="efxSaveSearchTrigger">
+						<div class="icon-wrapper">
+							<span class="icon">
+								<i class="fas fa-save"></i>
+							</span>
+							<span class="icon-text">Suche speichern</span>
+						</div>
+					</button>
+					<button type="button" class="btn btn-primary | displaynone" id="efxSaveAlertTrigger">
+						<div class="icon-wrapper">
+							<span class="icon">
+								<i class="fas fa-magnifying-glass-arrow-right"></i>
+							</span>
+							<span class="icon-text">Profil einrichten</span>
+						</div>
+					</button>
+				</div>
+				</div>
+				</div>
+				</div>
+				<!-- END portal/components/search/savesearch-modal.tt.html -->
+
+<!-- START portal/components/search/rss-modal.tt.html -->
+<script type="text/javascript">
+
+	function setID() {
+		const id = Math.random().toString(36).substring(4,8) + Date.now().toString(36).substring(4,8)
+		$('#rssID').val(id)
+		$('#resultLink').val("https://www.landtag.rlp.de/cgi-bin/pardok-cache.pl?id=" + id)
+	}
+	function clearRSSfields() {
+		$('#rssID').val('')
+		$('#efxSearchNameRSS').val('')
+	}
+	function copyRSSlink(){
+    var content = $('#resultLink').val()
+    navigator.clipboard.writeText(content)
+        .then(() => {
+        console.log("Link in Zwischenablage kopiert.")
+    })
+        .catch(err => {
+        console.log('Es ist ein Problem beim Kopieren aufgetreten.', err);
+    })
+	}
+</script>
+<div class="modal | fade" id="savesearchrss" tabindex="-1" role="dialog" aria-labelledby="efxSaveSearchHeaderRSS">
+  <div class="modal-dialog modal-lg modal-dialog-scrollable modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+				<h5 class="modal-title" id="efxSaveSearchHeaderRSS">
+					Save Search or Create email alert					
+				</h5>
+
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close" onclick="clearRSSfields()">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+
+			<div class="modal-body">
+				<form name="savesearchrssform" id="submit2starform" action="/cgi-bin/submit2star" method="post">
+					<!-- <input name="*DRYRUN" value="1" type="hidden"> -->
+					<input name="ID" value="" id="rssID" type="hidden">
+					<input name="*DB" value="SA.RSSPROFIL" type="hidden">
+					<input name="*DEBUG" value="1" type="hidden">					
+					<input name="*VALIDATION" value="null" type="hidden">
+
+					<div class="form-group | efxRssInputConditional">
+						<label for="name">Geben Sie einen Namen für Ihr RSS-Feed ein</label>
+						<input type="text" class="form-control" id="efxSearchNameRSS" name="NAME" onkeypress="setID()">
+					</div>				
+
+					<div id="savesearchrsserror"></div>
+
+					<div class="alert alert-success | text-center | displaynone | efxRssSavedConditional">
+						<div class="icon-wrapper justify-content-center">
+							<span class="icon">
+								<i class="fas fa-check"></i>
+							</span>
+							<span class="icon-text">Ihr RSS-Feed Link:</span>
+						</div>												
+					</div>	
+					
+					<div class="form-group | displaynone | efxRssSavedConditional">
+						<input type="text" class="form-control" value="" id="resultLink" disabled>
+					</div>
+				</form>
+			</div>
+			<div class="modal-footer | justify-content-center">
+				<button type="button" class="btn btn-secondary" data-dismiss="modal" onclick="clearRSSfields()">Schließen</button>
+
+				
+
+				
+
+				
+					
+					<button type="button" class="btn btn-primary | displaynone" id="efxSaveGeneric1SearchTriggerRSS">
+						<div class="icon-wrapper">
+							<span class="icon">
+								<i class="fas fa-rss"></i>
+							</span>
+							<span class="icon-text">RSS-Feed speichern</span>
+						</div>
+					</button>
+				
+				
+					
+					<button type="button" class="btn btn-primary | displaynone" id="efxSaveGeneric2SearchTriggerRSS">
+						<div class="icon-wrapper">
+							<span class="icon">
+								<i class="fas fa-rss"></i>
+							</span>
+							<span class="icon-text">RSS-Feed speichern</span>
+						</div>
+					</button>
+				
+				
+					
+					<button type="button" class="btn btn-primary | displaynone" id="efxSaveGeneric3SearchTriggerRSS">
+						<div class="icon-wrapper">
+							<span class="icon">
+								<i class="fas fa-rss"></i>
+							</span>
+							<span class="icon-text">RSS-Feed speichern</span>
+						</div>
+					</button>
+				
+				
+					
+					<button type="button" class="btn btn-primary | displaynone" id="efxSaveGeneric4SearchTriggerRSS">
+						<div class="icon-wrapper">
+							<span class="icon">
+								<i class="fas fa-rss"></i>
+							</span>
+							<span class="icon-text">RSS-Feed speichern</span>
+						</div>
+					</button>
+				
+				
+					
+					<button type="button" class="btn btn-primary | displaynone" id="efxSaveGeneric5SearchTriggerRSS">
+						<div class="icon-wrapper">
+							<span class="icon">
+								<i class="fas fa-rss"></i>
+							</span>
+							<span class="icon-text">RSS-Feed speichern</span>
+						</div>
+					</button>
+				
+				
+				<button type="button" class="btn btn-primary | displaynone | efxRssSavedConditional" onclick="copyRSSlink()">
+					<div class="icon-wrapper">
+						<span class="icon">
+							<i class="fas fa-copy"></i>
+						</span>
+						<span class="icon-text">Link kopieren</span>
+					</div>
+				</button>
+			</div>
+		</div>
+  </div>
+</div>
+<!-- END portal/components/search/rss-modal.tt.html -->
+
+<!-- START portal/components/report/custom/custom-modal.tt.html -->
+<div class="modal | fade" id="custommodal" tabindex="-1" role="dialog" aria-labelledby="efxCustomModalHeader">
+  <div class="modal-dialog modal-lg modal-dialog-scrollable modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="efxCustomModalHeader">Erstellen und verwalten Sie Ihre Formate</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form name="CreateCustomReportForm">
+          <small class="text-muted">Select fields in the list of available fields and add it to the list of selected fields. Use SHIFT+click to select multiple fields. Enter a name and click save to save your format and display your search results in this format.</small>
+          <div class="row" style="margin-top: 15px">
+            <div class="col-sm-6">
+              <label for="choices">Verfügbare Felder</label>
+              <br>
+            </div>
+            <div class="col-sm-6">
+              <label for="fields">Ausgewählte Felder</label>
+            </div>
+          </div>
+          <div class="row" style="margin-bottom: 15px">
+            <div class="col-sm-4">
+              <select id="choices" class="form-control" name="choices" size="7" multiple="multiple">
+                <option value="oWV010">Dokumentnummer</option>
+<option value="TITD">Titel (deutsch)</option>
+<option value="TITE">Titel (englisch)</option>
+<option value="TITF">Titel (französisch)</option>
+<option value="TITA">Titel (andere Sprachen)</option>
+<option value="TITR">Titel (russisch)</option>
+<option value="TITC">Titel (chinesisch)</option>
+<option value="PROT">Schutzklasse</option>	
+<option value="oWV005">Ausgabedatum</option>	     
+<option value="CC">Land</option>
+<option value="ID">ID Nr.</option>
+<option value="AKTU">Status</option>
+<option value="RWDDE">Grund der Zurückziehung (dt.)</option>
+<option value="RWDEN">Grund der Zurückziehung (engl.)</option>
+<option value="RDAT">Erfassungsdatum</option>
+<option value="APPR">Freigegeben</option>
+<option value="PDATE">Publikationsdatum</option>
+<option value="DART">Dokumentart</option>
+<option value="REFD">Zusammenfassung (deutsch)</option>
+<option value="REFE">Zusammenfassung (englisch)</option>
+<option value="REFF">Zusammenfassung (französisch)</option>
+<option value="REFA">Abstract (other language)</option>
+<option value="GUAB">Gültig ab</option>
+<option value="BDAT">Bestätigungsdatum</option>
+<option value="EFRI">Einspruchsfrist</option>
+<option value="ZDAT">Zurückziehungsdatum</option>
+<option value="DAEN">Dokument ändert</option>
+<option value="HYDO">Hyperlink Dokument ändert</option>
+<option value="GDUR">Geändert durch Berichtigung</option>
+<option value="HYGE">Hyperlink geändert durch Berichtigung</option>
+<option value="VDOK">Vorgängerdokument</option>
+<option value="HYVO">Hyperlink Vorgängerdokument</option>
+<option value="NACH">Nachfolgedokument</option>
+<option value="HYNA">Hyperlink Nachfolgedokument</option>
+<option value="VENT">Vorgängerentwurf</option>
+<option value="INTL">Internationale Übereinstimmung</option>
+<option value="HYIN">Hyperlink internationale Übereinstimmung</option>
+<option value="VEHI">Versionshistorie</option>
+<option value="HYVE">Hyperlink Versionshistorie</option>
+<option value="RECH">Recht</option>
+<option value="EINF">Einführungsbeitrag</option>
+<option value="BEME">Bemerkungen (deutsch)</option>
+<option value="BEMEE">Bemerkungen (english)</option>
+<option value="BEMEF">Bemerkungen (französisch)</option>
+<option value="BEMEA">Bemerkungen (andere Sprachen)</option>
+<option value="ZITA">Zitat</option>
+<option value="VOLL">Volltext</option>
+<option value="PRIQ">Source</option>
+<option value="ABGE">Auch abgedruckt in</option>
+<option value="ZERT">Zertifiziert</option>
+<option value="ORIG">Originalsprache</option>
+<option value="UEBE">Übersetzungen</option>
+<option value="HERG">Herausgeber</option>
+<option value="AUTO">Autor</option>
+<option value="BEZQ">Bezugsquelle</option>
+<option value="SEIT">Seiten</option>
+<option value="PREI">Preis</option>
+<option value="SBED.main">Suchbegriffe (deutsch)</option>
+<option value="SBEE">Suchbegriffe (englisch)</option>
+<option value="SBEF">Suchbegriffe (französisch)</option>
+<option value="SBEA">Suchbegriffe (andere Sprachen)</option>
+<option value="oWVYSYDO">Synonyme Dokumentnummer</option>
+<option value="EXNOT">Bemerkungen</option>
+<option value="ERDAT">Entry date</option>
+<option value="NREF">Normative Verweise</option>
+<option value="PASS">Passwort</option>
+<option value="LEEN">LE Einheit</option>
+<option value="MATE">Material</option>
+<option value="NRPES">Nenndruck</option>
+<option value="DIAM">Rohrdurchmesser</option>
+<option value="TEMP">Temperatur</option>
+<option value="VALVE">Armaturentyp</option>
+<option value="FLUID">Fluide</option>
+<option value="PLANT">Anlagentyp</option>
+<option value="oWMED1">Angehängte Dokumente</option>
+<option value="PERS">Beteiligte Personen</option>
+<option value="DOCUM">Transfer to Documentum done?</option>
+<option value="NOTES">Interne Kommentierung</option>
+<option value="oWV025">Zugriffsberechtigte für PDF Dokument</option>
+<option value="oWV015">Abonnenten Änderungsdienst</option>                
+              </select>
+            </div>
+            <div class="col-sm-2" style="padding: 0px 5px 0px 5px">
+              <a href="#" onclick="glAdd('choices', 'fields')">
+                <div class="icon-wrapper">
+                  <span class="icon">
+                    <i class="fas fa-caret-right fa-lg"></i>
+                  </span>
+                  <span class="icon-text">Hinzufügen</span>
+                </div>
+              </a>
+              <br>
+              <a href="#" onclick="glRemove('fields','choices')">
+                <div class="icon-wrapper">
+                  <span class="icon">
+                    <i class="fas fa-caret-right fa-lg"></i>
+                  </span>
+                  <span class="icon-text">Entfernen</span>
+                </div>
+              </a>
+            </div>
+            <div class="col-sm-4">
+              <select id="fields" class="form-control" name="fields" size="7" multiple="multiple">
+              </select>
+            </div>
+            <div class="col-sm-2" style="padding: 0px 5px 0px 5px">
+              <a href="#" onclick="glUp('fields')">
+                <div class="icon-wrapper">
+                  <span class="icon">
+                    <i class="fas fa-caret-up fa-lg"></i>
+                  </span>
+                  <span class="icon-text">Nach oben</span>
+                </div>
+              </a>
+              <br>
+              <a href="#" onclick="glDown('fields')">
+                <div class="icon-wrapper">
+                  <span class="icon">
+                    <i class="fas fa-caret-down fa-lg"></i>
+                  </span>
+                  <span class="icon-text">Nach unten</span>
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <label for="customname">Enter a name for your format:</label>
+          <div class="row">
+            <div class="col-sm-10">
+              <input type="text" class="form-control" id="customname" name="customname">
+            </div>
+            <div class="col-sm-2">
+              <button type="button" class="btn btn-primary" id="CreateCustomReport">Speichern</button>
+            </div>
+          </div>
+        </form>
+        <hr>
+        <h3>Meine gespeicherten Formate</h3>
+        <div id="efxCustomModalReport" style="height: 15em;overflow: auto;border:1px solid silver" class="customreports-display">
+          <!-- loaded list of searches goes here-->
+        </div>
+      </div>
+      <div class="modal-footer | justify-content-center">
+        <a href="/portal/components/report/custom/custom-list.tt.html" id="customrefresh" class="btn btn-outline-primary displaynone">Aktualisieren</a>
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- END portal/components/report/custom/custom-modal.tt.html -->
+
+<div class="modal | fade" id="indexModal" tabindex="-1" role="dialog" aria-labelledby="indexModal" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-scrollable modal-dialog-centered" role="document">
+    <div class="modal-content">
+    </div>
+  </div>
+</div>
+
+
+  
+  
+
+
+<!-- START portal/components/modal/generic-modal.tt.html -->
+  <div class="modal | fade" id="genericModal" tabindex="-1" role="dialog" aria-labelledby="efxGenericModalHeader" aria-hidden="true">
+    
+    <div id="efxGenericModalReport" class="modal-dialog modal-lg modal-dialog-scrollable modal-dialog-centered" role="document"></div>
+    
+  </div>
+<!-- END portal/components/modal/generic-modal.tt.html -->
+
+<!-- START portal/components/modal/generic-modal.tt.html -->
+  <div class="modal | fade" id="genericModalVideo" tabindex="-1" role="dialog" aria-labelledby="efxGenericModalVideoHeader" aria-hidden="true">
+    <div class="container | position-absolute | translateCenter">
+    <div id="efxGenericModalVideoReport" class="modal-dialog modal-xl modal-dialog-scrollable modal-dialog-centered" role="document"></div>
+    </div>
+  </div>
+<!-- END portal/components/modal/generic-modal.tt.html -->
+
+<!-- START portal/components/modal/generic-modal.tt.html -->
+  <div class="modal | fade" id="genericModalLarge" tabindex="-1" role="dialog" aria-labelledby="efxGenericModalLargeHeader" aria-hidden="true">
+    <div class="container | position-absolute | translateCenter">
+    <div id="efxGenericModalLargeReport" class="modal-dialog modal-xxl-fixed modal-dialog-scrollable modal-dialog-centered" role="document"></div>
+    </div>
+  </div>
+<!-- END portal/components/modal/generic-modal.tt.html -->
+
+<!-- START portal/components/modal/generic-modal-loading.tt.html --> 
+<div id="genericModalLoading" class="d-none">
+  <div class="modal-content">
+    <div class="modal-header">
+      <h5 class="modal-title"></h5>
+      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+        <span aria-hidden="true">&times;</span>
+      </button>
+    </div>
+    <div class="modal-body">
+      
+        <div class="row">
+          <div class="col">
+            <div class="text-center"><div style="margin: 50px auto;">
+  <div class="spinner-border text-primary" role="status"></div>
+  <p class="h5 | text-primary font-weight-bold | mt-2">Lädt...</p>
+</div>
+            </div>
+          </div>
+        </div>
+      
+    </div>
+  </div>
+</div>
+<!-- END portal/components/modal/generic-modal-loading.tt.html -->
+
+
+<div class="modal fade" id="popUpModal" tabindex="-1" role="dialog" aria-labelledby="popUpModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-scrollable modal-dialog-centered" role="document">
+    <div class="modal-content"></div>
+  </div>
+</div>
+<!-- END portal/components/browse/browse-modal-include.tt.html -->
+    <!-- START portal/components/browse/browse-pagination.tt.html -->
+
+  
+    <nav id="efxPagerTemplate" class="displaynone" aria-label="Results Pager">
+      <ul class="pagination pagination-sm | justify-content-end | mb-0">
+        <li class="page-item">
+          <a class="page-link" href="#">
+            <i class="fas fa-fast-backward" aria-hidden="true"></i>
+          </a>
+        </li>
+        <li class="page-item">
+          <a class="page-link" href="#" aria-label="Previous">
+            <i class="fas fa-backward" aria-hidden="true"></i>
+            <span class="sr-only">Previous</span>
+          </a>
+        </li>
+        <li class="page-item | active">
+          <a class="page-link" href="#">%page%<span class="sr-only">current</span></a>
+        </li>
+        <li class="page-item">
+          <a class="page-link" href="#">%page%</a>
+        </li>
+        <li class="page-item" aria-label="Next">
+          <a class="page-link" href="#">
+            <i class="fas fa-forward" aria-hidden="true"></i>
+            <span class="sr-only">Next</span>
+          </a>
+        </li>
+        <li class="page-item">
+          <a class="page-link" href="#">
+            <i class="fas fa-fast-forward" aria-hidden="true"></i>
+          </a>
+        </li>
+      </ul>
+    </nav>
+  
+
+<!-- END portal/components/browse/browse-pagination.tt.html -->
+  </div>
+</body>
+</html>

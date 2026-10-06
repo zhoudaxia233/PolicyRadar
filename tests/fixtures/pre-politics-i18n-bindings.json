@@ -1,14 +1,14 @@
 {
   "policies": {
     "de-rent-cap-2029": {
-      "version": 4,
-      "hash": "a8aaed29da706819049033c69513d142053a8de77a1facff034925f2e675bc4f",
+      "hash": "13b79a564a090957c6be8fc20304062287c42093381d953cd0ec395bdda4677d",
       "originalLanguage": "de",
       "verbatim": [
         "Bundesregierung",
         "Deutscher Bundestag",
         "CDU/CSU、SPD"
-      ]
+      ],
+      "version": 3
     },
     "de-minimum-wage-2026": {
       "hash": "cd128c9e56594241b48004cf4ca8454107226a34be083bf32fef8142da251b02",
@@ -647,15 +647,14 @@
       "originalLanguage": "it"
     },
     "ch-vd-energy-law": {
-      "version": 2,
-      "hash": "36d634c1d47ecf4f08339db4847626cc9cb25a1b0466e4bac5f9e7131805b190",
-      "originalLanguage": "fr",
+      "version": 1,
+      "hash": "f4bd26791372dd21f3f38cfe4aff8b8fb4cdc8f076e7942180ee2abd07ad79dd",
       "verbatim": [
         "Loi vaudoise sur l’énergie adoptée le 3 février 2026",
         "www.vd.ch",
-        "Législation sur l’énergie jusqu’au 31 décembre 2026",
-        "Grand Conseil du canton de Vaud"
-      ]
+        "Législation sur l’énergie jusqu’au 31 décembre 2026"
+      ],
+      "originalLanguage": "fr"
     },
     "ch-vs-fire-inspections": {
       "version": 1,
@@ -753,18 +752,17 @@
       ]
     },
     "it-parental-leave-age-2026": {
-      "version": 3,
-      "hash": "2b57744b36b207a3d7ec1efef570640a10eb5a74c342d3dfd064f9f6c68511d5",
+      "version": 2,
+      "hash": "6bab395fe37599223294923f2058ee0d3106a6ef99306428684c91f4892a8fde",
       "originalLanguage": "it",
       "verbatim": [
         "INPS",
-        "Gazzetta Ufficiale",
-        "Camera dei deputati"
+        "Gazzetta Ufficiale"
       ]
     },
     "it-irpef-second-rate-2026": {
-      "version": 3,
-      "hash": "3ec6ceaa5a66b42c0bb625030100aa961bc4cc537d2f9e0fbf3107584509f46b",
+      "version": 2,
+      "hash": "3bea66e19957c3cf2a32d0c83f252379a2e3b3909245dd4077af09899e6f603c",
       "originalLanguage": "it",
       "verbatim": [
         "Camera dei deputati",
@@ -949,69 +947,46 @@
       ]
     },
     "eu-roaming-2022": {
-      "version": 3,
-      "hash": "fbe6be786fb5892c1d5ae82cc8dd82185ff8f11946d976773c35fbe04a745579",
+      "version": 2,
+      "hash": "6ec7bf457081ba1fe56f259b83de8a95c89d6a94611663f4a7c8f93bcf09949f",
       "originalLanguage": "en",
-      "verbatim": [
-        "欧盟委员会",
-        "德国联邦网络局",
-        "European Parliament"
-      ]
+      "verbatim": []
     },
     "eu-instant-euro-payments-2024": {
-      "version": 3,
-      "hash": "c0317464e9bd4bcfc3fce1ab4fabf4d4ae63f743f917e18d0554f1fbaeb5c985",
+      "version": 2,
+      "hash": "4c8b01f0f00c4be09a9f21458c021b2d43e1df2ab7bae34b507d519084f147f6",
       "originalLanguage": "en",
-      "verbatim": [
-        "欧洲中央银行",
-        "欧盟委员会",
-        "European Parliament"
-      ]
+      "verbatim": []
     },
     "eu-common-charger-2022": {
-      "version": 3,
-      "hash": "bb0d0763cb9d80b2068f0f4f7de4456d4198554e76ecf722b871d8aaf26734c6",
+      "version": 2,
+      "hash": "d5c31b9e26740d1fbec85f6fe3fd8b39009507bb177a723b16a4c5a820c1757a",
       "originalLanguage": "en",
-      "verbatim": [
-        "欧盟委员会",
-        "European Parliament"
-      ]
+      "verbatim": []
     },
     "eu-digital-services-act-2022": {
-      "version": 2,
-      "hash": "0b3a2c2076c57a1d7c6c6142f3cd413ba9b98266fb6a2c377edba5105aa2f8b9",
+      "version": 1,
+      "hash": "ac7b6a444d7334e68831ee9ec869afdbd9eaa6881ea48898aeca480a5534eda8",
       "originalLanguage": "en",
-      "verbatim": [
-        "欧盟委员会",
-        "European Parliament"
-      ]
+      "verbatim": []
     },
     "eu-digital-markets-act-2022": {
-      "version": 2,
-      "hash": "7e333a5088bec2000dfeb79893b61e9553a1688beeae4e50832f637835150e49",
+      "version": 1,
+      "hash": "531f7515fc0d37c38340f9fc75ebb4d93a365154485ac85641d2fa496e7a2a52",
       "originalLanguage": "en",
-      "verbatim": [
-        "欧盟委员会",
-        "European Parliament"
-      ]
+      "verbatim": []
     },
     "eu-data-act-2023": {
-      "version": 2,
-      "hash": "e20864e45a5882b051657f2c2da32d178d9ea1ace0e838abee8afdd262f2e00c",
+      "version": 1,
+      "hash": "b82004b826407ae80abdd2e14d5bfce7aa0f3e0956375b8e95281551f773bca3",
       "originalLanguage": "en",
-      "verbatim": [
-        "欧盟委员会",
-        "European Parliament"
-      ]
+      "verbatim": []
     },
     "eu-product-safety-2023": {
-      "version": 2,
-      "hash": "6877f6a6052b74d59d1209c5f3d22caef4bd51cd8a52c0d5342889625faad313",
+      "version": 1,
+      "hash": "a1a08d45e76e1c2617ce15ac99a0e278ad8f6a6b051f1129c13be71bca1ca70d",
       "originalLanguage": "en",
-      "verbatim": [
-        "欧盟委员会",
-        "European Parliament"
-      ]
+      "verbatim": []
     },
     "eu-accessibility-2019": {
       "version": 1,
@@ -1020,13 +995,10 @@
       "verbatim": []
     },
     "eu-right-to-repair-2024": {
-      "version": 2,
-      "hash": "affc01570123ea4906cd697a4ad3e7404b595ac5c6a95bb8717ae793947e8812",
+      "version": 1,
+      "hash": "91a63c0fc33fc400ac9b12550d9bda173e57f7e37fc9af2f867476f1a0c14798",
       "originalLanguage": "en",
-      "verbatim": [
-        "欧盟委员会",
-        "European Parliament"
-      ]
+      "verbatim": []
     },
     "eu-phone-ecodesign-2023": {
       "version": 1,
@@ -1053,13 +1025,10 @@
       "verbatim": []
     },
     "nl-rent-commission-2027": {
-      "version": 2,
-      "hash": "6f715f474f63943a77d9a8033576d2e504819599240c2075d91ea97a8c6a405a",
+      "version": 1,
+      "hash": "2041107f8496dc14fe8178a555e9cff1e994b483fe31e0afd55950b04f5dddf6",
       "originalLanguage": "nl",
-      "verbatim": [
-        "荷兰政府",
-        "Eerste Kamer der Staten-Generaal"
-      ]
+      "verbatim": []
     },
     "nl-energy-emergency-fund-2027": {
       "version": 1,
@@ -1461,22 +1430,20 @@
       ]
     },
     "eu-ai-transparency-august-2026": {
-      "version": 2,
-      "hash": "df279f608c20461fc5262cf2e7f1251f3555e06e45e21b80ce6b600e2cb14b11",
+      "version": 1,
+      "hash": "91f12affaea45d28d64c624a85b21bc1ce8435b1d091a048ec6c8193c61937e8",
       "originalLanguage": "en",
       "verbatim": [
         "European Commission",
-        "European Union",
-        "European Parliament"
+        "European Union"
       ]
     },
     "eu-packaging-pfas-august-2026": {
-      "version": 2,
-      "hash": "fbc0d9a1f7232a5e2584846915873516abb1acca7485c0af8d7ae38e1bf26f52",
+      "version": 1,
+      "hash": "cd87e78e2502f0ec4ea6c3682485bf8ad3bb8fc35266799d78a0d3094e06aaa6",
       "originalLanguage": "en",
       "verbatim": [
-        "European Commission",
-        "European Parliament"
+        "European Commission"
       ]
     },
     "it-birth-bonus-august-deadline-2026": {
@@ -1752,12 +1719,11 @@
       ]
     },
     "de-active-pension-tax-2026": {
-      "version": 2,
-      "hash": "62b449d8ad59fd6bec2d0ac0489bbc511d35f9559be3e1038890e82d51656686",
+      "version": 1,
+      "hash": "b0dfe92e8e2ef797a06c9cb766e794cdaddf6fb8f1b25e94c567c36ca974cc09",
       "originalLanguage": "de",
       "verbatim": [
-        "Presse- und Informationsamt der Bundesregierung",
-        "Deutscher Bundestag"
+        "Presse- und Informationsamt der Bundesregierung"
       ]
     },
     "de-electronic-presence-notarisation-2026": {
@@ -1914,12 +1880,11 @@
       ]
     },
     "de-environmental-remedies-october-2026": {
-      "version": 2,
-      "hash": "3bd34025220ff8f689d72dece24eef25d40c32b4a4b11318744612458942910b",
+      "version": 1,
+      "hash": "a1c40b3807bfa1f6a86d968cfac7ac6fd237d34e8aa73da452cb5449de7bf03e",
       "originalLanguage": "de",
       "verbatim": [
-        "Bundesgesetzblatt",
-        "Deutscher Bundestag"
+        "Bundesgesetzblatt"
       ]
     },
     "be-international-projects-2027": {

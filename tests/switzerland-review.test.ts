@@ -1,3 +1,4 @@
+// Fixed historical exports use the reviewed bindings saved before later data updates.
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
@@ -67,7 +68,7 @@ test('Swiss corrections preserve immutable history and other countries while kee
  for(const country of ['DE','FR','NL'])for(const key of ['lastReviewAt','reviewNote'])assert.equal(data.status.settings[key+':'+country],createStaticData(before).status.settings[key+':'+country]);
  const correctedChecks=new Set([...shells,retired]);
  for(const check of before.tables.checks)if(!correctedChecks.has(check.url))assert.deepEqual(after.tables.checks.find((c:{url:string})=>c.url===check.url),check);
- const localization=createLocalization(data,read('../data/translations/content.json'),read('../data/translations/bindings.json'));
+ const localization=createLocalization(data,read('../data/translations/content.json'),read('./fixtures/pre-politics-i18n-bindings.json'));
  for(const p of data.policies.filter(p=>p.region.startsWith('CH'))){
   assert.equal(localization.policies[p.id],'current',p.id);
   for(const locale of ['de','en'] as const){const translated=localizePolicy(p,locale,localization);assert.equal(translated.nextDate,p.nextDate);if(changed.has(p.id))assert.notEqual(translated.nextLabel,p.nextLabel);}

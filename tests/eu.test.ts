@@ -1,3 +1,4 @@
+// Fixed historical exports use the reviewed bindings saved before later data updates.
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
@@ -18,7 +19,7 @@ const roamingReview=read('data/exports/2026-10-04-eu-roaming-review-132839/polic
 const path='data/exports/2026-10-04-eu-payment-review-134352/policy-radar-export.json';
 const before=read('data/exports/2026-10-04-italy-evidence-review-124438/policy-radar-export.json');
 const after=read(path),data=createStaticData(after),old=createStaticData(before);
-const localization=createLocalization(data,read('data/translations/content.json'),read('data/translations/bindings.json'));
+const localization=createLocalization(data,read('data/translations/content.json'),read('tests/fixtures/pre-politics-i18n-bindings.json'));
 const policies=data.policies.filter(p=>p.region==='EU');
 
 test('translated prose uses local date formats',()=>{
@@ -30,7 +31,7 @@ test('the German roaming correction quotes the actual previous event title',()=>
  const correction=localizePolicy(roaming,'de',localization).events.find(e=>e.kind==='correction')!;
  assert(correction.detail.includes('„'+localization.messages['要求开始适用'][0]+'“'));
  assert.deepEqual(after.tables.policies.find((p:{id:string})=>p.id===roaming.id),roamingReview.tables.policies.find((p:{id:string})=>p.id===roaming.id));
- assert.equal(createLocalization(createStaticData(roamingReview),read('data/translations/content.json'),read('data/translations/bindings.json')).policies[roaming.id],'current');
+ assert.equal(createLocalization(createStaticData(roamingReview),read('data/translations/content.json'),read('tests/fixtures/pre-politics-i18n-bindings.json')).policies[roaming.id],'current');
 });
 
 test('instant payments retain all later implementation deadlines as sourced scheduled events',()=>{

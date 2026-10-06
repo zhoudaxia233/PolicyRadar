@@ -9,7 +9,8 @@ const read=(path:string)=>JSON.parse(readFileSync(new URL(path,import.meta.url),
 const before=read('../data/exports/2026-10-04-weekly-integrated/policy-radar-export.json');
 const after=read('../data/exports/2026-10-04-weekly-translated/policy-radar-export.json');
 const data=createStaticData(after);
-const localization=createLocalization(data,read('../data/translations/content.json'),read('../data/translations/bindings.json'));
+// This fixed historical export needs its reviewed bindings, not the latest versions.
+const localization=createLocalization(data,read('../data/translations/content.json'),read('./fixtures/weekly-i18n-bindings.json'));
 const ids=['hb-bremerhaven-advertising-storage-2026','de-verpflichtung-video-2026','de-xbasisdaten-transport-2026','he-hospital-service-groups-2026','he-kita-prize-2027','sh-investment-location-strategy-2026'];
 
 test('weekly translations cover every explanation and announcement in German and English',()=>{

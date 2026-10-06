@@ -1,0 +1,2351 @@
+<!-- Tempo di esecuzione: 250 ms -->
+<!DOCTYPE html lang="it">
+<html  lang="it-IT">
+<head id="Head">
+<meta http-equiv="dategen" content="10:23:45 PM" />
+<meta http-equiv="cache-control" content="max-age=0" />
+<meta http-equiv="cache-control" content="no-cache" />
+<meta http-equiv="expires" content="0" />
+<meta http-equiv="expires" content="Tue, 01 Jan 1980 1:00:00 GMT" />
+<meta http-equiv="pragma" content="no-cache" /><script src="/tarteaucitron/tarteaucitron.min.js"></script>
+<script type="text/javascript">
+    var _paq = window._paq = window._paq || [];
+    _paq.push(['trackPageView']);
+    _paq.push(['enableLinkTracking']);
+    _paq.push(['optUserOut']);
+
+    (function () {
+        var u = "//webanalytics.regione.marche.it/";
+        _paq.push(['setTrackerUrl', u + 'matomo.php']);
+        _paq.push(['setSiteId', '1']);
+
+        // Add this code below within the Matomo JavaScript tracker code
+        // Important: the tracker url includes the /matomo.php
+        var secondaryTrackerUrl = 'https://ingestion.webanalytics.italia.it/matomo.php';
+        var secondaryWebsiteId = 'RBJ3Bbr3X6';
+        // Also send all of the tracking data to this other Matomo server, in website ID 77
+        _paq.push(['addTracker', secondaryTrackerUrl, secondaryWebsiteId]);
+        // That's it!
+
+        var d = document, g = d.createElement('script'), s = d.getElementsByTagName('script')[0];
+        g.type = 'text/javascript'; g.async = true; g.src = u + 'matomo.js'; s.parentNode.insertBefore(g, s);
+    })();
+</script>
+<script>
+    var waitForTrackerCount = 0;
+    function matomoWaitForTracker() {
+        if (typeof _paq === 'undefined' || typeof tarteaucitron === 'undefined') {
+            if (waitForTrackerCount < 40) {
+                setTimeout(matomoWaitForTracker, 250);
+                waitForTrackerCount++;
+                return;
+            }
+        }
+        // Initialise Tarteaucitron after the tracker is loaded script
+        //tarteaucitron.init({
+        //    //optionally add non-default Tarteaucitron configs here
+        //});
+        tarteaucitron.services.MatomoAnalytics = {
+            "key": "MatomoAnalytics",
+            "type": "analytic",
+            "name": "Matomo Analytics",
+            "needConsent": true,
+            "cookies": ['_pk_id', '_pk_sess', '_pk_ref'],
+            "js": function () {
+                "use strict";
+                // When user allow cookie
+                ('Matomo cookies accepted');
+                var _paq = window._paq = window._paq || [];
+                _paq.push(['setConsentGiven']);
+            },
+            "fallback": function () {
+                "use strict";
+                // when use deny cookie
+                ('Matomo cookies rejected');
+                var _paq = window._paq = window._paq || [];
+                _paq.push(['forgetConsentGiven']);
+                _paq.push(['deleteCookies']);
+            }
+        };
+        // Ensure that tarteaucitron is loaded before pushing the job
+        tarteaucitron.job = tarteaucitron.job || [];
+        tarteaucitron.job.push('MatomoAnalytics');
+    }
+    document.addEventListener('DOMContentLoaded', matomoWaitForTracker);
+
+</script>
+<script type="text/javascript">
+    tarteaucitron.init({
+        "privacyUrl": "/Informativa-privacy", /* Privacy policy url */
+        "bodyPosition": "top", /* top to bring it as first element for accessibility */
+
+        "hashtag": "#tarteaucitron", /* Open the panel with this hashtag */
+        "cookieName": "tarteaucitron", /* Cookie name */
+
+        "orientation": "middle", /* Banner position (top - bottom) */
+
+        "groupServices": true, /* Group services by category */
+        "showDetailsOnClick": true, /* Click to expand the description */
+        "serviceDefaultState": "wait", /* Default state (true - wait - false) */
+
+        "showAlertSmall": false, /* Show the small banner on bottom right */
+        "cookieslist": false, /* Show the cookie list in a mini banner */
+        "cookieslistEmbed": false, /* Show the cookie list on the control panel */
+
+        "closePopup": true, /* Show a close X on the banner */
+
+        "showIcon": true, /* Show cookie icon to manage cookies */
+        //"iconSrc": "", /* Optionnal: URL or base64 encoded image */
+        "iconPosition": "TopRight", /* Position of the cookie (BottomRight - BottomLeft - TopRight - TopLeft) */
+
+        "adblocker": false, /* Show a Warning if an adblocker is detected */
+
+        "DenyAllCta": true, /* Show the deny all button */
+        "AcceptAllCta": true, /* Show the accept all button */
+        "highPrivacy": true, /* HIGHLY RECOMMANDED Disable auto consent */
+        "alwaysNeedConsent": false, /* Ask the consent for "Privacy by design" services */
+
+        "handleBrowserDNTRequest": false, /* If Do Not Track == 1, disallow all */
+
+        "removeCredit": true, /* Remove credit link */
+        "moreInfoLink": false, /* Show more info link */
+
+        "useExternalCss": false, /* Expert mode: do not load the tarteaucitron.css file */
+        "useExternalJs": false, /* Expert mode: do not load the tarteaucitron js files */
+
+        //"cookieDomain": ".my-multisite-domaine.fr", /* Shared cookie for multisite */
+
+        "readmoreLink": "/Informativa-privacy", /* Change the default readmore link */
+
+        "mandatory": true, /* Show a message about mandatory cookies */
+        "mandatoryCta": false, /* Show the disabled accept button when mandatory on */
+
+        //"customCloserId": "", /* Optional a11y: Custom element ID used to open the panel */
+
+        "googleConsentMode": true, /* Enable Google Consent Mode v2 for Google ads & GA4 */
+        "bingConsentMode": true, /* Enable Bing Consent Mode for Clarity & Bing Ads */
+        "softConsentMode": false, /* Soft consent mode (consent is required to load the services) */
+
+        "dataLayer": false, /* Send an event to dataLayer with the services status */
+        "serverSide": false, /* Server side only, tags are not loaded client side */
+
+        "partnersList": true /* Show the number of partners on the popup/middle banner */
+    });
+</script>
+<script>
+    tarteaucitron.user.matomoId = 1;
+    (tarteaucitron.job = tarteaucitron.job || []).push('matomo');
+</script>
+<script>tarteaucitron.user.matomoHost = '//webanalytics.regione.marche.it/';</script><title>
+	Regione Marche
+</title><meta id="MetaRobots" name="ROBOTS" content="INDEX, FOLLOW" /><link href="/Resources/Shared/stylesheets/dnndefault/7.0.0/default.css?cdv=250" type="text/css" rel="stylesheet"/><link href="/Portals/_default/admin.css?cdv=250" type="text/css" rel="stylesheet"/><link href="/DesktopModules/Admin/Authentication/module.css?cdv=250" type="text/css" rel="stylesheet"/><link href="/DesktopModules/Blog/module.css?cdv=250" type="text/css" rel="stylesheet"/><link href="/Resources/Search/SearchSkinObjectPreview.css?cdv=250" type="text/css" rel="stylesheet"/><link href="/Portals/_default/Skins/Bravo/skin.css?cdv=250" type="text/css" rel="stylesheet"/><link href="/Portals/_default/Containers/Bravo/container.css?cdv=250" type="text/css" rel="stylesheet"/><link href="/Portals/0/portal.css?cdv=250" type="text/css" rel="stylesheet"/><link href="/Portals/0/first_slider.css?cdv=250" type="text/css" rel="stylesheet"/><link href="/DesktopModules/DDRMenu/RM_Accordion/RM_accordion.css?cdv=250" type="text/css" rel="stylesheet"/><link href="/DesktopModules/Blog/Templates/RM_PrimoPiano_latestPosts/template.css?cdv=250" type="text/css" rel="stylesheet"/><link href="/DesktopModules/Blog/Templates/RM_PrimoPiano_latestPosts/css/jquery.fancybox-1.3.4.css?cdv=250" type="text/css" rel="stylesheet"/><link href="/DesktopModules/Blog/Templates/RM_PrimoPiano_latestPosts/css/shCore.css?cdv=250" type="text/css" rel="stylesheet"/><link href="/DesktopModules/Blog/Templates/RM_PrimoPiano_latestPosts/css/shCoreDefault.css?cdv=250" type="text/css" rel="stylesheet"/><link href="/DesktopModules/Blog/Templates/RM_PrimoPiano_latestPosts/css/tipTip.css?cdv=250" type="text/css" rel="stylesheet"/><link href="/DesktopModules/Blog/Templates/RM_EIR_OPPterr_latestPosts/template.css?cdv=250" type="text/css" rel="stylesheet"/><link href="/DesktopModules/Blog/Templates/RM_EIR_OPPterr_latestPosts/css/jquery.fancybox-1.3.4.css?cdv=250" type="text/css" rel="stylesheet"/><link href="/DesktopModules/Blog/Templates/RM_EIR_OPPterr_latestPosts/css/shCore.css?cdv=250" type="text/css" rel="stylesheet"/><link href="/DesktopModules/Blog/Templates/RM_EIR_OPPterr_latestPosts/css/shCoreDefault.css?cdv=250" type="text/css" rel="stylesheet"/><link href="/DesktopModules/Blog/Templates/RM_EIR_OPPterr_latestPosts/css/tipTip.css?cdv=250" type="text/css" rel="stylesheet"/><script src="/Resources/libraries/jQuery/03_05_01/jquery.js?cdv=250" type="text/javascript"></script><script src="/Resources/libraries/jQuery-Migrate/03_02_00/jquery-migrate.js?cdv=250" type="text/javascript"></script><script src="/Resources/libraries/jQuery-UI/01_12_01/jquery-ui.js?cdv=250" type="text/javascript"></script><!--[if IE 8]><link id="IE8Minus" rel="stylesheet" type="text/css" href="/Portals/_default/Skins/Bravo/css/ie8style.css" /><![endif]--><link rel="wlwmanifest" type="application/wlwmanifest+xml" href="/DesktopModules/Blog/API/Modules/Manifest?TabId=121&amp;ModuleId=6549" />   
+
+		  <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=2.0" /><script>var __uzdbm_1 = "79234040-df32-4635-adc4-11a321aed499";var __uzdbm_2 = "NTM0MTNkZDUtZDNvdS00Yjc2LThlZDMtMGE2YmU5NTk1YjUwJDkxLjYzLjExNi4xNDQ=";var __uzdbm_3 = "7f900079234040-df32-4635-adc4-11a321aed4991-17913182693310-00511e24fa49f42980810";var __uzdbm_4 = "false";var __uzdbm_5 = "uzmx";var __uzdbm_6 = "7fc00034618f5b-0d6d-430d-9d16-3a8b60209ff21-17913182693310-008d511d5471133e5b810";var __uzdbm_7 = "regione.marche.it";</script> <script>   (function (w, d, e, u, c, g, a, b) {     w["SSJSConnectorObj"] = w["SSJSConnectorObj"] || {       ss_cid: c,       domain_info: "auto",     };     w[g] = function (i, j) {       w["SSJSConnectorObj"][i] = j;     };     a = d.createElement(e);     a.async = true;     if (       navigator.userAgent.indexOf('MSIE') !== -1 ||       navigator.appVersion.indexOf('Trident/') > -1     ) {       u = u.replace("/advanced/", "/advanced/ie/");     }     a.src = u;     b = d.getElementsByTagName(e)[0];     b.parentNode.insertBefore(a, b);   })(     window, document, "script", "https://www.regione.marche.it/18f5227b-e27b-445a-a53f-f845fbe69b40/stormcaster.js", "d3ow", "ssConf"   );   ssConf("c1", "https://www.regione.marche.it");   ssConf("c3", "c99a4269-161c-4242-a3f0-28d44fa6ce24");   ssConf("au", "regione.marche.it");   ssConf("cu", "validate.perfdrive.com, ssc"); </script></head>
+<body id="Body">
+    
+    <a href="#main" tabindex="0"></a>
+    <form method="post" action="/In-Primo-Piano/id/1" id="Form" enctype="multipart/form-data">
+<div class="aspNetHidden">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="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" />
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var appPath=''
+//]]>
+</script>
+<script type="text/javascript">
+//<![CDATA[
+var blogService
+jQuery(function ($) {
+ blogService = new BlogService($, {
+   serverErrorText: 'An error occurred while processing the request. Please try again later.',
+   serverErrorWithDescriptionText: 'An error occurred while processing the request: ',
+   errorBoxId: '#blogServiceErrorBox6549'
+  },
+  6549);
+});
+
+//]]>
+</script>
+<script type="text/javascript">
+//<![CDATA[
+var __cultureInfo = {"name":"it-IT","numberFormat":{"CurrencyDecimalDigits":2,"CurrencyDecimalSeparator":",","IsReadOnly":false,"CurrencyGroupSizes":[3],"NumberGroupSizes":[3],"PercentGroupSizes":[3],"CurrencyGroupSeparator":".","CurrencySymbol":"€","NaNSymbol":"NaN","CurrencyNegativePattern":8,"NumberNegativePattern":1,"PercentPositivePattern":1,"PercentNegativePattern":1,"NegativeInfinitySymbol":"-∞","NegativeSign":"-","NumberDecimalDigits":2,"NumberDecimalSeparator":",","NumberGroupSeparator":".","CurrencyPositivePattern":3,"PositiveInfinitySymbol":"∞","PositiveSign":"+","PercentDecimalDigits":2,"PercentDecimalSeparator":",","PercentGroupSeparator":".","PercentSymbol":"%","PerMilleSymbol":"‰","NativeDigits":["0","1","2","3","4","5","6","7","8","9"],"DigitSubstitution":1},"dateTimeFormat":{"AMDesignator":"","Calendar":{"MinSupportedDateTime":"\/Date(-62135596800000)\/","MaxSupportedDateTime":"\/Date(253402297199999)\/","AlgorithmType":1,"CalendarType":1,"Eras":[1],"TwoDigitYearMax":2049,"IsReadOnly":false},"DateSeparator":"/","FirstDayOfWeek":1,"CalendarWeekRule":2,"FullDateTimePattern":"dddd d MMMM yyyy HH:mm:ss","LongDatePattern":"dddd d MMMM yyyy","LongTimePattern":"HH:mm:ss","MonthDayPattern":"d MMMM","PMDesignator":"","RFC1123Pattern":"ddd, dd MMM yyyy HH\u0027:\u0027mm\u0027:\u0027ss \u0027GMT\u0027","ShortDatePattern":"dd/MM/yyyy","ShortTimePattern":"HH:mm","SortableDateTimePattern":"yyyy\u0027-\u0027MM\u0027-\u0027dd\u0027T\u0027HH\u0027:\u0027mm\u0027:\u0027ss","TimeSeparator":":","UniversalSortableDateTimePattern":"yyyy\u0027-\u0027MM\u0027-\u0027dd HH\u0027:\u0027mm\u0027:\u0027ss\u0027Z\u0027","YearMonthPattern":"MMMM yyyy","AbbreviatedDayNames":["dom","lun","mar","mer","gio","ven","sab"],"ShortestDayNames":["do","lu","ma","me","gi","ve","sa"],"DayNames":["domenica","lunedì","martedì","mercoledì","giovedì","venerdì","sabato"],"AbbreviatedMonthNames":["gen","feb","mar","apr","mag","giu","lug","ago","set","ott","nov","dic",""],"MonthNames":["gennaio","febbraio","marzo","aprile","maggio","giugno","luglio","agosto","settembre","ottobre","novembre","dicembre",""],"IsReadOnly":false,"NativeCalendarName":"calendario gregoriano","AbbreviatedMonthGenitiveNames":["gen","feb","mar","apr","mag","giu","lug","ago","set","ott","nov","dic",""],"MonthGenitiveNames":["gennaio","febbraio","marzo","aprile","maggio","giugno","luglio","agosto","settembre","ottobre","novembre","dicembre",""]},"eras":[1,"d.C.",null,0]};//]]>
+</script>
+
+<script src="/ScriptResource.axd?d=nnHyWnZ5bTNHS1pSEHgtbdIQmN0PhqzjtVF9DfpjhnVQ4vrYF8eyI3JymkVq_MUYSj39dItVhgeGLm2AnvJFZWhvgrnOxtqtuvfcqQhVxOUMufVDiy1prKyvchC5WPr1Zpx_ZlcgJk2_PdO50&amp;t=74258c30" type="text/javascript"></script>
+<script type="text/javascript">
+//<![CDATA[
+if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side framework failed to load.');
+//]]>
+</script>
+
+<script src="/ScriptResource.axd?d=geiJw278ELATfLWSipr_7Ud-kmhgbnHauyjKgmpe5lQx1G65TgV8mPGsJfH60qlfLTnH1YvLldyPMFAPpuh9F5UaANJ8JLWW3E82eFWpXOIO8gO9Haz6CwW45cU7cR2GcWeWQt-KNyUaxbUBrdxIj68mGOI1&amp;t=74258c30" type="text/javascript"></script><script src="/js/dnn.js?cdv=250" type="text/javascript"></script><script src="/Resources/Shared/Scripts/jquery/jquery.hoverIntent.min.js?cdv=250" type="text/javascript"></script><script src="/DesktopModules/Blog/js/jquery.timeago.js?cdv=250" type="text/javascript"></script><script src="/DesktopModules/Blog/js/it/jquery.timeago.it.js?cdv=250" type="text/javascript"></script><script src="/DesktopModules/Blog/js/dotnetnuke.blog.js?cdv=250" type="text/javascript"></script><script src="/js/Debug/dnncore.js?cdv=250" type="text/javascript"></script><script src="/Resources/Search/SearchSkinObjectPreview.js?cdv=250" type="text/javascript"></script><script src="/js/Debug/dnn.servicesframework.js?cdv=250" type="text/javascript"></script><script src="/DesktopModules/DDRMenu/RM_Accordion/RM_LeftMenu.js?cdv=250" type="text/javascript"></script><script src="/DesktopModules/Blog/Templates/RM_PrimoPiano_latestPosts/template.js?cdv=250" type="text/javascript"></script><script src="/DesktopModules/Blog/Templates/RM_PrimoPiano_latestPosts/js/jquery.sharrre.min.js?cdv=250" type="text/javascript"></script><script src="/DesktopModules/Blog/Templates/RM_PrimoPiano_latestPosts/js/shCore.js?cdv=250" type="text/javascript"></script><script src="/DesktopModules/Blog/Templates/RM_EIR_OPPterr_latestPosts/template.js?cdv=250" type="text/javascript"></script><script src="/DesktopModules/Blog/Templates/RM_EIR_OPPterr_latestPosts/js/jquery.sharrre.min.js?cdv=250" type="text/javascript"></script><script src="/DesktopModules/Blog/Templates/RM_EIR_OPPterr_latestPosts/js/shCore.js?cdv=250" type="text/javascript"></script><script src="/Resources/Shared/Scripts/dnn.jquery.js?cdv=250" type="text/javascript"></script><script type="text/javascript">
+//<![CDATA[
+Sys.WebForms.PageRequestManager._initialize('ScriptManager', 'Form', ['tdnn$ctr23215$Login_UP','dnn_ctr23215_Login_UP','tdnn$ctr23216$Login_UP','dnn_ctr23216_Login_UP','tdnn$ctr23217$Login_UP','dnn_ctr23217_Login_UP'], [], [], 90, '');
+//]]>
+</script>
+
+        
+        
+        
+<!--[if lt IE 9]>
+<script src="https://html5shim.googlecode.com/svn/trunk/html5.js" async></script>
+<![endif]-->
+
+
+
+
+
+
+<div id="ControlPanelWrapper">
+	
+
+	</div>
+<div id="skin_wrapper" class="boxed">
+<link property='stylesheet' id="headerCSS" rel="stylesheet" href="/Portals/_default/Skins/Bravo/commonparts/Header3.css">
+
+
+
+
+<!-- Begin Cookie Consent plugin by Silktide - http://silktide.com/cookieconsent -->
+
+<!-- Across Tabs -->
+<script type="text/javascript">
+    $(function () {
+        var hash = window.location.hash;
+        hash && $('ul.nav a[href="' + hash + '"]').tab('show');
+    });
+</script>
+
+<!-- End Cookie Consent plugin -->
+<style>
+    #RM_leftMenu li.selected > a > span {
+        background-color: #074392;
+        color: #fff !important;
+        font-weight: bolder !important;
+    }
+
+    #RM_leftMenu .RM_leftRoot > li.rootnode-container > a > span {
+        border: 1px solid #074392;
+    }
+
+    #RM_leftMenu li.item a span:hover {
+        border: 1px solid #074392;
+    }
+</style>
+<!--start skin header-->
+<header id="HeaderThree">
+    <div class="Rm_Header_wrapper">
+        <!--start skin top-->
+        <section class="skin_top">
+            <div class="skin_width clearafter">
+                <div id="Search">
+                    <span id="dnn_Header3_dnnSEARCH_ClassicSearch">
+    
+    
+    <span class="searchInputContainer" data-moreresults="Guarda Altri Risultati" data-noresult="Nessun Risultato Trovato">
+        <input name="dnn$Header3$dnnSEARCH$txtSearch" type="text" maxlength="255" size="20" id="dnn_Header3_dnnSEARCH_txtSearch" class="NormalTextBox" aria-label="Ricerca" autocomplete="off" placeholder="Ricerca..." />
+        <a class="dnnSearchBoxClearText" title="Clear search text"></a>
+    </span>
+    <a id="dnn_Header3_dnnSEARCH_cmdSearch" class="searchcss" href="javascript:__doPostBack(&#39;dnn$Header3$dnnSEARCH$cmdSearch&#39;,&#39;&#39;)">Ricerca</a>
+</span>
+
+
+<script type="text/javascript">
+    $(function() {
+        if (typeof dnn != "undefined" && typeof dnn.searchSkinObject != "undefined") {
+            var searchSkinObject = new dnn.searchSkinObject({
+                delayTriggerAutoSearch : 400,
+                minCharRequiredTriggerAutoSearch : 2,
+                searchType: 'S',
+                enableWildSearch: true,
+                cultureCode: 'it-IT',
+                portalId: -1
+                }
+            );
+            searchSkinObject.init();
+            
+            
+            // attach classic search
+            var siteBtn = $('#dnn_Header3_dnnSEARCH_SiteRadioButton');
+            var webBtn = $('#dnn_Header3_dnnSEARCH_WebRadioButton');
+            var clickHandler = function() {
+                if (siteBtn.is(':checked')) searchSkinObject.settings.searchType = 'S';
+                else searchSkinObject.settings.searchType = 'W';
+            };
+            siteBtn.on('change', clickHandler);
+            webBtn.on('change', clickHandler);
+            
+            
+        }
+    });
+</script>
+
+                </div>
+                <div class="user_bar clearafter">
+                    <div class="language_position">
+                        <div class="language-object" >
+
+
+</div>
+                    </div>
+
+                    
+                    <div class="user_style">
+                        <a class="Login" href="/Amministrazione_Trasparente">Amministrazione Trasparente</a>
+                        |
+						<a class="Login" href="/Entra-in-Regione/Profile-del-committente">Profilo del committente</a>
+                        |
+		                <a class="Login" href="https://procedimenti.regione.marche.it/">ProcediMarche</a>
+                        |
+		                <a class="Login" href="/Rubrica">Rubrica</a>
+                        |
+		                <a class="Login" href="/URP">URP: la Regione risponde</a>
+                        
+
+                        <!-- <a id="dnn_Header3_dnnLOGIN_loginLink" title="Login" class="Login" rel="nofollow" href="https://www.regione.marche.it/Login?returnurl=%2fIn-Primo-Piano%2fid%2f1">Login</a>
+ -->
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+        <!--end skin top3-->
+        <!--start logo bar -->
+        <section class="skin_header">
+            <div class="skin_width clearafter">
+                <div class="logo_style clearafter">
+                    <!--site logo-->
+                    <div class="site_logo">
+                        <a id="dnn_Header3_dnnLOGO_hypLogo" title="Regione Marche" aria-label="Regione Marche" href="https://www.regione.marche.it/"><img id="dnn_Header3_dnnLOGO_imgLogo" src="/Portals/0/Images/LogoSmall.png?ver=Ur2iQF2w8cQv8TbBK_u4jg%3d%3d" alt="Regione Marche" /></a>
+                    </div>
+                    <!--mobile menu button-->
+                    <div class="mobile_nav">
+                        <a href="#" class="menuclick">
+                            <img alt="Menu" class="click_img" src="/Portals/_default/Skins/Bravo/commonparts/images/blank.gif" /></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="skin_menu">
+            <div class="skin_width clearafter">
+                <nav class="menu_box ">
+
+                    <div id="standardMenu">
+                        <ul class="rootMenu" role="menu">
+                            <li class="item first haschild child-1" aria-haspopup="true" role="menuitem">
+                                <a href="/">
+                                    <span>In Primo Piano<i class="navarrow"></i></span>
+                                </a>
+                            </li>
+                            <li class="item selected haschild child-2" role="menuitem">
+                                <a href="/Temi">
+                                    <span>Regione Utile<i class="navarrow"></i></span>
+                                </a>
+                            </li>
+                            <li class="item haschild child-3" aria-haspopup="true" role="menuitem">
+                                <a href="/Entra-in-Regione">
+                                    <span>Entra in Regione<i class="navarrow"></i></span></a></li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </section>
+        <!--end logo bar -->
+    </div>
+</header>
+<!--end skin header-->
+
+
+<script>
+    $("#HeaderThree").find(".child-4").hide()
+</script>
+
+
+
+
+
+<div id="dnn_HeaderPane" class="headerpane DNNEmptyPane"></div>
+	<div id="dnn_ContactPane" class="contactpane"><div class="DnnModule DnnModule-DNN_HTML DnnModule-9990"><a name="9990"></a></div><div class="DnnModule DnnModule-DDRMenu DnnModule-38993"><a name="38993"></a><div id="dnn_ctr38993_ContentPane"><!-- Start_Module_38993 --><style type="text/css">
+#RM_leftMenu li.selected > a > span{ background-color: #5A5959; color: #fff !important; font-weight: bolder !important;}
+#RM_leftMenu .RM_leftRoot > li.rootnode-container > a > span{ border: 1px solid #5A5959;}
+#RM_leftMenu li.item a  span:hover{ border: 1px solid #5A5959;}
+</style><div id="dnn_ctr38993_ModuleContent" class="DNNModuleContent ModDDRMenuC">
+	
+</div><!-- End_Module_38993 --></div>
+</div><div class="DnnModule DnnModule-DNN_HTML DnnModule-11017"><a name="11017"></a></div><div class="DnnModule DnnModule-DNN_HTML DnnModule-12695"><a name="12695"></a></div><div class="DnnModule DnnModule-DNN_HTML DnnModule-12696"><a name="12696"></a></div><div class="DnnModule DnnModule-DNN_HTML DnnModule-12754"><a name="12754"></a></div><div class="DnnModule DnnModule-DNN_HTML DnnModule-12757"><a name="12757"></a></div><div class="DnnModule DnnModule-DNN_HTML DnnModule-13299"><a name="13299"></a></div><div class="DnnModule DnnModule-DNN_HTML DnnModule-13298"><a name="13298"></a></div><div class="DnnModule DnnModule-DNN_HTML DnnModule-13297"><a name="13297"></a></div><div class="DnnModule DnnModule-DNN_HTML DnnModule-13513"><a name="13513"></a></div><div class="DnnModule DnnModule-DNN_HTML DnnModule-13514"><a name="13514"></a></div><div class="DnnModule DnnModule-DNN_HTML DnnModule-13515"><a name="13515"></a></div><div class="DnnModule DnnModule-DNN_HTML DnnModule-13945"><a name="13945"></a></div><div class="DnnModule DnnModule-DNN_HTML DnnModule-13946"><a name="13946"></a></div><div class="DnnModule DnnModule-DNN_HTML DnnModule-14344"><a name="14344"></a></div><div class="DnnModule DnnModule-DNN_HTML DnnModule-20258"><a name="20258"></a></div><div class="DnnModule DnnModule-DNN_HTML DnnModule-21023"><a name="21023"></a></div><div class="DnnModule DnnModule-DNN_HTML DnnModule-21024"><a name="21024"></a></div><div class="DnnModule DnnModule-DNN_HTML DnnModule-22902"><a name="22902"></a></div><div class="DnnModule DnnModule-Authentication DnnModule-23215"><a name="23215"></a>
+
+<div class="Bt1_style">
+  <div class="Bt1_top clearafter">
+    <div class="c_icon">
+      
+    </div>
+    <h2 class="c_title">
+      <span id="dnn_ctr23215_dnnTITLE_titleLabel" class="c_title_black">Account Login</span>
+
+
+
+    </h2>
+  </div>
+  <div class="c_content_style">
+    <div id="dnn_ctr23215_ContentPane" class="Bt1_content"><!-- Start_Module_23215 --><div id="dnn_ctr23215_ModuleContent" class="DNNModuleContent ModAuthenticationC">
+	<div id="dnn_ctr23215_Login_UP">
+		
+<div class="dnnForm dnnLogin dnnClear">
+    <div id="dnn_ctr23215_Login_pnlLogin">
+			
+        <div class="loginContent">
+            
+            <div id="dnn_ctr23215_Login_pnlLoginContainer" class="LoginPanel">
+				<div id="dnn_ctr23215_Login_DNN">
+<div class="dnnForm dnnLoginService dnnClear">
+    <div class="dnnFormItem">
+		<div class="dnnLabel">
+			<label for="dnn_ctr23215_Login_Login_DNN_txtUsername" id="dnn_ctr23215_Login_Login_DNN_plUsername" class="dnnFormLabel">Nome Utente:</label>
+		</div>        
+        <input name="dnn$ctr23215$Login$Login_DNN$txtUsername" type="text" id="dnn_ctr23215_Login_Login_DNN_txtUsername" AUTOCOMPLETE="off" />
+    </div>
+    <div class="dnnFormItem">
+		<div class="dnnLabel">
+			<label for="dnn_ctr23215_Login_Login_DNN_txtPassword" id="dnn_ctr23215_Login_Login_DNN_plPassword" class="dnnFormLabel">Password:</label>
+		</div>
+        <input name="dnn$ctr23215$Login$Login_DNN$txtPassword" type="password" id="dnn_ctr23215_Login_Login_DNN_txtPassword" AUTOCOMPLETE="off" />
+    </div>
+    
+    
+    	<div class="dnnFormItem">
+		<span id="dnn_ctr23215_Login_Login_DNN_lblLoginRememberMe" class="dnnFormLabel"></span>
+		<span class="dnnLoginRememberMe"><input id="dnn_ctr23215_Login_Login_DNN_chkCookie" type="checkbox" name="dnn$ctr23215$Login$Login_DNN$chkCookie" /><label for="dnn_ctr23215_Login_Login_DNN_chkCookie">Ricorda Login</label></span>
+	</div>
+    <div class="dnnFormItem">
+        <span id="dnn_ctr23215_Login_Login_DNN_lblLogin" class="dnnFormLabel"></span>
+        <a id="dnn_ctr23215_Login_Login_DNN_cmdLogin" title="Login" class="dnnPrimaryAction" href="javascript:__doPostBack(&#39;dnn$ctr23215$Login$Login_DNN$cmdLogin&#39;,&#39;&#39;)">Login</a>
+		<a id="dnn_ctr23215_Login_Login_DNN_cancelLink" class="dnnSecondaryAction" CausesValidation="false" href="https://www.regione.marche.it/">Cancella</a>        
+    </div>
+    <div class="dnnFormItem">
+        <span class="dnnFormLabel">&nbsp;</span>
+        <div class="dnnLoginActions">
+            <ul class="dnnActions dnnClear">
+                                
+                <li id="dnn_ctr23215_Login_Login_DNN_liPassword"><a id="dnn_ctr23215_Login_Login_DNN_passwordLink" class="dnnSecondaryAction" href="https://www.regione.marche.it/In-Primo-Piano/ctl/SendPassword?returnurl=https://www.regione.marche.it/">Reset Password</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+    <script type="text/javascript">
+        /*globals jQuery, window, Sys */
+        (function ($, Sys) {
+            const disabledActionClass = "dnnDisabledAction";
+            const actionLinks = $('a[id^="dnn_ctr23215_Login_Login_DNN"]');
+            function isActionDisabled($el) {
+                return $el && $el.hasClass(disabledActionClass);
+            }
+            function disableAction($el) {
+                if ($el == null || $el.hasClass(disabledActionClass)) {
+                    return;
+                }
+                $el.addClass(disabledActionClass);
+            }
+            function enableAction($el) {
+                if ($el == null) {
+                    return;
+                }
+                $el.removeClass(disabledActionClass);
+            }
+            function setUpLogin() {                
+                $.each(actionLinks || [], function (index, action) {
+                    var $action = $(action);
+                    $action.click(function () {
+                        var $el = $(this);
+                        if (isActionDisabled($el)) {
+                            return false;
+                        }
+                        disableAction($el);
+                    });
+                });
+            }
+		
+            $(document).ready(function () {
+                $(document).on('keydown', '.dnnLoginService', function (e) {
+                    if ($(e.target).is('input:text,input:password') && e.keyCode === 13) {
+                        var $loginButton = $('#dnn_ctr23215_Login_Login_DNN_cmdLogin');
+                        if (isActionDisabled($loginButton)) {
+                            return false;
+                        }
+                        disableAction($loginButton);
+                        window.setTimeout(function () { eval($loginButton.attr('href')); }, 100);
+                        e.preventDefault();
+                        return false;
+                    }
+                });
+
+                setUpLogin();
+                Sys.WebForms.PageRequestManager.getInstance().add_endRequest(function () {
+                    $.each(actionLinks || [], function (index, item) {
+                        enableAction($(item));
+                    });
+                    setUpLogin();
+                });
+            });
+        }(jQuery, window.Sys));
+    </script>
+
+</div>
+			</div>
+            <div class="dnnSocialRegistration">
+                <div id="socialControls">
+                    <ul class="buttonList">
+                        
+                    </ul>
+                </div>
+            </div>
+        </div>
+    
+		</div>
+    
+    
+    
+    
+    
+</div>
+	</div><div id="dnn_ctr23215_Login_UP_Prog" style="display:none;">
+		<div class="dnnLoading dnnPanelLoading"></div>
+	</div>
+</div><!-- End_Module_23215 --></div>
+  </div>
+</div>
+
+</div><div class="DnnModule DnnModule-Authentication DnnModule-23216"><a name="23216"></a>
+
+<div class="Bt1_style">
+  <div class="Bt1_top clearafter">
+    <div class="c_icon">
+      
+    </div>
+    <h2 class="c_title">
+      <span id="dnn_ctr23216_dnnTITLE_titleLabel" class="c_title_black">Account Login</span>
+
+
+
+    </h2>
+  </div>
+  <div class="c_content_style">
+    <div id="dnn_ctr23216_ContentPane" class="Bt1_content"><!-- Start_Module_23216 --><div id="dnn_ctr23216_ModuleContent" class="DNNModuleContent ModAuthenticationC">
+	<div id="dnn_ctr23216_Login_UP">
+		
+<div class="dnnForm dnnLogin dnnClear">
+    <div id="dnn_ctr23216_Login_pnlLogin">
+			
+        <div class="loginContent">
+            
+            <div id="dnn_ctr23216_Login_pnlLoginContainer" class="LoginPanel">
+				<div id="dnn_ctr23216_Login_DNN">
+<div class="dnnForm dnnLoginService dnnClear">
+    <div class="dnnFormItem">
+		<div class="dnnLabel">
+			<label for="dnn_ctr23216_Login_Login_DNN_txtUsername" id="dnn_ctr23216_Login_Login_DNN_plUsername" class="dnnFormLabel">Nome Utente:</label>
+		</div>        
+        <input name="dnn$ctr23216$Login$Login_DNN$txtUsername" type="text" id="dnn_ctr23216_Login_Login_DNN_txtUsername" AUTOCOMPLETE="off" />
+    </div>
+    <div class="dnnFormItem">
+		<div class="dnnLabel">
+			<label for="dnn_ctr23216_Login_Login_DNN_txtPassword" id="dnn_ctr23216_Login_Login_DNN_plPassword" class="dnnFormLabel">Password:</label>
+		</div>
+        <input name="dnn$ctr23216$Login$Login_DNN$txtPassword" type="password" id="dnn_ctr23216_Login_Login_DNN_txtPassword" AUTOCOMPLETE="off" />
+    </div>
+    
+    
+    	<div class="dnnFormItem">
+		<span id="dnn_ctr23216_Login_Login_DNN_lblLoginRememberMe" class="dnnFormLabel"></span>
+		<span class="dnnLoginRememberMe"><input id="dnn_ctr23216_Login_Login_DNN_chkCookie" type="checkbox" name="dnn$ctr23216$Login$Login_DNN$chkCookie" /><label for="dnn_ctr23216_Login_Login_DNN_chkCookie">Ricorda Login</label></span>
+	</div>
+    <div class="dnnFormItem">
+        <span id="dnn_ctr23216_Login_Login_DNN_lblLogin" class="dnnFormLabel"></span>
+        <a id="dnn_ctr23216_Login_Login_DNN_cmdLogin" title="Login" class="dnnPrimaryAction" href="javascript:__doPostBack(&#39;dnn$ctr23216$Login$Login_DNN$cmdLogin&#39;,&#39;&#39;)">Login</a>
+		<a id="dnn_ctr23216_Login_Login_DNN_cancelLink" class="dnnSecondaryAction" CausesValidation="false" href="https://www.regione.marche.it/">Cancella</a>        
+    </div>
+    <div class="dnnFormItem">
+        <span class="dnnFormLabel">&nbsp;</span>
+        <div class="dnnLoginActions">
+            <ul class="dnnActions dnnClear">
+                                
+                <li id="dnn_ctr23216_Login_Login_DNN_liPassword"><a id="dnn_ctr23216_Login_Login_DNN_passwordLink" class="dnnSecondaryAction" href="https://www.regione.marche.it/In-Primo-Piano/ctl/SendPassword?returnurl=https://www.regione.marche.it/">Reset Password</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+    <script type="text/javascript">
+        /*globals jQuery, window, Sys */
+        (function ($, Sys) {
+            const disabledActionClass = "dnnDisabledAction";
+            const actionLinks = $('a[id^="dnn_ctr23216_Login_Login_DNN"]');
+            function isActionDisabled($el) {
+                return $el && $el.hasClass(disabledActionClass);
+            }
+            function disableAction($el) {
+                if ($el == null || $el.hasClass(disabledActionClass)) {
+                    return;
+                }
+                $el.addClass(disabledActionClass);
+            }
+            function enableAction($el) {
+                if ($el == null) {
+                    return;
+                }
+                $el.removeClass(disabledActionClass);
+            }
+            function setUpLogin() {                
+                $.each(actionLinks || [], function (index, action) {
+                    var $action = $(action);
+                    $action.click(function () {
+                        var $el = $(this);
+                        if (isActionDisabled($el)) {
+                            return false;
+                        }
+                        disableAction($el);
+                    });
+                });
+            }
+		
+            $(document).ready(function () {
+                $(document).on('keydown', '.dnnLoginService', function (e) {
+                    if ($(e.target).is('input:text,input:password') && e.keyCode === 13) {
+                        var $loginButton = $('#dnn_ctr23216_Login_Login_DNN_cmdLogin');
+                        if (isActionDisabled($loginButton)) {
+                            return false;
+                        }
+                        disableAction($loginButton);
+                        window.setTimeout(function () { eval($loginButton.attr('href')); }, 100);
+                        e.preventDefault();
+                        return false;
+                    }
+                });
+
+                setUpLogin();
+                Sys.WebForms.PageRequestManager.getInstance().add_endRequest(function () {
+                    $.each(actionLinks || [], function (index, item) {
+                        enableAction($(item));
+                    });
+                    setUpLogin();
+                });
+            });
+        }(jQuery, window.Sys));
+    </script>
+
+</div>
+			</div>
+            <div class="dnnSocialRegistration">
+                <div id="socialControls">
+                    <ul class="buttonList">
+                        
+                    </ul>
+                </div>
+            </div>
+        </div>
+    
+		</div>
+    
+    
+    
+    
+    
+</div>
+	</div><div id="dnn_ctr23216_Login_UP_Prog" style="display:none;">
+		<div class="dnnLoading dnnPanelLoading"></div>
+	</div>
+</div><!-- End_Module_23216 --></div>
+  </div>
+</div>
+
+</div><div class="DnnModule DnnModule-Authentication DnnModule-23217"><a name="23217"></a>
+
+<div class="Bt1_style">
+  <div class="Bt1_top clearafter">
+    <div class="c_icon">
+      
+    </div>
+    <h2 class="c_title">
+      <span id="dnn_ctr23217_dnnTITLE_titleLabel" class="c_title_black">Account Login</span>
+
+
+
+    </h2>
+  </div>
+  <div class="c_content_style">
+    <div id="dnn_ctr23217_ContentPane" class="Bt1_content"><!-- Start_Module_23217 --><div id="dnn_ctr23217_ModuleContent" class="DNNModuleContent ModAuthenticationC">
+	<div id="dnn_ctr23217_Login_UP">
+		
+<div class="dnnForm dnnLogin dnnClear">
+    <div id="dnn_ctr23217_Login_pnlLogin">
+			
+        <div class="loginContent">
+            
+            <div id="dnn_ctr23217_Login_pnlLoginContainer" class="LoginPanel">
+				<div id="dnn_ctr23217_Login_DNN">
+<div class="dnnForm dnnLoginService dnnClear">
+    <div class="dnnFormItem">
+		<div class="dnnLabel">
+			<label for="dnn_ctr23217_Login_Login_DNN_txtUsername" id="dnn_ctr23217_Login_Login_DNN_plUsername" class="dnnFormLabel">Nome Utente:</label>
+		</div>        
+        <input name="dnn$ctr23217$Login$Login_DNN$txtUsername" type="text" id="dnn_ctr23217_Login_Login_DNN_txtUsername" AUTOCOMPLETE="off" />
+    </div>
+    <div class="dnnFormItem">
+		<div class="dnnLabel">
+			<label for="dnn_ctr23217_Login_Login_DNN_txtPassword" id="dnn_ctr23217_Login_Login_DNN_plPassword" class="dnnFormLabel">Password:</label>
+		</div>
+        <input name="dnn$ctr23217$Login$Login_DNN$txtPassword" type="password" id="dnn_ctr23217_Login_Login_DNN_txtPassword" AUTOCOMPLETE="off" />
+    </div>
+    
+    
+    	<div class="dnnFormItem">
+		<span id="dnn_ctr23217_Login_Login_DNN_lblLoginRememberMe" class="dnnFormLabel"></span>
+		<span class="dnnLoginRememberMe"><input id="dnn_ctr23217_Login_Login_DNN_chkCookie" type="checkbox" name="dnn$ctr23217$Login$Login_DNN$chkCookie" /><label for="dnn_ctr23217_Login_Login_DNN_chkCookie">Ricorda Login</label></span>
+	</div>
+    <div class="dnnFormItem">
+        <span id="dnn_ctr23217_Login_Login_DNN_lblLogin" class="dnnFormLabel"></span>
+        <a id="dnn_ctr23217_Login_Login_DNN_cmdLogin" title="Login" class="dnnPrimaryAction" href="javascript:__doPostBack(&#39;dnn$ctr23217$Login$Login_DNN$cmdLogin&#39;,&#39;&#39;)">Login</a>
+		<a id="dnn_ctr23217_Login_Login_DNN_cancelLink" class="dnnSecondaryAction" CausesValidation="false" href="https://www.regione.marche.it/">Cancella</a>        
+    </div>
+    <div class="dnnFormItem">
+        <span class="dnnFormLabel">&nbsp;</span>
+        <div class="dnnLoginActions">
+            <ul class="dnnActions dnnClear">
+                                
+                <li id="dnn_ctr23217_Login_Login_DNN_liPassword"><a id="dnn_ctr23217_Login_Login_DNN_passwordLink" class="dnnSecondaryAction" href="https://www.regione.marche.it/In-Primo-Piano/ctl/SendPassword?returnurl=https://www.regione.marche.it/">Reset Password</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+    <script type="text/javascript">
+        /*globals jQuery, window, Sys */
+        (function ($, Sys) {
+            const disabledActionClass = "dnnDisabledAction";
+            const actionLinks = $('a[id^="dnn_ctr23217_Login_Login_DNN"]');
+            function isActionDisabled($el) {
+                return $el && $el.hasClass(disabledActionClass);
+            }
+            function disableAction($el) {
+                if ($el == null || $el.hasClass(disabledActionClass)) {
+                    return;
+                }
+                $el.addClass(disabledActionClass);
+            }
+            function enableAction($el) {
+                if ($el == null) {
+                    return;
+                }
+                $el.removeClass(disabledActionClass);
+            }
+            function setUpLogin() {                
+                $.each(actionLinks || [], function (index, action) {
+                    var $action = $(action);
+                    $action.click(function () {
+                        var $el = $(this);
+                        if (isActionDisabled($el)) {
+                            return false;
+                        }
+                        disableAction($el);
+                    });
+                });
+            }
+		
+            $(document).ready(function () {
+                $(document).on('keydown', '.dnnLoginService', function (e) {
+                    if ($(e.target).is('input:text,input:password') && e.keyCode === 13) {
+                        var $loginButton = $('#dnn_ctr23217_Login_Login_DNN_cmdLogin');
+                        if (isActionDisabled($loginButton)) {
+                            return false;
+                        }
+                        disableAction($loginButton);
+                        window.setTimeout(function () { eval($loginButton.attr('href')); }, 100);
+                        e.preventDefault();
+                        return false;
+                    }
+                });
+
+                setUpLogin();
+                Sys.WebForms.PageRequestManager.getInstance().add_endRequest(function () {
+                    $.each(actionLinks || [], function (index, item) {
+                        enableAction($(item));
+                    });
+                    setUpLogin();
+                });
+            });
+        }(jQuery, window.Sys));
+    </script>
+
+</div>
+			</div>
+            <div class="dnnSocialRegistration">
+                <div id="socialControls">
+                    <ul class="buttonList">
+                        
+                    </ul>
+                </div>
+            </div>
+        </div>
+    
+		</div>
+    
+    
+    
+    
+    
+</div>
+	</div><div id="dnn_ctr23217_Login_UP_Prog" style="display:none;">
+		<div class="dnnLoading dnnPanelLoading"></div>
+	</div>
+</div><!-- End_Module_23217 --></div>
+  </div>
+</div>
+
+</div><div class="DnnModule DnnModule-DNN_HTML DnnModule-23500"><a name="23500"></a></div></div>
+	<!--start skin banner-->
+	<section class="skin_banner">
+		<div class="skin_width">
+			<div class="skin_main_padding">
+				<div class="row dnnpane">
+					<div id="dnn_BannerPane" class="bannerpane col-md-12"><div class="DnnModule DnnModule-RegioneMarcheComunicatiStampaSlider DnnModule-6308"><a name="6308"></a><div id="dnn_ctr6308_ContentPane"><!-- Start_Module_6308 --><div aria-hidden="true" ><div id="dnn_ctr6308_ModuleContent" class="DNNModuleContent ModRegioneMarcheComunicatiStampaSliderC">
+	
+        <div class="news_scroll news_scroll_121">
+        <h3><a style="color: white;" href="/In-Primo-Piano/ComunicatiStampa">COMUNICATI</a>&nbsp;</h3>
+        <div id="marquee_style">
+        <ul>
+    
+        <li><a href="/In-Primo-Piano/ComunicatiStampa?id=33906" target="_blank"><span>LAVORO E FORMAZIONE, AD ANCONA PRESENTATA LA NUOVA STRATEGIA DI COMUNICAZIONE DELLA REGIONE MARCHE<em>!</em></span></a></li>
+    
+        <li><a href="/In-Primo-Piano/ComunicatiStampa?id=33905" target="_blank"><span>ELECTROLUX, ACQUAROLI: “L’OBIETTIVO È LA TUTELA DELLO STABILIMENTO E DELLA COMPETITIVITÀ DI CERRETO"<em>!</em></span></a></li>
+    
+        <li><a href="/In-Primo-Piano/ComunicatiStampa?id=33904" target="_blank"><span>INAUGURATO OGGI IL PONTE DEL COPPETTO: CONSEGNATA AI CITTADINI UNA GRANDE OPERA DELLA RICOSTRUZIONE POST ALLUVIONE 2022<em>!</em></span></a></li>
+    
+        <li><a href="/In-Primo-Piano/ComunicatiStampa?id=33902" target="_blank"><span>CUP, ATTENZIONE AI FALSI SMS. ALLERTA PER POTENZIALI TRUFFE<em>!</em></span></a></li>
+    
+        <li><a href="/In-Primo-Piano/ComunicatiStampa?id=33903" target="_blank"><span>EMERGENZA IDRICA: PROROGATA AL 31 OTTOBRE LA SOSPENSIONE DEI PRELIEVI DAI CORSI D’ACQUA DELLA PROVINCIA DI PESARO E URBINO<em>!</em></span></a></li>
+    
+        <li><a href="/In-Primo-Piano/ComunicatiStampa?id=33901" target="_blank"><span>A JESI “SPORT È COMUNICAZIONE”: TRE GIORNI PER ABBATTERE LE BARRIERE E PROMUOVERE LA PARTECIPAZIONE DEI GIOVANI SORDI<em>!</em></span></a></li>
+    
+        <li><a href="/In-Primo-Piano/ComunicatiStampa?id=33900" target="_blank"><span>AMBIENTE, COSTA DEL PICENO – SAN NICOLA A MARE: INTESA CON IL MASE PER LA DESIGNAZIONE COME ZONA SPECIALE DI CONSERVAZIONE<em>!</em></span></a></li>
+    
+        <li><a href="/In-Primo-Piano/ComunicatiStampa?id=33899" target="_blank"><span>LA REGIONE STANZIA 5,1 MILIONI PER I GIOVANI CHE VOGLIONO FARE IMPRESA NELLE MARCHE<em>!</em></span></a></li>
+    
+        <li><a href="/In-Primo-Piano/ComunicatiStampa?id=33898" target="_blank"><span>PRESENTATO IL FESTIVAL DEL GIORNALISMO CULTURALE XIV EDIZIONE: IL TEMA QUEST’ANNO È CONFINI. LE FRONTIERE DEL GIORNALISMO CULTURALE<em>!</em></span></a></li>
+    
+        <li><a href="/In-Primo-Piano/ComunicatiStampa?id=33895" target="_blank"><span>FORMAZIONE, LA REGIONE AGGIORNA IL PROFILO DEGLI ADDETTI AI SERVIZI DI CONTROLLO NEI LUOGHI DI INTRATTENIMENTO E SPETTACOLO<em>!</em></span></a></li>
+    
+        </ul>
+        </div>
+        </div>
+    
+
+
+
+</div></div>
+<script src="/Portals/0/leaflet/stop_marquee.js?ver=4"></script><!-- End_Module_6308 --></div>
+</div><div class="DnnModule DnnModule-DNN_HTML DnnModule-5973"><a name="5973"></a><div id="dnn_ctr5973_ContentPane"><!-- Start_Module_5973 --><div id="dnn_ctr5973_ModuleContent" class="DNNModuleContent ModDNNHTMLC">
+	<div id="dnn_ctr5973_HtmlModule_lblContent" class="Normal">
+	<div class="carousel slide" data-interval="10000" data-ride="carousel" id="myCarousel"><!-- Indicators -->
+<ol class="carousel-indicators">
+ <li data-slide-to="0" data-target="#myCarousel">&nbsp;</li>
+ <li data-slide-to="1" data-target="#myCarousel">&nbsp;</li>
+ <li data-slide-to="2" data-target="#myCarousel">&nbsp;</li>
+ <li data-slide-to="3" data-target="#myCarousel">&nbsp;</li>
+ <li data-slide-to="4" data-target="#myCarousel">&nbsp;</li>
+ <li data-slide-to="5" data-target="#myCarousel">&nbsp;</li>
+ <li data-slide-to="6" data-target="#myCarousel">&nbsp;</li>
+</ol>
+
+<div class="carousel-inner" role="listbox"><!-- Slide 0 -->
+<div class="item active"><a href="/lemarchedaleggere"><img alt="Le Marche da leggere" class="third-slide" src="/portals/0/Comunicazione/trim/Slider sito_1920×600px_2_26.jpg" title="Le Marche da leggere" /></a></div>
+<!-- Slide 1 -->
+
+<div class="item"><a href="/ZES"><img alt="ZES Unica Marche" class="third-slide" src="/portals/0/Comunicazione/Zes_1920.jpg" title="ZES Unica Marche" /></a></div>
+<!-- Slide 2 -->
+
+<div class="item"><a href="/ars/Aree-di-Attivit%C3%A0/Area-Emergenza#12656_Il-progetto-%22DAE-Marche%22" target="_blank"><img alt="DAE MARCHE è l'App che salva una vita. Un semplice gesto può fare la differenza" class="third-slide" src="/portals/0/Comunicazione/Un_semplice_gesto.jpg" title="DAE MARCHE è l'App che salva una vita. Un semplice gesto può fare la differenza" /></a></div>
+<!-- Slide 3 -->
+
+<div class="item"><a href="/puralife"><img alt="Puralife " class="third-slide" src="/portals/0/Comunicazione/PURA_2025.jpg" title="Il cambiamento è nell aria, PURA" /></a></div>
+<!-- Slide 4 -->
+
+<div class="item"><a href="https://letsmarche.it/" target="_blank"><img alt="Let's Marche!" class="third-slide" src="/portals/0/Comunicazione/trim/lets_visit_marche.png" title="Let's Marche!" /></a></div>
+<!-- Slide 5 -->
+
+<div class="item"><a href="/centrifacilitazionedigitale#Le-sedi"><img alt="Progetto Bussola Digitale" class="third-slide" src="/portals/0/immagini/slider/slide-progetto-bussola-digitale-1.jpg" title="Progetto Bussola Digitale" /></a></div>
+<!-- Slide 6 -->
+
+<div class="item"><a href="/Entra-in-Regione/easy-pnrr"><img alt="Portale Easy Pnrr Marche" class="third-slide" src="/portals/0/immagini/slider/easy_pnrr_slide_1920_600.jpg" title="Portale Easy Pnrr Marche" /></a></div>
+</div>
+</div>
+
+</div>
+
+</div><!-- End_Module_5973 --></div>
+</div></div>
+				</div>
+				<div class="row dnnpane">
+					<div id="dnn_BannerLeftPane" class="bannerleftpane col-md-8 DNNEmptyPane"></div>
+					<div id="dnn_BannerRightPane" class="bannerrightpane col-md-4 DNNEmptyPane"></div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--end skin banner-->
+	<!--start skin main-->
+	<div class="skin_main">
+		<section class="content_whitebg">
+			<div class="skin_width">
+				<div class="skin_top_content">
+					<div class="row dnnpane">
+						<div id="dnn_ContentPane" class="contentgrid12 col-md-12 DNNEmptyPane"></div>
+					</div>
+					<div class="row dnnpane">
+						<div id="dnn_TopGrid6A" class="topgrid6a col-md-6 DNNEmptyPane"></div>
+						<div id="dnn_TopGrid6B" class="topgrid6b col-md-6 DNNEmptyPane"></div>
+					</div>
+					<div class="row dnnpane">
+						<div id="dnn_TopGrid4B" class="topgrid4b col-md-6 col-md-push-3"><div class="DnnModule DnnModule-Blog DnnModule-6553"><a name="6553"></a>
+
+<div class="Bt_EiR_style">
+  <div class="Bt_EiR_top clearafter">
+    <div class="c_icon">
+      
+    </div>
+    <h2 class="c_title">
+      <span id="dnn_ctr6553_dnnTITLE_titleLabel" class="c_title_black">News ed Eventi</span>
+
+
+
+    </h2>
+  </div>
+  <div class="c_content_style">
+    <div id="dnn_ctr6553_ContentPane" class="Bt2_content"><!-- Start_Module_6553 --><div id="dnn_ctr6553_ModuleContent" class="DNNModuleContent ModBlogC">
+	
+
+
+
+<div id="blogServiceErrorBox6553"></div>
+
+
+
+
+
+<div class="blog-main-content">
+<div class="row latest_blog_row">
+<article class="is-post is-post-excerpt">
+<div class="row">
+<div class="col-md-12"><div class="blog_date">martedì 6 ottobre 2026&nbsp;&nbsp;14:21&nbsp;</div></div></div>
+<div class="row">
+    
+    <div class="postImageShadow">
+        <a href="https://www.regione.marche.it/News-ed-Eventi/Post/118397/Lavoro-e-formazione-ad-Ancona-presentata-la-nuova-strategia-di-comunicazione-della-Regione-Marche" class="image image-full">
+    <img src="/DesktopModules/Blog/BlogImage.ashx?TabId=121&ModuleId=6553&Blog=55&Post=118397&w=745&h=275&c=0&key=dc4eedad-8ac6-4cc3-8f60-0688d2a6b409" alt=" " />
+</a>
+    </div> 
+    
+    
+    <!-- <div class="posttags">
+        <ul><li>Tags:</li></ul>
+        <div class="line_small_padding">
+            <hr class="light_line" />
+        </div>
+    </div> -->
+	 
+	 
+    <div class="blog_title">
+        <h4><a href="https://www.regione.marche.it/News-ed-Eventi/Post/118397/Lavoro-e-formazione-ad-Ancona-presentata-la-nuova-strategia-di-comunicazione-della-Regione-Marche">Lavoro e formazione, ad Ancona presentata la nuova strategia di comunicazione della Regione Marche</a></h4>
+	<div class="my_blogpost_info_wrapper">
+        <div class="my_blog_info_block">
+		<div class="my_blog_categories"><a href="/News-ed-Eventi/Categorie/Term/2532/Comunicati stampa">Comunicati stampa</a>&nbsp;<a href="/News-ed-Eventi/Categorie/Term/2270/Centri Impiego">Centri Impiego</a>&nbsp;<a href="/News-ed-Eventi/Categorie/Term/28/In primo piano">In primo piano</a>&nbsp;<a href="/News-ed-Eventi/Categorie/Term/47/Lavoro Formazione professionale">Lavoro Formazione professionale</a>&nbsp;</div>
+        </div>
+    </div>
+	
+	
+    </div>
+	
+	<!-- <div class="postsummary"><p><p>Rendere più semplice l&#39;accesso ai servizi per il lavoro e la formazione, raggiungendo cittadini e imprese attraverso strumenti e canali sempre più vicini alle loro abitudini quotidiane. È questo l&#39;obiettivo della nuova strategia di comunicazione 2026-2029 del Settore Formazione, Servizi per l&#39;Impiego e Crisi Aziendali della Regione Marche, presentata oggi nella Sala Li Madou nel corso dell&#39;evento &quot;Comunicazione è Servizio&quot;.</p>
+&nbsp;&nbsp;&nbsp;</p></div> -->
+	
+	
+	
+    <div style="clear:both"></div>
+	
+    <!-- <div class="my_blogpost_info_wrapper">
+        <div class="my_blog_info_block">
+            <div class="my_blog_categories"><a href="/News-ed-Eventi/Categorie/Term/2532/Comunicati stampa">Comunicati stampa</a>&nbsp;<a href="/News-ed-Eventi/Categorie/Term/2270/Centri Impiego">Centri Impiego</a>&nbsp;<a href="/News-ed-Eventi/Categorie/Term/28/In primo piano">In primo piano</a>&nbsp;<a href="/News-ed-Eventi/Categorie/Term/47/Lavoro Formazione professionale">Lavoro Formazione professionale</a>&nbsp;</div>
+            <div class="my_blog_views">48 views</div>
+            <div class="my_blog_comments"><a href="https://www.regione.marche.it/News-ed-Eventi/Post/118397/Lavoro-e-formazione-ad-Ancona-presentata-la-nuova-strategia-di-comunicazione-della-Regione-Marche">0 comments</a></div>
+        </div>
+    </div> -->
+	
+	</div>
+</article>
+</div>
+<div class="row latest_blog_row">
+<article class="is-post is-post-excerpt">
+<div class="row">
+<div class="col-md-12"><div class="blog_date">lunedì 5 ottobre 2026&nbsp;&nbsp;16:04&nbsp;</div></div></div>
+<div class="row">
+    
+    <div class="postImageShadow">
+        <a href="https://www.regione.marche.it/News-ed-Eventi/Post/118387/Electrolux-Acquaroli-L-obiettivo-è-la-tutela-dello-stabilimento-e-della-competitività-di-Cerreto" class="image image-full">
+    <img src="/DesktopModules/Blog/BlogImage.ashx?TabId=121&ModuleId=6553&Blog=55&Post=118387&w=745&h=275&c=0&key=0b9fdd5c-46c5-4cf4-8d64-e42472e5e30b" alt=" " />
+</a>
+    </div> 
+    
+    
+    <!-- <div class="posttags">
+        <ul><li>Tags:</li></ul>
+        <div class="line_small_padding">
+            <hr class="light_line" />
+        </div>
+    </div> -->
+	 
+	 
+    <div class="blog_title">
+        <h4><a href="https://www.regione.marche.it/News-ed-Eventi/Post/118387/Electrolux-Acquaroli-L-obiettivo-è-la-tutela-dello-stabilimento-e-della-competitività-di-Cerreto">Electrolux, Acquaroli: “L’obiettivo è la tutela dello stabilimento e della competitività di Cerreto"</a></h4>
+	<div class="my_blogpost_info_wrapper">
+        <div class="my_blog_info_block">
+		<div class="my_blog_categories"><a href="/News-ed-Eventi/Categorie/Term/2532/Comunicati stampa">Comunicati stampa</a>&nbsp;<a href="/News-ed-Eventi/Categorie/Term/28/In primo piano">In primo piano</a>&nbsp;<a href="/News-ed-Eventi/Categorie/Term/47/Lavoro Formazione professionale">Lavoro Formazione professionale</a>&nbsp;</div>
+        </div>
+    </div>
+	
+	
+    </div>
+	
+	<!-- <div class="postsummary"><p><p>Il presidente della Regione Marche, <strong>Francesco Acquaroli</strong>&nbsp;ha partecipato oggi al tavolo convocato per la vertenza Electrolux al Ministero delle Imprese e del Made in Italy alla presenza del ministro Adolfo Urso, dei rappresentanti delle Regioni coinvolte, dell&rsquo;azienda e delle organizzazioni sindacali. Per la Regione era presente anche l&#39;assessore al Lavoro, <strong>Tiziano Consoli</strong>.</p>
+&nbsp;&nbsp;&nbsp;</p></div> -->
+	
+	
+	
+    <div style="clear:both"></div>
+	
+    <!-- <div class="my_blogpost_info_wrapper">
+        <div class="my_blog_info_block">
+            <div class="my_blog_categories"><a href="/News-ed-Eventi/Categorie/Term/2532/Comunicati stampa">Comunicati stampa</a>&nbsp;<a href="/News-ed-Eventi/Categorie/Term/28/In primo piano">In primo piano</a>&nbsp;<a href="/News-ed-Eventi/Categorie/Term/47/Lavoro Formazione professionale">Lavoro Formazione professionale</a>&nbsp;</div>
+            <div class="my_blog_views">60 views</div>
+            <div class="my_blog_comments"><a href="https://www.regione.marche.it/News-ed-Eventi/Post/118387/Electrolux-Acquaroli-L-obiettivo-è-la-tutela-dello-stabilimento-e-della-competitività-di-Cerreto">0 comments</a></div>
+        </div>
+    </div> -->
+	
+	</div>
+</article>
+</div>
+<div class="row latest_blog_row">
+<article class="is-post is-post-excerpt">
+<div class="row">
+<div class="col-md-12"><div class="blog_date">sabato 3 ottobre 2026&nbsp;&nbsp;14:52&nbsp;</div></div></div>
+<div class="row">
+    
+    <div class="postImageShadow">
+        <a href="https://www.regione.marche.it/News-ed-Eventi/Post/118369/Inaugurato-oggi-il-Ponte-del-Coppetto-consegnata-ai-cittadini-una-grande-opera-della-ricostruzione-post-alluvione-2022" class="image image-full">
+    <img src="/DesktopModules/Blog/BlogImage.ashx?TabId=121&ModuleId=6553&Blog=55&Post=118369&w=745&h=275&c=0&key=b6ab8d45-7b86-4154-bb4e-21871d251456" alt=" " />
+</a>
+    </div> 
+    
+    
+    <!-- <div class="posttags">
+        <ul><li>Tags:</li></ul>
+        <div class="line_small_padding">
+            <hr class="light_line" />
+        </div>
+    </div> -->
+	 
+	 
+    <div class="blog_title">
+        <h4><a href="https://www.regione.marche.it/News-ed-Eventi/Post/118369/Inaugurato-oggi-il-Ponte-del-Coppetto-consegnata-ai-cittadini-una-grande-opera-della-ricostruzione-post-alluvione-2022">Inaugurato oggi il Ponte del Coppetto: consegnata ai cittadini una grande opera della ricostruzione post alluvione 2022</a></h4>
+	<div class="my_blogpost_info_wrapper">
+        <div class="my_blog_info_block">
+		<div class="my_blog_categories"><a href="/News-ed-Eventi/Categorie/Term/2752/Emergenza Alluvione 2022">Emergenza Alluvione 2022</a>&nbsp;<a href="/News-ed-Eventi/Categorie/Term/28/In primo piano">In primo piano</a>&nbsp;<a href="/News-ed-Eventi/Categorie/Term/49/Protezione Civile">Protezione Civile</a>&nbsp;</div>
+        </div>
+    </div>
+	
+	
+    </div>
+	
+	<!-- <div class="postsummary"><p>Il Ponte del Coppetto torna a collegare le comunità di Ostra Vetere e Ostra. La nuova struttura, che attraversa il fiume Misa, è stata inaugurata oggi. Già pienamente agibile per cittadini e automobilisti, rappresenta uno dei simboli più significativi della ricostruzione delle infrastrutture della Valmisa dopo l’alluvione del settembre 2022. L’intervento, da 4 milioni di euro, è stato realizzato grazie alle risorse stanziate dal Governo subito dopo gli eventi alluvionali. <br />Alla cerimonia hanno partecipato il presidente della Regione Marche Francesco Acquaroli, gli assessori regionali Giacomo Bugaro e Tiziano Consoli, il presidente della Provincia di Ancona Daniele Carnevali, il commissario per la Ricostruzione post alluvione Stefano Babini, la sindaca di Ostra Federica Fanesi e il sindaco di Ostra Vetere Massimo Corinaldesi oltre a numerosi sindaci del territorio colpito dall’alluvione e tanti cittadini. <br />“Il Ponte del Coppetto, tra Ostra e Ostra Vetere – ha detto il presidente Acquaroli - è un'altra opera significativa della ricostruzione post alluvione 2022 che oggi abbiamo inaugurato. È un’opera fondamentale per ridare normalità a territori che il 15 settembre 2022 hanno subito un dramma enorme dovuto all’alluvione. La realizzazione del ponte è stata possibile grazie alle risorse messe immediatamente a disposizione dal Governo Meloni e rappresenta un tassello di una ricostruzione che è in atto. Si tratta di un ponte strategico per la viabilità del territorio e perché riunisce due comunità, il cui valore supera i 4 milioni di euro, realizzato con le migliori e più moderne tecnologie. Grazie ai 400 milioni stanziati dal Governo, questo territorio ha finalmente avuto le risposte attese da tanto tempo e la necessaria manutenzione dei fiumi e degli argini. Siamo ormai ad oltre quattro anni da quei tragici giorni e ci fa piacere che finalmente queste comunità tornino giorno dopo giorno ad acquisire normalità. Siamo a lavoro con il supporto della Struttura Commissariale per il ripristino delle infrastrutture, strade e ponti, e soprattutto per la realizzazione di vasche di laminazione e casse di espansione per prevenire quanto più possibile altri eventi come quelli che sono accaduti. Ringrazio tutti coloro che hanno dato un contributo alla realizzazione dell’opera, dai tecnici alle istituzioni. Ringraziamo anche la Provincia di Ancona che nella realizzazione di questo ponte è stata soggetto attuatore, cioè l'ente che guidato l’iter realizzativo con le risorse messe a disposizione dallo Stato alla Regione. Dobbiamo giustamente tutelare il nostro ambiente e allo stesso tempo avere anche una visione pratica e pragmatica che vada verso la sicurezza dei territori e dei cittadini, con l’obiettivo di riportare alla normalità una valle che troppo spesso è stata chiamata a vivere l’emergenza”.&nbsp;&nbsp;&nbsp;</p></div> -->
+	
+	
+	
+    <div style="clear:both"></div>
+	
+    <!-- <div class="my_blogpost_info_wrapper">
+        <div class="my_blog_info_block">
+            <div class="my_blog_categories"><a href="/News-ed-Eventi/Categorie/Term/2752/Emergenza Alluvione 2022">Emergenza Alluvione 2022</a>&nbsp;<a href="/News-ed-Eventi/Categorie/Term/28/In primo piano">In primo piano</a>&nbsp;<a href="/News-ed-Eventi/Categorie/Term/49/Protezione Civile">Protezione Civile</a>&nbsp;</div>
+            <div class="my_blog_views">81 views</div>
+            <div class="my_blog_comments"><a href="https://www.regione.marche.it/News-ed-Eventi/Post/118369/Inaugurato-oggi-il-Ponte-del-Coppetto-consegnata-ai-cittadini-una-grande-opera-della-ricostruzione-post-alluvione-2022">0 comments</a></div>
+        </div>
+    </div> -->
+	
+	</div>
+</article>
+</div>
+<div class="row latest_blog_row">
+<article class="is-post is-post-excerpt">
+<div class="row">
+<div class="col-md-12"><div class="blog_date">venerdì 2 ottobre 2026&nbsp;&nbsp;17:04&nbsp;</div></div></div>
+<div class="row">
+    
+    <div class="postImageShadow">
+        <a href="https://www.regione.marche.it/News-ed-Eventi/Post/118368/Emergenza-idrica-prorogata-al-31-ottobre-la-sospensione-dei-prelievi-dai-corsi-d-acqua-della-provincia-di-Pesaro-e-Urbino" class="image image-full">
+    <img src="/DesktopModules/Blog/BlogImage.ashx?TabId=121&ModuleId=6553&Blog=55&Post=118368&w=745&h=275&c=0&key=654f67ae-3eb9-46e6-8fa7-0b3f5c5a8ea4" alt=" " />
+</a>
+    </div> 
+    
+    
+    <!-- <div class="posttags">
+        <ul><li>Tags:</li></ul>
+        <div class="line_small_padding">
+            <hr class="light_line" />
+        </div>
+    </div> -->
+	 
+	 
+    <div class="blog_title">
+        <h4><a href="https://www.regione.marche.it/News-ed-Eventi/Post/118368/Emergenza-idrica-prorogata-al-31-ottobre-la-sospensione-dei-prelievi-dai-corsi-d-acqua-della-provincia-di-Pesaro-e-Urbino">Emergenza idrica: prorogata al 31 ottobre la sospensione dei prelievi dai corsi d’acqua della provincia di Pesaro e Urbino</a></h4>
+	<div class="my_blogpost_info_wrapper">
+        <div class="my_blog_info_block">
+		<div class="my_blog_categories"><a href="/News-ed-Eventi/Categorie/Term/2532/Comunicati stampa">Comunicati stampa</a>&nbsp;<a href="/News-ed-Eventi/Categorie/Term/41/Ambiente">Ambiente</a>&nbsp;<a href="/News-ed-Eventi/Categorie/Term/28/In primo piano">In primo piano</a>&nbsp;<a href="/News-ed-Eventi/Categorie/Term/48/Paesaggio Territorio Urbanistica">Paesaggio Territorio Urbanistica</a>&nbsp;</div>
+        </div>
+    </div>
+	
+	
+    </div>
+	
+	<!-- <div class="postsummary"><p><p>È stata prorogata fino al 31 ottobre 2026 la sospensione dei prelievi dai corsi d&rsquo;acqua (fiumi e fossi) della provincia di Pesaro e Urbino.</p>&nbsp;&nbsp;&nbsp;</p></div> -->
+	
+	
+	
+    <div style="clear:both"></div>
+	
+    <!-- <div class="my_blogpost_info_wrapper">
+        <div class="my_blog_info_block">
+            <div class="my_blog_categories"><a href="/News-ed-Eventi/Categorie/Term/2532/Comunicati stampa">Comunicati stampa</a>&nbsp;<a href="/News-ed-Eventi/Categorie/Term/41/Ambiente">Ambiente</a>&nbsp;<a href="/News-ed-Eventi/Categorie/Term/28/In primo piano">In primo piano</a>&nbsp;<a href="/News-ed-Eventi/Categorie/Term/48/Paesaggio Territorio Urbanistica">Paesaggio Territorio Urbanistica</a>&nbsp;</div>
+            <div class="my_blog_views">42 views</div>
+            <div class="my_blog_comments"><a href="https://www.regione.marche.it/News-ed-Eventi/Post/118368/Emergenza-idrica-prorogata-al-31-ottobre-la-sospensione-dei-prelievi-dai-corsi-d-acqua-della-provincia-di-Pesaro-e-Urbino">0 comments</a></div>
+        </div>
+    </div> -->
+	
+	</div>
+</article>
+</div>
+<div class="row latest_blog_row">
+<article class="is-post is-post-excerpt">
+<div class="row">
+<div class="col-md-12"><div class="blog_date">venerdì 2 ottobre 2026&nbsp;&nbsp;15:16&nbsp;</div></div></div>
+<div class="row">
+    
+    <div class="postImageShadow">
+        <a href="https://www.regione.marche.it/News-ed-Eventi/Post/118367/CUP-attenzione-ai-falsi-SMS-Allerta-per-potenziali-truffe" class="image image-full">
+    <img src="/DesktopModules/Blog/BlogImage.ashx?TabId=121&ModuleId=6553&Blog=55&Post=118367&w=745&h=275&c=0&key=b9a0ea95-60f0-453c-a512-af13c6902ca2" alt=" " />
+</a>
+    </div> 
+    
+    
+    <!-- <div class="posttags">
+        <ul><li>Tags:</li></ul>
+        <div class="line_small_padding">
+            <hr class="light_line" />
+        </div>
+    </div> -->
+	 
+	 
+    <div class="blog_title">
+        <h4><a href="https://www.regione.marche.it/News-ed-Eventi/Post/118367/CUP-attenzione-ai-falsi-SMS-Allerta-per-potenziali-truffe">CUP, attenzione ai falsi SMS. Allerta per potenziali truffe</a></h4>
+	<div class="my_blogpost_info_wrapper">
+        <div class="my_blog_info_block">
+		<div class="my_blog_categories"><a href="/News-ed-Eventi/Categorie/Term/2532/Comunicati stampa">Comunicati stampa</a>&nbsp;<a href="/News-ed-Eventi/Categorie/Term/28/In primo piano">In primo piano</a>&nbsp;<a href="/News-ed-Eventi/Categorie/Term/51/Salute">Salute</a>&nbsp;</div>
+        </div>
+    </div>
+	
+	
+    </div>
+	
+	<!-- <div class="postsummary"><p><p>La Regione Marche invita tutti i cittadini a prestare la massima attenzione a messaggi SMS fraudolenti che stanno circolando in questi giorni e che utilizzano indebitamente il nome del Centro Unico di Prenotazione (CUP).</p>&nbsp;&nbsp;&nbsp;</p></div> -->
+	
+	
+	
+    <div style="clear:both"></div>
+	
+    <!-- <div class="my_blogpost_info_wrapper">
+        <div class="my_blog_info_block">
+            <div class="my_blog_categories"><a href="/News-ed-Eventi/Categorie/Term/2532/Comunicati stampa">Comunicati stampa</a>&nbsp;<a href="/News-ed-Eventi/Categorie/Term/28/In primo piano">In primo piano</a>&nbsp;<a href="/News-ed-Eventi/Categorie/Term/51/Salute">Salute</a>&nbsp;</div>
+            <div class="my_blog_views">24 views</div>
+            <div class="my_blog_comments"><a href="https://www.regione.marche.it/News-ed-Eventi/Post/118367/CUP-attenzione-ai-falsi-SMS-Allerta-per-potenziali-truffe">0 comments</a></div>
+        </div>
+    </div> -->
+	
+	</div>
+</article>
+</div>
+<div class="row latest_blog_row">
+<article class="is-post is-post-excerpt">
+<div class="row">
+<div class="col-md-12"><div class="blog_date">giovedì 1 ottobre 2026&nbsp;&nbsp;17:31&nbsp;</div></div></div>
+<div class="row">
+    
+    <div class="postImageShadow">
+        <a href="https://www.regione.marche.it/News-ed-Eventi/Post/118360/A-Jesi-Sport-è-Comunicazione-tre-giorni-per-abbattere-le-barriere-e-promuovere-la-partecipazione-dei-giovani-sordi" class="image image-full">
+    <img src="/DesktopModules/Blog/BlogImage.ashx?TabId=121&ModuleId=6553&Blog=55&Post=118360&w=745&h=275&c=0&key=40e4a145-cca6-426a-b196-c0b50bd534fc" alt=" " />
+</a>
+    </div> 
+    
+    
+    <!-- <div class="posttags">
+        <ul><li>Tags:</li></ul>
+        <div class="line_small_padding">
+            <hr class="light_line" />
+        </div>
+    </div> -->
+	 
+	 
+    <div class="blog_title">
+        <h4><a href="https://www.regione.marche.it/News-ed-Eventi/Post/118360/A-Jesi-Sport-è-Comunicazione-tre-giorni-per-abbattere-le-barriere-e-promuovere-la-partecipazione-dei-giovani-sordi">A Jesi “Sport è Comunicazione”: tre giorni per abbattere le barriere e promuovere la partecipazione dei giovani sordi</a></h4>
+	<div class="my_blogpost_info_wrapper">
+        <div class="my_blog_info_block">
+		<div class="my_blog_categories"><a href="/News-ed-Eventi/Categorie/Term/2532/Comunicati stampa">Comunicati stampa</a>&nbsp;<a href="/News-ed-Eventi/Categorie/Term/28/In primo piano">In primo piano</a>&nbsp;<a href="/News-ed-Eventi/Categorie/Term/35/Sociale">Sociale</a>&nbsp;</div>
+        </div>
+    </div>
+	
+	
+    </div>
+	
+	<!-- <div class="postsummary"><p><p>Lo sport come strumento di inclusione, crescita e partecipazione. È questo l&#39;obiettivo di &quot;Sport è Comunicazione&quot;, la manifestazione in programma a Jesi (AN) dal 2 al 4 ottobre nell&#39;ambito del progetto SAIS (Sensibilizzazione, Accessibilità e Inclusione delle persone Sorde) 2.0 Marche, dedicato alla promozione di percorsi di autonomia e integrazione per le persone sorde.</p>
+&nbsp;&nbsp;&nbsp;</p></div> -->
+	
+	
+	
+    <div style="clear:both"></div>
+	
+    <!-- <div class="my_blogpost_info_wrapper">
+        <div class="my_blog_info_block">
+            <div class="my_blog_categories"><a href="/News-ed-Eventi/Categorie/Term/2532/Comunicati stampa">Comunicati stampa</a>&nbsp;<a href="/News-ed-Eventi/Categorie/Term/28/In primo piano">In primo piano</a>&nbsp;<a href="/News-ed-Eventi/Categorie/Term/35/Sociale">Sociale</a>&nbsp;</div>
+            <div class="my_blog_views">18 views</div>
+            <div class="my_blog_comments"><a href="https://www.regione.marche.it/News-ed-Eventi/Post/118360/A-Jesi-Sport-è-Comunicazione-tre-giorni-per-abbattere-le-barriere-e-promuovere-la-partecipazione-dei-giovani-sordi">0 comments</a></div>
+        </div>
+    </div> -->
+	
+	</div>
+</article>
+</div>
+<div class="row latest_blog_row">
+<article class="is-post is-post-excerpt">
+<div class="row">
+<div class="col-md-12"><div class="blog_date">mercoledì 30 settembre 2026&nbsp;&nbsp;10:39&nbsp;</div></div></div>
+<div class="row">
+    
+    <div class="postImageShadow">
+        <a href="https://www.regione.marche.it/News-ed-Eventi/Post/118333/Ambiente-Costa-del-Piceno-San-Nicola-a-Mare-intesa-con-il-MASE-per-la-designazione-come-Zona-Speciale-di-Conservazione" class="image image-full">
+    <img src="/DesktopModules/Blog/BlogImage.ashx?TabId=121&ModuleId=6553&Blog=55&Post=118333&w=745&h=275&c=0&key=42fa4a8e-5657-4a18-bd24-737e0c49d0a8" alt=" " />
+</a>
+    </div> 
+    
+    
+    <!-- <div class="posttags">
+        <ul><li>Tags:</li></ul>
+        <div class="line_small_padding">
+            <hr class="light_line" />
+        </div>
+    </div> -->
+	 
+	 
+    <div class="blog_title">
+        <h4><a href="https://www.regione.marche.it/News-ed-Eventi/Post/118333/Ambiente-Costa-del-Piceno-San-Nicola-a-Mare-intesa-con-il-MASE-per-la-designazione-come-Zona-Speciale-di-Conservazione">Ambiente, Costa del Piceno – San Nicola a Mare: intesa con il MASE per la designazione come Zona Speciale di Conservazione</a></h4>
+	<div class="my_blogpost_info_wrapper">
+        <div class="my_blog_info_block">
+		<div class="my_blog_categories"><a href="/News-ed-Eventi/Categorie/Term/2532/Comunicati stampa">Comunicati stampa</a>&nbsp;<a href="/News-ed-Eventi/Categorie/Term/41/Ambiente">Ambiente</a>&nbsp;<a href="/News-ed-Eventi/Categorie/Term/28/In primo piano">In primo piano</a>&nbsp;</div>
+        </div>
+    </div>
+	
+	
+    </div>
+	
+	<!-- <div class="postsummary"><p><p>Il tratto marino &ldquo;Costa del Piceno &ndash; San Nicola a mare&rdquo; sarà designato Zona Speciale di Conservazione (ZSC), nell&rsquo;ambito della Rete Natura 2000. È quanto stabilito nello schema di decreto del Ministero dell&rsquo;Ambiente e della Sicurezza Energetica d&rsquo;intesa con la Regione Marche. &nbsp;&ldquo;Parliamo di un&rsquo;area di circa 43 ettari &ndash; dichiara l&rsquo;assessore regionale all&rsquo;Ambiente Tiziano Consoli &ndash; per la quale oggi compiamo un passaggio importante verso il completamento del percorso di tutela. Un iter iniziato oltre 10 anni fa, che oggi arriva a una fase decisiva attraverso il raccordo tra Regione Marche e Ministero dell&rsquo;Ambiente&rdquo;.</p>&nbsp;&nbsp;&nbsp;</p></div> -->
+	
+	
+	
+    <div style="clear:both"></div>
+	
+    <!-- <div class="my_blogpost_info_wrapper">
+        <div class="my_blog_info_block">
+            <div class="my_blog_categories"><a href="/News-ed-Eventi/Categorie/Term/2532/Comunicati stampa">Comunicati stampa</a>&nbsp;<a href="/News-ed-Eventi/Categorie/Term/41/Ambiente">Ambiente</a>&nbsp;<a href="/News-ed-Eventi/Categorie/Term/28/In primo piano">In primo piano</a>&nbsp;</div>
+            <div class="my_blog_views">67 views</div>
+            <div class="my_blog_comments"><a href="https://www.regione.marche.it/News-ed-Eventi/Post/118333/Ambiente-Costa-del-Piceno-San-Nicola-a-Mare-intesa-con-il-MASE-per-la-designazione-come-Zona-Speciale-di-Conservazione">0 comments</a></div>
+        </div>
+    </div> -->
+	
+	</div>
+</article>
+</div>
+<div class="row latest_blog_row">
+<article class="is-post is-post-excerpt">
+<div class="row">
+<div class="col-md-12"><div class="blog_date">mercoledì 30 settembre 2026&nbsp;&nbsp;09:44&nbsp;</div></div></div>
+<div class="row">
+    
+    <div class="postImageShadow">
+        <a href="https://www.regione.marche.it/News-ed-Eventi/Post/118331/Bando-Comunità-energetiche-PR-MARCHE-FESR-2021-2027-Oggi-30-Settembre-apre-lo-sportello-per-le-domande-di-finanziamento" class="image image-full">
+    <img src="/DesktopModules/Blog/BlogImage.ashx?TabId=121&ModuleId=6553&Blog=9&Post=118331&w=745&h=275&c=0&key=8d366bef-02ab-4232-ac70-ae07ef52ede4" alt=" " />
+</a>
+    </div> 
+    
+    
+    <!-- <div class="posttags">
+        <ul><li>Tags:</li></ul>
+        <div class="line_small_padding">
+            <hr class="light_line" />
+        </div>
+    </div> -->
+	 
+	 
+    <div class="blog_title">
+        <h4><a href="https://www.regione.marche.it/News-ed-Eventi/Post/118331/Bando-Comunità-energetiche-PR-MARCHE-FESR-2021-2027-Oggi-30-Settembre-apre-lo-sportello-per-le-domande-di-finanziamento">Bando Comunità energetiche PR MARCHE FESR 2021/2027: Oggi 30 Settembre apre lo sportello per le domande di finanziamento</a></h4>
+	<div class="my_blogpost_info_wrapper">
+        <div class="my_blog_info_block">
+		<div class="my_blog_categories"><a href="/News-ed-Eventi/Categorie/Term/28/In primo piano">In primo piano</a>&nbsp;<a href="/News-ed-Eventi/Categorie/Term/43/Energia">Energia</a>&nbsp;</div>
+        </div>
+    </div>
+	
+	
+    </div>
+	
+	<!-- <div class="postsummary"><p><p>Oggi 30 Settembre 2026 dalle ore 10:00 fino al 29 Gennaio 2027 è possibile presentare la domanda per il <strong>BANDO PR MARCHE FESR anni 2021/2027 ASSE 2 OS 2.2 AZIONE 2.2.1 Intervento 2.2.1.2</strong><strong>​</strong><strong>&nbsp;DI FINANZIAMENTO DI COMUNIT</strong><strong>À ENERGETICHE PER LA PRODUZIONE/CONSUMO DI ENERGIA DA FONTI RINNOVABILI</strong></p>
+&nbsp;&nbsp;&nbsp;</p></div> -->
+	
+	
+	
+    <div style="clear:both"></div>
+	
+    <!-- <div class="my_blogpost_info_wrapper">
+        <div class="my_blog_info_block">
+            <div class="my_blog_categories"><a href="/News-ed-Eventi/Categorie/Term/28/In primo piano">In primo piano</a>&nbsp;<a href="/News-ed-Eventi/Categorie/Term/43/Energia">Energia</a>&nbsp;</div>
+            <div class="my_blog_views">63 views</div>
+            <div class="my_blog_comments"><a href="https://www.regione.marche.it/News-ed-Eventi/Post/118331/Bando-Comunità-energetiche-PR-MARCHE-FESR-2021-2027-Oggi-30-Settembre-apre-lo-sportello-per-le-domande-di-finanziamento">0 comments</a></div>
+        </div>
+    </div> -->
+	
+	</div>
+</article>
+</div>
+
+</div>
+
+
+
+
+</div><!-- End_Module_6553 --></div>
+  </div>
+</div></div><div class="DnnModule DnnModule-DNN_HTML DnnModule-9989"><a name="9989"></a><div id="dnn_ctr9989_ContentPane"><!-- Start_Module_9989 --><div id="dnn_ctr9989_ModuleContent" class="DNNModuleContent ModDNNHTMLC">
+	<div id="dnn_ctr9989_HtmlModule_lblContent" class="Normal">
+	<a class="btn btn-default btn-lg btn-block IPP_more_news" href="/News-ed-Eventi/">Tutte le news</a>
+</div>
+
+</div><!-- End_Module_9989 --></div>
+</div></div>
+						<div id="dnn_TopGrid4A" class="topgrid4a col-md-3 col-md-pull-6"><div class="DnnModule DnnModule-DNN_HTML DnnModule-11624"><a name="11624"></a>
+
+<div class="Bt_EiR_style">
+  <div class="Bt_EiR_top clearafter">
+    <div class="c_icon">
+      
+    </div>
+    <h2 class="c_title">
+      <span id="dnn_ctr11624_dnnTITLE_titleLabel" class="c_title_black">Focus</span>
+
+
+
+    </h2>
+  </div>
+  <div class="c_content_style">
+    <div id="dnn_ctr11624_ContentPane" class="Bt2_content"><!-- Start_Module_11624 --><div id="dnn_ctr11624_ModuleContent" class="DNNModuleContent ModDNNHTMLC">
+	<div id="dnn_ctr11624_HtmlModule_lblContent" class="Normal">
+	<p><a href="/Entra-in-Regione/Bandi-e-opportunita"><img alt="Bandi di contributo e Opportunità" src="/portals/0/banner/Bandi-e-opportunità.png" style="width: 303px; height: 57px;" title="Bandi di contributo e Opportunità" /></a></p>
+
+<hr />
+<p><a href="/ZES"><img alt="Zes unica per le Marche" src="/portals/0/banner/zes_banner_home.png" style="width: 308px; height: 61px;" title="" /></a></p>
+
+<hr />
+<p><a href="/Entra-in-Regione/Elezioni-regionali-2025"><img alt="" src="/portals/0/Elezioni_2025/banner_03.png" style="width: 303px; height: 57px;" title="" /></a></p>
+
+<hr />
+<p><a href="/centrifacilitazionedigitale#Le-sedi"><img alt="Progetto Bussola Digitale" src="/portals/0/banner/banner-progetto-bussola-digitale.png" style="width: 308px; height: 61px;" title="Progetto Bussola Digitale" /></a></p>
+
+<hr />
+<p><a href="/Regione-Utile/Salute/Professioni-Sanitarie"><img alt="" src="/portals/0/Salute/Professioni-Sanitarie.png" style="width: 303px; height: 57px;" title="" /></a></p>
+
+<hr />
+<p><a href="/Regione-Utile/Enti-Locali-e-Pubblica-Amministrazione/Tirocini-extracurriculari"><img alt="" src="/portals/0/banner/TIROCINI.png" style="width: 303px; height: 57px;" title="" /></a></p>
+
+<hr />
+<p><a href="/Entra-in-Regione/Comitato-Unico-di-Garanzia/Chi-siamo"><img alt="" src="/portals/0/banner/Banner_CUG_2.png" style="width: 308px; height: 63px;" title="" /></a></p>
+
+<hr />
+<p><a href="/Entra-in-Regione/Vaccini-Covid/Campagna-25-26"><img alt="Piano Vaccinazioni Regione Marche" src="/portals/0/banner/vaccini_focus.png" style="width: 308px; height: 61px;" title="Piano Vaccinazioni Regione Marche" /></a></p>
+
+<hr />
+<p><a href="/informazioni-alluvione"><img alt="Danni alluvione 2022" src="/portals/0/banner/Info_alluvione_focus.png" style="width: 308px; height: 61px;" title="Danni alluvione 2022" /></a></p>
+
+<hr />
+<p><a href="/urp"><img alt="URP la regione risponde" src="/portals/0/banner/urp_focus.jpg" style="width: 308px; height: 70px;" title="URP la regione risponde" /></a></p>
+
+<hr />
+<p><a href="/Regione-Utile/Ricostruzione-Marche"><img alt="Ufficio speciale Ricostruzione" src="/portals/0/banner/banner_usr.png?ver=fog2Dsg7hg3unoreohPEbw%3d%3d" title="" /> </a><br />
+<strong><a href="/Regione-Utile/Ricostruzione-Marche/Contatti">Uffici per la ricostruzione - indirizzi e recapiti</a> </strong></p>
+
+<hr />
+<p><a href="https://112.gov.it/"><img alt="Numero unico europeo di emergenza 112" src="/portals/0/Immagini/NUE112.png" style="width: 304px; height: 59px;" title="" /> </a></p>
+
+<hr />
+<p><a href="/Entra-in-Regione/Fondi-Europei"><img alt="Fondi Europei Regione Marche" src="/portals/0/Europa_Estero/ImgSliders/Bannerxsito-03.png" style="width: 304px; height: 59px;" title="" /> </a></p>
+
+<hr />
+<p><a href="/Regione-Utile/Protezione-Civile"><img alt="Protezione Civile Regione Marche" src="/portals/0/Immagini/Protezione_Civile.png" title="" /> </a></p>
+
+<hr />
+<p><a href="/Entra-in-Regione/Terremoto-Marche"><img alt="Sisma Marche" src="/portals/0/Immagini/Sisma_Marche.png" title="" /> </a></p>
+
+<hr />
+<p><a href="/formazione-disoccupati"><img alt="canale formazione disoccupati" src="/portals/0/Images/corsi_disoccupati.png" /> </a></p>
+
+<hr />
+<p><a href="/Entra-in-Regione/Centri-Impiego"><img alt="link al form di contatto per i Servizi dei Centri per l'impiego" src="/portals/0/banner/centro_impiego.png" style="width: 303px; height: 57px;" title="" /></a></p>
+
+<hr />
+<p><a href="/Regione-Utile/Lavoro-e-Formazione-Professionale/Formazione-per-occupati"><img alt="canale corsi occupati" src="/portals/0/Images/corsi_occupati.png" /> </a></p>
+
+<hr />
+<p><a href="/Entra-in-Regione/Sviluppo-Sostenibile"><img alt="canale sviluppo sostenibile" src="/portals/0/banner/focus_icon_svilupposostenibile.png" /> </a></p>
+
+<hr />
+<p><a href="/elenchi-operatori"><img alt="canale elenchi operatori economici" src="/portals/0/Immagini/operatori_conomici_02.png?ver=2018-04-12-080927-840" /> </a></p>
+
+<hr />
+<p><a href="/Entra-in-Regione/statistica"><img alt="link al sito statistica" src="/portals/0/Images/statistica_ara.png?ver=2016-03-03-115033-400" /> </a></p>
+
+<hr />
+<p><a href="/Regione-Utile/Agenda-Digitale/Cittadinanza-digitale/TsCns"><img alt="link al sito tessera sanitaria elettronica" src="/portals/0/Images/focus_tscns.png?ver=2016-05-25-091847-773" /> </a></p>
+
+<hr />
+<p><a href="/Regione-Utile/Agricoltura-Sviluppo-Rurale-e-Pesca/Sostieni-le-Marche"><img alt="canale sostieni le marche" src="/portals/0/Agricoltura/sostieni_le_marche.png" /><br />
+Sostegno alle imprese agroalimentari di qualità delle zone terremotate</a></p>
+
+<hr />
+<p><a href="/Regione-Utile/Finanze-e-Tributi/Conti-pubblici-territoriali"><img alt="canale conti pubblici territoriali" src="/portals/0/banner/CPT.png?ver=2017-10-11-121332-180" /><br />
+Conti Pubblici Territoriali</a></p>
+
+<hr />
+<p><a href="/Entra-in-Regione/Caccia/INCIDENTI-STRADALI"><img alt="Indennizzo dei danni causati dalla fauna selvatica alla circolazione stradale" src="/portals/0/Immagini/Indennizzo_fauna.png" /> </a></p>
+
+<hr />
+<p><a href="/Entra-in-Regione/Europe-Direct"><img alt="Europe Direct" src="/portals/0/Europa_Estero/Europe_direct/Eu_direct_logo.png" /> </a></p>
+
+<p style="text-align: center; padding-top: 10px;">&nbsp;</p>
+
+</div>
+
+</div><!-- End_Module_11624 --></div>
+  </div>
+</div></div></div>
+						<div id="dnn_TopGrid4C" class="topgrid4c col-md-3"><div class="DnnModule DnnModule-DNN_HTML DnnModule-5970"><a name="5970"></a>
+
+<div class="Bt_EiR_style">
+  <div class="Bt_EiR_top clearafter">
+    <div class="c_icon">
+      
+    </div>
+    <h2 class="c_title">
+      <span id="dnn_ctr5970_dnnTITLE_titleLabel" class="c_title_black">#Marche</span>
+
+
+
+    </h2>
+  </div>
+  <div class="c_content_style">
+    <div id="dnn_ctr5970_ContentPane" class="Bt2_content"><!-- Start_Module_5970 --><div id="dnn_ctr5970_ModuleContent" class="DNNModuleContent ModDNNHTMLC">
+	<div id="dnn_ctr5970_HtmlModule_lblContent" class="Normal">
+	<div class="pe-spacer size20">&nbsp;</div>
+
+<div class="row">
+<div class="col-sm-4 user_data"><a href="https://www.facebook.com/PaginaUfficialeRegioneMarche" target="_blank" title="collegamento alla pagina Facebook istituzionale"><span class="fa fa-facebook"></span></a></div>
+
+<div class="col-sm-4 user_data"><a href="https://twitter.com/regionemarcheit" target="_blank" title="collegamento alla pagina Twitter istituzionale"><svg height="3em" viewbox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z"></path></svg> </a></div>
+
+<div class="col-sm-4 user_data"><a href="https://www.youtube.com/@regionemarche3013" target="_blank" title="collegamento al canale YouTube istituzionale"><span class="fa fa-youtube"></span></a></div>
+</div>
+
+<div class="row">
+<div class="col-sm-4 user_data"><a href="/rss" title="RSS"><span class="fa fa-rss"></span></a></div>
+
+<div class="col-sm-4 user_data"><a href="https://www.linkedin.com/company/regionemarche/" target="_blank" title="LinkedIn"><span class="fa  fa-linkedin"></span></a></div>
+
+<div class="col-sm-4 user_data"><a href="https://www.slideshare.net/redazionemarche" target="_blank" title="SlideShare"><img alt="link a slideshare" src="/portals/0/immagini/Slideshare_logo_vert.png" /></a></div>
+</div>
+
+<div class="row">
+<div class="col-sm-4 user_data"><a href="https://t.me/regione_marche" target="_blank" title="collegamento al canale Telegram istituzionale"><span class="fa fa-telegram"
+                style="background-color:#27A7E5"></span></a></div>
+
+<div class="col-sm-4 user_data"><a href="https://www.instagram.com/marche_regione/" target="_blank" title="collegamento al canale Instagram istituzionale"><i class="fa fa-instagram" id="insta_homeRM"
+                aria-hidden="true"></i> </a></div>
+
+<div class="col-sm-4 user_data">&nbsp;</div>
+</div>
+
+</div>
+
+</div><!-- End_Module_5970 --></div>
+  </div>
+</div></div><div class="DnnModule DnnModule-DNN_HTML DnnModule-9993"><a name="9993"></a>
+
+<div class="Bt_EiR_style">
+  <div class="Bt_EiR_top clearafter">
+    <div class="c_icon">
+      
+    </div>
+    <h2 class="c_title">
+      <span id="dnn_ctr9993_dnnTITLE_titleLabel" class="c_title_black">Video</span>
+
+
+
+    </h2>
+  </div>
+  <div class="c_content_style">
+    <div id="dnn_ctr9993_ContentPane" class="Bt2_content"><!-- Start_Module_9993 --><div id="dnn_ctr9993_ModuleContent" class="DNNModuleContent ModDNNHTMLC">
+	<div id="dnn_ctr9993_HtmlModule_lblContent" class="Normal">
+	<p><a class="btn btn-default btn-lg btn-block" href="/Video">Tutti i Video<span class="fa fa-video-camera"></span> </a>
+</p>
+
+<p><a href="/Video/Post/118327"><img alt="Giornata dei teatri storici delle Marche: il 4 ottobre la prima edizione"
+            src="/DesktopModules/Blog/BlogImage.ashx?TabId=1738&ModuleId=13439&Blog=27&Post=118327&w=745&h=275&c=0&key=db2dc7e1-fe73-4b20-89b8-5006533c63a0"
+            style="width: 100%" /> </a></p>
+
+
+<p><a href="/Video/Post/118249/"><img alt="Ultimo miglio ad Ancona: i lavori procedono secondo cronoprogramma"
+            src="/DesktopModules/Blog/BlogImage.ashx?TabId=1738&amp;ModuleId=13439&amp;Blog=27&amp;Post=118249&amp;w=745&amp;h=275&amp;c=0&amp;key=714bc7c7-88d8-4ae3-ade3-923532214502"
+            style="width: 100%" /> </a></p>
+
+<p><a href="/Video/Post/117929/"><img
+            alt="Quadrilatero Marche-Umbria, Anas: aperto al traffico a 4 corsie l'ultimo tratto della ss76"
+            src="/DesktopModules/Blog/BlogImage.ashx?TabId=1738&amp;ModuleId=13439&amp;Blog=27&amp;Post=117929&amp;w=745&amp;h=275&amp;c=0&amp;key=7735fd18-6d05-4416-bd5a-68ff51a15fbf"
+            style="width: 100%" /> </a></p>
+
+
+</div>
+
+</div><!-- End_Module_9993 --></div>
+  </div>
+</div></div><div class="DnnModule DnnModule-RegioneMarcheComunicatiStampaGrafico DnnModule-6948"><a name="6948"></a>
+
+<div class="Bt_EiR_style">
+  <div class="Bt_EiR_top clearafter">
+    <div class="c_icon">
+      
+    </div>
+    <h2 class="c_title">
+      <span id="dnn_ctr6948_dnnTITLE_titleLabel" class="c_title_black">Comunicati Stampa</span>
+
+
+
+    </h2>
+  </div>
+  <div class="c_content_style">
+    <div id="dnn_ctr6948_ContentPane" class="Bt2_content"><!-- Start_Module_6948 --><div id="dnn_ctr6948_ModuleContent" class="DNNModuleContent ModRegioneMarcheComunicatiStampaGraficoC">
+	
+	    <div class="padding">
+    
+        <div class="row">
+            <div class="col-sm-2">
+                <!--icona -->
+                <span class="Comunicati_span  fa fa-users color-13 fa-2x"></span>
+            </div>
+            <div class="col-sm-10">
+                <h5 class="ComunicatiTitleBold">
+                    <a href="/In-Primo-Piano/ComunicatiStampa?id=33906" class="Comunicati_title"><span class="Comunicati_data"><strong>06/10/2026</strong></span>LAVORO E FORMAZIONE, AD ANCONA PRESENTATA LA NUOVA STRATEGIA DI COMUNICAZIONE DELLA REGIONE MARCHE</a>
+                </h5>
+            </div>
+        </div>
+    
+        <div class="row">
+            <div class="col-sm-2">
+                <!--icona -->
+                <span class="Comunicati_span  fa fa-users color-13 fa-2x"></span>
+            </div>
+            <div class="col-sm-10">
+                <h5 class="ComunicatiTitleBold">
+                    <a href="/In-Primo-Piano/ComunicatiStampa?id=33905" class="Comunicati_title"><span class="Comunicati_data"><strong>05/10/2026</strong></span>ELECTROLUX, ACQUAROLI: “L’OBIETTIVO È LA TUTELA DELLO STABILIMENTO E DELLA COMPETITIVITÀ DI CERRETO"</a>
+                </h5>
+            </div>
+        </div>
+    
+        <div class="row">
+            <div class="col-sm-2">
+                <!--icona -->
+                <span class="Comunicati_span  fa bkg-icon-15 color-15 fa-2x"></span>
+            </div>
+            <div class="col-sm-10">
+                <h5 class="ComunicatiTitleBold">
+                    <a href="/In-Primo-Piano/ComunicatiStampa?id=33904" class="Comunicati_title"><span class="Comunicati_data"><strong>03/10/2026</strong></span>INAUGURATO OGGI IL PONTE DEL COPPETTO: CONSEGNATA AI CITTADINI UNA GRANDE OPERA DELLA RICOSTRUZIONE POST ALLUVIONE 2022</a>
+                </h5>
+            </div>
+        </div>
+    
+        <div class="row">
+            <div class="col-sm-2">
+                <!--icona -->
+                <span class="Comunicati_span  fa fa-heartbeat color-16 fa-2x"></span>
+            </div>
+            <div class="col-sm-10">
+                <h5 class="ComunicatiTitleBold">
+                    <a href="/In-Primo-Piano/ComunicatiStampa?id=33902" class="Comunicati_title"><span class="Comunicati_data"><strong>02/10/2026</strong></span>CUP, ATTENZIONE AI FALSI SMS. ALLERTA PER POTENZIALI TRUFFE</a>
+                </h5>
+            </div>
+        </div>
+    
+        <div class="row">
+            <div class="col-sm-2">
+                <!--icona -->
+                <span class="Comunicati_span  fa fa-picture-o color-14 fa-2x"></span>
+            </div>
+            <div class="col-sm-10">
+                <h5 class="ComunicatiTitleBold">
+                    <a href="/In-Primo-Piano/ComunicatiStampa?id=33903" class="Comunicati_title"><span class="Comunicati_data"><strong>02/10/2026</strong></span>EMERGENZA IDRICA: PROROGATA AL 31 OTTOBRE LA SOSPENSIONE DEI PRELIEVI DAI CORSI D’ACQUA DELLA PROVINCIA DI PESARO E URBINO</a>
+                </h5>
+            </div>
+        </div>
+    
+        <div class="row">
+            <div class="col-sm-2">
+                <!--icona -->
+                <span class="Comunicati_span  fa fa-child color-17 fa-2x"></span>
+            </div>
+            <div class="col-sm-10">
+                <h5 class="ComunicatiTitleBold">
+                    <a href="/In-Primo-Piano/ComunicatiStampa?id=33901" class="Comunicati_title"><span class="Comunicati_data"><strong>01/10/2026</strong></span>A JESI “SPORT È COMUNICAZIONE”: TRE GIORNI PER ABBATTERE LE BARRIERE E PROMUOVERE LA PARTECIPAZIONE DEI GIOVANI SORDI</a>
+                </h5>
+            </div>
+        </div>
+    
+        <div class="row">
+            <div class="col-sm-2">
+                <!--icona -->
+                <span class="Comunicati_span  fa fa-tree color-3 fa-2x"></span>
+            </div>
+            <div class="col-sm-10">
+                <h5 class="ComunicatiTitleBold">
+                    <a href="/In-Primo-Piano/ComunicatiStampa?id=33900" class="Comunicati_title"><span class="Comunicati_data"><strong>30/09/2026</strong></span>AMBIENTE, COSTA DEL PICENO – SAN NICOLA A MARE: INTESA CON IL MASE PER LA DESIGNAZIONE COME ZONA SPECIALE DI CONSERVAZIONE</a>
+                </h5>
+            </div>
+        </div>
+    
+        <div class="row">
+            <div class="col-sm-2">
+                <!--icona -->
+                <span class="Comunicati_span  fa fa-users color-13 fa-2x"></span>
+            </div>
+            <div class="col-sm-10">
+                <h5 class="ComunicatiTitleBold">
+                    <a href="/In-Primo-Piano/ComunicatiStampa?id=33899" class="Comunicati_title"><span class="Comunicati_data"><strong>29/09/2026</strong></span>LA REGIONE STANZIA 5,1 MILIONI PER I GIOVANI CHE VOGLIONO FARE IMPRESA NELLE MARCHE</a>
+                </h5>
+            </div>
+        </div>
+    
+        <div class="row">
+            <div class="col-sm-2">
+                <!--icona -->
+                <span class="Comunicati_span  fa fa-university color-5 fa-2x"></span>
+            </div>
+            <div class="col-sm-10">
+                <h5 class="ComunicatiTitleBold">
+                    <a href="/In-Primo-Piano/ComunicatiStampa?id=33898" class="Comunicati_title"><span class="Comunicati_data"><strong>29/09/2026</strong></span>PRESENTATO IL FESTIVAL DEL GIORNALISMO CULTURALE XIV EDIZIONE: IL TEMA QUEST’ANNO È CONFINI. LE FRONTIERE DEL GIORNALISMO CULTURALE</a>
+                </h5>
+            </div>
+        </div>
+    
+        <div class="row">
+            <div class="col-sm-2">
+                <!--icona -->
+                <span class="Comunicati_span  fa fa-users color-13 fa-2x"></span>
+            </div>
+            <div class="col-sm-10">
+                <h5 class="ComunicatiTitleBold">
+                    <a href="/In-Primo-Piano/ComunicatiStampa?id=33895" class="Comunicati_title"><span class="Comunicati_data"><strong>28/09/2026</strong></span>FORMAZIONE, LA REGIONE AGGIORNA IL PROFILO DEGLI ADDETTI AI SERVIZI DI CONTROLLO NEI LUOGHI DI INTRATTENIMENTO E SPETTACOLO</a>
+                </h5>
+            </div>
+        </div>
+    
+        </div>
+    
+
+</div><!-- End_Module_6948 --></div>
+  </div>
+</div></div><div class="DnnModule DnnModule-DNN_HTML DnnModule-8392"><a name="8392"></a><div id="dnn_ctr8392_ContentPane"><!-- Start_Module_8392 --><div id="dnn_ctr8392_ModuleContent" class="DNNModuleContent ModDNNHTMLC">
+	<div id="dnn_ctr8392_HtmlModule_lblContent" class="Normal">
+	<div class="pe-spacer size20">&nbsp;</div>
+
+<div style="padding: 10px 0px; border: 1px solid #999999; border-radius: 5px; font-weight: bold;">
+<p style="text-align: center;"><a href="/In-Primo-Piano/Social-Media-Policy"><img alt="logo regione marche e social media" src="/portals/0/Immagini/social-media_sm.png" title="logo regione marche e social media" /> </a></p>
+
+<p style="text-align: center;"><a href="/In-Primo-Piano/Social-Media-Policy">Policy social Regione Marche</a></p>
+</div>
+
+<div class="pe-spacer size40">&nbsp;</div>
+
+</div>
+
+</div><!-- End_Module_8392 --></div>
+</div></div>
+					</div>
+					<div class="row dnnpane">
+						<div id="dnn_TopGridMiddle12" class="topgridmiddle12 col-md-12"><div class="DnnModule DnnModule-RegioneMarcheListaTemiRegionaliGrafico DnnModule-8928"><a name="8928"></a>
+
+<div class="Bt_EiR_style">
+  <div class="Bt_EiR_top clearafter">
+    <div class="c_icon">
+      
+    </div>
+    <h2 class="c_title">
+      <span id="dnn_ctr8928_dnnTITLE_titleLabel" class="c_title_black">Regione utile</span>
+
+
+
+    </h2>
+  </div>
+  <div class="c_content_style">
+    <div id="dnn_ctr8928_ContentPane" class="Bt2_content"><!-- Start_Module_8928 --><div id="dnn_ctr8928_ModuleContent" class="DNNModuleContent ModRegioneMarcheListaTemiRegionaliGraficoC">
+	
+
+<div class="table-responsive">
+<table class="table table-condensed">
+    <thead>
+    </thead>
+    <tbody>
+        <tr><td style="vertical-align:middle;"><span class="Regione_utile fa fa-2x fa-pagelines color-2"></span></td><td style="vertical-align:middle;"><a href="/Regione-Utile/Agricoltura-Sviluppo-Rurale-e-Pesca">Agricoltura Sviluppo Rurale e Pesca</a></td><td style="vertical-align:middle;"><span class="Regione_utile fa fa-2x fa-tree color-3"></span></td><td style="vertical-align:middle;"><a href="/Regione-Utile/Ambiente">Ambiente</a></td><td style="vertical-align:middle;"><span class="Regione_utile fa fa-2x fa-gears color-4"></span></td><td style="vertical-align:middle;"><a href="/Regione-Utile/Attività-Produttive">Attività Produttive</a></td><td style="vertical-align:middle;"><span class="Regione_utile fa fa-2x fa-university color-5"></span></td><td style="vertical-align:middle;"><a href="/Regione-Utile/Cultura">Cultura</a></td><td style="vertical-align:middle;"><span class="Regione_utile fa fa-2x fa fa-desktop color-1 classe_agendadgt"></span></td><td style="vertical-align:middle;"><a href="/Regione-Utile/Agenda-Digitale">Digitalizzazione</a></td><td style="vertical-align:middle;"><span class="Regione_utile fa fa-2x fa-building-o color-6"></span></td><td style="vertical-align:middle;"><a href="/Regione-Utile/Edilizia-e-Lavori-Pubblici">Edilizia, Lavori Pubblici e Patrimonio</a></td></tr><tr><td style="vertical-align:middle;"><span class="Regione_utile fa fa-2x fa-sun-o color-7"></span></td><td style="vertical-align:middle;"><a href="/Regione-Utile/Energia">Energia</a></td><td style="vertical-align:middle;"><span class="Regione_utile fa fa-2x fa-sitemap color-8"></span></td><td style="vertical-align:middle;"><a href="/Regione-Utile/Enti-Locali-e-Pubblica-Amministrazione">Enti Locali e Pubblica Amministrazione</a></td><td style="vertical-align:middle;"><span class="Regione_utile fa fa-2x fa-signal color-10"></span></td><td style="vertical-align:middle;"><a href="/Regione-Utile/Finanze">Finanze e Tributi</a></td><td style="vertical-align:middle;"><span class="Regione_utile fa fa-2x fa-globe color-9"></span></td><td style="vertical-align:middle;"><a href="/Regione-Utile/Fondi-Europei-e-Attività-Internazionale">Fondi Europei e Attività Internazionale</a></td><td style="vertical-align:middle;"><span class="Regione_utile fa fa-2x fa-road color-11"></span></td><td style="vertical-align:middle;"><a href="/Regione-Utile/Infrastrutture">Infrastrutture</a></td><td style="vertical-align:middle;"><span class="Regione_utile fa fa-2x fa-graduation-cap color-12"></span></td><td style="vertical-align:middle;"><a href="/Regione-Utile/Istruzione-Formazione-e-Diritto-allo-studio">Istruzione, Formazione e Diritto allo studio</a></td></tr><tr><td style="vertical-align:middle;"><span class="Regione_utile fa fa-2x fa-users color-13"></span></td><td style="vertical-align:middle;"><a href="/Regione-Utile/Lavoro-e-Formazione-Professionale">Lavoro e Formazione Professionale</a></td><td style="vertical-align:middle;"><span class="Regione_utile fa fa-2x fa-picture-o color-14"></span></td><td style="vertical-align:middle;"><a href="/Regione-Utile/Paesaggio-Territorio-Urbanistica">Paesaggio, Territorio, Urbanistica, Genio Civile</a></td><td style="vertical-align:middle;"><span class="Regione_utile fa fa-2x bkg-icon-15 color-15"></span></td><td style="vertical-align:middle;"><a href="/Regione-Utile/Protezione-Civile">Protezione Civile e Sicurezza</a></td><td style="vertical-align:middle;"><span class="Regione_utile fa fa-2x fa-home color-20"></span></td><td style="vertical-align:middle;"><a href="/Regione-Utile/Ricostruzione-Marche">Ricostruzione Marche</a></td><td style="vertical-align:middle;"><span class="Regione_utile fa fa-2x fa-heartbeat color-16"></span></td><td style="vertical-align:middle;"><a href="/Regione-Utile/Salute">Salute</a></td><td style="vertical-align:middle;"><span class="Regione_utile fa fa-2x fa-child color-17"></span></td><td style="vertical-align:middle;"><a href="/Regione-Utile/Sociale">Sociale</a></td></tr><tr><td style="vertical-align:middle;"><span class="Regione_utile fa fa-2x fa-exclamation-triangle color-9"></span></td><td style="vertical-align:middle;"><a href="/Regione-Utile/Terremoto-Marche">Terremoto Marche</a></td><td style="vertical-align:middle;"><span class="Regione_utile fa fa-2x fa-subway color-11"></span></td><td style="vertical-align:middle;"><a href="/Regione-Utile/Infrastrutture-e-Trasporti">Trasporti</a></td><td style="vertical-align:middle;"><span class="Regione_utile fa fa-2x fa-bicycle color-18"></span></td><td style="vertical-align:middle;"><a href="/Regione-Utile/Turismo-Sport-Tempo-Libero">Turismo Sport e Tempo Libero</a></td></tr>
+    </tbody>
+</table>
+</div>
+</div><!-- End_Module_8928 --></div>
+  </div>
+</div></div></div>
+					</div>
+					<div class="row dnnpane">
+						<div id="dnn_TopGrid3A" class="topgrid3a col-md-3 DNNEmptyPane"></div>
+						<div id="dnn_TopGrid3B" class="topgrid3b col-md-3 DNNEmptyPane"></div>
+						<div id="dnn_TopGrid3C" class="topgrid3c col-md-3 DNNEmptyPane"></div>
+						<div id="dnn_TopGrid3D" class="topgrid3d col-md-3 DNNEmptyPane"></div>
+					</div>
+					<div class="row dnnpane">
+						<div id="dnn_TopGrid8L" class="topgrid8l col-md-8 DNNEmptyPane"></div>
+						<div id="dnn_TopGrid4R" class="topgrid4r col-md-4 DNNEmptyPane"></div>
+					</div>
+					<div class="row dnnpane">
+						<div id="dnn_TopGrid4L" class="topgrid4l col-md-4"><div class="DnnModule DnnModule-DNN_HTML DnnModule-5981"><a name="5981"></a>
+
+<div class="Bt_EiR_style">
+  <div class="Bt_EiR_top clearafter">
+    <div class="c_icon">
+      
+    </div>
+    <h2 class="c_title">
+      <span id="dnn_ctr5981_dnnTITLE_titleLabel" class="c_title_black">Comunicazione</span>
+
+
+
+    </h2>
+  </div>
+  <div class="c_content_style">
+    <div id="dnn_ctr5981_ContentPane" class="Bt2_content"><!-- Start_Module_5981 --><div id="dnn_ctr5981_ModuleContent" class="DNNModuleContent ModDNNHTMLC">
+	<div id="dnn_ctr5981_HtmlModule_lblContent" class="Normal">
+	<div class="panel panel-default Primo Comunicazione">
+<ul class="list-group">
+ <li class="list-group-item"><a href="/In-Primo-Piano/Le-Marche-da-leggere">Le Marche - trimestrale</a></li>
+ <li class="list-group-item"><a href="/sala-stampa-virtuale">Sala Stampa virtuale</a></li>
+ <li class="list-group-item"><a href="/In-Primo-Piano/ComunicatiStampa">Comunicati Stampa</a></li>
+ <li class="list-group-item"><a href="/News-ed-Eventi">News ed Eventi</a></li>
+ <li class="list-group-item"><a href="/In-Primo-Piano/Piano-di-Comunicazione">Piano di Comunicazione</a></li>
+ <li class="list-group-item"><a href="/In-Primo-Piano/Social-Media-Policy">Social Media Policy</a></li>
+ <li class="list-group-item"><a href="/rassegna-stampa">Rassegna Stampa</a></li>
+</ul>
+</div>
+
+</div>
+
+</div><!-- End_Module_5981 --></div>
+  </div>
+</div></div><div class="DnnModule DnnModule-DNN_HTML DnnModule-9991"><a name="9991"></a>
+
+<div class="Bt_EiR_style">
+  <div class="Bt_EiR_top clearafter">
+    <div class="c_icon">
+      
+    </div>
+    <h2 class="c_title">
+      <span id="dnn_ctr9991_dnnTITLE_titleLabel" class="c_title_black">Informazione & Trasparenza</span>
+
+
+
+    </h2>
+  </div>
+  <div class="c_content_style">
+    <div id="dnn_ctr9991_ContentPane" class="Bt2_content"><!-- Start_Module_9991 --><div id="dnn_ctr9991_ModuleContent" class="DNNModuleContent ModDNNHTMLC">
+	<div id="dnn_ctr9991_HtmlModule_lblContent" class="Normal">
+	<div class="panel panel-default Primo Comunicazione"><!-- Default panel contents --><!-- List group -->
+<ul class="list-group">
+ <li class="list-group-item"><a href="/Entra-in-Regione/Avvisi">Pubblicità legale</a></li>
+ <li class="list-group-item"><a href="/Entra-in-Regione/Atti-della-Regione">Atti della Regione</a></li>
+ <li class="list-group-item"><a href="/Entra-in-Regione/Avvisi">Avvisi e Atti di Notifica</a></li>
+ <li class="list-group-item"><a href="/Entra-in-Regione/concorsi">Bandi di concorso aperti</a></li>
+ <li class="list-group-item"><a href="/Amministrazione-Trasparente/Bandi-di-concorso">Bandi di concorso in svolgimento</a></li>
+ <li class="list-group-item"><a href="/Entra-in-Regione/Bandi">Bandi di finanziamento</a></li>
+ <li class="list-group-item"><a href="/Entra-in-Regione/bandi-di-prossima-uscita">Bandi di prossima uscita</a></li>
+ <li class="list-group-item"><a href="/Entra-in-Regione/Bandi-dAsta">Bandi d&#39;asta</a></li>
+ <li class="list-group-item"><a href="/Entra-in-Regione/Appalti">Gare di appalto</a></li>
+ <li class="list-group-item"><a href="/Amministrazione-Trasparente">Amministrazione trasparente</a></li>
+ <li class="list-group-item"><a href="/Amministrazione-Trasparente/Altri-contenuti-Corruzione/Piano-triennale-di-prevenzione-della-corruzione">Prevenzione della corruzione</a></li>
+</ul>
+</div>
+
+</div>
+
+</div><!-- End_Module_9991 --></div>
+  </div>
+</div></div><div class="DnnModule DnnModule-DNN_HTML DnnModule-10996"><a name="10996"></a>
+
+<div class="Bt_EiR_style">
+  <div class="Bt_EiR_top clearafter">
+    <div class="c_icon">
+      
+    </div>
+    <h2 class="c_title">
+      <span id="dnn_ctr10996_dnnTITLE_titleLabel" class="c_title_black">Inno delle Marche</span>
+
+
+
+    </h2>
+  </div>
+  <div class="c_content_style">
+    <div id="dnn_ctr10996_ContentPane" class="Bt2_content"><!-- Start_Module_10996 --><div id="dnn_ctr10996_ModuleContent" class="DNNModuleContent ModDNNHTMLC">
+	<div id="dnn_ctr10996_HtmlModule_lblContent" class="Normal">
+	<p> <audio controls="controls" class="audio_resp"> <source src="/portals/0/INNODELLEMARCHETema.mp3" type="audio/mpeg"></source> Your browser does not support the audio element. </audio></p>
+</div>
+
+</div><!-- End_Module_10996 --></div>
+  </div>
+</div></div></div>
+						<div id="dnn_TopGrid8R" class="topgrid8r col-md-8"><div class="DnnModule DnnModule-Blog DnnModule-9983"><a name="9983"></a>
+
+<div class="Bt_EiR_style">
+  <div class="Bt_EiR_top clearafter">
+    <div class="c_icon">
+      
+    </div>
+    <h2 class="c_title">
+      <span id="dnn_ctr9983_dnnTITLE_titleLabel" class="c_title_black">Opportunità per il territorio</span>
+
+
+
+    </h2>
+  </div>
+  <div class="c_content_style">
+    <div id="dnn_ctr9983_ContentPane" class="Bt2_content"><!-- Start_Module_9983 --><div id="dnn_ctr9983_ModuleContent" class="DNNModuleContent ModBlogC">
+	
+
+
+
+<div id="blogServiceErrorBox9983"></div>
+
+
+
+
+
+<div class="blog-main-content">
+<div class="row latest_blog_row">
+	<article class="is-post is-post-excerpt">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="blog_date">mercoledì 30 settembre 2026&nbsp;&nbsp;11:15&nbsp;
+				</div>
+			</div>
+		</div>
+		<div class="row">
+		<div class="col-md-12"> 
+		<div class="blog_title">
+			<h4><a href="/Entra-in-Regione/Opportunità-per-il-territorio/Post/118341">Bando FESR per l’installazione di colonnine di ricarica elettrica (pubblica utilità)</a></h4>
+		</div>
+   
+	<div class="row">
+	    <div class="col-md-8">
+		
+		<div class="postsummary">
+			<p>PR FESR 2021-2027 &ndash; Bando di finanziamento per l&rsquo;installazione di colonnine di ricarica elettrica per mezzi deputati a servizi pubblici, in parcheggi di proprietà pubblica, con produzione di energia da fonti rinnovabili</p>
+
+		</div>
+		</div>
+		<div class="col-md-4">
+				<div class="Eir_Opp_Terr">
+				<a href="https://www.regione.marche.it/News-ed-Eventi/Post/118341/Bando-FESR-per-l-installazione-di-colonnine-di-ricarica-elettrica-pubblica-utilità" class="image image-full" title="Bando FESR per l’installazione di colonnine di ricarica elettrica (pubblica utilità)">
+	 <img src="/DesktopModules/Blog/BlogImage.ashx?TabId=121&ModuleId=9983&Blog=10&Post=118341&w=745&h=275&c=0&key=fa5aaccd-2a4d-44a0-969e-7570e71cffcc" alt="Bando FESR per l’installazione di colonnine di ricarica elettrica (pubblica utilità)" />
+</a>
+				</div>   
+			</div>
+	</div>
+
+			</div>
+		</div>
+</article>
+</div>
+<div class="row latest_blog_row">
+	<article class="is-post is-post-excerpt">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="blog_date">mercoledì 30 settembre 2026&nbsp;&nbsp;09:02&nbsp;
+				</div>
+			</div>
+		</div>
+		<div class="row">
+		<div class="col-md-12"> 
+		<div class="blog_title">
+			<h4><a href="/Entra-in-Regione/Opportunità-per-il-territorio/Post/118330">Bando Formazione (SRH03): riapertura termini presentazione domande di sostegno</a></h4>
+		</div>
+   
+	<div class="row">
+	    <div class="col-md-8">
+		
+		<div class="postsummary">
+			<p>Riaperti i termini per la presentazione delle domande per la IV scadenza del bando dell&rsquo;Intervento SRH03 &ldquo;Formazione degli imprenditori agricoli, degli addetti alle imprese operanti nei settori agricoltura, zootecnia, industrie alimentari e degli altri soggetti privati e pubblici funzionali allo sviluppo delle aree rurali&rdquo; del Complemento Regionale per lo Sviluppo Rurale</p>
+		</div>
+		</div>
+		<div class="col-md-4">
+				<div class="Eir_Opp_Terr">
+				<a href="https://www.regione.marche.it/News-ed-Eventi/Post/118330/Bando-Formazione-SRH03-riapertura-termini-presentazione-domande-di-sostegno" class="image image-full" title="Bando Formazione (SRH03): riapertura termini presentazione domande di sostegno">
+	 <img src="/DesktopModules/Blog/BlogImage.ashx?TabId=121&ModuleId=9983&Blog=71&Post=118330&w=745&h=275&c=0&key=c9b39558-008a-472a-b124-fdcb92f0f086" alt="Bando Formazione (SRH03): riapertura termini presentazione domande di sostegno" />
+</a>
+				</div>   
+			</div>
+	</div>
+
+			</div>
+		</div>
+</article>
+</div>
+<div class="row latest_blog_row">
+	<article class="is-post is-post-excerpt">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="blog_date">martedì 22 settembre 2026&nbsp;&nbsp;01:28&nbsp;
+				</div>
+			</div>
+		</div>
+		<div class="row">
+		<div class="col-md-12"> 
+		<div class="blog_title">
+			<h4><a href="/Entra-in-Regione/Opportunità-per-il-territorio/Post/118287">Alberi Monumentali d’Italia: Bando per contributi ai Comuni</a></h4>
+		</div>
+   
+	<div class="row">
+	    <div class="col-md-8">
+		
+		<div class="postsummary">
+			<p>E&rsquo; stato pubblicato il bando per i Comuni delle Marche nel cui territorio vegetano Alberi Monumentali d&rsquo;Italia (AMI).</p>
+
+		</div>
+		</div>
+		<div class="col-md-4">
+				<div class="Eir_Opp_Terr">
+				<a href="https://www.regione.marche.it/News-ed-Eventi/Post/118287/Alberi-Monumentali-d-Italia-Bando-per-contributi-ai-Comuni" class="image image-full" title="Alberi Monumentali d’Italia: Bando per contributi ai Comuni">
+	 <img src="/DesktopModules/Blog/BlogImage.ashx?TabId=121&ModuleId=9983&Blog=3&Post=118287&w=745&h=275&c=0&key=7306f22a-1c78-4c3c-8d33-37aafa0fe0f2" alt="Alberi Monumentali d’Italia: Bando per contributi ai Comuni" />
+</a>
+				</div>   
+			</div>
+	</div>
+
+			</div>
+		</div>
+</article>
+</div>
+<div class="row latest_blog_row">
+	<article class="is-post is-post-excerpt">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="blog_date">lunedì 21 settembre 2026&nbsp;&nbsp;09:21&nbsp;
+				</div>
+			</div>
+		</div>
+		<div class="row">
+		<div class="col-md-12"> 
+		<div class="blog_title">
+			<h4><a href="/Entra-in-Regione/Opportunità-per-il-territorio/Post/118262">Comunicazione del Soggetto Aggregatore: convenzione affidamento servizi manutenzione immobili e impianti, manutenzione verde e facchinaggio per amm.ni regione marche – II ediz -Stipula convenzione</a></h4>
+		</div>
+   
+	<div class="row">
+	    <div class="col-md-8">
+		
+		<div class="postsummary">
+			<p>Si comunica che in data 07/09/2026 è stata stipulata la Convenzione per L&rsquo;AFFIDAMENTO DEI SERVIZI DI MANUTENZIONE IMMOBILI E IMPIANTI, ANNESSI I SERVIZI DI MANUTENZIONE DEL VERDE E ATTIVITÀ DI FACCHINAGGIO PER LE AMMINISTRAZIONI DELLA REGIONE MARCHE &ndash; II EDIZIONE</p>
+
+		</div>
+		</div>
+		<div class="col-md-4">
+				<div class="Eir_Opp_Terr">
+				<a href="https://www.regione.marche.it/News-ed-Eventi/Post/118262/Comunicazione-del-Soggetto-Aggregatore-convenzione-affidamento-servizi-manutenzione-immobili-e-impianti-manutenzione-verde-e-facchinaggio-per-amm-ni-regione-marche-II-ediz-Stipula-convenzione" class="image image-full" title="Comunicazione del Soggetto Aggregatore: convenzione affidamento servizi manutenzione immobili e impianti, manutenzione verde e facchinaggio per amm.ni regione marche – II ediz -Stipula convenzione">
+	 <img src="/DesktopModules/Blog/BlogImage.ashx?TabId=121&ModuleId=9983&Blog=21&Post=118262&w=745&h=275&c=0&key=634d44db-1608-490a-8f91-3568e7094681" alt="Comunicazione del Soggetto Aggregatore: convenzione affidamento servizi manutenzione immobili e impianti, manutenzione verde e facchinaggio per amm.ni regione marche – II ediz -Stipula convenzione" />
+</a>
+				</div>   
+			</div>
+	</div>
+
+			</div>
+		</div>
+</article>
+</div>
+<div class="row latest_blog_row">
+	<article class="is-post is-post-excerpt">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="blog_date">lunedì 7 settembre 2026&nbsp;&nbsp;01:18&nbsp;
+				</div>
+			</div>
+		</div>
+		<div class="row">
+		<div class="col-md-12"> 
+		<div class="blog_title">
+			<h4><a href="/Entra-in-Regione/Opportunità-per-il-territorio/Post/118168">Comunicazione del Soggetto Aggregatore: Convenzione quadro ex art. 26 L. 488/1999 affidamento servizi manutenzione immobili e impianti, manutenzione del verde e facchinaggio per le Amm.ni Regione Marche – II Ediz – Stipula convenzione.</a></h4>
+		</div>
+   
+	<div class="row">
+	    <div class="col-md-8">
+		
+		<div class="postsummary">
+			<p>Si comunica che in data 07/09/2026, n. Reg. Int. 756, è stata stipulata la Convenzione con il R.T.I. DUSSMANN_CPL CONCORDIA_ITER_UBALDI_CONSORZIO MAESTRO relativa</p>
+		</div>
+		</div>
+		<div class="col-md-4">
+				<div class="Eir_Opp_Terr">
+				<a href="https://www.regione.marche.it/News-ed-Eventi/Post/118168/Comunicazione-del-Soggetto-Aggregatore-Convenzione-quadro-ex-art-26-L-488-1999-affidamento-servizi-manutenzione-immobili-e-impianti-manutenzione-del-verde-e-facchinaggio-per-le-Amm-ni-Regione-Marche-II-Ediz-Stipula-convenzione" class="image image-full" title="Comunicazione del Soggetto Aggregatore: Convenzione quadro ex art. 26 L. 488/1999 affidamento servizi manutenzione immobili e impianti, manutenzione del verde e facchinaggio per le Amm.ni Regione Marche – II Ediz – Stipula convenzione.">
+	 <img src="/DesktopModules/Blog/BlogImage.ashx?TabId=121&ModuleId=9983&Blog=21&Post=118168&w=745&h=275&c=0&key=1fcab21f-3bc5-4757-833f-a287bea18f71" alt="Comunicazione del Soggetto Aggregatore: Convenzione quadro ex art. 26 L. 488/1999 affidamento servizi manutenzione immobili e impianti, manutenzione del verde e facchinaggio per le Amm.ni Regione Marche – II Ediz – Stipula convenzione." />
+</a>
+				</div>   
+			</div>
+	</div>
+
+			</div>
+		</div>
+</article>
+</div>
+
+</div>
+
+
+
+
+</div><!-- End_Module_9983 --></div>
+  </div>
+</div></div><div class="DnnModule DnnModule-DNN_HTML DnnModule-10074"><a name="10074"></a><div id="dnn_ctr10074_ContentPane"><!-- Start_Module_10074 --><div id="dnn_ctr10074_ModuleContent" class="DNNModuleContent ModDNNHTMLC">
+	<div id="dnn_ctr10074_HtmlModule_lblContent" class="Normal">
+	<a class="btn btn-default btn-lg btn-block IPP_more_news" href="/Entra-in-Regione/Opportunità-per-il-territorio/">Tutte le opportunit&agrave; per il territorio</a>
+</div>
+
+</div><!-- End_Module_10074 --></div>
+</div></div>
+					</div>
+					<div class="row dnnpane">
+						<div id="dnn_TopGrid9L" class="topgrid9l col-md-9 DNNEmptyPane"></div>
+						<div id="dnn_TopGrid3R" class="topgrid3r col-md-3"><div class="DnnModule DnnModule-DNN_HTML DnnModule-539"><a name="539"></a><div id="dnn_ctr539_ContentPane"><!-- Start_Module_539 --><div id="dnn_ctr539_ModuleContent" class="DNNModuleContent ModDNNHTMLC">
+	<div id="dnn_ctr539_HtmlModule_lblContent" class="Normal">
+	<script> $("#HeaderThree").find(".child-4").hide() </script>
+</div>
+
+</div><!-- End_Module_539 --></div>
+</div></div>
+					</div>
+					<div class="row dnnpane">
+						<div id="dnn_TopGrid3L" class="topgrid3l col-md-3 DNNEmptyPane"></div>
+						<div id="dnn_TopGrid9R" class="topgrid9r col-md-9 DNNEmptyPane"></div>
+					</div>
+					<div class="row dnnpane">
+						<div id="dnn_TopGrid12" class="topgrid12 col-md-12 DNNEmptyPane"></div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="content_graybg">
+			<div class="skin_width">
+				<div class="skin_main_padding">
+					<div class="row dnnpane">
+						<div id="dnn_GrayGrid4A" class="graygrid4a col-md-4 DNNEmptyPane"></div>
+						<div id="dnn_GrayGrid4B" class="graygrid4b col-md-4 DNNEmptyPane"></div>
+						<div id="dnn_GrayGrid4C" class="graygrid4c col-md-4 DNNEmptyPane"></div>
+					</div>
+					<div class="row dnnpane">
+						<div id="dnn_GrayGrid12" class="graygrid12 col-md-12 DNNEmptyPane"></div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="content_whitebg">
+			<div class="skin_width">
+				<div class="skin_main_padding">
+					<div class="row dnnpane">
+						<div id="dnn_BottomGrid4A" class="bottomgrid4a col-md-4 DNNEmptyPane"></div>
+						<div id="dnn_BottomGrid4B" class="bottomgrid4b col-md-4 DNNEmptyPane"></div>
+						<div id="dnn_BottomGrid4C" class="bottomgrid4c col-md-4 DNNEmptyPane"></div>
+					</div>
+					<div class="row dnnpane">
+						<div id="dnn_BottomGrid12" class="bottomgrid12 col-md-12 DNNEmptyPane"></div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</div>
+	<!--end skin main-->
+	<!--start skin footer top-->
+	<section class="footer_top">
+		<div class="skin_width">
+			<div class="footerpane_style skin_main_padding">
+				<div class="row dnnpane">
+					<div id="dnn_FooterGrid3A" class="footer_grid3a col-md-3 DNNEmptyPane"></div>
+					<div id="dnn_FooterGrid3B" class="footer_grid3b col-md-3 DNNEmptyPane"></div>
+					<div id="dnn_FooterGrid3C" class="footer_grid3c col-md-3 DNNEmptyPane"></div>
+					<div id="dnn_FooterGrid3D" class="footer_grid3d col-md-3 DNNEmptyPane"></div>
+				</div>
+				<div class="row dnnpane">
+					<div id="dnn_FooterGrid12" class="footer_grid12 col-md-12 DNNEmptyPane"></div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--end skin footer top-->
+	<!--start footer-->
+	 
+
+
+ <footer class="skin_footer">
+		<div class="rm_footer_heading" id="rm_footer_heading_main">
+			<span>Regione Marche Giunta Regionale (CF 80008630420 P.IVA 00481070423) via Gentile da Fabriano, 9 - 60125 Ancona - tel. 071.8061&nbsp;&nbsp;&nbsp;
+				<br/>
+				casella p.e.c. istituzionale :<a class="rm_footer" href="mailto:regione.marche.protocollogiunta@emarche.it"> regione.marche.protocollogiunta@emarche.it</a>
+				<br/>
+				Sito realizzato su CMS DotNetNuke by DotNetNuke Corporation&nbsp;&nbsp;&nbsp;
+				<br/>
+				Autorizzazione SIAE n° 1225/I/1298
+				<br/>
+				DUNS - Data Universal Numbering System: 514216030 
+				</span>
+		</div>
+		<div class="copyright_bar">
+			<div class="skin_width clearafter">
+				<div class="footer_left">
+					<span id="dnn_dnnCOPYRIGHT_lblCopyright" class="Footer">Copyright 2026 by Regione Marche </span>
+
+				</div>
+				<!--<div class="footer_right">
+                    |
+                    <a class="Footer" href="http://cohesion.regione.marche.it/cohesioninformativo/Informativa-Cookie">Informativa sui Cookie</a>
+                </div> -->
+				<div class="footer_right">
+					<a id="dnn_dnnPRIVACY_hypPrivacy" class="rm_footer" rel="nofollow" href="https://www.regione.marche.it/Informativa-privacy">Privacy</a>
+					|
+					<a id="dnn_dnnTERMS_hypTerms" class="rm_footer" rel="nofollow" href="https://www.regione.marche.it/Terms">Termini Di Utilizzo</a>
+					|
+					<a class="rm_footer no_pdf" href="https://www.regione.marche.it/Portals/0/documenti/Informativa_trattamento_dati_VDCTEAMS.pdf">Informativa TEAMS</a>
+					|
+                    <a class="rm_footer" href="http://cohesion.regione.marche.it/cohesioninformativo/Informativa-Cookie">Informativa sui Cookie</a>
+					|
+					<a class="rm_footer" href="/Regione-Utile/Agenda-Digitale/Accessibilità">Accessibilità</a>
+					|
+					<a class="rm_footer" href="https://form.agid.gov.it/r_marche/sito_istituzionale_giunta_regione_marche/dichiarazione">Dichiarazione di Accessibilità</a>
+					|
+		            <a class="rm_footer" href="/Mappa-del-sito">Sitemap</a>
+					|
+		            <a class="rm_footer" href="?ctl=login">Login</a>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+  
+
+
+
+	<!--end footer-->
+	<a href="#top" id="top-link" title="Top"><span class="fa fa-angle-up"></span></a>
+</div>
+<script type="text/javascript" src="/Portals/_default/Skins/Bravo/bootstrap/js/bootstrap.js"></script>
+<script type="text/javascript" src="/Portals/_default/Skins/Bravo/js/trans-banner.min.js"></script>
+<script type="text/javascript" src="/Portals/_default/Skins/Bravo/js/jquery.fancybox.min.js"></script>
+<script type="text/javascript" src="/Portals/_default/Skins/Bravo/js/jquery.easing.1.3.min.js"></script>
+<script type="text/javascript" src="/Portals/_default/Skins/Bravo/js/jquery.unoslider.js"></script>
+<script type="text/javascript" src="/Portals/_default/Skins/Bravo/js/jquery.accordion.js"></script>
+<script type="text/javascript" src="/Portals/_default/Skins/Bravo/js/jquery.carouFredSel-6.2.1-packed.js"></script>
+<script type="text/javascript" src="/Portals/_default/Skins/Bravo/js/jquery.touchSwipe.min.js"></script>
+<script type="text/javascript" src="/Portals/_default/Skins/Bravo/js/jquery.isotope.min.js"></script>
+<script type="text/javascript" src="/Portals/_default/Skins/Bravo/js/jquery.flexslider.min.js"></script>
+<!-- <script type="text/javascript" src="/Portals/_default/Skins/Bravo/js/cookieconsent.min.js"></script> -->
+
+<script type="text/javascript" src="/Portals/_default/Skins/Bravo/js/jquery.kxbdMarquee.js"></script>
+<script type="text/javascript" src="/Portals/_default/Skins/Bravo/js/custom.js"></script>
+
+<!--[if IE 9]>
+<script type="text/javascript">
+//Disable Animation:
+jQuery(document).ready(function() {
+	 $(".animation").css({"opacity": "1"});
+});
+</script>
+<![endif]-->
+
+<link rel="stylesheet" href="/Portals/_default/Skins/Bravo/CustomStyle.css">
+<link rel="stylesheet" href="/Portals/_default/Skins/Bravo/skiplinks.css?id=4">
+
+
+<script>
+
+document.addEventListener('DOMContentLoaded', function() {
+    // Seleziona il link esistente
+    var existingLink = document.querySelector('a[href="#main"][tabindex="0"]');
+    
+    // Crea il nuovo menù skiplink
+    var skiplinksNav = document.createElement('nav');
+    skiplinksNav.className = 'skiplinks';
+    skiplinksNav.setAttribute('aria-label', 'Scorciatoie di navigazione');
+    
+    var ul = document.createElement('ul');
+    
+    var li1 = document.createElement('li');
+    li1.className = 'visually-hidden-focusable';
+    var a1 = document.createElement('a');
+    a1.href = '#dnn_TopGridMiddle12';
+    a1.textContent = 'Vai al menu';
+    li1.appendChild(a1);
+    
+    var li2 = document.createElement('li');
+    li2.className = 'visually-hidden-focusable';
+    var a2 = document.createElement('a');
+    a2.href = '#dnn_ctr6553_ContentPane';
+    a2.textContent = 'Vai al contenuto';
+    li2.appendChild(a2);
+    
+    var li3 = document.createElement('li');
+    li3.className = 'visually-hidden-focusable';
+    var a3 = document.createElement('a');
+    a3.href = '#rm_footer_heading_main';
+    a3.textContent = 'Vai al piede';
+    li3.appendChild(a3);
+
+    var li4 = document.createElement('li');
+    li4.className = 'visually-hidden-focusable';
+    var a4 = document.createElement('a');
+    a4.href = '/Amministrazione-Trasparente';
+    a4.textContent = 'Vai alla sezione Amministrazione Trasparente';
+    li4.appendChild(a4);
+
+     ul.appendChild(li2);
+     ul.appendChild(li3);
+    ul.appendChild(li1);
+   ul.appendChild(li4);
+    
+    
+    skiplinksNav.appendChild(ul);
+    
+    // Sostituisci il link esistente con il nuovo menù skiplink
+    existingLink.parentNode.replaceChild(skiplinksNav, existingLink);
+});
+
+</script>
+
+        <input name="ScrollTop" type="hidden" id="ScrollTop" />
+        <input name="__dnnVariable" type="hidden" id="__dnnVariable" autocomplete="off" value="`{`__scdoff`:`1`,`dnn.scripts.js.resx`:`/WebResource.axd?d=DKiEc2s7S-5H581wFhzKgjKN6vDj7wOUbh2OVwj93MBd4aMBEl4Ymm93s7-ja0uD7ZbhJpVR7TAyItD7m1lXPmLZ4as1\u0026t=637339849900000000`,`sf_siteRoot`:`/`,`sf_tabId`:`121`}" />
+        <input name="__RequestVerificationToken" type="hidden" value="1YD4XPsh4IHpdTHdPcUSHY_BHqbKLphecaGglAK4BWEMSwylRaGaYHuq7pqamgKZcNn7VQ2" />
+    
+<div class="aspNetHidden">
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="CA0B0334" />
+	<input type="hidden" name="__VIEWSTATEENCRYPTED" id="__VIEWSTATEENCRYPTED" value="" />
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+Sys.Application.add_init(function() {
+    $create(Sys.UI._UpdateProgress, {"associatedUpdatePanelId":"dnn_ctr23215_Login_UP","displayAfter":500,"dynamicLayout":true}, null, null, $get("dnn_ctr23215_Login_UP_Prog"));
+});
+Sys.Application.add_init(function() {
+    $create(Sys.UI._UpdateProgress, {"associatedUpdatePanelId":"dnn_ctr23216_Login_UP","displayAfter":500,"dynamicLayout":true}, null, null, $get("dnn_ctr23216_Login_UP_Prog"));
+});
+Sys.Application.add_init(function() {
+    $create(Sys.UI._UpdateProgress, {"associatedUpdatePanelId":"dnn_ctr23217_Login_UP","displayAfter":500,"dynamicLayout":true}, null, null, $get("dnn_ctr23217_Login_UP_Prog"));
+});
+//]]>
+</script>
+</form>
+    <!--CDF(Javascript|/js/Debug/dnncore.js?cdv=250|DnnBodyProvider|100)--><!--CDF(Css|/Portals/0/first_slider.css?cdv=250|DnnPageHeaderProvider|100)--><!--CDF(Css|/Resources/Shared/stylesheets/dnndefault/7.0.0/default.css?cdv=250|DnnPageHeaderProvider|5)--><!--CDF(Css|/Portals/_default/Skins/Bravo/skin.css?cdv=250|DnnPageHeaderProvider|15)--><!--CDF(Css|/Portals/_default/Containers/Bravo/container.css?cdv=250|DnnPageHeaderProvider|25)--><!--CDF(Css|/Portals/_default/Containers/Bravo/container.css?cdv=250|DnnPageHeaderProvider|25)--><!--CDF(Css|/Portals/_default/Containers/Bravo/container.css?cdv=250|DnnPageHeaderProvider|25)--><!--CDF(Css|/Portals/_default/Containers/Bravo/container.css?cdv=250|DnnPageHeaderProvider|25)--><!--CDF(Css|/Portals/_default/Containers/Bravo/container.css?cdv=250|DnnPageHeaderProvider|25)--><!--CDF(Css|/Portals/_default/Containers/Bravo/container.css?cdv=250|DnnPageHeaderProvider|25)--><!--CDF(Css|/Portals/_default/Containers/Bravo/container.css?cdv=250|DnnPageHeaderProvider|25)--><!--CDF(Css|/Portals/_default/Containers/Bravo/container.css?cdv=250|DnnPageHeaderProvider|25)--><!--CDF(Css|/Portals/_default/Containers/Bravo/container.css?cdv=250|DnnPageHeaderProvider|25)--><!--CDF(Css|/Portals/_default/Containers/Bravo/container.css?cdv=250|DnnPageHeaderProvider|25)--><!--CDF(Css|/Portals/_default/Containers/Bravo/container.css?cdv=250|DnnPageHeaderProvider|25)--><!--CDF(Css|/Portals/_default/Containers/Bravo/container.css?cdv=250|DnnPageHeaderProvider|25)--><!--CDF(Css|/Portals/_default/Containers/Bravo/container.css?cdv=250|DnnPageHeaderProvider|25)--><!--CDF(Css|/Portals/_default/Containers/Bravo/container.css?cdv=250|DnnPageHeaderProvider|25)--><!--CDF(Css|/Portals/_default/Containers/Bravo/container.css?cdv=250|DnnPageHeaderProvider|25)--><!--CDF(Css|/Portals/_default/Containers/Bravo/container.css?cdv=250|DnnPageHeaderProvider|25)--><!--CDF(Css|/Portals/_default/Containers/Bravo/container.css?cdv=250|DnnPageHeaderProvider|25)--><!--CDF(Css|/Portals/_default/Containers/Bravo/container.css?cdv=250|DnnPageHeaderProvider|25)--><!--CDF(Css|/Portals/_default/Containers/Bravo/container.css?cdv=250|DnnPageHeaderProvider|25)--><!--CDF(Css|/Portals/_default/Containers/Bravo/container.css?cdv=250|DnnPageHeaderProvider|25)--><!--CDF(Css|/DesktopModules/Admin/Authentication/module.css?cdv=250|DnnPageHeaderProvider|10)--><!--CDF(Css|/DesktopModules/Admin/Authentication/module.css?cdv=250|DnnPageHeaderProvider|10)--><!--CDF(Css|/Portals/_default/Containers/Bravo/container.css?cdv=250|DnnPageHeaderProvider|25)--><!--CDF(Css|/DesktopModules/Admin/Authentication/module.css?cdv=250|DnnPageHeaderProvider|10)--><!--CDF(Css|/DesktopModules/Admin/Authentication/module.css?cdv=250|DnnPageHeaderProvider|10)--><!--CDF(Css|/Portals/_default/Containers/Bravo/container.css?cdv=250|DnnPageHeaderProvider|25)--><!--CDF(Css|/DesktopModules/Admin/Authentication/module.css?cdv=250|DnnPageHeaderProvider|10)--><!--CDF(Css|/DesktopModules/Admin/Authentication/module.css?cdv=250|DnnPageHeaderProvider|10)--><!--CDF(Css|/Portals/_default/Containers/Bravo/container.css?cdv=250|DnnPageHeaderProvider|25)--><!--CDF(Css|/Portals/_default/Containers/Bravo/container.css?cdv=250|DnnPageHeaderProvider|25)--><!--CDF(Css|/Portals/_default/Containers/Bravo/container.css?cdv=250|DnnPageHeaderProvider|25)--><!--CDF(Css|/DesktopModules/Blog/module.css?cdv=250|DnnPageHeaderProvider|10)--><!--CDF(Css|/DesktopModules/Blog/module.css?cdv=250|DnnPageHeaderProvider|10)--><!--CDF(Css|/Portals/_default/Containers/Bravo/container.css?cdv=250|DnnPageHeaderProvider|25)--><!--CDF(Css|/Portals/_default/Containers/Bravo/container.css?cdv=250|DnnPageHeaderProvider|25)--><!--CDF(Css|/Portals/_default/Containers/Bravo/container.css?cdv=250|DnnPageHeaderProvider|25)--><!--CDF(Css|/Portals/_default/Containers/Bravo/container.css?cdv=250|DnnPageHeaderProvider|25)--><!--CDF(Css|/Portals/_default/Containers/Bravo/container.css?cdv=250|DnnPageHeaderProvider|25)--><!--CDF(Css|/Portals/_default/Containers/Bravo/container.css?cdv=250|DnnPageHeaderProvider|25)--><!--CDF(Css|/Portals/_default/Containers/Bravo/container.css?cdv=250|DnnPageHeaderProvider|25)--><!--CDF(Css|/DesktopModules/Blog/module.css?cdv=250|DnnPageHeaderProvider|10)--><!--CDF(Css|/DesktopModules/Blog/module.css?cdv=250|DnnPageHeaderProvider|10)--><!--CDF(Css|/Portals/_default/Containers/Bravo/container.css?cdv=250|DnnPageHeaderProvider|25)--><!--CDF(Css|/Portals/_default/admin.css?cdv=250|DnnPageHeaderProvider|6)--><!--CDF(Css|/Portals/0/portal.css?cdv=250|DnnPageHeaderProvider|35)--><!--CDF(Css|/Resources/Search/SearchSkinObjectPreview.css?cdv=250|DnnPageHeaderProvider|10)--><!--CDF(Javascript|/Resources/Search/SearchSkinObjectPreview.js?cdv=250|DnnBodyProvider|100)--><!--CDF(Css|/Resources/Search/SearchSkinObjectPreview.css?cdv=250|DnnPageHeaderProvider|10)--><!--CDF(Javascript|/Resources/Search/SearchSkinObjectPreview.js?cdv=250|DnnBodyProvider|100)--><!--CDF(Css|/Resources/Search/SearchSkinObjectPreview.css?cdv=250|DnnPageHeaderProvider|10)--><!--CDF(Javascript|/Resources/Search/SearchSkinObjectPreview.js?cdv=250|DnnBodyProvider|100)--><!--CDF(Css|/Resources/Search/SearchSkinObjectPreview.css?cdv=250|DnnPageHeaderProvider|10)--><!--CDF(Javascript|/Resources/Search/SearchSkinObjectPreview.js?cdv=250|DnnBodyProvider|100)--><!--CDF(Css|/Resources/Search/SearchSkinObjectPreview.css?cdv=250|DnnPageHeaderProvider|10)--><!--CDF(Javascript|/Resources/Search/SearchSkinObjectPreview.js?cdv=250|DnnBodyProvider|100)--><!--CDF(Css|/Resources/Search/SearchSkinObjectPreview.css?cdv=250|DnnPageHeaderProvider|10)--><!--CDF(Javascript|/Resources/Search/SearchSkinObjectPreview.js?cdv=250|DnnBodyProvider|100)--><!--CDF(Css|/Resources/Search/SearchSkinObjectPreview.css?cdv=250|DnnPageHeaderProvider|10)--><!--CDF(Javascript|/Resources/Search/SearchSkinObjectPreview.js?cdv=250|DnnBodyProvider|100)--><!--CDF(Javascript|/js/dnn.js?cdv=250|DnnBodyProvider|12)--><!--CDF(Javascript|/DesktopModules/Blog/js/dotnetnuke.blog.js?cdv=250|DnnBodyProvider|70)--><!--CDF(Javascript|/DesktopModules/Blog/js/jquery.timeago.js?cdv=250|DnnBodyProvider|59)--><!--CDF(Javascript|/DesktopModules/Blog/js/it/jquery.timeago.it.js?cdv=250|DnnBodyProvider|60)--><!--CDF(Javascript|/DesktopModules/Blog/js/jquery.timeago.js?cdv=250|DnnBodyProvider|59)--><!--CDF(Javascript|/DesktopModules/Blog/js/it/jquery.timeago.it.js?cdv=250|DnnBodyProvider|60)--><!--CDF(Javascript|/js/Debug/dnn.servicesframework.js?cdv=250|DnnBodyProvider|100)--><!--CDF(Css|/DesktopModules/DDRMenu/RM_Accordion/RM_accordion.css?cdv=250|DnnPageHeaderProvider|100)--><!--CDF(Javascript|/DesktopModules/DDRMenu/RM_Accordion/RM_LeftMenu.js?cdv=250|DnnBodyProvider|100)--><!--CDF(Css|/DesktopModules/Blog/Templates/RM_PrimoPiano_latestPosts/template.css?cdv=250|DnnPageHeaderProvider|100)--><!--CDF(Css|/DesktopModules/Blog/Templates/RM_PrimoPiano_latestPosts/css/jquery.fancybox-1.3.4.css?cdv=250|DnnPageHeaderProvider|100)--><!--CDF(Css|/DesktopModules/Blog/Templates/RM_PrimoPiano_latestPosts/css/shCore.css?cdv=250|DnnPageHeaderProvider|100)--><!--CDF(Css|/DesktopModules/Blog/Templates/RM_PrimoPiano_latestPosts/css/shCoreDefault.css?cdv=250|DnnPageHeaderProvider|100)--><!--CDF(Css|/DesktopModules/Blog/Templates/RM_PrimoPiano_latestPosts/css/tipTip.css?cdv=250|DnnPageHeaderProvider|100)--><!--CDF(Css|/DesktopModules/Blog/Templates/RM_PrimoPiano_latestPosts/css/jquery.fancybox-1.3.4.css?cdv=250|DnnPageHeaderProvider|100)--><!--CDF(Css|/DesktopModules/Blog/Templates/RM_PrimoPiano_latestPosts/css/shCore.css?cdv=250|DnnPageHeaderProvider|100)--><!--CDF(Css|/DesktopModules/Blog/Templates/RM_PrimoPiano_latestPosts/css/shCoreDefault.css?cdv=250|DnnPageHeaderProvider|100)--><!--CDF(Css|/DesktopModules/Blog/Templates/RM_PrimoPiano_latestPosts/css/tipTip.css?cdv=250|DnnPageHeaderProvider|100)--><!--CDF(Javascript|/DesktopModules/Blog/Templates/RM_PrimoPiano_latestPosts/template.js?cdv=250|DnnBodyProvider|100)--><!--CDF(Javascript|/DesktopModules/Blog/Templates/RM_PrimoPiano_latestPosts/js/jquery.sharrre.min.js?cdv=250|DnnBodyProvider|100)--><!--CDF(Javascript|/DesktopModules/Blog/Templates/RM_PrimoPiano_latestPosts/js/shCore.js?cdv=250|DnnBodyProvider|100)--><!--CDF(Javascript|/DesktopModules/Blog/Templates/RM_PrimoPiano_latestPosts/js/jquery.sharrre.min.js?cdv=250|DnnBodyProvider|100)--><!--CDF(Javascript|/DesktopModules/Blog/Templates/RM_PrimoPiano_latestPosts/js/shCore.js?cdv=250|DnnBodyProvider|100)--><!--CDF(Css|/DesktopModules/Blog/Templates/RM_EIR_OPPterr_latestPosts/template.css?cdv=250|DnnPageHeaderProvider|100)--><!--CDF(Css|/DesktopModules/Blog/Templates/RM_EIR_OPPterr_latestPosts/css/jquery.fancybox-1.3.4.css?cdv=250|DnnPageHeaderProvider|100)--><!--CDF(Css|/DesktopModules/Blog/Templates/RM_EIR_OPPterr_latestPosts/css/shCore.css?cdv=250|DnnPageHeaderProvider|100)--><!--CDF(Css|/DesktopModules/Blog/Templates/RM_EIR_OPPterr_latestPosts/css/shCoreDefault.css?cdv=250|DnnPageHeaderProvider|100)--><!--CDF(Css|/DesktopModules/Blog/Templates/RM_EIR_OPPterr_latestPosts/css/tipTip.css?cdv=250|DnnPageHeaderProvider|100)--><!--CDF(Css|/DesktopModules/Blog/Templates/RM_EIR_OPPterr_latestPosts/css/jquery.fancybox-1.3.4.css?cdv=250|DnnPageHeaderProvider|100)--><!--CDF(Css|/DesktopModules/Blog/Templates/RM_EIR_OPPterr_latestPosts/css/shCore.css?cdv=250|DnnPageHeaderProvider|100)--><!--CDF(Css|/DesktopModules/Blog/Templates/RM_EIR_OPPterr_latestPosts/css/shCoreDefault.css?cdv=250|DnnPageHeaderProvider|100)--><!--CDF(Css|/DesktopModules/Blog/Templates/RM_EIR_OPPterr_latestPosts/css/tipTip.css?cdv=250|DnnPageHeaderProvider|100)--><!--CDF(Javascript|/DesktopModules/Blog/Templates/RM_EIR_OPPterr_latestPosts/template.js?cdv=250|DnnBodyProvider|100)--><!--CDF(Javascript|/DesktopModules/Blog/Templates/RM_EIR_OPPterr_latestPosts/js/jquery.sharrre.min.js?cdv=250|DnnBodyProvider|100)--><!--CDF(Javascript|/DesktopModules/Blog/Templates/RM_EIR_OPPterr_latestPosts/js/shCore.js?cdv=250|DnnBodyProvider|100)--><!--CDF(Javascript|/DesktopModules/Blog/Templates/RM_EIR_OPPterr_latestPosts/js/jquery.sharrre.min.js?cdv=250|DnnBodyProvider|100)--><!--CDF(Javascript|/DesktopModules/Blog/Templates/RM_EIR_OPPterr_latestPosts/js/shCore.js?cdv=250|DnnBodyProvider|100)--><!--CDF(Javascript|/Resources/Shared/Scripts/jquery/jquery.hoverIntent.min.js?cdv=250|DnnBodyProvider|55)--><!--CDF(Javascript|/Resources/Shared/Scripts/jquery/jquery.hoverIntent.min.js?cdv=250|DnnBodyProvider|55)--><!--CDF(Javascript|/Resources/Shared/Scripts/dnn.jquery.js?cdv=250|DnnBodyProvider|100)--><!--CDF(Javascript|/Resources/libraries/jQuery-UI/01_12_01/jquery-ui.js?cdv=250|DnnPageHeaderProvider|10)--><!--CDF(Javascript|/Resources/libraries/jQuery/03_05_01/jquery.js?cdv=250|DnnPageHeaderProvider|5)--><!--CDF(Javascript|/Resources/libraries/jQuery-Migrate/03_02_00/jquery-migrate.js?cdv=250|DnnPageHeaderProvider|6)-->
+    
+
+    <script>
+        $(document).ready(function () {
+
+
+            if (typeof (WebForm_DoPostBackWithOptions) == 'undefined') {
+
+                WebForm_DoPostBackWithOptions =
+                    function (options) {
+                        var validationResult = true;
+                        if (options.validation) {
+                            if (typeof (Page_ClientValidate) == 'function') {
+                                validationResult = Page_ClientValidate(options.validationGroup);
+                            }
+                        }
+                        if (validationResult) {
+                            if ((typeof (options.actionUrl) != "undefined") && (options.actionUrl != null) && (options.actionUrl.length > 0)) {
+                                theForm.action = options.actionUrl;
+                            }
+                            if (options.trackFocus) {
+                                var lastFocus = theForm.elements["__LASTFOCUS"];
+                                if ((typeof (lastFocus) != "undefined") && (lastFocus != null)) {
+                                    if (typeof (document.activeElement) == "undefined") {
+                                        lastFocus.value = options.eventTarget;
+                                    }
+                                    else {
+                                        var active = document.activeElement;
+                                        if ((typeof (active) != "undefined") && (active != null)) {
+                                            if ((typeof (active.id) != "undefined") && (active.id != null) && (active.id.length > 0)) {
+                                                lastFocus.value = active.id;
+                                            }
+                                            else if (typeof (active.name) != "undefined") {
+                                                lastFocus.value = active.name;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                        if (options.clientSubmit) {
+                            __doPostBack(options.eventTarget, options.eventArgument);
+                        }
+                    };
+            }
+
+            if (typeof (WebForm_PostBackOptions) == 'undefined') {
+
+                WebForm_PostBackOptions = function (eventTarget, eventArgument, validation, validationGroup, actionUrl, trackFocus, clientSubmit) {
+                    this.eventTarget = eventTarget;
+                    this.eventArgument = eventArgument;
+                    this.validation = validation;
+                    this.validationGroup = validationGroup;
+                    this.actionUrl = actionUrl;
+                    this.trackFocus = trackFocus;
+                    this.clientSubmit = clientSubmit;
+                }
+            }
+        });
+
+    </script>
+</body>
+</html>
+<!--System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at ASP.default_aspx.OnPreInit(EventArgs e) in e:\Inetpub\www.regione.marche.it\Default.aspx:line 41 -->

@@ -2,7 +2,7 @@
 
 English | [简体中文](README.zh-CN.md)
 
-Track policy changes in Germany, France, the Netherlands, Switzerland, Italy, the United Kingdom and the European Union, with official sources and policy timelines.
+Track policy changes in Germany, France, the Netherlands, Switzerland, Italy, Spain, the United Kingdom and the European Union, with official sources and policy timelines.
 
 A static website with browser-side search and filters. No login, database or application server required.
 
@@ -16,6 +16,7 @@ A static website with browser-side search and filters. No login, database or app
 - Switzerland: federal level and all 26 cantons.
 - Italy: national level and all 20 regions; initial source registration and a first national explanation. Regional parliaments, regional gazettes and autonomous provinces are not yet individually connected.
 
+- Spain: national level, 17 autonomous communities and two autonomous cities; 40 government/gazette channels registered and the 2026 minimum wage backfilled. Historical scans remain incomplete; parliaments and other local bodies are not independently connected.
 - United Kingdom: national level and England, Scotland, Wales and Northern Ireland; nine shared or devolved official channels, historical catalogue discoveries and selected reviewed explanations. Territorial extent is checked per measure. Local authorities, Crown Dependencies and Overseas Territories are not separately connected; historical scans remain incomplete.
 
 Coverage is incomplete; the site shows review dates, scan gaps and unverified discoveries. Explanations are editorial summaries, not official legal text. Original sources remain available, and pending proposals are distinguished from adopted measures.

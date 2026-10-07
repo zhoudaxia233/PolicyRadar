@@ -24,7 +24,8 @@ up from stored coverage, rather than skip to the latest week.
    all 18 registered regional geographic areas, and the Netherlands’ national level
    plus all 12 European provinces, Switzerland’s federation and all 26 cantons,
    and Italy’s national level and all 20 regions, plus the EU supranational level
-   and the UK national level and its four constituent parts,
+   and the UK national level and its four constituent parts, plus Spain’s national
+   level, all 17 autonomous communities and the autonomous cities of Ceuta and Melilla,
    across all policy topics. French
    departments, municipalities and other special overseas territories are not
    independently connected. Dutch municipalities, water authorities, Caribbean
@@ -114,7 +115,7 @@ explanations and successful downloads do not close these gaps.
 4. Set `exportedAt` to the actual export time. Preserve historical `lastReviewAt` and
    `reviewNote` only in legacy exports; do not write these global keys in new
    exports. Update `lastReviewAt:DE` / `reviewNote:DE` and/or
-   `lastReviewAt:FR` / `reviewNote:FR` and/or `lastReviewAt:NL` / `reviewNote:NL` and/or `lastReviewAt:CH` / `reviewNote:CH` and/or `lastReviewAt:IT` / `reviewNote:IT` and/or `lastReviewAt:EU` / `reviewNote:EU` and/or `lastReviewAt:GB` / `reviewNote:GB` only for the countries actually reviewed;
+   `lastReviewAt:FR` / `reviewNote:FR` and/or `lastReviewAt:NL` / `reviewNote:NL` and/or `lastReviewAt:CH` / `reviewNote:CH` and/or `lastReviewAt:IT` / `reviewNote:IT` and/or `lastReviewAt:EU` / `reviewNote:EU` and/or `lastReviewAt:GB` / `reviewNote:GB` and/or `lastReviewAt:ES` / `reviewNote:ES` only for the countries actually reviewed;
    the UI falls back to the preserved initial markers until a country is updated.
    Name coverage gaps,
    affected channels and unresolved facts. Do not claim full nationwide coverage.
@@ -357,3 +358,15 @@ not prevent choosing squash in GitHub's merge UI. Preserve all four transitions.
 ### January retrospective extension (4 October 2026)
 
 The subsequent owner request extends tracking to 2026-01-01. The new January–April backfill adds 26 source-grounded explanations and 24 discovery records, preserving earlier exports and revisions. Sources announced in 2025 are retained as historical records for measures applying in 2026. Undated implementation guidance is not assigned an invented publication date. All new scans are partial; national and regional completeness remains unverified.
+
+## Spanish coverage
+
+Spain uses ES and ISO 3166-2 identifiers for 17 autonomous communities and two
+autonomous cities. Government and gazette portals were registered from the
+[government directory](https://www.lamoncloa.gob.es/espana/organizacionestado/paginas/index.aspx)
+and the [BOE directory](https://www.boe.es/legislacion/otros_diarios_oficiales.php).
+Parliaments, provinces, municipalities and island bodies are not independently
+connected. Preserve each document’s actual language and territorial scope.
+Registered portals do not establish access or completed scans. The first national
+policy is a targeted historical backfill; continuous coverage from 2026-01-01
+remains open. Distinguish legal commencement from retroactive wage effects.

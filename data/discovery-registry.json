@@ -1988,5 +1988,285 @@
     "title": "北爱尔兰议会立法",
     "publisher": "Northern Ireland Assembly",
     "kind": "parliament"
+  },
+  {
+    "region": "ES",
+    "url": "https://www.boe.es/diario_boe/",
+    "title": "西班牙国家公报",
+    "publisher": "Agencia Estatal Boletín Oficial del Estado",
+    "kind": "gazette"
+  },
+  {
+    "region": "ES",
+    "url": "https://www.lamoncloa.gob.es/consejodeministros/referencias/paginas/index.aspx",
+    "title": "西班牙内阁会议公告",
+    "publisher": "La Moncloa",
+    "kind": "government"
+  },
+  {
+    "region": "ES-AN",
+    "url": "https://www.juntadeandalucia.es/",
+    "title": "安达卢西亚政府",
+    "publisher": "Andalucía",
+    "kind": "government"
+  },
+  {
+    "region": "ES-AN",
+    "url": "https://www.juntadeandalucia.es/eboja",
+    "title": "安达卢西亚官方公报",
+    "publisher": "Andalucía",
+    "kind": "gazette"
+  },
+  {
+    "region": "ES-AR",
+    "url": "https://www.aragon.es/",
+    "title": "阿拉贡政府",
+    "publisher": "Aragón",
+    "kind": "government"
+  },
+  {
+    "region": "ES-AR",
+    "url": "https://www.boa.aragon.es/",
+    "title": "阿拉贡官方公报",
+    "publisher": "Aragón",
+    "kind": "gazette"
+  },
+  {
+    "region": "ES-AS",
+    "url": "https://www.asturias.es/",
+    "title": "阿斯图里亚斯政府",
+    "publisher": "Principado de Asturias",
+    "kind": "government"
+  },
+  {
+    "region": "ES-AS",
+    "url": "https://sede.asturias.es/servicios-del-bopa",
+    "title": "阿斯图里亚斯官方公报",
+    "publisher": "Principado de Asturias",
+    "kind": "gazette"
+  },
+  {
+    "region": "ES-CB",
+    "url": "https://www.cantabria.es/",
+    "title": "坎塔布里亚政府",
+    "publisher": "Cantabria",
+    "kind": "government"
+  },
+  {
+    "region": "ES-CB",
+    "url": "https://boc.cantabria.es/boces/",
+    "title": "坎塔布里亚官方公报",
+    "publisher": "Cantabria",
+    "kind": "gazette"
+  },
+  {
+    "region": "ES-CL",
+    "url": "https://gobierno.jcyl.es/web/es/gobierno-castilla-leon.html",
+    "title": "卡斯蒂利亚-莱昂政府",
+    "publisher": "Castilla y León",
+    "kind": "government"
+  },
+  {
+    "region": "ES-CL",
+    "url": "https://bocyl.jcyl.es/portada.do",
+    "title": "卡斯蒂利亚-莱昂官方公报",
+    "publisher": "Castilla y León",
+    "kind": "gazette"
+  },
+  {
+    "region": "ES-CM",
+    "url": "https://www.castillalamancha.es/",
+    "title": "卡斯蒂利亚-拉曼恰政府",
+    "publisher": "Castilla-La Mancha",
+    "kind": "government"
+  },
+  {
+    "region": "ES-CM",
+    "url": "https://docm.castillalamancha.es/portaldocm/sumario.do",
+    "title": "卡斯蒂利亚-拉曼恰官方公报",
+    "publisher": "Castilla-La Mancha",
+    "kind": "gazette"
+  },
+  {
+    "region": "ES-CN",
+    "url": "https://www.gobiernodecanarias.org/principal/",
+    "title": "加那利群岛政府",
+    "publisher": "Canarias",
+    "kind": "government"
+  },
+  {
+    "region": "ES-CN",
+    "url": "https://www.gobiernodecanarias.org/boc/",
+    "title": "加那利群岛官方公报",
+    "publisher": "Canarias",
+    "kind": "gazette"
+  },
+  {
+    "region": "ES-CT",
+    "url": "https://govern.cat/gov/",
+    "title": "加泰罗尼亚政府",
+    "publisher": "Catalunya",
+    "kind": "government"
+  },
+  {
+    "region": "ES-CT",
+    "url": "https://dogc.gencat.cat/es/index.html?newLang=es_ES&language=es_ES",
+    "title": "加泰罗尼亚官方公报",
+    "publisher": "Catalunya",
+    "kind": "gazette"
+  },
+  {
+    "region": "ES-EX",
+    "url": "https://www.juntaex.es/web/",
+    "title": "埃斯特雷马杜拉政府",
+    "publisher": "Extremadura",
+    "kind": "government"
+  },
+  {
+    "region": "ES-EX",
+    "url": "https://doe.juntaex.es/",
+    "title": "埃斯特雷马杜拉官方公报",
+    "publisher": "Extremadura",
+    "kind": "gazette"
+  },
+  {
+    "region": "ES-GA",
+    "url": "https://www.xunta.gal/portada",
+    "title": "加利西亚政府",
+    "publisher": "Galicia",
+    "kind": "government"
+  },
+  {
+    "region": "ES-GA",
+    "url": "https://www.xunta.gal/diario-oficial-galicia/portalPublicoHome.do?lang=es",
+    "title": "加利西亚官方公报",
+    "publisher": "Galicia",
+    "kind": "gazette"
+  },
+  {
+    "region": "ES-IB",
+    "url": "https://www.caib.es/govern/index.do?lang=es",
+    "title": "巴利阿里群岛政府",
+    "publisher": "Illes Balears",
+    "kind": "government"
+  },
+  {
+    "region": "ES-IB",
+    "url": "https://www.caib.es/eboibfront/?lang=es",
+    "title": "巴利阿里群岛官方公报",
+    "publisher": "Illes Balears",
+    "kind": "gazette"
+  },
+  {
+    "region": "ES-MC",
+    "url": "https://www.carm.es/web/pagina?IDCONTENIDO=1&IDTIPO=180",
+    "title": "穆尔西亚政府",
+    "publisher": "Región de Murcia",
+    "kind": "government"
+  },
+  {
+    "region": "ES-MC",
+    "url": "https://www.borm.es/#/home/",
+    "title": "穆尔西亚官方公报",
+    "publisher": "Región de Murcia",
+    "kind": "gazette"
+  },
+  {
+    "region": "ES-MD",
+    "url": "https://www.comunidad.madrid/gobierno/institucion/gobierno",
+    "title": "马德里政府",
+    "publisher": "Comunidad de Madrid",
+    "kind": "government"
+  },
+  {
+    "region": "ES-MD",
+    "url": "https://www.bocm.es/",
+    "title": "马德里官方公报",
+    "publisher": "Comunidad de Madrid",
+    "kind": "gazette"
+  },
+  {
+    "region": "ES-NC",
+    "url": "https://www.navarra.es/es/gobierno-de-navarra",
+    "title": "纳瓦拉政府",
+    "publisher": "Comunidad Foral de Navarra",
+    "kind": "government"
+  },
+  {
+    "region": "ES-NC",
+    "url": "https://www.navarra.es/home_es/Actualidad/BON/",
+    "title": "纳瓦拉官方公报",
+    "publisher": "Comunidad Foral de Navarra",
+    "kind": "gazette"
+  },
+  {
+    "region": "ES-PV",
+    "url": "https://www.euskadi.eus/gobierno-vasco/inicio/",
+    "title": "巴斯克政府",
+    "publisher": "Euskadi",
+    "kind": "government"
+  },
+  {
+    "region": "ES-PV",
+    "url": "https://www.euskadi.eus/y22-bopv/es/bopv2/datos/Ultimo.shtml",
+    "title": "巴斯克官方公报",
+    "publisher": "Euskadi",
+    "kind": "gazette"
+  },
+  {
+    "region": "ES-RI",
+    "url": "https://web.larioja.org/",
+    "title": "拉里奥哈政府",
+    "publisher": "La Rioja",
+    "kind": "government"
+  },
+  {
+    "region": "ES-RI",
+    "url": "https://www.larioja.org/bor/es",
+    "title": "拉里奥哈官方公报",
+    "publisher": "La Rioja",
+    "kind": "gazette"
+  },
+  {
+    "region": "ES-VC",
+    "url": "https://www.gva.es/va/inicio/presentacion",
+    "title": "瓦伦西亚政府",
+    "publisher": "Comunitat Valenciana",
+    "kind": "government"
+  },
+  {
+    "region": "ES-VC",
+    "url": "https://dogv.gva.es/es/inici",
+    "title": "瓦伦西亚官方公报",
+    "publisher": "Comunitat Valenciana",
+    "kind": "gazette"
+  },
+  {
+    "region": "ES-CE",
+    "url": "https://www.ceuta.es/gobiernodeceuta/",
+    "title": "休达政府",
+    "publisher": "Ceuta",
+    "kind": "government"
+  },
+  {
+    "region": "ES-CE",
+    "url": "https://www.ceuta.es/ceuta/documentos/",
+    "title": "休达官方公报",
+    "publisher": "Ceuta",
+    "kind": "gazette"
+  },
+  {
+    "region": "ES-ML",
+    "url": "https://www.melilla.es/melillaPortal/index.jsp",
+    "title": "梅利利亚政府",
+    "publisher": "Melilla",
+    "kind": "government"
+  },
+  {
+    "region": "ES-ML",
+    "url": "https://bomemelilla.es/",
+    "title": "梅利利亚官方公报",
+    "publisher": "Melilla",
+    "kind": "gazette"
   }
 ]

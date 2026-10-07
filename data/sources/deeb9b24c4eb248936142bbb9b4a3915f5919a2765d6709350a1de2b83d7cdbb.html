@@ -1,0 +1,2643 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+
+
+
+
+
+
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es" xml:lang="es">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<meta http-equiv="Content-Language" content="es" />
+
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+<meta name="Author" content="Ciudad Autónoma de Melilla" />
+<meta name="Description" content="Ciudad Autónoma de Melilla"  />
+<meta name="Keywords" content="ciudad autónoma de melilla, melilla, 24 horas," />
+
+<title> Ciudad Autónoma de Melilla</title>
+
+
+<link rel="shortcut icon" href="resid/1/img/favicon.ico" />
+<link rel="stylesheet" type="text/css" href="resid/1/css/portal.css?20250825" />
+<link rel="stylesheet" type="text/css" href="resid/1/css/menus.css" />
+<script type="text/javascript" src="resid/1/js/jquery.min.js"></script>
+<script type="text/javascript" src="resid/1/js/jquery-ui.min.js" ></script>
+
+<link rel="stylesheet" type="text/css" href="resid/1/css/calendar.css" />
+<link rel="stylesheet" type="text/css" href="resid/1/css/accordion.css" />
+<script type="text/javascript" src="resid/1/js/eadm_comun.jsp?codResi=1&language=es" ></script>
+<script type="text/javascript" src="resid/1/js/carousel.js"></script>
+<script type="text/javascript" src="resid/1/js/jquery-ui-datepicker.min.js"></script>
+<script type="text/javascript" src="resid/1/js/jquery.msAccordion.js"></script>
+<script src="resid/1/js/voz.js"  type="text/javascript"></script>
+
+<link rel="stylesheet" type="text/css" href="resid/1/css/responsive.css?20190411" />
+
+<link rel="stylesheet" href="resid/1/js/magnific-popup/magnific-popup.css">
+<script src="resid/1/js/magnific-popup/jquery.magnific-popup.js"></script> 
+
+
+<script type="text/javascript">
+    function busquedaCabecera(){
+        if ($('buscadorPalabrasClaveCabecera').val() == "Texto a buscar"){
+                $('buscadorPalabrasClaveCabecera').attr('value', '');
+        }
+
+        $('#formulario_buscador_portal_cabecera').submit();
+    }
+    function borraCampoCabecera(campo,valorDefecto){
+            if(campo.value != '' && campo.value == valorDefecto)
+                    campo.value="";
+            else if(campo.value == '')
+                    campo.value=valorDefecto; 
+    }
+    $(document).ready(function(){ // Script del Navegador	
+            $("#busquedaCabecera").click(function(){
+                    busquedaCabecera();
+            });
+            $('.popup').magnificPopup({ 
+                type: 'image',
+                disableOn: 400,
+            });
+    });
+    $(document).keypress(function(e) {
+        if(e.keyCode == 13) {
+            if($("#buscadorPalabrasClaveCabecera").val() != 'Texto a buscar')
+                busquedaCabecera();
+        }
+    });	
+</script>
+
+
+
+</head>
+<body class="cover">
+<div id="contenedor">
+    <div id="contenido">
+        
+
+
+
+
+
+
+<div class="cabecera">
+  <div class="cabeceraMenu">
+        <div class="cabeceraMenu2">
+            <form name="formulario_buscador_portal_cabecera" id="formulario_buscador_portal_cabecera" action="contenedor.jsp?seccion=buscador.jsp&amp;layout=contenedor.jsp" method="post">
+    <div class="nueva23b"><a href="#"><img width="95" height="95" class="img" alt="" src="resid/1/img/trans.gif" id="busquedaCabecera"><span>Buscar</span></a>
+            </div>
+            <div class="nueva23">
+                    <input type="hidden" name="accion" value="buscar"/>
+                    <input name="buscadorPalabrasClave" type="text" class="cajaTexto0" id="buscadorPalabrasClaveCabecera" value="Texto a buscar" onclick="borraCampoCabecera(buscadorPalabrasClaveCabecera,'Texto a buscar')" onblur="borraCampoCabecera(buscadorPalabrasClaveCabecera,'Texto a buscar')" size="4" />
+                </form>
+            </div>
+            <a href="#" class="cerrar">x</a>
+        </div> 
+    <div class="cabeceraMenu3"><a href="index.jsp?codResi=1"><img src="resid/1/img/escudo.jpg" alt="Melilla" width="201" height="76" class="img" /></a></div>
+    <div class="FinanciadorasCabecera">
+        <a href="http://www.minetur.gob.es/" style="text-decoration:none;" target="_blank">
+            <img src="resid/1/img/financ_01.jpg" alt="Ministerio de Industria, Energía y Turismo" title="Ministerio de Industria, Energía y Turismo">
+        </a>
+        <a href="http://europa.eu/index_es.htm" style="text-decoration:none;" target="_blank">
+            <img src="resid/1/img/financ_02.jpg" alt="" title="">
+        </a>
+        <a href="http://www.planavanza.es/InformacionGeneral/ResumenEjecutivo2/Paginas/ResumenEjecutivo.aspx" style="text-decoration:none;" target="_blank">
+            <img src="resid/1/img/financ_03.jpg" alt="Plan Avanza" title="Plan Avanza">
+        </a>
+    </div>    
+  </div>
+</div>
+<div id="menu_boton"><a href="#">Menú</a></div>
+<script>
+    $('#menu_boton').click(function() {
+        $('.cabeceraMenu4').slideToggle();
+        return false;
+    });
+</script>
+<div class="cabeceraMenu4">
+    
+
+
+
+
+
+
+
+<ul class="menu_movil">
+   
+    <li><a href="contenedor.jsp?seccion=distribuidor_menus.jsp&amp;language=es&amp;codResi=1&amp;codMenu=600&amp;layout=contenedor.jsp"><img width="18" height="19" alt="" src="resid/1/img/flecha.png" class="img"> Melilla</a>
+   
+    <li><a href="contenedor.jsp?seccion=distribuidor_menus.jsp&amp;language=es&amp;codResi=1&amp;codMenu=601&amp;layout=contenedor.jsp"><img width="18" height="19" alt="" src="resid/1/img/flecha.png" class="img"> Ciudadanía</a>
+   
+    <li><a href="contenedor.jsp?seccion=distribuidor_menus.jsp&amp;language=es&amp;codResi=1&amp;codMenu=602&amp;layout=contenedor.jsp"><img width="18" height="19" alt="" src="resid/1/img/flecha.png" class="img"> Servicios</a>
+   
+</ul>
+<div class="menu1">
+    <div id="header_content"> 
+       <ul id="menu">
+           
+            <li><a href="#"><img width="18" height="19" alt="" src="resid/1/img/flecha.png" class="img"> Melilla</a>
+                <div class="dropdown_2columns">
+                    
+                    
+                          
+                          
+                          
+                          
+                          
+                                <div class="col_1">
+                                <ul>
+                                <li>&nbsp;</li>
+                                
+                                      
+                                        <li><a target="blank" href="https://sede.melilla.es/sta/CarpetaPublic/doEvent?APP_CODE=STA&amp;PAGE_CODE=PTS2_TABLON_DESC_ASAMBLEA" title="">Asamblea</a></li>
+                                      
+                                
+                                
+                                
+                            
+                          
+                          
+                          
+                          
+                          
+                                      
+                                        <li><a  href="contenedor.jsp?seccion=distribuidor_menus.jsp&amp;language=es&amp;codResi=1&amp;codMenuPN=600&amp;codMenu=238&amp;layout=contenedor.jsp&amp;layout=contenedor.jsp" title="">Presidencia</a></li>
+                                      
+                                
+                                
+                                
+                            
+                          
+                          
+                          
+                          
+                          
+                          
+                                      
+                                        <li><a  href="contenedor.jsp?seccion=distribuidor_menus.jsp&amp;language=es&amp;codResi=1&amp;codMenuPN=600&amp;codMenu=253&amp;layout=contenedor.jsp&amp;layout=contenedor.jsp" title="">Consejo de Gobierno</a></li>
+                                      
+                                
+                                
+                                
+                            
+                          
+                          
+                          
+                          
+                          
+                                      
+                                        <li><a target="blank" href="https://www.melilla.es/melillaPortal/RecursosWeb/IMAGENES/1/2_28431_1.jpg" title="">Organigrama del Gobierno de la CAM</a></li>
+                                      
+                                
+                                </ul>
+                                </div>
+                                
+                                
+                                
+                            
+                          
+                          
+                          
+                          
+                                      
+                                
+                                
+                                <div class="col_1">
+                                <ul>
+                                <li>&nbsp;</li>
+                                
+                                
+                                <li><a  href="contenedor.jsp?seccion=distribuidor_menus.jsp&amp;language=es&amp;codResi=1&amp;codMenuPN=600&amp;codMenu=261&amp;layout=contenedor.jsp&amp;layout=contenedor.jsp" title="">Gabinete de Comunicación</a></li>
+                                
+                            
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                                      
+                                
+                                
+                                
+                                <li><a  href="contenedor.jsp?seccion=s_fdes_d4_v1.jsp&amp;codbusqueda=830&amp;language=es&amp;codResi=1&amp;codMenuPN=600&amp;codMenu=613&amp;layout=contenedor.jsp&amp;layout=contenedor.jsp" title="">Organigrama</a></li>
+                                
+                            
+                          
+                          
+                                      
+                                
+                                
+                                
+                                <li><a  href="contenedor.jsp?seccion=s_lact_d10_v1.jsp&amp;codbusqueda=37&amp;language=es&amp;codResi=1&amp;codMenuPN=600&amp;codMenu=614&amp;layout=contenedor.jsp&amp;layout=contenedor.jsp" title="">Calendario de días hábiles</a></li>
+                                
+                            
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                                             
+                          </ul>
+                          </div>
+            
+            <li><a href="#"><img width="18" height="19" alt="" src="resid/1/img/flecha.png" class="img"> Ciudadanía</a>
+                <div class="dropdown_2columns">
+                    
+                    
+                          
+                          
+                          
+                          
+                                <div class="col_1">
+                                <ul>
+                                <li>&nbsp;</li>
+                                
+                                      
+                                        <li><a  href="contenedor_tema.jsp?seccion=distribuidor_servicios_tema.jsp&amp;language=es&amp;codResi=1&amp;codMenuPN=601&amp;codMenu=9&amp;layout=contenedor_tema.jsp&ca=9&amp;layout=contenedor_tema.jsp" title="">Cultura, Patrimonio Cultural y del Mayor</a></li>
+                                      
+                                
+                                
+                                
+                            
+                          
+                          
+                                      
+                                        <li><a  href="contenedor_tema.jsp?seccion=distribuidor_servicios_tema.jsp&amp;language=es&amp;codResi=1&amp;codMenuPN=601&amp;codMenu=7&amp;layout=contenedor_tema.jsp&ca=7&amp;layout=contenedor_tema.jsp" title="">Economía, Comercio, Innovación Tecnológica, Turismo y Fomento</a></li>
+                                      
+                                
+                                
+                                
+                            
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                                      
+                                        <li><a  href="contenedor_tema.jsp?seccion=distribuidor_servicios_tema.jsp&amp;language=es&amp;codResi=1&amp;codMenuPN=601&amp;codMenu=5&amp;layout=contenedor_tema.jsp&ca=5&amp;layout=contenedor_tema.jsp" title="">Educación, Juventud y Deportes</a></li>
+                                      
+                                
+                                
+                                
+                            
+                          
+                          
+                          
+                          
+                          
+                          
+                                      
+                                        <li><a  href="contenedor_tema.jsp?seccion=distribuidor_servicios_tema.jsp&amp;language=es&amp;codResi=1&amp;codMenuPN=601&amp;codMenu=826&amp;layout=contenedor_tema.jsp&ca=11&amp;layout=contenedor_tema.jsp" title="">Fomento Universitario e Investigación</a></li>
+                                      
+                                
+                                
+                                
+                            
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                                      
+                                        <li><a  href="contenedor_tema.jsp?seccion=distribuidor_servicios_tema.jsp&amp;language=es&amp;codResi=1&amp;codMenuPN=601&amp;codMenu=1&amp;layout=contenedor_tema.jsp&ca=1&amp;layout=contenedor_tema.jsp" title="">Hacienda</a></li>
+                                      
+                                
+                                </ul>
+                                </div>
+                                
+                                
+                                
+                            
+                          
+                          
+                          
+                          
+                          
+                                      
+                                
+                                
+                                <div class="col_1">
+                                <ul>
+                                <li>&nbsp;</li>
+                                
+                                
+                                <li><a  href="contenedor_tema.jsp?seccion=distribuidor_servicios_tema.jsp&amp;language=es&amp;codResi=1&amp;codMenuPN=601&amp;codMenu=8&amp;layout=contenedor_tema.jsp&ca=8&amp;layout=contenedor_tema.jsp" title="">Medio Ambiente y Naturaleza</a></li>
+                                
+                            
+                          
+                          
+                          
+                          
+                                      
+                                
+                                
+                                
+                                <li><a  href="contenedor_tema.jsp?seccion=distribuidor_servicios_tema.jsp&amp;language=es&amp;codResi=1&amp;codMenuPN=601&amp;codMenu=2&amp;layout=contenedor_tema.jsp&ca=2&amp;layout=contenedor_tema.jsp" title="">Políticas Sociales y Salud Pública</a></li>
+                                
+                            
+                          
+                          
+                          
+                          
+                                      
+                                
+                                
+                                
+                                <li><a  href="contenedor_tema.jsp?seccion=distribuidor_servicios_tema.jsp&amp;language=es&amp;codResi=1&amp;codMenuPN=601&amp;codMenu=4&amp;layout=contenedor_tema.jsp&ca=4&amp;layout=contenedor_tema.jsp" title="">Presidencia, Administración Pública e Igualdad</a></li>
+                                
+                            
+                          
+                          
+                          
+                          
+                          
+                                      
+                                
+                                
+                                
+                                <li><a  href="contenedor_tema.jsp?seccion=distribuidor_servicios_tema.jsp&amp;language=es&amp;codResi=1&amp;codMenuPN=601&amp;codMenu=10&amp;layout=contenedor_tema.jsp&ca=10&amp;layout=contenedor_tema.jsp" title="">Seguridad Ciudadana</a></li>
+                                
+                            
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                                             
+                          </ul>
+                          </div>
+            
+            <li><a href="#"><img width="18" height="19" alt="" src="resid/1/img/flecha.png" class="img"> Servicios</a>
+                <div class="dropdown_2columns">
+                    
+                    
+                          
+                          
+                          
+                                <div class="col_1">
+                                <ul>
+                                <li>&nbsp;</li>
+                                
+                                      
+                                        <li><a  href="contenedor.jsp?seccion=distribuidor_menus_temas.jsp&amp;language=es&amp;codResi=1&amp;codMenuPN=602&amp;codMenu=603&amp;layout=contenedor.jsp&amp;layout=contenedor.jsp" title="">Guía de servicios</a></li>
+                                      
+                                
+                                
+                                
+                            
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                                      
+                                        <li><a target="blank" href="https://sede.melilla.es/sta/CarpetaPublic/doEvent?APP_CODE=STA&amp;PAGE_CODE=PTS2_NORMATIVACAM" title="">Normativa</a></li>
+                                      
+                                
+                                
+                                
+                            
+                          
+                                      
+                                        <li><a target="blank" href="https://sede.melilla.es/sta/CarpetaPublic/doEvent?APP_CODE=STA&amp;PAGE_CODE=CATALOGO" title="">Tramitaciones</a></li>
+                                      
+                                
+                                
+                                
+                            
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                                      
+                                        <li><a  href="contenedor.jsp?seccion=distribuidor_menus_temas.jsp&amp;language=es&amp;codResi=1&amp;codMenuPN=602&amp;codMenu=609&amp;layout=contenedor.jsp&amp;layout=contenedor.jsp" title="">Buzón de consulta</a></li>
+                                      
+                                
+                                
+                                
+                            
+                          
+                          
+                          
+                                      
+                                        <li><a  href="contenedor.jsp?seccion=distribuidor_menus_temas.jsp&amp;language=es&amp;codResi=1&amp;codMenuPN=602&amp;codMenu=611&amp;layout=contenedor.jsp&amp;layout=contenedor.jsp" title="">Enlaces de interés</a></li>
+                                      
+                                
+                                
+                                
+                            
+                          
+                          
+                          
+                          
+                          
+                                      
+                                        <li><a target="blank" href="https://www.melilla.es/melillaPortal/contenedor.jsp?seccion=distribuidor_menus_texto.jsp&amp;language=es&amp;codResi=1&amp;codMenuPN=601&amp;codMenuSN=4&amp;codMenu=139&amp;layout=contenedor.jsp" title="">Procesos Selectivos</a></li>
+                                      
+                                
+                                
+                                
+                            
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                                      
+                                        <li><a  href="contenedor.jsp?seccion=s_ldoc_d1_v1.jsp&amp;codbusqueda=665&amp;language=es&amp;codResi=1&amp;codMenuPN=602&amp;codMenu=696&amp;layout=contenedor.jsp&amp;layout=contenedor.jsp" title="">Planes y Mapas Estratégicos</a></li>
+                                      
+                                
+                                
+                                
+                            
+                          
+                          
+                          
+                          
+                          
+                                      
+                                        <li><a  href="contenedor.jsp?seccion=s_ldoc_d1_v1.jsp&amp;codbusqueda=704&amp;language=es&amp;codResi=1&amp;codMenuPN=602&amp;codMenu=687&amp;layout=contenedor.jsp&amp;layout=contenedor.jsp" title="">Directrices, Instrucciones, Acuerdos y Circulares</a></li>
+                                      
+                                
+                                </ul>
+                                </div>
+                                
+                                
+                                
+                            
+                          
+                          
+                                      
+                                
+                                
+                                <div class="col_1">
+                                <ul>
+                                <li>&nbsp;</li>
+                                
+                                
+                                <li><a  href="contenedor.jsp?seccion=distribuidor_menus_temas.jsp&amp;language=es&amp;codResi=1&amp;codMenuPN=602&amp;codMenu=604&amp;layout=contenedor.jsp&amp;layout=contenedor.jsp" title="">Directorio</a></li>
+                                
+                            
+                          
+                          
+                          
+                          
+                                      
+                                
+                                
+                                
+                                <li><a  href="contenedor.jsp?seccion=distribuidor_menus_temas.jsp&amp;language=es&amp;codResi=1&amp;codMenuPN=602&amp;codMenu=606&amp;layout=contenedor.jsp&amp;layout=contenedor.jsp" title="">Documentos de interés</a></li>
+                                
+                            
+                          
+                          
+                                      
+                                
+                                
+                                
+                                <li><a  href="contenedor.jsp?seccion=distribuidor_menus_temas.jsp&amp;language=es&amp;codResi=1&amp;codMenuPN=602&amp;codMenu=608&amp;layout=contenedor.jsp&amp;layout=contenedor.jsp" title="">Impresos e instancias</a></li>
+                                
+                            
+                          
+                          
+                                      
+                                
+                                
+                                
+                                <li><a  href="https://www.melilla.es/melillaportal/contenedor.jsp?seccion=s_lnot_d10_v1.jsp&amp;codbusqueda=26&amp;codResi=1&amp;codMenuPN=602&amp;codMenu=610&amp;temas=si" title="">Noticias</a></li>
+                                
+                            
+                          
+                                      
+                                
+                                
+                                
+                                <li><a  href="contenedor.jsp?seccion=distribuidor_menus_temas.jsp&amp;language=es&amp;codResi=1&amp;codMenuPN=602&amp;codMenu=612&amp;layout=contenedor.jsp&amp;layout=contenedor.jsp" title="">Cartas de servicios</a></li>
+                                
+                            
+                          
+                                      
+                                
+                                
+                                
+                                <li><a  href="contenedor.jsp?seccion=s_ldoc_d1_v1.jsp&amp;codbusqueda=216&amp;language=es&amp;codResi=1&amp;codMenuPN=602&amp;codMenu=174&amp;layout=contenedor.jsp&amp;layout=contenedor.jsp" title="">Convenios de colaboración</a></li>
+                                
+                            
+                          
+                                      
+                                
+                                
+                                
+                                <li><a  href="contenedor.jsp?seccion=s_ldoc_d1_v1.jsp&amp;codbusqueda=693&amp;language=es&amp;codResi=1&amp;codMenuPN=602&amp;codMenu=514&amp;layout=contenedor.jsp&amp;layout=contenedor.jsp" title="">Subvenciones públicas y ayudas</a></li>
+                                
+                            
+                          
+                                      
+                                
+                                
+                                
+                                <li><a target="blank" href="contenedor.jsp?seccion=s_ldes_d1_v2.jsp&amp;codbusqueda=609&amp;language=es&amp;codResi=1&amp;codMenuPN=602&amp;codMenu=698&amp;layout=contenedor.jsp" title="">Informes de Gestión y Evaluación</a></li>
+                                
+                            
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                                             
+                          </ul>
+                          </div>
+            
+        </ul>
+    </div>
+</div>
+
+
+    
+
+
+
+
+
+<div class="menu2">
+            
+                <a  href="index.jsp?codResi=1" class="item_1" title="">Inicio</a> <img src="resid/1/img/pt.gif" alt="" width="5" height="13" />
+            
+                <a  href="contenedor2.jsp?seccion=mapa_web.jsp&amp;language=es&amp;codResi=1&amp;layout=contenedor2.jsp&amp;codAdirecto=2" class="item_2" title="">Mapa web</a> <img src="resid/1/img/pt.gif" alt="" width="5" height="13" />
+            
+                <a  href="contenedor.jsp?seccion=s_lloc_d10_v1.jsp&amp;codbusqueda=11&amp;language=es&amp;codResi=1&amp;layout=contenedor.jsp&amp;codAdirecto=3" class="item_3" title="">Contacto</a> <img src="resid/1/img/pt.gif" alt="" width="5" height="13" />
+            
+                <a target="blank" href="https://sede.melilla.es" class="item_4" title="recursos.nueva_ventana">Sede Electrónica</a> 
+            
+            <a href="#" class="item_buscador">Buscar</a>
+</div>
+<script>
+    $('.menu2 .item_buscador, .cabeceraMenu2 .cerrar').click(function() {
+        $('.cabeceraMenu2').slideToggle();
+        $('.cabeceraMenu4').hide();
+        return false;
+    });
+</script>
+
+</div>
+
+        
+
+
+
+
+
+
+<div class="centro">
+    
+
+
+
+
+
+
+<script type="text/javascript">
+        $(document).ready(function(){
+                $("#featured > ul").tabs({fx:{opacity: "toggle"}}); //.tabs("rotate", 6000, true);
+                var totalTabs=$("#featured > ul li").size();
+                var tabActual=0;
+                var firstTabTime=8000 || 6000;
+                var tabTime=8000 || 6000;
+                function rotar() {
+                   $("#featured > ul").tabs("select", tabActual);
+                   if (++tabActual >= totalTabs) {
+                     tabActual=0;
+                   }
+                   var time=(tabActual==1)?firstTabTime:tabTime;
+                   setTimeout(rotar, time);
+                }
+                rotar();
+        });
+</script>
+
+<div id="featured" >
+    
+        <ul class="ui-tabs-nav">
+        
+             <li class="ui-tabs-nav-item ui-tabs-selected" id="nav-fragment-1"><a href="#fragment-1"></a></li>
+        
+             <li class="ui-tabs-nav-item ui-tabs-selected" id="nav-fragment-2"><a href="#fragment-2"></a></li>
+        
+             <li class="ui-tabs-nav-item ui-tabs-selected" id="nav-fragment-3"><a href="#fragment-3"></a></li>
+        
+             <li class="ui-tabs-nav-item ui-tabs-selected" id="nav-fragment-4"><a href="#fragment-4"></a></li>
+        
+             <li class="ui-tabs-nav-item ui-tabs-selected" id="nav-fragment-5"><a href="#fragment-5"></a></li>
+        
+             <li class="ui-tabs-nav-item ui-tabs-selected" id="nav-fragment-6"><a href="#fragment-6"></a></li>
+        
+             <li class="ui-tabs-nav-item ui-tabs-selected" id="nav-fragment-7"><a href="#fragment-7"></a></li>
+        
+             <li class="ui-tabs-nav-item ui-tabs-selected" id="nav-fragment-8"><a href="#fragment-8"></a></li>
+        
+             <li class="ui-tabs-nav-item ui-tabs-selected" id="nav-fragment-9"><a href="#fragment-9"></a></li>
+        
+             <li class="ui-tabs-nav-item ui-tabs-selected" id="nav-fragment-10"><a href="#fragment-10"></a></li>
+        
+             <li class="ui-tabs-nav-item ui-tabs-selected" id="nav-fragment-11"><a href="#fragment-11"></a></li>
+        
+             <li class="ui-tabs-nav-item ui-tabs-selected" id="nav-fragment-12"><a href="#fragment-12"></a></li>
+        
+
+        </ul>
+        
+            <div id="fragment-1" class="ui-tabs-panel" style="">
+                <a href="contenedor.jsp?seccion=s_fdoc_d4_v1.jsp&amp;codbusqueda=997&amp;language=es&amp;codResi=1&amp;layout=contenedor.jsp&amp;codAdirecto=583" title="Descubre tus próximas historias en la Biblioteca Pública"><img src="RecursosWeb/IMAGENES/1/0_39017_1.png" width="950" heigth="340" alt="Descubre tus próximas historias en la Biblioteca Pública" class="img" /></a>     
+                <div class="info" >
+                    <h2><a href="contenedor.jsp?seccion=s_fdoc_d4_v1.jsp&amp;codbusqueda=997&amp;language=es&amp;codResi=1&amp;layout=contenedor.jsp&amp;codAdirecto=583" target="blank">Descubre tus próximas historias en la Biblioteca Pública</a></h2>
+                    
+                </div>
+            </div>
+            
+        
+            <div id="fragment-2" class="ui-tabs-panel" style="">
+                <a href="contenedor.jsp?seccion=s_fdoc_d4_v1.jsp&amp;codbusqueda=996&amp;language=es&amp;codResi=1&amp;layout=contenedor.jsp&amp;codAdirecto=582" title="Nueva App Familias Numerosas Melilla"><img src="RecursosWeb/IMAGENES/1/0_38898_1.jpeg" width="950" heigth="340" alt="Nueva App Familias Numerosas Melilla" class="img" /></a>     
+                <div class="info" >
+                    <h2><a href="contenedor.jsp?seccion=s_fdoc_d4_v1.jsp&amp;codbusqueda=996&amp;language=es&amp;codResi=1&amp;layout=contenedor.jsp&amp;codAdirecto=582" target="blank">Nueva App Familias Numerosas Melilla</a></h2>
+                    
+                </div>
+            </div>
+            
+        
+            <div id="fragment-3" class="ui-tabs-panel" style="">
+                <a href="contenedor.jsp?seccion=s_fdoc_d4_v1.jsp&amp;codbusqueda=969&amp;language=es&amp;codResi=1&amp;layout=contenedor.jsp&amp;codAdirecto=567" title="Oferta de Empleo Público de la Ciudad Autónoma de Melilla - Año 2026"><img src="RecursosWeb/IMAGENES/1/0_36902_1.png" width="950" heigth="340" alt="Oferta de Empleo Público de la Ciudad Autónoma de Melilla - Año 2026" class="img" /></a>     
+                <div class="info" >
+                    <h2><a href="contenedor.jsp?seccion=s_fdoc_d4_v1.jsp&amp;codbusqueda=969&amp;language=es&amp;codResi=1&amp;layout=contenedor.jsp&amp;codAdirecto=567" target="blank">Oferta de Empleo Público de la Ciudad Autónoma de Melilla - Año 2026</a></h2>
+                    
+                </div>
+            </div>
+            
+        
+            <div id="fragment-4" class="ui-tabs-panel" style="">
+                <a href="contenedor.jsp?seccion=s_fdes_d4_v1.jsp&amp;codbusqueda=975&amp;language=es&amp;codResi=1&amp;layout=contenedor.jsp&amp;codAdirecto=571" title="Listado de Objetos Perdidos (Jefatura de Policía Local)"><img src="RecursosWeb/IMAGENES/1/1_37104_1.png" width="950" heigth="340" alt="Listado de Objetos Perdidos (Jefatura de Policía Local)" class="img" /></a>     
+                <div class="info" >
+                    <h2><a href="contenedor.jsp?seccion=s_fdes_d4_v1.jsp&amp;codbusqueda=975&amp;language=es&amp;codResi=1&amp;layout=contenedor.jsp&amp;codAdirecto=571" target="blank">Listado de Objetos Perdidos (Jefatura de Policía Local)</a></h2>
+                    
+                </div>
+            </div>
+            
+        
+            <div id="fragment-5" class="ui-tabs-panel" style="">
+                <a href="https://www.melilla.es/melillaPortal/contenedor.jsp?seccion=s_fdes_d4_v1.jsp&amp;contenido=30715&amp;tipo=6&amp;nivel=1400&amp;codResi=1&amp;language=es&amp;codMenu=139&amp;codMenuPN=601&amp;codMenuSN=4" title="Información Procesos Selectivos"><img src="RecursosWeb/IMAGENES/1/3_23923_1.jpeg" width="950" heigth="340" alt="Información Procesos Selectivos" class="img" /></a>     
+                <div class="info" >
+                    <h2><a href="https://www.melilla.es/melillaPortal/contenedor.jsp?seccion=s_fdes_d4_v1.jsp&amp;contenido=30715&amp;tipo=6&amp;nivel=1400&amp;codResi=1&amp;language=es&amp;codMenu=139&amp;codMenuPN=601&amp;codMenuSN=4" target="blank">Información Procesos Selectivos</a></h2>
+                    
+                </div>
+            </div>
+            
+        
+            <div id="fragment-6" class="ui-tabs-panel" style="">
+                <a href="contenedor.jsp?seccion=s_fact_d4_v1.jsp&amp;codbusqueda=861&amp;language=es&amp;codResi=1&amp;layout=contenedor.jsp&amp;codAdirecto=464" title="Melilla Ocio 365 - Agenda de Eventos Imprescindible en 2026"><img src="RecursosWeb/IMAGENES/1/1_29489_1.JPG" width="950" heigth="340" alt="Melilla Ocio 365 - Agenda de Eventos Imprescindible en 2026" class="img" /></a>     
+                <div class="info" >
+                    <h2><a href="contenedor.jsp?seccion=s_fact_d4_v1.jsp&amp;codbusqueda=861&amp;language=es&amp;codResi=1&amp;layout=contenedor.jsp&amp;codAdirecto=464" target="blank">Melilla Ocio 365 - Agenda de Eventos Imprescindible en 2026</a></h2>
+                    
+                </div>
+            </div>
+            
+        
+            <div id="fragment-7" class="ui-tabs-panel" style="">
+                <a href="contenedor.jsp?seccion=distribuidor_menus.jsp&amp;codMenu=754&amp;layout=contenedor.jsp" title="Cita Previa de la Red OIAC"><img src="RecursosWeb/IMAGENES/1/4_23261_1.png" width="950" heigth="340" alt="Cita Previa de la Red OIAC" class="img" /></a>     
+                <div class="info" >
+                    <h2><a href="contenedor.jsp?seccion=distribuidor_menus.jsp&amp;codMenu=754&amp;layout=contenedor.jsp" target="blank">Cita Previa de la Red OIAC</a></h2>
+                    
+                </div>
+            </div>
+            
+        
+            <div id="fragment-8" class="ui-tabs-panel" style="">
+                <a href="contenedor.jsp?seccion=s_fact_d4_v1.jsp&amp;codbusqueda=939&amp;language=es&amp;codResi=1&amp;layout=contenedor.jsp&amp;codAdirecto=538" title="Nueva APP Cita Previa Melilla"><img src="RecursosWeb/IMAGENES/1/0_33178_1.jpeg" width="950" heigth="340" alt="Nueva APP Cita Previa Melilla" class="img" /></a>     
+                <div class="info" >
+                    <h2><a href="contenedor.jsp?seccion=s_fact_d4_v1.jsp&amp;codbusqueda=939&amp;language=es&amp;codResi=1&amp;layout=contenedor.jsp&amp;codAdirecto=538" target="blank">Nueva APP Cita Previa Melilla</a></h2>
+                    
+                </div>
+            </div>
+            
+        
+            <div id="fragment-9" class="ui-tabs-panel" style="">
+                <a href="contenedor.jsp?seccion=s_fdoc_d4_v1.jsp&amp;codbusqueda=938&amp;language=es&amp;codResi=1&amp;layout=contenedor.jsp&amp;codAdirecto=537" title="Nueva APP Padrón Melilla"><img src="RecursosWeb/IMAGENES/1/0_33179_1.jpeg" width="950" heigth="340" alt="Nueva APP Padrón Melilla" class="img" /></a>     
+                <div class="info" >
+                    <h2><a href="contenedor.jsp?seccion=s_fdoc_d4_v1.jsp&amp;codbusqueda=938&amp;language=es&amp;codResi=1&amp;layout=contenedor.jsp&amp;codAdirecto=537" target="blank">Nueva APP Padrón Melilla</a></h2>
+                    
+                </div>
+            </div>
+            
+        
+            <div id="fragment-10" class="ui-tabs-panel" style="">
+                <a href="contenedor.jsp?seccion=s_lcont_d1_v4.jsp&amp;codbusqueda=920&amp;language=es&amp;codResi=1&amp;codMenuPN=601&amp;codMenuSN=5&amp;codMenu=178&amp;layout=contenedor.jsp" title="Área de Juventud"><img src="RecursosWeb/IMAGENES/1/0_30815_1.png" width="950" heigth="340" alt="Área de Juventud" class="img" /></a>     
+                <div class="info" >
+                    <h2><a href="contenedor.jsp?seccion=s_lcont_d1_v4.jsp&amp;codbusqueda=920&amp;language=es&amp;codResi=1&amp;codMenuPN=601&amp;codMenuSN=5&amp;codMenu=178&amp;layout=contenedor.jsp" target="blank">Área de Juventud</a></h2>
+                    
+                </div>
+            </div>
+            
+        
+            <div id="fragment-11" class="ui-tabs-panel" style="">
+                <a href="contenedor.jsp?seccion=s_fdes_d4_v1.jsp&amp;codbusqueda=901&amp;language=es&amp;codResi=1&amp;layout=contenedor.jsp&amp;codAdirecto=503" title="Melilla Film Commission "><img src="RecursosWeb/IMAGENES/1/0_30112_1.jpg" width="950" heigth="340" alt="Melilla Film Commission " class="img" /></a>     
+                <div class="info" >
+                    <h2><a href="contenedor.jsp?seccion=s_fdes_d4_v1.jsp&amp;codbusqueda=901&amp;language=es&amp;codResi=1&amp;layout=contenedor.jsp&amp;codAdirecto=503" >Melilla Film Commission </a></h2>
+                    
+                </div>
+            </div>
+            
+        
+            <div id="fragment-12" class="ui-tabs-panel" style="">
+                <a href="http://www.melillaturismo.com/" title="Descubre MELILLA"><img src="RecursosWeb/IMAGENES/1/2_9475_1.jpg" width="950" heigth="340" alt="Descubre MELILLA" class="img" /></a>     
+                <div class="info" >
+                    <h2><a href="http://www.melillaturismo.com/" target="blank">Descubre MELILLA</a></h2>
+                    
+                </div>
+            </div>
+            
+        
+    
+</div>
+
+</div>
+<div class="centro1">
+  <div class="actualidad cf">
+    <div class="centro1b cf">
+        
+
+
+
+
+
+
+
+ 
+ <div class="centro1a">
+     <div class="titulo"><div class="nueva2"><a href="contenedor.jsp?seccion=s_lnot_d10_v1.jsp&amp;codbusqueda=26&codMenuPN=602&codMenu=610&amp;temas=si">noticias</a></div></div>
+            
+                <div class="noticia1"><a href="contenedor.jsp?seccion=s_fnot_d4_v1.jsp&contenido=46285&nivel=1400&tipo=8&codMenuPN=602&codMenu=610">LA CONSEJERA DE SALUD PÚBLICA VISITA LAS CLASES DE YOGA DE LA ASOCIACIÓN 'EL TECHO ES UN DERECHO'</a></div>
+        
+                <div class="noticia2"><a href="contenedor.jsp?seccion=s_fnot_d4_v1.jsp&contenido=46273&nivel=1400&tipo=8&codMenuPN=602&codMenu=610">EL PRESIDENTE DE LA CIUDAD RECIBE LA MEDALLA DE ORO DEL SENADO JUNTO A SU HOMÓLOGO CEUTÍ</a></div>
+        
+                <div class="noticia1"><a href="contenedor.jsp?seccion=s_fnot_d4_v1.jsp&contenido=46281&nivel=1400&tipo=8&codMenuPN=602&codMenu=610">LA VICECONSEJERA DE IGUALDAD Y MUJER ASISTE UNA PRESENTACIÓN DIRIGIDA A MUJERES CON DISCAPACIDAD</a></div>
+        
+                <div class="noticia2"><a href="contenedor.jsp?seccion=s_fnot_d4_v1.jsp&contenido=46279&nivel=1400&tipo=8&codMenuPN=602&codMenu=610">MÁS DE MEDIO CENTENAR PARTICIPA EN LAS JORNADAS DE INVERSIÓN EN MELILLA CELEBRADAS EN SEVILLA</a></div>
+        
+                <div class="noticia1"><a href="contenedor.jsp?seccion=s_fnot_d4_v1.jsp&contenido=46257&nivel=1400&tipo=8&codMenuPN=602&codMenu=610">EL PRESIDENTE DE LA CIUDAD ALABA LA REFORMA DE LA ASOCIACIÓN DE VECINOS CONSTITUCIÓN</a></div>
+        
+        <div class="noticia3b"><a href="contenedor.jsp?seccion=s_lnot_d10_v1.jsp&amp;codbusqueda=26&codMenuPN=602&codMenu=610&amp;temas=si"><img width="28" height="20" alt="ver más" src="resid/1/img/mas.jpg" class="img"></a></div>
+</div>
+
+        
+
+
+
+
+
+
+
+ 
+ <div class="centro1a">
+     <div class="titulo"><div class="nueva2"><a href="contenedor.jsp?seccion=s_lcont_d4_v1.jsp&amp;anuncio=1">anuncios</a></div></div>
+            
+                <div class="noticia1"><a href="contenedor.jsp?seccion=s_fdoc_d4_v1.jsp&contenido=33785&nivel=1400&tipo=5&amp;anuncio=1">Concesión de subvenciones para el pago del alquiler de viviendas privadas correspondiente a la convocatoria del año 2026</a></div>
+        
+                <div class="noticia2"><a href="contenedor.jsp?seccion=s_fact_d4_v1.jsp&contenido=46269&nivel=1400&tipo=2&amp;anuncio=1">Taller - Atardecer en Melilla la Vieja</a></div>
+        
+                <div class="noticia1"><a href="contenedor.jsp?seccion=s_fact_d4_v1.jsp&contenido=46271&nivel=1400&tipo=2&amp;anuncio=1">Melilla: Ciudad de las Cuatro Culturas</a></div>
+        
+                <div class="noticia2"><a href="contenedor.jsp?seccion=s_fact_d4_v1.jsp&contenido=46277&nivel=1400&tipo=2&amp;anuncio=1">5º Congreso de Baile Internacional de Melilla</a></div>
+        
+                <div class="noticia1"><a href="contenedor.jsp?seccion=s_fdoc_d4_v1.jsp&contenido=46267&nivel=1400&tipo=5&amp;anuncio=1">Resolución provisional complementaria que formula el órgano instructor del procedimiento de convocatoria de subvenciones en régimen de concurrencia competitiva, destinadas a entidades sin ánimo de lucro, año 2026</a></div>
+        
+        <div class="noticia3b"><a href="contenedor.jsp?seccion=s_lcont_d4_v1.jsp&amp;anuncio=1"><img width="28" height="20" alt="ver más" src="resid/1/img/mas.jpg" class="img"></a></div>
+</div>
+
+        <div class="centro1b2">
+            
+            
+            
+
+
+
+
+
+
+
+<div class="banda">
+    <div class="banda1" id="televisionmelilla"> <img src="resid/1/img/2.gif" alt="img" width="18" height="19" /> información de interés PROTECCIÓN CIVIL Y EMERGENCIAS 1-1-2</div>
+</div>
+<div class="bandaImg" id="videos_home">
+    
+        <a href="https://www.melilla.es/melillaportal/contenedor.jsp?seccion=distribuidor_menus.jsp&language=es&codResi=1&codMenuPN=601&codMenuSN=10&codMenu=493&layout=contenedor.jsp"><img alt="Banner información de interés PROTECCIÓN CIVIL Y EMERGENCIAS 1-1-2" title="Banner información de interés PROTECCIÓN CIVIL Y EMERGENCIAS 1-1-2" src="RecursosWeb/IMAGENES/1/3_22869_1.png"></a>
+        
+</div>
+
+        </div>        
+    </div>
+    <div class="centro1a2">
+        
+
+
+
+
+<div class="banners_lateral">
+
+
+<a target="blank" href="https://sede.melilla.es" title=""><img src="RecursosWeb/IMAGENES/1/0_14629_1.gif" alt="Sede Electrónica" title="Sede Electrónica" class="img"/></a>
+
+<a target="blank" href="contenedor.jsp?seccion=distribuidor_menus.jsp&amp;codMenu=754&amp;layout=contenedor.jsp" title=""><img src="RecursosWeb/IMAGENES/1/8_24012_1.jpg" alt="BANNER SOLICITA TU CITA PREVIA" title="BANNER SOLICITA TU CITA PREVIA" class="img"/></a>
+
+<a target="blank" href="https://sede.melilla.es/melillaPortal/transparencia/" title=""><img src="RecursosWeb/IMAGENES/1/0_14628_1.gif" alt="Portal de Transparencia" title="Portal de Transparencia" class="img"/></a>
+
+<a target="blank" href="/melillaportal/contratante/" title=""><img src="RecursosWeb/IMAGENES/1/0_10637_1.jpg" alt="Perfil de Contratante" title="Perfil de Contratante" class="img"/></a>
+
+<a target="blank" href="https://bomemelilla.es" title=""><img src="RecursosWeb/IMAGENES/1/2_9334_1.jpg" alt="Bome" title="Bome" class="img"/></a>
+
+<a  href="contenedor.jsp?seccion=s_fdes_d4_v1.jsp&amp;codbusqueda=752&amp;language=es&amp;codResi=1&amp;layout=contenedor.jsp&amp;codAdirecto=410" title=""><img src="RecursosWeb/IMAGENES/1/0_21185_1.jpg" alt="Contratación Menor" title="Contratación Menor" class="img"/></a>
+
+</div>
+
+        
+
+
+
+
+
+
+<div id="calendar"></div>
+<script type="text/javascript">
+$('#calendar').datepicker({
+        inline: true,
+        firstDay: 1,
+        showOtherMonths: true,
+        dayNamesMin: ['Dom', 'Lun', 'Mar', 'Mie', 'Jue', 'Vie', 'Sab'],
+        monthNames: ['ENERO', 'FEBRERO', 'MARZO', 'ABRIL', 'MAYO', 'JUNIO', 'JULIO', 'AGOSTO', 'SEPTIEMBRE','OCTUBRE','NOVIEMBRE','DICIEMBRE'],
+        beforeShowDay: marcardiaseventos,
+        onSelect: function(textoFecha, objDatepicker){
+            if(textoFecha=='NaN/NaN/NaN'){
+                var fechaHoraActual = 1791404898988;
+                var d = new Date(fechaHoraActual);
+                var dia= new String(d.getDate());
+                if(dia.length==1)
+                    dia="0"+dia;
+                var mes= new String(d.getMonth()+1);
+                if(mes.length==1)
+                    mes="0"+mes;
+                textoFecha=dia+'/'+mes+'/'+d.getFullYear();
+            }
+            var url="contenedor.jsp?seccion=s_lact_d10_v1.jsp&codbusqueda=1&codResi=1&buscadorFechaDesde="+textoFecha+"&buscadorFechaHasta="+textoFecha+"&temas=si";
+   	    window.location = url;
+        }
+});
+function marcardiaseventos(date){
+var diaseventos = new Array(10);
+
+diaseventos[0] = [07,10,2026];
+
+diaseventos[1] = [10,10,2026];
+
+diaseventos[2] = [07,10,2026];
+
+diaseventos[3] = [16,10,2026];
+
+diaseventos[4] = [09,10,2026];
+
+diaseventos[5] = [02,10,2026];
+
+diaseventos[6] = [01,10,2026];
+
+diaseventos[7] = [06,10,2026];
+
+diaseventos[8] = [22,09,2026];
+
+diaseventos[9] = [29,11,2026];
+
+for (var j = 0; j < diaseventos.length; j++) {
+    if (date.getMonth() == diaseventos[j][1] - 1 && date.getDate() == diaseventos[j][0]) {
+        return [true, 'diasevento'];
+    }
+}         
+return [true, ''];   
+}
+</script>
+
+<!-- jj: 10 -->
+
+<div class="titulo2"><div class="nueva3"> <a href="contenedor.jsp?seccion=s_lact_d10_v1.jsp&amp;codbusqueda=1&amp;temas=si&amp;evento=1">ACTIVIDADES</a></div></div>
+    
+
+    <div class="nueva4">
+        7 de octubre de 2026 | 9 de octubre de 2026
+    </div>
+    <div class="nueva5">
+        <img width="80" class="nueva5Foto" alt="CARTEL Melilla: Ciudad de las Cuatro Culturas" title="CARTEL Melilla: Ciudad de las Cuatro Culturas" src="RecursosWeb/IMAGENES/1/0_39144_1.jpg"><span class="texto4B"><a href="contenedor.jsp?seccion=s_fact_d4_v1.jsp&contenido=46271&nivel=1400&tipo=2&amp;evento=1">Melilla: Ciudad de las Cuatro Culturas</a></span>
+        </br>
+         
+            
+        
+        </br></br>
+        <div class="nueva4B"><img src="resid/1/img/21.jpg" alt="" width="14" height="12" />&nbsp;<a href="contenedor.jsp?seccion=s_fact_d4_v1.jsp&contenido=46271&nivel=1400&tipo=2&amp;evento=1">ver m&aacute;s</a></div>
+        </br>
+    </div>
+    
+
+    <div class="nueva4">
+        16 de octubre de 2026 | 17 de octubre de 2026
+    </div>
+    <div class="nueva5">
+        <img width="80" class="nueva5Foto" alt="CARTEL 5º Congreso de Baile Internacional de Melilla" title="CARTEL 5º Congreso de Baile Internacional de Melilla" src="RecursosWeb/IMAGENES/1/0_39160_1.jpg"><span class="texto4B"><a href="contenedor.jsp?seccion=s_fact_d4_v1.jsp&contenido=46277&nivel=1400&tipo=2&amp;evento=1">5º Congreso de Baile Internacional de Melilla</a></span>
+        </br>
+         
+            
+        
+        </br></br>
+        <div class="nueva4B"><img src="resid/1/img/21.jpg" alt="" width="14" height="12" />&nbsp;<a href="contenedor.jsp?seccion=s_fact_d4_v1.jsp&contenido=46277&nivel=1400&tipo=2&amp;evento=1">ver m&aacute;s</a></div>
+        </br>
+    </div>
+    
+
+    <div class="nueva4">
+        10 de octubre de 2026
+    </div>
+    <div class="nueva5">
+        <img width="80" class="nueva5Foto" alt="CARTEL Taller - Atardecer en Melilla la Vieja" title="CARTEL Taller - Atardecer en Melilla la Vieja" src="RecursosWeb/IMAGENES/1/0_39143_1.jpg"><span class="texto4B"><a href="contenedor.jsp?seccion=s_fact_d4_v1.jsp&contenido=46269&nivel=1400&tipo=2&amp;evento=1">Taller - Atardecer en Melilla la Vieja</a></span>
+        </br>
+        
+        </br></br>
+        <div class="nueva4B"><img src="resid/1/img/21.jpg" alt="" width="14" height="12" />&nbsp;<a href="contenedor.jsp?seccion=s_fact_d4_v1.jsp&contenido=46269&nivel=1400&tipo=2&amp;evento=1">ver m&aacute;s</a></div>
+        </br>
+    </div>
+    
+
+
+    </div>
+  </div> <!-- actualidad -->
+  
+</div>
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript">
+stepcarousel.setup({
+	galleryid: 'carousel', //id of carousel DIV
+	beltclass: 'belt', //class of inner "belt" DIV containing all the panel DIVs
+	panelclass: 'panel', //class of panel DIVs each holding content
+	autostep: {enable:true, moveby:1, pause:5000},
+	panelbehavior: {speed:500, wraparound:true, persist:true},
+	statusvars: ['statusA', 'statusB', 'statusC'], //register 3 variables that contain current panel (start), current panel (last), and total panels
+	contenttype: ['external'] //content setting ['inline'] or ['external', 'path_to_external_file']
+})
+</script>
+<div class="centroNave">
+    <div class="nave1"></div>
+    <div class="nave1"><a href="javascript:stepcarousel.stepBy('carousel', -1)"><img src="resid/1/img/a1.gif" width="40" height="119" alt="atras" class="img" /></a></div>
+        <div class="nave2">
+            <div id="carousel" class="stepcarousel">
+                    <div class="belt">
+                    
+                                
+                                <div class="panel">
+                                <a target="_blank" href="https://www.melilla.es/melillaPortal/RecursosWeb/SITES/presup2026/PGCAM2026.html" title="Banner Presupuestos Generales 2026">
+                                    <img width="170" src="RecursosWeb/IMAGENES/1/4_26056_1.jpg" alt="Banner Presupuestos Generales 2026" class="img" />
+                                </a>
+                                </div>
+                                
+                        
+                                
+                                <div class="panel">
+                                <a target="_blank" href="https://melilla-datosabiertos.tao.es/" title="Banner Portal de Datos Abiertos">
+                                    <img width="170" src="RecursosWeb/IMAGENES/1/0_36469_1.png" alt="Banner Portal de Datos Abiertos" class="img" />
+                                </a>
+                                </div>
+                                
+                        
+                                
+                                <div class="panel">
+                                <a target="_blank" href="contenedor.jsp?seccion=s_fdoc_d4_v1.jsp&amp;codbusqueda=793&amp;language=es&amp;codResi=1&amp;layout=contenedor.jsp&amp;codAdirecto=435" title="Banner nueva APP Cita Previa OIAC">
+                                    <img width="170" src="RecursosWeb/IMAGENES/1/2_23262_1.jpg" alt="Banner nueva APP Cita Previa OIAC" class="img" />
+                                </a>
+                                </div>
+                                
+                        
+                                
+                                <div class="panel">
+                                <a target="_blank" href="https://www.cemci.org/" title="Banner CEMCi">
+                                    <img width="170" src="RecursosWeb/IMAGENES/1/0_36999_1.png" alt="Banner CEMCi" class="img" />
+                                </a>
+                                </div>
+                                
+                        
+                                
+                                <div class="panel">
+                                <a target="_blank" href="contenedor.jsp?seccion=s_fdes_d4_v1.jsp&amp;codbusqueda=57&amp;language=es&amp;codResi=1&amp;codMenuPN=601&amp;codMenuSN=4&amp;codMenuTN=143&amp;codMenu=298&amp;layout=contenedor.jsp" title="Banner Certificado Digital">
+                                    <img width="170" src="RecursosWeb/IMAGENES/1/1_124_1.jpg" alt="Banner Certificado Digital" class="img" />
+                                </a>
+                                </div>
+                                
+                        
+                                
+                                <div class="panel">
+                                <a target="_blank" href="contenedor.jsp?seccion=s_floc_d4_v1.jsp&amp;codbusqueda=385&amp;language=es&amp;codResi=1&amp;layout=contenedor.jsp&amp;codAdirecto=75" title="Banner Servicio Teléfono 010">
+                                    <img width="170" src="RecursosWeb/IMAGENES/1/2_22993_1.jpg" alt="Banner Servicio Teléfono 010" class="img" />
+                                </a>
+                                </div>
+                                
+                        
+                                
+                                <div class="panel">
+                                <a target="_blank" href="contenedor.jsp?seccion=s_fdoc_d4_v1.jsp&amp;codbusqueda=970&amp;language=es&amp;codResi=1&amp;layout=contenedor.jsp&amp;codAdirecto=568" title="Banner Oferta de Empleo Público de la Ciudad Autónoma de Melilla - Año 2026">
+                                    <img width="170" src="RecursosWeb/IMAGENES/1/0_36903_1.png" alt="Banner Oferta de Empleo Público de la Ciudad Autónoma de Melilla - Año 2026" class="img" />
+                                </a>
+                                </div>
+                                
+                        
+                                
+                                <div class="panel">
+                                <a target="_blank" href="contenedor.jsp?seccion=s_floc_d4_v1.jsp&amp;codbusqueda=782&amp;language=es&amp;codResi=1&amp;layout=contenedor.jsp&amp;codAdirecto=76" title="BANNER SERVICIO DE AYUDA EN LINEA">
+                                    <img width="170" src="RecursosWeb/IMAGENES/1/0_22994_1.jpg" alt="BANNER SERVICIO DE AYUDA EN LINEA" class="img" />
+                                </a>
+                                </div>
+                                
+                        
+                                
+                                <div class="panel">
+                                <a target="_blank" href="contenedor.jsp?seccion=s_fdes_d4_v1.jsp&amp;codbusqueda=799&amp;language=es&amp;codResi=1&amp;layout=contenedor.jsp&amp;codAdirecto=87" title="Banner PGOU Melilla">
+                                    <img width="170" src="RecursosWeb/IMAGENES/1/3_2979_1.gif" alt="banner" class="img" />
+                                </a>
+                                </div>
+                                
+                        
+                                
+                                <div class="panel">
+                                <a target="_blank" href="contenedor.jsp?seccion=s_fdoc_d4_v1.jsp&amp;codbusqueda=795&amp;language=es&amp;codResi=1&amp;layout=contenedor.jsp&amp;codAdirecto=442" title="Banner Melilla Contigo">
+                                    <img width="170" src="RecursosWeb/IMAGENES/1/2_24063_1.png" alt="Banner Melilla Contigo" class="img" />
+                                </a>
+                                </div>
+                                
+                        
+                                
+                                <div class="panel">
+                                <a target="_blank" href="contenedor.jsp?seccion=s_fdes_d4_v1.jsp&amp;codbusqueda=976&amp;language=es&amp;codResi=1&amp;layout=contenedor.jsp&amp;codAdirecto=572" title="Banner Objetos perdidos Policía Local">
+                                    <img width="170" src="RecursosWeb/IMAGENES/1/0_37106_1.png" alt="Banner Objetos perdidos Policía Local" class="img" />
+                                </a>
+                                </div>
+                                
+                        
+                                
+                                <div class="panel">
+                                <a target="_blank" href="contenedor.jsp?seccion=s_fdoc_d4_v1.jsp&amp;codbusqueda=750&amp;language=es&amp;codResi=1&amp;layout=contenedor.jsp&amp;codAdirecto=407" title="Banner punto limpio móvil">
+                                    <img width="170" src="RecursosWeb/IMAGENES/1/0_21075_1.jpg" alt="Banner punto limpio móvil" class="img" />
+                                </a>
+                                </div>
+                                
+                        
+                                
+                                <div class="panel">
+                                <a target="_blank" href="https://formacion.dgfpmelilla.es/" title="Banner Formación Continua">
+                                    <img width="170" src="RecursosWeb/IMAGENES/1/3_6856_1.jpg" alt="Banner Formación Continua" class="img" />
+                                </a>
+                                </div>
+                                
+                        
+                                
+                                <div class="panel">
+                                <a  href="contenedor.jsp?seccion=s_floc_d4_v1.jsp&amp;codbusqueda=640&amp;language=es&amp;codResi=1&amp;layout=contenedor.jsp&amp;codAdirecto=344" title="">
+                                    <img width="170" src="RecursosWeb/IMAGENES/1/3_13272_1.png" alt="BANNER BIBLIOTECA PÚBLICA" class="img" />
+                                </a>
+                                </div>
+                                
+                        
+                                
+                                <div class="panel">
+                                <a target="_blank" href="contenedor.jsp?seccion=s_fdes_d4_v1.jsp&amp;codbusqueda=925&amp;language=es&amp;codResi=1&amp;layout=contenedor.jsp&amp;codAdirecto=526" title="Banner PLAN DE RECUPERACIÓN, TRANSFORMACIÓN Y RESILIENCIA">
+                                    <img width="170" src="RecursosWeb/IMAGENES/1/0_31403_1.png" alt="Banner PLAN DE RECUPERACIÓN, TRANSFORMACIÓN Y RESILIENCIA" class="img" />
+                                </a>
+                                </div>
+                                
+                        
+                                
+                                <div class="panel">
+                                <a target="_blank" href="https://moovitapp.com/melilla-4144/poi/es?customerId=11319" title="Banner Moovit Melilla">
+                                    <img width="170" src="RecursosWeb/IMAGENES/1/1_23780_1.jpg" alt="Banner Moovit Melilla" class="img" />
+                                </a>
+                                </div>
+                                
+                        
+                                
+                                <div class="panel">
+                                <a target="_blank" href="contenedor.jsp?seccion=distribuidor_menus_temas.jsp&amp;language=es&amp;codResi=1&amp;codMenuPN=602&amp;codMenu=612&amp;layout=contenedor.jsp&amp;layout=contenedor.jsp" title="BANNER CARTAS DE SERVICIOS">
+                                    <img width="170" src="RecursosWeb/IMAGENES/1/0_25310_1.jpg" alt="BANNER CARTAS DE SERVICIOS" class="img" />
+                                </a>
+                                </div>
+                                
+                        
+                                
+                                <div class="panel">
+                                <a target="_blank" href="https://sede.melilla.es/sta/CarpetaPrivate/Login?APP_CODE=STA&amp;PAGE_CODE=GTLIQS" title="Banner Autoliquidaciones IPSI y Plusvalías">
+                                    <img width="170" src="RecursosWeb/IMAGENES/1/0_19825_1.jpg" alt="Banner Autoliquidaciones IPSI y Plusvalías" class="img" />
+                                </a>
+                                </div>
+                                
+                        
+                                
+                                <div class="panel">
+                                <a target="_blank" href="contenedor.jsp?seccion=s_fdes_d4_v1.jsp&amp;codbusqueda=832&amp;language=es&amp;codResi=1&amp;layout=contenedor.jsp&amp;codAdirecto=427" title="BANNER COSMÉTICOS">
+                                    <img width="170" src="RecursosWeb/IMAGENES/1/3_22804_1.png" alt="BANNER COSMÉTICOS" class="img" />
+                                </a>
+                                </div>
+                                
+                        
+                                
+                                <div class="panel">
+                                <a target="_blank" href="https://pemelilla29.es/" title="Banner Plan Estratégico Melilla 2020-2029">
+                                    <img width="170" src="RecursosWeb/IMAGENES/1/3_4119_1.png" alt="Banner Plan Estratégico Melilla 2020-2029" class="img" />
+                                </a>
+                                </div>
+                                
+                        
+                                
+                                <div class="panel">
+                                <a target="_blank" href="https://bacantix.com/entradas/?id=KursaalMelilla" title="BANNER VENTA DE ENTRADAS ONLINE">
+                                    <img width="170" src="RecursosWeb/IMAGENES/1/4_8406_1.jpg" alt="BANNER VENTA DE ENTRADAS ONLINE" class="img" />
+                                </a>
+                                </div>
+                                
+                        
+                                
+                                <div class="panel">
+                                <a target="_blank" href="https://museomelilla.es" title="Banner Museos de Melilla">
+                                    <img width="170" src="RecursosWeb/IMAGENES/1/6_5973_1.png" alt="Banner Museo de las Peñuelas" class="img" />
+                                </a>
+                                </div>
+                                
+                        
+                                
+                                <div class="panel">
+                                <a target="_blank" href="contenedor.jsp?seccion=s_fdes_d4_v1.jsp&amp;codbusqueda=424&amp;language=es&amp;codResi=1&amp;layout=contenedor.jsp&amp;codAdirecto=25" title="Cruz de farmacia">
+                                    <img width="170" src="RecursosWeb/IMAGENES/1/2_128_1.gif" alt="Cruz de farmacia" class="img" />
+                                </a>
+                                </div>
+                                
+                        
+                                
+                                <div class="panel">
+                                <a target="_blank" href="contenedor.jsp?seccion=s_lloc_d10_v1.jsp&amp;codbusqueda=330&amp;language=es&amp;codResi=1&amp;codMenuPN=601&amp;codMenuSN=4&amp;codMenu=426&amp;layout=contenedor.jsp" title="Banner OIAC - derecha">
+                                    <img width="170" src="RecursosWeb/IMAGENES/1/3_6312_1.jpg" alt="Banner OIAC" class="img" />
+                                </a>
+                                </div>
+                                
+                        
+                                
+                                <div class="panel">
+                                <a  href="contenedor.jsp?seccion=s_ldes_d1_v2.jsp&amp;codbusqueda=760&amp;language=es&amp;codResi=1&amp;codMenuPN=601&amp;codMenuSN=4&amp;codMenu=144&amp;layout=contenedor.jsp&amp;layout=contenedor.jsp" title="">
+                                    <img width="170" src="RecursosWeb/IMAGENES/1/1_11668_1.jpg" alt="BANNER SIAC" class="img" />
+                                </a>
+                                </div>
+                                
+                        
+                                
+                                <div class="panel">
+                                <a target="_blank" href="http://www.melillaturismo.com" title="Banner Descubre Melilla">
+                                    <img width="170" src="RecursosWeb/IMAGENES/1/4_6_1.png" alt="Banner descubre melilla" class="img" />
+                                </a>
+                                </div>
+                                
+                        
+                                
+                                <div class="panel">
+                                <a target="_blank" href="https://sede.melilla.es/sta/CarpetaPublic/doEvent?APP_CODE=STA&amp;PAGE_CODE=PTS2_TABLON" title="banner tablón de edictos">
+                                    <img width="170" src="RecursosWeb/IMAGENES/1/4_5069_1.jpg" alt="banner tablón de edictos" class="img" />
+                                </a>
+                                </div>
+                                
+                        
+                                
+                                <div class="panel">
+                                <a target="_blank" href="https://www.melilla.es/melillaPortal/contenedor.jsp?seccion=distribuidor_menus_texto.jsp&amp;language=es&amp;codResi=1&amp;codMenuPN=601&amp;codMenuSN=4&amp;codMenu=139&amp;layout=contenedor.jsp" title="Banner oposiciones">
+                                    <img width="170" src="RecursosWeb/IMAGENES/1/4_3531_1.jpg" alt="Banner oposiciones" class="img" />
+                                </a>
+                                </div>
+                                
+                        
+                                
+                                <div class="panel">
+                                <a target="_blank" href="https://fondoseuropeosmelilla.es/" title="Banner Fondos Europeos Melilla">
+                                    <img width="170" src="RecursosWeb/IMAGENES/1/10_6608_1.jpg" alt="Banner Fondos Europeos Melilla" class="img" />
+                                </a>
+                                </div>
+                                
+                        
+                                
+                                <div class="panel">
+                                <a target="_blank" href="http://www.melilla.es/melillaenred/" title="Banner Melilla En Red">
+                                    <img width="170" src="RecursosWeb/IMAGENES/1/1_6203_1.jpg" alt="Banner Melilla En Red" class="img" />
+                                </a>
+                                </div>
+                                
+                        
+                                
+                                <div class="panel">
+                                <a target="_blank" href="http://www.promesa.net" title="banner_promesa_izq.">
+                                    <img width="170" src="RecursosWeb/IMAGENES/1/2_2938_1.jpg" alt="banner_promesa_izq." class="img" />
+                                </a>
+                                </div>
+                                
+                        
+                                
+                                <div class="panel">
+                                <a target="_blank" href="http://www.emvismesa.es/" title="banner emvismesa">
+                                    <img width="170" src="RecursosWeb/IMAGENES/1/3_2939_1.jpg" alt="banner emvismesa" class="img" />
+                                </a>
+                                </div>
+                                
+                        
+                                
+                                <div class="panel">
+                                <a target="_blank" href="https://www.inmusa.es/" title="Banner INMUSA Televisión Melilla">
+                                    <img width="170" src="RecursosWeb/IMAGENES/1/4_5071_1.jpg" alt="INMUSA Televisión Melilla" class="img" />
+                                </a>
+                                </div>
+                                
+                        
+                                
+                                <div class="panel">
+                                <a target="_blank" href="contenedor.jsp?seccion=s_fdoc_d4_v1.jsp&amp;codbusqueda=550&amp;language=es&amp;codResi=1&amp;layout=contenedor.jsp&amp;codAdirecto=53" title="Logo Certificado AENOR ER-1395/2006">
+                                    <img width="170" src="RecursosWeb/IMAGENES/1/5_1737_1.jpg" alt="Logo Certificado AENOR ER-1395/2006" class="img" />
+                                </a>
+                                </div>
+                                
+                        
+                                
+                                <div class="panel">
+                                <a target="_blank" href="https://melillamonumental.es" title="Banner Fundación Melilla Ciudad Monumental">
+                                    <img width="170" src="RecursosWeb/IMAGENES/1/5_5593_1.png" alt="Banner Fundación Melilla Ciudad Monumental" class="img" />
+                                </a>
+                                </div>
+                                
+                        
+                                
+                                <div class="panel">
+                                <a target="_blank" href="http://www.unedmelilla.es/" title="Banner UNED de Melilla">
+                                    <img width="170" src="RecursosWeb/IMAGENES/1/2_20082_1.jpg" alt="Banner UNED de Melilla" class="img" />
+                                </a>
+                                </div>
+                                
+                        
+                                
+                                <div class="panel">
+                                <a target="_blank" href="https://melillaciudaddeldeporte.es/" title="BANNER MELILLA CIUDAD DEL DEPORTE">
+                                    <img width="170" src="RecursosWeb/IMAGENES/1/5_22222_1.png" alt="BANNER MELILLA CIUDAD DEL DEPORTE" class="img" />
+                                </a>
+                                </div>
+                                
+                        
+                    
+                    </div>
+                </div>
+        </div>
+    <div class="nave1"><a href="javascript:stepcarousel.stepBy('carousel', 1)"><img src="resid/1/img/siguiente.gif" width="35" height="112" alt="siguiente" class="img" /></a></div>
+</div>
+
+<div class="pie1">
+    <div class="pie_top"></div><div class="pie_bottom"></div>
+    <div class="pie1a"> 
+        <p>Ciudad Aut&oacute;noma de Melilla</p>
+    </div>
+    <div class="pie1b"> 
+        <p>Conforme con: HTML5 | CSS 3.0 - W3C WAI-AA | W3C Member</p>
+    </div>
+    <div class="pie1c">
+        
+
+
+
+
+
+<ul>
+            
+                <li><a  href="https://sede.melilla.es/sta/CarpetaPublic/doEvent?APP_CODE=STA&amp;PAGE_CODE=PTS2_PRIVACIDAD" class="item_1" title="">Protección de Datos</a></li>
+                
+</ul>
+
+
+    </div>
+    <div class="FinanciadorasPie">
+        <a href="http://www.minetur.gob.es/" style="text-decoration:none;" target="_blank">
+            <img src="resid/1/img/financ_01.jpg" alt="Ministerio de Industria, EnergÃ­a y Turismo" title="Ministerio de Industria, EnergÃ­a y Turismo">
+        </a>
+        <a href="http://europa.eu/index_es.htm" style="text-decoration:none;" target="_blank">
+            <img src="resid/1/img/financ_02.jpg" alt="" title="">
+        </a>
+        <a href="http://www.planavanza.es/InformacionGeneral/ResumenEjecutivo2/Paginas/ResumenEjecutivo.aspx" style="text-decoration:none;" target="_blank">
+            <img src="resid/1/img/financ_03.jpg" alt="Plan Avanza" title="Plan Avanza">
+        </a>
+    </div>
+</div>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-71444709-3', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,1360 @@
+<?xml version="1.0" encoding="utf-8"?>
+<response>
+  <status>
+    <code>200</code>
+    <text>ok</text>
+  </status>
+  <data>
+    <sumario>
+      <metadatos>
+        <publicacion>BOE</publicacion>
+        <fecha_publicacion>20260103</fecha_publicacion>
+      </metadatos>
+      <diario numero="3">
+        <sumario_diario>
+          <identificador>BOE-S-2026-3</identificador>
+          <url_pdf szBytes="329956" szKBytes="322">https://www.boe.es/boe/dias/2026/01/03/pdfs/BOE-S-2026-3.pdf</url_pdf>
+        </sumario_diario>
+        <seccion codigo="1" nombre="I. Disposiciones generales">
+          <departamento codigo="9573" nombre="MINISTERIO DE TRABAJO Y ECONOMÍA SOCIAL">
+            <epigrafe nombre="Convenios colectivos de trabajo">
+              <item>
+                <identificador>BOE-A-2026-158</identificador>
+                <control>2026/2</control>
+                <titulo>Orden TES/1573/2025, de 31 de diciembre, por la que se actualiza el contenido del anexo 2 del Real Decreto 713/2010, de 28 de mayo, sobre registro y depósito de convenios colectivos, acuerdos colectivos de trabajo y planes de igualdad.</titulo>
+                <url_pdf szBytes="808509" szKBytes="790" pagina_inicial="640" pagina_final="668">https://www.boe.es/boe/dias/2026/01/03/pdfs/BOE-A-2026-158.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-158</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-158</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+        </seccion>
+        <seccion codigo="2A" nombre="II. Autoridades y personal. - A. Nombramientos, situaciones e incidencias">
+          <departamento codigo="1820" nombre="CONSEJO GENERAL DEL PODER JUDICIAL">
+            <epigrafe nombre="Situaciones">
+              <item>
+                <identificador>BOE-A-2026-159</identificador>
+                <control>2025/18376</control>
+                <titulo>Acuerdo de 7 de octubre de 2025, de la Comisión Permanente del Consejo General del Poder Judicial, por el que se declara la jubilación forzosa del Magistrado don Arcadio Díaz Tejera.</titulo>
+                <url_pdf szBytes="190879" szKBytes="186" pagina_inicial="669" pagina_final="669">https://www.boe.es/boe/dias/2026/01/03/pdfs/BOE-A-2026-159.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-159</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-159</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="310" nombre="UNIVERSIDADES">
+            <epigrafe nombre="Nombramientos">
+              <item>
+                <identificador>BOE-A-2026-160</identificador>
+                <control>2025/20892</control>
+                <titulo>Resolución de 23 de diciembre de 2025, de la Universidad de Sevilla, por la que se nombra Profesora Titular de Universidad a doña Belén Gómez González.</titulo>
+                <url_pdf szBytes="192204" szKBytes="188" pagina_inicial="670" pagina_final="670">https://www.boe.es/boe/dias/2026/01/03/pdfs/BOE-A-2026-160.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-160</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-160</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2026-161</identificador>
+                <control>2025/20893</control>
+                <titulo>Resolución de 26 de diciembre de 2025, de la Universidad de Oviedo, por la que se nombran Profesoras y Profesores Titulares de Universidad.</titulo>
+                <url_pdf szBytes="191979" szKBytes="187" pagina_inicial="671" pagina_final="671">https://www.boe.es/boe/dias/2026/01/03/pdfs/BOE-A-2026-161.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-161</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-161</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2026-162</identificador>
+                <control>2025/20894</control>
+                <titulo>Resolución de 26 de diciembre de 2025, de la Universidad de Oviedo, por la que se nombran Profesoras y Profesores Titulares de Universidad.</titulo>
+                <url_pdf szBytes="191748" szKBytes="187" pagina_inicial="672" pagina_final="672">https://www.boe.es/boe/dias/2026/01/03/pdfs/BOE-A-2026-162.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-162</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-162</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2026-163</identificador>
+                <control>2025/20895</control>
+                <titulo>Resolución de 26 de diciembre de 2025, de la Universitat Politècnica de València, por la que se nombra Catedrático de Universidad a don José Manuel Giménez Guzmán.</titulo>
+                <url_pdf szBytes="191652" szKBytes="187" pagina_inicial="673" pagina_final="673">https://www.boe.es/boe/dias/2026/01/03/pdfs/BOE-A-2026-163.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-163</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-163</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+        </seccion>
+        <seccion codigo="2B" nombre="II. Autoridades y personal. - B. Oposiciones y concursos">
+          <departamento codigo="5140" nombre="MINISTERIO DE HACIENDA">
+            <epigrafe nombre="Procedimientos de libre designación">
+              <item>
+                <identificador>BOE-A-2026-164</identificador>
+                <control>2025/20811</control>
+                <titulo>Resolución de 22 de diciembre de 2025, de la Presidencia de la Agencia Estatal de Administración Tributaria, por la que se convoca la provisión de puestos de trabajo por el sistema de libre designación.</titulo>
+                <url_pdf szBytes="387663" szKBytes="379" pagina_inicial="674" pagina_final="683">https://www.boe.es/boe/dias/2026/01/03/pdfs/BOE-A-2026-164.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-164</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-164</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="9573" nombre="MINISTERIO DE TRABAJO Y ECONOMÍA SOCIAL">
+            <epigrafe nombre="Cuerpo Superior de Inspectores de Trabajo y Seguridad Social">
+              <item>
+                <identificador>BOE-A-2026-165</identificador>
+                <control>2025/20990</control>
+                <titulo>Resolución de 26 de diciembre de 2025, de la Subsecretaría, por la que se convoca proceso selectivo para ingreso, por el sistema general de acceso libre y promoción interna, en el Cuerpo Superior de Inspectores de Trabajo y Seguridad Social.</titulo>
+                <url_pdf szBytes="642466" szKBytes="627" pagina_inicial="684" pagina_final="748">https://www.boe.es/boe/dias/2026/01/03/pdfs/BOE-A-2026-165.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-165</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-165</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="9525" nombre="ADMINISTRACIÓN LOCAL">
+            <epigrafe nombre="Personal funcionario y laboral">
+              <item>
+                <identificador>BOE-A-2026-166</identificador>
+                <control>2025/106526</control>
+                <titulo>Resolución de 11 de diciembre de 2025, del Ayuntamiento de Santa Pola (Alicante/Alacant), referente a la convocatoria para proveer varias plazas.</titulo>
+                <url_pdf szBytes="190697" szKBytes="186" pagina_inicial="749" pagina_final="749">https://www.boe.es/boe/dias/2026/01/03/pdfs/BOE-A-2026-166.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-166</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-166</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2026-167</identificador>
+                <control>2025/106507</control>
+                <titulo>Resolución de 23 de diciembre de 2025, del Ayuntamiento de Tomiño (Pontevedra), referente a la convocatoria para proveer una plaza.</titulo>
+                <url_pdf szBytes="190596" szKBytes="186" pagina_inicial="750" pagina_final="750">https://www.boe.es/boe/dias/2026/01/03/pdfs/BOE-A-2026-167.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-167</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-167</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2026-168</identificador>
+                <control>2025/106512</control>
+                <titulo>Resolución de 23 de diciembre de 2025, del Ayuntamiento de Molina de Segura (Murcia), referente a la convocatoria para proveer una plaza.</titulo>
+                <url_pdf szBytes="190504" szKBytes="186" pagina_inicial="751" pagina_final="751">https://www.boe.es/boe/dias/2026/01/03/pdfs/BOE-A-2026-168.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-168</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-168</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2026-169</identificador>
+                <control>2025/106514</control>
+                <titulo>Resolución de 23 de diciembre de 2025, del Ayuntamiento de Picanya (Valencia/València), referente a la convocatoria para proveer varias plazas.</titulo>
+                <url_pdf szBytes="190511" szKBytes="186" pagina_inicial="752" pagina_final="752">https://www.boe.es/boe/dias/2026/01/03/pdfs/BOE-A-2026-169.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-169</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-169</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2026-170</identificador>
+                <control>2025/106515</control>
+                <titulo>Resolución de 23 de diciembre de 2025, del Ayuntamiento de Picanya (Valencia/València), referente a la convocatoria para proveer una plaza.</titulo>
+                <url_pdf szBytes="190255" szKBytes="186" pagina_inicial="753" pagina_final="753">https://www.boe.es/boe/dias/2026/01/03/pdfs/BOE-A-2026-170.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-170</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-170</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2026-171</identificador>
+                <control>2025/106516</control>
+                <titulo>Resolución de 23 de diciembre de 2025, del Ayuntamiento de Pontedeume (A Coruña), referente a la convocatoria para proveer una plaza.</titulo>
+                <url_pdf szBytes="191050" szKBytes="187" pagina_inicial="754" pagina_final="754">https://www.boe.es/boe/dias/2026/01/03/pdfs/BOE-A-2026-171.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-171</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-171</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2026-172</identificador>
+                <control>2025/106509</control>
+                <titulo>Resolución de 24 de diciembre de 2025, del Ayuntamiento de Esparreguera (Barcelona), referente a la convocatoria para proveer una plaza.</titulo>
+                <url_pdf szBytes="190855" szKBytes="186" pagina_inicial="755" pagina_final="755">https://www.boe.es/boe/dias/2026/01/03/pdfs/BOE-A-2026-172.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-172</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-172</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2026-173</identificador>
+                <control>2025/106510</control>
+                <titulo>Resolución de 24 de diciembre de 2025, del Ayuntamiento de La Garriga (Barcelona), referente a la convocatoria para proveer una plaza.</titulo>
+                <url_pdf szBytes="190700" szKBytes="186" pagina_inicial="756" pagina_final="756">https://www.boe.es/boe/dias/2026/01/03/pdfs/BOE-A-2026-173.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-173</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-173</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2026-174</identificador>
+                <control>2025/106506</control>
+                <titulo>Resolución de 26 de diciembre de 2025, del Ayuntamiento de Alcañiz (Teruel), referente a la convocatoria para proveer una plaza.</titulo>
+                <url_pdf szBytes="190493" szKBytes="186" pagina_inicial="757" pagina_final="757">https://www.boe.es/boe/dias/2026/01/03/pdfs/BOE-A-2026-174.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-174</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-174</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2026-175</identificador>
+                <control>2025/106508</control>
+                <titulo>Resolución de 26 de diciembre de 2025, del Ayuntamiento de El Puerto de Santa María (Cádiz), referente a la convocatoria para proveer varias plazas.</titulo>
+                <url_pdf szBytes="191627" szKBytes="187" pagina_inicial="758" pagina_final="758">https://www.boe.es/boe/dias/2026/01/03/pdfs/BOE-A-2026-175.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-175</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-175</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2026-176</identificador>
+                <control>2025/106511</control>
+                <titulo>Resolución de 26 de diciembre de 2025, de la Diputación Provincial de Jaén, referente a la convocatoria para proveer una plaza.</titulo>
+                <url_pdf szBytes="190695" szKBytes="186" pagina_inicial="759" pagina_final="759">https://www.boe.es/boe/dias/2026/01/03/pdfs/BOE-A-2026-176.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-176</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-176</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2026-177</identificador>
+                <control>2025/106513</control>
+                <titulo>Resolución de 26 de diciembre de 2025, de la Diputación Provincial de Jaén, referente a la convocatoria para proveer varias plazas.</titulo>
+                <url_pdf szBytes="190170" szKBytes="186" pagina_inicial="760" pagina_final="760">https://www.boe.es/boe/dias/2026/01/03/pdfs/BOE-A-2026-177.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-177</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-177</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2026-178</identificador>
+                <control>2025/106517</control>
+                <titulo>Resolución de 26 de diciembre de 2025, del Ayuntamiento de Tegueste (Santa Cruz de Tenerife), referente a la convocatoria para proveer una plaza.</titulo>
+                <url_pdf szBytes="190488" szKBytes="186" pagina_inicial="761" pagina_final="761">https://www.boe.es/boe/dias/2026/01/03/pdfs/BOE-A-2026-178.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-178</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-178</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2026-179</identificador>
+                <control>2025/106518</control>
+                <titulo>Resolución de 26 de diciembre de 2025, del Ayuntamiento de El Puerto de Santa María (Cádiz), referente a la convocatoria para proveer una plaza.</titulo>
+                <url_pdf szBytes="190972" szKBytes="186" pagina_inicial="762" pagina_final="762">https://www.boe.es/boe/dias/2026/01/03/pdfs/BOE-A-2026-179.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-179</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-179</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2026-180</identificador>
+                <control>2025/106519</control>
+                <titulo>Resolución de 26 de diciembre de 2025, del Ayuntamiento de Canalejas del Arroyo (Cuenca), referente a la convocatoria para proveer una plaza.</titulo>
+                <url_pdf szBytes="190735" szKBytes="186" pagina_inicial="763" pagina_final="763">https://www.boe.es/boe/dias/2026/01/03/pdfs/BOE-A-2026-180.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-180</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-180</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2026-181</identificador>
+                <control>2025/106520</control>
+                <titulo>Resolución de 26 de diciembre de 2025, de la Diputación Provincial de Pontevedra, referente a la convocatoria para proveer varias plazas.</titulo>
+                <url_pdf szBytes="190150" szKBytes="186" pagina_inicial="764" pagina_final="764">https://www.boe.es/boe/dias/2026/01/03/pdfs/BOE-A-2026-181.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-181</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-181</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2026-182</identificador>
+                <control>2025/106521</control>
+                <titulo>Resolución de 26 de diciembre de 2025, de la Diputación Provincial de Córdoba, referente a la convocatoria para proveer una plaza.</titulo>
+                <url_pdf szBytes="190437" szKBytes="186" pagina_inicial="765" pagina_final="765">https://www.boe.es/boe/dias/2026/01/03/pdfs/BOE-A-2026-182.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-182</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-182</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2026-183</identificador>
+                <control>2025/106522</control>
+                <titulo>Resolución de 26 de diciembre de 2025, del Ayuntamiento de Navalpino (Ciudad Real), referente a la convocatoria para proveer una plaza.</titulo>
+                <url_pdf szBytes="190845" szKBytes="186" pagina_inicial="766" pagina_final="766">https://www.boe.es/boe/dias/2026/01/03/pdfs/BOE-A-2026-183.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-183</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-183</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2026-184</identificador>
+                <control>2025/106558</control>
+                <titulo>Resolución de 27 de diciembre de 2025, de la Mancomunidad de la Ribera Baixa (Valencia/València), que deja sin efecto la de 18 de diciembre de 2025, referente a la convocatoria para proveer una plaza.</titulo>
+                <url_pdf szBytes="190490" szKBytes="186" pagina_inicial="767" pagina_final="767">https://www.boe.es/boe/dias/2026/01/03/pdfs/BOE-A-2026-184.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-184</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-184</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2026-185</identificador>
+                <control>2025/106560</control>
+                <titulo>Resolución de 29 de diciembre de 2025, del Ayuntamiento de L'Hospitalet de Llobregat (Barcelona), referente a la convocatoria para proveer varias plazas.</titulo>
+                <url_pdf szBytes="190505" szKBytes="186" pagina_inicial="768" pagina_final="768">https://www.boe.es/boe/dias/2026/01/03/pdfs/BOE-A-2026-185.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-185</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-185</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+        </seccion>
+        <seccion codigo="3" nombre="III. Otras disposiciones">
+          <departamento codigo="9585" nombre="MINISTERIO DE LA PRESIDENCIA, JUSTICIA Y RELACIONES CON LAS CORTES">
+            <epigrafe nombre="Comunidad Autónoma de Andalucía. Convenio">
+              <item>
+                <identificador>BOE-A-2026-186</identificador>
+                <control>2025/20993</control>
+                <titulo>Resolución de 26 de diciembre de 2025, de la Subsecretaría, por la que se publica la sexta Adenda de modificación al Convenio entre la Mutualidad General de Funcionarios Civiles del Estado, O. A., el Instituto Social de las Fuerzas Armadas, O. A., la Mutualidad General Judicial, O.A., y el Servicio Andaluz de Salud, para la prestación en zonas rurales de determinados servicios sanitarios a los mutualistas y demás beneficiarios adscritos a entidades de Seguro de asistencia sanitaria concertada con dichas mutualidades.</titulo>
+                <url_pdf szBytes="682642" szKBytes="667" pagina_inicial="769" pagina_final="793">https://www.boe.es/boe/dias/2026/01/03/pdfs/BOE-A-2026-186.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-186</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-186</url_xml>
+              </item>
+            </epigrafe>
+            <epigrafe nombre="Comunidad Autónoma del Principado de Asturias. Convenio">
+              <item>
+                <identificador>BOE-A-2026-187</identificador>
+                <control>2025/20995</control>
+                <titulo>Resolución de 26 de diciembre de 2025, de la Subsecretaría, por la que se publica el Convenio entre el Ministerio de Sanidad, la Comunidad Autónoma del Principado de Asturias y la Entidad Pública Empresarial Red.es, M.P., para el desarrollo de servicios digitales inteligentes en el ámbito del Sistema Nacional de Salud.</titulo>
+                <url_pdf szBytes="295155" szKBytes="288" pagina_inicial="794" pagina_final="807">https://www.boe.es/boe/dias/2026/01/03/pdfs/BOE-A-2026-187.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-187</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-187</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2026-188</identificador>
+                <control>2025/20996</control>
+                <titulo>Resolución de 26 de diciembre de 2025, de la Subsecretaría, por la que se publica la Adenda de modificación al Convenio entre la Mutualidad General de Funcionarios Civiles del Estado, el Instituto Social de las Fuerzas Armadas, la Mutualidad General Judicial y el Gobierno del Principado de Asturias, para la prestación en zonas rurales de determinados servicios sanitarios a los mutualistas y demás beneficiarios adscritos a entidades de seguro de asistencia sanitaria concertada con dichas mutualidades.</titulo>
+                <url_pdf szBytes="321928" szKBytes="314" pagina_inicial="808" pagina_final="815">https://www.boe.es/boe/dias/2026/01/03/pdfs/BOE-A-2026-188.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-188</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-188</url_xml>
+              </item>
+            </epigrafe>
+            <epigrafe nombre="Comunidad de Madrid. Convenio">
+              <item>
+                <identificador>BOE-A-2026-189</identificador>
+                <control>2025/21067</control>
+                <titulo>Resolución de 18 de diciembre de 2025, del Centro de Estudios Políticos y Constitucionales, por la que se publica la prórroga del Convenio con la Universidad Carlos III de Madrid (Instituto Figuerola de Historia y Ciencias Sociales) para la coedición de la Revista de Historia Económica.</titulo>
+                <url_pdf szBytes="201068" szKBytes="196" pagina_inicial="816" pagina_final="817">https://www.boe.es/boe/dias/2026/01/03/pdfs/BOE-A-2026-189.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-189</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-189</url_xml>
+              </item>
+            </epigrafe>
+            <epigrafe nombre="Convenios">
+              <item>
+                <identificador>BOE-A-2026-190</identificador>
+                <control>2025/20992</control>
+                <titulo>Resolución de 23 de diciembre de 2025, del Consejo de Administración del Patrimonio Nacional, por la que se publica el Convenio con la Fundación Banco Santander, para la exposición «Más allá. Lo extraño, lo insólito y excepcional en las Colecciones Reales».</titulo>
+                <url_pdf szBytes="277655" szKBytes="271" pagina_inicial="818" pagina_final="827">https://www.boe.es/boe/dias/2026/01/03/pdfs/BOE-A-2026-190.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-190</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-190</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2026-191</identificador>
+                <control>2025/20998</control>
+                <titulo>Resolución de 26 de diciembre de 2025, de la Subsecretaría, por la que se publica el Convenio de asistencia jurídica entre la Abogacía General del Estado y la Autoridad Portuaria de A Coruña.</titulo>
+                <url_pdf szBytes="221648" szKBytes="216" pagina_inicial="828" pagina_final="832">https://www.boe.es/boe/dias/2026/01/03/pdfs/BOE-A-2026-191.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-191</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-191</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2026-192</identificador>
+                <control>2025/20999</control>
+                <titulo>Resolución de 26 de diciembre de 2025, de la Subsecretaría, por la que se publica el Convenio de asistencia jurídica entre la Abogacía General del Estado y la Autoridad Portuaria de Motril.</titulo>
+                <url_pdf szBytes="222021" szKBytes="217" pagina_inicial="833" pagina_final="837">https://www.boe.es/boe/dias/2026/01/03/pdfs/BOE-A-2026-192.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-192</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-192</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2026-193</identificador>
+                <control>2025/21002</control>
+                <titulo>Resolución de 26 de diciembre de 2025, de la Subsecretaría, por la que se publica el Convenio entre el Consorcio Público Casa Árabe y la Intervención General de la Administración del Estado, para la adhesión a los sistemas departamentales de la Intervención General de la Administración del Estado.</titulo>
+                <url_pdf szBytes="295786" szKBytes="289" pagina_inicial="838" pagina_final="848">https://www.boe.es/boe/dias/2026/01/03/pdfs/BOE-A-2026-193.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-193</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-193</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2026-194</identificador>
+                <control>2025/21003</control>
+                <titulo>Resolución de 26 de diciembre de 2025, de la Subsecretaría, por la que se publica el Convenio entre el Fondo Español de Garantía Agraria, O.A., y la Intervención General de la Administración del Estado, para la adhesión a los sistemas departamentales de la Intervención General de la Administración del Estado.</titulo>
+                <url_pdf szBytes="295665" szKBytes="289" pagina_inicial="849" pagina_final="859">https://www.boe.es/boe/dias/2026/01/03/pdfs/BOE-A-2026-194.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-194</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-194</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2026-195</identificador>
+                <control>2025/21004</control>
+                <titulo>Resolución de 26 de diciembre de 2025, de la Subsecretaría, por la que se publica el Convenio entre el Instituto Nacional de las Artes Escénicas y de la Música, O.A., y la Intervención General de la Administración del Estado, para la adhesión a los sistemas departamentales de la Intervención General de la Administración del Estado.</titulo>
+                <url_pdf szBytes="291005" szKBytes="284" pagina_inicial="860" pagina_final="870">https://www.boe.es/boe/dias/2026/01/03/pdfs/BOE-A-2026-195.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-195</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-195</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2026-196</identificador>
+                <control>2025/21005</control>
+                <titulo>Resolución de 26 de diciembre de 2025, de la Subsecretaría, por la que se publica el Convenio entre el Instituto Nacional de Seguridad y Salud en el Trabajo, O.A., M.P., y la Intervención General de la Administración del Estado para la adhesión a los sistemas departamentales de la Intervención General de la Administración del Estado.</titulo>
+                <url_pdf szBytes="290347" szKBytes="284" pagina_inicial="871" pagina_final="881">https://www.boe.es/boe/dias/2026/01/03/pdfs/BOE-A-2026-196.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-196</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-196</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2026-197</identificador>
+                <control>2025/21006</control>
+                <titulo>Resolución de 26 de diciembre de 2025, de la Subsecretaría, por la que se publica el Convenio entre el Ministerio de Cultura, el Ministerio de Hacienda y la Fundación Joan Miró, para la creación de la Comisión Interadministrativa del acontecimiento de excepcional interés público «Fundación Joan Miró 50.º aniversario».</titulo>
+                <url_pdf szBytes="237356" szKBytes="232" pagina_inicial="882" pagina_final="889">https://www.boe.es/boe/dias/2026/01/03/pdfs/BOE-A-2026-197.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-197</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-197</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2026-198</identificador>
+                <control>2025/21007</control>
+                <titulo>Resolución de 26 de diciembre de 2025, de la Subsecretaría, por la que se publica el Convenio entre el Ministerio de Educación, Formación Profesional y Deportes y la Agencia Estatal Consejo Superior de Investigaciones Científicas, M.P., para la colaboración en el desarrollo del programa «El CSIC en la Escuela».</titulo>
+                <url_pdf szBytes="255481" szKBytes="249" pagina_inicial="890" pagina_final="899">https://www.boe.es/boe/dias/2026/01/03/pdfs/BOE-A-2026-198.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-198</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-198</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2026-199</identificador>
+                <control>2025/21008</control>
+                <titulo>Resolución de 26 de diciembre de 2025, de la Subsecretaría, por la que se publica el Convenio entre el Organismo Autónomo Gerencia de Infraestructuras y Equipamientos de Cultura y la Intervención General de la Administración del Estado, para la adhesión a los sistemas departamentales de la Intervención General de la Administración del Estado.</titulo>
+                <url_pdf szBytes="295343" szKBytes="288" pagina_inicial="900" pagina_final="911">https://www.boe.es/boe/dias/2026/01/03/pdfs/BOE-A-2026-199.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-199</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-199</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2026-200</identificador>
+                <control>2025/21009</control>
+                <titulo>Resolución de 26 de diciembre de 2025, de la Subsecretaría, por la que se publica el Convenio entre la Agencia de Información y Control Alimentarios, O.A., y la Intervención General de la Administración del Estado, para la adhesión a los sistemas departamentales de la Intervención General de la Administración del Estado.</titulo>
+                <url_pdf szBytes="290506" szKBytes="284" pagina_inicial="912" pagina_final="923">https://www.boe.es/boe/dias/2026/01/03/pdfs/BOE-A-2026-200.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-200</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-200</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2026-201</identificador>
+                <control>2025/21010</control>
+                <titulo>Resolución de 26 de diciembre de 2025, de la Subsecretaría, por la que se publica el Convenio entre la Agencia Española de Medicamentos y Productos Sanitarios y la Intervención General de la Administración del Estado, para la adhesión a los sistemas departamentales de la Intervención General de la Administración del Estado.</titulo>
+                <url_pdf szBytes="288915" szKBytes="282" pagina_inicial="924" pagina_final="934">https://www.boe.es/boe/dias/2026/01/03/pdfs/BOE-A-2026-201.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-201</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-201</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2026-202</identificador>
+                <control>2025/21012</control>
+                <titulo>Resolución de 26 de diciembre de 2025, de la Subsecretaría, por la que se publica el Convenio entre la Agencia Estatal de Administración Digital y el Instituto para la Transición Justa, O.A., para la prestación del servicio centralizado de nómina estándar de la Administración General del Estado y el Servicio de visualización de nóminas Servinómina.</titulo>
+                <url_pdf szBytes="295819" szKBytes="289" pagina_inicial="935" pagina_final="949">https://www.boe.es/boe/dias/2026/01/03/pdfs/BOE-A-2026-202.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-202</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-202</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2026-203</identificador>
+                <control>2025/21013</control>
+                <titulo>Resolución de 26 de diciembre de 2025, de la Subsecretaría, por la que se publica el Convenio entre la Agencia Estatal de Administración Digital y el Organismo Autónomo Centro Nacional de Información Geográfica, para la prestación del servicio centralizado de nómina estándar de la Administración General del Estado y el servicio de visualización de nóminas Servinómina.</titulo>
+                <url_pdf szBytes="295825" szKBytes="289" pagina_inicial="950" pagina_final="964">https://www.boe.es/boe/dias/2026/01/03/pdfs/BOE-A-2026-203.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-203</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-203</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2026-204</identificador>
+                <control>2025/21014</control>
+                <titulo>Resolución de 26 de diciembre de 2025, de la Subsecretaría, por la que se publica el Convenio entre la Agencia Estatal de Administración Digital y el Organismo Autónomo Servicio Español para la Internacionalización de la Educación, para la prestación de la solución de nube híbrida NubeSARA, financiado en parte por la Unión Europea, en el marco del Plan de Recuperación, Transformación y Resiliencia-Fondo de Recuperación Next Generation EU.</titulo>
+                <url_pdf szBytes="329550" szKBytes="322" pagina_inicial="965" pagina_final="979">https://www.boe.es/boe/dias/2026/01/03/pdfs/BOE-A-2026-204.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-204</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-204</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2026-205</identificador>
+                <control>2025/21015</control>
+                <titulo>Resolución de 26 de diciembre de 2025, de la Subsecretaría, por la que se publica el Convenio entre la Agencia Estatal de Administración Digital y la Agencia de Información y Control Alimentarios, O.A., para la prestación de la solución de nube híbrida NubeSARA, financiado en parte por la Unión Europea, en el marco del Plan de Recuperación, Transformación y Resiliencia-Fondo de Recuperación Next Generation EU.</titulo>
+                <url_pdf szBytes="325674" szKBytes="318" pagina_inicial="980" pagina_final="994">https://www.boe.es/boe/dias/2026/01/03/pdfs/BOE-A-2026-205.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-205</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-205</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2026-206</identificador>
+                <control>2025/21016</control>
+                <titulo>Resolución de 26 de diciembre de 2025, de la Subsecretaría, por la que se publica el Convenio entre la Agencia Estatal de Administración Digital y la Autoridad Independiente para la Igualdad de Trato y No Discriminación, para la prestación de la solución de nube híbrida NubeSARA, financiado en parte por la Unión Europea, en el marco del Plan de Recuperación, Transformación y Resiliencia-Fondo de Recuperación Next Generation EU.</titulo>
+                <url_pdf szBytes="322820" szKBytes="315" pagina_inicial="995" pagina_final="1010">https://www.boe.es/boe/dias/2026/01/03/pdfs/BOE-A-2026-206.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-206</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-206</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2026-207</identificador>
+                <control>2025/21017</control>
+                <titulo>Resolución de 26 de diciembre de 2025, de la Subsecretaría, por la que se publica el Convenio entre la Agencia Estatal de Administración Tributaria y la Dirección General de Ordenación del Juego, para el intercambio de información.</titulo>
+                <url_pdf szBytes="263736" szKBytes="258" pagina_inicial="1011" pagina_final="1021">https://www.boe.es/boe/dias/2026/01/03/pdfs/BOE-A-2026-207.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-207</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-207</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2026-208</identificador>
+                <control>2025/21019</control>
+                <titulo>Resolución de 26 de diciembre de 2025, de la Subsecretaría, por la que se publica el Convenio entre la Secretaría de Estado de Seguridad y Renfe Viajeros Sociedad Mercantil Estatal, SA, sobre transporte ferroviario de viajeros por cuenta propia del personal de la Policía Nacional.</titulo>
+                <url_pdf szBytes="262505" szKBytes="256" pagina_inicial="1022" pagina_final="1032">https://www.boe.es/boe/dias/2026/01/03/pdfs/BOE-A-2026-208.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-208</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-208</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2026-209</identificador>
+                <control>2025/21020</control>
+                <titulo>Resolución de 26 de diciembre de 2025, de la Subsecretaría, por la que se publica la Adenda de modificación y prórroga del Acuerdo interdepartamental de colaboración entre el Ministerio de Defensa y el Ministerio del Interior, para la fabricación, aprovisionamiento y gestión de caducados de yoduro potásico por el Centro Militar de Farmacia de Defensa.</titulo>
+                <url_pdf szBytes="222417" szKBytes="217" pagina_inicial="1033" pagina_final="1036">https://www.boe.es/boe/dias/2026/01/03/pdfs/BOE-A-2026-209.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-209</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-209</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2026-210</identificador>
+                <control>2025/21021</control>
+                <titulo>Resolución de 26 de diciembre de 2025, de la Subsecretaría, por la que se publica la segunda Adenda al Convenio entre el Ministerio para la Transformación Digital y de la Función Pública, el Ministerio de Cultura y la Empresa Nacional de Innovación, S.M.E., SA, relativo a la Línea Enisa Audiovisual e Industrias Culturales y Creativas.</titulo>
+                <url_pdf szBytes="228952" szKBytes="224" pagina_inicial="1037" pagina_final="1043">https://www.boe.es/boe/dias/2026/01/03/pdfs/BOE-A-2026-210.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-210</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-210</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2026-211</identificador>
+                <control>2025/21022</control>
+                <titulo>Resolución de 26 de diciembre de 2025, de la Subsecretaría, por la que se publica el Convenio entre la Confederación Hidrográfica del Ebro, O.A., y la Intervención General de la Administración del Estado, para la adhesión a los sistemas departamentales de la Intervención General de la Administración del Estado.</titulo>
+                <url_pdf szBytes="291750" szKBytes="285" pagina_inicial="1044" pagina_final="1055">https://www.boe.es/boe/dias/2026/01/03/pdfs/BOE-A-2026-211.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-211</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-211</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2026-212</identificador>
+                <control>2026/21</control>
+                <titulo>Resolución de 26 de diciembre de 2025, de la Subsecretaría, por la que se publica el Convenio entre la Agencia Estatal de Administración Digital y el Ministerio de Agricultura, Pesca y Alimentación, para la prestación del servicio centralizado de nómina estándar de la Administración General del Estado y el Servicio de visualización de nóminas Servinómina.</titulo>
+                <url_pdf szBytes="294750" szKBytes="288" pagina_inicial="1056" pagina_final="1070">https://www.boe.es/boe/dias/2026/01/03/pdfs/BOE-A-2026-212.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-212</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-212</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="7320" nombre="MINISTERIO DEL INTERIOR">
+            <epigrafe nombre="Convenios">
+              <item>
+                <identificador>BOE-A-2026-213</identificador>
+                <control>2025/21024</control>
+                <titulo>Resolución de 26 de diciembre de 2025, de la Secretaría General Técnica, por la que se publica el Convenio entre la Secretaría de Estado de Seguridad y el Ayuntamiento de Daimús, en materia de seguridad.</titulo>
+                <url_pdf szBytes="228599" szKBytes="223" pagina_inicial="1071" pagina_final="1076">https://www.boe.es/boe/dias/2026/01/03/pdfs/BOE-A-2026-213.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-213</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-213</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="9590" nombre="MINISTERIO DE EDUCACIÓN, FORMACIÓN PROFESIONAL Y DEPORTES">
+            <epigrafe nombre="Convenios">
+              <item>
+                <identificador>BOE-A-2026-214</identificador>
+                <control>2025/21030</control>
+                <titulo>Resolución de 5 de diciembre de 2025, de la Presidencia del Consejo Superior de Deportes, por la que se publica el Convenio con la Real Federación Española de Kárate, para la impartición por el Centro Superior de Enseñanzas Deportivas de los bloques comunes del periodo transitorio de la oferta formativa del año 2026.</titulo>
+                <url_pdf szBytes="251068" szKBytes="245" pagina_inicial="1077" pagina_final="1086">https://www.boe.es/boe/dias/2026/01/03/pdfs/BOE-A-2026-214.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-214</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-214</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2026-215</identificador>
+                <control>2025/21031</control>
+                <titulo>Resolución de 23 de diciembre de 2025, de la Secretaría General Técnica, por la que se publica el Convenio con Adamel Informática, SL, para el desarrollo de estancias formativas del Instituto de Educación Secundaria Leopoldo Queipo de Melilla.</titulo>
+                <url_pdf szBytes="248872" szKBytes="243" pagina_inicial="1087" pagina_final="1095">https://www.boe.es/boe/dias/2026/01/03/pdfs/BOE-A-2026-215.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-215</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-215</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2026-216</identificador>
+                <control>2025/21032</control>
+                <titulo>Resolución de 23 de diciembre de 2025, de la Secretaría General Técnica, por la que se publica el Convenio con Alma Servicios Integrales, SL, para el desarrollo de estancias formativas del Instituto de Educación Secundaria Miguel Fernández de Melilla.</titulo>
+                <url_pdf szBytes="249147" szKBytes="243" pagina_inicial="1096" pagina_final="1104">https://www.boe.es/boe/dias/2026/01/03/pdfs/BOE-A-2026-216.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-216</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-216</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2026-217</identificador>
+                <control>2025/21033</control>
+                <titulo>Resolución de 23 de diciembre de 2025, de la Secretaría General Técnica, por la que se publica el Convenio con Bunker Motor, SL, para el desarrollo de estancias formativas del Centro Integrado de Formación Profesional Reina Victoria Eugenia de Melilla.</titulo>
+                <url_pdf szBytes="250530" szKBytes="245" pagina_inicial="1105" pagina_final="1113">https://www.boe.es/boe/dias/2026/01/03/pdfs/BOE-A-2026-217.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-217</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-217</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2026-218</identificador>
+                <control>2025/21037</control>
+                <titulo>Resolución de 23 de diciembre de 2025, de la Secretaría General Técnica, por la que se publica el Convenio con Instalaciones Anasal, SL, para el desarrollo de estancias formativas del Instituto de Educación Secundaria Siete Colinas de Ceuta.</titulo>
+                <url_pdf szBytes="248021" szKBytes="242" pagina_inicial="1114" pagina_final="1122">https://www.boe.es/boe/dias/2026/01/03/pdfs/BOE-A-2026-218.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-218</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-218</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2026-219</identificador>
+                <control>2025/20921</control>
+                <titulo>Resolución de 26 de diciembre de 2025, de la Secretaría General Técnica, por la que se publica el Convenio con Comunidad Israelita de Melilla, para el desarrollo de estancias formativas del Instituto de Educación Secundaria Leopoldo Queipo de Melilla.</titulo>
+                <url_pdf szBytes="253334" szKBytes="247" pagina_inicial="1123" pagina_final="1131">https://www.boe.es/boe/dias/2026/01/03/pdfs/BOE-A-2026-219.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-219</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-219</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2026-220</identificador>
+                <control>2025/20928</control>
+                <titulo>Resolución de 26 de diciembre de 2025, de la Secretaría General Técnica, por la que se publica el Convenio con Unión Deportiva Melilla, para el desarrollo de estancias formativas del Instituto de Educación Secundaria Enrique Nieto de Melilla.</titulo>
+                <url_pdf szBytes="248644" szKBytes="243" pagina_inicial="1132" pagina_final="1140">https://www.boe.es/boe/dias/2026/01/03/pdfs/BOE-A-2026-220.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-220</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-220</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2026-221</identificador>
+                <control>2025/21070</control>
+                <titulo>Resolución de 29 de diciembre de 2025, de la Secretaría General Técnica, por la que se publica el Convenio con Colegio Diocesano Santa Luisa de Marillac, para el desarrollo de estancias formativas del Instituto de Educación Secundaria Juan Antonio Fernández Pérez de Melilla.</titulo>
+                <url_pdf szBytes="247017" szKBytes="241" pagina_inicial="1141" pagina_final="1149">https://www.boe.es/boe/dias/2026/01/03/pdfs/BOE-A-2026-221.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-221</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-221</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2026-222</identificador>
+                <control>2025/21071</control>
+                <titulo>Resolución de 29 de diciembre de 2025, de la Secretaría General Técnica, por la que se publica el Convenio con Editores del Estrecho, SL, para el desarrollo de estancias formativas del Centro Integrado de Formación Profesional Reina Victoria Eugenia de Melilla.</titulo>
+                <url_pdf szBytes="247504" szKBytes="242" pagina_inicial="1150" pagina_final="1158">https://www.boe.es/boe/dias/2026/01/03/pdfs/BOE-A-2026-222.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-222</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-222</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2026-223</identificador>
+                <control>2025/21072</control>
+                <titulo>Resolución de 29 de diciembre de 2025, de la Secretaría General Técnica, por la que se publica el Convenio con Estaciones y Terminales Marítimas, SLU, para el desarrollo de estancias formativas del Centro Integrado de Formación Profesional Reina Victoria Eugenia de Melilla.</titulo>
+                <url_pdf szBytes="247350" szKBytes="242" pagina_inicial="1159" pagina_final="1167">https://www.boe.es/boe/dias/2026/01/03/pdfs/BOE-A-2026-223.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-223</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-223</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="3120" nombre="MINISTERIO DE AGRICULTURA, PESCA Y ALIMENTACIÓN">
+            <epigrafe nombre="Pesca marítima">
+              <item>
+                <identificador>BOE-A-2026-224</identificador>
+                <control>2026/74</control>
+                <titulo>Resolución de 31 de diciembre de 2025, de la Secretaría General de Pesca, por la que se establecen disposiciones de ordenación de la pesquería del abadejo («Pollachius pollachius») de la división CIEM 8C (POL/08C.) y en la subzona 9 (stock POL/9/3411) para 2026.</titulo>
+                <url_pdf szBytes="212226" szKBytes="207" pagina_inicial="1168" pagina_final="1170">https://www.boe.es/boe/dias/2026/01/03/pdfs/BOE-A-2026-224.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-224</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-224</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="9593" nombre="MINISTERIO DE POLÍTICA TERRITORIAL Y MEMORIA DEMOCRÁTICA">
+            <epigrafe nombre="Subvenciones">
+              <item>
+                <identificador>BOE-A-2026-225</identificador>
+                <control>2026/75</control>
+                <titulo>Resolución de 30 de diciembre de 2025, de la Secretaría de Estado de Política Territorial, por la que se corrigen errores en la de 14 de octubre de 2025, por la que se acuerda la asignación de las subvenciones para la recuperación de daños en infraestructuras municipales y red viaria provincial e insular previstas en el apartado tercero del Acuerdo del Consejo de Ministros de 5 de noviembre de 2024, por el que se declara «Zona afectada gravemente por una emergencia de protección civil» el territorio damnificado como consecuencia de la Depresión Aislada en Niveles Altos (DANA) que ha afectado a amplias zonas de la Península y Baleares entre el 28 de octubre y el 4 de noviembre de 2024.</titulo>
+                <url_pdf szBytes="216231" szKBytes="211" pagina_inicial="1171" pagina_final="1172">https://www.boe.es/boe/dias/2026/01/03/pdfs/BOE-A-2026-225.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-225</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-225</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="9575" nombre="MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA Y EL RETO DEMOGRÁFICO">
+            <epigrafe nombre="Energía eléctrica">
+              <item>
+                <identificador>BOE-A-2026-226</identificador>
+                <control>2026/84</control>
+                <titulo>Resolución de 31 de diciembre de 2025, de la Secretaría de Estado de Energía, por la que se actualizan los valores de la retribución a la operación correspondientes al primer trimestre natural del año 2026 de las instalaciones tipo de generación de energía eléctrica cuyos costes de explotación dependan esencialmente del precio del combustible.</titulo>
+                <url_pdf szBytes="2083900" szKBytes="2035" pagina_inicial="1173" pagina_final="1256">https://www.boe.es/boe/dias/2026/01/03/pdfs/BOE-A-2026-226.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-226</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-226</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="9587" nombre="MINISTERIO DE VIVIENDA Y AGENDA URBANA">
+            <epigrafe nombre="Comunidad Autónoma de Canarias. Convenio">
+              <item>
+                <identificador>BOE-A-2026-227</identificador>
+                <control>2025/20935</control>
+                <titulo>Resolución de 23 de diciembre de 2025, de la Dirección General de Agenda Urbana y Arquitectura, por la que se publica la Adenda al Convenio con la Comunidad Autónoma de Canarias, para la ejecución del Programa de Impulso a la Rehabilitación de Edificios Públicos, dentro del Plan de Recuperación, Transformación y Resiliencia y con cargo a los fondos «Next Generation».</titulo>
+                <url_pdf szBytes="419353" szKBytes="410" pagina_inicial="1257" pagina_final="1267">https://www.boe.es/boe/dias/2026/01/03/pdfs/BOE-A-2026-227.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-227</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-227</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="4110" nombre="MINISTERIO DE CULTURA">
+            <epigrafe nombre="Patrimonio histórico">
+              <item>
+                <identificador>BOE-A-2026-228</identificador>
+                <control>2025/20542</control>
+                <titulo>Orden CLT/1574/2025, de 18 de diciembre, por la que se otorga la garantía del Estado a 330 obras para su exhibición en la exposición permanente del Museo Nacional Thyssen-Bornemisza.</titulo>
+                <url_pdf szBytes="803103" szKBytes="784" pagina_inicial="1268" pagina_final="1303">https://www.boe.es/boe/dias/2026/01/03/pdfs/BOE-A-2026-228.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-228</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-228</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2026-229</identificador>
+                <control>2025/20543</control>
+                <titulo>Orden CLT/1575/2025, de 18 de diciembre, por la que se otorga la garantía del Estado a 90 obras para su exhibición en la exposición permanente del Museo Nacional y Centro de Investigación de Altamira.</titulo>
+                <url_pdf szBytes="401245" szKBytes="392" pagina_inicial="1304" pagina_final="1317">https://www.boe.es/boe/dias/2026/01/03/pdfs/BOE-A-2026-229.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-229</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-229</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2026-230</identificador>
+                <control>2025/20544</control>
+                <titulo>Orden CLT/1576/2025, de 18 de diciembre, por la que se otorga la garantía del Estado a doce obras para su exhibición en la exposición permanente del Museo Nacional Thyssen-Bornemisza.</titulo>
+                <url_pdf szBytes="223827" szKBytes="219" pagina_inicial="1318" pagina_final="1321">https://www.boe.es/boe/dias/2026/01/03/pdfs/BOE-A-2026-230.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-230</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-230</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="9589" nombre="MINISTERIO DE ECONOMÍA, COMERCIO Y EMPRESA">
+            <epigrafe nombre="Convenios">
+              <item>
+                <identificador>BOE-A-2026-231</identificador>
+                <control>2025/20765</control>
+                <titulo>Resolución de 18 de diciembre de 2025, del Fondo de Reestructuración Ordenada Bancaria, por la que se publica el Convenio con la Comisión Nacional del Mercado de Valores, en materia de recuperación y resolución de empresas de servicios de inversión y otros ámbitos de cooperación.</titulo>
+                <url_pdf szBytes="308636" szKBytes="301" pagina_inicial="1322" pagina_final="1337">https://www.boe.es/boe/dias/2026/01/03/pdfs/BOE-A-2026-231.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-231</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-231</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="4335" nombre="MINISTERIO DE SANIDAD">
+            <epigrafe nombre="Comunidad Autónoma de Canarias. Convenio">
+              <item>
+                <identificador>BOE-A-2026-232</identificador>
+                <control>2025/20945</control>
+                <titulo>Resolución de 23 de diciembre de 2025, de la Secretaría General de Salud Digital, Información e Innovación del Sistema Nacional de Salud, por la que se publica la Adenda de prórroga al Convenio con la Comunidad Autónoma de Canarias, para establecer las bases de la provisión de los Servicios Transfronterizos de Información de Sanidad Electrónica dentro de la eHealth Digital Service Infrastructure.</titulo>
+                <url_pdf szBytes="205345" szKBytes="201" pagina_inicial="1338" pagina_final="1340">https://www.boe.es/boe/dias/2026/01/03/pdfs/BOE-A-2026-232.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-232</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-232</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="9565" nombre="MINISTERIO DE CIENCIA, INNOVACIÓN Y UNIVERSIDADES">
+            <epigrafe nombre="Comunidad Autónoma de Canarias. Convenio">
+              <item>
+                <identificador>BOE-A-2026-233</identificador>
+                <control>2025/21046</control>
+                <titulo>Resolución de 21 de diciembre de 2025, del Consorcio para el Diseño, la Construcción, el Equipamiento y la Explotación de la Plataforma Oceánica de Canarias, por la que se publica el Convenio con la Fundación Canaria Universitaria de Las Palmas, para la realización del programa Diginnnova, subvencionado por la Consejería de Universidades, Ciencia e Innovación y Cultura, ACIISI y cofinanciado por el Fondo Social Europeo Plus (FSE+).</titulo>
+                <url_pdf szBytes="218079" szKBytes="213" pagina_inicial="1341" pagina_final="1345">https://www.boe.es/boe/dias/2026/01/03/pdfs/BOE-A-2026-233.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-233</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-233</url_xml>
+              </item>
+            </epigrafe>
+            <epigrafe nombre="Comunidad Autónoma del Principado de Asturias. Convenio">
+              <item>
+                <identificador>BOE-A-2026-234</identificador>
+                <control>2025/21045</control>
+                <titulo>Resolución de 19 de diciembre de 2025, de la Presidencia de la Agencia Estatal Consejo Superior de Investigaciones Científicas, M.P., por la que se publica la Adenda de modificación del Convenio con el Principado de Asturias y la Universidad de Oviedo, para la creación y regulación del Instituto Mixto de Investigación en Biodiversidad.</titulo>
+                <url_pdf szBytes="216694" szKBytes="212" pagina_inicial="1346" pagina_final="1349">https://www.boe.es/boe/dias/2026/01/03/pdfs/BOE-A-2026-234.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-234</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-234</url_xml>
+              </item>
+            </epigrafe>
+            <epigrafe nombre="Comunidad de Castilla y León. Convenio">
+              <item>
+                <identificador>BOE-A-2026-235</identificador>
+                <control>2025/20779</control>
+                <titulo>Resolución de 22 de diciembre de 2025, del Centro de Investigaciones Energéticas Medioambientales y Tecnológicas, O.A., M.P., por la que se publica el Convenio con el Instituto de Educación Secundaria Virgen del Espino, de Soria, para la realización de la fase de formación en empresa u organismo equiparado de los alumnos de los grados D y E de Formación Profesional.</titulo>
+                <url_pdf szBytes="445835" szKBytes="435" pagina_inicial="1350" pagina_final="1366">https://www.boe.es/boe/dias/2026/01/03/pdfs/BOE-A-2026-235.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-235</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-235</url_xml>
+              </item>
+            </epigrafe>
+            <epigrafe nombre="Convenios">
+              <item>
+                <identificador>BOE-A-2026-236</identificador>
+                <control>2025/21044</control>
+                <titulo>Resolución de 18 de diciembre de 2025, de la Agencia Nacional de Evaluación de la Calidad y Acreditación, por la que se publica el Convenio con la Universidad San Jorge, para la evaluación de la actividad investigadora del personal docente e investigador contratado.</titulo>
+                <url_pdf szBytes="235427" szKBytes="230" pagina_inicial="1367" pagina_final="1374">https://www.boe.es/boe/dias/2026/01/03/pdfs/BOE-A-2026-236.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-236</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-236</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2026-237</identificador>
+                <control>2025/21079</control>
+                <titulo>Resolución de 18 de diciembre de 2025, de la Agencia Nacional de Evaluación de la Calidad y Acreditación, por la que se publica el Convenio con la Universidad CEU Cardenal Herrera, para la evaluación de la actividad investigadora del personal docente e investigador contratado.</titulo>
+                <url_pdf szBytes="235402" szKBytes="230" pagina_inicial="1375" pagina_final="1382">https://www.boe.es/boe/dias/2026/01/03/pdfs/BOE-A-2026-237.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-237</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-237</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2026-238</identificador>
+                <control>2025/21080</control>
+                <titulo>Resolución de 18 de diciembre de 2025, de la Agencia Nacional de Evaluación de la Calidad y Acreditación, por la que se publica el Convenio con la Universidad del Atlántico Medio, para la evaluación de la actividad investigadora del personal docente e investigador contratado.</titulo>
+                <url_pdf szBytes="235649" szKBytes="230" pagina_inicial="1383" pagina_final="1390">https://www.boe.es/boe/dias/2026/01/03/pdfs/BOE-A-2026-238.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-238</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-238</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2026-239</identificador>
+                <control>2025/21081</control>
+                <titulo>Resolución de 18 de diciembre de 2025, de la Agencia Nacional de Evaluación de la Calidad y Acreditación, por la que se publica el Convenio con la Universidad Fernando Pessoa Canarias, para la evaluación de la actividad investigadora del personal docente e investigador contratado.</titulo>
+                <url_pdf szBytes="239879" szKBytes="234" pagina_inicial="1391" pagina_final="1398">https://www.boe.es/boe/dias/2026/01/03/pdfs/BOE-A-2026-239.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-239</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-239</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2026-240</identificador>
+                <control>2026/94</control>
+                <titulo>Resolución de 18 de diciembre de 2025, de la Agencia Nacional de Evaluación de la Calidad y Acreditación, por la que se publica el Convenio con la Universidad a Distancia de Madrid, para la evaluación de la actividad investigadora del personal docente e investigador contratado.</titulo>
+                <url_pdf szBytes="236051" szKBytes="231" pagina_inicial="1399" pagina_final="1406">https://www.boe.es/boe/dias/2026/01/03/pdfs/BOE-A-2026-240.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-240</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-240</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2026-241</identificador>
+                <control>2026/95</control>
+                <titulo>Resolución de 18 de diciembre de 2025, de la Agencia Nacional de Evaluación de la Calidad y Acreditación, por la que se publica el Convenio con la Universidad Pontificia de Salamanca, para la evaluación de la actividad investigadora del personal docente e investigador contratado.</titulo>
+                <url_pdf szBytes="235172" szKBytes="230" pagina_inicial="1407" pagina_final="1414">https://www.boe.es/boe/dias/2026/01/03/pdfs/BOE-A-2026-241.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-241</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-241</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="9595" nombre="MINISTERIO PARA LA TRANSFORMACIÓN DIGITAL Y DE LA FUNCIÓN PÚBLICA">
+            <epigrafe nombre="Gestores administrativos">
+              <item>
+                <identificador>BOE-A-2026-242</identificador>
+                <control>2025/20953</control>
+                <titulo>Resolución de 26 de diciembre de 2025, de la Secretaría de Estado de Función Pública, por la que se publica la relación de aspirantes declarados aptos en las pruebas de aptitud para el acceso a la profesión de Gestor Administrativo.</titulo>
+                <url_pdf szBytes="191873" szKBytes="187" pagina_inicial="1415" pagina_final="1415">https://www.boe.es/boe/dias/2026/01/03/pdfs/BOE-A-2026-242.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-242</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-242</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="1020" nombre="BANCO DE ESPAÑA">
+            <epigrafe nombre="Mercado de divisas">
+              <item>
+                <identificador>BOE-A-2026-243</identificador>
+                <control>2026/107</control>
+                <titulo>Resolución de 31 de diciembre de 2025, del Banco de España, por la que se publican los cambios del euro correspondientes al día 31 de diciembre de 2025, publicados por el Banco Central Europeo, que tendrán la consideración de cambios oficiales, de acuerdo con lo dispuesto en el artículo 36 de la Ley 46/1998, de 17 de diciembre, sobre la Introducción del Euro.</titulo>
+                <url_pdf szBytes="216876" szKBytes="212" pagina_inicial="1416" pagina_final="1417">https://www.boe.es/boe/dias/2026/01/03/pdfs/BOE-A-2026-243.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-243</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-243</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2026-244</identificador>
+                <control>2026/108</control>
+                <titulo>Resolución de 2 de enero de 2026, del Banco de España, por la que se publican los cambios del euro correspondientes al día 2 de enero de 2026, publicados por el Banco Central Europeo, que tendrán la consideración de cambios oficiales, de acuerdo con lo dispuesto en el artículo 36 de la Ley 46/1998, de 17 de diciembre, sobre la Introducción del Euro.</titulo>
+                <url_pdf szBytes="216073" szKBytes="211" pagina_inicial="1418" pagina_final="1419">https://www.boe.es/boe/dias/2026/01/03/pdfs/BOE-A-2026-244.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-244</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-244</url_xml>
+              </item>
+            </epigrafe>
+            <epigrafe nombre="Préstamos hipotecarios. Índices">
+              <item>
+                <identificador>BOE-A-2026-245</identificador>
+                <control>2026/114</control>
+                <titulo>Resolución de 2 de enero de 2026, del Banco de España, por la que se publican determinados tipos de interés oficiales de referencia del mercado hipotecario.</titulo>
+                <url_pdf szBytes="202097" szKBytes="197" pagina_inicial="1420" pagina_final="1420">https://www.boe.es/boe/dias/2026/01/03/pdfs/BOE-A-2026-245.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-245</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-245</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+        </seccion>
+        <seccion codigo="4" nombre="IV. Administración de Justicia">
+          <departamento codigo="9596" nombre="TRIBUNALES DE INSTANCIA. SECCIÓN CIVIL Y DE INSTRUCCIÓN/JUZGADOS DE PRIMERA INSTANCIA E INSTRUCCIÓN">
+            <item>
+              <identificador>BOE-B-2026-65</identificador>
+              <titulo>ALCARAZ</titulo>
+              <url_pdf szBytes="198400" szKBytes="194" pagina_inicial="174" pagina_final="174">https://www.boe.es/boe/dias/2026/01/03/pdfs/BOE-B-2026-65.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-65</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-65</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2026-66</identificador>
+              <titulo>AVILA</titulo>
+              <url_pdf szBytes="198305" szKBytes="194" pagina_inicial="175" pagina_final="175">https://www.boe.es/boe/dias/2026/01/03/pdfs/BOE-B-2026-66.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-66</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-66</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2026-67</identificador>
+              <titulo>BERGARA</titulo>
+              <url_pdf szBytes="198667" szKBytes="194" pagina_inicial="176" pagina_final="176">https://www.boe.es/boe/dias/2026/01/03/pdfs/BOE-B-2026-67.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-67</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-67</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2026-68</identificador>
+              <titulo>CORNELLA DE LLOBREGAT</titulo>
+              <url_pdf szBytes="199384" szKBytes="195" pagina_inicial="177" pagina_final="177">https://www.boe.es/boe/dias/2026/01/03/pdfs/BOE-B-2026-68.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-68</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-68</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2026-69</identificador>
+              <titulo>HARO</titulo>
+              <url_pdf szBytes="198638" szKBytes="194" pagina_inicial="178" pagina_final="178">https://www.boe.es/boe/dias/2026/01/03/pdfs/BOE-B-2026-69.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-69</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-69</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2026-70</identificador>
+              <titulo>HARO</titulo>
+              <url_pdf szBytes="198456" szKBytes="194" pagina_inicial="179" pagina_final="179">https://www.boe.es/boe/dias/2026/01/03/pdfs/BOE-B-2026-70.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-70</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-70</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2026-71</identificador>
+              <titulo>MONTIJO</titulo>
+              <url_pdf szBytes="198500" szKBytes="194" pagina_inicial="180" pagina_final="180">https://www.boe.es/boe/dias/2026/01/03/pdfs/BOE-B-2026-71.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-71</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-71</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2026-72</identificador>
+              <titulo>NOVELDA</titulo>
+              <url_pdf szBytes="198582" szKBytes="194" pagina_inicial="181" pagina_final="181">https://www.boe.es/boe/dias/2026/01/03/pdfs/BOE-B-2026-72.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-72</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-72</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2026-73</identificador>
+              <titulo>POZUELO ALARCON</titulo>
+              <url_pdf szBytes="198934" szKBytes="194" pagina_inicial="182" pagina_final="182">https://www.boe.es/boe/dias/2026/01/03/pdfs/BOE-B-2026-73.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-73</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-73</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2026-74</identificador>
+              <titulo>SANTA COLOMA DE FARNERS</titulo>
+              <url_pdf szBytes="199316" szKBytes="195" pagina_inicial="183" pagina_final="183">https://www.boe.es/boe/dias/2026/01/03/pdfs/BOE-B-2026-74.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-74</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-74</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2026-75</identificador>
+              <titulo>VERA</titulo>
+              <url_pdf szBytes="198413" szKBytes="194" pagina_inicial="184" pagina_final="184">https://www.boe.es/boe/dias/2026/01/03/pdfs/BOE-B-2026-75.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-75</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-75</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2026-76</identificador>
+              <titulo>VERA</titulo>
+              <url_pdf szBytes="198343" szKBytes="194" pagina_inicial="185" pagina_final="185">https://www.boe.es/boe/dias/2026/01/03/pdfs/BOE-B-2026-76.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-76</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-76</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2026-77</identificador>
+              <titulo>VILA-REAL</titulo>
+              <url_pdf szBytes="198613" szKBytes="194" pagina_inicial="186" pagina_final="186">https://www.boe.es/boe/dias/2026/01/03/pdfs/BOE-B-2026-77.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-77</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-77</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2026-78</identificador>
+              <titulo>VILLALPANDO</titulo>
+              <url_pdf szBytes="198659" szKBytes="194" pagina_inicial="187" pagina_final="187">https://www.boe.es/boe/dias/2026/01/03/pdfs/BOE-B-2026-78.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-78</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-78</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2026-79</identificador>
+              <titulo>ZAMORA</titulo>
+              <url_pdf szBytes="198686" szKBytes="194" pagina_inicial="188" pagina_final="188">https://www.boe.es/boe/dias/2026/01/03/pdfs/BOE-B-2026-79.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-79</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-79</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="9598" nombre="TRIBUNALES DE INSTANCIA. SECCIÓN CIVIL/JUZGADOS DE PRIMERA INSTANCIA">
+            <item>
+              <identificador>BOE-B-2026-80</identificador>
+              <titulo>ALCOBENDAS</titulo>
+              <url_pdf szBytes="198688" szKBytes="194" pagina_inicial="189" pagina_final="189">https://www.boe.es/boe/dias/2026/01/03/pdfs/BOE-B-2026-80.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-80</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-80</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2026-81</identificador>
+              <titulo>CACERES</titulo>
+              <url_pdf szBytes="198316" szKBytes="194" pagina_inicial="190" pagina_final="190">https://www.boe.es/boe/dias/2026/01/03/pdfs/BOE-B-2026-81.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-81</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-81</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2026-82</identificador>
+              <titulo>CORDOBA</titulo>
+              <url_pdf szBytes="198541" szKBytes="194" pagina_inicial="191" pagina_final="191">https://www.boe.es/boe/dias/2026/01/03/pdfs/BOE-B-2026-82.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-82</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-82</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2026-83</identificador>
+              <titulo>CORDOBA</titulo>
+              <url_pdf szBytes="198533" szKBytes="194" pagina_inicial="192" pagina_final="192">https://www.boe.es/boe/dias/2026/01/03/pdfs/BOE-B-2026-83.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-83</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-83</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2026-84</identificador>
+              <titulo>CORDOBA</titulo>
+              <url_pdf szBytes="198534" szKBytes="194" pagina_inicial="193" pagina_final="193">https://www.boe.es/boe/dias/2026/01/03/pdfs/BOE-B-2026-84.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-84</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-84</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2026-85</identificador>
+              <titulo>GRANOLLERS</titulo>
+              <url_pdf szBytes="198750" szKBytes="194" pagina_inicial="194" pagina_final="194">https://www.boe.es/boe/dias/2026/01/03/pdfs/BOE-B-2026-85.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-85</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-85</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2026-86</identificador>
+              <titulo>HUELVA</titulo>
+              <url_pdf szBytes="198297" szKBytes="194" pagina_inicial="195" pagina_final="195">https://www.boe.es/boe/dias/2026/01/03/pdfs/BOE-B-2026-86.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-86</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-86</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2026-87</identificador>
+              <titulo>HUELVA</titulo>
+              <url_pdf szBytes="198308" szKBytes="194" pagina_inicial="196" pagina_final="196">https://www.boe.es/boe/dias/2026/01/03/pdfs/BOE-B-2026-87.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-87</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-87</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2026-88</identificador>
+              <titulo>MALAGA</titulo>
+              <url_pdf szBytes="198359" szKBytes="194" pagina_inicial="197" pagina_final="197">https://www.boe.es/boe/dias/2026/01/03/pdfs/BOE-B-2026-88.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-88</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-88</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2026-89</identificador>
+              <titulo>SALAMANCA</titulo>
+              <url_pdf szBytes="198512" szKBytes="194" pagina_inicial="198" pagina_final="198">https://www.boe.es/boe/dias/2026/01/03/pdfs/BOE-B-2026-89.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-89</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-89</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2026-90</identificador>
+              <titulo>SEVILLA</titulo>
+              <url_pdf szBytes="198156" szKBytes="194" pagina_inicial="199" pagina_final="199">https://www.boe.es/boe/dias/2026/01/03/pdfs/BOE-B-2026-90.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-90</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-90</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2026-91</identificador>
+              <titulo>SEVILLA</titulo>
+              <url_pdf szBytes="198395" szKBytes="194" pagina_inicial="200" pagina_final="200">https://www.boe.es/boe/dias/2026/01/03/pdfs/BOE-B-2026-91.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-91</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-91</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2026-92</identificador>
+              <titulo>SEVILLA</titulo>
+              <url_pdf szBytes="198278" szKBytes="194" pagina_inicial="201" pagina_final="201">https://www.boe.es/boe/dias/2026/01/03/pdfs/BOE-B-2026-92.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-92</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-92</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2026-93</identificador>
+              <titulo>SEVILLA</titulo>
+              <url_pdf szBytes="198148" szKBytes="194" pagina_inicial="202" pagina_final="202">https://www.boe.es/boe/dias/2026/01/03/pdfs/BOE-B-2026-93.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-93</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-93</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2026-94</identificador>
+              <titulo>TORREJON DE ARDOZ</titulo>
+              <url_pdf szBytes="198740" szKBytes="194" pagina_inicial="203" pagina_final="203">https://www.boe.es/boe/dias/2026/01/03/pdfs/BOE-B-2026-94.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-94</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-94</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2026-95</identificador>
+              <titulo>TORREVIEJA</titulo>
+              <url_pdf szBytes="198483" szKBytes="194" pagina_inicial="204" pagina_final="204">https://www.boe.es/boe/dias/2026/01/03/pdfs/BOE-B-2026-95.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-95</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-95</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2026-96</identificador>
+              <titulo>VIGO</titulo>
+              <url_pdf szBytes="198326" szKBytes="194" pagina_inicial="205" pagina_final="205">https://www.boe.es/boe/dias/2026/01/03/pdfs/BOE-B-2026-96.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-96</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-96</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2026-97</identificador>
+              <titulo>ZARAGOZA</titulo>
+              <url_pdf szBytes="198657" szKBytes="194" pagina_inicial="206" pagina_final="206">https://www.boe.es/boe/dias/2026/01/03/pdfs/BOE-B-2026-97.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-97</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-97</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="9546" nombre="JUZGADOS DE PRIMERA INSTANCIA E INSTRUCCIÓN">
+            <item>
+              <identificador>BOE-B-2026-98</identificador>
+              <titulo>JEREZ DE LA FRONTERA</titulo>
+              <url_pdf szBytes="198746" szKBytes="194" pagina_inicial="207" pagina_final="207">https://www.boe.es/boe/dias/2026/01/03/pdfs/BOE-B-2026-98.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-98</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-98</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2026-99</identificador>
+              <titulo>LEON</titulo>
+              <url_pdf szBytes="197965" szKBytes="193" pagina_inicial="208" pagina_final="208">https://www.boe.es/boe/dias/2026/01/03/pdfs/BOE-B-2026-99.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-99</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-99</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2026-100</identificador>
+              <titulo>MADRID</titulo>
+              <url_pdf szBytes="198062" szKBytes="193" pagina_inicial="209" pagina_final="209">https://www.boe.es/boe/dias/2026/01/03/pdfs/BOE-B-2026-100.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-100</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-100</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2026-101</identificador>
+              <titulo>MARTOS</titulo>
+              <url_pdf szBytes="198261" szKBytes="194" pagina_inicial="210" pagina_final="210">https://www.boe.es/boe/dias/2026/01/03/pdfs/BOE-B-2026-101.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-101</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-101</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2026-102</identificador>
+              <titulo>SEVILLA</titulo>
+              <url_pdf szBytes="198154" szKBytes="194" pagina_inicial="211" pagina_final="211">https://www.boe.es/boe/dias/2026/01/03/pdfs/BOE-B-2026-102.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-102</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-102</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2026-103</identificador>
+              <titulo>UTRERA</titulo>
+              <url_pdf szBytes="197981" szKBytes="193" pagina_inicial="212" pagina_final="212">https://www.boe.es/boe/dias/2026/01/03/pdfs/BOE-B-2026-103.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-103</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-103</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="9571" nombre="SERVICIOS COMUNES PROCESALES">
+            <item>
+              <identificador>BOE-B-2026-104</identificador>
+              <titulo>MURCIA</titulo>
+              <url_pdf szBytes="197769" szKBytes="193" pagina_inicial="213" pagina_final="213">https://www.boe.es/boe/dias/2026/01/03/pdfs/BOE-B-2026-104.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-104</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-104</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2026-105</identificador>
+              <titulo>VALENCIA</titulo>
+              <url_pdf szBytes="197886" szKBytes="193" pagina_inicial="214" pagina_final="214">https://www.boe.es/boe/dias/2026/01/03/pdfs/BOE-B-2026-105.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-105</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-105</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2026-106</identificador>
+              <titulo>VALENCIA</titulo>
+              <url_pdf szBytes="197849" szKBytes="193" pagina_inicial="215" pagina_final="215">https://www.boe.es/boe/dias/2026/01/03/pdfs/BOE-B-2026-106.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-106</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-106</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2026-107</identificador>
+              <titulo>VALENCIA</titulo>
+              <url_pdf szBytes="197808" szKBytes="193" pagina_inicial="216" pagina_final="216">https://www.boe.es/boe/dias/2026/01/03/pdfs/BOE-B-2026-107.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-107</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-107</url_xml>
+            </item>
+          </departamento>
+        </seccion>
+        <seccion codigo="5B" nombre="V. Anuncios. - B. Otros anuncios oficiales">
+          <departamento codigo="5140" nombre="MINISTERIO DE HACIENDA">
+            <item>
+              <identificador>BOE-B-2026-108</identificador>
+              <titulo>U.R. SUBASTAS ANDALUCIA 41</titulo>
+              <url_pdf szBytes="198941" szKBytes="194" pagina_inicial="217" pagina_final="217">https://www.boe.es/boe/dias/2026/01/03/pdfs/BOE-B-2026-108.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-108</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-108</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2026-109</identificador>
+              <titulo>U.R. SUBASTAS ANDALUCIA 41</titulo>
+              <url_pdf szBytes="198938" szKBytes="194" pagina_inicial="218" pagina_final="218">https://www.boe.es/boe/dias/2026/01/03/pdfs/BOE-B-2026-109.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-109</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-109</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2026-110</identificador>
+              <titulo>U.R. SUBASTAS ANDALUCIA 41</titulo>
+              <url_pdf szBytes="198753" szKBytes="194" pagina_inicial="219" pagina_final="219">https://www.boe.es/boe/dias/2026/01/03/pdfs/BOE-B-2026-110.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-110</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-110</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2026-111</identificador>
+              <titulo>U.R. SUBASTAS ANDALUCIA 41</titulo>
+              <url_pdf szBytes="198746" szKBytes="194" pagina_inicial="220" pagina_final="220">https://www.boe.es/boe/dias/2026/01/03/pdfs/BOE-B-2026-111.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-111</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-111</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2026-112</identificador>
+              <titulo>U.R. SUBASTAS ANDALUCIA 41</titulo>
+              <url_pdf szBytes="198892" szKBytes="194" pagina_inicial="221" pagina_final="221">https://www.boe.es/boe/dias/2026/01/03/pdfs/BOE-B-2026-112.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-112</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-112</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2026-113</identificador>
+              <titulo>U.R. SUBASTAS ANDALUCIA 41</titulo>
+              <url_pdf szBytes="198865" szKBytes="194" pagina_inicial="222" pagina_final="222">https://www.boe.es/boe/dias/2026/01/03/pdfs/BOE-B-2026-113.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-113</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-113</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2026-114</identificador>
+              <titulo>U.R. SUBASTAS ANDALUCIA 41</titulo>
+              <url_pdf szBytes="198815" szKBytes="194" pagina_inicial="223" pagina_final="223">https://www.boe.es/boe/dias/2026/01/03/pdfs/BOE-B-2026-114.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-114</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-114</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2026-115</identificador>
+              <titulo>U.R. SUBASTAS ANDALUCIA 41</titulo>
+              <url_pdf szBytes="198817" szKBytes="194" pagina_inicial="224" pagina_final="224">https://www.boe.es/boe/dias/2026/01/03/pdfs/BOE-B-2026-115.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-115</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-115</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2026-116</identificador>
+              <titulo>U.R. SUBASTAS ANDALUCIA 41</titulo>
+              <url_pdf szBytes="198884" szKBytes="194" pagina_inicial="225" pagina_final="225">https://www.boe.es/boe/dias/2026/01/03/pdfs/BOE-B-2026-116.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-116</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-116</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2026-117</identificador>
+              <titulo>U.R. SUBASTAS ANDALUCIA 41</titulo>
+              <url_pdf szBytes="198895" szKBytes="194" pagina_inicial="226" pagina_final="226">https://www.boe.es/boe/dias/2026/01/03/pdfs/BOE-B-2026-117.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-117</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-117</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2026-118</identificador>
+              <titulo>U.R. SUBASTAS ANDALUCIA 41</titulo>
+              <url_pdf szBytes="199005" szKBytes="194" pagina_inicial="227" pagina_final="227">https://www.boe.es/boe/dias/2026/01/03/pdfs/BOE-B-2026-118.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-118</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-118</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2026-119</identificador>
+              <titulo>U.R. SUBASTAS ANDALUCIA 41</titulo>
+              <url_pdf szBytes="198937" szKBytes="194" pagina_inicial="228" pagina_final="228">https://www.boe.es/boe/dias/2026/01/03/pdfs/BOE-B-2026-119.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-119</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-119</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2026-120</identificador>
+              <titulo>U.R. SUBASTAS ANDALUCIA 41</titulo>
+              <url_pdf szBytes="198813" szKBytes="194" pagina_inicial="229" pagina_final="229">https://www.boe.es/boe/dias/2026/01/03/pdfs/BOE-B-2026-120.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-120</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-120</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2026-121</identificador>
+              <titulo>U.R. SUBASTAS ANDALUCIA 41</titulo>
+              <url_pdf szBytes="198816" szKBytes="194" pagina_inicial="230" pagina_final="230">https://www.boe.es/boe/dias/2026/01/03/pdfs/BOE-B-2026-121.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-121</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-121</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2026-122</identificador>
+              <titulo>U.R. SUBASTAS ANDALUCIA 41</titulo>
+              <url_pdf szBytes="198895" szKBytes="194" pagina_inicial="231" pagina_final="231">https://www.boe.es/boe/dias/2026/01/03/pdfs/BOE-B-2026-122.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-122</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-122</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2026-123</identificador>
+              <titulo>U.R. SUBASTAS ANDALUCIA 41</titulo>
+              <url_pdf szBytes="198936" szKBytes="194" pagina_inicial="232" pagina_final="232">https://www.boe.es/boe/dias/2026/01/03/pdfs/BOE-B-2026-123.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-123</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-123</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="9575" nombre="MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA Y EL RETO DEMOGRÁFICO">
+            <item>
+              <identificador>BOE-B-2026-124</identificador>
+              <titulo>Anuncio de la Subdirección General de Energía Eléctrica por el que se da publicidad al Acuerdo de inicio del procedimiento de traspaso de los clientes de la empresa comercializadora de energía eléctrica Indexa Energía Inteligente, S.L., a un comercializador de referencia y en el que se determinan las condiciones de suministro a dichos clientes.</titulo>
+              <url_pdf szBytes="202192" szKBytes="197" pagina_inicial="233" pagina_final="233">https://www.boe.es/boe/dias/2026/01/03/pdfs/BOE-B-2026-124.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-124</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-124</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2026-125</identificador>
+              <titulo>Extracto de la Resolución de 23 de diciembre de 2025, del Consejo de Administración de E.P.E. Instituto para la Diversificación y Ahorro de la Energía (IDAE), M.P. por la que se aprueba la segunda convocatoria de ayudas para proyectos innovadores de almacenamiento mediante bombeo reversible en el marco del Plan de Recuperación, Transformación y Resiliencia - Financiado por la Unión Europea - Next GenerationEU.</titulo>
+              <url_pdf szBytes="212395" szKBytes="207" pagina_inicial="234" pagina_final="235">https://www.boe.es/boe/dias/2026/01/03/pdfs/BOE-B-2026-125.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-125</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-125</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="8040" nombre="COMUNIDAD AUTÓNOMA DE CANTABRIA">
+            <item>
+              <identificador>BOE-B-2026-126</identificador>
+              <titulo>AGENCIA CÁNTABRA DE ADMINISTRACIÓN TRIBUTARIA</titulo>
+              <url_pdf szBytes="198807" szKBytes="194" pagina_inicial="236" pagina_final="236">https://www.boe.es/boe/dias/2026/01/03/pdfs/BOE-B-2026-126.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-126</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-126</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2026-127</identificador>
+              <titulo>AGENCIA CÁNTABRA DE ADMINISTRACIÓN TRIBUTARIA</titulo>
+              <url_pdf szBytes="198805" szKBytes="194" pagina_inicial="237" pagina_final="237">https://www.boe.es/boe/dias/2026/01/03/pdfs/BOE-B-2026-127.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-127</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-127</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2026-128</identificador>
+              <titulo>AGENCIA CÁNTABRA DE ADMINISTRACIÓN TRIBUTARIA</titulo>
+              <url_pdf szBytes="199011" szKBytes="194" pagina_inicial="238" pagina_final="238">https://www.boe.es/boe/dias/2026/01/03/pdfs/BOE-B-2026-128.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-128</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-128</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2026-129</identificador>
+              <titulo>AGENCIA CÁNTABRA DE ADMINISTRACIÓN TRIBUTARIA</titulo>
+              <url_pdf szBytes="198914" szKBytes="194" pagina_inicial="239" pagina_final="239">https://www.boe.es/boe/dias/2026/01/03/pdfs/BOE-B-2026-129.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-129</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-129</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2026-130</identificador>
+              <titulo>AGENCIA CÁNTABRA DE ADMINISTRACIÓN TRIBUTARIA</titulo>
+              <url_pdf szBytes="198887" szKBytes="194" pagina_inicial="240" pagina_final="240">https://www.boe.es/boe/dias/2026/01/03/pdfs/BOE-B-2026-130.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-130</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-130</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="8110" nombre="COMUNIDAD AUTÓNOMA DE LA RIOJA">
+            <item>
+              <identificador>BOE-B-2026-131</identificador>
+              <titulo>DIRECCIÓN GENERAL DE TRIBUTOS DEL GOBIERNO DE LA RIOJA</titulo>
+              <url_pdf szBytes="199402" szKBytes="195" pagina_inicial="241" pagina_final="241">https://www.boe.es/boe/dias/2026/01/03/pdfs/BOE-B-2026-131.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-131</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-131</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="9525" nombre="ADMINISTRACIÓN LOCAL">
+            <item>
+              <identificador>BOE-B-2026-132</identificador>
+              <titulo>ORGANISMO AUTÓNOMO DE GESTIÓN TRIBUTARIA DEL AYUNTAMIENTO DE MÁLAGA</titulo>
+              <url_pdf szBytes="199127" szKBytes="194" pagina_inicial="242" pagina_final="242">https://www.boe.es/boe/dias/2026/01/03/pdfs/BOE-B-2026-132.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-132</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-132</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2026-133</identificador>
+              <titulo>ORGANISMO AUTÓNOMO DE GESTIÓN TRIBUTARIA DEL AYUNTAMIENTO DE MÁLAGA</titulo>
+              <url_pdf szBytes="199034" szKBytes="194" pagina_inicial="243" pagina_final="243">https://www.boe.es/boe/dias/2026/01/03/pdfs/BOE-B-2026-133.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-133</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-133</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2026-134</identificador>
+              <titulo>INSTITUTO DE COOPERACIÓN CON LA HACIENDA LOCAL DE LA DIPUTACIÓN DE CÓRDOBA</titulo>
+              <url_pdf szBytes="198756" szKBytes="194" pagina_inicial="244" pagina_final="244">https://www.boe.es/boe/dias/2026/01/03/pdfs/BOE-B-2026-134.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-134</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-134</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2026-135</identificador>
+              <titulo>GESTION TRIBUTARIA PROVINCIAL ALBACETE</titulo>
+              <url_pdf szBytes="198629" szKBytes="194" pagina_inicial="245" pagina_final="245">https://www.boe.es/boe/dias/2026/01/03/pdfs/BOE-B-2026-135.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-135</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-135</url_xml>
+            </item>
+          </departamento>
+        </seccion>
+        <seccion codigo="5C" nombre="V. Anuncios. - C. Anuncios particulares">
+          <departamento codigo="9202" nombre="ANUNCIOS PARTICULARES">
+            <item>
+              <identificador>BOE-B-2026-136</identificador>
+              <titulo>NOTARÍA DE ALICIA CORRAL PRADA</titulo>
+              <url_pdf szBytes="197686" szKBytes="193" pagina_inicial="246" pagina_final="246">https://www.boe.es/boe/dias/2026/01/03/pdfs/BOE-B-2026-136.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-136</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-136</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2026-137</identificador>
+              <titulo>NOTARÍA DE MARÍA DOS ANJOS GONZÁLEZ</titulo>
+              <url_pdf szBytes="198106" szKBytes="193" pagina_inicial="247" pagina_final="247">https://www.boe.es/boe/dias/2026/01/03/pdfs/BOE-B-2026-137.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-137</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-137</url_xml>
+            </item>
+          </departamento>
+        </seccion>
+      </diario>
+    </sumario>
+  </data>
+</response>

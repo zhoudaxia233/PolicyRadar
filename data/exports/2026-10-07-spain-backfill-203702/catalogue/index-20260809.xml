@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<response>
+  <status>
+    <code>200</code>
+    <text>ok</text>
+  </status>
+  <data>
+    <sumario>
+      <metadatos>
+        <publicacion>BOE</publicacion>
+        <fecha_publicacion>20260809</fecha_publicacion>
+      </metadatos>
+      <diario numero="194">
+        <sumario_diario>
+          <identificador>BOE-S-2026-194</identificador>
+          <url_pdf szBytes="142030" szKBytes="139">https://www.boe.es/boe/dias/2026/08/09/pdfs/BOE-S-2026-194.pdf</url_pdf>
+        </sumario_diario>
+        <seccion codigo="1" nombre="I. Disposiciones generales">
+          <departamento codigo="7320" nombre="MINISTERIO DEL INTERIOR">
+            <epigrafe nombre="Controles fronterizos">
+              <item>
+                <identificador>BOE-A-2026-17375</identificador>
+                <control>2026/13108</control>
+                <titulo>Orden INT/846/2026, de 7 de agosto, sobre el restablecimiento temporal de los controles fronterizos en las fronteras interiores aéreas y marítimas españolas con respecto a los vuelos y enlaces marítimos de pasajeros procedentes de la República Italiana.</titulo>
+                <url_pdf szBytes="209659" szKBytes="205" pagina_inicial="111900" pagina_final="111903">https://www.boe.es/boe/dias/2026/08/09/pdfs/BOE-A-2026-17375.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-17375</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-17375</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+        </seccion>
+      </diario>
+    </sumario>
+  </data>
+</response>

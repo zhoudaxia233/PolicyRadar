@@ -2,7 +2,7 @@
 import {PolicyStatusNote} from './policy-status-note';
 import { useEffect, useMemo, useState, useRef, type ReactNode } from 'react';
 import { Radar, LayoutDashboard, Clock3, Activity, Database, Search, ChevronRight, ChevronDown, ExternalLink, Download, RefreshCw, MapPin, CalendarDays, FileText, X, ShieldCheck, AlertCircle, Layers, Sun, Moon, Monitor } from 'lucide-react';
-import { regions, countries, countryOf, keyDate, policyTags, lifecycle, nextStepLabel, type Policy } from '../lib/domain/model';
+import { regions, countries, countryOf, keyDate, progressDate, berlinToday, isUpcoming, policyTags, lifecycle, nextStepLabel, type Policy } from '../lib/domain/model';
 import { trackingStart, type IntakeRecord, type coverageRows } from '../lib/domain/intake';
 import { IntakeView } from './intake-view';
 import { LanguageSwitch } from './language-switch';
@@ -122,10 +122,9 @@ export default function Home() {
     setTags(f.tags);
     setFiltersReady(true);
   }
-  const dateInBerlin = () => new Intl.DateTimeFormat('en-CA', { timeZone: 'Europe/Berlin', year: 'numeric', month: '2-digit', day: '2-digit' }).format(new Date());
-  const [today, setToday] = useState(dateInBerlin);
+  const [today, setToday] = useState(berlinToday);
   useEffect(() => {
-    const timer = setInterval(() => setToday(dateInBerlin()), 60_000);
+    const timer = setInterval(() => setToday(berlinToday()), 60_000);
     return () => clearInterval(timer);
   }, []);
   async function load() {
@@ -213,7 +212,7 @@ export default function Home() {
     };
   }, [country]);
   const filters = { view, country, region, query, tags };
-  const listing = selectListing(items, intake.records, filters, matchText);
+  const listing = selectListing(items, intake.records, filters, matchText, today);
   const { policies: visible, raw: visibleRaw, progress: newRecords } = listing;
   const tagOptions = [...new Set([...scoped.flatMap(policyTags), ...records.flatMap(policyTags), ...tags])].sort((a, b) => ct(a).localeCompare(ct(b), languageTags[locale]));
   const viewCount = (target: string) => selectListing(items, intake.records, { ...filters, view: target }, matchText).count;
@@ -749,69 +748,74 @@ export default function Home() {
                   </a>
                 </div>)}
               </div>}
-              <div className="policy-list">
-                {visible.map(p => <button
-                  className={'policy-card' + (selected?.id === p.id ? ' current' : '')}
-                  onClick={() => open(p)}
-                  key={p.id}>
-                  {(() => {
-                    const k = keyDate(p, today);
-                    return <div className={'card-date ' + k.kind}>
-                      <strong>
-                        {+k.date.slice(8)}
-                      </strong>
-                      <span>
-                        {formatDate(k.date, locale, { year: 'numeric', month: 'short' })}
-                      </span>
-                      <em>
-                        {k.kind === 'next' ? tr("下一步") : k.kind === 'effective' ? tr("生效") : k.kind === 'application' ? tr("适用") : tr("进展")}
-                      </em>
-                    </div>;
-                  })()}
-                  <div className="card-main">
-                    <div className="card-top">
-                      <span className={'badge ' + tone(p, today)}>
-                        {stateLabel(p)}
-                      </span>
-                      <span className="card-category">
-                        {names(p.region)}
-                        ·
-                        {ct(p.topic)}
-                      </span>
-                      {p.disputed && <span className="dispute-label">
-                        {tr("有争议")}
-                      </span>}
+              {([[tr("即将发生"), visible.filter(p => isUpcoming(p, today)), 'future'], [tr("已经发生"), visible.filter(p => !isUpcoming(p, today)), '']] as const).filter(([, group]) => group.length > 0).map(([label, group, groupClass]) => <section key={label}>
+                <h3 className={'feed-month list-group ' + groupClass}>
+                  {label} · {group.length}
+                </h3>
+                <div className="policy-list">
+                  {group.map(p => <button
+                    className={'policy-card' + (selected?.id === p.id ? ' current' : '')}
+                    onClick={() => open(p)}
+                    key={p.id}>
+                    {(() => {
+                      const k = keyDate(p, today);
+                      return <div className={'card-date ' + k.kind}>
+                        <strong>
+                          {+k.date.slice(8)}
+                        </strong>
+                        <span>
+                          {formatDate(k.date, locale, { year: 'numeric', month: 'short' })}
+                        </span>
+                        <em>
+                          {k.kind === 'next' ? tr("下一步") : k.kind === 'effective' ? tr("生效") : k.kind === 'application' ? tr("适用") : tr("进展")}
+                        </em>
+                      </div>;
+                    })()}
+                    <div className="card-main">
+                      <div className="card-top">
+                        <span className={'badge ' + tone(p, today)}>
+                          {stateLabel(p)}
+                        </span>
+                        <span className="card-category">
+                          {names(p.region)}
+                          ·
+                          {ct(p.topic)}
+                        </span>
+                        {p.disputed && <span className="dispute-label">
+                          {tr("有争议")}
+                        </span>}
+                      </div>
+                      <h2 lang={explanationLang(p)}>
+                        {p.title}
+                      </h2>
+                      {translationNotice(p)}
+                      <p className="card-summary" lang={explanationLang(p)}>
+                        {p.summary}
+                      </p>
+                      <div className="card-bottom">
+                        <span>
+                          <CalendarDays size={14} />
+                          {ct(keyDate(p, today).label)}
+                          {' '}
+                          {fmt(keyDate(p, today).date)}
+                        </span>
+                        {keyDate(p, today).kind !== 'progress' && <span>
+                          <Activity size={14} />
+                          {tr('最近进展 {0}', [fmt(progressDate(p))])}
+                        </span>}
+                        <span>
+                          <FileText size={14} />
+                          {p.sources.length === 1 ? tr('1 个官方来源') : tr('{0} 个官方来源', [p.sources.length])}
+                        </span>
+                        <span className="card-detail-action">
+                          {tr("查看详情")}
+                          <ChevronRight size={14} />
+                        </span>
+                      </div>
                     </div>
-                    <h2 lang={explanationLang(p)}>
-                      {p.title}
-                    </h2>
-                    {translationNotice(p)}
-                    <p className="card-summary" lang={explanationLang(p)}>
-                      {p.summary}
-                    </p>
-                    <div className="card-bottom">
-                      <span>
-                        <CalendarDays size={14} />
-                        {ct(keyDate(p, today).label)}
-                        {' '}
-                        {fmt(keyDate(p, today).date)}
-                      </span>
-                      {keyDate(p, today).kind !== 'progress' && <span>
-                        <Activity size={14} />
-                        {tr('最近进展 {0}', [fmt(p.lastEventDate)])}
-                      </span>}
-                      <span>
-                        <FileText size={14} />
-                        {p.sources.length === 1 ? tr('1 个官方来源') : tr('{0} 个官方来源', [p.sources.length])}
-                      </span>
-                      <span className="card-detail-action">
-                        {tr("查看详情")}
-                        <ChevronRight size={14} />
-                      </span>
-                    </div>
-                  </div>
-                </button>)}
-              </div>
+                  </button>)}
+                </div>
+              </section>)}
             </>}
             <p className="list-footnote">
               {tr("官方进展记录不以是否完成解读为收录条件 · 历史资料逐步回补")}

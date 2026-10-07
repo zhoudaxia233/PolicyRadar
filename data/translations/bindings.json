@@ -2283,6 +2283,14 @@
       "verbatim": [
         "Boletín Oficial del Estado"
       ]
+    },
+    "de-social-insurance-ceilings-2027": {
+      "version": 1,
+      "hash": "1bbc3ba8c79c8da68a85ad9f82e7b90a22112bf7899e40075d5acbcce0638356",
+      "originalLanguage": "de",
+      "verbatim": [
+        "BMAS"
+      ]
     }
   },
   "intake": {
@@ -13725,6 +13733,12 @@
     "es-catalog-boe-a-2026-3815": {
       "hash": "bbfb9a821372c75d646f4096baff629e9238cfaca015d797ec0f8ca0db4a3a9c",
       "originalLanguage": "es",
+      "titleIsOriginal": true,
+      "verbatim": []
+    },
+    "de-social-insurance-ceilings-2027-discovery": {
+      "hash": "925532e8830131e27b097036b6a97d51cf21dab4d08d5b0cb189c31f0f8f24b5",
+      "originalLanguage": "de",
       "titleIsOriginal": true,
       "verbatim": []
     }

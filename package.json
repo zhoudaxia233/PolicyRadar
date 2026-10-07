@@ -10,7 +10,8 @@
     "build": "node --experimental-strip-types scripts/build-static.mjs",
     "start": "vite preview --config vite.static.config.ts",
     "test": "node --experimental-strip-types --test tests/*.test.ts",
-    "data:select": "node --experimental-strip-types scripts/select-export.mjs"
+    "data:select": "node --experimental-strip-types scripts/select-export.mjs",
+    "data:coverage": "node --experimental-strip-types scripts/check-recent-coverage.mjs"
   },
   "dependencies": {
     "lucide-react": "^1.31.0",

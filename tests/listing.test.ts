@@ -2,7 +2,7 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
 import {createStaticData} from '../lib/static-data.ts';
-import {selectListing} from '../lib/domain/listing.ts';
+import {selectListing,timelineEvents} from '../lib/domain/listing.ts';
 import {readFilters,filterSearch} from '../lib/domain/filters.ts';
 import {regions,policyTags,progressDate,keyDate} from '../lib/domain/model.ts';
 const data=createStaticData(JSON.parse(readFileSync(new URL('../data/exports/2026-10-03/policy-radar-export.json',import.meta.url),'utf8')));
@@ -80,4 +80,13 @@ test('every list leads with the date nearest today, upcoming before past',()=>{
   assert.deepEqual(upcoming,[...upcoming].sort(),view);
   assert.deepEqual(past,[...past].sort().reverse(),view);
  }
+});
+test('the shared timeline hides review-dated corrections that each policy history keeps',()=>{
+ const current=createStaticData(JSON.parse(readFileSync(new URL('../data/exports/2026-10-07-uk-backfill-date-review-184206/policy-radar-export.json',import.meta.url),'utf8')));
+ const de=current.policies.filter(p=>p.region.startsWith('DE'));
+ const {scheduled,happened}=timelineEvents(de,'2026-10-07');
+ assert(happened.length>0);
+ assert(![...scheduled,...happened].some(x=>x.e.kind==='correction'));
+ assert.equal(happened[0].e.date,'2026-10-05');
+ assert(de.some(p=>p.events.some(e=>e.kind==='correction')));
 });

@@ -22,6 +22,16 @@ export function selectListing(items:Policy[],records:IntakeRecord[],filters:Retu
  return {policies,raw,progress,count:view==='intake'?progress.length:policies.length+raw.length};
 }
 
+// The shared timeline shows official events only. Corrections are dated by our own
+// review and stay in each policy's detail history.
+export function timelineEvents(policies:Policy[],today:string){
+ const events=policies.flatMap(p=>p.events.filter(e=>e.kind!=='correction').map(e=>({p,e})));
+ return {
+  scheduled:events.filter(x=>x.e.kind==='scheduled'&&x.e.date>=today).sort((a,b)=>a.e.date.localeCompare(b.e.date)),
+  happened:events.filter(x=>x.e.kind!=='scheduled').sort((a,b)=>b.e.date.localeCompare(a.e.date)),
+ };
+}
+
 // A country's source panel must not leak another country's check history.
 export function countrySourceUrls(country:string,items:Policy[],records:IntakeRecord[],discovery:{region:string;url:string}[]){
  return new Set([

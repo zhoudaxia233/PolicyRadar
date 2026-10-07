@@ -1904,5 +1904,89 @@
     "title": "欧盟委员会立法流程与提案入口",
     "publisher": "European Commission",
     "kind": "government"
+  },
+  {
+    "region": "GB",
+    "url": "https://www.gov.uk/",
+    "title": "英国政府政策入口",
+    "publisher": "UK Government",
+    "kind": "government",
+    "supportedRegions": [
+      "GB",
+      "GB-ENG",
+      "GB-SCT",
+      "GB-WLS",
+      "GB-NIR"
+    ]
+  },
+  {
+    "region": "GB",
+    "url": "https://bills.parliament.uk/",
+    "title": "英国议会法案",
+    "publisher": "UK Parliament",
+    "kind": "parliament",
+    "supportedRegions": [
+      "GB",
+      "GB-ENG",
+      "GB-SCT",
+      "GB-WLS",
+      "GB-NIR"
+    ]
+  },
+  {
+    "region": "GB",
+    "url": "https://www.legislation.gov.uk/new",
+    "title": "英国最新法律法规",
+    "publisher": "The National Archives",
+    "kind": "law",
+    "supportedRegions": [
+      "GB",
+      "GB-ENG",
+      "GB-SCT",
+      "GB-WLS",
+      "GB-NIR"
+    ]
+  },
+  {
+    "region": "GB-SCT",
+    "url": "https://www.gov.scot/publications/",
+    "title": "苏格兰政府出版物",
+    "publisher": "Scottish Government",
+    "kind": "government"
+  },
+  {
+    "region": "GB-SCT",
+    "url": "https://www.parliament.scot/bills-and-laws",
+    "title": "苏格兰议会法案与法律",
+    "publisher": "Scottish Parliament",
+    "kind": "parliament"
+  },
+  {
+    "region": "GB-WLS",
+    "url": "https://www.gov.wales/announcements",
+    "title": "威尔士政府公告",
+    "publisher": "Welsh Government",
+    "kind": "government"
+  },
+  {
+    "region": "GB-WLS",
+    "url": "https://senedd.wales/senedd-business/legislation/",
+    "title": "威尔士议会立法",
+    "publisher": "Senedd Cymru",
+    "kind": "parliament"
+  },
+  {
+    "region": "GB-NIR",
+    "url": "https://www.northernireland.gov.uk/",
+    "title": "北爱尔兰行政机构入口",
+    "publisher": "Northern Ireland Executive",
+    "kind": "government"
+  },
+  {
+    "region": "GB-NIR",
+    "url": "https://www.niassembly.gov.uk/assembly-business/legislation/",
+    "title": "北爱尔兰议会立法",
+    "publisher": "Northern Ireland Assembly",
+    "kind": "parliament"
   }
 ]

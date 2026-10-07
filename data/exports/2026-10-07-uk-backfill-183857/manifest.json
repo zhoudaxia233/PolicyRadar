@@ -1,0 +1,2011 @@
+{
+  "baseExport": "data/exports/2026-10-07-united-kingdom-182736/policy-radar-export.json",
+  "exportedAt": "2026-10-07T18:38:57.292Z",
+  "windowStart": "2026-01-01",
+  "windowEnd": "2026-10-06",
+  "status": "partial",
+  "catalogueEntries": 1678,
+  "includedRecords": 1675,
+  "excludedRecords": [
+    {
+      "identity": "nisr/2026/171",
+      "reason": "Publication after the closed monitoring window",
+      "published": "2026-10-07T07:36:32.652309+01:00"
+    },
+    {
+      "identity": "nisr/2026/170",
+      "reason": "Publication after the closed monitoring window",
+      "published": "2026-10-07T07:36:11.764904+01:00"
+    },
+    {
+      "identity": "nisr/2026/169",
+      "reason": "Publication after the closed monitoring window",
+      "published": "2026-10-07T07:36:02.912734+01:00"
+    }
+  ],
+  "monthCounts": {
+    "2026-01": 137,
+    "2026-02": 215,
+    "2026-03": 365,
+    "2026-04": 117,
+    "2026-05": 145,
+    "2026-06": 193,
+    "2026-07": 247,
+    "2026-08": 71,
+    "2026-09": 163,
+    "2026-10": 22
+  },
+  "feeds": [
+    {
+      "file": "catalogue/page-1.xml",
+      "sha256": "3e87e6ce401dbf0ed498f20ead0d931ac775615bbbe993414785c6f1a51d215d",
+      "url": "https://www.legislation.gov.uk/2026/data.feed?results-count=500",
+      "savedAt": "2026-10-07T18:30:57.265722+00:00",
+      "entries": 500
+    },
+    {
+      "file": "catalogue/page-2.xml",
+      "sha256": "f0ff24a46f9518d00801d7cf11bf46a6cfe8d8dd6b6f3f4ef68c61e551195567",
+      "url": "https://www.legislation.gov.uk/2026/data.feed?results-count=500&page=2",
+      "savedAt": "2026-10-07T18:31:22.577490+00:00",
+      "entries": 500
+    },
+    {
+      "file": "catalogue/page-3.xml",
+      "sha256": "2b090031b3c491897941be3e32b83eabc6d787fd4447a1e23091b6462e23441a",
+      "url": "https://www.legislation.gov.uk/2026/data.feed?results-count=500&page=3",
+      "savedAt": "2026-10-07T18:31:23.554361+00:00",
+      "entries": 500
+    },
+    {
+      "file": "catalogue/page-4.xml",
+      "sha256": "02852b4497590c05e9047923ffcd84c21aac138c1868b3ee5ffc0a3e9ff29f85",
+      "url": "https://www.legislation.gov.uk/2026/data.feed?results-count=500&page=4",
+      "savedAt": "2026-10-07T18:31:18.476979+00:00",
+      "entries": 178
+    }
+  ],
+  "fetches": [
+    {
+      "file": "ukpga-2026-3.html",
+      "url": "https://www.legislation.gov.uk/ukpga/2026/3/enacted?view=plain",
+      "fetchedAt": "2026-10-07T18:32:14.562Z",
+      "status": 200,
+      "contentType": "text/html;charset=utf-8",
+      "finalUrl": "https://www.legislation.gov.uk/ukpga/2026/3/enacted?view=plain",
+      "hash": "018dc306a4dbdfb7576f3936b845731e2a03901f8342911c212cc65cf8d96fa2",
+      "bytes": 11900
+    },
+    {
+      "file": "ukpga-2026-2.html",
+      "url": "https://www.legislation.gov.uk/ukpga/2026/2/enacted?view=plain",
+      "fetchedAt": "2026-10-07T18:32:14.562Z",
+      "status": 200,
+      "contentType": "text/html;charset=utf-8",
+      "finalUrl": "https://www.legislation.gov.uk/ukpga/2026/2/enacted?view=plain",
+      "hash": "81f5fdf7df51e384e185c6cedbedbe2120d5ef129a2cdcc0d9cc5e416d7aa5a4",
+      "bytes": 741748
+    },
+    {
+      "file": "ukpga-2026-1.html",
+      "url": "https://www.legislation.gov.uk/ukpga/2026/1/enacted?view=plain",
+      "fetchedAt": "2026-10-07T18:32:14.562Z",
+      "status": 200,
+      "contentType": "text/html;charset=utf-8",
+      "finalUrl": "https://www.legislation.gov.uk/ukpga/2026/1/enacted?view=plain",
+      "hash": "524100fe853a1d4e8094d4fbdf473adfe5865371132504314b0cd23693584350",
+      "bytes": 13998
+    },
+    {
+      "file": "asc-2026-1.html",
+      "url": "https://www.legislation.gov.uk/asc/2026/1/enacted?view=plain",
+      "fetchedAt": "2026-10-07T18:32:15.302Z",
+      "status": 200,
+      "contentType": "text/html;charset=utf-8",
+      "finalUrl": "https://www.legislation.gov.uk/asc/2026/1/enacted?view=plain",
+      "hash": "4dc5c660850fd5df5e9a32ba10a553db65f733d2b8144a1ad3fe2e4474d18e9f",
+      "bytes": 13137
+    },
+    {
+      "file": "asp-2026-1.html",
+      "url": "https://www.legislation.gov.uk/asp/2026/1/enacted?view=plain",
+      "fetchedAt": "2026-10-07T18:32:15.306Z",
+      "status": 200,
+      "contentType": "text/html;charset=utf-8",
+      "finalUrl": "https://www.legislation.gov.uk/asp/2026/1/enacted?view=plain",
+      "hash": "91201abe461c584d6ad18c56a44e88d8d8262bd40fe634709d5920df75e0207c",
+      "bytes": 16416
+    },
+    {
+      "file": "uksi-2026-80.html",
+      "url": "https://www.legislation.gov.uk/uksi/2026/80/made?view=plain",
+      "fetchedAt": "2026-10-07T18:32:17.101Z",
+      "status": 200,
+      "contentType": "text/html;charset=utf-8",
+      "finalUrl": "https://www.legislation.gov.uk/uksi/2026/80/made?view=plain",
+      "hash": "a626457608eafe230812f7d115b513272e0d22ff86ff044adf548839c2e21d8d",
+      "bytes": 22498
+    },
+    {
+      "file": "uksi-2026-79.html",
+      "url": "https://www.legislation.gov.uk/uksi/2026/79/made?view=plain",
+      "fetchedAt": "2026-10-07T18:32:17.498Z",
+      "status": 200,
+      "contentType": "text/html;charset=utf-8",
+      "finalUrl": "https://www.legislation.gov.uk/uksi/2026/79/made?view=plain",
+      "hash": "7f38ba4773300a0463e8586400ca268d760f13dbb5b0083ee2afa62b96ae0b09",
+      "bytes": 13374
+    },
+    {
+      "file": "uksi-2026-77.html",
+      "url": "https://www.legislation.gov.uk/uksi/2026/77/made?view=plain",
+      "fetchedAt": "2026-10-07T18:32:18.258Z",
+      "status": 200,
+      "contentType": "text/html;charset=utf-8",
+      "finalUrl": "https://www.legislation.gov.uk/uksi/2026/77/made?view=plain",
+      "hash": "1dc7b29622813f67e07fbd6130f6b7321298f51275656b91f700ca82af6a084f",
+      "bytes": 18976
+    },
+    {
+      "file": "uksi-2026-76.html",
+      "url": "https://www.legislation.gov.uk/uksi/2026/76/made?view=plain",
+      "fetchedAt": "2026-10-07T18:32:18.708Z",
+      "status": 200,
+      "contentType": "text/html;charset=utf-8",
+      "finalUrl": "https://www.legislation.gov.uk/uksi/2026/76/made?view=plain",
+      "hash": "0a21c32975b7c1709374d47fb677527cc96330c324d8380e6444b30b8168d811",
+      "bytes": 6885
+    },
+    {
+      "file": "uksi-2026-75.html",
+      "url": "https://www.legislation.gov.uk/uksi/2026/75/made?view=plain",
+      "fetchedAt": "2026-10-07T18:32:19.196Z",
+      "status": 200,
+      "contentType": "text/html;charset=utf-8",
+      "finalUrl": "https://www.legislation.gov.uk/uksi/2026/75/made?view=plain",
+      "hash": "62dedf369b57ffd4896232f2281d229e10e4e6420424e47192429028834a3d79",
+      "bytes": 19837
+    },
+    {
+      "file": "uksi-2026-74.html",
+      "url": "https://www.legislation.gov.uk/uksi/2026/74/made?view=plain",
+      "fetchedAt": "2026-10-07T18:32:19.252Z",
+      "status": 200,
+      "contentType": "text/html;charset=utf-8",
+      "finalUrl": "https://www.legislation.gov.uk/uksi/2026/74/made?view=plain",
+      "hash": "f729a13b6177041a40a3fd298ad8b734f5543a2a097a82682ef1042b73565ffd",
+      "bytes": 51547
+    },
+    {
+      "file": "uksi-2026-73.html",
+      "url": "https://www.legislation.gov.uk/uksi/2026/73/made?view=plain",
+      "fetchedAt": "2026-10-07T18:32:20.308Z",
+      "status": 200,
+      "contentType": "text/html;charset=utf-8",
+      "finalUrl": "https://www.legislation.gov.uk/uksi/2026/73/made?view=plain",
+      "hash": "21c1f47b14ef0bbe9a1336b8fe83cca20dbc3434f2011a1fa6ed002e40eef4fd",
+      "bytes": 34459
+    },
+    {
+      "file": "uksi-2026-70.html",
+      "url": "https://www.legislation.gov.uk/uksi/2026/70/made?view=plain",
+      "fetchedAt": "2026-10-07T18:32:20.411Z",
+      "status": 200,
+      "contentType": "text/html;charset=utf-8",
+      "finalUrl": "https://www.legislation.gov.uk/uksi/2026/70/made?view=plain",
+      "hash": "a0d5139cd1d11c4774dc26c17cf3c9c6ade569594f23afcc50611d6f2bb6b324",
+      "bytes": 6721
+    },
+    {
+      "file": "uksi-2026-69.html",
+      "url": "https://www.legislation.gov.uk/uksi/2026/69/made?view=plain",
+      "fetchedAt": "2026-10-07T18:32:20.882Z",
+      "status": 200,
+      "contentType": "text/html;charset=utf-8",
+      "finalUrl": "https://www.legislation.gov.uk/uksi/2026/69/made?view=plain",
+      "hash": "da102c280dbd5ab1a67d84f83d6cc8365e0a718a4a74971f88ef1351bebefa12",
+      "bytes": 6725
+    },
+    {
+      "file": "uksi-2026-68.html",
+      "url": "https://www.legislation.gov.uk/uksi/2026/68/made?view=plain",
+      "fetchedAt": "2026-10-07T18:32:21.507Z",
+      "status": 200,
+      "contentType": "text/html;charset=utf-8",
+      "finalUrl": "https://www.legislation.gov.uk/uksi/2026/68/made?view=plain",
+      "hash": "c7c7c525151448ffda201a8908eac9bb7290516b76e15c9e8a81bcd499c7f5b3",
+      "bytes": 6725
+    },
+    {
+      "file": "uksi-2026-67.html",
+      "url": "https://www.legislation.gov.uk/uksi/2026/67/made?view=plain",
+      "fetchedAt": "2026-10-07T18:32:22.159Z",
+      "status": 200,
+      "contentType": "text/html;charset=utf-8",
+      "finalUrl": "https://www.legislation.gov.uk/uksi/2026/67/made?view=plain",
+      "hash": "29401f6291bf1373625ac372a80d73ba7610d28a58a9283715afcccaa84e009f",
+      "bytes": 6713
+    },
+    {
+      "file": "uksi-2026-66.html",
+      "url": "https://www.legislation.gov.uk/uksi/2026/66/made?view=plain",
+      "fetchedAt": "2026-10-07T18:32:23.037Z",
+      "status": 200,
+      "contentType": "text/html;charset=utf-8",
+      "finalUrl": "https://www.legislation.gov.uk/uksi/2026/66/made?view=plain",
+      "hash": "60b8ace74a4150144835cbce8015c380172959d3f0b5d854821889f1dc13dba8",
+      "bytes": 75805
+    },
+    {
+      "file": "uksi-2026-65.html",
+      "url": "https://www.legislation.gov.uk/uksi/2026/65/made?view=plain",
+      "fetchedAt": "2026-10-07T18:32:23.048Z",
+      "status": 200,
+      "contentType": "text/html;charset=utf-8",
+      "finalUrl": "https://www.legislation.gov.uk/uksi/2026/65/made?view=plain",
+      "hash": "412562919b57391804f386c151d4660e6feb0ff885586ef5e9f86726aeb833e7",
+      "bytes": 6717
+    },
+    {
+      "file": "uksi-2026-64.html",
+      "url": "https://www.legislation.gov.uk/uksi/2026/64/made?view=plain",
+      "fetchedAt": "2026-10-07T18:32:23.586Z",
+      "status": 200,
+      "contentType": "text/html;charset=utf-8",
+      "finalUrl": "https://www.legislation.gov.uk/uksi/2026/64/made?view=plain",
+      "hash": "5da9aaba9a4e4f63c7164f00d24b12ef835055f51395bc4c1320407ba188fa81",
+      "bytes": 6833
+    },
+    {
+      "file": "uksi-2026-63.html",
+      "url": "https://www.legislation.gov.uk/uksi/2026/63/made?view=plain",
+      "fetchedAt": "2026-10-07T18:32:24.220Z",
+      "status": 200,
+      "contentType": "text/html;charset=utf-8",
+      "finalUrl": "https://www.legislation.gov.uk/uksi/2026/63/made?view=plain",
+      "hash": "0f59947afa9264582907e7a314014c1682d70f750eb4d8dbe8162a57db3f9ea8",
+      "bytes": 6881
+    },
+    {
+      "file": "uksi-2026-61.html",
+      "url": "https://www.legislation.gov.uk/uksi/2026/61/made?view=plain",
+      "fetchedAt": "2026-10-07T18:32:25.730Z",
+      "status": 200,
+      "contentType": "text/html;charset=utf-8",
+      "finalUrl": "https://www.legislation.gov.uk/uksi/2026/61/made?view=plain",
+      "hash": "67db847e5ce86943788e6b17acc9bebcdd04621e5954a060714cf6c8c88e937f",
+      "bytes": 23106
+    },
+    {
+      "file": "uksi-2026-60.html",
+      "url": "https://www.legislation.gov.uk/uksi/2026/60/made?view=plain",
+      "fetchedAt": "2026-10-07T18:32:25.752Z",
+      "status": 200,
+      "contentType": "text/html;charset=utf-8",
+      "finalUrl": "https://www.legislation.gov.uk/uksi/2026/60/made?view=plain",
+      "hash": "7f8184f5df2d6f865bdfc850b8d9fe50f1757549aac0b3cd25d359be0518461d",
+      "bytes": 14184
+    },
+    {
+      "file": "uksi-2026-59.html",
+      "url": "https://www.legislation.gov.uk/uksi/2026/59/made?view=plain",
+      "fetchedAt": "2026-10-07T18:32:28.023Z",
+      "status": 200,
+      "contentType": "text/html;charset=utf-8",
+      "finalUrl": "https://www.legislation.gov.uk/uksi/2026/59/made?view=plain",
+      "hash": "71ac3f983c0387c9a8e7427194d2a87cef64270c6e5ebe078d295f24293f1f48",
+      "bytes": 21687
+    },
+    {
+      "file": "uksi-2026-58.html",
+      "url": "https://www.legislation.gov.uk/uksi/2026/58/made?view=plain",
+      "fetchedAt": "2026-10-07T18:32:29.678Z",
+      "status": 200,
+      "contentType": "text/html;charset=utf-8",
+      "finalUrl": "https://www.legislation.gov.uk/uksi/2026/58/made?view=plain",
+      "hash": "78b5118f82d68a5241635dc457cee2c222cc536e082bfe0b4558b5b0e86ea0dc",
+      "bytes": 6829
+    },
+    {
+      "file": "uksi-2026-57.html",
+      "url": "https://www.legislation.gov.uk/uksi/2026/57/made?view=plain",
+      "fetchedAt": "2026-10-07T18:32:30.830Z",
+      "status": 200,
+      "contentType": "text/html;charset=utf-8",
+      "finalUrl": "https://www.legislation.gov.uk/uksi/2026/57/made?view=plain",
+      "hash": "1c36bac5efa3d259d72aa52394f799794f21795893124bd2d8d05dff6b7d4775",
+      "bytes": 58852
+    },
+    {
+      "file": "uksi-2026-56.html",
+      "url": "https://www.legislation.gov.uk/uksi/2026/56/made?view=plain",
+      "fetchedAt": "2026-10-07T18:32:31.435Z",
+      "status": 200,
+      "contentType": "text/html;charset=utf-8",
+      "finalUrl": "https://www.legislation.gov.uk/uksi/2026/56/made?view=plain",
+      "hash": "3a9d79cb0213a0f78dfcdf9fc9d60a7efe2a9b90d1c494b21501399a3494c1cf",
+      "bytes": 6857
+    },
+    {
+      "file": "uksi-2026-55.html",
+      "url": "https://www.legislation.gov.uk/uksi/2026/55/made?view=plain",
+      "fetchedAt": "2026-10-07T18:32:32.340Z",
+      "status": 200,
+      "contentType": "text/html;charset=utf-8",
+      "finalUrl": "https://www.legislation.gov.uk/uksi/2026/55/made?view=plain",
+      "hash": "c13adafcb663f7405b8d02caf05e4d7db252e18a83a4839253d7f25632390dd1",
+      "bytes": 43990
+    },
+    {
+      "file": "uksi-2026-54.html",
+      "url": "https://www.legislation.gov.uk/uksi/2026/54/made?view=plain",
+      "fetchedAt": "2026-10-07T18:32:33.851Z",
+      "status": 200,
+      "contentType": "text/html;charset=utf-8",
+      "finalUrl": "https://www.legislation.gov.uk/uksi/2026/54/made?view=plain",
+      "hash": "4574c28468a80ac8bf8a0de7c7a8e0705b8f675cde5a5e8dedb4a321e826ce61",
+      "bytes": 6873
+    },
+    {
+      "file": "uksi-2026-53.html",
+      "url": "https://www.legislation.gov.uk/uksi/2026/53/made?view=plain",
+      "fetchedAt": "2026-10-07T18:32:36.025Z",
+      "status": 200,
+      "contentType": "text/html;charset=utf-8",
+      "finalUrl": "https://www.legislation.gov.uk/uksi/2026/53/made?view=plain",
+      "hash": "7145fb79377349130334dac1ce7ba233928394fb26e83473da9d3d2c88522e5b",
+      "bytes": 29128
+    },
+    {
+      "file": "uksi-2026-52.html",
+      "url": "https://www.legislation.gov.uk/uksi/2026/52/made?view=plain",
+      "fetchedAt": "2026-10-07T18:32:36.033Z",
+      "status": 200,
+      "contentType": "text/html;charset=utf-8",
+      "finalUrl": "https://www.legislation.gov.uk/uksi/2026/52/made?view=plain",
+      "hash": "791e6d26b326ac9d51197fe7fad1886d663fa3c1b0f3cbfe1910d557da3630c7",
+      "bytes": 6749
+    },
+    {
+      "file": "uksi-2026-49.html",
+      "url": "https://www.legislation.gov.uk/uksi/2026/49/made?view=plain",
+      "fetchedAt": "2026-10-07T18:32:39.090Z",
+      "status": 200,
+      "contentType": "text/html;charset=utf-8",
+      "finalUrl": "https://www.legislation.gov.uk/uksi/2026/49/made?view=plain",
+      "hash": "01ed8ee6db4c875559adca2f7a86b3a22034870df3393a0f79a7c6cd9e7455b1",
+      "bytes": 6785
+    },
+    {
+      "file": "uksi-2026-48.html",
+      "url": "https://www.legislation.gov.uk/uksi/2026/48/made?view=plain",
+      "fetchedAt": "2026-10-07T18:32:39.867Z",
+      "status": 200,
+      "contentType": "text/html;charset=utf-8",
+      "finalUrl": "https://www.legislation.gov.uk/uksi/2026/48/made?view=plain",
+      "hash": "853cf2119152351f2fc4fe3230818a95eb3309952a0967d348067b70221a5365",
+      "bytes": 6805
+    },
+    {
+      "file": "uksi-2026-47.html",
+      "url": "https://www.legislation.gov.uk/uksi/2026/47/made?view=plain",
+      "fetchedAt": "2026-10-07T18:32:40.325Z",
+      "status": 200,
+      "contentType": "text/html;charset=utf-8",
+      "finalUrl": "https://www.legislation.gov.uk/uksi/2026/47/made?view=plain",
+      "hash": "7239ced92f1cfb27e5bf95edfe2dc997f9b50cd065404f6997f995037a67a118",
+      "bytes": 84744
+    },
+    {
+      "file": "uksi-2026-46.html",
+      "url": "https://www.legislation.gov.uk/uksi/2026/46/made?view=plain",
+      "fetchedAt": "2026-10-07T18:32:41.692Z",
+      "status": 200,
+      "contentType": "text/html;charset=utf-8",
+      "finalUrl": "https://www.legislation.gov.uk/uksi/2026/46/made?view=plain",
+      "hash": "7f1992ab094ec1de589accf1dd61717522663927f5164a5620ac2bdaca90deda",
+      "bytes": 23904
+    },
+    {
+      "file": "uksi-2026-45.html",
+      "url": "https://www.legislation.gov.uk/uksi/2026/45/made?view=plain",
+      "fetchedAt": "2026-10-07T18:32:41.721Z",
+      "status": 200,
+      "contentType": "text/html;charset=utf-8",
+      "finalUrl": "https://www.legislation.gov.uk/uksi/2026/45/made?view=plain",
+      "hash": "5a66451f0f0eeb70803d1631b766e52bd559fe3c865c5b03c95047506e8a00dd",
+      "bytes": 158143
+    },
+    {
+      "file": "uksi-2026-44.html",
+      "url": "https://www.legislation.gov.uk/uksi/2026/44/made?view=plain",
+      "fetchedAt": "2026-10-07T18:32:43.256Z",
+      "status": 200,
+      "contentType": "text/html;charset=utf-8",
+      "finalUrl": "https://www.legislation.gov.uk/uksi/2026/44/made?view=plain",
+      "hash": "0847f93c3753dddbf2822ca957d6b33d2d0f5377e6615b0dbd2a6c43e0ae4fc4",
+      "bytes": 6817
+    },
+    {
+      "file": "uksi-2026-43.html",
+      "url": "https://www.legislation.gov.uk/uksi/2026/43/made?view=plain",
+      "fetchedAt": "2026-10-07T18:32:43.927Z",
+      "status": 200,
+      "contentType": "text/html;charset=utf-8",
+      "finalUrl": "https://www.legislation.gov.uk/uksi/2026/43/made?view=plain",
+      "hash": "ef93db95aa31804d931cefc3dd2568ac66fb91a7e2ad9149df35f53e499e5e60",
+      "bytes": 6793
+    },
+    {
+      "file": "uksi-2026-42.html",
+      "url": "https://www.legislation.gov.uk/uksi/2026/42/made?view=plain",
+      "fetchedAt": "2026-10-07T18:32:45.396Z",
+      "status": 200,
+      "contentType": "text/html;charset=utf-8",
+      "finalUrl": "https://www.legislation.gov.uk/uksi/2026/42/made?view=plain",
+      "hash": "918e6695bf6aac6dfc2d6108ce61efcc0f5efc6bf2225894519b8ebba662aebc",
+      "bytes": 13087
+    },
+    {
+      "file": "ssi-2026-41.html",
+      "url": "https://www.legislation.gov.uk/ssi/2026/41/made?view=plain",
+      "fetchedAt": "2026-10-07T18:32:46.011Z",
+      "status": 200,
+      "contentType": "text/html;charset=utf-8",
+      "finalUrl": "https://www.legislation.gov.uk/ssi/2026/41/made?view=plain",
+      "hash": "bcc40154c7ec1b9e26b76c20445917f40d17f25cdf4bed18840a69c178e0c98f",
+      "bytes": 32515
+    },
+    {
+      "file": "uksi-2026-41.html",
+      "url": "https://www.legislation.gov.uk/uksi/2026/41/made?view=plain",
+      "fetchedAt": "2026-10-07T18:32:47.194Z",
+      "status": 200,
+      "contentType": "text/html;charset=utf-8",
+      "finalUrl": "https://www.legislation.gov.uk/uksi/2026/41/made?view=plain",
+      "hash": "504b9761133aa6f87f75d054c6798b11e73b10e317ea6000d06969f4a4e02bd6",
+      "bytes": 20316
+    },
+    {
+      "file": "ssi-2026-40.html",
+      "url": "https://www.legislation.gov.uk/ssi/2026/40/made?view=plain",
+      "fetchedAt": "2026-10-07T18:32:47.646Z",
+      "status": 200,
+      "contentType": "text/html;charset=utf-8",
+      "finalUrl": "https://www.legislation.gov.uk/ssi/2026/40/made?view=plain",
+      "hash": "3491637b6afaf01e88fbbedd4d4cdcb765cbc3223cf357f750d24ed50eee9019",
+      "bytes": 21219
+    },
+    {
+      "file": "uksi-2026-39.html",
+      "url": "https://www.legislation.gov.uk/uksi/2026/39/made?view=plain",
+      "fetchedAt": "2026-10-07T18:32:49.215Z",
+      "status": 200,
+      "contentType": "text/html;charset=utf-8",
+      "finalUrl": "https://www.legislation.gov.uk/uksi/2026/39/made?view=plain",
+      "hash": "f3daabb011dac6808763fd9a7159bf2a192781802a154f54deaef6fc7e3a2807",
+      "bytes": 12300
+    },
+    {
+      "file": "ssi-2026-38.html",
+      "url": "https://www.legislation.gov.uk/ssi/2026/38/made?view=plain",
+      "fetchedAt": "2026-10-07T18:32:49.426Z",
+      "status": 200,
+      "contentType": "text/html;charset=utf-8",
+      "finalUrl": "https://www.legislation.gov.uk/ssi/2026/38/made?view=plain",
+      "hash": "835f2b3bf6c0fa2866728a9edae701857bfcabbc62e2936ab8767130e0df11a1",
+      "bytes": 13310
+    },
+    {
+      "file": "uksi-2026-38.html",
+      "url": "https://www.legislation.gov.uk/uksi/2026/38/made?view=plain",
+      "fetchedAt": "2026-10-07T18:32:50.369Z",
+      "status": 200,
+      "contentType": "text/html;charset=utf-8",
+      "finalUrl": "https://www.legislation.gov.uk/uksi/2026/38/made?view=plain",
+      "hash": "bd35e39aa4e29e6daf6b0e0524a4364374903b64b9a70fed089ed5cd8ce81392",
+      "bytes": 16977
+    },
+    {
+      "file": "ssi-2026-37.html",
+      "url": "https://www.legislation.gov.uk/ssi/2026/37/made?view=plain",
+      "fetchedAt": "2026-10-07T18:32:50.989Z",
+      "status": 200,
+      "contentType": "text/html;charset=utf-8",
+      "finalUrl": "https://www.legislation.gov.uk/ssi/2026/37/made?view=plain",
+      "hash": "1d0b3cb3d1d88f2284018e8da3f0debe7b1d2ea9504fc6a848c1b5b4119fd74c",
+      "bytes": 49913
+    },
+    {
+      "file": "uksi-2026-37.html",
+      "url": "https://www.legislation.gov.uk/uksi/2026/37/made?view=plain",
+      "fetchedAt": "2026-10-07T18:32:51.445Z",
+      "status": 200,
+      "contentType": "text/html;charset=utf-8",
+      "finalUrl": "https://www.legislation.gov.uk/uksi/2026/37/made?view=plain",
+      "hash": "43d5b3262f3f362a1dc951499f8b7a4f676b4c17bedf369b2fc71e972d575654",
+      "bytes": 443045
+    },
+    {
+      "file": "ssi-2026-36.html",
+      "url": "https://www.legislation.gov.uk/ssi/2026/36/made?view=plain",
+      "fetchedAt": "2026-10-07T18:32:53.975Z",
+      "status": 200,
+      "contentType": "text/html;charset=utf-8",
+      "finalUrl": "https://www.legislation.gov.uk/ssi/2026/36/made?view=plain",
+      "hash": "e9308ebce4a030b6b394a4cbe679c5748a10e99bc33ddb450d84993e052a6249",
+      "bytes": 28270
+    },
+    {
+      "file": "uksi-2026-36.html",
+      "url": "https://www.legislation.gov.uk/uksi/2026/36/made?view=plain",
+      "fetchedAt": "2026-10-07T18:32:55.268Z",
+      "status": 200,
+      "contentType": "text/html;charset=utf-8",
+      "finalUrl": "https://www.legislation.gov.uk/uksi/2026/36/made?view=plain",
+      "hash": "d721713a199a3a4bd14d617f112e5968702b5d1b7af49ee2947522e83cd2c8b5",
+      "bytes": 21443
+    },
+    {
+      "file": "ssi-2026-35.html",
+      "url": "https://www.legislation.gov.uk/ssi/2026/35/made?view=plain",
+      "fetchedAt": "2026-10-07T18:32:55.479Z",
+      "status": 200,
+      "contentType": "text/html;charset=utf-8",
+      "finalUrl": "https://www.legislation.gov.uk/ssi/2026/35/made?view=plain",
+      "hash": "0325831c2886fcad9667b760fa37d39b59b68ff710d5135d7d285e0f751a0b1b",
+      "bytes": 25738
+    },
+    {
+      "file": "uksi-2026-35.html",
+      "url": "https://www.legislation.gov.uk/uksi/2026/35/made?view=plain",
+      "fetchedAt": "2026-10-07T18:32:56.454Z",
+      "status": 200,
+      "contentType": "text/html;charset=utf-8",
+      "finalUrl": "https://www.legislation.gov.uk/uksi/2026/35/made?view=plain",
+      "hash": "0b95072730e82bda4ec9dbc60998b613b90fb5e01ffaa36431f2a98bf80e2f51",
+      "bytes": 6841
+    },
+    {
+      "file": "ssi-2026-34.html",
+      "url": "https://www.legislation.gov.uk/ssi/2026/34/made?view=plain",
+      "fetchedAt": "2026-10-07T18:32:56.928Z",
+      "status": 200,
+      "contentType": "text/html;charset=utf-8",
+      "finalUrl": "https://www.legislation.gov.uk/ssi/2026/34/made?view=plain",
+      "hash": "0317764807030015a4fadf4748a37832e5846a5f2b0c419248049dfa8de9e607",
+      "bytes": 137001
+    },
+    {
+      "file": "uksi-2026-34.html",
+      "url": "https://www.legislation.gov.uk/uksi/2026/34/made?view=plain",
+      "fetchedAt": "2026-10-07T18:32:56.962Z",
+      "status": 200,
+      "contentType": "text/html;charset=utf-8",
+      "finalUrl": "https://www.legislation.gov.uk/uksi/2026/34/made?view=plain",
+      "hash": "7127b5b82bf0c4af2831ee433934afca009639d9df255f19dadadcf2cf5350ea",
+      "bytes": 6765
+    },
+    {
+      "file": "ssi-2026-33.html",
+      "url": "https://www.legislation.gov.uk/ssi/2026/33/made?view=plain",
+      "fetchedAt": "2026-10-07T18:32:58.642Z",
+      "status": 200,
+      "contentType": "text/html;charset=utf-8",
+      "finalUrl": "https://www.legislation.gov.uk/ssi/2026/33/made?view=plain",
+      "hash": "60d442f8a70fd40b054d0089deab8111fc825a06f1105550f18ed7a01fe86b59",
+      "bytes": 72119
+    },
+    {
+      "file": "uksi-2026-33.html",
+      "url": "https://www.legislation.gov.uk/uksi/2026/33/made?view=plain",
+      "fetchedAt": "2026-10-07T18:32:59.691Z",
+      "status": 200,
+      "contentType": "text/html;charset=utf-8",
+      "finalUrl": "https://www.legislation.gov.uk/uksi/2026/33/made?view=plain",
+      "hash": "dea781015c693c8720840583be5bcde8ffd717826a26aa2f3407182e8b76b7fd",
+      "bytes": 6825
+    },
+    {
+      "file": "uksi-2026-32.html",
+      "url": "https://www.legislation.gov.uk/uksi/2026/32/made?view=plain",
+      "fetchedAt": "2026-10-07T18:33:01.764Z",
+      "status": 200,
+      "contentType": "text/html;charset=utf-8",
+      "finalUrl": "https://www.legislation.gov.uk/uksi/2026/32/made?view=plain",
+      "hash": "f7c8b4b1f23168f84bfa7fdea85ffd0f64857998c635ffa0e90d36afecd8eeb2",
+      "bytes": 6753
+    },
+    {
+      "file": "ssi-2026-32.html",
+      "url": "https://www.legislation.gov.uk/ssi/2026/32/made?view=plain",
+      "fetchedAt": "2026-10-07T18:33:01.786Z",
+      "status": 200,
+      "contentType": "text/html;charset=utf-8",
+      "finalUrl": "https://www.legislation.gov.uk/ssi/2026/32/made?view=plain",
+      "hash": "796cc67118d4616334d2df805e2c861e3278624129b55f7588b5701380539747",
+      "bytes": 6737
+    },
+    {
+      "file": "ssi-2026-31.html",
+      "url": "https://www.legislation.gov.uk/ssi/2026/31/made?view=plain",
+      "fetchedAt": "2026-10-07T18:33:02.006Z",
+      "status": 200,
+      "contentType": "text/html;charset=utf-8",
+      "finalUrl": "https://www.legislation.gov.uk/ssi/2026/31/made?view=plain",
+      "hash": "4b1ff1ff752957df445f3cfb8e1904bbf9a5931cb4683e1ee7026e1beb202511",
+      "bytes": 216468
+    },
+    {
+      "file": "uksi-2026-31.html",
+      "url": "https://www.legislation.gov.uk/uksi/2026/31/made?view=plain",
+      "fetchedAt": "2026-10-07T18:33:02.948Z",
+      "status": 200,
+      "contentType": "text/html;charset=utf-8",
+      "finalUrl": "https://www.legislation.gov.uk/uksi/2026/31/made?view=plain",
+      "hash": "fcd6aba5218922d09de594b58ac81a28290b8c8b71d3fc475128dbfbda367652",
+      "bytes": 24400
+    },
+    {
+      "file": "ssi-2026-30.html",
+      "url": "https://www.legislation.gov.uk/ssi/2026/30/made?view=plain",
+      "fetchedAt": "2026-10-07T18:33:03.676Z",
+      "status": 200,
+      "contentType": "text/html;charset=utf-8",
+      "finalUrl": "https://www.legislation.gov.uk/ssi/2026/30/made?view=plain",
+      "hash": "04f8d7dd1b92f53f83a00fcc0cbfeb2cc8316a74bbc04e573abc2eda966e39b9",
+      "bytes": 31731
+    },
+    {
+      "file": "uksi-2026-30.html",
+      "url": "https://www.legislation.gov.uk/uksi/2026/30/made?view=plain",
+      "fetchedAt": "2026-10-07T18:33:04.129Z",
+      "status": 200,
+      "contentType": "text/html;charset=utf-8",
+      "finalUrl": "https://www.legislation.gov.uk/uksi/2026/30/made?view=plain",
+      "hash": "2ffa2f3d295a4da2ebc1bc6659d50e27701ac905460f279765a13dfd7adafb5d",
+      "bytes": 14693
+    },
+    {
+      "file": "uksi-2026-29.html",
+      "url": "https://www.legislation.gov.uk/uksi/2026/29/made?view=plain",
+      "fetchedAt": "2026-10-07T18:33:04.186Z",
+      "status": 200,
+      "contentType": "text/html;charset=utf-8",
+      "finalUrl": "https://www.legislation.gov.uk/uksi/2026/29/made?view=plain",
+      "hash": "de28de02d6586b055e40c7befc8f26da4ab11197417b6f3fe744683d8da4929b",
+      "bytes": 11313
+    },
+    {
+      "file": "ssi-2026-29.html",
+      "url": "https://www.legislation.gov.uk/ssi/2026/29/made?view=plain",
+      "fetchedAt": "2026-10-07T18:33:05.251Z",
+      "status": 200,
+      "contentType": "text/html;charset=utf-8",
+      "finalUrl": "https://www.legislation.gov.uk/ssi/2026/29/made?view=plain",
+      "hash": "e0c4461f67b4cb50ea6a28aa1f8136faf7ee39ab1c53d60501a80f24cec365bf",
+      "bytes": 6949
+    },
+    {
+      "file": "uksi-2026-28.html",
+      "url": "https://www.legislation.gov.uk/uksi/2026/28/made?view=plain",
+      "fetchedAt": "2026-10-07T18:33:05.331Z",
+      "status": 200,
+      "contentType": "text/html;charset=utf-8",
+      "finalUrl": "https://www.legislation.gov.uk/uksi/2026/28/made?view=plain",
+      "hash": "ba9be8948edc5a49440845398c6f09b930ed516f132cee234ece874329c7fef0",
+      "bytes": 6789
+    },
+    {
+      "file": "ssi-2026-28.html",
+      "url": "https://www.legislation.gov.uk/ssi/2026/28/made?view=plain",
+      "fetchedAt": "2026-10-07T18:33:06.385Z",
+      "status": 200,
+      "contentType": "text/html;charset=utf-8",
+      "finalUrl": "https://www.legislation.gov.uk/ssi/2026/28/made?view=plain",
+      "hash": "3029026b247405ec3349754b1bb09172743853111f3913d4d4636789212245c9",
+      "bytes": 6949
+    },
+    {
+      "file": "uksi-2026-27.html",
+      "url": "https://www.legislation.gov.uk/uksi/2026/27/made?view=plain",
+      "fetchedAt": "2026-10-07T18:33:06.805Z",
+      "status": 200,
+      "contentType": "text/html;charset=utf-8",
+      "finalUrl": "https://www.legislation.gov.uk/uksi/2026/27/made?view=plain",
+      "hash": "c4b7beadb9d0a703ab5c05550feee13ecec6f50daa23d61a509bcb6668d75508",
+      "bytes": 52833
+    },
+    {
+      "file": "ssi-2026-27.html",
+      "url": "https://www.legislation.gov.uk/ssi/2026/27/made?view=plain",
+      "fetchedAt": "2026-10-07T18:33:07.376Z",
+      "status": 200,
+      "contentType": "text/html;charset=utf-8",
+      "finalUrl": "https://www.legislation.gov.uk/ssi/2026/27/made?view=plain",
+      "hash": "17bb6c39d2a1956a4e11a4e5aa1cd4cd6d3694ca7ad329194c70444beca84388",
+      "bytes": 6949
+    },
+    {
+      "file": "uksi-2026-26.html",
+      "url": "https://www.legislation.gov.uk/uksi/2026/26/made?view=plain",
+      "fetchedAt": "2026-10-07T18:33:08.129Z",
+      "status": 200,
+      "contentType": "text/html;charset=utf-8",
+      "finalUrl": "https://www.legislation.gov.uk/uksi/2026/26/made?view=plain",
+      "hash": "51acc410d430fc53231b73314d6288e96b2748f188bc12bd196e441af2dc4834",
+      "bytes": 6833
+    },
+    {
+      "file": "ssi-2026-26.html",
+      "url": "https://www.legislation.gov.uk/ssi/2026/26/made?view=plain",
+      "fetchedAt": "2026-10-07T18:33:08.382Z",
+      "status": 200,
+      "contentType": "text/html;charset=utf-8",
+      "finalUrl": "https://www.legislation.gov.uk/ssi/2026/26/made?view=plain",
+      "hash": "c1148eb1bde2cd850779470cdb802030a504dd934877570cf0c9ba7440b426c6",
+      "bytes": 6949
+    },
+    {
+      "file": "ssi-2026-25.html",
+      "url": "https://www.legislation.gov.uk/ssi/2026/25/made?view=plain",
+      "fetchedAt": "2026-10-07T18:33:08.416Z",
+      "status": 200,
+      "contentType": "text/html;charset=utf-8",
+      "finalUrl": "https://www.legislation.gov.uk/ssi/2026/25/made?view=plain",
+      "hash": "8d6bab200cb241d509d10977304c93dd35f50d957c7b0d0d674b19e4063cbf38",
+      "bytes": 6725
+    },
+    {
+      "file": "uksi-2026-25.html",
+      "url": "https://www.legislation.gov.uk/uksi/2026/25/made?view=plain",
+      "fetchedAt": "2026-10-07T18:33:09.197Z",
+      "status": 200,
+      "contentType": "text/html;charset=utf-8",
+      "finalUrl": "https://www.legislation.gov.uk/uksi/2026/25/made?view=plain",
+      "hash": "d4fa8d1956ea12f06bcc78d9d89b95484141a768aca1d5696830e455c6328b6b",
+      "bytes": 6893
+    },
+    {
+      "file": "ssi-2026-24.html",
+      "url": "https://www.legislation.gov.uk/ssi/2026/24/made?view=plain",
+      "fetchedAt": "2026-10-07T18:33:09.356Z",
+      "status": 200,
+      "contentType": "text/html;charset=utf-8",
+      "finalUrl": "https://www.legislation.gov.uk/ssi/2026/24/made?view=plain",
+      "hash": "3ec88f4eef723c55feb082dbbfae034748d6b8c85fed3d8684c6eefd05944725",
+      "bytes": 13999
+    },
+    {
+      "file": "uksi-2026-24.html",
+      "url": "https://www.legislation.gov.uk/uksi/2026/24/made?view=plain",
+      "fetchedAt": "2026-10-07T18:33:10.009Z",
+      "status": 200,
+      "contentType": "text/html;charset=utf-8",
+      "finalUrl": "https://www.legislation.gov.uk/uksi/2026/24/made?view=plain",
+      "hash": "3e13da1b377b8dbaab87a86dcfe040c4c0c2e146acb76a6b161a289dcd481c9d",
+      "bytes": 46221
+    },
+    {
+      "file": "ssi-2026-23.html",
+      "url": "https://www.legislation.gov.uk/ssi/2026/23/made?view=plain",
+      "fetchedAt": "2026-10-07T18:33:11.803Z",
+      "status": 200,
+      "contentType": "text/html;charset=utf-8",
+      "finalUrl": "https://www.legislation.gov.uk/ssi/2026/23/made?view=plain",
+      "hash": "86845d578ffb86cdc5e1236f0287c95ffaafb3ef7168d2ca6d90cb679319bed8",
+      "bytes": 19456
+    },
+    {
+      "file": "uksi-2026-23.html",
+      "url": "https://www.legislation.gov.uk/uksi/2026/23/made?view=plain",
+      "fetchedAt": "2026-10-07T18:33:11.825Z",
+      "status": 200,
+      "contentType": "text/html;charset=utf-8",
+      "finalUrl": "https://www.legislation.gov.uk/uksi/2026/23/made?view=plain",
+      "hash": "15f8519deb8ec1287c4446de87ae808cf40964e2998c98ec81547ac5afb37446",
+      "bytes": 28796
+    },
+    {
+      "file": "uksi-2026-22.html",
+      "url": "https://www.legislation.gov.uk/uksi/2026/22/made?view=plain",
+      "fetchedAt": "2026-10-07T18:33:12.367Z",
+      "status": 200,
+      "contentType": "text/html;charset=utf-8",
+      "finalUrl": "https://www.legislation.gov.uk/uksi/2026/22/made?view=plain",
+      "hash": "1588cfac07d3682425b6652f64c2657553e351b12deb28d6124098b9d3e4d9fe",
+      "bytes": 6865
+    },
+    {
+      "file": "ssi-2026-22.html",
+      "url": "https://www.legislation.gov.uk/ssi/2026/22/made?view=plain",
+      "fetchedAt": "2026-10-07T18:33:12.461Z",
+      "status": 200,
+      "contentType": "text/html;charset=utf-8",
+      "finalUrl": "https://www.legislation.gov.uk/ssi/2026/22/made?view=plain",
+      "hash": "fbbf54787929ba15b1d80a1e3ef81cc17bd9097cfb2ddf27b3efeeea931dc33c",
+      "bytes": 6745
+    },
+    {
+      "file": "ssi-2026-21.html",
+      "url": "https://www.legislation.gov.uk/ssi/2026/21/made?view=plain",
+      "fetchedAt": "2026-10-07T18:33:12.949Z",
+      "status": 200,
+      "contentType": "text/html;charset=utf-8",
+      "finalUrl": "https://www.legislation.gov.uk/ssi/2026/21/made?view=plain",
+      "hash": "89b349e7d1a60719425efc93d63fc364965fc847f3b36b582e46cd8ac64d9ccc",
+      "bytes": 11659
+    },
+    {
+      "file": "uksi-2026-21.html",
+      "url": "https://www.legislation.gov.uk/uksi/2026/21/made?view=plain",
+      "fetchedAt": "2026-10-07T18:33:13.387Z",
+      "status": 200,
+      "contentType": "text/html;charset=utf-8",
+      "finalUrl": "https://www.legislation.gov.uk/uksi/2026/21/made?view=plain",
+      "hash": "2eac9dfb5b12aa92de9253c37b81ca23da773b238a80ac0231236301cdd289c1",
+      "bytes": 13628
+    },
+    {
+      "file": "ssi-2026-20.html",
+      "url": "https://www.legislation.gov.uk/ssi/2026/20/made?view=plain",
+      "fetchedAt": "2026-10-07T18:33:13.669Z",
+      "status": 200,
+      "contentType": "text/html;charset=utf-8",
+      "finalUrl": "https://www.legislation.gov.uk/ssi/2026/20/made?view=plain",
+      "hash": "5fb6a1c59f501644ffe3872a4ece461cb85f91ae162cee5aa9f4ca33373cae8d",
+      "bytes": 55815
+    },
+    {
+      "file": "uksi-2026-20.html",
+      "url": "https://www.legislation.gov.uk/uksi/2026/20/made?view=plain",
+      "fetchedAt": "2026-10-07T18:33:14.282Z",
+      "status": 200,
+      "contentType": "text/html;charset=utf-8",
+      "finalUrl": "https://www.legislation.gov.uk/uksi/2026/20/made?view=plain",
+      "hash": "47ab15d80b0f7cf52cea6f3b4762393b78f5474b1bad4409c81f0e00a5b6f3e1",
+      "bytes": 57733
+    },
+    {
+      "file": "ssi-2026-19.html",
+      "url": "https://www.legislation.gov.uk/ssi/2026/19/made?view=plain",
+      "fetchedAt": "2026-10-07T18:33:14.432Z",
+      "status": 200,
+      "contentType": "text/html;charset=utf-8",
+      "finalUrl": "https://www.legislation.gov.uk/ssi/2026/19/made?view=plain",
+      "hash": "c4c130d5f6bae7e8ef462e55c350d8fea9372e4d2a0168813b7be30e82c5fb52",
+      "bytes": 12950
+    },
+    {
+      "file": "uksi-2026-19.html",
+      "url": "https://www.legislation.gov.uk/uksi/2026/19/made?view=plain",
+      "fetchedAt": "2026-10-07T18:33:14.609Z",
+      "status": 200,
+      "contentType": "text/html;charset=utf-8",
+      "finalUrl": "https://www.legislation.gov.uk/uksi/2026/19/made?view=plain",
+      "hash": "2b06309867c5ab0410d1e8e1ff1de82f28c21b8188af4db0e1e8ee520cb76733",
+      "bytes": 15717
+    },
+    {
+      "file": "ssi-2026-18.html",
+      "url": "https://www.legislation.gov.uk/ssi/2026/18/made?view=plain",
+      "fetchedAt": "2026-10-07T18:33:15.254Z",
+      "status": 200,
+      "contentType": "text/html;charset=utf-8",
+      "finalUrl": "https://www.legislation.gov.uk/ssi/2026/18/made?view=plain",
+      "hash": "ccbdf8c21ecbda1f69d9ce19ee6abedcc6aa6c001784de46b48c13475a3efa55",
+      "bytes": 15084
+    },
+    {
+      "file": "uksi-2026-18.html",
+      "url": "https://www.legislation.gov.uk/uksi/2026/18/made?view=plain",
+      "fetchedAt": "2026-10-07T18:33:15.551Z",
+      "status": 200,
+      "contentType": "text/html;charset=utf-8",
+      "finalUrl": "https://www.legislation.gov.uk/uksi/2026/18/made?view=plain",
+      "hash": "2da9f7cd520abec328c7c0371c88c64d0ba7fd95884904f6ad3ea50ec2d50364",
+      "bytes": 13378
+    },
+    {
+      "file": "wsi-2026-17.html",
+      "url": "https://www.legislation.gov.uk/wsi/2026/17/made?view=plain",
+      "fetchedAt": "2026-10-07T18:33:16.222Z",
+      "status": 200,
+      "contentType": "text/html;charset=utf-8",
+      "finalUrl": "https://www.legislation.gov.uk/wsi/2026/17/made?view=plain",
+      "hash": "a3401e8918e434c0dee0fa19877a1cf7ff3d96eb7ce7fbd16d34d8096e020a30",
+      "bytes": 47365
+    },
+    {
+      "file": "ssi-2026-17.html",
+      "url": "https://www.legislation.gov.uk/ssi/2026/17/made?view=plain",
+      "fetchedAt": "2026-10-07T18:33:16.291Z",
+      "status": 200,
+      "contentType": "text/html;charset=utf-8",
+      "finalUrl": "https://www.legislation.gov.uk/ssi/2026/17/made?view=plain",
+      "hash": "b9623acf28716c5800dc170db0c38468be6e594e19784f43e54c39ae2af8c5e0",
+      "bytes": 13398
+    },
+    {
+      "file": "uksi-2026-17.html",
+      "url": "https://www.legislation.gov.uk/uksi/2026/17/made?view=plain",
+      "fetchedAt": "2026-10-07T18:33:16.292Z",
+      "status": 200,
+      "contentType": "text/html;charset=utf-8",
+      "finalUrl": "https://www.legislation.gov.uk/uksi/2026/17/made?view=plain",
+      "hash": "98ed3c82518bf9e2e32bd5b58519f5012ca587c76c77942edd2508b00382a738",
+      "bytes": 16979
+    },
+    {
+      "file": "wsi-2026-16.html",
+      "url": "https://www.legislation.gov.uk/wsi/2026/16/made?view=plain",
+      "fetchedAt": "2026-10-07T18:33:16.786Z",
+      "status": 200,
+      "contentType": "text/html;charset=utf-8",
+      "finalUrl": "https://www.legislation.gov.uk/wsi/2026/16/made?view=plain",
+      "hash": "24d5dea02971f3f15484accccf5b8a12468f315ed7b48365d81ce41d5882d841",
+      "bytes": 34220
+    },
+    {
+      "file": "ssi-2026-16.html",
+      "url": "https://www.legislation.gov.uk/ssi/2026/16/made?view=plain",
+      "fetchedAt": "2026-10-07T18:33:16.798Z",
+      "status": 200,
+      "contentType": "text/html;charset=utf-8",
+      "finalUrl": "https://www.legislation.gov.uk/ssi/2026/16/made?view=plain",
+      "hash": "c4df66cd3b77a972f21e9150ca3523a94ddc9522f1f8aaeadfa0b1f7b4db03a2",
+      "bytes": 6797
+    },
+    {
+      "file": "uksi-2026-16.html",
+      "url": "https://www.legislation.gov.uk/uksi/2026/16/made?view=plain",
+      "fetchedAt": "2026-10-07T18:33:17.287Z",
+      "status": 200,
+      "contentType": "text/html;charset=utf-8",
+      "finalUrl": "https://www.legislation.gov.uk/uksi/2026/16/made?view=plain",
+      "hash": "8c97d9b2026f5264931af442e793688aa082c311fab9119325381d950cf45c2c",
+      "bytes": 6697
+    },
+    {
+      "file": "wsi-2026-15.html",
+      "url": "https://www.legislation.gov.uk/wsi/2026/15/made?view=plain",
+      "fetchedAt": "2026-10-07T18:33:17.626Z",
+      "status": 200,
+      "contentType": "text/html;charset=utf-8",
+      "finalUrl": "https://www.legislation.gov.uk/wsi/2026/15/made?view=plain",
+      "hash": "3bf7689a2570b71a39298c60c634539e2c2278eef4bf13166fd6b4c91d1d7b4c",
+      "bytes": 51978
+    },
+    {
+      "file": "uksi-2026-15.html",
+      "url": "https://www.legislation.gov.uk/uksi/2026/15/made?view=plain",
+      "fetchedAt": "2026-10-07T18:33:17.710Z",
+      "status": 200,
+      "contentType": "text/html;charset=utf-8",
+      "finalUrl": "https://www.legislation.gov.uk/uksi/2026/15/made?view=plain",
+      "hash": "c39951cc4236e64c226a641bffc22314622bdab6a9b764ac3337933857740533",
+      "bytes": 41529
+    },
+    {
+      "file": "ssi-2026-15.html",
+      "url": "https://www.legislation.gov.uk/ssi/2026/15/made?view=plain",
+      "fetchedAt": "2026-10-07T18:33:18.104Z",
+      "status": 200,
+      "contentType": "text/html;charset=utf-8",
+      "finalUrl": "https://www.legislation.gov.uk/ssi/2026/15/made?view=plain",
+      "hash": "181a1e905dd97a1de89f920785239845cd32b09bce925baecf4e3efbe4ad1934",
+      "bytes": 6749
+    },
+    {
+      "file": "wsi-2026-14.html",
+      "url": "https://www.legislation.gov.uk/wsi/2026/14/made?view=plain",
+      "fetchedAt": "2026-10-07T18:33:18.318Z",
+      "status": 200,
+      "contentType": "text/html;charset=utf-8",
+      "finalUrl": "https://www.legislation.gov.uk/wsi/2026/14/made?view=plain",
+      "hash": "92bc7b393719e11a62318d2b327722f5669120b3131dfb36f2f14f3cdeb9f6bd",
+      "bytes": 9747
+    },
+    {
+      "file": "uksi-2026-14.html",
+      "url": "https://www.legislation.gov.uk/uksi/2026/14/made?view=plain",
+      "fetchedAt": "2026-10-07T18:33:18.527Z",
+      "status": 200,
+      "contentType": "text/html;charset=utf-8",
+      "finalUrl": "https://www.legislation.gov.uk/uksi/2026/14/made?view=plain",
+      "hash": "9ef979513786c6472ff7979effe1256b536b709e78b3bcfd45f0a4afb5087241",
+      "bytes": 17248
+    },
+    {
+      "file": "ssi-2026-14.html",
+      "url": "https://www.legislation.gov.uk/ssi/2026/14/made?view=plain",
+      "fetchedAt": "2026-10-07T18:33:18.909Z",
+      "status": 200,
+      "contentType": "text/html;charset=utf-8",
+      "finalUrl": "https://www.legislation.gov.uk/ssi/2026/14/made?view=plain",
+      "hash": "537a49062f2d79949efe882a3a174435f79dafcafe634039fcc3f7df355885fc",
+      "bytes": 6801
+    },
+    {
+      "file": "wsi-2026-13.html",
+      "url": "https://www.legislation.gov.uk/wsi/2026/13/made?view=plain",
+      "fetchedAt": "2026-10-07T18:33:19.063Z",
+      "status": 200,
+      "contentType": "text/html;charset=utf-8",
+      "finalUrl": "https://www.legislation.gov.uk/wsi/2026/13/made?view=plain",
+      "hash": "e4a19c42cde1c325e3218208f3fd4d5f4d365111fab57b3b16e4771f4f5479a7",
+      "bytes": 117270
+    },
+    {
+      "file": "ssi-2026-13.html",
+      "url": "https://www.legislation.gov.uk/ssi/2026/13/made?view=plain",
+      "fetchedAt": "2026-10-07T18:33:19.091Z",
+      "status": 200,
+      "contentType": "text/html;charset=utf-8",
+      "finalUrl": "https://www.legislation.gov.uk/ssi/2026/13/made?view=plain",
+      "hash": "22292ed335daf28c1ed0d84bc2fcd789a4bf6a3d7dea8d2eab3c2ad869191b28",
+      "bytes": 68038
+    },
+    {
+      "file": "uksi-2026-13.html",
+      "url": "https://www.legislation.gov.uk/uksi/2026/13/made?view=plain",
+      "fetchedAt": "2026-10-07T18:33:19.603Z",
+      "status": 200,
+      "contentType": "text/html;charset=utf-8",
+      "finalUrl": "https://www.legislation.gov.uk/uksi/2026/13/made?view=plain",
+      "hash": "88b367a0b00d01c796a57953a763a9f5cf780ff2b8b0a341f7f6b7902f117b5d",
+      "bytes": 11935
+    },
+    {
+      "file": "wsi-2026-12.html",
+      "url": "https://www.legislation.gov.uk/wsi/2026/12/made?view=plain",
+      "fetchedAt": "2026-10-07T18:33:19.678Z",
+      "status": 200,
+      "contentType": "text/html;charset=utf-8",
+      "finalUrl": "https://www.legislation.gov.uk/wsi/2026/12/made?view=plain",
+      "hash": "ee5558b1362367914b43a22ebf2e80b6cbde4b656d613e5bcbfdbd27d426bf06",
+      "bytes": 28537
+    },
+    {
+      "file": "uksi-2026-12.html",
+      "url": "https://www.legislation.gov.uk/uksi/2026/12/made?view=plain",
+      "fetchedAt": "2026-10-07T18:33:20.106Z",
+      "status": 200,
+      "contentType": "text/html;charset=utf-8",
+      "finalUrl": "https://www.legislation.gov.uk/uksi/2026/12/made?view=plain",
+      "hash": "cc8b71c1ccf457cd3a9ee5e8d0bb1e5210ec198dde95c8aba448b49cab4608d5",
+      "bytes": 17300
+    },
+    {
+      "file": "ssi-2026-12.html",
+      "url": "https://www.legislation.gov.uk/ssi/2026/12/made?view=plain",
+      "fetchedAt": "2026-10-07T18:33:20.190Z",
+      "status": 200,
+      "contentType": "text/html;charset=utf-8",
+      "finalUrl": "https://www.legislation.gov.uk/ssi/2026/12/made?view=plain",
+      "hash": "b07c06083499e623b3521ca1b665e7637b5106d248ab37ebe0d1fa4ed473eb25",
+      "bytes": 6729
+    },
+    {
+      "file": "wsi-2026-11.html",
+      "url": "https://www.legislation.gov.uk/wsi/2026/11/made?view=plain",
+      "fetchedAt": "2026-10-07T18:33:20.407Z",
+      "status": 200,
+      "contentType": "text/html;charset=utf-8",
+      "finalUrl": "https://www.legislation.gov.uk/wsi/2026/11/made?view=plain",
+      "hash": "62ff3a6568d4e88c1c49ae01476d86a25966ed6acfec5224509b2fafe1576bc6",
+      "bytes": 115165
+    },
+    {
+      "file": "ssi-2026-11.html",
+      "url": "https://www.legislation.gov.uk/ssi/2026/11/made?view=plain",
+      "fetchedAt": "2026-10-07T18:33:20.633Z",
+      "status": 200,
+      "contentType": "text/html;charset=utf-8",
+      "finalUrl": "https://www.legislation.gov.uk/ssi/2026/11/made?view=plain",
+      "hash": "c24aeca542511924904bf1acfd961df49f46f5a22a1fc71ee348be64f4f32ee8",
+      "bytes": 15313
+    },
+    {
+      "file": "uksi-2026-11.html",
+      "url": "https://www.legislation.gov.uk/uksi/2026/11/made?view=plain",
+      "fetchedAt": "2026-10-07T18:33:20.764Z",
+      "status": 200,
+      "contentType": "text/html;charset=utf-8",
+      "finalUrl": "https://www.legislation.gov.uk/uksi/2026/11/made?view=plain",
+      "hash": "4a11d297ecbc33e4e883457ed885cfe2bd93f74776a40e4f35a3f7a153c60533",
+      "bytes": 18635
+    },
+    {
+      "file": "ssi-2026-10.html",
+      "url": "https://www.legislation.gov.uk/ssi/2026/10/made?view=plain",
+      "fetchedAt": "2026-10-07T18:33:21.135Z",
+      "status": 200,
+      "contentType": "text/html;charset=utf-8",
+      "finalUrl": "https://www.legislation.gov.uk/ssi/2026/10/made?view=plain",
+      "hash": "84132bb71c8037343d094a21a6c6ae39ab8f1fb50d7f0e46cf896985402a60ea",
+      "bytes": 31680
+    },
+    {
+      "file": "uksi-2026-10.html",
+      "url": "https://www.legislation.gov.uk/uksi/2026/10/made?view=plain",
+      "fetchedAt": "2026-10-07T18:33:21.233Z",
+      "status": 200,
+      "contentType": "text/html;charset=utf-8",
+      "finalUrl": "https://www.legislation.gov.uk/uksi/2026/10/made?view=plain",
+      "hash": "7fc9ad0706f72e92904413e63d9602dd1d65a5844438416ca82db97ebe1cf07a",
+      "bytes": 16072
+    },
+    {
+      "file": "nisr-2026-9.html",
+      "url": "https://www.legislation.gov.uk/nisr/2026/9/made?view=plain",
+      "fetchedAt": "2026-10-07T18:33:21.242Z",
+      "status": 200,
+      "contentType": "text/html;charset=utf-8",
+      "finalUrl": "https://www.legislation.gov.uk/nisr/2026/9/made?view=plain",
+      "hash": "61217b0b8135f9eb4b97d05ce7583bd60aaf8f6d1f165df39837b30181392eaa",
+      "bytes": 21446
+    },
+    {
+      "file": "ssi-2026-9.html",
+      "url": "https://www.legislation.gov.uk/ssi/2026/9/made?view=plain",
+      "fetchedAt": "2026-10-07T18:33:21.465Z",
+      "status": 200,
+      "contentType": "text/html;charset=utf-8",
+      "finalUrl": "https://www.legislation.gov.uk/ssi/2026/9/made?view=plain",
+      "hash": "b68d7a51fdee12c36c0e3b486cce242cb4043947a97d0599ed5df7d7a6a6929e",
+      "bytes": 12908
+    },
+    {
+      "file": "uksi-2026-9.html",
+      "url": "https://www.legislation.gov.uk/uksi/2026/9/made?view=plain",
+      "fetchedAt": "2026-10-07T18:33:21.682Z",
+      "status": 200,
+      "contentType": "text/html;charset=utf-8",
+      "finalUrl": "https://www.legislation.gov.uk/uksi/2026/9/made?view=plain",
+      "hash": "2c2de926b2f0623c1fc4f8c39c6a67699255b2c4ec5da6d0dd2656e09db8ee7b",
+      "bytes": 16778
+    },
+    {
+      "file": "wsi-2026-8.html",
+      "url": "https://www.legislation.gov.uk/wsi/2026/8/made?view=plain",
+      "fetchedAt": "2026-10-07T18:33:21.921Z",
+      "status": 200,
+      "contentType": "text/html;charset=utf-8",
+      "finalUrl": "https://www.legislation.gov.uk/wsi/2026/8/made?view=plain",
+      "hash": "72a25a8a5b875c12ce42a6f7364b4e12249a7791b520cfa503e7da544a0cb310",
+      "bytes": 219264
+    },
+    {
+      "file": "nisr-2026-8.html",
+      "url": "https://www.legislation.gov.uk/nisr/2026/8/made?view=plain",
+      "fetchedAt": "2026-10-07T18:33:22.034Z",
+      "status": 200,
+      "contentType": "text/html;charset=utf-8",
+      "finalUrl": "https://www.legislation.gov.uk/nisr/2026/8/made?view=plain",
+      "hash": "c6ea29be4d2434b5be931ab85ee9007b1714934dfe8079544efaab0919f8263d",
+      "bytes": 19885
+    },
+    {
+      "file": "uksi-2026-8.html",
+      "url": "https://www.legislation.gov.uk/uksi/2026/8/made?view=plain",
+      "fetchedAt": "2026-10-07T18:33:22.228Z",
+      "status": 200,
+      "contentType": "text/html;charset=utf-8",
+      "finalUrl": "https://www.legislation.gov.uk/uksi/2026/8/made?view=plain",
+      "hash": "9c67a754ef65cb080fb39a93d1ce92933487993ad658b12fb75bd39db33e11da",
+      "bytes": 15278
+    },
+    {
+      "file": "ssi-2026-8.html",
+      "url": "https://www.legislation.gov.uk/ssi/2026/8/made?view=plain",
+      "fetchedAt": "2026-10-07T18:33:22.539Z",
+      "status": 200,
+      "contentType": "text/html;charset=utf-8",
+      "finalUrl": "https://www.legislation.gov.uk/ssi/2026/8/made?view=plain",
+      "hash": "f130203e1a74b34a26bb988d9decdce6c5b894172a5f7e6e412728c3f2233ab7",
+      "bytes": 12133
+    },
+    {
+      "file": "wsi-2026-7.html",
+      "url": "https://www.legislation.gov.uk/wsi/2026/7/made?view=plain",
+      "fetchedAt": "2026-10-07T18:33:22.674Z",
+      "status": 200,
+      "contentType": "text/html;charset=utf-8",
+      "finalUrl": "https://www.legislation.gov.uk/wsi/2026/7/made?view=plain",
+      "hash": "c85bea25a060f3a77df7fd8bddc9da2a65c6c4253c37723f85a3c8fb1e6c7218",
+      "bytes": 20278
+    },
+    {
+      "file": "nisr-2026-7.html",
+      "url": "https://www.legislation.gov.uk/nisr/2026/7/made?view=plain",
+      "fetchedAt": "2026-10-07T18:33:22.719Z",
+      "status": 200,
+      "contentType": "text/html;charset=utf-8",
+      "finalUrl": "https://www.legislation.gov.uk/nisr/2026/7/made?view=plain",
+      "hash": "f88f7b34bd14e4d5ceb51f5509781a5c2c9d2ee3a6fea85c53559430e4a62d73",
+      "bytes": 21353
+    },
+    {
+      "file": "ssi-2026-7.html",
+      "url": "https://www.legislation.gov.uk/ssi/2026/7/made?view=plain",
+      "fetchedAt": "2026-10-07T18:33:22.975Z",
+      "status": 200,
+      "contentType": "text/html;charset=utf-8",
+      "finalUrl": "https://www.legislation.gov.uk/ssi/2026/7/made?view=plain",
+      "hash": "6f8a06adf56c7b0b46d2650342d1b71df4d9e3367c2f23d3375c0f9efe34c733",
+      "bytes": 58464
+    },
+    {
+      "file": "uksi-2026-7.html",
+      "url": "https://www.legislation.gov.uk/uksi/2026/7/made?view=plain",
+      "fetchedAt": "2026-10-07T18:33:23.242Z",
+      "status": 200,
+      "contentType": "text/html;charset=utf-8",
+      "finalUrl": "https://www.legislation.gov.uk/uksi/2026/7/made?view=plain",
+      "hash": "f25099eec0942e573b158ea302cc3cc8c0e1f6c4d1be691a58e0d93e5288545f",
+      "bytes": 91053
+    },
+    {
+      "file": "wsi-2026-6.html",
+      "url": "https://www.legislation.gov.uk/wsi/2026/6/made?view=plain",
+      "fetchedAt": "2026-10-07T18:33:23.647Z",
+      "status": 200,
+      "contentType": "text/html;charset=utf-8",
+      "finalUrl": "https://www.legislation.gov.uk/wsi/2026/6/made?view=plain",
+      "hash": "f7968fd45339bac9e2a93ffc60a15e1b0d4bd549d5b6183c1dea7c992f6dea06",
+      "bytes": 12456
+    },
+    {
+      "file": "wsi-2026-5.html",
+      "url": "https://www.legislation.gov.uk/wsi/2026/5/made?view=plain",
+      "fetchedAt": "2026-10-07T18:33:23.677Z",
+      "status": 200,
+      "contentType": "text/html;charset=utf-8",
+      "finalUrl": "https://www.legislation.gov.uk/wsi/2026/5/made?view=plain",
+      "hash": "961d9549c114e779c140e26e94738f479a1569bdc717b82451070101ab5c3d77",
+      "bytes": 12070
+    },
+    {
+      "file": "nisr-2026-5.html",
+      "url": "https://www.legislation.gov.uk/nisr/2026/5/made?view=plain",
+      "fetchedAt": "2026-10-07T18:33:23.846Z",
+      "status": 200,
+      "contentType": "text/html;charset=utf-8",
+      "finalUrl": "https://www.legislation.gov.uk/nisr/2026/5/made?view=plain",
+      "hash": "202d70df33873ab77ff4fb026f1ec57ca5b1dbb691eda15109decb3f6d98331c",
+      "bytes": 72505
+    },
+    {
+      "file": "uksi-2026-5.html",
+      "url": "https://www.legislation.gov.uk/uksi/2026/5/made?view=plain",
+      "fetchedAt": "2026-10-07T18:33:24.090Z",
+      "status": 200,
+      "contentType": "text/html;charset=utf-8",
+      "finalUrl": "https://www.legislation.gov.uk/uksi/2026/5/made?view=plain",
+      "hash": "9bf8cdacf7a3ed558a7d37a29129c83a0e170788bc7043c11deab3f275254d22",
+      "bytes": 16521
+    },
+    {
+      "file": "ssi-2026-5.html",
+      "url": "https://www.legislation.gov.uk/ssi/2026/5/made?view=plain",
+      "fetchedAt": "2026-10-07T18:33:24.183Z",
+      "status": 200,
+      "contentType": "text/html;charset=utf-8",
+      "finalUrl": "https://www.legislation.gov.uk/ssi/2026/5/made?view=plain",
+      "hash": "53b1a8be6fcf4efa4d11810bfe0d7e62b6b51d20695758753251ab6b31d550c7",
+      "bytes": 6711
+    },
+    {
+      "file": "wsi-2026-4.html",
+      "url": "https://www.legislation.gov.uk/wsi/2026/4/made?view=plain",
+      "fetchedAt": "2026-10-07T18:33:24.540Z",
+      "status": 200,
+      "contentType": "text/html;charset=utf-8",
+      "finalUrl": "https://www.legislation.gov.uk/wsi/2026/4/made?view=plain",
+      "hash": "8d3889a4c667ca7b655549dc94ebfbc911e8ef5bb335a014417e08265dcbd956",
+      "bytes": 14735
+    },
+    {
+      "file": "ssi-2026-4.html",
+      "url": "https://www.legislation.gov.uk/ssi/2026/4/made?view=plain",
+      "fetchedAt": "2026-10-07T18:33:24.548Z",
+      "status": 200,
+      "contentType": "text/html;charset=utf-8",
+      "finalUrl": "https://www.legislation.gov.uk/ssi/2026/4/made?view=plain",
+      "hash": "aee7bbafa7031a270db019b2976222eb5df6575c39c7c8296bf330bfe0dd9c2f",
+      "bytes": 19359
+    },
+    {
+      "file": "nisr-2026-4.html",
+      "url": "https://www.legislation.gov.uk/nisr/2026/4/made?view=plain",
+      "fetchedAt": "2026-10-07T18:33:24.628Z",
+      "status": 200,
+      "contentType": "text/html;charset=utf-8",
+      "finalUrl": "https://www.legislation.gov.uk/nisr/2026/4/made?view=plain",
+      "hash": "a71d31f0c5daa6a28eada5aed2d16d64799f2ca0483f41cd6369eef2c3fbb32f",
+      "bytes": 26627
+    },
+    {
+      "file": "uksi-2026-4.html",
+      "url": "https://www.legislation.gov.uk/uksi/2026/4/made?view=plain",
+      "fetchedAt": "2026-10-07T18:33:24.991Z",
+      "status": 200,
+      "contentType": "text/html;charset=utf-8",
+      "finalUrl": "https://www.legislation.gov.uk/uksi/2026/4/made?view=plain",
+      "hash": "8e20966448ee0e7cd319f0c2181cb2ee157104db875c02f2174c10d58efb23bf",
+      "bytes": 15680
+    },
+    {
+      "file": "nisr-2026-3.html",
+      "url": "https://www.legislation.gov.uk/nisr/2026/3/made?view=plain",
+      "fetchedAt": "2026-10-07T18:33:25.055Z",
+      "status": 200,
+      "contentType": "text/html;charset=utf-8",
+      "finalUrl": "https://www.legislation.gov.uk/nisr/2026/3/made?view=plain",
+      "hash": "b708e45f552c201859ac43d36fdd7d07850af56f32dc3bba7104a8275bdbbf79",
+      "bytes": 13124
+    },
+    {
+      "file": "ssi-2026-3.html",
+      "url": "https://www.legislation.gov.uk/ssi/2026/3/made?view=plain",
+      "fetchedAt": "2026-10-07T18:33:25.087Z",
+      "status": 200,
+      "contentType": "text/html;charset=utf-8",
+      "finalUrl": "https://www.legislation.gov.uk/ssi/2026/3/made?view=plain",
+      "hash": "e4d3cd032626191f2453f85cc959b7ca4c25ade53dcb6cf1adff57c9cf361355",
+      "bytes": 13940
+    },
+    {
+      "file": "uksi-2026-3.html",
+      "url": "https://www.legislation.gov.uk/uksi/2026/3/made?view=plain",
+      "fetchedAt": "2026-10-07T18:33:25.443Z",
+      "status": 200,
+      "contentType": "text/html;charset=utf-8",
+      "finalUrl": "https://www.legislation.gov.uk/uksi/2026/3/made?view=plain",
+      "hash": "ee4997524e9e0dcf330ebe8e19945849102d49947ced67af0a2e72f1ccc0cfa5",
+      "bytes": 114355
+    },
+    {
+      "file": "wsi-2026-2.html",
+      "url": "https://www.legislation.gov.uk/wsi/2026/2/made?view=plain",
+      "fetchedAt": "2026-10-07T18:33:25.478Z",
+      "status": 200,
+      "contentType": "text/html;charset=utf-8",
+      "finalUrl": "https://www.legislation.gov.uk/wsi/2026/2/made?view=plain",
+      "hash": "52c66370f4dbd6503a70a83058736082ad6d776210743134de5265559c854242",
+      "bytes": 35455
+    },
+    {
+      "file": "nisr-2026-2.html",
+      "url": "https://www.legislation.gov.uk/nisr/2026/2/made?view=plain",
+      "fetchedAt": "2026-10-07T18:33:25.516Z",
+      "status": 200,
+      "contentType": "text/html;charset=utf-8",
+      "finalUrl": "https://www.legislation.gov.uk/nisr/2026/2/made?view=plain",
+      "hash": "7cd5abb1a4648a025e38d3399a1a5a9ec1b33d6231098b6fc6733190448c9429",
+      "bytes": 18728
+    },
+    {
+      "file": "ssi-2026-2.html",
+      "url": "https://www.legislation.gov.uk/ssi/2026/2/made?view=plain",
+      "fetchedAt": "2026-10-07T18:33:25.952Z",
+      "status": 200,
+      "contentType": "text/html;charset=utf-8",
+      "finalUrl": "https://www.legislation.gov.uk/ssi/2026/2/made?view=plain",
+      "hash": "266a4bfc957c3ff4aade6ea64a860410e3913f509fdc0563ff052f4f0f3fdd87",
+      "bytes": 56174
+    },
+    {
+      "file": "uksi-2026-2.html",
+      "url": "https://www.legislation.gov.uk/uksi/2026/2/made?view=plain",
+      "fetchedAt": "2026-10-07T18:33:25.954Z",
+      "status": 200,
+      "contentType": "text/html;charset=utf-8",
+      "finalUrl": "https://www.legislation.gov.uk/uksi/2026/2/made?view=plain",
+      "hash": "64aa66288d7b302e972235d219b89e2e42482905001147cc3d8277344b9ece27",
+      "bytes": 12397
+    },
+    {
+      "file": "nisr-2026-1.html",
+      "url": "https://www.legislation.gov.uk/nisr/2026/1/made?view=plain",
+      "fetchedAt": "2026-10-07T18:33:26.103Z",
+      "status": 200,
+      "contentType": "text/html;charset=utf-8",
+      "finalUrl": "https://www.legislation.gov.uk/nisr/2026/1/made?view=plain",
+      "hash": "3a627616987e7c126674cc20e6cdf2136bd96ac0d52175e957551f476b2bf4c3",
+      "bytes": 12319
+    },
+    {
+      "file": "wsi-2026-1.html",
+      "url": "https://www.legislation.gov.uk/wsi/2026/1/made?view=plain",
+      "fetchedAt": "2026-10-07T18:33:26.130Z",
+      "status": 200,
+      "contentType": "text/html;charset=utf-8",
+      "finalUrl": "https://www.legislation.gov.uk/wsi/2026/1/made?view=plain",
+      "hash": "56f9543a7bdce5ca4cbab1161aa3b55e0688c90ac1da2c5790acc015690e9a25",
+      "bytes": 16225
+    },
+    {
+      "file": "ssi-2026-1.html",
+      "url": "https://www.legislation.gov.uk/ssi/2026/1/made?view=plain",
+      "fetchedAt": "2026-10-07T18:33:26.379Z",
+      "status": 200,
+      "contentType": "text/html;charset=utf-8",
+      "finalUrl": "https://www.legislation.gov.uk/ssi/2026/1/made?view=plain",
+      "hash": "cbbc01710488e8f115b4a585efc209b9e95c1e9c304280058b0b7486b1430b4d",
+      "bytes": 17111
+    },
+    {
+      "file": "uksi-2026-76.pdf",
+      "url": "https://www.legislation.gov.uk/uksi/2026/76/pdfs/uksi_20260076_en.pdf",
+      "fetchedAt": "2026-10-07T18:34:37.928Z",
+      "status": 200,
+      "contentType": "application/pdf",
+      "finalUrl": "https://www.legislation.gov.uk/uksi/2026/76/pdfs/uksi_20260076_en.pdf",
+      "hash": "7f316a1dac5c6512e26c35e210e302e428bee2cf13a476b07ef5d2ddb80482db",
+      "bytes": 151170
+    },
+    {
+      "file": "uksi-2026-70.pdf",
+      "url": "https://www.legislation.gov.uk/uksi/2026/70/pdfs/uksi_20260070_en.pdf",
+      "fetchedAt": "2026-10-07T18:34:37.928Z",
+      "status": 200,
+      "contentType": "application/pdf",
+      "finalUrl": "https://www.legislation.gov.uk/uksi/2026/70/pdfs/uksi_20260070_en.pdf",
+      "hash": "e98ba1850a7e0c3960aa25170b158aafcc3dc324b2db2793dc1b4f9f54701cd3",
+      "bytes": 26345
+    },
+    {
+      "file": "uksi-2026-69.pdf",
+      "url": "https://www.legislation.gov.uk/uksi/2026/69/pdfs/uksi_20260069_en.pdf",
+      "fetchedAt": "2026-10-07T18:34:37.928Z",
+      "status": 200,
+      "contentType": "application/pdf",
+      "finalUrl": "https://www.legislation.gov.uk/uksi/2026/69/pdfs/uksi_20260069_en.pdf",
+      "hash": "7f1c83824bc0364900ce56dcda6798adf06c238210c337befcf290e0cbf8a080",
+      "bytes": 26166
+    },
+    {
+      "file": "uksi-2026-68.pdf",
+      "url": "https://www.legislation.gov.uk/uksi/2026/68/pdfs/uksi_20260068_en.pdf",
+      "fetchedAt": "2026-10-07T18:34:38.112Z",
+      "status": 200,
+      "contentType": "application/pdf",
+      "finalUrl": "https://www.legislation.gov.uk/uksi/2026/68/pdfs/uksi_20260068_en.pdf",
+      "hash": "67433e7efed2c562567f35a24ab546196d828eced14afd151b8f525464ac4ac3",
+      "bytes": 25682
+    },
+    {
+      "file": "uksi-2026-67.pdf",
+      "url": "https://www.legislation.gov.uk/uksi/2026/67/pdfs/uksi_20260067_en.pdf",
+      "fetchedAt": "2026-10-07T18:34:38.117Z",
+      "status": 200,
+      "contentType": "application/pdf",
+      "finalUrl": "https://www.legislation.gov.uk/uksi/2026/67/pdfs/uksi_20260067_en.pdf",
+      "hash": "7da1d526377707916f1291e8b11b5e86b409556783744f28384e0aa959b5c832",
+      "bytes": 26142
+    },
+    {
+      "file": "uksi-2026-65.pdf",
+      "url": "https://www.legislation.gov.uk/uksi/2026/65/pdfs/uksi_20260065_en.pdf",
+      "fetchedAt": "2026-10-07T18:34:38.163Z",
+      "status": 200,
+      "contentType": "application/pdf",
+      "finalUrl": "https://www.legislation.gov.uk/uksi/2026/65/pdfs/uksi_20260065_en.pdf",
+      "hash": "b8612a6e46207c54af457089fe0f6b04917260c4d5202462e6520a29f8f79df5",
+      "bytes": 25843
+    },
+    {
+      "file": "uksi-2026-64.pdf",
+      "url": "https://www.legislation.gov.uk/uksi/2026/64/pdfs/uksi_20260064_en.pdf",
+      "fetchedAt": "2026-10-07T18:34:38.252Z",
+      "status": 200,
+      "contentType": "application/pdf",
+      "finalUrl": "https://www.legislation.gov.uk/uksi/2026/64/pdfs/uksi_20260064_en.pdf",
+      "hash": "4bb5f92b302f0225665f26eec21a7e25b492dcbbe272a27581b4a6fd5ff569f5",
+      "bytes": 47880
+    },
+    {
+      "file": "uksi-2026-63.pdf",
+      "url": "https://www.legislation.gov.uk/uksi/2026/63/pdfs/uksi_20260063_en.pdf",
+      "fetchedAt": "2026-10-07T18:34:38.294Z",
+      "status": 200,
+      "contentType": "application/pdf",
+      "finalUrl": "https://www.legislation.gov.uk/uksi/2026/63/pdfs/uksi_20260063_en.pdf",
+      "hash": "31cf0a0b144427067dfa4e5230d73c9aed14196d3407b0e52a6306210816eba0",
+      "bytes": 21751
+    },
+    {
+      "file": "uksi-2026-58.pdf",
+      "url": "https://www.legislation.gov.uk/uksi/2026/58/pdfs/uksi_20260058_en.pdf",
+      "fetchedAt": "2026-10-07T18:34:38.309Z",
+      "status": 200,
+      "contentType": "application/pdf",
+      "finalUrl": "https://www.legislation.gov.uk/uksi/2026/58/pdfs/uksi_20260058_en.pdf",
+      "hash": "c431c01ee72e09c4f6bd940ca62c4f0db87eb87b4a4431e697b68e448cc9ca4a",
+      "bytes": 23832
+    },
+    {
+      "file": "uksi-2026-56.pdf",
+      "url": "https://www.legislation.gov.uk/uksi/2026/56/pdfs/uksi_20260056_en.pdf",
+      "fetchedAt": "2026-10-07T18:34:38.391Z",
+      "status": 200,
+      "contentType": "application/pdf",
+      "finalUrl": "https://www.legislation.gov.uk/uksi/2026/56/pdfs/uksi_20260056_en.pdf",
+      "hash": "24011ff12368387c744fa48b2d159c68950e9b49f2e615ecaa826f33c8d9dfc2",
+      "bytes": 21459
+    },
+    {
+      "file": "uksi-2026-54.pdf",
+      "url": "https://www.legislation.gov.uk/uksi/2026/54/pdfs/uksi_20260054_en.pdf",
+      "fetchedAt": "2026-10-07T18:34:38.446Z",
+      "status": 200,
+      "contentType": "application/pdf",
+      "finalUrl": "https://www.legislation.gov.uk/uksi/2026/54/pdfs/uksi_20260054_en.pdf",
+      "hash": "bc032e3be7d69f5cd7cb1e1cf157566aac2304a6a9ebb374efe174c9b9e04028",
+      "bytes": 26258
+    },
+    {
+      "file": "uksi-2026-52.pdf",
+      "url": "https://www.legislation.gov.uk/uksi/2026/52/pdfs/uksi_20260052_en.pdf",
+      "fetchedAt": "2026-10-07T18:34:38.452Z",
+      "status": 200,
+      "contentType": "application/pdf",
+      "finalUrl": "https://www.legislation.gov.uk/uksi/2026/52/pdfs/uksi_20260052_en.pdf",
+      "hash": "900babc11a5991976c05174babad660c212c4b47d99a825d3b5deec43b3723e9",
+      "bytes": 25827
+    },
+    {
+      "file": "uksi-2026-49.pdf",
+      "url": "https://www.legislation.gov.uk/uksi/2026/49/pdfs/uksi_20260049_en.pdf",
+      "fetchedAt": "2026-10-07T18:34:38.524Z",
+      "status": 200,
+      "contentType": "application/pdf",
+      "finalUrl": "https://www.legislation.gov.uk/uksi/2026/49/pdfs/uksi_20260049_en.pdf",
+      "hash": "7d77090f11c796bcf8a498dca911f03a4ff1cd8262e0771670b3238c55b38c4b",
+      "bytes": 31471
+    },
+    {
+      "file": "uksi-2026-48.pdf",
+      "url": "https://www.legislation.gov.uk/uksi/2026/48/pdfs/uksi_20260048_en.pdf",
+      "fetchedAt": "2026-10-07T18:34:38.594Z",
+      "status": 200,
+      "contentType": "application/pdf",
+      "finalUrl": "https://www.legislation.gov.uk/uksi/2026/48/pdfs/uksi_20260048_en.pdf",
+      "hash": "1f780135b05b2e04841e14d27bc026908bd6a522e1b0d303dcf0f372f041930a",
+      "bytes": 24053
+    },
+    {
+      "file": "uksi-2026-44.pdf",
+      "url": "https://www.legislation.gov.uk/uksi/2026/44/pdfs/uksi_20260044_en.pdf",
+      "fetchedAt": "2026-10-07T18:34:38.651Z",
+      "status": 200,
+      "contentType": "application/pdf",
+      "finalUrl": "https://www.legislation.gov.uk/uksi/2026/44/pdfs/uksi_20260044_en.pdf",
+      "hash": "6c5e7ce968c629986eddb302ce3ab6a229c5645820674f2ab1ecc558186f40eb",
+      "bytes": 21105
+    },
+    {
+      "file": "uksi-2026-43.pdf",
+      "url": "https://www.legislation.gov.uk/uksi/2026/43/pdfs/uksi_20260043_en.pdf",
+      "fetchedAt": "2026-10-07T18:34:38.673Z",
+      "status": 200,
+      "contentType": "application/pdf",
+      "finalUrl": "https://www.legislation.gov.uk/uksi/2026/43/pdfs/uksi_20260043_en.pdf",
+      "hash": "c3e87782425584f8629c5feafe84ac51b481fc190e93421a7b39bd8e7db1fff7",
+      "bytes": 58210
+    },
+    {
+      "file": "uksi-2026-35.pdf",
+      "url": "https://www.legislation.gov.uk/uksi/2026/35/pdfs/uksi_20260035_en.pdf",
+      "fetchedAt": "2026-10-07T18:34:38.725Z",
+      "status": 200,
+      "contentType": "application/pdf",
+      "finalUrl": "https://www.legislation.gov.uk/uksi/2026/35/pdfs/uksi_20260035_en.pdf",
+      "hash": "6ecde3fdf42f2e4be4449b762983bd4305794a81693a2ad8f27b40daa691de2a",
+      "bytes": 21616
+    },
+    {
+      "file": "uksi-2026-34.pdf",
+      "url": "https://www.legislation.gov.uk/uksi/2026/34/pdfs/uksi_20260034_en.pdf",
+      "fetchedAt": "2026-10-07T18:34:38.782Z",
+      "status": 200,
+      "contentType": "application/pdf",
+      "finalUrl": "https://www.legislation.gov.uk/uksi/2026/34/pdfs/uksi_20260034_en.pdf",
+      "hash": "2a92f5fcbf207a46df2a6e53b123f320d36a32adc62aec54ac56658e88c7b8c9",
+      "bytes": 23425
+    },
+    {
+      "file": "uksi-2026-33.pdf",
+      "url": "https://www.legislation.gov.uk/uksi/2026/33/pdfs/uksi_20260033_en.pdf",
+      "fetchedAt": "2026-10-07T18:34:38.812Z",
+      "status": 200,
+      "contentType": "application/pdf",
+      "finalUrl": "https://www.legislation.gov.uk/uksi/2026/33/pdfs/uksi_20260033_en.pdf",
+      "hash": "fb757d888fa5597861ec8d7dd9badab4e0e4c62e42f13442ac81d7663cf9c7a9",
+      "bytes": 21434
+    },
+    {
+      "file": "uksi-2026-32.pdf",
+      "url": "https://www.legislation.gov.uk/uksi/2026/32/pdfs/uksi_20260032_en.pdf",
+      "fetchedAt": "2026-10-07T18:34:38.851Z",
+      "status": 200,
+      "contentType": "application/pdf",
+      "finalUrl": "https://www.legislation.gov.uk/uksi/2026/32/pdfs/uksi_20260032_en.pdf",
+      "hash": "62ff16cbe1b0c53de878d2a38e239542d333556c46dcb0f041175630a512d056",
+      "bytes": 31223
+    },
+    {
+      "file": "ssi-2026-32.pdf",
+      "url": "https://www.legislation.gov.uk/ssi/2026/32/pdfs/ssi_20260032_en.pdf",
+      "fetchedAt": "2026-10-07T18:34:38.912Z",
+      "status": 200,
+      "contentType": "application/pdf",
+      "finalUrl": "https://www.legislation.gov.uk/ssi/2026/32/pdfs/ssi_20260032_en.pdf",
+      "hash": "2b88e4d1f934f627a65bd4dcc50a2581493ab7e6909693140358833ab472b86e",
+      "bytes": 33326
+    },
+    {
+      "file": "ssi-2026-29.pdf",
+      "url": "https://www.legislation.gov.uk/ssi/2026/29/pdfs/ssi_20260029_en.pdf",
+      "fetchedAt": "2026-10-07T18:34:38.934Z",
+      "status": 200,
+      "contentType": "application/pdf",
+      "finalUrl": "https://www.legislation.gov.uk/ssi/2026/29/pdfs/ssi_20260029_en.pdf",
+      "hash": "47cc85224b9dd09f907022229c45adac3902f6900efef4ccddab82b180537f7e",
+      "bytes": 90933
+    },
+    {
+      "file": "uksi-2026-28.pdf",
+      "url": "https://www.legislation.gov.uk/uksi/2026/28/pdfs/uksi_20260028_en.pdf",
+      "fetchedAt": "2026-10-07T18:34:38.999Z",
+      "status": 200,
+      "contentType": "application/pdf",
+      "finalUrl": "https://www.legislation.gov.uk/uksi/2026/28/pdfs/uksi_20260028_en.pdf",
+      "hash": "2e8799ae6034df5290d7e07ccace89faed41fb87ddc3f37078f34d0fbb3bc37b",
+      "bytes": 23536
+    },
+    {
+      "file": "ssi-2026-28.pdf",
+      "url": "https://www.legislation.gov.uk/ssi/2026/28/pdfs/ssi_20260028_en.pdf",
+      "fetchedAt": "2026-10-07T18:34:39.075Z",
+      "status": 200,
+      "contentType": "application/pdf",
+      "finalUrl": "https://www.legislation.gov.uk/ssi/2026/28/pdfs/ssi_20260028_en.pdf",
+      "hash": "5723ddf49006494d61fef740790c3055549ada542a8370cdefc8a3865975073c",
+      "bytes": 53950
+    },
+    {
+      "file": "ssi-2026-27.pdf",
+      "url": "https://www.legislation.gov.uk/ssi/2026/27/pdfs/ssi_20260027_en.pdf",
+      "fetchedAt": "2026-10-07T18:34:39.114Z",
+      "status": 200,
+      "contentType": "application/pdf",
+      "finalUrl": "https://www.legislation.gov.uk/ssi/2026/27/pdfs/ssi_20260027_en.pdf",
+      "hash": "caa3f3b8a3996069d96e2a5ea2f3d1e41549b0fe1f296dc6efe93628d4e98a02",
+      "bytes": 49001
+    },
+    {
+      "file": "uksi-2026-26.pdf",
+      "url": "https://www.legislation.gov.uk/uksi/2026/26/pdfs/uksi_20260026_en.pdf",
+      "fetchedAt": "2026-10-07T18:34:39.134Z",
+      "status": 200,
+      "contentType": "application/pdf",
+      "finalUrl": "https://www.legislation.gov.uk/uksi/2026/26/pdfs/uksi_20260026_en.pdf",
+      "hash": "bfe756155f36128b3d4313b8593c2483f0aa4ec9732f03036c23a46f11f299cc",
+      "bytes": 21111
+    },
+    {
+      "file": "ssi-2026-26.pdf",
+      "url": "https://www.legislation.gov.uk/ssi/2026/26/pdfs/ssi_20260026_en.pdf",
+      "fetchedAt": "2026-10-07T18:34:39.217Z",
+      "status": 200,
+      "contentType": "application/pdf",
+      "finalUrl": "https://www.legislation.gov.uk/ssi/2026/26/pdfs/ssi_20260026_en.pdf",
+      "hash": "424c3a2ad29737786b7fa439c0abde4327af5b5395e4970536c0f2c444e245ca",
+      "bytes": 49540
+    },
+    {
+      "file": "ssi-2026-25.pdf",
+      "url": "https://www.legislation.gov.uk/ssi/2026/25/pdfs/ssi_20260025_en.pdf",
+      "fetchedAt": "2026-10-07T18:34:39.263Z",
+      "status": 200,
+      "contentType": "application/pdf",
+      "finalUrl": "https://www.legislation.gov.uk/ssi/2026/25/pdfs/ssi_20260025_en.pdf",
+      "hash": "148bc2253b6a2dd126804b35f6cb20369a37eb5f79bb89b371879ced3f9eed51",
+      "bytes": 27330
+    },
+    {
+      "file": "uksi-2026-25.pdf",
+      "url": "https://www.legislation.gov.uk/uksi/2026/25/pdfs/uksi_20260025_en.pdf",
+      "fetchedAt": "2026-10-07T18:34:39.286Z",
+      "status": 200,
+      "contentType": "application/pdf",
+      "finalUrl": "https://www.legislation.gov.uk/uksi/2026/25/pdfs/uksi_20260025_en.pdf",
+      "hash": "d3cf7638873ecf7f3cd69a958dcca743a0584725ccd177049d3dad000e1f2e6e",
+      "bytes": 21573
+    },
+    {
+      "file": "uksi-2026-22.pdf",
+      "url": "https://www.legislation.gov.uk/uksi/2026/22/pdfs/uksi_20260022_en.pdf",
+      "fetchedAt": "2026-10-07T18:34:39.399Z",
+      "status": 200,
+      "contentType": "application/pdf",
+      "finalUrl": "https://www.legislation.gov.uk/uksi/2026/22/pdfs/uksi_20260022_en.pdf",
+      "hash": "44d98c5cde1baf536a723d36a89bb62dab4d0d066c87145646de9aee01c42440",
+      "bytes": 21393
+    },
+    {
+      "file": "ssi-2026-22.pdf",
+      "url": "https://www.legislation.gov.uk/ssi/2026/22/pdfs/ssi_20260022_en.pdf",
+      "fetchedAt": "2026-10-07T18:34:39.406Z",
+      "status": 200,
+      "contentType": "application/pdf",
+      "finalUrl": "https://www.legislation.gov.uk/ssi/2026/22/pdfs/ssi_20260022_en.pdf",
+      "hash": "ec6cf59085622121514952a029eca8aef9a1391d9bbaf1973e9733ba14e0e2d5",
+      "bytes": 27257
+    },
+    {
+      "file": "ssi-2026-16.pdf",
+      "url": "https://www.legislation.gov.uk/ssi/2026/16/pdfs/ssi_20260016_en.pdf",
+      "fetchedAt": "2026-10-07T18:34:39.421Z",
+      "status": 200,
+      "contentType": "application/pdf",
+      "finalUrl": "https://www.legislation.gov.uk/ssi/2026/16/pdfs/ssi_20260016_en.pdf",
+      "hash": "2eb2ed08e8957e680a51ebec3f7c1781f8594180b031f60b8aaa068e8f119786",
+      "bytes": 28612
+    },
+    {
+      "file": "uksi-2026-16.pdf",
+      "url": "https://www.legislation.gov.uk/uksi/2026/16/pdfs/uksi_20260016_en.pdf",
+      "fetchedAt": "2026-10-07T18:34:39.529Z",
+      "status": 200,
+      "contentType": "application/pdf",
+      "finalUrl": "https://www.legislation.gov.uk/uksi/2026/16/pdfs/uksi_20260016_en.pdf",
+      "hash": "b1cec2201dad0b12c8895407e42f685562abaa71e9e38f261a615fb65ff991f8",
+      "bytes": 140244
+    },
+    {
+      "file": "ssi-2026-15.pdf",
+      "url": "https://www.legislation.gov.uk/ssi/2026/15/pdfs/ssi_20260015_en.pdf",
+      "fetchedAt": "2026-10-07T18:34:39.550Z",
+      "status": 200,
+      "contentType": "application/pdf",
+      "finalUrl": "https://www.legislation.gov.uk/ssi/2026/15/pdfs/ssi_20260015_en.pdf",
+      "hash": "a06a03bfd84f3984b3844c2f89ef619632018afcfae41f13b69ddb8f89b43bad",
+      "bytes": 27588
+    },
+    {
+      "file": "ssi-2026-14.pdf",
+      "url": "https://www.legislation.gov.uk/ssi/2026/14/pdfs/ssi_20260014_en.pdf",
+      "fetchedAt": "2026-10-07T18:34:39.558Z",
+      "status": 200,
+      "contentType": "application/pdf",
+      "finalUrl": "https://www.legislation.gov.uk/ssi/2026/14/pdfs/ssi_20260014_en.pdf",
+      "hash": "d818db838858ad55b4f787ee4f08a6f5304caeb3e5585b7db99245c672588d9b",
+      "bytes": 27711
+    },
+    {
+      "file": "ssi-2026-12.pdf",
+      "url": "https://www.legislation.gov.uk/ssi/2026/12/pdfs/ssi_20260012_en.pdf",
+      "fetchedAt": "2026-10-07T18:34:39.728Z",
+      "status": 200,
+      "contentType": "application/pdf",
+      "finalUrl": "https://www.legislation.gov.uk/ssi/2026/12/pdfs/ssi_20260012_en.pdf",
+      "hash": "3929753617fcce24882dfd586dd2380730eba3e71e9570d979f0fa870427df5a",
+      "bytes": 27299
+    },
+    {
+      "file": "ssi-2026-5.pdf",
+      "url": "https://www.legislation.gov.uk/ssi/2026/5/pdfs/ssi_20260005_en.pdf",
+      "fetchedAt": "2026-10-07T18:34:39.728Z",
+      "status": 200,
+      "contentType": "application/pdf",
+      "finalUrl": "https://www.legislation.gov.uk/ssi/2026/5/pdfs/ssi_20260005_en.pdf",
+      "hash": "420ce83cfd132eebf109348a6e6ba89c92157d917943791ca2718400402c032a",
+      "bytes": 26214
+    },
+    {
+      "file": "channel-0.html",
+      "url": "https://www.gov.uk/",
+      "fetchedAt": "2026-10-07T18:32:35.182Z",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "finalUrl": "https://www.gov.uk/",
+      "hash": "fa5bbcdc9f8ed46038bd2501db053cccedfb8b3a3ea00347daf290f289654ffa",
+      "bytes": 85520
+    },
+    {
+      "file": "channel-1.html",
+      "url": "https://bills.parliament.uk/",
+      "fetchedAt": "2026-10-07T18:32:35.182Z",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "finalUrl": "https://bills.parliament.uk/",
+      "hash": "1344c7dad1f1b375776c98667f53a90c75d238d298357d8054717c3cf9e4869b",
+      "bytes": 94780
+    },
+    {
+      "file": "channel-2.html",
+      "url": "https://www.legislation.gov.uk/new",
+      "fetchedAt": "2026-10-07T18:32:35.183Z",
+      "status": 200,
+      "contentType": "text/html;charset=utf-8",
+      "finalUrl": "https://www.legislation.gov.uk/new",
+      "hash": "59d272db10dcb65630818600cbf2689326aff8e1a09ca3d8c7cfe6706a9a739d",
+      "bytes": 19166
+    },
+    {
+      "file": "channel-3.html",
+      "url": "https://www.gov.scot/publications/",
+      "fetchedAt": "2026-10-07T18:32:35.271Z",
+      "status": 200,
+      "contentType": "text/html;charset=UTF-8",
+      "finalUrl": "https://www.gov.scot/publications/",
+      "hash": "df18646e891e12a545db2c0b3f7f6766c7ae6bd13c09c41dfe928c2e3355e97d",
+      "bytes": 67739
+    },
+    {
+      "file": "channel-4.html",
+      "url": "https://www.parliament.scot/bills-and-laws",
+      "fetchedAt": "2026-10-07T18:32:35.287Z",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "finalUrl": "https://www.parliament.scot/bills-and-laws",
+      "hash": "c6c6e9244d6e56b933311f8453124d4689af562ab767a3cdbf96e5af7c5b2f34",
+      "bytes": 158410
+    },
+    {
+      "file": "channel-5.html",
+      "url": "https://www.gov.wales/announcements",
+      "fetchedAt": "2026-10-07T18:32:35.419Z",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "finalUrl": "https://www.gov.wales/announcements",
+      "hash": "e5dd26e4392114ca23995d262dc6d36345f59b81b10539e6a6c4a1dfe312c35f",
+      "bytes": 22653
+    },
+    {
+      "file": "channel-6.html",
+      "url": "https://senedd.wales/senedd-business/legislation/",
+      "fetchedAt": "2026-10-07T18:32:35.735Z",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "finalUrl": "https://senedd.wales/senedd-business/legislation/",
+      "hash": "d4039adfd804e1d20725cab9ba7e767dcc2e292f7b13055e2befc94357b8485d",
+      "bytes": 109101
+    },
+    {
+      "file": "channel-7.html",
+      "url": "https://www.northernireland.gov.uk/",
+      "fetchedAt": "2026-10-07T18:32:35.792Z",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "finalUrl": "https://www.northernireland.gov.uk/",
+      "hash": "0882d60c7ef0e7b1d19985b0b211733ea95025c95b3d6bf9f4c2978d9020b1bb",
+      "bytes": 47859
+    },
+    {
+      "file": "channel-8.html",
+      "url": "https://www.niassembly.gov.uk/assembly-business/legislation/",
+      "fetchedAt": "2026-10-07T18:32:35.911Z",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "finalUrl": "https://www.niassembly.gov.uk/assembly-business/legislation/",
+      "hash": "9eb0d8464a564459bfeb1fe448adf43ee4515fed78b466e4197fc5c1acb7c204",
+      "bytes": 44285
+    },
+    {
+      "file": "catalog-1.html",
+      "url": "https://www.legislation.gov.uk/all/2026?results-count=500&page=1",
+      "fetchedAt": "2026-10-07T18:32:36.042Z",
+      "status": 200,
+      "contentType": "text/html;charset=utf-8",
+      "finalUrl": "https://www.legislation.gov.uk/all/2026?results-count=500&page=1",
+      "hash": "f7005e5e2c7825ba367fb0528606dc8b38ca882285ecfde74fe2c8b21b831bac",
+      "bytes": 143476
+    },
+    {
+      "file": "catalog-2.html",
+      "url": "https://www.legislation.gov.uk/all/2026?results-count=500&page=2",
+      "fetchedAt": "2026-10-07T18:32:36.596Z",
+      "status": 200,
+      "contentType": "text/html;charset=utf-8",
+      "finalUrl": "https://www.legislation.gov.uk/all/2026?results-count=500&page=2",
+      "hash": "6bd3ee5aa0a686c64f395afb2fca798b7c038b7671f44cf926cb5425a9cf8c49",
+      "bytes": 145943
+    },
+    {
+      "file": "catalog-3.html",
+      "url": "https://www.legislation.gov.uk/all/2026?results-count=500&page=3",
+      "fetchedAt": "2026-10-07T18:32:40.722Z",
+      "status": 200,
+      "contentType": "text/html;charset=utf-8",
+      "finalUrl": "https://www.legislation.gov.uk/all/2026?results-count=500&page=3",
+      "hash": "347aaeb6d35fcd68e902b8b174ad1f84d6fd8c1ec27417857d16323984b79612",
+      "bytes": 163972
+    },
+    {
+      "file": "catalog-4.html",
+      "url": "https://www.legislation.gov.uk/all/2026?results-count=500&page=4",
+      "fetchedAt": "2026-10-07T18:32:46.059Z",
+      "status": 200,
+      "contentType": "text/html;charset=utf-8",
+      "finalUrl": "https://www.legislation.gov.uk/all/2026?results-count=500&page=4",
+      "hash": "b77821ace8c8e8705ed5c4d3f7acefda9821f56aec6a1e3e15a0cbc091a3215d",
+      "bytes": 74486
+    },
+    {
+      "file": "income-tax-guidance.html",
+      "url": "https://www.gov.uk/government/publications/rates-and-allowances-income-tax/income-tax-rates-and-allowances-current-and-past",
+      "fetchedAt": "2026-10-07T18:33:25.481Z",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "finalUrl": "https://www.gov.uk/government/publications/rates-and-allowances-income-tax/income-tax-rates-and-allowances-current-and-past",
+      "hash": "9f3fda310fe38c2736b2a2098df096a5fdf0aa1d4cd520183109d4830e78ea91",
+      "bytes": 91878
+    },
+    {
+      "file": "employer-guidance.html",
+      "url": "https://www.gov.uk/government/publications/employer-bulletin-april-2026/april-2026-issue-of-the-employer-bulletin",
+      "fetchedAt": "2026-10-07T18:33:25.481Z",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "finalUrl": "https://www.gov.uk/government/publications/employer-bulletin-april-2026/april-2026-issue-of-the-employer-bulletin",
+      "hash": "7eb1a1bd87925281a9fa9f6b0ff886f04e7cd915a161ef49f631f7458d588bcb",
+      "bytes": 208257
+    },
+    {
+      "file": "wales-rental-guidance.html",
+      "url": "https://rentsmart.gov.wales/en/news/144/renters%EF%BF%BD-rights-act-steps-you-need-to-take/",
+      "fetchedAt": "2026-10-07T18:33:25.481Z",
+      "status": 200,
+      "contentType": "text/html",
+      "finalUrl": "https://rentsmart.gov.wales/en/news/144/renters%EF%BF%BD-rights-act-steps-you-need-to-take/",
+      "hash": "e54df0a8e7853d455bc4e67bdca7b4e316eb0148b773ec0d40ef430e223ae028",
+      "bytes": 53226
+    }
+  ],
+  "reviewedPolicyIds": [
+    "gb-uksi-2026-5",
+    "gb-nisr-2026-2",
+    "gb-uksi-2026-15",
+    "gb-uksi-2026-17",
+    "gb-uksi-2026-20",
+    "gb-uksi-2026-38",
+    "gb-uksi-2026-39",
+    "gb-uksi-2026-73",
+    "gb-wsi-2026-6",
+    "gb-wsi-2026-11",
+    "gb-ssi-2026-7",
+    "gb-nisr-2026-5"
+  ],
+  "newScanIds": [
+    "gb-backfill-2026-01-1",
+    "gb-backfill-2026-02-1",
+    "gb-backfill-2026-03-1",
+    "gb-backfill-2026-03-2",
+    "gb-backfill-2026-04-1",
+    "gb-backfill-2026-05-1",
+    "gb-backfill-2026-06-1",
+    "gb-backfill-2026-07-1",
+    "gb-backfill-2026-08-1",
+    "gb-backfill-2026-09-1",
+    "gb-backfill-2026-10-1",
+    "gb-backfill-channel-0",
+    "gb-backfill-channel-1",
+    "gb-backfill-channel-3",
+    "gb-backfill-channel-4",
+    "gb-backfill-channel-5",
+    "gb-backfill-channel-6",
+    "gb-backfill-channel-7",
+    "gb-backfill-channel-8"
+  ],
+  "remainingGaps": [
+    "Substantive review of most catalogue entries and current legal effect",
+    "Exhaustive historic government and parliamentary channel pagination",
+    "Measures made in 2025 with commencement/application in 2026",
+    "Territorial application of unreviewed UK instruments"
+  ]
+}

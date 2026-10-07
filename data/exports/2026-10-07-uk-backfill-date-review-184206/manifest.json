@@ -1,0 +1,11 @@
+{
+  "baseExport": "data/exports/2026-10-07-uk-backfill-183857/policy-radar-export.json",
+  "exportedAt": "2026-10-07T18:42:06.315Z",
+  "status": "partial",
+  "corrections": [
+    "gb-catalog-wsi-2026-11-date-correction",
+    "gb-catalog-uksi-2026-38-date-correction",
+    "gb-catalog-uksi-2026-39-date-correction"
+  ],
+  "reason": "Keep legal commencement separate from application dates in intake records; preserve superseded originals."
+}

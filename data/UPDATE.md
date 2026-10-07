@@ -23,7 +23,8 @@ up from stored coverage, rather than skip to the latest week.
    Germany’s federation and all sixteen states, plus France’s national level and
    all 18 registered regional geographic areas, and the Netherlands’ national level
    plus all 12 European provinces, Switzerland’s federation and all 26 cantons,
-   and Italy’s national level and all 20 regions, plus the EU supranational level,
+   and Italy’s national level and all 20 regions, plus the EU supranational level
+   and the UK national level and its four constituent parts,
    across all policy topics. French
    departments, municipalities and other special overseas territories are not
    independently connected. Dutch municipalities, water authorities, Caribbean
@@ -113,7 +114,7 @@ explanations and successful downloads do not close these gaps.
 4. Set `exportedAt` to the actual export time. Preserve historical `lastReviewAt` and
    `reviewNote` only in legacy exports; do not write these global keys in new
    exports. Update `lastReviewAt:DE` / `reviewNote:DE` and/or
-   `lastReviewAt:FR` / `reviewNote:FR` and/or `lastReviewAt:NL` / `reviewNote:NL` and/or `lastReviewAt:CH` / `reviewNote:CH` and/or `lastReviewAt:IT` / `reviewNote:IT` and/or `lastReviewAt:EU` / `reviewNote:EU` only for the countries actually reviewed;
+   `lastReviewAt:FR` / `reviewNote:FR` and/or `lastReviewAt:NL` / `reviewNote:NL` and/or `lastReviewAt:CH` / `reviewNote:CH` and/or `lastReviewAt:IT` / `reviewNote:IT` and/or `lastReviewAt:EU` / `reviewNote:EU` and/or `lastReviewAt:GB` / `reviewNote:GB` only for the countries actually reviewed;
    the UI falls back to the preserved initial markers until a country is updated.
    Name coverage gaps,
    affected channels and unresolved facts. Do not claim full nationwide coverage.

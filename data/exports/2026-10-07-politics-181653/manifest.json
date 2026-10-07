@@ -1,0 +1,36 @@
+{
+  "baseline": "data/exports/2026-10-06-politics-211734/policy-radar-export.json",
+  "candidate": "data/exports/2026-10-07-politics-181653/policy-radar-export.json",
+  "createdAt": "2026-10-07T18:16:53.940Z",
+  "updated": [
+    "eu-short-term-rental-data-2026",
+    "eu-accessibility-2019",
+    "eu-cbam-definitive-2026",
+    "de-commuting-allowance-2026",
+    "de-restaurant-vat-2026",
+    "de-building-modernisation-2026"
+  ],
+  "added": [],
+  "newIntake": [],
+  "archiveFiles": [
+    "70572b05be2662a8f5a5fbebe3da4aafad9629c06a1a07c137c26175aca712e9.html",
+    "05e83276140be41f7b5ee5e11037f66320fc08f31240294f26b0bf46956d2152.html",
+    "70c586750f61f7d1807b051d8c60ebc47eac76b89d5181482c2125d5009c2963.html",
+    "99fde330830538ca2aa1f6239d4a24a6eb429e39ae5c939a21daa0bfe53aacef.html",
+    "fb096e595127298fe6c7ba08b07a7aba6ea2e8144e12502d7117b94ac7fe72f4.html"
+  ],
+  "reviewedSourceUrls": [
+    "https://www.bundestag.de/dokumente/textarchiv/2025/kw41-de-steueraenderungsgesetz-1111760",
+    "https://www.bundestag.de/presse/hib/kurzmeldungen-1191518",
+    "https://www.europarl.europa.eu/news/en/press-room/20190307IPR30749",
+    "https://www.europarl.europa.eu/news/en/press-room/20230414IPR80120",
+    "https://www.europarl.europa.eu/news/en/press-room/20240223IPR18094"
+  ],
+  "limitations": [
+    "Targeted historical political-context enrichment; no discovery window closed.",
+    "EP rapporteur affiliations are historical, not group voting positions.",
+    "Italian votes concern the whole budget, not individual provisions.",
+    "Counts remain null where only group positions are documented.",
+    "Other practical rules retain their prior review."
+  ]
+}

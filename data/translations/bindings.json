@@ -1014,10 +1014,13 @@
       ]
     },
     "eu-accessibility-2019": {
-      "version": 1,
-      "hash": "31ef74a2ec8c0a171f827a68bdc1c3526f9ccb97c85364baa26cd0df1fd19ffe",
+      "version": 2,
+      "hash": "fd4c212f82cb85d604d464a309345f2e2d677ec07c388abecb936d2cf4551694",
       "originalLanguage": "en",
-      "verbatim": []
+      "verbatim": [
+        "欧盟委员会",
+        "European Parliament"
+      ]
     },
     "eu-right-to-repair-2024": {
       "version": 2,
@@ -1560,11 +1563,12 @@
       ]
     },
     "de-building-modernisation-2026": {
-      "version": 1,
-      "hash": "d8311c8cf05a695a99690c95e2fba70d9fd7caf0c906294ee1c8a4e6b8150272",
+      "version": 2,
+      "hash": "629a1f8c5df00375a699cbb543f6300ab77bb5caaa0d390084bee10856c02cca",
       "originalLanguage": "de",
       "verbatim": [
-        "Presse- und Informationsamt der Bundesregierung"
+        "Presse- und Informationsamt der Bundesregierung",
+        "Deutscher Bundestag"
       ]
     },
     "de-building-grant-july-2026": {
@@ -1696,11 +1700,12 @@
       ]
     },
     "eu-short-term-rental-data-2026": {
-      "version": 1,
-      "hash": "cfcc493718951cedb3de611427c4158d4f462a9525d52764cf310ee8a739388d",
+      "version": 2,
+      "hash": "2ea2a9f12c23d31f8404cf536e513fc4714f77bbf95903a6991d7c322a28816e",
       "originalLanguage": "en",
       "verbatim": [
-        "European Commission"
+        "European Commission",
+        "European Parliament"
       ]
     },
     "de-gas-storage-levy-end-2026": {
@@ -1712,19 +1717,21 @@
       ]
     },
     "de-commuting-allowance-2026": {
-      "version": 1,
-      "hash": "3991490940246512ebd0f9a119f44201db12a0218eaed929c0dd89d44e502345",
+      "version": 2,
+      "hash": "1e1a68b6300b919b4c7a5720668edf8d81468d003e43c980084f06c364c40047",
       "originalLanguage": "de",
       "verbatim": [
-        "Presse- und Informationsamt der Bundesregierung"
+        "Presse- und Informationsamt der Bundesregierung",
+        "Deutscher Bundestag"
       ]
     },
     "de-restaurant-vat-2026": {
-      "version": 1,
-      "hash": "37fd44080752dc59095b2d435907f5796c80cf2e707f98fb5bb9fde390bc9e64",
+      "version": 2,
+      "hash": "9504575c34d3a232b8e55c874e60e16e115b2359687d9cdab1e981178807a7d4",
       "originalLanguage": "de",
       "verbatim": [
-        "Presse- und Informationsamt der Bundesregierung"
+        "Presse- und Informationsamt der Bundesregierung",
+        "Deutscher Bundestag"
       ]
     },
     "de-training-minimum-pay-2026": {
@@ -1906,11 +1913,12 @@
       ]
     },
     "eu-cbam-definitive-2026": {
-      "version": 1,
-      "hash": "aaeefcc3c353b8864a7d7a070951fa05e758ca8d8e4f53bc1c65992e5669ae6f",
+      "version": 2,
+      "hash": "8649567913fd8cf278edf02e8d202ffd6823d592531de0398496deb2361aa3b3",
       "originalLanguage": "en",
       "verbatim": [
-        "European Commission"
+        "European Commission",
+        "European Parliament"
       ]
     },
     "de-environmental-remedies-october-2026": {

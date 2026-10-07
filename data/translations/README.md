@@ -19,6 +19,13 @@ in `title`, which must never be labelled as German original titles.
 
 To maintain translations after a data update:
 
+Apply the [reader comprehension gate](../UPDATE.md#reader-comprehension-gate)
+before binding a translation. Review Chinese, German and English independently
+for understandable wording as well as factual equivalence. In particular, name
+what every amount measures; do not translate an income ceiling as though it were
+the amount a person pays. A fresh binding confirms coverage and record identity,
+not comprehension. Record the editorial check in the update's review notes.
+
 1. Read the changed canonical record and its evidence. Translate every explanatory
    field enumerated by `policyTextFields` (or the intake display title and note).
    Also translate new topic/status labels, review notes and scan notes. Preserve

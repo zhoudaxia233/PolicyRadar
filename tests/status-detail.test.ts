@@ -2,7 +2,8 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
 import {lifecycle} from '../lib/domain/model.ts';
-const data=JSON.parse(readFileSync(JSON.parse(readFileSync('data/current-export.json','utf8')).path,'utf8'));
+// Candidate translations must be checked against their candidate record version.
+const data=JSON.parse(readFileSync(process.env.POLICY_RADAR_EXPORT??JSON.parse(readFileSync('data/current-export.json','utf8')).path,'utf8'));
 const policies=data.tables.policies.map((r:{data:string})=>JSON.parse(r.data));
 const by=(id:string)=>policies.find((p:{id:string})=>p.id===id);
 test('an expiry date does not make rent regulations temporary measures',()=>{

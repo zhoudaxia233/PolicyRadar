@@ -2285,12 +2285,12 @@
       ]
     },
     "de-social-insurance-ceilings-2027": {
-      "version": 1,
-      "hash": "1bbc3ba8c79c8da68a85ad9f82e7b90a22112bf7899e40075d5acbcce0638356",
-      "originalLanguage": "de",
+      "version": 2,
+      "hash": "0848473784d9df9ccdd9b6b6a2810f773655bddb79e8dfca66824b51a677eb2a",
       "verbatim": [
         "BMAS"
-      ]
+      ],
+      "originalLanguage": "de"
     }
   },
   "intake": {
@@ -13741,6 +13741,12 @@
       "originalLanguage": "de",
       "titleIsOriginal": true,
       "verbatim": []
+    },
+    "de-social-insurance-ceilings-2027-discovery-plain": {
+      "hash": "01c51ec0fe17d5193502aa165258b8856a45b98c616c1bba90126b63a3985f3a",
+      "verbatim": [],
+      "originalLanguage": "de",
+      "titleIsOriginal": true
     }
   }
 }

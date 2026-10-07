@@ -111,6 +111,47 @@ explanations and successful downloads do not close these gaps.
 
 ## Save and validate
 
+### Reader comprehension gate
+
+Apply this gate to every new or changed explanation and its German and English
+translations before marking the wording reviewed. Grammatical correctness,
+literal translation, schema validation and a current translation hash do not
+establish readability.
+
+- Lead with who is affected and what changes for them. Explain unfamiliar terms
+  in ordinary language before using the technical label; retain the exact
+  official title separately for traceability.
+- Give every amount a clear role and period: gross income, income used to
+  calculate a charge, actual tax/premium paid, benefit received, or eligibility
+  threshold; monthly or annual, individual or household as applicable. A rate
+  must name the amount it applies to and whose share it represents. Never use
+  "contribution ceiling" alone when it means an income ceiling for calculating
+  contributions. Distinguish different insurance branches and eligibility rules.
+- For calculations or thresholds that could be confused with money paid or
+  received, add one simple, explicitly hypothetical example: input, calculation
+  and result. Do not present an income-base increase as an equal premium increase,
+  or a premium increase as an equal take-home-pay loss. State assumptions; omit
+  a numerical result when the necessary rates or personal details are unknown.
+- Review each language as a standalone explanation, then compare all three for
+  the same amounts, units, scope, exceptions and legal stage. Fluent translation
+  must not introduce an unsupported fact or turn a proposal into an adopted rule.
+- Before binding translations, answer from the displayed wording alone: Who is
+  affected? What is each number? How does the change affect the example? Is it
+  already in force? If answering requires the original source or specialist
+  knowledge, rewrite the explanation. Inspect title, summary, before/after,
+  limits, intake display text and current timeline text together; fix recurring
+  ambiguity throughout while preserving immutable history with superseding rows.
+
+For example, replace "the contribution ceiling is EUR 69,750" with "In 2026,
+statutory health insurance premiums are calculated on at most EUR 69,750 of
+annual gross income. On an EUR 80,000 salary, the remaining EUR 10,250 does not
+attract additional health insurance premiums." The amount is an income used in
+the calculation, not the premium payable. This is a readability example, not a
+rate or fact to copy into other policies or future years without verification.
+
+Record the checked ambiguities and example in the run's review notes. This is a
+required editorial review, not a claim that automated tests can guarantee clarity.
+
 1. Copy only the active export into a **new** directory
    `data/exports/YYYY-MM-DD-weekly-HHMMSS/`. Never overwrite old exports. Use
    actual timestamps. Include a complete `discoveryRegistry` copied from
@@ -184,10 +225,11 @@ explanations and successful downloads do not close these gaps.
 6. Before selecting the candidate, run:
 
    ```sh
-   npm test
+   POLICY_RADAR_EXPORT=data/exports/RUN/policy-radar-export.json npm test
    npx tsc --noEmit --incremental false
    npm run build -- data/exports/RUN/policy-radar-export.json
    npm run data:select -- data/exports/RUN/policy-radar-export.json
+   npm test
    npm run build
    ```
 

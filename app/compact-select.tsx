@@ -1,5 +1,6 @@
 import {useEffect,useRef} from 'react';
 import {Check,ChevronDown} from 'lucide-react';
+import {blurLeavesMenu} from '../lib/menu-focus';
 type Option<T extends string>={value:T;label:string;short?:string;accessibleLabel?:string;lang?:string};
 
 export function CompactSelect<T extends string>({value,label,options,onChange,align='right'}:{value:T;label:string;options:Option<T>[];onChange:(value:T)=>void;align?:'left'|'right'}){
@@ -11,7 +12,7 @@ export function CompactSelect<T extends string>({value,label,options,onChange,al
   document.addEventListener('pointerdown',outside);document.addEventListener('keydown',escape,true);
   return ()=>{document.removeEventListener('pointerdown',outside);document.removeEventListener('keydown',escape,true);};
  },[]);
- return <details className="compact-select" data-align={align} ref={root} onBlur={e=>{if(!e.currentTarget.contains(e.relatedTarget as Node))e.currentTarget.open=false;}} onKeyDown={e=>{
+ return <details className="compact-select" data-align={align} ref={root} onBlur={e=>{if(blurLeavesMenu(e.currentTarget,e.relatedTarget))e.currentTarget.open=false;}} onKeyDown={e=>{
   if(!['ArrowDown','ArrowUp','Home','End'].includes(e.key))return;
   e.preventDefault();if(!root.current)return;root.current.open=true;
   const buttons=[...root.current.querySelectorAll('button')];const current=buttons.indexOf(document.activeElement as HTMLButtonElement);

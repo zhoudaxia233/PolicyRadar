@@ -8,7 +8,7 @@ import { IntakeView } from './intake-view';
 import { LanguageSwitch } from './language-switch';
 import { CompactSelect } from './compact-select';
 import { readNavigation, navigationSearch } from '../lib/domain/navigation';
-import { selectListing, countrySourceUrls } from '../lib/domain/listing';
+import { selectListing, countrySourceUrls, timelineEvents } from '../lib/domain/listing';
 import { translator, readLocale, localeSearch, languageTags, formatDate, originalRegionName, regionName, countryName as localizedCountryName, type Locale } from '../lib/i18n/index';
 import { contentText, localizePolicy, localizeIntake, searchText, emptyLocalization, type Localization } from '../lib/i18n/content';
 type IntakeData = { trackingStart: string; records: IntakeRecord[]; coverage: ReturnType<typeof coverageRows> };
@@ -232,9 +232,7 @@ export default function Home() {
   const activeSourceUrls = countrySourceUrls(country, items, intake.records, status.discovery ?? []);
   const activeChecks = status.checks.filter(c => activeSourceUrls.has(c.url));
   const filtering = !!(query || tags.length || region !== 'all');
-  const events = visible.flatMap(p => p.events.map(e => ({ p, e })));
-  const scheduled = events.filter(x => x.e.kind === 'scheduled' && x.e.date >= today).sort((a, b) => a.e.date.localeCompare(b.e.date));
-  const happened = events.filter(x => x.e.kind !== 'scheduled').sort((a, b) => b.e.date.localeCompare(a.e.date));
+  const { scheduled, happened } = timelineEvents(visible, today);
   async function refresh() {
     setBusy(true);
     try {

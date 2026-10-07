@@ -53,14 +53,21 @@ export function nextStepLabel(p:Policy){
  return ({expiry:'法定到期日',deadline:'截止日期',implementation:'已确定的实施节点',scheduled:'已公布的后续安排'} as const)[resolvedNextKind(p)];
 }
 export function effectiveDateLabel(p:Policy){return p.effectiveDate?(p.effectiveDateKind==='application'?'本次要求开始适用':'本次改动开始生效'):'最近已确认进展';}
+// Corrections record our own data maintenance, such as a backfill; they are not official progress.
+export function progressDate(p:Pick<Policy,'events'|'lastEventDate'>){return currentRecords(p.events).filter(e=>e.kind!=='scheduled'&&e.kind!=='correction'&&e.date<=p.lastEventDate).map(e=>e.date).sort().at(-1)??p.lastEventDate;}
+export const berlinToday=()=>new Intl.DateTimeFormat('en-CA',{timeZone:'Europe/Berlin',year:'numeric',month:'2-digit',day:'2-digit'}).format(new Date());
 // The date a reader cares about first: a near-term next step, otherwise when the change took effect.
-export function keyDate(p:Policy,today:string){const soon=!!p.nextDate&&p.nextDate>=today&&(!p.effectiveDate||Date.parse(p.nextDate)-Date.parse(today)<=120*864e5);return soon?{date:p.nextDate!,label:p.nextLabel??'下一步',kind:'next' as const}:{date:p.effectiveDate??p.lastEventDate,label:effectiveDateLabel(p),kind:p.effectiveDate?(p.effectiveDateKind==='application'?'application' as const:'effective' as const):'progress' as const};}
+export function keyDate(p:Policy,today:string){const soon=!!p.nextDate&&p.nextDate>=today&&(!p.effectiveDate||Date.parse(p.nextDate)-Date.parse(today)<=120*864e5);return soon?{date:p.nextDate!,label:p.nextLabel??'下一步',kind:'next' as const}:{date:p.effectiveDate??progressDate(p),label:effectiveDateLabel(p),kind:p.effectiveDate?(p.effectiveDateKind==='application'?'application' as const:'effective' as const):'progress' as const};}
 export const importSchema=z.object({policies:z.array(policySchema).max(50),expectedVersions:z.record(z.number().int().min(0))});
 export function validateRevision(old:Policy, next:Policy){
  if(old.id!==next.id||old.officialId!==next.officialId)throw new Error('Stable identity cannot change');
  for(const e of old.events){const same=next.events.find(n=>n.id===e.id);if(!same||JSON.stringify(same)!==JSON.stringify(e))throw new Error('Historical events are immutable; append a correction');}
 }
-export function selectPolicies(items:Policy[],view:string,region:string,topic:string,query:string,tags:string[]=[],searchText?:(p:Policy)=>string){const q=query.trim().toLocaleLowerCase();return items.filter(p=>(view==='all'||view==='updates'||p.phase===view)&&(region==='all'||p.region===region)&&(topic==='all'||p.topic===topic)&&(!tags.length||tags.some(t=>policyTags(p).includes(t)))&&(!q||(searchText?.(p)??[p.title,p.originalTitle,p.summary,p.officialId,...policyTags(p)].join(' ')).toLocaleLowerCase().includes(q))).sort((a,b)=>b.lastEventDate.localeCompare(a.lastEventDate));}
+export const isUpcoming=(p:Policy,today:string)=>keyDate(p,today).date>=today;
+// Lists sort by the date cards show first. Upcoming and past entries each start
+// nearest to today, so a distant future date never outranks a recent change.
+function byKeyDate(today:string){return (a:Policy,b:Policy)=>{const x=keyDate(a,today).date,y=keyDate(b,today).date,ax=x>=today,by=y>=today;return ax!==by?(ax?-1:1):(ax?x.localeCompare(y):y.localeCompare(x))||progressDate(b).localeCompare(progressDate(a));};}
+export function selectPolicies(items:Policy[],view:string,region:string,topic:string,query:string,tags:string[]=[],searchText?:(p:Policy)=>string,today=berlinToday()){const q=query.trim().toLocaleLowerCase();return items.filter(p=>(view==='all'||view==='updates'||p.phase===view)&&(region==='all'||p.region===region)&&(topic==='all'||p.topic===topic)&&(!tags.length||tags.some(t=>policyTags(p).includes(t)))&&(!q||(searchText?.(p)??[p.title,p.originalTitle,p.summary,p.officialId,...policyTags(p)].join(' ')).toLocaleLowerCase().includes(q))).sort(byKeyDate(today));}
 // Keep saved explanations separate from the date-computed badge. Never mutate
 // historical payloads or their translation hashes to add a compatibility field.
 export function policyStatusNote(p:Policy){

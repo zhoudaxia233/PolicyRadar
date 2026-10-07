@@ -2,6 +2,8 @@ export const messages = {
   "追踪范围：英国全国层面及英格兰、苏格兰、威尔士、北爱尔兰。": ["Umfang: die nationale Ebene des Vereinigten Königreichs sowie England, Schottland, Wales und Nordirland.", "Scope: the UK national level, England, Scotland, Wales and Northern Ireland."],
   "英国四地的立法权限不同；全国渠道发布的政策不一定适用于全英国，须逐项核对。英格兰通过英国政府和议会渠道接入；苏格兰、威尔士及北爱尔兰另有权力下放机构。地方政府、王室属地和海外领地未独立接入。登记来源不代表已完成扫描。": ["Die Gesetzgebungskompetenzen unterscheiden sich zwischen den vier Landesteilen. Über nationale Kanäle veröffentlichte Maßnahmen gelten nicht automatisch im gesamten Vereinigten Königreich; ihr Geltungsbereich wird einzeln geprüft. England wird über die britische Regierung und das Parlament erfasst; Schottland, Wales und Nordirland haben zusätzlich eigene Institutionen mit übertragenen Befugnissen. Kommunen, Kronbesitzungen und Überseegebiete sind nicht separat angebunden. Registrierte Quellen bedeuten keine abgeschlossene Prüfung.", "Legislative powers differ between the four parts of the UK. Policies published through national channels do not necessarily apply throughout the UK; scope must be checked individually. England is covered through UK government and parliamentary channels; Scotland, Wales and Northern Ireland also have devolved institutions. Local authorities, Crown Dependencies and Overseas Territories are not separately connected. Registered sources do not imply completed scans."],
   "构成地区": ["Landesteile", "Constituent parts"],
+  "即将发生": ["Demnächst", "Upcoming"],
+  "已经发生": ["Bereits erfolgt", "Already happened"],
 
   "本次要求开始适用": ["Anwendungsbeginn der Anforderungen", "Requirements start applying"],
   "本次要求开始适用：": ["Anwendungsbeginn der Anforderungen: ", "Requirements start applying: "],

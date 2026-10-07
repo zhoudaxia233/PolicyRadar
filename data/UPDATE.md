@@ -4,6 +4,46 @@ The owner selected local Codex execution, once a week. The scheduled chat runs
 Sunday at 08:30 Europe/Berlin. The computer and Codex must be available; this is
 not a GitHub cloud job. No separate AI API key is needed.
 
+The owner added a daily German federal check on 2026-10-07, at 18:30
+Europe/Berlin, alongside the Sunday comprehensive run. Both use the workflow
+below. Daily scope is every registered channel whose region is exactly `DE`;
+weekly scope is the entire current registry, not a fixed country list.
+
+## Recent announcements first
+
+Before historical backfill, reconcile the last seven closed Berlin calendar days
+for every in-scope channel. Also inspect today's available announcements, saved
+as partial scans: an ongoing day can never be complete. Prioritize cabinet,
+parliament and ministry announcements affecting contributions, taxes, benefits,
+work, housing and household costs for explanations, but do not use these topics
+as a filter that silently discards other official discoveries.
+
+Read all index pages needed for that interval and retain every policy discovery
+in intake, even without a completed explanation or translation. Every excluded
+item needs its URL and a concrete reason in the scan; duplicate coverage must
+point to the existing record. Reconcile listed totals before claiming complete.
+RSS and official-site searches are supplementary discovery paths, not proof of
+complete coverage. BMAS and BMG direct announcement indexes must be checked;
+monthly new-law summaries cannot substitute for cabinet-stage news.
+
+Run `npm run data:coverage -- <candidate-export> DE` for the daily scope, or omit
+`DE` for the comprehensive weekly scope, before finishing. Exit 2 means recent
+coverage remains incomplete; exit 1 means a validation/runtime error. Neither
+means "no policy changes". Save the report alongside the candidate and state
+the affected sources and missing dates. A valid partial update can still be
+selected and published within its authorization; never invent complete scans
+to silence the check. Report a newly failed source, a newly missed closed day,
+or a material change to a known gap, rather than repeating identical warnings.
+An old historical gap does not prevent independently closing a recent window.
+
+After the recent pass, resume historical gaps from each source's oldest
+uncovered date. Missed daily runs must catch up and recheck the overlapping week.
+Do not run daily and weekly writers concurrently. Re-read the selected export
+before saving; if it changed, rebuild the candidate from the new baseline while
+preserving both updates. Daily checks prepare validated local data and report
+important findings; this cadence change does not extend weekly publication
+authorization to code changes or automatic daily publication.
+
 `settings.scheduleLabel` in historical exports is deprecated metadata, not the
 live scheduler configuration. Do not copy it into new exports. The Codex task
 defines the schedule; this document and the current domain schemas define the

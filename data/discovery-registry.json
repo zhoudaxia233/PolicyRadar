@@ -2288,5 +2288,19 @@
     "title": "梅利利亚官方公报",
     "publisher": "Melilla",
     "kind": "gazette"
+  },
+  {
+    "region": "DE",
+    "url": "https://www.bmas.de/DE/Service/Presse/Pressemitteilungen/pressemitteilungen.html",
+    "title": "德国劳动与社会事务部：新闻公告",
+    "publisher": "BMAS",
+    "kind": "government"
+  },
+  {
+    "region": "DE",
+    "url": "https://www.bundesgesundheitsministerium.de/suche-pressemitteilungen",
+    "title": "德国卫生部：新闻公告",
+    "publisher": "BMG",
+    "kind": "government"
   }
 ]

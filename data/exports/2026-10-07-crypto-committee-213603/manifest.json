@@ -1,0 +1,19 @@
+{
+  "baseline": "data/exports/2026-10-07-uk-backfill-date-review-184206/policy-radar-export.json",
+  "candidate": "data/exports/2026-10-07-crypto-committee-213603/policy-radar-export.json",
+  "createdAt": "2026-10-07T19:36:03.719Z",
+  "updated": [
+    "de-crypto-holding-proposal"
+  ],
+  "added": [],
+  "newIntake": [],
+  "archiveFiles": [],
+  "reviewedSourceUrls": [
+    "https://www.bundestag.de/presse/hib/kurzmeldungen-1179034"
+  ],
+  "limitations": [
+    "Targeted timeline repair: the 2026-05-20 finance committee recommendation, previously recorded only inside a 2026-10-03 correction, is now a dated event.",
+    "Evidence is the archived hib 414/2026 snapshot of 2026-10-06; no discovery window closed.",
+    "Pending status and the 2026-10-08 plenary vote are unchanged."
+  ]
+}

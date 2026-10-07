@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<response>
+  <status>
+    <code>200</code>
+    <text>ok</text>
+  </status>
+  <data>
+    <sumario>
+      <metadatos>
+        <publicacion>BOE</publicacion>
+        <fecha_publicacion>20260726</fecha_publicacion>
+      </metadatos>
+      <diario numero="181">
+        <sumario_diario>
+          <identificador>BOE-S-2026-181</identificador>
+          <url_pdf szBytes="142084" szKBytes="139">https://www.boe.es/boe/dias/2026/07/26/pdfs/BOE-S-2026-181.pdf</url_pdf>
+        </sumario_diario>
+        <seccion codigo="1" nombre="I. Disposiciones generales">
+          <departamento codigo="7320" nombre="MINISTERIO DEL INTERIOR">
+            <epigrafe nombre="Emergencia de interés nacional">
+              <item>
+                <identificador>BOE-A-2026-16247</identificador>
+                <control>2026/12296</control>
+                <titulo>Orden INT/762/2026, de 25 de julio, por la que se amplía a la provincia de Toledo el ámbito territorial de la declaración de emergencia de interés nacional declarada por la Orden INT/748/2026, de 23 de julio, por la que se declara la emergencia de interés nacional en el territorio de la Comunidad de Madrid y en la provincia de Ávila como consecuencia de los incendios forestales.</titulo>
+                <url_pdf szBytes="193385" szKBytes="189" pagina_inicial="105572" pagina_final="105572">https://www.boe.es/boe/dias/2026/07/26/pdfs/BOE-A-2026-16247.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-16247</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-16247</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+        </seccion>
+      </diario>
+    </sumario>
+  </data>
+</response>

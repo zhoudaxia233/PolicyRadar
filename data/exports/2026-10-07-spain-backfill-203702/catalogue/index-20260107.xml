@@ -1,0 +1,398 @@
+<?xml version="1.0" encoding="utf-8"?>
+<response>
+  <status>
+    <code>200</code>
+    <text>ok</text>
+  </status>
+  <data>
+    <sumario>
+      <metadatos>
+        <publicacion>BOE</publicacion>
+        <fecha_publicacion>20260107</fecha_publicacion>
+      </metadatos>
+      <diario numero="6">
+        <sumario_diario>
+          <identificador>BOE-S-2026-6</identificador>
+          <url_pdf szBytes="222321" szKBytes="217">https://www.boe.es/boe/dias/2026/01/07/pdfs/BOE-S-2026-6.pdf</url_pdf>
+        </sumario_diario>
+        <seccion codigo="2A" nombre="II. Autoridades y personal. - A. Nombramientos, situaciones e incidencias">
+          <departamento codigo="1820" nombre="CONSEJO GENERAL DEL PODER JUDICIAL">
+            <epigrafe nombre="Nombramientos">
+              <item>
+                <identificador>BOE-A-2026-384</identificador>
+                <control>2025/20980</control>
+                <titulo>Real Decreto 1235/2025, de 26 de diciembre, por el que se nombra Presidenta de la Audiencia Provincial de Navarra a doña Ana Montserrat Llorca Blanco.</titulo>
+                <url_pdf szBytes="191526" szKBytes="187" pagina_inicial="2060" pagina_final="2060">https://www.boe.es/boe/dias/2026/01/07/pdfs/BOE-A-2026-384.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-384</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-384</url_xml>
+              </item>
+            </epigrafe>
+            <epigrafe nombre="Situaciones">
+              <item>
+                <identificador>BOE-A-2026-385</identificador>
+                <control>2025/18373</control>
+                <titulo>Acuerdo de 29 de julio de 2025, de la Comisión Permanente del Consejo General del Poder Judicial, por el que se declara la jubilación voluntaria de la Magistrada doña Adoración María Riera Ocáriz.</titulo>
+                <url_pdf szBytes="191287" szKBytes="187" pagina_inicial="2061" pagina_final="2061">https://www.boe.es/boe/dias/2026/01/07/pdfs/BOE-A-2026-385.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-385</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-385</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2026-386</identificador>
+                <control>2025/18374</control>
+                <titulo>Acuerdo de 29 de julio de 2025, de la Comisión Permanente del Consejo General del Poder Judicial, por el que se declara la jubilación voluntaria del Magistrado don Juan Mateo Ayala García.</titulo>
+                <url_pdf szBytes="190852" szKBytes="186" pagina_inicial="2062" pagina_final="2062">https://www.boe.es/boe/dias/2026/01/07/pdfs/BOE-A-2026-386.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-386</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-386</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2026-387</identificador>
+                <control>2025/18381</control>
+                <titulo>Acuerdo de 9 de septiembre de 2025, de la Comisión Permanente del Consejo General del Poder Judicial, por el que se declara la jubilación voluntaria anticipada de la Magistrada doña Adela Bardón Martínez.</titulo>
+                <url_pdf szBytes="191121" szKBytes="187" pagina_inicial="2063" pagina_final="2063">https://www.boe.es/boe/dias/2026/01/07/pdfs/BOE-A-2026-387.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-387</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-387</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="9565" nombre="MINISTERIO DE CIENCIA, INNOVACIÓN Y UNIVERSIDADES">
+            <epigrafe nombre="Destinos">
+              <item>
+                <identificador>BOE-A-2026-388</identificador>
+                <control>2025/20081</control>
+                <titulo>Resolución de 15 de diciembre de 2025, de la Subsecretaría, por la que se resuelve la convocatoria de libre designación, efectuada por Resolución de 10 de octubre de 2025.</titulo>
+                <url_pdf szBytes="200010" szKBytes="195" pagina_inicial="2064" pagina_final="2065">https://www.boe.es/boe/dias/2026/01/07/pdfs/BOE-A-2026-388.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-388</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-388</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="9595" nombre="MINISTERIO PARA LA TRANSFORMACIÓN DIGITAL Y DE LA FUNCIÓN PÚBLICA">
+            <epigrafe nombre="Nombramientos">
+              <item>
+                <identificador>BOE-A-2026-389</identificador>
+                <control>2025/21059</control>
+                <titulo>Resolución de 24 de diciembre de 2025, de la Secretaría de Estado de Digitalización e Inteligencia Artificial, por la que se publica el Acuerdo del Consejo Rector por el que se nombra Director de la Agencia Española de Supervisión de Inteligencia Artificial a don Alberto Gago Fernández.</titulo>
+                <url_pdf szBytes="191782" szKBytes="187" pagina_inicial="2066" pagina_final="2066">https://www.boe.es/boe/dias/2026/01/07/pdfs/BOE-A-2026-389.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-389</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-389</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="310" nombre="UNIVERSIDADES">
+            <epigrafe nombre="Nombramientos">
+              <item>
+                <identificador>BOE-A-2026-390</identificador>
+                <control>2026/127</control>
+                <titulo>Resolución de 29 de diciembre de 2025, de la Universidad de Oviedo, por la que se nombran Catedráticas de Universidad.</titulo>
+                <url_pdf szBytes="191780" szKBytes="187" pagina_inicial="2067" pagina_final="2067">https://www.boe.es/boe/dias/2026/01/07/pdfs/BOE-A-2026-390.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-390</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-390</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2026-391</identificador>
+                <control>2026/128</control>
+                <titulo>Resolución de 29 de diciembre de 2025, de la Universidad de Oviedo, por la que se nombran Profesoras Titulares de Universidad.</titulo>
+                <url_pdf szBytes="192038" szKBytes="188" pagina_inicial="2068" pagina_final="2068">https://www.boe.es/boe/dias/2026/01/07/pdfs/BOE-A-2026-391.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-391</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-391</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+        </seccion>
+        <seccion codigo="2B" nombre="II. Autoridades y personal. - B. Oposiciones y concursos">
+          <departamento codigo="1820" nombre="CONSEJO GENERAL DEL PODER JUDICIAL">
+            <epigrafe nombre="Carrera Judicial">
+              <item>
+                <identificador>BOE-A-2026-392</identificador>
+                <control>2025/20896</control>
+                <titulo>Acuerdo de 17 de diciembre de 2025, del Pleno del Consejo General del Poder Judicial, por el que se convoca la provisión de la Presidencia de la Sala de lo Social del Tribunal Superior de Justicia de Castilla-La Mancha.</titulo>
+                <url_pdf szBytes="242877" szKBytes="237" pagina_inicial="2069" pagina_final="2077">https://www.boe.es/boe/dias/2026/01/07/pdfs/BOE-A-2026-392.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-392</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-392</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="7320" nombre="MINISTERIO DEL INTERIOR">
+            <epigrafe nombre="Cuerpo Superior de Técnicos de Instituciones Penitenciarias">
+              <item>
+                <identificador>BOE-A-2026-393</identificador>
+                <control>2025/21062</control>
+                <titulo>Resolución de 26 de diciembre de 2025, de la Subsecretaría, por la que se aprueba la relación provisional de personas admitidas y excluidas, y se anuncia fecha, hora y lugar de celebración del primer ejercicio del proceso selectivo para ingreso, por el sistema general de acceso libre, en el Cuerpo Superior de Técnicos de Instituciones Penitenciarias, especialidad de Juristas y Psicólogos/as, convocado por Resolución de 7 de noviembre de 2025.</titulo>
+                <url_pdf szBytes="390231" szKBytes="381" pagina_inicial="2078" pagina_final="2084">https://www.boe.es/boe/dias/2026/01/07/pdfs/BOE-A-2026-393.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-393</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-393</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="9525" nombre="ADMINISTRACIÓN LOCAL">
+            <epigrafe nombre="Personal funcionario y laboral">
+              <item>
+                <identificador>BOE-A-2026-394</identificador>
+                <control>2026/100052</control>
+                <titulo>Resolución de 22 de diciembre de 2025, del Ayuntamiento de Valenzuela de Calatrava (Ciudad Real), que deja sin efecto la de 11 de diciembre de 2025, referente a la convocatoria para proveer una plaza.</titulo>
+                <url_pdf szBytes="189785" szKBytes="185" pagina_inicial="2085" pagina_final="2085">https://www.boe.es/boe/dias/2026/01/07/pdfs/BOE-A-2026-394.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-394</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-394</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2026-395</identificador>
+                <control>2025/106494</control>
+                <titulo>Resolución de 23 de diciembre de 2025, del Ayuntamiento de Madrid, referente a la convocatoria para proveer varias plazas.</titulo>
+                <url_pdf szBytes="190197" szKBytes="186" pagina_inicial="2086" pagina_final="2086">https://www.boe.es/boe/dias/2026/01/07/pdfs/BOE-A-2026-395.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-395</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-395</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="310" nombre="UNIVERSIDADES">
+            <epigrafe nombre="Cuerpos docentes universitarios">
+              <item>
+                <identificador>BOE-A-2026-396</identificador>
+                <control>2025/19994</control>
+                <titulo>Resolución de 12 de diciembre de 2025, de la Universidad Carlos III de Madrid, por la que se convoca concurso de acceso a plazas de cuerpos docentes universitarios.</titulo>
+                <url_pdf szBytes="657183" szKBytes="642" pagina_inicial="2087" pagina_final="2117">https://www.boe.es/boe/dias/2026/01/07/pdfs/BOE-A-2026-396.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-396</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-396</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2026-397</identificador>
+                <control>2025/20912</control>
+                <titulo>Resolución de 22 de diciembre de 2025, de la Universidad de Alicante, por la que se convoca concurso de acceso a plazas de cuerpos docentes universitarios.</titulo>
+                <url_pdf szBytes="691346" szKBytes="675" pagina_inicial="2118" pagina_final="2150">https://www.boe.es/boe/dias/2026/01/07/pdfs/BOE-A-2026-397.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-397</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-397</url_xml>
+              </item>
+            </epigrafe>
+            <epigrafe nombre="Personal técnico, de gestión y de administración y servicios">
+              <item>
+                <identificador>BOE-A-2026-398</identificador>
+                <control>2026/135</control>
+                <titulo>Resolución de 24 de diciembre de 2025, de la Universidad de Lleida, por la que se publica la convocatoria de proceso selectivo para ingreso, por el sistema general de acceso libre, en la Escala Auxiliar Administrativa.</titulo>
+                <url_pdf szBytes="190785" szKBytes="186" pagina_inicial="2151" pagina_final="2151">https://www.boe.es/boe/dias/2026/01/07/pdfs/BOE-A-2026-398.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-398</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-398</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+        </seccion>
+        <seccion codigo="3" nombre="III. Otras disposiciones">
+          <departamento codigo="9585" nombre="MINISTERIO DE LA PRESIDENCIA, JUSTICIA Y RELACIONES CON LAS CORTES">
+            <epigrafe nombre="Comunidad Autónoma del País Vasco. Convenio">
+              <item>
+                <identificador>BOE-A-2026-399</identificador>
+                <control>2025/21068</control>
+                <titulo>Resolución de 26 de diciembre de 2025, de la Subsecretaría, por la que se publica la Adenda de modificación y prórroga del Convenio Interadministrativo entre el Ministerio de Asuntos Exteriores, Unión Europea y Cooperación, el Ministerio de Derechos Sociales, Consumo y Agenda 2030, la Comunidad Autónoma del País Vasco, el Ayuntamiento de Bilbao y la Fundación Bancaria Bilbao Bizkaia Kutxa, para la extensión del establecimiento de la sede del Secretariado de la Coalición Local 2030 en Bilbao.</titulo>
+                <url_pdf szBytes="219875" szKBytes="215" pagina_inicial="2152" pagina_final="2157">https://www.boe.es/boe/dias/2026/01/07/pdfs/BOE-A-2026-399.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-399</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-399</url_xml>
+              </item>
+            </epigrafe>
+            <epigrafe nombre="Comunidad de Castilla y León. Convenio">
+              <item>
+                <identificador>BOE-A-2026-400</identificador>
+                <control>2026/11</control>
+                <titulo>Resolución de 26 de diciembre de 2025, de la Subsecretaría, por la que se publica la Adenda de prórroga y cuarta de modificación al Convenio entre la Mutualidad General de Funcionarios Civiles del Estado, O.A., el Instituto Social de las Fuerzas Armadas, O.A., la Mutualidad General Judicial, O.A., y la Gerencia Regional de Salud de Castilla y León, para la prestación en zonas rurales de determinados servicios sanitarios a los mutualistas y demás beneficiarios adscritos a entidades de seguro de asistencia sanitaria concertada con dichas mutualidades.</titulo>
+                <url_pdf szBytes="1645231" szKBytes="1607" pagina_inicial="2158" pagina_final="2220">https://www.boe.es/boe/dias/2026/01/07/pdfs/BOE-A-2026-400.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-400</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-400</url_xml>
+              </item>
+            </epigrafe>
+            <epigrafe nombre="Convenios">
+              <item>
+                <identificador>BOE-A-2026-401</identificador>
+                <control>2025/21011</control>
+                <titulo>Resolución de 26 de diciembre de 2025, de la Subsecretaría, por la que se publica el Convenio entre la Agencia Estatal de Administración Digital y el Instituto de la Cinematografía y de las Artes Audiovisuales, O.A., para la prestación de la solución de nube híbrida NubeSARA, financiado en parte por la Unión Europea, en el marco del Plan de Recuperación, Transformación y Resiliencia-Fondo de Recuperación Next Generation EU.</titulo>
+                <url_pdf szBytes="330522" szKBytes="323" pagina_inicial="2221" pagina_final="2235">https://www.boe.es/boe/dias/2026/01/07/pdfs/BOE-A-2026-401.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-401</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-401</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2026-402</identificador>
+                <control>2025/21018</control>
+                <titulo>Resolución de 26 de diciembre de 2025, de la Subsecretaría, por la que se publica el Convenio entre la Mutualidad General de Funcionarios del Estado y la Intervención General de la Administración del Estado, para la adhesión a los Sistemas Departamentales de la Intervención General de la Administración del Estado.</titulo>
+                <url_pdf szBytes="298275" szKBytes="291" pagina_inicial="2236" pagina_final="2246">https://www.boe.es/boe/dias/2026/01/07/pdfs/BOE-A-2026-402.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-402</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-402</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2026-403</identificador>
+                <control>2026/17</control>
+                <titulo>Resolución de 26 de diciembre de 2025, de la Subsecretaría, por la que se publica el Convenio entre el Consejo de Transparencia y Buen Gobierno, A.A.I., y la Intervención General de la Administración del Estado, para la adhesión a los sistemas departamentales de la Intervención General de la Administración del Estado.</titulo>
+                <url_pdf szBytes="288823" szKBytes="282" pagina_inicial="2247" pagina_final="2257">https://www.boe.es/boe/dias/2026/01/07/pdfs/BOE-A-2026-403.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-403</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-403</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2026-404</identificador>
+                <control>2026/29</control>
+                <titulo>Resolución de 26 de diciembre de 2025, de la Subsecretaría, por la que se publica la Adenda de prórroga al Convenio entre el Instituto Social de la Marina y el Servicio Público de Empleo Estatal, O.A., para establecer el intercambio de información a efectos del reintegro en vía ejecutiva de las prestaciones por desempleo indebidamente percibidas o por responsabilidad empresarial.</titulo>
+                <url_pdf szBytes="203478" szKBytes="199" pagina_inicial="2258" pagina_final="2260">https://www.boe.es/boe/dias/2026/01/07/pdfs/BOE-A-2026-404.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-404</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-404</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="6110" nombre="MINISTERIO DE DEFENSA">
+            <epigrafe nombre="Convenios">
+              <item>
+                <identificador>BOE-A-2026-405</identificador>
+                <control>2025/21023</control>
+                <titulo>Resolución 420/38553/2025, de 26 de diciembre, de la Secretaría General Técnica, por la que se publica el Convenio con la Mancomunidad Reserva del Saja, para el desarrollo de un plan de actuación en formación ecuestre en las instalaciones del Centro Militar de Cría Caballar de Mazcuerras.</titulo>
+                <url_pdf szBytes="225272" szKBytes="220" pagina_inicial="2261" pagina_final="2266">https://www.boe.es/boe/dias/2026/01/07/pdfs/BOE-A-2026-405.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-405</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-405</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="9590" nombre="MINISTERIO DE EDUCACIÓN, FORMACIÓN PROFESIONAL Y DEPORTES">
+            <epigrafe nombre="Convenios">
+              <item>
+                <identificador>BOE-A-2026-406</identificador>
+                <control>2026/44</control>
+                <titulo>Resolución de 29 de diciembre de 2025, de la Secretaría General Técnica, por la que se publica el Convenio con Hospitales Pascual, para el desarrollo de estancias formativas del Centro Público Integrado de Formación Profesional Reina Victoria Eugenia de Melilla.</titulo>
+                <url_pdf szBytes="247880" szKBytes="242" pagina_inicial="2267" pagina_final="2275">https://www.boe.es/boe/dias/2026/01/07/pdfs/BOE-A-2026-406.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-406</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-406</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2026-407</identificador>
+                <control>2026/47</control>
+                <titulo>Resolución de 29 de diciembre de 2025, de la Secretaría General Técnica, por la que se publica el Convenio con Maanan la Estrella, SLU, para el desarrollo de estancias formativas del Centro Integrado de Formación Profesional Reina Victoria Eugenia de Melilla.</titulo>
+                <url_pdf szBytes="249827" szKBytes="244" pagina_inicial="2276" pagina_final="2284">https://www.boe.es/boe/dias/2026/01/07/pdfs/BOE-A-2026-407.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-407</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-407</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2026-408</identificador>
+                <control>2026/49</control>
+                <titulo>Resolución de 29 de diciembre de 2025, de la Secretaría General Técnica, por la que se publica el Convenio con Nipon Melilla, SA, para el desarrollo de estancias formativas del Centro Público Integrado de Formación Profesional Reina Victoria Eugenia de Melilla.</titulo>
+                <url_pdf szBytes="248678" szKBytes="243" pagina_inicial="2285" pagina_final="2293">https://www.boe.es/boe/dias/2026/01/07/pdfs/BOE-A-2026-408.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-408</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-408</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2026-409</identificador>
+                <control>2026/50</control>
+                <titulo>Resolución de 29 de diciembre de 2025, de la Secretaría General Técnica, por la que se publica el Convenio con Servinel, SA, para el desarrollo de estancias formativas del Centro Integrado de Formación Profesional Reina Victoria Eugenia de Melilla.</titulo>
+                <url_pdf szBytes="247730" szKBytes="242" pagina_inicial="2294" pagina_final="2302">https://www.boe.es/boe/dias/2026/01/07/pdfs/BOE-A-2026-409.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-409</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-409</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2026-410</identificador>
+                <control>2026/51</control>
+                <titulo>Resolución de 29 de diciembre de 2025, de la Secretaría General Técnica, por la que se publica el Convenio con Sogorb e Hijos, SL, para el desarrollo de estancias formativas del Centro Integrado de Formación Profesional Reina Victoria Eugenia de Melilla.</titulo>
+                <url_pdf szBytes="247565" szKBytes="242" pagina_inicial="2303" pagina_final="2311">https://www.boe.es/boe/dias/2026/01/07/pdfs/BOE-A-2026-410.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-410</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-410</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2026-411</identificador>
+                <control>2026/52</control>
+                <titulo>Resolución de 29 de diciembre de 2025, de la Secretaría General Técnica, por la que se publica el Convenio con Transeron, SL, para el desarrollo de estancias formativas del Centro Integrado de Formación Profesional Reina Victoria Eugenia de Melilla.</titulo>
+                <url_pdf szBytes="247398" szKBytes="242" pagina_inicial="2312" pagina_final="2320">https://www.boe.es/boe/dias/2026/01/07/pdfs/BOE-A-2026-411.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-411</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-411</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2026-412</identificador>
+                <control>2026/54</control>
+                <titulo>Resolución de 30 de diciembre de 2025, de la Secretaría General Técnica, por la que se publica el Convenio con Hafsa Heredia. Salón de Uñas y Academia, para el desarrollo de estancias formativas del Instituto de Educación Secundaria Luis de Camoens de Ceuta.</titulo>
+                <url_pdf szBytes="249499" szKBytes="244" pagina_inicial="2321" pagina_final="2329">https://www.boe.es/boe/dias/2026/01/07/pdfs/BOE-A-2026-412.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-412</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-412</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2026-413</identificador>
+                <control>2026/56</control>
+                <titulo>Resolución de 30 de diciembre de 2025, de la Secretaría General Técnica, por la que se publica el Convenio con Ambulancias Tenorio e Hijos, SL, y Asistencia Sanitaria Malagueña, SL, UTE Ley 18/82 UTE Transporte Sanitario Terrestre Ceuta, para el desarrollo de estancias formativas del Instituto de Educación Secundaria Almina de Ceuta.</titulo>
+                <url_pdf szBytes="252512" szKBytes="247" pagina_inicial="2330" pagina_final="2339">https://www.boe.es/boe/dias/2026/01/07/pdfs/BOE-A-2026-413.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-413</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-413</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2026-414</identificador>
+                <control>2026/57</control>
+                <titulo>Resolución de 30 de diciembre de 2025, de la Secretaría General Técnica, por la que se publica el Convenio con Anajjar Asesores, para el desarrollo de estancias formativas del Instituto de Educación Secundaria Leopoldo Queipo de Melilla.</titulo>
+                <url_pdf szBytes="248597" szKBytes="243" pagina_inicial="2340" pagina_final="2348">https://www.boe.es/boe/dias/2026/01/07/pdfs/BOE-A-2026-414.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-414</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-414</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2026-415</identificador>
+                <control>2026/71</control>
+                <titulo>Resolución de 30 de diciembre de 2025, de la Secretaría General Técnica, por la que se publica el Convenio con Serglobin, SLU, para el desarrollo de estancias formativas del Instituto de Estudios Superiores Leopoldo Queipo de Melilla.</titulo>
+                <url_pdf szBytes="252145" szKBytes="246" pagina_inicial="2349" pagina_final="2357">https://www.boe.es/boe/dias/2026/01/07/pdfs/BOE-A-2026-415.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-415</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-415</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="9565" nombre="MINISTERIO DE CIENCIA, INNOVACIÓN Y UNIVERSIDADES">
+            <epigrafe nombre="Convenios">
+              <item>
+                <identificador>BOE-A-2026-416</identificador>
+                <control>2026/103</control>
+                <titulo>Resolución de 19 de diciembre de 2025, de la Agencia Nacional de Evaluación de la Calidad y Acreditación, por la que se publica el Convenio con la Universidad Europea Miguel de Cervantes, para la evaluación de la actividad investigadora del personal docente e investigador contratado.</titulo>
+                <url_pdf szBytes="236953" szKBytes="231" pagina_inicial="2358" pagina_final="2365">https://www.boe.es/boe/dias/2026/01/07/pdfs/BOE-A-2026-416.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-416</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-416</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2026-417</identificador>
+                <control>2026/104</control>
+                <titulo>Resolución de 19 de diciembre de 2025, de la Agencia Nacional de Evaluación de la Calidad y Acreditación, por la que se publica el Convenio con la Universidad Pontificia de Comillas, para la evaluación de la actividad investigadora del personal docente e investigador contratado.</titulo>
+                <url_pdf szBytes="235296" szKBytes="230" pagina_inicial="2366" pagina_final="2373">https://www.boe.es/boe/dias/2026/01/07/pdfs/BOE-A-2026-417.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-417</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-417</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2026-418</identificador>
+                <control>2026/105</control>
+                <titulo>Resolución de 19 de diciembre de 2025, de la Agencia Nacional de Evaluación de la Calidad y Acreditación, por la que se publica el Convenio con la Universidad San Pablo-CEU, para la evaluación de la actividad investigadora del personal docente e investigador contratado.</titulo>
+                <url_pdf szBytes="236960" szKBytes="231" pagina_inicial="2374" pagina_final="2381">https://www.boe.es/boe/dias/2026/01/07/pdfs/BOE-A-2026-418.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-418</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-418</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2026-419</identificador>
+                <control>2026/222</control>
+                <titulo>Resolución de 19 de diciembre de 2025, de la Agencia Nacional de Evaluación de la Calidad y Acreditación, por la que se publica el Convenio con la Escuela Universitaria de Artes TAI, para la evaluación de la actividad investigadora del personal docente e investigador contratado.</titulo>
+                <url_pdf szBytes="236428" szKBytes="231" pagina_inicial="2382" pagina_final="2389">https://www.boe.es/boe/dias/2026/01/07/pdfs/BOE-A-2026-419.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-419</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-419</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2026-420</identificador>
+                <control>2026/98</control>
+                <titulo>Resolución de 19 de diciembre de 2025, de la Agencia Nacional de Evaluación de la Calidad y Acreditación, por la que se publica el Convenio con el Centro de Enseñanza Superior Cardenal Cisneros, para la evaluación de la actividad investigadora del personal docente e investigador contratado.</titulo>
+                <url_pdf szBytes="235207" szKBytes="230" pagina_inicial="2390" pagina_final="2397">https://www.boe.es/boe/dias/2026/01/07/pdfs/BOE-A-2026-420.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-420</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-420</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2026-421</identificador>
+                <control>2026/99</control>
+                <titulo>Resolución de 19 de diciembre de 2025, de la Agencia Nacional de Evaluación de la Calidad y Acreditación, por la que se publica el Convenio con la Escuela Universitaria de Magisterio Fray Luis de León, para la evaluación de la actividad investigadora del personal docente e investigador contratado.</titulo>
+                <url_pdf szBytes="236137" szKBytes="231" pagina_inicial="2398" pagina_final="2405">https://www.boe.es/boe/dias/2026/01/07/pdfs/BOE-A-2026-421.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-421</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-421</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+        </seccion>
+        <seccion codigo="5A" nombre="V. Anuncios. - A. Contratación del Sector Público">
+          <departamento codigo="9575" nombre="MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA Y EL RETO DEMOGRÁFICO">
+            <item>
+              <identificador>BOE-B-2026-261</identificador>
+              <titulo>Anuncio de licitación de: Secretaría de Estado de Medio Ambiente. Objeto: Planta de generación fotovoltaica en la finca de Ribavellosa, Almarza de Cameros (La Rioja), en el marco del Plan de Recuperación, Transformación y Resiliencia (PRTR). Expediente: P04.C11.I04.P03.S01.01.006 (Provisional).</titulo>
+              <url_pdf szBytes="225642" szKBytes="220" pagina_inicial="491" pagina_final="493">https://www.boe.es/boe/dias/2026/01/07/pdfs/BOE-B-2026-261.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-261</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-261</url_xml>
+            </item>
+          </departamento>
+        </seccion>
+      </diario>
+    </sumario>
+  </data>
+</response>

@@ -2297,8 +2297,8 @@
         "Deutscher Bundestag",
         "Bundesministerium der Finanzen"
       ],
-      "hash": "ab8c5e81551d43d5635f0dbac1f0fb8d8a85ce4bb9602849ca2fd1781c846856",
-      "version": 1
+      "hash": "4e4e57c5782ddd5184a452a418b857955f8f9ba4945f7b11497920ad9f9a0e02",
+      "version": 2
     },
     "eu-pig-poultry-operating-rules-2026": {
       "version": 1,
@@ -32411,6 +32411,12 @@
       "originalLanguage": "de",
       "titleIsOriginal": true,
       "verbatim": []
+    },
+    "de-bmf-crypto-timing-reviewed-20261008": {
+      "originalLanguage": "de",
+      "verbatim": [],
+      "titleIsOriginal": true,
+      "hash": "43b1d1b81ce4c370b56e167efa25f69cda7389bd34f20e76614b5add39b3db2d"
     }
   }
 }

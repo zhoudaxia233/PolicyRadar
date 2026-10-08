@@ -109,7 +109,63 @@ That extension moved tracking to 2026-05-02. The added interval through 2026-08-
 a coverage gap until each channel has a reconciled complete scan. Targeted
 explanations and successful downloads do not close these gaps.
 
+## Group related official documents
+
+After every intake update, apply [the matter grouping rules](TOPICS.md) and run
+`npm run data:topics -- <candidate-export>`. Present a concrete matter once with
+its related documents and progress as expandable children. Maintain reviewed
+relationships and multilingual matter titles in `data/topics.json`; retain every
+original and its individual legal stage, dates and verification state. Inspect
+new documents for existing relationships even when no automated candidate is
+reported. Similar titles or a shared gazette/URL alone must never trigger a merge.
+Include grouping/separation decisions and unresolved candidates in review notes,
+and run the grouping, filter/count and record-preservation regression tests.
+
 ## Save and validate
+
+### Policy-question completeness gate
+
+Before reporting that a proposal was rejected, withdrawn, adopted or ended,
+establish what happened to that **specific instrument**, then check the reader's
+underlying question against current law and other active proposals. A bill's
+rejection does not mean the reform objective was rejected or the current rule
+is guaranteed to remain. Apply this to all policy areas, not only tax.
+
+- Follow substantive cross-references in the full source, including mentions of
+  another ministry draft, replacement bill, coalition proposal or implementation
+  instrument. Search the responsible ministry's official legislative directory
+  and parliamentary records. A source outside the registry must still be followed;
+  add a missing recurring official channel and leave its unscanned history open.
+- Preserve separate identities and legal stages for competing versions. A
+  ministry draft is not a cabinet-approved government bill. A supportive speech
+  is evidence of that speaker's position, not proof of coalition-wide agreement,
+  a scheduled cabinet decision or eventual passage. Reporting/information-sharing
+  rules are not, by themselves, changes to tax liability.
+- In the visible summary and details, answer: What applies now? Which exact
+  version changed stage? What other relevant version remains active? Who would
+  be affected, and from which acquisition, contract, eligibility or payment date?
+  Compare tax/rate bases, rates, old versus new cases, grandfathering, exceptions
+  and proposed commencement. Explicitly mark unknown differences; do not fill
+  them from another version. Use one dated hypothetical example when it makes
+  the transition understandable. Do not imply a proposal is current law.
+- Review titles, summaries, before/after, limits, rules, discovery wording and
+  all three languages together. A closed-version card must not imply the whole
+  issue is settled; readers must see any material active alternative without
+  having to infer it from another source or a generic disclaimer.
+- Save a run-specific review with source URLs/page or section locators, the
+  versions and current-law baseline checked, material differences, searches
+  for alternative paths and unresolved gaps. If an explicitly referenced
+  alternative cannot be checked, preserve it as an unresolved lead and say so
+  in the reader text; do not call the policy question fully reviewed.
+- Technical checks validate structure, history and translations. They do not
+  replace this editorial gate or establish complete policy coverage. Add a
+  focused regression for a corrected failure; never make a test enforce an
+  obsolete political outcome after a source-backed later update.
+
+The 8 October 2026 crypto correction is the regression case: rejection of
+Bundestag bill 21/5752 must coexist with the separate BMF draft, the current
+one-year rule, different tax treatment and different acquisition-date cutoffs.
+See the source-located review in the corresponding correction export.
 
 ### Reader comprehension gate
 

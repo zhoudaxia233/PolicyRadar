@@ -4,7 +4,8 @@ import { useEffect, useMemo, useState, useRef, type ReactNode } from 'react';
 import { Radar, LayoutDashboard, Clock3, Activity, Database, Search, ChevronRight, ChevronDown, ExternalLink, Download, RefreshCw, MapPin, CalendarDays, FileText, X, ShieldCheck, AlertCircle, Layers, Sun, Moon, Monitor } from 'lucide-react';
 import { regions, countries, countryOf, keyDate, progressDate, berlinToday, isUpcoming, policyTags, lifecycle, nextStepLabel, type Policy } from '../lib/domain/model';
 import { trackingStart, type IntakeRecord, type coverageRows } from '../lib/domain/intake';
-import { IntakeView } from './intake-view';
+import {type Topic} from '../lib/domain/topics';
+import { IntakeView, TopicDocuments } from './intake-view';
 import { LanguageSwitch } from './language-switch';
 import { CompactSelect } from './compact-select';
 import { readNavigation, navigationSearch } from '../lib/domain/navigation';
@@ -60,7 +61,7 @@ export default function Home() {
   };
   const tone = (p: Policy, today: string) => p.phase !== 'adopted' ? 'amber' : !p.effectiveDate || p.effectiveDate > today ? 'blue' : 'green';
   const headings: Record<string, [string, string]> = {
-    intake: [tr("官方进展记录"), tr("同一政策可以有多条进展记录；从 2026 年 1 月 1 日起登记，解读未完成也保留原文。")],
+    intake: [tr("官方进展记录"), tr("同一事项的文件与进展集中展示，展开查看每份原文；从 2026 年 1 月 1 日起登记。")],
     adopted: [tr("看清已经发生的改变"), tr("从通过到生效，追踪政策最终改了什么、何时影响生活。")],
     pending: [tr("还在推进中的改变"), tr("跟进提案、审议与表决，保留尚未确定的部分。")],
     all: [tr("全部政策"), tr("已通过、待决议题及尚未解读的官方记录一起查看；待核实记录会单独标明。")],
@@ -68,6 +69,7 @@ export default function Home() {
     sources: [tr("来源与更新"), tr("查看覆盖范围、原文检查结果和事实核实记录。")]
   };
 
+  const [topics,setTopics]=useState<Topic[]>([]);
   const [canonicalItems, setItems] = useState<Policy[]>([]), [status, setStatus] = useState<Status>({ checks: [], settings: {}, coverage: [], discovery: [] }), [loading, setLoading] = useState(true), [error, setError] = useState('');
   const [view, setView] = useState('adopted'), [region, setRegion] = useState('all'), [query, setQuery] = useState(''), [selectedId, setSelectedId] = useState<string | null>(null), [busy, setBusy] = useState(false), [rawOpen, setRawOpen] = useState(false);
   const [canonicalIntake, setIntake] = useState<IntakeData>({ trackingStart, records: [], coverage: [] }), [tags, setTags] = useState<string[]>([]), [filtersReady, setFiltersReady] = useState(false);
@@ -131,8 +133,9 @@ export default function Home() {
     try {
       const response = await fetch('./data.json', { cache: 'no-store' });
       if (!response.ok) throw Error('data-unavailable');
-      const data = await response.json() as { policies: Policy[]; status: Status; intake: IntakeData; localization: Localization };
+      const data = await response.json() as { policies: Policy[]; status: Status; intake: IntakeData; localization: Localization;topics?:Topic[] };
       setLocalization(data.localization ?? emptyLocalization);
+      setTopics(data.topics ?? []);
       setItems(data.policies);
       loadedPolicies.current = data.policies;
       restoreNavigation();
@@ -212,13 +215,13 @@ export default function Home() {
     };
   }, [country]);
   const filters = { view, country, region, query, tags };
-  const listing = selectListing(items, intake.records, filters, matchText, today);
+  const listing = selectListing(items, intake.records, filters, matchText, today, topics);
   const { policies: visible, raw: visibleRaw, progress: newRecords } = listing;
   const tagOptions = [...new Set([...scoped.flatMap(policyTags), ...records.flatMap(policyTags), ...tags])].sort((a, b) => ct(a).localeCompare(ct(b), languageTags[locale]));
-  const viewCount = (target: string) => selectListing(items, intake.records, { ...filters, view: target }, matchText).count;
+  const viewCount = (target: string) => selectListing(items, intake.records, { ...filters, view: target }, matchText, today, topics).count;
   const upcoming = scoped.filter(p => p.nextDate && p.nextDate >= today).sort((a, b) => a.nextDate!.localeCompare(b.nextDate!));
-  const regionCount = (id: string) => selectListing(items, intake.records, { ...filters, region: id, view: view === 'sources' ? 'all' : view }, matchText).count;
-  const sourceCount = (id: string) => selectListing(items, intake.records, { view: 'all', country, region: id, query: '', tags: [] }).count;
+  const regionCount = (id: string) => selectListing(items, intake.records, { ...filters, region: id, view: view === 'sources' ? 'all' : view }, matchText, today, topics).count;
+  const sourceCount = (id: string) => selectListing(items, intake.records, { view: 'all', country, region: id, query: '', tags: [] }, undefined, today, topics).count;
   const pickRegion = (id: string) => {
     setRegion(id);
     if (!['adopted', 'pending', 'all', 'updates', 'intake'].includes(view)) setView('all');
@@ -319,7 +322,7 @@ export default function Home() {
         </button>)}
       </nav>
       <p className="sidebar-count-note">
-        {tr("数字随筛选变化；官方进展按记录计数。")}
+        {tr("数字随筛选变化；同一事项计一次，原始文件全部保留。")}
       </p>
       <div className="country-switch">
         <CompactSelect
@@ -652,13 +655,13 @@ export default function Home() {
             <div className="list-meta">
               <span>
                 {view === 'intake'
-                  ? tr("{0} 条官方进展记录（同一政策可有多条）", [newRecords.length])
+                  ? tr("{0} 个事项 · {1} 条官方记录", [listing.progressGroups.length,newRecords.length])
                   : view === 'updates'
                     ? tr("{0} 个时间线节点 · 涉及 {1} 个政策议题", [scheduled.length + happened.length, visible.length])
-                    : tr("{0} 项结果 · {1} 个已解读政策议题{2}", [
+                    : tr("{0} 个事项 · {1} 篇政策解读{2}", [
                         listing.count,
-                        visible.length,
-                        visibleRaw.length ? tr(" · {0} 条待解读官方记录", [visibleRaw.length]) : ''
+                        listing.explainedCount,
+                        visibleRaw.length ? tr(" · {0} 个待解读事项（{1} 条记录）", [listing.rawGroups.length,visibleRaw.length]) : ''
                       ])}
               </span>
               {filtering && <button onClick={clearFilters}>
@@ -673,7 +676,7 @@ export default function Home() {
             </div>
 
             {view === 'intake' ? <IntakeView
-              records={newRecords}
+              groups={listing.progressGroups}
               policies={items}
               open={open}
               locale={locale}
@@ -689,7 +692,7 @@ export default function Home() {
                 <button className="quiet-button" onClick={() => setRegion('all')}>
                   {tr('查看{0}全部地区', [cname])}
                 </button>
-              </div> : !visible.length && !visibleRaw.length ? <div className="empty">
+              </div> : !visible.length && !visibleRaw.length && !listing.explainedGroups.length ? <div className="empty">
                 <Search size={28} />
                 <h3>
                   {tr("没有匹配的政策")}
@@ -709,49 +712,25 @@ export default function Home() {
                 </>}
                 {feedByMonth()}
               </div> : <>
+              {listing.explainedGroups.length>0&&<IntakeView groups={listing.explainedGroups} policies={items} open={open} locale={locale} localization={localization}/> }
               {visibleRaw.length > 0 && <div className="raw-group">
                 <button
                   className="raw-toggle"
                   aria-expanded={rawOpen}
                   onClick={() => setRawOpen(!rawOpen)}>
                   <span>
-                    {tr('待解读官方记录 · {0} 条（点击展开）', [visibleRaw.length])}
+                    {tr('待解读事项 · {0} 项／{1} 条记录（点击展开）', [listing.rawGroups.length,visibleRaw.length])}
                   </span>
                   <ChevronDown size={16} className={rawOpen ? 'flip' : ''} />
                 </button>
-                {rawOpen && visibleRaw.map(r => <div className="raw-row" key={r.id}>
-                  <time>
-                    {fmt(r.date)}
-                  </time>
-                  <div>
-                    <strong lang={explanationLang(r, "intake")}>
-                      {r.titleZh ?? r.title}
-                    </strong>
-                    {translationNotice(r, "intake")}
-                    <small>
-                      {names(r.region)}
-                      ·
-                      {r.stage === 'adopted' ? tr("已确认通过或公布") : r.stage === 'pending' ? tr("待决") : tr("内容待核实")}
-
-                      {tr("· 政策解读待补充")}
-                    </small>
-                  </div>
-                  <a
-                    href={r.url}
-                    target="_blank"
-                    rel="noreferrer"
-                    aria-label={tr("打开原始文件：") + (r.titleZh ?? r.title) + tr("（新标签页）")}>
-                    {tr("原文")}
-                    <ExternalLink size={12} />
-                  </a>
-                </div>)}
+                {rawOpen && <IntakeView groups={listing.rawGroups} policies={items} open={open} locale={locale} localization={localization} />}
               </div>}
               {([[tr("即将发生"), visible.filter(p => isUpcoming(p, today)), 'future'], [tr("已经发生"), visible.filter(p => !isUpcoming(p, today)), '']] as const).filter(([, group]) => group.length > 0).map(([label, group, groupClass]) => <section key={label}>
                 <h3 className={'feed-month list-group ' + groupClass}>
                   {label} · {group.length}
                 </h3>
                 <div className="policy-list">
-                  {group.map(p => <button
+                  {group.map(p => <div className="policy-with-documents" key={p.id}><button
                     className={'policy-card' + (selected?.id === p.id ? ' current' : '')}
                     onClick={() => open(p)}
                     key={p.id}>
@@ -811,7 +790,9 @@ export default function Home() {
                         </span>
                       </div>
                     </div>
-                  </button>)}
+                  </button>
+                  {listing.policyGroups.filter(g=>g.policyIds.includes(p.id)).map(g=><TopicDocuments key={g.id} group={g} policies={items} open={open} locale={locale} localization={localization} />)}
+                  </div>)}
                 </div>
               </section>)}
             </>}

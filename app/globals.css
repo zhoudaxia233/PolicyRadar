@@ -418,3 +418,19 @@ dialog.drawer::backdrop{background:var(--backdrop)}
 .detail-top>span{min-width:0;overflow-wrap:anywhere}
 
 .status-note{font-size:12px;line-height:1.6;color:var(--muted);margin:6px 0;overflow-wrap:anywhere}
+
+/* Native disclosure keeps every original document accessible without repeating
+   one matter as several independent cards. */
+.topic-documents{border-top:1px solid var(--line);margin-top:12px;padding-top:10px;min-width:0}
+.topic-documents summary{cursor:pointer;color:var(--accent);font-size:14px;padding:5px 0;overflow-wrap:anywhere}
+.topic-documents summary:focus-visible{outline:2px solid var(--accent);outline-offset:4px;border-radius:3px}
+.topic-documents ol{list-style:none;margin:0;padding:0}
+.topic-document{border-top:1px solid var(--line);padding:16px 0;min-width:0}
+.topic-document h3{font-size:16px;line-height:1.6;margin:10px 0 4px;overflow-wrap:anywhere}
+.topic-document p,.topic-explanation{font-size:14px;line-height:1.75;color:var(--text-2)}
+.topic-document .original-title,.document-id{overflow-wrap:anywhere;font-size:13px}
+.topic-document small{display:block;color:var(--muted);font-size:13px}
+.raw-group>.policy-list{padding:12px}
+.policy-with-documents{min-width:0}
+.policy-with-documents>.policy-card{width:100%}
+.policy-with-documents>.topic-documents{padding:12px 20px;background:var(--surface);border:1px solid var(--line);border-radius:10px;margin-top:0}

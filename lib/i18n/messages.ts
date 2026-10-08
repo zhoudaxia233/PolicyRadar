@@ -1,4 +1,14 @@
 export const messages = {
+  "同一事项的文件与进展集中展示，展开查看每份原文；从 2026 年 1 月 1 日起登记。": ["Dokumente und Entwicklungen desselben Vorgangs werden zusammen angezeigt. Aufklappen, um jedes Original zu sehen; Erfassung seit dem 1. Januar 2026.", "Documents and developments for the same matter are shown together. Expand to see each original; tracked since 1 January 2026."],
+  "数字随筛选变化；同一事项计一次，原始文件全部保留。": ["Zahlen berücksichtigen die Filter; jeder Vorgang zählt einmal, alle Originaldokumente bleiben erhalten.", "Counts follow filters; each matter counts once and all original documents are retained."],
+  "{0} 个事项 · {1} 条官方记录": ["{0} Vorgänge · {1} offizielle Einträge", "{0} matters · {1} official records"],
+  " · {0} 个待解读事项（{1} 条记录）": [" · {0} Vorgänge ohne Erläuterung ({1} Einträge)", " · {0} matters awaiting explanation ({1} records)"],
+  "待解读事项 · {0} 项／{1} 条记录（点击展开）": ["Vorgänge ohne Erläuterung · {0} Vorgänge / {1} Einträge (aufklappen)", "Matters awaiting explanation · {0} matters / {1} records (expand)"],
+  "查看 {0} 条匹配的文件与进展": ["{0} passende Dokumente und Entwicklungen anzeigen", "View {0} matching documents and developments"],
+  "各文件分别保留日期、法律阶段及核实状态；归组不代表整项政策已通过或生效。": ["Jedes Dokument behält sein Datum, seinen rechtlichen Stand und seinen Prüfstatus. Die Gruppierung bedeutet nicht, dass der gesamte Vorgang beschlossen oder in Kraft ist.", "Each document retains its own date, legal stage and verification status. Grouping does not mean the entire matter is adopted or in force."],
+  "{0} 条官方记录": ["{0} offizielle Einträge", "{0} official records"],
+  "最近匹配的记录：{0}": ["Neuester passender Eintrag: {0}", "Latest matching record: {0}"],
+
   "追踪范围：西班牙全国层面、17个自治区及休达和梅利利亚两个自治市。": ["Umfang: Spaniens nationale Ebene, 17 autonome Gemeinschaften und die autonomen Städte Ceuta und Melilla.", "Scope: Spain’s national level, 17 autonomous communities and the autonomous cities of Ceuta and Melilla."],
   "自治区与自治市的权限不同。已登记全国公报、内阁公告及各自治区和自治市的政府、公报入口；议会、省、市镇和岛屿机构尚未独立接入。登记来源不代表完成扫描；原文语言按具体文件保留。": ["Die Befugnisse autonomer Gemeinschaften und Städte unterscheiden sich. Das nationale Amtsblatt, Kabinettsmitteilungen sowie Regierungs- und Amtsblattportale aller autonomen Gemeinschaften und Städte sind registriert. Parlamente, Provinzen, Gemeinden und Inselorgane sind noch nicht separat angebunden. Registrierte Quellen bedeuten keine abgeschlossene Prüfung; die Originalsprache wird je Dokument erhalten.", "Autonomous communities and cities have different powers. The national gazette, cabinet announcements and government and gazette portals for all autonomous communities and cities are registered. Parliaments, provinces, municipalities and island bodies are not yet separately connected. Registered sources do not imply completed scans; original language is retained per document."],
   "自治区／自治市": ["Autonome Gemeinschaften / Städte", "Autonomous communities / cities"],
@@ -406,9 +416,9 @@ export const messages = {
     "{0} Ereignisse · {1} Maßnahmen",
     "{0} timeline events · {1} policies"
   ],
-  "{0} 项结果 · {1} 个已解读政策议题{2}": [
-    "{0} Ergebnisse · {1} erläuterte Maßnahmen{2}",
-    "{0} results · {1} explained policies{2}"
+  "{0} 个事项 · {1} 篇政策解读{2}": [
+    "{0} Vorgänge · {1} Erläuterungen{2}",
+    "{0} matters · {1} policy explanations{2}"
   ],
   "清除筛选": [
     "Filter zurücksetzen",

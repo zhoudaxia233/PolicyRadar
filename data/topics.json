@@ -1,5 +1,5 @@
 {
-  "appliesFromExport": "2026-10-08T20:14:40.259Z",
+  "appliesFromExport": "2026-10-08T21:07:43.209Z",
   "topics": [
     {
       "id": "eu-morocco-prima",
@@ -2011,6 +2011,69 @@
         {
           "region": "EU",
           "officialId": "OJ:C_202605256"
+        }
+      ]
+    },
+    {
+      "id": "us-scholarship-credit-2026",
+      "title": [
+        "美国教育捐款税收抵免：临时规章与拟议细则",
+        "US scholarship donation tax credit: temporary and proposed rules"
+      ],
+      "basis": "IRS release IR-2026-117 explicitly links the temporary and proposed rules implementing IRC section 25F. Federal Register documents 2026-20264 (TD 10057) and 2026-20277 (REG-117199-25) cross-reference the companion rules. The adopted temporary instrument and pending proposal retain separate stages; Public Law 119-21 as a whole is not grouped into this narrow matter.",
+      "documents": [
+        {
+          "region": "US",
+          "url": "https://www.irs.gov/newsroom/the-trump-administration-advances-the-establishment-of-americas-first-nationwide-school-choice-program",
+          "title": "The Trump administration advances the establishment of America’s first nationwide school choice program"
+        },
+        {
+          "region": "US",
+          "officialId": "TD 10057"
+        },
+        {
+          "region": "US",
+          "officialId": "REG-117199-25"
+        }
+      ]
+    },
+    {
+      "id": "us-ia-dyed-diesel-2026",
+      "title": [
+        "艾奥瓦州农业运输染色柴油处罚暂缓及范围扩大",
+        "Iowa agricultural transport: dyed-diesel penalty suspension and expansion"
+      ],
+      "basis": "The 7 October announcement explicitly expands the proclamation announced on 6 October under Iowa Code 452A.74A(1), adding livestock, feed and other farm products while retaining the 2 February 2027 end date. Federal and other-state diesel measures remain separate.",
+      "documents": [
+        {
+          "region": "US-IA",
+          "url": "https://governor.iowa.gov/press-release/2026-10-06/gov-reynolds-signs-proclamation-suspending-penalties-road-dyed-diesel-use",
+          "title": "Gov. Reynolds signs proclamation suspending penalties for on-road dyed diesel use"
+        },
+        {
+          "region": "US-IA",
+          "url": "https://governor.iowa.gov/press-release/2026-10-07/gov-reynolds-expands-proclamation-suspending-penalties-road-dyed-diesel-use",
+          "title": "Gov. Reynolds expands proclamation suspending penalties for on-road dyed diesel use"
+        }
+      ]
+    },
+    {
+      "id": "us-de-film-production-credit-2026",
+      "title": [
+        "特拉华州影视制作税收抵免：申请开放及象征性签署",
+        "Delaware film production tax credit: applications and ceremonial signing"
+      ],
+      "basis": "The 16 September DSB release and 30 September governor release explicitly identify HB 364 and the same 30% transferable production credit. The latter confirms applications opened on 16 September and describes a ceremonial signing, not a new legal commencement. Its companion commission legislation remains visible in that original record; no unrelated credits are merged.",
+      "documents": [
+        {
+          "region": "US-DE",
+          "url": "https://news.delaware.gov/2026/09/16/dsb-accepting-applications-for-states-first-10m-film-tax-credit-program/",
+          "title": "DSB Accepting Applications for State’s First $10M Film Tax Credit Program"
+        },
+        {
+          "region": "US-DE",
+          "url": "https://news.delaware.gov/2026/09/30/governor-meyer-signs-film-tax-credit-creating-opportunities-for-delaware-entrepreneurs-and-artists/",
+          "title": "Governor Meyer Signs Film Tax Credit Creating Opportunities for Delaware Entrepreneurs and Artists"
         }
       ]
     }

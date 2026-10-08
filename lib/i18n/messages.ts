@@ -1,4 +1,8 @@
 export const messages = {
+  "追踪范围：美国联邦层面、全部50个州及华盛顿特区。": "Scope: the US federal level, all 50 states and the District of Columbia.",
+  "华盛顿特区是联邦特区，不是州。已登记联邦立法、总统文件、联邦公报、现行法律与规章入口，以及50个州和特区的政府门户；州议会、州公报、地方政府、部落政府及海外领地尚未独立接入。登记来源不代表已完成政策扫描或事实核查。": "The District of Columbia is a federal district, not a state. Federal legislation, presidential actions, the Federal Register, current statutes and regulations, and government portals for all 50 states and DC are registered. State legislatures, state gazettes, local and tribal governments, and overseas territories are not separately connected. Registered sources do not imply completed policy scans or fact checks.",
+  "州／特区": "States / federal district",
+
   "同一事项的文件与进展集中展示，展开查看每份原文；从 2026 年 1 月 1 日起登记。": "Documents and developments for the same matter are shown together. Expand to see each original; tracked since 1 January 2026.",
   "数字随筛选变化；同一事项计一次，原始文件全部保留。": "Counts follow filters; each matter counts once and all original documents are retained.",
   "{0} 个事项 · {1} 条官方记录": "{0} matters · {1} official records",

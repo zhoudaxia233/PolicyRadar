@@ -1,6 +1,6 @@
 import registry from '../../data/discovery-registry.json' with {type:'json'};
 export function sourceSupportsRegion(source:{region:string;supportedRegions?:string[]}|undefined,region:string){return !!source&&(source.supportedRegions??[source.region]).includes(region);}
-// Official discovery entries for Germany, France, the Netherlands, Switzerland, Italy, Spain, the United Kingdom and the EU.
+// Official discovery entries for Germany, France, the Netherlands, Switzerland, Italy, Spain, the United Kingdom, the United States and the EU.
 // A registered entry is not a claim of exhaustive coverage or a successful fetch.
 export const discovery:DiscoverySource[] = registry;
 export type DiscoverySource={region:string;url:string;title:string;publisher:string;kind?:string;supportedRegions?:string[]};

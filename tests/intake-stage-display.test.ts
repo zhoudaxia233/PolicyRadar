@@ -36,3 +36,12 @@ test('all grouped official records scope their badges without rewriting stages',
   assert.equal(html.split('记录当时：').length-1,group.records.length,group.id);
  }
 });
+test('US temporary and proposed rules retain different record stages in one matter',()=>{
+ const group=groups.find(g=>g.id==='topic:us-scholarship-credit-2026')!;
+ assert(group);
+ assert.equal(group.records.find(r=>r.id==='us-fr-2026-20264')?.stage,'adopted');
+ assert.equal(group.records.find(r=>r.id==='us-fr-2026-20277')?.stage,'pending');
+ const html=renderToStaticMarkup(createElement(TopicDocuments,{group,policies:data.policies,open:()=>{},locale:'en',localization}));
+ assert(html.includes('At the time of this record: Pending'));
+ assert(html.includes('At the time of this record: Adoption or publication confirmed'));
+});

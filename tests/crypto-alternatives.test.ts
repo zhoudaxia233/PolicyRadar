@@ -11,7 +11,7 @@ const read=(p:string)=>JSON.parse(readFileSync(p,'utf8'));
 const data=createStaticData(read('data/exports/2026-10-08-crypto-alternatives-173843/policy-radar-export.json'));
 const green=data.policies.find(p=>p.id==='de-crypto-holding-proposal')!;
 const bmf=data.policies.find(p=>p.id==='de-bmf-crypto-tax-reform-2027')!;
-const localization=createLocalization(data,read('data/translations/content.json'),read('data/translations/bindings.json'));
+const localization=createLocalization(data,read('data/translations/content.json'),read('tests/fixtures/crypto-alternatives-bindings.json'));
 
 test('rejection of one instrument does not close the alternative or enact its proposed date',()=>{
  assert.equal(green.status,'closed');assert.equal(bmf.status,'pending');

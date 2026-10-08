@@ -168,6 +168,17 @@ Bundestag bill 21/5752 must coexist with the separate BMF draft, the current
 one-year rule, different tax treatment and different acquisition-date cutoffs.
 See the source-located review in the corresponding correction export.
 
+### Identify the scheduled instrument before checking a vote
+
+When a request refers to a homepage countdown or screenshot, resolve that exact
+node to its policy ID, official document number and linked source before searching
+for a result. Shared labels such as "crypto" do not establish identity. CARF
+21/7195 and tax bill 21/5752 have different outcomes and must not share vote totals.
+After a confirmed outcome, check the homepage next node, Coming up, current intake,
+details and both languages together; clear the completed nextDate without deleting
+historical scheduled events. A current detail page for another bill does not
+complete the requested update. Verify the affected live node after publication.
+
 ### Reader comprehension gate
 
 Apply this gate to every new or changed explanation and its English

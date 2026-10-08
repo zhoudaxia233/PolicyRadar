@@ -24,16 +24,16 @@ const data=createStaticData(after);
 
 test('Italy and all 20 ISO regions round-trip across languages',()=>{
  assert.deepEqual(italianRegions.map(r=>r.id),['21','23','25','32','34','36','42','45','52','55','57','62','65','67','72','75','77','78','82','88'].map(id=>'IT-'+id));
- assert.equal(countryName('IT','zh'),'意大利');assert.equal(countryName('IT','de'),'Italien');assert.equal(countryName('IT','en'),'Italy');
+ assert.equal(countryName('IT','zh'),'意大利');assert.equal(countryName('IT','en'),'Italy');
  assert.equal(readFilters('?country=IT').country,'IT');assert.equal(readFilters('').country,'DE');
- for(const id of ['IT',...italianRegions.map(r=>r.id)])for(const locale of ['zh','de','en'] as const){
+ for(const id of ['IT',...italianRegions.map(r=>r.id)])for(const locale of ['zh','en'] as const){
   const filters=readFilters('?country=DE&region='+id);assert.equal(filters.country,'IT');assert.equal(filters.region,id);
   assert.deepEqual(readFilters(filterSearch('?lang='+locale,filters)),filters);assert.notEqual(regionName(id,locale),id);
  }
  assert.equal(originalRegionName('IT').language,'it');assert.equal(originalRegionName('IT-62').language,'it');
  for(const id of ['IT-23','IT-32'])assert.equal(originalRegionName(id).language,'und');
  const it=countries.find(c=>c.id==='IT')!;
- for(const locale of ['de','en'] as const)for(const text of [it.scope,it.note])assert(!/[\u3400-\u9fff]/u.test(translator(locale)(text)));
+ for(const locale of ['en'] as const)for(const text of [it.scope,it.note])assert(!/[\u3400-\u9fff]/u.test(translator(locale)(text)));
 });
 
 test('Italian registration preserves explicit gaps and shared-channel boundaries',()=>{
@@ -64,7 +64,7 @@ test('Initial Italian explanation has complete translations and preserves factua
  const p=data.policies.find(p=>p.id==='it-parental-leave-age-2026')!;
  assert.equal(l.policies[p.id],'current');assert.equal(p.effectiveDate,'2026-01-01');assert.equal(p.nextDate,null);assert.equal(p.originalLanguage,'it');
  assert(p.before.includes('12'));assert(p.after.includes('14'));assert(p.limits.includes('仅限雇员'));assert(p.limits.includes('成年'));
- for(const locale of ['de','en'] as const){const translated=localizePolicy(p,locale,l);assert(policyTextFields(translated).every(s=>!/[\u3400-\u9fff]/u.test(s)));assert.equal(translated.originalTitle,p.originalTitle);}
+ for(const locale of ['en'] as const){const translated=localizePolicy(p,locale,l);assert(policyTextFields(translated).every(s=>!/[\u3400-\u9fff]/u.test(s)));assert.equal(translated.originalTitle,p.originalTitle);}
  assert(l.messages[data.status.settings['reviewNote:IT']]);
  for(const entry of italianDiscovery)assert(l.messages[entry.title]);
 });

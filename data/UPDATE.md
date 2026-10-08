@@ -92,7 +92,7 @@ up from stored coverage, rather than skip to the latest week.
    proposal, cabinet approval, parliamentary adoption, publication, effective
    start and expiry. Do not infer passage from a scheduled date, or copy a parent
    law's start date into a new amendment. Unknown facts stay explicit or null.
-   Explanations in Chinese, German and English must state practical rules, affected people, before/after,
+   Explanations in Chinese and English must state practical rules, affected people, before/after,
    scope and exceptions, with source-linked events. AI review is fallible; schema
    checks are not proof of legal accuracy. Keep conflicting evidence visible.
 
@@ -149,7 +149,7 @@ is guaranteed to remain. Apply this to all policy areas, not only tax.
   them from another version. Use one dated hypothetical example when it makes
   the transition understandable. Do not imply a proposal is current law.
 - Review titles, summaries, before/after, limits, rules, discovery wording and
-  all three languages together. A closed-version card must not imply the whole
+  both languages together. A closed-version card must not imply the whole
   issue is settled; readers must see any material active alternative without
   having to infer it from another source or a generic disclaimer.
 - Save a run-specific review with source URLs/page or section locators, the
@@ -169,8 +169,8 @@ See the source-located review in the corresponding correction export.
 
 ### Reader comprehension gate
 
-Apply this gate to every new or changed explanation and its German and English
-translations before marking the wording reviewed. Grammatical correctness,
+Apply this gate to every new or changed explanation and its English
+translation before marking the wording reviewed. Grammatical correctness,
 literal translation, schema validation and a current translation hash do not
 establish readability.
 
@@ -188,7 +188,7 @@ establish readability.
   and result. Do not present an income-base increase as an equal premium increase,
   or a premium increase as an equal take-home-pay loss. State assumptions; omit
   a numerical result when the necessary rates or personal details are unknown.
-- Review each language as a standalone explanation, then compare all three for
+- Review each language as a standalone explanation, then compare both for
   the same amounts, units, scope, exceptions and legal stage. Fluent translation
   must not introduce an unsupported fact or turn a proposal into an adopted rule.
 - Before binding translations, answer from the displayed wording alone: Who is
@@ -258,9 +258,9 @@ required editorial review, not a claim that automated tests can guarantee clarit
    affected channels and unresolved facts. Do not claim full nationwide coverage.
 5. Maintain `data/translations/content.json` and `data/translations/bindings.json`
    alongside changed data, following [the translation contract](translations/README.md).
-   Translate explanations into German and English without changing dates, scope,
-   exceptions, uncertainty or source references. A German explanation is still
-   editorial text; the original official German document remains the authority.
+   Translate explanations into English without changing dates, scope,
+   exceptions, uncertainty or source references. An English explanation is still
+   editorial text; the original official document remains the authority.
    Record the actual original language per item rather than deriving it from the
    interface language or country. Keep canonical tags and identifiers unchanged.
    Bind a reviewed translation to the candidate policy version and complete record
@@ -389,7 +389,7 @@ Use ISO `CH-*` identities without applying French aliases. Preserve German,
 French, Italian or Romansh originals per document; a multilingual canton has no
 single inferred source language. Keep the real announcement title in intake,
 not the editorial policy label. Translate practical effects and exceptions into
-all three interface languages with version/hash bindings.
+both interface languages with version/hash bindings.
 
 Distinguish a government bill, parliamentary adoption, optional/mandatory popular
 votes, referendum deadlines and legal commencement. A returned Landsgemeinde bill
@@ -486,8 +486,8 @@ at version 1, the date-kind correction advances the charger to version 2, and th
 commencement-title correction and expiry addition advance roaming to version 2.
 Completing the later payment milestones advances instant payments to version 2.
 The original roaming event remains in history and is superseded by the corrected
-event. Bind translations to the selected version in each commit. German and
-English wording-only corrections in the translation catalog do not alter the
+event. Bind translations to the selected version in each commit. Wording-only
+corrections in the translation catalog do not alter the
 canonical record hash, policy version or export.
 
 When merging is authorized, select **Create a merge commit**. Squashing would make

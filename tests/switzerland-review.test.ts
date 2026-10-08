@@ -71,7 +71,7 @@ test('Swiss corrections preserve immutable history and other countries while kee
  const localization=createLocalization(data,read('../data/translations/content.json'),read('./fixtures/pre-politics-i18n-bindings.json'));
  for(const p of data.policies.filter(p=>p.region.startsWith('CH'))){
   assert.equal(localization.policies[p.id],'current',p.id);
-  for(const locale of ['de','en'] as const){const translated=localizePolicy(p,locale,localization);assert.equal(translated.nextDate,p.nextDate);if(changed.has(p.id))assert.notEqual(translated.nextLabel,p.nextLabel);}
+  for(const locale of ['en'] as const){const translated=localizePolicy(p,locale,localization);assert.equal(translated.nextDate,p.nextDate);if(changed.has(p.id))assert.notEqual(translated.nextLabel,p.nextLabel);}
  }
  for(const url of [...shells,schwyz])assert(localization.messages[data.intake.coverage.find(c=>c.url===url)!.latestScan!.note]);
  assert(localization.messages[data.status.settings['reviewNote:CH']]);

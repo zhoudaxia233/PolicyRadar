@@ -2,7 +2,7 @@ import {createHash} from 'node:crypto';
 import {z} from 'zod';
 import {policyTextFields,type Localization,type TranslationState} from './content.ts';
 import type {createStaticData} from '../static-data.ts';
-export const catalogSchema=z.record(z.tuple([z.string().trim().min(1),z.string().trim().min(1)]));
+export const catalogSchema=z.record(z.string().trim().min(1));
 const binding=z.object({titleIsOriginal:z.boolean().optional(),version:z.number().int().positive().optional(),hash:z.string().regex(/^[a-f0-9]{64}$/),verbatim:z.array(z.string()),originalLanguage:z.string().regex(/^[a-z]{2,3}(?:-[A-Za-z0-9]+)*$/)});
 export const bindingsSchema=z.object({policies:z.record(binding),intake:z.record(binding)});
 // The hash includes facts as well as prose: a date or source change invalidates

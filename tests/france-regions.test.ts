@@ -24,7 +24,7 @@ test('France has 18 geographical areas with three channels and a record per area
   const sources=discovery.filter(d=>d.region===r.id);assert.equal(sources.length,3);
   assert(sources.some(s=>'kind' in s&&s.kind==='law'));assert(sources.some(s=>s.url.includes('.gouv.fr/')));
   assert([...data.policies,...data.intake.records].some(p=>p.region===r.id));
-  for(const locale of ['zh','de','en'] as const){
+  for(const locale of ['zh','en'] as const){
    assert.notEqual(regionName(r.id,locale),r.id);
    const f=readFilters('?region='+r.id);assert.equal(f.country,'FR');assert.equal(f.region,r.id);
    assert.deepEqual(readFilters(filterSearch('?lang='+locale,f)),f);

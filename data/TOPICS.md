@@ -7,7 +7,7 @@ policies. An explanation of benefit eligibility and a reminder of that same
 benefit's deadline can also belong together; preserve both explanations.
 
 `topics.json` is reviewed presentation metadata. Each entry includes a stable ID,
-a Chinese/German/English title, an English explanation of the relationship and
+a Chinese/English title, an English explanation of the relationship and
 explicit document references. Numbered references use region plus official ID;
 unnumbered references require region, exact URL **and original title**. References
 resolve against the current projection so translation corrections do not break
@@ -23,7 +23,7 @@ The build validates every reference and emits resolved groups in `data.json`.
    series and case numbers as candidates. It does not establish semantic identity.
 2. Add documents to an existing matter where a shared concrete change is
    established. Otherwise create a reviewed group once two related current
-   records exist. Record the reason and accurate titles in all three languages.
+   records exist. Record the reason and accurate titles in both languages.
    Preserve source-derived evidence for the relationship; do not infer a legal
    effect or commencement date from grouping.
 3. Do not merge merely because texts share a topic, parent law, gazette issue,
@@ -38,7 +38,7 @@ The build validates every reference and emits resolved groups in `data.json`.
    represent a broader law or other territories. Never combine a proposal's
    stage with the final text's stage or infer an aggregate adopted status.
 5. Run tests, TypeScript and the static build. Verify native expand/collapse,
-   keyboard operation, mobile wrapping, all three languages, child searches,
+   keyboard operation, mobile wrapping, both languages, child searches,
    tag/region/stage filters, reload behavior and navigation counts. Every current
    original must remain reachable exactly once within the official-progress view.
 

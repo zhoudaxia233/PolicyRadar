@@ -2,7 +2,6 @@ export const countries = [
   {
     "id": "DE",
     "name": "德国",
-    "de": "Deutschland",
     "en": "Germany",
     "national": "联邦",
     "subdivision": "州",
@@ -12,7 +11,6 @@ export const countries = [
   {
     "id": "FR",
     "name": "法国",
-    "de": "Frankreich",
     "en": "France",
     "national": "全国层面",
     "subdivision": "大区",
@@ -22,7 +20,6 @@ export const countries = [
   {
     "id": "NL",
     "name": "荷兰",
-    "de": "Niederlande",
     "en": "Netherlands",
     "national": "全国层面",
     "subdivision": "省",
@@ -32,7 +29,6 @@ export const countries = [
   {
     "id": "CH",
     "name": "瑞士",
-    "de": "Schweiz",
     "en": "Switzerland",
     "national": "联邦",
     "subdivision": "州",
@@ -42,7 +38,6 @@ export const countries = [
   {
     "id": "IT",
     "name": "意大利",
-    "de": "Italien",
     "en": "Italy",
     "national": "全国层面",
     "subdivision": "大区",
@@ -52,7 +47,6 @@ export const countries = [
   {
     "id": "EU",
     "name": "欧盟",
-    "de": "Europäische Union",
     "en": "European Union",
     "national": "欧盟层面",
     "subdivision": "",
@@ -62,7 +56,6 @@ export const countries = [
   {
     "id": "GB",
     "name": "英国",
-    "de": "Vereinigtes Königreich",
     "en": "United Kingdom",
     "national": "全国层面",
     "subdivision": "构成地区",
@@ -72,7 +65,6 @@ export const countries = [
   {
     "id": "ES",
     "name": "西班牙",
-    "de": "Spanien",
     "en": "Spain",
     "national": "全国层面",
     "subdivision": "自治区／自治市",

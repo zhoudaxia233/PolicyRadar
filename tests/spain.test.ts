@@ -20,15 +20,15 @@ const es=after.discoveryRegistry.filter((s:{region:string})=>s.region.startsWith
 
 test('Spain and all autonomous communities and cities round-trip in every interface language',()=>{
  assert.deepEqual(spanishRegions.map(r=>r.id),['AN','AR','AS','CB','CL','CM','CN','CT','EX','GA','IB','MC','MD','NC','PV','RI','VC','CE','ML'].map(id=>'ES-'+id));
- assert.equal(countryName('ES','zh'),'西班牙');assert.equal(countryName('ES','de'),'Spanien');assert.equal(countryName('ES','en'),'Spain');
+ assert.equal(countryName('ES','zh'),'西班牙');assert.equal(countryName('ES','en'),'Spain');
  assert.equal(readFilters('?country=ES').country,'ES');assert.equal(readFilters('').country,'DE');
- for(const id of ['ES',...spanishRegions.map(r=>r.id)])for(const locale of ['zh','de','en'] as const){
+ for(const id of ['ES',...spanishRegions.map(r=>r.id)])for(const locale of ['zh','en'] as const){
   const f=readFilters('?country=DE&region='+id);assert.equal(f.country,'ES');assert.equal(f.region,id);
   assert.deepEqual(readFilters(filterSearch('?lang='+locale,f)),f);assert.notEqual(regionName(id,locale),id);
  }
  assert.equal(originalRegionName('ES').language,'es');assert.equal(originalRegionName('ES-CT').language,'ca');assert.equal(originalRegionName('ES-PV').language,'eu');
  const country=countries.find(c=>c.id==='ES')!;
- for(const locale of ['de','en'] as const)for(const t of [country.scope,country.note,country.subdivision])assert(!/[\u3400-\u9fff]/u.test(translator(locale)(t)));
+ for(const locale of ['en'] as const)for(const t of [country.scope,country.note,country.subdivision])assert(!/[\u3400-\u9fff]/u.test(translator(locale)(t)));
 });
 
 test('Spain channels cover each region without fabricating completed scans or wider jurisdiction',()=>{
@@ -57,7 +57,7 @@ test('Spanish minimum wage keeps commencement distinct from retroactive effects 
  const p=data.policies.find(p=>p.id==='es-minimum-wage-2026')!;
  const l=createLocalization(data,read('data/translations/content.json'),read('data/translations/bindings.json'));
  assert.equal(l.policies[p.id],'current');assert.equal(p.effectiveDate,'2026-02-20');assert.equal(p.nextDate,'2026-12-31');assert.equal(p.nextKind,'expiry');
- for(const locale of ['de','en'] as const)assert(policyTextFields(localizePolicy(p,locale,l)).every(t=>!/[\u3400-\u9fff]/u.test(t)));
+ for(const locale of ['en'] as const)assert(policyTextFields(localizePolicy(p,locale,l)).every(t=>!/[\u3400-\u9fff]/u.test(t)));
  for(const s of es)assert(l.messages[s.title]);assert(l.messages[data.status.settings['reviewNote:ES']]);
  const source=p.sources[0];
  const check=after.tables.checks.find((c:{url:string})=>c.url===source.url);assert.equal(check.error,null);

@@ -46,9 +46,9 @@ test('legacy bookmarks redirect to ISO URLs without changing stable policy IDs',
  assert.equal(frenchRegions.find(r=>r.insee==='06')?.id,'FR-976');
 });
 test('localized region labels and source original language are independent',()=>{
- assert.equal(regionName('FR-20R','en'),'Corsica');assert.equal(regionName('FR-20R','de'),'Korsika');
+ assert.equal(regionName('FR-20R','en'),'Corsica');
  assert.equal(regionName('FR-BRE','en'),'Brittany');assert.equal(regionName('FR-NOR','en'),'Normandy');
- assert.equal(regionName('FR-973','en'),'French Guiana');assert.equal(regionName('FR-973','de'),'Französisch-Guayana');
+ assert.equal(regionName('FR-973','en'),'French Guiana');
  assert.deepEqual(originalRegionName('FR-973'),{name:'Guyane',language:'fr'});
  assert.deepEqual(originalRegionName('FR'),{name:'Niveau national',language:'fr'});
  assert.deepEqual(originalRegionName('DE-HE'),{name:'Hessen',language:'de'});

@@ -1,13 +1,13 @@
 import type {Locale} from './index.ts';
 import {policyStatusNote,type Policy} from '../domain/model.ts';
 import type {IntakeRecord} from '../domain/intake.ts';
-export type ContentCatalog=Record<string,readonly [string,string]>;
+export type ContentCatalog=Record<string,string>;
 export type TranslationState='current'|'missing'|'stale';
 export type Localization={messages:ContentCatalog;policies:Record<string,TranslationState>;intake:Record<string,TranslationState>;sourceLanguages:Record<string,string>;originalIntakeTitles:Record<string,boolean>};
 export const emptyLocalization:Localization={messages:{},policies:{},intake:{},sourceLanguages:{},originalIntakeTitles:{}};
 export function contentText(text:string|undefined,locale:Locale,catalog:ContentCatalog):string {
  if(!text)return '';
- return locale==='zh'?text:catalog[text]?.[locale==='de'?0:1]??text;
+ return locale==='zh'?text:catalog[text]??text;
 }
 // Only explanatory text is projected. Identifiers, original titles, dates, stages,
 // status codes, tags, citations and evidence remain canonical, in every language.
@@ -19,12 +19,12 @@ export function localizePolicy(p:Policy,locale:Locale,l:Localization):Policy {
 }
 export function localizeIntake(r:IntakeRecord,locale:Locale,l:Localization):IntakeRecord {
  if(locale==='zh'||l.intake[r.id]!=='current')return r;
- // title is the original, not a German-specific display field. Keep it intact.
+ // title is the original document title, not a display translation. Keep it intact.
  return {...r,titleZh:contentText(r.titleZh??r.title,locale,l.messages),note:contentText(r.note,locale,l.messages)};
 }
 export function searchText(p:Policy|IntakeRecord,l:Localization):string {
- const localized='summary' in p?(['zh','de','en'] as const).map(locale=>localizePolicy(p,locale,l)): (['zh','de','en'] as const).map(locale=>localizeIntake(p,locale,l));
+ const localized='summary' in p?(['zh','en'] as const).map(locale=>localizePolicy(p,locale,l)): (['zh','en'] as const).map(locale=>localizeIntake(p,locale,l));
  const texts=localized.flatMap(p=>'summary'in p?[p.title,p.originalTitle,p.summary,p.officialId]:[p.title,p.titleZh??'',p.note,p.officialId??'']);
- for(const tag of p.tags??['topic'in p?p.topic:''])for(const locale of ['zh','de','en'] as const)texts.push(contentText(tag,locale,l.messages));
+ for(const tag of p.tags??['topic'in p?p.topic:''])for(const locale of ['zh','en'] as const)texts.push(contentText(tag,locale,l.messages));
  return texts.join(' ').toLocaleLowerCase();
 }

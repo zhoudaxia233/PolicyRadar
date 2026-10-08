@@ -873,7 +873,7 @@ export default function Home() {
           <span>
             {cname}
             /
-            {countries.find(c => c.id === country)?.de.toUpperCase()}
+            {countries.find(c => c.id === country)?.en.toUpperCase()}
           </span>
         </footer>
       </main>

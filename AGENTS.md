@@ -4,7 +4,7 @@
   Before reporting rejection, withdrawal or adoption, apply the policy-question
   completeness gate in `data/UPDATE.md`: verify current law, follow referenced
   alternative proposals, distinguish each version's stage, and explain affected
-  people, rates and old/new-case transition dates in all three languages. Never
+  people, rates and old/new-case transition dates in Chinese and English. Never
   equate one failed bill with the end of a reform, a ministry draft with enacted
   law, or one supportive speech with consensus. Save source-located review
   evidence; passing technical checks alone does not complete this review.

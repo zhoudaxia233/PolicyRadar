@@ -16,39 +16,41 @@ const catalog=read('../data/translations/content.json'),bindings=read('./fixture
 const l=createLocalization(data,catalog,bindings);
 
 test('language priority is URL, saved choice, supported browser preference, then English',()=>{
- assert.equal(resolveLocale('?lang=de','en',['zh-CN']),'de');
- assert.equal(resolveLocale('?lang=xx','en',['de-DE']),'en');
- assert.equal(resolveLocale('',null,['fr-FR','de-AT','en-US']),'de');
+ assert.equal(resolveLocale('?lang=zh','en',['en-US']),'zh');
+ assert.equal(resolveLocale('?lang=xx','en',['zh-CN']),'en');
+ assert.equal(resolveLocale('',null,['fr-FR','zh-CN','en-US']),'zh');
  assert.equal(resolveLocale('',null,['fr']),'en');
  assert.equal(resolveLocale('?lang=EN-us'),'en');
  assert.equal(resolveLocale(''),'en');
  assert.equal(resolveLocale('',null,[]),'en');
  assert.equal(resolveLocale('',null,['zh-TW']),'zh');
- assert.equal(resolveLocale('',null,['de-DE']),'de');
+// German is no longer an interface language: old links and saved choices fall back cleanly.
+ assert.equal(resolveLocale('?lang=de','de',['de-DE']),'en');
+ assert.equal(resolveLocale('?lang=de','de',['de-DE','zh-CN']),'zh');
  assert.equal(resolveLocale('?country=DE',null,['en']),'en');
 });
 test('language and filter URLs preserve detail, query and tag identities across switches',()=>{
  const initial='?lang=zh&view=all&policy=he-rent-protection-2025&q=Miete&tag=租房&region=DE-HE';
- const next=localeSearch(initial,'de');assert.deepEqual(readFilters(next),readFilters(initial));
+ const next=localeSearch(initial,'en');assert.deepEqual(readFilters(next),readFilters(initial));
  const filtered=filterSearch(next,{...readFilters(next),query:'rent'});
- assert.equal(new URLSearchParams(filtered).get('lang'),'de');
+ assert.equal(new URLSearchParams(filtered).get('lang'),'en');
  assert.equal(new URLSearchParams(filtered).get('policy'),'he-rent-protection-2025');
 });
 test('all UI translations retain interpolation placeholders',()=>{
  const slots=(s:string)=>[...s.matchAll(/\{\d+\}/g)].map(m=>m[0]).sort();
- for(const [key,values]of Object.entries(messages))for(const value of values)assert.deepEqual(slots(value),slots(key),key);
+ for(const [key,value]of Object.entries(messages))assert.deepEqual(slots(value),slots(key),key);
  assert.equal(translator('en')('赞成 {0} · 反对 {1} · 弃权 {2}',[3,2,1]),'For: 3 · against: 2 · abstentions: 1');
 });
 test('all existing policies and intake have complete current translations',()=>{
  assert.equal(Object.keys(l.policies).length,24);assert.equal(Object.keys(l.intake).length,18);
  assert(Object.values(l.policies).every(s=>s==='current'));assert(Object.values(l.intake).every(s=>s==='current'));
- for(const locale of ['de','en'] as const){
+ for(const locale of ['en'] as const){
   for(const p of data.policies)assert(!policyTextFields(localizePolicy(p,locale,l)).some(t=>/[\u3400-\u9fff]/.test(t)),p.id);
   for(const r of data.intake.records){const translated=localizeIntake(r,locale,l);assert(!/[\u3400-\u9fff]/.test(translated.titleZh??''));assert(!/[\u3400-\u9fff]/.test(translated.note));}
  }
 });
 test('translations preserve identities, legal dates, original titles, tags and evidence links',()=>{
- for(const p of data.policies)for(const locale of ['de','en'] as const){
+ for(const p of data.policies)for(const locale of ['en'] as const){
   const t=localizePolicy(p,locale,l);
   for(const key of ['id','officialId','originalTitle','effectiveDate','nextDate','verifiedAt','phase','status','tags','topic'] as const)assert.deepEqual(t[key],p[key]);
   assert.deepEqual(t.sources.map(s=>[s.id,s.url,s.kind]),p.sources.map(s=>[s.id,s.url,s.kind]));
@@ -65,7 +67,7 @@ test('a fact-only change or version change invalidates an otherwise unchanged tr
 test('missing new records and incomplete translations remain available without stale content',()=>{
  const changed=structuredClone(data);changed.policies[0].id='new-policy';
  const missing=createLocalization(changed,catalog,bindings);assert.equal(missing.policies['new-policy'],'missing');
- assert.equal(localizePolicy(changed.policies[0],'de',missing),changed.policies[0]);
+ assert.equal(localizePolicy(changed.policies[0],'en',missing),changed.policies[0]);
  const incomplete={...catalog};delete incomplete[data.policies[0].summary];
  assert.equal(createLocalization(data,incomplete,bindings).policies[data.policies[0].id],'missing');
  assert.equal(contentText('Untranslated new text','en',{}),'Untranslated new text');
@@ -77,7 +79,7 @@ test('new English explanations also require translation, not just Chinese text d
 });
 test('translated search matches all languages while category identities and counts stay stable',()=>{
  const index=new Map([...data.policies,...data.intake.records].map(p=>[p.id,searchText(p,l)]));const text=(p:{id:string})=>index.get(p.id)??'';
- for(const locale of ['zh','de','en'] as const){
+ for(const locale of ['zh','en'] as const){
   const policies=data.policies.map(p=>localizePolicy(p,locale,l)),records=data.intake.records.map(r=>localizeIntake(r,locale,l));
   for(const query of ['Mindestlohn','minimum wage','最低工资']){
    const result=selectListing(policies,records,{...readFilters(''),query},text);
@@ -90,14 +92,14 @@ test('translated search matches all languages while category identities and coun
 test('canonical lifecycle decisions remain independent of translated next-step wording',()=>{
  const original=data.policies.find(p=>p.id==='de-fuel-relief-2026')!;
  assert.equal(lifecycle(original,'2027-01-02'),'已通过 · 期限已到，后续待核实');
- for(const locale of ['de','en'] as const){const translated=localizePolicy(original,locale,l);assert.equal(keyDate(translated,'2026-10-03').date,keyDate(original,'2026-10-03').date);assert(!/[\u3400-\u9fff]/.test(translator(locale)(lifecycle(original,'2027-01-02'))));}
+ for(const locale of ['en'] as const){const translated=localizePolicy(original,locale,l);assert.equal(keyDate(translated,'2026-10-03').date,keyDate(original,'2026-10-03').date);assert(!/[\u3400-\u9fff]/.test(translator(locale)(lifecycle(original,'2027-01-02'))));}
 });
 test('original-language metadata is record-specific, not inferred from the chosen language',()=>{
  const custom=structuredClone(bindings);custom.policies[data.policies[0].id].originalLanguage='fr';
  assert.equal(createLocalization(data,catalog,custom).sourceLanguages[data.policies[0].id],'fr');
 });
 test('dates are formatted in the selected language without shifting date-only values',()=>{
- assert.equal(formatDate('2026-10-03','de'),'03.10.2026');
+ assert.equal(formatDate('2026-10-03','zh'),'2026/10/03');
  assert.match(formatDate('2026-10-03','en',{year:'numeric',month:'long',day:'numeric'}),/October 3, 2026/);
 });
 

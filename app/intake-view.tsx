@@ -38,7 +38,7 @@ export function TopicDocuments({group,...context}:Context&{group:RecordGroup}){
 // Counts elsewhere still cover every match, and a new result list starts again from the first page.
 export const intakePageSize=100;
 export function IntakeView({groups,...context}:Context&{groups:RecordGroup[]}){
- const tr=translator(context.locale),languageIndex=context.locale==='zh'?0:context.locale==='de'?1:2;
+ const tr=translator(context.locale),languageIndex=context.locale==='zh'?0:1;
  const [shown,setShown]=useState({groups,limit:intakePageSize});
  const limit=shown.groups===groups?shown.limit:intakePageSize;
  return <><div className="policy-list">{!groups.length?<div className="empty"><h3>{tr('暂没有匹配的官方进展记录')}</h3><p>{tr('这不表示没有政策变化。未查完的来源会在“来源与更新”列明。')}</p></div>:groups.slice(0,limit).map(group=><article className="intake-card" key={group.id}>

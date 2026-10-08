@@ -8,11 +8,11 @@ const reference=z.union([
  z.object({region:text,url:z.string().url(),title:text}).strict(),
 ]);
 export const topicDefinitionsSchema=z.array(z.object({
- id:z.string().regex(/^[a-z0-9-]+$/),title:z.tuple([text,text,text]),
+ id:z.string().regex(/^[a-z0-9-]+$/),title:z.tuple([text,text]),
  basis:text,documents:z.array(reference).min(1),
 }).strict());
 export type TopicDefinition=z.infer<typeof topicDefinitionsSchema>[number];
-export type Topic={id:string;title:[string,string,string];recordIds:string[];policyIds:string[]};
+export type Topic={id:string;title:[string,string];recordIds:string[];policyIds:string[]};
 export type RecordGroup={id:string;title?:Topic['title'];records:IntakeRecord[];policyIds:string[]};
 
 // Explicit, reviewed relations only. Similar names, shared gazettes and broad

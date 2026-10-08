@@ -434,3 +434,4 @@ dialog.drawer::backdrop{background:var(--backdrop)}
 .policy-with-documents{min-width:0}
 .policy-with-documents>.policy-card{width:100%}
 .policy-with-documents>.topic-documents{padding:12px 20px;background:var(--surface);border:1px solid var(--line);border-radius:10px;margin-top:0}
+.show-more{display:flex;margin:16px auto 0;padding:9px 16px;border:1px solid var(--line-strong);border-radius:8px;color:var(--ink)}

@@ -95,3 +95,13 @@ export function lifecycle(p:Policy,today:string){
  if(nextPassed)return '已通过 · 后续进展待核实';
  return code==='existing'?'既有补助 · 说明已更新':'已通过 · 生效日未确认';
 }
+
+// A closed proposal must not imply that enactment is still expected.
+export function detailLabels(p:Pick<Policy,'phase'|'effectiveDate'|'effectiveDateKind'>){
+ const closedProposal=p.phase==='closed'&&!p.effectiveDate;
+ return {
+  date:p.effectiveDate?(p.effectiveDateKind==='application'?'本次要求开始适用：':'本次改动开始生效：'):closedProposal?'该事项已结束，未记录生效日期':p.phase==='pending'?'尚未确认通过，没有已生效日期':'开始生效日期尚待核实',
+  change:closedProposal?'原拟议改变':p.phase==='pending'?'拟议改变':'修改之后',
+  rules:closedProposal?'原提案内容':p.phase==='pending'?'具体想改什么':'具体规定是什么',
+ } as const;
+}

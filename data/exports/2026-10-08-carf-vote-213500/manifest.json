@@ -1,0 +1,13 @@
+{
+  "baseExport": "data/exports/2026-10-08-us-scan-release/policy-radar-export.json",
+  "exportedAt": "2026-10-08T21:33:00.430Z",
+  "scope": "Targeted CARF bill 21/7195 plenary-result update; no comprehensive scan",
+  "policyIds": [
+    "de-carf-agreement-2026"
+  ],
+  "recordIds": [
+    "de-carf-bundestag-passage-20261008",
+    "de-carf-first-reading-context-20261008"
+  ],
+  "reviewFile": "review.md"
+}

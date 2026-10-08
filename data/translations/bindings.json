@@ -75,8 +75,8 @@
       ]
     },
     "de-carf-agreement-2026": {
-      "version": 7,
-      "hash": "320e75866e248fe2496aec610f4659339f74caaefd0b0d9c192a864651ce0178",
+      "version": 8,
+      "hash": "7379a4b4b74147cb4e757e8499dc0a7f7c3b0f7d675eda7dea5cbd3eb739947d",
       "originalLanguage": "de",
       "verbatim": [
         "Deutscher Bundestag"
@@ -32397,6 +32397,18 @@
     "us-fr-2026-20277": {
       "hash": "2b381abf8e92b1b7be020eced332e347f4dd8d9a74774efd5810eb71ac13752d",
       "originalLanguage": "en",
+      "titleIsOriginal": true,
+      "verbatim": []
+    },
+    "de-carf-bundestag-passage-20261008": {
+      "hash": "533bd308e9d0b21145daa35ea060d042aa80607a68fe7e4e74b33ad419423884",
+      "originalLanguage": "de",
+      "titleIsOriginal": true,
+      "verbatim": []
+    },
+    "de-carf-first-reading-context-20261008": {
+      "hash": "e3a80743d0c9d90d6f265d802d21fd8f0957f1b9ff5e58cfeaf6857489615393",
+      "originalLanguage": "de",
       "titleIsOriginal": true,
       "verbatim": []
     }

@@ -1,0 +1,2574 @@
+[
+  {
+    "url": "https://eur-lex.europa.eu/collection/eu-law/legal-acts/recent.html",
+    "ok": true,
+    "snapshotKey": "sources/c1b8e069d0bab188afa806e41dcde925dc8b241f2268415f7c2bb9657a68004f/ebfeed7a11c43d595924d5dbbd5adaa8d87850dd3364d171b4afce854785d8ff.html",
+    "hash": "ebfeed7a11c43d595924d5dbbd5adaa8d87850dd3364d171b4afce854785d8ff",
+    "checkedAt": "2026-10-08T20:00:31.637Z",
+    "finalUrl": "https://eur-lex.europa.eu/collection/eu-law/legal-acts/recent.html"
+  },
+  {
+    "url": "https://eur-lex.europa.eu/oj/direct-access.html",
+    "ok": true,
+    "snapshotKey": "sources/bd29fec2269a5bc78a96d387fc3f82a99a2a8b970c1fd7a167d899eb192fde04/088abebf947adf3d2bd7107e3374868447a7a682320409c377762991ff80653e.html",
+    "hash": "088abebf947adf3d2bd7107e3374868447a7a682320409c377762991ff80653e",
+    "checkedAt": "2026-10-08T20:00:31.638Z",
+    "finalUrl": "https://eur-lex.europa.eu/oj/direct-access.html"
+  },
+  {
+    "url": "https://oeil.europarl.europa.eu/oeil/en",
+    "ok": false,
+    "snapshotKey": null,
+    "hash": null,
+    "checkedAt": "2026-10-08T20:00:31.638Z",
+    "error": "Portal shell; not legal/document evidence",
+    "finalUrl": "https://oeil.europarl.europa.eu/oeil/en"
+  },
+  {
+    "url": "https://commission.europa.eu/law/law-making-process_en",
+    "ok": true,
+    "snapshotKey": "sources/cdceeeea5edd480ea1b083dbe9693e7e9f67d343ad4d6e8f38cdb50afab89f5e/4b01e79233cd68a4d25e9ddb92f9c60a196dcf93254d3a1c878612f3c5b8ed00.html",
+    "hash": "4b01e79233cd68a4d25e9ddb92f9c60a196dcf93254d3a1c878612f3c5b8ed00",
+    "checkedAt": "2026-10-08T20:00:31.638Z",
+    "finalUrl": "https://commission.europa.eu/law/law-making-process_en"
+  },
+  {
+    "url": "https://www.consilium.europa.eu/en/press/press-releases/",
+    "ok": false,
+    "snapshotKey": null,
+    "hash": null,
+    "checkedAt": "2026-10-08T20:00:31.638Z",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "url": "https://commission.europa.eu/news-and-media_en",
+    "ok": true,
+    "snapshotKey": "sources/7aa1748049cdbf838b109fbef4dc4df2045251a262bf105a4195e7be352ed367/608b55925c7e07225efd56ba913a8bade8c2bcb29c6e5b28e0a1676010338013.html",
+    "hash": "608b55925c7e07225efd56ba913a8bade8c2bcb29c6e5b28e0a1676010338013",
+    "checkedAt": "2026-10-08T20:00:31.638Z",
+    "finalUrl": "https://commission.europa.eu/news-and-media_en"
+  },
+  {
+    "url": "https://ec.europa.eu/commission/presscorner/home/en",
+    "ok": false,
+    "snapshotKey": null,
+    "hash": null,
+    "checkedAt": "2026-10-08T20:00:31.765Z",
+    "error": "Unreadable or access challenge; requires interactive review",
+    "finalUrl": "https://ec.europa.eu/commission/presscorner/home/en"
+  },
+  {
+    "url": "https://www.europarl.europa.eu/news/en/press-room",
+    "ok": false,
+    "snapshotKey": null,
+    "hash": null,
+    "checkedAt": "2026-10-08T20:00:31.865Z",
+    "error": "Unreadable or access challenge; requires interactive review",
+    "finalUrl": "https://www.europarl.europa.eu/news/en/press-room"
+  },
+  {
+    "url": "https://eur-lex.europa.eu/oj/daily-view/L-series/default.html?ojDate=01102026",
+    "ok": true,
+    "snapshotKey": "sources/13e140d05fb4f03069f63b533ac19521d748702ae72b62b0e1395b17e6fc161d/2706b818b9a6202b2e89887323357e7586196ad3b459c1271c0004e735faa6cf.html",
+    "hash": "2706b818b9a6202b2e89887323357e7586196ad3b459c1271c0004e735faa6cf",
+    "checkedAt": "2026-10-08T20:00:31.865Z",
+    "finalUrl": "https://eur-lex.europa.eu/oj/daily-view/L-series/default.html?ojDate=01102026"
+  },
+  {
+    "url": "https://eur-lex.europa.eu/oj/daily-view/C-series/default.html?ojDate=01102026",
+    "ok": true,
+    "snapshotKey": "sources/aafe7bb9b18f102f409950e8d0b6c85b872fe72eeba4c939cee673eba23748e2/d2007ba276657ba84a22226c0d716012b5a0c17b37b18e0e029d871c69ed2b05.html",
+    "hash": "d2007ba276657ba84a22226c0d716012b5a0c17b37b18e0e029d871c69ed2b05",
+    "checkedAt": "2026-10-08T20:00:31.928Z",
+    "finalUrl": "https://eur-lex.europa.eu/oj/daily-view/C-series/default.html?ojDate=01102026"
+  },
+  {
+    "url": "https://eur-lex.europa.eu/oj/daily-view/L-series/default.html?ojDate=02102026",
+    "ok": true,
+    "snapshotKey": "sources/d55ea267f7a8b1dc4bdcae2ba40a491f39bdbe593333d6a15cbe82045f5ca4fe/d04e564a978b845e380e4f8b272bb860d9327bd13f1e35921ee66227b87684cd.html",
+    "hash": "d04e564a978b845e380e4f8b272bb860d9327bd13f1e35921ee66227b87684cd",
+    "checkedAt": "2026-10-08T20:00:32.063Z",
+    "finalUrl": "https://eur-lex.europa.eu/oj/daily-view/L-series/default.html?ojDate=02102026"
+  },
+  {
+    "url": "https://eur-lex.europa.eu/oj/daily-view/C-series/default.html?ojDate=02102026",
+    "ok": true,
+    "snapshotKey": "sources/3ee832e43c25cd36d3cb42cfa8c8e7b72a7833741976121ea09580f76d1ef83e/892b48909919a460dd54bd86cb60fd0d6099946bf780a14ff245fd1a7089b1db.html",
+    "hash": "892b48909919a460dd54bd86cb60fd0d6099946bf780a14ff245fd1a7089b1db",
+    "checkedAt": "2026-10-08T20:00:32.084Z",
+    "finalUrl": "https://eur-lex.europa.eu/oj/daily-view/C-series/default.html?ojDate=02102026"
+  },
+  {
+    "url": "https://eur-lex.europa.eu/oj/daily-view/L-series/default.html?ojDate=03102026",
+    "ok": true,
+    "snapshotKey": "sources/ac4c90637c059bd6e9ac5e194ab6c7ed4a9d3539b64229c0fa17cdccdad780aa/e93eb7d6ab2709e56beab128fb30c345327601972c1745a4b3cbe98948acd3af.html",
+    "hash": "e93eb7d6ab2709e56beab128fb30c345327601972c1745a4b3cbe98948acd3af",
+    "checkedAt": "2026-10-08T20:00:32.127Z",
+    "finalUrl": "https://eur-lex.europa.eu/oj/daily-view/L-series/default.html?ojDate=03102026"
+  },
+  {
+    "url": "https://eur-lex.europa.eu/oj/daily-view/C-series/default.html?ojDate=03102026",
+    "ok": true,
+    "snapshotKey": "sources/d193d30aaebb8af82497e57923f872ab763f2812b8a4063ca364966b8700d310/84dfbdf8ac2bd451f0d4b5e9cbcf946be7679b4dd89e55ca6fe8b923b0e081f4.html",
+    "hash": "84dfbdf8ac2bd451f0d4b5e9cbcf946be7679b4dd89e55ca6fe8b923b0e081f4",
+    "checkedAt": "2026-10-08T20:00:32.127Z",
+    "finalUrl": "https://eur-lex.europa.eu/oj/daily-view/C-series/default.html?ojDate=03102026"
+  },
+  {
+    "url": "https://eur-lex.europa.eu/oj/daily-view/L-series/default.html?ojDate=04102026",
+    "ok": true,
+    "snapshotKey": "sources/323228ade679d255d3e779dc584c7174f253138c4845fac695010707b17818bd/16e95a20e75db821dd0a911a25b94b6be8e7275c58ae46b7ad96c263715ac39f.html",
+    "hash": "16e95a20e75db821dd0a911a25b94b6be8e7275c58ae46b7ad96c263715ac39f",
+    "checkedAt": "2026-10-08T20:00:32.328Z",
+    "finalUrl": "https://eur-lex.europa.eu/oj/daily-view/L-series/default.html?ojDate=04102026"
+  },
+  {
+    "url": "https://eur-lex.europa.eu/oj/daily-view/C-series/default.html?ojDate=04102026",
+    "ok": true,
+    "snapshotKey": "sources/58d1e20ef9f008d685521807d88a0ae69d2b70fc9e781743bb7748412ce3a909/38a568ae5cc05f0787003dd1f717e67f9052e27f7061a5491ca86c7e8c94b66c.html",
+    "hash": "38a568ae5cc05f0787003dd1f717e67f9052e27f7061a5491ca86c7e8c94b66c",
+    "checkedAt": "2026-10-08T20:00:32.524Z",
+    "finalUrl": "https://eur-lex.europa.eu/oj/daily-view/C-series/default.html?ojDate=04102026"
+  },
+  {
+    "url": "https://eur-lex.europa.eu/oj/daily-view/L-series/default.html?ojDate=05102026",
+    "ok": true,
+    "snapshotKey": "sources/aaac6a0d7dff90f41c9aefc3169c8586dcdf863bf60cc8bcbb80027b701cabaf/eef5e27868456dfffbd091a6bc2a8e31daca0fbe63fcffd7850ad07597a6a735.html",
+    "hash": "eef5e27868456dfffbd091a6bc2a8e31daca0fbe63fcffd7850ad07597a6a735",
+    "checkedAt": "2026-10-08T20:00:32.541Z",
+    "finalUrl": "https://eur-lex.europa.eu/oj/daily-view/L-series/default.html?ojDate=05102026"
+  },
+  {
+    "url": "https://eur-lex.europa.eu/oj/daily-view/C-series/default.html?ojDate=05102026",
+    "ok": true,
+    "snapshotKey": "sources/95c406f67daf5a1a04d980fb13d590af68172c0cae55d609f81c23e9e51082f9/ac553cbf9ad53e022731a6ab5632289a95b22d5341688210f86f436d6e31ba48.html",
+    "hash": "ac553cbf9ad53e022731a6ab5632289a95b22d5341688210f86f436d6e31ba48",
+    "checkedAt": "2026-10-08T20:00:32.659Z",
+    "finalUrl": "https://eur-lex.europa.eu/oj/daily-view/C-series/default.html?ojDate=05102026"
+  },
+  {
+    "url": "https://eur-lex.europa.eu/oj/daily-view/L-series/default.html?ojDate=06102026",
+    "ok": true,
+    "snapshotKey": "sources/dd62ffe28233d434f463737497691e8c6c09cc43e5bab5e77de83c80b3af4a57/50b7ed0e8d5a3250326fbffe75065c517bbbf65ce14b1a070b84f7ffea01a898.html",
+    "hash": "50b7ed0e8d5a3250326fbffe75065c517bbbf65ce14b1a070b84f7ffea01a898",
+    "checkedAt": "2026-10-08T20:00:32.680Z",
+    "finalUrl": "https://eur-lex.europa.eu/oj/daily-view/L-series/default.html?ojDate=06102026"
+  },
+  {
+    "url": "https://eur-lex.europa.eu/oj/daily-view/C-series/default.html?ojDate=06102026",
+    "ok": true,
+    "snapshotKey": "sources/464196b49a149d23c21c3040244a74425a1bc2a7ba2a97f07f715f9a9fce4f23/7343947b7422581282820258f8283fd47cf31a0498780554ac01e87e05f4a0f6.html",
+    "hash": "7343947b7422581282820258f8283fd47cf31a0498780554ac01e87e05f4a0f6",
+    "checkedAt": "2026-10-08T20:00:32.723Z",
+    "finalUrl": "https://eur-lex.europa.eu/oj/daily-view/C-series/default.html?ojDate=06102026"
+  },
+  {
+    "url": "https://eur-lex.europa.eu/oj/daily-view/L-series/default.html?ojDate=07102026",
+    "ok": true,
+    "snapshotKey": "sources/6266774f2bbfe5e5989a86d8204a1727ffc6813c8986ec4c9c4a4b38a8cfbc05/62cf41e5ac77a17299ccf9e168323203f79c509a72dfbf2d57bf7f748855b3c5.html",
+    "hash": "62cf41e5ac77a17299ccf9e168323203f79c509a72dfbf2d57bf7f748855b3c5",
+    "checkedAt": "2026-10-08T20:00:32.802Z",
+    "finalUrl": "https://eur-lex.europa.eu/oj/daily-view/L-series/default.html?ojDate=07102026"
+  },
+  {
+    "url": "https://eur-lex.europa.eu/oj/daily-view/C-series/default.html?ojDate=07102026",
+    "ok": true,
+    "snapshotKey": "sources/0cce6b56d3230bd7f28c152de76e623e2e707e6fcc5d5e8ab5baaff8267b6554/4a8f7dab9e6170d83948d0800784aa8d3db5c59f62780c263d920a173d227852.html",
+    "hash": "4a8f7dab9e6170d83948d0800784aa8d3db5c59f62780c263d920a173d227852",
+    "checkedAt": "2026-10-08T20:00:32.976Z",
+    "finalUrl": "https://eur-lex.europa.eu/oj/daily-view/C-series/default.html?ojDate=07102026"
+  },
+  {
+    "url": "https://eur-lex.europa.eu/oj/daily-view/L-series/default.html?ojDate=08102026",
+    "ok": true,
+    "snapshotKey": "sources/e0c65edbc5c09261963fc3626c152edb36160a565acbee8d96dbb8d6c6c14607/f064269c20ca136b5e8cc304e553b129ed7f6d894bca15d6085cb1e123ad96c2.html",
+    "hash": "f064269c20ca136b5e8cc304e553b129ed7f6d894bca15d6085cb1e123ad96c2",
+    "checkedAt": "2026-10-08T20:00:32.992Z",
+    "finalUrl": "https://eur-lex.europa.eu/oj/daily-view/L-series/default.html?ojDate=08102026"
+  },
+  {
+    "url": "https://eur-lex.europa.eu/oj/daily-view/C-series/default.html?ojDate=08102026",
+    "ok": true,
+    "snapshotKey": "sources/a23cd167aa30b3b71f1e3d4b700438d66c679ba7b6cb62c8c3a6b57f0ccf19d4/2d8bbc23cbf15e52967cb5e3622f784c4a5f17a54e3a4224842bf63cf8460085.html",
+    "hash": "2d8bbc23cbf15e52967cb5e3622f784c4a5f17a54e3a4224842bf63cf8460085",
+    "checkedAt": "2026-10-08T20:00:33.086Z",
+    "finalUrl": "https://eur-lex.europa.eu/oj/daily-view/C-series/default.html?ojDate=08102026"
+  },
+  {
+    "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:L_202602205",
+    "ok": true,
+    "snapshotKey": "sources/4801a2cf07c47249060bae542aff98a78c318cdaef1f7ca1227da16de6d4dc0c/704ba79f2dd7eb7beccd07c5d29c074981d89492f518cd468e78041aedf814e0.html",
+    "hash": "704ba79f2dd7eb7beccd07c5d29c074981d89492f518cd468e78041aedf814e0",
+    "checkedAt": "2026-10-08T20:00:55.498Z",
+    "finalUrl": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:L_202602205"
+  },
+  {
+    "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:L_202602208",
+    "ok": true,
+    "snapshotKey": "sources/1c9afa9d48cea114f45b6cbf15b6f14c17988db7181126338b96ed770d1fbb92/79e6701fd86d74b671845126c9e97563a6a3ab09ab3cfae06583afce14b17774.html",
+    "hash": "79e6701fd86d74b671845126c9e97563a6a3ab09ab3cfae06583afce14b17774",
+    "checkedAt": "2026-10-08T20:00:55.499Z",
+    "finalUrl": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:L_202602208"
+  },
+  {
+    "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:L_202602210",
+    "ok": true,
+    "snapshotKey": "sources/0b305061f4afed8f3803ee50fb2a069b23478da160a57a0836cbaabe37482ca5/049e9df9510012998f312ad353a1a4b377e76cdd8ab6e81cef5f9803521e22a6.html",
+    "hash": "049e9df9510012998f312ad353a1a4b377e76cdd8ab6e81cef5f9803521e22a6",
+    "checkedAt": "2026-10-08T20:00:55.499Z",
+    "finalUrl": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:L_202602210"
+  },
+  {
+    "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:L_202602214",
+    "ok": true,
+    "snapshotKey": "sources/56c15ad49e9f5b747cb46575d7559a6f46edb125d03c6787a2ee43e2186eb9d6/ddf7141a1af65cc13fd6a6b29322b4aef707029484f1de863b8b3be97aecd0c5.html",
+    "hash": "ddf7141a1af65cc13fd6a6b29322b4aef707029484f1de863b8b3be97aecd0c5",
+    "checkedAt": "2026-10-08T20:00:55.499Z",
+    "finalUrl": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:L_202602214"
+  },
+  {
+    "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:L_202602226",
+    "ok": true,
+    "snapshotKey": "sources/949d4c9f155a5b7221a01f03f5a4648523da89e5a1ae3fc77ee1ec5c45317496/7fee8a32bfbe60afd8dfe434786aa9c816c0ffcf8254f95f64e5895f1e2d7b6e.html",
+    "hash": "7fee8a32bfbe60afd8dfe434786aa9c816c0ffcf8254f95f64e5895f1e2d7b6e",
+    "checkedAt": "2026-10-08T20:00:55.499Z",
+    "finalUrl": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:L_202602226"
+  },
+  {
+    "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:L_202602240",
+    "ok": true,
+    "snapshotKey": "sources/f7ae36869e978e4630ddd196d27d4b066c363c574cf76b873a727e8bbe3939c3/6f8de07729c7cd19a821d03695589cffcbc9a63beafed6bf3153a269d41e2e5a.html",
+    "hash": "6f8de07729c7cd19a821d03695589cffcbc9a63beafed6bf3153a269d41e2e5a",
+    "checkedAt": "2026-10-08T20:00:55.499Z",
+    "finalUrl": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:L_202602240"
+  },
+  {
+    "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:L_202690836",
+    "ok": true,
+    "snapshotKey": "sources/e127a0469c0f0e60b60e854ba297d19dab50eed6b9e4dba665d73484d7bbb351/460d7faee10fe70f9620e9664a5dcf0706744fb137a145b7db7c3a1fa0d0d4a1.html",
+    "hash": "460d7faee10fe70f9620e9664a5dcf0706744fb137a145b7db7c3a1fa0d0d4a1",
+    "checkedAt": "2026-10-08T20:00:56.252Z",
+    "finalUrl": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:L_202690836"
+  },
+  {
+    "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:L_202690843",
+    "ok": true,
+    "snapshotKey": "sources/45bb7f7637c4fd932512298df8439ddfd58cc0f53e940539cce0e0107e74e3f5/555c5f9766c43600f469621be4587174e5e0d93c71619ea3cfbd0521abf3fc73.html",
+    "hash": "555c5f9766c43600f469621be4587174e5e0d93c71619ea3cfbd0521abf3fc73",
+    "checkedAt": "2026-10-08T20:00:56.252Z",
+    "finalUrl": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:L_202690843"
+  },
+  {
+    "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:L_202690845",
+    "ok": true,
+    "snapshotKey": "sources/140a5a4d938e5257f29f5053bd9fcbd518d0f6040b5467d49d74ff3259118f6a/19b4d80352c1754fd3041e5982e47b15b34877ac2001a48b1085b384b9939259.html",
+    "hash": "19b4d80352c1754fd3041e5982e47b15b34877ac2001a48b1085b384b9939259",
+    "checkedAt": "2026-10-08T20:00:56.280Z",
+    "finalUrl": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:L_202690845"
+  },
+  {
+    "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:L_202690846",
+    "ok": true,
+    "snapshotKey": "sources/9804559d6efd325aa17100d7e2d40da0e5270c0f58651756828e8776878d9216/19f27fbb3090843127d71df4a47a707d865d1f149c6837a5f5edc9d078989cfe.html",
+    "hash": "19f27fbb3090843127d71df4a47a707d865d1f149c6837a5f5edc9d078989cfe",
+    "checkedAt": "2026-10-08T20:00:56.342Z",
+    "finalUrl": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:L_202690846"
+  },
+  {
+    "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:C_202605147",
+    "ok": true,
+    "snapshotKey": "sources/44fd91e54ab8f36091155e52a5894fb1f4fe99a69595846bb8982547447166b9/e73254bee186c3600116ac2cbb6a074b59f0238e308a3a7318d95a44d7a9517a.html",
+    "hash": "e73254bee186c3600116ac2cbb6a074b59f0238e308a3a7318d95a44d7a9517a",
+    "checkedAt": "2026-10-08T20:00:56.390Z",
+    "finalUrl": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:C_202605147"
+  },
+  {
+    "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:C_202605182",
+    "ok": true,
+    "snapshotKey": "sources/9ea35d70f722e2296fd0120555302f939d0e5ea74cf5b045517eda2334b1b34b/223fd881ac79338b4734240e38cba39cd2e6d58a19ee8260efae810657bc0d46.html",
+    "hash": "223fd881ac79338b4734240e38cba39cd2e6d58a19ee8260efae810657bc0d46",
+    "checkedAt": "2026-10-08T20:00:56.390Z",
+    "finalUrl": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:C_202605182"
+  },
+  {
+    "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:C_202605184",
+    "ok": true,
+    "snapshotKey": "sources/9d75c063e4468fd0136761881168a37135beca18f57c06a3dea583e6a817b4b9/1532ec185a1491e7bfa86b88cd60b5c506552ee50adb6b9eec6d68888486af89.html",
+    "hash": "1532ec185a1491e7bfa86b88cd60b5c506552ee50adb6b9eec6d68888486af89",
+    "checkedAt": "2026-10-08T20:00:56.901Z",
+    "finalUrl": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:C_202605184"
+  },
+  {
+    "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:C_202605185",
+    "ok": true,
+    "snapshotKey": "sources/b61af5b6d4ec47e2c6af64655763d71095dc1dffe6f60e7534114eba076fa61b/8a80835074e3af5836f2976cc3db216cd2e3bd89585848fc7813c309fb36f01f.html",
+    "hash": "8a80835074e3af5836f2976cc3db216cd2e3bd89585848fc7813c309fb36f01f",
+    "checkedAt": "2026-10-08T20:00:56.927Z",
+    "finalUrl": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:C_202605185"
+  },
+  {
+    "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:C_202605196",
+    "ok": true,
+    "snapshotKey": "sources/970c5d70a113bc177c1d12e5ce50580e9b038b9e5ddd8adc3ce8eee0917dec32/99ec659dd7f24436fef642bee45af6a9dfdb7759ccb589b45d3ddc0dad10c75a.html",
+    "hash": "99ec659dd7f24436fef642bee45af6a9dfdb7759ccb589b45d3ddc0dad10c75a",
+    "checkedAt": "2026-10-08T20:00:56.982Z",
+    "finalUrl": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:C_202605196"
+  },
+  {
+    "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:C_202605198",
+    "ok": true,
+    "snapshotKey": "sources/4eff41beb7de860854311ca2833794cdab81337ac65f8ab73fc7b5b444863f36/d88ee0aa085a8c5cac47154980a7c13dbb9c1acf7dba61d8e176741ddc81f5d6.html",
+    "hash": "d88ee0aa085a8c5cac47154980a7c13dbb9c1acf7dba61d8e176741ddc81f5d6",
+    "checkedAt": "2026-10-08T20:00:56.985Z",
+    "finalUrl": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:C_202605198"
+  },
+  {
+    "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:C_202605200",
+    "ok": true,
+    "snapshotKey": "sources/44d8f82c600d1c5aeb691768aeb312f407f95fa0ad163fcf6aba5f815a3e6839/281f37cec6e37cb5236f40e2a14cd3cba4509ae312a7ffbd219a46c8381ceb2f.html",
+    "hash": "281f37cec6e37cb5236f40e2a14cd3cba4509ae312a7ffbd219a46c8381ceb2f",
+    "checkedAt": "2026-10-08T20:00:57.018Z",
+    "finalUrl": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:C_202605200"
+  },
+  {
+    "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:C_202605201",
+    "ok": true,
+    "snapshotKey": "sources/31e7f0dc422a2cbcc846f9a0ff17d9a5c272095e7539ce479068ad29971b16c6/7bbc35ddcd1b406394fa147a5f89bf94955eba29c6e70a413d192118589d1ccc.html",
+    "hash": "7bbc35ddcd1b406394fa147a5f89bf94955eba29c6e70a413d192118589d1ccc",
+    "checkedAt": "2026-10-08T20:00:57.018Z",
+    "finalUrl": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:C_202605201"
+  },
+  {
+    "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:C_202605150",
+    "ok": true,
+    "snapshotKey": "sources/633e6118f0745e5d9589b97dc2c434eb401d9785ac4dd95dceb764577433df72/aee2fdc9dd31d7a639ea61c1992affbfa644cd8a699de6808d0a99c2e35db4df.html",
+    "hash": "aee2fdc9dd31d7a639ea61c1992affbfa644cd8a699de6808d0a99c2e35db4df",
+    "checkedAt": "2026-10-08T20:00:57.467Z",
+    "finalUrl": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:C_202605150"
+  },
+  {
+    "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:C_202605181",
+    "ok": true,
+    "snapshotKey": "sources/fe9a86b30a0a3c886cdb7f5c54ee9d60ae18e502cd255e9fd6043010c133869b/0940283099f958c2de7a0b2628b5bdb6b7a1885b40519695d60c6693584e86be.html",
+    "hash": "0940283099f958c2de7a0b2628b5bdb6b7a1885b40519695d60c6693584e86be",
+    "checkedAt": "2026-10-08T20:00:57.559Z",
+    "finalUrl": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:C_202605181"
+  },
+  {
+    "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:C_202604963",
+    "ok": true,
+    "snapshotKey": "sources/799febcec8179dd8e3aa79434334417ca468530e673d9f78054f9586d73dfce9/68b969cc7ed8e5c477ef638f6c0d1f1d46f918e4b86af1a837730d57e3fde677.html",
+    "hash": "68b969cc7ed8e5c477ef638f6c0d1f1d46f918e4b86af1a837730d57e3fde677",
+    "checkedAt": "2026-10-08T20:00:57.599Z",
+    "finalUrl": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:C_202604963"
+  },
+  {
+    "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:C_202605156",
+    "ok": true,
+    "snapshotKey": "sources/8605fdddb6e5d87dd26f96973aaeabf04c66bb97d13c2550e66714e82dca0d31/d86c121f60dde7a68189d5159aefc53125c6b7b9a40908cc6efd91d936eebce0.html",
+    "hash": "d86c121f60dde7a68189d5159aefc53125c6b7b9a40908cc6efd91d936eebce0",
+    "checkedAt": "2026-10-08T20:00:57.651Z",
+    "finalUrl": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:C_202605156"
+  },
+  {
+    "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:C_202605197",
+    "ok": true,
+    "snapshotKey": "sources/8faf77ca0541a7682a423b6a87f38ef1ef207a37580026c275a72c38aec4f84a/fe64d8975f29a1865ae4cda29230f4423b551e47c51c0f31d1fa240e3427d50c.html",
+    "hash": "fe64d8975f29a1865ae4cda29230f4423b551e47c51c0f31d1fa240e3427d50c",
+    "checkedAt": "2026-10-08T20:00:57.878Z",
+    "finalUrl": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:C_202605197"
+  },
+  {
+    "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:L_202602251",
+    "ok": true,
+    "snapshotKey": "sources/2472ffc6cfd0dcd50c3461f25fb0b60de5254f0713da62edc05cf39c220444d2/89f4cf9d5a021ba08db642f937bcd4f322b48d1dc2254fc9b68d1374f00426ec.html",
+    "hash": "89f4cf9d5a021ba08db642f937bcd4f322b48d1dc2254fc9b68d1374f00426ec",
+    "checkedAt": "2026-10-08T20:00:57.878Z",
+    "finalUrl": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:L_202602251"
+  },
+  {
+    "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:L_202602204",
+    "ok": true,
+    "snapshotKey": "sources/4da6efa2c239fd00bc14da5f793a1bb84333dd4164e2632c23d353924101a3b7/462fa6f482f68be07fdf88ff4f17c718698d459ea449da6a626cbaa5d86186ff.html",
+    "hash": "462fa6f482f68be07fdf88ff4f17c718698d459ea449da6a626cbaa5d86186ff",
+    "checkedAt": "2026-10-08T20:00:58.239Z",
+    "finalUrl": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:L_202602204"
+  },
+  {
+    "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:L_202602244",
+    "ok": true,
+    "snapshotKey": "sources/4ac91d970a01baa79b4f1541c34efa62ef847f2d4661ff1d1e44697612b09fb6/39a82ad5e9294573a491a48d3e6f97630e75033058a45deba4ab58a9b73c97f4.html",
+    "hash": "39a82ad5e9294573a491a48d3e6f97630e75033058a45deba4ab58a9b73c97f4",
+    "checkedAt": "2026-10-08T20:00:58.261Z",
+    "finalUrl": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:L_202602244"
+  },
+  {
+    "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:L_202602255",
+    "ok": true,
+    "snapshotKey": "sources/176e23dfddd8b93d91acb3178f0f466f8caba025a6aad53673399c569a3a6a55/6f4ff15705085300b4f1abfde7d3b4acccc7fc1d9303e21d3872f93851f24578.html",
+    "hash": "6f4ff15705085300b4f1abfde7d3b4acccc7fc1d9303e21d3872f93851f24578",
+    "checkedAt": "2026-10-08T20:00:58.299Z",
+    "finalUrl": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:L_202602255"
+  },
+  {
+    "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:L_202690838",
+    "ok": true,
+    "snapshotKey": "sources/d2354a41122e38841f4edcf596b3811954fd9f9221fe6a81f07af90bdb62ab36/7b0ef8ad64d88aaed3492ac8d75428cea1edeb55b65a49e9bc1d8710046250ab.html",
+    "hash": "7b0ef8ad64d88aaed3492ac8d75428cea1edeb55b65a49e9bc1d8710046250ab",
+    "checkedAt": "2026-10-08T20:00:58.385Z",
+    "finalUrl": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:L_202690838"
+  },
+  {
+    "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:L_202690842",
+    "ok": true,
+    "snapshotKey": "sources/4f42d7040a0fba6f8d289c15b61d13231215733bf98bc3e7d723a1389e2f4bcf/59cad99fc1edfeb89d4c77dc16c400b3ff095a5249a938130b718e448f4c1851.html",
+    "hash": "59cad99fc1edfeb89d4c77dc16c400b3ff095a5249a938130b718e448f4c1851",
+    "checkedAt": "2026-10-08T20:00:58.512Z",
+    "finalUrl": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:L_202690842"
+  },
+  {
+    "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:L_202690848",
+    "ok": true,
+    "snapshotKey": "sources/3e89f7555c12d367e7f875a374d57892fc5774d111e14545b4e48f8d40cfc88a/5869488389471b95ed40d9ad9cf9b8bf3c68808bc3213bc12859bbae794b8048.html",
+    "hash": "5869488389471b95ed40d9ad9cf9b8bf3c68808bc3213bc12859bbae794b8048",
+    "checkedAt": "2026-10-08T20:00:58.621Z",
+    "finalUrl": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:L_202690848"
+  },
+  {
+    "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:L_202690849",
+    "ok": true,
+    "snapshotKey": "sources/94d0ed01b54d0347cb358d2b620503cccb9e703de6907d52655d2ecd005506a6/80f522527ccfa524b9532d192081ceb1898a4223463110dda4690d8338ed3207.html",
+    "hash": "80f522527ccfa524b9532d192081ceb1898a4223463110dda4690d8338ed3207",
+    "checkedAt": "2026-10-08T20:00:58.885Z",
+    "finalUrl": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:L_202690849"
+  },
+  {
+    "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:L_202690850",
+    "ok": true,
+    "snapshotKey": "sources/13298d6ca4679e14e62ccbe601b1facb38d0aec7712e3d223ce2969090e508f2/b2f975faa28d2f23329f1542e75b44137864de45250a18ec154e5c30d8708b1a.html",
+    "hash": "b2f975faa28d2f23329f1542e75b44137864de45250a18ec154e5c30d8708b1a",
+    "checkedAt": "2026-10-08T20:00:58.950Z",
+    "finalUrl": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:L_202690850"
+  },
+  {
+    "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:L_202690851",
+    "ok": true,
+    "snapshotKey": "sources/c2f0a58cf113978bd53f105cef8fa627afb4498f4be40796e9229a126af8e261/07e517fb0c96d4c44ea8a95bf21c01b8657d4f75a8d237c8432de3c6ca69d350.html",
+    "hash": "07e517fb0c96d4c44ea8a95bf21c01b8657d4f75a8d237c8432de3c6ca69d350",
+    "checkedAt": "2026-10-08T20:00:58.987Z",
+    "finalUrl": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:L_202690851"
+  },
+  {
+    "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:C_202605155",
+    "ok": true,
+    "snapshotKey": "sources/fa4a7c60bca6326abd79b769818ec37a890af9a4b530d2633b66cfe2b339c641/545f2a6fba65a79bbc36dca5cfe113951de271ab7abb69f868408401c0b1a707.html",
+    "hash": "545f2a6fba65a79bbc36dca5cfe113951de271ab7abb69f868408401c0b1a707",
+    "checkedAt": "2026-10-08T20:00:59.119Z",
+    "finalUrl": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:C_202605155"
+  },
+  {
+    "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:C_202605167",
+    "ok": true,
+    "snapshotKey": "sources/633dd62f6ea1b083bb21b04dc6bd5079517283add2a1add6d9bde5d2962a203e/78fca3735c6a89959c4e2152acc3a943a6999fb60950f1eccfd9fc692b283b76.html",
+    "hash": "78fca3735c6a89959c4e2152acc3a943a6999fb60950f1eccfd9fc692b283b76",
+    "checkedAt": "2026-10-08T20:00:59.282Z",
+    "finalUrl": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:C_202605167"
+  },
+  {
+    "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:C_202605168",
+    "ok": true,
+    "snapshotKey": "sources/3c077d08130312cc24e7567ebb1011dc753c8acc50397407cc53670bc2058e76/3fa24a6bd486585d677a672f3c25ac880f3655f27cb58a1c8f80b8f822673682.html",
+    "hash": "3fa24a6bd486585d677a672f3c25ac880f3655f27cb58a1c8f80b8f822673682",
+    "checkedAt": "2026-10-08T20:00:59.326Z",
+    "finalUrl": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:C_202605168"
+  },
+  {
+    "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:C_202605169",
+    "ok": true,
+    "snapshotKey": "sources/3db35cb53d3ed429a0621ac2627a318c9fec3f8596f0046a5c991e4bf1ee8ba1/1453e9f7c92ff3196888323a29c539d8d315100cb4eb13716339bfeb56984c42.html",
+    "hash": "1453e9f7c92ff3196888323a29c539d8d315100cb4eb13716339bfeb56984c42",
+    "checkedAt": "2026-10-08T20:00:59.558Z",
+    "finalUrl": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:C_202605169"
+  },
+  {
+    "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:C_202605186",
+    "ok": true,
+    "snapshotKey": "sources/a204d098b5ae0b52660ba0988af9b2ff19f69497c390d2d84f615e513eb0b7ed/c4e7c51bb3187616f9becb46480e90ede0db570893f7625c72c9451723a7546b.html",
+    "hash": "c4e7c51bb3187616f9becb46480e90ede0db570893f7625c72c9451723a7546b",
+    "checkedAt": "2026-10-08T20:00:59.668Z",
+    "finalUrl": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:C_202605186"
+  },
+  {
+    "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:C_202605187",
+    "ok": true,
+    "snapshotKey": "sources/c8fa8efda27df157773c2154adb19d1e51bd4610ebe347a6ad1f7af8ec8bd858/8754d4d0edafb0d8b1ad78a642efcec5edb04b9236fc5a81eddbac9bd9791386.html",
+    "hash": "8754d4d0edafb0d8b1ad78a642efcec5edb04b9236fc5a81eddbac9bd9791386",
+    "checkedAt": "2026-10-08T20:00:59.770Z",
+    "finalUrl": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:C_202605187"
+  },
+  {
+    "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:C_202605189",
+    "ok": true,
+    "snapshotKey": "sources/725a67dcc1a5ba6bc716933d0c561c0611dbed27e2bc904263179b636bea4783/931fd55752d037c0a1fa9a280fec9202c5e5002b9ff86b6c8ccdd8aeb0c4f5c0.html",
+    "hash": "931fd55752d037c0a1fa9a280fec9202c5e5002b9ff86b6c8ccdd8aeb0c4f5c0",
+    "checkedAt": "2026-10-08T20:00:59.905Z",
+    "finalUrl": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:C_202605189"
+  },
+  {
+    "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:C_202605192",
+    "ok": true,
+    "snapshotKey": "sources/4ec014c94a064ff7495e9fa7d631e7ba8334eee9a9c537579db0ba4e67f11def/678dd7737514cf38276a9fcf1e427cb0cd53afe09862f96dd0008886229fa994.html",
+    "hash": "678dd7737514cf38276a9fcf1e427cb0cd53afe09862f96dd0008886229fa994",
+    "checkedAt": "2026-10-08T20:00:59.948Z",
+    "finalUrl": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:C_202605192"
+  },
+  {
+    "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:C_202605193",
+    "ok": true,
+    "snapshotKey": "sources/1d8883976e28bab071840b168cfc6516ed22c99f66d1aeba63cfb650951cc947/d78839245da77636d24e8b22f5528e45228452851561cd9bc76e66036718f308.html",
+    "hash": "d78839245da77636d24e8b22f5528e45228452851561cd9bc76e66036718f308",
+    "checkedAt": "2026-10-08T20:00:59.948Z",
+    "finalUrl": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:C_202605193"
+  },
+  {
+    "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:C_202605194",
+    "ok": true,
+    "snapshotKey": "sources/6904f63d2bb5c3f43634edd71c9a2c6fa66a03dc18515accb355a463e828f561/d461eed950df4d83f9055e123a27d9f90ba8257484134b1bfc984e496528acbd.html",
+    "hash": "d461eed950df4d83f9055e123a27d9f90ba8257484134b1bfc984e496528acbd",
+    "checkedAt": "2026-10-08T20:01:00.171Z",
+    "finalUrl": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:C_202605194"
+  },
+  {
+    "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:C_202605243",
+    "ok": true,
+    "snapshotKey": "sources/6e60a41464be32f9cebbc37671d8d9437cfaf232089b230d72d66c09bfec1b18/997b687744e5c349b35dbe2835a1dd29fbab012962dbc787330bd516b4377398.html",
+    "hash": "997b687744e5c349b35dbe2835a1dd29fbab012962dbc787330bd516b4377398",
+    "checkedAt": "2026-10-08T20:01:00.428Z",
+    "finalUrl": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:C_202605243"
+  },
+  {
+    "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:C_202605245",
+    "ok": true,
+    "snapshotKey": "sources/562262fe703b71533b0d8913b3869d4a6a8ddb778bf447dcaa79e17b5be149b8/81937b5c4cd55c00f7275cc87f8ceb41e576dcc71dfcb3915b79e0a76335dae4.html",
+    "hash": "81937b5c4cd55c00f7275cc87f8ceb41e576dcc71dfcb3915b79e0a76335dae4",
+    "checkedAt": "2026-10-08T20:01:00.429Z",
+    "finalUrl": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:C_202605245"
+  },
+  {
+    "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:C_202605151",
+    "ok": true,
+    "snapshotKey": "sources/fe70ecd39c6ef5c5c0b424c744f25d05e43506585b580f7a4680afa2b1986380/8909fc707ce13b15a129d06a4b56f66b22abab4075fbc9facf7525235214d618.html",
+    "hash": "8909fc707ce13b15a129d06a4b56f66b22abab4075fbc9facf7525235214d618",
+    "checkedAt": "2026-10-08T20:01:00.458Z",
+    "finalUrl": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:C_202605151"
+  },
+  {
+    "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:C_202605090",
+    "ok": true,
+    "snapshotKey": "sources/a06a7ef3dadf12c2bbf41bc48fd4da781418d05ebc2eacc555de1e3baedb2be2/fc26a568026301a298c8207e02f2f67a63f7f41c6501669b79165787133f949b.html",
+    "hash": "fc26a568026301a298c8207e02f2f67a63f7f41c6501669b79165787133f949b",
+    "checkedAt": "2026-10-08T20:01:00.593Z",
+    "finalUrl": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:C_202605090"
+  },
+  {
+    "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:C_202605188",
+    "ok": true,
+    "snapshotKey": "sources/6fa295fcd68d0c1a8aaa8860587c5edec522650ac65e84359f4c464d03e9f9fe/33c5a9799fe801da410bb92d44f9c7a164c7f7eca16b7f1a79fd517cc10e38da.html",
+    "hash": "33c5a9799fe801da410bb92d44f9c7a164c7f7eca16b7f1a79fd517cc10e38da",
+    "checkedAt": "2026-10-08T20:01:00.610Z",
+    "finalUrl": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:C_202605188"
+  },
+  {
+    "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:C_202605127",
+    "ok": true,
+    "snapshotKey": "sources/6e4a10dc486dd9f8dc0ea794ced310119ab7fd83688b1a0708d5af09c2f9c197/2038afd185d3fd9151d21d3e557d032b4f97f694ea7dacb416833ec2ac50b509.html",
+    "hash": "2038afd185d3fd9151d21d3e557d032b4f97f694ea7dacb416833ec2ac50b509",
+    "checkedAt": "2026-10-08T20:01:00.770Z",
+    "finalUrl": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:C_202605127"
+  },
+  {
+    "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:C_202605190",
+    "ok": true,
+    "snapshotKey": "sources/820ef9d00524a904357d1aa2741ac11784cca89f8af58fded2c2d9e2125e55c1/35d2be860f8e3efd0f8e21e1d4ed9991e9c4eb44786a536975cbbc9336bfe00d.html",
+    "hash": "35d2be860f8e3efd0f8e21e1d4ed9991e9c4eb44786a536975cbbc9336bfe00d",
+    "checkedAt": "2026-10-08T20:01:01.011Z",
+    "finalUrl": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:C_202605190"
+  },
+  {
+    "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:L_202602257",
+    "ok": true,
+    "snapshotKey": "sources/6400b36492dd6513f7b46f3c72f1494f61171e48111c294bba9255b733a892aa/c3fb106d05c64a432814ba7351d252aa9488bb4218cf5faff2ba1770881fb82e.html",
+    "hash": "c3fb106d05c64a432814ba7351d252aa9488bb4218cf5faff2ba1770881fb82e",
+    "checkedAt": "2026-10-08T20:01:01.069Z",
+    "finalUrl": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:L_202602257"
+  },
+  {
+    "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:L_202602263",
+    "ok": true,
+    "snapshotKey": "sources/2d7d6459a869e8ea6bcd6492f1804a288ab544e17a8b9f36d9091b849cfead56/d4692d71f0729e7e96ecf15bdcfc9c556a7c2360b403d9ec0c6e743b6d1a7dd6.html",
+    "hash": "d4692d71f0729e7e96ecf15bdcfc9c556a7c2360b403d9ec0c6e743b6d1a7dd6",
+    "checkedAt": "2026-10-08T20:01:01.071Z",
+    "finalUrl": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:L_202602263"
+  },
+  {
+    "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:L_202602268",
+    "ok": true,
+    "snapshotKey": "sources/b3db6f9fe1c4611045050f92259bfb9008abf6bcc3f7eb0c3a9ab10a654804ef/8aef0e2c4c50ade674a74a83c21c659e6a89153e245ccfce651e4184b69c7dab.html",
+    "hash": "8aef0e2c4c50ade674a74a83c21c659e6a89153e245ccfce651e4184b69c7dab",
+    "checkedAt": "2026-10-08T20:01:01.292Z",
+    "finalUrl": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:L_202602268"
+  },
+  {
+    "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:L_202602256",
+    "ok": true,
+    "snapshotKey": "sources/7b8908843a3b5774502bc5da248bef52df97178ce7cf0b4f5defe7323199e05a/a5a9c95e654d7513e35611feb9d1fa7d44a25cef51cb5a16c4b4041a46088bda.html",
+    "hash": "a5a9c95e654d7513e35611feb9d1fa7d44a25cef51cb5a16c4b4041a46088bda",
+    "checkedAt": "2026-10-08T20:01:01.428Z",
+    "finalUrl": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:L_202602256"
+  },
+  {
+    "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:L_202602258",
+    "ok": true,
+    "snapshotKey": "sources/662c291b68843533c75de2a093dc2ef4ac09bf992a981276ba0452e960c21b62/735d4f367f2876f0d8d147c951faf2bb5c45b36bb1b7639583ffb7bba888a1f8.html",
+    "hash": "735d4f367f2876f0d8d147c951faf2bb5c45b36bb1b7639583ffb7bba888a1f8",
+    "checkedAt": "2026-10-08T20:01:01.478Z",
+    "finalUrl": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:L_202602258"
+  },
+  {
+    "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:L_202602264",
+    "ok": true,
+    "snapshotKey": "sources/0dfa9bd7a44c4cdef759a208a2b7db9d79fd23a162ea76eeb2641a5f2309d9cb/a3279b8041db179954de261c79ed3894e32e8b72713042f97fb2abe012c6631a.html",
+    "hash": "a3279b8041db179954de261c79ed3894e32e8b72713042f97fb2abe012c6631a",
+    "checkedAt": "2026-10-08T20:01:01.656Z",
+    "finalUrl": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:L_202602264"
+  },
+  {
+    "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:L_202690844",
+    "ok": true,
+    "snapshotKey": "sources/9b8ed9e74fcc55d8c530c99e66a1d9d52425ea1ea5f58adde677e64c6030d44f/d349d7d55d35f75635785fa3ac251ff3cc5c81a2e6afc917b341771aabb03e67.html",
+    "hash": "d349d7d55d35f75635785fa3ac251ff3cc5c81a2e6afc917b341771aabb03e67",
+    "checkedAt": "2026-10-08T20:01:01.676Z",
+    "finalUrl": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:L_202690844"
+  },
+  {
+    "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:L_202690852",
+    "ok": true,
+    "snapshotKey": "sources/c1b15065243f90870f259bb33ffb14573e00ed037c31c90cf4c90688d9f1164b/224e6986547aaae0ea101c549f76552c17ab70045bbd67e09a9c6806f09c7157.html",
+    "hash": "224e6986547aaae0ea101c549f76552c17ab70045bbd67e09a9c6806f09c7157",
+    "checkedAt": "2026-10-08T20:01:01.705Z",
+    "finalUrl": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:L_202690852"
+  },
+  {
+    "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:L_202690853",
+    "ok": true,
+    "snapshotKey": "sources/48273b47e3fc6c714ae1f372ab9dfbe6cba30d260c9a1d30e3f5912e3014f7b2/b5915182d55c596935779c2d9da8eb79e2ac5e35a56fbcb5cdb5591a66573696.html",
+    "hash": "b5915182d55c596935779c2d9da8eb79e2ac5e35a56fbcb5cdb5591a66573696",
+    "checkedAt": "2026-10-08T20:01:02.001Z",
+    "finalUrl": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:L_202690853"
+  },
+  {
+    "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:L_202690854",
+    "ok": true,
+    "snapshotKey": "sources/291f350c9cb337db9f6043ae79c7875e4ec177c1dcb9755d10d22d03cf86c402/621bcba08c37c9e427ed83c81eb5441e101a197e29e5e2efa1610baa03611c33.html",
+    "hash": "621bcba08c37c9e427ed83c81eb5441e101a197e29e5e2efa1610baa03611c33",
+    "checkedAt": "2026-10-08T20:01:02.123Z",
+    "finalUrl": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:L_202690854"
+  },
+  {
+    "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:C_202605157",
+    "ok": true,
+    "snapshotKey": "sources/ab7f296802eb1b894b7bdd04223c37249087d67b92bb917df9e93bb2d4fc2173/7dd7e6efcf165a82bb77873fc643a5e75849d610be84faaaa7fc3f808e1dc943.html",
+    "hash": "7dd7e6efcf165a82bb77873fc643a5e75849d610be84faaaa7fc3f808e1dc943",
+    "checkedAt": "2026-10-08T20:01:02.217Z",
+    "finalUrl": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:C_202605157"
+  },
+  {
+    "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:C_202605014",
+    "ok": true,
+    "snapshotKey": "sources/98ca10d1c625331f6b7cdb4d92bb8ebc29838cfdcd433a8d064bb315fe8d7d42/9a8ae7a70f97a7f3a6fd858704890126e971bb63b95a5f6ea04f7f8e2307d8f5.html",
+    "hash": "9a8ae7a70f97a7f3a6fd858704890126e971bb63b95a5f6ea04f7f8e2307d8f5",
+    "checkedAt": "2026-10-08T20:01:02.273Z",
+    "finalUrl": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:C_202605014"
+  },
+  {
+    "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:C_202605015",
+    "ok": true,
+    "snapshotKey": "sources/e94f28c2c16d8adb316048ff1cc7ed10e22fe5b7bcead12132db22caf59644fe/f6e3252e35018d0205ec4f7156eb4963079810384704ee86745b24c6e4f2edd3.html",
+    "hash": "f6e3252e35018d0205ec4f7156eb4963079810384704ee86745b24c6e4f2edd3",
+    "checkedAt": "2026-10-08T20:01:02.375Z",
+    "finalUrl": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:C_202605015"
+  },
+  {
+    "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:C_202605251",
+    "ok": true,
+    "snapshotKey": "sources/57daccf1d83c02780f1616a0dac388194e4e5fa5e4902495d5aa6a532d0800b0/bfadbf51c1a666cab7011a648e0a5b7215b13f50e423bf1eafe4527631e21d7e.html",
+    "hash": "bfadbf51c1a666cab7011a648e0a5b7215b13f50e423bf1eafe4527631e21d7e",
+    "checkedAt": "2026-10-08T20:01:02.781Z",
+    "finalUrl": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:C_202605251"
+  },
+  {
+    "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:C_202605255",
+    "ok": true,
+    "snapshotKey": "sources/bda5f03df49b00fdf95524feab487934453851b7fc875c01af8e7036ce958c9d/6d8bd1370153a9560932ba1cd5733197f04db5d3661332233c86fe6b9a4af50d.html",
+    "hash": "6d8bd1370153a9560932ba1cd5733197f04db5d3661332233c86fe6b9a4af50d",
+    "checkedAt": "2026-10-08T20:01:02.901Z",
+    "finalUrl": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:C_202605255"
+  },
+  {
+    "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:C_202605264",
+    "ok": true,
+    "snapshotKey": "sources/f72869218ef43f01e3043712035070903f1d7ef3c7399c2e20093d9b7566976b/2597dd7c607cd935003384300446fbbb832fe9fb58fbc3321bdf80833c849683.html",
+    "hash": "2597dd7c607cd935003384300446fbbb832fe9fb58fbc3321bdf80833c849683",
+    "checkedAt": "2026-10-08T20:01:03.007Z",
+    "finalUrl": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:C_202605264"
+  },
+  {
+    "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:C_202605250",
+    "ok": true,
+    "snapshotKey": "sources/2ccbf45ade4345ede89417d354dd71dd057bf2034642a3f7358cfb6fedf4b362/676b46f14dd32b3e762d3653b709faf3c1eb4412f7c704ec8edc19881da73d64.html",
+    "hash": "676b46f14dd32b3e762d3653b709faf3c1eb4412f7c704ec8edc19881da73d64",
+    "checkedAt": "2026-10-08T20:01:03.094Z",
+    "finalUrl": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:C_202605250"
+  },
+  {
+    "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:C_202604817",
+    "ok": true,
+    "snapshotKey": "sources/8c97e5ddf5e72d4914773ff997877423cd5178f13bbca050af6f76bdfc37412c/6b909944c01e4699f4e59ea3ea9feea2b2e4d1295f19facbd5a3cc644401d1a7.html",
+    "hash": "6b909944c01e4699f4e59ea3ea9feea2b2e4d1295f19facbd5a3cc644401d1a7",
+    "checkedAt": "2026-10-08T20:01:03.114Z",
+    "finalUrl": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:C_202604817"
+  },
+  {
+    "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:C_202604821",
+    "ok": true,
+    "snapshotKey": "sources/8827da6b0eb5a3b9540c685a6522282ff9b1ff46582f2dd0f490348a640b6fe9/e3d4bf31616768235afa235c73c4ef07ef7fe434fdf75d451a0d0ed3ea1698d8.html",
+    "hash": "e3d4bf31616768235afa235c73c4ef07ef7fe434fdf75d451a0d0ed3ea1698d8",
+    "checkedAt": "2026-10-08T20:01:03.114Z",
+    "finalUrl": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:C_202604821"
+  },
+  {
+    "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:C_202605152",
+    "ok": true,
+    "snapshotKey": "sources/f080051634d4e32b3bdd71b8f576547ecc5591f3866321e9440fb3554378ce7b/0c50969a5af05cc8a12c46c0ae01b40acb01652ca10f1ca556262ad07c0495ae.html",
+    "hash": "0c50969a5af05cc8a12c46c0ae01b40acb01652ca10f1ca556262ad07c0495ae",
+    "checkedAt": "2026-10-08T20:01:03.547Z",
+    "finalUrl": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:C_202605152"
+  },
+  {
+    "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:C_202605254",
+    "ok": true,
+    "snapshotKey": "sources/9a80c3e0b34113b73da87c408413dad4b788a861954a719ad3591ca9d29352b7/c365fe60c076dd5b3307aec8064b097f9aee418ce04f75b34b4bfb06d31fc2a0.html",
+    "hash": "c365fe60c076dd5b3307aec8064b097f9aee418ce04f75b34b4bfb06d31fc2a0",
+    "checkedAt": "2026-10-08T20:01:03.634Z",
+    "finalUrl": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:C_202605254"
+  },
+  {
+    "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:C_202605256",
+    "ok": true,
+    "snapshotKey": "sources/e3da60a60bf6616fff2506f7485380e223bb5ef0af09f72980ba651275bf0c2a/8e2fd32f841840a416247a32a3710a451f4597803a9e3fc5e20af7c1c22c5a58.html",
+    "hash": "8e2fd32f841840a416247a32a3710a451f4597803a9e3fc5e20af7c1c22c5a58",
+    "checkedAt": "2026-10-08T20:01:03.703Z",
+    "finalUrl": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:C_202605256"
+  },
+  {
+    "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:C_202605092",
+    "ok": true,
+    "snapshotKey": "sources/27e4873a0b0d51ff93551383322f2c16923b480e376a590d8bce3ea63f2043bf/de72be65c2817518447b5832b314f5159ce9b82c267a1f5625fd064adbfe787f.html",
+    "hash": "de72be65c2817518447b5832b314f5159ce9b82c267a1f5625fd064adbfe787f",
+    "checkedAt": "2026-10-08T20:01:04.203Z",
+    "finalUrl": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:C_202605092"
+  },
+  {
+    "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:C_202605259",
+    "ok": true,
+    "snapshotKey": "sources/311680d8943f64153a4b42af938dfbe8f15a3ffcdade875f186edcb370009a0f/a860700819e022649607358bb54605bc80095c8bce91c488bb44e7b72e05543e.html",
+    "hash": "a860700819e022649607358bb54605bc80095c8bce91c488bb44e7b72e05543e",
+    "checkedAt": "2026-10-08T20:01:04.213Z",
+    "finalUrl": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:C_202605259"
+  },
+  {
+    "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:C_202605260",
+    "ok": true,
+    "snapshotKey": "sources/399b9363238ac9b27dc5d4a492c38c542387478d6d5e564c825ec0be7b62b46a/072c00646821a4f937b5dcc60214fa71ca69559f53769d4ecdabc1f6d5f1b7c5.html",
+    "hash": "072c00646821a4f937b5dcc60214fa71ca69559f53769d4ecdabc1f6d5f1b7c5",
+    "checkedAt": "2026-10-08T20:01:04.245Z",
+    "finalUrl": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:C_202605260"
+  },
+  {
+    "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:C_202605261",
+    "ok": true,
+    "snapshotKey": "sources/a26cdb694c616c79002f21cd8ae15d643f169519073f0c698555894675617b34/ab3c95c2383e45c6898cec2b6342e2a7f2418ccd6575d94dc96ff442cf00929e.html",
+    "hash": "ab3c95c2383e45c6898cec2b6342e2a7f2418ccd6575d94dc96ff442cf00929e",
+    "checkedAt": "2026-10-08T20:01:04.401Z",
+    "finalUrl": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:C_202605261"
+  },
+  {
+    "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:C_202605262",
+    "ok": true,
+    "snapshotKey": "sources/67e44e876f58c1fc1be230bf58bb482ddf98b4d2ed8705b6d083ca5b037d1a56/8d83f2412555932b1d1d61b1b88785eeb1b164bd9a5c17ef0653c16d9f35ef20.html",
+    "hash": "8d83f2412555932b1d1d61b1b88785eeb1b164bd9a5c17ef0653c16d9f35ef20",
+    "checkedAt": "2026-10-08T20:01:04.436Z",
+    "finalUrl": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:C_202605262"
+  },
+  {
+    "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:C_202605191",
+    "ok": true,
+    "snapshotKey": "sources/a59fe2c59c08c3ea3e692a568b3936251d6b3f0fbad6f3bd17360a5d5277df17/a2a676d15c8b2fa90a2941140e6c581eabfce131246f77ecf8ff4515aff9f464.html",
+    "hash": "a2a676d15c8b2fa90a2941140e6c581eabfce131246f77ecf8ff4515aff9f464",
+    "checkedAt": "2026-10-08T20:01:04.708Z",
+    "finalUrl": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:C_202605191"
+  },
+  {
+    "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:C_202605246",
+    "ok": true,
+    "snapshotKey": "sources/ea3a4c34da692fcff339b0a62db065be42db36db235ab32ea2a029ec4805d148/1caf66b7fdcbe49c84f69efefc3e39bf326a31aa883f5fe86dde6a6a26471ec0.html",
+    "hash": "1caf66b7fdcbe49c84f69efefc3e39bf326a31aa883f5fe86dde6a6a26471ec0",
+    "checkedAt": "2026-10-08T20:01:04.792Z",
+    "finalUrl": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:C_202605246"
+  },
+  {
+    "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:C_202605247",
+    "ok": true,
+    "snapshotKey": "sources/e95bea2badccc4ae6c20c1afe2ae435c1ebf25cfd0c6eab8f0b44355297a4840/4669cf8457bd3be897ce15de03c5f08c92ff9ae2da72c127375987e621cd2b4c.html",
+    "hash": "4669cf8457bd3be897ce15de03c5f08c92ff9ae2da72c127375987e621cd2b4c",
+    "checkedAt": "2026-10-08T20:01:04.846Z",
+    "finalUrl": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:C_202605247"
+  },
+  {
+    "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:C_202605253",
+    "ok": true,
+    "snapshotKey": "sources/367d72257bb67d8f6f8ed1b0bc663fa70065ef20fc00ec7931ca15d195580b16/930037e4d75c8262d14ff7e778839323de0b04308dc33497c90b02a0748f0044.html",
+    "hash": "930037e4d75c8262d14ff7e778839323de0b04308dc33497c90b02a0748f0044",
+    "checkedAt": "2026-10-08T20:01:04.910Z",
+    "finalUrl": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:C_202605253"
+  },
+  {
+    "url": "https://eur-lex.europa.eu/search.html?type=named&name=collection:eu-law-legislation",
+    "ok": true,
+    "snapshotKey": "sources/1bb35bb336130376116c2c64743e65c0602bee0a9c425b2a880cbdf2ad970599/c1aaf3f4a014f9b4d1ef715f9e0638195f580df8ac281d3120ff1bad99d55e6b.html",
+    "hash": "c1aaf3f4a014f9b4d1ef715f9e0638195f580df8ac281d3120ff1bad99d55e6b",
+    "checkedAt": "2026-10-08T20:01:31.884Z",
+    "finalUrl": "https://eur-lex.europa.eu/search.html?name=collection%3Aeu-law-legislation&type=named&qid=1791489692044"
+  },
+  {
+    "url": "https://commission.europa.eu/news-and-media/highlighted-news_en",
+    "ok": true,
+    "snapshotKey": "sources/91c16da2f7ac781528404c849a073c827b60234441b374a10dfe2a0b886fa95a/cb7e65ea292c183b998ca99ef3952c8f8669218d65255d857cc5c64a45220943.html",
+    "hash": "cb7e65ea292c183b998ca99ef3952c8f8669218d65255d857cc5c64a45220943",
+    "checkedAt": "2026-10-08T20:01:31.884Z",
+    "finalUrl": "https://commission.europa.eu/news-and-media/highlighted-news_en"
+  },
+  {
+    "url": "https://commission.europa.eu/news-and-media/news_en",
+    "ok": true,
+    "snapshotKey": "sources/bdbbc395b6983f08890bba9ba3e866c344ecb565b02b969caa179dcf5ed4f344/84e4514625c02dc87268b7362143986fbc2dd5e9014fe7ea9dad021868c15e06.html",
+    "hash": "84e4514625c02dc87268b7362143986fbc2dd5e9014fe7ea9dad021868c15e06",
+    "checkedAt": "2026-10-08T20:01:31.884Z",
+    "finalUrl": "https://commission.europa.eu/news-and-media/news_en"
+  },
+  {
+    "url": "https://research-and-innovation.ec.europa.eu/news/all-research-and-innovation-news/commission-earmarks-eur65-million-safeguard-critical-data-life-sciences-and-biotechnology-2026-10-06_en",
+    "ok": true,
+    "snapshotKey": "sources/75e8a301ff02eda1e18b98ae32216537deae76165b5e9603c6c0245595397477/7629441aba4063bec2a2d72d1f495e6767bc77665900167b76183ea74f4a22c7.html",
+    "hash": "7629441aba4063bec2a2d72d1f495e6767bc77665900167b76183ea74f4a22c7",
+    "checkedAt": "2026-10-08T20:02:47.619Z",
+    "finalUrl": "https://research-and-innovation.ec.europa.eu/news/all-research-and-innovation-news/commission-earmarks-eur65-million-safeguard-critical-data-life-sciences-and-biotechnology-2026-10-06_en"
+  },
+  {
+    "url": "https://enlargement.ec.europa.eu/news/questions-and-answers-pre-enlargement-policy-reviews-2026-10-06_en",
+    "ok": true,
+    "snapshotKey": "sources/a5f3013e88fa4c0f81e31a6241c8b454f322d7221b945590b7548152faec8cd5/4cdcd118ca5880f2a17ad018fe92e34bad41f9445327dfe62b3332f9ffb0c8f9.html",
+    "hash": "4cdcd118ca5880f2a17ad018fe92e34bad41f9445327dfe62b3332f9ffb0c8f9",
+    "checkedAt": "2026-10-08T20:02:47.582Z",
+    "finalUrl": "https://enlargement.ec.europa.eu/news/questions-and-answers-pre-enlargement-policy-reviews-2026-10-06_en"
+  },
+  {
+    "url": "https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=2026/0308(COD)",
+    "ok": true,
+    "snapshotKey": "sources/37680a7b891abf196df77e4c87f1b31d43b261d19bc3914d0fe3a93e51156f30/a2cf20ccd14c8a080466bcae2ab9d12e19486712f481830f0c3b33c257014737.html",
+    "hash": "a2cf20ccd14c8a080466bcae2ab9d12e19486712f481830f0c3b33c257014737",
+    "checkedAt": "2026-10-08T20:02:00.389Z",
+    "finalUrl": "https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=2026/0308(COD)"
+  },
+  {
+    "url": "https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=2026/0301(COD)",
+    "ok": true,
+    "snapshotKey": "sources/7cc2d3bd7dd96fa9154c5fa73b026c8c7161a2ddbc2d714ddb3980d791a0bf67/150426f754de1f4ddba8fcaa4deb523649135ccee0bba5920e66dc4808562ffe.html",
+    "hash": "150426f754de1f4ddba8fcaa4deb523649135ccee0bba5920e66dc4808562ffe",
+    "checkedAt": "2026-10-08T20:02:00.389Z",
+    "finalUrl": "https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=2026/0301(COD)"
+  },
+  {
+    "url": "https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=2026/0294(COD)",
+    "ok": true,
+    "snapshotKey": "sources/ca8dab8aab7de503f8871c42ee5dca958475d9c08d44b47908896946dc5e8114/26757543458f5823a1c569605e807eac9b90eca6aa1c66adf06aa5ab09d36bc9.html",
+    "hash": "26757543458f5823a1c569605e807eac9b90eca6aa1c66adf06aa5ab09d36bc9",
+    "checkedAt": "2026-10-08T20:02:00.389Z",
+    "finalUrl": "https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=2026/0294(COD)"
+  },
+  {
+    "url": "https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=2026/0292(CNS)",
+    "ok": true,
+    "snapshotKey": "sources/72587b377f3f6c387a846df9f27d6efcfb99252f331f1b10df17d765d09b1c2a/ff4c041656f13cb716c59d6bf1e17719fdb00197aeaa92eb808d9f8201ead5de.html",
+    "hash": "ff4c041656f13cb716c59d6bf1e17719fdb00197aeaa92eb808d9f8201ead5de",
+    "checkedAt": "2026-10-08T20:02:00.389Z",
+    "finalUrl": "https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=2026/0292(CNS)"
+  },
+  {
+    "url": "https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=2026/0299(NLE)",
+    "ok": true,
+    "snapshotKey": "sources/2c0a4b2ecff6e44aa7efe641f80f36ad70277edd3381f56c0fd14e1f9ea7b97e/d92c31742352995e8d3c5883e18be317ccdc521b597e9d31e426bf43a3208dcc.html",
+    "hash": "d92c31742352995e8d3c5883e18be317ccdc521b597e9d31e426bf43a3208dcc",
+    "checkedAt": "2026-10-08T20:02:00.389Z",
+    "finalUrl": "https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=2026/0299(NLE)"
+  },
+  {
+    "url": "https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=2026/0295(NLE)",
+    "ok": true,
+    "snapshotKey": "sources/326eb060e5519221e85d72918d81732673bc4316395eb88b663a68537c3f0fa7/cad877ff06e3f0b5d44d374c0660ed2c640a9a3b7b39b906f4e780343d3c9184.html",
+    "hash": "cad877ff06e3f0b5d44d374c0660ed2c640a9a3b7b39b906f4e780343d3c9184",
+    "checkedAt": "2026-10-08T20:02:00.389Z",
+    "finalUrl": "https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=2026/0295(NLE)"
+  },
+  {
+    "url": "https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=2026/2925(RSP)",
+    "ok": true,
+    "snapshotKey": "sources/1e09a73411641673d1005f011467e10b7e2d8fdb317a02c9136ff92387073261/ef36dcedcf92b20e181c27fe55c9221fe41cbe6e1ee15047d56495171cc4e3a8.html",
+    "hash": "ef36dcedcf92b20e181c27fe55c9221fe41cbe6e1ee15047d56495171cc4e3a8",
+    "checkedAt": "2026-10-08T20:02:00.517Z",
+    "finalUrl": "https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=2026/2925(RSP)"
+  },
+  {
+    "url": "https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=2026/2924(RSP)",
+    "ok": true,
+    "snapshotKey": "sources/517ebb64d1d4a27256ad61f5e247962dd29c7d5cd7032d450dc908f1b69f46f5/180cfa1f121f009f94eb609fe97eb17ea3ba53df0f992e43b8411282e90df895.html",
+    "hash": "180cfa1f121f009f94eb609fe97eb17ea3ba53df0f992e43b8411282e90df895",
+    "checkedAt": "2026-10-08T20:02:00.517Z",
+    "finalUrl": "https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=2026/2924(RSP)"
+  },
+  {
+    "url": "https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=2026/2921(DEA)",
+    "ok": true,
+    "snapshotKey": "sources/5a20145e9c38c780e99b60622c5aa092a5ba30e6cbe82cc7373bb252156132d4/12832d2f9df10ab31042874b331a2f6e5a467940fb6d7afc07d857ef392ca313.html",
+    "hash": "12832d2f9df10ab31042874b331a2f6e5a467940fb6d7afc07d857ef392ca313",
+    "checkedAt": "2026-10-08T20:02:02.431Z",
+    "finalUrl": "https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=2026/2921(DEA)"
+  },
+  {
+    "url": "https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=2026/2920(DEA)",
+    "ok": true,
+    "snapshotKey": "sources/ce3bc125d3278af0a03f80901d737f0f7f53c873a9bf2add44eeb36e613ac423/b40a38fea29ff543bf09d9a51a660371f1ce7aeb20c99e633837e3cd25134fef.html",
+    "hash": "b40a38fea29ff543bf09d9a51a660371f1ce7aeb20c99e633837e3cd25134fef",
+    "checkedAt": "2026-10-08T20:02:02.751Z",
+    "finalUrl": "https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=2026/2920(DEA)"
+  },
+  {
+    "url": "https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=2026/2839(RPS)",
+    "ok": true,
+    "snapshotKey": "sources/8e63f145e2c4837d24b6488ab1fc994831c1b173011b8b254568ebb4172f99f0/c62a9de265e63faf8511c09d45f9b2a364dc0920f59b0f9115c306d4a86f51f7.html",
+    "hash": "c62a9de265e63faf8511c09d45f9b2a364dc0920f59b0f9115c306d4a86f51f7",
+    "checkedAt": "2026-10-08T20:02:03.039Z",
+    "finalUrl": "https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=2026/2839(RPS)"
+  },
+  {
+    "url": "https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=2026/2821(RPS)",
+    "ok": true,
+    "snapshotKey": "sources/f9fc86600e31062fc3d5d8a044416614357e9c1502c7663fa22eec062e40b30f/b4dbcfc85afe93e247418ddae073bba1552439e0ff8d9693c1b64f30a643f4df.html",
+    "hash": "b4dbcfc85afe93e247418ddae073bba1552439e0ff8d9693c1b64f30a643f4df",
+    "checkedAt": "2026-10-08T20:02:03.090Z",
+    "finalUrl": "https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=2026/2821(RPS)"
+  },
+  {
+    "url": "https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=2026/2824(RPS)",
+    "ok": true,
+    "snapshotKey": "sources/71b1f66e5488d62b234ed06f04f01fa0e700658fbcd6516b58d38b782edb937c/4729062622f532a9de238da06e46943e933edf01a8f3e84efcdb56a18ea6e424.html",
+    "hash": "4729062622f532a9de238da06e46943e933edf01a8f3e84efcdb56a18ea6e424",
+    "checkedAt": "2026-10-08T20:02:03.464Z",
+    "finalUrl": "https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=2026/2824(RPS)"
+  },
+  {
+    "url": "https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=2025/0399(COD)",
+    "ok": true,
+    "snapshotKey": "sources/b398e93ac3f65961cec9237da32583e7bcaab90b79dc00d0a89404713ad5afaa/55124bcde16f6f4fb49ff8a5dd013b4837cfd203553755a551e92d18181ece8c.html",
+    "hash": "55124bcde16f6f4fb49ff8a5dd013b4837cfd203553755a551e92d18181ece8c",
+    "checkedAt": "2026-10-08T20:02:03.810Z",
+    "finalUrl": "https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=2025/0399(COD)"
+  },
+  {
+    "url": "https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=2025/0361(COD)",
+    "ok": true,
+    "snapshotKey": "sources/016fa360ad1584d50c327fb595264018cfee1fdb98915ee7961afe9b87e44dcc/5511ecd3870fe290ecd860c6884ee0a9449a33eca17d69b70801694091b9c54f.html",
+    "hash": "5511ecd3870fe290ecd860c6884ee0a9449a33eca17d69b70801694091b9c54f",
+    "checkedAt": "2026-10-08T20:02:04.784Z",
+    "finalUrl": "https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=2025/0361(COD)"
+  },
+  {
+    "url": "https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=2025/0358(COD)",
+    "ok": true,
+    "snapshotKey": "sources/a4933d26dcefdb5f0c49d78c9918bcddf5105c81af649a01d625d4bacb84cba5/9a62cfcd9cefa085daae396a7d637d3aaa09062e2b0105a418b23c8e9ff6672e.html",
+    "hash": "9a62cfcd9cefa085daae396a7d637d3aaa09062e2b0105a418b23c8e9ff6672e",
+    "checkedAt": "2026-10-08T20:02:04.914Z",
+    "finalUrl": "https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=2025/0358(COD)"
+  },
+  {
+    "url": "https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=2025/0258(COD)",
+    "ok": true,
+    "snapshotKey": "sources/8dff923cbbbdaa390b8728dddde9115fcb9ec2fdefc10e3e2207f4ad9470cbcb/444ab487bc5c9eed12b4c908fb6ce6ff71b73365fff2977c30a507478ceccaf6.html",
+    "hash": "444ab487bc5c9eed12b4c908fb6ce6ff71b73365fff2977c30a507478ceccaf6",
+    "checkedAt": "2026-10-08T20:02:04.986Z",
+    "finalUrl": "https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=2025/0258(COD)"
+  },
+  {
+    "url": "https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=2025/0222(COD)",
+    "ok": true,
+    "snapshotKey": "sources/106a75c35becc01def16524d58eea1827d538a23db7c5d50af33ad3a3141066a/649b435b8e846a9a6961b5f34c426a15f50c68751e6c509d8de465193c47df6e.html",
+    "hash": "649b435b8e846a9a6961b5f34c426a15f50c68751e6c509d8de465193c47df6e",
+    "checkedAt": "2026-10-08T20:02:05.444Z",
+    "finalUrl": "https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=2025/0222(COD)"
+  },
+  {
+    "url": "https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=COM(2026)0543",
+    "ok": true,
+    "snapshotKey": "sources/aca4e865453af0d83b2dba6a2adb889fbfea42088e79c7980bfadb12694d5d0a/ece54b333594859ac1d7727e0b8d5154d849b895e82a0ced479597704d885baa.html",
+    "hash": "ece54b333594859ac1d7727e0b8d5154d849b895e82a0ced479597704d885baa",
+    "checkedAt": "2026-10-08T20:02:05.894Z",
+    "finalUrl": "https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=COM(2026)0543"
+  },
+  {
+    "url": "https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=COM(2026)0546",
+    "ok": true,
+    "snapshotKey": "sources/94bf3d504e54ba9bc399958adbed496e8c59715777d07c52bb3da32b7721d8c7/cabff35390ccc5c1e73a0f33183f9f5b4f47dcd03ed23f60ced16cf7ca81e3b0.html",
+    "hash": "cabff35390ccc5c1e73a0f33183f9f5b4f47dcd03ed23f60ced16cf7ca81e3b0",
+    "checkedAt": "2026-10-08T20:02:06.293Z",
+    "finalUrl": "https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=COM(2026)0546"
+  },
+  {
+    "url": "https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=COM(2026)0534",
+    "ok": true,
+    "snapshotKey": "sources/ad4121d2a7493af979400f7c24eb3542fac4628cf345104474bc99846698aedc/e1394adde1911d0d4d1b5aebf6ddb5360411fe21b0904b518b9f30dd82c482f7.html",
+    "hash": "e1394adde1911d0d4d1b5aebf6ddb5360411fe21b0904b518b9f30dd82c482f7",
+    "checkedAt": "2026-10-08T20:02:07.944Z",
+    "finalUrl": "https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=COM(2026)0534"
+  },
+  {
+    "url": "https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=COM(2026)0533",
+    "ok": true,
+    "snapshotKey": "sources/732c2c1d394f9194c49f4c1872ad2704980623045feeeb2dfbe24e397b0d3777/b199234ed36c3228d2fab220b21292a45c5b8b222492e99df7cf73a709e8debe.html",
+    "hash": "b199234ed36c3228d2fab220b21292a45c5b8b222492e99df7cf73a709e8debe",
+    "checkedAt": "2026-10-08T20:02:08.038Z",
+    "finalUrl": "https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=COM(2026)0533"
+  },
+  {
+    "url": "https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=COM(2026)0532",
+    "ok": true,
+    "snapshotKey": "sources/a02ca8c55ba6c5d4534c98da78f1a45261a0d75477ff487341779e67b93024b7/3d8f34ff8aa61be3dba5a04107fed5a06f21e4e8f9ef3e3c055fe24a1661bec6.html",
+    "hash": "3d8f34ff8aa61be3dba5a04107fed5a06f21e4e8f9ef3e3c055fe24a1661bec6",
+    "checkedAt": "2026-10-08T20:02:08.615Z",
+    "finalUrl": "https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=COM(2026)0532"
+  },
+  {
+    "url": "https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=COM(2026)0528",
+    "ok": true,
+    "snapshotKey": "sources/14a4f87a457ad07edcc2ddf181277ab10f40eba183eb063133b37921904a0b3e/fcff67f3b9c98acb02ef1f320caa081a3763c754311ef241f43c2b0e9de29107.html",
+    "hash": "fcff67f3b9c98acb02ef1f320caa081a3763c754311ef241f43c2b0e9de29107",
+    "checkedAt": "2026-10-08T20:02:08.940Z",
+    "finalUrl": "https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=COM(2026)0528"
+  },
+  {
+    "url": "https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=COM(2026)0524",
+    "ok": true,
+    "snapshotKey": "sources/94b7f95dc2bd9f2894aabeab78e3ea1891bc09a1b5bb450fba28e7c950bc47cc/97e858590a946ef327dedefb48942caab92bef0d610cae76a4b131bf0967fc51.html",
+    "hash": "97e858590a946ef327dedefb48942caab92bef0d610cae76a4b131bf0967fc51",
+    "checkedAt": "2026-10-08T20:02:09.115Z",
+    "finalUrl": "https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=COM(2026)0524"
+  },
+  {
+    "url": "https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=COM(2026)0514",
+    "ok": true,
+    "snapshotKey": "sources/3ecfba7311c12e2067c057594df5124136f448dc1ae0e80b4869b7cbdd50ec52/690734c63a52263e3e450245cd9b8b4e1737be10ad541f157ef8424c2a039069.html",
+    "hash": "690734c63a52263e3e450245cd9b8b4e1737be10ad541f157ef8424c2a039069",
+    "checkedAt": "2026-10-08T20:02:09.398Z",
+    "finalUrl": "https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=COM(2026)0514"
+  },
+  {
+    "url": "https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=COM(2026)0511",
+    "ok": true,
+    "snapshotKey": "sources/72bc217df08df592e3b65fde375ff9de9d7d5345aec7ac3dce5adf8467d885e2/0b66cf274a3ff155b947eddfb46f9c067825d1055589f89f59e73e7e6fb66989.html",
+    "hash": "0b66cf274a3ff155b947eddfb46f9c067825d1055589f89f59e73e7e6fb66989",
+    "checkedAt": "2026-10-08T20:02:09.720Z",
+    "finalUrl": "https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=COM(2026)0511"
+  },
+  {
+    "url": "https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=COM(2026)0496",
+    "ok": true,
+    "snapshotKey": "sources/990a6cec97dbf7d41d419ee166a48aa330575019b59508b8a34bb90a3c9e5e16/64f3eb5faa5316d84f66a9403c4eae87d6181b03ca87396a1f7c1497dceb1f39.html",
+    "hash": "64f3eb5faa5316d84f66a9403c4eae87d6181b03ca87396a1f7c1497dceb1f39",
+    "checkedAt": "2026-10-08T20:02:09.900Z",
+    "finalUrl": "https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=COM(2026)0496"
+  },
+  {
+    "url": "https://commission.europa.eu/news-and-media/news_en?page=1",
+    "ok": true,
+    "snapshotKey": "sources/0dc6f9c16ecffea139ae0ee8ed4f101a5cb36d4cb2263f1dd33986ca23f236dd/74c53067a75be299eb1ae79d1229740406059c29dceef16b001ae090d7b488f9.html",
+    "hash": "74c53067a75be299eb1ae79d1229740406059c29dceef16b001ae090d7b488f9",
+    "checkedAt": "2026-10-08T20:02:27.068Z",
+    "finalUrl": "https://commission.europa.eu/news-and-media/news_en?page=1"
+  },
+  {
+    "url": "https://commission.europa.eu/news-and-media/news_en?page=2",
+    "ok": true,
+    "snapshotKey": "sources/81d5756e04f5a1e101baab68a4f36843ca6e753c93d6ac207d8aebebf1a0a22a/717d40a0c4592f37ca5342dfdef165c59aa418e4e1b1aefdf57ff87f06365eae.html",
+    "hash": "717d40a0c4592f37ca5342dfdef165c59aa418e4e1b1aefdf57ff87f06365eae",
+    "checkedAt": "2026-10-08T20:02:27.214Z",
+    "finalUrl": "https://commission.europa.eu/news-and-media/news_en?page=2"
+  },
+  {
+    "url": "https://commission.europa.eu/news-and-media/news_en?page=3",
+    "ok": true,
+    "snapshotKey": "sources/dce1060ea807b7233a5a414ed33b93a7714e73f4c2241f713fdb63fcddb781ac/e633404b2f2d7c81d2d6997bf98da647c2879f9a99de6239bce70e58abe49f6d.html",
+    "hash": "e633404b2f2d7c81d2d6997bf98da647c2879f9a99de6239bce70e58abe49f6d",
+    "checkedAt": "2026-10-08T20:02:27.348Z",
+    "finalUrl": "https://commission.europa.eu/news-and-media/news_en?page=3"
+  },
+  {
+    "url": "https://commission.europa.eu/news-and-media/news_en?page=4",
+    "ok": true,
+    "snapshotKey": "sources/9e5f11e07e08dbfaf7003fc68973fa10f359bdcf0c925e94eb6e5a3a18aa111e/ff0811d1ee4f4f34cf2e04bfab2dccd33da3ec6d01f166b456a5182b0a8ce2a4.html",
+    "hash": "ff0811d1ee4f4f34cf2e04bfab2dccd33da3ec6d01f166b456a5182b0a8ce2a4",
+    "checkedAt": "2026-10-08T20:02:27.492Z",
+    "finalUrl": "https://commission.europa.eu/news-and-media/news_en?page=4"
+  },
+  {
+    "url": "https://commission.europa.eu/news-and-media/news/preparing-wider-european-union-2026-10-06_en",
+    "ok": true,
+    "snapshotKey": "sources/644cbca2930fab70f54a026cff28b6e2dba8d4ee8d2dc4e0ffa29a85ae83b065/c62dd0be8f2d6f0093040af3259c3c87145f6b71bb501601dfbfbb3592e8930e.html",
+    "hash": "c62dd0be8f2d6f0093040af3259c3c87145f6b71bb501601dfbfbb3592e8930e",
+    "checkedAt": "2026-10-08T20:02:47.090Z",
+    "finalUrl": "https://commission.europa.eu/news-and-media/news/preparing-wider-european-union-2026-10-06_en"
+  },
+  {
+    "url": "https://oceans-and-fisheries.ec.europa.eu/news/ustkas-living-maritime-heritage-reviving-baltic-fishing-traditions-future-generations-2026-10-08_en",
+    "ok": true,
+    "snapshotKey": "sources/1fdaad110623cf2278ad5fa9fb57fe156694e638472765697e4acd8a332db255/be35233b9cad6b30ddfd28d69c308d6c4d70cf9727b302b6f13b7e425951b2c7.html",
+    "hash": "be35233b9cad6b30ddfd28d69c308d6c4d70cf9727b302b6f13b7e425951b2c7",
+    "checkedAt": "2026-10-08T20:02:47.090Z",
+    "finalUrl": "https://oceans-and-fisheries.ec.europa.eu/news/ustkas-living-maritime-heritage-reviving-baltic-fishing-traditions-future-generations-2026-10-08_en"
+  },
+  {
+    "url": "https://housing.ec.europa.eu/whats-new/news/community-led-neb-lab-housing-gathers-best-practices-2026-10-08_en",
+    "ok": true,
+    "snapshotKey": "sources/04604d41a14d1e3df931549e19f877508d0dbda3c96c7bc49686493dcea2e125/9a4eb12ffd45615c449b9e86cb4a09c92aaa788d62a6136ea05c8ffd87a1578c.html",
+    "hash": "9a4eb12ffd45615c449b9e86cb4a09c92aaa788d62a6136ea05c8ffd87a1578c",
+    "checkedAt": "2026-10-08T20:02:47.091Z",
+    "finalUrl": "https://ec.europa.eu/newsroom/neb/items/958006/en"
+  },
+  {
+    "url": "https://defence-industry-space.ec.europa.eu/commission-disburses-eur124-billion-ukraine-drones-and-missiles-2026-10-08_en",
+    "ok": true,
+    "snapshotKey": "sources/a9c6549e723b9f20b8c173253f0072ca03905d0723d6a42a4cc2e48d1a367115/c953b6ff888870140311608291e30cd7167bb36064ca56e5b846f421d126af2f.html",
+    "hash": "c953b6ff888870140311608291e30cd7167bb36064ca56e5b846f421d126af2f",
+    "checkedAt": "2026-10-08T20:02:47.091Z",
+    "finalUrl": "https://defence-industry-space.ec.europa.eu/commission-disburses-eur124-billion-ukraine-drones-and-missiles-2026-10-08_en"
+  },
+  {
+    "url": "https://competition-policy.ec.europa.eu/about/news/commission-fines-kingspan-eur40-million-providing-incorrect-and-misleading-information-during-merger-2026-10-08_en",
+    "ok": false,
+    "snapshotKey": null,
+    "hash": null,
+    "checkedAt": "2026-10-08T20:02:47.091Z",
+    "error": "Unreadable or access challenge; requires interactive review",
+    "finalUrl": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2084"
+  },
+  {
+    "url": "https://environment.ec.europa.eu/news/new-eu-emissions-framework-poultry-pig-rearing-2026-10-08_en",
+    "ok": true,
+    "snapshotKey": "sources/667212b1fb7f9dd6f428cdd21d9ffa1b0b1f42a7f3140ec6166e93dc8507fd4b/14931258c2ddb58d0a20a29f1e3b5422ff3a514a31dae0549b7a137bcc0d95c3.html",
+    "hash": "14931258c2ddb58d0a20a29f1e3b5422ff3a514a31dae0549b7a137bcc0d95c3",
+    "checkedAt": "2026-10-08T20:02:47.091Z",
+    "finalUrl": "https://environment.ec.europa.eu/news/new-eu-emissions-framework-poultry-pig-rearing-2026-10-08_en"
+  },
+  {
+    "url": "https://oceans-and-fisheries.ec.europa.eu/news/help-shape-future-atlantic-maritime-and-macro-regional-strategy-2026-10-08_en",
+    "ok": true,
+    "snapshotKey": "sources/0743dc601363c23237fc994febaa371f9021987dd73d8c5b26b0bcb4683a77c8/ed8666d3b2ace99890ed042787e2165de50f7f7fec93364746a8c6f8c418ac57.html",
+    "hash": "ed8666d3b2ace99890ed042787e2165de50f7f7fec93364746a8c6f8c418ac57",
+    "checkedAt": "2026-10-08T20:02:47.204Z",
+    "finalUrl": "https://ec.europa.eu/regional_policy/whats-new/newsroom/01-10-2026-help-shape-the-future-atlantic-maritime-and-macro-regional-strategy_en"
+  },
+  {
+    "url": "https://civil-protection-humanitarian-aid.ec.europa.eu/news-stories/news/commissioners-sikela-and-lahbib-visit-dublin-discuss-international-development-and-importance-eu-2026-10-08_en",
+    "ok": true,
+    "snapshotKey": "sources/5c4f1ec309c738129b2390e35f65beb7383b8b7f4fe41c51cce0913b2e9975dc/f3429299f485408487860ab99a09faee42bad84d3c140b271aad17e2b0100b98.html",
+    "hash": "f3429299f485408487860ab99a09faee42bad84d3c140b271aad17e2b0100b98",
+    "checkedAt": "2026-10-08T20:02:47.230Z",
+    "finalUrl": "https://civil-protection-humanitarian-aid.ec.europa.eu/news-stories/news/commissioners-sikela-and-lahbib-visit-dublin-discuss-international-development-and-importance-eu-2026-10-08_en"
+  },
+  {
+    "url": "https://environment.ec.europa.eu/news/eurobarometer-shows-consumers-growing-trust-eu-ecolabel-2026-10-08_en",
+    "ok": false,
+    "snapshotKey": null,
+    "hash": null,
+    "checkedAt": "2026-10-08T20:02:47.252Z",
+    "error": "Unreadable or access challenge; requires interactive review",
+    "finalUrl": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2091"
+  },
+  {
+    "url": "https://enlargement.ec.europa.eu/news/commissioner-kos-attends-inauguration-key-railway-project-border-between-turkiye-and-bulgaria-2026-10-08_en",
+    "ok": true,
+    "snapshotKey": "sources/d45be2d1d33dace4bb7fd07a5e6a6d87e521d35a704e2d8813651f431f032e58/2743441bda87ae14f54e6659189589aea1ff16f91a1f4d323c4599ab6296daae.html",
+    "hash": "2743441bda87ae14f54e6659189589aea1ff16f91a1f4d323c4599ab6296daae",
+    "checkedAt": "2026-10-08T20:02:47.292Z",
+    "finalUrl": "https://enlargement.ec.europa.eu/news/commissioner-kos-attends-inauguration-key-railway-project-border-between-turkiye-and-bulgaria-2026-10-08_en"
+  },
+  {
+    "url": "https://taxation-customs.ec.europa.eu/news/updated-guidance-eur3-customs-duty-now-includes-info-union-handling-fee-2026-10-08_en",
+    "ok": true,
+    "snapshotKey": "sources/d1afb18efd0c5010843eab0f2806197a97af46d80b439ef8cda0c87be7386f73/2bdbe0eab260918f8bfcf2d935ce24f3143d56241786515bc07c3f0b88f49a63.pdf",
+    "hash": "2bdbe0eab260918f8bfcf2d935ce24f3143d56241786515bc07c3f0b88f49a63",
+    "checkedAt": "2026-10-08T20:02:47.303Z",
+    "finalUrl": "https://taxation-customs.ec.europa.eu/document/download/053e5b4e-f0be-4f20-9a23-3e3b659a6676_en?filename=Customs%20Guidance%20on%20EUR%203%20customs%20duty.pdf"
+  },
+  {
+    "url": "https://commission.europa.eu/news-and-media/news/results-07-10-2026-auction-eu-bills-2026-10-07_en",
+    "ok": true,
+    "snapshotKey": "sources/7a5c9c3ee7be7c1dab5cfa233175ac5050300bd197fd74767ee6909bcaf5e03c/e833a0d3bac6aa3a0118b05f787b42e5f8b61dbe5f01d1777d09278a74101b14.html",
+    "hash": "e833a0d3bac6aa3a0118b05f787b42e5f8b61dbe5f01d1777d09278a74101b14",
+    "checkedAt": "2026-10-08T20:02:47.392Z",
+    "finalUrl": "https://commission.europa.eu/news-and-media/news/results-07-10-2026-auction-eu-bills-2026-10-07_en"
+  },
+  {
+    "url": "https://research-and-innovation.ec.europa.eu/news/all-research-and-innovation-news/research-and-innovation-nucleus-romania-holds-enhanced-dialogue-european-commission-2026-10-07_en",
+    "ok": true,
+    "snapshotKey": "sources/6a388c312eb727ef3a5fcf1034c1ad633d7b57a594ade7f0ee62bff4b69a5199/e0a49954ee64188e8bea9c9955481a8b58d0d585869fd194b810726b3b255a07.html",
+    "hash": "e0a49954ee64188e8bea9c9955481a8b58d0d585869fd194b810726b3b255a07",
+    "checkedAt": "2026-10-08T20:02:47.392Z",
+    "finalUrl": "https://research-and-innovation.ec.europa.eu/news/all-research-and-innovation-news/research-and-innovation-nucleus-romania-holds-enhanced-dialogue-european-commission-2026-10-07_en"
+  },
+  {
+    "url": "https://climate.ec.europa.eu/news-other-reads/news/supporting-clean-transport-rural-sweden-2026-10-07_en",
+    "ok": true,
+    "snapshotKey": "sources/3bf971d39a3e89a5df0c22cda6f4a4df646e75d435dad94fed033d7aa9850382/c9b96b3728b62bc5abc2218248eab7713d9a14d6c7cea1a9b17dc90940f6c1d2.html",
+    "hash": "c9b96b3728b62bc5abc2218248eab7713d9a14d6c7cea1a9b17dc90940f6c1d2",
+    "checkedAt": "2026-10-08T20:02:47.401Z",
+    "finalUrl": "https://climate.ec.europa.eu/news-other-reads/news/supporting-clean-transport-rural-sweden-2026-10-07_en"
+  },
+  {
+    "url": "https://research-and-innovation.ec.europa.eu/news/all-research-and-innovation-news/32nd-meeting-union-mediterranean-platform-research-and-innovation-2026-10-07_en",
+    "ok": true,
+    "snapshotKey": "sources/e2ff2dea4f031e5970660225b432d3923b5ceff08bfa95b58d3b02cfa0ceb026/b681617236cc18faa28069c9d9c3fb2eb4ee655840ce8a5cb8ecbf94b8849fb0.html",
+    "hash": "b681617236cc18faa28069c9d9c3fb2eb4ee655840ce8a5cb8ecbf94b8849fb0",
+    "checkedAt": "2026-10-08T20:02:47.484Z",
+    "finalUrl": "https://research-and-innovation.ec.europa.eu/news/all-research-and-innovation-news/32nd-meeting-union-mediterranean-platform-research-and-innovation-2026-10-07_en"
+  },
+  {
+    "url": "https://taxation-customs.ec.europa.eu/news/tax-administration-eu-summit-tadeus-took-place-dublin-2026-10-07_en",
+    "ok": true,
+    "snapshotKey": "sources/468d3b48657e17f188a2e64f624bcfb4b631e85a62a7104d977ebfdb78d88f71/4fef84c71cd4208ef854974a40e80efa9b9ebc8423062298d3c08cce10b4d3f9.html",
+    "hash": "4fef84c71cd4208ef854974a40e80efa9b9ebc8423062298d3c08cce10b4d3f9",
+    "checkedAt": "2026-10-08T20:02:47.495Z",
+    "finalUrl": "https://taxation-customs.ec.europa.eu/news/tax-administration-eu-summit-tadeus-took-place-dublin-2026-10-07_en"
+  },
+  {
+    "url": "https://oceans-and-fisheries.ec.europa.eu/news/eu-seeks-input-fisheries-and-aquaculture-professionals-simplification-31-october-2026-10-06_en",
+    "ok": true,
+    "snapshotKey": "sources/d4ad7a0d9fcfa48462007cc5bd2aff5c8d41c63d45acee7d75516ec0a7a918ae/6b786e3920e895955d45945dc4eb295a8124fb7ae671ba48f65fc7dcbcde15e0.html",
+    "hash": "6b786e3920e895955d45945dc4eb295a8124fb7ae671ba48f65fc7dcbcde15e0",
+    "checkedAt": "2026-10-08T20:02:47.522Z",
+    "finalUrl": "https://oceans-and-fisheries.ec.europa.eu/news/eu-seeks-input-fisheries-and-aquaculture-professionals-simplification-31-october-2026-10-06_en"
+  },
+  {
+    "url": "https://research-and-innovation.ec.europa.eu/news/all-research-and-innovation-news/fourth-eu-faroe-islands-horizon-europe-joint-research-and-innovation-committee-meeting-2026-10-06_en",
+    "ok": true,
+    "snapshotKey": "sources/e9123ff187119317545b46812095e8f330832ff29920629363648633f98173e0/4baad39fd3553586116bd7f4bd756a154fddfde34af07cf3d30ec00076d100cc.html",
+    "hash": "4baad39fd3553586116bd7f4bd756a154fddfde34af07cf3d30ec00076d100cc",
+    "checkedAt": "2026-10-08T20:02:47.539Z",
+    "finalUrl": "https://research-and-innovation.ec.europa.eu/news/all-research-and-innovation-news/fourth-eu-faroe-islands-horizon-europe-joint-research-and-innovation-committee-meeting-2026-10-06_en"
+  },
+  {
+    "url": "https://single-market-economy.ec.europa.eu/news/commission-adopts-proposal-accelerate-standards-development-and-improve-eu-competitiveness-2026-10-06_en",
+    "ok": false,
+    "snapshotKey": null,
+    "hash": null,
+    "checkedAt": "2026-10-08T20:02:47.581Z",
+    "error": "Unreadable or access challenge; requires interactive review",
+    "finalUrl": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2070"
+  },
+  {
+    "url": "https://enlargement.ec.europa.eu/news/preparing-wider-union-2026-10-06_en",
+    "ok": true,
+    "snapshotKey": "sources/91e01af618ddd550b7daa7a33b2c2c793d56057bf546b9e0ddf8ca04a257f094/13a9a19d18c3ccfc6a9dc28a2d71cdcf8ded0e812febd02f95632986dea94faf.html",
+    "hash": "13a9a19d18c3ccfc6a9dc28a2d71cdcf8ded0e812febd02f95632986dea94faf",
+    "checkedAt": "2026-10-08T20:02:47.619Z",
+    "finalUrl": "https://enlargement.ec.europa.eu/news/preparing-wider-union-2026-10-06_en"
+  },
+  {
+    "url": "https://research-and-innovation.ec.europa.eu/news/all-research-and-innovation-news/francis-halzen-wins-2026-nobel-prize-physics-2026-10-06_en",
+    "ok": true,
+    "snapshotKey": "sources/7810e76da9fec60563b832236b6d573ab3440e2c747a8114c7e5f7b319c9b715/8cff558ac56daea2f16bd0b3d9d96b25321727ff067467f272ec1c58af8aa5e0.html",
+    "hash": "8cff558ac56daea2f16bd0b3d9d96b25321727ff067467f272ec1c58af8aa5e0",
+    "checkedAt": "2026-10-08T20:02:47.629Z",
+    "finalUrl": "https://research-and-innovation.ec.europa.eu/news/all-research-and-innovation-news/francis-halzen-wins-2026-nobel-prize-physics-2026-10-06_en"
+  },
+  {
+    "url": "https://energy.ec.europa.eu/news/energy-transition-investment-council-call-applications-2026-10-06_en",
+    "ok": true,
+    "snapshotKey": "sources/968125ba459c24d0e448f127f68c1e0e88662eccf65105a71533ffdead7eee49/444439e472efa7c31416bdd45ca4db10492a2f5232127238cdb0633cc670fb6b.html",
+    "hash": "444439e472efa7c31416bdd45ca4db10492a2f5232127238cdb0633cc670fb6b",
+    "checkedAt": "2026-10-08T20:02:47.666Z",
+    "finalUrl": "https://energy.ec.europa.eu/news/energy-transition-investment-council-call-applications-2026-10-06_en"
+  },
+  {
+    "url": "https://enlargement.ec.europa.eu/news/joint-statement-high-representativevice-president-kallas-and-commissioner-kos-general-elections-2026-10-06_en",
+    "ok": true,
+    "snapshotKey": "sources/8d477b9cf01d3ccee5466b3b8346f2225b03b66e3f9c0df9a2cf1b872be34625/efc131c51386c2c283f4cab01344a566f3611f9931b23ac021f730ced00bb9e6.html",
+    "hash": "efc131c51386c2c283f4cab01344a566f3611f9931b23ac021f730ced00bb9e6",
+    "checkedAt": "2026-10-08T20:02:47.702Z",
+    "finalUrl": "https://enlargement.ec.europa.eu/news/joint-statement-high-representativevice-president-kallas-and-commissioner-kos-general-elections-2026-10-06_en"
+  },
+  {
+    "url": "https://competition-policy.ec.europa.eu/about/news/commission-finds-polish-support-man-trucks-factory-expansion-incompatible-state-aid-2026-10-05_en",
+    "ok": false,
+    "snapshotKey": null,
+    "hash": null,
+    "checkedAt": "2026-10-08T20:02:47.702Z",
+    "error": "Unreadable or access challenge; requires interactive review",
+    "finalUrl": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2056"
+  },
+  {
+    "url": "https://research-and-innovation.ec.europa.eu/news/all-research-and-innovation-news/eu-funded-researcher-peter-hegemann-wins-2026-nobel-prize-physiology-or-medicine-2026-10-05_en",
+    "ok": true,
+    "snapshotKey": "sources/c562e1bbc3fa983db7a882f16a50631423a00dc7d60175ec457ec006653ffa3f/0f607b380b4d586af6ddf217a1a967c327a04c085b09c65497f424d9b05c47ba.html",
+    "hash": "0f607b380b4d586af6ddf217a1a967c327a04c085b09c65497f424d9b05c47ba",
+    "checkedAt": "2026-10-08T20:02:47.706Z",
+    "finalUrl": "https://research-and-innovation.ec.europa.eu/news/all-research-and-innovation-news/eu-funded-researcher-peter-hegemann-wins-2026-nobel-prize-physiology-or-medicine-2026-10-05_en"
+  },
+  {
+    "url": "https://environment.ec.europa.eu/news/eu-source-sea-reports-urge-pollution-resilience-action-2026-10-05_en",
+    "ok": true,
+    "snapshotKey": "sources/4e397e28fbf22dee0c7d5da2fc5765aee6af5d2eb3e3f4f3113fc231599d17e9/96fcf8405c7203661d15510fad298ba81640964b3e7e211582da67fe5ba02154.html",
+    "hash": "96fcf8405c7203661d15510fad298ba81640964b3e7e211582da67fe5ba02154",
+    "checkedAt": "2026-10-08T20:02:47.790Z",
+    "finalUrl": "https://environment.ec.europa.eu/news/eu-source-sea-reports-urge-pollution-resilience-action-2026-10-05_en"
+  },
+  {
+    "url": "https://enlargement.ec.europa.eu/news/european-union-and-moldova-reiterate-their-strong-partnership-and-announce-disbursement-eur157-2026-10-05_en",
+    "ok": true,
+    "snapshotKey": "sources/834021af8e5261b4e97b3e1a7b584f6e23552b187ef539fa632f87c4deacaacf/83acb3fedd895b0c1c530bd6852371523133646cfb57ea007159aacf47057ba6.html",
+    "hash": "83acb3fedd895b0c1c530bd6852371523133646cfb57ea007159aacf47057ba6",
+    "checkedAt": "2026-10-08T20:02:47.790Z",
+    "finalUrl": "https://enlargement.ec.europa.eu/news/european-union-and-moldova-reiterate-their-strong-partnership-and-announce-disbursement-eur157-2026-10-05_en"
+  },
+  {
+    "url": "https://research-and-innovation.ec.europa.eu/news/all-research-and-innovation-news/open-science-and-equity-does-openness-alone-lead-fairness-2026-10-05_en",
+    "ok": true,
+    "snapshotKey": "sources/0b2fe0ca6ddf264cf2646b2554e49f91325c4474aad4b643d409439931528953/02f1ac15464d3fc62a2093d4ae8db8a5a2120670589119268024a3c787b87ac0.html",
+    "hash": "02f1ac15464d3fc62a2093d4ae8db8a5a2120670589119268024a3c787b87ac0",
+    "checkedAt": "2026-10-08T20:02:47.812Z",
+    "finalUrl": "https://research-and-innovation.ec.europa.eu/news/all-research-and-innovation-news/open-science-and-equity-does-openness-alone-lead-fairness-2026-10-05_en"
+  },
+  {
+    "url": "https://enlargement.ec.europa.eu/news/commission-unlocks-eur157-million-moldova-reform-progress-under-growth-plan-2026-10-05_en",
+    "ok": true,
+    "snapshotKey": "sources/51aaff29951ca2388dac18dce5f0e8223727695ec9a4a75e0f88c9e33c09e6c2/50b198bb2519e79d19af763ab2a17b93e07ff2bfbe424cb026750c4698f5b67f.html",
+    "hash": "50b198bb2519e79d19af763ab2a17b93e07ff2bfbe424cb026750c4698f5b67f",
+    "checkedAt": "2026-10-08T20:02:47.813Z",
+    "finalUrl": "https://enlargement.ec.europa.eu/news/commission-unlocks-eur157-million-moldova-reform-progress-under-growth-plan-2026-10-05_en"
+  },
+  {
+    "url": "https://environment.ec.europa.eu/news/roswall-schneider-commit-stronger-eu-water-enforcement-2026-10-05_en",
+    "ok": true,
+    "snapshotKey": "sources/d87b87feaae0b9a4ae6c33081ebfd132d0031ae86edc191db7abf6f804436738/815d1848c3e76f971d17e4930c9aa9a4c592579e72ac947e94a4098875e27b4a.html",
+    "hash": "815d1848c3e76f971d17e4930c9aa9a4c592579e72ac947e94a4098875e27b4a",
+    "checkedAt": "2026-10-08T20:02:47.863Z",
+    "finalUrl": "https://environment.ec.europa.eu/news/roswall-schneider-commit-stronger-eu-water-enforcement-2026-10-05_en"
+  },
+  {
+    "url": "https://employment-social-affairs.ec.europa.eu/news/shaping-skills-beyond-borders-2026-10-05_en",
+    "ok": true,
+    "snapshotKey": "sources/8c876ae0df2f1f7cad5728871675fbf3465a9d246d663ede2092aeff81da1702/1cbec42c2275f79dd95c3e34d82ccf1d2fd878c564f7d6afb329e56f2152e267.html",
+    "hash": "1cbec42c2275f79dd95c3e34d82ccf1d2fd878c564f7d6afb329e56f2152e267",
+    "checkedAt": "2026-10-08T20:02:47.874Z",
+    "finalUrl": "https://employment-social-affairs.ec.europa.eu/news/shaping-skills-beyond-borders-2026-10-05_en"
+  },
+  {
+    "url": "https://energy.ec.europa.eu/news/energy-union-task-force-meets-ensure-coordination-diesel-supplies-and-prices-europe-2026-10-02_en",
+    "ok": true,
+    "snapshotKey": "sources/a060529382296ecea80a76a490604fa2d0c60568e4397c0ebae7b0d2c76ec255/cee621e287c44dbf5f818c9901551bba24446e5f7bd4e70cc8b54e83e094c8f1.html",
+    "hash": "cee621e287c44dbf5f818c9901551bba24446e5f7bd4e70cc8b54e83e094c8f1",
+    "checkedAt": "2026-10-08T20:02:47.876Z",
+    "finalUrl": "https://energy.ec.europa.eu/news/energy-union-task-force-meets-ensure-coordination-diesel-supplies-and-prices-europe-2026-10-02_en"
+  },
+  {
+    "url": "https://commission.europa.eu/news-and-media/news/announcement-next-auction-eu-bills-07-10-2026-2026-10-02_en",
+    "ok": true,
+    "snapshotKey": "sources/82661b923aaee151d7012784df1fc2f911c3e82febfdc4be09c089c261aef07d/72a85e726ebb7d65297c9233872ee27a517a87651620523a25182fd55258521d.html",
+    "hash": "72a85e726ebb7d65297c9233872ee27a517a87651620523a25182fd55258521d",
+    "checkedAt": "2026-10-08T20:02:47.885Z",
+    "finalUrl": "https://commission.europa.eu/news-and-media/news/announcement-next-auction-eu-bills-07-10-2026-2026-10-02_en"
+  },
+  {
+    "url": "https://oceans-and-fisheries.ec.europa.eu/news/commission-seeks-views-implementation-technical-measures-regulation-2026-10-02_en",
+    "ok": true,
+    "snapshotKey": "sources/5a6d147c547253b62da85e0a2577f8938cbe2d2dbc7110da2e74c372889125b5/c2b8fb59f535d113f90c476504d473b370a7855201d474cdb5e3a0a0dcc5e71b.html",
+    "hash": "c2b8fb59f535d113f90c476504d473b370a7855201d474cdb5e3a0a0dcc5e71b",
+    "checkedAt": "2026-10-08T20:02:47.891Z",
+    "finalUrl": "https://oceans-and-fisheries.ec.europa.eu/news/commission-seeks-views-implementation-technical-measures-regulation-2026-10-02_en"
+  },
+  {
+    "url": "https://competition-policy.ec.europa.eu/about/news/commission-approves-eur170-million-bulgarian-state-aid-farmers-facing-increased-fuel-and-fertiliser-2026-10-02_en",
+    "ok": false,
+    "snapshotKey": null,
+    "hash": null,
+    "checkedAt": "2026-10-08T20:02:47.939Z",
+    "error": "Unreadable or access challenge; requires interactive review",
+    "finalUrl": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2019"
+  },
+  {
+    "url": "https://defence-industry-space.ec.europa.eu/record-number-proposals-submitted-under-european-defence-fund-2026-calls-612-project-proposals-apply-2026-10-02_en",
+    "ok": true,
+    "snapshotKey": "sources/be8e0819ad607e2e3a05e02e5dee721faabb12e83e02601576e55410b2736800/5f280a40e20c64e7c030a43f47c16ea51858830b219a47d082a4cc77a296c2ea.html",
+    "hash": "5f280a40e20c64e7c030a43f47c16ea51858830b219a47d082a4cc77a296c2ea",
+    "checkedAt": "2026-10-08T20:02:47.955Z",
+    "finalUrl": "https://defence-industry-space.ec.europa.eu/record-number-proposals-submitted-under-european-defence-fund-2026-calls-612-project-proposals-apply-2026-10-02_en"
+  },
+  {
+    "url": "https://enlargement.ec.europa.eu/news/commission-disburses-eur29-billion-under-ukraine-facility-support-financial-stability-and-reforms-2026-10-02_en",
+    "ok": true,
+    "snapshotKey": "sources/d556a7a57b87322aa14bc245995246fb7ae3d63b96b9e7f284beee99c76a46a3/5cf568b2ec0b3d4e2f0ddd3a6eaccb9992df811fe00f758a065727bd63ccc934.html",
+    "hash": "5cf568b2ec0b3d4e2f0ddd3a6eaccb9992df811fe00f758a065727bd63ccc934",
+    "checkedAt": "2026-10-08T20:02:47.978Z",
+    "finalUrl": "https://enlargement.ec.europa.eu/news/commission-disburses-eur29-billion-under-ukraine-facility-support-financial-stability-and-reforms-2026-10-02_en"
+  },
+  {
+    "url": "https://civil-protection-humanitarian-aid.ec.europa.eu/news-stories/news/statement-commissioner-lahbib-siege-oleshky-ukraine-2026-10-02_en",
+    "ok": true,
+    "snapshotKey": "sources/e92b8809989946f8630f10347e5d150ae48bc53cec351fa591b77d642b2d46e8/d9b73203cb31c026095580eb04e8123bf09f300a719830fe3fbfb7610ca2371e.html",
+    "hash": "d9b73203cb31c026095580eb04e8123bf09f300a719830fe3fbfb7610ca2371e",
+    "checkedAt": "2026-10-08T20:02:48.000Z",
+    "finalUrl": "https://civil-protection-humanitarian-aid.ec.europa.eu/news-stories/news/statement-commissioner-lahbib-siege-oleshky-ukraine-2026-10-02_en"
+  },
+  {
+    "url": "https://eures.europa.eu/salary-ranges-are-changing-recruitment-your-company-ready-2026-10-02_en",
+    "ok": true,
+    "snapshotKey": "sources/e7dd36c490b9b8b6cec365269bc7dd1d1a1f1bc94455190a68d3a1d9808d0518/cd61f9469e101511049a59856c2117a67dead3376bd8835ab64b4d043ef78605.html",
+    "hash": "cd61f9469e101511049a59856c2117a67dead3376bd8835ab64b4d043ef78605",
+    "checkedAt": "2026-10-08T20:02:48.037Z",
+    "finalUrl": "https://eures.europa.eu/salary-ranges-are-changing-recruitment-your-company-ready-2026-10-02_en"
+  },
+  {
+    "url": "https://home-affairs.ec.europa.eu/news/staying-course-migration-reform-2026-10-02_en",
+    "ok": true,
+    "snapshotKey": "sources/9f26c33e66d6feec64ffae0c06ff6425ef0ba2de094744f32315619557617440/74aea9b3905a432b609df4be03106cef3a9ad4ddb0edca27872b547d6a110a6f.html",
+    "hash": "74aea9b3905a432b609df4be03106cef3a9ad4ddb0edca27872b547d6a110a6f",
+    "checkedAt": "2026-10-08T20:02:48.038Z",
+    "finalUrl": "https://home-affairs.ec.europa.eu/news/staying-course-migration-reform-2026-10-02_en"
+  },
+  {
+    "url": "https://research-and-innovation.ec.europa.eu/news/all-research-and-innovation-news/horizon-europe-launches-new-research-and-innovation-call-nature-2026-10-02_en",
+    "ok": true,
+    "snapshotKey": "sources/15751b5af267ae9d7a1ec100f5c5d7573ffbba29c5221507cfed38dc7ba30d34/0e2cf6566edfedac615a68317d7d937f1125bb2b13ecc39a374395a05a8cee79.html",
+    "hash": "0e2cf6566edfedac615a68317d7d937f1125bb2b13ecc39a374395a05a8cee79",
+    "checkedAt": "2026-10-08T20:02:48.053Z",
+    "finalUrl": "https://research-and-innovation.ec.europa.eu/news/all-research-and-innovation-news/horizon-europe-launches-new-research-and-innovation-call-nature-2026-10-02_en"
+  },
+  {
+    "url": "https://north-africa-middle-east-gulf.ec.europa.eu/news/eu-and-southern-mediterranean-partners-turn-water-commitments-action-euro-mediterranean-water-forum-2026-10-02_en",
+    "ok": true,
+    "snapshotKey": "sources/b35e87cfb4c326a5593b9e9e4d1ce7a95aa369a26ddad11bf7245230d34a45df/4f027decd2d7de4c19ee51c5deb40fa6b778898b2d9f1bcc027a1a3ef54130b1.html",
+    "hash": "4f027decd2d7de4c19ee51c5deb40fa6b778898b2d9f1bcc027a1a3ef54130b1",
+    "checkedAt": "2026-10-08T20:02:48.078Z",
+    "finalUrl": "https://north-africa-middle-east-gulf.ec.europa.eu/news/eu-and-southern-mediterranean-partners-turn-water-commitments-action-euro-mediterranean-water-forum-2026-10-02_en"
+  },
+  {
+    "url": "https://regions-and-cities.ec.europa.eu/cities-portal/news-cities/eu-covenant-mayors-strategic-review-2026-2026-10-02_en",
+    "ok": true,
+    "snapshotKey": "sources/5e6f6eab884734d0d8cbba8eb1b457c5c964a5310ed02e67ddb079b84527634b/1dd26b53eb846f7b93da766c121848d667b14fb14116402ac8572dd5db16d785.html",
+    "hash": "1dd26b53eb846f7b93da766c121848d667b14fb14116402ac8572dd5db16d785",
+    "checkedAt": "2026-10-08T20:02:48.125Z",
+    "finalUrl": "https://regions-and-cities.ec.europa.eu/cities-portal/news-cities/eu-covenant-mayors-strategic-review-2026-2026-10-02_en"
+  },
+  {
+    "url": "https://transport.ec.europa.eu/news-events/news/new-study-finds-fragmentation-raises-costs-ertms-trackside-deployment-recommends-alignment-reduce-2026-10-01_en",
+    "ok": true,
+    "snapshotKey": "sources/83c7350e9ec2b08dd4252d8ba3376e660f94c4128645247c051bdee36b3fc62c/f75ad96bc136dbffee342eb7d48774d7e0c34b848436c6261f39fd5bf85a9951.html",
+    "hash": "f75ad96bc136dbffee342eb7d48774d7e0c34b848436c6261f39fd5bf85a9951",
+    "checkedAt": "2026-10-08T20:02:48.173Z",
+    "finalUrl": "https://transport.ec.europa.eu/news-events/news/new-study-finds-fragmentation-raises-costs-ertms-trackside-deployment-recommends-alignment-reduce-2026-10-01_en"
+  },
+  {
+    "url": "https://research-and-innovation.ec.europa.eu/news/all-research-and-innovation-news/innovation-act-regional-impact-europes-innovation-agenda-cities-and-regions-2026-10-01_en",
+    "ok": true,
+    "snapshotKey": "sources/c653f413847fd1ae66effe0a13e51462b5f6f508998ca99ccc7ba5bef1340a5d/4c83595f59e56c73e80eff2b4cb4cee4b6b798b6fcb4d6cde5f0b97c5f3f06c2.html",
+    "hash": "4c83595f59e56c73e80eff2b4cb4cee4b6b798b6fcb4d6cde5f0b97c5f3f06c2",
+    "checkedAt": "2026-10-08T20:02:48.178Z",
+    "finalUrl": "https://research-and-innovation.ec.europa.eu/news/all-research-and-innovation-news/innovation-act-regional-impact-europes-innovation-agenda-cities-and-regions-2026-10-01_en"
+  },
+  {
+    "url": "https://finance.ec.europa.eu/news/commission-appoints-new-director-general-its-directorate-general-financial-stability-financial-2026-10-01_en",
+    "ok": true,
+    "snapshotKey": "sources/fdc328d79ab39681ad1b49e4e2dc54b91ccf593616e8b93f250903f0a469f607/76f9fa320ac05e8c1d185490889dbe4913d38a31930c85f2edbf8125793547e9.html",
+    "hash": "76f9fa320ac05e8c1d185490889dbe4913d38a31930c85f2edbf8125793547e9",
+    "checkedAt": "2026-10-08T20:02:48.188Z",
+    "finalUrl": "https://finance.ec.europa.eu/news/commission-appoints-new-director-general-its-directorate-general-financial-stability-financial-2026-10-01_en"
+  },
+  {
+    "url": "https://agriculture.ec.europa.eu/media/news/eu-school-scheme-policy-continues-invest-healthier-future-europes-children-2026-10-01_en",
+    "ok": true,
+    "snapshotKey": "sources/11d5b41104232e67447ee687d20d85e0337ad050408dd52d7081a7ce5dcceee4/82e07478283ef1e005ee4cfe62752cd05e773707936cc6ee313b5313fe48d6f6.html",
+    "hash": "82e07478283ef1e005ee4cfe62752cd05e773707936cc6ee313b5313fe48d6f6",
+    "checkedAt": "2026-10-08T20:02:48.243Z",
+    "finalUrl": "https://agriculture.ec.europa.eu/media/news/eu-school-scheme-policy-continues-invest-healthier-future-europes-children-2026-10-01_en"
+  },
+  {
+    "url": "https://research-and-innovation.ec.europa.eu/news/all-research-and-innovation-news/fifth-eu-moldova-horizon-europe-joint-research-and-innovation-committee-meeting-2026-10-01_en",
+    "ok": true,
+    "snapshotKey": "sources/1440d222338179968e3774a9cd62a10b1c54c0bb3cde01341b0a4424ed5413a1/fd4ec508fbead0ad487e4900de6ef00bc0b6c440d341b1da1a86f2f563764182.html",
+    "hash": "fd4ec508fbead0ad487e4900de6ef00bc0b6c440d341b1da1a86f2f563764182",
+    "checkedAt": "2026-10-08T20:02:48.251Z",
+    "finalUrl": "https://research-and-innovation.ec.europa.eu/news/all-research-and-innovation-news/fifth-eu-moldova-horizon-europe-joint-research-and-innovation-committee-meeting-2026-10-01_en"
+  },
+  {
+    "url": "https://commission.europa.eu/news-and-media/news_en?page=5",
+    "ok": true,
+    "snapshotKey": "sources/616d45435666e26fec493be59348c0d23b2128e408eb316232cac625f79553d2/d68ae1213c787152361d39118315fffa68163003873101eae6ab074774b5bd27.html",
+    "hash": "d68ae1213c787152361d39118315fffa68163003873101eae6ab074774b5bd27",
+    "checkedAt": "2026-10-08T20:03:07.626Z",
+    "finalUrl": "https://commission.europa.eu/news-and-media/news_en?page=5"
+  },
+  {
+    "url": "https://oeil.europarl.europa.eu/oeil/en/search?sessionDay.allDays=true&sessionDay.day=20261006&sessionDay.type=ALL",
+    "ok": true,
+    "snapshotKey": "sources/af6386d7ac6437840a0bb0345b7305758c691114b15d62f7246ea781669ad3df/9a2aba3fb51d7d25b39523714037269444ea246d9cebe23fa94b488bf1ed8c41.html",
+    "hash": "9a2aba3fb51d7d25b39523714037269444ea246d9cebe23fa94b488bf1ed8c41",
+    "checkedAt": "2026-10-08T20:03:07.627Z",
+    "finalUrl": "https://oeil.europarl.europa.eu/oeil/en/search?sessionDay.allDays=true&sessionDay.day=20261006&sessionDay.type=ALL"
+  },
+  {
+    "url": "https://eur-lex.europa.eu/search.html?name=collection%3Aeu-law-legislation&type=named&qid=1791489692044&page=2",
+    "ok": true,
+    "snapshotKey": "sources/e6146007c84553b4c0cc2fc1e339eb0e7048b67b90e84163997b962cdd4bacb3/878dc839cd36e661282fc3e1884204a9f8986cbe5d27ac70e4fb741d6df49cce.html",
+    "hash": "878dc839cd36e661282fc3e1884204a9f8986cbe5d27ac70e4fb741d6df49cce",
+    "checkedAt": "2026-10-08T20:03:07.627Z",
+    "finalUrl": "https://eur-lex.europa.eu/search.html?name=collection%3Aeu-law-legislation&type=named&qid=1791489692044&page=2"
+  },
+  {
+    "url": "https://oceans-and-fisheries.ec.europa.eu/news/commission-seeks-views-common-european-training-standards-fishers-2026-10-01_en",
+    "ok": true,
+    "snapshotKey": "sources/6e1e5389d4d70f5b3f3f2a5f81ad5eae3aeff64a774788a72a7760ee589adacd/a77c5c5f15306cd99c8de681508e638b4da3a1b28e263bfffda94872ee11c07d.html",
+    "hash": "a77c5c5f15306cd99c8de681508e638b4da3a1b28e263bfffda94872ee11c07d",
+    "checkedAt": "2026-10-08T20:03:55.844Z",
+    "finalUrl": "https://oceans-and-fisheries.ec.europa.eu/news/commission-seeks-views-common-european-training-standards-fishers-2026-10-01_en"
+  },
+  {
+    "url": "https://energy.ec.europa.eu/news/october-infringements-package-key-decisions-energy-2026-10-01_en",
+    "ok": true,
+    "snapshotKey": "sources/d20ca8ac1603cf92e1fcedaf1697a11d3604f598988fac076d70ae6b38bd872a/c73db38ffe482be217c160209ac1d41c80e430b01ab8f46b85109f1f395cf8ea.html",
+    "hash": "c73db38ffe482be217c160209ac1d41c80e430b01ab8f46b85109f1f395cf8ea",
+    "checkedAt": "2026-10-08T20:03:55.844Z",
+    "finalUrl": "https://energy.ec.europa.eu/news/october-infringements-package-key-decisions-energy-2026-10-01_en"
+  },
+  {
+    "url": "https://energy.ec.europa.eu/news/commission-grants-cb-res-status-three-additional-cross-border-renewable-energy-projects-2026-10-01_en",
+    "ok": true,
+    "snapshotKey": "sources/13ac768b687e392789639f34141fb13dfb92222a374f0867fbf867430023333a/2875cb4e2bac9bb8ea3f536a44bb4d8c030dfff63043c1113f0ae3b14355a1ea.html",
+    "hash": "2875cb4e2bac9bb8ea3f536a44bb4d8c030dfff63043c1113f0ae3b14355a1ea",
+    "checkedAt": "2026-10-08T20:03:55.844Z",
+    "finalUrl": "https://cinea.ec.europa.eu/news-events/news/commission-grants-cb-res-status-three-additional-cross-border-renewable-energy-projects-2026-10-01_en"
+  },
+  {
+    "url": "https://commission.europa.eu/news-and-media/news/turning-18-apply-free-discovereu-travel-pass-2026-10-01_en",
+    "ok": true,
+    "snapshotKey": "sources/643d054dfd83cca492a38ea1ab5ebdec132520fc2836ab3b73af25cffa31645e/b1b4bc0c316a92e0e463061ccd290f5e647c4b8402c4d0e919decf82c7176e60.html",
+    "hash": "b1b4bc0c316a92e0e463061ccd290f5e647c4b8402c4d0e919decf82c7176e60",
+    "checkedAt": "2026-10-08T20:03:55.844Z",
+    "finalUrl": "https://commission.europa.eu/news-and-media/news/turning-18-apply-free-discovereu-travel-pass-2026-10-01_en"
+  },
+  {
+    "url": "https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=2026/0078(COD)",
+    "ok": true,
+    "snapshotKey": "sources/82bc2fc6ec95375cdc6793b51465bb70fda768ac4f4f894506c30ed53bc5a54e/4cbb725fd3427219420b2a04f3b1f6a1cf4a52719db4e1483bb7be72f2b8c18e.html",
+    "hash": "4cbb725fd3427219420b2a04f3b1f6a1cf4a52719db4e1483bb7be72f2b8c18e",
+    "checkedAt": "2026-10-08T20:03:55.844Z",
+    "finalUrl": "https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=2026/0078(COD)"
+  },
+  {
+    "url": "https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=2025/0393(COD)",
+    "ok": true,
+    "snapshotKey": "sources/3bb2c9cd1dedb6746901a09cee9737144d09bbbf668b4c4570688d7205cffda1/47e965d34cdbb6957226caedd396fbc3b20710f4038bbb85e4cfa5bb076b7dae.html",
+    "hash": "47e965d34cdbb6957226caedd396fbc3b20710f4038bbb85e4cfa5bb076b7dae",
+    "checkedAt": "2026-10-08T20:03:55.844Z",
+    "finalUrl": "https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=2025/0393(COD)"
+  },
+  {
+    "url": "https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=2025/0349(COD)",
+    "ok": true,
+    "snapshotKey": "sources/394ad89e0fc86d20ca6a1cc74ced1c45624f9b723dea82b44e400a39b1dee192/2224a18e9a8fd595a0a61e68fac579d17d842a694c2ba6c545fb0ec83b35ebf7.html",
+    "hash": "2224a18e9a8fd595a0a61e68fac579d17d842a694c2ba6c545fb0ec83b35ebf7",
+    "checkedAt": "2026-10-08T20:03:55.951Z",
+    "finalUrl": "https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=2025/0349(COD)"
+  },
+  {
+    "url": "https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=2025/0312(COD)",
+    "ok": true,
+    "snapshotKey": "sources/57e3f9b6581b45db56359c04d2775c0dd1e21ef03b493dfcecc054ee038488a6/31fa38602db37c12d7c234cb90e81678f16cb1b9affee8c44fe3774413537f08.html",
+    "hash": "31fa38602db37c12d7c234cb90e81678f16cb1b9affee8c44fe3774413537f08",
+    "checkedAt": "2026-10-08T20:03:55.951Z",
+    "finalUrl": "https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=2025/0312(COD)"
+  },
+  {
+    "url": "https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=2025/0311(COD)",
+    "ok": true,
+    "snapshotKey": "sources/e867e0dd79f7c6716a6c89f1888fd5a0f9650b8975404882e1fe8f5f316da4bf/bca963ec74cb416b357199afdbd27aa81f9fcfc905f2e863096652975fdf13b6.html",
+    "hash": "bca963ec74cb416b357199afdbd27aa81f9fcfc905f2e863096652975fdf13b6",
+    "checkedAt": "2026-10-08T20:03:55.971Z",
+    "finalUrl": "https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=2025/0311(COD)"
+  },
+  {
+    "url": "https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=2025/0232(COD)",
+    "ok": true,
+    "snapshotKey": "sources/274934598a7741e4c184e1abf5a7bf83c1e517ff8ad759846cb2203f6d9e86ac/ecb30e93b65afb16cef34805016a3ead6a44d216424c87b377d994ca2c54b4c4.html",
+    "hash": "ecb30e93b65afb16cef34805016a3ead6a44d216424c87b377d994ca2c54b4c4",
+    "checkedAt": "2026-10-08T20:03:56.059Z",
+    "finalUrl": "https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=2025/0232(COD)"
+  },
+  {
+    "url": "https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=2023/0134(COD)",
+    "ok": true,
+    "snapshotKey": "sources/ff810abfc9f87e7a9e70b667c6a895da2160f15690ca126c0aab24fe031a4e4c/113fbe97191e2c9b01e43415acc5b2cf35d91f88eccb92b8b0a08eaa419e648c.html",
+    "hash": "113fbe97191e2c9b01e43415acc5b2cf35d91f88eccb92b8b0a08eaa419e648c",
+    "checkedAt": "2026-10-08T20:03:56.074Z",
+    "finalUrl": "https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=2023/0134(COD)"
+  },
+  {
+    "url": "https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=2023/0441(CNS)",
+    "ok": true,
+    "snapshotKey": "sources/68b27f06637c371022905d4ada1a129083510a6347d34bdf53903f67d859dbd0/6dcb2e8f895c0679b4f332b135bf46827d8b3f6a6d6f112e1f3b00fc854513ba.html",
+    "hash": "6dcb2e8f895c0679b4f332b135bf46827d8b3f6a6d6f112e1f3b00fc854513ba",
+    "checkedAt": "2026-10-08T20:03:58.783Z",
+    "finalUrl": "https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=2023/0441(CNS)"
+  },
+  {
+    "url": "https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=2025/0313(APP)",
+    "ok": true,
+    "snapshotKey": "sources/9460ded4584d30f3a9d3395c8ebfa8c3fcc9272fbb3596442162b3be420ac4eb/d0017b7a81047d5e3246c12735a0877b04c88db248d3e12f4568cdb7dfdd2148.html",
+    "hash": "d0017b7a81047d5e3246c12735a0877b04c88db248d3e12f4568cdb7dfdd2148",
+    "checkedAt": "2026-10-08T20:03:58.862Z",
+    "finalUrl": "https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=2025/0313(APP)"
+  },
+  {
+    "url": "https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=2026/0220(BUD)",
+    "ok": true,
+    "snapshotKey": "sources/44a6bd242365095534b12cd3ff8ecdc9b7e8af4563b4a7473bc5025578b788f3/e4b20b801fc902b1266a025b00ca3a5a02caee861b222366a385f60f7cb5cdda.html",
+    "hash": "e4b20b801fc902b1266a025b00ca3a5a02caee861b222366a385f60f7cb5cdda",
+    "checkedAt": "2026-10-08T20:03:58.979Z",
+    "finalUrl": "https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=2026/0220(BUD)"
+  },
+  {
+    "url": "https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=2026/0197(BUD)",
+    "ok": true,
+    "snapshotKey": "sources/2424d3f8def6895aafd0da0fc2921282b5ba58baf61fb7be61ccef04e7a43e67/dd28dd9830fb8f464c4b250412aeddaaad8a9ac061d630ec8df2e9b974cbdaa7.html",
+    "hash": "dd28dd9830fb8f464c4b250412aeddaaad8a9ac061d630ec8df2e9b974cbdaa7",
+    "checkedAt": "2026-10-08T20:03:59.329Z",
+    "finalUrl": "https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=2026/0197(BUD)"
+  },
+  {
+    "url": "https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=2026/0195(BUD)",
+    "ok": true,
+    "snapshotKey": "sources/625861c5891608c154f8d75cf248f981d3afb5ac0165b1b57df36bb72eb4b965/a139827d35813b38d952307c9e0c9597891c639e0fce05dc068338f8ba9fea9d.html",
+    "hash": "a139827d35813b38d952307c9e0c9597891c639e0fce05dc068338f8ba9fea9d",
+    "checkedAt": "2026-10-08T20:03:59.435Z",
+    "finalUrl": "https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=2026/0195(BUD)"
+  },
+  {
+    "url": "https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=2026/2023(INL)",
+    "ok": true,
+    "snapshotKey": "sources/db1b0d17c18e2532166b46cad72922df808b612f36398436bc45376262cb0e24/fd5614fc468145aee868774dd869d0478c1b557406e2bc6967513d80ae84fc47.html",
+    "hash": "fd5614fc468145aee868774dd869d0478c1b557406e2bc6967513d80ae84fc47",
+    "checkedAt": "2026-10-08T20:03:59.455Z",
+    "finalUrl": "https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=2026/2023(INL)"
+  },
+  {
+    "url": "https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=2025/2210(INI)",
+    "ok": true,
+    "snapshotKey": "sources/991070b9f898b78eb24427e5163323773bfed47c79438a81b8fba523f49033a7/cfa3b6544bc83d6c67525e0e87e18ac43fb662cb19015f8e4d381edec0858f2f.html",
+    "hash": "cfa3b6544bc83d6c67525e0e87e18ac43fb662cb19015f8e4d381edec0858f2f",
+    "checkedAt": "2026-10-08T20:03:59.497Z",
+    "finalUrl": "https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=2025/2210(INI)"
+  },
+  {
+    "url": "https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=2025/2117(INI)",
+    "ok": true,
+    "snapshotKey": "sources/913e6de069b00ac331f1e464c91c9cc53453262fe6eefcca3deefded119dd6da/39d9a010578a18fc1944c20f63df30c8830e1ef03e6ceb271b3f478ba3e41734.html",
+    "hash": "39d9a010578a18fc1944c20f63df30c8830e1ef03e6ceb271b3f478ba3e41734",
+    "checkedAt": "2026-10-08T20:03:59.633Z",
+    "finalUrl": "https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=2025/2117(INI)"
+  },
+  {
+    "url": "https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=2026/2919(RSP)",
+    "ok": true,
+    "snapshotKey": "sources/7abe01ab92ba2fbcf80821f2977f5fa9bd70a3d947073449918417f51ff289e3/77384d196e0fc20560688b158226dd798d576a44b8e9cacd5f3de446d52190e8.html",
+    "hash": "77384d196e0fc20560688b158226dd798d576a44b8e9cacd5f3de446d52190e8",
+    "checkedAt": "2026-10-08T20:04:01.614Z",
+    "finalUrl": "https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=2026/2919(RSP)"
+  },
+  {
+    "url": "https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=2026/2918(RSP)",
+    "ok": true,
+    "snapshotKey": "sources/84f5962dfb166971c1b2bb209c61800eeb1e417f5de41419bf71123c970f00e0/ce56c150aa6f7cd80a358cd2477418fad06927a6fcb59b37875f35cf46941442.html",
+    "hash": "ce56c150aa6f7cd80a358cd2477418fad06927a6fcb59b37875f35cf46941442",
+    "checkedAt": "2026-10-08T20:04:01.683Z",
+    "finalUrl": "https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=2026/2918(RSP)"
+  },
+  {
+    "url": "https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=2026/2916(RSP)",
+    "ok": true,
+    "snapshotKey": "sources/087d57a83e2ea1a65f160752dc7f558e20eac3ceb5bd083aa1fec2de7f5b557c/659d7956e744b80b3426307a1b613fec407a14997a384625b2a0a3bbf7879007.html",
+    "hash": "659d7956e744b80b3426307a1b613fec407a14997a384625b2a0a3bbf7879007",
+    "checkedAt": "2026-10-08T20:04:01.755Z",
+    "finalUrl": "https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=2026/2916(RSP)"
+  },
+  {
+    "url": "https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=2026/2915(RSP)",
+    "ok": true,
+    "snapshotKey": "sources/9cd09efbe52dfea00855de87354621a75157af57c0299bcf9d1266561d3fe909/6b5b4e5767830defc255c6fca3693b0aae441fb13789b88f795b6477620bc80a.html",
+    "hash": "6b5b4e5767830defc255c6fca3693b0aae441fb13789b88f795b6477620bc80a",
+    "checkedAt": "2026-10-08T20:04:02.184Z",
+    "finalUrl": "https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=2026/2915(RSP)"
+  },
+  {
+    "url": "https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=2026/2914(RSP)",
+    "ok": true,
+    "snapshotKey": "sources/1309b9f677d60590f8fbc195e9320b1cfd52184442503cb8f0ab99bfaef12940/8b069643685daaaddd954f04cd8251a7571d2c0a179f6ba88ba4c1db5e52c4b9.html",
+    "hash": "8b069643685daaaddd954f04cd8251a7571d2c0a179f6ba88ba4c1db5e52c4b9",
+    "checkedAt": "2026-10-08T20:04:02.555Z",
+    "finalUrl": "https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=2026/2914(RSP)"
+  },
+  {
+    "url": "https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=2026/2913(RSP)",
+    "ok": true,
+    "snapshotKey": "sources/10427a8f484d696a4b7e9b21206bc169af5006f61a8f631fcdd54b01b49de9b0/f63a40de0b7ea4024df519bd65a28d37caebc5eb42599932e4a84942fb297880.html",
+    "hash": "f63a40de0b7ea4024df519bd65a28d37caebc5eb42599932e4a84942fb297880",
+    "checkedAt": "2026-10-08T20:04:02.877Z",
+    "finalUrl": "https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=2026/2913(RSP)"
+  },
+  {
+    "url": "https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=2026/2912(RSP)",
+    "ok": true,
+    "snapshotKey": "sources/83fc963af9bbfe1dd13b76c62feed55c5c71060844dbe1b345085a49f7cb64e5/fa988b39e8b6228d848afe2b515fb2fcd2630fe17908b21d51d1eb179c81a370.html",
+    "hash": "fa988b39e8b6228d848afe2b515fb2fcd2630fe17908b21d51d1eb179c81a370",
+    "checkedAt": "2026-10-08T20:04:02.984Z",
+    "finalUrl": "https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=2026/2912(RSP)"
+  },
+  {
+    "url": "https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=2026/2910(RSP)",
+    "ok": true,
+    "snapshotKey": "sources/313b6f8bf38a80de581ac6042521976163549235e4c973b538925144f8e0cd7c/c050981202810d71dae50ee8b788751e61b7384af1f948d7a00b32ccb3946f8e.html",
+    "hash": "c050981202810d71dae50ee8b788751e61b7384af1f948d7a00b32ccb3946f8e",
+    "checkedAt": "2026-10-08T20:04:03.085Z",
+    "finalUrl": "https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=2026/2910(RSP)"
+  },
+  {
+    "url": "https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=2026/2909(RSP)",
+    "ok": true,
+    "snapshotKey": "sources/caf41017c543ed6ee21a2ce5669fbfdfee139cc45c0733d882ae50b32193f8c6/aa6e6db4c1db0bfbf04f3b369bdff08589cc82bd8510977bc24d2d993a13a661.html",
+    "hash": "aa6e6db4c1db0bfbf04f3b369bdff08589cc82bd8510977bc24d2d993a13a661",
+    "checkedAt": "2026-10-08T20:04:03.131Z",
+    "finalUrl": "https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=2026/2909(RSP)"
+  },
+  {
+    "url": "https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=2026/2908(RSP)",
+    "ok": true,
+    "snapshotKey": "sources/b2f381bf80e56ec472161b730a171c84fc65540fdc2aa1f93c267442bd630dc5/645c86c9ac13b467fc911d5f386860a35bc162404b47a5b6e9c98e09c5ff99e7.html",
+    "hash": "645c86c9ac13b467fc911d5f386860a35bc162404b47a5b6e9c98e09c5ff99e7",
+    "checkedAt": "2026-10-08T20:04:03.416Z",
+    "finalUrl": "https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=2026/2908(RSP)"
+  },
+  {
+    "url": "https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=2026/2907(RSP)",
+    "ok": true,
+    "snapshotKey": "sources/daf0d8e26cd9f2aa82797d94701348a1d3341ffd048afe54cc6889d656b0694e/f3ef2cee8b51939c8d551b3fce636298b17a05f3fabbd9a680c057e6683ebba5.html",
+    "hash": "f3ef2cee8b51939c8d551b3fce636298b17a05f3fabbd9a680c057e6683ebba5",
+    "checkedAt": "2026-10-08T20:04:04.053Z",
+    "finalUrl": "https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=2026/2907(RSP)"
+  },
+  {
+    "url": "https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=2026/2906(RSP)",
+    "ok": true,
+    "snapshotKey": "sources/6ba18c6f6d83cc90fd83e551e2dbc4600e0ee9c9e8387ddf3b1936011502a6ef/156a9b0d1c1647ddc50c1627b64348cd86184758fc79585f3ca97219648e504b.html",
+    "hash": "156a9b0d1c1647ddc50c1627b64348cd86184758fc79585f3ca97219648e504b",
+    "checkedAt": "2026-10-08T20:04:04.756Z",
+    "finalUrl": "https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=2026/2906(RSP)"
+  },
+  {
+    "url": "https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=2026/2905(RSP)",
+    "ok": true,
+    "snapshotKey": "sources/326fcf3c9ae2c34437a12f5375392ba8f93001863611d6ce48066573e789ceb5/615515d686d1742e386d0551a06ece91e6527709987c99565019a43d88cfe0a3.html",
+    "hash": "615515d686d1742e386d0551a06ece91e6527709987c99565019a43d88cfe0a3",
+    "checkedAt": "2026-10-08T20:04:04.763Z",
+    "finalUrl": "https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=2026/2905(RSP)"
+  },
+  {
+    "url": "https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=2026/2904(RSP)",
+    "ok": true,
+    "snapshotKey": "sources/a4a2c3d26cf22828651ae900c37f3441b6b90bab9430c44c3892fb8cf068f0c2/4e841ed37c546bf85a70f6b812c7142ca59e0b134d5ec79e9116f7ad2a9d8b2f.html",
+    "hash": "4e841ed37c546bf85a70f6b812c7142ca59e0b134d5ec79e9116f7ad2a9d8b2f",
+    "checkedAt": "2026-10-08T20:04:04.763Z",
+    "finalUrl": "https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=2026/2904(RSP)"
+  },
+  {
+    "url": "https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=2026/2903(RSP)",
+    "ok": true,
+    "snapshotKey": "sources/bedb8adfc62afc083848e07e2cf150d608ba4cec7d0742707ca132703b8bec55/9e8061ac43e6afa0eedb1fbb88caa02b052ae433b5b683943e732abdef0efdfc.html",
+    "hash": "9e8061ac43e6afa0eedb1fbb88caa02b052ae433b5b683943e732abdef0efdfc",
+    "checkedAt": "2026-10-08T20:04:05.085Z",
+    "finalUrl": "https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=2026/2903(RSP)"
+  },
+  {
+    "url": "https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=2026/2713(RSP)",
+    "ok": true,
+    "snapshotKey": "sources/9ab16ce7f8b32ec9f7da1b35ca5e1bd694d1c25f4f8fa39b871bc258ec00ae25/08a73407c46548c82dc85bbc014cad95febbd9974807c03af35e5dc8fe6e8e2f.html",
+    "hash": "08a73407c46548c82dc85bbc014cad95febbd9974807c03af35e5dc8fe6e8e2f",
+    "checkedAt": "2026-10-08T20:04:05.283Z",
+    "finalUrl": "https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=2026/2713(RSP)"
+  },
+  {
+    "url": "https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=2026/2624(RSP)",
+    "ok": true,
+    "snapshotKey": "sources/3c8ca11fa0e50cb025a16c0cd7ae3879dd8592eb8c7e45ea53ccbbe355adcf3f/11442708850a6c48bed96cff278487880b46f345157d5ab898156c3b0050e240.html",
+    "hash": "11442708850a6c48bed96cff278487880b46f345157d5ab898156c3b0050e240",
+    "checkedAt": "2026-10-08T20:04:05.295Z",
+    "finalUrl": "https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=2026/2624(RSP)"
+  },
+  {
+    "url": "https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=2026/2856(RSP)",
+    "ok": true,
+    "snapshotKey": "sources/7a6966188d517aedf463fd1d12143615930a47ee404fc177ac369bf7e6c50e7d/236dbdd57dd2f524fffe435ecb168e46e3ea339b31f98a0cd620f77c4fa6bfe3.html",
+    "hash": "236dbdd57dd2f524fffe435ecb168e46e3ea339b31f98a0cd620f77c4fa6bfe3",
+    "checkedAt": "2026-10-08T20:04:05.402Z",
+    "finalUrl": "https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=2026/2856(RSP)"
+  },
+  {
+    "url": "https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=2026/2868(RSP)",
+    "ok": true,
+    "snapshotKey": "sources/c73267cc828f1292cc572eec926608a8d404a41d6fc0e389e18f1e9e4b6eda79/9f1a77959930bd9e6e00e02ae4b36bcf8364819051b3a3f605abb8c6efa55e97.html",
+    "hash": "9f1a77959930bd9e6e00e02ae4b36bcf8364819051b3a3f605abb8c6efa55e97",
+    "checkedAt": "2026-10-08T20:04:06.423Z",
+    "finalUrl": "https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=2026/2868(RSP)"
+  },
+  {
+    "url": "https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=2026/2867(RSP)",
+    "ok": true,
+    "snapshotKey": "sources/f49776583ba001dfdcd56e467adcf9265b2decd5f8e650f69b2140d484340607/24b114cf7209759243de363fb22fd566ce8fabdf51dd5eaf80448e56d82f00e2.html",
+    "hash": "24b114cf7209759243de363fb22fd566ce8fabdf51dd5eaf80448e56d82f00e2",
+    "checkedAt": "2026-10-08T20:04:06.530Z",
+    "finalUrl": "https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=2026/2867(RSP)"
+  },
+  {
+    "url": "https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=2026/2790(RSP)",
+    "ok": true,
+    "snapshotKey": "sources/5e279ec7358cc6e22ea0d13bdd52da4c7594d2bda9529b019f70ec7aeeb50e09/9258ad68b16a12ff34d1d59f4cf2f06565e75937808e929a0d9c1ee0c0c606ec.html",
+    "hash": "9258ad68b16a12ff34d1d59f4cf2f06565e75937808e929a0d9c1ee0c0c606ec",
+    "checkedAt": "2026-10-08T20:04:06.652Z",
+    "finalUrl": "https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=2026/2790(RSP)"
+  },
+  {
+    "url": "https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=2026/2077(IMM)",
+    "ok": true,
+    "snapshotKey": "sources/a7731c0fd0580d3b072ee7207ab42e9af8607c37fd02d62485ccff2c138e815c/d1d6b69fa92d0f0199ee3ca9e0cd8bd21a2b6d990071f8d28cff881c5e80712e.html",
+    "hash": "d1d6b69fa92d0f0199ee3ca9e0cd8bd21a2b6d990071f8d28cff881c5e80712e",
+    "checkedAt": "2026-10-08T20:04:06.872Z",
+    "finalUrl": "https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=2026/2077(IMM)"
+  },
+  {
+    "url": "https://environment.ec.europa.eu/publications/commission-implementing-decision-uniform-conditions-operating-rules-rearing-poultry-and-pigs-ied-20_en",
+    "ok": true,
+    "snapshotKey": "sources/746f6471d4728a291a0e6bdb583b18cce35fb71f1cb5c836ec0a5c064a72f5fe/64dd6b8abd6146cee9261a6a3ef37157a6416c638e8023cb6a0290afa04d7821.html",
+    "hash": "64dd6b8abd6146cee9261a6a3ef37157a6416c638e8023cb6a0290afa04d7821",
+    "checkedAt": "2026-10-08T20:04:06.912Z",
+    "finalUrl": "https://environment.ec.europa.eu/publications/commission-implementing-decision-uniform-conditions-operating-rules-rearing-poultry-pigs-ucol_en"
+  },
+  {
+    "url": "https://environment.ec.europa.eu/publications/ied-20-uniform-conditions-operating-rules-rearing-poultry-and-pigs-ucol_en",
+    "ok": true,
+    "snapshotKey": "sources/fe7254ac6b164e4deb8fafcdc9bd2d795b3a8290b2afbb2aac49c96d3b135bb2/64dd6b8abd6146cee9261a6a3ef37157a6416c638e8023cb6a0290afa04d7821.html",
+    "hash": "64dd6b8abd6146cee9261a6a3ef37157a6416c638e8023cb6a0290afa04d7821",
+    "checkedAt": "2026-10-08T20:04:07.078Z",
+    "finalUrl": "https://environment.ec.europa.eu/publications/commission-implementing-decision-uniform-conditions-operating-rules-rearing-poultry-pigs-ucol_en"
+  },
+  {
+    "url": "https://eur-lex.europa.eu/legal-content/BG/TXT/?uri=CELEX:32026R2108R(01)",
+    "ok": true,
+    "snapshotKey": "sources/78609d3e0791926a9f5ecff98591133a577c162864e6b8a340f4ba73b9a4add0/354bb12eed474180488353cbe2f89850e74570ab9d9573fee45a99f0d78e4db2.html",
+    "hash": "354bb12eed474180488353cbe2f89850e74570ab9d9573fee45a99f0d78e4db2",
+    "checkedAt": "2026-10-08T20:07:06.795Z",
+    "finalUrl": "https://eur-lex.europa.eu/legal-content/BG/TXT/?uri=CELEX:32026R2108R(01)"
+  },
+  {
+    "url": "https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:32026R2108R(01)",
+    "ok": true,
+    "snapshotKey": "sources/f1efbdc9cfd806944b8e5d0b84d94b2cbf0bf0b4438cbb2fbab6b5d71ee480fa/de79f8c18d1ca19d35591c7dcae41788e7fe9b0678933151ffbdc2a61c07050b.html",
+    "hash": "de79f8c18d1ca19d35591c7dcae41788e7fe9b0678933151ffbdc2a61c07050b",
+    "checkedAt": "2026-10-08T20:07:06.795Z",
+    "finalUrl": "https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:32026R2108R(01)"
+  },
+  {
+    "url": "https://eur-lex.europa.eu/legal-content/CS/TXT/?uri=CELEX:32026R2108R(01)",
+    "ok": true,
+    "snapshotKey": "sources/1aa543aa5261a2c0473bf693125b407d90b97b6f7299a0c8aeada7e5f157706b/0fcf73edba62904b403e5127d6b4ddc75d643bae38e46e4e678f344ced9179c8.html",
+    "hash": "0fcf73edba62904b403e5127d6b4ddc75d643bae38e46e4e678f344ced9179c8",
+    "checkedAt": "2026-10-08T20:07:06.795Z",
+    "finalUrl": "https://eur-lex.europa.eu/legal-content/CS/TXT/?uri=CELEX:32026R2108R(01)"
+  },
+  {
+    "url": "https://eur-lex.europa.eu/legal-content/DA/TXT/?uri=CELEX:32026R2108R(01)",
+    "ok": true,
+    "snapshotKey": "sources/2124893730ed5495095f665ed648a19386544e0839c34f67b66bac679f834e94/ac9e0da2d113bdd568ece73cc7dc2c2f80e0cc700d5cb88e179c5073d2f1ed4f.html",
+    "hash": "ac9e0da2d113bdd568ece73cc7dc2c2f80e0cc700d5cb88e179c5073d2f1ed4f",
+    "checkedAt": "2026-10-08T20:07:06.795Z",
+    "finalUrl": "https://eur-lex.europa.eu/legal-content/DA/TXT/?uri=CELEX:32026R2108R(01)"
+  },
+  {
+    "url": "https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:32026R2108R(01)",
+    "ok": true,
+    "snapshotKey": "sources/6225ee2dc61b6bfa45d70a8af6169d59e3d8cdb1951fdd944b878d0e9d1d9741/e524a1a795135772fb8b9c396f6626ec6d725f0bfa491b3df0c50626a9cf48ee.html",
+    "hash": "e524a1a795135772fb8b9c396f6626ec6d725f0bfa491b3df0c50626a9cf48ee",
+    "checkedAt": "2026-10-08T20:07:07.135Z",
+    "finalUrl": "https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:32026R2108R(01)"
+  },
+  {
+    "url": "https://eur-lex.europa.eu/legal-content/ET/TXT/?uri=CELEX:32026R2108R(01)",
+    "ok": true,
+    "snapshotKey": "sources/efa193d21190b7751e7fc328fcf3ca680270b67442ff127ea744ccba9f9bc6b3/faced0e50f39f3e6ea06ec02debc292f33ed2c1a7535205af421b88a82a9d463.html",
+    "hash": "faced0e50f39f3e6ea06ec02debc292f33ed2c1a7535205af421b88a82a9d463",
+    "checkedAt": "2026-10-08T20:07:07.136Z",
+    "finalUrl": "https://eur-lex.europa.eu/legal-content/ET/TXT/?uri=CELEX:32026R2108R(01)"
+  },
+  {
+    "url": "https://eur-lex.europa.eu/legal-content/EL/TXT/?uri=CELEX:32026R2108R(01)",
+    "ok": true,
+    "snapshotKey": "sources/1bfd1e6f689a3ab168c5b4f9459da7295115871d2445e73d0e6426f95e3d581c/4874fb950502b98f20115ff73628d77b57cbea50e5bdb725a17f02497d126765.html",
+    "hash": "4874fb950502b98f20115ff73628d77b57cbea50e5bdb725a17f02497d126765",
+    "checkedAt": "2026-10-08T20:07:07.408Z",
+    "finalUrl": "https://eur-lex.europa.eu/legal-content/EL/TXT/?uri=CELEX:32026R2108R(01)"
+  },
+  {
+    "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32026R2108R(01)",
+    "ok": true,
+    "snapshotKey": "sources/38ef43fec58c5814b3cdfca7e8a374e3069bf44a1ea7faf4d9f9bf95517f1662/73bc39073e62873c80b520f8c256d21d9aa43cd4e8f88ffb4f82194915a80bdf.html",
+    "hash": "73bc39073e62873c80b520f8c256d21d9aa43cd4e8f88ffb4f82194915a80bdf",
+    "checkedAt": "2026-10-08T20:07:07.408Z",
+    "finalUrl": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32026R2108R(01)"
+  },
+  {
+    "url": "https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:32026R2108R(01)",
+    "ok": true,
+    "snapshotKey": "sources/2aa60631512061712b11afea973133c5ae93073100fb5c0114d32764b05ea004/51ec94bf8b9f107395c67b791133263570f4358aeccec869076f4e03e0ab31dd.html",
+    "hash": "51ec94bf8b9f107395c67b791133263570f4358aeccec869076f4e03e0ab31dd",
+    "checkedAt": "2026-10-08T20:07:07.408Z",
+    "finalUrl": "https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:32026R2108R(01)"
+  },
+  {
+    "url": "https://eur-lex.europa.eu/legal-content/GA/TXT/?uri=CELEX:32026R2108R(01)",
+    "ok": true,
+    "snapshotKey": "sources/fdb3b7d0177a203732baced7184ba6fc035cf94938237c887bcf3d275c97abd6/6c60d7f3506dc3e0c4919a6b0aac0e77e3358abfd00000e839464367c5ff0f8a.html",
+    "hash": "6c60d7f3506dc3e0c4919a6b0aac0e77e3358abfd00000e839464367c5ff0f8a",
+    "checkedAt": "2026-10-08T20:07:07.408Z",
+    "finalUrl": "https://eur-lex.europa.eu/legal-content/GA/TXT/?uri=CELEX:32026R2108R(01)"
+  },
+  {
+    "url": "https://eur-lex.europa.eu/legal-content/HR/TXT/?uri=CELEX:32026R2108R(01)",
+    "ok": true,
+    "snapshotKey": "sources/5c5bcfd12a6a879e740d79b163fa20d89662b7e53bc6ca518d8f21c61392f428/a0ec649f3bf2008dc1d61974891cf15f9b2198d1b0acc8f4faf579fdac495210.html",
+    "hash": "a0ec649f3bf2008dc1d61974891cf15f9b2198d1b0acc8f4faf579fdac495210",
+    "checkedAt": "2026-10-08T20:07:07.717Z",
+    "finalUrl": "https://eur-lex.europa.eu/legal-content/HR/TXT/?uri=CELEX:32026R2108R(01)"
+  },
+  {
+    "url": "https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX:32026R2108R(01)",
+    "ok": true,
+    "snapshotKey": "sources/8615076a886168c36e417bac2048e80624373d5d2b52f593c2b54c0e84f3aa7d/dea460b039d2695fab7adbeebebaf71b80a18329bc14735a656983f2ff4c3943.html",
+    "hash": "dea460b039d2695fab7adbeebebaf71b80a18329bc14735a656983f2ff4c3943",
+    "checkedAt": "2026-10-08T20:07:07.737Z",
+    "finalUrl": "https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX:32026R2108R(01)"
+  },
+  {
+    "url": "https://eur-lex.europa.eu/legal-content/LV/TXT/?uri=CELEX:32026R2108R(01)",
+    "ok": true,
+    "snapshotKey": "sources/8f11d288af74fc5598deb50302830d2532b989d4b4fbce12c5ef1384df66b6df/b7837bc3c8f65ae3375ac4193aa69571903b7f90c72ae663e20db71f751c618f.html",
+    "hash": "b7837bc3c8f65ae3375ac4193aa69571903b7f90c72ae663e20db71f751c618f",
+    "checkedAt": "2026-10-08T20:07:07.928Z",
+    "finalUrl": "https://eur-lex.europa.eu/legal-content/LV/TXT/?uri=CELEX:32026R2108R(01)"
+  },
+  {
+    "url": "https://eur-lex.europa.eu/legal-content/LT/TXT/?uri=CELEX:32026R2108R(01)",
+    "ok": true,
+    "snapshotKey": "sources/9ae1561bdeb79bb58ed660a2ff25ef3809d9e0cce6e9a39954421081233fbf43/9267d7db6d0ca2e54fe5bd7a20b6a670376169621f994f272abc42675f08f310.html",
+    "hash": "9267d7db6d0ca2e54fe5bd7a20b6a670376169621f994f272abc42675f08f310",
+    "checkedAt": "2026-10-08T20:07:07.942Z",
+    "finalUrl": "https://eur-lex.europa.eu/legal-content/LT/TXT/?uri=CELEX:32026R2108R(01)"
+  },
+  {
+    "url": "https://eur-lex.europa.eu/legal-content/HU/TXT/?uri=CELEX:32026R2108R(01)",
+    "ok": true,
+    "snapshotKey": "sources/623ef2c6ca56f99c9a03134abe1ccc590959a33140f9d24a41b99ae4a078e711/a64627d4c07ea83293cc1e40fcef3d1b23b756ed7adafae7e3bea908167e461f.html",
+    "hash": "a64627d4c07ea83293cc1e40fcef3d1b23b756ed7adafae7e3bea908167e461f",
+    "checkedAt": "2026-10-08T20:07:07.965Z",
+    "finalUrl": "https://eur-lex.europa.eu/legal-content/HU/TXT/?uri=CELEX:32026R2108R(01)"
+  },
+  {
+    "url": "https://eur-lex.europa.eu/legal-content/MT/TXT/?uri=CELEX:32026R2108R(01)",
+    "ok": true,
+    "snapshotKey": "sources/f4ff5b244c56197dca88897e9b46e3c6cda4f31a7d5148277b6fc136e2219ade/f9da45e6eb7ff43778cd9f8366919c2e173ad1fd41117bc7b54772140bda9cdf.html",
+    "hash": "f9da45e6eb7ff43778cd9f8366919c2e173ad1fd41117bc7b54772140bda9cdf",
+    "checkedAt": "2026-10-08T20:07:08.056Z",
+    "finalUrl": "https://eur-lex.europa.eu/legal-content/MT/TXT/?uri=CELEX:32026R2108R(01)"
+  },
+  {
+    "url": "https://eur-lex.europa.eu/legal-content/NL/TXT/?uri=CELEX:32026R2108R(01)",
+    "ok": true,
+    "snapshotKey": "sources/3ad9b26d0974c27edf4503c2811e2462683453e348311026480d727c42547a83/8cbd867906ba03331d7b243648510533335df1793df9da1a4f57abf1ebd8fc7a.html",
+    "hash": "8cbd867906ba03331d7b243648510533335df1793df9da1a4f57abf1ebd8fc7a",
+    "checkedAt": "2026-10-08T20:07:08.233Z",
+    "finalUrl": "https://eur-lex.europa.eu/legal-content/NL/TXT/?uri=CELEX:32026R2108R(01)"
+  },
+  {
+    "url": "https://eur-lex.europa.eu/legal-content/PL/TXT/?uri=CELEX:32026R2108R(01)",
+    "ok": true,
+    "snapshotKey": "sources/2459a998abcdce954d970832b7f2a7abcce7b7fdca8f45526fc070e20c418253/82de23d9c77b9fe51589174d4503e84b163c768c00dc8b9132ea1b8ddb28eabe.html",
+    "hash": "82de23d9c77b9fe51589174d4503e84b163c768c00dc8b9132ea1b8ddb28eabe",
+    "checkedAt": "2026-10-08T20:07:08.317Z",
+    "finalUrl": "https://eur-lex.europa.eu/legal-content/PL/TXT/?uri=CELEX:32026R2108R(01)"
+  },
+  {
+    "url": "https://eur-lex.europa.eu/legal-content/PT/TXT/?uri=CELEX:32026R2108R(01)",
+    "ok": true,
+    "snapshotKey": "sources/630f0675690cfbb98c8361bb2c7a67e4c56a3ea9132e67674927fe5b6f058b41/a71a408ea079b3e0109fdb16fe7c0c46fe49289bade73daed77d085c89354e83.html",
+    "hash": "a71a408ea079b3e0109fdb16fe7c0c46fe49289bade73daed77d085c89354e83",
+    "checkedAt": "2026-10-08T20:07:08.464Z",
+    "finalUrl": "https://eur-lex.europa.eu/legal-content/PT/TXT/?uri=CELEX:32026R2108R(01)"
+  },
+  {
+    "url": "https://eur-lex.europa.eu/legal-content/RO/TXT/?uri=CELEX:32026R2108R(01)",
+    "ok": true,
+    "snapshotKey": "sources/eea2ea201466b10ad4fa2e218956f325a63b78983831e1d99e4767f6fb87010e/b2d02cf851c1e3ce57c10b19472666411f43c0683440570e3939d38f54257d8c.html",
+    "hash": "b2d02cf851c1e3ce57c10b19472666411f43c0683440570e3939d38f54257d8c",
+    "checkedAt": "2026-10-08T20:07:08.504Z",
+    "finalUrl": "https://eur-lex.europa.eu/legal-content/RO/TXT/?uri=CELEX:32026R2108R(01)"
+  },
+  {
+    "url": "https://eur-lex.europa.eu/legal-content/SK/TXT/?uri=CELEX:32026R2108R(01)",
+    "ok": true,
+    "snapshotKey": "sources/5a64064fff8eb5a964c52556d1307bfe6010d0f8c7e56ddc9353a834ef276ab9/92bb8afcd4d0ecca8f98c54a069aac418676cc837294f59cf45cf7b0b93616fb.html",
+    "hash": "92bb8afcd4d0ecca8f98c54a069aac418676cc837294f59cf45cf7b0b93616fb",
+    "checkedAt": "2026-10-08T20:07:08.504Z",
+    "finalUrl": "https://eur-lex.europa.eu/legal-content/SK/TXT/?uri=CELEX:32026R2108R(01)"
+  },
+  {
+    "url": "https://eur-lex.europa.eu/legal-content/SL/TXT/?uri=CELEX:32026R2108R(01)",
+    "ok": true,
+    "snapshotKey": "sources/48d051ea189b9de2f1125547a00218ff66669f1c6cd9cb96c036bb3e03888610/3b4950fa0b2f81856a76db67475dd9b5454f3dd17ed37f47dad27217290dc67f.html",
+    "hash": "3b4950fa0b2f81856a76db67475dd9b5454f3dd17ed37f47dad27217290dc67f",
+    "checkedAt": "2026-10-08T20:07:08.531Z",
+    "finalUrl": "https://eur-lex.europa.eu/legal-content/SL/TXT/?uri=CELEX:32026R2108R(01)"
+  },
+  {
+    "url": "https://eur-lex.europa.eu/legal-content/FI/TXT/?uri=CELEX:32026R2108R(01)",
+    "ok": true,
+    "snapshotKey": "sources/4090ae51a0e7b145fbfeedb4810cc11a6adbfc6e95a5550bc047a3263e3abc8a/8d7310d728fe7974d2d9a95bbc381404c1af876288e2a5ef4607b19cf6829dd4.html",
+    "hash": "8d7310d728fe7974d2d9a95bbc381404c1af876288e2a5ef4607b19cf6829dd4",
+    "checkedAt": "2026-10-08T20:07:08.763Z",
+    "finalUrl": "https://eur-lex.europa.eu/legal-content/FI/TXT/?uri=CELEX:32026R2108R(01)"
+  },
+  {
+    "url": "https://eur-lex.europa.eu/legal-content/SV/TXT/?uri=CELEX:32026R2108R(01)",
+    "ok": true,
+    "snapshotKey": "sources/57d102c79a2cb98d47e6164b8f097a5794bdc85ae68a2f9138f0e0eeddef711c/91ca7e2109a3ef80c27c6e2cf9db1ad60375bfcd6b8f0d2b9aa1ccf7974c59ab.html",
+    "hash": "91ca7e2109a3ef80c27c6e2cf9db1ad60375bfcd6b8f0d2b9aa1ccf7974c59ab",
+    "checkedAt": "2026-10-08T20:07:08.888Z",
+    "finalUrl": "https://eur-lex.europa.eu/legal-content/SV/TXT/?uri=CELEX:32026R2108R(01)"
+  },
+  {
+    "url": "https://environment.ec.europa.eu/document/download/3a4d8dfd-21c4-4a20-8d37-b90132e49f5a_en?filename=C_2026_6899_F1_COMMISSION_IMPLEMENTING_DECISION_EN_V6_P1_4961210.PDF",
+    "ok": true,
+    "snapshotKey": "sources/30f8fadef88d483ef320425e363b1348c5765c496afacca4df6272714b564307/426aabe0a04500e3811be04ce9ee6a2bc5c0221c6266cd1b9160b41194de287d.pdf",
+    "hash": "426aabe0a04500e3811be04ce9ee6a2bc5c0221c6266cd1b9160b41194de287d",
+    "checkedAt": "2026-10-08T20:07:09.000Z",
+    "finalUrl": "https://environment.ec.europa.eu/document/download/3a4d8dfd-21c4-4a20-8d37-b90132e49f5a_en?filename=C_2026_6899_F1_COMMISSION_IMPLEMENTING_DECISION_EN_V6_P1_4961210.PDF"
+  },
+  {
+    "url": "https://environment.ec.europa.eu/document/download/857a7487-aae6-4fa2-b00b-6613b82b9451_en?filename=C_2026_6899_F1_ANNEX_EN_V4_P1_4961211.PDF",
+    "ok": true,
+    "snapshotKey": "sources/3eecc0396b6cab36cb56ef0c139b9dd58ee998c7b13b98852aece03e53cfbe55/c9bad2f39384a58dc1467b28d8f3ff0362eaeecea8b1554cf199149a3a76bb20.pdf",
+    "hash": "c9bad2f39384a58dc1467b28d8f3ff0362eaeecea8b1554cf199149a3a76bb20",
+    "checkedAt": "2026-10-08T20:07:09.038Z",
+    "finalUrl": "https://environment.ec.europa.eu/document/download/857a7487-aae6-4fa2-b00b-6613b82b9451_en?filename=C_2026_6899_F1_ANNEX_EN_V4_P1_4961211.PDF"
+  },
+  {
+    "url": "https://environment.ec.europa.eu/document/download/97cef400-3492-4c60-b6ab-fefc6550f4c5_en?filename=SWD_2026_298_F1_OTHER_STAFF_WORKING_PAPER_EN_V2_P1_5014130.PDF",
+    "ok": true,
+    "snapshotKey": "sources/d74d792dbad3389f6aaa0147f6cddaa4ab1b9c85f7be42530435da45b107e20f/17fb0ac6a3e5d9227db9d3f45e0cc0716e4d0dcec7abb74e0ba803c4ef55e87c.pdf",
+    "hash": "17fb0ac6a3e5d9227db9d3f45e0cc0716e4d0dcec7abb74e0ba803c4ef55e87c",
+    "checkedAt": "2026-10-08T20:07:09.039Z",
+    "finalUrl": "https://environment.ec.europa.eu/document/download/97cef400-3492-4c60-b6ab-fefc6550f4c5_en?filename=SWD_2026_298_F1_OTHER_STAFF_WORKING_PAPER_EN_V2_P1_5014130.PDF"
+  },
+  {
+    "url": "https://ec.europa.eu/commission/presscorner/api/files/document/print/en/ip_26_2075/IP_26_2075_EN.pdf",
+    "ok": true,
+    "snapshotKey": "sources/50f5067d3060440a8cf39c2acc7ecb9585ee6c47d340732f263c48ff96875e26/621dc2c250955a5068719a91cc5ad5d39d16b595717113463cd2a45baa90ac6d.pdf",
+    "hash": "621dc2c250955a5068719a91cc5ad5d39d16b595717113463cd2a45baa90ac6d",
+    "checkedAt": "2026-10-08T20:08:38.626Z",
+    "finalUrl": "https://ec.europa.eu/commission/presscorner/api/files/document/print/en/ip_26_2075/IP_26_2075_EN.pdf"
+  },
+  {
+    "url": "https://ec.europa.eu/commission/presscorner/api/files/document/print/en/ip_26_2070/IP_26_2070_EN.pdf",
+    "ok": true,
+    "snapshotKey": "sources/a1c9286e701885524d191403b2f1ee4aa4d1802346f2ed16e194391524e7dc4a/cd1c1c7caf74c4dae91c9d17663f272ac8603ba82b0a0f0a37853e03558cbdcf.pdf",
+    "hash": "cd1c1c7caf74c4dae91c9d17663f272ac8603ba82b0a0f0a37853e03558cbdcf",
+    "checkedAt": "2026-10-08T20:08:38.627Z",
+    "finalUrl": "https://ec.europa.eu/commission/presscorner/api/files/document/print/en/ip_26_2070/IP_26_2070_EN.pdf"
+  },
+  {
+    "url": "https://ec.europa.eu/commission/presscorner/api/files/document/print/en/statement_26_2103/STATEMENT_26_2103_EN.pdf",
+    "ok": true,
+    "snapshotKey": "sources/ca54e5adef9734912aafcabc75da6bcdcd453d6609c7f63b26286bee12ee0fce/e404969c7fe48e77c0f4c40149f03fb0f57f3b0e5bab384450e5d90bc042cafd.pdf",
+    "hash": "e404969c7fe48e77c0f4c40149f03fb0f57f3b0e5bab384450e5d90bc042cafd",
+    "checkedAt": "2026-10-08T20:08:38.627Z",
+    "finalUrl": "https://ec.europa.eu/commission/presscorner/api/files/document/print/en/statement_26_2103/STATEMENT_26_2103_EN.pdf"
+  },
+  {
+    "url": "https://ec.europa.eu/commission/presscorner/api/files/document/print/en/ip_26_2084/IP_26_2084_EN.pdf",
+    "ok": true,
+    "snapshotKey": "sources/5897d0387c92cc30dffebb96f8a8251e177985a8ca5421b0d0d646483f36d7b4/dbce1a3145e2c2ae99074bbe8bd345dab4a4aa6da7ac4d8439a8c3ea94822ebf.pdf",
+    "hash": "dbce1a3145e2c2ae99074bbe8bd345dab4a4aa6da7ac4d8439a8c3ea94822ebf",
+    "checkedAt": "2026-10-08T20:08:38.627Z",
+    "finalUrl": "https://ec.europa.eu/commission/presscorner/api/files/document/print/en/ip_26_2084/IP_26_2084_EN.pdf"
+  },
+  {
+    "url": "https://ec.europa.eu/commission/presscorner/api/files/document/print/en/ip_26_2091/IP_26_2091_EN.pdf",
+    "ok": true,
+    "snapshotKey": "sources/fa486f7f9f2f0776f36fb43d360671d3720357efc8e7ac8109fd1a3d1ac8a956/71724e42881d258cd62bf7cdd1a30478fb0b970ad90ed4ce1d822195bb7ce028.pdf",
+    "hash": "71724e42881d258cd62bf7cdd1a30478fb0b970ad90ed4ce1d822195bb7ce028",
+    "checkedAt": "2026-10-08T20:08:38.627Z",
+    "finalUrl": "https://ec.europa.eu/commission/presscorner/api/files/document/print/en/ip_26_2091/IP_26_2091_EN.pdf"
+  },
+  {
+    "url": "https://ec.europa.eu/commission/presscorner/api/files/document/print/en/ip_26_2065/IP_26_2065_EN.pdf",
+    "ok": true,
+    "snapshotKey": "sources/eb5bcbeed36236037eec17566194d35bb20f96687bef9c7a83ef1cc7e1ad02da/6abe758e350a09bc300432373562f98c2318c57da74cc95c0b33967d9df9e3ef.pdf",
+    "hash": "6abe758e350a09bc300432373562f98c2318c57da74cc95c0b33967d9df9e3ef",
+    "checkedAt": "2026-10-08T20:08:38.627Z",
+    "finalUrl": "https://ec.europa.eu/commission/presscorner/api/files/document/print/en/ip_26_2065/IP_26_2065_EN.pdf"
+  },
+  {
+    "url": "https://ec.europa.eu/commission/presscorner/api/files/document/print/en/ip_26_2094/IP_26_2094_EN.pdf",
+    "ok": true,
+    "snapshotKey": "sources/7fb75a57bc678f5858e7b18dd18735bea37868543d33b0d336059d495c168e49/4f21896080adb2d507360dd830e8a56631cebac74f1f850d75d371de4f8a1546.pdf",
+    "hash": "4f21896080adb2d507360dd830e8a56631cebac74f1f850d75d371de4f8a1546",
+    "checkedAt": "2026-10-08T20:08:38.794Z",
+    "finalUrl": "https://ec.europa.eu/commission/presscorner/api/files/document/print/en/ip_26_2094/IP_26_2094_EN.pdf"
+  },
+  {
+    "url": "https://ec.europa.eu/commission/presscorner/api/files/document/print/en/ip_26_2092/IP_26_2092_EN.pdf",
+    "ok": true,
+    "snapshotKey": "sources/7fd4eeae50ef5bb16c357bfff95ca02de1caada31ce945d90c9a2e413969ab23/8e3ce6828ed8aa0cd73204f2b3a45703661b7459e16b1adb1b829a7f542701e3.pdf",
+    "hash": "8e3ce6828ed8aa0cd73204f2b3a45703661b7459e16b1adb1b829a7f542701e3",
+    "checkedAt": "2026-10-08T20:08:38.811Z",
+    "finalUrl": "https://ec.europa.eu/commission/presscorner/api/files/document/print/en/ip_26_2092/IP_26_2092_EN.pdf"
+  },
+  {
+    "url": "https://ec.europa.eu/commission/presscorner/api/files/document/print/en/speech_26_2089/SPEECH_26_2089_EN.pdf",
+    "ok": true,
+    "snapshotKey": "sources/4b3217f1ffbe0dd76aa0e83283499925378ce1b5e530beafbf5c9f5ae2e91f93/cce8e341a7d98329414921db1916cffe675e7241b919a00b2b1d1053546a7947.pdf",
+    "hash": "cce8e341a7d98329414921db1916cffe675e7241b919a00b2b1d1053546a7947",
+    "checkedAt": "2026-10-08T20:08:38.977Z",
+    "finalUrl": "https://ec.europa.eu/commission/presscorner/api/files/document/print/en/speech_26_2089/SPEECH_26_2089_EN.pdf"
+  },
+  {
+    "url": "https://ec.europa.eu/commission/presscorner/api/files/document/print/en/statement_26_2083/STATEMENT_26_2083_EN.pdf",
+    "ok": true,
+    "snapshotKey": "sources/6007bb4669051595d4d199d6bc73328f51e852c7447560da62947f8548ac2462/adfada738318ec100ab7a20503f27587da4f0cf73b8d437cfed04d8b0674083e.pdf",
+    "hash": "adfada738318ec100ab7a20503f27587da4f0cf73b8d437cfed04d8b0674083e",
+    "checkedAt": "2026-10-08T20:08:39.019Z",
+    "finalUrl": "https://ec.europa.eu/commission/presscorner/api/files/document/print/en/statement_26_2083/STATEMENT_26_2083_EN.pdf"
+  },
+  {
+    "url": "https://ec.europa.eu/commission/presscorner/api/files/document/print/en/speech_26_2077/SPEECH_26_2077_EN.pdf",
+    "ok": true,
+    "snapshotKey": "sources/be01da0171c3612b2a858535971d001443b630649c0d0f4a7522bd9130544e40/af8fcf34523349aeb0004976739591a8943177d1a67643cc45ac63555f8c2f89.pdf",
+    "hash": "af8fcf34523349aeb0004976739591a8943177d1a67643cc45ac63555f8c2f89",
+    "checkedAt": "2026-10-08T20:08:39.035Z",
+    "finalUrl": "https://ec.europa.eu/commission/presscorner/api/files/document/print/en/speech_26_2077/SPEECH_26_2077_EN.pdf"
+  },
+  {
+    "url": "https://ec.europa.eu/commission/presscorner/api/files/document/print/en/speech_26_2102/SPEECH_26_2102_EN.pdf",
+    "ok": true,
+    "snapshotKey": "sources/3d9a983072ee1f00010cfaf24f180bfed33779c554095213288a64831474b584/32386bbefbc8571152b23cf4d0c8f98cbea7891ee7305a765038b8796b8d35ca.pdf",
+    "hash": "32386bbefbc8571152b23cf4d0c8f98cbea7891ee7305a765038b8796b8d35ca",
+    "checkedAt": "2026-10-08T20:08:39.037Z",
+    "finalUrl": "https://ec.europa.eu/commission/presscorner/api/files/document/print/en/speech_26_2102/SPEECH_26_2102_EN.pdf"
+  },
+  {
+    "url": "https://ec.europa.eu/commission/presscorner/api/files/document/print/en/qanda_26_2076/QANDA_26_2076_EN.pdf",
+    "ok": true,
+    "snapshotKey": "sources/cc531ce5729b494e77fc1616c42733ee69c9b105beef74938c10f3612eb3d8bb/ecc6dbea5e9829817e79f771dcc818b0e459e5ded652c0a9b83df30aa31092d3.pdf",
+    "hash": "ecc6dbea5e9829817e79f771dcc818b0e459e5ded652c0a9b83df30aa31092d3",
+    "checkedAt": "2026-10-08T20:08:39.037Z",
+    "finalUrl": "https://ec.europa.eu/commission/presscorner/api/files/document/print/en/qanda_26_2076/QANDA_26_2076_EN.pdf"
+  },
+  {
+    "url": "https://ec.europa.eu/commission/presscorner/api/files/document/print/en/qanda_26_2071/QANDA_26_2071_EN.pdf",
+    "ok": true,
+    "snapshotKey": "sources/3a003017934c9ac23059d05e9cbcd22db4671234e5c515c0e0e109f44ebdbdae/685193c381f7ce535a9009996939ceb31141ec1497859e2c7e4ad8a7f4091bc9.pdf",
+    "hash": "685193c381f7ce535a9009996939ceb31141ec1497859e2c7e4ad8a7f4091bc9",
+    "checkedAt": "2026-10-08T20:08:39.099Z",
+    "finalUrl": "https://ec.europa.eu/commission/presscorner/api/files/document/print/en/qanda_26_2071/QANDA_26_2071_EN.pdf"
+  },
+  {
+    "url": "https://ec.europa.eu/commission/presscorner/api/files/document/print/en/ip_26_2064/IP_26_2064_EN.pdf",
+    "ok": true,
+    "snapshotKey": "sources/ff1fd94da187da6f7411541e6e7f40564740bd7b8d7983166f8ddcfa37cf4af3/3274e76576555214ba56bb3b1d98872fa3a2b96763b44f29e4846ac05f6fa862.pdf",
+    "hash": "3274e76576555214ba56bb3b1d98872fa3a2b96763b44f29e4846ac05f6fa862",
+    "checkedAt": "2026-10-08T20:08:39.125Z",
+    "finalUrl": "https://ec.europa.eu/commission/presscorner/api/files/document/print/en/ip_26_2064/IP_26_2064_EN.pdf"
+  },
+  {
+    "url": "https://ec.europa.eu/commission/presscorner/api/files/document/print/en/ip_26_2068/IP_26_2068_EN.pdf",
+    "ok": true,
+    "snapshotKey": "sources/9c3b5c9aad82c2d03a69fa50312be3991b8ffdb90cc550491148f658e469c27e/0384c7982a729e367ef543d5d3d62c9564cd8df8a4330055d4c12a4bb59697de.pdf",
+    "hash": "0384c7982a729e367ef543d5d3d62c9564cd8df8a4330055d4c12a4bb59697de",
+    "checkedAt": "2026-10-08T20:08:39.191Z",
+    "finalUrl": "https://ec.europa.eu/commission/presscorner/api/files/document/print/en/ip_26_2068/IP_26_2068_EN.pdf"
+  },
+  {
+    "url": "https://ec.europa.eu/commission/presscorner/api/files/document/print/en/ip_26_2056/IP_26_2056_EN.pdf",
+    "ok": true,
+    "snapshotKey": "sources/b36af75dc20b0e893d95632e60a7c22accab1dabf67af45227cf861e72c94932/0f198bcab1389f22ec17b938b5b6b6bff8a59cab10f6b9d2bc1c1517e7b8a0cb.pdf",
+    "hash": "0f198bcab1389f22ec17b938b5b6b6bff8a59cab10f6b9d2bc1c1517e7b8a0cb",
+    "checkedAt": "2026-10-08T20:08:39.210Z",
+    "finalUrl": "https://ec.europa.eu/commission/presscorner/api/files/document/print/en/ip_26_2056/IP_26_2056_EN.pdf"
+  },
+  {
+    "url": "https://ec.europa.eu/commission/presscorner/api/files/document/print/en/ip_26_2054/IP_26_2054_EN.pdf",
+    "ok": true,
+    "snapshotKey": "sources/ad340890e0e5074efe42b7526f51bb2df75f0311b12b09561a6e73fbe5cb04fc/a3e49dc0773c607c516e9bb9d966775891cc931fee0854b48836fad8db967d2f.pdf",
+    "hash": "a3e49dc0773c607c516e9bb9d966775891cc931fee0854b48836fad8db967d2f",
+    "checkedAt": "2026-10-08T20:08:39.221Z",
+    "finalUrl": "https://ec.europa.eu/commission/presscorner/api/files/document/print/en/ip_26_2054/IP_26_2054_EN.pdf"
+  },
+  {
+    "url": "https://ec.europa.eu/commission/presscorner/api/files/document/print/en/statement_26_2063/STATEMENT_26_2063_EN.pdf",
+    "ok": true,
+    "snapshotKey": "sources/c33b0ee177c39c6eba2a6ab32ae230f94ee230427f475a124ca33df713870ad7/35dbc68588a6a5fa4975ff2984cf4b9580c8d75cd303a4eeb2c52e802220ff1e.pdf",
+    "hash": "35dbc68588a6a5fa4975ff2984cf4b9580c8d75cd303a4eeb2c52e802220ff1e",
+    "checkedAt": "2026-10-08T20:08:39.371Z",
+    "finalUrl": "https://ec.europa.eu/commission/presscorner/api/files/document/print/en/statement_26_2063/STATEMENT_26_2063_EN.pdf"
+  },
+  {
+    "url": "https://ec.europa.eu/commission/presscorner/api/files/document/print/en/statement_26_2057/STATEMENT_26_2057_EN.pdf",
+    "ok": true,
+    "snapshotKey": "sources/509dc84c0c1f0eff058e15dd7c5ad8f8ae7b8df4871b6a7f434f25700680c2da/b8225b228ef7f5e6164ce2a6fec16401f9ca7abc6933849b8dfe56eed0ca32ca.pdf",
+    "hash": "b8225b228ef7f5e6164ce2a6fec16401f9ca7abc6933849b8dfe56eed0ca32ca",
+    "checkedAt": "2026-10-08T20:08:39.396Z",
+    "finalUrl": "https://ec.europa.eu/commission/presscorner/api/files/document/print/en/statement_26_2057/STATEMENT_26_2057_EN.pdf"
+  },
+  {
+    "url": "https://ec.europa.eu/commission/presscorner/api/files/document/print/en/ip_26_2047/IP_26_2047_EN.pdf",
+    "ok": true,
+    "snapshotKey": "sources/75794ccfaabf88623faadbfd3e7203fac26b26dd8e1afab89cd625edbd020fe3/6cbff91c7a2a8338e4b21fdd2406a4361070bb0aeb569b551899e3112d286745.pdf",
+    "hash": "6cbff91c7a2a8338e4b21fdd2406a4361070bb0aeb569b551899e3112d286745",
+    "checkedAt": "2026-10-08T20:08:39.403Z",
+    "finalUrl": "https://ec.europa.eu/commission/presscorner/api/files/document/print/en/ip_26_2047/IP_26_2047_EN.pdf"
+  },
+  {
+    "url": "https://ec.europa.eu/commission/presscorner/api/files/document/print/en/ip_26_2019/IP_26_2019_EN.pdf",
+    "ok": true,
+    "snapshotKey": "sources/4991a609a5660b3d53233efe37e88a81edd18a559ef41dc039dbcf4a3bc3baea/c613b8dec772d6727d3f70e8e2b466ea1b195b094812c08319f1f70be6f79dec.pdf",
+    "hash": "c613b8dec772d6727d3f70e8e2b466ea1b195b094812c08319f1f70be6f79dec",
+    "checkedAt": "2026-10-08T20:08:39.558Z",
+    "finalUrl": "https://ec.europa.eu/commission/presscorner/api/files/document/print/en/ip_26_2019/IP_26_2019_EN.pdf"
+  },
+  {
+    "url": "https://ec.europa.eu/commission/presscorner/api/files/document/print/en/statement_26_2049/STATEMENT_26_2049_EN.pdf",
+    "ok": true,
+    "snapshotKey": "sources/9f03c76990147904ce695524719301ba2017de69344a612a748aba9741d6eb28/73c9d3704fa0ee10be43577d9696412a279a807f944305d0913d29109d61518f.pdf",
+    "hash": "73c9d3704fa0ee10be43577d9696412a279a807f944305d0913d29109d61518f",
+    "checkedAt": "2026-10-08T20:08:39.569Z",
+    "finalUrl": "https://ec.europa.eu/commission/presscorner/api/files/document/print/en/statement_26_2049/STATEMENT_26_2049_EN.pdf"
+  },
+  {
+    "url": "https://ec.europa.eu/commission/presscorner/api/files/document/print/en/statement_26_2045/STATEMENT_26_2045_EN.pdf",
+    "ok": true,
+    "snapshotKey": "sources/29da9878aa61ccdc251aef6aca750374412079a196d3f2f048b14399552887a0/01e339e646234d6c2b45a94b0b5fc6ab24d9f4ffb42e1f0aa69385b160bcd696.pdf",
+    "hash": "01e339e646234d6c2b45a94b0b5fc6ab24d9f4ffb42e1f0aa69385b160bcd696",
+    "checkedAt": "2026-10-08T20:08:39.586Z",
+    "finalUrl": "https://ec.europa.eu/commission/presscorner/api/files/document/print/en/statement_26_2045/STATEMENT_26_2045_EN.pdf"
+  },
+  {
+    "url": "https://ec.europa.eu/commission/presscorner/api/files/document/print/en/statement_26_2042/STATEMENT_26_2042_EN.pdf",
+    "ok": true,
+    "snapshotKey": "sources/f4741689922e40fdd1fbab253313a15200171af44c574405061c2de64d6d9895/86a58042284a3a6aee13c7b377919ce09e7a00e085771d714f076d172d026a26.pdf",
+    "hash": "86a58042284a3a6aee13c7b377919ce09e7a00e085771d714f076d172d026a26",
+    "checkedAt": "2026-10-08T20:08:39.655Z",
+    "finalUrl": "https://ec.europa.eu/commission/presscorner/api/files/document/print/en/statement_26_2042/STATEMENT_26_2042_EN.pdf"
+  },
+  {
+    "url": "https://ec.europa.eu/commission/presscorner/api/files/document/print/en/ip_26_2041/IP_26_2041_EN.pdf",
+    "ok": true,
+    "snapshotKey": "sources/7cce076341da68f68b0b2f8b7f8d9c97dc878b546125f6320b71ccef7f59c398/cc92a2e9fefb173e2c9ad3e2744b5de443b7506ac7eef1bdf01bb140a7798fa2.pdf",
+    "hash": "cc92a2e9fefb173e2c9ad3e2744b5de443b7506ac7eef1bdf01bb140a7798fa2",
+    "checkedAt": "2026-10-08T20:08:39.666Z",
+    "finalUrl": "https://ec.europa.eu/commission/presscorner/api/files/document/print/en/ip_26_2041/IP_26_2041_EN.pdf"
+  },
+  {
+    "url": "https://ec.europa.eu/commission/presscorner/api/files/document/print/en/ip_26_2039/IP_26_2039_EN.pdf",
+    "ok": true,
+    "snapshotKey": "sources/e9308c121423e66e2faf9fd966b2c76d11b5042e6bbd69743c5f7e39a26fe217/92f0a2cad17817e70f68338e524bbb2f032e87b411d2325d19ec7d3abb234c5a.pdf",
+    "hash": "92f0a2cad17817e70f68338e524bbb2f032e87b411d2325d19ec7d3abb234c5a",
+    "checkedAt": "2026-10-08T20:08:39.697Z",
+    "finalUrl": "https://ec.europa.eu/commission/presscorner/api/files/document/print/en/ip_26_2039/IP_26_2039_EN.pdf"
+  },
+  {
+    "url": "https://ec.europa.eu/commission/presscorner/api/files/document/print/en/ip_26_2037/IP_26_2037_EN.pdf",
+    "ok": true,
+    "snapshotKey": "sources/7fe0465b6c531ae696667d867f462a5e5d61818289a143197ba617f7d1175dc8/3badbf6f119243e94898450ead9a1d09d989dbd683d5be0998addb93304c6bb7.pdf",
+    "hash": "3badbf6f119243e94898450ead9a1d09d989dbd683d5be0998addb93304c6bb7",
+    "checkedAt": "2026-10-08T20:08:39.764Z",
+    "finalUrl": "https://ec.europa.eu/commission/presscorner/api/files/document/print/en/ip_26_2037/IP_26_2037_EN.pdf"
+  },
+  {
+    "url": "https://ec.europa.eu/commission/presscorner/api/files/document/print/en/ip_26_2036/IP_26_2036_EN.pdf",
+    "ok": true,
+    "snapshotKey": "sources/f160554c6370c3252bb0a7f25df5a3ebf18e32763e05a45bff08489d1054e3f1/1ea05ded23d19c4e567b548f78d1d94b6921e7eed79439b285ff8165f35f662f.pdf",
+    "hash": "1ea05ded23d19c4e567b548f78d1d94b6921e7eed79439b285ff8165f35f662f",
+    "checkedAt": "2026-10-08T20:08:39.796Z",
+    "finalUrl": "https://ec.europa.eu/commission/presscorner/api/files/document/print/en/ip_26_2036/IP_26_2036_EN.pdf"
+  },
+  {
+    "url": "https://ec.europa.eu/commission/presscorner/api/files/document/print/en/inf_26_1760/INF_26_1760_EN.pdf",
+    "ok": true,
+    "snapshotKey": "sources/8fdb46024b7b719efb165ec752150dba36567f78f92740177520a7f696b6d5ae/0bd4f40d31bf2b87cd0b8e29dc019f528f59c538ee45c8a875714df2bdee7c4f.pdf",
+    "hash": "0bd4f40d31bf2b87cd0b8e29dc019f528f59c538ee45c8a875714df2bdee7c4f",
+    "checkedAt": "2026-10-08T20:08:39.798Z",
+    "finalUrl": "https://ec.europa.eu/commission/presscorner/api/files/document/print/en/inf_26_1760/INF_26_1760_EN.pdf"
+  },
+  {
+    "url": "https://ec.europa.eu/commission/presscorner/api/files/document/print/en/ip_26_1866/IP_26_1866_EN.pdf",
+    "ok": true,
+    "snapshotKey": "sources/1c85f7674c9cb1a18553f2c821aeda5a2c8c419c0457a129f5dd7dd9b85b729a/661d0460cda002ee0eaa1ca17bdbd7d8daf79be55d702acea2e9bbb28efe1740.pdf",
+    "hash": "661d0460cda002ee0eaa1ca17bdbd7d8daf79be55d702acea2e9bbb28efe1740",
+    "checkedAt": "2026-10-08T20:08:39.850Z",
+    "finalUrl": "https://ec.europa.eu/commission/presscorner/api/files/document/print/en/ip_26_1866/IP_26_1866_EN.pdf"
+  },
+  {
+    "url": "https://ec.europa.eu/commission/presscorner/api/files/document/print/en/ip_26_1874/IP_26_1874_EN.pdf",
+    "ok": true,
+    "snapshotKey": "sources/44e096969454e7f26b34df9f400cbd5efce0e263bd678a5c64524ca542e3ccf4/1dcf29c3770592d769b3c0a17bc98ef23a2c6c4e9fc4250a48bb61eb3e231d04.pdf",
+    "hash": "1dcf29c3770592d769b3c0a17bc98ef23a2c6c4e9fc4250a48bb61eb3e231d04",
+    "checkedAt": "2026-10-08T20:08:39.851Z",
+    "finalUrl": "https://ec.europa.eu/commission/presscorner/api/files/document/print/en/ip_26_1874/IP_26_1874_EN.pdf"
+  },
+  {
+    "url": "https://ec.europa.eu/commission/presscorner/api/files/document/print/en/ip_26_1872/IP_26_1872_EN.pdf",
+    "ok": true,
+    "snapshotKey": "sources/140cfc4e8a69e3396e9265cdcbf92798b0eca56c49c065710e63d1c3f097eca6/3b1f9bf379b3ccbb56ac8f68b082ac4cfe906a73c2a92cef33de3364500136c4.pdf",
+    "hash": "3b1f9bf379b3ccbb56ac8f68b082ac4cfe906a73c2a92cef33de3364500136c4",
+    "checkedAt": "2026-10-08T20:08:39.928Z",
+    "finalUrl": "https://ec.europa.eu/commission/presscorner/api/files/document/print/en/ip_26_1872/IP_26_1872_EN.pdf"
+  },
+  {
+    "url": "https://ec.europa.eu/commission/presscorner/api/files/document/print/en/ip_26_1871/IP_26_1871_EN.pdf",
+    "ok": true,
+    "snapshotKey": "sources/adc742da82915208feae56e732098fd5fda4b9bd380aba500afbb549f54b6eed/18e0f93efdf2ff997c7dfdddac93be6bb19d65eb1c8f1ba325ec5ac55b7ebf25.pdf",
+    "hash": "18e0f93efdf2ff997c7dfdddac93be6bb19d65eb1c8f1ba325ec5ac55b7ebf25",
+    "checkedAt": "2026-10-08T20:08:39.958Z",
+    "finalUrl": "https://ec.europa.eu/commission/presscorner/api/files/document/print/en/ip_26_1871/IP_26_1871_EN.pdf"
+  },
+  {
+    "url": "https://ec.europa.eu/commission/presscorner/api/files/document/print/en/ip_26_1910/IP_26_1910_EN.pdf",
+    "ok": true,
+    "snapshotKey": "sources/e860d6798bd56a5ac0adbf629b7dfeeb8d9a4931dec642ae5485981a7217257d/43e98c2c7296bdf348e36cf54e805d85364d7d7408c9e977bf869c41c325a0d8.pdf",
+    "hash": "43e98c2c7296bdf348e36cf54e805d85364d7d7408c9e977bf869c41c325a0d8",
+    "checkedAt": "2026-10-08T20:08:39.990Z",
+    "finalUrl": "https://ec.europa.eu/commission/presscorner/api/files/document/print/en/ip_26_1910/IP_26_1910_EN.pdf"
+  },
+  {
+    "url": "https://ec.europa.eu/commission/presscorner/api/files/document/print/en/ip_26_1870/IP_26_1870_EN.pdf",
+    "ok": true,
+    "snapshotKey": "sources/a9e1e2430559e52251a5c8ca87763df273feda1016d7af7b93266b5a71c85667/a4a12fc31805980accfb3402481914acc74e4aa86b61847ea634da32adcd0ab5.pdf",
+    "hash": "a4a12fc31805980accfb3402481914acc74e4aa86b61847ea634da32adcd0ab5",
+    "checkedAt": "2026-10-08T20:08:40.031Z",
+    "finalUrl": "https://ec.europa.eu/commission/presscorner/api/files/document/print/en/ip_26_1870/IP_26_1870_EN.pdf"
+  },
+  {
+    "url": "https://ec.europa.eu/commission/presscorner/api/files/document/print/en/ip_26_1916/IP_26_1916_EN.pdf",
+    "ok": true,
+    "snapshotKey": "sources/1b7ae99aa64c1c79e139bccf7e2e1f24dd1a07a16645b911d6bc4043a379d86f/d6be697b5d47ce0967bbf9b58ae0ac7058fa5d18bcaca6b26bf4bc6344c47e23.pdf",
+    "hash": "d6be697b5d47ce0967bbf9b58ae0ac7058fa5d18bcaca6b26bf4bc6344c47e23",
+    "checkedAt": "2026-10-08T20:08:40.033Z",
+    "finalUrl": "https://ec.europa.eu/commission/presscorner/api/files/document/print/en/ip_26_1916/IP_26_1916_EN.pdf"
+  },
+  {
+    "url": "https://ec.europa.eu/commission/presscorner/api/files/document/print/en/ip_26_1869/IP_26_1869_EN.pdf",
+    "ok": true,
+    "snapshotKey": "sources/9f099ac1072a5d7147e435532b61b6cb05115babad44a1ea83231b8f3c1653e8/72e7ebec7f0cd48acd8cb0113e52bd1d52893be0129a8d9f6752cf8656d1a626.pdf",
+    "hash": "72e7ebec7f0cd48acd8cb0113e52bd1d52893be0129a8d9f6752cf8656d1a626",
+    "checkedAt": "2026-10-08T20:08:40.157Z",
+    "finalUrl": "https://ec.europa.eu/commission/presscorner/api/files/document/print/en/ip_26_1869/IP_26_1869_EN.pdf"
+  },
+  {
+    "url": "https://data.europa.eu/eli/dir/2024/1799/oj",
+    "ok": true,
+    "snapshotKey": "sources/734beedea563d2f52e7835f24d041cbe1ed4de95416258cbf32836869bfbb71d/2cd996db9e136aaa6df246acdb21606ec0e7221effe1690020caace4c64d7bd9.html",
+    "hash": "2cd996db9e136aaa6df246acdb21606ec0e7221effe1690020caace4c64d7bd9",
+    "checkedAt": "2026-10-08T20:08:40.175Z",
+    "finalUrl": "https://eur-lex.europa.eu/eli/dir/2024/1799/oj"
+  },
+  {
+    "url": "https://commission.europa.eu/law/law-topic/consumer-protection-law/directive-repair-goods_en",
+    "ok": true,
+    "snapshotKey": "sources/60382b5d39adb68218e206bd3894cd71023dccb720d334542037c29d184dc892/307844565158a4f8405fd3f4c181166f4c14ac949901534abfff5683e49272c6.html",
+    "hash": "307844565158a4f8405fd3f4c181166f4c14ac949901534abfff5683e49272c6",
+    "checkedAt": "2026-10-08T20:08:40.201Z",
+    "finalUrl": "https://commission.europa.eu/law/law-topic/consumer-protection-law/directive-repair-goods_en"
+  },
+  {
+    "url": "https://single-market-economy.ec.europa.eu/publications/proposal-regulation-european-standardisation_en",
+    "ok": true,
+    "snapshotKey": "sources/adefffa807ed1f820e96245f46a9620e8f5bd01ff43494daee40a8f4f3797bd2/7afa6dce2b1cc141cf012b4d457fd3e07e3f960df80e3da8b219a4af3b322131.html",
+    "hash": "7afa6dce2b1cc141cf012b4d457fd3e07e3f960df80e3da8b219a4af3b322131",
+    "checkedAt": "2026-10-08T20:08:40.227Z",
+    "finalUrl": "https://single-market-economy.ec.europa.eu/publications/proposal-regulation-european-standardisation_en"
+  },
+  {
+    "url": "https://eur-lex.europa.eu/eli/reg/2012/1025/oj/eng",
+    "ok": true,
+    "snapshotKey": "sources/77441b4de50bd4d99142840259fb014ca9fff9ac65f9e493dfdb43be28460606/15015bd999f58ce2bb2202b89a5d2fdf01c170532189dbcd4ab3fb26911d9dd6.html",
+    "hash": "15015bd999f58ce2bb2202b89a5d2fdf01c170532189dbcd4ab3fb26911d9dd6",
+    "checkedAt": "2026-10-08T20:08:40.345Z",
+    "finalUrl": "https://eur-lex.europa.eu/eli/reg/2012/1025/oj/eng"
+  },
+  {
+    "url": "https://www.ecb.europa.eu/paym/retail/instant_payments/html/instant_payments_regulation.en.html",
+    "ok": true,
+    "snapshotKey": "sources/4a79807a6b7f4eb7d0ff321ec64e03a379f31bcab5d04cd6c164e3049486c648/68401fe8d415b9b6c7e1654b5fa32e372c689e5d03054686b43f4974143ed797.html",
+    "hash": "68401fe8d415b9b6c7e1654b5fa32e372c689e5d03054686b43f4974143ed797",
+    "checkedAt": "2026-10-08T20:12:01.766Z",
+    "finalUrl": "https://www.ecb.europa.eu/paym/retail/instant_payments/html/instant_payments_regulation.en.html"
+  },
+  {
+    "url": "https://finance.ec.europa.eu/publications/clarification-requirements-instant-payments-regulation_en",
+    "ok": true,
+    "snapshotKey": "sources/518de309a4df8153ec173be2593f43ba7cdbfaf0a4f846d50dca3112e6c18395/0f9dc5dabfc0ff24aa497fed2560d56acaa75244a81dc6256573dc0eae2409f9.html",
+    "hash": "0f9dc5dabfc0ff24aa497fed2560d56acaa75244a81dc6256573dc0eae2409f9",
+    "checkedAt": "2026-10-08T20:12:01.766Z",
+    "finalUrl": "https://finance.ec.europa.eu/publications/clarification-requirements-instant-payments-regulation_en"
+  },
+  {
+    "url": "https://www.europarl.europa.eu/news/en/press-room/20240202IPR17318",
+    "ok": false,
+    "snapshotKey": null,
+    "hash": null,
+    "checkedAt": "2026-10-08T20:12:01.766Z",
+    "error": "Unreadable or access challenge; requires interactive review",
+    "finalUrl": "https://www.europarl.europa.eu/news/en/press-room/20240202IPR17318"
+  },
+  {
+    "url": "https://digital-strategy.ec.europa.eu/en/factpages/data-act-explained",
+    "ok": true,
+    "snapshotKey": "sources/cc9d855c58baf5c38207b24ac16d08a7d7021d9f3b1948ca5285b47bd9f5b9fe/1f02106e801320f4adc49566eb9dfd0b416bdd45f1e92641266f981118aa4a6e.html",
+    "hash": "1f02106e801320f4adc49566eb9dfd0b416bdd45f1e92641266f981118aa4a6e",
+    "checkedAt": "2026-10-08T20:12:01.767Z",
+    "finalUrl": "https://digital-strategy.ec.europa.eu/en/factpages/data-act-explained"
+  },
+  {
+    "url": "https://www.europarl.europa.eu/news/en/press-room/20231106IPR09025",
+    "ok": false,
+    "snapshotKey": null,
+    "hash": null,
+    "checkedAt": "2026-10-08T20:12:01.767Z",
+    "error": "Unreadable or access challenge; requires interactive review",
+    "finalUrl": "https://www.europarl.europa.eu/news/en/press-room/20231106IPR09025"
+  },
+  {
+    "url": "https://single-market-economy.ec.europa.eu/sectors/chemicals/reach/restrictions_en",
+    "ok": true,
+    "snapshotKey": "sources/e1d7fba67229341bfd5f01bd5363030539ab9ded90d4a05eb793a1f354e6c9aa/3cf8364f5c517471a24febdfb903dad2a08abe803f5a1a45dc2a76185cacd583.html",
+    "hash": "3cf8364f5c517471a24febdfb903dad2a08abe803f5a1a45dc2a76185cacd583",
+    "checkedAt": "2026-10-08T20:12:01.767Z",
+    "finalUrl": "https://single-market-economy.ec.europa.eu/sectors/chemicals/reach/restrictions_en"
+  },
+  {
+    "url": "https://www.bundesregierung.de/breg-de/aktuelles/gesetzliche-neuregelungen-oktober-2026-2454624",
+    "ok": true,
+    "snapshotKey": "sources/c1c3ceef918dee875de4c189dc7214eed03e2b17f3daca18373bb8afc20d024a/74ec59bba7481a3807c143a9b6aa63a2c2f2f2f872ad42141f84927f85a30024.html",
+    "hash": "74ec59bba7481a3807c143a9b6aa63a2c2f2f2f872ad42141f84927f85a30024",
+    "checkedAt": "2026-10-08T20:12:01.845Z",
+    "finalUrl": "https://www.bundesregierung.de/breg-de/aktuelles/gesetzliche-neuregelungen-oktober-2026-2454624"
+  },
+  {
+    "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/09/28/pharma-package-council-adopts-new-rules-for-a-fairer-and-more-competitive-eu-pharmaceutical-sector/pdf/",
+    "ok": false,
+    "snapshotKey": null,
+    "hash": null,
+    "checkedAt": "2026-10-08T20:12:01.850Z",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "url": "https://dip.euaa.europa.eu/developments/european-union/council-eu-adopts-new-rules-return",
+    "ok": true,
+    "snapshotKey": "sources/d8060f1c61443edc86bd40f1f3962ce8b7337413169df3603fdfc0c6c7516da2/394ed9861a83266e22811c77aa7c732a8848f6b9d5dd555373cf822d947846da.html",
+    "hash": "394ed9861a83266e22811c77aa7c732a8848f6b9d5dd555373cf822d947846da",
+    "checkedAt": "2026-10-08T20:12:01.891Z",
+    "finalUrl": "https://dip.euaa.europa.eu/developments/european-union/council-eu-adopts-new-rules-return"
+  },
+  {
+    "url": "https://data.consilium.europa.eu/doc/document/PE-40-2026-INIT/en/pdf",
+    "ok": true,
+    "snapshotKey": "sources/98d2d3681dd1ac3276941330d34020e6c2ed12fd62cc1a03f898d0c9a5fb9e9d/a902aee8a0e979f07bd5ff39770e2c1678c62315c0e4eeaa5a1f01c270402bf3.pdf",
+    "hash": "a902aee8a0e979f07bd5ff39770e2c1678c62315c0e4eeaa5a1f01c270402bf3",
+    "checkedAt": "2026-10-08T20:12:01.952Z",
+    "finalUrl": "https://data.consilium.europa.eu/doc/document/PE-40-2026-INIT/en/pdf"
+  },
+  {
+    "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2004",
+    "ok": false,
+    "snapshotKey": null,
+    "hash": null,
+    "checkedAt": "2026-10-08T20:12:01.957Z",
+    "error": "Unreadable or access challenge; requires interactive review",
+    "finalUrl": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2004"
+  },
+  {
+    "url": "https://research-and-innovation.ec.europa.eu/funding/funding-opportunities/funding-programmes-and-open-calls/horizon-europe/horizon-europe-work-programmes_en",
+    "ok": true,
+    "snapshotKey": "sources/650eb625ed7a2efceba14a02765b9bf5f61d2b4f4567d40632a7f08121549068/4be5f2e3a5098f7f301dada7ebe9831cb34d2c972bcc267e7a9eab91b3c8e99d.html",
+    "hash": "4be5f2e3a5098f7f301dada7ebe9831cb34d2c972bcc267e7a9eab91b3c8e99d",
+    "checkedAt": "2026-10-08T20:12:01.958Z",
+    "finalUrl": "https://research-and-innovation.ec.europa.eu/funding/funding-opportunities/funding-programmes-and-open-calls/horizon-europe/horizon-europe-work-programmes_en"
+  },
+  {
+    "url": "https://www.europarl.europa.eu/RegData/docs_autres_institutions/commission_europeenne/com/2026/0515/COM_COM(2026)0515_EN.pdf",
+    "ok": false,
+    "snapshotKey": null,
+    "hash": null,
+    "checkedAt": "2026-10-08T20:12:01.958Z",
+    "error": "Unreadable or access challenge; requires interactive review",
+    "finalUrl": "https://www.europarl.europa.eu/RegData/docs_autres_institutions/commission_europeenne/com/2026/0515/COM_COM(2026)0515_EN.pdf"
+  },
+  {
+    "url": "https://eur-lex.europa.eu/oj/daily-view/L-series/default.html?ojDate=01012026",
+    "ok": true,
+    "snapshotKey": "sources/dbd4011d7085c11978ce9cde1b0d763011ab17c7e9a71323f366061391c96085/3d52a805f324d1d657e4fba58fbafb36b48929fff4a1c248af5a41db7c64363b.html",
+    "hash": "3d52a805f324d1d657e4fba58fbafb36b48929fff4a1c248af5a41db7c64363b",
+    "checkedAt": "2026-10-08T20:12:02.005Z",
+    "finalUrl": "https://eur-lex.europa.eu/oj/daily-view/L-series/default.html?ojDate=01012026"
+  },
+  {
+    "url": "https://eur-lex.europa.eu/oj/daily-view/C-series/default.html?ojDate=01012026",
+    "ok": true,
+    "snapshotKey": "sources/be8cd3f62e018321ed3f6e75ee0c7243a1d2f3d78a858ebcff25190935759edf/ec839d268f7d3e163becd44f7130a0f9d5cf5bfd0a067271f9d1a2d7fb89bf9c.html",
+    "hash": "ec839d268f7d3e163becd44f7130a0f9d5cf5bfd0a067271f9d1a2d7fb89bf9c",
+    "checkedAt": "2026-10-08T20:12:02.040Z",
+    "finalUrl": "https://eur-lex.europa.eu/oj/daily-view/C-series/default.html?ojDate=01012026"
+  }
+]

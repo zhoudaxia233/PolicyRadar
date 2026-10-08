@@ -22,8 +22,9 @@ test('PRIMA is one matter containing three distinct originals, with facts intact
  assert.deepEqual(group.records.map(r=>r.officialId),['OJ:L_202602217','OJ:L_202602218','OJ:L_202602219']);
  assert(group.records.every(r=>r.stage==='unverified'&&r.date==='2026-10-05'));
  assert.equal(result.count,result.progressGroups.length);
- assert.equal(result.progress.length,190);
- assert.equal(new Set(result.progressGroups.flatMap(g=>g.records.map(r=>r.id))).size,190);
+ const expectedRecords=data.intake.records.filter(r=>r.region==='EU').length;
+ assert.equal(result.progress.length,expectedRecords);
+ assert.equal(new Set(result.progressGroups.flatMap(g=>g.records.map(r=>r.id))).size,expectedRecords);
  assert.equal(JSON.stringify(data),before);
 });
 

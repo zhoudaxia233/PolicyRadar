@@ -38,7 +38,7 @@ test('each standalone language summary discloses the other version and the conti
 });
 
 test('one concrete question retains separate instrument states even when filtered; reporting obligations stay separate',()=>{
- const definitions=read('data/topics.json').topics;
+ const definitions=read('tests/fixtures/crypto-topics-20261008.json').topics;
  const topics=resolveTopics(definitions,data.intake.records,data.policies);
  const topic=topics.find(t=>t.id==='de-crypto-holding-period')!;
  assert.deepEqual([...topic.policyIds].sort(),[green.id,bmf.id].sort());

@@ -13,11 +13,11 @@ const data=createStaticData(after);
 const localization=createLocalization(data,read('../data/translations/content.json'),read('./fixtures/weekly-i18n-bindings.json'));
 const ids=['hb-bremerhaven-advertising-storage-2026','de-verpflichtung-video-2026','de-xbasisdaten-transport-2026','he-hospital-service-groups-2026','he-kita-prize-2027','sh-investment-location-strategy-2026'];
 
-test('weekly translations cover every explanation and announcement in German and English',()=>{
+test('weekly translations cover every explanation and announcement in English',()=>{
  for(const states of [localization.policies,localization.intake])assert(Object.values(states).every(s=>s==='current'));
  for(const id of ids){
   const p=data.policies.find(p=>p.id===id)!;
-  for(const locale of ['de','en'] as const){
+  for(const locale of ['en'] as const){
    const t=localizePolicy(p,locale,localization);
    assert.notEqual(t.title,p.title);assert(policyTextFields(t).every(s=>!/[\u3400-\u9fff]/u.test(s)),id);
    for(const key of ['originalTitle','effectiveDate','nextDate','phase','verifiedAt'] as const)assert.equal(t[key],p[key]);
@@ -25,7 +25,7 @@ test('weekly translations cover every explanation and announcement in German and
  }
  for(const id of [...ids,'de-shipping-correction-2026-284','hh-wittmoor-announcement-2026']){
   const r=data.intake.records.find(r=>r.id===id)!;assert.equal(localization.originalIntakeTitles[id],true);
-  for(const locale of ['de','en'] as const){const t=localizeIntake(r,locale,localization);assert.equal(t.title,r.title);assert.equal(t.stage,r.stage);assert(!/[\u3400-\u9fff]/u.test(t.note+t.titleZh));}
+  for(const locale of ['en'] as const){const t=localizeIntake(r,locale,localization);assert.equal(t.title,r.title);assert.equal(t.stage,r.stage);assert(!/[\u3400-\u9fff]/u.test(t.note+t.titleZh));}
  }
 });
 

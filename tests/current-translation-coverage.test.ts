@@ -10,12 +10,12 @@ const read=(path:string)=>JSON.parse(readFileSync(path,'utf8'));
 const data=createStaticData(read(process.env.POLICY_RADAR_EXPORT??read('data/current-export.json').path));
 const localization=createLocalization(data,read('data/translations/content.json'),read('data/translations/bindings.json'));
 
-test('every current discovery has Chinese, German and English reader text',()=>{
+test('every current discovery has Chinese and English reader text',()=>{
  const failures:string[]=[];
  for(const record of data.intake.records){
   if(!/[\u3400-\u9fff]/u.test(record.titleZh??record.title))failures.push(record.id+': Chinese title');
   if(localization.intake[record.id]!=='current')failures.push(record.id+': '+localization.intake[record.id]);
-  for(const locale of ['de','en'] as const){
+  for(const locale of ['en'] as const){
    const rendered=localizeIntake(record,locale,localization);
    if(!rendered.titleZh||/[\u3400-\u9fff]/u.test(rendered.titleZh+' '+rendered.note))failures.push(record.id+': '+locale);
    assert.equal(rendered.title,record.title);
@@ -28,7 +28,7 @@ test('every current discovery has Chinese, German and English reader text',()=>{
 test('all current policy explanations remain translated, including nested details',()=>{
  for(const policy of data.policies){
   assert.equal(localization.policies[policy.id],'current',policy.id);
-  for(const locale of ['de','en'] as const){
+  for(const locale of ['en'] as const){
    for(const text of policyTextFields(localizePolicy(policy,locale,localization)))assert(!/[\u3400-\u9fff]/u.test(text),policy.id+': '+text);
   }
  }
@@ -64,14 +64,14 @@ test('translation corrections preserve the complete history and every factual fi
 test('translated UK titles preserve identifiers and legally significant qualifiers',()=>{
  const correctedIds=new Set(read('data/exports/2026-10-08-complete-translations/manifest.json').translatedRecordIds);
  for(const record of data.intake.records.filter(r=>r.region.startsWith('GB')&&correctedIds.has(r.id))){
-  const texts=[record.titleZh,...(['de','en'] as const).map(locale=>localizeIntake(record,locale,localization).titleZh)];
+  const texts=[record.titleZh,...(['en'] as const).map(locale=>localizeIntake(record,locale,localization).titleZh)];
   for(const text of texts){
    const numbers=new Set(text?.match(/\d+/g));
    for(const number of record.title.match(/\d+/g)??[])assert(numbers.has(number),record.id+': lost '+number);
   }
   if(record.title.includes('(revoked)')){
    assert.match(texts[0]!,/已废止/u,record.id);
-   assert.match(texts[1]!,/aufgehoben/u,record.id);
+   assert.match(texts[1]!,/revoked/u,record.id);
   }
   if(/Saving(?:s)? Provision/.test(record.title)){
    assert.match(texts[0]!,/保留/u,record.id);

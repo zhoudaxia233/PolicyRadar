@@ -21,7 +21,7 @@ const localization=createLocalization(data,read('../data/translations/content.js
 
 test('Swiss canton URLs preserve ISO identities across France, Netherlands and Germany',()=>{
  assert.deepEqual(swissCantons.map(r=>r.id).sort(),['ZH','BE','LU','UR','SZ','OW','NW','GL','ZG','FR','SO','BS','BL','SH','AR','AI','SG','GR','AG','TG','TI','VD','VS','NE','GE','JU'].map(c=>'CH-'+c).sort());
- for(const id of ['CH',...swissCantons.map(r=>r.id)])for(const locale of ['zh','de','en'] as const){
+ for(const id of ['CH',...swissCantons.map(r=>r.id)])for(const locale of ['zh','en'] as const){
   const f=readFilters('?region='+id);assert.equal(f.country,'CH');assert.equal(f.region,id);assert.deepEqual(readFilters(filterSearch('?lang='+locale,f)),f);assert.notEqual(regionName(id,locale),id);
  }
  for(const id of ['CH-FR','NL-FR','FR','CH-GR','NL-GR','CH-GE','NL-GE','CH-ZH','NL-ZH','CH-BE','DE-BE','CH-NW','DE-NW','CH-SH','DE-SH'])assert.equal(readFilters('?region='+id).region,id);
@@ -46,9 +46,9 @@ test('Swiss baseline preserves old records, reviews and original evidence bytes'
  for(const p of ch)for(const s of p.sources){const check=data.status.checks.find(c=>c.url===s.url)!;assert(check&&!check.error&&check.snapshot_key);const snapshot=candidate.tables.snapshots.find((v:{key:string})=>v.key===check.snapshot_key);const bytes=readSnapshot('data/exports/2026-10-04-switzerland-review/policy-radar-export.json',snapshot);assert.equal(createHash('sha256').update(bytes).digest('hex'),snapshot.hash);}
 });
 test('Swiss originals remain source-specific while all three explanations are current',()=>{
- assert(translator('de')('追踪范围：瑞士联邦及全部26个州。').includes('Kantone'));assert(translator('en')('追踪范围：瑞士联邦及全部26个州。').includes('cantons'));
+ assert(translator('en')('追踪范围：瑞士联邦及全部26个州。').includes('cantons'));
  assert.equal(originalRegionName('CH-TI').language,'it');assert.equal(originalRegionName('CH-VD').language,'fr');assert.equal(originalRegionName('CH-ZH').language,'de');assert.equal(originalRegionName('CH-GR').language,'und');
- for(const p of ch){assert.equal(localization.policies[p.id],'current');for(const lang of ['de','en'] as const){const translated=localizePolicy(p,lang,localization);assert.equal(translated.originalTitle,p.originalTitle);assert.equal(translated.effectiveDate,p.effectiveDate);assert.notEqual(translated.title,p.title);}}
+ for(const p of ch){assert.equal(localization.policies[p.id],'current');for(const lang of ['en'] as const){const translated=localizePolicy(p,lang,localization);assert.equal(translated.originalTitle,p.originalTitle);assert.equal(translated.effectiveDate,p.effectiveDate);assert.notEqual(translated.title,p.title);}}
  for(const p of data.intake.records.filter(r=>r.region.startsWith('CH'))){assert.equal(localization.intake[p.id],'current');assert.equal(localization.originalIntakeTitles[p.id],true);}
  const ticino=ch.find(p=>p.region==='CH-TI')!;assert.equal(ticino.originalLanguage,'it');assert(searchText(ticino,localization).includes('salario minimo'));assert.equal(ch.find(p=>p.region==='CH-FR')?.originalLanguage,'fr');
 });

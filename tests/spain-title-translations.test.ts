@@ -39,7 +39,7 @@ test('all 874 current Spanish discoveries have current translations in all inter
  assert.equal(records.length,874);
  for(const r of records){
   assert.equal(localization.intake[r.id],'current',r.id);
-  for(const locale of ['zh','de','en'] as const){
+  for(const locale of ['zh','en'] as const){
    const displayed=localizeIntake(r,locale,localization);
    assert(displayed.titleZh&&displayed.titleZh!==r.title,r.id+' '+locale);
    assert.equal(displayed.title,r.title);

@@ -47,7 +47,7 @@ test('saved status explanations retain German and English translations',()=>{
  const localized=createLocalization(createStaticData(data),catalog,JSON.parse(readFileSync('data/translations/bindings.json','utf8')));
  for(const p of policies){
   assert.equal(localized.policies[p.id],'current',p.id);
-  for(const locale of ['de','en']){
+  for(const locale of ['en']){
    const html=renderToStaticMarkup(createElement(PolicyStatusNote,{policy:p,locale,messages:catalog,today:'2026-10-04'}));
    assert(!/[\u3400-\u9fff]/.test(html),p.id+' '+locale);
   }
@@ -74,7 +74,7 @@ test('detail-note comparison follows the date and also deduplicates translated t
  const render=(policy:typeof p,today:string,locale='zh')=>renderToStaticMarkup(createElement(PolicyStatusNote,{policy,today,locale,messages:catalog}));
  assert.equal(render(p,'2026-10-04'),'');
  assert(render(p,'2026-11-01').includes('已通过 · 待生效'));
- for(const locale of ['de','en'])assert.equal(render(by('de-rent-cap-2029'),'2026-10-04',locale),'');
+ for(const locale of ['en'])assert.equal(render(by('de-rent-cap-2029'),'2026-10-04',locale),'');
  const explicit={...p,status:'adopted',statusNote:'In effect'};
  assert.equal(render(explicit,'2026-11-01','en'),'');
 });

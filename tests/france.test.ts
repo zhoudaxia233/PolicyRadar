@@ -13,7 +13,7 @@ const candidate=read('../data/exports/2026-10-03-france/policy-radar-export.json
 const data=createStaticData(candidate);
 
 test('French country and national filters survive a URL round trip in every UI language',()=>{
- for(const locale of ['zh','de','en'] as const){
+ for(const locale of ['zh','en'] as const){
   for(const query of ['?country=FR','?region=FR']){
    const f=readFilters(query);assert.equal(f.country,'FR');
    assert.deepEqual(readFilters(filterSearch('?lang='+locale,f)),f);

@@ -22,15 +22,15 @@ test('rejection of one instrument does not close the alternative or enact its pr
 });
 
 test('each standalone language summary discloses the other version and the continuing current rules',()=>{
- for(const locale of ['zh','de','en'] as const){
+ for(const locale of ['zh','en'] as const){
   const g=localizePolicy(green,locale,localization),b=localizePolicy(bmf,locale,localization);
   const ministry=locale==='zh'?/财政部/:/BMF/;
-  const opposition=locale==='zh'?/绿党/:locale==='de'?/Grünen/:/Green/;
+  const opposition=locale==='zh'?/绿党/:/Green/;
   assert.match(g.summary,ministry);assert.match(b.summary,opposition);
   for(const p of [g,b]){
    assert.match(p.summary,/2027/);
-   assert.match(p.summary,locale==='zh'?/现行/:locale==='de'?/(geltend|gilt das bisherige Recht)/:/current/i);
-   assert.match(p.summary,locale==='zh'?/未通过/:locale==='de'?/nicht verabschiedet/:/(not enacted|unenacted)/);
+   assert.match(p.summary,locale==='zh'?/现行/:/current/i);
+   assert.match(p.summary,locale==='zh'?/未通过/:/(not enacted|unenacted)/);
    assert.match(p.impact,/2026/);assert.match(p.impact,/2027/);assert.match(p.impact,/2028/);
    assert.match(p.limits,/25/);
   }

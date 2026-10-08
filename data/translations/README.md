@@ -1,6 +1,8 @@
 # Translation data
 
-`content.json` maps the exact canonical explanatory text to `[German, English]`.
+`content.json` maps the exact canonical explanatory text to its English translation.
+The site offers Chinese and English only; German was removed as an interface language
+on 2026-10-08. German original titles and documents are unaffected.
 Chinese explanations remain in the source export. `lib/i18n/messages.ts` holds the
 separate, type-checked interface dictionary. There is no runtime translation call.
 
@@ -15,12 +17,12 @@ the policy or intake record. `verbatim` explicitly lists proper names and offici
 identifiers that were reviewed and should remain unchanged in both languages.
 Do not use this list to exempt prose from translation. Intake bindings also record
 `titleIsOriginal`: some legacy unverified records have Chinese editorial placeholders
-in `title`, which must never be labelled as German original titles.
+in `title`, which must never be labelled as original titles.
 
 To maintain translations after a data update:
 
 Apply the [reader comprehension gate](../UPDATE.md#reader-comprehension-gate)
-before binding a translation. Review Chinese, German and English independently
+before binding a translation. Review Chinese and English independently
 for understandable wording as well as factual equivalence. In particular, name
 what every amount measures; do not translate an income ceiling as though it were
 the amount a person pays. A fresh binding confirms coverage and record identity,
@@ -31,7 +33,7 @@ not comprehension. Record the editorial check in the update's review notes.
    Also translate new topic/status labels, review notes and scan notes. Preserve
    numbers, dates, exceptions, uncertainty and whether events are scheduled.
 2. Retain official original titles, URLs, identifiers, tags, dates, evidence files
-   and historical revisions. A German explanation of a German source is an editorial
+   and historical revisions. An English explanation of a source is an editorial
    explanation, not a replacement for its original text.
 3. After reviewing the translations, use the candidate export's `createStaticData`
    result and `contentHash(record)` to update only the affected bindings. For

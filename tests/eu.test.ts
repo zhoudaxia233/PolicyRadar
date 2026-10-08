@@ -23,13 +23,13 @@ const localization=createLocalization(data,read('data/translations/content.json'
 const policies=data.policies.filter(p=>p.region==='EU');
 
 test('translated prose uses local date formats',()=>{
- for(const [text,translations] of Object.entries(localization.messages))for(const translated of translations)assert(!/\d{4}-\d{2}-\d{2}/.test(translated),text);
+ for(const [text,translated] of Object.entries(localization.messages))assert(!/\d{4}-\d{2}-\d{2}/.test(translated),text);
 });
 
-test('the German roaming correction quotes the actual previous event title',()=>{
+test('the translated roaming correction quotes the actual previous event title',()=>{
  const roaming=policies.find(p=>p.id==='eu-roaming-2022')!;
- const correction=localizePolicy(roaming,'de',localization).events.find(e=>e.kind==='correction')!;
- assert(correction.detail.includes('„'+localization.messages['要求开始适用'][0]+'“'));
+ const correction=localizePolicy(roaming,'en',localization).events.find(e=>e.kind==='correction')!;
+ assert(correction.detail.includes('“'+localization.messages['要求开始适用']+'”'));
  assert.deepEqual(after.tables.policies.find((p:{id:string})=>p.id===roaming.id),roamingReview.tables.policies.find((p:{id:string})=>p.id===roaming.id));
  assert.equal(createLocalization(createStaticData(roamingReview),read('data/translations/content.json'),read('tests/fixtures/pre-politics-i18n-bindings.json')).policies[roaming.id],'current');
 });
@@ -49,7 +49,7 @@ test('upcoming labels distinguish expiry and deadlines from implementation in ev
  assert.equal(nextStepLabel({...roaming,phase:'pending'}),'待表决 / 待确认');
  const legacy=old.policies.filter(p=>['he-rent-protection-2025','de-fuel-relief-2026'].includes(p.id));assert.equal(legacy.length,2);
  for(const p of legacy)assert.equal(nextStepLabel(p),'法定到期日');
- for(const label of ['法定到期日','截止日期','已确定的实施节点','已公布的后续安排'] as const)for(const locale of ['de','en'] as const)assert(!/[\u3400-\u9fff]/u.test(translator(locale)(label)));
+ for(const label of ['法定到期日','截止日期','已确定的实施节点','已公布的后续安排'] as const)for(const locale of ['en'] as const)assert(!/[\u3400-\u9fff]/u.test(translator(locale)(label)));
 });
 
 test('roaming commencement uses consistent wording in the event and card',()=>{
@@ -59,9 +59,9 @@ test('roaming commencement uses consistent wording in the event and card',()=>{
  const event=roaming.events.find(e=>e.date==='2022-07-01'&&e.kind==='effective')!;
  assert.equal(event.title,'法规生效');
  assert.equal(roaming.events.filter(e=>e.date==='2022-07-01'&&e.kind==='effective').length,1);
- for(const locale of ['de','en'] as const){
+ for(const locale of ['en'] as const){
   const translated=localizePolicy(roaming,locale,localization);
-  assert.equal(translated.events.find(e=>e.id===event.id)!.title,locale==='de'?'Inkrafttreten der Verordnung':'Regulation enters into force');
+  assert.equal(translated.events.find(e=>e.id===event.id)!.title,'Regulation enters into force');
  }
  const prior=JSON.parse(dateReview.tables.policies.find((p:{id:string})=>p.id===roaming.id).data);
  const saved=JSON.parse(after.tables.policies.find((p:{id:string})=>p.id===roaming.id).data);
@@ -81,10 +81,10 @@ test('roaming expiry preserves the main date until the upcoming window and requi
 });
 
 test('EU is a supranational jurisdiction and round-trips without changing the default country',()=>{
- assert.equal(countryName('EU','zh'),'欧盟');assert.equal(countryName('EU','de'),'Europäische Union');assert.equal(countryName('EU','en'),'European Union');
+ assert.equal(countryName('EU','zh'),'欧盟');assert.equal(countryName('EU','en'),'European Union');
  assert.equal(countryOf('EU'),'EU');assert.equal(readFilters('').country,'DE');
  assert.deepEqual(regions.filter(r=>countryOf(r.id)==='EU').map(r=>r.id),['EU']);
- for(const query of ['?country=EU','?country=DE&region=EU'])for(const locale of ['zh','de','en'] as const){
+ for(const query of ['?country=EU','?country=DE&region=EU'])for(const locale of ['zh','en'] as const){
   const f=readFilters(query);assert.equal(f.country,'EU');
   assert.deepEqual(readFilters(filterSearch('?lang='+locale,f)),f);
   assert.notEqual(regionName('EU',locale),'EU');
@@ -92,7 +92,7 @@ test('EU is a supranational jurisdiction and round-trips without changing the de
  assert(!policySchema.safeParse({...policies[0],region:'EU-DE'}).success);
  const eu=countries.find(c=>c.id==='EU')!;
  assert.equal(eu.subdivision,'');
- for(const locale of ['de','en'] as const)for(const text of [eu.scope,eu.note,'国家／地区'] as const)assert(!/[\u3400-\u9fff]/u.test(translator(locale)(text)));
+ for(const locale of ['en'] as const)for(const text of [eu.scope,eu.note,'国家／地区'] as const)assert(!/[\u3400-\u9fff]/u.test(translator(locale)(text)));
 });
 
 test('EU intake preserves every historical row and other countries review settings',()=>{
@@ -128,13 +128,13 @@ test('EU multilingual search and counts use complete version-bound translations'
  const index=new Map(policies.map(p=>[p.id,searchText(p,localization)]));
  for(const p of policies){
   assert.equal(data.policyVersions[p.id],2);assert.equal(localization.policies[p.id],'current');
-  for(const locale of ['de','en'] as const){
+  for(const locale of ['en'] as const){
    const translated=localizePolicy(p,locale,localization);
    assert(policyTextFields(translated).every(s=>!/[\u3400-\u9fff]/u.test(s)),p.id);
    for(const k of ['officialId','originalTitle','effectiveDate','nextDate','region'] as const)assert.equal(translated[k],p[k]);
   }
  }
- for(const query of ['即时转账','Echtzeitüberweisungen','instant euro'])assert.equal(selectListing(data.policies,data.intake.records,{...readFilters('?country=EU'),query},p=>index.get(p.id)??'').count,1);
+ for(const query of ['即时转账','instant euro'])assert.equal(selectListing(data.policies,data.intake.records,{...readFilters('?country=EU'),query},p=>index.get(p.id)??'').count,1);
  for(const source of data.status.discovery.filter(d=>d.region==='EU'))assert(localization.messages[source.title]);
  assert(localization.messages[data.status.settings['reviewNote:EU']]);
 });
@@ -184,7 +184,7 @@ test('application dates stay distinct in badges, cards and translated details wi
  const prior=JSON.parse(initial.tables.policies.find((p:{id:string})=>p.id===charger.id).data);
  for(const e of prior.events)assert.deepEqual(charger.events.find(x=>x.id===e.id),e);
  assert(charger.events.some(e=>e.kind==='correction'));
- for(const locale of ['de','en'] as const){
+ for(const locale of ['en'] as const){
   const translated=localizePolicy(charger,locale,localization);
   assert.equal(translated.effectiveDateKind,'application');assert.equal(lifecycle(translated,'2026-10-04'),'已适用');
   assert(!/[\u3400-\u9fff]/u.test(contentText(effectiveDateLabel(translated),locale,localization.messages)));

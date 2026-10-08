@@ -18,7 +18,7 @@ const data=createStaticData(candidate),nl=data.policies.filter(p=>p.region.start
 
 test('Dutch provinces use ISO identities and round-trip without colliding with France',()=>{
  assert.deepEqual(new Set(dutchProvinces.map(p=>p.id)),new Set(['NL-DR','NL-FL','NL-FR','NL-GE','NL-GR','NL-LI','NL-NB','NL-NH','NL-OV','NL-UT','NL-ZE','NL-ZH']));
- for(const region of ['NL',...dutchProvinces.map(p=>p.id)])for(const locale of ['zh','de','en'] as const){
+ for(const region of ['NL',...dutchProvinces.map(p=>p.id)])for(const locale of ['zh','en'] as const){
   const f=readFilters('?region='+region);assert.equal(f.country,'NL');assert.equal(f.region,region);
   assert.deepEqual(readFilters(filterSearch('?lang='+locale,f)),f);
   assert.notEqual(regionName(region,locale),region);assert.equal(originalRegionName(region).language,'nl');
@@ -26,7 +26,7 @@ test('Dutch provinces use ISO identities and round-trip without colliding with F
  assert.equal(readFilters('?country=FR&region=NL-FR').country,'NL');
  assert.equal(readFilters('?country=NL&region=FR-ARA').country,'FR');
  assert.equal(countryName('NL','zh'),'荷兰');assert.equal(readFilters('').country,'DE');
- for(const locale of ['zh','de','en'] as const)assert(!translator(locale)('追踪范围：荷兰全国层面及欧洲部分全部12个省。').includes('Bund'));
+ for(const locale of ['zh','en'] as const)assert(!translator(locale)('追踪范围：荷兰全国层面及欧洲部分全部12个省。').includes('Bund'));
 });
 test('Netherlands connects all provinces but does not assert full scan coverage',()=>{
  assert.equal(nl.length,14);assert.equal(nl.filter(p=>p.region==='NL').length,2);

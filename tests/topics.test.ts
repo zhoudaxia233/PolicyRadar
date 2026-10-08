@@ -46,7 +46,7 @@ test('same gazette URLs, generic corrigenda, different cases and territories sta
 });
 
 test('searching any child or any translated matter title returns its group without adding nonmatching documents',()=>{
- for(const query of ['2218','摩洛哥参与 PRIMA','Marokkos Teilnahme an PRIMA','Morocco’s participation in PRIMA']){
+ for(const query of ['2218','摩洛哥参与 PRIMA','Morocco’s participation in PRIMA']){
   const result=select({...base,query});
   assert.equal(result.count,1,query);
   assert.equal(result.progressGroups[0].id,'topic:eu-morocco-prima');
@@ -79,14 +79,14 @@ test('related raw documents do not duplicate an existing explanation, and remain
 });
 
 test('all locales group identical records and search original titles as well as translations',()=>{
- for(const locale of ['zh','de','en'] as const){
+ for(const locale of ['zh','en'] as const){
   const records=data.intake.records.map(r=>localizeIntake(r,locale,localization));
   const policies=data.policies.map(p=>localizePolicy(p,locale,localization));
   const index=new Map(data.intake.records.map(r=>[r.id,searchText(r,localization)]));
   const result=selectListing(policies,records,{...base,query:'PRIMA'},r=>index.get(r.id)??'','2026-10-08',topics);
   assert.equal(result.count,1);
   assert.equal(result.progress.length,3);
-  assert.equal(result.progressGroups[0].title?.[locale==='zh'?0:locale==='de'?1:2],topics[0].title[locale==='zh'?0:locale==='de'?1:2]);
+  assert.equal(result.progressGroups[0].title?.[locale==='zh'?0:1],topics[0].title[locale==='zh'?0:1]);
  }
 });
 
@@ -120,9 +120,9 @@ test('historical builds do not inherit newer grouping judgments and timeline eve
 
 test('the latest matching document orders a matter, without changing child dates',()=>{
  const sample=data.intake.records.slice(0,3).map((r,i)=>({...r,id:'chronology-'+i,date:['2026-01-01','2026-10-01','2026-08-01'][i]}));
- const grouped=groupRecords(sample,[{id:'one',title:['事项','Vorgang','Matter'],recordIds:sample.slice(0,2).map(r=>r.id),policyIds:[]}]);
+ const grouped=groupRecords(sample,[{id:'one',title:['事项','Matter'],recordIds:sample.slice(0,2).map(r=>r.id),policyIds:[]}]);
  assert.equal(grouped[0].id,'topic:one');
  assert.deepEqual(grouped[0].records.map(r=>r.date),['2026-01-01','2026-10-01']);
- const filtered=groupRecords([sample[0],sample[2]],[{id:'one',title:['事项','Vorgang','Matter'],recordIds:sample.slice(0,2).map(r=>r.id),policyIds:[]}]);
+ const filtered=groupRecords([sample[0],sample[2]],[{id:'one',title:['事项','Matter'],recordIds:sample.slice(0,2).map(r=>r.id),policyIds:[]}]);
  assert.equal(filtered[0].records[0].id,sample[2].id);
 });

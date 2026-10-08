@@ -20,15 +20,15 @@ const gb=after.discoveryRegistry.filter((s:{region:string})=>s.region.startsWith
 
 test('UK country and four parts survive URL round-trips in all interface languages',()=>{
  assert.deepEqual(britishRegions.map(r=>r.id),['GB-ENG','GB-SCT','GB-WLS','GB-NIR']);
- assert.equal(countryName('GB','zh'),'英国');assert.equal(countryName('GB','de'),'Vereinigtes Königreich');assert.equal(countryName('GB','en'),'United Kingdom');
+ assert.equal(countryName('GB','zh'),'英国');assert.equal(countryName('GB','en'),'United Kingdom');
  assert.equal(readFilters('?country=GB').country,'GB');
  assert.equal(readFilters('').country,'DE');
- for(const id of ['GB',...britishRegions.map(r=>r.id)])for(const locale of ['zh','de','en'] as const){
+ for(const id of ['GB',...britishRegions.map(r=>r.id)])for(const locale of ['zh','en'] as const){
   const f=readFilters('?country=DE&region='+id);assert.equal(f.country,'GB');assert.equal(f.region,id);
   assert.deepEqual(readFilters(filterSearch('?lang='+locale,f)),f);assert.notEqual(regionName(id,locale),id);assert.equal(originalRegionName(id).language,'en');
  }
  const country=countries.find(c=>c.id==='GB')!;
- for(const locale of ['de','en'] as const)for(const t of [country.scope,country.note,country.subdivision])assert(!/[\u3400-\u9fff]/u.test(translator(locale)(t)));
+ for(const locale of ['en'] as const)for(const t of [country.scope,country.note,country.subdivision])assert(!/[\u3400-\u9fff]/u.test(translator(locale)(t)));
 });
 
 test('UK channels preserve shared-channel boundaries and honest scan gaps',()=>{
@@ -56,7 +56,7 @@ test('UK explanation has complete translations and archived support for rates, d
  const p=data.policies.find(p=>p.id==='gb-minimum-wage-2026')!;
  const l=createLocalization(data,read('data/translations/content.json'),read('data/translations/bindings.json'));
  assert.equal(l.policies[p.id],'current');assert.equal(p.effectiveDate,'2026-04-01');assert.equal(p.nextDate,null);
- for(const locale of ['de','en'] as const)assert(policyTextFields(localizePolicy(p,locale,l)).every(t=>!/[\u3400-\u9fff]/u.test(t)));
+ for(const locale of ['en'] as const)assert(policyTextFields(localizePolicy(p,locale,l)).every(t=>!/[\u3400-\u9fff]/u.test(t)));
  for(const s of gb)assert(l.messages[s.title]);assert(l.messages[data.status.settings['reviewNote:GB']]);
  const source=p.sources.find(s=>s.id==='law')!;
  const check=after.tables.checks.find((c:{url:string})=>c.url===source.url);assert.equal(check.error,null);

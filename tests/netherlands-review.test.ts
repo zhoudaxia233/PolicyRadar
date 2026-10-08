@@ -33,7 +33,7 @@ test('displayed Dutch timelines separate reopening, dated closure and undated ex
   assert(!p.events.some(e=>e.kind==='scheduled'&&e.date<='2026-10-04'));
   assert(p.events.filter(e=>e.kind==='adopted'||e.kind==='effective').every(e=>!/已截止|已结束/.test(e.title+e.detail)));
   assert.equal(p.lastEventDate,'2026-10-04'); // The dated editorial correction is the latest confirmed event.
-  for(const locale of ['de','en'] as const){const translated=localizePolicy(p,locale,localization);assert.equal(localization.policies[p.id],'current');assert(translated.events.some(e=>e.kind==='closed'&&e.date===deadline));}
+  for(const locale of ['en'] as const){const translated=localizePolicy(p,locale,localization);assert.equal(localization.policies[p.id],'current');assert(translated.events.some(e=>e.kind==='closed'&&e.date===deadline));}
  }
 });
 
@@ -51,7 +51,7 @@ test('all six original Dutch announcement titles are retained, visible and linke
  for(const r of records){
   assert.equal(localization.intake[r.id],'current');assert.equal(localization.originalIntakeTitles[r.id],true);
   assert.equal(data.policies.filter(p=>p.region===r.region&&p.officialId===r.officialId).length,1);
-  for(const locale of ['zh','de','en'] as const)assert.equal(localizeIntake(r,locale,localization).title,r.title);
+  for(const locale of ['zh','en'] as const)assert.equal(localizeIntake(r,locale,localization).title,r.title);
  }
 });
 

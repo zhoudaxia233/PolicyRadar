@@ -30,7 +30,7 @@ test('new records start at version one with complete translations and applicatio
  for(const p of added){
   assert.equal(data.policyVersions[p.id],1);assert.equal(localization.policies[p.id],'current');
   assert.equal(p.effectiveDateKind,'application');
-  for(const locale of ['de','en'] as const){
+  for(const locale of ['en'] as const){
    const translated=localizePolicy(p,locale,localization);
    for(const text of policyTextFields(translated))assert(!/[\u3400-\u9fff]|\d{4}-\d{2}-\d{2}/u.test(text),p.id+': '+text);
   }

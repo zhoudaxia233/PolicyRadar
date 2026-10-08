@@ -64,7 +64,7 @@ test('reviewed UK backfill has current translations and preserves territorial an
  const ps=data.policies.filter(p=>newIds.has(p.id));assert.equal(ps.length,12);
  for(const p of ps){
   assert.equal(l.policies[p.id],'current');assert.equal(p.originalLanguage,'en');
-  for(const locale of ['de','en'] as const)assert(policyTextFields(localizePolicy(p,locale,l)).every(t=>!/[\u3400-\u9fff]/u.test(t)));
+  for(const locale of ['en'] as const)assert(policyTextFields(localizePolicy(p,locale,l)).every(t=>!/[\u3400-\u9fff]/u.test(t)));
   for(const s of p.sources){
    const check=after.tables.checks.find((r:{url:string})=>r.url===s.url);assert.equal(check.error,null);
    const snapshot=after.tables.snapshots.find((r:{key:string})=>r.key===check.snapshot_key);assert.equal(snapshot.url,s.url);readSnapshot(folder+'/policy-radar-export.json',snapshot);

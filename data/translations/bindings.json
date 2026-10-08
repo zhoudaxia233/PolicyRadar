@@ -65,17 +65,18 @@
       "version": 3
     },
     "de-crypto-holding-proposal": {
-      "version": 7,
-      "hash": "b17a58d5a06d722206d2d5d4a570e5d81df6341647283f433f9c953882f9e985",
+      "version": 9,
+      "hash": "469eb775986c2443c2c56ea1e18082b3d2b28e6ddb6e43b28db0e28816ea9941",
       "originalLanguage": "de",
       "verbatim": [
         "Deutscher Bundestag",
-        "Bundesministerium der Finanzen"
+        "Bundesministerium der Finanzen",
+        "Gesetze im Internet"
       ]
     },
     "de-carf-agreement-2026": {
-      "version": 6,
-      "hash": "c92ae41fe24380b414ef802a49f07ab3e9dda2c09b230b787859b5745ed89312",
+      "version": 7,
+      "hash": "320e75866e248fe2496aec610f4659339f74caaefd0b0d9c192a864651ce0178",
       "originalLanguage": "de",
       "verbatim": [
         "Deutscher Bundestag"
@@ -2291,6 +2292,16 @@
         "BMAS"
       ],
       "originalLanguage": "de"
+    },
+    "de-bmf-crypto-tax-reform-2027": {
+      "originalLanguage": "de",
+      "verbatim": [
+        "Gesetze im Internet",
+        "Deutscher Bundestag",
+        "Bundesministerium der Finanzen"
+      ],
+      "hash": "ab8c5e81551d43d5635f0dbac1f0fb8d8a85ce4bb9602849ca2fd1781c846856",
+      "version": 1
     }
   },
   "intake": {
@@ -30175,6 +30186,108 @@
       "verbatim": [],
       "originalLanguage": "en",
       "titleIsOriginal": true
+    },
+    "daily-de-20261008-bgbl-2-228": {
+      "hash": "28fc00ecd544ed0f5f45538515e778ed35f97d524b07244964a64488acf1a738",
+      "verbatim": [],
+      "originalLanguage": "de",
+      "titleIsOriginal": true
+    },
+    "daily-de-20261008-bgbl-2-227": {
+      "hash": "dd2f797c64ca99b503db1aabf3dab1cd311865c164b602f925b621041297c8ce",
+      "verbatim": [],
+      "originalLanguage": "de",
+      "titleIsOriginal": true
+    },
+    "daily-de-20261008-bgbl-2-226": {
+      "hash": "72b43482cd3f68866fc1cdca563dbd79e9cd12852e11e16aca8a9d78793b41b7",
+      "verbatim": [],
+      "originalLanguage": "de",
+      "titleIsOriginal": true
+    },
+    "daily-de-20261008-bgbl-2-225": {
+      "hash": "9a73344ed8c60abeed0d3fed6efd53a23a7794ff81cc7066629f263ffdd4e5a5",
+      "verbatim": [],
+      "originalLanguage": "de",
+      "titleIsOriginal": true
+    },
+    "daily-de-20261008-bgbl-1-288": {
+      "hash": "169981ff646b7eb6a73eab71284cd789d894242aca079128cd42bbcc6bf2231f",
+      "verbatim": [],
+      "originalLanguage": "de",
+      "titleIsOriginal": true
+    },
+    "daily-de-20261008-bgbl-1-287": {
+      "hash": "7c833343aca758b120b3955ce786b4f0cb3b3afc7225ada92749cfda4fce2e5d",
+      "verbatim": [],
+      "originalLanguage": "de",
+      "titleIsOriginal": true
+    },
+    "daily-de-20261008-bgbl-2-220": {
+      "hash": "b88c41b8f799729a46b53351ed3f38c28aa44290ccba6844e3a39060039d2114",
+      "verbatim": [],
+      "originalLanguage": "de",
+      "titleIsOriginal": true
+    },
+    "daily-de-20261008-bgbl-1-282": {
+      "hash": "25cd62fd68ae84ae564d91d8e751c94c9b5ab3ac54273345285c30f6203d56a5",
+      "verbatim": [],
+      "originalLanguage": "de",
+      "titleIsOriginal": true
+    },
+    "daily-de-20261008-social-digital-roadmap": {
+      "hash": "366aebc6f1fc2a1b9a3de8b7c03972a5e1b7858357f105cfa180b9abc805bca0",
+      "verbatim": [],
+      "originalLanguage": "de",
+      "titleIsOriginal": true
+    },
+    "daily-de-20261008-autobahn-finance": {
+      "hash": "36a0e6fcaa902eb815ffe4e06269870c6ea8e282afdc561919dd29e168acee47",
+      "verbatim": [],
+      "originalLanguage": "de",
+      "titleIsOriginal": true
+    },
+    "daily-de-20261008-digital-violence": {
+      "hash": "c7c99cf3bce50e86d8750e94e107113bfc5502b6376af0a7581d3536020b0e16",
+      "verbatim": [],
+      "originalLanguage": "de",
+      "titleIsOriginal": true
+    },
+    "daily-de-20261008-domestic-violence": {
+      "hash": "3f9cf841e74d80ede45594cd5e6fc38583dfc93f5cc479fcb4b0a63f5ea8d48b",
+      "verbatim": [],
+      "originalLanguage": "de",
+      "titleIsOriginal": true
+    },
+    "daily-de-20261008-pnog": {
+      "hash": "addb586f5fccf6e76a7d7796639cfbed84e83233a670c551757473c9f15af0dc",
+      "verbatim": [],
+      "originalLanguage": "de",
+      "titleIsOriginal": true
+    },
+    "daily-de-20261008-tax-vote-result": {
+      "hash": "74e177fe1a0f49e182b4d645f6ff681b632a1fe88ba7510c9d1e3c8979b033f6",
+      "verbatim": [],
+      "originalLanguage": "de",
+      "titleIsOriginal": true
+    },
+    "daily-de-20261008-carf-agenda": {
+      "hash": "6614808987aeb2865ad9d358e8e1e7f997d123dfbe83c2d9a259f94a56951f86",
+      "verbatim": [],
+      "originalLanguage": "de",
+      "titleIsOriginal": true
+    },
+    "de-bmf-crypto-tax-reform-2027-discovery": {
+      "originalLanguage": "de",
+      "verbatim": [],
+      "titleIsOriginal": true,
+      "hash": "9a74fd8e9d54f9dae13357035ff0169512910dbac9e275e66ad2122d57695491"
+    },
+    "de-crypto-vote-with-bmf-alternative-20261008": {
+      "originalLanguage": "de",
+      "verbatim": [],
+      "titleIsOriginal": true,
+      "hash": "0eeece2d3ed543bfe4a93aa668cc6c271d3cb1d674c90ab909f1b68afc1581bf"
     }
   }
 }

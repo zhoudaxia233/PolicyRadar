@@ -1,0 +1,7 @@
+
+> policy-radar@0.1.0 build
+> node --experimental-strip-types scripts/build-static.mjs
+
+(node:89301) ExperimentalWarning: Type Stripping is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+Static site built: 274 policies, 354 revisions, 2057 verified evidence files. No server credentials required.

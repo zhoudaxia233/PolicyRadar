@@ -304,7 +304,9 @@ On 2026-10-03 the owner explicitly authorized publishing this implementation and
 automatically publishing subsequent weekly data updates after validation.
 Commit and push only the validated new export, new files in the shared `data/sources/` archive and
 `data/current-export.json`, and reviewed translation data in
-`data/translations/content.json` and `data/translations/bindings.json` to `main`. Do not include unrelated changes or publish
+`data/translations/content.json` and `data/translations/bindings.json` to `main`. The site links archived originals
+to their committed copies in `data/sources/` on `main`; an archive file that is not pushed is a broken
+evidence link. Do not include unrelated changes or publish
 unreviewed local commits. Check the remote state first; use only a fast-forward
 push, never force-push. If unrelated work or divergence prevents safe publication,
 preserve the prepared update and report the specific blocker.

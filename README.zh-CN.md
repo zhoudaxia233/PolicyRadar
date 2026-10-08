@@ -43,7 +43,7 @@ npm run build
 
 ## 数据维护
 
-[data/current-export.json](data/current-export.json) 指定当前数据集。构建时会校验政策数据及归档原文的哈希值。重新构建不等于重新核实事实；不得直接修改当前使用或历史导出文件的内容。
+[data/current-export.json](data/current-export.json) 指定当前数据集。构建时会校验政策数据及归档原文的哈希值。归档原文不随网站发布；网站链接到 `main` 分支 `data/sources/` 中已提交的副本，因此新增的归档文件必须与使用它的导出一起推送。重新构建不等于重新核实事实；不得直接修改当前使用或历史导出文件的内容。
 
 - [每周更新流程](data/UPDATE.md)：搜集、证据、新建导出及发布规则。
 - [翻译维护](data/translations/README.md)：经核查的翻译及过期内容处理。

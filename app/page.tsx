@@ -8,6 +8,7 @@ import {type Topic} from '../lib/domain/topics';
 import { IntakeView, TopicDocuments } from './intake-view';
 import { LanguageSwitch } from './language-switch';
 import { CompactSelect } from './compact-select';
+import { archiveUrl } from '../lib/archive-url';
 import { readNavigation, navigationSearch } from '../lib/domain/navigation';
 import { selectListing, countrySourceUrls, timelineEvents } from '../lib/domain/listing';
 import { translator, readLocale, localeSearch, languageTags, formatDate, originalRegionName, regionName, countryName as localizedCountryName, type Locale } from '../lib/i18n/index';
@@ -597,8 +598,9 @@ export default function Home() {
               </span>
               {c.snapshot_key && <a
                 className="snapshot"
-                href={'./' + c.snapshot_key + '.bin'}
-                download={c.snapshot_key.split('/').pop()}>
+                href={archiveUrl(c.snapshot_key)}
+                target="_blank"
+                rel="noreferrer">
                 {tr("存档")}
                 <Download size={13} />
               </a>}

@@ -1,8 +1,7 @@
 import {resolveTopicRegistry} from '../lib/domain/topics.ts';
-import {readSnapshot} from '../lib/source-archive.ts';
 import {build} from 'esbuild';
 import {mkdir,writeFile,readFile,copyFile,rm,rename,mkdtemp} from 'node:fs/promises';
-import {resolve,dirname} from 'node:path';
+import {resolve} from 'node:path';
 import {createHash} from 'node:crypto';
 import {createLocalization} from '../lib/i18n/build.ts';
 import {createStaticData,snapshotKey} from '../lib/static-data.ts';
@@ -26,15 +25,14 @@ try {
   await writeFile(resolve(output,'.nojekyll'),'');
   await writeFile(resolve(output,'data.json'),JSON.stringify(data));
   await writeFile(resolve(output,'policy-radar-export.json'),raw);
+  // Evidence is linked from the repository archive (lib/archive-url.ts), not copied into the site.
+  // Every link must resolve to committed bytes that still match their recorded hash.
   for(const s of exported.tables.snapshots){
     if(!snapshotKey.test(s.key))throw Error('Unsafe snapshot key');
-    const bytes=readSnapshot(source,s);
+    const bytes=await readFile(resolve('data/sources',s.key.split('/').at(-1))).catch(e=>{if(e.code==='ENOENT')throw Error('Snapshot missing from data/sources: '+s.key);throw e;});
     if(createHash('sha256').update(bytes).digest('hex')!==s.hash)throw Error('Snapshot checksum mismatch: '+s.key);
-    // Original third-party HTML is downloadable evidence, never an executable page on our origin.
-    const target=resolve(output,s.key+'.bin');
-    await mkdir(dirname(target),{recursive:true});await writeFile(target,bytes);
   }
   await rm('dist',{recursive:true,force:true});
   await rename(output,'dist');
-  console.log(`Static site built: ${data.policies.length} policies, ${exported.tables.revisions.length} revisions, ${exported.tables.snapshots.length} verified evidence files. No server credentials required.`);
+  console.log(`Static site built: ${data.policies.length} policies, ${exported.tables.revisions.length} revisions, ${exported.tables.snapshots.length} verified evidence files linked from the repository archive. No server credentials required.`);
 } finally {await rm(output,{recursive:true,force:true});}

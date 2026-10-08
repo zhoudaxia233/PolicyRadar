@@ -83,3 +83,7 @@ The registry's `appliesFromExport` anchors when these presentation judgments
 become applicable. Builds of older snapshots omit the newer groups. Candidate
 and current builds at or after that timestamp must resolve every reference;
 the anchor is not a policy/source verification timestamp.
+
+Closed proposals without an effective date must not use detail labels suggesting
+that commencement is awaited or that proposed changes became operative. Retain
+any recorded effective date for other kinds of closed matters.

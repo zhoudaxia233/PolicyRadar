@@ -95,3 +95,17 @@ test('weekly candidates accept both newer status codes through the operational s
   assert.doesNotThrow(()=>validateSelection(data,next),id);
  }
 });
+
+import {detailLabels} from '../lib/domain/model.ts';
+import {translator} from '../lib/i18n/index.ts';
+test('closed proposals do not imply pending commencement or enacted changes',()=>{
+ const green=by('de-crypto-holding-proposal');
+ const labels=detailLabels(green);
+ assert.deepEqual(labels,{date:'该事项已结束，未记录生效日期',change:'原拟议改变',rules:'原提案内容'});
+ for(const value of Object.values(labels))assert(!/[\u3400-\u9fff]/u.test(translator('en')(value)));
+ assert.equal(detailLabels({...green,phase:'pending'}).change,'拟议改变');
+ assert.equal(detailLabels({...green,phase:'adopted'}).date,'开始生效日期尚待核实');
+ const endedEffective={...green,effectiveDate:'2026-01-01'};
+ assert.equal(detailLabels(endedEffective).date,'本次改动开始生效：');
+ assert.equal(detailLabels(endedEffective).change,'修改之后');
+});

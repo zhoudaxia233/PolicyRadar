@@ -2,7 +2,7 @@
 import {PolicyStatusNote} from './policy-status-note';
 import { useCallback, useDeferredValue, useEffect, useMemo, useState, useRef, type ReactNode } from 'react';
 import { Radar, LayoutDashboard, Clock3, Activity, Database, Search, ChevronRight, ChevronDown, ExternalLink, Download, RefreshCw, MapPin, CalendarDays, FileText, X, ShieldCheck, AlertCircle, Layers, Sun, Moon, Monitor } from 'lucide-react';
-import { regions, countries, countryOf, keyDate, progressDate, berlinToday, isUpcoming, policyTags, lifecycle, nextStepLabel, type Policy } from '../lib/domain/model';
+import { regions, countries, detailLabels, countryOf, keyDate, progressDate, berlinToday, isUpcoming, policyTags, lifecycle, nextStepLabel, type Policy } from '../lib/domain/model';
 import { trackingStart, type IntakeRecord, type coverageRows } from '../lib/domain/intake';
 import {type Topic, type RecordGroup} from '../lib/domain/topics';
 import { IntakeView, TopicDocuments } from './intake-view';
@@ -970,7 +970,7 @@ export default function Home() {
             <CalendarDays size={18} />
             <div>
               <strong>
-                {selected.effectiveDate ? tr(selected.effectiveDateKind === 'application' ? "本次要求开始适用：" : "本次改动开始生效：") + fmt(selected.effectiveDate) : selected.phase === 'pending' ? tr("尚未确认通过，没有已生效日期") : tr("开始生效日期尚待核实")}
+                {tr(detailLabels(selected).date) + (selected.effectiveDate ? fmt(selected.effectiveDate) : "")}
               </strong>
               <p lang={explanationLang(selected)}>
                 {selected.dateExplanation ?? tr("这里记录本次改动的开始生效日期；期限结束和后续步骤在下方时间线单独列出。")}
@@ -996,7 +996,7 @@ export default function Home() {
             </div>
             <div>
               <span>
-                {selected.phase === 'pending' ? tr("拟议改变") : tr("修改之后")}
+                {tr(detailLabels(selected).change)}
               </span>
               <p lang={explanationLang(selected)}>
                 {selected.after}
@@ -1024,7 +1024,7 @@ export default function Home() {
           </div>
           {!!selected.rules?.length && <div className="detail-block">
             <h3>
-              {selected.phase === 'pending' ? tr("具体想改什么") : tr("具体规定是什么")}
+              {tr(detailLabels(selected).rules)}
             </h3>
             <ul className="rule-list">
               {selected.rules.map((rule, i) => <li key={i}>

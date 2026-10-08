@@ -1,0 +1,33 @@
+{
+  "baseExport": "data/exports/2026-10-08-complete-translations/policy-radar-export.json",
+  "candidateExport": "data/exports/2026-10-08-daily-de-172528/policy-radar-export.json",
+  "exportedAt": "2026-10-08T17:27:51.042Z",
+  "scope": "DE daily, local only",
+  "newIntakeIds": [
+    "daily-de-20261008-bgbl-2-228",
+    "daily-de-20261008-bgbl-2-227",
+    "daily-de-20261008-bgbl-2-226",
+    "daily-de-20261008-bgbl-2-225",
+    "daily-de-20261008-bgbl-1-288",
+    "daily-de-20261008-bgbl-1-287",
+    "daily-de-20261008-bgbl-2-220",
+    "daily-de-20261008-bgbl-1-282",
+    "daily-de-20261008-social-digital-roadmap",
+    "daily-de-20261008-autobahn-finance",
+    "daily-de-20261008-digital-violence",
+    "daily-de-20261008-domestic-violence",
+    "daily-de-20261008-pnog",
+    "daily-de-20261008-tax-vote-result",
+    "daily-de-20261008-carf-agenda"
+  ],
+  "revisedPolicyIds": [
+    "de-crypto-holding-proposal",
+    "de-carf-agreement-2026"
+  ],
+  "newSnapshots": 42,
+  "newScanRuns": 17,
+  "coverageExitCode": 2,
+  "completeRecentChannels": 3,
+  "incompleteRecentChannels": 5,
+  "publication": "Not authorized for this run; no commit, push, merge or deployment."
+}

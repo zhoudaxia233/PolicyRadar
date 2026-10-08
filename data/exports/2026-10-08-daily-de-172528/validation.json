@@ -1,0 +1,26 @@
+{
+  "checkedAt": "2026-10-08T17:28:46.582429+00:00",
+  "tests": {
+    "passed": 177,
+    "failed": 0
+  },
+  "typecheck": {
+    "command": "npx tsc --noEmit --incremental false",
+    "exitCode": 0
+  },
+  "build": {
+    "exitCode": 0,
+    "policies": 274,
+    "revisions": 354,
+    "evidenceFiles": 2057
+  },
+  "selection": {
+    "exitCode": 0,
+    "path": "data/exports/2026-10-08-daily-de-172528/policy-radar-export.json"
+  },
+  "recentCoverage": {
+    "exitCode": 2,
+    "incompleteChannels": 5
+  },
+  "topicReview": "Existing explicit-number groups cover both revised parliamentary records; no additional grouping relation established."
+}

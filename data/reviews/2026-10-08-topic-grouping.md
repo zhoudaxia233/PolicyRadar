@@ -31,7 +31,7 @@ Additional Spanish correction candidates were examined. The source original is a
 - Responsive check at 390 px with documents expanded: no horizontal page overflow.
 - `npm run data:topics` validates all current references and reports unresolved candidate buckets without merging automatically.
 
-Re-check against the current export `2026-10-08-crypto-alternatives-173843` (which `topics.json` applies from): 2,956 records and 275 policies scanned; 86 matters contain 202 records; the only unmerged candidate buckets are the six listed above. 180 automated tests, TypeScript and the static build pass (2,062 verified evidence files).
+Re-check against the current export `2026-10-08-crypto-alternatives-173843` (which `topics.json` applies from): 2,956 records and 275 policies scanned; 86 matters contain 202 records; the only unmerged candidate buckets are the six listed above. The 16 records added since `2026-10-08-complete-translations` were reviewed as a set: the three crypto records join `de-crypto-information-exchange` (BT-Drs. 21/7195) and `de-crypto-holding-period` (BMF draft and BT-Drs. 21/5752). The other 13 stay independent: BGBl. 2026 II Nr. 220 concerns the multilateral agreement of 15 January 2025, not the 8 June 2023 agreement in BT-Drs. 21/7195; Nr. 225 and Nr. 226 cover the UN personnel-safety convention and its separate optional protocol; the remaining records have no related original in the inventory. 180 automated tests, TypeScript and the static build pass (2,062 verified evidence files).
 
 ## Future updates
 

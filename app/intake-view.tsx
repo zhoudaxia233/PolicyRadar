@@ -12,7 +12,7 @@ function RecordContent({record:r,nested=false,policies,open,locale,localization}
  const Heading=nested?'h3':'h2';
  const language=locale!=='zh'&&localization.intake[r.id]==='current'?languageTags[locale]:r.titleZh?'zh-CN':localization.originalIntakeTitles[r.id]?(r.originalLanguage??localization.sourceLanguages[r.id]??'und'):'zh-CN';
  return <>
-  <div className="card-top"><span className={'badge '+(r.stage==='adopted'?'green':'amber')}>{r.stage==='adopted'?tr('已确认通过或公布'):r.stage==='pending'?tr('待决'):tr('内容待核实')}</span><span>{regionName(r.region,locale)}</span></div>
+  <div className="card-top"><span className={'badge '+(r.stage==='adopted'?'green':'amber')}>{tr('记录当时：')}{r.stage==='adopted'?tr('已确认通过或公布'):r.stage==='pending'?tr('待决'):tr('内容待核实')}</span><span>{regionName(r.region,locale)}</span></div>
   <Heading lang={language}>{r.titleZh??r.title}</Heading>
   {locale!=='zh'&&localization.intake[r.id]!=='current'&&<p className="translation-note">{tr('当前语言的解读待补充或更新，暂显示已有解读。')}</p>}
   {localization.originalIntakeTitles[r.id]&&r.titleZh&&r.titleZh!==r.title&&<p className="original-title" lang={r.originalLanguage??localization.sourceLanguages[r.id]??'und'}>{r.title}</p>}
@@ -29,7 +29,7 @@ export function TopicDocuments({group,...context}:Context&{group:RecordGroup}){
  const tr=translator(context.locale);
  return <details className="topic-documents" key={group.records.map(r=>r.id).join('|')}>
   <summary>{tr('查看 {0} 条匹配的文件与进展',[group.records.length])}</summary>
-  <p className="topic-explanation">{tr('各文件分别保留日期、法律阶段及核实状态；归组不代表整项政策已通过或生效。')}</p>
+  <p className="topic-explanation">{tr('以下是同一事项的不同文件或进展。标签表示各记录当时的阶段，不是多个当前状态；归组不代表整项政策已通过或生效。')}</p>
   <ol>{group.records.map(record=><li className="topic-document" key={record.id}><RecordContent {...context} record={record} nested /></li>)}</ol>
  </details>;
 }

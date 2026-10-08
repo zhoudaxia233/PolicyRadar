@@ -157,6 +157,8 @@ export const messages = {
   "没有匹配的政策": "No matching policies",
   "试试其他关键词，或调整标签与地区。": "Try other keywords or adjust topics and region.",
   "未来安排 · 不代表结果": "Scheduled · not a confirmed outcome",
+  "记录当时：": "At the time of this record: ",
+  "以下是同一事项的不同文件或进展。标签表示各记录当时的阶段，不是多个当前状态；归组不代表整项政策已通过或生效。": "These are documents or developments within the same matter. Badges describe the stage at the time of each record, not multiple current statuses. Grouping does not mean the whole matter is adopted or in force.",
   "已确认通过或公布": "Adoption or publication confirmed",
   "内容待核实": "Content awaiting verification",
   "打开原始文件：": "Open original document: ",

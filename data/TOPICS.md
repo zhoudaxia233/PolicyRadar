@@ -56,7 +56,13 @@ policy-question completeness gate in UPDATE.md.
 
 The official-progress view counts matters and separately reports matched records.
 A group is sorted by its latest **matching** record date; children are ordered
-chronologically by their own stored date. The date label stays document-specific;
+chronologically by their own stored date. Record stage badges must explicitly say they describe the stage at the time of
+that record, including inside adopted-policy listings. A pending first-reading
+record and a later adoption record are historical steps, not conflicting current
+statuses. Preserve their original stages; do not infer that another proposal in
+the same matter has advanced.
+
+The date label stays document-specific;
 publication is not adoption or commencement. A query matching the matter title
 can return the matter's documents; a query matching one file returns that file
 inside its matter, with an explicit matching-record count. Other child filters

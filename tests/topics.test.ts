@@ -126,3 +126,28 @@ test('the latest matching document orders a matter, without changing child dates
  const filtered=groupRecords([sample[0],sample[2]],[{id:'one',title:['事项','Matter'],recordIds:sample.slice(0,2).map(r=>r.id),policyIds:[]}]);
  assert.equal(filtered[0].records[0].id,sample[2].id);
 });
+
+test('a matter with several explanations is one dated card in the place of its first matching explanation',()=>{
+ for(const view of ['all','adopted','pending'])for(const country of ['DE','IT','EU','GB','ES'])for(const query of ['','加密','新生儿']){
+  const result=select({...base,country,view,query});
+  assert.equal(result.cards.length,result.policies.length+result.explainedGroups.length);
+  assert.equal(result.count,result.cards.length+result.rawGroups.length);
+  assert.deepEqual(result.cards.filter(c=>!c.group).map(c=>c.policy),result.policies);
+  assert.deepEqual(result.cards.filter(c=>c.group).map(c=>c.group),result.explainedGroups);
+  for(const c of result.cards)if(c.group)assert(c.group.policyIds.includes(c.policy.id));
+ }
+ const pending=select({...base,country:'DE',view:'pending'});
+ const crypto=pending.cards.find(c=>c.group?.id==='topic:de-crypto-holding-period')!;
+ assert(crypto);
+ // In the pending list the card is dated and labelled by the pending ministry draft, not the rejected bill.
+ assert.equal(crypto.policy.id,'de-bmf-crypto-tax-reform-2027');
+ assert.equal(pending.cards.filter(c=>c.group?.id==='topic:de-crypto-holding-period').length,1);
+ // With every version listed, the rejected bill still does not label the matter as ended.
+ const all=select({...base,country:'DE',view:'all'});
+ const matter=all.cards.filter(c=>c.group?.id==='topic:de-crypto-holding-period');
+ assert.equal(matter.length,1);assert.equal(matter[0].policy.id,'de-bmf-crypto-tax-reform-2027');
+ // Only closed versions match: the closed version leads rather than hiding the matter.
+ const withoutDraft=data.policies.filter(p=>p.id!=='de-bmf-crypto-tax-reform-2027');
+ const closed=selectListing(withoutDraft,data.intake.records,{...base,country:'DE',view:'all'},undefined,'2026-10-08',topics);
+ assert.deepEqual(closed.cards.filter(c=>c.group?.id==='topic:de-crypto-holding-period').map(c=>c.policy.id),['de-crypto-holding-proposal']);
+});

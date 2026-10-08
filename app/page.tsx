@@ -4,7 +4,7 @@ import { useCallback, useDeferredValue, useEffect, useMemo, useState, useRef, ty
 import { Radar, LayoutDashboard, Clock3, Activity, Database, Search, ChevronRight, ChevronDown, ExternalLink, Download, RefreshCw, MapPin, CalendarDays, FileText, X, ShieldCheck, AlertCircle, Layers, Sun, Moon, Monitor } from 'lucide-react';
 import { regions, countries, countryOf, keyDate, progressDate, berlinToday, isUpcoming, policyTags, lifecycle, nextStepLabel, type Policy } from '../lib/domain/model';
 import { trackingStart, type IntakeRecord, type coverageRows } from '../lib/domain/intake';
-import {type Topic} from '../lib/domain/topics';
+import {type Topic, type RecordGroup} from '../lib/domain/topics';
 import { IntakeView, TopicDocuments } from './intake-view';
 import { LanguageSwitch } from './language-switch';
 import { CompactSelect } from './compact-select';
@@ -260,6 +260,109 @@ export default function Home() {
     { id: 'updates', label: tr("政策时间线"), short: tr("时间线"), icon: Activity },
     { id: 'sources', label: tr("来源与更新"), short: tr("来源"), icon: Database }];
   const [title, subtitle] = headings[view] ?? headings.adopted;
+  const cardDate = (p: Policy) => {
+    const k = keyDate(p, today);
+    return <div className={'card-date ' + k.kind}>
+      <strong>
+        {+k.date.slice(8)}
+      </strong>
+      <span>
+        {formatDate(k.date, locale, { year: 'numeric', month: 'short' })}
+      </span>
+      <em>
+        {k.kind === 'next' ? tr("下一步") : k.kind === 'effective' ? tr("生效") : k.kind === 'application' ? tr("适用") : tr("进展")}
+      </em>
+    </div>;
+  };
+  const policyCard = (p: Policy) => <div className="policy-with-documents" key={p.id}><button
+    className={'policy-card' + (selected?.id === p.id ? ' current' : '')}
+    onClick={() => open(p)}
+    key={p.id}>
+    {cardDate(p)}
+    <div className="card-main">
+      <div className="card-top">
+        <span className={'badge ' + tone(p, today)}>
+          {stateLabel(p)}
+        </span>
+        <span className="card-category">
+          {names(p.region)}
+          ·
+          {ct(p.topic)}
+        </span>
+        {p.disputed && <span className="dispute-label">
+          {tr("有争议")}
+        </span>}
+      </div>
+      <h2 lang={explanationLang(p)}>
+        {p.title}
+      </h2>
+      {translationNotice(p)}
+      <p className="card-summary" lang={explanationLang(p)}>
+        {p.summary}
+      </p>
+      <div className="card-bottom">
+        <span>
+          <CalendarDays size={14} />
+          {ct(keyDate(p, today).label)}
+          {' '}
+          {fmt(keyDate(p, today).date)}
+        </span>
+        {keyDate(p, today).kind !== 'progress' && <span>
+          <Activity size={14} />
+          {tr('最近进展 {0}', [fmt(progressDate(p))])}
+        </span>}
+        <span>
+          <FileText size={14} />
+          {p.sources.length === 1 ? tr('1 个官方来源') : tr('{0} 个官方来源', [p.sources.length])}
+        </span>
+        <span className="card-detail-action">
+          {tr("查看详情")}
+          <ChevronRight size={14} />
+        </span>
+      </div>
+    </div>
+  </button>
+  {listing.policyGroups.filter(g=>g.policyIds.includes(p.id)).map(g=><TopicDocuments key={g.id} group={g} policies={items} open={open} locale={locale} localization={localization} />)}
+  </div>;
+  // A matter with several explanations (e.g. competing reform versions) is one dated card:
+  // its first matching explanation sets the date and badge, and every explanation stays one click away.
+  const matterCard = (lead: Policy, group: RecordGroup) => <div className="policy-with-documents" key={group.id}>
+    <div className="policy-card matter-card">
+      {cardDate(lead)}
+      <div className="card-main">
+        <div className="card-top">
+          <span className={'badge ' + tone(lead, today)}>
+            {stateLabel(lead)}
+          </span>
+          <span className="card-category">
+            {names(lead.region)}
+            ·
+            {ct(lead.topic)}
+          </span>
+        </div>
+        <h2 lang={languageTags[locale]}>
+          {group.title?.[locale === 'zh' ? 0 : 1]}
+        </h2>
+        <p className="matter-note">
+          {tr('本事项有 {0} 篇政策解读，分别对应不同版本或进展：', [group.policyIds.length])}
+        </p>
+        <ul className="matter-explanations">
+          {group.policyIds.map(id => items.find(p => p.id === id)).filter((p): p is Policy => !!p).map(p => <li key={p.id}>
+            <button className={selected?.id === p.id ? 'current' : ''} onClick={() => open(p)}>
+              <span className={'badge ' + tone(p, today)}>
+                {stateLabel(p)}
+              </span>
+              <span lang={explanationLang(p)}>
+                {p.title}
+              </span>
+              <ChevronRight size={14} />
+            </button>
+          </li>)}
+        </ul>
+      </div>
+    </div>
+    <TopicDocuments group={group} policies={items} open={open} locale={locale} localization={localization} />
+  </div>;
   const feedRow = ({ p, e }: { p: Policy; e: Policy['events'][number] }) => <button
     className="feed-row"
     key={p.id + e.id}
@@ -721,7 +824,6 @@ export default function Home() {
                 </>}
                 {feedByMonth()}
               </div> : <>
-              {listing.explainedGroups.length>0&&<IntakeView groups={listing.explainedGroups} policies={items} open={open} locale={locale} localization={localization}/> }
               {visibleRaw.length > 0 && <div className="raw-group">
                 <button
                   className="raw-toggle"
@@ -734,74 +836,12 @@ export default function Home() {
                 </button>
                 {rawOpen && <IntakeView groups={listing.rawGroups} policies={items} open={open} locale={locale} localization={localization} />}
               </div>}
-              {([[tr("即将发生"), visible.filter(p => isUpcoming(p, today)), 'future'], [tr("已经发生"), visible.filter(p => !isUpcoming(p, today)), '']] as const).filter(([, group]) => group.length > 0).map(([label, group, groupClass]) => <section key={label}>
+              {([[tr("即将发生"), listing.cards.filter(c => isUpcoming(c.policy, today)), 'future'], [tr("已经发生"), listing.cards.filter(c => !isUpcoming(c.policy, today)), '']] as const).filter(([, group]) => group.length > 0).map(([label, group, groupClass]) => <section key={label}>
                 <h3 className={'feed-month list-group ' + groupClass}>
                   {label} · {group.length}
                 </h3>
                 <div className="policy-list">
-                  {group.map(p => <div className="policy-with-documents" key={p.id}><button
-                    className={'policy-card' + (selected?.id === p.id ? ' current' : '')}
-                    onClick={() => open(p)}
-                    key={p.id}>
-                    {(() => {
-                      const k = keyDate(p, today);
-                      return <div className={'card-date ' + k.kind}>
-                        <strong>
-                          {+k.date.slice(8)}
-                        </strong>
-                        <span>
-                          {formatDate(k.date, locale, { year: 'numeric', month: 'short' })}
-                        </span>
-                        <em>
-                          {k.kind === 'next' ? tr("下一步") : k.kind === 'effective' ? tr("生效") : k.kind === 'application' ? tr("适用") : tr("进展")}
-                        </em>
-                      </div>;
-                    })()}
-                    <div className="card-main">
-                      <div className="card-top">
-                        <span className={'badge ' + tone(p, today)}>
-                          {stateLabel(p)}
-                        </span>
-                        <span className="card-category">
-                          {names(p.region)}
-                          ·
-                          {ct(p.topic)}
-                        </span>
-                        {p.disputed && <span className="dispute-label">
-                          {tr("有争议")}
-                        </span>}
-                      </div>
-                      <h2 lang={explanationLang(p)}>
-                        {p.title}
-                      </h2>
-                      {translationNotice(p)}
-                      <p className="card-summary" lang={explanationLang(p)}>
-                        {p.summary}
-                      </p>
-                      <div className="card-bottom">
-                        <span>
-                          <CalendarDays size={14} />
-                          {ct(keyDate(p, today).label)}
-                          {' '}
-                          {fmt(keyDate(p, today).date)}
-                        </span>
-                        {keyDate(p, today).kind !== 'progress' && <span>
-                          <Activity size={14} />
-                          {tr('最近进展 {0}', [fmt(progressDate(p))])}
-                        </span>}
-                        <span>
-                          <FileText size={14} />
-                          {p.sources.length === 1 ? tr('1 个官方来源') : tr('{0} 个官方来源', [p.sources.length])}
-                        </span>
-                        <span className="card-detail-action">
-                          {tr("查看详情")}
-                          <ChevronRight size={14} />
-                        </span>
-                      </div>
-                    </div>
-                  </button>
-                  {listing.policyGroups.filter(g=>g.policyIds.includes(p.id)).map(g=><TopicDocuments key={g.id} group={g} policies={items} open={open} locale={locale} localization={localization} />)}
-                  </div>)}
+                  {group.map(c => c.group ? matterCard(c.policy, c.group) : policyCard(c.policy))}
                 </div>
               </section>)}
             </>}

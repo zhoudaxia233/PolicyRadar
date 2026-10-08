@@ -152,3 +152,15 @@ test('a matter with several explanations is one dated card in the place of its f
  const closed=selectListing(withoutDraft,data.intake.records,{...base,country:'DE',view:'all'},undefined,'2026-10-08',topics);
  assert.deepEqual(closed.cards.filter(c=>c.group?.id==='topic:de-crypto-holding-period').map(c=>c.policy.id),['de-crypto-holding-proposal']);
 });
+
+test('rejected Green crypto bill remains reachable in all-policy searches',()=>{
+ const green=data.policies.find(p=>p.officialId==='BT-Drs. 21/5752')??data.policies.find(p=>p.officialId?.includes('21/5752'));
+ assert(green);
+ assert.equal(green.phase,'closed');
+ for(const query of ['21/5752','绿党']){
+  const result=select({...base,country:'DE',view:'all',query});
+  assert(result.cards.some(c=>c.policy.id===green.id||c.group?.policyIds.includes(green.id)),query);
+ }
+ const adopted=select({...base,country:'DE',view:'adopted',query:'21/5752'});
+ assert(!adopted.cards.some(c=>c.policy.id===green.id||c.group?.policyIds.includes(green.id)));
+});

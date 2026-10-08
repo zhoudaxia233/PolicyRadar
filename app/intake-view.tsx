@@ -1,3 +1,4 @@
+import {useState} from 'react';
 import {explainsRecord} from '../lib/domain/listing.ts';
 import {type RecordGroup} from '../lib/domain/topics.ts';
 import {type IntakeRecord} from '../lib/domain/intake';
@@ -33,14 +34,20 @@ export function TopicDocuments({group,...context}:Context&{group:RecordGroup}){
  </details>;
 }
 
+// Large countries have well over a thousand matters; rendering them all made every keystroke slow.
+// Counts elsewhere still cover every match, and a new result list starts again from the first page.
+export const intakePageSize=100;
 export function IntakeView({groups,...context}:Context&{groups:RecordGroup[]}){
  const tr=translator(context.locale),languageIndex=context.locale==='zh'?0:context.locale==='de'?1:2;
- return <div className="policy-list">{!groups.length?<div className="empty"><h3>{tr('暂没有匹配的官方进展记录')}</h3><p>{tr('这不表示没有政策变化。未查完的来源会在“来源与更新”列明。')}</p></div>:groups.map(group=><article className="intake-card" key={group.id}>
+ const [shown,setShown]=useState({groups,limit:intakePageSize});
+ const limit=shown.groups===groups?shown.limit:intakePageSize;
+ return <><div className="policy-list">{!groups.length?<div className="empty"><h3>{tr('暂没有匹配的官方进展记录')}</h3><p>{tr('这不表示没有政策变化。未查完的来源会在“来源与更新”列明。')}</p></div>:groups.slice(0,limit).map(group=><article className="intake-card" key={group.id}>
   {group.title?<>
    <div className="card-top"><span>{regionName(group.records[0].region,context.locale)}</span><span>{tr('{0} 条官方记录',[group.records.length])}</span></div>
    <h2 lang={languageTags[context.locale]}>{group.title[languageIndex]}</h2>
    <p>{tr('最近匹配的记录：{0}',[formatDate(group.records.at(-1)!.date,context.locale)])}</p>
    <TopicDocuments {...context} group={group}/>
   </>:<RecordContent {...context} record={group.records[0]}/>}
- </article>)}</div>;
+ </article>)}</div>
+ {groups.length>limit&&<button className="quiet-button show-more" onClick={()=>setShown({groups,limit:limit+intakePageSize})}>{tr('显示更多（还有 {0} 个事项）',[groups.length-limit])}</button>}</>;
 }

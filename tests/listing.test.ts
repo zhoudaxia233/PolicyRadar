@@ -90,3 +90,14 @@ test('the shared timeline hides review-dated corrections that each policy histor
  assert.equal(happened[0].e.date,'2026-10-05');
  assert(de.some(p=>p.events.some(e=>e.kind==='correction')));
 });
+
+test('reused search text gives the same listings and counts as computing it on every call',()=>{
+ const text=(p:{id:string})=>[...data.policies,...data.intake.records].filter(x=>x.id===p.id).map(x=>JSON.stringify(x)).join(' ').toLocaleLowerCase();
+ const stable=(p:{id:string})=>text(p);
+ for(const view of ['adopted','pending','all','intake'])for(const query of ['', '21/5752','STEUER','krypto'])for(const tags of [[],['加密资产']]){
+  const state={...base,view,query,tags};
+  const fresh=selectListing(data.policies,data.intake.records,state,p=>text(p));
+  assert.deepEqual(selectListing(data.policies,data.intake.records,state,stable),fresh);
+  assert.deepEqual(selectListing(data.policies,data.intake.records,state,stable),fresh);
+ }
+});

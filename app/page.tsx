@@ -1,6 +1,6 @@
 'use client';
 import {PolicyStatusNote} from './policy-status-note';
-import { useEffect, useMemo, useState, useRef, type ReactNode } from 'react';
+import { useCallback, useDeferredValue, useEffect, useMemo, useState, useRef, type ReactNode } from 'react';
 import { Radar, LayoutDashboard, Clock3, Activity, Database, Search, ChevronRight, ChevronDown, ExternalLink, Download, RefreshCw, MapPin, CalendarDays, FileText, X, ShieldCheck, AlertCircle, Layers, Sun, Moon, Monitor } from 'lucide-react';
 import { regions, countries, countryOf, keyDate, progressDate, berlinToday, isUpcoming, policyTags, lifecycle, nextStepLabel, type Policy } from '../lib/domain/model';
 import { trackingStart, type IntakeRecord, type coverageRows } from '../lib/domain/intake';
@@ -78,7 +78,8 @@ export default function Home() {
   const intake = useMemo(() => ({ ...canonicalIntake, records: canonicalIntake.records.map(r => localizeIntake(r, locale, localization)) }), [canonicalIntake, locale, localization]);
   const selected = items.find(p => p.id === selectedId) ?? null;
   const searchIndex = useMemo(() => new Map([...canonicalItems, ...canonicalIntake.records].map(p => [p.id, searchText(p, localization)])), [canonicalItems, canonicalIntake, localization]);
-  const matchText = (p: { id: string }) => searchIndex.get(p.id) ?? '';
+  // Stable per search index, so listing can reuse each record's search text across renders.
+  const matchText = useCallback((p: { id: string }) => searchIndex.get(p.id) ?? '', [searchIndex]);
   // Lifecycle decisions always use canonical data, never translated nextLabel/status.
   const stateLabel = (p: Policy) => tr(lifecycle(canonicalItems.find(original => original.id === p.id) ?? p, today));
   const explanationLang = (p: { id: string }, kind: 'policies' | 'intake' = 'policies') => locale === 'zh' || localization[kind][p.id] !== 'current' ? 'zh-CN' : languageTags[locale];
@@ -131,7 +132,7 @@ export default function Home() {
   }, []);
   async function load() {
     try {
-      const response = await fetch('./data.json', { cache: 'no-store' });
+      const response = await fetch('./data.json', { cache: 'no-cache' });
       if (!response.ok) throw Error('data-unavailable');
       const data = await response.json() as { policies: Policy[]; status: Status; intake: IntakeData; localization: Localization;topics?:Topic[] };
       setLocalization(data.localization ?? emptyLocalization);
@@ -214,14 +215,20 @@ export default function Home() {
       resize.disconnect();
     };
   }, [country]);
-  const filters = { view, country, region, query, tags };
-  const listing = selectListing(items, intake.records, filters, matchText, today, topics);
+  // Typing stays responsive: results and counts follow the query once React has time to recompute them.
+  const listedQuery = useDeferredValue(query);
+  const filters = useMemo(() => ({ view, country, region, query: listedQuery, tags }), [view, country, region, listedQuery, tags]);
+  const listing = useMemo(() => selectListing(items, intake.records, filters, matchText, today, topics), [items, intake.records, filters, matchText, today, topics]);
   const { policies: visible, raw: visibleRaw, progress: newRecords } = listing;
   const tagOptions = [...new Set([...scoped.flatMap(policyTags), ...records.flatMap(policyTags), ...tags])].sort((a, b) => ct(a).localeCompare(ct(b), languageTags[locale]));
-  const viewCount = (target: string) => selectListing(items, intake.records, { ...filters, view: target }, matchText, today, topics).count;
+  // Each count is computed once per filter change; the sidebar and region menu share the same result.
+  const viewCounts = useMemo(() => new Map(['intake', 'adopted', 'pending', 'all'].map(target => [target, selectListing(items, intake.records, { ...filters, view: target }, matchText, today, topics).count])), [items, intake.records, filters, matchText, today, topics]);
+  const viewCount = (target: string) => viewCounts.get(target);
   const upcoming = scoped.filter(p => p.nextDate && p.nextDate >= today).sort((a, b) => a.nextDate!.localeCompare(b.nextDate!));
-  const regionCount = (id: string) => selectListing(items, intake.records, { ...filters, region: id, view: view === 'sources' ? 'all' : view }, matchText, today, topics).count;
-  const sourceCount = (id: string) => selectListing(items, intake.records, { view: 'all', country, region: id, query: '', tags: [] }, undefined, today, topics).count;
+  const regionCounts = useMemo(() => new Map(['all', ...regions.filter(r => countryOf(r.id) === filters.country).map(r => r.id)].map(id => [id, selectListing(items, intake.records, { ...filters, region: id, view: filters.view === 'sources' ? 'all' : filters.view }, matchText, today, topics).count])), [items, intake.records, filters, matchText, today, topics]);
+  const regionCount = (id: string) => regionCounts.get(id) ?? 0;
+  const sourceCounts = useMemo(() => new Map(['all', ...regions.filter(r => countryOf(r.id) === country).map(r => r.id)].map(id => [id, selectListing(items, intake.records, { view: 'all', country, region: id, query: '', tags: [] }, undefined, today, topics).count])), [items, intake.records, country, today, topics]);
+  const sourceCount = (id: string) => sourceCounts.get(id) ?? 0;
   const pickRegion = (id: string) => {
     setRegion(id);
     if (!['adopted', 'pending', 'all', 'updates', 'intake'].includes(view)) setView('all');

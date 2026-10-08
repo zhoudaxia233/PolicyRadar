@@ -4,6 +4,7 @@ export const messages = {
   "{0} 个事项 · {1} 条官方记录": ["{0} Vorgänge · {1} offizielle Einträge", "{0} matters · {1} official records"],
   " · {0} 个待解读事项（{1} 条记录）": [" · {0} Vorgänge ohne Erläuterung ({1} Einträge)", " · {0} matters awaiting explanation ({1} records)"],
   "待解读事项 · {0} 项／{1} 条记录（点击展开）": ["Vorgänge ohne Erläuterung · {0} Vorgänge / {1} Einträge (aufklappen)", "Matters awaiting explanation · {0} matters / {1} records (expand)"],
+  "显示更多（还有 {0} 个事项）": ["Mehr anzeigen (noch {0} Vorgänge)", "Show more ({0} more matters)"],
   "查看 {0} 条匹配的文件与进展": ["{0} passende Dokumente und Entwicklungen anzeigen", "View {0} matching documents and developments"],
   "各文件分别保留日期、法律阶段及核实状态；归组不代表整项政策已通过或生效。": ["Jedes Dokument behält sein Datum, seinen rechtlichen Stand und seinen Prüfstatus. Die Gruppierung bedeutet nicht, dass der gesamte Vorgang beschlossen oder in Kraft ist.", "Each document retains its own date, legal stage and verification status. Grouping does not mean the entire matter is adopted or in force."],
   "{0} 条官方记录": ["{0} offizielle Einträge", "{0} official records"],

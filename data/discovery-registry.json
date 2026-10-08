@@ -2309,5 +2309,411 @@
     "title": "德国财政部：法律与法案目录",
     "publisher": "Bundesministerium der Finanzen",
     "kind": "government"
+  },
+  {
+    "region": "US",
+    "url": "https://www.whitehouse.gov/presidential-actions/",
+    "title": "美国：总统文件",
+    "publisher": "The White House",
+    "kind": "government"
+  },
+  {
+    "region": "US",
+    "url": "https://www.congress.gov/",
+    "title": "美国：国会立法与进展",
+    "publisher": "Library of Congress",
+    "kind": "parliament"
+  },
+  {
+    "region": "US",
+    "url": "https://www.govinfo.gov/app/collection/PLAW/",
+    "title": "美国：公法与私法",
+    "publisher": "U.S. Government Publishing Office",
+    "kind": "law"
+  },
+  {
+    "region": "US",
+    "url": "https://www.govinfo.gov/app/collection/FR",
+    "title": "美国：联邦公报",
+    "publisher": "U.S. Government Publishing Office",
+    "kind": "gazette"
+  },
+  {
+    "region": "US",
+    "url": "https://uscode.house.gov/",
+    "title": "美国：美国法典",
+    "publisher": "Office of the Law Revision Counsel",
+    "kind": "law"
+  },
+  {
+    "region": "US",
+    "url": "https://www.ecfr.gov/",
+    "title": "美国：联邦规章汇编",
+    "publisher": "Office of the Federal Register / U.S. Government Publishing Office",
+    "kind": "law"
+  },
+  {
+    "region": "US-AL",
+    "url": "https://www.alabama.gov/",
+    "title": "阿拉巴马：州政府入口",
+    "publisher": "Alabama",
+    "kind": "government"
+  },
+  {
+    "region": "US-AK",
+    "url": "https://alaska.gov/",
+    "title": "阿拉斯加：州政府入口",
+    "publisher": "Alaska",
+    "kind": "government"
+  },
+  {
+    "region": "US-AZ",
+    "url": "https://az.gov/",
+    "title": "亚利桑那：州政府入口",
+    "publisher": "Arizona",
+    "kind": "government"
+  },
+  {
+    "region": "US-AR",
+    "url": "https://portal.arkansas.gov/",
+    "title": "阿肯色：州政府入口",
+    "publisher": "Arkansas",
+    "kind": "government"
+  },
+  {
+    "region": "US-CA",
+    "url": "https://www.ca.gov/",
+    "title": "加利福尼亚：州政府入口",
+    "publisher": "California",
+    "kind": "government"
+  },
+  {
+    "region": "US-CO",
+    "url": "https://www.colorado.gov/",
+    "title": "科罗拉多：州政府入口",
+    "publisher": "Colorado",
+    "kind": "government"
+  },
+  {
+    "region": "US-CT",
+    "url": "https://portal.ct.gov/",
+    "title": "康涅狄格：州政府入口",
+    "publisher": "Connecticut",
+    "kind": "government"
+  },
+  {
+    "region": "US-DE",
+    "url": "https://delaware.gov/",
+    "title": "特拉华：州政府入口",
+    "publisher": "Delaware",
+    "kind": "government"
+  },
+  {
+    "region": "US-DC",
+    "url": "https://dc.gov/",
+    "title": "华盛顿特区：特区政府入口",
+    "publisher": "District of Columbia",
+    "kind": "government"
+  },
+  {
+    "region": "US-FL",
+    "url": "https://www.myflorida.com/",
+    "title": "佛罗里达：州政府入口",
+    "publisher": "Florida",
+    "kind": "government"
+  },
+  {
+    "region": "US-GA",
+    "url": "https://georgia.gov/",
+    "title": "佐治亚：州政府入口",
+    "publisher": "Georgia",
+    "kind": "government"
+  },
+  {
+    "region": "US-HI",
+    "url": "https://portal.ehawaii.gov/",
+    "title": "夏威夷：州政府入口",
+    "publisher": "Hawaii",
+    "kind": "government"
+  },
+  {
+    "region": "US-ID",
+    "url": "https://www.idaho.gov/",
+    "title": "爱达荷：州政府入口",
+    "publisher": "Idaho",
+    "kind": "government"
+  },
+  {
+    "region": "US-IL",
+    "url": "https://www.illinois.gov/",
+    "title": "伊利诺伊：州政府入口",
+    "publisher": "Illinois",
+    "kind": "government"
+  },
+  {
+    "region": "US-IN",
+    "url": "https://www.in.gov/core/index.html",
+    "title": "印第安纳：州政府入口",
+    "publisher": "Indiana",
+    "kind": "government"
+  },
+  {
+    "region": "US-IA",
+    "url": "https://www.iowa.gov/",
+    "title": "艾奥瓦：州政府入口",
+    "publisher": "Iowa",
+    "kind": "government"
+  },
+  {
+    "region": "US-KS",
+    "url": "https://portal.kansas.gov/",
+    "title": "堪萨斯：州政府入口",
+    "publisher": "Kansas",
+    "kind": "government"
+  },
+  {
+    "region": "US-KY",
+    "url": "https://www.kentucky.gov/Pages/home.aspx",
+    "title": "肯塔基：州政府入口",
+    "publisher": "Kentucky",
+    "kind": "government"
+  },
+  {
+    "region": "US-LA",
+    "url": "https://www.louisiana.gov/",
+    "title": "路易斯安那：州政府入口",
+    "publisher": "Louisiana",
+    "kind": "government"
+  },
+  {
+    "region": "US-ME",
+    "url": "https://www.maine.gov/portal/index.html",
+    "title": "缅因：州政府入口",
+    "publisher": "Maine",
+    "kind": "government"
+  },
+  {
+    "region": "US-MD",
+    "url": "https://www.maryland.gov/Pages/default.aspx",
+    "title": "马里兰：州政府入口",
+    "publisher": "Maryland",
+    "kind": "government"
+  },
+  {
+    "region": "US-MA",
+    "url": "https://www.mass.gov/",
+    "title": "马萨诸塞：州政府入口",
+    "publisher": "Massachusetts",
+    "kind": "government"
+  },
+  {
+    "region": "US-MI",
+    "url": "https://www.michigan.gov/som",
+    "title": "密歇根：州政府入口",
+    "publisher": "Michigan",
+    "kind": "government"
+  },
+  {
+    "region": "US-MN",
+    "url": "https://mn.gov/portal/",
+    "title": "明尼苏达：州政府入口",
+    "publisher": "Minnesota",
+    "kind": "government"
+  },
+  {
+    "region": "US-MS",
+    "url": "https://www.ms.gov/",
+    "title": "密西西比：州政府入口",
+    "publisher": "Mississippi",
+    "kind": "government"
+  },
+  {
+    "region": "US-MO",
+    "url": "https://www.mo.gov/",
+    "title": "密苏里：州政府入口",
+    "publisher": "Missouri",
+    "kind": "government"
+  },
+  {
+    "region": "US-MT",
+    "url": "https://mt.gov/",
+    "title": "蒙大拿：州政府入口",
+    "publisher": "Montana",
+    "kind": "government"
+  },
+  {
+    "region": "US-NE",
+    "url": "https://www.nebraska.gov/",
+    "title": "内布拉斯加：州政府入口",
+    "publisher": "Nebraska",
+    "kind": "government"
+  },
+  {
+    "region": "US-NV",
+    "url": "https://nv.gov/",
+    "title": "内华达：州政府入口",
+    "publisher": "Nevada",
+    "kind": "government"
+  },
+  {
+    "region": "US-NH",
+    "url": "https://www.nh.gov/index.htm",
+    "title": "新罕布什尔：州政府入口",
+    "publisher": "New Hampshire",
+    "kind": "government"
+  },
+  {
+    "region": "US-NJ",
+    "url": "https://www.nj.gov/",
+    "title": "新泽西：州政府入口",
+    "publisher": "New Jersey",
+    "kind": "government"
+  },
+  {
+    "region": "US-NM",
+    "url": "https://www.nm.gov/",
+    "title": "新墨西哥：州政府入口",
+    "publisher": "New Mexico",
+    "kind": "government"
+  },
+  {
+    "region": "US-NY",
+    "url": "https://www.ny.gov/",
+    "title": "纽约：州政府入口",
+    "publisher": "New York",
+    "kind": "government"
+  },
+  {
+    "region": "US-NC",
+    "url": "https://www.nc.gov/",
+    "title": "北卡罗来纳：州政府入口",
+    "publisher": "North Carolina",
+    "kind": "government"
+  },
+  {
+    "region": "US-ND",
+    "url": "https://www.nd.gov/",
+    "title": "北达科他：州政府入口",
+    "publisher": "North Dakota",
+    "kind": "government"
+  },
+  {
+    "region": "US-OH",
+    "url": "https://ohio.gov/home",
+    "title": "俄亥俄：州政府入口",
+    "publisher": "Ohio",
+    "kind": "government"
+  },
+  {
+    "region": "US-OK",
+    "url": "https://oklahoma.gov/",
+    "title": "俄克拉荷马：州政府入口",
+    "publisher": "Oklahoma",
+    "kind": "government"
+  },
+  {
+    "region": "US-OR",
+    "url": "https://www.oregon.gov/pages/index.aspx",
+    "title": "俄勒冈：州政府入口",
+    "publisher": "Oregon",
+    "kind": "government"
+  },
+  {
+    "region": "US-PA",
+    "url": "https://www.pa.gov/",
+    "title": "宾夕法尼亚：州政府入口",
+    "publisher": "Pennsylvania",
+    "kind": "government"
+  },
+  {
+    "region": "US-RI",
+    "url": "https://www.ri.gov/",
+    "title": "罗得岛：州政府入口",
+    "publisher": "Rhode Island",
+    "kind": "government"
+  },
+  {
+    "region": "US-SC",
+    "url": "https://sc.gov/",
+    "title": "南卡罗来纳：州政府入口",
+    "publisher": "South Carolina",
+    "kind": "government"
+  },
+  {
+    "region": "US-SD",
+    "url": "https://www.sd.gov",
+    "title": "南达科他：州政府入口",
+    "publisher": "South Dakota",
+    "kind": "government"
+  },
+  {
+    "region": "US-TN",
+    "url": "https://www.tn.gov/",
+    "title": "田纳西：州政府入口",
+    "publisher": "Tennessee",
+    "kind": "government"
+  },
+  {
+    "region": "US-TX",
+    "url": "https://www.texas.gov/",
+    "title": "得克萨斯：州政府入口",
+    "publisher": "Texas",
+    "kind": "government"
+  },
+  {
+    "region": "US-UT",
+    "url": "https://www.utah.gov/index.html",
+    "title": "犹他：州政府入口",
+    "publisher": "Utah",
+    "kind": "government"
+  },
+  {
+    "region": "US-VT",
+    "url": "https://www.vermont.gov/",
+    "title": "佛蒙特：州政府入口",
+    "publisher": "Vermont",
+    "kind": "government"
+  },
+  {
+    "region": "US-VA",
+    "url": "https://www.virginia.gov/",
+    "title": "弗吉尼亚：州政府入口",
+    "publisher": "Virginia",
+    "kind": "government"
+  },
+  {
+    "region": "US-WA",
+    "url": "https://wa.gov/",
+    "title": "华盛顿州：州政府入口",
+    "publisher": "Washington",
+    "kind": "government"
+  },
+  {
+    "region": "US-WV",
+    "url": "https://www.wv.gov/Pages/default.aspx",
+    "title": "西弗吉尼亚：州政府入口",
+    "publisher": "West Virginia",
+    "kind": "government"
+  },
+  {
+    "region": "US-WI",
+    "url": "https://www.wisconsin.gov/Pages/Home.aspx",
+    "title": "威斯康星：州政府入口",
+    "publisher": "Wisconsin",
+    "kind": "government"
+  },
+  {
+    "region": "US-WY",
+    "url": "https://www.wyo.gov/",
+    "title": "怀俄明：州政府入口",
+    "publisher": "Wyoming",
+    "kind": "government"
+  },
+  {
+    "region": "US",
+    "url": "https://www.irs.gov/newsroom",
+    "title": "美国：税务局新闻与实施说明",
+    "publisher": "Internal Revenue Service",
+    "kind": "government"
   }
 ]

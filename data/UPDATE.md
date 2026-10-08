@@ -66,6 +66,7 @@ up from stored coverage, rather than skip to the latest week.
    and Italy’s national level and all 20 regions, plus the EU supranational level
    and the UK national level and its four constituent parts, plus Spain’s national
    level, all 17 autonomous communities and the autonomous cities of Ceuta and Melilla,
+   plus the US federal level, all 50 states and the District of Columbia,
    across all policy topics. French
    departments, municipalities and other special overseas territories are not
    independently connected. Dutch municipalities, water authorities, Caribbean
@@ -510,3 +511,28 @@ connected. Preserve each document’s actual language and territorial scope.
 Registered portals do not establish access or completed scans. The first national
 policy is a targeted historical backfill; continuous coverage from 2026-01-01
 remains open. Distinguish legal commencement from retroactive wage effects.
+
+## United States coverage
+
+The initial US registry contains six federal entry points and the government
+portals of all 50 states and DC, verified against the USAGov state directory.
+DC is a federal district, not a state. State legislatures and state gazettes,
+local and tribal governments, and territories are not separately registered.
+Follow portal links to dated announcements and underlying documents; a portal
+visit is not a completed scan. All coverage from 2026-01-01 remains open.
+
+Keep bills, passage in each chamber, enactment, presidential actions, proposed
+rules, final rules, commencement and compliance dates distinct. Check current
+statutes, regulations, amendments and relevant judicial stays before claiming
+legal effect. Preserve each instrument's jurisdiction and original language.
+Group related documents only with explicit source evidence under TOPICS.md.
+A request to add a country includes an initial substantive scan and usable
+discoveries, unless the user explicitly asks for registration only. Do not stop
+after adding a selector or source list. Record actual scan attempts, ingest
+discoveries, explain verified matters, and leave inaccessible sources or
+unreviewed history as explicit gaps. Registration alone must not advance
+factual-review timestamps. This rule applies to every country.
+
+The initial US scan also registers the IRS newsroom as a seventh federal
+channel. See each export’s review and fetch ledger for its actual scope;
+partial scans do not imply exhaustive federal or state coverage.

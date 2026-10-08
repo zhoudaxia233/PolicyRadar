@@ -1,0 +1,43 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import {readFileSync} from 'node:fs';
+import {createStaticData} from '../lib/static-data.ts';
+import {validateSelection} from '../lib/update-data.ts';
+import {resolveTopicRegistry} from '../lib/domain/topics.ts';
+import {lifecycle} from '../lib/domain/model.ts';
+const read=(p:string)=>JSON.parse(readFileSync(p,'utf8'));
+const folder='data/exports/2026-10-08-eu-channels-201440';
+const exported=read(folder+'/policy-radar-export.json'),manifest=read(folder+'/manifest.json');
+const data=createStaticData(exported);
+test('EU October repair review preserves history and the old-contract boundary',()=>{
+ validateSelection(read(manifest.baseExport),exported,new Date(exported.exportedAt));
+ const p=data.policies.find(p=>p.id==='eu-right-to-repair-2024')!;
+ assert.match(p.summary,/2026年7月31日/u);
+ assert.match(p.impact,/2026年7月1日/u);
+ assert.match(p.impact,/不适用/u);
+ assert.match(p.limits,/担保期内.*免费/u);
+ assert.equal(p.nextDate,'2027-07-31');
+ assert.equal(p.status,'phased');
+ const corr=data.intake.records.find(r=>r.officialId==='OJ:L_202690848')!;
+ assert.match(corr.note,/29.*30/u);
+ assert.match(corr.note,/未改变/u);
+});
+test('adopted farm conditions and earmarked research grants retain different legal stages',()=>{
+ const farm=data.policies.find(p=>p.id==='eu-pig-poultry-operating-rules-2026')!;
+ assert.equal(farm.phase,'adopted');assert.equal(farm.effectiveDate,null);
+ assert.equal(farm.nextDate,'2030-10-08');assert.equal(farm.nextKind,'implementation');
+ assert.match(farm.limits,/不是.*最低门槛/u);
+ const funding=data.policies.find(p=>p.id==='eu-life-science-data-funding-2026')!;
+ assert.equal(funding.phase,'pending');assert.equal(funding.nextDate,null);
+ assert.equal(lifecycle(funding,'2026-10-08'),'尚未通过');
+ assert.match(funding.limits,/不等于.*已拨付/u);
+});
+test('October first-reading and signing records do not imply final enactment',()=>{
+ const workers=data.intake.records.find(r=>r.officialId==='2025/0232(COD)')!;
+ assert.equal(workers.stage,'pending');assert.match(workers.note,/待理事会一读立场/u);
+ const pnr=data.intake.records.find(r=>r.officialId==='OJ:L_202602251')!;
+ assert.match(pnr.note,/仅授权签署/u);assert.match(pnr.note,/仍须完成/u);
+ const scans=exported.tables.scan_runs.filter((r:{id:string})=>r.id.startsWith('scan-eu-oct08-')).map((r:{data:string})=>JSON.parse(r.data));
+ assert.equal(new Set(scans.map((s:{sourceUrl:string})=>s.sourceUrl)).size,4);
+ assert(scans.every((s:{status:string})=>s.status==='partial'));
+});

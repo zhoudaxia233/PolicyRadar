@@ -1,5 +1,5 @@
 {
-  "appliesFromExport": "2026-10-08T17:38:43.061Z",
+  "appliesFromExport": "2026-10-08T20:14:40.259Z",
   "topics": [
     {
       "id": "eu-morocco-prima",
@@ -1659,6 +1659,358 @@
         {
           "region": "GB-WLS",
           "officialId": "W.S.I. 2026/37"
+        }
+      ]
+    },
+    {
+      "id": "eu-russia-destabilisation-oct2026",
+      "title": [
+        "俄罗斯破坏稳定活动制裁：2026年10月续期与名单更新",
+        "Russia destabilisation sanctions: October 2026 renewal and listings"
+      ],
+      "basis": "Regulation 2026/2257 and Decision 2026/2258 explicitly amend the parallel 2024/2642 and 2024/2643 regime and the same listings.",
+      "documents": [
+        {
+          "region": "EU",
+          "officialId": "OJ:L_202602257"
+        },
+        {
+          "region": "EU",
+          "officialId": "OJ:L_202602258"
+        }
+      ]
+    },
+    {
+      "id": "eu-ukraine-integrity-sanctions-oct2026",
+      "title": [
+        "乌克兰领土完整相关制裁：2026年10月名单更新",
+        "Ukraine territorial-integrity sanctions: October 2026 listings"
+      ],
+      "basis": "Regulation 2026/2263 and Decision 2026/2264 update the parallel 269/2014 and 2014/145 regime; they are distinct from the destabilisation sanctions.",
+      "documents": [
+        {
+          "region": "EU",
+          "officialId": "OJ:L_202602263"
+        },
+        {
+          "region": "EU",
+          "officialId": "OJ:L_202602264"
+        }
+      ]
+    },
+    {
+      "id": "eu-repair-directive-corrigendum",
+      "title": [
+        "维修权：指令、过渡条件与编号勘误",
+        "Right to repair: directive, transition and numbering corrigendum"
+      ],
+      "basis": "The corrigendum explicitly identifies Directive (EU) 2024/1799 and corrects Article 18 only. The original rule and its correction form one matter.",
+      "documents": [
+        {
+          "region": "EU",
+          "officialId": "Directive (EU) 2024/1799"
+        },
+        {
+          "region": "EU",
+          "officialId": "OJ:L_202690848"
+        }
+      ]
+    },
+    {
+      "id": "eu-pig-poultry-ucol",
+      "title": [
+        "养猪和家禽场统一运营与排放要求",
+        "Uniform operating and emission requirements for pig and poultry farms"
+      ],
+      "basis": "The announcement, decision C(2026)6899, its annex and accompanying SWD(2026)298 explicitly concern the same uniform operating conditions.",
+      "documents": [
+        {
+          "region": "EU",
+          "url": "https://environment.ec.europa.eu/news/new-eu-emissions-framework-poultry-pig-rearing-2026-10-08_en",
+          "title": "New EU emissions framework: Simpler rules for pig & poultry farmers, less red tape, and cleaner air"
+        },
+        {
+          "region": "EU",
+          "officialId": "C(2026) 6899 final"
+        },
+        {
+          "region": "EU",
+          "officialId": "C(2026) 6899 final Annex"
+        },
+        {
+          "region": "EU",
+          "officialId": "SWD(2026) 298 final"
+        }
+      ]
+    },
+    {
+      "id": "eu-enlargement-policy-reviews-oct2026",
+      "title": [
+        "欧盟扩大前政策审查",
+        "Pre-enlargement policy reviews"
+      ],
+      "basis": "The original texts identify the same specific announcement, case, report or payment. Departmental and Press Corner versions are retained as separate documents; grouping does not change their dates or stages.",
+      "documents": [
+        {
+          "region": "EU",
+          "url": "https://commission.europa.eu/news-and-media/news/preparing-wider-european-union-2026-10-06_en",
+          "title": "Preparing for a wider European Union"
+        },
+        {
+          "region": "EU",
+          "url": "https://enlargement.ec.europa.eu/news/questions-and-answers-pre-enlargement-policy-reviews-2026-10-06_en",
+          "title": "Questions and answers on the pre-enlargement policy reviews"
+        },
+        {
+          "region": "EU",
+          "url": "https://enlargement.ec.europa.eu/news/preparing-wider-union-2026-10-06_en",
+          "title": "Preparing for a wider Union"
+        },
+        {
+          "region": "EU",
+          "officialId": "IP/26/2075"
+        },
+        {
+          "region": "EU",
+          "officialId": "SPEECH/26/2102"
+        },
+        {
+          "region": "EU",
+          "officialId": "QANDA/26/2076"
+        }
+      ]
+    },
+    {
+      "id": "eu-standards-proposal-oct2026",
+      "title": [
+        "欧洲标准化改革提案",
+        "European standardisation reform proposal"
+      ],
+      "basis": "The original texts identify the same specific announcement, case, report or payment. Departmental and Press Corner versions are retained as separate documents; grouping does not change their dates or stages.",
+      "documents": [
+        {
+          "region": "EU",
+          "url": "https://single-market-economy.ec.europa.eu/news/commission-adopts-proposal-accelerate-standards-development-and-improve-eu-competitiveness-2026-10-06_en",
+          "title": "Commission adopts proposal to accelerate standards development and improve EU competitiveness"
+        },
+        {
+          "region": "EU",
+          "officialId": "IP/26/2070"
+        },
+        {
+          "region": "EU",
+          "officialId": "QANDA/26/2071"
+        }
+      ]
+    },
+    {
+      "id": "eu-kingspan-merger-fine-oct2026",
+      "title": [
+        "Kingspan 并购调查信息违法罚款",
+        "Kingspan merger-information fine"
+      ],
+      "basis": "The original texts identify the same specific announcement, case, report or payment. Departmental and Press Corner versions are retained as separate documents; grouping does not change their dates or stages.",
+      "documents": [
+        {
+          "region": "EU",
+          "url": "https://competition-policy.ec.europa.eu/about/news/commission-fines-kingspan-eur40-million-providing-incorrect-and-misleading-information-during-merger-2026-10-08_en",
+          "title": "Commission fines Kingspan €40 million for providing incorrect and misleading information during merger investigation"
+        },
+        {
+          "region": "EU",
+          "officialId": "IP/26/2084"
+        }
+      ]
+    },
+    {
+      "id": "eu-moldova-growth-payment-oct2026",
+      "title": [
+        "摩尔多瓦增长计划：2026年10月拨款",
+        "Moldova Growth Plan: October 2026 disbursement"
+      ],
+      "basis": "The original texts identify the same specific announcement, case, report or payment. Departmental and Press Corner versions are retained as separate documents; grouping does not change their dates or stages.",
+      "documents": [
+        {
+          "region": "EU",
+          "url": "https://enlargement.ec.europa.eu/news/european-union-and-moldova-reiterate-their-strong-partnership-and-announce-disbursement-eur157-2026-10-05_en",
+          "title": "The European Union and Moldova reiterate their strong partnership and announce the disbursement of €157 million under Growth Plan funding at the 10th EU-Moldova Association Council"
+        },
+        {
+          "region": "EU",
+          "url": "https://enlargement.ec.europa.eu/news/commission-unlocks-eur157-million-moldova-reform-progress-under-growth-plan-2026-10-05_en",
+          "title": "Commission unlocks €157 million to Moldova for reform progress under the Growth Plan"
+        },
+        {
+          "region": "EU",
+          "officialId": "IP/26/2054"
+        }
+      ]
+    },
+    {
+      "id": "eu-ukraine-defence-payment-oct2026",
+      "title": [
+        "向乌克兰拨款采购无人机与导弹",
+        "Ukraine disbursement for drones and missiles"
+      ],
+      "basis": "The original texts identify the same specific announcement, case, report or payment. Departmental and Press Corner versions are retained as separate documents; grouping does not change their dates or stages.",
+      "documents": [
+        {
+          "region": "EU",
+          "url": "https://defence-industry-space.ec.europa.eu/commission-disburses-eur124-billion-ukraine-drones-and-missiles-2026-10-08_en",
+          "title": "Commission disburses €1.24 billion to Ukraine for drones and missiles"
+        },
+        {
+          "region": "EU",
+          "officialId": "IP/26/2094"
+        }
+      ]
+    },
+    {
+      "id": "eu-ukraine-facility-payment-oct2026",
+      "title": [
+        "乌克兰机制：2026年10月29亿欧元拨款",
+        "Ukraine Facility: October 2026 EUR 2.9 billion disbursement"
+      ],
+      "basis": "The original texts identify the same specific announcement, case, report or payment. Departmental and Press Corner versions are retained as separate documents; grouping does not change their dates or stages.",
+      "documents": [
+        {
+          "region": "EU",
+          "url": "https://enlargement.ec.europa.eu/news/commission-disburses-eur29-billion-under-ukraine-facility-support-financial-stability-and-reforms-2026-10-02_en",
+          "title": "Commission disburses €2.9 billion under Ukraine Facility to support financial stability and reforms"
+        },
+        {
+          "region": "EU",
+          "officialId": "IP/26/2047"
+        }
+      ]
+    },
+    {
+      "id": "eu-bulgaria-farm-aid-oct2026",
+      "title": [
+        "保加利亚农业燃料与化肥成本援助",
+        "Bulgarian farm fuel and fertiliser cost aid"
+      ],
+      "basis": "The original texts identify the same specific announcement, case, report or payment. Departmental and Press Corner versions are retained as separate documents; grouping does not change their dates or stages.",
+      "documents": [
+        {
+          "region": "EU",
+          "url": "https://competition-policy.ec.europa.eu/about/news/commission-approves-eur170-million-bulgarian-state-aid-farmers-facing-increased-fuel-and-fertiliser-2026-10-02_en",
+          "title": "Commission approves €170 million Bulgarian State aid for farmers facing increased fuel and fertiliser prices"
+        },
+        {
+          "region": "EU",
+          "officialId": "IP/26/2019"
+        }
+      ]
+    },
+    {
+      "id": "eu-man-polish-aid-oct2026",
+      "title": [
+        "波兰 MAN 工厂扩产援助决定",
+        "Polish MAN factory expansion aid decision"
+      ],
+      "basis": "The original texts identify the same specific announcement, case, report or payment. Departmental and Press Corner versions are retained as separate documents; grouping does not change their dates or stages.",
+      "documents": [
+        {
+          "region": "EU",
+          "url": "https://competition-policy.ec.europa.eu/about/news/commission-finds-polish-support-man-trucks-factory-expansion-incompatible-state-aid-2026-10-05_en",
+          "title": "Commission finds Polish support for MAN Trucks factory expansion incompatible State aid"
+        },
+        {
+          "region": "EU",
+          "officialId": "IP/26/2056"
+        }
+      ]
+    },
+    {
+      "id": "eu-bosnia-election-statement-oct2026",
+      "title": [
+        "欧盟关于波黑大选的联合声明",
+        "EU joint statement on Bosnia and Herzegovina elections"
+      ],
+      "basis": "The original texts identify the same specific announcement, case, report or payment. Departmental and Press Corner versions are retained as separate documents; grouping does not change their dates or stages.",
+      "documents": [
+        {
+          "region": "EU",
+          "url": "https://enlargement.ec.europa.eu/news/joint-statement-high-representativevice-president-kallas-and-commissioner-kos-general-elections-2026-10-06_en",
+          "title": "Joint statement by High Representative/Vice-President Kallas and Commissioner Kos on the general elections in Bosnia and Herzegovina"
+        },
+        {
+          "region": "EU",
+          "officialId": "STATEMENT/26/2083"
+        }
+      ]
+    },
+    {
+      "id": "eu-oleshky-statement-oct2026",
+      "title": [
+        "欧盟关于奥莱什基被围困的声明",
+        "EU statement on the siege of Oleshky"
+      ],
+      "basis": "The original texts identify the same specific announcement, case, report or payment. Departmental and Press Corner versions are retained as separate documents; grouping does not change their dates or stages.",
+      "documents": [
+        {
+          "region": "EU",
+          "url": "https://civil-protection-humanitarian-aid.ec.europa.eu/news-stories/news/statement-commissioner-lahbib-siege-oleshky-ukraine-2026-10-02_en",
+          "title": "Statement by Commissioner Lahbib on the siege of Oleshky, Ukraine"
+        },
+        {
+          "region": "EU",
+          "officialId": "STATEMENT/26/2063"
+        }
+      ]
+    },
+    {
+      "id": "eu-rrf-annual-report2026-oct2026",
+      "title": [
+        "复苏与韧性基金第五份年度实施报告",
+        "Fifth annual RRF implementation report"
+      ],
+      "basis": "The original texts identify the same specific announcement, case, report or payment. Departmental and Press Corner versions are retained as separate documents; grouping does not change their dates or stages.",
+      "documents": [
+        {
+          "region": "EU",
+          "officialId": "IP/26/2092"
+        },
+        {
+          "region": "EU",
+          "officialId": "COM(2026)0546"
+        }
+      ]
+    },
+    {
+      "id": "eu-edf-accounts-oct2026",
+      "title": [
+        "欧洲发展基金2025年度账目与审计",
+        "EDF 2025 accounts and audit"
+      ],
+      "basis": "The statement of assurance explicitly audits the corresponding 2025 financial-year accounts. The EDF and consolidated EU accounts remain distinct.",
+      "documents": [
+        {
+          "region": "EU",
+          "officialId": "OJ:C_202604817"
+        },
+        {
+          "region": "EU",
+          "officialId": "OJ:C_202605254"
+        }
+      ]
+    },
+    {
+      "id": "eu-eu-accounts-oct2026",
+      "title": [
+        "欧盟2025年度合并账目与审计",
+        "EU 2025 consolidated accounts and audit"
+      ],
+      "basis": "The statement of assurance explicitly audits the corresponding 2025 financial-year accounts. The EDF and consolidated EU accounts remain distinct.",
+      "documents": [
+        {
+          "region": "EU",
+          "officialId": "OJ:C_202604821"
+        },
+        {
+          "region": "EU",
+          "officialId": "OJ:C_202605256"
         }
       ]
     }

@@ -1,3 +1,4 @@
+import {groupRecords,type Topic} from './topics.ts';
 import {countryOf,selectPolicies,policyTags,type Policy} from './model.ts';
 import {type IntakeRecord} from './intake.ts';
 import {type readFilters} from './filters.ts';
@@ -11,15 +12,28 @@ export function explainsRecord(p:Pick<Policy,'officialId'|'region'>,r:Pick<Intak
 export function selectIntake(records:IntakeRecord[],region:string,tags:string[],query:string,searchText?:(p:{id:string})=>string){const q=query.trim().toLocaleLowerCase();return records.filter(r=>(region==='all'||r.region===region)&&(!tags.length||tags.some(t=>policyTags(r).includes(t)))&&(!q||(searchText?.(r)??[r.title,r.titleZh,r.officialId,r.note,...policyTags(r)].join(' ')).toLocaleLowerCase().includes(q))).sort((a,b)=>b.date.localeCompare(a.date));}
 
 // Lists and navigation counts share scope, matching and inclusion rules.
-export function selectListing(items:Policy[],records:IntakeRecord[],filters:ReturnType<typeof readFilters>,searchText?:(p:{id:string})=>string,today?:string){
+export function selectListing(items:Policy[],records:IntakeRecord[],filters:ReturnType<typeof readFilters>,searchText?:(p:{id:string})=>string,today?:string,topics:Topic[]=[]){
  const {country,view,region,query,tags}=filters;
  const scoped=items.filter(p=>countryOf(p.region)===country);
  const intake=records.filter(r=>countryOf(r.region)===country);
  const unexplained=intake.filter(r=>!scoped.some(p=>explainsRecord(p,r)));
- const policies=selectPolicies(scoped,view,region,'all',query,tags,searchText,today);
- const raw=selectIntake(unexplained,region,tags,query,searchText).filter(r=>view==='all'||r.stage===view);
- const progress=selectIntake(intake,region,tags,query,searchText);
- return {policies,raw,progress,count:view==='intake'?progress.length:policies.length+raw.length};
+ const recordsById=new Map(intake.map(r=>[r.id,r]));
+ const topicText=new Map(topics.flatMap(t=>t.recordIds.map(id=>[id,t.title.join(' ')] as const)));
+ const recordSearch=(r:{id:string})=>[searchText?.(r)??[recordsById.get(r.id)].filter(x=>x!==undefined).map(x=>[x.title,x.titleZh,x.officialId,x.note,...policyTags(x)].join(' ')).join(' '),topicText.get(r.id)??''].join(' ');
+ const progress=selectIntake(intake,region,tags,query,recordSearch);
+ const matchingPolicyIds=new Set(topics.filter(t=>t.recordIds.some(id=>progress.some(r=>r.id===id))).flatMap(t=>t.policyIds));
+ const policyMatches=selectPolicies(scoped,view,region,'all','',tags,searchText,today).filter(p=>!query.trim()||matchingPolicyIds.has(p.id)||selectPolicies([p],view,region,'all',query,tags,searchText,today).length>0);
+ const rawMatches=selectIntake(unexplained,region,tags,query,recordSearch).filter(r=>view==='all'||r.stage===view);
+ const rawGroups=groupRecords(rawMatches,topics).filter(g=>!g.policyIds.some(id=>policyMatches.some(p=>p.id===id)));
+ const raw=rawGroups.flatMap(g=>g.records),progressGroups=groupRecords(progress,topics);
+ const explainedGroups=topics.filter(t=>['all','adopted','pending'].includes(view)&&t.policyIds.length>1&&t.policyIds.some(id=>policyMatches.some(p=>p.id===id))).flatMap(t=>{
+  const matches=progress.filter(r=>t.recordIds.includes(r.id));
+  const fallback=intake.filter(r=>t.recordIds.includes(r.id)&&(region==='all'||r.region===region)&&policyMatches.some(p=>t.policyIds.includes(p.id)&&explainsRecord(p,r)));
+  return groupRecords(matches.length?matches:fallback,[t]);
+ });
+ const policies=policyMatches.filter(p=>!explainedGroups.some(g=>g.policyIds.includes(p.id)));
+ const policyGroups=groupRecords(progress,topics).filter(g=>g.title&&g.policyIds.some(id=>policies.some(p=>p.id===id)));
+ return {policies,raw,progress,rawGroups,progressGroups,policyGroups,explainedGroups,explainedCount:policyMatches.length,count:view==='intake'?progressGroups.length:policies.length+rawGroups.length+explainedGroups.length};
 }
 
 // The shared timeline shows official events only. Corrections are dated by our own

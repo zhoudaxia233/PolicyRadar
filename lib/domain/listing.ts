@@ -1,4 +1,4 @@
-import {groupRecords,type Topic} from './topics.ts';
+import {groupRecords,type Topic,type RecordGroup} from './topics.ts';
 import {countryOf,selectPolicies,policyTags,type Policy} from './model.ts';
 import {type IntakeRecord} from './intake.ts';
 import {type readFilters} from './filters.ts';
@@ -50,9 +50,19 @@ export function selectListing(items:Policy[],records:IntakeRecord[],filters:Retu
  });
  const groupedPolicyIds=new Set(explainedGroups.flatMap(g=>g.policyIds));
  const policies=policyMatches.filter(p=>!groupedPolicyIds.has(p.id));
+ // One dated card per matter, sorted and split into upcoming/past like any other card. The
+ // card follows the matter's first open or adopted explanation: a closed version (e.g. a
+ // rejected bill) must not label the whole matter as ended while another version is active.
+ const leads=new Map(explainedGroups.map(g=>{const members=policyMatches.filter(p=>g.policyIds.includes(p.id));return [g,members.find(p=>p.phase!=='closed')??members[0]] as const;}));
+ const cards:{policy:Policy;group?:RecordGroup}[]=[];
+ for(const policy of policyMatches){
+  const group=explainedGroups.find(g=>g.policyIds.includes(policy.id));
+  if(!group)cards.push({policy});
+  else if(leads.get(group)===policy)cards.push({policy,group});
+ }
  const policyIds=new Set(policies.map(p=>p.id));
  const policyGroups=progressGroups.filter(g=>g.title&&g.policyIds.some(id=>policyIds.has(id)));
- return {policies,raw,progress,rawGroups,progressGroups,policyGroups,explainedGroups,explainedCount:policyMatches.length,count:view==='intake'?progressGroups.length:policies.length+rawGroups.length+explainedGroups.length};
+ return {policies,cards,raw,progress,rawGroups,progressGroups,policyGroups,explainedGroups,explainedCount:policyMatches.length,count:view==='intake'?progressGroups.length:policies.length+rawGroups.length+explainedGroups.length};
 }
 
 // The shared timeline shows official events only. Corrections are dated by our own

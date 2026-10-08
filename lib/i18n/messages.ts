@@ -7,6 +7,7 @@ export const messages = {
   "显示更多（还有 {0} 个事项）": "Show more ({0} more matters)",
   "查看 {0} 条匹配的文件与进展": "View {0} matching documents and developments",
   "各文件分别保留日期、法律阶段及核实状态；归组不代表整项政策已通过或生效。": "Each document retains its own date, legal stage and verification status. Grouping does not mean the entire matter is adopted or in force.",
+  "本事项有 {0} 篇政策解读，分别对应不同版本或进展：": "This matter has {0} policy explanations for different versions or developments:",
   "{0} 条官方记录": "{0} official records",
   "最近匹配的记录：{0}": "Latest matching record: {0}",
   "追踪范围：西班牙全国层面、17个自治区及休达和梅利利亚两个自治市。": "Scope: Spain’s national level, 17 autonomous communities and the autonomous cities of Ceuta and Melilla.",

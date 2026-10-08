@@ -64,8 +64,10 @@ are also applied before grouping, so unrelated stages/regions do not leak in.
 
 One explanation plus its related raw records counts once and keeps its matching
 documents expandable beside that explanation. Multiple explanations of one
-reviewed matter appear beneath one matter heading with separate explanation
-buttons. The shared policy timeline retains its individual dated events.
+reviewed matter appear as one dated card with separate explanation buttons, in
+the same upcoming/past sections as other cards. The card takes its date and
+badge from the first matching explanation that is not closed, so a rejected
+version never labels a matter as ended while another version is active. The shared policy timeline retains its individual dated events.
 
 `resolveTopics` rejects missing references, duplicate matter IDs, overlapping
 membership and cross-country grouping. These checks protect identity and

@@ -110,6 +110,23 @@ That extension moved tracking to 2026-05-02. The added interval through 2026-08-
 a coverage gap until each channel has a reconciled complete scan. Targeted
 explanations and successful downloads do not close these gaps.
 
+### Script-rendered listings
+
+Some official listings return only a script shell to a plain HTTP client, for
+example the federal cabinet results index, the monthly new-rules search, the
+Legislative Observatory and the Commission document register. Before marking
+such a channel partial or blocked, render it with
+`npm run data:render -- <https-url> <output.html> [virtual-time-ms]`, which
+uses the local Chrome as an ordinary anonymous visitor (`CHROME_PATH` overrides
+the location). Never log in, submit forms or call CSRF-protected endpoints.
+
+Treat a render as discovery evidence, not the server's bytes: record it as a
+rendered snapshot in the run's fetch ledger. Fetch linked articles and documents
+directly where they are server-rendered and archive those exact bytes. Verify
+titles, numbers and dates on each item's own page, never from position in a
+rendered list. A readable render establishes access only; close a day only when
+the listing is ordered by date and every item in the window is reconciled.
+
 ## Group related official documents
 
 After every intake update, apply [the matter grouping rules](TOPICS.md) and run

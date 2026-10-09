@@ -1,0 +1,141 @@
+{
+ "note": "Fetches after the first evening run. Entries marked rendered are DOM snapshots produced by npm run data:render (local headless Chrome), i.e. discovery evidence rather than server bytes.",
+ "fetches": [
+  {
+   "url": "https://www.bundesregierung.de/breg-de/suche/992800!searchJson?f=1495774:320914",
+   "at": "2026-10-09T20:09:31.566Z",
+   "status": "404",
+   "ctype": "text/html;charset=UTF-8",
+   "hash": "b526591ad4000f65a9f5d40dae595125642d8abcca25ff03ca96c14a1930763d",
+   "size": 114815
+  },
+  {
+   "url": "https://www.bundesregierung.de/breg-de/bundesregierung/bundeskanzleramt/kabinettssitzungen/bundeskabinett-ergebnisse",
+   "at": "2026-10-09T20:09:31.757Z",
+   "status": "200",
+   "ctype": "text/html;charset=UTF-8",
+   "hash": "93822d63279d125fba513953f0575bc863601347841f352e0a707d6b94ff6e5b",
+   "size": 86183
+  },
+  {
+   "url": "https://www.bundesregierung.de/breg-de/suche/992800!searchJson",
+   "at": "2026-10-09T20:09:31.955Z",
+   "status": "404",
+   "ctype": "text/html;charset=UTF-8",
+   "hash": "2028588654d54f7f1bb319d53a2eccc0219ab86bf8a1d532bf3bfb3a7b3b7769",
+   "size": 114809
+  },
+  {
+   "url": "https://www.bundesregierung.de/breg-de/bundesregierung/bundeskanzleramt/kabinettssitzungen/bundeskabinett-ergebnisse-2455982",
+   "at": "2026-10-09T20:15:39.103Z",
+   "status": "200",
+   "ctype": "text/html;charset=UTF-8",
+   "hash": "ea76e5bae5fe47909462bfe4d2ae9a588fca8c95e9d46c3b769d65d1eb816248",
+   "size": 111758
+  },
+  {
+   "url": "https://www.bundesregierung.de/breg-de/bundesregierung/bundeskanzleramt/kabinettssitzungen/bundeskabinett-ergebnisse-2454746",
+   "at": "2026-10-09T20:15:39.404Z",
+   "status": "200",
+   "ctype": "text/html;charset=UTF-8",
+   "hash": "e83c8b82cc52bb79913143a12ef41343bec8da91d65b9efa332242a7133f616c",
+   "size": 112326
+  },
+  {
+   "url": "https://www.bundesregierung.de/breg-de/bundesregierung/bundeskanzleramt/kabinett-bericht-staatsmodernisierung-2454576",
+   "at": "2026-10-09T20:17:04.216Z",
+   "status": "200",
+   "ctype": "text/html;charset=UTF-8",
+   "hash": "557f5f8c377cfd151dc5697a321744ee3e5a9b17bfd8a8e638961b5c3ca87433",
+   "size": 147842
+  },
+  {
+   "url": "https://www.bundesregierung.de/breg-de/bundesregierung/bundeskanzleramt/beitragsbemessungsgrenzen-2027-2454638",
+   "at": "2026-10-09T20:17:04.340Z",
+   "status": "200",
+   "ctype": "text/html;charset=UTF-8",
+   "hash": "ca7b793d52b3bb93da1241f197d47cf7345d82f76e00cf5f793cf0d27e3aba94",
+   "size": 140585
+  },
+  {
+   "url": "https://www.bundesregierung.de/breg-de/suche/gesetzliche-neuregelungen-oktober-2026-2454624",
+   "at": "2026-10-09T20:17:04.452Z",
+   "status": "200",
+   "ctype": "text/html;charset=UTF-8",
+   "hash": "6f78e2ece9d6688fa20f752eeab017f0a34ca957b5f95395e1754865f4b76396",
+   "size": 122486
+  },
+  {
+   "url": "https://ec.europa.eu/transparency/documents-register/detail?ref=C(2026)6694&lang=en",
+   "at": "2026-10-09T20:15:15.000Z",
+   "status": "200",
+   "ctype": "text/html; rendered-dom",
+   "hash": "e2806d46b750896aa460d06ae8d4dc5557fd436e076e4cbe3660ad352bcf560d",
+   "size": 124670,
+   "rendered": true
+  },
+  {
+   "url": "https://www.bundesregierung.de/breg-de/bundesregierung/bundeskanzleramt/kabinettssitzungen/bundeskabinett-ergebnisse",
+   "at": "2026-10-09T20:10:47.000Z",
+   "status": "200",
+   "ctype": "text/html; rendered-dom",
+   "hash": "2a654e94b94991ecb31752093a78957b665a9b926094b16c0e8f3fddf1ef9fb8",
+   "size": 1020658,
+   "rendered": true
+  },
+  {
+   "url": "https://www.bundesregierung.de/breg-de/suche/gesetzliche-neuregelungen-442800",
+   "at": "2026-10-09T20:12:18.000Z",
+   "status": "200",
+   "ctype": "text/html; rendered-dom",
+   "hash": "b6e96a302eac042144bdef47ba3a3d8856a5e7e0c6a005cc7e02e6aca0870e09",
+   "size": 1118581,
+   "rendered": true
+  },
+  {
+   "url": "https://oeil.europarl.europa.eu/oeil/en",
+   "at": "2026-10-09T20:10:00.000Z",
+   "status": "200",
+   "ctype": "text/html; rendered-dom",
+   "hash": "2ca2b2464f2c236a8ccbc601de75c8d64db814cb2cbb802623acd2464c82ee23",
+   "size": 98349,
+   "rendered": true
+  },
+  {
+   "url": "https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=2025/0385(COD)",
+   "at": "2026-10-09T20:16:28.000Z",
+   "status": "200",
+   "ctype": "text/html; rendered-dom",
+   "hash": "c6e73953fac5a129f183ca52d60aa669e94420ddaca0a0d3aca75e46d5ac0363",
+   "size": 150048,
+   "rendered": true
+  },
+  {
+   "url": "https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=2025/0395(COD)",
+   "at": "2026-10-09T20:16:28.000Z",
+   "status": "200",
+   "ctype": "text/html; rendered-dom",
+   "hash": "c07b7276292bfbb738dd056094720df36ffa194d6c922e160555f67744f40b81",
+   "size": 133520,
+   "rendered": true
+  },
+  {
+   "url": "https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=2025/0396(COD)",
+   "at": "2026-10-09T20:16:32.000Z",
+   "status": "200",
+   "ctype": "text/html; rendered-dom",
+   "hash": "77700c27f66d0402bd575a240a859b6c4599da289e869e1ad4a1582760716edd",
+   "size": 126030,
+   "rendered": true
+  },
+  {
+   "url": "https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=2026/2925(RSP)",
+   "at": "2026-10-09T20:16:33.000Z",
+   "status": "200",
+   "ctype": "text/html; rendered-dom",
+   "hash": "b0a5a19e217bdd20f2e5949ea219290be4fabe99d54ca46965a2bf9dde1ceca2",
+   "size": 61174,
+   "rendered": true
+  }
+ ]
+}

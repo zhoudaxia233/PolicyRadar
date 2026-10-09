@@ -2223,6 +2223,107 @@
         }
       ],
       "appliesFromExport": "2026-10-09T16:51:41.086Z"
+    },
+    {
+      "id": "de-income-tax-reform-2027",
+      "title": [
+        "德国2027年所得税改革草案",
+        "Germany: 2027 income tax reform bill"
+      ],
+      "basis": "Bundesrat document 507/1/26 states that it contains the committee recommendations on the government bill printed as Bundesrat document 507/26 (Entwurf eines Einkommensteuerreformgesetzes 2027) for item 22 of the 1069th session. Recommendations are not the bill's own provisions and are not adopted Bundesrat positions; the multi-proposal Bundestag first-reading report remains separate.",
+      "documents": [
+        {
+          "region": "DE",
+          "officialId": "BR-Drs. 507/26"
+        },
+        {
+          "region": "DE",
+          "officialId": "BR-Drs. 507/1/26"
+        }
+      ],
+      "appliesFromExport": "2026-10-09T19:51:01.868Z"
+    },
+    {
+      "id": "de-grid-subsidy-2027-2029",
+      "title": [
+        "德国2027—2029年输电网费用补贴草案",
+        "Germany: 2027–2029 transmission-grid cost subsidy bill"
+      ],
+      "basis": "Bundesrat document 509/26 and Bundestag document 21/8236 are both the federal government bill with the identical official title and identical opening problem statement (EUR 5.525 billion a year for 2027–2029). They are parallel submissions of one bill; each child keeps its own chamber stage and date.",
+      "documents": [
+        {
+          "region": "DE",
+          "officialId": "BR-Drs. 509/26"
+        },
+        {
+          "region": "DE",
+          "officialId": "BT-Drs. 21/8236"
+        }
+      ],
+      "appliesFromExport": "2026-10-09T19:51:01.868Z"
+    },
+    {
+      "id": "de-product-liability-modernisation-2026",
+      "title": [
+        "德国产品责任法现代化",
+        "Germany: product liability law modernisation"
+      ],
+      "basis": "Bundesrat document 584/26 states that the Bundestag adopted government bill 21/4297 on 8 October 2026 in the committee version and transmits that law for second passage. Bundestag passage and Bundesrat deliberation remain separate steps; no promulgation or commencement is inferred.",
+      "documents": [
+        {
+          "region": "DE",
+          "officialId": "BR-Drs. 584/26"
+        },
+        {
+          "region": "DE",
+          "officialId": "BT-Drs. 21/4297"
+        }
+      ],
+      "appliesFromExport": "2026-10-09T19:51:01.868Z"
+    },
+    {
+      "id": "eu-crm-strategic-projects-oct2026",
+      "title": [
+        "欧盟关键原材料：46个新战略项目",
+        "EU critical raw materials: 46 new strategic projects"
+      ],
+      "basis": "Press release IP/26/2113 explicitly links QANDA/26/2114 and FS/26/2115 as its companion documents on the selection of 46 strategic projects. Selection is not project approval or funding.",
+      "documents": [
+        {
+          "region": "EU",
+          "officialId": "IP/26/2113"
+        },
+        {
+          "region": "EU",
+          "officialId": "QANDA/26/2114"
+        },
+        {
+          "region": "EU",
+          "officialId": "FS/26/2115"
+        }
+      ],
+      "appliesFromExport": "2026-10-09T19:51:01.868Z"
+    },
+    {
+      "id": "de-tax-adviser-exam-reform-2026",
+      "title": [
+        "德国税务师考试改革法草案",
+        "Germany: tax-adviser examination reform bill"
+      ],
+      "basis": "The finance ministry page publishes the government draft of the Tax-Adviser Examination Reform Act, and the 7 October cabinet results list adopts exactly that BMF bill without debate. Cabinet adoption is a government-bill stage; no parliamentary adoption or new examination rule is inferred.",
+      "documents": [
+        {
+          "region": "DE",
+          "url": "https://www.bundesfinanzministerium.de/Content/DE/Gesetzestexte/Gesetze_Gesetzesvorhaben/Abteilungen/Abteilung_IV/21_Legislaturperiode/2026-08-13-G-Reform-StBerPruefung/0-Gesetz.html",
+          "title": "Entwurf eines Gesetzes zur Reform der Steuerberaterprüfung"
+        },
+        {
+          "region": "DE",
+          "url": "https://www.bundesregierung.de/breg-de/bundesregierung/bundeskanzleramt/kabinettssitzungen/bundeskabinett-ergebnisse-2455982#top1-01",
+          "title": "Entwurf eines Gesetzes zur Reform der Steuerberaterprüfung"
+        }
+      ],
+      "appliesFromExport": "2026-10-09T20:20:19.903Z"
     }
   ]
 }

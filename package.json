@@ -12,7 +12,8 @@
     "test": "node --experimental-strip-types --test tests/*.test.ts",
     "data:select": "node --experimental-strip-types scripts/select-export.mjs",
     "data:coverage": "node --experimental-strip-types scripts/check-recent-coverage.mjs",
-    "data:topics": "node --experimental-strip-types scripts/review-topics.mjs"
+    "data:topics": "node --experimental-strip-types scripts/review-topics.mjs",
+    "data:render": "node scripts/render-page.mjs"
   },
   "dependencies": {
     "lucide-react": "^1.31.0",

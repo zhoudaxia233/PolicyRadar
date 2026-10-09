@@ -8,6 +8,7 @@ import {selectListing} from '../lib/domain/listing.ts';
 import {readFilters} from '../lib/domain/filters.ts';
 import {createLocalization} from '../lib/i18n/build.ts';
 import {localizeIntake,localizePolicy,searchText} from '../lib/i18n/content.ts';
+import {readExport} from '../lib/export-store.ts';
 const read=(p:string)=>JSON.parse(readFileSync(p,'utf8'));
 const folder='data/exports/2026-10-08-us-scan-release';
 const manifest=read(folder+'/manifest.json'),after=read(folder+'/policy-radar-export.json');
@@ -20,7 +21,7 @@ const listing=(q:string)=>selectListing(data.policies,data.intake.records,readFi
 test('adding US delivers actual discoveries and explanations, preserving the complete prior history',()=>{
  validateSelection(read(manifest.baseExport),after,new Date(after.exportedAt));
  assert.equal(records.length,120);assert.equal(data.policies.filter(p=>p.region.startsWith('US')).length,5);
- const current=createStaticData(read(read('data/current-export.json').path));
+ const current=createStaticData(readExport(read('data/current-export.json').path));
  assert(current.intake.records.some(r=>r.region==='US'));
  assert(current.intake.records.some(r=>r.region.startsWith('US-')));
  assert(current.policies.some(p=>p.region.startsWith('US')));

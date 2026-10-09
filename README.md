@@ -45,8 +45,8 @@ Pushes to `main` run checks and deploy `dist/` to GitHub Pages through [the depl
 
 ## Maintain data
 
-[data/current-export.json](data/current-export.json) selects the active dataset. Builds validate policy data and archived source hashes. Archived originals are not published with the site; the site links each one to its committed copy in `data/sources/` on `main`, so every new archive file must be pushed with the export that uses it. A rebuild does not count as factual re-verification; never edit active or historical exports in place.
+The active dataset is [data/store/](data/store), split into small files and edited in place; git history keeps every earlier version. Builds validate policy data and archived source hashes. Archived originals are not published with the site; the site links each one to its committed copy in `data/sources/` on `main`, so every new archive file must be pushed with the data that uses it. A rebuild does not count as factual re-verification. The older per-run copies in `data/exports/` are frozen; never edit them.
 
-- [Weekly update workflow](data/UPDATE.md): collection, evidence, new exports and publication rules.
+- [Weekly update workflow](data/UPDATE.md): collection, evidence, the data store and publication rules.
 - [Translation maintenance](data/translations/README.md): reviewed translations and stale-content handling.
 - [Official-source registry](data/discovery-registry.json): discovery channels and jurisdictions.

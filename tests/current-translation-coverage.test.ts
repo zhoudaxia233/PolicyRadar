@@ -5,9 +5,10 @@ import {createStaticData} from '../lib/static-data.ts';
 import {createLocalization} from '../lib/i18n/build.ts';
 import {localizeIntake,localizePolicy,policyTextFields} from '../lib/i18n/content.ts';
 import {validateSelection} from '../lib/update-data.ts';
+import {readExport} from '../lib/export-store.ts';
 
 const read=(path:string)=>JSON.parse(readFileSync(path,'utf8'));
-const data=createStaticData(read(process.env.POLICY_RADAR_EXPORT??read('data/current-export.json').path));
+const data=createStaticData(readExport(process.env.POLICY_RADAR_EXPORT??read('data/current-export.json').path));
 const localization=createLocalization(data,read('data/translations/content.json'),read('data/translations/bindings.json'));
 
 test('every current discovery has Chinese and English reader text',()=>{

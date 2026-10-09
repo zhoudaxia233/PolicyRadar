@@ -5,10 +5,10 @@ import {resolve} from 'node:path';
 import {createHash} from 'node:crypto';
 import {createLocalization} from '../lib/i18n/build.ts';
 import {createStaticData,snapshotKey} from '../lib/static-data.ts';
+import {readExport} from '../lib/export-store.ts';
 
 const source=resolve(process.argv[2]||JSON.parse(await readFile('data/current-export.json','utf8')).path);
-const raw=await readFile(source,'utf8');
-const exported=JSON.parse(raw);
+const exported=readExport(source);
 const data=createStaticData(exported);
 data.topics=resolveTopicRegistry(JSON.parse(await readFile('data/topics.json','utf8')),data);
 data.localization=createLocalization(data,JSON.parse(await readFile('data/translations/content.json','utf8')),JSON.parse(await readFile('data/translations/bindings.json','utf8')));
@@ -24,7 +24,7 @@ try {
   await copyFile('public/favicon.svg',resolve(output,'favicon.svg'));
   await writeFile(resolve(output,'.nojekyll'),'');
   await writeFile(resolve(output,'data.json'),JSON.stringify(data));
-  await writeFile(resolve(output,'policy-radar-export.json'),raw);
+  await writeFile(resolve(output,'policy-radar-export.json'),JSON.stringify(exported));
   // Evidence is linked from the repository archive (lib/archive-url.ts), not copied into the site.
   // Every link must resolve to committed bytes that still match their recorded hash.
   for(const s of exported.tables.snapshots){

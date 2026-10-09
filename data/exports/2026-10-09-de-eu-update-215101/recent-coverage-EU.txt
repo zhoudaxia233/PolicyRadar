@@ -1,0 +1,81 @@
+
+> policy-radar@0.1.0 data:coverage
+> node --experimental-strip-types scripts/check-recent-coverage.mjs data/exports/2026-10-09-de-eu-update-215101/policy-radar-export.json EU
+
+(node:75779) ExperimentalWarning: Type Stripping is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+{
+  "checkedAt": "2026-10-09T19:52:32.159Z",
+  "scope": "EU",
+  "channels": 4,
+  "incompleteChannels": 4,
+  "gaps": [
+    {
+      "sourceUrl": "https://eur-lex.europa.eu/collection/eu-law/legal-acts/recent.html",
+      "region": "EU",
+      "title": "欧盟法律文件：最新公布",
+      "windowStart": "2026-10-02",
+      "windowEnd": "2026-10-08",
+      "missingDays": [
+        "2026-10-02",
+        "2026-10-03",
+        "2026-10-04",
+        "2026-10-05",
+        "2026-10-06",
+        "2026-10-07",
+        "2026-10-08"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://eur-lex.europa.eu/oj/direct-access.html",
+      "region": "EU",
+      "title": "欧盟官方公报",
+      "windowStart": "2026-10-02",
+      "windowEnd": "2026-10-08",
+      "missingDays": [
+        "2026-10-02",
+        "2026-10-03",
+        "2026-10-04",
+        "2026-10-05",
+        "2026-10-06",
+        "2026-10-07"
+      ],
+      "latestScan": "complete"
+    },
+    {
+      "sourceUrl": "https://oeil.europarl.europa.eu/oeil/en",
+      "region": "EU",
+      "title": "欧洲议会立法观察站",
+      "windowStart": "2026-10-02",
+      "windowEnd": "2026-10-08",
+      "missingDays": [
+        "2026-10-02",
+        "2026-10-03",
+        "2026-10-04",
+        "2026-10-05",
+        "2026-10-06",
+        "2026-10-07",
+        "2026-10-08"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://commission.europa.eu/law/law-making-process_en",
+      "region": "EU",
+      "title": "欧盟委员会立法流程与提案入口",
+      "windowStart": "2026-10-02",
+      "windowEnd": "2026-10-08",
+      "missingDays": [
+        "2026-10-02",
+        "2026-10-03",
+        "2026-10-04",
+        "2026-10-05",
+        "2026-10-06",
+        "2026-10-07",
+        "2026-10-08"
+      ],
+      "latestScan": "partial"
+    }
+  ]
+}

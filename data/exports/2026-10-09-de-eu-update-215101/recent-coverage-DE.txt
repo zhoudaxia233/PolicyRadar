@@ -1,0 +1,99 @@
+
+> policy-radar@0.1.0 data:coverage
+> node --experimental-strip-types scripts/check-recent-coverage.mjs data/exports/2026-10-09-de-eu-update-215101/policy-radar-export.json DE
+
+(node:75756) ExperimentalWarning: Type Stripping is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+{
+  "checkedAt": "2026-10-09T19:52:31.881Z",
+  "scope": "DE",
+  "channels": 9,
+  "incompleteChannels": 5,
+  "gaps": [
+    {
+      "sourceUrl": "https://www.bundesregierung.de/breg-de/suche/gesetzliche-neuregelungen-442800",
+      "region": "DE",
+      "title": "联邦政府每月新规索引",
+      "windowStart": "2026-10-02",
+      "windowEnd": "2026-10-08",
+      "missingDays": [
+        "2026-10-02",
+        "2026-10-03",
+        "2026-10-04",
+        "2026-10-05",
+        "2026-10-06",
+        "2026-10-07",
+        "2026-10-08"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.bundestag.de/dokumente/parlamentsdokumentation",
+      "region": "DE",
+      "title": "联邦议会文件与立法进程",
+      "windowStart": "2026-10-02",
+      "windowEnd": "2026-10-08",
+      "missingDays": [
+        "2026-10-02",
+        "2026-10-03",
+        "2026-10-04",
+        "2026-10-05",
+        "2026-10-06",
+        "2026-10-07",
+        "2026-10-08"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.bundestag.de/dokumente/textarchiv",
+      "region": "DE",
+      "title": "联邦议会审议与表决新闻档案",
+      "windowStart": "2026-10-02",
+      "windowEnd": "2026-10-08",
+      "missingDays": [
+        "2026-10-02",
+        "2026-10-03",
+        "2026-10-04",
+        "2026-10-05",
+        "2026-10-06",
+        "2026-10-07",
+        "2026-10-08"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.bundesregierung.de/breg-de/bundesregierung/kabinettsthemen",
+      "region": "DE",
+      "title": "联邦内阁议题与决定",
+      "windowStart": "2026-10-02",
+      "windowEnd": "2026-10-08",
+      "missingDays": [
+        "2026-10-02",
+        "2026-10-03",
+        "2026-10-04",
+        "2026-10-05",
+        "2026-10-06",
+        "2026-10-07",
+        "2026-10-08"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.bundesrat.de/DE/plenum/plenum-node.html",
+      "region": "DE",
+      "title": "联邦参议院全体会议",
+      "windowStart": "2026-10-02",
+      "windowEnd": "2026-10-08",
+      "missingDays": [
+        "2026-10-02",
+        "2026-10-03",
+        "2026-10-04",
+        "2026-10-05",
+        "2026-10-06",
+        "2026-10-07",
+        "2026-10-08"
+      ],
+      "latestScan": "partial"
+    }
+  ]
+}

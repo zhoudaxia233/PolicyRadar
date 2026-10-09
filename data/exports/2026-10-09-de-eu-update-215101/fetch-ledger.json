@@ -1,0 +1,941 @@
+{
+ "note": "Fetch ledger for this run. JSON endpoints (Bundestag sliders, Press Corner search) are discovery metadata only and are not archived as legal evidence; script-rendered shells are not archived.",
+ "fetches": [
+  {
+   "url": "https://www.recht.bund.de/de/home/home_node.html",
+   "at": "2026-10-09T19:32:10.884Z",
+   "status": "200",
+   "ctype": "text/html;charset=utf-8",
+   "hash": "f52137770e0b8b2ed6773dd3343fe4a1924148e81cb7eb910279d40ff099d5c0",
+   "size": 257621
+  },
+  {
+   "url": "https://www.recht.bund.de/SiteGlobals/Forms/Suche/Expertensuche_Formular.html?nn=196992&lastChangeVdAfter=2026-10-08&lastChangeVdBefore=2026-10-09&resultsPerPage=100",
+   "at": "2026-10-09T19:32:11.005Z",
+   "status": "200",
+   "ctype": "text/html;charset=utf-8",
+   "hash": "497e69f4aa5c92ae8b44048fe54a0d716b7243ab52d23808ff8adf7118ea697b",
+   "size": 79305
+  },
+  {
+   "url": "https://www.bundesrat.de/DE/plenum/plenum-node.html",
+   "at": "2026-10-09T19:32:11.262Z",
+   "status": "200",
+   "ctype": "text/html;charset=utf-8",
+   "hash": "cb59d5ceeb69ebe8561bbbdc4f3b8bf3bcdcec9cc1aefc7afa98ce80e9b47e26",
+   "size": 33317
+  },
+  {
+   "url": "https://www.bundesregierung.de/breg-de/bundesregierung/kabinettsthemen",
+   "at": "2026-10-09T19:32:11.512Z",
+   "status": "200",
+   "ctype": "text/html;charset=UTF-8",
+   "hash": "d28eedd541f969396dcee24daa5616372f4ee77a9c6a8a97dc10a6f2a30b75d8",
+   "size": 136222
+  },
+  {
+   "url": "https://www.bmas.de/DE/Service/Presse/Pressemitteilungen/pressemitteilungen.html",
+   "at": "2026-10-09T19:32:11.798Z",
+   "status": "200",
+   "ctype": "text/html;charset=utf-8",
+   "hash": "0a81ee5575db862558b78526285eb2121038baac18b9e24e9772d1babba5c7ce",
+   "size": 544143
+  },
+  {
+   "url": "https://www.bundesgesundheitsministerium.de/presse/pressemitteilungen",
+   "at": "2026-10-09T19:32:12.197Z",
+   "status": "200",
+   "ctype": "text/html; charset=utf-8",
+   "hash": "cf9e41417fdb30e5c85a7b9d2552078ceafd5159044468e97d20f979b164c925",
+   "size": 442529
+  },
+  {
+   "url": "https://www.bundesfinanzministerium.de/Web/DE/Service/Gesetze_Gesetzesvorhaben/Gesetze_Gesetzgebungsvorhaben.html",
+   "at": "2026-10-09T19:32:12.529Z",
+   "status": "200",
+   "ctype": "text/html;charset=utf-8",
+   "hash": "fa99211912c911db9bdb74e0f85f64f7afb8e6a48af05eddb85a9e1e1b981989",
+   "size": 212820
+  },
+  {
+   "url": "https://www.bundestag.de/ajax/filterlist/de/dokumente/textarchiv/454772-454772?limit=40&noFilterSet=true",
+   "at": "2026-10-09T19:32:12.655Z",
+   "status": "200",
+   "ctype": "text/html;charset=UTF-8",
+   "hash": "8918512fc6c082a4e18db5e69333a5942d91c2f5980fcc020e002de75de80bab",
+   "size": 29124
+  },
+  {
+   "url": "https://www.bundesrat.de/DE/plenum/to-plenum/to-plenum-node.html",
+   "at": "2026-10-09T19:32:39.010Z",
+   "status": "200",
+   "ctype": "text/html;charset=utf-8",
+   "hash": "bdd6088177794d2c24c00585516ccc9963abeb46b6f574b312f30b60c044560c",
+   "size": 42207
+  },
+  {
+   "url": "https://www.bundesrat.de/DE/plenum/bundesrat-kompakt/bundesrat-kompakt-node.html",
+   "at": "2026-10-09T19:32:39.492Z",
+   "status": "200",
+   "ctype": "text/html;charset=utf-8",
+   "hash": "2c86df464cbd5faa476abca0f38deffb3813af1ab687eac6765dcb00ecafcc16",
+   "size": 119471
+  },
+  {
+   "url": "https://www.bundesrat.de/DE/presse/presse-node.html",
+   "at": "2026-10-09T19:32:39.763Z",
+   "status": "200",
+   "ctype": "text/html;charset=utf-8",
+   "hash": "f9b6dbf7f26cfe25626b6d52839c37234550485caba38b5707ce290e4980b289",
+   "size": 37949
+  },
+  {
+   "url": "https://www.bundesrat.de/SharedDocs/TO/1069/tagesordnung-1069.html",
+   "at": "2026-10-09T19:32:54.091Z",
+   "status": "200",
+   "ctype": "text/html;charset=utf-8",
+   "hash": "72b433bff820d3a16cf9fcf9d36e0760308f694a8356d00c1591fc0be072aaba",
+   "size": 91770
+  },
+  {
+   "url": "https://www.bundesrat.de/SharedDocs/TO/1069/tagesordnung-1069.html?topNr=22",
+   "at": "2026-10-09T19:33:07.935Z",
+   "status": "200",
+   "ctype": "text/html;charset=utf-8",
+   "hash": "167048a7b9360b01d72cc14500b7f1c2114b20c5fcbd98f773b03710e7823581",
+   "size": 93941
+  },
+  {
+   "url": "https://www.bundesrat.de/SharedDocs/TO/1069/erl/22.pdf?__blob=publicationFile&v=1",
+   "at": "2026-10-09T19:33:17.428Z",
+   "status": "200",
+   "ctype": "application/pdf",
+   "hash": "37c2dc2f9c109d592de9a88c26481becf148a6b40cbcc0b6210d77438dd29ea9",
+   "size": 154719
+  },
+  {
+   "url": "https://www.bundesrat.de/drs.html?id=507-26",
+   "at": "2026-10-09T19:33:17.595Z",
+   "status": "200",
+   "ctype": "application/pdf",
+   "hash": "01e59bda3a091036610ab75ea03cc411e1a8982df11c8abc3f7272084152bf34",
+   "size": 2162488
+  },
+  {
+   "url": "https://www.bundesrat.de/drs.html?id=507-1-26",
+   "at": "2026-10-09T19:33:17.902Z",
+   "status": "200",
+   "ctype": "application/pdf",
+   "hash": "96873eb0327f0bceb3028e0e7ff463f74667c2eb34244f820110af22458b00ed",
+   "size": 252857
+  },
+  {
+   "url": "https://www.bundesrat.de/DE/plenum/bundesrat-kompakt/26/1069/1069-pk.html",
+   "at": "2026-10-09T19:33:18.110Z",
+   "status": "200",
+   "ctype": "text/html;charset=utf-8",
+   "hash": "04f21c6442f8a79d826c368d1d87b9a8b8016dd61d701e2e9bbd00fb8748fd6f",
+   "size": 119756
+  },
+  {
+   "url": "https://www.gesetze-im-internet.de/estg/__32a.html",
+   "at": "2026-10-09T19:33:48.738Z",
+   "status": "200",
+   "ctype": "text/html",
+   "hash": "053bfcfc2ba961a3013eb631921957ce8a50ec3e4347bb6f0c2befaf765e0f50",
+   "size": 8032
+  },
+  {
+   "url": "https://dserver.bundestag.de/btd/21/082/2108235.pdf",
+   "at": "2026-10-09T19:34:17.529Z",
+   "status": "200",
+   "ctype": "application/pdf",
+   "hash": "dd3fe0d262298431b620d65800d47c7f3cf89ff7db8f16aaafc8f507568584b6",
+   "size": 1420486
+  },
+  {
+   "url": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1154744-1154744/asJsonSliderResult",
+   "at": "2026-10-09T19:35:05.190Z",
+   "status": "200",
+   "ctype": "application/json;charset=UTF-8",
+   "hash": "bd15093d52680be1268cbff44bcd62589e060e85cdf2bdecf31485c5a23fc974",
+   "size": 3307
+  },
+  {
+   "url": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1154762-1154762/asJsonSliderResult",
+   "at": "2026-10-09T19:35:05.317Z",
+   "status": "200",
+   "ctype": "application/json;charset=UTF-8",
+   "hash": "32cf1b3eaa165f345342309cae182b738527e5679f6abd09c5e8499d10dfcdba",
+   "size": 4720
+  },
+  {
+   "url": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1154764-1154764/asJsonSliderResult",
+   "at": "2026-10-09T19:35:05.428Z",
+   "status": "200",
+   "ctype": "application/json;charset=UTF-8",
+   "hash": "575d871beca38d29c74e9ab0a0d4d08b4cecf301f27d60a49286fa961b88b5f4",
+   "size": 3258
+  },
+  {
+   "url": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1154766-1154766/asJsonSliderResult",
+   "at": "2026-10-09T19:35:05.532Z",
+   "status": "200",
+   "ctype": "application/json;charset=UTF-8",
+   "hash": "97ce1bedb8cc128aa499d31ffbcbfc8bc65b8e14e49a3c797a4e5031a740043b",
+   "size": 3143
+  },
+  {
+   "url": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1223570-1223570/asJsonSliderResult",
+   "at": "2026-10-09T19:35:05.635Z",
+   "status": "200",
+   "ctype": "application/json;charset=UTF-8",
+   "hash": "73d483724d4185a259c066426f21492fa262199c79fa29ea0576b9a967202052",
+   "size": 3552
+  },
+  {
+   "url": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1223572-1223572/asJsonSliderResult",
+   "at": "2026-10-09T19:35:05.723Z",
+   "status": "200",
+   "ctype": "application/json;charset=UTF-8",
+   "hash": "3b007d6790c77c9901ab8871c2f795ba5ae855d176220e93dedad58fb4c9991e",
+   "size": 3175
+  },
+  {
+   "url": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1223574-1223574/asJsonSliderResult",
+   "at": "2026-10-09T19:35:05.832Z",
+   "status": "200",
+   "ctype": "application/json;charset=UTF-8",
+   "hash": "7286e53d569df9c8a2ea19bcf7e9fe63279e664f004563106b5ac6227a8b3500",
+   "size": 3562
+  },
+  {
+   "url": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1223576-1223576/asJsonSliderResult",
+   "at": "2026-10-09T19:35:05.923Z",
+   "status": "200",
+   "ctype": "application/json;charset=UTF-8",
+   "hash": "fbd37b1d9fca04e78c12eb3c32e0b09a0139d3c287386fc396c212f5e32e9dbd",
+   "size": 3328
+  },
+  {
+   "url": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1223578-1223578/asJsonSliderResult",
+   "at": "2026-10-09T19:35:06.026Z",
+   "status": "200",
+   "ctype": "application/json;charset=UTF-8",
+   "hash": "71da2eb31b412c370b4bbf553ec7b4c82fff9a1a85cb1ab2e034834d49a5a3d1",
+   "size": 4074
+  },
+  {
+   "url": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1223580-1223580/asJsonSliderResult",
+   "at": "2026-10-09T19:35:06.138Z",
+   "status": "200",
+   "ctype": "application/json;charset=UTF-8",
+   "hash": "62c88eedbbf4437512f4bddb1eb90fa91101d3bcf054342221045c30849ce334",
+   "size": 3175
+  },
+  {
+   "url": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1223582-1223582/asJsonSliderResult",
+   "at": "2026-10-09T19:35:06.231Z",
+   "status": "200",
+   "ctype": "application/json;charset=UTF-8",
+   "hash": "6b072c2e8c1f7bbbb59df4528b4855322cd810f22c5b1f89673f8d26d37e7b67",
+   "size": 3377
+  },
+  {
+   "url": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1223584-1223584/asJsonSliderResult",
+   "at": "2026-10-09T19:35:06.341Z",
+   "status": "200",
+   "ctype": "application/json;charset=UTF-8",
+   "hash": "f46adf482e6f2131756a938f83350ae1e78ff7dc8e7a88b6b11a9c33272cd243",
+   "size": 3545
+  },
+  {
+   "url": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1223586-1223586/asJsonSliderResult",
+   "at": "2026-10-09T19:35:06.451Z",
+   "status": "200",
+   "ctype": "application/json;charset=UTF-8",
+   "hash": "83ca09ab7c4201fb3b2621483c79c221bea67d45c99642122e400eb8ffdeccbe",
+   "size": 4037
+  },
+  {
+   "url": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1223588-1223588/asJsonSliderResult",
+   "at": "2026-10-09T19:35:06.555Z",
+   "status": "200",
+   "ctype": "application/json;charset=UTF-8",
+   "hash": "10ab865b5216513238b2fae70f0fc3c900cdf0a605ec5b328ecff96af15828fe",
+   "size": 3039
+  },
+  {
+   "url": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1223590-1223590/asJsonSliderResult",
+   "at": "2026-10-09T19:35:06.652Z",
+   "status": "200",
+   "ctype": "application/json;charset=UTF-8",
+   "hash": "b69b4e5c33c17612aad4c5eca99c53c8f688b18e246ac1cb778ad85a1cd98efd",
+   "size": 3561
+  },
+  {
+   "url": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1223592-1223592/asJsonSliderResult",
+   "at": "2026-10-09T19:35:06.758Z",
+   "status": "200",
+   "ctype": "application/json;charset=UTF-8",
+   "hash": "89ec6400390f6775c79d6cdcf0aad7eb3cffeaa4f0e2fb389aeea920dbb5eb19",
+   "size": 3627
+  },
+  {
+   "url": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1223594-1223594/asJsonSliderResult",
+   "at": "2026-10-09T19:35:06.886Z",
+   "status": "200",
+   "ctype": "application/json;charset=UTF-8",
+   "hash": "f09857833cf226478ec9210c12bb112082abd965bc95fe7ebb5e262521b82fb9",
+   "size": 3120
+  },
+  {
+   "url": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1223596-1223596/asJsonSliderResult",
+   "at": "2026-10-09T19:35:07.004Z",
+   "status": "200",
+   "ctype": "application/json;charset=UTF-8",
+   "hash": "ed0fc201f26cd1b06bf82e86b96742f7f6f5c191c152198588248cbca7f1546e",
+   "size": 3634
+  },
+  {
+   "url": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1223598-1223598/asJsonSliderResult",
+   "at": "2026-10-09T19:35:07.129Z",
+   "status": "200",
+   "ctype": "application/json;charset=UTF-8",
+   "hash": "1f4cc97e4ba7af13cdb15d21a0a097f0831409e07d57a8067aca2321f18d49e6",
+   "size": 3529
+  },
+  {
+   "url": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1223644-1223644/asJsonSliderResult",
+   "at": "2026-10-09T19:35:07.234Z",
+   "status": "200",
+   "ctype": "application/json;charset=UTF-8",
+   "hash": "90ee0e328d5df994996eb4eb1bf45d5a1ae05b3927da34fff005db9df6f3edec",
+   "size": 3250
+  },
+  {
+   "url": "https://www.bundesregierung.de/breg-de/aktuelles",
+   "at": "2026-10-09T19:35:35.422Z",
+   "status": "200",
+   "ctype": "text/html;charset=UTF-8",
+   "hash": "ccb54b14cf7b98983ae01c615410878265b1c4f330246f1e7a9a69b1e86eadbb",
+   "size": 94705
+  },
+  {
+   "url": "https://eur-lex.europa.eu/oj/daily-view/L-series/default.html?ojDate=08102026",
+   "at": "2026-10-09T19:35:54.104Z",
+   "status": "200",
+   "ctype": "text/html; charset=UTF-8",
+   "hash": "11cd098c80649ad83e647ee4c534e19aaa0d3e7681ec6548b0567e62bce77293",
+   "size": 100425
+  },
+  {
+   "url": "https://eur-lex.europa.eu/oj/daily-view/L-series/default.html?ojDate=09102026",
+   "at": "2026-10-09T19:35:54.560Z",
+   "status": "200",
+   "ctype": "text/html; charset=UTF-8",
+   "hash": "0c63222d5a8c453f65e45959c314c5d44b506ea68472025623e2b51bfc27549d",
+   "size": 101685
+  },
+  {
+   "url": "https://eur-lex.europa.eu/oj/daily-view/C-series/default.html?ojDate=08102026",
+   "at": "2026-10-09T19:35:54.986Z",
+   "status": "200",
+   "ctype": "text/html; charset=UTF-8",
+   "hash": "fd9bc90daf83c236584f82c5ebc5a9d3cd7a8ea7dff7c2ef59750565b86aa3ee",
+   "size": 111275
+  },
+  {
+   "url": "https://eur-lex.europa.eu/oj/daily-view/C-series/default.html?ojDate=09102026",
+   "at": "2026-10-09T19:35:55.406Z",
+   "status": "200",
+   "ctype": "text/html; charset=UTF-8",
+   "hash": "94fcc474023d1ab7db96d0b9e6036553ddf1d49399721c13b2de856eee846105",
+   "size": 106063
+  },
+  {
+   "url": "https://commission.europa.eu/news-and-media/news_en",
+   "at": "2026-10-09T19:36:37.954Z",
+   "status": "200",
+   "ctype": "text/html; charset=utf-8",
+   "hash": "fd4e3f4eb81710ef263075a1f18e53ec589dbfb7667a778b8d8ccde5ad53b7cb",
+   "size": 305483
+  },
+  {
+   "url": "https://commission.europa.eu/news-and-media/news_en?page=1",
+   "at": "2026-10-09T19:36:38.095Z",
+   "status": "200",
+   "ctype": "text/html; charset=utf-8",
+   "hash": "131f3653afeca8496a573529aed63efa11704f9f3b52df0cc5098d4f53838a87",
+   "size": 307253
+  },
+  {
+   "url": "https://commission.europa.eu/news-and-media/news_en?page=2",
+   "at": "2026-10-09T19:36:46.722Z",
+   "status": "200",
+   "ctype": "text/html; charset=utf-8",
+   "hash": "ab43e9523784409f0ac2c82afe9626130eecb54300a3f23401827380a9ad978c",
+   "size": 306646
+  },
+  {
+   "url": "https://commission.europa.eu/news-and-media/news_en?page=3",
+   "at": "2026-10-09T19:36:46.856Z",
+   "status": "200",
+   "ctype": "text/html; charset=utf-8",
+   "hash": "45110609b028778297838421337c5209f7298808c8c5830a6b4497159e269c18",
+   "size": 307280
+  },
+  {
+   "url": "https://commission.europa.eu/news-and-media/news_en?page=4",
+   "at": "2026-10-09T19:36:46.994Z",
+   "status": "200",
+   "ctype": "text/html; charset=utf-8",
+   "hash": "a45bf903f77bf29db90e534b9f777d1ef0eaf5d85fc3ae36c0c52db8c4d6a942",
+   "size": 308150
+  },
+  {
+   "url": "https://ec.europa.eu/commission/presscorner/api/search?language=en&pagenumber=1&pagesize=50",
+   "at": "2026-10-09T19:37:05.046Z",
+   "status": "200",
+   "ctype": "application/json",
+   "hash": "425b67b44c94c81c323d2666e70ee30fcfdbc68d2a6f8b2c1aa2a77a9d13297e",
+   "size": 20361
+  },
+  {
+   "url": "https://ec.europa.eu/commission/presscorner/api/documents?language=en&pageNumber=1&pageSize=50",
+   "at": "2026-10-09T19:37:06.395Z",
+   "status": "400",
+   "ctype": "",
+   "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "size": 0
+  },
+  {
+   "url": "https://taxation-customs.ec.europa.eu/news/council-updates-eu-list-non-cooperative-tax-jurisdictions-cooperation-delivers-further-progress-2026-10-09_en",
+   "at": "2026-10-09T19:37:28.879Z",
+   "status": "200",
+   "ctype": "text/html; charset=utf-8",
+   "hash": "4b0a011b9577393fd4e5734e9db56518605645c578eecf1244be75223eabd3f2",
+   "size": 104298
+  },
+  {
+   "url": "https://taxation-customs.ec.europa.eu/news/commission-proposes-extending-key-anti-vat-fraud-tools-until-june-2030-2026-10-09_en",
+   "at": "2026-10-09T19:37:29.108Z",
+   "status": "200",
+   "ctype": "text/html; charset=utf-8",
+   "hash": "2161fbab97d7d181d138bdc9457ae326570d103aeeaf2e6a6857aea58f39e6b4",
+   "size": 97094
+  },
+  {
+   "url": "https://energy.ec.europa.eu/news/eu-gas-system-prepared-winter-despite-lower-storage-levels-2026-10-08_en",
+   "at": "2026-10-09T19:37:29.253Z",
+   "status": "200",
+   "ctype": "text/html; charset=utf-8",
+   "hash": "be0256c803987c766e6794a05d26a1b5007c77a65febeee8c865f659dc917a5b",
+   "size": 86181
+  },
+  {
+   "url": "https://oceans-and-fisheries.ec.europa.eu/news/commission-approves-eur405-million-french-state-aid-support-agricultural-fishery-and-transport-2026-10-09_en",
+   "at": "2026-10-09T19:37:29.408Z",
+   "status": "200",
+   "ctype": "text/html; charset=utf-8",
+   "hash": "7703a6969e7b951eb67ad3acc98099f6c66731c8c34f0bd12d86dc7e29d956bc",
+   "size": 132019
+  },
+  {
+   "url": "https://taxation-customs.ec.europa.eu/news/updated-guidance-eur3-customs-duty-now-includes-info-union-handling-fee-2026-10-08_en",
+   "at": "2026-10-09T19:37:29.621Z",
+   "status": "200",
+   "ctype": "application/pdf",
+   "hash": "2bdbe0eab260918f8bfcf2d935ce24f3143d56241786515bc07c3f0b88f49a63",
+   "size": 942043
+  },
+  {
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32026R0382",
+   "at": "2026-10-09T19:38:07.342Z",
+   "status": "200",
+   "ctype": "text/html; charset=UTF-8",
+   "hash": "a6e464091cfad9fd6f4863c53b9225c3fca38ad078a1ef82e23187cdf528dd25",
+   "size": 26588
+  },
+  {
+   "url": "https://eur-lex.europa.eu/eli/reg/2026/382/oj/eng",
+   "at": "2026-10-09T19:38:07.572Z",
+   "status": "200",
+   "ctype": "text/html; charset=UTF-8",
+   "hash": "b342ed0a5c30c66feaca4e3365adc866b499d1254b9e09af1de2453806bb06a7",
+   "size": 276095
+  },
+  {
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202602269",
+   "at": "2026-10-09T19:38:08.129Z",
+   "status": "200",
+   "ctype": "text/html; charset=UTF-8",
+   "hash": "a849e6cb7d3f8ff587e59b1955371f2a4c2adf717c5910f346a6dd56ebaa5b6e",
+   "size": 209635
+  },
+  {
+   "url": "https://ec.europa.eu/transparency/documents-register/detail?ref=C(2026)6694&lang=en",
+   "at": "2026-10-09T19:38:08.444Z",
+   "status": "200",
+   "ctype": "text/html",
+   "hash": "1c83592f2aba74d725b4377aa8bb21ce487bcc12a4cbdf6de3d0efdd2d495a5f",
+   "size": 55040
+  },
+  {
+   "url": "https://oeil.europarl.europa.eu/oeil/en",
+   "at": "2026-10-09T19:38:28.221Z",
+   "status": "200",
+   "ctype": "text/html;charset=UTF-8",
+   "hash": "f7ea0ecf1be6a2f258ac60f77c11be4dd9999e8d4df8b0e0c1495484d082cf2f",
+   "size": 58334
+  },
+  {
+   "url": "https://www.bundesrat.de/SharedDocs/TO/1069/tagesordnung-1069.html?topNr=24",
+   "at": "2026-10-09T19:38:45.003Z",
+   "status": "200",
+   "ctype": "text/html;charset=utf-8",
+   "hash": "ac6b32db2cfb6f92b55fa6dcee851c6de438c0ac38c8927749f0123ee52e8ff0",
+   "size": 93485
+  },
+  {
+   "url": "https://www.bundesrat.de/SharedDocs/TO/1069/tagesordnung-1069.html?topNr=46",
+   "at": "2026-10-09T19:38:47.386Z",
+   "status": "200",
+   "ctype": "text/html;charset=utf-8",
+   "hash": "e00afdad55340afc3737234e79c24aa3098f0001786121415eb64ab28760e2d8",
+   "size": 93175
+  },
+  {
+   "url": "https://www.bundesrat.de/SharedDocs/TO/1069/tagesordnung-1069.html?topNr=39",
+   "at": "2026-10-09T19:38:48.905Z",
+   "status": "200",
+   "ctype": "text/html;charset=utf-8",
+   "hash": "fe7219511175785459375af2b62b1ad3d77bee3cab5c88bbe3bb06fecef4cee8",
+   "size": 93220
+  },
+  {
+   "url": "https://www.bundesrat.de/SharedDocs/TO/1069/tagesordnung-1069.html?topNr=20",
+   "at": "2026-10-09T19:38:50.104Z",
+   "status": "200",
+   "ctype": "text/html;charset=utf-8",
+   "hash": "09e56752b51b97fa1d3893174f809b1cf87f6f5ec176eb704e2eef2b10b3a2a7",
+   "size": 93942
+  },
+  {
+   "url": "https://www.bundesrat.de/SharedDocs/TO/1069/erl/24.pdf?__blob=publicationFile&v=1",
+   "at": "2026-10-09T19:39:04.534Z",
+   "status": "200",
+   "ctype": "application/pdf",
+   "hash": "e419c07aa317a104c05b7f191ce573e7460d54fe416e5f5acc1ab4720fdb756d",
+   "size": 151624
+  },
+  {
+   "url": "https://www.bundesrat.de/drs.html?id=584-26",
+   "at": "2026-10-09T19:40:24.449Z",
+   "status": "200",
+   "ctype": "application/pdf",
+   "hash": "6b0e341326c8cd5ba43aba97802b1f145fdcd57fad061354a87b30487cb96f06",
+   "size": 926837
+  },
+  {
+   "url": "https://dserver.bundestag.de/btd/21/082/2108236.pdf",
+   "at": "2026-10-09T19:40:24.706Z",
+   "status": "200",
+   "ctype": "application/pdf",
+   "hash": "d1b002cdd55cc44dd5e5cc69ab7fe997cbc6a3bba2572c3ab936c0d3a3cc1cea",
+   "size": 258977
+  },
+  {
+   "url": "https://www.bundesrat.de/drs.html?id=509-26",
+   "at": "2026-10-09T19:40:24.926Z",
+   "status": "200",
+   "ctype": "application/pdf",
+   "hash": "9c10291f923c1b21dc341cded3614e5993938ef9b201541f491d09803c0f5503",
+   "size": 1644062
+  },
+  {
+   "url": "https://www.bundesrat.de/SharedDocs/TO/1069/tagesordnung-1069.html?topNr=1",
+   "at": "2026-10-09T19:42:10.262Z",
+   "status": "200",
+   "ctype": "text/html;charset=utf-8",
+   "hash": "b6336aeba7df459897b2e5231b0d0a2110bcf9c2719fb4dbbe96c8470182719e",
+   "size": 92521
+  },
+  {
+   "url": "https://www.bundesrat.de/SharedDocs/TO/1069/tagesordnung-1069.html?topNr=2",
+   "at": "2026-10-09T19:42:12.859Z",
+   "status": "200",
+   "ctype": "text/html;charset=utf-8",
+   "hash": "b3160cb60e2b1a0a5a3f294d287544a260ce7dd4321e1071abafd846dc6e08c1",
+   "size": 92537
+  },
+  {
+   "url": "https://www.bundesrat.de/SharedDocs/TO/1069/tagesordnung-1069.html?topNr=3",
+   "at": "2026-10-09T19:42:14.193Z",
+   "status": "200",
+   "ctype": "text/html;charset=utf-8",
+   "hash": "228206e1806f1bd69e204705b082eb6861b5e0e74fb7b2b34b349ce8d3d23bbd",
+   "size": 93199
+  },
+  {
+   "url": "https://www.bundesrat.de/SharedDocs/TO/1069/tagesordnung-1069.html?topNr=4",
+   "at": "2026-10-09T19:42:15.455Z",
+   "status": "200",
+   "ctype": "text/html;charset=utf-8",
+   "hash": "c0a7203c19fd77cf9de7a622c1f0428c4ac6514d3309405d2c0a9ef2124bb3e4",
+   "size": 93237
+  },
+  {
+   "url": "https://www.bundesrat.de/SharedDocs/TO/1069/tagesordnung-1069.html?topNr=5",
+   "at": "2026-10-09T19:42:16.816Z",
+   "status": "200",
+   "ctype": "text/html;charset=utf-8",
+   "hash": "1d4fab57c483769d868015340b7de6301328867fa0b5531e2bce4cebef822a98",
+   "size": 93450
+  },
+  {
+   "url": "https://www.bundesrat.de/SharedDocs/TO/1069/tagesordnung-1069.html?topNr=6",
+   "at": "2026-10-09T19:42:18.075Z",
+   "status": "200",
+   "ctype": "text/html;charset=utf-8",
+   "hash": "b5acac2f13d23722507ee94b06f5028e4144f26f8f8fe55d293006055bc1232d",
+   "size": 93242
+  },
+  {
+   "url": "https://www.bundesrat.de/SharedDocs/TO/1069/tagesordnung-1069.html?topNr=7",
+   "at": "2026-10-09T19:42:19.253Z",
+   "status": "200",
+   "ctype": "text/html;charset=utf-8",
+   "hash": "8599172cec6fad2fd48f475e5b18f75bfbe93657f2f1dc1488bbaf43f843d663",
+   "size": 93182
+  },
+  {
+   "url": "https://www.bundesrat.de/SharedDocs/TO/1069/tagesordnung-1069.html?topNr=8",
+   "at": "2026-10-09T19:42:20.538Z",
+   "status": "200",
+   "ctype": "text/html;charset=utf-8",
+   "hash": "0a531e73dc062493c3d528755212686813d44138c2cc930a3b2b5ee460eefcab",
+   "size": 93187
+  },
+  {
+   "url": "https://www.bundesrat.de/SharedDocs/TO/1069/tagesordnung-1069.html?topNr=9",
+   "at": "2026-10-09T19:42:21.756Z",
+   "status": "200",
+   "ctype": "text/html;charset=utf-8",
+   "hash": "07f9cd7aedfbe74b3733a4272f60216904f9c902fa10318b685faf4cad73ecdf",
+   "size": 93758
+  },
+  {
+   "url": "https://www.bundesrat.de/SharedDocs/TO/1069/tagesordnung-1069.html?topNr=10",
+   "at": "2026-10-09T19:42:22.978Z",
+   "status": "200",
+   "ctype": "text/html;charset=utf-8",
+   "hash": "512817d8fb0614be9ae3576380567bb666e9d25b22f995b5f04497c4c8d5e676",
+   "size": 93391
+  },
+  {
+   "url": "https://www.bundesrat.de/SharedDocs/TO/1069/tagesordnung-1069.html?topNr=11",
+   "at": "2026-10-09T19:42:24.158Z",
+   "status": "200",
+   "ctype": "text/html;charset=utf-8",
+   "hash": "438be57f370343d1e7f7e2e95c149a759d9bef74856ebd0cbfeaa8c5bbdfecc4",
+   "size": 93424
+  },
+  {
+   "url": "https://www.bundesrat.de/SharedDocs/TO/1069/tagesordnung-1069.html?topNr=12",
+   "at": "2026-10-09T19:42:25.315Z",
+   "status": "200",
+   "ctype": "text/html;charset=utf-8",
+   "hash": "f5e5a9082187b87dc4540487359737013fb01a581034791f4e41074487d4be64",
+   "size": 93732
+  },
+  {
+   "url": "https://www.bundesrat.de/SharedDocs/TO/1069/tagesordnung-1069.html?topNr=13",
+   "at": "2026-10-09T19:42:26.433Z",
+   "status": "200",
+   "ctype": "text/html;charset=utf-8",
+   "hash": "da45b643f37f1c8960eeaccbd7fbbeba7c9f80daa2262d385b79f4c8f2895e10",
+   "size": 93472
+  },
+  {
+   "url": "https://www.bundesrat.de/SharedDocs/TO/1069/tagesordnung-1069.html?topNr=14",
+   "at": "2026-10-09T19:42:28.016Z",
+   "status": "200",
+   "ctype": "text/html;charset=utf-8",
+   "hash": "5caf36fa3cb0a0f0b016457066298f3af1c4ea7158b1ef5ce66563b21671df25",
+   "size": 93620
+  },
+  {
+   "url": "https://www.bundesrat.de/SharedDocs/TO/1069/tagesordnung-1069.html?topNr=15",
+   "at": "2026-10-09T19:42:29.278Z",
+   "status": "200",
+   "ctype": "text/html;charset=utf-8",
+   "hash": "0123d70bf5d577418b60afe5520705ef14fff4f7b3601b6a5141bf68a3e7af6c",
+   "size": 93984
+  },
+  {
+   "url": "https://www.bundesrat.de/SharedDocs/TO/1069/tagesordnung-1069.html?topNr=16",
+   "at": "2026-10-09T19:42:30.463Z",
+   "status": "200",
+   "ctype": "text/html;charset=utf-8",
+   "hash": "3e2291269cdacc115cfa2d84d5d063500fd9e10ce33a42b66928e26ebdd098b0",
+   "size": 93580
+  },
+  {
+   "url": "https://www.bundesrat.de/SharedDocs/TO/1069/tagesordnung-1069.html?topNr=17",
+   "at": "2026-10-09T19:42:31.598Z",
+   "status": "200",
+   "ctype": "text/html;charset=utf-8",
+   "hash": "e6decdf2c331a65de129481a43879110110ed75e9422b1de43693f1d55d0b642",
+   "size": 93628
+  },
+  {
+   "url": "https://www.bundesrat.de/SharedDocs/TO/1069/tagesordnung-1069.html?topNr=18",
+   "at": "2026-10-09T19:42:32.853Z",
+   "status": "200",
+   "ctype": "text/html;charset=utf-8",
+   "hash": "ab959970f4c49271bbb69f34746f6032fb213d8148643db9d90a261338bbe6ec",
+   "size": 93268
+  },
+  {
+   "url": "https://www.bundesrat.de/SharedDocs/TO/1069/tagesordnung-1069.html?topNr=19",
+   "at": "2026-10-09T19:42:33.998Z",
+   "status": "200",
+   "ctype": "text/html;charset=utf-8",
+   "hash": "e8df0a3e8daa8a9725e90fab61b5c6f58ebd7cefd05e3bc67dac3871c0e1fe8c",
+   "size": 93506
+  },
+  {
+   "url": "https://www.bundesrat.de/SharedDocs/TO/1069/tagesordnung-1069.html?topNr=21",
+   "at": "2026-10-09T19:42:35.514Z",
+   "status": "200",
+   "ctype": "text/html;charset=utf-8",
+   "hash": "aa4ae96fc930ff109793972f95847422157425a282f532d2fc3b6c6f821f0f84",
+   "size": 93754
+  },
+  {
+   "url": "https://www.bundesrat.de/SharedDocs/TO/1069/tagesordnung-1069.html?topNr=23",
+   "at": "2026-10-09T19:42:36.792Z",
+   "status": "200",
+   "ctype": "text/html;charset=utf-8",
+   "hash": "8d0fa49e8f3a59fa9f0740e441fb3d03f9eceff7c98ea852ff8e6a8d5c6a3bec",
+   "size": 93751
+  },
+  {
+   "url": "https://www.bundesrat.de/SharedDocs/TO/1069/tagesordnung-1069.html?topNr=25",
+   "at": "2026-10-09T19:42:38.049Z",
+   "status": "200",
+   "ctype": "text/html;charset=utf-8",
+   "hash": "a10b655489a494bf5693c0ac948bcb0370578cbb519bbdf87e8311ab3c15ea63",
+   "size": 93136
+  },
+  {
+   "url": "https://www.bundesrat.de/SharedDocs/TO/1069/tagesordnung-1069.html?topNr=26",
+   "at": "2026-10-09T19:42:39.288Z",
+   "status": "200",
+   "ctype": "text/html;charset=utf-8",
+   "hash": "587c214b7b8cbbd420606faa6ef2642f50b522703c520f86739b6e22f0e6e72a",
+   "size": 93184
+  },
+  {
+   "url": "https://www.bundesrat.de/SharedDocs/TO/1069/tagesordnung-1069.html?topNr=27",
+   "at": "2026-10-09T19:42:40.496Z",
+   "status": "200",
+   "ctype": "text/html;charset=utf-8",
+   "hash": "76f15be0961fdbe37f929eecf39bbc54e086a156c6f7bbf509a5426b10c802bf",
+   "size": 93514
+  },
+  {
+   "url": "https://www.bundesrat.de/SharedDocs/TO/1069/tagesordnung-1069.html?topNr=28",
+   "at": "2026-10-09T19:42:41.705Z",
+   "status": "200",
+   "ctype": "text/html;charset=utf-8",
+   "hash": "311cbcfb0073704ec4c2cbbd50cd0533ae239adff18bf6e1918b99120a01550b",
+   "size": 93938
+  },
+  {
+   "url": "https://www.bundesrat.de/SharedDocs/TO/1069/tagesordnung-1069.html?topNr=29",
+   "at": "2026-10-09T19:42:42.954Z",
+   "status": "200",
+   "ctype": "text/html;charset=utf-8",
+   "hash": "1a583f9d0f09afb59d25e40035b2319fddf3fb2a50e7680a78f2bae9e2ca909f",
+   "size": 93895
+  },
+  {
+   "url": "https://www.bundesrat.de/SharedDocs/TO/1069/tagesordnung-1069.html?topNr=30",
+   "at": "2026-10-09T19:42:44.195Z",
+   "status": "200",
+   "ctype": "text/html;charset=utf-8",
+   "hash": "a726c53f09524b589a62b79e1761bee0663eea252712846781c7a3f125d2ec38",
+   "size": 93809
+  },
+  {
+   "url": "https://www.bundesrat.de/SharedDocs/TO/1069/tagesordnung-1069.html?topNr=31",
+   "at": "2026-10-09T19:42:45.465Z",
+   "status": "200",
+   "ctype": "text/html;charset=utf-8",
+   "hash": "338555d2f1ba8cc69489967e88264be27d8b346d5d9053c5ff71209428821bdf",
+   "size": 93899
+  },
+  {
+   "url": "https://www.bundesrat.de/SharedDocs/TO/1069/tagesordnung-1069.html?topNr=32",
+   "at": "2026-10-09T19:42:46.690Z",
+   "status": "200",
+   "ctype": "text/html;charset=utf-8",
+   "hash": "c1b41d322e100cb383cf01d35df6cea4f2d3b9b1d2175af2fe5d41f585950c22",
+   "size": 93767
+  },
+  {
+   "url": "https://www.bundesrat.de/SharedDocs/TO/1069/tagesordnung-1069.html?topNr=33",
+   "at": "2026-10-09T19:42:47.882Z",
+   "status": "200",
+   "ctype": "text/html;charset=utf-8",
+   "hash": "b06bb439a7557adc3aaf62a23b662c0d59f99c048dc419c3fb510332c3b2230e",
+   "size": 93807
+  },
+  {
+   "url": "https://www.bundesrat.de/SharedDocs/TO/1069/tagesordnung-1069.html?topNr=34",
+   "at": "2026-10-09T19:42:49.070Z",
+   "status": "200",
+   "ctype": "text/html;charset=utf-8",
+   "hash": "6c4b30eb81b5716594340e5aec5de591f6946a3d2c253307b76e0a7f466f4576",
+   "size": 93829
+  },
+  {
+   "url": "https://www.bundesrat.de/SharedDocs/TO/1069/tagesordnung-1069.html?topNr=35",
+   "at": "2026-10-09T19:42:50.339Z",
+   "status": "200",
+   "ctype": "text/html;charset=utf-8",
+   "hash": "0fb2f201e50923a7cca6e0cd6fca7f70e77b319fa67fdc84c4ceeedf914b3921",
+   "size": 93829
+  },
+  {
+   "url": "https://www.bundesrat.de/SharedDocs/TO/1069/tagesordnung-1069.html?topNr=36",
+   "at": "2026-10-09T19:42:51.542Z",
+   "status": "200",
+   "ctype": "text/html;charset=utf-8",
+   "hash": "dc46f026d81e2d6d551f4ad25d7dba4d08452bee122c06b1072059413c328596",
+   "size": 93869
+  },
+  {
+   "url": "https://www.bundesrat.de/SharedDocs/TO/1069/tagesordnung-1069.html?topNr=37",
+   "at": "2026-10-09T19:42:52.744Z",
+   "status": "200",
+   "ctype": "text/html;charset=utf-8",
+   "hash": "c6ff6f9989b843c01db17e7f80591a7b5cc6ac077fe1a2e17a8ca6e16b66dbfb",
+   "size": 93726
+  },
+  {
+   "url": "https://www.bundesrat.de/SharedDocs/TO/1069/tagesordnung-1069.html?topNr=38",
+   "at": "2026-10-09T19:42:53.928Z",
+   "status": "200",
+   "ctype": "text/html;charset=utf-8",
+   "hash": "19762d775aed0d90bd002df70ce0754d581d988a36f9d0545d0da8604a8fd1be",
+   "size": 94420
+  },
+  {
+   "url": "https://www.bundesrat.de/SharedDocs/TO/1069/tagesordnung-1069.html?topNr=40",
+   "at": "2026-10-09T19:42:55.069Z",
+   "status": "200",
+   "ctype": "text/html;charset=utf-8",
+   "hash": "10558cfa622fd7cc1327ea0dd701d74cabbd9964ea1100ccb283e3da4546b14a",
+   "size": 93182
+  },
+  {
+   "url": "https://www.bundesrat.de/SharedDocs/TO/1069/tagesordnung-1069.html?topNr=41",
+   "at": "2026-10-09T19:42:56.789Z",
+   "status": "200",
+   "ctype": "text/html;charset=utf-8",
+   "hash": "7e0c44bcc67a1f430d9f32c744162b1370df82f5712395d3d25bbc4323d57e02",
+   "size": 93622
+  },
+  {
+   "url": "https://www.bundesrat.de/SharedDocs/TO/1069/tagesordnung-1069.html?topNr=42",
+   "at": "2026-10-09T19:42:58.426Z",
+   "status": "200",
+   "ctype": "text/html;charset=utf-8",
+   "hash": "98a0cca8161f69a803504d3d5e56634a552c7f1880db58a6c3c2be3c88994ed0",
+   "size": 93486
+  },
+  {
+   "url": "https://www.bundesrat.de/SharedDocs/TO/1069/tagesordnung-1069.html?topNr=43",
+   "at": "2026-10-09T19:42:59.592Z",
+   "status": "200",
+   "ctype": "text/html;charset=utf-8",
+   "hash": "73b65a666f9faec631d435a6caf3841d96072400a9258a05bae06a0ff56790d7",
+   "size": 93248
+  },
+  {
+   "url": "https://www.bundesrat.de/SharedDocs/TO/1069/tagesordnung-1069.html?topNr=44a",
+   "at": "2026-10-09T19:43:01.192Z",
+   "status": "200",
+   "ctype": "text/html;charset=utf-8",
+   "hash": "8a702eff5c100bd7a1bebaf923c897326202abf034eb0dfa4ea3cbc4534d7764",
+   "size": 93512
+  },
+  {
+   "url": "https://www.bundesrat.de/SharedDocs/TO/1069/tagesordnung-1069.html?topNr=44b",
+   "at": "2026-10-09T19:43:02.403Z",
+   "status": "200",
+   "ctype": "text/html;charset=utf-8",
+   "hash": "182704059105c2711d75d72656c51890897797466a2d322bc937251a097bbdfd",
+   "size": 93476
+  },
+  {
+   "url": "https://www.bundesrat.de/SharedDocs/TO/1069/tagesordnung-1069.html?topNr=45",
+   "at": "2026-10-09T19:43:03.590Z",
+   "status": "200",
+   "ctype": "text/html;charset=utf-8",
+   "hash": "afe1ec84d5703e2eeec8d806582e297e290d86987fa54a1ad49518adf7e07df9",
+   "size": 93385
+  },
+  {
+   "url": "https://www.bundesrat.de/SharedDocs/TO/1069/tagesordnung-1069.html?topNr=47",
+   "at": "2026-10-09T19:43:04.989Z",
+   "status": "200",
+   "ctype": "text/html;charset=utf-8",
+   "hash": "0443e59922cba72624bf68d193794865b048d34a2f292d572290bca9d6ad9fc1",
+   "size": 93004
+  },
+  {
+   "url": "https://www.bundesrat.de/SharedDocs/TO/1069/tagesordnung-1069.html?topNr=48",
+   "at": "2026-10-09T19:43:06.259Z",
+   "status": "200",
+   "ctype": "text/html;charset=utf-8",
+   "hash": "9ae4a6d0781559589905aca9eabfb81ad01a4ab0ce4fb548bd724042426800cc",
+   "size": 93069
+  },
+  {
+   "url": "https://www.bundesrat.de/SharedDocs/TO/1069/tagesordnung-1069.html?topNr=49",
+   "at": "2026-10-09T19:43:07.541Z",
+   "status": "200",
+   "ctype": "text/html;charset=utf-8",
+   "hash": "a87328ab7b7cad47e05bc6634a330295de5a77915064a52b98f4f5edea76b351",
+   "size": 93432
+  },
+  {
+   "url": "https://www.bundesrat.de/SharedDocs/TO/1069/tagesordnung-1069.html?topNr=50",
+   "at": "2026-10-09T19:43:08.768Z",
+   "status": "200",
+   "ctype": "text/html;charset=utf-8",
+   "hash": "5faeb0e9c0ed4bde2ddf5354c7a38806cb266831fd241ed4d8d09423f56ac4be",
+   "size": 92823
+  },
+  {
+   "url": "https://ec.europa.eu/commission/presscorner/api/documents?reference=IP/26/2113&language=en",
+   "at": "2026-10-09T19:44:50.351Z",
+   "status": "200",
+   "ctype": "application/json",
+   "hash": "54febd42ee06a25bd8912f21987c97805b598ea0f6a10a62d51350d41967ba22",
+   "size": 8767
+  },
+  {
+   "url": "https://ec.europa.eu/commission/presscorner/api/documents?reference=STATEMENT/26/2122&language=en",
+   "at": "2026-10-09T19:44:50.530Z",
+   "status": "200",
+   "ctype": "application/json",
+   "hash": "5d4ff4a99a4d31b58244fbcec9aea37fd23485a9bac40bdebe6424821c5c6857",
+   "size": 7126
+  }
+ ]
+}

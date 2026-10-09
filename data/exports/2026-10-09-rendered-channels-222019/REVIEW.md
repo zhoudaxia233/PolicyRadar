@@ -16,7 +16,7 @@ New `npm run data:render` renders a public page in the local headless Chrome as 
 ## EU
 
 - Legislative Observatory front page rendered: 36 of 40 procedures already recorded. Titles were taken from each rendered procedure page, not from list position (the list places the title after the reference; a positional reading would have mislabelled them). Added 2025/0395(COD) and 2025/0396(COD) (Omnibus VIII extended-producer-responsibility suspensions; committee vote 5 Oct, report tabled 9 Oct, indicative plenary 19 Oct; pending). Backfilled 2025/0385(COD) (Critical Raw Materials Act amendments; report tabled 2 Jul) outside the scan window. Excluded 2026/2925(RSP) (forecast date only).
-- Commission register, C(2026)6694 (rendered): "Act not yet in force", adopted 21/09/2026; enters into force only absent objection; scrutiny generally two months after adoption. Parcels explanation advanced to version 3: summary, status note, limits and next-step label now state that the 1 November start assumes early end of scrutiny; adoption event added. Prior events and revisions preserved.
+- Commission register, C(2026)6694 (rendered): "Act not yet in force", adopted 21/09/2026; enters into force only absent objection; scrutiny generally two months after adoption. Parcels explanation advanced to version 2: summary, status note, limits and next-step label now state that the 1 November start assumes early end of scrutiny; adoption event added. Prior events and revisions preserved.
 
 ## Coverage
 
@@ -25,4 +25,4 @@ New `npm run data:render` renders a public page in the local headless Chrome as 
 
 ## Validation
 
-Candidate and selected export: 210 tests pass (3 new render-tool tests); TypeScript clean; builds pass; selection gate passed. All new records and the parcels v3 explanation have current translation bindings. Browser interaction with the site itself was not re-tested.
+Candidate and selected export: 210 tests pass (3 new render-tool tests); TypeScript clean; builds pass; selection gate passed. All new records and the parcels v2 explanation have current translation bindings. Browser interaction with the site itself was not re-tested.

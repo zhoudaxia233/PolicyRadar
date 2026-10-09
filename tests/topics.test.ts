@@ -10,10 +10,22 @@ import {localizeIntake,localizePolicy,searchText} from '../lib/i18n/content.ts';
 const read=(path:string)=>JSON.parse(readFileSync(path,'utf8'));
 const data=createStaticData(read(process.env.POLICY_RADAR_EXPORT??read('data/current-export.json').path));
 const definitions:TopicDefinition[]=read('data/topics.json').topics;
-const topics=resolveTopics(definitions,data.intake.records,data.policies);
+const topics=resolveTopicRegistry(read('data/topics.json'),data);
 const localization=createLocalization(data,read('data/translations/content.json'),read('data/translations/bindings.json'));
 const base={...readFilters('?country=EU&view=intake')};
 const select=(filters=base)=>selectListing(data.policies,data.intake.records,filters,undefined,'2026-10-08',topics);
+
+test('a later group preserves prior groups and still validates missing references',()=>{
+ const prior=createStaticData(read('data/exports/2026-10-08-bmf-timeline-213634/policy-radar-export.json'));
+ const registry=read('data/topics.json');
+ const groups=resolveTopicRegistry(registry,prior);
+ assert(groups.some(t=>t.id==='de-crypto-information-exchange'));
+ assert(groups.some(t=>t.id==='us-scholarship-credit-2026'));
+ assert(!groups.some(t=>t.id==='de-eudi-wallet-2026'));
+ const future=registry.topics.find((t:TopicDefinition)=>t.id==='de-eudi-wallet-2026')!;
+ assert(future.appliesFromExport);
+ assert.throws(()=>resolveTopicRegistry(registry,{...prior,exportedAt:future.appliesFromExport}),/Unresolved topic document/);
+});
 
 test('PRIMA is one matter containing three distinct originals, with facts intact',()=>{
  const before=JSON.stringify(data),result=select(),group=result.progressGroups.find(g=>g.id==='topic:eu-morocco-prima')!;

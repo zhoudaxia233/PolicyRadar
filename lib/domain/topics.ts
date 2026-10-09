@@ -9,6 +9,7 @@ const reference=z.union([
 ]);
 export const topicDefinitionsSchema=z.array(z.object({
  id:z.string().regex(/^[a-z0-9-]+$/),title:z.tuple([text,text]),
+ appliesFromExport:z.string().datetime().optional(),
  basis:text,documents:z.array(reference).min(1),
 }).strict());
 export type TopicDefinition=z.infer<typeof topicDefinitionsSchema>[number];
@@ -60,5 +61,5 @@ export function groupRecords(records:IntakeRecord[],topics:Topic[]):RecordGroup[
 // records. Candidate/current builds still reject every dangling reference.
 export function resolveTopicRegistry(input:unknown,data:{exportedAt:string;intake:{records:IntakeRecord[]};policies:Policy[]}):Topic[]{
  const registry=z.object({appliesFromExport:z.string().datetime(),topics:topicDefinitionsSchema}).strict().parse(input);
- return data.exportedAt<registry.appliesFromExport?[]:resolveTopics(registry.topics,data.intake.records,data.policies);
+ return data.exportedAt<registry.appliesFromExport?[]:resolveTopics(registry.topics.filter(t=>!t.appliesFromExport||data.exportedAt>=t.appliesFromExport),data.intake.records,data.policies);
 }

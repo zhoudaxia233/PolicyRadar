@@ -84,6 +84,11 @@ become applicable. Builds of older snapshots omit the newer groups. Candidate
 and current builds at or after that timestamp must resolve every reference;
 the anchor is not a policy/source verification timestamp.
 
+When adding groups later, keep the registry anchor unchanged and set
+`appliesFromExport` on each new group to its first export. This preserves prior
+groups in historical builds while requiring all references once the new group
+applies. Resolve the registry, including these dates, before displaying groups.
+
 Closed proposals without an effective date must not use detail labels suggesting
 that commencement is awaited or that proposed changes became operative. Retain
 any recorded effective date for other kinds of closed matters.

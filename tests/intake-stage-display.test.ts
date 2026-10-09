@@ -6,11 +6,11 @@ import {createElement} from 'react';
 import {renderToStaticMarkup} from 'react-dom/server';
 import {createStaticData} from '../lib/static-data.ts';
 import {createLocalization} from '../lib/i18n/build.ts';
-import {resolveTopics,groupRecords} from '../lib/domain/topics.ts';
+import {resolveTopicRegistry,groupRecords} from '../lib/domain/topics.ts';
 const read=(path:string)=>JSON.parse(readFileSync(path,'utf8'));
-const data=createStaticData(read(read('data/current-export.json').path));
+const data=createStaticData(read(process.env.POLICY_RADAR_EXPORT??read('data/current-export.json').path));
 const localization=createLocalization(data,read('data/translations/content.json'),read('data/translations/bindings.json'));
-const groups=groupRecords(data.intake.records,resolveTopics(read('data/topics.json').topics,data.intake.records,data.policies));
+const groups=groupRecords(data.intake.records,resolveTopicRegistry(read('data/topics.json'),data));
 const bundle=buildSync({entryPoints:['app/intake-view.tsx'],bundle:true,write:false,platform:'node',format:'esm',jsx:'automatic'}).outputFiles[0].text;
 const {TopicDocuments}=await import('data:text/javascript;base64,'+Buffer.from(bundle).toString('base64'));
 test('CARF historical pending and adopted records have explicitly record-scoped bilingual badges',()=>{

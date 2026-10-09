@@ -127,6 +127,19 @@ titles, numbers and dates on each item's own page, never from position in a
 rendered list. A readable render establishes access only; close a day only when
 the listing is ordered by date and every item in the window is reconciled.
 
+### Data store
+
+Until 9 October 2026 every update copied the whole dataset into a new
+`data/exports/RUN/policy-radar-export.json`. That file grew by about 2 MB a day
+toward GitHub's 100 MB per-file limit, and dozens of near-identical copies
+accumulated. Since then the selected data is `data/store/`: `meta.json` plus one
+folder per table, each split into consecutive 1,000-row chunks (`000.json`,
+`001.json`, …) in original row order. Appending rows changes only the last chunk;
+git history keeps every earlier version, and the history gate validates each
+change. The existing per-run exports are frozen evidence for regression tests and
+historical builds; do not add new ones or edit them. All tools accept either form:
+`npm run build -- <path>`, `data:coverage`, `data:topics` and `POLICY_RADAR_EXPORT`.
+
 ## Group related official documents
 
 After every intake update, apply [the matter grouping rules](TOPICS.md) and run
@@ -237,12 +250,13 @@ rate or fact to copy into other policies or future years without verification.
 Record the checked ambiguities and example in the run's review notes. This is a
 required editorial review, not a claim that automated tests can guarantee clarity.
 
-1. Copy only the active export into a **new** directory
-   `data/exports/YYYY-MM-DD-weekly-HHMMSS/`. Never overwrite old exports. Use
-   actual timestamps. Include a complete `discoveryRegistry` copied from
-   `data/discovery-registry.json` in the new export. The snapshot defines the
-   channels for that export; old exports use a frozen compatibility registry.
-   Do not copy the old manifest as though it described new data.
+1. The selected data lives in `data/store/` and is edited in place (see
+   "Data store" below). Load it with `readExport('data/store')` from
+   `lib/export-store.ts`, change it, and write it back with `writeStore`. Never
+   create a new per-run copy, reorder rows or delete rows. Use actual timestamps.
+   Refresh `discoveryRegistry` from `data/discovery-registry.json`. Put the run's
+   review notes, fetch ledger and coverage reports in a new
+   `data/reviews/YYYY-MM-DD-<label>-HHMMSS/` directory.
 2. Append immutable intake and scan rows using `lib/domain/intake.ts`. A `complete`
    scan needs a closed date window, every page and document checked, and counts
    reconciled. Successful homepage access is not a complete scan. Missing time
@@ -307,21 +321,20 @@ required editorial review, not a claim that automated tests can guarantee clarit
    `closed` for an evidenced application closure, distinct from legal expiry;
    elapsed scheduled dates alone do not establish closure. Undated quota exhaustion
    stays undated: a review date is not the date the quota was exhausted.
-6. Before selecting the candidate, run:
+6. Before committing, run:
 
    ```sh
-   POLICY_RADAR_EXPORT=data/exports/RUN/policy-radar-export.json npm test
-   npx tsc --noEmit --incremental false
-   npm run build -- data/exports/RUN/policy-radar-export.json
-   npm run data:select -- data/exports/RUN/policy-radar-export.json
+   npm run data:select
    npm test
+   npx tsc --noEmit --incremental false
    npm run build
    ```
 
-   Replace `RUN` with the real run directory. The selection gate rejects lost
-   history, missing revisions, unarchived policy citations, invalid scans and
-   corrupt/missing source files. Selection changes only the local active-data
-   pointer. If any gate fails, fix the candidate; do not select an invalid export.
+   `data:select` compares the working-tree `data/store` with the selection
+   committed at `HEAD`. It rejects lost history, missing revisions, unarchived
+   policy citations, invalid scans and corrupt/missing source files. If any gate
+   fails, fix the data or discard the attempt with `git restore data/store`;
+   never commit an invalid store.
 7. Verify the built `dist/data.json` contains the intended records and real review
    dates. Report the actual policy changes, discovered records and material gaps
    in Chinese. Keep quiet on unchanged/non-actionable runs; notify for meaningful
@@ -331,8 +344,8 @@ required editorial review, not a claim that automated tests can guarantee clarit
 
 On 2026-10-03 the owner explicitly authorized publishing this implementation and
 automatically publishing subsequent weekly data updates after validation.
-Commit and push only the validated new export, new files in the shared `data/sources/` archive and
-`data/current-export.json`, and reviewed translation data in
+Commit and push only the validated `data/store/` changes, new files in the shared `data/sources/` archive,
+the run's `data/reviews/` directory, `data/topics.json`, and reviewed translation data in
 `data/translations/content.json` and `data/translations/bindings.json` to `main`. The site links archived originals
 to their committed copies in `data/sources/` on `main`; an archive file that is not pushed is a broken
 evidence link. Do not include unrelated changes or publish
@@ -446,10 +459,11 @@ the stronger retention gate rejects that historical shape. Preserve the archive
 reference and explain invalid evidence in the check error and an appended
 correction; it must not support a changed policy's successful-source requirement.
 
-CI checks every first-parent commit transition in a push/PR, including in-place
-changes to the active export. It uses the same operational selection gate as
-`data:select`; new exports require a registry snapshot and structured changed
-policy statuses. A schema/hash-only build is not a history check.
+CI checks every commit transition in a push/PR. Any change to `data/store/` is
+a selection transition and passes the same gate as `data:select`; the frozen
+per-run files under `data/exports/` must never change, and the pointer must not
+move from `data/store` back to them. A schema/hash-only build is not a history
+check.
 
 When the event supplies no previous SHA (including an all-zero `before`), the
 history gate checks HEAD against its first parent. A root commit validates its

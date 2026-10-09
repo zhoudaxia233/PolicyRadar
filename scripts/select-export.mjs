@@ -1,24 +1,28 @@
 import {readSnapshot} from '../lib/source-archive.ts';
-import {readFile,writeFile,rename,unlink} from 'node:fs/promises';
-import {resolve,relative,dirname} from 'node:path';
-import {randomUUID,createHash} from 'node:crypto';
+import {readFileSync,writeFileSync,readdirSync} from 'node:fs';
+import {join} from 'node:path';
+import {execFileSync} from 'node:child_process';
+import {createHash} from 'node:crypto';
 import {validateSelection} from '../lib/update-data.ts';
+import {readExport,readExportAtRef,storeDir,storeTables} from '../lib/export-store.ts';
 
-const candidatePath=process.argv[2];
-if(!candidatePath)throw Error('Usage: npm run data:select -- data/exports/RUN/policy-radar-export.json');
-const selected=relative(process.cwd(),resolve(candidatePath)).split('\\').join('/');
-if(!/^data\/exports\/[a-zA-Z0-9-]+\/policy-radar-export\.json$/.test(selected))throw Error('Candidate must be in a new data/exports run directory');
-const pointer='data/current-export.json',before=await readFile(pointer,'utf8');
-const current=JSON.parse(before).path;
-if(resolve(current)===resolve(selected))throw Error('Create a new export; never edit the active export in place');
-const oldRaw=await readFile(current,'utf8'),raw=await readFile(selected,'utf8');
-const next=JSON.parse(raw);
-const summary=validateSelection(JSON.parse(oldRaw),next);
-for(const s of next.tables.snapshots){
- const bytes=readSnapshot(selected,s);
- if(createHash('sha256').update(bytes).digest('hex')!==s.hash)throw Error('Snapshot checksum mismatch: '+s.key);
-}
-if(await readFile(pointer,'utf8')!==before||await readFile(current,'utf8')!==oldRaw||await readFile(selected,'utf8')!==raw)throw Error('Data changed during validation; retry from the current export');
-const tmp=pointer+'.'+randomUUID()+'.tmp';
-try{await writeFile(tmp,JSON.stringify({path:selected},null,2)+'\n',{flag:'wx'});await rename(tmp,pointer);}finally{await unlink(tmp).catch(e=>{if(e.code!=='ENOENT')throw e;});}
-console.log(JSON.stringify({selected,...summary}));
+// The selected data is edited in place in data/store. This gate compares the
+// working tree with the selection committed at HEAD, so lost history, missing
+// revisions, unarchived citations and invalid scans are rejected before commit.
+if(process.argv[2]&&process.argv[2]!==storeDir)throw Error('Usage: npm run data:select  (validates data/store against the committed selection; per-run export copies are no longer created)');
+const git=(...args)=>execFileSync('git',args,{encoding:'utf8',maxBuffer:512*1024*1024});
+const pointer='data/current-export.json';
+const fingerprint=()=>{
+ const hash=createHash('sha256').update(readFileSync(pointer)).update(readFileSync(join(storeDir,'meta.json')));
+ for(const table of storeTables)for(const name of readdirSync(join(storeDir,table)).sort())hash.update(table+name).update(readFileSync(join(storeDir,table,name)));
+ return hash.digest('hex');
+};
+const before=fingerprint();
+const committed=JSON.parse(git('show','HEAD:'+pointer)).path;
+const next=readExport(storeDir);
+const summary=validateSelection(readExportAtRef('HEAD',committed,git),next);
+for(const s of next.tables.snapshots)readSnapshot(join(storeDir,'meta.json'),s);
+if(fingerprint()!==before)throw Error('Data changed during validation; rerun the gate');
+const text=JSON.stringify({path:storeDir},null,2)+'\n';
+if(readFileSync(pointer,'utf8')!==text)writeFileSync(pointer,text);
+console.log(JSON.stringify({selected:storeDir,comparedWith:committed,...summary}));

@@ -1,9 +1,10 @@
 import {readFile} from 'node:fs/promises';
 import {createStaticData} from '../lib/static-data.ts';
 import {resolveTopicRegistry} from '../lib/domain/topics.ts';
+import {readExport} from '../lib/export-store.ts';
 const read=async p=>JSON.parse(await readFile(p,'utf8'));
 const path=process.argv[2]??(await read('data/current-export.json')).path;
-const data=createStaticData(await read(path));
+const data=createStaticData(readExport(path));
 const topics=resolveTopicRegistry(await read('data/topics.json'),data);
 const membership=new Map(topics.flatMap(t=>t.recordIds.map(id=>[id,t.id])));
 const buckets=new Map();

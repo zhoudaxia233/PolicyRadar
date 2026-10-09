@@ -5,6 +5,7 @@ import {createStaticData} from '../lib/static-data.ts';
 import {validateSelection} from '../lib/update-data.ts';
 import {createLocalization} from '../lib/i18n/build.ts';
 import {localizeIntake} from '../lib/i18n/content.ts';
+import {readExport} from '../lib/export-store.ts';
 
 const read=(p:string)=>JSON.parse(readFileSync(p,'utf8'));
 const folder='data/exports/2026-10-07-spain-title-translations';
@@ -62,7 +63,7 @@ test('the two reported Spanish originals display translated titles without chang
 });
 
 test('the selected export cannot publish Spanish discoveries without translated reader titles',()=>{
- const selected=createStaticData(read(read('data/current-export.json').path));
+ const selected=createStaticData(readExport(read('data/current-export.json').path));
  const l=createLocalization(selected,read('data/translations/content.json'),read('data/translations/bindings.json'));
  for(const r of selected.intake.records.filter(r=>r.region.startsWith('ES'))){
   assert(r.titleZh&&/[\u3400-\u9fff]/u.test(r.titleZh),'Missing Chinese title: '+r.id);

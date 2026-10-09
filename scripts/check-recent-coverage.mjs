@@ -3,10 +3,11 @@ import {recentCoverage} from '../lib/domain/recent-coverage.ts';
 import {berlinDate} from '../lib/domain/intake.ts';
 import {discoveryForYear} from '../lib/domain/coverage.ts';
 import {registrySchema} from '../lib/export-registry.ts';
+import {readExport} from '../lib/export-store.ts';
 
 const [path,region]=process.argv.slice(2);
 const selected=path??JSON.parse(await readFile('data/current-export.json','utf8')).path;
-const data=JSON.parse(await readFile(selected,'utf8'));
+const data=readExport(selected);
 // Use the maintained registry, so channels absent from old exports remain gaps.
 const registry=registrySchema.parse(JSON.parse(await readFile('data/discovery-registry.json','utf8')));
 if(region&&!registry.some(s=>s.region===region))throw Error('Unknown monitoring region');

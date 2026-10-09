@@ -4,7 +4,8 @@ import {readFileSync,mkdtempSync,mkdirSync,cpSync,writeFileSync,rmSync} from 'no
 import {tmpdir} from 'node:os';
 import {join} from 'node:path';
 import {fileURLToPath} from 'node:url';
-import {spawnSync} from 'node:child_process';
+import {spawnSync,execFileSync} from 'node:child_process';
+import {writeStore} from '../lib/export-store.ts';
 import {validateUpdate} from '../lib/update-data.ts';
 const old=JSON.parse(readFileSync(new URL('../data/exports/2026-10-03/policy-radar-export.json',import.meta.url),'utf8'));
 const now=new Date('2026-10-04T08:00:00Z');
@@ -53,23 +54,28 @@ test('duplicate identities and future or regressing exports are rejected',()=>{
  const next=copy();next.tables.policies.push(next.tables.policies[0]);assert.throws(()=>validateUpdate(old,next,now),/duplicate/);
  for(const date of ['2026-10-01T00:00:00Z','2026-10-05T00:00:00Z'])assert.throws(()=>validateUpdate(old,{...copy(),exportedAt:date},now),/export time/);
 });
-test('selection switches the build pointer only after checking archive bytes',()=>{
+test('selection validates the in-place store against the committed selection and its archive bytes',()=>{
  const root=mkdtempSync(join(tmpdir(),'policy-radar-select-'));
+ const git=(...args:string[])=>execFileSync('git',args,{cwd:root,encoding:'utf8'}).trim();
  try{
-  const exports=join(root,'data/exports');mkdirSync(exports,{recursive:true});
+  git('init','-q');git('config','user.name','Test');git('config','user.email','test@example.invalid');
   const fixture=fileURLToPath(new URL('../data/exports/2026-10-03',import.meta.url));
-  cpSync(fixture,join(exports,'old'),{recursive:true});cpSync(fixture,join(exports,'new'),{recursive:true});
-  const candidate=copy();candidate.discoveryRegistry=JSON.parse(readFileSync(new URL('../data/discovery-registry.json',import.meta.url),'utf8'));writeFileSync(join(exports,'new/policy-radar-export.json'),JSON.stringify(candidate));
+  cpSync(fixture,join(root,'data/exports/old'),{recursive:true});
   const pointer=join(root,'data/current-export.json');writeFileSync(pointer,JSON.stringify({path:'data/exports/old/policy-radar-export.json'}));
-  const run=()=>spawnSync(process.execPath,['--experimental-strip-types',fileURLToPath(new URL('../scripts/select-export.mjs',import.meta.url)),'data/exports/new/policy-radar-export.json'],{cwd:root,encoding:'utf8'});
+  git('add','.');git('commit','-qm','old');
+  const candidate=copy();candidate.discoveryRegistry=JSON.parse(readFileSync(new URL('../data/discovery-registry.json',import.meta.url),'utf8'));
+  writeStore(join(root,'data/store'),candidate);
+  const run=()=>spawnSync(process.execPath,['--experimental-strip-types',fileURLToPath(new URL('../scripts/select-export.mjs',import.meta.url))],{cwd:root,encoding:'utf8'});
   cpSync(fileURLToPath(new URL('../data/sources',import.meta.url)),join(root,'data/sources'),{recursive:true});
   const snapshot=old.tables.snapshots[0].key,bytes=readFileSync(join(root,'data/sources',snapshot.split('/').at(-1)!));
-  mkdirSync(join(exports,'new',snapshot,'..'),{recursive:true});
-  writeFileSync(join(exports,'new',snapshot),'corrupt');
+  mkdirSync(join(root,'data/store',snapshot,'..'),{recursive:true});
+  writeFileSync(join(root,'data/store',snapshot),'corrupt');
   const failed=run();assert.notEqual(failed.status,0);assert.match(failed.stderr,/checksum mismatch/);
   assert.equal(JSON.parse(readFileSync(pointer,'utf8')).path,'data/exports/old/policy-radar-export.json');
-  writeFileSync(join(exports,'new',snapshot),bytes);
+  writeFileSync(join(root,'data/store',snapshot),bytes);
   const success=run();assert.equal(success.status,0,success.stderr);
-  assert.equal(JSON.parse(readFileSync(pointer,'utf8')).path,'data/exports/new/policy-radar-export.json');
+  assert.equal(JSON.parse(readFileSync(pointer,'utf8')).path,'data/store');
+  const lost=copy();lost.discoveryRegistry=candidate.discoveryRegistry;lost.tables.intake.pop();writeStore(join(root,'data/store'),lost);
+  const rejected=run();assert.notEqual(rejected.status,0);assert.match(rejected.stderr,/Immutable intake row changed or removed/);
  }finally{rmSync(root,{recursive:true,force:true});}
 });

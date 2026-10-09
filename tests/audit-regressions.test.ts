@@ -3,7 +3,8 @@ import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
 import {validateUpdate} from '../lib/update-data.ts';
 import {lifecycle} from '../lib/domain/model.ts';
-const active=JSON.parse(readFileSync(JSON.parse(readFileSync('data/current-export.json','utf8')).path,'utf8'));
+import {readExport} from '../lib/export-store.ts';
+const active=readExport(JSON.parse(readFileSync('data/current-export.json','utf8')).path);
 const policy=(id:string)=>JSON.parse(active.tables.policies.find((r:any)=>r.id===id).data);
 test('effective status rolls over on the exact effective date',()=>{
  for(const id of ['ch-be-information-security','ch-zh-premium-subsidy-2027']){

@@ -45,7 +45,11 @@ test('unknown, overlapping, explained, grouped and cross-country documents are r
  assert.throws(()=>resolveDispositions([define([{region:'EU',officialId:'OJ:C_1'}]),define([{region:'EU',officialId:'OJ:C_2'}])],records,[],[]),/Duplicate disposition ID/);
  const policy={region:'EU',officialId:'OJ:L_3'} as Policy;
  assert.throws(()=>resolveDispositions([define([{region:'EU',officialId:'OJ:L_3'}])],records,[policy],[]),/Explained document/);
- assert.throws(()=>resolveDispositions([define([{region:'EU',url:'https://example.eu/news',title:'Title news'}])],records,[],[{id:'t',title:['a','b'],recordIds:['news','law'],policyIds:[]}]),/Grouped document/);
+ // A group is dismissed whole or not at all, and never when an explanation covers it.
+ const group={id:'t',title:['a','b'] as [string,string],recordIds:['news','merger'],policyIds:[] as string[]};
+ assert.throws(()=>resolveDispositions([define([{region:'EU',url:'https://example.eu/news',title:'Title news'}])],records,[],[group]),/Grouped document/);
+ assert.deepEqual(resolveDispositions([define([{region:'EU',url:'https://example.eu/news',title:'Title news'},{region:'EU',officialId:'OJ:C_2'}])],records,[],[group])[0].recordIds,['news','merger']);
+ assert.throws(()=>resolveDispositions([define([{region:'EU',url:'https://example.eu/news',title:'Title news'},{region:'EU',officialId:'OJ:C_2'}])],records,[],[{...group,policyIds:['p']}]),/Grouped document/);
  assert.throws(()=>resolveDispositions([define([{region:'EU',officialId:'OJ:C_1'},{region:'DE',officialId:'X'}])],[...records,record('de',{region:'DE',officialId:'X'})],[],[]),/Cross-country/);
  // An unnumbered record is identified by its exact URL and original title, not by URL alone.
  assert.throws(()=>resolveDispositions([define([{region:'EU',url:'https://example.eu/news',title:'Other'}])],records,[],[]),/Unresolved/);

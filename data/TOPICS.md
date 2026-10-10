@@ -118,7 +118,8 @@ decision in `data/dispositions.json` instead of writing a placeholder explanatio
   charges or benefits is a policy matter: explain it or group it with the matter
   it belongs to. When unsure, leave it awaiting explanation.
 - The build rejects missing references, records with two decisions, records
-  already explained, records in a topic group and cross-country entries. A
+  already explained, part of a topic group (a group can only be dismissed as a
+  whole, and only if no explanation covers it) and cross-country entries. A
   dismissed record keeps its original stage, date and source and stays in the
   official-progress view; it only leaves the awaiting-explanation list and its
   count, and appears in a separate collapsed "reviewed, no explanation needed"

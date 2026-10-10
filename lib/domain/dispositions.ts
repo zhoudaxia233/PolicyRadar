@@ -23,8 +23,7 @@ export type Disposition={id:string;reason:[string,string];recordIds:string[]};
 
 export function resolveDispositions(input:unknown,records:IntakeRecord[],policies:Policy[],topics:Topic[]):Disposition[]{
  const definitions=dispositionDefinitionsSchema.parse(input),ids=new Set<string>(),assigned=new Set<string>();
- const grouped=new Set(topics.flatMap(t=>t.recordIds));
- return definitions.map(definition=>{
+ const result=definitions.map(definition=>{
   if(ids.has(definition.id))throw Error('Duplicate disposition ID: '+definition.id);
   ids.add(definition.id);
   const members=new Map<string,IntakeRecord>();
@@ -37,12 +36,19 @@ export function resolveDispositions(input:unknown,records:IntakeRecord[],policie
   for(const record of members.values()){
    if(assigned.has(record.id))throw Error('Document has multiple dispositions: '+record.id);
    assigned.add(record.id);
-   // A record that is explained, or related to a concrete matter, cannot also be "no explanation needed".
+   // A record that is explained cannot also be "no explanation needed".
    if(policies.some(p=>explainsRecord(p,record)))throw Error('Explained document cannot be dismissed: '+record.id);
-   if(grouped.has(record.id))throw Error('Grouped document cannot be dismissed: '+record.id);
   }
   return {id:definition.id,reason:definition.reason,recordIds:[...members.keys()]};
  });
+ // A grouped matter can be dismissed only as a whole, and only if nothing explains it.
+ const dismissed=new Map(result.flatMap(d=>d.recordIds.map(id=>[id,d.id] as const)));
+ for(const topic of topics){
+  const hits=topic.recordIds.filter(id=>dismissed.has(id));
+  if(!hits.length)continue;
+  if(hits.length!==topic.recordIds.length||topic.policyIds.length)throw Error('Grouped document cannot be dismissed: '+hits[0]);
+ }
+ return result;
 }
 
 // Historical snapshot builds must not acquire decisions reviewed against newer records.

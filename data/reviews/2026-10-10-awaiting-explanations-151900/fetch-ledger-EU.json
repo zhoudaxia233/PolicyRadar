@@ -1,0 +1,240 @@
+{
+ "note": "Fetch ledger for the EU awaiting-explanation review on 10 October 2026. \"evidence\" bytes are archived in data/sources; entries marked rendered:true are local Chrome renders of script-only Commission press pages; \"fail\" entries (including a press-corner script shell) are not archived.",
+ "fetches": [
+  {
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202602202",
+   "at": "2026-10-10T15:24:14.073Z",
+   "kind": "evidence",
+   "hash": "aed71526a4af26d7434174d0599653fe68c7b9fa6700ddc0a7f96f72cfb56fae",
+   "size": 372252
+  },
+  {
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:L_202602202",
+   "at": "2026-10-10T15:24:14.529Z",
+   "kind": "evidence",
+   "hash": "b4045b62654cb337e6ae0e15beea4ea1158a743fe5d9d10751352763162abbc1",
+   "size": 633593
+  },
+  {
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:L_202602269",
+   "at": "2026-10-10T15:25:58.794Z",
+   "kind": "evidence",
+   "hash": "c982145510000b553145c4a2bbbd74251724e5b32232b495a5e323ccffaa4582",
+   "size": 458472
+  },
+  {
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:L_202602262",
+   "at": "2026-10-10T15:25:59.545Z",
+   "kind": "evidence",
+   "hash": "dff7f22547eb02f9fad3e76e9bea4487ed3da66099f1df7fdd478580b0aa19d0",
+   "size": 271260
+  },
+  {
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:L_202602287",
+   "at": "2026-10-10T15:26:00.146Z",
+   "kind": "evidence",
+   "hash": "187cc94b021fb7c03c7dd517aba46d44665d6e89400528eb3771a083ec97ba0a",
+   "size": 265975
+  },
+  {
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:L_202602261",
+   "at": "2026-10-10T15:26:00.676Z",
+   "kind": "evidence",
+   "hash": "b746f4b49d1797c3d31ce78f68cdc36b7f3b3cde1af0e74addd05594b2b60c01",
+   "size": 267187
+  },
+  {
+   "url": "https://single-market-economy.ec.europa.eu/news/commission-adopts-proposal-accelerate-standards-development-and-improve-eu-competitiveness-2026-10-06_en",
+   "at": "2026-10-10T15:26:01.196Z",
+   "kind": "fail",
+   "hash": "698c5048da93e0b97e092365ea93f2399bef7a450c48eddfa72b4d82c3b803ca",
+   "size": 22305,
+   "note": "script shell page (Press corner), not evidence"
+  },
+  {
+   "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2070",
+   "at": "2026-10-10T15:26:01.370Z",
+   "kind": "fail",
+   "hash": "698c5048da93e0b97e092365ea93f2399bef7a450c48eddfa72b4d82c3b803ca",
+   "size": 22305,
+   "note": "script shell page (Press corner), not evidence"
+  },
+  {
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:L_202602191",
+   "at": "2026-10-10T15:26:01.504Z",
+   "kind": "evidence",
+   "hash": "0170dbe2a948c569f6704e258f8c319f13bc553432606db6576dc6aec06b0cbb",
+   "size": 277928
+  },
+  {
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:L_202602197",
+   "at": "2026-10-10T15:26:02.081Z",
+   "kind": "evidence",
+   "hash": "2d395f488fb9ae2e177540269e0fab2929ad136462819ae2cea651312d9b864b",
+   "size": 254819
+  },
+  {
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:L_202602172",
+   "at": "2026-10-10T15:26:02.638Z",
+   "kind": "evidence",
+   "hash": "79d48658af967eb160df6117e2e3cba138634ed8ca44ec012a27371d5973d354",
+   "size": 277607
+  },
+  {
+   "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2070",
+   "at": "2026-10-10T15:26:53.242Z",
+   "kind": "evidence",
+   "hash": "ba2a97dfcc89fe142f4c99452f286a9d46d3217dd95c7d5012de323212d4d4f0",
+   "size": 92243,
+   "rendered": true
+  },
+  {
+   "url": "https://ec.europa.eu/commission/presscorner/detail/en/qanda_26_2071",
+   "at": "2026-10-10T15:26:53.268Z",
+   "kind": "evidence",
+   "hash": "42391acdc86e5a74aaa229ce0289243077dd98aee4d1c77a956a5ed9e676e63e",
+   "size": 90395,
+   "rendered": true
+  },
+  {
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52025PC0982",
+   "at": "2026-10-10T15:27:59.700Z",
+   "kind": "evidence",
+   "hash": "b709bd5f1edaac742d61d1a298118091e7afa8b9193f2a04e0ea8cc147d4038d",
+   "size": 557839
+  },
+  {
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52025PC0983",
+   "at": "2026-10-10T15:28:00.353Z",
+   "kind": "evidence",
+   "hash": "da0113f869696050477919059f105845604861b62096a52d8629f47cbd48e209",
+   "size": 562961
+  },
+  {
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52025PC0841",
+   "at": "2026-10-10T15:28:01.029Z",
+   "kind": "evidence",
+   "hash": "bb59f668f30b9c9918d28e58e98a459e98e257fcbb9ad7e585c40172f35aae48",
+   "size": 520830
+  },
+  {
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52025PC0838",
+   "at": "2026-10-10T15:28:01.825Z",
+   "kind": "evidence",
+   "hash": "e019c4d8137841ba8fbabc6c731f2391f816f0548f603bfec0c392964769d245",
+   "size": 677440
+  },
+  {
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52023PC0189",
+   "at": "2026-10-10T15:28:02.566Z",
+   "kind": "evidence",
+   "hash": "eadabf955bb9004808186775947401bebebda3f126192804e4eda06c321983ad",
+   "size": 279667
+  },
+  {
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52023PC0930",
+   "at": "2026-10-10T15:28:03.421Z",
+   "kind": "evidence",
+   "hash": "c9d2f4d4cbe80b22c7c8b44a2e560b5923a56286a8c62a9f09773db869d3c2ca",
+   "size": 466876
+  },
+  {
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52026PC0135",
+   "at": "2026-10-10T15:28:04.064Z",
+   "kind": "evidence",
+   "hash": "1ad1d79e9d3c3268ef2261120ad5061f5155b3a80599be96c363c83d5b751321",
+   "size": 474121
+  },
+  {
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52025PC0985",
+   "at": "2026-10-10T15:28:04.693Z",
+   "kind": "evidence",
+   "hash": "3d1d89f3b01c8efaab10303de93b28bad93561073ad515b6636bc80130109c47",
+   "size": 637712
+  },
+  {
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52025PC0593",
+   "at": "2026-10-10T15:28:05.401Z",
+   "kind": "evidence",
+   "hash": "7027c04db7c718ef182e1c151912754d13b8d08cca84dce30b1a358f3b76d21c",
+   "size": 377506
+  },
+  {
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52025PC0591",
+   "at": "2026-10-10T15:28:06.063Z",
+   "kind": "evidence",
+   "hash": "4dedeecb84434d9897b4526086dcb3f93e7404c7a14f34be79dee16c0c428b66",
+   "size": 624621
+  },
+  {
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52025PC0418",
+   "at": "2026-10-10T15:28:06.862Z",
+   "kind": "evidence",
+   "hash": "ce8af4823c666874fa492a47d1bf3554155437ba399e47aabeb102cf58d87646",
+   "size": 321123
+  },
+  {
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52025PC0549",
+   "at": "2026-10-10T15:28:07.491Z",
+   "kind": "evidence",
+   "hash": "3ad2e8cabe9ecd9e01e5da7a56898a58c3a96acc9d9c256831910c51e937e940",
+   "size": 708033
+  },
+  {
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52026PC1010",
+   "at": "2026-10-10T15:28:08.121Z",
+   "kind": "evidence",
+   "hash": "c6f94477489befb8a9a8e0c848b7accf0244e86f3e4f57925564bad12bccf8fa",
+   "size": 708903
+  },
+  {
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52026PC0523",
+   "at": "2026-10-10T15:28:08.682Z",
+   "kind": "evidence",
+   "hash": "4adff98a926a0c0c57a73c7afb8a80a5172fa2abbb0c9ae46acdf042f3730489",
+   "size": 535466
+  },
+  {
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52026PC0515",
+   "at": "2026-10-10T15:28:09.521Z",
+   "kind": "evidence",
+   "hash": "afe3bdd1829918ab1f1faf5d915877d72b63e2d792969786132e167ebc04c38f",
+   "size": 193454
+  },
+  {
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52026PC0519",
+   "at": "2026-10-10T15:28:10.109Z",
+   "kind": "evidence",
+   "hash": "07019945e3ece61bc21e28bcc7e789bd5a5ac6464ec5bac70566a5561af827d6",
+   "size": 368138
+  },
+  {
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52026PC0518",
+   "at": "2026-10-10T15:28:10.765Z",
+   "kind": "evidence",
+   "hash": "551b6fce2b46eb227ce94f4db1a701eb1889bfd8145abe0aecf2a9e73e349e98",
+   "size": 368530
+  },
+  {
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52026PC1020",
+   "at": "2026-10-10T15:28:11.407Z",
+   "kind": "evidence",
+   "hash": "df02d64577c7edbfb7319d05b9a62cfcc2f0af072b4f5bf766289b075c4289c5",
+   "size": 323674
+  },
+  {
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52025PC1006",
+   "at": "2026-10-10T15:28:11.963Z",
+   "kind": "evidence",
+   "hash": "86214d382cfd59074ad245e2d1d4cfe46f4edfb95b5c1abcaec5044aaa1b6709",
+   "size": 978877
+  },
+  {
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52025PC0946",
+   "at": "2026-10-10T15:28:12.734Z",
+   "kind": "evidence",
+   "hash": "a732ec68b01ecc0317a7991cfd16167d6d143b0f25d578c4e28df0a62964c9d9",
+   "size": 202450
+  }
+ ]
+}

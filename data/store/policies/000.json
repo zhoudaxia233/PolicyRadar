@@ -3382,5 +3382,284 @@
     "updated_at": "2026-10-10T15:19:46.347Z",
     "version": 1,
     "data": "{\"originalLanguage\":\"de\",\"id\":\"rp-civil-servant-pay-2026-2028\",\"officialId\":\"GVBl. Rheinland-Pfalz 2026 Nr. 29 (LBVAnpG 2026/2027/2028)\",\"title\":\"莱法州公务员薪酬和退休金：2026年4月涨3.3%，2027年3月涨2.0%，2028年1月涨1.0%\",\"originalTitle\":\"Landesgesetz zur Anpassung der Besoldung und Versorgung 2026/2027/2028 (LBVAnpG 2026/2027/2028)\",\"region\":\"DE-RP\",\"topic\":\"劳动与工资\",\"tags\":[\"公务员\",\"工资\",\"养老金\"],\"phase\":\"adopted\",\"status\":\"phased\",\"nextKind\":\"implementation\",\"summary\":\"莱法州公务员、法官和退休公务员需要关注。州法律规定：基本工资、家庭补贴等自2026年4月1日提高3.3%，2027年3月1日再提高2.0%，2028年1月1日再提高1.0%；见习公务员基本补贴分别增加60、60和30欧元。退休金相应调整。\",\"before\":\"2026年4月前的薪酬表。\",\"after\":\"分三步提高。\",\"impact\":\"例：月基本工资4,000欧元的公务员，2026年4月起约4,132欧元，2027年3月起约4,215欧元，2028年1月起约4,257欧元（税前，四舍五入，未计其他变化）。\",\"limits\":\"只适用于莱法州公务员体系，不适用于雇员（Tarifbeschäftigte）。2026年的提高为追溯适用。\",\"verifiedAt\":\"2026-10-10\",\"lastEventDate\":\"2026-09-24\",\"effectiveDate\":\"2026-04-01\",\"nextDate\":\"2027-03-01\",\"nextLabel\":\"2027年3月1日再涨2.0%\",\"disputed\":false,\"dispute\":\"\",\"sources\":[{\"id\":\"official\",\"title\":\"莱法州法律公报2026年第29号\",\"url\":\"https://upload.open.rlp.de/verkuendung/5a748f67-fc62-43a9-bbc7-957ec59d6cdd/resource/dc7a6e85-d285-419f-975f-6369ebcb7b73/download/gvbl.-nr.-29-2026_sealed.pdf\",\"publisher\":\"Land Rheinland-Pfalz\",\"kind\":\"law\",\"note\":\"第1至3条各年度涨幅。\"}],\"dateExplanation\":\"9月22日通过，9月24日公布；各步自2026年4月1日、2027年3月1日、2028年1月1日起适用。\",\"events\":[{\"id\":\"published\",\"date\":\"2026-09-24\",\"kind\":\"published\",\"title\":\"公报公布\",\"detail\":\"法律公布。\",\"sourceId\":\"official\"},{\"id\":\"step-2027\",\"date\":\"2027-03-01\",\"kind\":\"scheduled\",\"title\":\"第二步涨薪\",\"detail\":\"提高2.0%。\",\"sourceId\":\"official\"}]}"
+  },
+  {
+    "id": "eu-air-passenger-rights-reform-2027",
+    "region": "EU",
+    "phase": "adopted",
+    "topic": "交通与出行",
+    "updated_at": "2026-10-10T15:33:14.386Z",
+    "version": 1,
+    "data": "{\"originalLanguage\":\"en\",\"id\":\"eu-air-passenger-rights-reform-2027\",\"officialId\":\"OJ:L_202602202\",\"title\":\"欧盟航空乘客权利改革已公布：2027年10月23日起适用，延误3小时仍可获赔\",\"originalTitle\":\"Regulation (EU) 2026/2202 of the European Parliament and of the Council of 16 September 2026 amending Regulation (EC) No 261/2004 and Council Regulation (EC) No 2027/97\",\"region\":\"EU\",\"topic\":\"交通与出行\",\"tags\":[\"交通\",\"消费者保护\"],\"phase\":\"adopted\",\"status\":\"adopted\",\"statusNote\":\"已公布，2027年10月23日起适用；在此之前仍按现行第261/2004号条例。\",\"nextKind\":\"implementation\",\"summary\":\"坐飞机的人需要关注。欧盟修订航空乘客权利条例，2027年10月23日起适用。到达终点延误超过3小时仍可获250、400或600欧元补偿；航空公司须在行程结束后96小时内以电子方式告知你可否索赔及如何申请；出发延误满5小时须主动提供退款；3小时内不安排改签的，乘客可自行改签；停机坪滞留满2小时须让乘客下机；出发前48小时内的姓名拼写错误至少可免费更正一次；订票时须默认显示含手提行李的票价。\",\"before\":\"现行第261/2004号条例：到达延误3小时以上可获250/400/600欧元；航空公司没有在固定期限内主动告知索赔权的义务；自行改签、停机坪滞留和姓名更正没有统一的明确规定。\",\"after\":\"2027年10月23日起：补偿金额仍为250/400/600欧元，触发门槛仍是到达延误超过3小时；第三档（远程）在到达延误不超过4小时并符合条件时可减半；新增96小时告知义务、5小时退款、3小时未安排改签可自行改签、停机坪2小时、免费更正姓名、默认显示含手提行李票价，以及残障乘客行动辅具的全额赔偿等。\",\"impact\":\"假设示例：2027年11月从法兰克福飞马德里（约1,450公里），到达晚了3.5小时且不属于特殊情况，可获250欧元；航空公司须在96小时内用电子方式告诉你如何申请。若从法兰克福飞纽约（远程）晚到3.5小时，航空公司可能只付600欧元的一半即300欧元（满足减半条件时）。\",\"limits\":\"在2027年10月23日之前，所有航班仍按现行规则。特殊情况（如恶劣天气）免除补偿的规则仍适用，详见条例全文；本解读只列主要变化。\",\"effectiveDateKind\":\"application\",\"verifiedAt\":\"2026-10-10\",\"lastEventDate\":\"2026-10-02\",\"effectiveDate\":\"2027-10-23\",\"nextDate\":\"2027-10-23\",\"nextLabel\":\"2027年10月23日开始适用\",\"disputed\":false,\"dispute\":\"\",\"sources\":[{\"id\":\"official\",\"title\":\"条例原文（EU 2026/2202）\",\"url\":\"https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:L_202602202\",\"publisher\":\"EUR-Lex\",\"kind\":\"law\",\"note\":\"新第7条补偿、第6条延误、第8条改签、停机坪、姓名更正、手提行李显示及适用日期。\"}],\"dateExplanation\":\"2026年9月16日通过，10月2日在官方公报公布，公布后第20天生效；2027年10月23日起适用。\",\"events\":[{\"id\":\"published\",\"date\":\"2026-10-02\",\"kind\":\"published\",\"title\":\"官方公报公布\",\"detail\":\"公布后第20天生效。\",\"sourceId\":\"official\"},{\"id\":\"applies\",\"date\":\"2027-10-23\",\"kind\":\"scheduled\",\"title\":\"开始适用\",\"detail\":\"新规则适用于此后的航班。\",\"sourceId\":\"official\"}]}"
+  },
+  {
+    "id": "eu-armenia-trade-liberalisation-2026",
+    "region": "EU",
+    "phase": "adopted",
+    "topic": "企业经营",
+    "updated_at": "2026-10-10T15:33:14.386Z",
+    "version": 1,
+    "data": "{\"originalLanguage\":\"en\",\"id\":\"eu-armenia-trade-liberalisation-2026\",\"officialId\":\"OJ:L_202602269\",\"title\":\"欧盟对亚美尼亚部分产品临时免征关税至2028年10月\",\"originalTitle\":\"Regulation (EU) 2026/2269 of the European Parliament and of the Council of 7 October 2026 on temporary trade-liberalisation measures applicable to certain products originating in the Republic of Armenia\",\"region\":\"EU\",\"topic\":\"企业经营\",\"tags\":[\"贸易\"],\"phase\":\"adopted\",\"status\":\"temporary\",\"nextKind\":\"expiry\",\"summary\":\"欧盟对原产于亚美尼亚的附件一所列产品免征从价进口关税，附件二所列产品在关税配额内免征。前提是亚美尼亚遵守原产地规则、配合核查、不对欧盟产品设新障碍。条例公布次日生效，适用至2028年10月11日。\",\"before\":\"亚美尼亚产品按现行关税进口。\",\"after\":\"列明产品临时免税或在配额内免税。\",\"impact\":\"对消费者影响有限，主要影响进口商。\",\"limits\":\"只适用于附件所列产品，条件不满足时可暂停。\",\"verifiedAt\":\"2026-10-10\",\"lastEventDate\":\"2026-10-09\",\"effectiveDate\":\"2026-10-10\",\"nextDate\":\"2028-10-11\",\"nextLabel\":\"2028年10月11日到期\",\"disputed\":false,\"dispute\":\"\",\"sources\":[{\"id\":\"oj\",\"title\":\"官方公报原文\",\"url\":\"https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:L_202602269\",\"publisher\":\"EUR-Lex\",\"kind\":\"law\",\"note\":\"第1、2条措施和条件；第7条生效和期限。\"}],\"dateExplanation\":\"10月7日通过，10月9日公布，次日生效，适用至2028年10月11日。\",\"events\":[{\"id\":\"published\",\"date\":\"2026-10-09\",\"kind\":\"published\",\"title\":\"官方公报公布\",\"detail\":\"次日生效。\",\"sourceId\":\"oj\"}]}"
+  },
+  {
+    "id": "eu-sudan-sanctions-2026",
+    "region": "EU",
+    "phase": "adopted",
+    "topic": "公共安全",
+    "updated_at": "2026-10-10T15:33:14.386Z",
+    "version": 1,
+    "data": "{\"originalLanguage\":\"en\",\"id\":\"eu-sudan-sanctions-2026\",\"officialId\":\"OJ:L_202602261\",\"title\":\"欧盟苏丹制裁延长至2027年10月10日并更新名单信息\",\"originalTitle\":\"Council Decision (CFSP) 2026/2261 of 9 October 2026 amending Decision (CFSP) 2023/2135 concerning restrictive measures in view of activities undermining the stability and political transition of Sudan\",\"region\":\"EU\",\"topic\":\"公共安全\",\"tags\":[\"公共安全\",\"金融监管\"],\"phase\":\"adopted\",\"status\":\"adopted\",\"nextKind\":\"expiry\",\"summary\":\"欧盟针对破坏苏丹稳定和政治过渡的制裁（资产冻结、入境禁令）延长一年至2027年10月10日，并更新3名被列名者的信息。\",\"before\":\"制裁原定适用至2026年10月10日。\",\"after\":\"延长至2027年10月10日；第1、5、11号条目更新。\",\"impact\":\"被列名者在欧盟的资金和经济资源被冻结，欧盟内任何人不得向其提供资金，通常也禁止入境欧盟。普通居民一般不受影响；与被列名者有业务往来的企业须核查名单。\",\"limits\":\"名单以官方公报全文为准；被列名者可按程序申请复议或起诉。\",\"verifiedAt\":\"2026-10-10\",\"lastEventDate\":\"2026-10-09\",\"effectiveDate\":null,\"nextDate\":\"2027-10-10\",\"nextLabel\":\"2027年10月10日到期（可再延长）\",\"disputed\":false,\"dispute\":\"\",\"sources\":[{\"id\":\"oj\",\"title\":\"官方公报原文\",\"url\":\"https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:L_202602261\",\"publisher\":\"EUR-Lex\",\"kind\":\"law\",\"note\":\"第1条延长期限；附件更新条目。\"},{\"id\":\"oj-reg\",\"title\":\"理事会实施条例（EU 2026/2262）\",\"url\":\"https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:L_202602262\",\"publisher\":\"EUR-Lex\",\"kind\":\"law\",\"note\":\"在条例附件中作相同更新。\"}],\"dateExplanation\":\"10月9日通过并公布，次日生效。\",\"events\":[{\"id\":\"published\",\"date\":\"2026-10-09\",\"kind\":\"published\",\"title\":\"官方公报公布\",\"detail\":\"决定和实施条例同日公布。\",\"sourceId\":\"oj\"}]}"
+  },
+  {
+    "id": "eu-isil-al-qaida-list-2026-10",
+    "region": "EU",
+    "phase": "adopted",
+    "topic": "公共安全",
+    "updated_at": "2026-10-10T15:33:14.386Z",
+    "version": 1,
+    "data": "{\"originalLanguage\":\"en\",\"id\":\"eu-isil-al-qaida-list-2026-10\",\"officialId\":\"OJ:L_202602287\",\"title\":\"欧盟“伊斯兰国”和基地组织制裁名单第362次修订\",\"originalTitle\":\"Commission Implementing Regulation (EU) 2026/2287 of 8 October 2026 amending for the 362nd time Council Regulation (EC) No 881/2002 imposing certain specific restrictive measures directed against certain persons and entities associated with the ISIL (Da’esh) and Al-Qaida organisations\",\"region\":\"EU\",\"topic\":\"公共安全\",\"tags\":[\"公共安全\",\"金融监管\"],\"phase\":\"adopted\",\"status\":\"adopted\",\"summary\":\"委员会按联合国安理会名单更新，修改一个已列名组织（KTJ）的身份信息。\",\"before\":\"该组织已在名单上。\",\"after\":\"更新其别名等识别信息。\",\"impact\":\"被列名者在欧盟的资金和经济资源被冻结，欧盟内任何人不得向其提供资金，通常也禁止入境欧盟。普通居民一般不受影响；与被列名者有业务往来的企业须核查名单。\",\"limits\":\"名单以官方公报全文为准；被列名者可按程序申请复议或起诉。\",\"verifiedAt\":\"2026-10-10\",\"lastEventDate\":\"2026-10-09\",\"effectiveDate\":null,\"nextDate\":null,\"nextLabel\":\"\",\"disputed\":false,\"dispute\":\"\",\"sources\":[{\"id\":\"oj\",\"title\":\"官方公报原文\",\"url\":\"https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:L_202602287\",\"publisher\":\"EUR-Lex\",\"kind\":\"law\",\"note\":\"附件中修改的条目。\"}],\"dateExplanation\":\"10月8日通过，次日（公布后）生效。\",\"events\":[{\"id\":\"published\",\"date\":\"2026-10-09\",\"kind\":\"published\",\"title\":\"官方公报公布\",\"detail\":\"次日生效。\",\"sourceId\":\"oj\"}]}"
+  },
+  {
+    "id": "eu-russia-destabilisation-sanctions-2026",
+    "region": "EU",
+    "phase": "adopted",
+    "topic": "公共安全",
+    "updated_at": "2026-10-10T15:33:14.386Z",
+    "version": 1,
+    "data": "{\"originalLanguage\":\"en\",\"id\":\"eu-russia-destabilisation-sanctions-2026\",\"officialId\":\"OJ:L_202602258\",\"title\":\"欧盟针对俄罗斯破坏稳定活动的制裁延长至2027年10月9日\",\"originalTitle\":\"Council Decision (CFSP) 2026/2258 of 8 October 2026 amending Decision (CFSP) 2024/2643 concerning restrictive measures in view of Russia’s destabilising activities\",\"region\":\"EU\",\"topic\":\"公共安全\",\"tags\":[\"公共安全\",\"金融监管\"],\"phase\":\"adopted\",\"status\":\"adopted\",\"nextKind\":\"expiry\",\"summary\":\"欧盟针对俄罗斯混合威胁和破坏稳定活动的制裁延长一年至2027年10月9日；一人从该名单移除（她同日被列入乌克兰领土完整制裁名单），另8人信息更新。\",\"before\":\"制裁原定适用至2026年10月9日。\",\"after\":\"延长至2027年10月9日并更新名单。\",\"impact\":\"被列名者在欧盟的资金和经济资源被冻结，欧盟内任何人不得向其提供资金，通常也禁止入境欧盟。普通居民一般不受影响；与被列名者有业务往来的企业须核查名单。\",\"limits\":\"名单以官方公报全文为准；被列名者可按程序申请复议或起诉。\",\"verifiedAt\":\"2026-10-10\",\"lastEventDate\":\"2026-10-08\",\"effectiveDate\":null,\"nextDate\":\"2027-10-09\",\"nextLabel\":\"2027年10月9日到期（可再延长）\",\"disputed\":false,\"dispute\":\"\",\"sources\":[{\"id\":\"oj\",\"title\":\"官方公报原文\",\"url\":\"https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:L_202602258\",\"publisher\":\"EUR-Lex\",\"kind\":\"law\",\"note\":\"第1条延长期限及附件变更。\"},{\"id\":\"oj-reg\",\"title\":\"理事会实施条例（EU 2026/2257）\",\"url\":\"https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:L_202602257\",\"publisher\":\"EUR-Lex\",\"kind\":\"law\",\"note\":\"条例附件中的相同变更。\"}],\"dateExplanation\":\"10月8日通过并公布，次日生效。\",\"events\":[{\"id\":\"published\",\"date\":\"2026-10-08\",\"kind\":\"published\",\"title\":\"官方公报公布\",\"detail\":\"决定和实施条例同日公布。\",\"sourceId\":\"oj\"}]}"
+  },
+  {
+    "id": "eu-ukraine-integrity-listing-2026-10",
+    "region": "EU",
+    "phase": "adopted",
+    "topic": "公共安全",
+    "updated_at": "2026-10-10T15:33:14.386Z",
+    "version": 1,
+    "data": "{\"originalLanguage\":\"en\",\"id\":\"eu-ukraine-integrity-listing-2026-10\",\"officialId\":\"OJ:L_202602264\",\"title\":\"欧盟乌克兰领土完整制裁名单新增一人\",\"originalTitle\":\"Council Decision (CFSP) 2026/2264 of 8 October 2026 amending Decision 2014/145/CFSP concerning restrictive measures in respect of actions undermining or threatening the territorial integrity, sovereignty and independence of Ukraine\",\"region\":\"EU\",\"topic\":\"公共安全\",\"tags\":[\"公共安全\",\"金融监管\"],\"phase\":\"adopted\",\"status\":\"adopted\",\"summary\":\"欧盟将一名俄罗斯商人列入针对破坏乌克兰领土完整的制裁名单（第2121号），即日生效。\",\"before\":\"名单此前有2120个条目。\",\"after\":\"新增一人。\",\"impact\":\"被列名者在欧盟的资金和经济资源被冻结，欧盟内任何人不得向其提供资金，通常也禁止入境欧盟。普通居民一般不受影响；与被列名者有业务往来的企业须核查名单。\",\"limits\":\"名单以官方公报全文为准；被列名者可按程序申请复议或起诉。\",\"verifiedAt\":\"2026-10-10\",\"lastEventDate\":\"2026-10-08\",\"effectiveDate\":\"2026-10-08\",\"nextDate\":null,\"nextLabel\":\"\",\"disputed\":false,\"dispute\":\"\",\"sources\":[{\"id\":\"oj\",\"title\":\"官方公报原文\",\"url\":\"https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:L_202602264\",\"publisher\":\"EUR-Lex\",\"kind\":\"law\",\"note\":\"新增条目。\"},{\"id\":\"oj-reg\",\"title\":\"理事会实施条例（EU 2026/2263）\",\"url\":\"https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:L_202602263\",\"publisher\":\"EUR-Lex\",\"kind\":\"law\",\"note\":\"条例附件中的相同新增。\"}],\"dateExplanation\":\"10月8日通过并公布，公布当日生效。\",\"events\":[{\"id\":\"published\",\"date\":\"2026-10-08\",\"kind\":\"published\",\"title\":\"官方公报公布并生效\",\"detail\":\"公布当日生效。\",\"sourceId\":\"oj\"}]}"
+  },
+  {
+    "id": "eu-drc-sanctions-2026-09",
+    "region": "EU",
+    "phase": "adopted",
+    "topic": "公共安全",
+    "updated_at": "2026-10-10T15:33:14.386Z",
+    "version": 1,
+    "data": "{\"originalLanguage\":\"en\",\"id\":\"eu-drc-sanctions-2026-09\",\"officialId\":\"OJ:L_202602172\",\"title\":\"欧盟刚果（金）制裁名单新增人员\",\"originalTitle\":\"Council Implementing Decision (CFSP) 2026/2172 of 28 September 2026 implementing Decision 2010/788/CFSP concerning restrictive measures in view of the situation in the Democratic Republic of the Congo\",\"region\":\"EU\",\"topic\":\"公共安全\",\"tags\":[\"公共安全\",\"金融监管\"],\"phase\":\"adopted\",\"status\":\"adopted\",\"summary\":\"欧盟在刚果（金）局势相关制裁名单中新增人员（包括武装团体指挥官），条例和决定同时更新。\",\"before\":\"名单此前有46人。\",\"after\":\"新增条目（自第47号起）。\",\"impact\":\"被列名者在欧盟的资金和经济资源被冻结，欧盟内任何人不得向其提供资金，通常也禁止入境欧盟。普通居民一般不受影响；与被列名者有业务往来的企业须核查名单。\",\"limits\":\"名单以官方公报全文为准；被列名者可按程序申请复议或起诉。\",\"verifiedAt\":\"2026-10-10\",\"lastEventDate\":\"2026-09-29\",\"effectiveDate\":null,\"nextDate\":null,\"nextLabel\":\"\",\"disputed\":false,\"dispute\":\"\",\"sources\":[{\"id\":\"oj\",\"title\":\"官方公报原文\",\"url\":\"https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:L_202602172\",\"publisher\":\"EUR-Lex\",\"kind\":\"law\",\"note\":\"决定附件新增条目。\"},{\"id\":\"oj-reg\",\"title\":\"理事会实施条例（EU 2026/2191）\",\"url\":\"https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:L_202602191\",\"publisher\":\"EUR-Lex\",\"kind\":\"law\",\"note\":\"条例附件中的相同新增。\"}],\"dateExplanation\":\"9月28日通过，9月29日公布，次日生效。\",\"events\":[{\"id\":\"published\",\"date\":\"2026-09-29\",\"kind\":\"published\",\"title\":\"官方公报公布\",\"detail\":\"次日生效。\",\"sourceId\":\"oj\"}]}"
+  },
+  {
+    "id": "eu-burundi-sanctions-2027",
+    "region": "EU",
+    "phase": "adopted",
+    "topic": "公共安全",
+    "updated_at": "2026-10-10T15:33:14.386Z",
+    "version": 1,
+    "data": "{\"originalLanguage\":\"en\",\"id\":\"eu-burundi-sanctions-2027\",\"officialId\":\"OJ:L_202602197\",\"title\":\"欧盟布隆迪制裁延长至2027年10月31日\",\"originalTitle\":\"Council Decision (CFSP) 2026/2197 of 28 September 2026 amending Decision (CFSP) 2015/1763 concerning restrictive measures in view of the situation in Burundi\",\"region\":\"EU\",\"topic\":\"公共安全\",\"tags\":[\"公共安全\",\"金融监管\"],\"phase\":\"adopted\",\"status\":\"adopted\",\"nextKind\":\"expiry\",\"summary\":\"经审查，欧盟针对布隆迪局势的制裁延长一年至2027年10月31日。\",\"before\":\"原定适用至2026年10月31日。\",\"after\":\"延长至2027年10月31日。\",\"impact\":\"被列名者在欧盟的资金和经济资源被冻结，欧盟内任何人不得向其提供资金，通常也禁止入境欧盟。普通居民一般不受影响；与被列名者有业务往来的企业须核查名单。\",\"limits\":\"名单以官方公报全文为准；被列名者可按程序申请复议或起诉。\",\"verifiedAt\":\"2026-10-10\",\"lastEventDate\":\"2026-09-29\",\"effectiveDate\":null,\"nextDate\":\"2027-10-31\",\"nextLabel\":\"2027年10月31日到期（可再延长）\",\"disputed\":false,\"dispute\":\"\",\"sources\":[{\"id\":\"oj\",\"title\":\"官方公报原文\",\"url\":\"https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:L_202602197\",\"publisher\":\"EUR-Lex\",\"kind\":\"law\",\"note\":\"第1条延长期限。\"}],\"dateExplanation\":\"9月28日通过，9月29日公布，次日生效。\",\"events\":[{\"id\":\"published\",\"date\":\"2026-09-29\",\"kind\":\"published\",\"title\":\"官方公报公布\",\"detail\":\"次日生效。\",\"sourceId\":\"oj\"}]}"
+  },
+  {
+    "id": "eu-tax-haven-list-2026-10",
+    "region": "EU",
+    "phase": "adopted",
+    "topic": "税务",
+    "updated_at": "2026-10-10T15:33:14.386Z",
+    "version": 1,
+    "data": "{\"originalLanguage\":\"en\",\"id\":\"eu-tax-haven-list-2026-10\",\"officialId\":\"https://taxation-customs.ec.europa.eu/news/council-updates-eu-list-non-cooperative-tax-jurisdictions-cooperation-delivers-further-progress-2026-10-09_en\",\"title\":\"欧盟“不合作税收管辖区”名单更新：巴拿马和越南移出黑名单\",\"originalTitle\":\"The Council updates the EU list of non-cooperative tax jurisdictions as cooperation delivers further progress\",\"region\":\"EU\",\"topic\":\"税务\",\"tags\":[\"税务\"],\"phase\":\"adopted\",\"status\":\"adopted\",\"summary\":\"10月9日欧盟财长更新名单：巴拿马和越南从附件一（不合作名单）移至附件二（承诺改进的观察名单）；附件一现为美属萨摩亚、安圭拉、关岛、帕劳、俄罗斯、特克斯和凯科斯群岛、美属维尔京群岛和瓦努阿图8个管辖区；伯利兹移出附件二。\",\"before\":\"巴拿马和越南在附件一。\",\"after\":\"附件一8个管辖区。\",\"impact\":\"与名单上管辖区有往来的企业在成员国可能面临更严的税务措施和申报；对个人日常没有直接影响。\",\"limits\":\"依据委员会新闻；理事会结论正式文本以官方公报为准。\",\"verifiedAt\":\"2026-10-10\",\"lastEventDate\":\"2026-10-09\",\"effectiveDate\":null,\"nextDate\":null,\"nextLabel\":\"\",\"disputed\":false,\"dispute\":\"\",\"sources\":[{\"id\":\"news\",\"title\":\"委员会税务海关总司新闻\",\"url\":\"https://taxation-customs.ec.europa.eu/news/council-updates-eu-list-non-cooperative-tax-jurisdictions-cooperation-delivers-further-progress-2026-10-09_en\",\"publisher\":\"European Commission\",\"kind\":\"government\",\"note\":\"名单变化。\"}],\"dateExplanation\":\"10月9日理事会通过。\",\"events\":[{\"id\":\"adopted\",\"date\":\"2026-10-09\",\"kind\":\"adopted\",\"title\":\"理事会更新名单\",\"detail\":\"新名单即日起适用。\",\"sourceId\":\"news\"}]}"
+  },
+  {
+    "id": "eu-vat-anti-fraud-tools-2030",
+    "region": "EU",
+    "phase": "pending",
+    "topic": "税务",
+    "updated_at": "2026-10-10T15:33:14.386Z",
+    "version": 1,
+    "data": "{\"originalLanguage\":\"en\",\"id\":\"eu-vat-anti-fraud-tools-2030\",\"officialId\":\"2026/0292(CNS)\",\"title\":\"增值税反欺诈工具拟延长至2030年6月\",\"originalTitle\":\"VAT fraud: extension of the application period of the optional reverse charge mechanism and Quick Reaction Mechanism\",\"region\":\"EU\",\"topic\":\"税务\",\"tags\":[\"税务\"],\"phase\":\"pending\",\"status\":\"pending\",\"statusNote\":\"截至10月10日：委员会提案（COM(2026)515），须理事会一致通过，尚未生效。\",\"summary\":\"可选的反向征收机制（某些易发生欺诈的商品由买方缴纳增值税）和快速反应机制原定2026年6月30日到期。委员会提议延长至2030年6月30日。对消费者没有直接影响。\",\"before\":\"两项工具原定适用至2026年6月30日。\",\"after\":\"提案拟延长至2030年6月30日。\",\"impact\":\"主要影响相关行业企业的增值税申报方式。\",\"limits\":\"这是欧盟立法提案，不是现行法；须经欧洲议会和理事会（或理事会）通过并在官方公报公布，内容可能修改。\",\"verifiedAt\":\"2026-10-10\",\"lastEventDate\":\"2026-10-01\",\"effectiveDate\":null,\"nextDate\":null,\"nextLabel\":\"\",\"disputed\":false,\"dispute\":\"\",\"sources\":[{\"id\":\"oeil\",\"title\":\"欧洲议会立法观察站程序档案\",\"url\":\"https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=2026/0292(CNS)\",\"publisher\":\"European Parliament – Legislative Observatory\",\"kind\":\"parliament\",\"note\":\"程序和阶段。\"},{\"id\":\"proposal\",\"title\":\"委员会提案原文\",\"url\":\"https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52026PC0515\",\"publisher\":\"EUR-Lex\",\"kind\":\"law\",\"note\":\"延长第199a和199b条。\"},{\"id\":\"news\",\"title\":\"委员会新闻\",\"url\":\"https://taxation-customs.ec.europa.eu/news/commission-proposes-extending-key-anti-vat-fraud-tools-until-june-2030-2026-10-09_en\",\"publisher\":\"European Commission\",\"kind\":\"government\",\"note\":\"延长至2030年6月30日。\"}],\"dateExplanation\":\"10月1日委员会通过提案。\",\"events\":[{\"id\":\"proposal\",\"date\":\"2026-10-01\",\"kind\":\"proposal\",\"title\":\"委员会提出提案\",\"detail\":\"须理事会一致通过。\",\"sourceId\":\"proposal\"}]}"
+  },
+  {
+    "id": "eu-epr-authorised-representative-suspension",
+    "region": "EU",
+    "phase": "pending",
+    "topic": "企业经营",
+    "updated_at": "2026-10-10T15:33:14.386Z",
+    "version": 1,
+    "data": "{\"originalLanguage\":\"en\",\"id\":\"eu-epr-authorised-representative-suspension\",\"officialId\":\"2025/0395(COD)\",\"title\":\"电池和包装：跨境直销商须指定“授权代表”的义务拟暂停至2035年\",\"originalTitle\":\"Proposal for a Regulation suspending the application of the rules on the appointment of an authorised representative for extended producer responsibility for batteries and waste batteries and packaging and packaging waste\",\"region\":\"EU\",\"topic\":\"企业经营\",\"tags\":[\"企业经营\",\"环境\"],\"phase\":\"pending\",\"status\":\"pending\",\"statusNote\":\"截至10月10日：欧洲议会委员会已表决并提交报告，全会表决预计10月19日；尚未通过。\",\"nextKind\":\"scheduled\",\"summary\":\"在欧盟一国设立、直接向另一成员国消费者远程销售电池或包装产品的企业，按现行电池条例和包装条例须在对方国家指定生产者延伸责任的“授权代表”。委员会提议把这项义务暂停到2035年1月1日，以减少中小企业负担；回收责任本身不取消。\",\"before\":\"须在每个销售国指定授权代表。\",\"after\":\"提案拟暂停至2035年1月1日。\",\"impact\":\"影响跨境网店；对消费者没有直接影响。\",\"limits\":\"这是欧盟立法提案，不是现行法；须经欧洲议会和理事会（或理事会）通过并在官方公报公布，内容可能修改。另一同类提案（2025/0396）涉及废弃电子电器和一次性塑料指令。\",\"verifiedAt\":\"2026-10-10\",\"lastEventDate\":\"2026-10-09\",\"effectiveDate\":null,\"nextDate\":\"2026-10-19\",\"nextLabel\":\"欧洲议会全会表决（预计10月19日）\",\"disputed\":false,\"dispute\":\"\",\"sources\":[{\"id\":\"oeil\",\"title\":\"欧洲议会立法观察站程序档案\",\"url\":\"https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=2025/0395(COD)\",\"publisher\":\"European Parliament – Legislative Observatory\",\"kind\":\"parliament\",\"note\":\"程序进展和日期。\"},{\"id\":\"proposal\",\"title\":\"委员会提案原文\",\"url\":\"https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52025PC0982\",\"publisher\":\"EUR-Lex\",\"kind\":\"law\",\"note\":\"第1、2条暂停至2035年1月1日。\"}],\"dateExplanation\":\"2025年12月10日提案；2026年10月5日委员会表决，10月9日提交报告；预计10月19日全会表决。\",\"events\":[{\"id\":\"committee\",\"date\":\"2026-10-05\",\"kind\":\"proposal\",\"title\":\"欧洲议会委员会表决\",\"detail\":\"尚待全会。\",\"sourceId\":\"oeil\"},{\"id\":\"plenary\",\"date\":\"2026-10-19\",\"kind\":\"scheduled\",\"title\":\"全会表决（预计）\",\"detail\":\"日期为指示性。\",\"sourceId\":\"oeil\"}]}"
+  },
+  {
+    "id": "eu-epr-waste-directives-suspension",
+    "region": "EU",
+    "phase": "pending",
+    "topic": "企业经营",
+    "updated_at": "2026-10-10T15:33:14.386Z",
+    "version": 1,
+    "data": "{\"originalLanguage\":\"en\",\"id\":\"eu-epr-waste-directives-suspension\",\"officialId\":\"2025/0396(COD)\",\"title\":\"电子废弃物、一次性塑料等：授权代表义务拟暂停（指令提案）\",\"originalTitle\":\"Proposal for a Directive suspending the application of the rules on the appointment of authorised representatives for extended producer responsibility for waste, waste electrical and electronic equipment and single use plastic waste\",\"region\":\"EU\",\"topic\":\"企业经营\",\"tags\":[\"企业经营\",\"环境\"],\"phase\":\"pending\",\"status\":\"pending\",\"statusNote\":\"截至10月10日：欧洲议会委员会已表决并提交报告，全会表决预计10月19日；尚未通过。\",\"nextKind\":\"scheduled\",\"summary\":\"与电池和包装提案平行：委员会提议暂停废物框架指令、废弃电子电器指令和一次性塑料指令中，跨境直销商须指定生产者延伸责任授权代表的规定。作为指令，还须各国转化。\",\"before\":\"相关指令要求跨境直销商指定授权代表。\",\"after\":\"提案拟暂停这些规定。\",\"impact\":\"影响跨境网店；对消费者没有直接影响。\",\"limits\":\"这是欧盟立法提案，不是现行法；须经欧洲议会和理事会（或理事会）通过并在官方公报公布，内容可能修改。\",\"verifiedAt\":\"2026-10-10\",\"lastEventDate\":\"2026-10-09\",\"effectiveDate\":null,\"nextDate\":\"2026-10-19\",\"nextLabel\":\"欧洲议会全会表决（预计10月19日）\",\"disputed\":false,\"dispute\":\"\",\"sources\":[{\"id\":\"oeil\",\"title\":\"欧洲议会立法观察站程序档案\",\"url\":\"https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=2025/0396(COD)\",\"publisher\":\"European Parliament – Legislative Observatory\",\"kind\":\"parliament\",\"note\":\"程序进展。\"},{\"id\":\"proposal\",\"title\":\"委员会提案原文\",\"url\":\"https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52025PC0983\",\"publisher\":\"EUR-Lex\",\"kind\":\"law\",\"note\":\"提案标题和范围。\"}],\"dateExplanation\":\"2025年12月10日提案；10月9日提交委员会报告。\",\"events\":[{\"id\":\"report\",\"date\":\"2026-10-09\",\"kind\":\"proposal\",\"title\":\"委员会报告提交全会\",\"detail\":\"尚待全会。\",\"sourceId\":\"oeil\"}]}"
+  },
+  {
+    "id": "eu-korea-pnr-agreement-2026",
+    "region": "EU",
+    "phase": "pending",
+    "topic": "公共安全",
+    "updated_at": "2026-10-10T15:33:14.386Z",
+    "version": 1,
+    "data": "{\"originalLanguage\":\"en\",\"id\":\"eu-korea-pnr-agreement-2026\",\"officialId\":\"OJ:L_202602251\",\"title\":\"欧盟与韩国签署航空旅客订座记录（PNR）数据传输协定\",\"originalTitle\":\"Council Decision (EU) 2026/2251 of 1 October 2026 on the signing of the Agreement between the European Union and the Republic of Korea on the transfer of Passenger Name Record (PNR) data\",\"region\":\"EU\",\"topic\":\"公共安全\",\"tags\":[\"公共安全\",\"交通\"],\"phase\":\"pending\",\"status\":\"pending\",\"statusNote\":\"截至10月10日：理事会已决定签署；协定须经欧洲议会同意和理事会缔结后才生效。\",\"summary\":\"欧盟与韩国的协定允许航空公司把欧盟—韩国航班旅客的订座记录（姓名、行程、付款方式等）传给韩国当局，用于预防和追查恐怖主义和严重犯罪，并设数据保护保障。理事会10月1日决定签署。\",\"before\":\"没有欧盟—韩国PNR协定。\",\"after\":\"签署后待缔结生效。\",\"impact\":\"生效后，往返欧盟与韩国的乘客订座数据将传给韩国当局。\",\"limits\":\"尚未生效；须欧洲议会同意。\",\"verifiedAt\":\"2026-10-10\",\"lastEventDate\":\"2026-10-07\",\"effectiveDate\":null,\"nextDate\":null,\"nextLabel\":\"\",\"disputed\":false,\"dispute\":\"\",\"sources\":[{\"id\":\"oj\",\"title\":\"官方公报原文\",\"url\":\"https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:L_202602251\",\"publisher\":\"EUR-Lex\",\"kind\":\"law\",\"note\":\"签署决定和背景。\"}],\"dateExplanation\":\"10月1日理事会决定签署，10月7日公布。\",\"events\":[{\"id\":\"signing\",\"date\":\"2026-10-07\",\"kind\":\"proposal\",\"title\":\"签署决定公布\",\"detail\":\"尚待缔结。\",\"sourceId\":\"oj\"}]}"
+  },
+  {
+    "id": "eu-sfdr-priips-review",
+    "region": "EU",
+    "phase": "pending",
+    "topic": "金融监管",
+    "updated_at": "2026-10-10T15:33:14.386Z",
+    "version": 1,
+    "data": "{\"originalLanguage\":\"en\",\"id\":\"eu-sfdr-priips-review\",\"officialId\":\"2025/0361(COD)\",\"title\":\"可持续金融披露条例（SFDR）和零售投资产品说明文件改革：进入三方谈判\",\"originalTitle\":\"Sustainability-related disclosures in the financial services sector (SFDR) and key information documents for packaged retail and insurance-based investment products (PRIIPs)\",\"region\":\"EU\",\"topic\":\"金融监管\",\"tags\":[\"投资\",\"消费者保护\"],\"phase\":\"pending\",\"status\":\"pending\",\"statusNote\":\"截至10月10日：欧洲议会10月7日确认委员会进入与理事会谈判的决定；尚未通过。\",\"summary\":\"委员会提议修改可持续金融披露条例：简化基金和金融产品的环境、社会和治理（ESG）信息披露，并相应调整零售投资和保险投资产品的“关键信息文件”，目的是让投资者更容易理解产品的可持续性声明、减少“漂绿”。\",\"before\":\"现行SFDR自2021年3月适用，披露要求复杂。\",\"after\":\"提案拟简化和重构披露。\",\"impact\":\"购买基金或投资型保险时看到的可持续性说明可能改变格式。\",\"limits\":\"这是欧盟立法提案，不是现行法；须经欧洲议会和理事会（或理事会）通过并在官方公报公布，内容可能修改。\",\"verifiedAt\":\"2026-10-10\",\"lastEventDate\":\"2026-10-07\",\"effectiveDate\":null,\"nextDate\":null,\"nextLabel\":\"\",\"disputed\":false,\"dispute\":\"\",\"sources\":[{\"id\":\"oeil\",\"title\":\"欧洲议会立法观察站程序档案\",\"url\":\"https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=2025/0361(COD)\",\"publisher\":\"European Parliament – Legislative Observatory\",\"kind\":\"parliament\",\"note\":\"程序进展。\"},{\"id\":\"proposal\",\"title\":\"委员会提案原文\",\"url\":\"https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52025PC0841\",\"publisher\":\"EUR-Lex\",\"kind\":\"law\",\"note\":\"提案理由和目标。\"}],\"dateExplanation\":\"2025年11月20日提案；2026年10月7日全会确认开始谈判。\",\"events\":[{\"id\":\"negotiations\",\"date\":\"2026-10-07\",\"kind\":\"proposal\",\"title\":\"议会确认开始机构间谈判\",\"detail\":\"尚未通过。\",\"sourceId\":\"oeil\"}]}"
+  },
+  {
+    "id": "eu-business-wallets",
+    "region": "EU",
+    "phase": "pending",
+    "topic": "企业与创新",
+    "updated_at": "2026-10-10T15:33:14.386Z",
+    "version": 1,
+    "data": "{\"originalLanguage\":\"en\",\"id\":\"eu-business-wallets\",\"officialId\":\"2025/0358(COD)\",\"title\":\"欧洲企业数字钱包提案：企业跨境在线证明身份和交换文件\",\"originalTitle\":\"Establishment of European Business Wallets\",\"region\":\"EU\",\"topic\":\"企业与创新\",\"tags\":[\"企业经营\",\"数字化\"],\"phase\":\"pending\",\"status\":\"pending\",\"statusNote\":\"截至10月10日：欧洲议会10月7日确认开始与理事会谈判；尚未通过。\",\"summary\":\"委员会提议建立“欧洲企业钱包”：企业和公共机构可安全地在线识别、认证并跨境交换具有法律效力的数据和文件，以减少文书负担。\",\"before\":\"企业跨境办事依赖分散的系统和纸质文件。\",\"after\":\"提案拟建立统一的企业钱包框架。\",\"impact\":\"主要影响企业，包括个体经营者；个人公民另有EUDI钱包。\",\"limits\":\"这是欧盟立法提案，不是现行法；须经欧洲议会和理事会（或理事会）通过并在官方公报公布，内容可能修改。\",\"verifiedAt\":\"2026-10-10\",\"lastEventDate\":\"2026-10-07\",\"effectiveDate\":null,\"nextDate\":null,\"nextLabel\":\"\",\"disputed\":false,\"dispute\":\"\",\"sources\":[{\"id\":\"oeil\",\"title\":\"欧洲议会立法观察站程序档案\",\"url\":\"https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=2025/0358(COD)\",\"publisher\":\"European Parliament – Legislative Observatory\",\"kind\":\"parliament\",\"note\":\"程序进展。\"},{\"id\":\"proposal\",\"title\":\"委员会提案原文\",\"url\":\"https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52025PC0838\",\"publisher\":\"EUR-Lex\",\"kind\":\"law\",\"note\":\"提案理由和目标。\"}],\"dateExplanation\":\"10月7日全会确认开始谈判。\",\"events\":[{\"id\":\"negotiations\",\"date\":\"2026-10-07\",\"kind\":\"proposal\",\"title\":\"议会确认开始机构间谈判\",\"detail\":\"尚未通过。\",\"sourceId\":\"oeil\"}]}"
+  },
+  {
+    "id": "eu-truck-trailer-co2-tolls",
+    "region": "EU",
+    "phase": "pending",
+    "topic": "交通",
+    "updated_at": "2026-10-10T15:33:14.386Z",
+    "version": 1,
+    "data": "{\"originalLanguage\":\"en\",\"id\":\"eu-truck-trailer-co2-tolls\",\"officialId\":\"2023/0134(COD)\",\"title\":\"货车道路收费按二氧化碳分级时，拟把挂车的节能效果计算在内\",\"originalTitle\":\"CO2 emission class of heavy-duty vehicles with trailers\",\"region\":\"EU\",\"topic\":\"交通\",\"tags\":[\"交通\",\"环境\"],\"phase\":\"pending\",\"status\":\"pending\",\"statusNote\":\"截至10月10日：等待理事会一读立场；尚未通过。\",\"summary\":\"欧盟已允许按二氧化碳排放对货车收取不同的道路费，但当时没有挂车节能效果的认证。提案拟在确定收费等级时计入挂车和半挂车的减排效果，鼓励使用更节能的挂车。\",\"before\":\"收费分级不考虑挂车。\",\"after\":\"提案拟计入挂车效果。\",\"impact\":\"影响货运企业；对私家车没有影响。\",\"limits\":\"这是欧盟立法提案，不是现行法；须经欧洲议会和理事会（或理事会）通过并在官方公报公布，内容可能修改。\",\"verifiedAt\":\"2026-10-10\",\"lastEventDate\":\"2026-10-07\",\"effectiveDate\":null,\"nextDate\":null,\"nextLabel\":\"\",\"disputed\":false,\"dispute\":\"\",\"sources\":[{\"id\":\"oeil\",\"title\":\"欧洲议会立法观察站程序档案\",\"url\":\"https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=2023/0134(COD)\",\"publisher\":\"European Parliament – Legislative Observatory\",\"kind\":\"parliament\",\"note\":\"程序进展。\"},{\"id\":\"proposal\",\"title\":\"委员会提案原文\",\"url\":\"https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52023PC0189\",\"publisher\":\"EUR-Lex\",\"kind\":\"law\",\"note\":\"提案理由。\"}],\"dateExplanation\":\"议会已于2026年5月通过委员会报告，正等待理事会。\",\"events\":[{\"id\":\"stage\",\"date\":\"2026-10-07\",\"kind\":\"proposal\",\"title\":\"程序档案更新\",\"detail\":\"等待理事会一读。\",\"sourceId\":\"oeil\"}]}"
+  },
+  {
+    "id": "eu-consular-protection-directive",
+    "region": "EU",
+    "phase": "pending",
+    "topic": "公共服务",
+    "updated_at": "2026-10-10T15:33:14.386Z",
+    "version": 1,
+    "data": "{\"originalLanguage\":\"en\",\"id\":\"eu-consular-protection-directive\",\"officialId\":\"2023/0441(CNS)\",\"title\":\"欧盟公民在本国无使领馆的第三国可获他国领事保护：规则修订接近完成\",\"originalTitle\":\"Consular protection for unrepresented citizens of the Union in third countries\",\"region\":\"EU\",\"topic\":\"公共服务\",\"tags\":[\"公共服务\"],\"phase\":\"pending\",\"status\":\"pending\",\"statusNote\":\"截至10月10日：欧洲议会10月7日发表意见；等待理事会最终决定。\",\"summary\":\"欧盟公民在本国没有使领馆的非欧盟国家遇到事故、重病、犯罪或丢失证件时，可向其他成员国使领馆求助。委员会提议修订2015/637号指令，改善危机时的协调和援助（包括费用垫付安排）。欧洲议会10月7日发表意见，等待理事会通过。\",\"before\":\"适用2015/637号指令。\",\"after\":\"修订拟加强协调和援助。\",\"impact\":\"只涉及持欧盟国籍者；非欧盟国籍居民不适用。\",\"limits\":\"须理事会通过并由成员国转化。\",\"verifiedAt\":\"2026-10-10\",\"lastEventDate\":\"2026-10-07\",\"effectiveDate\":null,\"nextDate\":null,\"nextLabel\":\"\",\"disputed\":false,\"dispute\":\"\",\"sources\":[{\"id\":\"oeil\",\"title\":\"欧洲议会立法观察站程序档案\",\"url\":\"https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=2023/0441(CNS)\",\"publisher\":\"European Parliament – Legislative Observatory\",\"kind\":\"parliament\",\"note\":\"议会决定和阶段。\"},{\"id\":\"proposal\",\"title\":\"委员会提案原文\",\"url\":\"https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52023PC0930\",\"publisher\":\"EUR-Lex\",\"kind\":\"law\",\"note\":\"提案理由。\"}],\"dateExplanation\":\"10月7日欧洲议会决定（T10-0330）。\",\"events\":[{\"id\":\"ep-opinion\",\"date\":\"2026-10-07\",\"kind\":\"proposal\",\"title\":\"欧洲议会发表意见\",\"detail\":\"等待理事会。\",\"sourceId\":\"oeil\"}]}"
+  },
+  {
+    "id": "eu-standardisation-regulation-proposal",
+    "region": "EU",
+    "phase": "pending",
+    "topic": "企业与创新",
+    "updated_at": "2026-10-10T15:33:14.386Z",
+    "version": 1,
+    "data": "{\"originalLanguage\":\"en\",\"id\":\"eu-standardisation-regulation-proposal\",\"officialId\":\"IP/26/2070\",\"title\":\"欧盟标准化改革提案：加快制定标准，标准缺失时可用“通用规范”\",\"originalTitle\":\"Commission adopts proposal to accelerate standards development and improve EU competitiveness\",\"region\":\"EU\",\"topic\":\"企业与创新\",\"tags\":[\"企业经营\"],\"phase\":\"pending\",\"status\":\"pending\",\"statusNote\":\"截至10月10日：委员会10月6日提出提案，尚须欧洲议会和理事会通过。\",\"summary\":\"委员会提议修订欧洲标准化条例：为委员会要求制定的标准设更明确的期限，明确标准缺失时可用“通用规范”作为后备，有条件地更多采用外部技术规范，并提高中小企业在标准制定中的代表性。\",\"before\":\"标准制定周期长。\",\"after\":\"提案拟加快并设后备机制。\",\"impact\":\"间接影响产品合规，对消费者没有直接义务。\",\"limits\":\"这是欧盟立法提案，不是现行法；须经欧洲议会和理事会（或理事会）通过并在官方公报公布，内容可能修改。\",\"verifiedAt\":\"2026-10-10\",\"lastEventDate\":\"2026-10-06\",\"effectiveDate\":null,\"nextDate\":null,\"nextLabel\":\"\",\"disputed\":false,\"dispute\":\"\",\"sources\":[{\"id\":\"ip\",\"title\":\"委员会新闻稿（浏览器渲染存档）\",\"url\":\"https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2070\",\"publisher\":\"European Commission\",\"kind\":\"government\",\"note\":\"提案要点。\"},{\"id\":\"qa\",\"title\":\"委员会问答（浏览器渲染存档）\",\"url\":\"https://ec.europa.eu/commission/presscorner/detail/en/qanda_26_2071\",\"publisher\":\"European Commission\",\"kind\":\"government\",\"note\":\"补充说明。\"}],\"dateExplanation\":\"10月6日提出。\",\"events\":[{\"id\":\"proposal\",\"date\":\"2026-10-06\",\"kind\":\"proposal\",\"title\":\"委员会提出提案\",\"detail\":\"尚须立法程序。\",\"sourceId\":\"ip\"}]}"
+  },
+  {
+    "id": "eu-agile-defence-innovation",
+    "region": "EU",
+    "phase": "pending",
+    "topic": "产业与投资",
+    "updated_at": "2026-10-10T15:33:14.386Z",
+    "version": 1,
+    "data": "{\"originalLanguage\":\"en\",\"id\":\"eu-agile-defence-innovation\",\"officialId\":\"2026/0078(COD)\",\"title\":\"欧盟“敏捷国防创新”（AGILE）计划提案：支持中小企业和初创企业的国防技术\",\"originalTitle\":\"Programme for agile and rapid defence innovation (AGILE)\",\"region\":\"EU\",\"topic\":\"产业与投资\",\"tags\":[\"国防\",\"企业经营\"],\"phase\":\"pending\",\"status\":\"pending\",\"statusNote\":\"截至10月10日：等待理事会一读立场；议会已进入谈判；尚未通过。\",\"summary\":\"委员会提议设立AGILE计划，在欧洲国防基金之外更快地资助人工智能、量子、机器人、网络和太空等新兴国防技术，特别是中小企业和来自民用领域的初创企业。\",\"before\":\"国防研发主要通过欧洲国防基金的大型合作项目。\",\"after\":\"拟新增快速资助计划。\",\"impact\":\"对居民没有直接影响。\",\"limits\":\"这是欧盟立法提案，不是现行法；须经欧洲议会和理事会（或理事会）通过并在官方公报公布，内容可能修改。\",\"verifiedAt\":\"2026-10-10\",\"lastEventDate\":\"2026-10-06\",\"effectiveDate\":null,\"nextDate\":null,\"nextLabel\":\"\",\"disputed\":false,\"dispute\":\"\",\"sources\":[{\"id\":\"oeil\",\"title\":\"欧洲议会立法观察站程序档案\",\"url\":\"https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=2026/0078(COD)\",\"publisher\":\"European Parliament – Legislative Observatory\",\"kind\":\"parliament\",\"note\":\"程序进展。\"},{\"id\":\"proposal\",\"title\":\"委员会提案原文\",\"url\":\"https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52026PC0135\",\"publisher\":\"EUR-Lex\",\"kind\":\"law\",\"note\":\"提案理由。\"}],\"dateExplanation\":\"2026年7月议会委员会决定谈判；等待理事会。\",\"events\":[{\"id\":\"stage\",\"date\":\"2026-10-06\",\"kind\":\"proposal\",\"title\":\"程序档案更新\",\"detail\":\"等待理事会。\",\"sourceId\":\"oeil\"}]}"
+  },
+  {
+    "id": "eu-inspire-simplification",
+    "region": "EU",
+    "phase": "pending",
+    "topic": "行政与数字服务",
+    "updated_at": "2026-10-10T15:33:14.386Z",
+    "version": 1,
+    "data": "{\"originalLanguage\":\"en\",\"id\":\"eu-inspire-simplification\",\"officialId\":\"2025/0393(COD)\",\"title\":\"简化欧盟地理空间数据基础设施（INSPIRE）规则：欧洲议会一读通过\",\"originalTitle\":\"Simplification of certain requirements for spatial information infrastructure in the Union (INSPIRE) (Omnibus VIII on environmental legislation)\",\"region\":\"EU\",\"topic\":\"行政与数字服务\",\"tags\":[\"数字化\",\"环境\"],\"phase\":\"pending\",\"status\":\"pending\",\"statusNote\":\"截至10月10日：欧洲议会10月6日通过一读立场；等待理事会。\",\"summary\":\"委员会提议简化INSPIRE指令，删除对公共机构地理数据和数据共享的部分技术要求，并与较新的欧盟数据立法对齐。欧洲议会10月6日通过一读立场。主要影响政府机构。\",\"before\":\"公共机构须遵守详细的技术规范。\",\"after\":\"拟删减技术要求。\",\"impact\":\"对居民没有直接影响。\",\"limits\":\"这是欧盟立法提案，不是现行法；须经欧洲议会和理事会（或理事会）通过并在官方公报公布，内容可能修改。\",\"verifiedAt\":\"2026-10-10\",\"lastEventDate\":\"2026-10-06\",\"effectiveDate\":null,\"nextDate\":null,\"nextLabel\":\"\",\"disputed\":false,\"dispute\":\"\",\"sources\":[{\"id\":\"oeil\",\"title\":\"欧洲议会立法观察站程序档案\",\"url\":\"https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=2025/0393(COD)\",\"publisher\":\"European Parliament – Legislative Observatory\",\"kind\":\"parliament\",\"note\":\"议会决定。\"},{\"id\":\"proposal\",\"title\":\"委员会提案原文\",\"url\":\"https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52025PC0985\",\"publisher\":\"EUR-Lex\",\"kind\":\"law\",\"note\":\"提案理由。\"}],\"dateExplanation\":\"10月6日议会一读（T10-0325）。\",\"events\":[{\"id\":\"ep\",\"date\":\"2026-10-06\",\"kind\":\"proposal\",\"title\":\"欧洲议会一读立场\",\"detail\":\"等待理事会。\",\"sourceId\":\"oeil\"}]}"
+  },
+  {
+    "id": "eu-economic-governance-alignment-472",
+    "region": "EU",
+    "phase": "pending",
+    "topic": "预算与财政",
+    "updated_at": "2026-10-10T15:33:14.386Z",
+    "version": 1,
+    "data": "{\"originalLanguage\":\"en\",\"id\":\"eu-economic-governance-alignment-472\",\"officialId\":\"2025/0312(COD)\",\"title\":\"欧元区陷入财政困难国家的监督规则：与2024年财政规则改革对齐\",\"originalTitle\":\"Economic and budgetary surveillance of Member States in the euro area experiencing or threatened with serious difficulties with respect to their financial stability\",\"region\":\"EU\",\"topic\":\"预算与财政\",\"tags\":[\"预算与财政\"],\"phase\":\"pending\",\"status\":\"pending\",\"statusNote\":\"截至10月10日：等待理事会一读立场；尚未通过。\",\"summary\":\"技术性提案：修改第472/2013号条例，使对面临严重财政稳定困难的欧元区国家的加强监督，与2024年改革后的欧盟经济治理框架保持一致。只涉及成员国政府。\",\"before\":\"第472/2013号条例引用旧框架。\",\"after\":\"拟与新框架对齐。\",\"impact\":\"对居民没有直接影响。\",\"limits\":\"这是欧盟立法提案，不是现行法；须经欧洲议会和理事会（或理事会）通过并在官方公报公布，内容可能修改。\",\"verifiedAt\":\"2026-10-10\",\"lastEventDate\":\"2026-10-06\",\"effectiveDate\":null,\"nextDate\":null,\"nextLabel\":\"\",\"disputed\":false,\"dispute\":\"\",\"sources\":[{\"id\":\"oeil\",\"title\":\"欧洲议会立法观察站程序档案\",\"url\":\"https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=2025/0312(COD)\",\"publisher\":\"European Parliament – Legislative Observatory\",\"kind\":\"parliament\",\"note\":\"程序进展。\"},{\"id\":\"proposal\",\"title\":\"委员会提案原文\",\"url\":\"https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52025PC0593\",\"publisher\":\"EUR-Lex\",\"kind\":\"law\",\"note\":\"提案目标。\"}],\"dateExplanation\":\"议会已决定谈判；等待理事会。\",\"events\":[{\"id\":\"stage\",\"date\":\"2026-10-06\",\"kind\":\"proposal\",\"title\":\"程序档案更新\",\"detail\":\"等待理事会。\",\"sourceId\":\"oeil\"}]}"
+  },
+  {
+    "id": "eu-economic-governance-alignment-473",
+    "region": "EU",
+    "phase": "pending",
+    "topic": "预算与财政",
+    "updated_at": "2026-10-10T15:33:14.386Z",
+    "version": 1,
+    "data": "{\"originalLanguage\":\"en\",\"id\":\"eu-economic-governance-alignment-473\",\"officialId\":\"2025/0311(COD)\",\"title\":\"欧元区预算草案监督和制裁规则：与2024年财政规则改革对齐并简化\",\"originalTitle\":\"Alignment with the EU economic governance framework and further simplification of that framework\",\"region\":\"EU\",\"topic\":\"预算与财政\",\"tags\":[\"预算与财政\"],\"phase\":\"pending\",\"status\":\"pending\",\"statusNote\":\"截至10月10日：等待理事会一读立场；尚未通过。\",\"summary\":\"技术性提案：修改第473/2013号和第1173/2011号条例（预算草案审查和制裁），使其与2024年改革后的财政规则一致并简化。只涉及成员国政府。\",\"before\":\"相关条例引用旧框架。\",\"after\":\"拟对齐和简化。\",\"impact\":\"对居民没有直接影响。\",\"limits\":\"这是欧盟立法提案，不是现行法；须经欧洲议会和理事会（或理事会）通过并在官方公报公布，内容可能修改。\",\"verifiedAt\":\"2026-10-10\",\"lastEventDate\":\"2026-10-06\",\"effectiveDate\":null,\"nextDate\":null,\"nextLabel\":\"\",\"disputed\":false,\"dispute\":\"\",\"sources\":[{\"id\":\"oeil\",\"title\":\"欧洲议会立法观察站程序档案\",\"url\":\"https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=2025/0311(COD)\",\"publisher\":\"European Parliament – Legislative Observatory\",\"kind\":\"parliament\",\"note\":\"程序进展。\"},{\"id\":\"proposal\",\"title\":\"委员会提案原文\",\"url\":\"https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52025PC0591\",\"publisher\":\"EUR-Lex\",\"kind\":\"law\",\"note\":\"提案目标。\"}],\"dateExplanation\":\"议会已决定谈判；等待理事会。\",\"events\":[{\"id\":\"stage\",\"date\":\"2026-10-06\",\"kind\":\"proposal\",\"title\":\"程序档案更新\",\"detail\":\"等待理事会。\",\"sourceId\":\"oeil\"}]}"
+  },
+  {
+    "id": "eu-carcinogens-directive-welding-fumes",
+    "region": "EU",
+    "phase": "pending",
+    "topic": "劳动与工资",
+    "updated_at": "2026-10-10T15:33:14.386Z",
+    "version": 1,
+    "data": "{\"originalLanguage\":\"en\",\"id\":\"eu-carcinogens-directive-welding-fumes\",\"officialId\":\"2025/0232(COD)\",\"title\":\"工作场所致癌物保护：拟新增限值并把焊接烟尘列入\",\"originalTitle\":\"Protection of workers from the risks related to exposure to carcinogens or mutagens at work\",\"region\":\"EU\",\"topic\":\"劳动与工资\",\"tags\":[\"劳动\",\"医疗\"],\"phase\":\"pending\",\"status\":\"pending\",\"statusNote\":\"截至10月10日：等待理事会一读立场；议会已进入谈判；尚未通过。\",\"summary\":\"委员会提议修订致癌物和诱变物指令：为更多物质设定职业接触限值和标注，并把焊接烟尘列入指令所涵盖的物质和工艺。目的是更好保护工人健康。\",\"before\":\"焊接烟尘未列入该指令附件一。\",\"after\":\"拟新增限值并列入焊接烟尘。\",\"impact\":\"焊工等从业者的雇主可能需加强防护措施；须经各国转化。\",\"limits\":\"这是欧盟立法提案，不是现行法；须经欧洲议会和理事会（或理事会）通过并在官方公报公布，内容可能修改。\",\"verifiedAt\":\"2026-10-10\",\"lastEventDate\":\"2026-10-06\",\"effectiveDate\":null,\"nextDate\":null,\"nextLabel\":\"\",\"disputed\":false,\"dispute\":\"\",\"sources\":[{\"id\":\"oeil\",\"title\":\"欧洲议会立法观察站程序档案\",\"url\":\"https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=2025/0232(COD)\",\"publisher\":\"European Parliament – Legislative Observatory\",\"kind\":\"parliament\",\"note\":\"程序进展。\"},{\"id\":\"proposal\",\"title\":\"委员会提案原文\",\"url\":\"https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52025PC0418\",\"publisher\":\"EUR-Lex\",\"kind\":\"law\",\"note\":\"提案目标。\"}],\"dateExplanation\":\"议会已决定谈判；等待理事会。\",\"events\":[{\"id\":\"stage\",\"date\":\"2026-10-06\",\"kind\":\"proposal\",\"title\":\"程序档案更新\",\"detail\":\"等待理事会。\",\"sourceId\":\"oeil\"}]}"
+  },
+  {
+    "id": "eu-erasmus-plus-2028-2034",
+    "region": "EU",
+    "phase": "pending",
+    "topic": "教育",
+    "updated_at": "2026-10-10T15:33:14.386Z",
+    "version": 1,
+    "data": "{\"originalLanguage\":\"en\",\"id\":\"eu-erasmus-plus-2028-2034\",\"officialId\":\"2025/0222(COD)\",\"title\":\"2028—2034年伊拉斯谟+计划：委员会提议约408亿欧元\",\"originalTitle\":\"Erasmus+ programme 2028–2034\",\"region\":\"EU\",\"topic\":\"教育\",\"tags\":[\"教育\",\"补助\"],\"phase\":\"pending\",\"status\":\"pending\",\"statusNote\":\"截至10月10日：欧洲议会委员会9月29日已表决，全会预计10月19日；尚未通过。\",\"nextKind\":\"scheduled\",\"summary\":\"学生、学徒、教师和青年工作者需要关注。委员会提议2028—2034年伊拉斯谟+计划，涵盖学校、职业教育、高等教育、成人教育、青年、志愿和体育，指示性预算约408.27亿欧元（现价），并作简化。现行计划持续到2027年。\",\"before\":\"2021—2027年计划适用。\",\"after\":\"拟从2028年起实施新计划。\",\"impact\":\"2028年以后的交换和资助机会取决于最终预算和规则；目前申请仍按现行计划。\",\"limits\":\"这是欧盟立法提案，不是现行法；须经欧洲议会和理事会（或理事会）通过并在官方公报公布，内容可能修改。预算还取决于2028—2034年欧盟多年期财政框架谈判。\",\"verifiedAt\":\"2026-10-10\",\"lastEventDate\":\"2026-09-29\",\"effectiveDate\":null,\"nextDate\":\"2026-10-19\",\"nextLabel\":\"欧洲议会全会（预计10月19日）\",\"disputed\":false,\"dispute\":\"\",\"sources\":[{\"id\":\"oeil\",\"title\":\"欧洲议会立法观察站程序档案\",\"url\":\"https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=2025/0222(COD)\",\"publisher\":\"European Parliament – Legislative Observatory\",\"kind\":\"parliament\",\"note\":\"程序进展和日期。\"},{\"id\":\"proposal\",\"title\":\"委员会提案原文\",\"url\":\"https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52025PC0549\",\"publisher\":\"EUR-Lex\",\"kind\":\"law\",\"note\":\"预算和范围。\"}],\"dateExplanation\":\"9月29日议会委员会表决；全会日期为指示性。\",\"events\":[{\"id\":\"committee\",\"date\":\"2026-09-29\",\"kind\":\"proposal\",\"title\":\"欧洲议会委员会表决\",\"detail\":\"尚待全会。\",\"sourceId\":\"oeil\"},{\"id\":\"plenary\",\"date\":\"2026-10-19\",\"kind\":\"scheduled\",\"title\":\"全会（预计）\",\"detail\":\"日期为指示性。\",\"sourceId\":\"oeil\"}]}"
+  },
+  {
+    "id": "eu-discovereu-autumn-2026",
+    "region": "EU",
+    "phase": "adopted",
+    "topic": "教育",
+    "updated_at": "2026-10-10T15:33:14.386Z",
+    "version": 1,
+    "data": "{\"originalLanguage\":\"en\",\"id\":\"eu-discovereu-autumn-2026\",\"officialId\":\"https://commission.europa.eu/news-and-media/news/turning-18-apply-free-discovereu-travel-pass-2026-10-01_en\",\"title\":\"18岁可申请免费“DiscoverEU”欧洲旅行通票：10月15日中午截止\",\"originalTitle\":\"Turning 18? Apply for a free DiscoverEU travel pass\",\"region\":\"EU\",\"topic\":\"教育\",\"tags\":[\"教育\",\"交通\",\"补助\"],\"phase\":\"adopted\",\"status\":\"application_announced\",\"nextKind\":\"deadline\",\"summary\":\"居住在欧盟或伊拉斯谟+参与国的18岁年轻人，可在2026年10月15日中午（布鲁塞尔时间）前申请免费旅行通票（可与朋友组团申请）。获选者可在2027年3月1日至2028年5月31日之间任选一个月，最多旅行7天，以火车等环保方式为主，并获折扣卡；残障人士可获协助。\",\"before\":\"DiscoverEU每年开放申请。\",\"after\":\"本轮申请开放至10月15日。\",\"impact\":\"居住在德国的18岁年轻人（具体出生日期范围以申请页面为准）可在截止前申请；名额有限，提交不等于获选。\",\"limits\":\"资格以欧洲青年门户申请条件为准。\",\"verifiedAt\":\"2026-10-10\",\"lastEventDate\":\"2026-10-01\",\"effectiveDate\":null,\"nextDate\":\"2026-10-15\",\"nextLabel\":\"10月15日中午申请截止\",\"disputed\":false,\"dispute\":\"\",\"sources\":[{\"id\":\"news\",\"title\":\"欧盟委员会新闻\",\"url\":\"https://commission.europa.eu/news-and-media/news/turning-18-apply-free-discovereu-travel-pass-2026-10-01_en\",\"publisher\":\"European Commission\",\"kind\":\"government\",\"note\":\"申请条件、截止日期和旅行期。\"}],\"dateExplanation\":\"10月1日发布；10月15日中午（布鲁塞尔时间）截止；旅行期2027年3月1日至2028年5月31日。\",\"events\":[{\"id\":\"announced\",\"date\":\"2026-10-01\",\"kind\":\"published\",\"title\":\"申请开放\",\"detail\":\"截止10月15日中午。\",\"sourceId\":\"news\"}]}"
+  },
+  {
+    "id": "eu-critical-communication-system",
+    "region": "EU",
+    "phase": "pending",
+    "topic": "公共安全",
+    "updated_at": "2026-10-10T15:33:14.386Z",
+    "version": 1,
+    "data": "{\"originalLanguage\":\"en\",\"id\":\"eu-critical-communication-system\",\"officialId\":\"2026/0301(COD)\",\"title\":\"欧盟关键通信系统（EUCCS）提案：警察、消防等应急部门跨境安全通信\",\"originalTitle\":\"European Union Critical Communication System\",\"region\":\"EU\",\"topic\":\"公共安全\",\"tags\":[\"公共安全\",\"通信与数字生活\"],\"phase\":\"pending\",\"status\":\"pending\",\"statusNote\":\"截至10月10日：委员会9月30日提出两项相关提案；尚须欧洲议会和理事会通过。\",\"summary\":\"委员会提出两项相关提案：一项为欧盟关键通信系统（EUCCS）建立法律基础并规定成员国关键通信系统的韧性要求，另一项规定民防等部门如何使用该系统，以便在跨境灾害和危机中安全通信。\",\"before\":\"各国应急通信系统分散。\",\"after\":\"拟建立欧盟层面的系统。\",\"impact\":\"对居民没有直接义务。\",\"limits\":\"这是欧盟立法提案，不是现行法；须经欧洲议会和理事会（或理事会）通过并在官方公报公布，内容可能修改。\",\"verifiedAt\":\"2026-10-10\",\"lastEventDate\":\"2026-10-01\",\"effectiveDate\":null,\"nextDate\":null,\"nextLabel\":\"\",\"disputed\":false,\"dispute\":\"\",\"sources\":[{\"id\":\"oeil\",\"title\":\"欧洲议会立法观察站程序档案\",\"url\":\"https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=2026/0301(COD)\",\"publisher\":\"European Parliament – Legislative Observatory\",\"kind\":\"parliament\",\"note\":\"主提案程序（2026/0301）。\"},{\"id\":\"proposal\",\"title\":\"委员会提案原文\",\"url\":\"https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52026PC1010\",\"publisher\":\"EUR-Lex\",\"kind\":\"law\",\"note\":\"EUCCS法律基础。\"},{\"id\":\"oeil2\",\"title\":\"关联提案程序（2026/0308）\",\"url\":\"https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=2026/0308(COD)\",\"publisher\":\"European Parliament – Legislative Observatory\",\"kind\":\"parliament\",\"note\":\"民防部门使用。\"}],\"dateExplanation\":\"9月30日提出。\",\"events\":[{\"id\":\"proposal\",\"date\":\"2026-09-30\",\"kind\":\"proposal\",\"title\":\"委员会提出提案\",\"detail\":\"尚须立法程序。\",\"sourceId\":\"proposal\"}]}"
+  },
+  {
+    "id": "eu-nrmm-hydrogen-test-fuel",
+    "region": "EU",
+    "phase": "pending",
+    "topic": "能源与环境",
+    "updated_at": "2026-10-10T15:33:14.386Z",
+    "version": 1,
+    "data": "{\"originalLanguage\":\"en\",\"id\":\"eu-nrmm-hydrogen-test-fuel\",\"officialId\":\"2026/0294(COD)\",\"title\":\"非道路移动机械发动机：拟把氢列为型式试验参考燃料\",\"originalTitle\":\"Non-road mobile machinery engines: inclusion of hydrogen as a reference fuel for the testing of an engine type or engine family\",\"region\":\"EU\",\"topic\":\"能源与环境\",\"tags\":[\"能源\",\"环境\"],\"phase\":\"pending\",\"status\":\"pending\",\"statusNote\":\"截至10月10日：委员会提案，尚须立法程序。\",\"summary\":\"技术性提案：在非道路移动机械（如工程机械、发电机）发动机排放型式认证中加入氢作为试验参考燃料，便于氢发动机获得认证。\",\"before\":\"参考燃料不含氢。\",\"after\":\"拟加入氢。\",\"impact\":\"影响发动机制造商。\",\"limits\":\"这是欧盟立法提案，不是现行法；须经欧洲议会和理事会（或理事会）通过并在官方公报公布，内容可能修改。\",\"verifiedAt\":\"2026-10-10\",\"lastEventDate\":\"2026-10-01\",\"effectiveDate\":null,\"nextDate\":null,\"nextLabel\":\"\",\"disputed\":false,\"dispute\":\"\",\"sources\":[{\"id\":\"oeil\",\"title\":\"欧洲议会立法观察站程序档案\",\"url\":\"https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=2026/0294(COD)\",\"publisher\":\"European Parliament – Legislative Observatory\",\"kind\":\"parliament\",\"note\":\"程序。\"},{\"id\":\"proposal\",\"title\":\"委员会提案原文\",\"url\":\"https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52026PC0523\",\"publisher\":\"EUR-Lex\",\"kind\":\"law\",\"note\":\"提案文本。\"}],\"dateExplanation\":\"10月1日提出。\",\"events\":[{\"id\":\"proposal\",\"date\":\"2026-10-01\",\"kind\":\"proposal\",\"title\":\"委员会提出提案\",\"detail\":\"尚须立法程序。\",\"sourceId\":\"proposal\"}]}"
+  },
+  {
+    "id": "eu-interpol-border-agreement",
+    "region": "EU",
+    "phase": "pending",
+    "topic": "公共安全",
+    "updated_at": "2026-10-10T15:33:14.386Z",
+    "version": 1,
+    "data": "{\"originalLanguage\":\"en\",\"id\":\"eu-interpol-border-agreement\",\"officialId\":\"2026/0299(NLE)\",\"title\":\"欧盟—国际刑警组织边境安全合作协定：委员会提议缔结\",\"originalTitle\":\"EU-INTERPOL Cooperation Agreement on border security as part of border management\",\"region\":\"EU\",\"topic\":\"公共安全\",\"tags\":[\"公共安全\",\"移民\"],\"phase\":\"pending\",\"status\":\"pending\",\"statusNote\":\"截至10月10日：委员会提出缔结协定的理事会决定提案；须欧洲议会同意。\",\"summary\":\"该协定规定欧盟机构（如边境管理系统）与国际刑警组织在边境安全方面的合作和数据查询，例如核对被盗或遗失证件数据库。委员会提出缔结协定的提案。\",\"before\":\"没有该欧盟层面协定。\",\"after\":\"缔结后适用。\",\"impact\":\"入境欧盟时证件核查可能更多使用国际刑警组织数据库。\",\"limits\":\"尚未缔结；须欧洲议会同意和理事会决定。\",\"verifiedAt\":\"2026-10-10\",\"lastEventDate\":\"2026-10-01\",\"effectiveDate\":null,\"nextDate\":null,\"nextLabel\":\"\",\"disputed\":false,\"dispute\":\"\",\"sources\":[{\"id\":\"oeil\",\"title\":\"欧洲议会立法观察站程序档案\",\"url\":\"https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=2026/0299(NLE)\",\"publisher\":\"European Parliament – Legislative Observatory\",\"kind\":\"parliament\",\"note\":\"程序。\"},{\"id\":\"proposal\",\"title\":\"委员会提案原文\",\"url\":\"https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52026PC0519\",\"publisher\":\"EUR-Lex\",\"kind\":\"law\",\"note\":\"缔结决定提案。\"}],\"dateExplanation\":\"10月1日提出。\",\"events\":[{\"id\":\"proposal\",\"date\":\"2026-10-01\",\"kind\":\"proposal\",\"title\":\"委员会提出缔结提案\",\"detail\":\"须议会同意。\",\"sourceId\":\"proposal\"}]}"
+  },
+  {
+    "id": "eu-interpol-law-enforcement-agreement",
+    "region": "EU",
+    "phase": "pending",
+    "topic": "公共安全",
+    "updated_at": "2026-10-10T15:33:14.386Z",
+    "version": 1,
+    "data": "{\"originalLanguage\":\"en\",\"id\":\"eu-interpol-law-enforcement-agreement\",\"officialId\":\"2026/0295(NLE)\",\"title\":\"欧盟—国际刑警组织执法和刑事司法合作协定：委员会提议缔结\",\"originalTitle\":\"EU-INTERPOL Cooperation Agreement on law enforcement and judicial cooperation in criminal matters\",\"region\":\"EU\",\"topic\":\"公共安全\",\"tags\":[\"公共安全\",\"司法\"],\"phase\":\"pending\",\"status\":\"pending\",\"statusNote\":\"截至10月10日：委员会提出缔结协定的理事会决定提案；须欧洲议会同意。\",\"summary\":\"该协定规定欧洲刑警组织、欧洲司法合作署等欧盟机构与国际刑警组织在执法和刑事司法方面的合作与数据交换，并设数据保护保障。\",\"before\":\"没有该欧盟层面协定。\",\"after\":\"缔结后适用。\",\"impact\":\"对居民没有直接义务。\",\"limits\":\"尚未缔结；须欧洲议会同意和理事会决定。\",\"verifiedAt\":\"2026-10-10\",\"lastEventDate\":\"2026-10-01\",\"effectiveDate\":null,\"nextDate\":null,\"nextLabel\":\"\",\"disputed\":false,\"dispute\":\"\",\"sources\":[{\"id\":\"oeil\",\"title\":\"欧洲议会立法观察站程序档案\",\"url\":\"https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=2026/0295(NLE)\",\"publisher\":\"European Parliament – Legislative Observatory\",\"kind\":\"parliament\",\"note\":\"程序。\"},{\"id\":\"proposal\",\"title\":\"委员会提案原文\",\"url\":\"https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52026PC0518\",\"publisher\":\"EUR-Lex\",\"kind\":\"law\",\"note\":\"缔结决定提案。\"}],\"dateExplanation\":\"10月1日提出。\",\"events\":[{\"id\":\"proposal\",\"date\":\"2026-10-01\",\"kind\":\"proposal\",\"title\":\"委员会提出缔结提案\",\"detail\":\"须议会同意。\",\"sourceId\":\"proposal\"}]}"
+  },
+  {
+    "id": "eu-ten-e-revision",
+    "region": "EU",
+    "phase": "pending",
+    "topic": "能源与环境",
+    "updated_at": "2026-10-10T15:33:14.386Z",
+    "version": 1,
+    "data": "{\"originalLanguage\":\"en\",\"id\":\"eu-ten-e-revision\",\"officialId\":\"2025/0399(COD)\",\"title\":\"跨欧洲能源基础设施（TEN-E）规则修订：进入谈判\",\"originalTitle\":\"Trans-European energy infrastructure: guidelines\",\"region\":\"EU\",\"topic\":\"能源与环境\",\"tags\":[\"能源\"],\"phase\":\"pending\",\"status\":\"pending\",\"statusNote\":\"截至10月10日：欧洲议会委员会已决定与理事会谈判；尚未通过。\",\"summary\":\"委员会提议修订TEN-E条例，加快跨境电网、氢能等能源基础设施的规划和互联，使欧盟能源网络更有韧性。\",\"before\":\"现行TEN-E条例（2022年）。\",\"after\":\"提案拟修订规划和选定程序。\",\"impact\":\"长期影响能源网络建设；对居民没有直接义务。\",\"limits\":\"这是欧盟立法提案，不是现行法；须经欧洲议会和理事会（或理事会）通过并在官方公报公布，内容可能修改。\",\"verifiedAt\":\"2026-10-10\",\"lastEventDate\":\"2026-09-16\",\"effectiveDate\":null,\"nextDate\":null,\"nextLabel\":\"\",\"disputed\":false,\"dispute\":\"\",\"sources\":[{\"id\":\"oeil\",\"title\":\"欧洲议会立法观察站程序档案\",\"url\":\"https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=2025/0399(COD)\",\"publisher\":\"European Parliament – Legislative Observatory\",\"kind\":\"parliament\",\"note\":\"程序进展。\"},{\"id\":\"proposal\",\"title\":\"委员会提案原文\",\"url\":\"https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52025PC1006\",\"publisher\":\"EUR-Lex\",\"kind\":\"law\",\"note\":\"提案目标。\"}],\"dateExplanation\":\"9月16日议会确认进入谈判。\",\"events\":[{\"id\":\"negotiations\",\"date\":\"2026-09-16\",\"kind\":\"proposal\",\"title\":\"议会确认开始谈判\",\"detail\":\"尚未通过。\",\"sourceId\":\"oeil\"}]}"
+  },
+  {
+    "id": "eu-crm-act-amendments",
+    "region": "EU",
+    "phase": "pending",
+    "topic": "产业与投资",
+    "updated_at": "2026-10-10T15:33:14.386Z",
+    "version": 1,
+    "data": "{\"originalLanguage\":\"en\",\"id\":\"eu-crm-act-amendments\",\"officialId\":\"2025/0385(COD)\",\"title\":\"《关键原材料法》修订提案：简化战略项目程序、要求大企业做供应链风险准备\",\"originalTitle\":\"Amendments to the Critical Raw Materials Act\",\"region\":\"EU\",\"topic\":\"产业与投资\",\"tags\":[\"企业经营\",\"贸易\"],\"phase\":\"pending\",\"status\":\"pending\",\"statusNote\":\"截至10月10日：欧洲议会委员会已决定谈判；尚未通过。\",\"summary\":\"委员会根据执行战略项目选定的经验提议修订《关键原材料法》：统一和简化部分欧盟层面程序，并要求在一个或多个成员国经营的大企业为供应链中断做准备、制定缓解措施。\",\"before\":\"现行《关键原材料法》（2024年）。\",\"after\":\"提案拟修订程序和企业义务。\",\"impact\":\"影响大型制造企业；对居民没有直接义务。\",\"limits\":\"这是欧盟立法提案，不是现行法；须经欧洲议会和理事会（或理事会）通过并在官方公报公布，内容可能修改。\",\"verifiedAt\":\"2026-10-10\",\"lastEventDate\":\"2026-07-08\",\"effectiveDate\":null,\"nextDate\":null,\"nextLabel\":\"\",\"disputed\":false,\"dispute\":\"\",\"sources\":[{\"id\":\"oeil\",\"title\":\"欧洲议会立法观察站程序档案\",\"url\":\"https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=2025/0385(COD)\",\"publisher\":\"European Parliament – Legislative Observatory\",\"kind\":\"parliament\",\"note\":\"程序进展。\"},{\"id\":\"proposal\",\"title\":\"委员会提案原文\",\"url\":\"https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52025PC0946\",\"publisher\":\"EUR-Lex\",\"kind\":\"law\",\"note\":\"提案目标。\"}],\"dateExplanation\":\"2026年7月议会委员会决定谈判。\",\"events\":[{\"id\":\"negotiations\",\"date\":\"2026-07-08\",\"kind\":\"proposal\",\"title\":\"议会就委员会谈判决定表态\",\"detail\":\"尚未通过。\",\"sourceId\":\"oeil\"}]}"
   }
 ]

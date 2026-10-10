@@ -3554,6 +3554,102 @@
         }
       ],
       "appliesFromExport": "2026-10-10T15:18:58.703Z"
+    },
+    {
+      "id": "eu-sudan-sanctions-oct2026",
+      "title": [
+        "欧盟苏丹制裁：2026年10月延长和名单更新",
+        "EU Sudan sanctions: October 2026 renewal and listing updates"
+      ],
+      "basis": "Council Decision (CFSP) 2026/2261 and Council Implementing Regulation (EU) 2026/2262 of the same day make the same listing changes; the decision also extends the regime.",
+      "documents": [
+        {
+          "region": "EU",
+          "officialId": "OJ:L_202602261"
+        },
+        {
+          "region": "EU",
+          "officialId": "OJ:L_202602262"
+        }
+      ],
+      "appliesFromExport": "2026-10-10T15:33:14.386Z"
+    },
+    {
+      "id": "eu-drc-sanctions-sep2026",
+      "title": [
+        "欧盟刚果（金）制裁：2026年9月新增名单",
+        "EU DRC sanctions: September 2026 listings"
+      ],
+      "basis": "Council Implementing Decision (CFSP) 2026/2172 and Council Implementing Regulation (EU) 2026/2191 add the same persons.",
+      "documents": [
+        {
+          "region": "EU",
+          "officialId": "OJ:L_202602172"
+        },
+        {
+          "region": "EU",
+          "officialId": "OJ:L_202602191"
+        }
+      ],
+      "appliesFromExport": "2026-10-10T15:33:14.386Z"
+    },
+    {
+      "id": "eu-vat-anti-fraud-extension-2030",
+      "title": [
+        "欧盟增值税反欺诈工具延长提案",
+        "EU anti-VAT-fraud tools extension proposal"
+      ],
+      "basis": "The Commission news item and Legislative Observatory file 2026/0292(CNS) concern the same proposal (COM(2026)515).",
+      "documents": [
+        {
+          "region": "EU",
+          "url": "https://taxation-customs.ec.europa.eu/news/commission-proposes-extending-key-anti-vat-fraud-tools-until-june-2030-2026-10-09_en",
+          "title": "Commission proposes extending key anti-VAT fraud tools until June 2030"
+        },
+        {
+          "region": "EU",
+          "officialId": "2026/0292(CNS)"
+        }
+      ],
+      "appliesFromExport": "2026-10-10T15:33:14.386Z"
+    },
+    {
+      "id": "eu-critical-communication-system-2026",
+      "title": [
+        "欧盟关键通信系统提案",
+        "EU Critical Communication System proposals"
+      ],
+      "basis": "Procedures 2026/0301(COD) and 2026/0308(COD) are explicitly linked proposals (COM(2026)1010 and COM(2026)1020) establishing and using the EUCCS.",
+      "documents": [
+        {
+          "region": "EU",
+          "officialId": "2026/0301(COD)"
+        },
+        {
+          "region": "EU",
+          "officialId": "2026/0308(COD)"
+        }
+      ],
+      "appliesFromExport": "2026-10-10T15:33:14.386Z"
+    },
+    {
+      "id": "eu-low-value-parcels-guidance-oct2026",
+      "title": [
+        "欧盟小包裹3欧元关税：海关指引更新",
+        "EU EUR 3 low-value parcel duty: customs guidance update"
+      ],
+      "basis": "The guidance concerns the EUR 3 duty under Council Regulation (EU) 2026/382 explained in eu-low-value-parcels-2026, whose identifier is the regulation number.",
+      "explanations": [
+        "eu-low-value-parcels-2026"
+      ],
+      "documents": [
+        {
+          "region": "EU",
+          "url": "https://taxation-customs.ec.europa.eu/news/updated-guidance-eur3-customs-duty-now-includes-info-union-handling-fee-2026-10-08_en",
+          "title": "Updated guidance on the €3 customs duty now includes info on Union handling fee"
+        }
+      ],
+      "appliesFromExport": "2026-10-10T15:33:14.386Z"
     }
   ]
 }

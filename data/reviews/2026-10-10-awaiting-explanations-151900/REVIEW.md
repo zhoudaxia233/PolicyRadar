@@ -57,3 +57,49 @@ Amounts were checked for role and period: BAföG figures are monthly statutory r
 - Concise explanations rely on official Bundestag/Bundesrat/government summaries rather than full bill texts; commencement dates are stated only where read in the source.
 - PNOG: the exact care-allowance increases were not in the official summary read.
 - Bundesrat explanations for items 47 and 50 returned 404; the Drucksachen were read instead.
+
+## European Union
+
+**Before:** 406 matters / 438 records awaiting explanation. **After:** 0.
+
+### Records reviewed as needing no explanation (398)
+
+| Disposition | Records | What they are |
+| --- | --- | --- |
+| `eu-corrigenda-2026-10` | 39 | Corrigenda, including language-version corrections |
+| `eu-reference-rates-2026-10` | 11 | Exchange rates, ECB rate notice, EFTA recovery rates, molasses prices |
+| `eu-company-competition-cases-2026-10` | 34 | Merger notifications and decisions, Kingspan fine |
+| `eu-state-aid-cases-2026-10` | 21 | Individual State-aid decisions and notices |
+| `eu-product-names-authorisations-2026-10` | 32 | Geographical indications, variety catalogues, individual biocide/feed authorisations, medicines summary, port listing |
+| `eu-court-cases-2026-10` | 31 | Court of Justice, General Court and EFTA Court case notices |
+| `eu-appointments-2026-10` | 27 | Appointments, elections, recruitment, contact points |
+| `eu-sanctions-notices-2026-10` | 12 | Notices to listed persons and data subjects |
+| `eu-parliament-records-2026-10` | 8 | October 2025 minutes and verbatim reports |
+| `eu-infringements-2026-10` | 10 | Infringement package and referrals |
+| `eu-parliament-resolutions-debates-2026-10` | 22 | RSP, INI and INL files |
+| `eu-international-positions-2026-10` | 12 | EU positions in international bodies, joint-committee decisions |
+| `eu-statements-events-consultations-2026-10` | 45 | News, statements, speeches, consultations, pre-enlargement reviews |
+| `eu-budget-funding-2026-10` | 44 | Accounts, budgets, disbursements, project selections, EGF, Peace Facility |
+| `eu-external-missions-2026-10` | 4 | CFSP missions and mechanisms |
+| `eu-technical-administrative-2026-10` | 15 | Statistics, standards references, rail technical rules, CN notes, ESRB recommendation, EGTC notices |
+| `eu-trade-defence-steps-2026-10` | 8 | Trade-defence review initiations, expiry notices, import registration |
+| `eu-member-state-specific-2026-10` | 6 | Spain fuel excise, VAT derogations, Italian market support, France sea-turtle convention |
+| `eu-parliament-objections-2026-10` | 3 | Rule 115 objections |
+| `eu-research-cooperation-agreements-2026-10` | 3 | EU–Morocco PRIMA agreement documents |
+| `eu-animal-health-zones-2026-10` | 9 | Import-list and restricted-zone measures for named non-EU countries and for Hungary, Poland, Bulgaria, France, Italy and Cyprus (none for Germany; the ASF act was read for this) |
+| `eu-delegated-acts-scrutiny-2026-10` | 2 | Taxonomy-disclosure and trading-venue delegated acts under scrutiny |
+
+Grouped matters were dismissed only as whole groups and only where no explanation covers them; the dispositions feature now enforces this.
+
+### New explanations (31) and linked records
+
+Full: amended air passenger rights (Regulation (EU) 2026/2202), read on EUR-Lex: compensation remains EUR 250/400/600 from a 3-hour arrival delay, with the long-haul halving rule, 96-hour information duty, 5-hour reimbursement, self-rerouting after 3 hours, 2-hour tarmac limit, free name correction and default display of hand-baggage fares; applies from 23 October 2027, so current rules apply until then.
+
+Concise: Armenia trade liberalisation; Sudan, ISIL/Al-Qaida, Russia destabilisation, Ukraine territorial integrity, DRC and Burundi sanctions acts (renewal dates read from each act); the EU tax haven list update; VAT anti-fraud extension; two EPR authorised-representative suspension proposals (to 1 January 2035); EU–Korea PNR signing; SFDR/PRIIPs; European Business Wallets; truck-trailer CO2 tolling; consular protection; standardisation proposal (from rendered Commission press pages); AGILE; INSPIRE; two economic-governance alignment proposals; carcinogens directive; Erasmus+ 2028–2034 (EUR 40.827 billion indicative); DiscoverEU (deadline 15 October 2026, noon Brussels time); EU Critical Communication System (two linked proposals); NRMM hydrogen test fuel; two EU–INTERPOL agreements; TEN-E revision; Critical Raw Materials Act amendments. Legislative proposals were checked against the Legislative Observatory stage and the Commission proposal on EUR-Lex.
+
+The €3 parcel-duty guidance record is linked to the existing `eu-low-value-parcels-2026` explanation through an explicit link.
+
+### Unresolved
+
+- Most proposal explanations are concise and based on the proposal's own objectives; amendments by Parliament or Council are not compared.
+- Two Commission press pages are script-only; they were rendered with the local Chrome and archived as rendered evidence.

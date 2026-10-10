@@ -54,6 +54,12 @@ h1,h2,h3,h4,p{margin:0}
 .country-switch .compact-select summary{width:100%;height:36px;font-size:14px;letter-spacing:0}
 .country-switch .compact-options{min-width:100%;font-size:14px;letter-spacing:0}
 .mobile-country{display:none}
+/* Per-country update stamp: under the country switch on wide screens, above the page heading on phones. */
+.updated-stamp{display:inline-flex;align-items:center;gap:5px;font-size:11px;line-height:1.4;color:var(--muted);font-variant-numeric:tabular-nums;text-align:left}
+.updated-stamp svg{flex-shrink:0;color:var(--faint)}
+.updated-stamp:hover{color:var(--accent)}
+.sidebar-updated{display:flex;margin:7px 2px 0;padding:2px 6px;border-radius:5px}
+.mobile-updated{display:none}
 .region-nav{overflow-y:auto;min-height:0;flex:1;scrollbar-width:thin}
 .region-nav button{display:flex;width:100%;align-items:center;gap:8px;padding:5px 12px;border-radius:7px;font-size:14px;color:var(--text-2);text-align:left}
 .region-nav button:hover{background:var(--surface-2)}
@@ -339,6 +345,9 @@ dialog.drawer::backdrop{background:var(--backdrop)}
  .mobile-country{display:block;margin-right:auto}
  .mobile-country summary>span{font-size:18px;line-height:1}
  .mobile-country .compact-options{font-size:14px;letter-spacing:0}
+ .mobile-updated{display:flex;align-items:center;gap:8px;margin:-4px 0 10px;font-size:12px;color:var(--text-2);font-weight:600}
+ .mobile-updated span{white-space:nowrap}
+ .mobile-updated .updated-stamp{font-weight:400;min-height:24px}
  .crumb-root,.crumb-country,.crumb-view,.crumb-sep{display:none}
  .top-actions .quiet-button span{display:none}
  main{padding:18px 16px}

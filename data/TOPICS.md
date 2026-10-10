@@ -22,7 +22,10 @@ The build validates every reference and emits resolved groups in `data.json`.
    surfaces exact titles, document numbers, named corrections, commencement
    series and case numbers as candidates. It does not establish semantic identity.
 2. Add documents to an existing matter where a shared concrete change is
-   established. Otherwise create a reviewed group once two related current
+   established. If an explanation's own identifier is not the identity of any
+   record (for example it is keyed by a regulation's name while the record is
+   the cabinet notice), link it with `explanations: [policyId]`; such a matter
+   may then contain a single record. Do not change the explanation's identity. Otherwise create a reviewed group once two related current
    records exist. Record the reason and accurate titles in both languages.
    Preserve source-derived evidence for the relationship; do not infer a legal
    effect or commencement date from grouping.
@@ -85,10 +88,40 @@ and current builds at or after that timestamp must resolve every reference;
 the anchor is not a policy/source verification timestamp.
 
 When adding groups later, keep the registry anchor unchanged and set
-`appliesFromExport` on each new group to its first export. This preserves prior
+`appliesFromExport` on each new group to its first export. A document added to
+an existing group later gets its own `appliesFromExport` in the same way, and
+so does an explanation link added to an existing group
+(`{"id": policyId, "appliesFromExport": ...}`). This preserves prior
 groups in historical builds while requiring all references once the new group
 applies. Resolve the registry, including these dates, before displaying groups.
 
 Closed proposals without an effective date must not use detail labels suggesting
 that commencement is awaited or that proposed changes became operative. Retain
 any recorded effective date for other kinds of closed matters.
+
+## Records that need no explanation
+
+Some official records are not policy matters a reader needs explained: daily
+exchange rates, corrigenda that leave the text unchanged, individual merger
+notifications or State-aid authorisations, plant-variety catalogues, question
+times, commemorations, appointments and similar items. Record such a reviewed
+decision in `data/dispositions.json` instead of writing a placeholder explanation.
+
+- Each entry has a stable ID, a short Chinese/English `reason` the reader sees,
+  an English `basis` and explicit references resolved like topic documents
+  (region plus official ID, or region, exact URL **and original title**). Set
+  `appliesFromExport` on each new entry to its first export; keep the registry
+  anchor unchanged.
+- Decide per record from its own title and content, not from its source channel
+  or a keyword. A parliamentary report on a bill, a ministry statement announcing
+  a change, a sanctions listing or an act that changes rights, obligations,
+  charges or benefits is a policy matter: explain it or group it with the matter
+  it belongs to. When unsure, leave it awaiting explanation.
+- The build rejects missing references, records with two decisions, records
+  already explained, part of a topic group (a group can only be dismissed as a
+  whole, and only if no explanation covers it) and cross-country entries. A
+  dismissed record keeps its original stage, date and source and stays in the
+  official-progress view; it only leaves the awaiting-explanation list and its
+  count, and appears in a separate collapsed "reviewed, no explanation needed"
+  list with its reason. If a record later turns out to matter, remove its entry
+  and explain it.

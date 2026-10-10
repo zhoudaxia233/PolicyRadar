@@ -44,7 +44,9 @@ test('PRIMA is one matter containing three distinct originals, with facts intact
 test('every grouped or independent record remains reachable exactly once',()=>{
  const grouped=groupRecords(data.intake.records,topics).flatMap(g=>g.records.map(r=>r.id));
  assert.deepEqual([...grouped].sort(),data.intake.records.map(r=>r.id).sort());
- for(const t of topics){assert(t.recordIds.length>=2);assert(t.title.every(s=>s.trim()));}
+ // A single-record matter is allowed only when it is explicitly linked to its explanation.
+ const linked=new Set(definitions.filter(d=>d.explanations).map(d=>d.id));
+ for(const t of topics){assert(t.recordIds.length>=2||(linked.has(t.id)&&t.policyIds.length>0),t.id);assert(t.title.every(s=>s.trim()));}
 });
 
 test('same gazette URLs, generic corrigenda, different cases and territories stay independent',()=>{
@@ -176,4 +178,38 @@ test('rejected Green crypto bill remains reachable in all-policy searches',()=>{
  }
  const adopted=select({...base,country:'DE',view:'adopted',query:'21/5752'});
  assert(!adopted.cards.some(c=>c.policy.id===green.id||c.group?.policyIds.includes(green.id)));
+});
+
+test('an explicit explanation link attaches an explanation whose identifier is not a record identity',()=>{
+ // The 2027 social-insurance explanation is keyed by the regulation's name; the cabinet notice has only a URL.
+ const records=data.intake.records.filter(r=>r.id==='kab61-ea9de67f46');
+ const policy=data.policies.find(p=>p.id==='de-social-insurance-ceilings-2027')!;
+ assert.equal(records.length,1);
+ const one:TopicDefinition={id:'t',title:['甲','A'],basis:'Reviewed.',documents:[{region:'DE',url:records[0].url,title:records[0].title}]};
+ assert.throws(()=>resolveTopics([one],records,data.policies),/at least two/);
+ const [linked]=resolveTopics([{...one,explanations:[policy.id]}],records,data.policies);
+ assert.deepEqual(linked.policyIds,[policy.id]);
+ assert.throws(()=>resolveTopics([{...one,explanations:['missing-policy']}],records,data.policies),/Unresolved topic explanation/);
+ const foreign=data.policies.find(p=>p.region==='FR')!;
+ assert.throws(()=>resolveTopics([{...one,explanations:[foreign.id]}],records,data.policies),/Cross-country/);
+ const result=selectListing(data.policies,records,{...readFilters('?country=DE&view=all')},undefined,'2026-10-10',[linked]);
+ assert(!result.raw.some(r=>r.id===records[0].id));
+});
+
+test('a document added to an older group later does not break builds of earlier snapshots',()=>{
+ const prior=createStaticData(read('data/exports/2026-10-08-bmf-timeline-213634/policy-radar-export.json'));
+ const registry=read('data/topics.json');
+ const later='2026-10-10T12:00:00.000Z';
+ const extended={...registry,topics:registry.topics.map((t:TopicDefinition)=>t.id==='de-crypto-information-exchange'?{...t,documents:[...t.documents,{region:'DE',officialId:'BGBl. 2099 II Nr. 1',appliesFromExport:later}]}:t)};
+ assert.deepEqual(resolveTopicRegistry(extended,prior),resolveTopicRegistry(registry,prior));
+ assert.throws(()=>resolveTopicRegistry(extended,{...prior,exportedAt:later}),/Unresolved topic document/);
+});
+
+test('an explanation linked to an older group later does not break builds of earlier snapshots',()=>{
+ const prior=createStaticData(read('data/exports/2026-10-08-bmf-timeline-213634/policy-radar-export.json'));
+ const registry=read('data/topics.json');
+ const later='2026-10-10T12:00:00.000Z';
+ const extended={...registry,topics:registry.topics.map((t:TopicDefinition)=>t.id==='de-crypto-information-exchange'?{...t,explanations:[{id:'not-yet-written',appliesFromExport:later}]}:t)};
+ assert.deepEqual(resolveTopicRegistry(extended,prior),resolveTopicRegistry(registry,prior));
+ assert.throws(()=>resolveTopicRegistry(extended,{...prior,exportedAt:later}),/Unresolved topic explanation/);
 });

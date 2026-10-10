@@ -4,7 +4,8 @@ import { useCallback, useDeferredValue, useEffect, useMemo, useState, useRef, ty
 import { Radar, LayoutDashboard, Clock3, Activity, Database, Search, ChevronRight, ChevronDown, ExternalLink, Download, RefreshCw, MapPin, CalendarDays, FileText, X, ShieldCheck, AlertCircle, Layers, Sun, Moon, Monitor } from 'lucide-react';
 import { regions, countries, detailLabels, countryOf, keyDate, progressDate, berlinToday, isUpcoming, policyTags, lifecycle, nextStepLabel, type Policy } from '../lib/domain/model';
 import { trackingStart, type IntakeRecord, type coverageRows } from '../lib/domain/intake';
-import {type Topic, type RecordGroup} from '../lib/domain/topics';
+import {type Topic, type RecordGroup, groupRecords} from '../lib/domain/topics';
+import {type Disposition} from '../lib/domain/dispositions';
 import { IntakeView, TopicDocuments } from './intake-view';
 import { LanguageSwitch } from './language-switch';
 import { CompactSelect } from './compact-select';
@@ -70,9 +71,10 @@ export default function Home() {
     sources: [tr("来源与更新"), tr("查看覆盖范围、原文检查结果和事实核实记录。")]
   };
 
-  const [topics,setTopics]=useState<Topic[]>([]);
+  const [topics,setTopics]=useState<Topic[]>([]),[dispositions,setDispositions]=useState<Disposition[]>([]);
+  const dismissals=useMemo(()=>new Map(dispositions.flatMap(d=>d.recordIds.map(id=>[id,d.reason] as const))),[dispositions]);
   const [canonicalItems, setItems] = useState<Policy[]>([]), [status, setStatus] = useState<Status>({ checks: [], settings: {}, coverage: [], discovery: [] }), [loading, setLoading] = useState(true), [error, setError] = useState('');
-  const [view, setView] = useState('adopted'), [region, setRegion] = useState('all'), [query, setQuery] = useState(''), [selectedId, setSelectedId] = useState<string | null>(null), [busy, setBusy] = useState(false), [rawOpen, setRawOpen] = useState(false);
+  const [view, setView] = useState('adopted'), [region, setRegion] = useState('all'), [query, setQuery] = useState(''), [selectedId, setSelectedId] = useState<string | null>(null), [busy, setBusy] = useState(false), [rawOpen, setRawOpen] = useState(false), [reviewedOpen, setReviewedOpen] = useState(false);
   const [canonicalIntake, setIntake] = useState<IntakeData>({ trackingStart, records: [], coverage: [] }), [tags, setTags] = useState<string[]>([]), [filtersReady, setFiltersReady] = useState(false);
   const [country, setCountry] = useState<string>(countries[0].id), [theme, setTheme] = useState<Theme>('system');
   const items = useMemo(() => canonicalItems.map(p => localizePolicy(p, locale, localization)), [canonicalItems, locale, localization]);
@@ -135,9 +137,10 @@ export default function Home() {
     try {
       const response = await fetch('./data.json', { cache: 'no-cache' });
       if (!response.ok) throw Error('data-unavailable');
-      const data = await response.json() as { policies: Policy[]; status: Status; intake: IntakeData; localization: Localization;topics?:Topic[] };
+      const data = await response.json() as { policies: Policy[]; status: Status; intake: IntakeData; localization: Localization;topics?:Topic[];dispositions?:Disposition[] };
       setLocalization(data.localization ?? emptyLocalization);
       setTopics(data.topics ?? []);
+      setDispositions(data.dispositions ?? []);
       setItems(data.policies);
       loadedPolicies.current = data.policies;
       restoreNavigation();
@@ -219,16 +222,17 @@ export default function Home() {
   // Typing stays responsive: results and counts follow the query once React has time to recompute them.
   const listedQuery = useDeferredValue(query);
   const filters = useMemo(() => ({ view, country, region, query: listedQuery, tags }), [view, country, region, listedQuery, tags]);
-  const listing = useMemo(() => selectListing(items, intake.records, filters, matchText, today, topics), [items, intake.records, filters, matchText, today, topics]);
+  const listing = useMemo(() => selectListing(items, intake.records, filters, matchText, today, topics, dispositions), [items, intake.records, filters, matchText, today, topics, dispositions]);
+  const reviewedGroups = useMemo(() => groupRecords(listing.reviewed, []), [listing.reviewed]);
   const { policies: visible, raw: visibleRaw, progress: newRecords } = listing;
   const tagOptions = [...new Set([...scoped.flatMap(policyTags), ...records.flatMap(policyTags), ...tags])].sort((a, b) => ct(a).localeCompare(ct(b), languageTags[locale]));
   // Each count is computed once per filter change; the sidebar and region menu share the same result.
-  const viewCounts = useMemo(() => new Map(['intake', 'adopted', 'pending', 'all'].map(target => [target, selectListing(items, intake.records, { ...filters, view: target }, matchText, today, topics).count])), [items, intake.records, filters, matchText, today, topics]);
+  const viewCounts = useMemo(() => new Map(['intake', 'adopted', 'pending', 'all'].map(target => [target, selectListing(items, intake.records, { ...filters, view: target }, matchText, today, topics, dispositions).count])), [items, intake.records, filters, matchText, today, topics, dispositions]);
   const viewCount = (target: string) => viewCounts.get(target);
   const upcoming = scoped.filter(p => p.nextDate && p.nextDate >= today).sort((a, b) => a.nextDate!.localeCompare(b.nextDate!));
-  const regionCounts = useMemo(() => new Map(['all', ...regions.filter(r => countryOf(r.id) === filters.country).map(r => r.id)].map(id => [id, selectListing(items, intake.records, { ...filters, region: id, view: filters.view === 'sources' ? 'all' : filters.view }, matchText, today, topics).count])), [items, intake.records, filters, matchText, today, topics]);
+  const regionCounts = useMemo(() => new Map(['all', ...regions.filter(r => countryOf(r.id) === filters.country).map(r => r.id)].map(id => [id, selectListing(items, intake.records, { ...filters, region: id, view: filters.view === 'sources' ? 'all' : filters.view }, matchText, today, topics, dispositions).count])), [items, intake.records, filters, matchText, today, topics, dispositions]);
   const regionCount = (id: string) => regionCounts.get(id) ?? 0;
-  const sourceCounts = useMemo(() => new Map(['all', ...regions.filter(r => countryOf(r.id) === country).map(r => r.id)].map(id => [id, selectListing(items, intake.records, { view: 'all', country, region: id, query: '', tags: [] }, undefined, today, topics).count])), [items, intake.records, country, today, topics]);
+  const sourceCounts = useMemo(() => new Map(['all', ...regions.filter(r => countryOf(r.id) === country).map(r => r.id)].map(id => [id, selectListing(items, intake.records, { view: 'all', country, region: id, query: '', tags: [] }, undefined, today, topics, dispositions).count])), [items, intake.records, country, today, topics, dispositions]);
   const sourceCount = (id: string) => sourceCounts.get(id) ?? 0;
   const pickRegion = (id: string) => {
     setRegion(id);
@@ -774,7 +778,7 @@ export default function Home() {
                         listing.count,
                         listing.explainedCount,
                         visibleRaw.length ? tr(" · {0} 个待解读事项（{1} 条记录）", [listing.rawGroups.length,visibleRaw.length]) : ''
-                      ])}
+                      ]) + (listing.reviewed.length ? tr(" · {0} 条记录已审阅、无需解读", [listing.reviewed.length]) : '')}
               </span>
               {filtering && <button onClick={clearFilters}>
                 {tr("清除筛选")}
@@ -788,6 +792,7 @@ export default function Home() {
             </div>
 
             {view === 'intake' ? <IntakeView
+              dismissals={dismissals}
               groups={listing.progressGroups}
               policies={items}
               open={open}
@@ -835,6 +840,18 @@ export default function Home() {
                   <ChevronDown size={16} className={rawOpen ? 'flip' : ''} />
                 </button>
                 {rawOpen && <IntakeView groups={listing.rawGroups} policies={items} open={open} locale={locale} localization={localization} />}
+              </div>}
+              {listing.reviewed.length > 0 && <div className="raw-group">
+                <button
+                  className="raw-toggle"
+                  aria-expanded={reviewedOpen}
+                  onClick={() => setReviewedOpen(!reviewedOpen)}>
+                  <span>
+                    {tr('已审阅、无需解读 · {0} 条记录（点击展开）', [listing.reviewed.length])}
+                  </span>
+                  <ChevronDown size={16} className={reviewedOpen ? 'flip' : ''} />
+                </button>
+                {reviewedOpen && <IntakeView groups={reviewedGroups} policies={items} open={open} locale={locale} localization={localization} dismissals={dismissals} />}
               </div>}
               {([[tr("即将发生"), listing.cards.filter(c => isUpcoming(c.policy, today)), 'future'], [tr("已经发生"), listing.cards.filter(c => !isUpcoming(c.policy, today)), '']] as const).filter(([, group]) => group.length > 0).map(([label, group, groupClass]) => <section key={label}>
                 <h3 className={'feed-month list-group ' + groupClass}>

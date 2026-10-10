@@ -1,3 +1,4 @@
+import {z} from 'zod';
 import {exportRegistry} from './export-registry.ts';
 import {migrateExportRegions} from './export-regions.ts';
 import {isDeepStrictEqual as equal} from 'node:util';
@@ -80,6 +81,8 @@ export function validateSelection(previous:unknown,candidate:unknown,now=new Dat
  const prior=index((previous as Export).tables.policies,r=>r.id);
  const oldSettings=index((previous as Export).tables.settings,r=>r.key);
  for(const row of next.tables.settings)if(['lastReviewAt','reviewNote'].includes(String(row.key))&&!equal(oldSettings.get(row.key),row))throw Error('Use country-specific review settings');
+ // A country's update stamp records when the review ran, not just the day; readers see it as a time.
+ for(const row of next.tables.settings)if(/^lastReviewAt:[A-Z]{2}$/.test(String(row.key))&&!equal(oldSettings.get(row.key),row)&&!z.string().datetime().safeParse(row.value).success)throw Error('Review time must be a full ISO timestamp: '+row.key);
  for(const row of next.tables.policies){
   if(equal(prior.get(row.id),row))continue;
   const p=policySchema.parse(JSON.parse(row.data!));

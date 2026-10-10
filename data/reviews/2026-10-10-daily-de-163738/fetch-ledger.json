@@ -1,0 +1,4244 @@
+{
+  "fetches": [
+    {
+      "url": "https://www.bundesregierung.de/breg-de/suche/gesetzliche-neuregelungen-442800",
+      "checkedAt": "2026-10-10T16:31:03.763683+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundesregierung.de/breg-de/suche/gesetzliche-neuregelungen-442800",
+      "contentType": "text/html;charset=UTF-8",
+      "hash": "fe7f6a49c580d94d53b02c7746e1cef3f224d3c520b109d8ddd889afb7be0c25"
+    },
+    {
+      "url": "https://www.recht.bund.de/de/home/home_node.html",
+      "checkedAt": "2026-10-10T16:31:03.763928+00:00",
+      "status": 200,
+      "finalUrl": "https://www.recht.bund.de/de/home/home_node.html",
+      "contentType": "text/html;charset=utf-8",
+      "hash": "bcbac7bba3f02666c63e2c1ec9e9f857eac6be4f8429d5d49e8e936d68e1c717"
+    },
+    {
+      "url": "https://www.bundestag.de/dokumente/parlamentsdokumentation",
+      "checkedAt": "2026-10-10T16:31:03.764004+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/dokumente/parlamentsdokumentation",
+      "contentType": "text/html;charset=UTF-8",
+      "hash": "95ddcdfcfab6f53812a097b8f0d0291ceb82d671040b76e505fd920e9e576780"
+    },
+    {
+      "url": "https://www.bundestag.de/dokumente/textarchiv",
+      "checkedAt": "2026-10-10T16:31:03.764049+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/dokumente/textarchiv",
+      "contentType": "text/html;charset=UTF-8",
+      "hash": "1d12e1a84eee8ef2e83e9c91a6e108d557a99b39bfb30465a2d47ca6a46c03f5"
+    },
+    {
+      "url": "https://www.bundesregierung.de/breg-de/bundesregierung/kabinettsthemen",
+      "checkedAt": "2026-10-10T16:31:03.764088+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundesregierung.de/breg-de/bundesregierung/kabinettsthemen",
+      "contentType": "text/html;charset=UTF-8",
+      "hash": "4e4e505c521bf870e7d1b636a4da101bcfcabc8bcfd88618bd8c9aa062801119"
+    },
+    {
+      "url": "https://www.bundesrat.de/DE/plenum/plenum-node.html",
+      "checkedAt": "2026-10-10T16:31:03.764124+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundesrat.de/DE/plenum/plenum-node.html",
+      "contentType": "text/html;charset=utf-8",
+      "hash": "cb59d5ceeb69ebe8561bbbdc4f3b8bf3bcdcec9cc1aefc7afa98ce80e9b47e26"
+    },
+    {
+      "url": "https://www.bmas.de/DE/Service/Presse/Pressemitteilungen/pressemitteilungen.html",
+      "checkedAt": "2026-10-10T16:31:03.764162+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bmas.de/DE/Service/Presse/Pressemitteilungen/pressemitteilungen.html",
+      "contentType": "text/html;charset=utf-8",
+      "hash": "5050954f2909922997e7267a937eab98d0fc7195c3c41f917d0d3e9a9a1a2149"
+    },
+    {
+      "url": "https://www.bundesgesundheitsministerium.de/suche-pressemitteilungen",
+      "checkedAt": "2026-10-10T16:31:03.764195+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundesgesundheitsministerium.de/suche-pressemitteilungen",
+      "contentType": "text/html; charset=utf-8",
+      "hash": "0d53e56e461eb012f757adcea0ebe7965488ad53d743d02b068245f430719c57"
+    },
+    {
+      "url": "https://www.bundesfinanzministerium.de/Web/DE/Service/Gesetze_Gesetzesvorhaben/Gesetze_Gesetzgebungsvorhaben.html",
+      "checkedAt": "2026-10-10T16:31:03.930710+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundesfinanzministerium.de/Web/DE/Service/Gesetze_Gesetzesvorhaben/Gesetze_Gesetzgebungsvorhaben.html",
+      "contentType": "text/html;charset=utf-8",
+      "hash": "fa99211912c911db9bdb74e0f85f64f7afb8e6a48af05eddb85a9e1e1b981989"
+    },
+    {
+      "url": "https://www.bmas.de/DE/Service/Presse/Pressemitteilungen/2026/digitalisierung-der-arbeits-und-sozialverwaltung-roadmap-naechste-schritte.html",
+      "checkedAt": "2026-10-10T16:31:23.945467+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bmas.de/DE/Service/Presse/Pressemitteilungen/2026/digitalisierung-der-arbeits-und-sozialverwaltung-roadmap-naechste-schritte.html",
+      "contentType": "text/html;charset=utf-8",
+      "hash": "0bb047a49c7e113277bde6df8f235f5c7763704516e523c38e6c19b037589106"
+    },
+    {
+      "url": "https://www.bmas.de/DE/Service/Presse/Pressemitteilungen/2026/bundeskabinett-beschliesst-sozialversicherungsrechengroessen-2027.html",
+      "checkedAt": "2026-10-10T16:31:23.945727+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bmas.de/DE/Service/Presse/Pressemitteilungen/2026/bundeskabinett-beschliesst-sozialversicherungsrechengroessen-2027.html",
+      "contentType": "text/html;charset=utf-8",
+      "hash": "62c21e61e93ed0271e493829b2298ff87220f2022e559343d0034da04d71386e"
+    },
+    {
+      "url": "https://www.bundesgesundheitsministerium.de/presse/pressemitteilungen",
+      "checkedAt": "2026-10-10T16:31:23.945830+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundesgesundheitsministerium.de/presse/pressemitteilungen",
+      "contentType": "text/html; charset=utf-8",
+      "hash": "cf9e41417fdb30e5c85a7b9d2552078ceafd5159044468e97d20f979b164c925"
+    },
+    {
+      "url": "https://www.bundestag.de/ajax/filterlist/de/dokumente/textarchiv/454772-454772?limit=100&noFilterSet=true",
+      "checkedAt": "2026-10-10T16:31:23.945911+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/ajax/filterlist/de/dokumente/textarchiv/454772-454772?limit=100&noFilterSet=true",
+      "contentType": "text/html;charset=UTF-8",
+      "hash": "8918512fc6c082a4e18db5e69333a5942d91c2f5980fcc020e002de75de80bab"
+    },
+    {
+      "url": "https://www.bundesrat.de/DE/plenum/to-plenum/to-plenum-node.html",
+      "checkedAt": "2026-10-10T16:31:23.945971+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundesrat.de/DE/plenum/to-plenum/to-plenum-node.html",
+      "contentType": "text/html;charset=utf-8",
+      "hash": "bdd6088177794d2c24c00585516ccc9963abeb46b6f574b312f30b60c044560c"
+    },
+    {
+      "url": "https://www.bundesregierung.de/breg-de/bundesregierung/bundeskanzleramt/kabinettssitzungen/bundeskabinett-ergebnisse",
+      "checkedAt": "2026-10-10T16:31:23.946024+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundesregierung.de/breg-de/bundesregierung/bundeskanzleramt/kabinettssitzungen/bundeskabinett-ergebnisse",
+      "contentType": "text/html;charset=UTF-8",
+      "hash": "cb4d7c435edb86b49995d69260529b84966b5acdfa4e65c174df701e4e0ef719"
+    },
+    {
+      "url": "https://www.bundesregierung.de/breg-de/suche/gesetzliche-neuregelungen-oktober-2026-2454624",
+      "checkedAt": "2026-10-10T16:31:23.946074+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundesregierung.de/breg-de/suche/gesetzliche-neuregelungen-oktober-2026-2454624",
+      "contentType": "text/html;charset=UTF-8",
+      "hash": "0771f8d93b065a8c4aabf3bfe82fa2079ebe30390dbcdfc1e33832bb3731d1fe"
+    },
+    {
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-de-steuersystem-1217522",
+      "checkedAt": "2026-10-10T16:31:23.946120+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-de-steuersystem-1217522",
+      "contentType": "text/html;charset=UTF-8",
+      "hash": "504f3f21fc922d1abe85e28f851efe025ee8b3332a7775fc0ca85b323b45aa12"
+    },
+    {
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-de-kryptowerte-1217548",
+      "checkedAt": "2026-10-10T16:31:24.070548+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-de-kryptowerte-1217548",
+      "contentType": "text/html;charset=UTF-8",
+      "hash": "716b569c01fa52bf79f1919cdbdebedb42fcda4fd7bddb24ca3f6d1ff4428c3f"
+    },
+    {
+      "url": "https://www.bundesregierung.de/breg-de/bundesregierung/bundeskanzleramt/beitragsbemessungsgrenzen-2027-2454638",
+      "checkedAt": "2026-10-10T16:31:24.071301+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundesregierung.de/breg-de/bundesregierung/bundeskanzleramt/beitragsbemessungsgrenzen-2027-2454638",
+      "contentType": "text/html;charset=UTF-8",
+      "hash": "50fed702a81956fd1bc2068626b8207475e25b6e3123afd98e69ef127707cde5"
+    },
+    {
+      "url": "https://www.bundesregierung.de/breg-de/bundesregierung/bundeskanzleramt/modernisierunng-autobahn-gmbh-2456122",
+      "checkedAt": "2026-10-10T16:31:24.198505+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundesregierung.de/breg-de/bundesregierung/bundeskanzleramt/modernisierunng-autobahn-gmbh-2456122",
+      "contentType": "text/html;charset=UTF-8",
+      "hash": "1732f164b39a60e5a663f695b727bc986fbc02dad6608df9199d9822851a314b"
+    },
+    {
+      "url": "https://www.bundesregierung.de/breg-de/bundesregierung/bundeskanzleramt/kabinett-digitale-gewalt-2455990",
+      "checkedAt": "2026-10-10T16:31:24.236178+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundesregierung.de/breg-de/bundesregierung/bundeskanzleramt/kabinett-digitale-gewalt-2455990",
+      "contentType": "text/html;charset=UTF-8",
+      "hash": "9e86dd38b1a27d841432552093672cec9437e4e9a337e4a2b0034e28f409ccae"
+    },
+    {
+      "url": "https://www.bundesregierung.de/breg-de/bundesregierung/bundeskanzleramt/schutz-haeusliche-gewalt-2455828",
+      "checkedAt": "2026-10-10T16:31:24.280252+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundesregierung.de/breg-de/bundesregierung/bundeskanzleramt/schutz-haeusliche-gewalt-2455828",
+      "contentType": "text/html;charset=UTF-8",
+      "hash": "348864396281b24d95a79701251992bd22426f5190e872157ad81b03ac67d3ae"
+    },
+    {
+      "url": "https://dip.bundestag.de/",
+      "checkedAt": "2026-10-10T16:31:24.353826+00:00",
+      "status": 200,
+      "finalUrl": "https://dip.bundestag.de/",
+      "contentType": "text/html; charset=UTF-8",
+      "hash": "94e6be32ad062b22493292fb22febf612d2bafb9818107ed7e8a359ee6daa804"
+    },
+    {
+      "url": "https://www.recht.bund.de/SiteGlobals/Forms/Suche/Expertensuche_Formular.html?nn=196992&lastChangeVdAfter=2026-10-03&lastChangeVdBefore=2026-10-09&resultsPerPage=100",
+      "checkedAt": "2026-10-10T16:31:24.373940+00:00",
+      "status": 200,
+      "finalUrl": "https://www.recht.bund.de/SiteGlobals/Forms/Suche/Expertensuche_Formular.html?nn=196992&lastChangeVdAfter=2026-10-03&lastChangeVdBefore=2026-10-09&resultsPerPage=100",
+      "contentType": "text/html;charset=utf-8",
+      "hash": "3b139de694bf4a3c2fcef3c8723c207f47fcc8a020f921d82df118c5b7a49511"
+    },
+    {
+      "url": "https://www.recht.bund.de/bgbl/1/2026/289/VO.html",
+      "checkedAt": "2026-10-10T16:31:24.380472+00:00",
+      "status": 200,
+      "finalUrl": "https://www.recht.bund.de/bgbl/1/2026/289/VO.html",
+      "contentType": "text/html;charset=utf-8",
+      "hash": "f206bdfc45b6e8a09554ffb72bddea27d493b33f635a2e66db32ce3b3c84a266"
+    },
+    {
+      "url": "https://www.bundesregierung.de/breg-de/bundesregierung/kabinettsthemen/1569104-1569104",
+      "checkedAt": "2026-10-10T16:31:24.403179+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundesregierung.de/breg-de/bundesregierung/kabinettsthemen/1569104-1569104",
+      "contentType": "text/html;charset=UTF-8",
+      "hash": "8b5eaf9f7a76d70f9375a5d30ffc2e051e9f4c8b6891f7160d56e461ac572ef8"
+    },
+    {
+      "url": "https://www.bundesfinanzministerium.de/Content/DE/Gesetzestexte/Gesetze_Gesetzesvorhaben/Abteilungen/Abteilung_IV/21_Legislaturperiode/2026-09-30-Reform-Besteuerung-Kryptowerte-PV/0-Gesetz.html",
+      "checkedAt": "2026-10-10T16:31:24.407488+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundesfinanzministerium.de/Content/DE/Gesetzestexte/Gesetze_Gesetzesvorhaben/Abteilungen/Abteilung_IV/21_Legislaturperiode/2026-09-30-Reform-Besteuerung-Kryptowerte-PV/0-Gesetz.html",
+      "contentType": "text/html;charset=utf-8",
+      "hash": "7d48defd0404af3fb9aeef1ac1063f7aaece4c6542454570807e215e25302e21"
+    },
+    {
+      "url": "https://www.bundesrat.de/SharedDocs/TO/1069/tagesordnung-1069.html",
+      "checkedAt": "2026-10-10T16:31:24.426962+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundesrat.de/SharedDocs/TO/1069/tagesordnung-1069.html",
+      "contentType": "text/html;charset=utf-8",
+      "hash": "b6b38c85d1c32ddf7e0b840f8caa89dcf1bb926cd909cacea3f34b32ceec5f6e"
+    },
+    {
+      "url": "https://www.bundesfinanzministerium.de/Content/DE/Gesetzestexte/Gesetze_Gesetzesvorhaben/Abteilungen/Abteilung_IV/21_Legislaturperiode/2026-08-13-G-Reform-StBerPruefung/0-Gesetz.html",
+      "checkedAt": "2026-10-10T16:31:24.436151+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundesfinanzministerium.de/Content/DE/Gesetzestexte/Gesetze_Gesetzesvorhaben/Abteilungen/Abteilung_IV/21_Legislaturperiode/2026-08-13-G-Reform-StBerPruefung/0-Gesetz.html",
+      "contentType": "text/html;charset=utf-8",
+      "hash": "8f1e8292dd16ce3b59b59ac1368ed28f9ae666475b86e345165943aae7fc30e8"
+    },
+    {
+      "url": "https://www.bundestag.de/ajax/filterlist/de/dokumente/textarchiv/454772-454772?limit=20&noFilterSet=true&offset=20",
+      "checkedAt": "2026-10-10T16:31:24.477615+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/ajax/filterlist/de/dokumente/textarchiv/454772-454772?limit=20&noFilterSet=true&offset=20",
+      "contentType": "text/html;charset=UTF-8",
+      "hash": "2a0058861e7b3b04c0ef6610c5de2fb09d36b67748438db450cf0f327eaa2258"
+    },
+    {
+      "url": "https://www.bundestag.de/ajax/filterlist/de/dokumente/textarchiv/454772-454772?limit=20&noFilterSet=true&offset=40",
+      "checkedAt": "2026-10-10T16:31:24.524260+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/ajax/filterlist/de/dokumente/textarchiv/454772-454772?limit=20&noFilterSet=true&offset=40",
+      "contentType": "text/html;charset=UTF-8",
+      "hash": "320d863af1d0b517bce9c4ffc9e0f22e30fce751f4f81956f9bba7c93ac33102"
+    },
+    {
+      "url": "https://www.bundestag.de/ajax/filterlist/de/dokumente/textarchiv/454772-454772?limit=20&noFilterSet=true&offset=60",
+      "checkedAt": "2026-10-10T16:31:24.534372+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/ajax/filterlist/de/dokumente/textarchiv/454772-454772?limit=20&noFilterSet=true&offset=60",
+      "contentType": "text/html;charset=UTF-8",
+      "hash": "a40dba0c99ab67b9b0253a395b68c04e9e1933853cf2b5925c099591af9f5895"
+    },
+    {
+      "url": "https://www.bundestag.de/ajax/filterlist/de/dokumente/textarchiv/454772-454772?limit=20&noFilterSet=true&offset=80",
+      "checkedAt": "2026-10-10T16:31:24.556300+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/ajax/filterlist/de/dokumente/textarchiv/454772-454772?limit=20&noFilterSet=true&offset=80",
+      "contentType": "text/html;charset=UTF-8",
+      "hash": "ce2711efd80111d57a8f073be580e94b697020612ffa8a9116039e91ebed8a70"
+    },
+    {
+      "url": "https://www.bundestag.de/ajax/filterlist/de/dokumente/textarchiv/454772-454772?limit=20&noFilterSet=true&offset=100",
+      "checkedAt": "2026-10-10T16:31:24.595830+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/ajax/filterlist/de/dokumente/textarchiv/454772-454772?limit=20&noFilterSet=true&offset=100",
+      "contentType": "text/html;charset=UTF-8",
+      "hash": "3a0c125bbf95b10634d22a1ef728173b7a44673a77a9848ac663e5bc73dc6212"
+    },
+    {
+      "url": "https://www.bundestag.de/ajax/filterlist/de/dokumente/textarchiv/454772-454772?limit=20&noFilterSet=true&offset=120",
+      "checkedAt": "2026-10-10T16:31:24.596046+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/ajax/filterlist/de/dokumente/textarchiv/454772-454772?limit=20&noFilterSet=true&offset=120",
+      "contentType": "text/html;charset=UTF-8",
+      "hash": "6f793acb470f7d71d99e7a1659b569d0415b674e2628e684f46153206ff4974d"
+    },
+    {
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw42-de-regierungserklaerung-1223644",
+      "checkedAt": "2026-10-10T16:32:23.578550+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/dokumente/textarchiv/2026/kw42-de-regierungserklaerung-1223644",
+      "contentType": "text/html;charset=UTF-8",
+      "hash": "07e46cd0a07949872c7d258352ccfd3de0a6a605a1e6fb5d0c5d617b61f2bc8b"
+    },
+    {
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw42-de-regierungsbefragung-1154744",
+      "checkedAt": "2026-10-10T16:32:23.578799+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/dokumente/textarchiv/2026/kw42-de-regierungsbefragung-1154744",
+      "contentType": "text/html;charset=UTF-8",
+      "hash": "aaf9e7f63179289c44e110dc9fc6da159ceb113c4a8f4141b316fdfef3afbc52"
+    },
+    {
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw42-de-fragestunde-1154764",
+      "checkedAt": "2026-10-10T16:32:23.578883+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/dokumente/textarchiv/2026/kw42-de-fragestunde-1154764",
+      "contentType": "text/html;charset=UTF-8",
+      "hash": "33bdd0a6d0fdd6cd1df0d055b14dc3b22d571d73eee19d81eb3b7d7f9ca2cbf2"
+    },
+    {
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw42-de-aufstiegsfortbildung-1223570",
+      "checkedAt": "2026-10-10T16:32:23.578931+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/dokumente/textarchiv/2026/kw42-de-aufstiegsfortbildung-1223570",
+      "contentType": "text/html;charset=UTF-8",
+      "hash": "066dbb54c66a0a61411d9e6c984e4afe05c5acccdee865718da8ef16f1d354ad"
+    },
+    {
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw42-de-staatsgold-1223572",
+      "checkedAt": "2026-10-10T16:32:23.578972+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/dokumente/textarchiv/2026/kw42-de-staatsgold-1223572",
+      "contentType": "text/html;charset=UTF-8",
+      "hash": "8a985a7ab3ff55398dedfa4bb810bed05c1a9eea0a20d6d8cf9e7a492b90c9cc"
+    },
+    {
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw42-de-genossenschaften-1223574",
+      "checkedAt": "2026-10-10T16:32:23.579010+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/dokumente/textarchiv/2026/kw42-de-genossenschaften-1223574",
+      "contentType": "text/html;charset=UTF-8",
+      "hash": "3b07992e31114de884432df4ec1d3cde08500bfd4c3b6b9bc0a7fe2ed8eddae5"
+    },
+    {
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw42-de-ovaherero-nama-1223576",
+      "checkedAt": "2026-10-10T16:32:23.579048+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/dokumente/textarchiv/2026/kw42-de-ovaherero-nama-1223576",
+      "contentType": "text/html;charset=UTF-8",
+      "hash": "146c5b9dec73d07d412fe9fe57927e239e421843b2fd2698c43b45346a09d476"
+    },
+    {
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw42-de-notfallversorgung-1223578",
+      "checkedAt": "2026-10-10T16:32:23.579080+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/dokumente/textarchiv/2026/kw42-de-notfallversorgung-1223578",
+      "contentType": "text/html;charset=UTF-8",
+      "hash": "967deae1393a21c4ed1e0156713cd43a8382a09e02e3ceb3cbbe9dab1ebb5d51"
+    },
+    {
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw42-de-migrationsbilanz-1223580",
+      "checkedAt": "2026-10-10T16:32:23.736652+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/dokumente/textarchiv/2026/kw42-de-migrationsbilanz-1223580",
+      "contentType": "text/html;charset=UTF-8",
+      "hash": "108297239740b1725c715d636b4efca652871006381ed03cff9734909349e47d"
+    },
+    {
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw42-de-bafoeg-1223582",
+      "checkedAt": "2026-10-10T16:32:23.736792+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/dokumente/textarchiv/2026/kw42-de-bafoeg-1223582",
+      "contentType": "text/html;charset=UTF-8",
+      "hash": "3a2228c81872489a6fbb92ff340b244b0d4433e3868129847a209e238ac67785"
+    },
+    {
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw42-de-familien-1223584",
+      "checkedAt": "2026-10-10T16:32:23.739572+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/dokumente/textarchiv/2026/kw42-de-familien-1223584",
+      "contentType": "text/html;charset=UTF-8",
+      "hash": "4a06221fe91f718b07535b9a1fdd33bedbeaf664c5cf9f53d09045707b457f9a"
+    },
+    {
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw42-de-ueberweisungen-1154766",
+      "checkedAt": "2026-10-10T16:32:23.862653+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/dokumente/textarchiv/2026/kw42-de-ueberweisungen-1154766",
+      "contentType": "text/html;charset=UTF-8",
+      "hash": "97bc08c73280e597fabc7eb447cb1ed64fd5d0b7927e3f7aadc72551503faa36"
+    },
+    {
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw42-de-abschliessende-beratungen-1154762",
+      "checkedAt": "2026-10-10T16:32:23.864312+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/dokumente/textarchiv/2026/kw42-de-abschliessende-beratungen-1154762",
+      "contentType": "text/html;charset=UTF-8",
+      "hash": "9740cdccbe1d39009e6be1526f03713f0173e4d2096df10d0e7bac528c93d503"
+    },
+    {
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw42-de-digitale-identitaeten-gesetz-1223586",
+      "checkedAt": "2026-10-10T16:32:23.870933+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/dokumente/textarchiv/2026/kw42-de-digitale-identitaeten-gesetz-1223586",
+      "contentType": "text/html;charset=UTF-8",
+      "hash": "97c86dbc983020d58bbfd2b9e01fba295279a09fed7186f1c46555405826d6c3"
+    },
+    {
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw42-de-erdgas-1223588",
+      "checkedAt": "2026-10-10T16:32:23.891019+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/dokumente/textarchiv/2026/kw42-de-erdgas-1223588",
+      "contentType": "text/html;charset=UTF-8",
+      "hash": "458ff346a2c21d6d0a8c2014fe97a54e5a2eb165b6af052fe39cf12d5d18f447"
+    },
+    {
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw42-de-bundeswehr-eunavfor-aspides-1223590",
+      "checkedAt": "2026-10-10T16:32:23.898295+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/dokumente/textarchiv/2026/kw42-de-bundeswehr-eunavfor-aspides-1223590",
+      "contentType": "text/html;charset=UTF-8",
+      "hash": "1571309f72ca7bf9ece1b1c00d3360e400a1781c96c45f60be0226d5d8f44755"
+    },
+    {
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw42-de-bundeswehr-unmiss-1223592",
+      "checkedAt": "2026-10-10T16:32:24.022477+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/dokumente/textarchiv/2026/kw42-de-bundeswehr-unmiss-1223592",
+      "contentType": "text/html;charset=UTF-8",
+      "hash": "0091ba30bba28323fcdf6c636c5db331101027e6be6a6014fe02615e4cc295b2"
+    },
+    {
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw42-de-pflege-1223594",
+      "checkedAt": "2026-10-10T16:32:24.031093+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/dokumente/textarchiv/2026/kw42-de-pflege-1223594",
+      "contentType": "text/html;charset=UTF-8",
+      "hash": "72c0e90ad8ede41b4349184812f4fd0e7e9612f51945b0827c3a0f0335fb36aa"
+    },
+    {
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw42-de-reservestaerkungsgesetz-1223596",
+      "checkedAt": "2026-10-10T16:32:24.059811+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/dokumente/textarchiv/2026/kw42-de-reservestaerkungsgesetz-1223596",
+      "contentType": "text/html;charset=UTF-8",
+      "hash": "6934cafacf09ac703beee4c580588edd0d212c506ca64b4582b909f3f4cbec2e"
+    },
+    {
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw42-de-handelsschutz-1223598",
+      "checkedAt": "2026-10-10T16:32:24.220719+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/dokumente/textarchiv/2026/kw42-de-handelsschutz-1223598",
+      "contentType": "text/html;charset=UTF-8",
+      "hash": "fb1fce462ff2b47c689333a6ab5f41ed8eb25fa2572ac120b94b16166b9ceb0c"
+    },
+    {
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw42-de-ukraine-1223600",
+      "checkedAt": "2026-10-10T16:32:24.226387+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/dokumente/textarchiv/2026/kw42-de-ukraine-1223600",
+      "contentType": "text/html;charset=UTF-8",
+      "hash": "0ca5e422b9d22a96ffa4041780f1131ccaf5f05644148f4d54e189fa370c38ca"
+    },
+    {
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw42-de-verlagspreis-1223602",
+      "checkedAt": "2026-10-10T16:32:24.227800+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/dokumente/textarchiv/2026/kw42-de-verlagspreis-1223602",
+      "contentType": "text/html;charset=UTF-8",
+      "hash": "a69e8742d638fcc825eb30ce4aae4116efad4d67873dc4c19ca45f3d66c13d8f"
+    },
+    {
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw42-de-flugkraftstoffe-1223604",
+      "checkedAt": "2026-10-10T16:32:24.252340+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/dokumente/textarchiv/2026/kw42-de-flugkraftstoffe-1223604",
+      "contentType": "text/html;charset=UTF-8",
+      "hash": "dd6edd4795c146c3876b5305133efeba8d1c931bd0c18e41af0ebd3d2cce57bd"
+    },
+    {
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw42-de-gap-1223606",
+      "checkedAt": "2026-10-10T16:32:24.264297+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/dokumente/textarchiv/2026/kw42-de-gap-1223606",
+      "contentType": "text/html;charset=UTF-8",
+      "hash": "2ae3ac69410966b04dbf15c2f23c4c67d910a2d1e75136a836d0dd7730ba4afe"
+    },
+    {
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw42-de-brennstoffemissionshandelsgesetz-1223608",
+      "checkedAt": "2026-10-10T16:32:24.481051+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/dokumente/textarchiv/2026/kw42-de-brennstoffemissionshandelsgesetz-1223608",
+      "contentType": "text/html;charset=UTF-8",
+      "hash": "8b9f63517df81a8a1c3b11c46463fba1f7a06a1a915e24b61308ff5f624a3251"
+    },
+    {
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw42-de-menschenrechtspolitik-1223610",
+      "checkedAt": "2026-10-10T16:32:24.495813+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/dokumente/textarchiv/2026/kw42-de-menschenrechtspolitik-1223610",
+      "contentType": "text/html;charset=UTF-8",
+      "hash": "4e6172cd9eea43855d10e0818ca16951e068d1f6e683ab56c32f91f850780a7e"
+    },
+    {
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw42-de-buerokratierueckbau-agrar-1223612",
+      "checkedAt": "2026-10-10T16:32:24.585772+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/dokumente/textarchiv/2026/kw42-de-buerokratierueckbau-agrar-1223612",
+      "contentType": "text/html;charset=UTF-8",
+      "hash": "7ba5c4fc60f25ad0a4b4c9e3fe3b3ca4c133070bd669b7c5fd256a6c1f0ec7fc"
+    },
+    {
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw42-de-bundeswehr-infrastruktur-1223614",
+      "checkedAt": "2026-10-10T16:32:24.681101+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/dokumente/textarchiv/2026/kw42-de-bundeswehr-infrastruktur-1223614",
+      "contentType": "text/html;charset=UTF-8",
+      "hash": "cdd957e9aae1db0ffe91875f7d1c2f7733d40b34c80d48d7daaa5569359e7181"
+    },
+    {
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw42-de-bundesopferbeauftragtengesetz-1223618",
+      "checkedAt": "2026-10-10T16:32:24.720791+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/dokumente/textarchiv/2026/kw42-de-bundesopferbeauftragtengesetz-1223618",
+      "contentType": "text/html;charset=UTF-8",
+      "hash": "5956a8e3d8dfff4718373d99027ec5bf5e8ebf5fd6732fbe94ac2bb9ecf49d25"
+    },
+    {
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw42-de-strahlenschutzrecht-1223620",
+      "checkedAt": "2026-10-10T16:32:24.836957+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/dokumente/textarchiv/2026/kw42-de-strahlenschutzrecht-1223620",
+      "contentType": "text/html;charset=UTF-8",
+      "hash": "4cf3af66fe9447d4bdc488f62bbd2359d9b03f22a9a2d993a8413a41e868912b"
+    },
+    {
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw42-de-stiftung-flucht-1223616",
+      "checkedAt": "2026-10-10T16:32:24.896216+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/dokumente/textarchiv/2026/kw42-de-stiftung-flucht-1223616",
+      "contentType": "text/html;charset=UTF-8",
+      "hash": "ba837b4110fd629ba908ecdc68cb7f2856bf2bbc87b59f8e43f0a3e8e1e48ffd"
+    },
+    {
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw42-de-fruehstartrente-1223624",
+      "checkedAt": "2026-10-10T16:32:24.907031+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/dokumente/textarchiv/2026/kw42-de-fruehstartrente-1223624",
+      "contentType": "text/html;charset=UTF-8",
+      "hash": "0d6f473795d4f92670537826e8070f91623978ba03db293e30332eac1e7a720a"
+    },
+    {
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw42-de-pflegeversicherung-1223626",
+      "checkedAt": "2026-10-10T16:32:24.961869+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/dokumente/textarchiv/2026/kw42-de-pflegeversicherung-1223626",
+      "contentType": "text/html;charset=UTF-8",
+      "hash": "cad92ad5f09dfd326a756a012f1c79e5574191ac6511d813f1952b9cf1a2a864"
+    },
+    {
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw42-de-buerokratierueckbau-verkehr-1223628",
+      "checkedAt": "2026-10-10T16:32:24.995545+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/dokumente/textarchiv/2026/kw42-de-buerokratierueckbau-verkehr-1223628",
+      "contentType": "text/html;charset=UTF-8",
+      "hash": "10e733bd8be3d8c3564ba4412d378b8ef73d5e8fc4ec256c2c0c86b0044ecde4"
+    },
+    {
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw42-de-biodiversitaet-1223632",
+      "checkedAt": "2026-10-10T16:32:25.073483+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/dokumente/textarchiv/2026/kw42-de-biodiversitaet-1223632",
+      "contentType": "text/html;charset=UTF-8",
+      "hash": "5d5bd4ab587a84a90b0ff59b539202f3b17b70a8a80eb568ad55004ca1008a43"
+    },
+    {
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw42-de-schiedsverfahrensrecht-1223634",
+      "checkedAt": "2026-10-10T16:32:25.081020+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/dokumente/textarchiv/2026/kw42-de-schiedsverfahrensrecht-1223634",
+      "contentType": "text/html;charset=UTF-8",
+      "hash": "8c3f3a97d65e77cc5a7c42c0bd00cf7ea4b7b660194540d162887a86f13dd75b"
+    },
+    {
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw42-de-technologieoffenheit-1223636",
+      "checkedAt": "2026-10-10T16:32:25.127142+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/dokumente/textarchiv/2026/kw42-de-technologieoffenheit-1223636",
+      "contentType": "text/html;charset=UTF-8",
+      "hash": "a77d27e6590c62e803d199fc9e25043c094d28824043e4aa634284237a5412b6"
+    },
+    {
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-de-aktuelle-stunde-sachsen-anhalt-1223410",
+      "checkedAt": "2026-10-10T16:32:25.129507+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-de-aktuelle-stunde-sachsen-anhalt-1223410",
+      "contentType": "text/html;charset=UTF-8",
+      "hash": "7b1c22543337cf904c2fa79e014428cb876dc5c002426afd63817cd7d9858881"
+    },
+    {
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-de-babyn-jar-1222766",
+      "checkedAt": "2026-10-10T16:32:25.248893+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-de-babyn-jar-1222766",
+      "contentType": "text/html;charset=UTF-8",
+      "hash": "b5550b6c8b77b0d7beccf578f503ce641de79c6d18334ce66e939d062e24e01c"
+    },
+    {
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-de-tuerkei-1217576",
+      "checkedAt": "2026-10-10T16:32:25.279008+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-de-tuerkei-1217576",
+      "contentType": "text/html;charset=UTF-8",
+      "hash": "f616e1a8fd36eba0217475763090d04eba0faa7805fd3a8d6bedef2a8c4a46bf"
+    },
+    {
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-de-finanzkriminalitaet-1217574",
+      "checkedAt": "2026-10-10T16:32:25.281053+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-de-finanzkriminalitaet-1217574",
+      "contentType": "text/html;charset=UTF-8",
+      "hash": "eeb98716006d20a8813577cb010c588d89044af5d3fc411469b1a25e26ab2058"
+    },
+    {
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-de-buerokratierueckbau-1217570",
+      "checkedAt": "2026-10-10T16:32:25.301766+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-de-buerokratierueckbau-1217570",
+      "contentType": "text/html;charset=UTF-8",
+      "hash": "dee824384b1526c501dda3b0d187fc0f452c4e6b8ed152e8e07d8aade4620a14"
+    },
+    {
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-de-regelaltersgrenze-1217530",
+      "checkedAt": "2026-10-10T16:32:25.331636+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-de-regelaltersgrenze-1217530",
+      "contentType": "text/html;charset=UTF-8",
+      "hash": "d99c78ccacafc37297b61af6987b6adcf65577939f476839de4f3527244fb36e"
+    },
+    {
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-de-startchancengesetz-1217528",
+      "checkedAt": "2026-10-10T16:32:25.339995+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-de-startchancengesetz-1217528",
+      "contentType": "text/html;charset=UTF-8",
+      "hash": "5b5cf89dd0bf081edde882a7b1bfd8289b457a2f7f28e7b89d548942d9caef7b"
+    },
+    {
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-de-migrationswende-1222454",
+      "checkedAt": "2026-10-10T16:32:25.397472+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-de-migrationswende-1222454",
+      "contentType": "text/html;charset=UTF-8",
+      "hash": "b25ba1a9a6775f117426a9a148ff3d7bea2d3833e539ab649ade7fbcad558c6c"
+    },
+    {
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-de-telekommunikationsnetze-1217568",
+      "checkedAt": "2026-10-10T16:32:25.406501+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-de-telekommunikationsnetze-1217568",
+      "contentType": "text/html;charset=UTF-8",
+      "hash": "fbe921cc694ea11c8bec49e83980cfece412cbf10118c08aff63eb0a69a4bd45"
+    },
+    {
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-pa-forschung-ki-sicherheit-1223046",
+      "checkedAt": "2026-10-10T16:32:25.485170+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-pa-forschung-ki-sicherheit-1223046",
+      "contentType": "text/html;charset=UTF-8",
+      "hash": "6e4066c4cfb080261249a2a866b4f1729ed2d40fa10e15307b23cf20ecc19d32"
+    },
+    {
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-pa-wirtschaft-biomasse-1218062",
+      "checkedAt": "2026-10-10T16:32:25.490227+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-pa-wirtschaft-biomasse-1218062",
+      "contentType": "text/html;charset=UTF-8",
+      "hash": "843eb3d78c5a5467d628401fb39a7da90c40e1fd8ebf2627df7065c9c724489d"
+    },
+    {
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-de-entwaldungsfreie-produkte-1222198",
+      "checkedAt": "2026-10-10T16:32:25.555572+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-de-entwaldungsfreie-produkte-1222198",
+      "contentType": "text/html;charset=UTF-8",
+      "hash": "9552138bee22e26d4d9b49e29a44f21cf0cb9076bf8f1f62800b161f695c9278"
+    },
+    {
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-de-wohngeldgesetz-1217564",
+      "checkedAt": "2026-10-10T16:32:25.559293+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-de-wohngeldgesetz-1217564",
+      "contentType": "text/html;charset=UTF-8",
+      "hash": "1cc3fd32cd0b4b04ffe17a80013308b80ff7aed8adf5ce20e85808f07e4ee075"
+    },
+    {
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-de-polizeivertrag-belgien-1217562",
+      "checkedAt": "2026-10-10T16:32:25.583395+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-de-polizeivertrag-belgien-1217562",
+      "contentType": "text/html;charset=UTF-8",
+      "hash": "32926dd094a8729e0fe80f882ad5ae18e07f9b6531cae7b48730c7b9303b2804"
+    },
+    {
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-de-strahlenschutzrecht-1217560",
+      "checkedAt": "2026-10-10T16:32:25.637147+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-de-strahlenschutzrecht-1217560",
+      "contentType": "text/html;charset=UTF-8",
+      "hash": "b504359368583e0e850f45396dce0659012a5039a679662ee50e69b8839da110"
+    },
+    {
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-de-energiewirtschaftsgesetz-1217558",
+      "checkedAt": "2026-10-10T16:32:25.639737+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-de-energiewirtschaftsgesetz-1217558",
+      "contentType": "text/html;charset=UTF-8",
+      "hash": "7617a12a4452155be5a0e348222a8ab4e26731e584f0d6bf97a71594cfa86d41"
+    },
+    {
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-de-windenergie-auf-see-1217556",
+      "checkedAt": "2026-10-10T16:32:25.648474+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-de-windenergie-auf-see-1217556",
+      "contentType": "text/html;charset=UTF-8",
+      "hash": "338dec189d059cbfcd7220a99df284381da2120b1a641e38e60b40da7cb399e3"
+    },
+    {
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-de-ukraine-1217554",
+      "checkedAt": "2026-10-10T16:32:25.707921+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-de-ukraine-1217554",
+      "contentType": "text/html;charset=UTF-8",
+      "hash": "bc8104d31d2407c1fbcf733ea48031b2390f12ad03e6dfe30e10290593f2c3ff"
+    },
+    {
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-de-kinder-jugendhilfe-1217552",
+      "checkedAt": "2026-10-10T16:32:25.740379+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-de-kinder-jugendhilfe-1217552",
+      "contentType": "text/html;charset=UTF-8",
+      "hash": "bef4a0e5cb64c5aadc63a959c261be1fae8aa155414e31c1668a4c410d06b7aa"
+    },
+    {
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-de-ki-migrationsverwaltung-1217550",
+      "checkedAt": "2026-10-10T16:32:25.793723+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-de-ki-migrationsverwaltung-1217550",
+      "contentType": "text/html;charset=UTF-8",
+      "hash": "c41beb8e23d171e8c4b13d618578edebdc6c0eb3b514c7914a84cd4258e106c1"
+    },
+    {
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-de-kryptowerte-1217548",
+      "checkedAt": "2026-10-10T16:32:25.814767+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-de-kryptowerte-1217548",
+      "contentType": "text/html;charset=UTF-8",
+      "hash": "aa4056ea54f9722f02c65f785f832764ca8d1f77ec45ea463607b971b4e5f969"
+    },
+    {
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-de-ausbaustrecke-1222180",
+      "checkedAt": "2026-10-10T16:32:25.862517+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-de-ausbaustrecke-1222180",
+      "contentType": "text/html;charset=UTF-8",
+      "hash": "e8019ff71b9428bcb4cc91007c42f3e7e63d44789f31733e2fb4847ec59ad53b"
+    },
+    {
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-de-produkthaftungsrecht-1222456",
+      "checkedAt": "2026-10-10T16:32:25.911892+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-de-produkthaftungsrecht-1222456",
+      "contentType": "text/html;charset=UTF-8",
+      "hash": "49039d347473e6e8a65e8a3939263c3c7124709b20125bc8297f48db40a06e0f"
+    },
+    {
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-de-buergerrat-1222760",
+      "checkedAt": "2026-10-10T16:32:25.960132+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-de-buergerrat-1222760",
+      "contentType": "text/html;charset=UTF-8",
+      "hash": "634e2b7b608245f0f04c7996c0ae7675e3b25cacf6de809428d10893d746b192"
+    },
+    {
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-de-digitale-innovation-1217540",
+      "checkedAt": "2026-10-10T16:32:25.964973+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-de-digitale-innovation-1217540",
+      "contentType": "text/html;charset=UTF-8",
+      "hash": "b04ac0117f29862c2b1885bc1b09ef3717e3c595bc46ac745ee59522153982ad"
+    },
+    {
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-de-rentenversicherung-1222458",
+      "checkedAt": "2026-10-10T16:32:26.002274+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-de-rentenversicherung-1222458",
+      "contentType": "text/html;charset=UTF-8",
+      "hash": "20e6df8ebfbdc4b7768fc00e916dc2e518ab512c037ef6f4ef5bc8593cedbffc"
+    },
+    {
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-de-befristungsrecht-1217536",
+      "checkedAt": "2026-10-10T16:32:26.125358+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-de-befristungsrecht-1217536",
+      "contentType": "text/html;charset=UTF-8",
+      "hash": "1d30896147032a6bac5f4f9721812be39415170577535b3c9cf496f96362d622"
+    },
+    {
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-de-lebensmittelversorgung-1217542",
+      "checkedAt": "2026-10-10T16:32:26.237119+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-de-lebensmittelversorgung-1217542",
+      "contentType": "text/html;charset=UTF-8",
+      "hash": "36c412c03010816b583c2e87c764aece47da2c3a8781630d91becdc83ea43515"
+    },
+    {
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-de-bundeswehr-unmiss-1217516",
+      "checkedAt": "2026-10-10T16:32:26.241730+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-de-bundeswehr-unmiss-1217516",
+      "contentType": "text/html;charset=UTF-8",
+      "hash": "c93e45df9de08a926050f9719ae079d191eec51180d2d7fe4d03879974a2e5ea"
+    },
+    {
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-de-bauen-wohnen-1217538",
+      "checkedAt": "2026-10-10T16:32:26.245963+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-de-bauen-wohnen-1217538",
+      "contentType": "text/html;charset=UTF-8",
+      "hash": "89626e86a5810c351ed008799478ed72e2ee106ca2451e8f05c67557c1079d3d"
+    },
+    {
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-de-bundeswehr-eunavfor-aspides-1217512",
+      "checkedAt": "2026-10-10T16:32:26.323519+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-de-bundeswehr-eunavfor-aspides-1217512",
+      "contentType": "text/html;charset=UTF-8",
+      "hash": "3f973657e60be259488a283f97a58a318d68a8d08367f1326f32ef8b78b4c412"
+    },
+    {
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-de-meinungsfreiheit-1217534",
+      "checkedAt": "2026-10-10T16:32:26.332455+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-de-meinungsfreiheit-1217534",
+      "contentType": "text/html;charset=UTF-8",
+      "hash": "2e1adf18ee48d144133efe80cc1189eb431758add602d6d50bd53294b26a6e24"
+    },
+    {
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-de-praenataltests-1184324",
+      "checkedAt": "2026-10-10T16:32:26.416335+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-de-praenataltests-1184324",
+      "contentType": "text/html;charset=UTF-8",
+      "hash": "a7d94317a4656835c734e612fc501d8fe760dfcf273f240ae235e11fbedb1e3e"
+    },
+    {
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-de-bericht-ostdeutschland-2026-1222200",
+      "checkedAt": "2026-10-10T16:32:26.458874+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-de-bericht-ostdeutschland-2026-1222200",
+      "contentType": "text/html;charset=UTF-8",
+      "hash": "bfcfc52e45134b9674da2ce492d26944808464f83f27b9ce77af5976823d5a14"
+    },
+    {
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-de-aktuelle-stunde-wirtschaftsprognosen-1222762",
+      "checkedAt": "2026-10-10T16:32:26.480110+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-de-aktuelle-stunde-wirtschaftsprognosen-1222762",
+      "contentType": "text/html;charset=UTF-8",
+      "hash": "54b43fa2e98d73ea8b7af180157f595421bab4e4e9535938754f8411ee371c3e"
+    },
+    {
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-de-wahl-kfw-1222472",
+      "checkedAt": "2026-10-10T16:32:26.505756+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-de-wahl-kfw-1222472",
+      "contentType": "text/html;charset=UTF-8",
+      "hash": "f8d1654056f0598b9388fe58b4cbcc00f5138f14f5510e6e01312ce18ca3af6d"
+    },
+    {
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-de-abschliessende-beratungen-1154720",
+      "checkedAt": "2026-10-10T16:32:26.537028+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-de-abschliessende-beratungen-1154720",
+      "contentType": "text/html;charset=UTF-8",
+      "hash": "5264b818d9dbe328ecd429ee04e18e6fba6d27c96caeaad6f246e9c53b49edf3"
+    },
+    {
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-de-ueberweisungen-1154722",
+      "checkedAt": "2026-10-10T16:32:26.556870+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-de-ueberweisungen-1154722",
+      "contentType": "text/html;charset=UTF-8",
+      "hash": "927c177d76cd2e5a33a9e1896fd18ed013c008170678b20842e0494211bff49e"
+    },
+    {
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-ausstellung-israel-1221562",
+      "checkedAt": "2026-10-10T16:32:26.611661+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-ausstellung-israel-1221562",
+      "contentType": "text/html;charset=UTF-8",
+      "hash": "be5d737dda242cd78aac31e8652f8f207760d8090ae5b501fa906f36def63e29"
+    },
+    {
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-de-linksextreme-gewalt-1217526",
+      "checkedAt": "2026-10-10T16:32:26.620416+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-de-linksextreme-gewalt-1217526",
+      "contentType": "text/html;charset=UTF-8",
+      "hash": "e4bb696f1fcd44295154fbbbb0e8f1c41b6302722bc737c0e5329af46042de3b"
+    },
+    {
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-pa-bildung-donnerstag-1221648",
+      "checkedAt": "2026-10-10T16:32:26.713383+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-pa-bildung-donnerstag-1221648",
+      "contentType": "text/html;charset=UTF-8",
+      "hash": "fb205333603af4e8fcd8d1bdafa56866f274718432c5b7f0ab809ab3728d4548"
+    },
+    {
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-de-vereinbarte-debatte-nachhaltigkeit-1217524",
+      "checkedAt": "2026-10-10T16:32:26.732270+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-de-vereinbarte-debatte-nachhaltigkeit-1217524",
+      "contentType": "text/html;charset=UTF-8",
+      "hash": "b8f5e1add686bf16d3937aa03429d23c6a6796bfaf2dfb296d58b3a00f305dfa"
+    },
+    {
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-de-steuersystem-1217522",
+      "checkedAt": "2026-10-10T16:32:26.753806+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-de-steuersystem-1217522",
+      "contentType": "text/html;charset=UTF-8",
+      "hash": "e2a0121414c6bfa6b20ce22af22fb7fef1d81c03b4111c2a0d2f48ae9a70c883"
+    },
+    {
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-de-einkommensteuerreform-1217520",
+      "checkedAt": "2026-10-10T16:32:26.800861+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-de-einkommensteuerreform-1217520",
+      "contentType": "text/html;charset=UTF-8",
+      "hash": "766a8f040b002a6f598ec627fc175aa3e9d0543facb6a515e5cbd1fda7abecce"
+    },
+    {
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-de-erinnerungskultur-1217518",
+      "checkedAt": "2026-10-10T16:32:26.803292+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-de-erinnerungskultur-1217518",
+      "contentType": "text/html;charset=UTF-8",
+      "hash": "5f1cba006499c6a3c7ddbf9b908d1672cf3f9a6982750a17b81741762105ca60"
+    },
+    {
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-de-mercosur-1217578",
+      "checkedAt": "2026-10-10T16:32:26.813882+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-de-mercosur-1217578",
+      "contentType": "text/html;charset=UTF-8",
+      "hash": "46ee2e81afa690b35e93433178ea4d2f18825c95ff5534199c8fa3020eb9abfd"
+    },
+    {
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-de-organisierte-kriminalitaet-1217514",
+      "checkedAt": "2026-10-10T16:32:26.852912+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-de-organisierte-kriminalitaet-1217514",
+      "contentType": "text/html;charset=UTF-8",
+      "hash": "3541c9f2ebe81e2a6aac8bd25fbfffac32b2c5eb0cd1d0e221787f94cb7ca8b1"
+    },
+    {
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-pa-nachhaltigkeitsbeirat-1221634",
+      "checkedAt": "2026-10-10T16:32:26.900316+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-pa-nachhaltigkeitsbeirat-1221634",
+      "contentType": "text/html;charset=UTF-8",
+      "hash": "ebce064a37d38f1ab0580dc668a86370759b30e47ad9ce1c46ea179fa7663172"
+    },
+    {
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-de-vereinbarte-debatte-israel-1222196",
+      "checkedAt": "2026-10-10T16:32:26.949085+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-de-vereinbarte-debatte-israel-1222196",
+      "contentType": "text/html;charset=UTF-8",
+      "hash": "bdcd17eb35384dbc997f170c414ff1d7e855c5252cd75be51f5b78ee61a84786"
+    },
+    {
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-de-aktuelle-stunde-ukraine-1222758",
+      "checkedAt": "2026-10-10T16:32:27.058007+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-de-aktuelle-stunde-ukraine-1222758",
+      "contentType": "text/html;charset=UTF-8",
+      "hash": "5f01e812f708178a906775ea001f8fa0ef1116478be0df9dbcf5d3e3f393d81e"
+    },
+    {
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-pa-gesundheit-1217920",
+      "checkedAt": "2026-10-10T16:32:27.078145+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-pa-gesundheit-1217920",
+      "contentType": "text/html;charset=UTF-8",
+      "hash": "90e1bfba9e2c0aecdea41bf1827529493a8f7ce0c184ce97b633f9be591d5f03"
+    },
+    {
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-de-fragestunde-1154732",
+      "checkedAt": "2026-10-10T16:32:27.145930+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-de-fragestunde-1154732",
+      "contentType": "text/html;charset=UTF-8",
+      "hash": "7c3098425ab9e783a524fc55dc52744da1317da2b6e6392c67eefd61ca6f758e"
+    },
+    {
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-pa-tourismus-1206184",
+      "checkedAt": "2026-10-10T16:32:27.159286+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-pa-tourismus-1206184",
+      "contentType": "text/html;charset=UTF-8",
+      "hash": "5ba9b919a13ad05bb0d08d5e90097fc93f611d331769cf23ba7e215e2a682858"
+    },
+    {
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-pa-digitales-bfdi-1222380",
+      "checkedAt": "2026-10-10T16:32:27.159697+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-pa-digitales-bfdi-1222380",
+      "contentType": "text/html;charset=UTF-8",
+      "hash": "c166ec1ae7920707e6937793133facfce51a8c0a7daa8ab6ededfb401cbbfe22"
+    },
+    {
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-de-regierungsbefragung-1154718",
+      "checkedAt": "2026-10-10T16:32:27.209100+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-de-regierungsbefragung-1154718",
+      "contentType": "text/html;charset=UTF-8",
+      "hash": "8341f6b3312a207c6df4415bb8d2e9bf9ce006520b8fd5012768cfae473e0c0a"
+    },
+    {
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-de-einleitende-worte-1222854",
+      "checkedAt": "2026-10-10T16:32:27.212038+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-de-einleitende-worte-1222854",
+      "contentType": "text/html;charset=UTF-8",
+      "hash": "ab83e242fcc58fb4bcd723b6714b05aa9366d030bda31b30c31ca6f67c9f1729"
+    },
+    {
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-pa-recht-betreuungsrecht-1201714",
+      "checkedAt": "2026-10-10T16:32:27.293312+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-pa-recht-betreuungsrecht-1201714",
+      "contentType": "text/html;charset=UTF-8",
+      "hash": "4a2606c6125f436339d026cb4e2d44f2d9e687d4d6e0967d86a11a0b58bb3a07"
+    },
+    {
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-pa-recht-ip-adressspeicherung-1221516",
+      "checkedAt": "2026-10-10T16:32:27.304228+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-pa-recht-ip-adressspeicherung-1221516",
+      "contentType": "text/html;charset=UTF-8",
+      "hash": "6cb4e5ebeaa2ff4132fd02db82fb9b1852d7bfcbe818f89e126a80638f166c42"
+    },
+    {
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-pa-bildung-mittwoch-1221652",
+      "checkedAt": "2026-10-10T16:32:27.367755+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-pa-bildung-mittwoch-1221652",
+      "contentType": "text/html;charset=UTF-8",
+      "hash": "9b916a71bd312b6c036fa633db0ea4879cae02511c1ed3c83a48dc980deb9a98"
+    },
+    {
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-pa-forschung-1221660",
+      "checkedAt": "2026-10-10T16:32:27.405287+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-pa-forschung-1221660",
+      "contentType": "text/html;charset=UTF-8",
+      "hash": "3c592425c1a47d0c2fbce1f29dbd434bf67fa4f107575e20e410bb47b1949dc7"
+    },
+    {
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-pa-umwelt-1217926",
+      "checkedAt": "2026-10-10T16:32:27.489773+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-pa-umwelt-1217926",
+      "contentType": "text/html;charset=UTF-8",
+      "hash": "b50c46bab258df323255928982f7ce207eac778c5460e0cf67302101af89dca0"
+    },
+    {
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-interview-heinrich-1222938",
+      "checkedAt": "2026-10-10T16:32:27.555927+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-interview-heinrich-1222938",
+      "contentType": "text/html;charset=UTF-8",
+      "hash": "5c8e3d52d34ac1db00f323f2f04a8f5ce69065f2c4bb711eb6636dd3fe5f1053"
+    },
+    {
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-pa-wirtschaft-energiewirtschaftsrecht-1217934",
+      "checkedAt": "2026-10-10T16:32:27.598141+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-pa-wirtschaft-energiewirtschaftsrecht-1217934",
+      "contentType": "text/html;charset=UTF-8",
+      "hash": "3f89c68f7e170620490a77c0c123f869c842bfa69d00849e82bfef71cf105711"
+    },
+    {
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-pa-digitales-1218122",
+      "checkedAt": "2026-10-10T16:32:27.609728+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-pa-digitales-1218122",
+      "contentType": "text/html;charset=UTF-8",
+      "hash": "eca1dcc1072a1db7138d2f12344d26bb95920a858c410beb0887920b68cc37f5"
+    },
+    {
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-pa-pkgr-1211186",
+      "checkedAt": "2026-10-10T16:32:27.619464+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-pa-pkgr-1211186",
+      "contentType": "text/html;charset=UTF-8",
+      "hash": "3797141daf20d912864ade5d9d8e4796e61487c828d2fd14264fd7aa6305c34c"
+    },
+    {
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-pa-ua-krisenpraevention-1201676",
+      "checkedAt": "2026-10-10T16:32:27.696011+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-pa-ua-krisenpraevention-1201676",
+      "contentType": "text/html;charset=UTF-8",
+      "hash": "c8a2bf7ceab9a7504a2419b29d304bba8bcb736634949961b5c317d1c847ebd2"
+    },
+    {
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-pa-recht-strafsachen-1201700",
+      "checkedAt": "2026-10-10T16:32:27.746534+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-pa-recht-strafsachen-1201700",
+      "contentType": "text/html;charset=UTF-8",
+      "hash": "1b92df6ece2b456714e90958d6983e0656e167967fa97c8abc34c72575d66cdb"
+    },
+    {
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-pa-inneres-vereinsgesetz-1221644",
+      "checkedAt": "2026-10-10T16:32:27.755562+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-pa-inneres-vereinsgesetz-1221644",
+      "contentType": "text/html;charset=UTF-8",
+      "hash": "d1c37284cd5ec1523a718786bff8df26fdac7ccff7e252c4e2cab2571672b5e9"
+    },
+    {
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-pa-finanzen-tabaksteuer-1218102",
+      "checkedAt": "2026-10-10T16:32:27.874604+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-pa-finanzen-tabaksteuer-1218102",
+      "contentType": "text/html;charset=UTF-8",
+      "hash": "150a9ed1bd2e414a26bc2a6b052fb161db48daa6561e2bc78d6936ede0194eb8"
+    },
+    {
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-pa-wirtschaft-energieeffizienzrichtlinie-1218082",
+      "checkedAt": "2026-10-10T16:32:27.894419+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-pa-wirtschaft-energieeffizienzrichtlinie-1218082",
+      "contentType": "text/html;charset=UTF-8",
+      "hash": "120bf639ed3bbbee3d27e2d6b2cfe7fd7cc2aaec06ca1abcd30f8cf64ce99f71"
+    },
+    {
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-pa-recht-k-o-tropfen-1201682",
+      "checkedAt": "2026-10-10T16:32:27.937899+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-pa-recht-k-o-tropfen-1201682",
+      "contentType": "text/html;charset=UTF-8",
+      "hash": "d106e8632e4e5709cea89959975c37a31dc74e40f35c79ebe82f36c0841fdbb3"
+    },
+    {
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-pa-inneres-cybersicherheit-1221640",
+      "checkedAt": "2026-10-10T16:32:27.999018+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-pa-inneres-cybersicherheit-1221640",
+      "contentType": "text/html;charset=UTF-8",
+      "hash": "a91bf78c4f306a3339a012acd3e0cf590f02f61208ce27174e7c0e753807112e"
+    },
+    {
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-pa-finanzen-fruehstart-1218094",
+      "checkedAt": "2026-10-10T16:32:28.008077+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-pa-finanzen-fruehstart-1218094",
+      "contentType": "text/html;charset=UTF-8",
+      "hash": "6f88d676b181ad3288c391a21ba9f7904073c8c9b25629f40108cccb89c2256f"
+    },
+    {
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-pa-wirtschaft-stromsektor-1218072",
+      "checkedAt": "2026-10-10T16:32:28.030860+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-pa-wirtschaft-stromsektor-1218072",
+      "contentType": "text/html;charset=UTF-8",
+      "hash": "3f4a0db9e6810d49e44a335bd097a675abcbd7060eb9a2f36fbcea985294cb7c"
+    },
+    {
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-pa-recht-gleichbehandlung-1221502",
+      "checkedAt": "2026-10-10T16:32:28.130086+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-pa-recht-gleichbehandlung-1221502",
+      "contentType": "text/html;charset=UTF-8",
+      "hash": "9c1b9e20122e92775e329456bbc198069a7860891d8fe8bcc809104feca4f2cc"
+    },
+    {
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-pa-verkehr-1211240",
+      "checkedAt": "2026-10-10T16:32:28.140962+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-pa-verkehr-1211240",
+      "contentType": "text/html;charset=UTF-8",
+      "hash": "dc0f8777ac94002f14a888c19b5e7c7db39ea1b8fa11b71d27261fcde4c55595"
+    },
+    {
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw40-interview-graessle-1217996",
+      "checkedAt": "2026-10-10T16:32:28.222285+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/dokumente/textarchiv/2026/kw40-interview-graessle-1217996",
+      "contentType": "text/html;charset=UTF-8",
+      "hash": "4eb398d2b4d023b725cb42e0b6773a113eca977b9bee4923ce409b97003de671"
+    },
+    {
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-de-energieversorgung-1217572",
+      "checkedAt": "2026-10-10T16:32:28.278270+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-de-energieversorgung-1217572",
+      "contentType": "text/html;charset=UTF-8",
+      "hash": "05a3db7f1951aadb95103049efbec357885cc5dd9ae9b9819e58d90a9c03b55e"
+    },
+    {
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw39-de-aktuelle-stunde-ki-1216900",
+      "checkedAt": "2026-10-10T16:32:28.390292+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/dokumente/textarchiv/2026/kw39-de-aktuelle-stunde-ki-1216900",
+      "contentType": "text/html;charset=UTF-8",
+      "hash": "27609ada35e2a06aa185392e32faf1d2a85889459990cbb34c16ccd4f1cd5d10"
+    },
+    {
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw39-de-verwaltungsgerichtsordnung-1211268",
+      "checkedAt": "2026-10-10T16:32:28.428091+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/dokumente/textarchiv/2026/kw39-de-verwaltungsgerichtsordnung-1211268",
+      "contentType": "text/html;charset=UTF-8",
+      "hash": "be79eecd783f23059ae4bb8eae67c59c316a06f1aa4fe0b5549ab02f10614757"
+    },
+    {
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw39-de-ki-grenzschutz-1184308",
+      "checkedAt": "2026-10-10T16:32:28.470210+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/dokumente/textarchiv/2026/kw39-de-ki-grenzschutz-1184308",
+      "contentType": "text/html;charset=UTF-8",
+      "hash": "e0016b510a2306a6d6b60ab33ad3c44c78abdf751c5c377ab0f32f54987b402a"
+    },
+    {
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw39-de-linksextreme-gewalt-1211262",
+      "checkedAt": "2026-10-10T16:32:28.508578+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/dokumente/textarchiv/2026/kw39-de-linksextreme-gewalt-1211262",
+      "contentType": "text/html;charset=UTF-8",
+      "hash": "fa99ba43fabb50650b5b61bd5ac7a06fe015392f99a5628fd088c0f88cf3d165"
+    },
+    {
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw39-de-arbeitsfoerderung-1211274",
+      "checkedAt": "2026-10-10T16:32:28.512655+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/dokumente/textarchiv/2026/kw39-de-arbeitsfoerderung-1211274",
+      "contentType": "text/html;charset=UTF-8",
+      "hash": "82e045b8d053f40c438250e12ba7d5b1e17ecb4056c3261adfcb2e1e0caec2fe"
+    },
+    {
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw39-de-bundeszentrale-1217326",
+      "checkedAt": "2026-10-10T16:32:28.718780+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/dokumente/textarchiv/2026/kw39-de-bundeszentrale-1217326",
+      "contentType": "text/html;charset=UTF-8",
+      "hash": "3e89347caf0336b0a3933cc623ec5a61cde2536ab2a87008476296edff49fa1e"
+    },
+    {
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw39-de-versicherung-aufsicht-1216898",
+      "checkedAt": "2026-10-10T16:32:28.777347+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/dokumente/textarchiv/2026/kw39-de-versicherung-aufsicht-1216898",
+      "contentType": "text/html;charset=UTF-8",
+      "hash": "c93a1c7fdad0e630745dc8dc74ad2efc9d6d829cfc100e23f46247917fcdbf31"
+    },
+    {
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw39-de-solidarprinzip-1211318",
+      "checkedAt": "2026-10-10T16:32:28.870240+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/dokumente/textarchiv/2026/kw39-de-solidarprinzip-1211318",
+      "contentType": "text/html;charset=UTF-8",
+      "hash": "865e1200ab1ef0c939c921d3428b46be3a605667ad328fa86cec6bb529dbbcb0"
+    },
+    {
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw39-de-schuldnerberatungsdienste-1216228",
+      "checkedAt": "2026-10-10T16:32:29.033038+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/dokumente/textarchiv/2026/kw39-de-schuldnerberatungsdienste-1216228",
+      "contentType": "text/html;charset=UTF-8",
+      "hash": "1333b22712c14c7e12f82eff54ec046cc497bc48f48024bac6fc7eb1e8ac4175"
+    },
+    {
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw39-de-fruehstartrente-1211316",
+      "checkedAt": "2026-10-10T16:32:29.041350+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/dokumente/textarchiv/2026/kw39-de-fruehstartrente-1211316",
+      "contentType": "text/html;charset=UTF-8",
+      "hash": "a951a0d6f60e3a5162d0e3e2e84c32c9f8e4c1ad06c9a85304e4c9e8730f913e"
+    },
+    {
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw39-de-bundespolizeigesetz-1211314",
+      "checkedAt": "2026-10-10T16:32:29.121126+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/dokumente/textarchiv/2026/kw39-de-bundespolizeigesetz-1211314",
+      "contentType": "text/html;charset=UTF-8",
+      "hash": "95c28d8c8ae25b411f6e1f2a02712c0bfd61ed73746cf712a88f1d9dad7717f5"
+    },
+    {
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw39-de-brennstoffemissionshandelsgesetz-1211312",
+      "checkedAt": "2026-10-10T16:32:29.129789+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/dokumente/textarchiv/2026/kw39-de-brennstoffemissionshandelsgesetz-1211312",
+      "contentType": "text/html;charset=UTF-8",
+      "hash": "c55f5843ecc148b530856a218a8bbdf8c1f3af29c030f2d19fe98b1b57c01a60"
+    },
+    {
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw39-de-gap-1211310",
+      "checkedAt": "2026-10-10T16:32:29.164678+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/dokumente/textarchiv/2026/kw39-de-gap-1211310",
+      "contentType": "text/html;charset=UTF-8",
+      "hash": "e269d95200884622246e653f25d26201ad53cdef6ca5bbaa7f3c7d7f9d43fdbf"
+    },
+    {
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw39-de-tabaksteuergesetz-1211308",
+      "checkedAt": "2026-10-10T16:32:29.236592+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/dokumente/textarchiv/2026/kw39-de-tabaksteuergesetz-1211308",
+      "contentType": "text/html;charset=UTF-8",
+      "hash": "9ec80f7fa28b9ca9ebe3ad94fb6b5a42be8436636a05ab008956c3d39ad49c0c"
+    },
+    {
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw39-de-energieeffizienzrichtlinie-1211306",
+      "checkedAt": "2026-10-10T16:32:29.248113+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/dokumente/textarchiv/2026/kw39-de-energieeffizienzrichtlinie-1211306",
+      "contentType": "text/html;charset=UTF-8",
+      "hash": "6ba8f85d7ca9ff515e45b1509412978ec8ae224578230685e126d9298887e027"
+    },
+    {
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw39-de-betreuungsrecht-1211304",
+      "checkedAt": "2026-10-10T16:32:29.609119+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/dokumente/textarchiv/2026/kw39-de-betreuungsrecht-1211304",
+      "contentType": "text/html;charset=UTF-8",
+      "hash": "dbba925a1527a920d2ff73ccdaf37b07c0d2ca6d72892ae5217da363b7ed9dec"
+    },
+    {
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw39-de-rechtshilfe-strafsachen-1211324",
+      "checkedAt": "2026-10-10T16:32:29.785937+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/dokumente/textarchiv/2026/kw39-de-rechtshilfe-strafsachen-1211324",
+      "contentType": "text/html;charset=UTF-8",
+      "hash": "b28d7842fbe49981080d222fe95be21d1167a0c5042637a7d265ef16c6a7cd52"
+    },
+    {
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw39-de-gwb-novelle-1211322",
+      "checkedAt": "2026-10-10T16:32:29.793955+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/dokumente/textarchiv/2026/kw39-de-gwb-novelle-1211322",
+      "contentType": "text/html;charset=UTF-8",
+      "hash": "92979a8e19c7098134fcb74a9bcfb6e042f57c0b44ff76b2a0200194a280d9be"
+    },
+    {
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw39-de-wahlpruefung-1211292",
+      "checkedAt": "2026-10-10T16:32:29.851547+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/dokumente/textarchiv/2026/kw39-de-wahlpruefung-1211292",
+      "contentType": "text/html;charset=UTF-8",
+      "hash": "c1fa0a3a0912052b29959a88c81c451af6545992f6854f4cc4377d8cbaa9f81a"
+    },
+    {
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw39-de-fahrlehrergesetz-1211282",
+      "checkedAt": "2026-10-10T16:32:29.863420+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/dokumente/textarchiv/2026/kw39-de-fahrlehrergesetz-1211282",
+      "contentType": "text/html;charset=UTF-8",
+      "hash": "aa43a6e2088c4b48c31f6906c57ac1dac8bacc14e8055ddbd75ed89dc8fba439"
+    },
+    {
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw39-de-medien-invest-vg-1211278",
+      "checkedAt": "2026-10-10T16:32:29.937934+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/dokumente/textarchiv/2026/kw39-de-medien-invest-vg-1211278",
+      "contentType": "text/html;charset=UTF-8",
+      "hash": "1c74f4c0a5b6a5c44de2bc4d3e6b4a69297657f1dc7563ca3b04200a994d9aac"
+    },
+    {
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw39-de-ausbaustrecke-1211290",
+      "checkedAt": "2026-10-10T16:32:29.958566+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/dokumente/textarchiv/2026/kw39-de-ausbaustrecke-1211290",
+      "contentType": "text/html;charset=UTF-8",
+      "hash": "979764da45d38c2df2ba1f3925c6a3ae19b9e834b91113952e9a6d9fea7b140a"
+    },
+    {
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw39-de-vermoegenswerte-1211288",
+      "checkedAt": "2026-10-10T16:32:30.001849+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/dokumente/textarchiv/2026/kw39-de-vermoegenswerte-1211288",
+      "contentType": "text/html;charset=UTF-8",
+      "hash": "86064c47208c4b69cfce70dfec4ccb77886734e0501805c5b3ea4fbcfd3ea84e"
+    },
+    {
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw39-de-ngos-boykott-1211270",
+      "checkedAt": "2026-10-10T16:32:30.030853+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/dokumente/textarchiv/2026/kw39-de-ngos-boykott-1211270",
+      "contentType": "text/html;charset=UTF-8",
+      "hash": "fdad7a599d201f1d593cebece9c8080aa58d5f97013a6ac0d7da31f83b683356"
+    },
+    {
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw39-de-designrecht-1211286",
+      "checkedAt": "2026-10-10T16:32:30.043583+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/dokumente/textarchiv/2026/kw39-de-designrecht-1211286",
+      "contentType": "text/html;charset=UTF-8",
+      "hash": "0899262ddcd6320f43a96ead4e24b3573e2bf29c0ef15eeb1209c19b3f76cbb5"
+    },
+    {
+      "url": "https://www.bundesregierung.de/breg-de/bundesregierung/bundeskanzleramt/kabinettssitzungen/bundeskabinett-ergebnisse-2455982",
+      "checkedAt": "2026-10-10T16:32:30.060315+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundesregierung.de/breg-de/bundesregierung/bundeskanzleramt/kabinettssitzungen/bundeskabinett-ergebnisse-2455982",
+      "contentType": "text/html;charset=UTF-8",
+      "hash": "0943df0c40ac815a5d85a5797ce00e3b4718b753fe43c5d1f19b11363611e5fc"
+    },
+    {
+      "url": "https://dserver.bundestag.de/brd/2026/0583-26.pdf",
+      "checkedAt": "2026-10-10T16:33:30.123539+00:00",
+      "status": 200,
+      "finalUrl": "https://dserver.bundestag.de/brd/2026/0583-26.pdf",
+      "contentType": "application/pdf",
+      "hash": "ee9205af9f802322d5bd0ba4125728493b162ba021795e4e8edae3b0ebf4ebfb"
+    },
+    {
+      "url": "https://dserver.bundestag.de/brd/2026/0594-26.pdf",
+      "checkedAt": "2026-10-10T16:33:30.123776+00:00",
+      "status": 200,
+      "finalUrl": "https://dserver.bundestag.de/brd/2026/0594-26.pdf",
+      "contentType": "application/pdf",
+      "hash": "8fe027179d50d1feb372545eedf4c7da14e0a8a2e5d2e319f2a757c1cac7cde0"
+    },
+    {
+      "url": "https://dserver.bundestag.de/brd/2026/0593-26.pdf",
+      "checkedAt": "2026-10-10T16:33:30.123856+00:00",
+      "status": 200,
+      "finalUrl": "https://dserver.bundestag.de/brd/2026/0593-26.pdf",
+      "contentType": "application/pdf",
+      "hash": "6be9e00c8a484f19d98fffcd7f61fe0a9cd2d08aea64f17114f775fcce1b1d2d"
+    },
+    {
+      "url": "https://dserver.bundestag.de/brd/2026/0573-26.pdf",
+      "checkedAt": "2026-10-10T16:33:30.123906+00:00",
+      "status": 200,
+      "finalUrl": "https://dserver.bundestag.de/brd/2026/0573-26.pdf",
+      "contentType": "application/pdf",
+      "hash": "a3cf3c6b5dfbd5cf8475e627b7c4924ee885780bc0dd2e49c3c31e910ee70c91"
+    },
+    {
+      "url": "https://dserver.bundestag.de/btd/21/084/2108461.pdf",
+      "checkedAt": "2026-10-10T16:33:30.123956+00:00",
+      "status": 200,
+      "finalUrl": "https://dserver.bundestag.de/btd/21/084/2108461.pdf",
+      "contentType": "application/pdf",
+      "hash": "1b6287f6695b48c41584aa276369d58a1ed5930010bd485af4ff14506a2d12be"
+    },
+    {
+      "url": "https://dserver.bundestag.de/btd/21/084/2108462.pdf",
+      "checkedAt": "2026-10-10T16:33:30.123999+00:00",
+      "status": 200,
+      "finalUrl": "https://dserver.bundestag.de/btd/21/084/2108462.pdf",
+      "contentType": "application/pdf",
+      "hash": "5196ff8d97c79602b018a24217d1b6694e237a89632de5a68c2dc1a6e9880448"
+    },
+    {
+      "url": "https://dserver.bundestag.de/btd/21/084/2108450.pdf",
+      "checkedAt": "2026-10-10T16:33:30.124038+00:00",
+      "status": 200,
+      "finalUrl": "https://dserver.bundestag.de/btd/21/084/2108450.pdf",
+      "contentType": "application/pdf",
+      "hash": "5c05b4a0771b1a78160fcc3172ef93b0711bf112c6d345d1c78cb92af5a84ca6"
+    }
+  ],
+  "sliderFetches": [
+    {
+      "url": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1223644-1223644/asJsonSliderResult",
+      "checkedAt": "2026-10-10T16:31:45.329042+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1223644-1223644/asJsonSliderResult",
+      "contentType": "application/json;charset=UTF-8",
+      "hash": "90ee0e328d5df994996eb4eb1bf45d5a1ae05b3927da34fff005db9df6f3edec"
+    },
+    {
+      "url": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1154744-1154744/asJsonSliderResult",
+      "checkedAt": "2026-10-10T16:31:45.329328+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1154744-1154744/asJsonSliderResult",
+      "contentType": "application/json;charset=UTF-8",
+      "hash": "d385937623cd0fbc4a009551886849a1702e5bfa74a85def3879e846ff3984a3"
+    },
+    {
+      "url": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1154764-1154764/asJsonSliderResult",
+      "checkedAt": "2026-10-10T16:31:45.329417+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1154764-1154764/asJsonSliderResult",
+      "contentType": "application/json;charset=UTF-8",
+      "hash": "e4472d81cad42580c1ecc6b460e18634f2265ced692ff1a0f35de9cba2a80b00"
+    },
+    {
+      "url": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1223570-1223570/asJsonSliderResult",
+      "checkedAt": "2026-10-10T16:31:45.329485+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1223570-1223570/asJsonSliderResult",
+      "contentType": "application/json;charset=UTF-8",
+      "hash": "143919a46e9845feede7772349eb244f8992a550cc1800225f75bdcf91a3a014"
+    },
+    {
+      "url": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1223572-1223572/asJsonSliderResult",
+      "checkedAt": "2026-10-10T16:31:45.329542+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1223572-1223572/asJsonSliderResult",
+      "contentType": "application/json;charset=UTF-8",
+      "hash": "936606b00deb97641a32f3c62cccd72b701f6739d72df7e0600fa405ad5d7cfe"
+    },
+    {
+      "url": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1223574-1223574/asJsonSliderResult",
+      "checkedAt": "2026-10-10T16:31:45.329589+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1223574-1223574/asJsonSliderResult",
+      "contentType": "application/json;charset=UTF-8",
+      "hash": "5a4aa85d2f4cf643ab8d620f908895c441f1f3450fae748e010e6c0be35274e1"
+    },
+    {
+      "url": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1223576-1223576/asJsonSliderResult",
+      "checkedAt": "2026-10-10T16:31:45.329637+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1223576-1223576/asJsonSliderResult",
+      "contentType": "application/json;charset=UTF-8",
+      "hash": "0bab47a01e03868abe61b40672e02bc68dc12f72556a1e8a4d68888512b68b3d"
+    },
+    {
+      "url": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1223578-1223578/asJsonSliderResult",
+      "checkedAt": "2026-10-10T16:31:45.329677+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1223578-1223578/asJsonSliderResult",
+      "contentType": "application/json;charset=UTF-8",
+      "hash": "71da2eb31b412c370b4bbf553ec7b4c82fff9a1a85cb1ab2e034834d49a5a3d1"
+    },
+    {
+      "url": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1223580-1223580/asJsonSliderResult",
+      "checkedAt": "2026-10-10T16:31:45.405908+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1223580-1223580/asJsonSliderResult",
+      "contentType": "application/json;charset=UTF-8",
+      "hash": "7af1e05076f95b55d4071ceeeca86fa03aa23a493b4c800717bc84d79969d2c3"
+    },
+    {
+      "url": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1223582-1223582/asJsonSliderResult",
+      "checkedAt": "2026-10-10T16:31:45.409066+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1223582-1223582/asJsonSliderResult",
+      "contentType": "application/json;charset=UTF-8",
+      "hash": "cf1cfffbf2fb0259ab5811222be5e3cb7562982a29366854cf7054c0739187dd"
+    },
+    {
+      "url": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1223584-1223584/asJsonSliderResult",
+      "checkedAt": "2026-10-10T16:31:45.409141+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1223584-1223584/asJsonSliderResult",
+      "contentType": "application/json;charset=UTF-8",
+      "hash": "f46adf482e6f2131756a938f83350ae1e78ff7dc8e7a88b6b11a9c33272cd243"
+    },
+    {
+      "url": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1154766-1154766/asJsonSliderResult",
+      "checkedAt": "2026-10-10T16:31:45.409210+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1154766-1154766/asJsonSliderResult",
+      "contentType": "application/json;charset=UTF-8",
+      "hash": "d8701918efc6ad2eb63b0981960d5d8b6d39176233e944489dcafe87160e4b95"
+    },
+    {
+      "url": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1154762-1154762/asJsonSliderResult",
+      "checkedAt": "2026-10-10T16:31:45.416497+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1154762-1154762/asJsonSliderResult",
+      "contentType": "application/json;charset=UTF-8",
+      "hash": "867aa5eb9c73420d63b0321593363563fe58a9a2cbc200b8c70c74408d5c206d"
+    },
+    {
+      "url": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1223586-1223586/asJsonSliderResult",
+      "checkedAt": "2026-10-10T16:31:45.421372+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1223586-1223586/asJsonSliderResult",
+      "contentType": "application/json;charset=UTF-8",
+      "hash": "c18d34591b9610e0b0d082fdda2a0436dc01ffa9ff36484d1b6151c3d16afb91"
+    },
+    {
+      "url": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1223588-1223588/asJsonSliderResult",
+      "checkedAt": "2026-10-10T16:31:45.421426+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1223588-1223588/asJsonSliderResult",
+      "contentType": "application/json;charset=UTF-8",
+      "hash": "649d3a7c12a54bc72f912d8c0a24dbbf6a8a2d86bcfbe708aef5a662fbb3998f"
+    },
+    {
+      "url": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1223590-1223590/asJsonSliderResult",
+      "checkedAt": "2026-10-10T16:31:45.422733+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1223590-1223590/asJsonSliderResult",
+      "contentType": "application/json;charset=UTF-8",
+      "hash": "9fe7f5a2413c7bf387cbebd6a68acf597341f53e5d6423769f777cd298fd1b68"
+    },
+    {
+      "url": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1223592-1223592/asJsonSliderResult",
+      "checkedAt": "2026-10-10T16:31:45.459165+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1223592-1223592/asJsonSliderResult",
+      "contentType": "application/json;charset=UTF-8",
+      "hash": "89ec6400390f6775c79d6cdcf0aad7eb3cffeaa4f0e2fb389aeea920dbb5eb19"
+    },
+    {
+      "url": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1223594-1223594/asJsonSliderResult",
+      "checkedAt": "2026-10-10T16:31:45.477260+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1223594-1223594/asJsonSliderResult",
+      "contentType": "application/json;charset=UTF-8",
+      "hash": "f09857833cf226478ec9210c12bb112082abd965bc95fe7ebb5e262521b82fb9"
+    },
+    {
+      "url": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1223596-1223596/asJsonSliderResult",
+      "checkedAt": "2026-10-10T16:31:45.477331+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1223596-1223596/asJsonSliderResult",
+      "contentType": "application/json;charset=UTF-8",
+      "hash": "ed0fc201f26cd1b06bf82e86b96742f7f6f5c191c152198588248cbca7f1546e"
+    },
+    {
+      "url": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1223598-1223598/asJsonSliderResult",
+      "checkedAt": "2026-10-10T16:31:45.477466+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1223598-1223598/asJsonSliderResult",
+      "contentType": "application/json;charset=UTF-8",
+      "hash": "1f4cc97e4ba7af13cdb15d21a0a097f0831409e07d57a8067aca2321f18d49e6"
+    },
+    {
+      "url": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1223600-1223600/asJsonSliderResult",
+      "checkedAt": "2026-10-10T16:31:45.477558+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1223600-1223600/asJsonSliderResult",
+      "contentType": "application/json;charset=UTF-8",
+      "hash": "da13edce76b987e24b3c5443e8566d3ca95086e5c211b895300e9c052449b2fe"
+    },
+    {
+      "url": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1223602-1223602/asJsonSliderResult",
+      "checkedAt": "2026-10-10T16:31:45.478040+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1223602-1223602/asJsonSliderResult",
+      "contentType": "application/json;charset=UTF-8",
+      "hash": "469b08e16a7497e40472e3140ac8f5dfc49fe8c4a5a2577028efc7716f7e85ef"
+    },
+    {
+      "url": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1223604-1223604/asJsonSliderResult",
+      "checkedAt": "2026-10-10T16:31:45.484752+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1223604-1223604/asJsonSliderResult",
+      "contentType": "application/json;charset=UTF-8",
+      "hash": "b7f51c63f23290b30b30492f3b836b3394eeca7284c1083038023d632a7b0c59"
+    },
+    {
+      "url": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1223606-1223606/asJsonSliderResult",
+      "checkedAt": "2026-10-10T16:31:45.488029+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1223606-1223606/asJsonSliderResult",
+      "contentType": "application/json;charset=UTF-8",
+      "hash": "9bdc2749958006bb179558c08d2918184a2800e9f435433db056633de0fdf5b4"
+    },
+    {
+      "url": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1223608-1223608/asJsonSliderResult",
+      "checkedAt": "2026-10-10T16:31:45.525688+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1223608-1223608/asJsonSliderResult",
+      "contentType": "application/json;charset=UTF-8",
+      "hash": "5dcb1774d5467ab6f70dfa219ad7e541efbf60a269ec226fd84987efb5319559"
+    },
+    {
+      "url": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1223610-1223610/asJsonSliderResult",
+      "checkedAt": "2026-10-10T16:31:45.531881+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1223610-1223610/asJsonSliderResult",
+      "contentType": "application/json;charset=UTF-8",
+      "hash": "187871a2eef08913ef417aab36f89b8db2355c7c9e189165a1aeeebe41082c5e"
+    },
+    {
+      "url": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1223612-1223612/asJsonSliderResult",
+      "checkedAt": "2026-10-10T16:31:45.535036+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1223612-1223612/asJsonSliderResult",
+      "contentType": "application/json;charset=UTF-8",
+      "hash": "50eff1e086708caa113c703b8f021defe6be64b5fe4be3fa172315df830cc971"
+    },
+    {
+      "url": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1223614-1223614/asJsonSliderResult",
+      "checkedAt": "2026-10-10T16:31:45.550319+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1223614-1223614/asJsonSliderResult",
+      "contentType": "application/json;charset=UTF-8",
+      "hash": "5086a96e1b480a858e824cdcb0d8d47a022731d21407815e58db2bc80e13a22f"
+    },
+    {
+      "url": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1223618-1223618/asJsonSliderResult",
+      "checkedAt": "2026-10-10T16:31:45.550470+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1223618-1223618/asJsonSliderResult",
+      "contentType": "application/json;charset=UTF-8",
+      "hash": "f8f340489ee68f8e5732c88fbe6a968f8a0e2ca28c4ee0927d3e626c009467ee"
+    },
+    {
+      "url": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1223620-1223620/asJsonSliderResult",
+      "checkedAt": "2026-10-10T16:31:45.554737+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1223620-1223620/asJsonSliderResult",
+      "contentType": "application/json;charset=UTF-8",
+      "hash": "07dfe78d1e6cd918e2c8f3d3506b2ba7f276bebf386a12540a30234c26550916"
+    },
+    {
+      "url": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1223616-1223616/asJsonSliderResult",
+      "checkedAt": "2026-10-10T16:31:45.557003+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1223616-1223616/asJsonSliderResult",
+      "contentType": "application/json;charset=UTF-8",
+      "hash": "03bddc311ded223928491dee094b498a4c1e2f299dba9d90f749f3576768b50c"
+    },
+    {
+      "url": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1223624-1223624/asJsonSliderResult",
+      "checkedAt": "2026-10-10T16:31:45.558340+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1223624-1223624/asJsonSliderResult",
+      "contentType": "application/json;charset=UTF-8",
+      "hash": "f95cf54687704389db87c96c0c100a86bfb8d8af9cae44bc47ba94758533c0a6"
+    },
+    {
+      "url": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1223626-1223626/asJsonSliderResult",
+      "checkedAt": "2026-10-10T16:31:45.592329+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1223626-1223626/asJsonSliderResult",
+      "contentType": "application/json;charset=UTF-8",
+      "hash": "178bd4e6ca28b251cae0ed57ec1be32dec9fc5fc26f3b806581a14a4e128c1c3"
+    },
+    {
+      "url": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1223628-1223628/asJsonSliderResult",
+      "checkedAt": "2026-10-10T16:31:45.592628+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1223628-1223628/asJsonSliderResult",
+      "contentType": "application/json;charset=UTF-8",
+      "hash": "9ef7ccb3a934d4eabc725c61260c68dadd9fa83eb177f2733083f12ce0a91eb7"
+    },
+    {
+      "url": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1223632-1223632/asJsonSliderResult",
+      "checkedAt": "2026-10-10T16:31:45.596930+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1223632-1223632/asJsonSliderResult",
+      "contentType": "application/json;charset=UTF-8",
+      "hash": "d3f2c254ed7d9ee94cdbd99a602f6994e88b4c5a09b027d6c100b315b89cdad3"
+    },
+    {
+      "url": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1223634-1223634/asJsonSliderResult",
+      "checkedAt": "2026-10-10T16:31:45.613088+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1223634-1223634/asJsonSliderResult",
+      "contentType": "application/json;charset=UTF-8",
+      "hash": "2359624196cf86012aea6442ca21a86c8e541a1d5405e02b6ea0057fc5938101"
+    },
+    {
+      "url": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1223636-1223636/asJsonSliderResult",
+      "checkedAt": "2026-10-10T16:31:45.613248+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1223636-1223636/asJsonSliderResult",
+      "contentType": "application/json;charset=UTF-8",
+      "hash": "ed331d58f4e24a5474cf9378043ec7615b0d31de9bc4e50a93cf04d7d499873e"
+    },
+    {
+      "url": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1223410-1223410/asJsonSliderResult",
+      "checkedAt": "2026-10-10T16:31:45.613361+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1223410-1223410/asJsonSliderResult",
+      "contentType": "application/json;charset=UTF-8",
+      "hash": "2751f162c19d5ad8d33d4f9965840b692107c54bbe9e65124bb7ed41b62ae062"
+    },
+    {
+      "url": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1222766-1222766/asJsonSliderResult",
+      "checkedAt": "2026-10-10T16:31:45.615278+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1222766-1222766/asJsonSliderResult",
+      "contentType": "application/json;charset=UTF-8",
+      "hash": "79c6dfbabddb67e2a9d9b205544aab44c55b1d54acfad423cda6ab564ba0b14d"
+    },
+    {
+      "url": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1217576-1217576/asJsonSliderResult",
+      "checkedAt": "2026-10-10T16:31:45.627901+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1217576-1217576/asJsonSliderResult",
+      "contentType": "application/json;charset=UTF-8",
+      "hash": "f20481bb17afd7a568124c23c4a971feefe4a725c425e8ea30d7df894dc267b1"
+    },
+    {
+      "url": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1217574-1217574/asJsonSliderResult",
+      "checkedAt": "2026-10-10T16:31:45.650457+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1217574-1217574/asJsonSliderResult",
+      "contentType": "application/json;charset=UTF-8",
+      "hash": "570aacf79615be3ede5c6e8a1bb698d022fcbf9e75a15335761dac115c6d042e"
+    },
+    {
+      "url": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1217570-1217570/asJsonSliderResult",
+      "checkedAt": "2026-10-10T16:31:45.663266+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1217570-1217570/asJsonSliderResult",
+      "contentType": "application/json;charset=UTF-8",
+      "hash": "4e39b4a5ba2fc87faf14a61d7841786686b9e9ad061f59ebcb5dba78a815c3b4"
+    },
+    {
+      "url": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1217530-1217530/asJsonSliderResult",
+      "checkedAt": "2026-10-10T16:31:45.665205+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1217530-1217530/asJsonSliderResult",
+      "contentType": "application/json;charset=UTF-8",
+      "hash": "b76bbf89d780dfc2de65fede8e802011c17909f590fd19f38c56dd88fadc2f12"
+    },
+    {
+      "url": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1217528-1217528/asJsonSliderResult",
+      "checkedAt": "2026-10-10T16:31:45.683183+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1217528-1217528/asJsonSliderResult",
+      "contentType": "application/json;charset=UTF-8",
+      "hash": "9e2b17c2bb4ca34f214e34677ca0b2967ef1d1522efbb1dece2f436e71de17f5"
+    },
+    {
+      "url": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1222454-1222454/asJsonSliderResult",
+      "checkedAt": "2026-10-10T16:31:45.683541+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1222454-1222454/asJsonSliderResult",
+      "contentType": "application/json;charset=UTF-8",
+      "hash": "0f6ceaa0628c11fe27f3f08c1551b7b57c90f95de4df27cf6a882dd110affe17"
+    },
+    {
+      "url": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1217568-1217568/asJsonSliderResult",
+      "checkedAt": "2026-10-10T16:31:45.687741+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1217568-1217568/asJsonSliderResult",
+      "contentType": "application/json;charset=UTF-8",
+      "hash": "65c57201d20511414676007512c79cc958bf450c1f013e81e537581d50df6791"
+    },
+    {
+      "url": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1223046-1223046/asJsonSliderResult",
+      "checkedAt": "2026-10-10T16:31:45.687898+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1223046-1223046/asJsonSliderResult",
+      "contentType": "application/json;charset=UTF-8",
+      "hash": "58258da9f2dfa80620a4318760a36f86ca510818866adcf348651b9cf6a90a9b"
+    },
+    {
+      "url": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1218062-1218062/asJsonSliderResult",
+      "checkedAt": "2026-10-10T16:31:45.687994+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1218062-1218062/asJsonSliderResult",
+      "contentType": "application/json;charset=UTF-8",
+      "hash": "bcc5194e1608f0f5f79596b00a10c9efa069121acc1965559ce3a17d9f2a6fc1"
+    },
+    {
+      "url": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1222198-1222198/asJsonSliderResult",
+      "checkedAt": "2026-10-10T16:31:45.719942+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1222198-1222198/asJsonSliderResult",
+      "contentType": "application/json;charset=UTF-8",
+      "hash": "b119ee4ef2df904978a953c5cd25c687d71010bc8d1e677b21ea47223aab9411"
+    },
+    {
+      "url": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1217564-1217564/asJsonSliderResult",
+      "checkedAt": "2026-10-10T16:31:45.735516+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1217564-1217564/asJsonSliderResult",
+      "contentType": "application/json;charset=UTF-8",
+      "hash": "4ef49d9524c37876631250227a1e698e12a110874f5b4ed979a9e4cf35738bb5"
+    },
+    {
+      "url": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1217562-1217562/asJsonSliderResult",
+      "checkedAt": "2026-10-10T16:31:45.737536+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1217562-1217562/asJsonSliderResult",
+      "contentType": "application/json;charset=UTF-8",
+      "hash": "6a5c8ebfa6dfe20d62beb0f9b2e1b9d847fec4444e22e328a97fa4a99d33a80b"
+    },
+    {
+      "url": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1217560-1217560/asJsonSliderResult",
+      "checkedAt": "2026-10-10T16:31:45.751385+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1217560-1217560/asJsonSliderResult",
+      "contentType": "application/json;charset=UTF-8",
+      "hash": "774e06821e2ace16bdbc58f80d8c14ce0e2827cb17b3ab823bef62d923a2e3f1"
+    },
+    {
+      "url": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1217558-1217558/asJsonSliderResult",
+      "checkedAt": "2026-10-10T16:31:45.753185+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1217558-1217558/asJsonSliderResult",
+      "contentType": "application/json;charset=UTF-8",
+      "hash": "487ca20e9d8fa9465e5bd2b34594d447af7a416344c0a92b9a3778ee518097ef"
+    },
+    {
+      "url": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1217556-1217556/asJsonSliderResult",
+      "checkedAt": "2026-10-10T16:31:45.754954+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1217556-1217556/asJsonSliderResult",
+      "contentType": "application/json;charset=UTF-8",
+      "hash": "78278ebffe13498e0d86416bfa7d74de97ed1563d134b4f6641aa8576203a190"
+    },
+    {
+      "url": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1217554-1217554/asJsonSliderResult",
+      "checkedAt": "2026-10-10T16:31:45.761103+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1217554-1217554/asJsonSliderResult",
+      "contentType": "application/json;charset=UTF-8",
+      "hash": "27ba790b5637ab3f4ca0d798c223083c07745f217fff254883b8be40308dd86e"
+    },
+    {
+      "url": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1217552-1217552/asJsonSliderResult",
+      "checkedAt": "2026-10-10T16:31:45.762304+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1217552-1217552/asJsonSliderResult",
+      "contentType": "application/json;charset=UTF-8",
+      "hash": "3a76920b258fd5c4548edf5bd04f508c1d1cde8f6bb8ec0f8c146441ef3f5daa"
+    },
+    {
+      "url": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1217550-1217550/asJsonSliderResult",
+      "checkedAt": "2026-10-10T16:31:45.787449+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1217550-1217550/asJsonSliderResult",
+      "contentType": "application/json;charset=UTF-8",
+      "hash": "79e3dba012e02930cea410be765701c5e8d4cff1d4ac830ae83e9468fcadbbd4"
+    },
+    {
+      "url": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1217548-1217548/asJsonSliderResult",
+      "checkedAt": "2026-10-10T16:31:45.800020+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1217548-1217548/asJsonSliderResult",
+      "contentType": "application/json;charset=UTF-8",
+      "hash": "af5b9f6380400084d128b1fb893723fa654a9d456fc99f22cea635c84e94cc67"
+    },
+    {
+      "url": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1222180-1222180/asJsonSliderResult",
+      "checkedAt": "2026-10-10T16:31:45.811533+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1222180-1222180/asJsonSliderResult",
+      "contentType": "application/json;charset=UTF-8",
+      "hash": "ddf09229337fa9ddf6a2f30a6cb8e4b0043a666c255742545f5c8e259138c1a2"
+    },
+    {
+      "url": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1222456-1222456/asJsonSliderResult",
+      "checkedAt": "2026-10-10T16:31:45.819988+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1222456-1222456/asJsonSliderResult",
+      "contentType": "application/json;charset=UTF-8",
+      "hash": "219427354f37b9246c701717b05d4bc63c02b2c1f5d3564dd4e3823c37738a4e"
+    },
+    {
+      "url": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1222760-1222760/asJsonSliderResult",
+      "checkedAt": "2026-10-10T16:31:45.822448+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1222760-1222760/asJsonSliderResult",
+      "contentType": "application/json;charset=UTF-8",
+      "hash": "cd505acbe5cbaec3516bfac728bfe3b679c47649cf53b64e540e3d99f6d72c42"
+    },
+    {
+      "url": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1217540-1217540/asJsonSliderResult",
+      "checkedAt": "2026-10-10T16:31:45.826354+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1217540-1217540/asJsonSliderResult",
+      "contentType": "application/json;charset=UTF-8",
+      "hash": "17c2f384ba70f967dffc2ed229c0a642b760b973ae0bbd1411e0b51e5765dde9"
+    },
+    {
+      "url": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1222458-1222458/asJsonSliderResult",
+      "checkedAt": "2026-10-10T16:31:45.830985+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1222458-1222458/asJsonSliderResult",
+      "contentType": "application/json;charset=UTF-8",
+      "hash": "0277c47a610ecddd7af93d771725022b8cfe27d4394a1df6dd76ca16e6fbea5e"
+    },
+    {
+      "url": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1217536-1217536/asJsonSliderResult",
+      "checkedAt": "2026-10-10T16:31:45.836955+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1217536-1217536/asJsonSliderResult",
+      "contentType": "application/json;charset=UTF-8",
+      "hash": "6bf0d47e283a48ca68998b074d21385fb7e68ad2275d8c6582b8ad1ca3cd0f3c"
+    },
+    {
+      "url": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1217542-1217542/asJsonSliderResult",
+      "checkedAt": "2026-10-10T16:31:45.853162+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1217542-1217542/asJsonSliderResult",
+      "contentType": "application/json;charset=UTF-8",
+      "hash": "586cfe022068fcaf9c5d2f39c741304f178ec7408461e577fe223278358e4da0"
+    },
+    {
+      "url": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1217516-1217516/asJsonSliderResult",
+      "checkedAt": "2026-10-10T16:31:45.863870+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1217516-1217516/asJsonSliderResult",
+      "contentType": "application/json;charset=UTF-8",
+      "hash": "1bd411b894a575a9046597dbfbdb23d318cda9e71c7915ed139f51877c2e5aef"
+    },
+    {
+      "url": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1217538-1217538/asJsonSliderResult",
+      "checkedAt": "2026-10-10T16:31:45.890641+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1217538-1217538/asJsonSliderResult",
+      "contentType": "application/json;charset=UTF-8",
+      "hash": "d0cbfeb94641449167b4ec1b09967b369fd88ef0dc991ad27bdbdfddf22cd9a5"
+    },
+    {
+      "url": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1217512-1217512/asJsonSliderResult",
+      "checkedAt": "2026-10-10T16:31:45.893728+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1217512-1217512/asJsonSliderResult",
+      "contentType": "application/json;charset=UTF-8",
+      "hash": "fea9e0b812e254bc821269bedbf013f8d8ad3a93389bb8a9151f4b154bb4261f"
+    },
+    {
+      "url": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1217534-1217534/asJsonSliderResult",
+      "checkedAt": "2026-10-10T16:31:45.893883+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1217534-1217534/asJsonSliderResult",
+      "contentType": "application/json;charset=UTF-8",
+      "hash": "4fce4d18229eb90f2b9035b6f16f6a9626691d392c466e51882f4236d1307356"
+    },
+    {
+      "url": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1184324-1184324/asJsonSliderResult",
+      "checkedAt": "2026-10-10T16:31:45.894050+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1184324-1184324/asJsonSliderResult",
+      "contentType": "application/json;charset=UTF-8",
+      "hash": "edc46e83617d873201d9122f59ceadeae420653c260157ccd4a5ad1d4757fa29"
+    },
+    {
+      "url": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1222200-1222200/asJsonSliderResult",
+      "checkedAt": "2026-10-10T16:31:45.901516+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1222200-1222200/asJsonSliderResult",
+      "contentType": "application/json;charset=UTF-8",
+      "hash": "fe68262c86b2fb45c990b6e50055efa3c51664ee16efc377d9dc0f50205b86ec"
+    },
+    {
+      "url": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1222762-1222762/asJsonSliderResult",
+      "checkedAt": "2026-10-10T16:31:45.906657+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1222762-1222762/asJsonSliderResult",
+      "contentType": "application/json;charset=UTF-8",
+      "hash": "7a9546d8a2dd463b5fdf53ca302e7cd2b8123abfbbd5e12112e471a23655bd6e"
+    },
+    {
+      "url": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1222472-1222472/asJsonSliderResult",
+      "checkedAt": "2026-10-10T16:31:45.921818+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1222472-1222472/asJsonSliderResult",
+      "contentType": "application/json;charset=UTF-8",
+      "hash": "4683017f9549e8485cb27d79c43814c1733bafd2958b86070399d7f35a724a73"
+    },
+    {
+      "url": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1154720-1154720/asJsonSliderResult",
+      "checkedAt": "2026-10-10T16:31:45.937880+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1154720-1154720/asJsonSliderResult",
+      "contentType": "application/json;charset=UTF-8",
+      "hash": "b0ae0499cb03ef077ba54d21ad42cc59275ad2ea62e018b55851799a0edc91d1"
+    },
+    {
+      "url": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1154722-1154722/asJsonSliderResult",
+      "checkedAt": "2026-10-10T16:31:45.963076+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1154722-1154722/asJsonSliderResult",
+      "contentType": "application/json;charset=UTF-8",
+      "hash": "e880af7ef2914b947d07a0a9787a45942affbfe346caa13aa639766e87725bf1"
+    },
+    {
+      "url": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1221562-1221562/asJsonSliderResult",
+      "checkedAt": "2026-10-10T16:31:45.963263+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1221562-1221562/asJsonSliderResult",
+      "contentType": "application/json;charset=UTF-8",
+      "hash": "b0bd682879a8adc83d9aa8fa695de273dd5bbf8a6bcea4a236bd3e6d3b69a7a3"
+    },
+    {
+      "url": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1217526-1217526/asJsonSliderResult",
+      "checkedAt": "2026-10-10T16:31:45.964191+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1217526-1217526/asJsonSliderResult",
+      "contentType": "application/json;charset=UTF-8",
+      "hash": "2ae80e5ab3eec797ff5675afc0eb389e9089fe463eded9678151e51b50fb571a"
+    },
+    {
+      "url": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1221648-1221648/asJsonSliderResult",
+      "checkedAt": "2026-10-10T16:31:45.966671+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1221648-1221648/asJsonSliderResult",
+      "contentType": "application/json;charset=UTF-8",
+      "hash": "a2c2038e78f01fd5637e9650f236c3498098fc391bea6767f116869219498741"
+    },
+    {
+      "url": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1217524-1217524/asJsonSliderResult",
+      "checkedAt": "2026-10-10T16:31:45.974592+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1217524-1217524/asJsonSliderResult",
+      "contentType": "application/json;charset=UTF-8",
+      "hash": "c8a1117ff0e5a30e58e688a1355fe325f0a887cbdc49dc491dfde6d1c8aab181"
+    },
+    {
+      "url": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1217522-1217522/asJsonSliderResult",
+      "checkedAt": "2026-10-10T16:31:45.986143+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1217522-1217522/asJsonSliderResult",
+      "contentType": "application/json;charset=UTF-8",
+      "hash": "6c8d56c78fcd13ee4a8e68cb54b823b3de9feef92939aaa41b7e409bcb95786f"
+    },
+    {
+      "url": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1217520-1217520/asJsonSliderResult",
+      "checkedAt": "2026-10-10T16:31:45.990075+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1217520-1217520/asJsonSliderResult",
+      "contentType": "application/json;charset=UTF-8",
+      "hash": "41f4008dc8fe8f9de63c36ee62c9b16085fc45e77ac7d69d585d20192e022504"
+    },
+    {
+      "url": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1217518-1217518/asJsonSliderResult",
+      "checkedAt": "2026-10-10T16:31:46.018972+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1217518-1217518/asJsonSliderResult",
+      "contentType": "application/json;charset=UTF-8",
+      "hash": "fd434c39b1c673f917b965b0c739c55d9bec2014a90ba9bae98dbb44c07fcc4e"
+    },
+    {
+      "url": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1217578-1217578/asJsonSliderResult",
+      "checkedAt": "2026-10-10T16:31:46.039859+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1217578-1217578/asJsonSliderResult",
+      "contentType": "application/json;charset=UTF-8",
+      "hash": "a0733b8e9373df0516446a36bfaaefe7c83b61ac3c01c7b931b925fe924fc3b7"
+    },
+    {
+      "url": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1217514-1217514/asJsonSliderResult",
+      "checkedAt": "2026-10-10T16:31:46.045665+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1217514-1217514/asJsonSliderResult",
+      "contentType": "application/json;charset=UTF-8",
+      "hash": "e93cfd8d5807aadac7d886e26e178d7905c704b6e8db07f0279b748b7eaa13a6"
+    },
+    {
+      "url": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1221634-1221634/asJsonSliderResult",
+      "checkedAt": "2026-10-10T16:31:46.049201+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1221634-1221634/asJsonSliderResult",
+      "contentType": "application/json;charset=UTF-8",
+      "hash": "309b6eb7f44d7331f07e783c806ec7ba9d927971b4474d5263c5d3ed6e7ed547"
+    },
+    {
+      "url": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1222196-1222196/asJsonSliderResult",
+      "checkedAt": "2026-10-10T16:31:46.049438+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1222196-1222196/asJsonSliderResult",
+      "contentType": "application/json;charset=UTF-8",
+      "hash": "aeac03f354f6ddf84ba7ce078414803b6548415485a964db3d2b2a32394a82ce"
+    },
+    {
+      "url": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1222758-1222758/asJsonSliderResult",
+      "checkedAt": "2026-10-10T16:31:46.051320+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1222758-1222758/asJsonSliderResult",
+      "contentType": "application/json;charset=UTF-8",
+      "hash": "c408f41d34f67a09e76571c798061ba2c2d9726a4895df0ad7970f4086656d66"
+    },
+    {
+      "url": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1217920-1217920/asJsonSliderResult",
+      "checkedAt": "2026-10-10T16:31:46.069832+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1217920-1217920/asJsonSliderResult",
+      "contentType": "application/json;charset=UTF-8",
+      "hash": "b5c8fd0804a71ea154c276e5b4450cac5adfe3a07d9e61ae7b3fd58bd69732fc"
+    },
+    {
+      "url": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1154732-1154732/asJsonSliderResult",
+      "checkedAt": "2026-10-10T16:31:46.070221+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1154732-1154732/asJsonSliderResult",
+      "contentType": "application/json;charset=UTF-8",
+      "hash": "b1f25de4c0d506ea1e9dcead65d3ff02fa4c7a2ae1042cc4563c9a388029784e"
+    },
+    {
+      "url": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1206184-1206184/asJsonSliderResult",
+      "checkedAt": "2026-10-10T16:31:46.089445+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1206184-1206184/asJsonSliderResult",
+      "contentType": "application/json;charset=UTF-8",
+      "hash": "6500613383f43b55d3231e9c9f5fcce67c4141534d26e55681216c38ba91b543"
+    },
+    {
+      "url": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1222380-1222380/asJsonSliderResult",
+      "checkedAt": "2026-10-10T16:31:46.114972+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1222380-1222380/asJsonSliderResult",
+      "contentType": "application/json;charset=UTF-8",
+      "hash": "e41555a22c9ddc37b73173eb8c5a68c4f8ead60975cf749d75024aa0ad00a77f"
+    },
+    {
+      "url": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1154718-1154718/asJsonSliderResult",
+      "checkedAt": "2026-10-10T16:31:46.116897+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1154718-1154718/asJsonSliderResult",
+      "contentType": "application/json;charset=UTF-8",
+      "hash": "e780f18b34bf4e43f076789f1f601e38fe0c74b2117948b19d36402a224b3f6c"
+    },
+    {
+      "url": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1222854-1222854/asJsonSliderResult",
+      "checkedAt": "2026-10-10T16:31:46.120661+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1222854-1222854/asJsonSliderResult",
+      "contentType": "application/json;charset=UTF-8",
+      "hash": "79b3d742b07d7e55293a3e118f04e1767458e844d69750ed4de3ebfb35d17835"
+    },
+    {
+      "url": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1201714-1201714/asJsonSliderResult",
+      "checkedAt": "2026-10-10T16:31:46.123958+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1201714-1201714/asJsonSliderResult",
+      "contentType": "application/json;charset=UTF-8",
+      "hash": "fe99eb7dc7ba079c6cb539086d5c00f775d30231d7e0edecdbb097bfa8a9d862"
+    },
+    {
+      "url": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1221516-1221516/asJsonSliderResult",
+      "checkedAt": "2026-10-10T16:31:46.124072+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1221516-1221516/asJsonSliderResult",
+      "contentType": "application/json;charset=UTF-8",
+      "hash": "3ac86c4417f2c1cc6d8e07955bac0021af3f5aa06d3fed2184b8ad0728ee4f8f"
+    },
+    {
+      "url": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1221652-1221652/asJsonSliderResult",
+      "checkedAt": "2026-10-10T16:31:46.144211+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1221652-1221652/asJsonSliderResult",
+      "contentType": "application/json;charset=UTF-8",
+      "hash": "c862f5e60635cfe48e194193bb9d63e463a1d79dbb912ba659af265bdfc162a9"
+    },
+    {
+      "url": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1221660-1221660/asJsonSliderResult",
+      "checkedAt": "2026-10-10T16:31:46.144531+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1221660-1221660/asJsonSliderResult",
+      "contentType": "application/json;charset=UTF-8",
+      "hash": "40f71bffb3e3eb181935bb67fcbe9c73aea9ca51ff048fe228a6eb83f16e09e0"
+    },
+    {
+      "url": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1217926-1217926/asJsonSliderResult",
+      "checkedAt": "2026-10-10T16:31:46.156543+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1217926-1217926/asJsonSliderResult",
+      "contentType": "application/json;charset=UTF-8",
+      "hash": "98c2d12ad94f1e9deafa10702cae0f5676dde8c8e0e0446b266d236f322c29ac"
+    },
+    {
+      "url": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1222938-1222938/asJsonSliderResult",
+      "checkedAt": "2026-10-10T16:31:46.187971+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1222938-1222938/asJsonSliderResult",
+      "contentType": "application/json;charset=UTF-8",
+      "hash": "93ba5255467e5503762d907b2de4faa4665d0ce6e0778e1af241ca31058e1e96"
+    },
+    {
+      "url": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1217934-1217934/asJsonSliderResult",
+      "checkedAt": "2026-10-10T16:31:46.193414+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1217934-1217934/asJsonSliderResult",
+      "contentType": "application/json;charset=UTF-8",
+      "hash": "c60cf6b0dddeec26f820daab63c9507eb2a9023237d9d84ddce43c849f1103e4"
+    },
+    {
+      "url": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1218122-1218122/asJsonSliderResult",
+      "checkedAt": "2026-10-10T16:31:46.200305+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1218122-1218122/asJsonSliderResult",
+      "contentType": "application/json;charset=UTF-8",
+      "hash": "d774a4328c4f0c1f39316a3d48833c29060f183c1c665942407e79553bb978e4"
+    },
+    {
+      "url": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1211186-1211186/asJsonSliderResult",
+      "checkedAt": "2026-10-10T16:31:46.200474+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1211186-1211186/asJsonSliderResult",
+      "contentType": "application/json;charset=UTF-8",
+      "hash": "e51e257793335facc565d492df35ac9e5e59d2d8dbe857db0a89b67559a9c637"
+    },
+    {
+      "url": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1201676-1201676/asJsonSliderResult",
+      "checkedAt": "2026-10-10T16:31:46.200613+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1201676-1201676/asJsonSliderResult",
+      "contentType": "application/json;charset=UTF-8",
+      "hash": "8158f3ed123e8c34fb607e27656cadfbc6c81c6995078d971a71866e29d0e104"
+    },
+    {
+      "url": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1201700-1201700/asJsonSliderResult",
+      "checkedAt": "2026-10-10T16:31:46.216511+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1201700-1201700/asJsonSliderResult",
+      "contentType": "application/json;charset=UTF-8",
+      "hash": "afb20e1a7fdf9b33c26ab0923ae03ff7c78e6cb7aeabcb5686e1988d8a7916d7"
+    },
+    {
+      "url": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1221644-1221644/asJsonSliderResult",
+      "checkedAt": "2026-10-10T16:31:46.226008+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1221644-1221644/asJsonSliderResult",
+      "contentType": "application/json;charset=UTF-8",
+      "hash": "c8d9b790f75a7b159063c0640a673fa60437798d400a11600b0051d53b4cd8de"
+    },
+    {
+      "url": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1218102-1218102/asJsonSliderResult",
+      "checkedAt": "2026-10-10T16:31:46.230515+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1218102-1218102/asJsonSliderResult",
+      "contentType": "application/json;charset=UTF-8",
+      "hash": "feda3a5072a8806171b202c6220c821da0956c8af05d17cc42ffb9bf82942cff"
+    },
+    {
+      "url": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1218082-1218082/asJsonSliderResult",
+      "checkedAt": "2026-10-10T16:31:46.259949+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1218082-1218082/asJsonSliderResult",
+      "contentType": "application/json;charset=UTF-8",
+      "hash": "1d99bbf8ab3071d10d7c9ad0a8599ec7f7d78970a42c7a93d948d48ab569bf15"
+    },
+    {
+      "url": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1201682-1201682/asJsonSliderResult",
+      "checkedAt": "2026-10-10T16:31:46.271562+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1201682-1201682/asJsonSliderResult",
+      "contentType": "application/json;charset=UTF-8",
+      "hash": "17749925107f36f721da475af5cd98998f26a98e42fde8a6ae6eaca09e3aef72"
+    },
+    {
+      "url": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1221640-1221640/asJsonSliderResult",
+      "checkedAt": "2026-10-10T16:31:46.271698+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1221640-1221640/asJsonSliderResult",
+      "contentType": "application/json;charset=UTF-8",
+      "hash": "ee674a2e585049030f1683146f0670f1d794b12e94bf6807e5f4969ef103cb46"
+    },
+    {
+      "url": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1218094-1218094/asJsonSliderResult",
+      "checkedAt": "2026-10-10T16:31:46.273154+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1218094-1218094/asJsonSliderResult",
+      "contentType": "application/json;charset=UTF-8",
+      "hash": "750f02757af9ea8e637115fcaaf68b6a1fe4274215f74a1eac6794a82ef7c5f1"
+    },
+    {
+      "url": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1218072-1218072/asJsonSliderResult",
+      "checkedAt": "2026-10-10T16:31:46.273318+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1218072-1218072/asJsonSliderResult",
+      "contentType": "application/json;charset=UTF-8",
+      "hash": "6d78d23bf925f14494e7fd24a097c481c751ed2ab6ced5f09229dc8e3a9b01d5"
+    },
+    {
+      "url": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1221502-1221502/asJsonSliderResult",
+      "checkedAt": "2026-10-10T16:31:46.293520+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1221502-1221502/asJsonSliderResult",
+      "contentType": "application/json;charset=UTF-8",
+      "hash": "d5c82a49b30711563d45a4feb2bc841ba4d989d1ee649ba43f17a2cd686f479e"
+    },
+    {
+      "url": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1211240-1211240/asJsonSliderResult",
+      "checkedAt": "2026-10-10T16:31:46.302588+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1211240-1211240/asJsonSliderResult",
+      "contentType": "application/json;charset=UTF-8",
+      "hash": "0365eaffb2e1730440b99cfe23ab07738108433cbda92dfc0234c476c3c6f735"
+    },
+    {
+      "url": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1217996-1217996/asJsonSliderResult",
+      "checkedAt": "2026-10-10T16:31:46.308442+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1217996-1217996/asJsonSliderResult",
+      "contentType": "application/json;charset=UTF-8",
+      "hash": "f054a2c55a506523c2dc7bb158e3ec5fc603a455d77e196fe5cb0f3ed00a7f57"
+    },
+    {
+      "url": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1217572-1217572/asJsonSliderResult",
+      "checkedAt": "2026-10-10T16:31:46.332355+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1217572-1217572/asJsonSliderResult",
+      "contentType": "application/json;charset=UTF-8",
+      "hash": "cee25f46b6ae95bf1f6928616fca8914948caaeaef38c4625ccd754d49d9c417"
+    },
+    {
+      "url": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1216900-1216900/asJsonSliderResult",
+      "checkedAt": "2026-10-10T16:31:46.345394+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1216900-1216900/asJsonSliderResult",
+      "contentType": "application/json;charset=UTF-8",
+      "hash": "235e3e1ab32ecc3b9f620867e62bacc476e5b35457ef63c0fad7671dd3ac2fbf"
+    },
+    {
+      "url": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1211268-1211268/asJsonSliderResult",
+      "checkedAt": "2026-10-10T16:31:46.349782+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1211268-1211268/asJsonSliderResult",
+      "contentType": "application/json;charset=UTF-8",
+      "hash": "250be6b4b1d058957f4aa3dc547c9abe97efde1a84852abc2cb3e9d522cb203f"
+    },
+    {
+      "url": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1184308-1184308/asJsonSliderResult",
+      "checkedAt": "2026-10-10T16:31:46.351742+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1184308-1184308/asJsonSliderResult",
+      "contentType": "application/json;charset=UTF-8",
+      "hash": "de1f5284026f319546f05c9517ab32d9385f1e3957222ec6347227e7aebe2346"
+    },
+    {
+      "url": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1211262-1211262/asJsonSliderResult",
+      "checkedAt": "2026-10-10T16:31:46.352439+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1211262-1211262/asJsonSliderResult",
+      "contentType": "application/json;charset=UTF-8",
+      "hash": "11814caa0f908210a48d1fe9ead92ed91375007eaff8aa2b967cbcf1a11761eb"
+    },
+    {
+      "url": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1211274-1211274/asJsonSliderResult",
+      "checkedAt": "2026-10-10T16:31:46.362122+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1211274-1211274/asJsonSliderResult",
+      "contentType": "application/json;charset=UTF-8",
+      "hash": "436479a46bfa20d64be17f3b34190d285a9e7f9510f291665e5b1a1aaa1fe9fa"
+    },
+    {
+      "url": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1217326-1217326/asJsonSliderResult",
+      "checkedAt": "2026-10-10T16:31:46.381823+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1217326-1217326/asJsonSliderResult",
+      "contentType": "application/json;charset=UTF-8",
+      "hash": "0512a5710ab9d0dbc6e0cdd33059839b74d133126ef7be00f6127478badd2be8"
+    },
+    {
+      "url": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1216898-1216898/asJsonSliderResult",
+      "checkedAt": "2026-10-10T16:31:46.399203+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1216898-1216898/asJsonSliderResult",
+      "contentType": "application/json;charset=UTF-8",
+      "hash": "a320637fec742f00fae1318c269e7507e16c6284d4836111ba607e48e0dfd0ee"
+    },
+    {
+      "url": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1211318-1211318/asJsonSliderResult",
+      "checkedAt": "2026-10-10T16:31:46.401091+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1211318-1211318/asJsonSliderResult",
+      "contentType": "application/json;charset=UTF-8",
+      "hash": "8d6ddfa423871f7b1a4b2fbf9c896ed001d2b6b37b54239d1d57bd247e1e2617"
+    },
+    {
+      "url": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1216228-1216228/asJsonSliderResult",
+      "checkedAt": "2026-10-10T16:31:46.414662+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1216228-1216228/asJsonSliderResult",
+      "contentType": "application/json;charset=UTF-8",
+      "hash": "452d3d4f06d1d7b789bb2086e17439c59200d61ea45c95ecbb4cfa9f01701ab5"
+    },
+    {
+      "url": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1211316-1211316/asJsonSliderResult",
+      "checkedAt": "2026-10-10T16:31:46.417640+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1211316-1211316/asJsonSliderResult",
+      "contentType": "application/json;charset=UTF-8",
+      "hash": "083858d1771c88852310800aac0f9a1b7227e6300ef43b238ca93ee1d9b3b5c3"
+    },
+    {
+      "url": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1211314-1211314/asJsonSliderResult",
+      "checkedAt": "2026-10-10T16:31:46.421479+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1211314-1211314/asJsonSliderResult",
+      "contentType": "application/json;charset=UTF-8",
+      "hash": "1407a5603713ecd6f729bad310851567650868c22f41eec2659802b098240cde"
+    },
+    {
+      "url": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1211312-1211312/asJsonSliderResult",
+      "checkedAt": "2026-10-10T16:31:46.425502+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1211312-1211312/asJsonSliderResult",
+      "contentType": "application/json;charset=UTF-8",
+      "hash": "faf8119515994b5e41b1c995fbbb46e166d3405946c60df1187964112391b0e7"
+    },
+    {
+      "url": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1211310-1211310/asJsonSliderResult",
+      "checkedAt": "2026-10-10T16:31:46.428197+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1211310-1211310/asJsonSliderResult",
+      "contentType": "application/json;charset=UTF-8",
+      "hash": "58c20cac12810a22ed8ed570d7535538f96d50c2989ba50d01d26cd0ca858ef6"
+    },
+    {
+      "url": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1211308-1211308/asJsonSliderResult",
+      "checkedAt": "2026-10-10T16:31:46.453123+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1211308-1211308/asJsonSliderResult",
+      "contentType": "application/json;charset=UTF-8",
+      "hash": "ec8b6c6d1c130c0f97474d6dd0d9b0bb629b08fbf51a9492013dce3ad833cca0"
+    },
+    {
+      "url": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1211306-1211306/asJsonSliderResult",
+      "checkedAt": "2026-10-10T16:31:46.473886+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1211306-1211306/asJsonSliderResult",
+      "contentType": "application/json;charset=UTF-8",
+      "hash": "356f8c7d2a87c56e2e5f5c6e3b60d7df826b8834491e4435e5dbde833ad02327"
+    },
+    {
+      "url": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1211304-1211304/asJsonSliderResult",
+      "checkedAt": "2026-10-10T16:31:46.478637+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1211304-1211304/asJsonSliderResult",
+      "contentType": "application/json;charset=UTF-8",
+      "hash": "8d1868b147017af5c287e9a4af2f64d39168a05fc2039b0da0e1784af7801ba2"
+    },
+    {
+      "url": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1211324-1211324/asJsonSliderResult",
+      "checkedAt": "2026-10-10T16:31:46.485429+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1211324-1211324/asJsonSliderResult",
+      "contentType": "application/json;charset=UTF-8",
+      "hash": "b32a730ffd668ed0b66ffc8c39d332cf57596f5f82fea416dd698b4905853992"
+    },
+    {
+      "url": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1211322-1211322/asJsonSliderResult",
+      "checkedAt": "2026-10-10T16:31:46.489753+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1211322-1211322/asJsonSliderResult",
+      "contentType": "application/json;charset=UTF-8",
+      "hash": "b5e7a0cde8c3ca0b5da3c7d1f7de7c13f8b0f0e36d22fb85e278347bc94ee610"
+    },
+    {
+      "url": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1211292-1211292/asJsonSliderResult",
+      "checkedAt": "2026-10-10T16:31:46.493536+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1211292-1211292/asJsonSliderResult",
+      "contentType": "application/json;charset=UTF-8",
+      "hash": "6ab65badde1b4434f971c19b3e24f19e0fbacbc7f148c4787a4a77d96ec36e92"
+    },
+    {
+      "url": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1211282-1211282/asJsonSliderResult",
+      "checkedAt": "2026-10-10T16:31:46.493619+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1211282-1211282/asJsonSliderResult",
+      "contentType": "application/json;charset=UTF-8",
+      "hash": "dbc1127d23405bea22168287828586b3b3860a8b2ea0167c3e30b39c81c4e9f4"
+    },
+    {
+      "url": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1211278-1211278/asJsonSliderResult",
+      "checkedAt": "2026-10-10T16:31:46.493737+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1211278-1211278/asJsonSliderResult",
+      "contentType": "application/json;charset=UTF-8",
+      "hash": "c3f657b437972293e9c8648d496c6c0f4ba0a3c3c6bc4c224f92887a5482cbdb"
+    },
+    {
+      "url": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1211290-1211290/asJsonSliderResult",
+      "checkedAt": "2026-10-10T16:31:46.520687+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1211290-1211290/asJsonSliderResult",
+      "contentType": "application/json;charset=UTF-8",
+      "hash": "c2e95ed55344af2e53f234085442bf3b369e0c4be486fe458d8e52407b8473f9"
+    },
+    {
+      "url": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1211288-1211288/asJsonSliderResult",
+      "checkedAt": "2026-10-10T16:31:46.548801+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1211288-1211288/asJsonSliderResult",
+      "contentType": "application/json;charset=UTF-8",
+      "hash": "44139cd66b6223652a72343222ff90ae95c135d0a92475286c1f8575d784824a"
+    },
+    {
+      "url": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1211270-1211270/asJsonSliderResult",
+      "checkedAt": "2026-10-10T16:31:46.554736+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1211270-1211270/asJsonSliderResult",
+      "contentType": "application/json;charset=UTF-8",
+      "hash": "da5a9960fd4f2ef7618ad370f67cc72537a786c1ebb68cf6540aa2564ce2e094"
+    },
+    {
+      "url": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1211286-1211286/asJsonSliderResult",
+      "checkedAt": "2026-10-10T16:31:46.554914+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bundestag.de/blueprint/servlet/ajax/content/de/1211286-1211286/asJsonSliderResult",
+      "contentType": "application/json;charset=UTF-8",
+      "hash": "13443b1595819a713eb2cb04c3fe1191b43bb6c449f9896bd075853d65fa8325"
+    }
+  ],
+  "articles": [
+    {
+      "i": 0,
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw42-de-regierungserklaerung-1223644",
+      "title": "Regierungserklärung des Bundeskanzlers zum Europäischen Rat",
+      "dates": [
+        "2026-10-09"
+      ],
+      "existing": [
+        "daily-de-20261009-bt-0"
+      ]
+    },
+    {
+      "i": 1,
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw42-de-regierungsbefragung-1154744",
+      "title": "Dorothee Bär und Karsten Wildberger stellen sich den Fragen der Abgeordneten",
+      "dates": [
+        "2026-10-09"
+      ],
+      "existing": [
+        "daily-de-20261009-bt-1"
+      ]
+    },
+    {
+      "i": 2,
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw42-de-fragestunde-1154764",
+      "title": "Fragestunde am 14. Oktober",
+      "dates": [
+        "2026-10-09"
+      ],
+      "existing": [
+        "daily-de-20261009-bt-2"
+      ]
+    },
+    {
+      "i": 3,
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw42-de-aufstiegsfortbildung-1223570",
+      "title": "Beratung der Novelle des Aufstiegsfortbildungs­förderungsgesetzes",
+      "dates": [
+        "2026-10-09"
+      ],
+      "existing": [
+        "daily-de-20261009-bt-3"
+      ]
+    },
+    {
+      "i": 4,
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw42-de-staatsgold-1223572",
+      "title": "Lagerung des Staatsgold in Deutschland",
+      "dates": [
+        "2026-03-18",
+        "2026-10-09"
+      ],
+      "existing": [
+        "daily-de-20261009-bt-4"
+      ]
+    },
+    {
+      "i": 5,
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw42-de-genossenschaften-1223574",
+      "title": "Regierung plant Modernisierung des Genossenschaftsrechts",
+      "dates": [
+        "2026-10-09"
+      ],
+      "existing": [
+        "daily-de-20261009-bt-5"
+      ]
+    },
+    {
+      "i": 6,
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw42-de-ovaherero-nama-1223576",
+      "title": "Aussprache über Anträge zur deutschen Kolonialgeschichte",
+      "dates": [
+        "2026-10-09"
+      ],
+      "existing": [
+        "daily-de-20261009-bt-6"
+      ]
+    },
+    {
+      "i": 7,
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw42-de-notfallversorgung-1223578",
+      "title": "Bundestag entscheidet über die Reform der Notfallversorgung",
+      "dates": [
+        "2026-07-09",
+        "2026-09-09",
+        "2026-10-09"
+      ],
+      "existing": [
+        "daily-de-20261009-bt-7"
+      ]
+    },
+    {
+      "i": 8,
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw42-de-migrationsbilanz-1223580",
+      "title": "Debatte über Kosten und Nutzen der Zuwanderung",
+      "dates": [
+        "2026-10-09"
+      ],
+      "existing": [
+        "daily-de-20261009-bt-8"
+      ]
+    },
+    {
+      "i": 9,
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw42-de-bafoeg-1223582",
+      "title": "Erste Lesung zur geplanten BAföG-Novelle",
+      "dates": [
+        "2026-10-09"
+      ],
+      "existing": [
+        "daily-de-20261009-bt-9"
+      ]
+    },
+    {
+      "i": 10,
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw42-de-familien-1223584",
+      "title": "Familienpolitik im Mittelpunkt einer Bundestagsdebatte",
+      "dates": [
+        "2026-10-09"
+      ],
+      "existing": [
+        "daily-de-20261009-bt-10"
+      ]
+    },
+    {
+      "i": 11,
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw42-de-ueberweisungen-1154766",
+      "title": "Überweisungen im vereinfachten Verfahren",
+      "dates": [
+        "2026-10-09"
+      ],
+      "existing": [
+        "daily-de-20261009-bt-11"
+      ]
+    },
+    {
+      "i": 12,
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw42-de-abschliessende-beratungen-1154762",
+      "title": "Abschließende Beratungen ohne Aussprache",
+      "dates": [
+        "2026-10-09"
+      ],
+      "existing": [
+        "daily-de-20261009-bt-12"
+      ]
+    },
+    {
+      "i": 13,
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw42-de-digitale-identitaeten-gesetz-1223586",
+      "title": "Bundestag will Weg für die EUDI-Wallet frei machen",
+      "dates": [
+        "2026-09-23",
+        "2026-10-06",
+        "2026-10-09"
+      ],
+      "existing": [
+        "daily-de-20261009-bt-13"
+      ]
+    },
+    {
+      "i": 14,
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw42-de-erdgas-1223588",
+      "title": "Anträge zur Energieversorgung Deutschlands werden beraten",
+      "dates": [
+        "2026-10-09"
+      ],
+      "existing": [
+        "daily-de-20261009-bt-14"
+      ]
+    },
+    {
+      "i": 15,
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw42-de-bundeswehr-eunavfor-aspides-1223590",
+      "title": "Abstimmung über Bundeswehreinsatz im Roten Meer",
+      "dates": [
+        "2026-10-08",
+        "2026-10-09"
+      ],
+      "existing": [
+        "daily-de-20261009-bt-15"
+      ]
+    },
+    {
+      "i": 16,
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw42-de-bundeswehr-unmiss-1223592",
+      "title": "Bundestag entscheidet über Bundeswehreinsatz in Südsudan",
+      "dates": [
+        "2026-10-08",
+        "2026-10-09"
+      ],
+      "existing": [
+        "daily-de-20261009-bt-16"
+      ]
+    },
+    {
+      "i": 17,
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw42-de-pflege-1223594",
+      "title": "Debatte über Anträge zur Finanzierung der Pflege",
+      "dates": [
+        "2026-10-09"
+      ],
+      "existing": [
+        "daily-de-20261009-bt-17"
+      ]
+    },
+    {
+      "i": 18,
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw42-de-reservestaerkungsgesetz-1223596",
+      "title": "Reservistendienst in der Bundeswehr soll neu geregelt werden",
+      "dates": [
+        "2026-10-09"
+      ],
+      "existing": [
+        "daily-de-20261009-bt-18"
+      ]
+    },
+    {
+      "i": 19,
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw42-de-handelsschutz-1223598",
+      "title": "Anträge zur deutschen Handels- und Energiepolitik",
+      "dates": [
+        "2026-10-09"
+      ],
+      "existing": [
+        "daily-de-20261009-bt-19"
+      ]
+    },
+    {
+      "i": 20,
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw42-de-ukraine-1223600",
+      "title": "Einrichtung einer internationalen Schadensersatzkommission für die Ukraine",
+      "dates": [
+        "2026-10-08",
+        "2026-10-09"
+      ],
+      "existing": [
+        "daily-de-20261009-bt-20"
+      ]
+    },
+    {
+      "i": 21,
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw42-de-verlagspreis-1223602",
+      "title": "Antrag fordert Streichung des Deutschen Verlagspreises",
+      "dates": [
+        "2026-10-09"
+      ],
+      "existing": [
+        "daily-de-20261009-bt-21"
+      ]
+    },
+    {
+      "i": 22,
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw42-de-flugkraftstoffe-1223604",
+      "title": "Abstimmung über Gesetzentwürfe zur Regelung des Flugverkehrs",
+      "dates": [
+        "2026-09-24",
+        "2026-10-09"
+      ],
+      "existing": [
+        "daily-de-20261009-bt-22"
+      ]
+    },
+    {
+      "i": 23,
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw42-de-gap-1223606",
+      "title": "Entlastung landwirtschaftlicher Betriebe von Bürokratieaufwand",
+      "dates": [
+        "2026-10-09"
+      ],
+      "existing": [
+        "daily-de-20261009-bt-23"
+      ]
+    },
+    {
+      "i": 24,
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw42-de-brennstoffemissionshandelsgesetz-1223608",
+      "title": "Regierung plant Novelle des Brennstoffemissionshandelsgesetzes",
+      "dates": [
+        "2026-09-24",
+        "2026-10-07",
+        "2026-10-09"
+      ],
+      "existing": [
+        "daily-de-20261009-bt-24"
+      ]
+    },
+    {
+      "i": 25,
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw42-de-menschenrechtspolitik-1223610",
+      "title": "Debatte über Menschenrechtspolitik der Bundesregierung",
+      "dates": [
+        "2026-01-14",
+        "2026-10-09"
+      ],
+      "existing": [
+        "daily-de-20261009-bt-25"
+      ]
+    },
+    {
+      "i": 26,
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw42-de-buerokratierueckbau-agrar-1223612",
+      "title": "Gesetzentwurf zum Bürokratierückbau in der Landwirtschaft",
+      "dates": [
+        "2026-10-09"
+      ],
+      "existing": [
+        "daily-de-20261009-bt-26"
+      ]
+    },
+    {
+      "i": 27,
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw42-de-bundeswehr-infrastruktur-1223614",
+      "title": "Erste Lesung zum Bundeswehr-Infrastrukturbeschleunigungsgesetz",
+      "dates": [
+        "2026-10-09"
+      ],
+      "existing": [
+        "daily-de-20261009-bt-27"
+      ]
+    },
+    {
+      "i": 28,
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw42-de-bundesopferbeauftragtengesetz-1223618",
+      "title": "Entwurf für ein Bundesopferbeauftragtengesetz",
+      "dates": [
+        "2026-10-09"
+      ],
+      "existing": [
+        "daily-de-20261009-bt-28"
+      ]
+    },
+    {
+      "i": 29,
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw42-de-strahlenschutzrecht-1223620",
+      "title": "Modernisierung des Strahlenschutzrechts",
+      "dates": [
+        "2026-10-06",
+        "2026-10-10"
+      ],
+      "existing": [
+        "daily-de-20261009-bt-29"
+      ]
+    },
+    {
+      "i": 30,
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw42-de-stiftung-flucht-1223616",
+      "title": "Selbstständigkeit der Stiftung Flucht, Vertreibung, Versöhnung",
+      "dates": [
+        "2026-10-09"
+      ],
+      "existing": [
+        "daily-de-20261009-bt-30"
+      ]
+    },
+    {
+      "i": 31,
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw42-de-fruehstartrente-1223624",
+      "title": "Parlament entscheidet über geplante Frühstartrente",
+      "dates": [
+        "2026-10-01",
+        "2026-10-05",
+        "2026-10-09"
+      ],
+      "existing": [
+        "daily-de-20261009-bt-31"
+      ]
+    },
+    {
+      "i": 32,
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw42-de-pflegeversicherung-1223626",
+      "title": "Bundestag berät Anträge zur Pflegeversicherung",
+      "dates": [
+        "2026-10-09"
+      ],
+      "existing": [
+        "daily-de-20261009-bt-32"
+      ]
+    },
+    {
+      "i": 33,
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw42-de-buerokratierueckbau-verkehr-1223628",
+      "title": "Debatte zum Bürokratierückbau im Verkehrsbereich",
+      "dates": [
+        "2026-10-06",
+        "2026-10-09"
+      ],
+      "existing": [
+        "daily-de-20261009-bt-33"
+      ]
+    },
+    {
+      "i": 34,
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw42-de-biodiversitaet-1223632",
+      "title": "Forderungen im Vorfeld der Weltbiodiversitätskonferenz in Jerewan",
+      "dates": [
+        "2026-10-09"
+      ],
+      "existing": [
+        "daily-de-20261009-bt-34"
+      ]
+    },
+    {
+      "i": 35,
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw42-de-schiedsverfahrensrecht-1223634",
+      "title": "Erste Lesung zur Modernisierung des Schiedsverfahrensrechts",
+      "dates": [
+        "2026-10-09"
+      ],
+      "existing": [
+        "daily-de-20261009-bt-35"
+      ]
+    },
+    {
+      "i": 36,
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw42-de-technologieoffenheit-1223636",
+      "title": "Forderung nach Technologieoffenheit im Verkehrssektor",
+      "dates": [
+        "2026-10-09"
+      ],
+      "existing": [
+        "daily-de-20261009-bt-36"
+      ]
+    },
+    {
+      "i": 37,
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-de-aktuelle-stunde-sachsen-anhalt-1223410",
+      "title": "Konsequenzen aus der Landtagswahl in Sachsen-Anhalt",
+      "dates": [
+        "2026-10-09"
+      ],
+      "existing": [
+        "daily-de-20261009-bt-37"
+      ]
+    },
+    {
+      "i": 38,
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-de-babyn-jar-1222766",
+      "title": "Bundestag erinnert an das Massaker von Babyn Jar in der Ukraine vor 85 Jahren",
+      "dates": [
+        "2026-10-09"
+      ],
+      "existing": [
+        "daily-de-20261009-bt-38"
+      ]
+    },
+    {
+      "i": 39,
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-de-tuerkei-1217576",
+      "title": "Abgesetzt: Partnerschaft zwischen Deutschland und der Türkei",
+      "dates": [
+        "2026-10-08"
+      ],
+      "existing": [
+        "daily-de-20261009-bt-39"
+      ]
+    },
+    {
+      "i": 40,
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-de-finanzkriminalitaet-1217574",
+      "title": "Stärkung der Zollverwaltung und Bekämpfung der Finanzkriminalität",
+      "dates": [
+        "2026-10-09"
+      ],
+      "existing": [
+        "daily-de-20261009-bt-40"
+      ]
+    },
+    {
+      "i": 41,
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-de-buerokratierueckbau-1217570",
+      "title": "Abgesetzt: Debatte zum Bürokratierückbau im Verkehrsbereich",
+      "dates": [
+        "2026-10-06",
+        "2026-10-09"
+      ],
+      "existing": [
+        "daily-de-20261009-bt-41"
+      ]
+    },
+    {
+      "i": 42,
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-de-regelaltersgrenze-1217530",
+      "title": "Anträge zur Rentenpolitik debattiert",
+      "dates": [
+        "2026-10-09"
+      ],
+      "existing": [
+        "daily-de-20261009-bt-42"
+      ]
+    },
+    {
+      "i": 43,
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-de-startchancengesetz-1217528",
+      "title": "Qualitätsentwicklung in der Kindertagesbetreuung beraten",
+      "dates": [
+        "2026-10-09"
+      ],
+      "existing": [
+        "daily-de-20261009-bt-43"
+      ]
+    },
+    {
+      "i": 44,
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-de-migrationswende-1222454",
+      "title": "Maßnahmen für eine Migrationswende erörtert",
+      "dates": [
+        "2026-10-09"
+      ],
+      "existing": [
+        "daily-de-20261009-bt-44"
+      ]
+    },
+    {
+      "i": 45,
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-de-telekommunikationsnetze-1217568",
+      "title": "Debatte über schnelleren Ausbau von Glasfaser- und Mobilfunknetzen",
+      "dates": [
+        "2026-10-09"
+      ],
+      "existing": [
+        "daily-de-20261009-bt-45"
+      ]
+    },
+    {
+      "i": 46,
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-pa-forschung-ki-sicherheit-1223046",
+      "title": "Fachgespräch zur Sicherheit von Künstlicher Intelligenz",
+      "dates": [
+        "2026-10-09"
+      ],
+      "existing": [
+        "daily-de-20261009-bt-46"
+      ]
+    },
+    {
+      "i": 47,
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-pa-wirtschaft-biomasse-1218062",
+      "title": "Kritik an der Biomasseverordnung",
+      "dates": [
+        "2026-10-09"
+      ],
+      "existing": [
+        "daily-de-20261009-bt-47"
+      ]
+    },
+    {
+      "i": 48,
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-de-entwaldungsfreie-produkte-1222198",
+      "title": "Neuregelung des Rechts über entwaldungsfreie Produkte debattiert",
+      "dates": [
+        "2026-10-08"
+      ],
+      "existing": [
+        "daily-de-20261009-bt-48"
+      ]
+    },
+    {
+      "i": 49,
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-de-wohngeldgesetz-1217564",
+      "title": "Vereinfachung und Fortentwicklung des Wohngeldgesetzes",
+      "dates": [
+        "2026-10-08"
+      ],
+      "existing": [
+        "daily-de-20261009-bt-49"
+      ]
+    },
+    {
+      "i": 50,
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-de-polizeivertrag-belgien-1217562",
+      "title": "Polizei- und Zollzusammenarbeit mit Belgien erörtert",
+      "dates": [
+        "2026-10-08"
+      ],
+      "existing": [
+        "daily-de-20261009-bt-50"
+      ]
+    },
+    {
+      "i": 51,
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-de-strahlenschutzrecht-1217560",
+      "title": "Abgesetzt: Modernisierung des Strahlenschutzrechts",
+      "dates": [
+        "2026-10-06",
+        "2026-10-10"
+      ],
+      "existing": [
+        "daily-de-20261009-bt-51"
+      ]
+    },
+    {
+      "i": 52,
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-de-energiewirtschaftsgesetz-1217558",
+      "title": "Strompreissenkung durch Zuschuss zu den Übertragungsnetzkosten",
+      "dates": [
+        "2026-10-08"
+      ],
+      "existing": [
+        "daily-de-20261009-bt-52"
+      ]
+    },
+    {
+      "i": 53,
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-de-windenergie-auf-see-1217556",
+      "title": "Optimierung des Ausbaus der Windenergie auf See",
+      "dates": [
+        "2026-10-08"
+      ],
+      "existing": [
+        "daily-de-20261009-bt-53"
+      ]
+    },
+    {
+      "i": 54,
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-de-ukraine-1217554",
+      "title": "Einrichtung einer interna­tionalen Schadensersatz­kommission für die Ukraine",
+      "dates": [
+        "2026-10-08",
+        "2026-10-09"
+      ],
+      "existing": [
+        "daily-de-20261009-bt-54"
+      ]
+    },
+    {
+      "i": 55,
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-de-kinder-jugendhilfe-1217552",
+      "title": "Erste Lesung der Strukturreform der Kinder- und Jugendhilfe",
+      "dates": [
+        "2026-10-08"
+      ],
+      "existing": [
+        "daily-de-20261009-bt-55"
+      ]
+    },
+    {
+      "i": 56,
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-de-ki-migrationsverwaltung-1217550",
+      "title": "Einsatz künstlicher Intelligenz in der Migrationsverwaltung",
+      "dates": [
+        "2026-10-08"
+      ],
+      "existing": [
+        "daily-de-20261009-bt-56"
+      ]
+    },
+    {
+      "i": 57,
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-de-kryptowerte-1217548",
+      "title": "Informationsaustausch über den Handel mit Kryptowerten beschlossen",
+      "dates": [
+        "2026-09-24",
+        "2026-10-08"
+      ],
+      "existing": [
+        "de-carf-bundestag-passage-20261008",
+        "de-carf-first-reading-context-20261008"
+      ]
+    },
+    {
+      "i": 58,
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-de-ausbaustrecke-1222180",
+      "title": "Zusätzliche Lärmvorsorge für Schienenneubau­strecke Hannover – Hamburg",
+      "dates": [
+        "2026-04-20",
+        "2026-09-22",
+        "2026-10-09"
+      ],
+      "existing": [
+        "daily-de-20261009-bt-58"
+      ]
+    },
+    {
+      "i": 59,
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-de-produkthaftungsrecht-1222456",
+      "title": "Bundestag beschließt Modernisierung des Produkthaftungsrechts",
+      "dates": [
+        "2026-03-04",
+        "2026-04-13",
+        "2026-10-08"
+      ],
+      "existing": [
+        "daily-de-20261009-bt-59"
+      ]
+    },
+    {
+      "i": 60,
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-de-buergerrat-1222760",
+      "title": "Nein zur Einberufung eines Bürgerrats zu gleichwerti­gen Lebensverhältnissen",
+      "dates": [
+        "2026-10-08"
+      ],
+      "existing": [
+        "daily-de-20261009-bt-60"
+      ]
+    },
+    {
+      "i": 61,
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-de-digitale-innovation-1217540",
+      "title": "Digitalisierung im Gesundheitswesen und in der Pflege",
+      "dates": [
+        "2026-10-08"
+      ],
+      "existing": [
+        "daily-de-20261009-bt-61"
+      ]
+    },
+    {
+      "i": 62,
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-de-rentenversicherung-1222458",
+      "title": "Unabhängigkeit der Deutschen Rentenversicherung debattiert",
+      "dates": [
+        "2026-10-08"
+      ],
+      "existing": [
+        "daily-de-20261009-bt-62"
+      ]
+    },
+    {
+      "i": 63,
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-de-befristungsrecht-1217536",
+      "title": "Reform des Befristungsrechts in der Wissenschaft beraten",
+      "dates": [
+        "2026-10-08"
+      ],
+      "existing": [
+        "daily-de-20261009-bt-63"
+      ]
+    },
+    {
+      "i": 64,
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-de-lebensmittelversorgung-1217542",
+      "title": "Bundestag lehnt Anträge zur Lebensmittelversorgung ab",
+      "dates": [
+        "2026-07-09",
+        "2026-10-08"
+      ],
+      "existing": [
+        "daily-de-20261009-bt-64"
+      ]
+    },
+    {
+      "i": 65,
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-de-bundeswehr-unmiss-1217516",
+      "title": "Verlängerung des Bundeswehreinsatzes in Südsudan",
+      "dates": [
+        "2026-10-08",
+        "2026-10-09"
+      ],
+      "existing": [
+        "daily-de-20261009-bt-65"
+      ]
+    },
+    {
+      "i": 66,
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-de-bauen-wohnen-1217538",
+      "title": "Bezahlbares Wohneigen­tum und Baulandvergabe an Einheimische erörtert",
+      "dates": [
+        "2026-10-08"
+      ],
+      "existing": [
+        "daily-de-20261009-bt-66"
+      ]
+    },
+    {
+      "i": 67,
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-de-bundeswehr-eunavfor-aspides-1217512",
+      "title": "Bundeswehreinsatz im Roten Meer soll fortgeführt werden",
+      "dates": [
+        "2026-10-08",
+        "2026-10-09"
+      ],
+      "existing": [
+        "daily-de-20261009-bt-67"
+      ]
+    },
+    {
+      "i": 68,
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-de-meinungsfreiheit-1217534",
+      "title": "Meinungsfreiheit in den sozialen Netzwerken erörtert",
+      "dates": [
+        "2026-10-08"
+      ],
+      "existing": [
+        "daily-de-20261009-bt-68"
+      ]
+    },
+    {
+      "i": 69,
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-de-praenataltests-1184324",
+      "title": "Ja zum Monitoring der Kassenzulassung des nicht-invasiven Pränataltests",
+      "dates": [
+        "2026-03-20",
+        "2026-10-08"
+      ],
+      "existing": [
+        "daily-de-20261009-bt-69"
+      ]
+    },
+    {
+      "i": 70,
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-de-bericht-ostdeutschland-2026-1222200",
+      "title": "Bericht der Beauftragten der Bundesregierung für Ost­deutschland 2026 beraten",
+      "dates": [
+        "2026-10-08"
+      ],
+      "existing": [
+        "daily-de-20261009-bt-70"
+      ]
+    },
+    {
+      "i": 71,
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-de-aktuelle-stunde-wirtschaftsprognosen-1222762",
+      "title": "Unzufriedenheit mit dem fragilen Wirtschafts­aufschwung",
+      "dates": [
+        "2026-10-08"
+      ],
+      "existing": [
+        "daily-de-20261009-bt-71"
+      ]
+    },
+    {
+      "i": 72,
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-de-wahl-kfw-1222472",
+      "title": "Bundestag lehnt AfD-Wahlvorschlag zum Verwaltungsrat der KfW ab",
+      "dates": [
+        "2026-10-08"
+      ],
+      "existing": [
+        "daily-de-20261009-bt-72"
+      ]
+    },
+    {
+      "i": 73,
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-de-abschliessende-beratungen-1154720",
+      "title": "Abschließende Beratungen ohne Aussprache",
+      "dates": [
+        "2026-10-08"
+      ],
+      "existing": [
+        "daily-de-20261009-bt-73"
+      ]
+    },
+    {
+      "i": 74,
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-de-ueberweisungen-1154722",
+      "title": "Überweisungen im vereinfachten Verfahren",
+      "dates": [
+        "2026-10-08"
+      ],
+      "existing": [
+        "daily-de-20261009-bt-74"
+      ]
+    },
+    {
+      "i": 75,
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-ausstellung-israel-1221562",
+      "title": "Ausstellung zum Terrorangriff vom 7. Oktober 2023 auf Israel eröffnet",
+      "dates": [],
+      "existing": []
+    },
+    {
+      "i": 76,
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-de-linksextreme-gewalt-1217526",
+      "title": "Kontroverse über Sondierungsgespräche zur Regierungsbildung in Berlin",
+      "dates": [
+        "2026-09-22",
+        "2026-10-08"
+      ],
+      "existing": [
+        "daily-de-20261009-bt-76"
+      ]
+    },
+    {
+      "i": 77,
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-pa-bildung-donnerstag-1221648",
+      "title": "Pisa-Studie: Plädoyer für möglichst frühe Bildungsprozesse",
+      "dates": [
+        "2026-10-08"
+      ],
+      "existing": [
+        "daily-de-20261009-bt-77"
+      ]
+    },
+    {
+      "i": 78,
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-de-vereinbarte-debatte-nachhaltigkeit-1217524",
+      "title": "Nachhaltigkeit und Zukunftsfragen erörtert",
+      "dates": [
+        "2026-10-08"
+      ],
+      "existing": [
+        "daily-de-20261009-bt-78"
+      ]
+    },
+    {
+      "i": 79,
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-de-steuersystem-1217522",
+      "title": "Gesetzentwürfe und Anträge zum Steuersystem abgelehnt",
+      "dates": [
+        "2026-10-08"
+      ],
+      "existing": [
+        "de-crypto-vote-with-bmf-alternative-20261008"
+      ]
+    },
+    {
+      "i": 80,
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-de-einkommensteuerreform-1217520",
+      "title": "Einkommensteuerreformgesetz soll kleine und mittlere Einkommen entlasten",
+      "dates": [
+        "2026-10-08"
+      ],
+      "existing": [
+        "daily-de-20261009-bt-80"
+      ]
+    },
+    {
+      "i": 81,
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-de-erinnerungskultur-1217518",
+      "title": "Forderung nach Neuausrichtung der deutschen Erinnerungskultur",
+      "dates": [
+        "2026-10-07"
+      ],
+      "existing": [
+        "daily-de-20261009-bt-81"
+      ]
+    },
+    {
+      "i": 82,
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-de-mercosur-1217578",
+      "title": "Partnerschaftsabkommen der EU mit den Mercosur-Staaten",
+      "dates": [
+        "2026-10-07"
+      ],
+      "existing": [
+        "daily-de-20261009-bt-82"
+      ]
+    },
+    {
+      "i": 83,
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-de-organisierte-kriminalitaet-1217514",
+      "title": "Antrag fordert Zerschlagung der organisierten Kriminalität",
+      "dates": [
+        "2026-10-07"
+      ],
+      "existing": [
+        "daily-de-20261009-bt-83"
+      ]
+    },
+    {
+      "i": 84,
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-pa-nachhaltigkeitsbeirat-1221634",
+      "title": "Zukunft der Arbeit: Betriebsnahe Weiterbildung als Schlüssel",
+      "dates": [
+        "2026-10-07"
+      ],
+      "existing": [
+        "daily-de-20261009-bt-84"
+      ]
+    },
+    {
+      "i": 85,
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-de-vereinbarte-debatte-israel-1222196",
+      "title": "Debatte zum Schutz jüdischen Lebens in Deutschland",
+      "dates": [
+        "2026-10-07"
+      ],
+      "existing": [
+        "daily-de-20261009-bt-85"
+      ]
+    },
+    {
+      "i": 86,
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-de-aktuelle-stunde-ukraine-1222758",
+      "title": "Fraktionen streiten über finanzielle Unterstützung der Ukraine",
+      "dates": [
+        "2026-10-07"
+      ],
+      "existing": [
+        "daily-de-20261009-bt-86"
+      ]
+    },
+    {
+      "i": 87,
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-pa-gesundheit-1217920",
+      "title": "Lob der Verbände für geplante Entlastungen im GKV-Sparpaket",
+      "dates": [
+        "2026-06-15",
+        "2026-10-07"
+      ],
+      "existing": [
+        "daily-de-20261009-bt-87"
+      ]
+    },
+    {
+      "i": 88,
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-de-fragestunde-1154732",
+      "title": "Fragestunde am 7. Oktober",
+      "dates": [
+        "2026-10-07"
+      ],
+      "existing": [
+        "daily-de-20261009-bt-88"
+      ]
+    },
+    {
+      "i": 89,
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-pa-tourismus-1206184",
+      "title": "E-Umstieg große Herausforderung für Bustouristik-Branche",
+      "dates": [
+        "2026-10-07"
+      ],
+      "existing": [
+        "daily-de-20261009-bt-89"
+      ]
+    },
+    {
+      "i": 90,
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-pa-digitales-bfdi-1222380",
+      "title": "Bundesdatenschutzbeauftragter Hennemann stellt sich vor",
+      "dates": [
+        "2026-10-08"
+      ],
+      "existing": [
+        "daily-de-20261009-bt-90"
+      ]
+    },
+    {
+      "i": 91,
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-de-regierungsbefragung-1154718",
+      "title": "Reiche: Für Wettbewerbs­fähigkeit und nachhaltiges Wachstum sorgen",
+      "dates": [
+        "2026-10-07"
+      ],
+      "existing": [
+        "daily-de-20261009-bt-91"
+      ]
+    },
+    {
+      "i": 92,
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-de-einleitende-worte-1222854",
+      "title": "Klöckner erinnert an die Opfer des Terrorangriffs der Hamas vom 7. Oktober 2023",
+      "dates": [
+        "2026-10-07"
+      ],
+      "existing": []
+    },
+    {
+      "i": 93,
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-pa-recht-betreuungsrecht-1201714",
+      "title": "Änderungen bei ärztlichen Zwangsmaßnahmen im Betreuungsrecht",
+      "dates": [
+        "2026-09-24",
+        "2026-10-07"
+      ],
+      "existing": [
+        "daily-de-20261009-bt-92"
+      ]
+    },
+    {
+      "i": 94,
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-pa-recht-ip-adressspeicherung-1221516",
+      "title": "Sachverständige uneins bei geplanter IP-Adressspeicherung",
+      "dates": [
+        "2026-07-16",
+        "2026-10-07"
+      ],
+      "existing": [
+        "daily-de-20261009-bt-94"
+      ]
+    },
+    {
+      "i": 95,
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-pa-bildung-mittwoch-1221652",
+      "title": "Fachgespräch zu KI und Berufsbildung und -ori­entierung",
+      "dates": [
+        "2026-10-07"
+      ],
+      "existing": [
+        "daily-de-20261009-bt-95"
+      ]
+    },
+    {
+      "i": 96,
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-pa-forschung-1221660",
+      "title": "Fachgespräch zur jüdischen Gegenwartsforschung",
+      "dates": [
+        "2026-10-07"
+      ],
+      "existing": [
+        "daily-de-20261009-bt-96"
+      ]
+    },
+    {
+      "i": 97,
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-pa-umwelt-1217926",
+      "title": "Gesetz zum Brennstoffemissionshandel auf dem Prüfstand",
+      "dates": [
+        "2026-09-24",
+        "2026-10-07",
+        "2026-10-09"
+      ],
+      "existing": [
+        "daily-de-20261009-bt-97"
+      ]
+    },
+    {
+      "i": 98,
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-interview-heinrich-1222938",
+      "title": "Heinrich: Demokra­tie und Rechts­staatlichkeit in der Türkei und Georgien bedroht",
+      "dates": [
+        "2026-10-07"
+      ],
+      "existing": [
+        "daily-de-20261009-bt-98"
+      ]
+    },
+    {
+      "i": 99,
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-pa-wirtschaft-energiewirtschaftsrecht-1217934",
+      "title": "Experten üben heftige Kritik am Redispatch-Vorbehalt",
+      "dates": [
+        "2026-09-24",
+        "2026-10-07"
+      ],
+      "existing": [
+        "daily-de-20261009-bt-99"
+      ]
+    },
+    {
+      "i": 100,
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-pa-digitales-1218122",
+      "title": "Sachverständige begrüßen Einführung der EUDI-Wallet",
+      "dates": [
+        "2026-09-23",
+        "2026-10-06",
+        "2026-10-09"
+      ],
+      "existing": [
+        "daily-de-20261009-bt-100"
+      ]
+    },
+    {
+      "i": 101,
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-pa-pkgr-1211186",
+      "title": "Nachrichtendienste sehen Russland als gefährlichsten Gegner",
+      "dates": [
+        "2026-10-05"
+      ],
+      "existing": [
+        "daily-de-20261009-bt-101"
+      ]
+    },
+    {
+      "i": 102,
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-pa-ua-krisenpraevention-1201676",
+      "title": "Globale Risiken in Nationaler Sicherheitsstrategie ausreichend berücksichtigen",
+      "dates": [
+        "2026-10-06"
+      ],
+      "existing": [
+        "daily-de-20261009-bt-102"
+      ]
+    },
+    {
+      "i": 103,
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-pa-recht-strafsachen-1201700",
+      "title": "Experten fordern Rechtsbehelf im Auslieferungs­verfahren",
+      "dates": [
+        "2026-09-24",
+        "2026-10-06"
+      ],
+      "existing": [
+        "daily-de-20261009-bt-103"
+      ]
+    },
+    {
+      "i": 104,
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-pa-inneres-vereinsgesetz-1221644",
+      "title": "Nachbesserungen am Entwurf zur Änderung des Vereins­gesetzes angemahnt",
+      "dates": [
+        "2026-07-09",
+        "2026-10-06"
+      ],
+      "existing": [
+        "daily-de-20261009-bt-104"
+      ]
+    },
+    {
+      "i": 105,
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-pa-finanzen-tabaksteuer-1218102",
+      "title": "Tabakwirtschaft warnt vor zu starken Steuererhöhungen",
+      "dates": [
+        "2026-09-24",
+        "2026-10-06"
+      ],
+      "existing": [
+        "daily-de-20261009-bt-105"
+      ]
+    },
+    {
+      "i": 106,
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-pa-wirtschaft-energieeffizienzrichtlinie-1218082",
+      "title": "Unterschiedliche Bewer­tungen der Umsetzung der EU-Energieeffizienzrichtlinie",
+      "dates": [
+        "2026-09-24",
+        "2026-10-05"
+      ],
+      "existing": [
+        "daily-de-20261009-bt-106"
+      ]
+    },
+    {
+      "i": 107,
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-pa-recht-k-o-tropfen-1201682",
+      "title": "Experten: Höhere Strafe für Einsatz von K.o.-Tropfen",
+      "dates": [
+        "2026-09-23",
+        "2026-10-06"
+      ],
+      "existing": [
+        "daily-de-20261009-bt-107"
+      ]
+    },
+    {
+      "i": 108,
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-pa-inneres-cybersicherheit-1221640",
+      "title": "Lob und Kritik zum Cyberabwehr-Gesetzentwurf",
+      "dates": [
+        "2026-08-02",
+        "2026-10-05"
+      ],
+      "existing": [
+        "daily-de-20261009-bt-108"
+      ]
+    },
+    {
+      "i": 109,
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-pa-finanzen-fruehstart-1218094",
+      "title": "Finanzwirtschaft lobt die Frühstartrente",
+      "dates": [
+        "2026-10-01",
+        "2026-10-05",
+        "2026-10-09"
+      ],
+      "existing": [
+        "daily-de-20261009-bt-109"
+      ]
+    },
+    {
+      "i": 110,
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-pa-wirtschaft-stromsektor-1218072",
+      "title": "Experten: Beim Ausbau erneuerbarer Energien nicht nachlassen",
+      "dates": [
+        "2026-10-02",
+        "2026-10-05"
+      ],
+      "existing": [
+        "daily-de-20261009-bt-110"
+      ]
+    },
+    {
+      "i": 111,
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-pa-recht-gleichbehandlung-1221502",
+      "title": "Expertenstreit um die Novelle zum Antidiskriminierungsgesetz",
+      "dates": [
+        "2026-06-11",
+        "2026-10-06"
+      ],
+      "existing": [
+        "daily-de-20261009-bt-111"
+      ]
+    },
+    {
+      "i": 112,
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-pa-verkehr-1211240",
+      "title": "Führerscheinreform unter Sachverständigen umstritten",
+      "dates": [
+        "2026-09-24",
+        "2026-10-05"
+      ],
+      "existing": [
+        "daily-de-20261009-bt-112"
+      ]
+    },
+    {
+      "i": 113,
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw40-interview-graessle-1217996",
+      "title": "Inge Gräßle: Innovations­lücke in der EU mit privatem Geld schließen",
+      "dates": [
+        "2026-09-28"
+      ],
+      "existing": []
+    },
+    {
+      "i": 114,
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-de-energieversorgung-1217572",
+      "title": "Antrag fordert Stopp der Reprivatisierung von Uniper SE und SEFE GmbH",
+      "dates": [
+        "2026-10-08"
+      ],
+      "existing": [
+        "daily-de-20261009-bt-114"
+      ]
+    },
+    {
+      "i": 115,
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw39-de-aktuelle-stunde-ki-1216900",
+      "title": "Debatte zur Sicherheit und Kontrolle von KI-Systemen",
+      "dates": [
+        "2026-09-25"
+      ],
+      "existing": []
+    },
+    {
+      "i": 116,
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw39-de-verwaltungsgerichtsordnung-1211268",
+      "title": "Beschleunigung verwaltungsgerichtlicher Verfahren",
+      "dates": [
+        "2026-09-25"
+      ],
+      "existing": []
+    },
+    {
+      "i": 117,
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw39-de-ki-grenzschutz-1184308",
+      "title": "Forderung nach Einführung eines KI-Grenzschutzes beraten",
+      "dates": [
+        "2026-09-25"
+      ],
+      "existing": []
+    },
+    {
+      "i": 118,
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw39-de-linksextreme-gewalt-1211262",
+      "title": "Abgesetzt: Maßnahmen zur Bekämpfung von linksextremer Gewalt",
+      "dates": [
+        "2026-09-22",
+        "2026-10-08"
+      ],
+      "existing": [
+        "daily-de-20261009-bt-118"
+      ]
+    },
+    {
+      "i": 119,
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw39-de-arbeitsfoerderung-1211274",
+      "title": "Modernisierung und Digitalisierung der Arbeitsförderung erörtert",
+      "dates": [
+        "2026-10-01"
+      ],
+      "existing": []
+    },
+    {
+      "i": 120,
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw39-de-bundeszentrale-1217326",
+      "title": "Institutionelle Absicherung der Bundeszentrale für politische Bildung",
+      "dates": [
+        "2026-09-25"
+      ],
+      "existing": []
+    },
+    {
+      "i": 121,
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw39-de-versicherung-aufsicht-1216898",
+      "title": "Bundestag beschließt Tank­rabatt und ändert das Versicherungsrecht",
+      "dates": [
+        "2026-06-25",
+        "2026-07-06",
+        "2026-09-25"
+      ],
+      "existing": []
+    },
+    {
+      "i": 122,
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw39-de-solidarprinzip-1211318",
+      "title": "Fraktionen streiten über die Forderung nach Stärkung des Solidarprinzips",
+      "dates": [
+        "2026-09-25"
+      ],
+      "existing": []
+    },
+    {
+      "i": 123,
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw39-de-schuldnerberatungsdienste-1216228",
+      "title": "Vermitt­lungsergebnis zum Schuldnerberatungs­dienstegesetz zugestimmt",
+      "dates": [
+        "2026-04-17",
+        "2026-05-11",
+        "2026-05-15",
+        "2026-09-25"
+      ],
+      "existing": []
+    },
+    {
+      "i": 124,
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw39-de-fruehstartrente-1211316",
+      "title": "Einführung einer Frühstartrente für Sechs- bis Achtzehnjährige beraten",
+      "dates": [
+        "2026-10-01",
+        "2026-10-05",
+        "2026-10-09"
+      ],
+      "existing": []
+    },
+    {
+      "i": 125,
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw39-de-bundespolizeigesetz-1211314",
+      "title": "Modernisierung des Bundespolizeigesetzes in dritter Beratung beschlossen",
+      "dates": [
+        "2026-01-26",
+        "2026-07-17",
+        "2026-09-25"
+      ],
+      "existing": []
+    },
+    {
+      "i": 126,
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw39-de-brennstoffemissionshandelsgesetz-1211312",
+      "title": "CO2-Preis soll 2027 stabil gehalten werden",
+      "dates": [
+        "2026-09-24",
+        "2026-10-07",
+        "2026-10-09"
+      ],
+      "existing": []
+    },
+    {
+      "i": 127,
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw39-de-gap-1211310",
+      "title": "Entlastung landwirt­schaftlicher Betriebe von Bürokratieaufwand",
+      "dates": [
+        "2026-10-09"
+      ],
+      "existing": []
+    },
+    {
+      "i": 128,
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw39-de-tabaksteuergesetz-1211308",
+      "title": "Tabaksteuer soll vier Jahre lang regelmäßig erhöht werden",
+      "dates": [
+        "2026-09-24",
+        "2026-10-06"
+      ],
+      "existing": []
+    },
+    {
+      "i": 129,
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw39-de-energieeffizienzrichtlinie-1211306",
+      "title": "Beschleunigte Umsetzung der Energieeffizienz­richtlinie beraten",
+      "dates": [
+        "2026-09-24",
+        "2026-10-05"
+      ],
+      "existing": []
+    },
+    {
+      "i": 130,
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw39-de-betreuungsrecht-1211304",
+      "title": "Änderungen bei ärztlichen Zwangsmaßnahmen im Betreuungsrecht erörtert",
+      "dates": [
+        "2026-09-24"
+      ],
+      "existing": []
+    },
+    {
+      "i": 131,
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw39-de-rechtshilfe-strafsachen-1211324",
+      "title": "Neue Regelungen zur internationalen Rechtshilfe in Strafsachen debattiert",
+      "dates": [
+        "2026-09-24",
+        "2026-10-06"
+      ],
+      "existing": []
+    },
+    {
+      "i": 132,
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw39-de-gwb-novelle-1211322",
+      "title": "Kartellrechtsverfahren sollen effizienter und digitaler werden",
+      "dates": [
+        "2026-10-06"
+      ],
+      "existing": []
+    },
+    {
+      "i": 133,
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw39-de-wahlpruefung-1211292",
+      "title": "Einsprüche gegen die Bundestagswahl 2025 zurückgewiesen",
+      "dates": [
+        "2026-09-24"
+      ],
+      "existing": []
+    },
+    {
+      "i": 134,
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw39-de-fahrlehrergesetz-1211282",
+      "title": "Fahrschulausbildung soll reformiert werden",
+      "dates": [
+        "2026-09-24",
+        "2026-10-05"
+      ],
+      "existing": []
+    },
+    {
+      "i": 135,
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw39-de-medien-invest-vg-1211278",
+      "title": "Mediendienste-Investitionsverpflichtungs-Gesetz debattiert",
+      "dates": [
+        "2026-09-24"
+      ],
+      "existing": []
+    },
+    {
+      "i": 136,
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw39-de-ausbaustrecke-1211290",
+      "title": "Abgesetzt: Debatte über Schienenneubaustrecke Hannover – Hamburg",
+      "dates": [
+        "2026-04-20",
+        "2026-09-22",
+        "2026-10-09"
+      ],
+      "existing": []
+    },
+    {
+      "i": 137,
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw39-de-vermoegenswerte-1211288",
+      "title": "Ja zur Abschöpfung und Einziehung von Vermögen aus schweren Straftaten",
+      "dates": [
+        "2026-05-21",
+        "2026-09-24"
+      ],
+      "existing": []
+    },
+    {
+      "i": 138,
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw39-de-ngos-boykott-1211270",
+      "title": "Keine Ächtung von Boykott­maßnahmen durch Nicht­regierungsorganisationen",
+      "dates": [
+        "2026-03-26",
+        "2026-09-24"
+      ],
+      "existing": []
+    },
+    {
+      "i": 139,
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw39-de-designrecht-1211286",
+      "title": "Bundestag modernisiert das Designrecht",
+      "dates": [
+        "2026-06-11",
+        "2026-06-24",
+        "2026-09-24"
+      ],
+      "existing": []
+    }
+  ],
+  "browserObservations": [
+    {
+      "url": "https://www.bundesregierung.de/breg-de/bundesregierung/bundeskanzleramt/kabinettssitzungen/bundeskabinett-ergebnisse",
+      "checkedAt": "2026-10-10T16:37:38.169Z",
+      "method": "cua browser accessibility tree",
+      "observation": "Newest first: 59 total meetings. First 7.10.2026, second 30.9.2026. Only meeting 61 within 3–9 October."
+    },
+    {
+      "url": "https://dip.bundestag.de/erweiterte-suche?f.wahlperiode=21&rows=25",
+      "checkedAt": "2026-10-10T16:37:38.169Z",
+      "method": "cua browser DOM and accessibility tree",
+      "observation": "First 25 results read. Total unfiltered 123468 results; no complete pagination claim.",
+      "recordIds": [
+        "br-1069-top-50",
+        "br-1069-top-48",
+        "daily-de-20261010-dip-593-26",
+        "daily-de-20261010-dip-21-8461",
+        "daily-de-20261010-dip-21-8462",
+        "daily-de-20261010-dip-21-8450",
+        "daily-de-20261010-dip-wealth-tax"
+      ],
+      "excluded": [
+        {
+          "url": "https://dserver.bundestag.de/btd/21/084/2108486.pdf",
+          "reason": "本条为议员书面质询或答复进度，目录未宣告一项新的政策决定；保留线索，不据此认定相关政策改变。"
+        },
+        {
+          "url": "https://dserver.bundestag.de/btd/21/084/2108476.pdf",
+          "reason": "本条为议员书面质询或答复进度，目录未宣告一项新的政策决定；保留线索，不据此认定相关政策改变。"
+        },
+        {
+          "url": "https://dserver.bundestag.de/btd/21/081/2108196.pdf",
+          "reason": "本条为议员书面质询或答复进度，目录未宣告一项新的政策决定；保留线索，不据此认定相关政策改变。"
+        },
+        {
+          "url": "https://dserver.bundestag.de/btd/21/081/2108166.pdf",
+          "reason": "本条为议员书面质询或答复进度，目录未宣告一项新的政策决定；保留线索，不据此认定相关政策改变。"
+        },
+        {
+          "url": "https://dserver.bundestag.de/btd/21/081/2108165.pdf",
+          "reason": "本条为议员书面质询或答复进度，目录未宣告一项新的政策决定；保留线索，不据此认定相关政策改变。"
+        },
+        {
+          "url": "https://dserver.bundestag.de/btd/21/080/2108053.pdf",
+          "reason": "本条为议员书面质询或答复进度，目录未宣告一项新的政策决定；保留线索，不据此认定相关政策改变。"
+        },
+        {
+          "url": "https://dserver.bundestag.de/btd/21/084/2108452.pdf",
+          "reason": "本条为议员书面质询或答复进度，目录未宣告一项新的政策决定；保留线索，不据此认定相关政策改变。"
+        },
+        {
+          "url": "https://dserver.bundestag.de/btd/21/084/2108469.pdf",
+          "reason": "本条为议员书面质询或答复进度，目录未宣告一项新的政策决定；保留线索，不据此认定相关政策改变。"
+        },
+        {
+          "url": "https://dserver.bundestag.de/btd/21/084/2108467.pdf",
+          "reason": "本条为议员书面质询或答复进度，目录未宣告一项新的政策决定；保留线索，不据此认定相关政策改变。"
+        },
+        {
+          "url": "https://dserver.bundestag.de/btd/21/084/2108466.pdf",
+          "reason": "本条为议员书面质询或答复进度，目录未宣告一项新的政策决定；保留线索，不据此认定相关政策改变。"
+        },
+        {
+          "url": "https://dserver.bundestag.de/brd/2026/0573-26.pdf",
+          "reason": "委员会建议不参加一宗宪法法院诉讼，属于机关诉讼程序安排。"
+        },
+        {
+          "url": "https://dip.bundestag.de/vorgang/erteilung-eines-ordnungsrufes-an-den-abg-roland-theis-cdu-csu/340146",
+          "reason": "议员秩序处分记录，不是政策变更。"
+        },
+        {
+          "url": "https://dip.bundestag.de/vorgang/wahl-von-mitgliedern-des-wahlprüfungsausschusses-gemäß-3-absatz-2/340127",
+          "reason": "议院内部委员会人员选举，不是政策变更。"
+        },
+        {
+          "url": "https://dip.bundestag.de/vorgang/wirtschaftsprognosen-2027-deutschland-zurück-auf-dem-wachstumspfad/340126",
+          "reason": "经济预测辩论已由既有议院新闻记录保留：daily-de-20261009-bt-71。"
+        },
+        {
+          "url": "https://dip.bundestag.de/vorgang/nachhaltigkeit-und-zukunftsfragen/340125",
+          "reason": "同一可持续发展辩论已收录：daily-de-20261009-bt-78。"
+        },
+        {
+          "url": "https://dserver.bundestag.de/brd/2026/0544-26.pdf",
+          "reason": "该自动驾驶示范区提案已在联邦参议院议程线索中保留；本页仅列后续审议进度，未核实新决定。"
+        },
+        {
+          "url": "https://dserver.bundestag.de/btd/21/074/2107407.pdf",
+          "reason": "同一农业法案已由daily-de-20261009-bt-23等记录覆盖；目录状态不取代具体表决。"
+        },
+        {
+          "url": "https://dserver.bundestag.de/btd/21/042/2104297.pdf",
+          "reason": "产品责任法案已有daily-de-20261009-bt-59等记录；目录仅写委员会建议，不据此推翻已核实的全会记录。"
+        }
+      ]
+    }
+  ]
+}

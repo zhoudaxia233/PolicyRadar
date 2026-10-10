@@ -2377,6 +2377,48 @@
         "Publications Office of the European Union",
         "European Commission"
       ]
+    },
+    "fr-atmp-daily-allowance-cap-2026": {
+      "hash": "83fab3d95460bb50f268f4a29405f7980cebf2b7d1a11803a5b4d479bc4a2277",
+      "version": 1,
+      "originalLanguage": "fr",
+      "verbatim": []
+    },
+    "fr-long-sick-leave-duration-2026": {
+      "hash": "0f8848e8417b37348b511c43b9ff4b8c5b0e9cbc47e9a0d5f11c4b512697a209",
+      "version": 1,
+      "originalLanguage": "fr",
+      "verbatim": []
+    },
+    "fr-medical-deductible-ceilings-2026": {
+      "hash": "54fbf2f17ba0f7bb40f0370fd6c6949ffe1ea6ea25efd116b1052ef1f750641f",
+      "version": 1,
+      "originalLanguage": "fr",
+      "verbatim": []
+    },
+    "fr-fuel-allowance-ceiling-2026": {
+      "hash": "afb4ad9b2d344d4e8274126af9abf5eae8115b7d6030e37d57bec4f43bb8752d",
+      "version": 1,
+      "originalLanguage": "fr",
+      "verbatim": []
+    },
+    "fr-heat-pump-integrated-offer-2026": {
+      "hash": "424922cbfea39ba16b0ad4924723cc802856212e8b49346c26f9c5b2771ec988",
+      "version": 1,
+      "originalLanguage": "fr",
+      "verbatim": []
+    },
+    "fr-finance-bill-2027": {
+      "hash": "f1b9144f41bac74963a683253a08ea1e785d99ad6a57d3b1b4002a132c296698",
+      "version": 1,
+      "originalLanguage": "fr",
+      "verbatim": []
+    },
+    "fr-social-security-bill-2027": {
+      "hash": "2cfd04a17bf3ed9ffcb931e558c1629c87f975fce42f66140438768913a286a8",
+      "version": 1,
+      "originalLanguage": "fr",
+      "verbatim": []
     }
   },
   "intake": {
@@ -33752,6 +33794,564 @@
       "hash": "82fd5510c78d433ceef16b1c30042a20ebcd364d04cd8ae0e1f7f5f551ea95ce",
       "verbatim": [],
       "originalLanguage": "en",
+      "titleIsOriginal": true
+    },
+    "fr-sp-a14632": {
+      "hash": "33d24d095f33404eb666d065e841da30a57dabfddee18420d2ba9d145d7e83a9",
+      "verbatim": [],
+      "originalLanguage": "fr",
+      "titleIsOriginal": true
+    },
+    "fr-sp-a19081": {
+      "hash": "f52c947f55f4252599cf1034bb09c01ddbc745e22c96718d1154aefeb72e573c",
+      "verbatim": [],
+      "originalLanguage": "fr",
+      "titleIsOriginal": true
+    },
+    "fr-sp-a15144": {
+      "hash": "43e5afecce71626d6fd4e756ed2e638287fee8ec53139504564b5706f5742471",
+      "verbatim": [],
+      "originalLanguage": "fr",
+      "titleIsOriginal": true
+    },
+    "fr-sp-a19085": {
+      "hash": "d664a0e7d46b0435b077d535fa001cb680527f9a3e44ee343e2706b77c963bd9",
+      "verbatim": [],
+      "originalLanguage": "fr",
+      "titleIsOriginal": true
+    },
+    "fr-sp-a19080": {
+      "hash": "8c35c3ed13d734c884a42ee09f475017c6cd62a4ac0af52ae1cf3243d7257d16",
+      "verbatim": [],
+      "originalLanguage": "fr",
+      "titleIsOriginal": true
+    },
+    "fr-sp-a19086": {
+      "hash": "cb68c819c8db428d174b134adf489db2ea160fcf446af11f8e52474b79abdebc",
+      "verbatim": [],
+      "originalLanguage": "fr",
+      "titleIsOriginal": true
+    },
+    "fr-sp-a18926": {
+      "hash": "e2722f7cf25374d04f8bc9236c8dfa607116091e921299b7364cd546bd0f44b6",
+      "verbatim": [],
+      "originalLanguage": "fr",
+      "titleIsOriginal": true
+    },
+    "fr-sp-a17166": {
+      "hash": "694b9e9fa91f5b89d6bfe9e78f72e08aa0ebe8851f605d74eb3dad7c77038ea4",
+      "verbatim": [],
+      "originalLanguage": "fr",
+      "titleIsOriginal": true
+    },
+    "fr-sp-a19066": {
+      "hash": "cdcae3319c86902a77b7e681a8007a484d8a0ecd376cb17e96328d32957aa2c0",
+      "verbatim": [],
+      "originalLanguage": "fr",
+      "titleIsOriginal": true
+    },
+    "fr-sp-a19067": {
+      "hash": "c65ddb02b7ef6ae323431864707547f038abf8c65526f438b6f9d7f080696012",
+      "verbatim": [],
+      "originalLanguage": "fr",
+      "titleIsOriginal": true
+    },
+    "fr-sp-a14227": {
+      "hash": "6ac9912f2a88858b3450feb22ab9dc3378c5bca121fa7c1e6f3be7ad736319ea",
+      "verbatim": [],
+      "originalLanguage": "fr",
+      "titleIsOriginal": true
+    },
+    "fr-sp-a17956": {
+      "hash": "7b06981743c89760c52b97e0b85be421ffb028ace393471575f1f36daab3c0b1",
+      "verbatim": [],
+      "originalLanguage": "fr",
+      "titleIsOriginal": true
+    },
+    "fr-sp-a19044": {
+      "hash": "3b7ac234081ddc2d5193555018401791d6c07229a41cef2b70d9e620ebbc8540",
+      "verbatim": [],
+      "originalLanguage": "fr",
+      "titleIsOriginal": true
+    },
+    "fr-sp-a19075": {
+      "hash": "dcc4a0f6cf534119b49f50bea5d84169ff72fdddd2197d54a84eb4617f25b7be",
+      "verbatim": [],
+      "originalLanguage": "fr",
+      "titleIsOriginal": true
+    },
+    "fr-sp-a19074": {
+      "hash": "859d5aab7adcea28973ca3dee544407391f70a1722480a69b7048b07ddb08429",
+      "verbatim": [],
+      "originalLanguage": "fr",
+      "titleIsOriginal": true
+    },
+    "fr-sp-a17054": {
+      "hash": "c8a7ddc327dfefbf1361624702c5f829e51c91044340b93b0bc58871578173fa",
+      "verbatim": [],
+      "originalLanguage": "fr",
+      "titleIsOriginal": true
+    },
+    "fr-sp-a16807": {
+      "hash": "fb226d9868bf8f4c9881aec419a3616b920bb1cc3f2261e24f48b519a883293f",
+      "verbatim": [],
+      "originalLanguage": "fr",
+      "titleIsOriginal": true
+    },
+    "fr-sp-a17729": {
+      "hash": "c33d6ab2796a8a0d479272e1033c4f610dc0ecec76258d539fa3849ef19c1a9e",
+      "verbatim": [],
+      "originalLanguage": "fr",
+      "titleIsOriginal": true
+    },
+    "fr-sp-pro-a19077": {
+      "hash": "92c461515e542d2cc087c9f7c90b20fe59c2ca0dbdd32ed63006dc2240eab9e9",
+      "verbatim": [],
+      "originalLanguage": "fr",
+      "titleIsOriginal": true
+    },
+    "fr-sp-pro-a19090": {
+      "hash": "891a792a9d39b0a785cf89dedfd76f55d3bab04caf6c4e8eed6a5afc70ca5abe",
+      "verbatim": [],
+      "originalLanguage": "fr",
+      "titleIsOriginal": true
+    },
+    "fr-sp-pro-a19041": {
+      "hash": "27840eb3ca4791868778bc5ba9a2d4a46ab8993f583ac9a736bce2ac3a2a60a0",
+      "verbatim": [],
+      "originalLanguage": "fr",
+      "titleIsOriginal": true
+    },
+    "fr-sp-pro-a18980": {
+      "hash": "b24adc5b8cf4f7267dd69b25722c0fec988149a1f5995a603a93dd53fea1b119",
+      "verbatim": [],
+      "originalLanguage": "fr",
+      "titleIsOriginal": true
+    },
+    "fr-sp-pro-a18818": {
+      "hash": "323fc8b334b17472987b526b61d505d8714c46b36bdc442ddee2a06262d11bd7",
+      "verbatim": [],
+      "originalLanguage": "fr",
+      "titleIsOriginal": true
+    },
+    "fr-an-3210": {
+      "hash": "a65f4622d1588d2a0d407e21156cb55457603a1517ee0f89f339f43b2b83e177",
+      "verbatim": [],
+      "originalLanguage": "fr",
+      "titleIsOriginal": true
+    },
+    "fr-an-3211": {
+      "hash": "7d631e721cf67d30d2a6692879003a236c1c05b9bf4dd7e5f522cfd04ffb9e16",
+      "verbatim": [],
+      "originalLanguage": "fr",
+      "titleIsOriginal": true
+    },
+    "fr-an-3212": {
+      "hash": "d13f29c244ae2c7835b861178eb1381d86a93c645eae19a91d734ed2fba4bf9a",
+      "verbatim": [],
+      "originalLanguage": "fr",
+      "titleIsOriginal": true
+    },
+    "fr-an-3213": {
+      "hash": "28bde1fafa438187093e412447c832849ac149a786bc35a0bb8174542e5e0866",
+      "verbatim": [],
+      "originalLanguage": "fr",
+      "titleIsOriginal": true
+    },
+    "fr-an-3214": {
+      "hash": "38520ffdb5956db16426a290a5f7c9d45a65e2f4442ac19a9fbd8ec94b8ca821",
+      "verbatim": [],
+      "originalLanguage": "fr",
+      "titleIsOriginal": true
+    },
+    "fr-an-3215": {
+      "hash": "326e88e0327640ea11b614e8149e0fd3c04beda0ac8a9ee8fb4d6fc908d51a86",
+      "verbatim": [],
+      "originalLanguage": "fr",
+      "titleIsOriginal": true
+    },
+    "fr-an-3216": {
+      "hash": "d4bba2ef445daa6c7da78339bdf8f9c96b3194a7c12d78d646ccae2f0a70332a",
+      "verbatim": [],
+      "originalLanguage": "fr",
+      "titleIsOriginal": true
+    },
+    "fr-an-3217": {
+      "hash": "777078b5a4018ae7464a268bd96226b70271dadf552f68f4f055f0eea2d3d4d8",
+      "verbatim": [],
+      "originalLanguage": "fr",
+      "titleIsOriginal": true
+    },
+    "fr-an-3219": {
+      "hash": "e5167685bb530ee93e2a8c47abd7244466605d0829ef25150ee9b5e279aec883",
+      "verbatim": [],
+      "originalLanguage": "fr",
+      "titleIsOriginal": true
+    },
+    "fr-an-3221": {
+      "hash": "c966713e15c05b8f145bee7a55d908e8bcc2a1243778f0aa1ac1e7e4f7e7c64b",
+      "verbatim": [],
+      "originalLanguage": "fr",
+      "titleIsOriginal": true
+    },
+    "fr-an-3222": {
+      "hash": "fc061bf854b3854ca073aec30c1ef6a5f83431a6b28ee276baeb0b162160f3df",
+      "verbatim": [],
+      "originalLanguage": "fr",
+      "titleIsOriginal": true
+    },
+    "fr-an-3223": {
+      "hash": "5b920a7c187d4225d7e1af12d983964037968cd5f7e876dc17bff738419ec750",
+      "verbatim": [],
+      "originalLanguage": "fr",
+      "titleIsOriginal": true
+    },
+    "fr-an-3224": {
+      "hash": "52e109efe2154583e0f62604b103e2678b9eb367f31ce6e7dbd69bdf997dfe44",
+      "verbatim": [],
+      "originalLanguage": "fr",
+      "titleIsOriginal": true
+    },
+    "fr-an-3225": {
+      "hash": "4bca7742050a9f03e16ee88ea3970404800e93d684c0363d52e5e61a9903e6f8",
+      "verbatim": [],
+      "originalLanguage": "fr",
+      "titleIsOriginal": true
+    },
+    "fr-an-3226": {
+      "hash": "a18aa69dabc4a58d099eac5860bb8d846ef6863e972a6fde240475f62a02b706",
+      "verbatim": [],
+      "originalLanguage": "fr",
+      "titleIsOriginal": true
+    },
+    "fr-an-3227": {
+      "hash": "cb4b1218ebccdfe2c000a548154e30df423775d49240192f5b627f383b0f9ebc",
+      "verbatim": [],
+      "originalLanguage": "fr",
+      "titleIsOriginal": true
+    },
+    "fr-an-3228": {
+      "hash": "24015703cdb08f2d11fa8edb2cad067adf89b33b6c68d702c0ba33a27fcf07c9",
+      "verbatim": [],
+      "originalLanguage": "fr",
+      "titleIsOriginal": true
+    },
+    "fr-an-3229": {
+      "hash": "48938eb19b616c8f2d309b15ca28bbd69cba15c11dd91939adb9dfc0d5e87845",
+      "verbatim": [],
+      "originalLanguage": "fr",
+      "titleIsOriginal": true
+    },
+    "fr-an-3230": {
+      "hash": "9910447c2acf0cb4757de664d2b30b82b42e6def966eceb47cf87709c60abe1b",
+      "verbatim": [],
+      "originalLanguage": "fr",
+      "titleIsOriginal": true
+    },
+    "fr-an-3231": {
+      "hash": "b9916393e53c3c6e669e7ac7739ca93b56bdd332a22b2af689545ba92a4b8581",
+      "verbatim": [],
+      "originalLanguage": "fr",
+      "titleIsOriginal": true
+    },
+    "fr-an-3232": {
+      "hash": "71291b3b17b52c5fc88548d400ecb39d3877daf27fd95f59eb3c570afb65e3b8",
+      "verbatim": [],
+      "originalLanguage": "fr",
+      "titleIsOriginal": true
+    },
+    "fr-an-3233": {
+      "hash": "bfc656f3f0a99e6b47d307a21fe753f168410da5f2fc513515d7fc7ff89fc48b",
+      "verbatim": [],
+      "originalLanguage": "fr",
+      "titleIsOriginal": true
+    },
+    "fr-an-3234": {
+      "hash": "8b79b45143ae4c762c00853e7b18999e88f78e11d5f41bb6448addfc95fb0150",
+      "verbatim": [],
+      "originalLanguage": "fr",
+      "titleIsOriginal": true
+    },
+    "fr-an-3235": {
+      "hash": "2efa03052670b5aaf31009c745dcdf88db7c0f9e36e037633c3d2a34e265b4f3",
+      "verbatim": [],
+      "originalLanguage": "fr",
+      "titleIsOriginal": true
+    },
+    "fr-an-3236": {
+      "hash": "461178433587ae7fbfddfa7515ac1b04017a37f0eea5c274c5afbef9a7334bcd",
+      "verbatim": [],
+      "originalLanguage": "fr",
+      "titleIsOriginal": true
+    },
+    "fr-an-3237": {
+      "hash": "962ae4df231e767a54f72262fa17370e0a1ac8b09d9d8485a05a490fe81b7623",
+      "verbatim": [],
+      "originalLanguage": "fr",
+      "titleIsOriginal": true
+    },
+    "fr-an-3238": {
+      "hash": "86b8cde8c915a304b98b302e8b255378849032eeb727f348e31f8250cef3eb10",
+      "verbatim": [],
+      "originalLanguage": "fr",
+      "titleIsOriginal": true
+    },
+    "fr-an-3239": {
+      "hash": "c5562b1c6ca9e34a0e89b780fc5d01dd182074c67b44b40868a2a2622468c72f",
+      "verbatim": [],
+      "originalLanguage": "fr",
+      "titleIsOriginal": true
+    },
+    "fr-an-3240": {
+      "hash": "eb009c842759d8be4784571ea567fd4e6bba89cfabfa6e2e086fb73496313c04",
+      "verbatim": [],
+      "originalLanguage": "fr",
+      "titleIsOriginal": true
+    },
+    "fr-an-3241": {
+      "hash": "a57a36ae73e5041cbff7e21d51555bb3927142de56e6b7cac73bef3631e7a293",
+      "verbatim": [],
+      "originalLanguage": "fr",
+      "titleIsOriginal": true
+    },
+    "fr-an-3242": {
+      "hash": "e301b78484261d6ca751d63657a8def9c12f780147f1aa3a1167539747214a1d",
+      "verbatim": [],
+      "originalLanguage": "fr",
+      "titleIsOriginal": true
+    },
+    "fr-an-3243": {
+      "hash": "8bdcf89d30abf91480363ab6808f26bdb8067ddd35dc8eb7d156c8aee22d70cb",
+      "verbatim": [],
+      "originalLanguage": "fr",
+      "titleIsOriginal": true
+    },
+    "fr-an-3244": {
+      "hash": "7fcebd5a23d54dbea9bed1ac426f3b420fe6baaf91d1459ab95ca685a2f727a3",
+      "verbatim": [],
+      "originalLanguage": "fr",
+      "titleIsOriginal": true
+    },
+    "fr-an-3245": {
+      "hash": "1321adfbb1e4b947737e67e87e896a087024836feae9caa0d6cc20758ff1053c",
+      "verbatim": [],
+      "originalLanguage": "fr",
+      "titleIsOriginal": true
+    },
+    "fr-an-3246": {
+      "hash": "020da20ebd598d986246fd168259c2bfce0f8e04c1b7f79c4fa6d40df98e3a77",
+      "verbatim": [],
+      "originalLanguage": "fr",
+      "titleIsOriginal": true
+    },
+    "fr-an-3247": {
+      "hash": "84a895a538f43c3c6fcbf39e8eda581564a4941f78083667b1ea698111ba1b9a",
+      "verbatim": [],
+      "originalLanguage": "fr",
+      "titleIsOriginal": true
+    },
+    "fr-an-3248": {
+      "hash": "802b1350e2ecf4b112a156278b0d9a242e98fcdc54390827333579d831853b74",
+      "verbatim": [],
+      "originalLanguage": "fr",
+      "titleIsOriginal": true
+    },
+    "fr-an-3249": {
+      "hash": "3415542d9a878c0555664b53ce12aaeb0245ac58e0ce23d5045de434b5074a75",
+      "verbatim": [],
+      "originalLanguage": "fr",
+      "titleIsOriginal": true
+    },
+    "fr-an-3250": {
+      "hash": "44ac29afea0edcf09ea8705fd539262fc3d2f81c330720b1ada7fd196eff388c",
+      "verbatim": [],
+      "originalLanguage": "fr",
+      "titleIsOriginal": true
+    },
+    "fr-an-3251": {
+      "hash": "a9c46e4b650ca94f7cfa11465353baccfd2373931a4edec4528503cc7c0c4dd7",
+      "verbatim": [],
+      "originalLanguage": "fr",
+      "titleIsOriginal": true
+    },
+    "fr-an-3252": {
+      "hash": "385296b9c0495595a0d53201301e099474bc4473a46dd10c293dc571d37c9c9b",
+      "verbatim": [],
+      "originalLanguage": "fr",
+      "titleIsOriginal": true
+    },
+    "fr-an-3253": {
+      "hash": "6fd399701f32d34cce06c3d602545a6683fec4a9ca369ee3a247a9d828be40b3",
+      "verbatim": [],
+      "originalLanguage": "fr",
+      "titleIsOriginal": true
+    },
+    "fr-an-3254": {
+      "hash": "26c6fa27ca461424d5400b0a02a596e9ccba18ea509cfa9b8e46116e88abb7d8",
+      "verbatim": [],
+      "originalLanguage": "fr",
+      "titleIsOriginal": true
+    },
+    "fr-an-3255": {
+      "hash": "e61063f7524c2b0b5f754cb7e33a8478032a9dc47ec7a4a366cc0d27b6f63c09",
+      "verbatim": [],
+      "originalLanguage": "fr",
+      "titleIsOriginal": true
+    },
+    "fr-an-3256": {
+      "hash": "031b2d3decd86500483ac94ef66e1a973a51f9e85e52dfc2cb87e5a4482de767",
+      "verbatim": [],
+      "originalLanguage": "fr",
+      "titleIsOriginal": true
+    },
+    "fr-an-3257": {
+      "hash": "15eebfb36e686dc570188b9b9c40cae8fc3eac307daba5933c9eced7dac4702d",
+      "verbatim": [],
+      "originalLanguage": "fr",
+      "titleIsOriginal": true
+    },
+    "fr-an-3258": {
+      "hash": "4e39f6a064a99123063174a66ed5b3b0719b7c9d5db26ac6e1bd72ffbd4579f7",
+      "verbatim": [],
+      "originalLanguage": "fr",
+      "titleIsOriginal": true
+    },
+    "fr-an-3259": {
+      "hash": "ad05d7591206d88f8afa30332e4e688286b7cfe1e32df2ff66ca165e8d86bc4a",
+      "verbatim": [],
+      "originalLanguage": "fr",
+      "titleIsOriginal": true
+    },
+    "fr-an-3260": {
+      "hash": "2169efc19f98c27f76ca768e8579f4e19a960ba28a8f33d7bf15c1b71f7d041d",
+      "verbatim": [],
+      "originalLanguage": "fr",
+      "titleIsOriginal": true
+    },
+    "fr-an-3261": {
+      "hash": "4577593f3c8d5397276d8b81581410f4e4332dbb7d947ac828815c28f2f9ff55",
+      "verbatim": [],
+      "originalLanguage": "fr",
+      "titleIsOriginal": true
+    },
+    "fr-an-3262": {
+      "hash": "45b8a93512885f1751c4b7b3165fc1e81ff7c4c51b16f19be4aad094c998889a",
+      "verbatim": [],
+      "originalLanguage": "fr",
+      "titleIsOriginal": true
+    },
+    "fr-an-3263": {
+      "hash": "2397c15f4616ba063aba9e7eed5753b36c97712b777f5d1385f669f7256e9e3c",
+      "verbatim": [],
+      "originalLanguage": "fr",
+      "titleIsOriginal": true
+    },
+    "fr-an-3264": {
+      "hash": "371139a6ccc4ac372f9b5ef4b6f93a45716362c8e4a0de9f52c43d476eda7d8f",
+      "verbatim": [],
+      "originalLanguage": "fr",
+      "titleIsOriginal": true
+    },
+    "fr-an-3265": {
+      "hash": "3161f68d39b541b117470f156ae322d2daa7a7a471ec44d3edb7567085d896b8",
+      "verbatim": [],
+      "originalLanguage": "fr",
+      "titleIsOriginal": true
+    },
+    "fr-an-3266": {
+      "hash": "4476b3f612a0d90e793b7b598c1b260797f63a027e307c9a82a471c21a89feed",
+      "verbatim": [],
+      "originalLanguage": "fr",
+      "titleIsOriginal": true
+    },
+    "fr-an-3267": {
+      "hash": "6b7e3d27115047fc4f9a3e599349c0fe3aebe6b8c283c9048a873764a94c6abb",
+      "verbatim": [],
+      "originalLanguage": "fr",
+      "titleIsOriginal": true
+    },
+    "fr-an-3268": {
+      "hash": "51597909a6663fae97f325321acbf1fa75231268e9017e7f185f3ce5e851e1ee",
+      "verbatim": [],
+      "originalLanguage": "fr",
+      "titleIsOriginal": true
+    },
+    "fr-an-3269": {
+      "hash": "1b7583e07a87e9825f7047c083387768b8dacef9118f8080ca415009e9e8edee",
+      "verbatim": [],
+      "originalLanguage": "fr",
+      "titleIsOriginal": true
+    },
+    "fr-an-3270": {
+      "hash": "f58e4719add67228f8d24cec4dd0452622d13eda638cf36a1dfcba8d0fd2c548",
+      "verbatim": [],
+      "originalLanguage": "fr",
+      "titleIsOriginal": true
+    },
+    "fr-an-3271": {
+      "hash": "54721def324bd4a82215f5ec020ebf967f993fd132fcbbbf81b5a58a570e1d22",
+      "verbatim": [],
+      "originalLanguage": "fr",
+      "titleIsOriginal": true
+    },
+    "fr-an-3280": {
+      "hash": "1e787166f3879e9b78057c75ae634560443b6adef58e2ff07011894a2aae0ff9",
+      "verbatim": [],
+      "originalLanguage": "fr",
+      "titleIsOriginal": true
+    },
+    "fr-an-3281": {
+      "hash": "6cef5125974d6421047fd2d18ec174788e461b37771b291c41edcb542b98d76b",
+      "verbatim": [],
+      "originalLanguage": "fr",
+      "titleIsOriginal": true
+    },
+    "fr-an-3283": {
+      "hash": "38b5c1814884696f61f0d011eeabb2f13f2d49082b611cff3c5feae447f12f18",
+      "verbatim": [],
+      "originalLanguage": "fr",
+      "titleIsOriginal": true
+    },
+    "fr-an-3284": {
+      "hash": "cfd94af7f8a22c79720a70fd4c2abf665dd2989c3e93badf7e5af7a8b12771d4",
+      "verbatim": [],
+      "originalLanguage": "fr",
+      "titleIsOriginal": true
+    },
+    "fr-an-3285": {
+      "hash": "07a881a90bd30d9f2fa7865b53a3dbaf7411659ae01eabace5195f13c60373d6",
+      "verbatim": [],
+      "originalLanguage": "fr",
+      "titleIsOriginal": true
+    },
+    "fr-an-3286": {
+      "hash": "0625f0733b90933584b54a5a7715f56b62695fb36747b3b2e515e02772e5acf2",
+      "verbatim": [],
+      "originalLanguage": "fr",
+      "titleIsOriginal": true
+    },
+    "fr-an-3287": {
+      "hash": "368f826a714ae8abf2e744033862546e0a7f8e1ddd26c402a32519040ff031dc",
+      "verbatim": [],
+      "originalLanguage": "fr",
+      "titleIsOriginal": true
+    },
+    "fr-an-3288": {
+      "hash": "7420fdf7cc872c93a9c1c40f5cb8d3839566d65f7aa0411616765dba05e6f41a",
+      "verbatim": [],
+      "originalLanguage": "fr",
+      "titleIsOriginal": true
+    },
+    "fr-an-3289": {
+      "hash": "f9a20636ef80ab5ba73a22232f07adcba272b1cebdc63cd241ca1f401803cb9c",
+      "verbatim": [],
+      "originalLanguage": "fr",
+      "titleIsOriginal": true
+    },
+    "fr-an-3290": {
+      "hash": "dd81504179f033ec640e179b9aeeb840c81d61caa0913c81d03a31054f6e792e",
+      "verbatim": [],
+      "originalLanguage": "fr",
       "titleIsOriginal": true
     }
   }

@@ -1,0 +1,2304 @@
+(node:12762) ExperimentalWarning: Type Stripping is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+{
+  "export": "data/store",
+  "policiesScanned": 291,
+  "recordsScanned": 3611,
+  "reviewedTopics": 119,
+  "groupedRecords": 278,
+  "notice": "Candidates are review prompts, never automatic merge decisions. Identical titles can describe different measures, periods or addressees.",
+  "candidates": [
+    {
+      "reason": "DE|number|BT-Drs. 21/5752",
+      "grouped": true,
+      "documents": [
+        {
+          "id": "bt-21-5752-finance-committee-recommends-rejection",
+          "region": "DE",
+          "officialId": "BT-Drs. 21/5752",
+          "url": "https://www.bundestag.de/presse/hib/kurzmeldungen-1179034",
+          "title": "Grüne scheitern mit Vorstoß zu Steuern auf Kryptowerte",
+          "titleZh": "财政委员会建议否决加密资产持有期税收议案",
+          "topic": "de-crypto-holding-period"
+        },
+        {
+          "id": "de-crypto-vote-with-bmf-alternative-20261008",
+          "region": "DE",
+          "officialId": "BT-Drs. 21/5752",
+          "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-de-steuersystem-1217522",
+          "title": "Gesetzentwürfe und Anträge zum Steuersystem",
+          "titleZh": "绿党版取消一年优惠法案被否决，财政部另有草案",
+          "topic": "de-crypto-holding-period"
+        }
+      ]
+    },
+    {
+      "reason": "IT|title|bonus nuovi nati 2026: domande entro il 12 agosto",
+      "grouped": true,
+      "documents": [
+        {
+          "id": "it-newborn-bonus-2026-discovery",
+          "region": "IT",
+          "officialId": "INPS messaggio 1268/2026; circolare 45/2026",
+          "url": "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2026.08.bonus-nuovi-nati-2026-domande-entro-il-12-agosto.html",
+          "title": "Bonus nuovi nati 2026: domande entro il 12 agosto",
+          "titleZh": "2026年新生儿补助：每名儿童一次性1,000欧元",
+          "topic": "it-newborn-bonus"
+        },
+        {
+          "id": "it-birth-bonus-august-deadline-2026-discovery",
+          "region": "IT",
+          "officialId": "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2026.08.bonus-nuovi-nati-2026-domande-entro-il-12-agosto.html",
+          "url": "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2026.08.bonus-nuovi-nati-2026-domande-entro-il-12-agosto.html",
+          "title": "Bonus nuovi nati 2026: domande entro il 12 agosto",
+          "titleZh": "意大利：新生儿补助早期事件申请期限为8月12日",
+          "topic": "it-newborn-bonus"
+        }
+      ]
+    },
+    {
+      "reason": "NL|title|cyberbeveiligingswet en wet weerbaarheid kritieke entiteiten vanaf vandaag van kracht",
+      "grouped": false,
+      "documents": [
+        {
+          "id": "nl-cybersecurity-act-august-2026-discovery",
+          "region": "NL",
+          "officialId": "Cyberbeveiligingswet",
+          "url": "https://www.rijksoverheid.nl/actueel/nieuws/2026/08/15/cyberbeveiligingswet-en-wet-weerbaarheid-kritieke-entiteiten-vanaf-vandaag-van-kracht",
+          "title": "Cyberbeveiligingswet en Wet weerbaarheid kritieke entiteiten vanaf vandaag van kracht",
+          "titleZh": "荷兰：网络安全法8月15日起实施NIS2义务",
+          "topic": null
+        },
+        {
+          "id": "nl-critical-entities-august-2026-discovery",
+          "region": "NL",
+          "officialId": "Wet weerbaarheid kritieke entiteiten",
+          "url": "https://www.rijksoverheid.nl/actueel/nieuws/2026/08/15/cyberbeveiligingswet-en-wet-weerbaarheid-kritieke-entiteiten-vanaf-vandaag-van-kracht",
+          "title": "Cyberbeveiligingswet en Wet weerbaarheid kritieke entiteiten vanaf vandaag van kracht",
+          "titleZh": "荷兰：关键实体韧性法按指定日期启动分阶段义务",
+          "topic": null
+        }
+      ]
+    },
+    {
+      "reason": "ES-AN|title|ley 5/2025, de 16 de diciembre, de vivienda de andalucía",
+      "grouped": true,
+      "documents": [
+        {
+          "id": "es-catalog-boe-a-2026-423-title-translation",
+          "region": "ES-AN",
+          "officialId": "BOE-A-2026-423",
+          "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2026-423",
+          "title": "Ley 5/2025, de 16 de diciembre, de Vivienda de Andalucía.",
+          "titleZh": "安达卢西亚制定住房法",
+          "topic": "matter-07169644b356"
+        },
+        {
+          "id": "es-catalog-boe-a-2026-6644-title-translation",
+          "region": "ES-AN",
+          "officialId": "BOE-A-2026-6644",
+          "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2026-6644",
+          "title": "Corrección de errores de la Ley 5/2025, de 16 de diciembre, de Vivienda de Andalucía.",
+          "titleZh": "更正安达卢西亚住房法",
+          "topic": "matter-07169644b356"
+        }
+      ]
+    },
+    {
+      "reason": "ES-AN|title|ley 8/2025, de 22 de diciembre, del presupuesto de la comunidad autónoma de andalucía para el año 2026",
+      "grouped": true,
+      "documents": [
+        {
+          "id": "es-catalog-boe-a-2026-945-title-translation",
+          "region": "ES-AN",
+          "officialId": "BOE-A-2026-945",
+          "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2026-945",
+          "title": "Ley 8/2025, de 22 de diciembre, del Presupuesto de la Comunidad Autónoma de Andalucía para el año 2026.",
+          "titleZh": "安达卢西亚公布2026年自治区预算",
+          "topic": "matter-d86bc9306658"
+        },
+        {
+          "id": "es-catalog-boe-a-2026-2887-title-translation",
+          "region": "ES-AN",
+          "officialId": "BOE-A-2026-2887",
+          "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2026-2887",
+          "title": "Corrección de errores de la Ley 8/2025, de 22 de diciembre, del Presupuesto de la Comunidad Autónoma de Andalucía para el año 2026.",
+          "titleZh": "更正安达卢西亚2026年自治区预算法",
+          "topic": "matter-d86bc9306658"
+        }
+      ]
+    },
+    {
+      "reason": "ES|title|real decreto-ley 1/2026, de 27 de enero, de ayudas a las víctimas de los accidentes ferroviarios de adamuz (córdoba) y gélida (barcelona)",
+      "grouped": true,
+      "documents": [
+        {
+          "id": "es-catalog-boe-a-2026-2023-title-translation",
+          "region": "ES",
+          "officialId": "BOE-A-2026-2023",
+          "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2026-2023",
+          "title": "Real Decreto-ley 1/2026, de 27 de enero, de ayudas a las víctimas de los accidentes ferroviarios de Adamuz (Córdoba) y Gélida (Barcelona).",
+          "titleZh": "为阿达穆斯及赫利达铁路事故受害者提供援助",
+          "topic": "matter-7601da8021dd"
+        },
+        {
+          "id": "es-catalog-boe-a-2026-3206-title-translation",
+          "region": "ES",
+          "officialId": "BOE-A-2026-3206",
+          "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2026-3206",
+          "title": "Corrección de errores del Real Decreto-ley 1/2026, de 27 de enero, de ayudas a las víctimas de los accidentes ferroviarios de Adamuz (Córdoba) y Gélida (Barcelona).",
+          "titleZh": "更正阿达穆斯及赫利达铁路事故受害者援助法令",
+          "topic": "matter-7601da8021dd"
+        }
+      ]
+    },
+    {
+      "reason": "ES|case|6810-2025",
+      "grouped": true,
+      "documents": [
+        {
+          "id": "es-catalog-boe-a-2026-2549-title-translation",
+          "region": "ES",
+          "officialId": "BOE-A-2026-2549",
+          "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2026-2549",
+          "title": "Recurso de inconstitucionalidad n.º 6810-2025, contra artículo 30, apartados dos, trece, diecisiete, diecinueve, veinte, veintiuno y veinticinco, y artículo 45, apartado cinco, de la Ley de la Comunidad Autónoma de Galicia 5/2024, de 27 de diciembre, de medidas fiscales y administrativas.",
+          "titleZh": "对加利西亚税收及行政措施法部分条款提出违宪诉讼",
+          "topic": "matter-7a9e172687e5"
+        },
+        {
+          "id": "es-catalog-boe-a-2026-3379-title-translation",
+          "region": "ES",
+          "officialId": "BOE-A-2026-3379",
+          "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2026-3379",
+          "title": "Recurso de inconstitucionalidad n.º 6810-2025, contra artículo 30, apartados dos, trece, diecisiete, diecinueve, veinte, veintiuno y veinticinco; y artículo 45, apartado cinco, de la Ley de la Comunidad Autónoma de Galicia 5/2024, de 27 de diciembre, de medidas fiscales y administrativas.",
+          "titleZh": "对加利西亚税收及行政措施法部分条款提出违宪诉讼",
+          "topic": "matter-7a9e172687e5"
+        }
+      ]
+    },
+    {
+      "reason": "ES|title|real decreto-ley 5/2026, de 17 de febrero, por el que se adoptan medidas urgentes en respuesta a los daños causados por diversos fenómenos meteorológicos adversos, de especial afectación en las comunidades autónomas de andalucía y extremadura",
+      "grouped": true,
+      "documents": [
+        {
+          "id": "es-catalog-boe-a-2026-3810-title-translation",
+          "region": "ES",
+          "officialId": "BOE-A-2026-3810",
+          "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2026-3810",
+          "title": "Real Decreto-ley 5/2026, de 17 de febrero, por el que se adoptan medidas urgentes en respuesta a los daños causados por diversos fenómenos meteorológicos adversos, de especial afectación en las comunidades autónomas de Andalucía y Extremadura.",
+          "titleZh": "采取紧急措施应对安达卢西亚、埃斯特雷马杜拉等地恶劣天气灾害",
+          "topic": "matter-ba45157d0b9e"
+        },
+        {
+          "id": "es-catalog-boe-a-2026-6005-title-translation",
+          "region": "ES",
+          "officialId": "BOE-A-2026-6005",
+          "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2026-6005",
+          "title": "Corrección de errores del Real Decreto-ley 5/2026, de 17 de febrero, por el que se adoptan medidas urgentes en respuesta a los daños causados por diversos fenómenos meteorológicos adversos, de especial afectación en las comunidades autónomas de Andalucía y Extremadura.",
+          "titleZh": "更正安达卢西亚及埃斯特雷马杜拉等地恶劣天气灾害援助法令",
+          "topic": "matter-ba45157d0b9e"
+        }
+      ]
+    },
+    {
+      "reason": "ES|title|real decreto-ley 6/2026, de 3 de marzo, por el que se modifica la ley 20/2022, de 19 de octubre, de memoria democrática, sobre reconocimiento a favor de personas fallecidas o con lesiones incapacitantes por su actividad en defensa y reivindicación de la democracia",
+      "grouped": true,
+      "documents": [
+        {
+          "id": "es-catalog-boe-a-2026-5060-title-translation",
+          "region": "ES",
+          "officialId": "BOE-A-2026-5060",
+          "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2026-5060",
+          "title": "Real Decreto-ley 6/2026, de 3 de marzo, por el que se modifica la Ley 20/2022, de 19 de octubre, de Memoria Democrática, sobre reconocimiento a favor de personas fallecidas o con lesiones incapacitantes por su actividad en defensa y reivindicación de la Democracia.",
+          "titleZh": "修订民主记忆法中对因争取民主死亡或致残者的认可规定",
+          "topic": "matter-141a0adc1895"
+        },
+        {
+          "id": "es-catalog-boe-a-2026-6092-title-translation",
+          "region": "ES",
+          "officialId": "BOE-A-2026-6092",
+          "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2026-6092",
+          "title": "Corrección de errores del Real Decreto-ley 6/2026, de 3 de marzo, por el que se modifica la Ley 20/2022, de 19 de octubre, de Memoria Democrática, sobre reconocimiento a favor de personas fallecidas o con lesiones incapacitantes por su actividad en defensa y reivindicación de la Democracia.",
+          "titleZh": "更正民主记忆法中对民主活动死亡或致残者的认可修正案",
+          "topic": "matter-141a0adc1895"
+        }
+      ]
+    },
+    {
+      "reason": "ES|title|orden snd/208/2026, de 9 de marzo, por la que se modifica el anexo ii del real decreto 81/2014, de 7 de febrero, por el que se establecen normas para garantizar la asistencia sanitaria transfronteriza, y por el que se modifica el real decreto 1718/2010, de 17 de diciembre, sobre receta médica y órdenes de dispensación",
+      "grouped": true,
+      "documents": [
+        {
+          "id": "es-catalog-boe-a-2026-6007-title-translation",
+          "region": "ES",
+          "officialId": "BOE-A-2026-6007",
+          "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2026-6007",
+          "title": "Orden SND/208/2026, de 9 de marzo, por la que se modifica el anexo II del Real Decreto 81/2014, de 7 de febrero, por el que se establecen normas para garantizar la asistencia sanitaria transfronteriza, y por el que se modifica el Real Decreto 1718/2010, de 17 de diciembre, sobre receta médica y órdenes de dispensación.",
+          "titleZh": "修订跨境医疗保障规则附件",
+          "topic": "matter-dfc5f269e12f"
+        },
+        {
+          "id": "es-catalog-boe-a-2026-6404-title-translation",
+          "region": "ES",
+          "officialId": "BOE-A-2026-6404",
+          "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2026-6404",
+          "title": "Corrección de erratas de la Orden SND/208/2026, de 9 de marzo, por la que se modifica el anexo II del Real Decreto 81/2014, de 7 de febrero, por el que se establecen normas para garantizar la asistencia sanitaria transfronteriza, y por el que se modifica el Real Decreto 1718/2010, de 17 de diciembre, sobre receta médica y órdenes de dispensación.",
+          "titleZh": "更正跨境医疗保障规则附件修正案中的排印错误",
+          "topic": "matter-dfc5f269e12f"
+        }
+      ]
+    },
+    {
+      "reason": "ES|title|real decreto-ley 7/2026, de 20 de marzo, por el que se aprueba el plan integral de respuesta a la crisis en oriente medio",
+      "grouped": true,
+      "documents": [
+        {
+          "id": "es-catalog-boe-a-2026-6544-title-translation",
+          "region": "ES",
+          "officialId": "BOE-A-2026-6544",
+          "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2026-6544",
+          "title": "Real Decreto-ley 7/2026, de 20 de marzo, por el que se aprueba el Plan Integral de Respuesta a la Crisis en Oriente Medio.",
+          "titleZh": "批准应对中东危机的综合计划",
+          "topic": "matter-cab8835e3c7b"
+        },
+        {
+          "id": "es-catalog-boe-a-2026-6868-title-translation",
+          "region": "ES",
+          "officialId": "BOE-A-2026-6868",
+          "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2026-6868",
+          "title": "Corrección de errores del Real Decreto-ley 7/2026, de 20 de marzo, por el que se aprueba el Plan Integral de Respuesta a la Crisis en Oriente Medio.",
+          "titleZh": "更正应对中东危机的综合计划",
+          "topic": "matter-cab8835e3c7b"
+        }
+      ]
+    },
+    {
+      "reason": "ES-AN|title|ley 1/2026, de 20 de febrero, universitaria para andalucía",
+      "grouped": true,
+      "documents": [
+        {
+          "id": "es-catalog-boe-a-2026-6643-title-translation",
+          "region": "ES-AN",
+          "officialId": "BOE-A-2026-6643",
+          "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2026-6643",
+          "title": "Ley 1/2026, de 20 de febrero, Universitaria para Andalucía.",
+          "titleZh": "安达卢西亚制定大学法",
+          "topic": "matter-5a2c326fbe64"
+        },
+        {
+          "id": "es-catalog-boe-a-2026-8423-title-translation",
+          "region": "ES-AN",
+          "officialId": "BOE-A-2026-8423",
+          "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2026-8423",
+          "title": "Corrección de errores de la Ley 1/2026, de 20 de febrero, Universitaria para Andalucía.",
+          "titleZh": "更正安达卢西亚大学法",
+          "topic": "matter-5a2c326fbe64"
+        }
+      ]
+    },
+    {
+      "reason": "ES|title|real decreto 264/2026, de 1 de abril, por el que se aprueban los estatutos de la real academia nacional de medicina de españa",
+      "grouped": true,
+      "documents": [
+        {
+          "id": "es-catalog-boe-a-2026-7442-title-translation",
+          "region": "ES",
+          "officialId": "BOE-A-2026-7442",
+          "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2026-7442",
+          "title": "Real Decreto 264/2026, de 1 de abril, por el que se aprueban los Estatutos de la Real Academia Nacional de Medicina de España.",
+          "titleZh": "批准西班牙皇家国家医学院章程",
+          "topic": "matter-7e9585ebe0db"
+        },
+        {
+          "id": "es-catalog-boe-a-2026-8373-title-translation",
+          "region": "ES",
+          "officialId": "BOE-A-2026-8373",
+          "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2026-8373",
+          "title": "Corrección de errores del Real Decreto 264/2026, de 1 de abril, por el que se aprueban los Estatutos de la Real Academia Nacional de Medicina de España.",
+          "titleZh": "更正西班牙皇家国家医学院章程",
+          "topic": "matter-7e9585ebe0db"
+        }
+      ]
+    },
+    {
+      "reason": "ES-AN|title|ley 2/2026, de 12 de marzo, para la gestión ambiental de andalucía",
+      "grouped": true,
+      "documents": [
+        {
+          "id": "es-catalog-boe-a-2026-7558-title-translation",
+          "region": "ES-AN",
+          "officialId": "BOE-A-2026-7558",
+          "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2026-7558",
+          "title": "Ley 2/2026, de 12 de marzo, para la Gestión Ambiental de Andalucía.",
+          "titleZh": "安达卢西亚制定环境管理法",
+          "topic": "matter-baa2543b049b"
+        },
+        {
+          "id": "es-catalog-boe-a-2026-16355-title-translation",
+          "region": "ES-AN",
+          "officialId": "BOE-A-2026-16355",
+          "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2026-16355",
+          "title": "Corrección de errores de la Ley 2/2026, de 12 de marzo, para la Gestión Ambiental de Andalucía.",
+          "titleZh": "更正安达卢西亚环境管理法",
+          "topic": "matter-baa2543b049b"
+        }
+      ]
+    },
+    {
+      "reason": "ES|title|ley orgánica 1/2026, de 8 de abril, en materia de multirreincidencia, por la que se modifica la ley orgánica 10/1995, de 23 de noviembre, del código penal y la ley de enjuiciamiento criminal, aprobada por real decreto de 14 de septiembre de 1882",
+      "grouped": true,
+      "documents": [
+        {
+          "id": "es-catalog-boe-a-2026-7966-title-translation",
+          "region": "ES",
+          "officialId": "BOE-A-2026-7966",
+          "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2026-7966",
+          "title": "Ley Orgánica 1/2026, de 8 de abril, en materia de multirreincidencia, por la que se modifica la Ley Orgánica 10/1995, de 23 de noviembre, del Código Penal y la Ley de Enjuiciamiento Criminal, aprobada por Real Decreto de 14 de septiembre de 1882.",
+          "titleZh": "针对多次再犯修订刑法及刑事诉讼法",
+          "topic": "matter-36b5598bbc43"
+        },
+        {
+          "id": "es-catalog-boe-a-2026-8020-title-translation",
+          "region": "ES",
+          "officialId": "BOE-A-2026-8020",
+          "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2026-8020",
+          "title": "Corrección de errores de la Ley Orgánica 1/2026, de 8 de abril, en materia de multirreincidencia, por la que se modifica la Ley Orgánica 10/1995, de 23 de noviembre, del Código Penal y la Ley de Enjuiciamiento Criminal, aprobada por Real Decreto de 14 de septiembre de 1882.",
+          "titleZh": "更正多次再犯刑事立法修正案",
+          "topic": "matter-36b5598bbc43"
+        }
+      ]
+    },
+    {
+      "reason": "ES|title|ley 1/2026, de 8 de abril, integral de impulso de la economía social",
+      "grouped": true,
+      "documents": [
+        {
+          "id": "es-catalog-boe-a-2026-7967-title-translation",
+          "region": "ES",
+          "officialId": "BOE-A-2026-7967",
+          "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2026-7967",
+          "title": "Ley 1/2026, de 8 de abril, integral de impulso de la economía social.",
+          "titleZh": "制定全面促进社会经济组织发展的法律",
+          "topic": "matter-e520f25bf461"
+        },
+        {
+          "id": "es-catalog-boe-a-2026-8021-title-translation",
+          "region": "ES",
+          "officialId": "BOE-A-2026-8021",
+          "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2026-8021",
+          "title": "Corrección de errores de la Ley 1/2026, de 8 de abril, integral de impulso de la economía social.",
+          "titleZh": "更正社会经济促进法",
+          "topic": "matter-e520f25bf461"
+        }
+      ]
+    },
+    {
+      "reason": "ES|title|real decreto 452/2026, de 3 de junio, por el que se establece la ordenación de las enseñanzas profesionales de artes plásticas y diseño",
+      "grouped": true,
+      "documents": [
+        {
+          "id": "es-catalog-boe-a-2026-12038-title-translation",
+          "region": "ES",
+          "officialId": "BOE-A-2026-12038",
+          "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2026-12038",
+          "title": "Real Decreto 452/2026, de 3 de junio, por el que se establece la ordenación de las Enseñanzas Profesionales de Artes Plásticas y Diseño.",
+          "titleZh": "规定造型艺术与设计职业教育制度",
+          "topic": "matter-3fedfd835dca"
+        },
+        {
+          "id": "es-catalog-boe-a-2026-15301-title-translation",
+          "region": "ES",
+          "officialId": "BOE-A-2026-15301",
+          "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2026-15301",
+          "title": "Corrección de errores del Real Decreto 452/2026, de 3 de junio, por el que se establece la ordenación de las Enseñanzas Profesionales de Artes Plásticas y Diseño.",
+          "titleZh": "更正造型艺术与设计职业教育制度规定",
+          "topic": "matter-3fedfd835dca"
+        }
+      ]
+    },
+    {
+      "reason": "ES|title|orden hac/623/2026, de 12 de junio, por la que se modifican la orden eha/3316/2010, de 17 de diciembre, por la que se aprueban los modelos de autoliquidación 210, 211 y 213 del impuesto sobre la renta de no residentes, que deben utilizarse para declarar las rentas obtenidas sin mediación de establecimiento permanente, la retención practicada en la adquisición de bienes inmuebles a no residentes sin establecimiento permanente y el gravamen especial sobre bienes inmuebles de entidades no residentes, y se establecen las condiciones generales y el procedimiento para su presentación y otras normas referentes a la tributación de no residentes; la orden eha/3290/2008, de 6 de noviembre, por la que se aprueban el modelo 216 «impuesto sobre la renta de no residentes. rentas obtenidas sin mediación de establecimiento permanente. retenciones e ingresos a cuenta. declaración-documento de ingreso» y el modelo 296 «impuesto sobre la renta de no residentes. no residentes sin establecimiento permanente. declaración anual de retenciones e ingresos a cuenta»; y la orden eha/1658/2009, de 12 de junio, por la que se establecen el procedimiento y las condiciones para la domiciliación del pago de determinadas deudas cuya gestión tiene atribuida la agencia estatal de administración tributaria",
+      "grouped": true,
+      "documents": [
+        {
+          "id": "es-catalog-boe-a-2026-13573-title-translation",
+          "region": "ES",
+          "officialId": "BOE-A-2026-13573",
+          "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2026-13573",
+          "title": "Orden HAC/623/2026, de 12 de junio, por la que se modifican la Orden EHA/3316/2010, de 17 de diciembre, por la que se aprueban los modelos de autoliquidación 210, 211 y 213 del Impuesto sobre la Renta de No Residentes, que deben utilizarse para declarar las rentas obtenidas sin mediación de establecimiento permanente, la retención practicada en la adquisición de bienes inmuebles a no residentes sin establecimiento permanente y el gravamen especial sobre bienes inmuebles de entidades no residentes, y se establecen las condiciones generales y el procedimiento para su presentación y otras normas referentes a la tributación de no residentes; la Orden EHA/3290/2008, de 6 de noviembre, por la que se aprueban el modelo 216 «Impuesto sobre la Renta de No Residentes. Rentas obtenidas sin mediación de establecimiento permanente. Retenciones e ingresos a cuenta. Declaración-documento de ingreso» y el modelo 296 «Impuesto sobre la Renta de No Residentes. No residentes sin establecimiento permanente. Declaración anual de retenciones e ingresos a cuenta»; y la Orden EHA/1658/2009, de 12 de junio, por la que se establecen el procedimiento y las condiciones para la domiciliación del pago de determinadas deudas cuya gestión tiene atribuida la Agencia Estatal de Administración Tributaria.",
+          "titleZh": "修订非居民所得税申报及相关税款直接扣缴规则",
+          "topic": "matter-71cf7a5833de"
+        },
+        {
+          "id": "es-catalog-boe-a-2026-14499-title-translation",
+          "region": "ES",
+          "officialId": "BOE-A-2026-14499",
+          "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2026-14499",
+          "title": "Corrección de errores de la Orden HAC/623/2026, de 12 de junio, por la que se modifican la Orden EHA/3316/2010, de 17 de diciembre, por la que se aprueban los modelos de autoliquidación 210, 211 y 213 del Impuesto sobre la Renta de No Residentes, que deben utilizarse para declarar las rentas obtenidas sin mediación de establecimiento permanente, la retención practicada en la adquisición de bienes inmuebles a no residentes sin establecimiento permanente y el gravamen especial sobre bienes inmuebles de entidades no residentes, y se establecen las condiciones generales y el procedimiento para su presentación y otras normas referentes a la tributación de no residentes; la Orden EHA/3290/2008, de 6 de noviembre, por la que se aprueban el modelo 216 «Impuesto sobre la Renta de No Residentes. Rentas obtenidas sin mediación de establecimiento permanente. Retenciones e ingresos a cuenta. Declaración-documento de ingreso» y el modelo 296 «Impuesto sobre la Renta de No Residentes. No residentes sin establecimiento permanente. Declaración anual de retenciones e ingresos a cuenta»; y la Orden EHA/1658/2009, de 12 de junio, por la que se establecen el procedimiento y las condiciones para la domiciliación del pago de determinadas deudas cuya gestión tiene atribuida la Agencia Estatal de Administración Tributaria.",
+          "titleZh": "更正非居民所得税申报及税款扣缴规则修正案",
+          "topic": "matter-71cf7a5833de"
+        }
+      ]
+    },
+    {
+      "reason": "ES|title|real decreto-ley 17/2026, de 23 de junio, de medidas extraordinarias para el fortalecimiento y consolidación del sistema para la autonomía y atención a la dependencia",
+      "grouped": true,
+      "documents": [
+        {
+          "id": "es-catalog-boe-a-2026-13643-title-translation",
+          "region": "ES",
+          "officialId": "BOE-A-2026-13643",
+          "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2026-13643",
+          "title": "Real Decreto-ley 17/2026, de 23 de junio, de medidas extraordinarias para el fortalecimiento y consolidación del Sistema para la Autonomía y Atención a la Dependencia.",
+          "titleZh": "采取加强自主生活及失能照护体系的特别措施",
+          "topic": "matter-9f75a55ad249"
+        },
+        {
+          "id": "es-catalog-boe-a-2026-14877-title-translation",
+          "region": "ES",
+          "officialId": "BOE-A-2026-14877",
+          "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2026-14877",
+          "title": "Corrección de errores del Real Decreto-ley 17/2026, de 23 de junio, de medidas extraordinarias para el fortalecimiento y consolidación del Sistema para la Autonomía y Atención a la Dependencia.",
+          "titleZh": "更正加强自主生活及失能照护体系的特别措施法令",
+          "topic": "matter-9f75a55ad249"
+        }
+      ]
+    },
+    {
+      "reason": "ES|title|orden pjc/678/2026, de 6 de julio, por la que se modifican los anexos i, ii y iii del real decreto 309/2022, de 3 de mayo, por el que se establece el mecanismo de compensación de costes indirectos para los sectores y subsectores industriales a los que se considera expuestos a un riesgo significativo de fuga de carbono durante el periodo 2021-2030",
+      "grouped": true,
+      "documents": [
+        {
+          "id": "es-catalog-boe-a-2026-14655-title-translation",
+          "region": "ES",
+          "officialId": "BOE-A-2026-14655",
+          "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2026-14655",
+          "title": "Orden PJC/678/2026, de 6 de julio, por la que se modifican los anexos I, II y III del Real Decreto 309/2022, de 3 de mayo, por el que se establece el mecanismo de compensación de costes indirectos para los sectores y subsectores industriales a los que se considera expuestos a un riesgo significativo de fuga de carbono durante el periodo 2021-2030.",
+          "titleZh": "调整碳泄漏风险行业间接成本补偿机制附件",
+          "topic": "matter-64b605491996"
+        },
+        {
+          "id": "es-catalog-boe-a-2026-17003-title-translation",
+          "region": "ES",
+          "officialId": "BOE-A-2026-17003",
+          "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2026-17003",
+          "title": "Corrección de errores de la Orden PJC/678/2026, de 6 de julio, por la que se modifican los anexos I, II y III del Real Decreto 309/2022, de 3 de mayo, por el que se establece el mecanismo de compensación de costes indirectos para los sectores y subsectores industriales a los que se considera expuestos a un riesgo significativo de fuga de carbono durante el periodo 2021-2030.",
+          "titleZh": "更正碳泄漏风险行业间接成本补偿附件修正案",
+          "topic": "matter-64b605491996"
+        }
+      ]
+    },
+    {
+      "reason": "ES|title|aplicación provisional del acuerdo entre el gobierno del reino de españa y el gobierno de la república árabe de egipto para el intercambio y la protección de información clasificada en el ámbito de la defensa, hecho en madrid el 17 de junio de 2026",
+      "grouped": true,
+      "documents": [
+        {
+          "id": "es-catalog-boe-a-2026-15300-title-translation",
+          "region": "ES",
+          "officialId": "BOE-A-2026-15300",
+          "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2026-15300",
+          "title": "Aplicación provisional del Acuerdo entre el Gobierno del Reino de España y el Gobierno de la República Árabe de Egipto para el intercambio y la protección de información clasificada en el ámbito de la defensa, hecho en Madrid el 17 de junio de 2026.",
+          "titleZh": "临时适用西班牙—埃及国防保密信息交换与保护协议",
+          "topic": "matter-110ffb35491f"
+        },
+        {
+          "id": "es-catalog-boe-a-2026-15675-title-translation",
+          "region": "ES",
+          "officialId": "BOE-A-2026-15675",
+          "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2026-15675",
+          "title": "Corrección de errores de la Aplicación provisional del Acuerdo entre el Gobierno del Reino de España y el Gobierno de la República Árabe de Egipto para el intercambio y la protección de información clasificada en el ámbito de la defensa, hecho en Madrid el 17 de junio de 2026.",
+          "titleZh": "更正西班牙—埃及国防保密信息协议临时适用公告",
+          "topic": "matter-110ffb35491f"
+        }
+      ]
+    },
+    {
+      "reason": "ES|title|real decreto 592/2026, de 15 de julio, por el que se regula el régimen jurídico de las entidades del tercer sector de acción social colaboradoras con la administración general del estado",
+      "grouped": true,
+      "documents": [
+        {
+          "id": "es-catalog-boe-a-2026-15460-title-translation",
+          "region": "ES",
+          "officialId": "BOE-A-2026-15460",
+          "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2026-15460",
+          "title": "Real Decreto 592/2026, de 15 de julio, por el que se regula el régimen jurídico de las entidades del Tercer Sector de Acción Social colaboradoras con la Administración General del Estado.",
+          "titleZh": "规定与国家行政机关合作的社会服务非营利组织法律制度",
+          "topic": "matter-8f6606820e48"
+        },
+        {
+          "id": "es-catalog-boe-a-2026-19052-title-translation",
+          "region": "ES",
+          "officialId": "BOE-A-2026-19052",
+          "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2026-19052",
+          "title": "Corrección de errores del Real Decreto 592/2026, de 15 de julio, por el que se regula el régimen jurídico de las entidades del Tercer Sector de Acción Social colaboradoras con la Administración General del Estado.",
+          "titleZh": "更正与国家行政机关合作的社会服务非营利组织制度",
+          "topic": "matter-8f6606820e48"
+        }
+      ]
+    },
+    {
+      "reason": "ES|title|real decreto 611/2026, de 22 de julio, de impulso a la descarbonización del sector del transporte y fomento de los combustibles renovables, y por el que se modifican diversos reales decretos en la materia",
+      "grouped": true,
+      "documents": [
+        {
+          "id": "es-catalog-boe-a-2026-16011-title-translation",
+          "region": "ES",
+          "officialId": "BOE-A-2026-16011",
+          "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2026-16011",
+          "title": "Real Decreto 611/2026, de 22 de julio, de impulso a la descarbonización del sector del transporte y fomento de los combustibles renovables, y por el que se modifican diversos reales decretos en la materia.",
+          "titleZh": "推动交通运输脱碳及可再生燃料使用",
+          "topic": "matter-1f26e26daa14"
+        },
+        {
+          "id": "es-catalog-boe-a-2026-19051-title-translation",
+          "region": "ES",
+          "officialId": "BOE-A-2026-19051",
+          "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2026-19051",
+          "title": "Corrección de errores del Real Decreto 611/2026, de 22 de julio, de impulso a la descarbonización del sector del transporte y fomento de los combustibles renovables, y por el que se modifican diversos reales decretos en la materia.",
+          "titleZh": "更正交通脱碳及可再生燃料促进法令",
+          "topic": "matter-1f26e26daa14"
+        }
+      ]
+    },
+    {
+      "reason": "ES|title|real decreto 606/2026, de 22 de julio, por el que se aprueba el estatuto de la autoridad independiente para la igualdad de trato y la no discriminación, a.a.i",
+      "grouped": true,
+      "documents": [
+        {
+          "id": "es-catalog-boe-a-2026-16172-title-translation",
+          "region": "ES",
+          "officialId": "BOE-A-2026-16172",
+          "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2026-16172",
+          "title": "Real Decreto 606/2026, de 22 de julio, por el que se aprueba el Estatuto de la Autoridad Independiente para la Igualdad de Trato y la No Discriminación, A.A.I.",
+          "titleZh": "批准平等待遇与反歧视独立机构章程",
+          "topic": "matter-8394f4fe15f3"
+        },
+        {
+          "id": "es-catalog-boe-a-2026-19049-title-translation",
+          "region": "ES",
+          "officialId": "BOE-A-2026-19049",
+          "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2026-19049",
+          "title": "Corrección de errores del Real Decreto 606/2026, de 22 de julio, por el que se aprueba el Estatuto de la Autoridad Independiente para la Igualdad de Trato y la No Discriminación, A.A.I.",
+          "titleZh": "更正平等待遇与反歧视独立机构章程",
+          "topic": "matter-8394f4fe15f3"
+        }
+      ]
+    },
+    {
+      "reason": "EU|title|the corrigendum does not concern the english version",
+      "grouped": false,
+      "documents": [
+        {
+          "id": "oct06-7ef692fd10ca19dd3e8e76bc-translated",
+          "region": "EU",
+          "officialId": "OJ:L_202690837",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:L_202690837",
+          "title": "The corrigendum does not concern the English version.",
+          "titleZh": "勘误：不涉及英文版本",
+          "topic": null
+        },
+        {
+          "id": "oct06-55199d8ae381294a882391bf-translated",
+          "region": "EU",
+          "officialId": "OJ:L_202690839",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:L_202690839",
+          "title": "The corrigendum does not concern the English version.",
+          "titleZh": "勘误：不涉及英文版本",
+          "topic": null
+        },
+        {
+          "id": "oct06-5fa5304396d2b778794c0392-translated",
+          "region": "EU",
+          "officialId": "OJ:L_202690840",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:L_202690840",
+          "title": "The corrigendum does not concern the English version.",
+          "titleZh": "勘误：不涉及英文版本",
+          "topic": null
+        },
+        {
+          "id": "oct06-cfd1c80ae4471af64ef10676-translated",
+          "region": "EU",
+          "officialId": "OJ:L_202690841",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:L_202690841",
+          "title": "The corrigendum does not concern the English version.",
+          "titleZh": "勘误：不涉及英文版本",
+          "topic": null
+        },
+        {
+          "id": "oct06-84bc94212d89ba95a539d0a3-translated",
+          "region": "EU",
+          "officialId": "OJ:L_202690835",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:L_202690835",
+          "title": "The corrigendum does not concern the English version.",
+          "titleZh": "勘误：不涉及英文版本",
+          "topic": null
+        },
+        {
+          "id": "oct06-252f671a2015aaa15d559506-translated",
+          "region": "EU",
+          "officialId": "OJ:L_202690832",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:L_202690832",
+          "title": "The corrigendum does not concern the English version.",
+          "titleZh": "勘误：不涉及英文版本",
+          "topic": null
+        },
+        {
+          "id": "oct06-48868d493628c1db84b56683-translated",
+          "region": "EU",
+          "officialId": "OJ:L_202690834",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:L_202690834",
+          "title": "The corrigendum does not concern the English version.",
+          "titleZh": "勘误：不涉及英文版本",
+          "topic": null
+        },
+        {
+          "id": "oct06-30a26ac43f938c45b031e0a2-translated",
+          "region": "EU",
+          "officialId": "OJ:L_202690833",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:L_202690833",
+          "title": "The corrigendum does not concern the English version.",
+          "titleZh": "勘误：不涉及英文版本",
+          "topic": null
+        },
+        {
+          "id": "oct06-88a14bceafe5bd60ac8a664b-translated",
+          "region": "EU",
+          "officialId": "OJ:C_202690072",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:C_202690072",
+          "title": "The corrigendum does not concern the English version.",
+          "titleZh": "勘误：不涉及英文版本",
+          "topic": null
+        },
+        {
+          "id": "oct06-eff5249e134445aa1fbea583-translated",
+          "region": "EU",
+          "officialId": "OJ:C_202690071",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:C_202690071",
+          "title": "The corrigendum does not concern the English version.",
+          "titleZh": "勘误：不涉及英文版本",
+          "topic": null
+        },
+        {
+          "id": "oct06-3bf923160ad8c5889d215bf1-translated",
+          "region": "EU",
+          "officialId": "OJ:L_202690810",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:L_202690810",
+          "title": "The corrigendum does not concern the English version.",
+          "titleZh": "勘误：不涉及英文版本",
+          "topic": null
+        },
+        {
+          "id": "oct06-c6fb3172502dfc3cd5de5009-translated",
+          "region": "EU",
+          "officialId": "OJ:L_202690811",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:L_202690811",
+          "title": "The corrigendum does not concern the English version.",
+          "titleZh": "勘误：不涉及英文版本",
+          "topic": null
+        },
+        {
+          "id": "oct06-32f68ce2ec9808831fbda7fe-translated",
+          "region": "EU",
+          "officialId": "OJ:L_202690812",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:L_202690812",
+          "title": "The corrigendum does not concern the English version.",
+          "titleZh": "勘误：不涉及英文版本",
+          "topic": null
+        },
+        {
+          "id": "oct06-1470e714518493699f1026df-translated",
+          "region": "EU",
+          "officialId": "OJ:L_202690817",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:L_202690817",
+          "title": "The corrigendum does not concern the English version.",
+          "titleZh": "勘误：不涉及英文版本",
+          "topic": null
+        },
+        {
+          "id": "oct06-5cdfc968ccb5bfe5c18a9f31-translated",
+          "region": "EU",
+          "officialId": "OJ:L_202690819",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:L_202690819",
+          "title": "The corrigendum does not concern the English version.",
+          "titleZh": "勘误：不涉及英文版本",
+          "topic": null
+        },
+        {
+          "id": "oct06-c4b01f57350f91a6c90db8b8-translated",
+          "region": "EU",
+          "officialId": "OJ:L_202690821",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:L_202690821",
+          "title": "The corrigendum does not concern the English version.",
+          "titleZh": "勘误：不涉及英文版本",
+          "topic": null
+        },
+        {
+          "id": "oct06-1c8f1382e3c135df9161b9f2-translated",
+          "region": "EU",
+          "officialId": "OJ:L_202690824",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:L_202690824",
+          "title": "The corrigendum does not concern the English version.",
+          "titleZh": "勘误：不涉及英文版本",
+          "topic": null
+        },
+        {
+          "id": "oct06-bfc526bc033c6bf8c864c403-translated",
+          "region": "EU",
+          "officialId": "OJ:L_202690825",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:L_202690825",
+          "title": "The corrigendum does not concern the English version.",
+          "titleZh": "勘误：不涉及英文版本",
+          "topic": null
+        },
+        {
+          "id": "oct06-4249e12d2bde99fc56c590c4-translated",
+          "region": "EU",
+          "officialId": "OJ:L_202690826",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:L_202690826",
+          "title": "The corrigendum does not concern the English version.",
+          "titleZh": "勘误：不涉及英文版本",
+          "topic": null
+        },
+        {
+          "id": "oct06-aefeda28cae96c4728a84fdc-translated",
+          "region": "EU",
+          "officialId": "OJ:L_202690827",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:L_202690827",
+          "title": "The corrigendum does not concern the English version.",
+          "titleZh": "勘误：不涉及英文版本",
+          "topic": null
+        },
+        {
+          "id": "oct06-f0629f60609b50d82e719f02-translated",
+          "region": "EU",
+          "officialId": "OJ:L_202690830",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:L_202690830",
+          "title": "The corrigendum does not concern the English version.",
+          "titleZh": "勘误：不涉及英文版本",
+          "topic": null
+        },
+        {
+          "id": "eu-oct08-45bb7f7637c4fd93",
+          "region": "EU",
+          "officialId": "OJ:L_202690843",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:L_202690843",
+          "title": "The corrigendum does not concern the English version.",
+          "titleZh": "非英文版本勘误（OJ:L_202690843，具体影响待核实）",
+          "topic": null
+        },
+        {
+          "id": "eu-oct08-9804559d6efd325a",
+          "region": "EU",
+          "officialId": "OJ:L_202690846",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:L_202690846",
+          "title": "The corrigendum does not concern the English version.",
+          "titleZh": "非英文版本勘误（OJ:L_202690846，具体影响待核实）",
+          "topic": null
+        },
+        {
+          "id": "eu-oct08-d2354a41122e3884",
+          "region": "EU",
+          "officialId": "OJ:L_202690838",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:L_202690838",
+          "title": "The corrigendum does not concern the English version.",
+          "titleZh": "非英文版本勘误（OJ:L_202690838，具体影响待核实）",
+          "topic": null
+        },
+        {
+          "id": "eu-oct08-4f42d7040a0fba6f",
+          "region": "EU",
+          "officialId": "OJ:L_202690842",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:L_202690842",
+          "title": "The corrigendum does not concern the English version.",
+          "titleZh": "非英文版本勘误（OJ:L_202690842，具体影响待核实）",
+          "topic": null
+        },
+        {
+          "id": "eu-oct08-13298d6ca4679e14",
+          "region": "EU",
+          "officialId": "OJ:L_202690850",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:L_202690850",
+          "title": "The corrigendum does not concern the English version.",
+          "titleZh": "非英文版本勘误（OJ:L_202690850，具体影响待核实）",
+          "topic": null
+        },
+        {
+          "id": "eu-oct08-c2f0a58cf113978b",
+          "region": "EU",
+          "officialId": "OJ:L_202690851",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:L_202690851",
+          "title": "The corrigendum does not concern the English version.",
+          "titleZh": "非英文版本勘误（OJ:L_202690851，具体影响待核实）",
+          "topic": null
+        },
+        {
+          "id": "eu-oct08-9b8ed9e74fcc55d8",
+          "region": "EU",
+          "officialId": "OJ:L_202690844",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:L_202690844",
+          "title": "The corrigendum does not concern the English version.",
+          "titleZh": "非英文版本勘误（OJ:L_202690844，具体影响待核实）",
+          "topic": null
+        },
+        {
+          "id": "eu-oct08-c1b15065243f9087",
+          "region": "EU",
+          "officialId": "OJ:L_202690852",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:L_202690852",
+          "title": "The corrigendum does not concern the English version.",
+          "titleZh": "非英文版本勘误（OJ:L_202690852，具体影响待核实）",
+          "topic": null
+        },
+        {
+          "id": "eu-oct08-48273b47e3fc6c71",
+          "region": "EU",
+          "officialId": "OJ:L_202690853",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:L_202690853",
+          "title": "The corrigendum does not concern the English version.",
+          "titleZh": "非英文版本勘误（OJ:L_202690853，具体影响待核实）",
+          "topic": null
+        },
+        {
+          "id": "eu-oct08-291f350c9cb337db",
+          "region": "EU",
+          "officialId": "OJ:L_202690854",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:L_202690854",
+          "title": "The corrigendum does not concern the English version.",
+          "titleZh": "非英文版本勘误（OJ:L_202690854，具体影响待核实）",
+          "topic": null
+        },
+        {
+          "id": "eu-oct09-oj-l-202690847",
+          "region": "EU",
+          "officialId": "OJ:L_202690847",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:L_202690847",
+          "title": "The corrigendum does not concern the English version.",
+          "titleZh": "非英文版本勘误（OJ:L_202690847，具体影响待核实）",
+          "topic": null
+        },
+        {
+          "id": "eu-oct09-oj-l-202690855",
+          "region": "EU",
+          "officialId": "OJ:L_202690855",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:L_202690855",
+          "title": "The corrigendum does not concern the English version.",
+          "titleZh": "非英文版本勘误（OJ:L_202690855，具体影响待核实）",
+          "topic": null
+        },
+        {
+          "id": "eu-oct09-oj-l-202690856",
+          "region": "EU",
+          "officialId": "OJ:L_202690856",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:L_202690856",
+          "title": "The corrigendum does not concern the English version.",
+          "titleZh": "非英文版本勘误（OJ:L_202690856，具体影响待核实）",
+          "topic": null
+        },
+        {
+          "id": "eu-oct09-oj-c-202690073",
+          "region": "EU",
+          "officialId": "OJ:C_202690073",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:C_202690073",
+          "title": "The corrigendum does not concern the English version.",
+          "titleZh": "非英文版本勘误（OJ:C_202690073，具体影响待核实）",
+          "topic": null
+        }
+      ]
+    },
+    {
+      "reason": "EU|title|publication of the communication of an approved standard amendment to a product specification of a geographical indication in accordance with article 5(4) of commission delegated regulation (eu) 2025/27",
+      "grouped": false,
+      "documents": [
+        {
+          "id": "oct06-a3039b19eed94aab6be63b61-translated",
+          "region": "EU",
+          "officialId": "OJ:C_202605126",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:C_202605126",
+          "title": "Publication of the communication of an approved standard amendment to a product specification of a geographical indication in accordance with Article 5(4) of Commission Delegated Regulation (EU) 2025/27",
+          "titleZh": "欧盟：公布已获批准的地理标志产品规范标准修订通知",
+          "topic": null
+        },
+        {
+          "id": "oct06-99fb2ca3a377aaf4f0a3e2f4-translated",
+          "region": "EU",
+          "officialId": "OJ:C_202605036",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:C_202605036",
+          "title": "Publication of the communication of an approved standard amendment to a product specification of a geographical indication in accordance with Article 5(4) of Commission Delegated Regulation (EU) 2025/27",
+          "titleZh": "欧盟：公布已获批准的地理标志产品规范标准修订通知",
+          "topic": null
+        },
+        {
+          "id": "oct06-ad8230bfb9862847e6af2627-translated",
+          "region": "EU",
+          "officialId": "OJ:C_202604992",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:C_202604992",
+          "title": "Publication of the communication of an approved standard amendment to a product specification of a geographical indication in accordance with Article 5(4) of Commission Delegated Regulation (EU) 2025/27",
+          "titleZh": "欧盟：公布已获批准的地理标志产品规范标准修订通知",
+          "topic": null
+        },
+        {
+          "id": "oct06-2c69691e0ff79c52a0d6619c-translated",
+          "region": "EU",
+          "officialId": "OJ:C_202604993",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:C_202604993",
+          "title": "Publication of the communication of an approved standard amendment to a product specification of a geographical indication in accordance with Article 5(4) of Commission Delegated Regulation (EU) 2025/27",
+          "titleZh": "欧盟：公布已获批准的地理标志产品规范标准修订通知",
+          "topic": null
+        },
+        {
+          "id": "oct06-c35b04c50cafc9dc02de72a4-translated",
+          "region": "EU",
+          "officialId": "OJ:C_202604984",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:C_202604984",
+          "title": "Publication of the communication of an approved standard amendment to a product specification of a geographical indication in accordance with Article 5(4) of Commission Delegated Regulation (EU) 2025/27",
+          "titleZh": "欧盟：公布已获批准的地理标志产品规范标准修订通知",
+          "topic": null
+        },
+        {
+          "id": "eu-oct08-6e4a10dc486dd9f8",
+          "region": "EU",
+          "officialId": "OJ:C_202605127",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:C_202605127",
+          "title": "Publication of the communication of an approved standard amendment to a product specification of a geographical indication in accordance with Article 5(4) of Commission Delegated Regulation (EU) 2025/27",
+          "titleZh": "地理标志产品规范标准修订公告（Marsala）",
+          "topic": null
+        },
+        {
+          "id": "eu-oct08-820ef9d00524a904",
+          "region": "EU",
+          "officialId": "OJ:C_202605190",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:C_202605190",
+          "title": "Publication of the communication of an approved standard amendment to a product specification of a geographical indication in accordance with Article 5(4) of Commission Delegated Regulation (EU) 2025/27",
+          "titleZh": "地理标志产品规范标准修订公告（Poularde du Périgord）",
+          "topic": null
+        },
+        {
+          "id": "eu-oct08-ea3a4c34da692fcf",
+          "region": "EU",
+          "officialId": "OJ:C_202605246",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:C_202605246",
+          "title": "Publication of the communication of an approved standard amendment to a product specification of a geographical indication in accordance with Article 5(4) of Commission Delegated Regulation (EU) 2025/27",
+          "titleZh": "地理标志产品规范标准修订公告（Blagny）",
+          "topic": null
+        },
+        {
+          "id": "eu-oct08-e95bea2badccc4ae",
+          "region": "EU",
+          "officialId": "OJ:C_202605247",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:C_202605247",
+          "title": "Publication of the communication of an approved standard amendment to a product specification of a geographical indication in accordance with Article 5(4) of Commission Delegated Regulation (EU) 2025/27",
+          "titleZh": "地理标志产品规范标准修订公告（Saint-Bris）",
+          "topic": null
+        }
+      ]
+    },
+    {
+      "reason": "EU|title|publication of an application for registration of a geographical indication pursuant to article 15(4) of regulation (eu) 2024/1143 of the european parliament and of the council",
+      "grouped": false,
+      "documents": [
+        {
+          "id": "oct06-75e97f7186ec2aa952bb3a24-translated",
+          "region": "EU",
+          "officialId": "OJ:C_202605131",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:C_202605131",
+          "title": "Publication of an application for registration of a geographical indication pursuant to Article 15(4) of Regulation (EU) 2024/1143 of the European Parliament and of the Council",
+          "titleZh": "欧盟：公布地理标志注册申请",
+          "topic": null
+        },
+        {
+          "id": "oct06-a382a12f582540687e3fddf0-translated",
+          "region": "EU",
+          "officialId": "OJ:C_202605020",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:C_202605020",
+          "title": "Publication of an application for registration of a geographical indication pursuant to Article 15(4) of Regulation (EU) 2024/1143 of the European Parliament and of the Council",
+          "titleZh": "欧盟：公布地理标志注册申请",
+          "topic": null
+        },
+        {
+          "id": "oct06-4e52de3949329afc301c6004-translated",
+          "region": "EU",
+          "officialId": "OJ:C_202605028",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:C_202605028",
+          "title": "Publication of an application for registration of a geographical indication pursuant to Article 15(4) of Regulation (EU) 2024/1143 of the European Parliament and of the Council",
+          "titleZh": "欧盟：公布地理标志注册申请",
+          "topic": null
+        },
+        {
+          "id": "oct06-2cd7fc385b9f29e53b8e4b9f-translated",
+          "region": "EU",
+          "officialId": "OJ:C_202605029",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:C_202605029",
+          "title": "Publication of an application for registration of a geographical indication pursuant to Article 15(4) of Regulation (EU) 2024/1143 of the European Parliament and of the Council",
+          "titleZh": "欧盟：公布地理标志注册申请",
+          "topic": null
+        },
+        {
+          "id": "oct06-8b620a44d0a0368563cc6a8a-translated",
+          "region": "EU",
+          "officialId": "OJ:C_202605030",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:C_202605030",
+          "title": "Publication of an application for registration of a geographical indication pursuant to Article 15(4) of Regulation (EU) 2024/1143 of the European Parliament and of the Council",
+          "titleZh": "欧盟：公布地理标志注册申请",
+          "topic": null
+        }
+      ]
+    },
+    {
+      "reason": "EU|title|notice for the attention of the data subjects to whom the restrictive measures provided for in council decision 2014/145/cfsp and council regulation (eu) no 269/2014 concerning restrictive measures in respect of actions undermining or threatening the territorial integrity, sovereignty and independence of ukraine apply",
+      "grouped": false,
+      "documents": [
+        {
+          "id": "oct06-7323ae3d7ef8d0c8e6f42eef-translated",
+          "region": "EU",
+          "officialId": "OJ:C_202605115",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:C_202605115",
+          "title": "Notice for the attention of the data subjects to whom the restrictive measures provided for in Council Decision 2014/145/CFSP and Council Regulation (EU) No 269/2014 concerning restrictive measures in respect of actions undermining or threatening the territorial integrity, sovereignty and independence of Ukraine apply",
+          "titleZh": "欧盟：向适用乌克兰领土完整相关制裁的数据主体发出的通知",
+          "topic": null
+        },
+        {
+          "id": "eu-oct09-oj-c-202605288",
+          "region": "EU",
+          "officialId": "OJ:C_202605288",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:C_202605288",
+          "title": "Notice for the attention of the data subjects to whom the restrictive measures provided for in Council Decision 2014/145/CFSP and Council Regulation (EU) No 269/2014 concerning restrictive measures in respect of actions undermining or threatening the territorial integrity, sovereignty and independence of Ukraine apply",
+          "titleZh": "乌克兰领土完整相关制裁：致数据主体的通知",
+          "topic": null
+        }
+      ]
+    },
+    {
+      "reason": "EU|title|notice for the attention of the persons subject to the restrictive measures provided for in council decision (cfsp) 2024/1484, as amended by council decision (cfsp) 2026/2192 and in council regulation (eu) 2024/1485, as implemented by council implementing regulation (eu) 2026/2193, concerning restrictive measures in view of the situation in russia",
+      "grouped": true,
+      "documents": [
+        {
+          "id": "oct06-e4d16cd693983217f18e4cb0-translated",
+          "region": "EU",
+          "officialId": "OJ:C_202605118",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:C_202605118",
+          "title": "Notice for the attention of the persons subject to the restrictive measures provided for in Council Decision (CFSP) 2024/1484, as amended by Council Decision (CFSP) 2026/2192 and in Council Regulation (EU) 2024/1485, as implemented by Council Implementing Regulation (EU) 2026/2193, concerning restrictive measures in view of the situation in Russia",
+          "titleZh": "欧盟：向因俄罗斯局势而受制裁者发出的通知",
+          "topic": "eu-russia-sanctions-2026-2192"
+        },
+        {
+          "id": "oct06-9b65598628aeae742e217193-translated",
+          "region": "EU",
+          "officialId": "OJ:C_202605119",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:C_202605119",
+          "title": "Notice for the attention of the persons subject to the restrictive measures provided for in Council Decision (CFSP) 2024/1484, as amended by Council Decision (CFSP) 2026/2192 and in Council Regulation (EU) 2024/1485, as implemented by Council Implementing Regulation (EU) 2026/2193, concerning restrictive measures in view of the situation in Russia",
+          "titleZh": "欧盟：向因俄罗斯局势而受制裁者发出的通知",
+          "topic": "eu-russia-sanctions-2026-2192"
+        }
+      ]
+    },
+    {
+      "reason": "GB|commencement|employment rights act 2025",
+      "grouped": true,
+      "documents": [
+        {
+          "id": "gb-catalog-uksi-2026-1065-translated",
+          "region": "GB",
+          "officialId": "S.I. 2026/1065",
+          "url": "https://www.legislation.gov.uk/uksi/2026/1065/made",
+          "title": "The Employment Rights Act 2025 (Commencement No. 6 and Transitional and Saving Provisions) Regulations 2026",
+          "titleZh": "2026年《2025年就业权利法》第6批生效、过渡与保留条款条例",
+          "topic": "matter-97ef9f77e14a"
+        },
+        {
+          "id": "gb-catalog-uksi-2026-954-translated",
+          "region": "GB",
+          "officialId": "S.I. 2026/954",
+          "url": "https://www.legislation.gov.uk/uksi/2026/954/made",
+          "title": "The Employment Rights Act 2025 (Commencement No. 5 and Transitional Provisions) (Amendment) Regulations 2026",
+          "titleZh": "2026年《2025年就业权利法》生效规定：第5批 及 过渡条款；修正",
+          "topic": "matter-97ef9f77e14a"
+        },
+        {
+          "id": "gb-catalog-uksi-2026-559-translated",
+          "region": "GB",
+          "officialId": "S.I. 2026/559",
+          "url": "https://www.legislation.gov.uk/uksi/2026/559/made",
+          "title": "The Employment Rights Act 2025 (Commencement No. 4 and Transitional and Saving Provisions) Regulations 2026",
+          "titleZh": "2026年《2025年就业权利法》生效规定：第4批 及 过渡与保留条款",
+          "topic": "matter-97ef9f77e14a"
+        },
+        {
+          "id": "gb-catalog-uksi-2026-373-translated",
+          "region": "GB",
+          "officialId": "S.I. 2026/373",
+          "url": "https://www.legislation.gov.uk/uksi/2026/373/made",
+          "title": "The Employment Rights Act 2025 (Commencement No. 3 and Transitional Provisions) Regulations 2026",
+          "titleZh": "2026年《2025年就业权利法》生效规定：第3批 及 过渡条款",
+          "topic": "matter-97ef9f77e14a"
+        },
+        {
+          "id": "gb-catalog-uksi-2026-323-translated",
+          "region": "GB",
+          "officialId": "S.I. 2026/323",
+          "url": "https://www.legislation.gov.uk/uksi/2026/323/2026-09-02",
+          "title": "The Employment Rights Act 2025 (Commencement No. 2 and Transitional and Saving Provisions) (Amendment) Regulations 2026",
+          "titleZh": "2026年《2025年就业权利法》生效规定：第2批 及 过渡与保留条款；修正",
+          "topic": "matter-97ef9f77e14a"
+        },
+        {
+          "id": "gb-catalog-uksi-2026-3-translated",
+          "region": "GB",
+          "officialId": "S.I. 2026/3",
+          "url": "https://www.legislation.gov.uk/uksi/2026/3/made?view=plain",
+          "title": "The Employment Rights Act 2025 (Commencement No. 1 and Transitional and Saving Provisions) Regulations 2026",
+          "titleZh": "2026年《2025年就业权利法》生效规定：第1批 及 过渡与保留条款",
+          "topic": "matter-97ef9f77e14a"
+        }
+      ]
+    },
+    {
+      "reason": "GB|title|the m25 junction 10/a3 wisley interchange development consent (amendment) order 2026",
+      "grouped": true,
+      "documents": [
+        {
+          "id": "gb-catalog-uksi-2026-1057-translated",
+          "region": "GB",
+          "officialId": "S.I. 2026/1057",
+          "url": "https://www.legislation.gov.uk/uksi/2026/1057/made",
+          "title": "The M25 Junction 10/A3 Wisley Interchange Development Consent (Amendment) Order 2026",
+          "titleZh": "2026年 M25 第10出口／A3 Wisley 立交开发许可修正命令",
+          "topic": "matter-fb64ad224c35"
+        },
+        {
+          "id": "gb-catalog-uksi-2026-842-translated",
+          "region": "GB",
+          "officialId": "S.I. 2026/842",
+          "url": "https://www.legislation.gov.uk/uksi/2026/842/made",
+          "title": "The M25 Junction 10/A3 Wisley Interchange Development Consent (Amendment) Order 2026",
+          "titleZh": "2026年 M25 第10出口／A3 Wisley 立交开发许可修正命令",
+          "topic": "matter-fb64ad224c35"
+        }
+      ]
+    },
+    {
+      "reason": "GB|title|the gatwick airport (northern runway project) development consent (correction) order 2026",
+      "grouped": true,
+      "documents": [
+        {
+          "id": "gb-catalog-uksi-2026-1055-translated",
+          "region": "GB",
+          "officialId": "S.I. 2026/1055",
+          "url": "https://www.legislation.gov.uk/uksi/2026/1055/made",
+          "title": "The Gatwick Airport (Northern Runway Project) Development Consent (Correction) Order 2026",
+          "titleZh": "2026年 Gatwick 机场北跑道项目开发许可更正命令",
+          "topic": "matter-8642cb340907"
+        },
+        {
+          "id": "gb-catalog-uksi-2026-43-translated",
+          "region": "GB",
+          "officialId": "S.I. 2026/43",
+          "url": "https://www.legislation.gov.uk/uksi/2026/43/made?view=plain",
+          "title": "The Gatwick Airport (Northern Runway Project) Development Consent (Correction) Order 2026",
+          "titleZh": "2026年 Gatwick 机场北跑道项目开发许可更正命令",
+          "topic": "matter-8642cb340907"
+        }
+      ]
+    },
+    {
+      "reason": "GB|commencement|digital markets, competition and consumers act 2024",
+      "grouped": true,
+      "documents": [
+        {
+          "id": "gb-catalog-uksi-2026-1040-translated",
+          "region": "GB",
+          "officialId": "S.I. 2026/1040",
+          "url": "https://www.legislation.gov.uk/uksi/2026/1040/made",
+          "title": "The Digital Markets, Competition and Consumers Act 2024 (Commencement No. 3 and Transitional Provisions) (Amendment) Regulations 2026",
+          "titleZh": "2026年修订《2024年数字市场、竞争与消费者法》第3批生效及过渡条款的条例",
+          "topic": "matter-ddd0de80e7e1"
+        },
+        {
+          "id": "gb-catalog-uksi-2026-284-translated",
+          "region": "GB",
+          "officialId": "S.I. 2026/284",
+          "url": "https://www.legislation.gov.uk/uksi/2026/284/2026-09-17",
+          "title": "The Digital Markets, Competition and Consumers Act 2024 (Commencement No. 3 and Transitional Provisions) Regulations 2026",
+          "titleZh": "2026年《2024年数字市场、竞争与消费者法》生效规定：第3批 及 过渡条款",
+          "topic": "matter-ddd0de80e7e1"
+        }
+      ]
+    },
+    {
+      "reason": "GB|commencement|data (use and access) act 2025",
+      "grouped": true,
+      "documents": [
+        {
+          "id": "gb-catalog-uksi-2026-1015-translated",
+          "region": "GB",
+          "officialId": "S.I. 2026/1015",
+          "url": "https://www.legislation.gov.uk/uksi/2026/1015/made",
+          "title": "The Data (Use and Access) Act 2025 (Commencement No. 9 and Transitional and Saving Provisions) Regulations 2026",
+          "titleZh": "2026年《2025年数据使用与访问法》生效规定：第9批 及 过渡与保留条款",
+          "topic": "matter-9407e45701fd"
+        },
+        {
+          "id": "gb-catalog-uksi-2026-82-translated",
+          "region": "GB",
+          "officialId": "S.I. 2026/82",
+          "url": "https://www.legislation.gov.uk/uksi/2026/82/made",
+          "title": "The Data (Use and Access) Act 2025 (Commencement No. 6 and Transitional and Saving Provisions) Regulations 2026",
+          "titleZh": "2026年《2025年数据使用与访问法》生效规定：第6批 及 过渡与保留条款",
+          "topic": "matter-9407e45701fd"
+        },
+        {
+          "id": "gb-catalog-uksi-2026-31-translated",
+          "region": "GB",
+          "officialId": "S.I. 2026/31",
+          "url": "https://www.legislation.gov.uk/uksi/2026/31/made?view=plain",
+          "title": "The Data (Use and Access) Act 2025 (Commencement No. 5) Regulations 2026",
+          "titleZh": "2026年《2025年数据使用与访问法》生效规定：第5批",
+          "topic": "matter-9407e45701fd"
+        }
+      ]
+    },
+    {
+      "reason": "GB|commencement|victims and prisoners act 2024",
+      "grouped": false,
+      "documents": [
+        {
+          "id": "gb-catalog-uksi-2026-1009-translated",
+          "region": "GB",
+          "officialId": "S.I. 2026/1009",
+          "url": "https://www.legislation.gov.uk/uksi/2026/1009/made",
+          "title": "The Victims and Prisoners Act 2024 (Commencement No. 11) Regulations 2026",
+          "titleZh": "2026年《2024年受害者与囚犯法》生效规定：第11批",
+          "topic": null
+        },
+        {
+          "id": "gb-catalog-uksi-2026-317-translated",
+          "region": "GB",
+          "officialId": "S.I. 2026/317",
+          "url": "https://www.legislation.gov.uk/uksi/2026/317/made",
+          "title": "The Victims and Prisoners Act 2024 (Commencement No. 10) and Data (Use and Access) Act 2025 (Commencement No. 8) Regulations 2026",
+          "titleZh": "2026年《2024年受害者与囚犯法》第10批及《2025年数据使用与访问法》第8批生效条例",
+          "topic": null
+        }
+      ]
+    },
+    {
+      "reason": "GB|commencement|crime and policing act 2026",
+      "grouped": true,
+      "documents": [
+        {
+          "id": "gb-catalog-uksi-2026-960-translated",
+          "region": "GB",
+          "officialId": "S.I. 2026/960",
+          "url": "https://www.legislation.gov.uk/uksi/2026/960/made",
+          "title": "The Crime and Policing Act 2026 (Commencement No. 3 and Saving Provisions) Regulations 2026",
+          "titleZh": "2026年《2026年《犯罪和治安法》生效规定：第3批 及 保留条款",
+          "topic": "matter-128ac30c4f8b"
+        },
+        {
+          "id": "gb-catalog-uksi-2026-939-translated",
+          "region": "GB",
+          "officialId": "S.I. 2026/939",
+          "url": "https://www.legislation.gov.uk/uksi/2026/939/made",
+          "title": "The Crime and Policing Act 2026 (Commencement No. 2) Regulations 2026",
+          "titleZh": "2026年《2026年《犯罪和治安法》生效规定：第2批",
+          "topic": "matter-128ac30c4f8b"
+        },
+        {
+          "id": "gb-catalog-uksi-2026-689-translated",
+          "region": "GB",
+          "officialId": "S.I. 2026/689",
+          "url": "https://www.legislation.gov.uk/uksi/2026/689/made",
+          "title": "The Crime and Policing Act 2026 (Commencement No.1 and Saving Provision) Regulations 2026",
+          "titleZh": "2026年《2026年《犯罪和治安法》生效规定：第1批 及 保留条款",
+          "topic": "matter-128ac30c4f8b"
+        }
+      ]
+    },
+    {
+      "reason": "GB|commencement|sentencing act 2026",
+      "grouped": true,
+      "documents": [
+        {
+          "id": "gb-catalog-uksi-2026-953-translated",
+          "region": "GB",
+          "officialId": "S.I. 2026/953",
+          "url": "https://www.legislation.gov.uk/uksi/2026/953/made",
+          "title": "The Sentencing Act 2026 (Commencement No. 6 and Revocation) Regulations 2026",
+          "titleZh": "2026年《2026年量刑法》生效规定：第6批 及 废止",
+          "topic": "matter-0dcbe9762f2f"
+        },
+        {
+          "id": "gb-catalog-uksi-2026-948-translated",
+          "region": "GB",
+          "officialId": "S.I. 2026/948",
+          "url": "https://www.legislation.gov.uk/uksi/2026/948/made",
+          "title": "The Sentencing Act 2026 (Commencement No. 5) (Amendment) Regulations 2026",
+          "titleZh": "2026年《2026年量刑法》生效规定：第5批；修正",
+          "topic": "matter-0dcbe9762f2f"
+        },
+        {
+          "id": "gb-catalog-uksi-2026-772-translated",
+          "region": "GB",
+          "officialId": "S.I. 2026/772",
+          "url": "https://www.legislation.gov.uk/uksi/2026/772/2026-09-01",
+          "title": "The Sentencing Act 2026 (Commencement No. 5) Regulations 2026",
+          "titleZh": "2026年《2026年量刑法》生效规定：第5批",
+          "topic": "matter-0dcbe9762f2f"
+        },
+        {
+          "id": "gb-catalog-uksi-2026-609-translated",
+          "region": "GB",
+          "officialId": "S.I. 2026/609",
+          "url": "https://www.legislation.gov.uk/uksi/2026/609/2026-09-01",
+          "title": "The Sentencing Act 2026 (Commencement No. 4) Regulations 2026 (revoked)",
+          "titleZh": "2026年《2026年量刑法》生效规定：第4批；已废止",
+          "topic": "matter-0dcbe9762f2f"
+        },
+        {
+          "id": "gb-catalog-uksi-2026-402-translated",
+          "region": "GB",
+          "officialId": "S.I. 2026/402",
+          "url": "https://www.legislation.gov.uk/uksi/2026/402/made",
+          "title": "The Sentencing Act 2026 (Commencement No. 3) Regulations 2026",
+          "titleZh": "2026年《2026年量刑法》生效规定：第3批",
+          "topic": "matter-0dcbe9762f2f"
+        },
+        {
+          "id": "gb-catalog-uksi-2026-217-translated",
+          "region": "GB",
+          "officialId": "S.I. 2026/217",
+          "url": "https://www.legislation.gov.uk/uksi/2026/217/made",
+          "title": "The Sentencing Act 2026 (Commencement No. 2 and Transitional Provision) Regulations 2026",
+          "titleZh": "2026年《2026年量刑法》生效规定：第2批 及 过渡条款",
+          "topic": "matter-0dcbe9762f2f"
+        },
+        {
+          "id": "gb-catalog-uksi-2026-86-translated",
+          "region": "GB",
+          "officialId": "S.I. 2026/86",
+          "url": "https://www.legislation.gov.uk/uksi/2026/86/made",
+          "title": "The Sentencing Act 2026 (Commencement No. 1) Regulations 2026",
+          "titleZh": "2026年《2026年量刑法》生效规定：第1批",
+          "topic": "matter-0dcbe9762f2f"
+        }
+      ]
+    },
+    {
+      "reason": "GB|commencement|children’s wellbeing and schools act 2026",
+      "grouped": true,
+      "documents": [
+        {
+          "id": "gb-catalog-uksi-2026-941-translated",
+          "region": "GB",
+          "officialId": "S.I. 2026/941",
+          "url": "https://www.legislation.gov.uk/uksi/2026/941/made",
+          "title": "The Children’s Wellbeing and Schools Act 2026 (Commencement No. 2) (England) (Amendment) Regulations 2026",
+          "titleZh": "2026年《2026年《儿童福利和学校法》生效规定：第2批；英格兰；修正",
+          "topic": "matter-bfa9c655b24e"
+        },
+        {
+          "id": "gb-catalog-uksi-2026-933-translated",
+          "region": "GB",
+          "officialId": "S.I. 2026/933",
+          "url": "https://www.legislation.gov.uk/uksi/2026/933/made",
+          "title": "The Children’s Wellbeing and Schools Act 2026 (Commencement No. 3) (England) Regulations 2026",
+          "titleZh": "2026年《2026年《儿童福利和学校法》生效规定：第3批；英格兰",
+          "topic": "matter-bfa9c655b24e"
+        },
+        {
+          "id": "gb-catalog-uksi-2026-803-translated",
+          "region": "GB",
+          "officialId": "S.I. 2026/803",
+          "url": "https://www.legislation.gov.uk/uksi/2026/803/2026-08-28",
+          "title": "The Children’s Wellbeing and Schools Act 2026 (Commencement No. 2) (England) Regulations 2026",
+          "titleZh": "2026年《2026年《儿童福利和学校法》生效规定：第2批；英格兰",
+          "topic": "matter-bfa9c655b24e"
+        },
+        {
+          "id": "gb-catalog-uksi-2026-551-translated",
+          "region": "GB",
+          "officialId": "S.I. 2026/551",
+          "url": "https://www.legislation.gov.uk/uksi/2026/551/made",
+          "title": "The Children’s Wellbeing and Schools Act 2026 (Commencement No. 1) (England) Regulations 2026",
+          "titleZh": "2026年《2026年《儿童福利和学校法》生效规定：第1批；英格兰",
+          "topic": "matter-bfa9c655b24e"
+        }
+      ]
+    },
+    {
+      "reason": "GB|title|the greater cambridge development corporation (establishment) order 2026",
+      "grouped": true,
+      "documents": [
+        {
+          "id": "gb-catalog-uksi-2026-902-translated",
+          "region": "GB",
+          "officialId": "S.I. 2026/902",
+          "url": "https://www.legislation.gov.uk/uksi/2026/902/made",
+          "title": "The Greater Cambridge Development Corporation (Establishment) Order 2026",
+          "titleZh": "大剑桥开发公司(设立)令 2026年",
+          "topic": "matter-f2c55276524e"
+        },
+        {
+          "id": "gb-catalog-uksi-2026-9780348283952-translated",
+          "region": "GB",
+          "url": "https://www.legislation.gov.uk/uksi/2026/9780348283952/made",
+          "title": "The Greater Cambridge Development Corporation (Establishment) Order 2026",
+          "titleZh": "大剑桥开发公司(设立)令 2026年",
+          "topic": "matter-f2c55276524e"
+        }
+      ]
+    },
+    {
+      "reason": "GB|commencement|bus services act 2025",
+      "grouped": true,
+      "documents": [
+        {
+          "id": "gb-catalog-uksi-2026-834-translated",
+          "region": "GB",
+          "officialId": "S.I. 2026/834",
+          "url": "https://www.legislation.gov.uk/uksi/2026/834/made",
+          "title": "The Bus Services Act 2025 (Commencement No. 2 and Transitional Provisions) Regulations 2026",
+          "titleZh": "2026年《2025年公交服务法》生效规定：第2批 及 过渡条款",
+          "topic": "matter-64edc859ee03"
+        },
+        {
+          "id": "gb-catalog-uksi-2026-46-translated",
+          "region": "GB",
+          "officialId": "S.I. 2026/46",
+          "url": "https://www.legislation.gov.uk/uksi/2026/46/made?view=plain",
+          "title": "The Bus Services Act 2025 (Commencement No. 1 and Transitional Provision) Regulations 2026",
+          "titleZh": "2026年《2025年公交服务法》生效规定：第1批 及 过渡条款",
+          "topic": "matter-64edc859ee03"
+        }
+      ]
+    },
+    {
+      "reason": "GB|commencement|welfare reform act 2012",
+      "grouped": true,
+      "documents": [
+        {
+          "id": "gb-catalog-uksi-2026-813-translated",
+          "region": "GB",
+          "officialId": "S.I. 2026/813",
+          "url": "https://www.legislation.gov.uk/uksi/2026/813/made",
+          "title": "The Welfare Reform Act 2012 (Commencement No. 30 and Transitory Provisions) (Amendment) (England) Order 2026",
+          "titleZh": "2026年《2012年福利改革法》生效规定：第30批 及 暂行条款；修正；英格兰",
+          "topic": "matter-2035e603daa3"
+        },
+        {
+          "id": "gb-catalog-uksi-2026-409-translated",
+          "region": "GB",
+          "officialId": "S.I. 2026/409",
+          "url": "https://www.legislation.gov.uk/uksi/2026/409/made",
+          "title": "The Welfare Reform Act 2012 (Commencement No. 35) (Abolition of Benefits) (Amendment) Order 2026",
+          "titleZh": "2026年《2012年福利改革法》生效规定：第35批；取消福利；修正",
+          "topic": "matter-2035e603daa3"
+        }
+      ]
+    },
+    {
+      "reason": "GB|commencement|english devolution and community empowerment act 2026",
+      "grouped": true,
+      "documents": [
+        {
+          "id": "gb-catalog-uksi-2026-812-translated",
+          "region": "GB",
+          "officialId": "S.I. 2026/812",
+          "url": "https://www.legislation.gov.uk/uksi/2026/812/made",
+          "title": "The English Devolution and Community Empowerment Act 2026 (Commencement No. 2) Regulations 2026",
+          "titleZh": "2026年《2026年英格兰权力下放与社区赋权法》生效规定：第2批",
+          "topic": "matter-c07cb9418c56"
+        },
+        {
+          "id": "gb-catalog-uksi-2026-656-translated",
+          "region": "GB",
+          "officialId": "S.I. 2026/656",
+          "url": "https://www.legislation.gov.uk/uksi/2026/656/made",
+          "title": "The English Devolution and Community Empowerment Act 2026 (Commencement No. 1 and Saving) Regulations 2026",
+          "titleZh": "2026年《2026年英格兰权力下放与社区赋权法》生效规定：第1批 及 保留条款",
+          "topic": "matter-c07cb9418c56"
+        }
+      ]
+    },
+    {
+      "reason": "GB|commencement|border security, asylum and immigration act 2025",
+      "grouped": true,
+      "documents": [
+        {
+          "id": "gb-catalog-uksi-2026-766-translated",
+          "region": "GB",
+          "officialId": "S.I. 2026/766",
+          "url": "https://www.legislation.gov.uk/uksi/2026/766/made",
+          "title": "The Border Security, Asylum and Immigration Act 2025 (Commencement No. 5) Regulations 2026",
+          "titleZh": "2026年《2025年边境安全、庇护与移民法》生效规定：第5批",
+          "topic": "matter-d870a28c4484"
+        },
+        {
+          "id": "gb-catalog-uksi-2026-683-translated",
+          "region": "GB",
+          "officialId": "S.I. 2026/683",
+          "url": "https://www.legislation.gov.uk/uksi/2026/683/made",
+          "title": "The Border Security, Asylum and Immigration Act 2025 (Commencement No. 4) Regulations 2026",
+          "titleZh": "2026年《2025年边境安全、庇护与移民法》生效规定：第4批",
+          "topic": "matter-d870a28c4484"
+        },
+        {
+          "id": "gb-catalog-uksi-2026-163-translated",
+          "region": "GB",
+          "officialId": "S.I. 2026/163",
+          "url": "https://www.legislation.gov.uk/uksi/2026/163/made",
+          "title": "The Border Security, Asylum and Immigration Act 2025 (Commencement No. 3) Regulations 2026",
+          "titleZh": "2026年《2025年边境安全、庇护与移民法》生效规定：第3批",
+          "topic": "matter-d870a28c4484"
+        },
+        {
+          "id": "gb-catalog-uksi-2026-59-translated",
+          "region": "GB",
+          "officialId": "S.I. 2026/59",
+          "url": "https://www.legislation.gov.uk/uksi/2026/59/made?view=plain",
+          "title": "The Border Security, Asylum and Immigration Act 2025 (Commencement No. 2) Regulations 2026",
+          "titleZh": "2026年《2025年边境安全、庇护与移民法》生效规定：第2批",
+          "topic": "matter-d870a28c4484"
+        }
+      ]
+    },
+    {
+      "reason": "GB|commencement|automated vehicles act 2024",
+      "grouped": true,
+      "documents": [
+        {
+          "id": "gb-catalog-uksi-2026-731-translated",
+          "region": "GB",
+          "officialId": "S.I. 2026/731",
+          "url": "https://www.legislation.gov.uk/uksi/2026/731/made",
+          "title": "The Automated Vehicles Act 2024 (Commencement No. 3) Regulations 2026",
+          "titleZh": "2026年《2024年自动驾驶车辆法》生效规定：第3批",
+          "topic": "matter-7c70eb719dd2"
+        },
+        {
+          "id": "gb-catalog-uksi-2026-437-translated",
+          "region": "GB",
+          "officialId": "S.I. 2026/437",
+          "url": "https://www.legislation.gov.uk/uksi/2026/437/made",
+          "title": "The Automated Vehicles Act 2024 (Commencement No. 2) Regulations 2026",
+          "titleZh": "2026年《2024年自动驾驶车辆法》生效规定：第2批",
+          "topic": "matter-7c70eb719dd2"
+        }
+      ]
+    },
+    {
+      "reason": "GB|commencement|football governance act 2025",
+      "grouped": true,
+      "documents": [
+        {
+          "id": "gb-catalog-uksi-2026-705-translated",
+          "region": "GB",
+          "officialId": "S.I. 2026/705",
+          "url": "https://www.legislation.gov.uk/uksi/2026/705/made",
+          "title": "The Football Governance Act 2025 (Commencement No. 4) Regulations 2026",
+          "titleZh": "2026年《2025年足球治理法》生效规定：第4批",
+          "topic": "matter-7371236d8419"
+        },
+        {
+          "id": "gb-catalog-uksi-2026-477-translated",
+          "region": "GB",
+          "officialId": "S.I. 2026/477",
+          "url": "https://www.legislation.gov.uk/uksi/2026/477/made",
+          "title": "The Football Governance Act 2025 (Commencement No. 3) Regulations 2026",
+          "titleZh": "2026年《2025年足球治理法》生效规定：第3批",
+          "topic": "matter-7371236d8419"
+        }
+      ]
+    },
+    {
+      "reason": "GB|commencement|financial services and markets act 2023",
+      "grouped": true,
+      "documents": [
+        {
+          "id": "gb-catalog-uksi-2026-682-translated",
+          "region": "GB",
+          "officialId": "S.I. 2026/682",
+          "url": "https://www.legislation.gov.uk/uksi/2026/682/2026-06-25",
+          "title": "The Financial Services and Markets Act 2023 (Commencement No. 15 and Saving and Transitional Provisions) Regulations 2026",
+          "titleZh": "2026年《2023年金融服务与市场法》生效规定：第15批 及 保留与过渡条款",
+          "topic": "matter-c7fe91408644"
+        },
+        {
+          "id": "gb-catalog-uksi-2026-587-translated",
+          "region": "GB",
+          "officialId": "S.I. 2026/587",
+          "url": "https://www.legislation.gov.uk/uksi/2026/587/made",
+          "title": "The Financial Services and Markets Act 2023 (Commencement No. 14) Regulations 2026",
+          "titleZh": "2026年《2023年金融服务与市场法》生效规定：第14批",
+          "topic": "matter-c7fe91408644"
+        },
+        {
+          "id": "gb-catalog-uksi-2026-174-translated",
+          "region": "GB",
+          "officialId": "S.I. 2026/174",
+          "url": "https://www.legislation.gov.uk/uksi/2026/174/made",
+          "title": "The Financial Services and Markets Act 2023 (Commencement No. 13) Regulations 2026",
+          "titleZh": "2026年《2023年金融服务与市场法》生效规定：第13批",
+          "topic": "matter-c7fe91408644"
+        },
+        {
+          "id": "gb-catalog-uksi-2026-45-translated",
+          "region": "GB",
+          "officialId": "S.I. 2026/45",
+          "url": "https://www.legislation.gov.uk/uksi/2026/45/made?view=plain",
+          "title": "The Financial Services and Markets Act 2023 (Commencement No. 12 and Saving Provisions) Regulations 2026",
+          "titleZh": "2026年《2023年金融服务与市场法》生效规定：第12批 及 保留条款",
+          "topic": "matter-c7fe91408644"
+        }
+      ]
+    },
+    {
+      "reason": "GB|commencement|planning and infrastructure act 2025",
+      "grouped": true,
+      "documents": [
+        {
+          "id": "gb-catalog-uksi-2026-641-translated",
+          "region": "GB",
+          "officialId": "S.I. 2026/641",
+          "url": "https://www.legislation.gov.uk/uksi/2026/641/made",
+          "title": "The Planning and Infrastructure Act 2025 (Commencement No. 4 and Transitional Provisions) Regulations 2026",
+          "titleZh": "2026年《2025年规划与基础设施法》生效规定：第4批 及 过渡条款",
+          "topic": "matter-c98493e0d530"
+        },
+        {
+          "id": "gb-catalog-uksi-2026-549-translated",
+          "region": "GB",
+          "officialId": "S.I. 2026/549",
+          "url": "https://www.legislation.gov.uk/uksi/2026/549/made",
+          "title": "The Planning and Infrastructure Act 2025 (Commencement No. 3 and Transitional Provisions) Regulations 2026",
+          "titleZh": "2026年《2025年规划与基础设施法》生效规定：第3批 及 过渡条款",
+          "topic": "matter-c98493e0d530"
+        },
+        {
+          "id": "gb-catalog-uksi-2026-292-translated",
+          "region": "GB",
+          "officialId": "S.I. 2026/292",
+          "url": "https://www.legislation.gov.uk/uksi/2026/292/made",
+          "title": "The Planning and Infrastructure Act 2025 (Commencement No. 2) Regulations 2026",
+          "titleZh": "2026年《2025年规划与基础设施法》生效规定：第2批",
+          "topic": "matter-c98493e0d530"
+        }
+      ]
+    },
+    {
+      "reason": "GB|commencement|renters’ rights act 2025",
+      "grouped": true,
+      "documents": [
+        {
+          "id": "gb-catalog-uksi-2026-638-translated",
+          "region": "GB",
+          "officialId": "S.I. 2026/638",
+          "url": "https://www.legislation.gov.uk/uksi/2026/638/made",
+          "title": "The Renters’ Rights Act 2025 (Commencement No. 3) Regulations 2026",
+          "titleZh": "2026年《2025年租客权利法》生效规定：第3批",
+          "topic": "matter-93b19873afda"
+        },
+        {
+          "id": "gb-catalog-uksi-2026-421-translated",
+          "region": "GB",
+          "officialId": "S.I. 2026/421",
+          "url": "https://www.legislation.gov.uk/uksi/2026/421/made",
+          "title": "The Renters’ Rights Act 2025 (Commencement No. 2 and Transitional and Saving Provisions) Regulations 2026",
+          "titleZh": "2026年《2025年租客权利法》生效规定：第2批 及 过渡与保留条款",
+          "topic": "matter-93b19873afda"
+        }
+      ]
+    },
+    {
+      "reason": "GB|commencement|terrorism (protection of premises) act 2025",
+      "grouped": true,
+      "documents": [
+        {
+          "id": "gb-catalog-uksi-2026-622-translated",
+          "region": "GB",
+          "officialId": "S.I. 2026/622",
+          "url": "https://www.legislation.gov.uk/uksi/2026/622/made",
+          "title": "The Terrorism (Protection of Premises) Act 2025 (Commencement No. 2) Regulations 2026",
+          "titleZh": "2026年《2025年反恐场所保护法》生效规定：第2批",
+          "topic": "matter-13fe2df9abb8"
+        },
+        {
+          "id": "gb-catalog-uksi-2026-320-translated",
+          "region": "GB",
+          "officialId": "S.I. 2026/320",
+          "url": "https://www.legislation.gov.uk/uksi/2026/320/made",
+          "title": "The Terrorism (Protection of Premises) Act 2025 (Commencement No. 1) Regulations 2026",
+          "titleZh": "2026年《2025年反恐场所保护法》生效规定：第1批",
+          "topic": "matter-13fe2df9abb8"
+        }
+      ]
+    },
+    {
+      "reason": "GB|commencement|public authorities (fraud, error and recovery) act 2025",
+      "grouped": true,
+      "documents": [
+        {
+          "id": "gb-catalog-uksi-2026-601-translated",
+          "region": "GB",
+          "officialId": "S.I. 2026/601",
+          "url": "https://www.legislation.gov.uk/uksi/2026/601/made",
+          "title": "The Public Authorities (Fraud, Error and Recovery) Act 2025 (Commencement No. 3) Regulations 2026",
+          "titleZh": "2026年《2025年公共机构欺诈、错误与追偿法》生效规定：第3批",
+          "topic": "matter-3fda3a34a406"
+        },
+        {
+          "id": "gb-catalog-uksi-2026-371-translated",
+          "region": "GB",
+          "officialId": "S.I. 2026/371",
+          "url": "https://www.legislation.gov.uk/uksi/2026/371/made",
+          "title": "The Public Authorities (Fraud, Error and Recovery) Act 2025 (Commencement No. 2) Regulations 2026",
+          "titleZh": "2026年《2025年公共机构欺诈、错误与追偿法》生效规定：第2批",
+          "topic": "matter-3fda3a34a406"
+        }
+      ]
+    },
+    {
+      "reason": "GB|title|the a46 coventry junctions (walsgrave) development consent order 2026",
+      "grouped": true,
+      "documents": [
+        {
+          "id": "gb-catalog-uksi-2026-537-translated",
+          "region": "GB",
+          "officialId": "S.I. 2026/537",
+          "url": "https://www.legislation.gov.uk/uksi/2026/537/2026-05-27",
+          "title": "The A46 Coventry Junctions (Walsgrave) Development Consent Order 2026",
+          "titleZh": "2026年 A46 Coventry 路口 Walsgrave 项目开发许可命令",
+          "topic": "matter-ac1f6bbeef1e"
+        },
+        {
+          "id": "gb-catalog-uksi-2026-125-translated",
+          "region": "GB",
+          "officialId": "S.I. 2026/125",
+          "url": "https://www.legislation.gov.uk/uksi/2026/125/made",
+          "title": "The A46 Coventry Junctions (Walsgrave) Development Consent Order 2026",
+          "titleZh": "2026年 A46 Coventry 路口 Walsgrave 项目开发许可命令",
+          "topic": "matter-ac1f6bbeef1e"
+        }
+      ]
+    },
+    {
+      "reason": "GB|commencement|levelling-up and regeneration act 2023",
+      "grouped": true,
+      "documents": [
+        {
+          "id": "gb-catalog-uksi-2026-333-translated",
+          "region": "GB",
+          "officialId": "S.I. 2026/333",
+          "url": "https://www.legislation.gov.uk/uksi/2026/333/made",
+          "title": "The Levelling-up and Regeneration Act 2023 (Commencement No. 11 and Saving and Transitional Provisions) (Amendment) Regulations 2026",
+          "titleZh": "2026年《2023年地区均衡发展与更新法》生效规定：第11批 及 保留与过渡条款；修正",
+          "topic": "matter-954d7712928f"
+        },
+        {
+          "id": "gb-catalog-uksi-2026-169-translated",
+          "region": "GB",
+          "officialId": "S.I. 2026/169",
+          "url": "https://www.legislation.gov.uk/uksi/2026/169/2026-03-25",
+          "title": "The Levelling-up and Regeneration Act 2023 (Commencement No. 11 and Saving and Transitional Provisions) Regulations 2026",
+          "titleZh": "2026年《2023年地区均衡发展与更新法》生效规定：第11批 及 保留与过渡条款",
+          "topic": "matter-954d7712928f"
+        },
+        {
+          "id": "gb-catalog-uksi-2026-168-translated",
+          "region": "GB",
+          "officialId": "S.I. 2026/168",
+          "url": "https://www.legislation.gov.uk/uksi/2026/168/made",
+          "title": "The Levelling-up and Regeneration Act 2023 (Commencement No. 10) Regulations 2026",
+          "titleZh": "2026年《2023年地区均衡发展与更新法》生效规定：第10批",
+          "topic": "matter-954d7712928f"
+        }
+      ]
+    },
+    {
+      "reason": "GB-SCT|commencement|wildlife management and muirburn (scotland) act 2024",
+      "grouped": false,
+      "documents": [
+        {
+          "id": "gb-catalog-ssi-2026-200-translated",
+          "region": "GB-SCT",
+          "officialId": "S.S.I. 2026/200",
+          "url": "https://www.legislation.gov.uk/ssi/2026/200/made",
+          "title": "The Wildlife Management and Muirburn (Scotland) Act 2024 (Commencement No. 4, Transitional and Saving Provisions) and the Natural Environment (Scotland) Act 2026 (Commencement No. 1) Regulations 2026",
+          "titleZh": "2026年《2024年苏格兰野生动物管理与荒野烧除法》第4批生效、过渡与保留条款及《2026年苏格兰自然环境法》第1批生效条例",
+          "topic": null
+        },
+        {
+          "id": "gb-catalog-ssi-2026-127-translated",
+          "region": "GB-SCT",
+          "officialId": "S.S.I. 2026/127",
+          "url": "https://www.legislation.gov.uk/ssi/2026/127/made",
+          "title": "The Wildlife Management and Muirburn (Scotland) Act 2024 (Commencement No. 3) Regulations 2026",
+          "titleZh": "2026年《2024年苏格兰野生动物管理与荒野烧除法》生效规定：第3批",
+          "topic": null
+        }
+      ]
+    },
+    {
+      "reason": "GB-SCT|commencement|renters’ rights act 2025",
+      "grouped": true,
+      "documents": [
+        {
+          "id": "gb-catalog-ssi-2026-125-translated",
+          "region": "GB-SCT",
+          "officialId": "S.S.I. 2026/125",
+          "url": "https://www.legislation.gov.uk/ssi/2026/125/made",
+          "title": "The Renters’ Rights Act 2025 (Commencement No. 2, Transitional Provision and Revocation) (Scotland) Regulations 2026",
+          "titleZh": "2026年《2025年租客权利法》生效规定：第2批, 过渡条款 及 废止；苏格兰",
+          "topic": "matter-7e15a97d16fc"
+        },
+        {
+          "id": "gb-catalog-ssi-2026-113-translated",
+          "region": "GB-SCT",
+          "officialId": "S.S.I. 2026/113",
+          "url": "https://www.legislation.gov.uk/ssi/2026/113/2026-04-30",
+          "title": "The Renters’ Rights Act 2025 (Commencement) (Scotland) Regulations 2026 (revoked)",
+          "titleZh": "2026年《2025年租客权利法》生效规定：苏格兰；已废止",
+          "topic": "matter-7e15a97d16fc"
+        }
+      ]
+    },
+    {
+      "reason": "GB-SCT|commencement|victims, witnesses, and justice reform (scotland) act 2025",
+      "grouped": true,
+      "documents": [
+        {
+          "id": "gb-catalog-ssi-2026-120-translated",
+          "region": "GB-SCT",
+          "officialId": "S.S.I. 2026/120",
+          "url": "https://www.legislation.gov.uk/ssi/2026/120/made",
+          "title": "The Victims, Witnesses, and Justice Reform (Scotland) Act 2025 (Commencement No. 2 and Saving Provisions) Regulations 2026",
+          "titleZh": "2026年《2025年苏格兰受害者、证人与司法改革法》生效规定：第2批 及 保留条款",
+          "topic": "matter-769d0e63ec40"
+        },
+        {
+          "id": "gb-catalog-ssi-2026-66-translated",
+          "region": "GB-SCT",
+          "officialId": "S.S.I. 2026/66",
+          "url": "https://www.legislation.gov.uk/ssi/2026/66/made",
+          "title": "The Victims, Witnesses, and Justice Reform (Scotland) Act 2025 (Commencement No. 1 and Transitional Provision) Amendment Regulations 2026",
+          "titleZh": "2026年《2025年苏格兰受害者、证人与司法改革法》生效规定：第1批 及 过渡条款；修正",
+          "topic": "matter-769d0e63ec40"
+        }
+      ]
+    },
+    {
+      "reason": "GB-SCT|commencement|education (scotland) act 2025",
+      "grouped": true,
+      "documents": [
+        {
+          "id": "gb-catalog-ssi-2026-83-translated",
+          "region": "GB-SCT",
+          "officialId": "S.S.I. 2026/83",
+          "url": "https://www.legislation.gov.uk/ssi/2026/83/made",
+          "title": "The Education (Scotland) Act 2025 (Commencement No. 3) Regulations 2026",
+          "titleZh": "2026年《2025年苏格兰教育法》生效规定：第3批",
+          "topic": "matter-2848dfbda6d9"
+        },
+        {
+          "id": "gb-catalog-ssi-2026-2-translated",
+          "region": "GB-SCT",
+          "officialId": "S.S.I. 2026/2",
+          "url": "https://www.legislation.gov.uk/ssi/2026/2/made?view=plain",
+          "title": "The Education (Scotland) Act 2025 (Commencement No. 2, Transitional and Transitory Provisions) Regulations 2026",
+          "titleZh": "2026年《2025年苏格兰教育法》生效规定：第2批, 过渡与暂行条款",
+          "topic": "matter-2848dfbda6d9"
+        }
+      ]
+    },
+    {
+      "reason": "EU|title|commission disburses €1.24 billion to ukraine for drones and missiles",
+      "grouped": true,
+      "documents": [
+        {
+          "id": "eu-oct08-a9c6549e723b9f20",
+          "region": "EU",
+          "url": "https://defence-industry-space.ec.europa.eu/commission-disburses-eur124-billion-ukraine-drones-and-missiles-2026-10-08_en",
+          "title": "Commission disburses €1.24 billion to Ukraine for drones and missiles",
+          "titleZh": "向乌克兰拨付12.4亿欧元用于无人机与导弹",
+          "topic": "eu-ukraine-defence-payment-oct2026"
+        },
+        {
+          "id": "eu-oct08-b2d644033f8891e6",
+          "region": "EU",
+          "officialId": "IP/26/2094",
+          "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2094",
+          "title": "Commission disburses €1.24 billion to Ukraine for drones and missiles",
+          "titleZh": "向乌克兰拨付12.4亿欧元用于无人机与导弹",
+          "topic": "eu-ukraine-defence-payment-oct2026"
+        }
+      ]
+    },
+    {
+      "reason": "EU|title|commission fines kingspan €40 million for providing incorrect and misleading information during merger investigation",
+      "grouped": true,
+      "documents": [
+        {
+          "id": "eu-oct08-4615aa11f1eca475",
+          "region": "EU",
+          "url": "https://competition-policy.ec.europa.eu/about/news/commission-fines-kingspan-eur40-million-providing-incorrect-and-misleading-information-during-merger-2026-10-08_en",
+          "title": "Commission fines Kingspan €40 million for providing incorrect and misleading information during merger investigation",
+          "titleZh": "Kingspan 因并购调查中提供不实信息被罚4000万欧元",
+          "topic": "eu-kingspan-merger-fine-oct2026"
+        },
+        {
+          "id": "eu-oct08-567948e6606eb332",
+          "region": "EU",
+          "officialId": "IP/26/2084",
+          "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2084",
+          "title": "Commission fines Kingspan €40 million for providing incorrect and misleading information during merger investigation",
+          "titleZh": "Kingspan 因并购调查中提供不实信息被罚4000万欧元",
+          "topic": "eu-kingspan-merger-fine-oct2026"
+        }
+      ]
+    },
+    {
+      "reason": "EU|title|commission adopts proposal to accelerate standards development and improve eu competitiveness",
+      "grouped": true,
+      "documents": [
+        {
+          "id": "eu-oct08-e88aacd38e5739d2",
+          "region": "EU",
+          "url": "https://single-market-economy.ec.europa.eu/news/commission-adopts-proposal-accelerate-standards-development-and-improve-eu-competitiveness-2026-10-06_en",
+          "title": "Commission adopts proposal to accelerate standards development and improve EU competitiveness",
+          "titleZh": "委员会提出加快欧洲标准制定的改革提案",
+          "topic": "eu-standards-proposal-oct2026"
+        },
+        {
+          "id": "eu-oct08-e9d764b62361a794",
+          "region": "EU",
+          "officialId": "IP/26/2070",
+          "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2070",
+          "title": "Commission adopts proposal to accelerate standards development and improve EU competitiveness",
+          "titleZh": "委员会提出加快欧洲标准制定的改革提案",
+          "topic": "eu-standards-proposal-oct2026"
+        }
+      ]
+    },
+    {
+      "reason": "EU|title|questions and answers on the pre-enlargement policy reviews",
+      "grouped": true,
+      "documents": [
+        {
+          "id": "eu-oct08-a5f3013e88fa4c0f",
+          "region": "EU",
+          "url": "https://enlargement.ec.europa.eu/news/questions-and-answers-pre-enlargement-policy-reviews-2026-10-06_en",
+          "title": "Questions and answers on the pre-enlargement policy reviews",
+          "titleZh": "欧盟扩大前政策审查问答",
+          "topic": "eu-enlargement-policy-reviews-oct2026"
+        },
+        {
+          "id": "eu-oct08-e9c629b896b8375b",
+          "region": "EU",
+          "officialId": "QANDA/26/2076",
+          "url": "https://ec.europa.eu/commission/presscorner/detail/en/qanda_26_2076",
+          "title": "Questions and answers on the pre-enlargement policy reviews",
+          "titleZh": "欧盟扩大前政策审查问答",
+          "topic": "eu-enlargement-policy-reviews-oct2026"
+        }
+      ]
+    },
+    {
+      "reason": "EU|title|preparing for a wider union",
+      "grouped": true,
+      "documents": [
+        {
+          "id": "eu-oct08-91e01af618ddd550",
+          "region": "EU",
+          "url": "https://enlargement.ec.europa.eu/news/preparing-wider-union-2026-10-06_en",
+          "title": "Preparing for a wider Union",
+          "titleZh": "为欧盟扩大成员范围作准备",
+          "topic": "eu-enlargement-policy-reviews-oct2026"
+        },
+        {
+          "id": "eu-oct08-5bda1f55020957a4",
+          "region": "EU",
+          "officialId": "IP/26/2075",
+          "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2075",
+          "title": "Preparing for a wider Union",
+          "titleZh": "为欧盟扩大成员范围作准备",
+          "topic": "eu-enlargement-policy-reviews-oct2026"
+        }
+      ]
+    },
+    {
+      "reason": "EU|title|joint statement by high representative/vice-president kallas and commissioner kos on the general elections in bosnia and herzegovina",
+      "grouped": true,
+      "documents": [
+        {
+          "id": "eu-oct08-8d477b9cf01d3cce",
+          "region": "EU",
+          "url": "https://enlargement.ec.europa.eu/news/joint-statement-high-representativevice-president-kallas-and-commissioner-kos-general-elections-2026-10-06_en",
+          "title": "Joint statement by High Representative/Vice-President Kallas and Commissioner Kos on the general elections in Bosnia and Herzegovina",
+          "titleZh": "卡拉斯与科斯就波黑大选发表联合声明",
+          "topic": "eu-bosnia-election-statement-oct2026"
+        },
+        {
+          "id": "eu-oct08-7c7a460c38a57c66",
+          "region": "EU",
+          "officialId": "STATEMENT/26/2083",
+          "url": "https://ec.europa.eu/commission/presscorner/detail/en/statement_26_2083",
+          "title": "Joint statement by High Representative/Vice-President Kallas and Commissioner Kos on the general elections in Bosnia and Herzegovina",
+          "titleZh": "卡拉斯与科斯就波黑大选发表联合声明",
+          "topic": "eu-bosnia-election-statement-oct2026"
+        }
+      ]
+    },
+    {
+      "reason": "EU|title|commission finds polish support for man trucks factory expansion incompatible state aid",
+      "grouped": true,
+      "documents": [
+        {
+          "id": "eu-oct08-b5d2f5a581c5134b",
+          "region": "EU",
+          "url": "https://competition-policy.ec.europa.eu/about/news/commission-finds-polish-support-man-trucks-factory-expansion-incompatible-state-aid-2026-10-05_en",
+          "title": "Commission finds Polish support for MAN Trucks factory expansion incompatible State aid",
+          "titleZh": "波兰拟补贴 MAN 卡车工厂扩产被认定不符合国家援助规则",
+          "topic": "eu-man-polish-aid-oct2026"
+        },
+        {
+          "id": "eu-oct08-e52a6e73bbe63aad",
+          "region": "EU",
+          "officialId": "IP/26/2056",
+          "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2056",
+          "title": "Commission finds Polish support for MAN Trucks factory expansion incompatible State aid",
+          "titleZh": "波兰拟补贴 MAN 卡车工厂扩产被认定不符合国家援助规则",
+          "topic": "eu-man-polish-aid-oct2026"
+        }
+      ]
+    },
+    {
+      "reason": "EU|title|commission unlocks €157 million to moldova for reform progress under the growth plan",
+      "grouped": true,
+      "documents": [
+        {
+          "id": "eu-oct08-51aaff29951ca238",
+          "region": "EU",
+          "url": "https://enlargement.ec.europa.eu/news/commission-unlocks-eur157-million-moldova-reform-progress-under-growth-plan-2026-10-05_en",
+          "title": "Commission unlocks €157 million to Moldova for reform progress under the Growth Plan",
+          "titleZh": "根据增长计划向摩尔多瓦拨付1.57亿欧元",
+          "topic": "eu-moldova-growth-payment-oct2026"
+        },
+        {
+          "id": "eu-oct08-e7ca8c2425952598",
+          "region": "EU",
+          "officialId": "IP/26/2054",
+          "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2054",
+          "title": "Commission unlocks €157 million to Moldova for reform progress under the Growth Plan",
+          "titleZh": "根据增长计划向摩尔多瓦拨付1.57亿欧元",
+          "topic": "eu-moldova-growth-payment-oct2026"
+        }
+      ]
+    },
+    {
+      "reason": "EU|title|commission approves €170 million bulgarian state aid for farmers facing increased fuel and fertiliser prices",
+      "grouped": true,
+      "documents": [
+        {
+          "id": "eu-oct08-0a0d2475ec37dfa1",
+          "region": "EU",
+          "url": "https://competition-policy.ec.europa.eu/about/news/commission-approves-eur170-million-bulgarian-state-aid-farmers-facing-increased-fuel-and-fertiliser-2026-10-02_en",
+          "title": "Commission approves €170 million Bulgarian State aid for farmers facing increased fuel and fertiliser prices",
+          "titleZh": "批准保加利亚1.7亿欧元农业燃料和化肥成本援助",
+          "topic": "eu-bulgaria-farm-aid-oct2026"
+        },
+        {
+          "id": "eu-oct08-a85c92cc8ef3cec4",
+          "region": "EU",
+          "officialId": "IP/26/2019",
+          "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2019",
+          "title": "Commission approves €170 million Bulgarian State aid for farmers facing increased fuel and fertiliser prices",
+          "titleZh": "批准保加利亚1.7亿欧元农业燃料和化肥成本援助",
+          "topic": "eu-bulgaria-farm-aid-oct2026"
+        }
+      ]
+    },
+    {
+      "reason": "EU|title|commission disburses €2.9 billion under ukraine facility to support financial stability and reforms",
+      "grouped": true,
+      "documents": [
+        {
+          "id": "eu-oct08-d556a7a57b87322a",
+          "region": "EU",
+          "url": "https://enlargement.ec.europa.eu/news/commission-disburses-eur29-billion-under-ukraine-facility-support-financial-stability-and-reforms-2026-10-02_en",
+          "title": "Commission disburses €2.9 billion under Ukraine Facility to support financial stability and reforms",
+          "titleZh": "通过乌克兰机制拨付29亿欧元支持财政稳定与改革",
+          "topic": "eu-ukraine-facility-payment-oct2026"
+        },
+        {
+          "id": "eu-oct08-4d683b6510f6f1e5",
+          "region": "EU",
+          "officialId": "IP/26/2047",
+          "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2047",
+          "title": "Commission disburses €2.9 billion under Ukraine Facility to support financial stability and reforms",
+          "titleZh": "通过乌克兰机制拨付29亿欧元支持财政稳定与改革",
+          "topic": "eu-ukraine-facility-payment-oct2026"
+        }
+      ]
+    },
+    {
+      "reason": "EU|title|statement by commissioner lahbib on the siege of oleshky, ukraine",
+      "grouped": true,
+      "documents": [
+        {
+          "id": "eu-oct08-e92b8809989946f8",
+          "region": "EU",
+          "url": "https://civil-protection-humanitarian-aid.ec.europa.eu/news-stories/news/statement-commissioner-lahbib-siege-oleshky-ukraine-2026-10-02_en",
+          "title": "Statement by Commissioner Lahbib on the siege of Oleshky, Ukraine",
+          "titleZh": "拉比卜就乌克兰奥莱什基被围困发表声明",
+          "topic": "eu-oleshky-statement-oct2026"
+        },
+        {
+          "id": "eu-oct08-b053604cc2f1eabf",
+          "region": "EU",
+          "officialId": "STATEMENT/26/2063",
+          "url": "https://ec.europa.eu/commission/presscorner/detail/en/statement_26_2063",
+          "title": "Statement by Commissioner Lahbib on the siege of Oleshky, Ukraine",
+          "titleZh": "拉比卜就乌克兰奥莱什基被围困发表声明",
+          "topic": "eu-oleshky-statement-oct2026"
+        }
+      ]
+    },
+    {
+      "reason": "US|title|federal scholarship tax credit",
+      "grouped": true,
+      "documents": [
+        {
+          "id": "us-fr-2026-20264",
+          "region": "US",
+          "officialId": "TD 10057",
+          "url": "https://www.govinfo.gov/content/pkg/FR-2026-10-02/html/2026-20264.htm",
+          "title": "Federal Scholarship Tax Credit",
+          "titleZh": "美国教育捐款税收抵免：州选择及奖学金机构认证临时规章",
+          "topic": "us-scholarship-credit-2026"
+        },
+        {
+          "id": "us-fr-2026-20277",
+          "region": "US",
+          "officialId": "REG-117199-25",
+          "url": "https://www.govinfo.gov/content/pkg/FR-2026-10-02/html/2026-20277.htm",
+          "title": "Federal Scholarship Tax Credit",
+          "titleZh": "美国教育捐款税收抵免：拟议实施规章及征求意见",
+          "topic": "us-scholarship-credit-2026"
+        }
+      ]
+    },
+    {
+      "reason": "DE|number|BT-Drs. 21/7195",
+      "grouped": true,
+      "documents": [
+        {
+          "id": "de-carf-bundestag-passage-20261008",
+          "region": "DE",
+          "officialId": "BT-Drs. 21/7195",
+          "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-de-kryptowerte-1217548",
+          "title": "Informationsaustausch über den Handel mit Kryptowerten beschlossen",
+          "titleZh": "加密资产国际信息交换协定获联邦议院通过",
+          "topic": "de-crypto-information-exchange"
+        },
+        {
+          "id": "de-carf-first-reading-context-20261008",
+          "region": "DE",
+          "officialId": "BT-Drs. 21/7195",
+          "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-de-kryptowerte-1217548",
+          "title": "Entwurf eines Gesetzes zu der Mehrseitigen Vereinbarung vom 8. Juni 2023 zwischen den zuständigen Behörden über den automatischen Austausch von Informationen nach dem Melderahmen für Kryptowerte",
+          "titleZh": "加密资产信息交换协定法案完成一读并转交财政委员会",
+          "topic": "de-crypto-information-exchange"
+        }
+      ]
+    },
+    {
+      "reason": "DE|title|überweisungen im vereinfachten verfahren",
+      "grouped": false,
+      "documents": [
+        {
+          "id": "daily-de-20261009-bt-11",
+          "region": "DE",
+          "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw42-de-ueberweisungen-1154766",
+          "title": "Überweisungen im vereinfachten Verfahren",
+          "titleZh": "10月15日议案简化转交程序",
+          "topic": null
+        },
+        {
+          "id": "daily-de-20261009-bt-74",
+          "region": "DE",
+          "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-de-ueberweisungen-1154722",
+          "title": "Überweisungen im vereinfachten Verfahren",
+          "titleZh": "10月8日议案简化转交程序",
+          "topic": null
+        }
+      ]
+    },
+    {
+      "reason": "DE|title|abschließende beratungen ohne aussprache",
+      "grouped": false,
+      "documents": [
+        {
+          "id": "daily-de-20261009-bt-12",
+          "region": "DE",
+          "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw42-de-abschliessende-beratungen-1154762",
+          "title": "Abschließende Beratungen ohne Aussprache",
+          "titleZh": "10月15日不经辩论的最终审议议程",
+          "topic": null
+        },
+        {
+          "id": "daily-de-20261009-bt-73",
+          "region": "DE",
+          "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-de-abschliessende-beratungen-1154720",
+          "title": "Abschließende Beratungen ohne Aussprache",
+          "titleZh": "10月8日不经辩论的最终审议",
+          "topic": null
+        }
+      ]
+    },
+    {
+      "reason": "DE|title|entwurf eines gesetzes zur reform der steuerberaterprüfung",
+      "grouped": true,
+      "documents": [
+        {
+          "id": "daily-de-20261009-tax-adviser-exam",
+          "region": "DE",
+          "url": "https://www.bundesfinanzministerium.de/Content/DE/Gesetzestexte/Gesetze_Gesetzesvorhaben/Abteilungen/Abteilung_IV/21_Legislaturperiode/2026-08-13-G-Reform-StBerPruefung/0-Gesetz.html",
+          "title": "Entwurf eines Gesetzes zur Reform der Steuerberaterprüfung",
+          "titleZh": "税务师考试改革：财政部公布政府草案",
+          "topic": "de-tax-adviser-exam-reform-2026"
+        },
+        {
+          "id": "kab61-top1-01",
+          "region": "DE",
+          "url": "https://www.bundesregierung.de/breg-de/bundesregierung/bundeskanzleramt/kabinettssitzungen/bundeskabinett-ergebnisse-2455982#top1-01",
+          "title": "Entwurf eines Gesetzes zur Reform der Steuerberaterprüfung",
+          "titleZh": "内阁通过税务师考试改革法草案",
+          "topic": "de-tax-adviser-exam-reform-2026"
+        }
+      ]
+    },
+    {
+      "reason": "EU|title|explanatory notes to the combined nomenclature of the european union",
+      "grouped": false,
+      "documents": [
+        {
+          "id": "eu-oct09-oj-c-202605274",
+          "region": "EU",
+          "officialId": "OJ:C_202605274",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:C_202605274",
+          "title": "Explanatory notes to the Combined Nomenclature of the European Union",
+          "titleZh": "欧盟合并税则解释性说明（OJ:C_202605274）",
+          "topic": null
+        },
+        {
+          "id": "eu-oct09-oj-c-202605276",
+          "region": "EU",
+          "officialId": "OJ:C_202605276",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:C_202605276",
+          "title": "Explanatory notes to the Combined Nomenclature of the European Union",
+          "titleZh": "欧盟合并税则解释性说明（OJ:C_202605276）",
+          "topic": null
+        }
+      ]
+    }
+  ]
+}

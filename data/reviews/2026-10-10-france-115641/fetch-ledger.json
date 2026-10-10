@@ -1,0 +1,1509 @@
+{
+ "note": "Fetch ledger for the France update. \"evidence\" bytes are archived in data/sources; \"meta\" requests (RSS feed, National Assembly number searches, non-policy articles) are discovery metadata only; \"fail\" requests were blocked or empty and are not archived.",
+ "fetches": [
+  {
+   "url": "https://www.service-public.gouv.fr/particuliers/actualites",
+   "at": "2026-10-09T21:13:29.775Z",
+   "kind": "evidence",
+   "hash": "787abb5dd88c9d9749859b249504c7b7130b66c2cb122095e59afa4b9daddea3",
+   "size": 70735
+  },
+  {
+   "url": "https://entreprendre.service-public.gouv.fr/actualites",
+   "at": "2026-10-09T21:13:30.108Z",
+   "kind": "evidence",
+   "hash": "e22e5c27b70cedaab020d40e7a2c06ee2c08ad59b76a6b59555668e3c4d83d7d",
+   "size": 94317
+  },
+  {
+   "url": "https://www.service-public.gouv.fr/abonnements/rss/actu-actu-pro.rss",
+   "at": "2026-10-09T21:14:16.444Z",
+   "kind": "meta",
+   "hash": "6500c7068e37a5220af6f784fe3a3d65b77ef89be600a6dc242ad54314b9f925",
+   "size": 215625
+  },
+  {
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers",
+   "at": "2026-10-09T21:13:31.346Z",
+   "kind": "evidence",
+   "hash": "ff7c49e1d572a5952960c482fbe2707a85e8a77acbb2112d450d75741f6be4db",
+   "size": 268733
+  },
+  {
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers?page=1",
+   "at": "2026-10-09T21:16:11.433Z",
+   "kind": "evidence",
+   "hash": "88c252de0322be030cf91feccf1157556fbc697bc99e94e356ce51c68b6c8751",
+   "size": 269004
+  },
+  {
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers?page=2",
+   "at": "2026-10-09T21:16:14.824Z",
+   "kind": "evidence",
+   "hash": "13df87b2f3a8f2b0a538d898bb7fa35004c5127e808d7f4020a36579c972ac60",
+   "size": 268838
+  },
+  {
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers?page=3",
+   "at": "2026-10-09T21:16:15.461Z",
+   "kind": "evidence",
+   "hash": "b03904376263ef664941fa43e5c89f1e09e64f456ecbd026e6277f1f70712121",
+   "size": 269259
+  },
+  {
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers?numero=3200",
+   "at": "2026-10-09T21:23:32.436Z",
+   "kind": "meta",
+   "hash": "210db072347862bfae7a018ce574ea535b44fbed7b20fdf75e9c4ee060be963a",
+   "size": 175770
+  },
+  {
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers?numero=3201",
+   "at": "2026-10-09T21:23:33.010Z",
+   "kind": "meta",
+   "hash": "9e9ae24f64fd6a754ea40ada2923de58c9dd9f4a26265767adec1de7d9e7d9a1",
+   "size": 169762
+  },
+  {
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers?numero=3202",
+   "at": "2026-10-09T21:23:33.329Z",
+   "kind": "meta",
+   "hash": "518983ef165602982d4848f55858ffe60356d09173b4c23a29cda22726781c68",
+   "size": 169762
+  },
+  {
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers?numero=3203",
+   "at": "2026-10-09T21:23:33.123Z",
+   "kind": "meta",
+   "hash": "c17102292fc60b0b66fa60868dc44353a87a6cb1211c2f2969362e707721f283",
+   "size": 175869
+  },
+  {
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers?numero=3204",
+   "at": "2026-10-09T21:23:33.080Z",
+   "kind": "meta",
+   "hash": "659340f18ce56eb84a95364a6bc025224d3bc1250113b6f018907ab6b47cfe04",
+   "size": 169762
+  },
+  {
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers?numero=3205",
+   "at": "2026-10-09T21:23:36.951Z",
+   "kind": "meta",
+   "hash": "60d94114a9df3c7da78d266b58771b9c074cd071fc26f5a76e3b13a63ce2bb54",
+   "size": 169762
+  },
+  {
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers?numero=3206",
+   "at": "2026-10-09T21:23:37.274Z",
+   "kind": "meta",
+   "hash": "06b218d73a2ab2260da3b63bbedc9220acb9e16a4756e6b4b2cc7d10e06db7e5",
+   "size": 169762
+  },
+  {
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers?numero=3207",
+   "at": "2026-10-09T21:23:33.381Z",
+   "kind": "meta",
+   "hash": "d65ab6d81dde1dc19cb16bf96c062da17a9cd4e3765f314977c2c8d578179e8c",
+   "size": 175906
+  },
+  {
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers?numero=3208",
+   "at": "2026-10-09T21:23:36.900Z",
+   "kind": "meta",
+   "hash": "3ea304cf364d10c6e61288645478f4f26146ff5abc36a9cf24982445c8d23e95",
+   "size": 169762
+  },
+  {
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers?numero=3209",
+   "at": "2026-10-09T21:23:37.754Z",
+   "kind": "meta",
+   "hash": "89f5639512eb79a3a76d5467ebb24b14853223f0a349bb3f1094dccfba287a83",
+   "size": 175982
+  },
+  {
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers?numero=3210",
+   "at": "2026-10-09T21:23:38.804Z",
+   "kind": "meta",
+   "hash": "dbbab82b3dfd11ceff2ab2358901adb1a69e4087e746f8c7899a7856c7050296",
+   "size": 175750
+  },
+  {
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers?numero=3211",
+   "at": "2026-10-09T21:23:37.692Z",
+   "kind": "meta",
+   "hash": "965253fa0d49a3c81eea837bcda7c577596167e3a7bce740d6efc9388b5c92af",
+   "size": 175831
+  },
+  {
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers?numero=3212",
+   "at": "2026-10-09T21:23:42.121Z",
+   "kind": "meta",
+   "hash": "bd8d9e26e98c7519ecc0a5ad4878d1123eca087cc51de2c682cda8d20ae984fa",
+   "size": 175874
+  },
+  {
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers?numero=3213",
+   "at": "2026-10-09T21:23:37.787Z",
+   "kind": "meta",
+   "hash": "7924e8e2b96408e980ab98aa80c6bf02b48bd3ad0417fa3fb20db9ee3b8ac908",
+   "size": 176021
+  },
+  {
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers?numero=3214",
+   "at": "2026-10-09T21:23:37.704Z",
+   "kind": "meta",
+   "hash": "479c1a25236f669ea1e7d3e927a2c2ce89f2648ad9b0fa52625cc7644946a293",
+   "size": 175971
+  },
+  {
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers?numero=3215",
+   "at": "2026-10-09T21:23:37.725Z",
+   "kind": "meta",
+   "hash": "1e5353e8ae910dafc97893f03b138b00cc7e0fc827d4ddfe56cbe7794cbfaf1c",
+   "size": 175977
+  },
+  {
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers?numero=3216",
+   "at": "2026-10-09T21:23:41.937Z",
+   "kind": "meta",
+   "hash": "6de93d4cec4f497b1ea2b83dc1c5e3d16f84f852738242d7a4069e92d2b4b472",
+   "size": 175963
+  },
+  {
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers?numero=3217",
+   "at": "2026-10-09T21:23:42.621Z",
+   "kind": "meta",
+   "hash": "a194db2835c558c58ae085fa71bea8c9d34b996637d0f3254babd66adeb99bcb",
+   "size": 175846
+  },
+  {
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers?numero=3218",
+   "at": "2026-10-09T21:23:42.339Z",
+   "kind": "meta",
+   "hash": "2d121a89c428550812c796bb952543a0e5da804cdc4bc6073db445e127c2df3e",
+   "size": 169762
+  },
+  {
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers?numero=3219",
+   "at": "2026-10-09T21:23:42.570Z",
+   "kind": "meta",
+   "hash": "d3a75f843d9588d4549622ecf79edfd2737ebda5b05316a14c07e8db913dc277",
+   "size": 175825
+  },
+  {
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers?numero=3220",
+   "at": "2026-10-09T21:23:42.782Z",
+   "kind": "meta",
+   "hash": "0751440002cb47a22a60eac6a36ca2c7b68a40ab9c99a4ef59b03d412343cb42",
+   "size": 175856
+  },
+  {
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers?numero=3221",
+   "at": "2026-10-09T21:23:42.607Z",
+   "kind": "meta",
+   "hash": "86942a8dcd41393a502c51e4da2407fdc609d15d8f4eccc5aa67cd1e706144fe",
+   "size": 175960
+  },
+  {
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers?numero=3222",
+   "at": "2026-10-09T21:23:47.169Z",
+   "kind": "meta",
+   "hash": "130eefeb3a8ba98dd0cec3dddaeba9987c12186eaf6416ac9a9b17db76d86bb1",
+   "size": 175858
+  },
+  {
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers?numero=3223",
+   "at": "2026-10-09T21:23:48.094Z",
+   "kind": "meta",
+   "hash": "b11559c9bde3ba19b4277547290336dc83089093f043b6a31517204d0798c51b",
+   "size": 175827
+  },
+  {
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers?numero=3224",
+   "at": "2026-10-09T21:23:42.596Z",
+   "kind": "meta",
+   "hash": "1680f2b2f79da2ab902ef7a4bfbeefe7041dea8c60ff058a12d2e866526da55e",
+   "size": 175842
+  },
+  {
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers?numero=3225",
+   "at": "2026-10-09T21:23:53.496Z",
+   "kind": "meta",
+   "hash": "81166d94f5d4c912aeedd678d90c1284faf73d09d777dee130aa4a33461d82cf",
+   "size": 175891
+  },
+  {
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers?numero=3226",
+   "at": "2026-10-09T21:23:48.586Z",
+   "kind": "meta",
+   "hash": "32be5fc7377755281569a537addb6a5db75b979729ea5160530efddd30c145c8",
+   "size": 175870
+  },
+  {
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers?numero=3227",
+   "at": "2026-10-09T21:23:52.881Z",
+   "kind": "meta",
+   "hash": "0e41125e6d5048aa3398ca7c283050309173f0ae4afdb575bfc89307ebeced62",
+   "size": 175839
+  },
+  {
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers?numero=3228",
+   "at": "2026-10-09T21:23:48.622Z",
+   "kind": "meta",
+   "hash": "56e89fcbfa084461faabd9a9ae5ad9d55d8943908de8b179a2137252a788bc4f",
+   "size": 175885
+  },
+  {
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers?numero=3229",
+   "at": "2026-10-09T21:23:48.608Z",
+   "kind": "meta",
+   "hash": "04bb6836c95009bec02b7fbfa5273b0f56facb3bb6b985eaa9fb2218c754db7f",
+   "size": 175850
+  },
+  {
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers?numero=3230",
+   "at": "2026-10-09T21:23:48.626Z",
+   "kind": "meta",
+   "hash": "831cacf26ca1cc278b3358e1ccc9f83cb751f15e1ee87c9e8c3a7ebfe226be7c",
+   "size": 175847
+  },
+  {
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers?numero=3231",
+   "at": "2026-10-09T21:23:48.580Z",
+   "kind": "meta",
+   "hash": "d0d332359b7e1174d443e12a5b5cd0857930b4eb6690f77c6f828611828cf229",
+   "size": 175926
+  },
+  {
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers?numero=3232",
+   "at": "2026-10-09T21:23:53.123Z",
+   "kind": "meta",
+   "hash": "1473c6fedaf35da2ae29ca564ee8b7ff09f00a37f1d1f99819a669e1b089d5f4",
+   "size": 175903
+  },
+  {
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers?numero=3233",
+   "at": "2026-10-09T21:23:58.034Z",
+   "kind": "meta",
+   "hash": "015bc029d72fb0e576998721a5350bbb7d68f2a4265e345c52f03637f6cca72e",
+   "size": 175870
+  },
+  {
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers?numero=3234",
+   "at": "2026-10-09T21:23:53.991Z",
+   "kind": "meta",
+   "hash": "2eceefbbb52e47dbe9684a871a5960bbf3ef4e150857cd1a010f4b55e0700c04",
+   "size": 175804
+  },
+  {
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers?numero=3235",
+   "at": "2026-10-09T21:23:53.753Z",
+   "kind": "meta",
+   "hash": "0db58c49036f42b2d6a97f6f155a820ce3bc8c9c1e1fb8b350955e1d9b5d260f",
+   "size": 175947
+  },
+  {
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers?numero=3236",
+   "at": "2026-10-09T21:23:54.036Z",
+   "kind": "meta",
+   "hash": "3ee1b6d14efc7352cc871d132097b163a1e6daa6f93d1556409a4b8bfae2a8b3",
+   "size": 175900
+  },
+  {
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers?numero=3237",
+   "at": "2026-10-09T21:23:53.706Z",
+   "kind": "meta",
+   "hash": "f019c6aa42b2ed1580da99cf958aa7a255f5927de4a6d005ad091acc3a378805",
+   "size": 175985
+  },
+  {
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers?numero=3238",
+   "at": "2026-10-09T21:23:57.877Z",
+   "kind": "meta",
+   "hash": "e813ff07d4c8f59d483e5a977b5a40dbd211f7c1c00dc39fa890b27d7d787454",
+   "size": 176140
+  },
+  {
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers?numero=3239",
+   "at": "2026-10-09T21:23:54.016Z",
+   "kind": "meta",
+   "hash": "378f418c42e364eda2d6cc93691449454ae85b8bb97bc2b1cb6b4a11d3d1fbf0",
+   "size": 175947
+  },
+  {
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers?numero=3240",
+   "at": "2026-10-09T21:23:58.186Z",
+   "kind": "meta",
+   "hash": "e2e6ca19847964b4e0a030379e2ecc9198d5ae6cbe50296e10240b27c23cfcb1",
+   "size": 175771
+  },
+  {
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers?numero=3241",
+   "at": "2026-10-09T21:24:01.945Z",
+   "kind": "meta",
+   "hash": "0813ab805542726e67e9d00934dbc4346a8fe489fdb418b5940c832a8732c0f0",
+   "size": 175810
+  },
+  {
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers?numero=3242",
+   "at": "2026-10-09T21:23:58.730Z",
+   "kind": "meta",
+   "hash": "31c1d3fb2a858e6a8966c9c1d0b26ec3af923b20d62588767a23a98e3ee453a6",
+   "size": 176019
+  },
+  {
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers?numero=3243",
+   "at": "2026-10-09T21:24:01.978Z",
+   "kind": "meta",
+   "hash": "ac85d95fda568307f8d7cf1be57b32adcc5793d65231bbb6936cace93e2fc2a6",
+   "size": 175990
+  },
+  {
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers?numero=3244",
+   "at": "2026-10-09T21:23:58.721Z",
+   "kind": "meta",
+   "hash": "d535faef6bf68b97b02f4618df307e0c41dfcd56f61817f2a82754d22e1152b1",
+   "size": 175863
+  },
+  {
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers?numero=3245",
+   "at": "2026-10-09T21:23:58.735Z",
+   "kind": "meta",
+   "hash": "ce8da997a9bc44c8e8b3f6f2606a164be7ec3247675e9f537d5d9e85cfddbe98",
+   "size": 175915
+  },
+  {
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers?numero=3246",
+   "at": "2026-10-09T21:23:58.729Z",
+   "kind": "meta",
+   "hash": "2b7fbd867fff38e7c07eec1de754ba87f2ba3bff691bbb075c5ef72b775c369f",
+   "size": 175850
+  },
+  {
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers?numero=3247",
+   "at": "2026-10-09T21:23:58.732Z",
+   "kind": "meta",
+   "hash": "b24cdb4bc615570659e25fbc4bac946e3a5661cb8e66c4385cb759d1d7e92fb4",
+   "size": 175854
+  },
+  {
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers?numero=3248",
+   "at": "2026-10-09T21:24:01.892Z",
+   "kind": "meta",
+   "hash": "6e49204c3a3ce1652e6212ee525c46e595a26e40abc3c0774bc2c743307aacd2",
+   "size": 175917
+  },
+  {
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers?numero=3249",
+   "at": "2026-10-09T21:24:02.442Z",
+   "kind": "meta",
+   "hash": "43cc177a020eb87e3c9cbb39f21db2848476972a5c7cbbcb66256088e064f2bd",
+   "size": 175847
+  },
+  {
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers?numero=3250",
+   "at": "2026-10-09T21:24:02.513Z",
+   "kind": "meta",
+   "hash": "7c8b490f33ddcd84a59e8423053a0f6e7572919d17ab9b6fc6963e51b15cfea4",
+   "size": 175943
+  },
+  {
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers?numero=3251",
+   "at": "2026-10-09T21:24:06.295Z",
+   "kind": "meta",
+   "hash": "5c3c5fee9e29adb2cd68ce9ded1d2707e296223d8e2f10f35b016f8613b5b8a0",
+   "size": 175901
+  },
+  {
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers?numero=3252",
+   "at": "2026-10-09T21:24:02.499Z",
+   "kind": "meta",
+   "hash": "c929461c13f730706952fc3cff111f531c784e4ad12e1d2f3d493384f7a31403",
+   "size": 175963
+  },
+  {
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers?numero=3253",
+   "at": "2026-10-09T21:24:06.508Z",
+   "kind": "meta",
+   "hash": "97c5397ef084508a03369bb6514f57ddc2167c79703afab657f4093aace04a48",
+   "size": 175811
+  },
+  {
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers?numero=3254",
+   "at": "2026-10-09T21:24:02.423Z",
+   "kind": "meta",
+   "hash": "99ff5d8e3727986abeaa207dece973b3c49ec12e1f8ebe90c8ea4d9b9c29330a",
+   "size": 175913
+  },
+  {
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers?numero=3255",
+   "at": "2026-10-09T21:24:02.486Z",
+   "kind": "meta",
+   "hash": "435f4c6e86e4ca4d3ad4704f5c8c8239756df1e62cc8d75dae9e8f8ed9258040",
+   "size": 176060
+  },
+  {
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers?numero=3256",
+   "at": "2026-10-09T21:24:02.430Z",
+   "kind": "meta",
+   "hash": "e4e1266cfe22ff10b5eaea6b1deebc2cd942ffd2ac7fb76af8cd7868d0b967b6",
+   "size": 175896
+  },
+  {
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers?numero=3257",
+   "at": "2026-10-09T21:24:13.161Z",
+   "kind": "meta",
+   "hash": "712a1ad88edd682275270c5a83dbc28fdd42afabdce5764127d7b846fcd2298f",
+   "size": 175943
+  },
+  {
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers?numero=3258",
+   "at": "2026-10-09T21:24:06.940Z",
+   "kind": "meta",
+   "hash": "b006f9a0d974d340aa240b372e452c230a9ca05731441f54d25be1d453b9afe4",
+   "size": 175853
+  },
+  {
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers?numero=3259",
+   "at": "2026-10-09T21:24:07.022Z",
+   "kind": "meta",
+   "hash": "c88812a83485ea3f266135dfe93be80939d416e6a3a55e123fdcf71e79f405e5",
+   "size": 175849
+  },
+  {
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers?numero=3260",
+   "at": "2026-10-09T21:24:13.157Z",
+   "kind": "meta",
+   "hash": "ce323408e70c5afec5fe7c80f66cbe269d41edd55b22db3f7adcd27316ad7b48",
+   "size": 175958
+  },
+  {
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers?numero=3261",
+   "at": "2026-10-09T21:24:06.946Z",
+   "kind": "meta",
+   "hash": "c480575350650a439422bafd24d35cdffa5fc6a09a389839c57e0abe43c8e786",
+   "size": 175992
+  },
+  {
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers?numero=3262",
+   "at": "2026-10-09T21:24:13.159Z",
+   "kind": "meta",
+   "hash": "c316909db0d968362b5ed641262ac10a8a6c334c2fb006cd611b2a87631d74ce",
+   "size": 176310
+  },
+  {
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers?numero=3263",
+   "at": "2026-10-09T21:24:06.952Z",
+   "kind": "meta",
+   "hash": "85daf9ea00dd0d94e5711bf0ea482577154fa566bc748c59efd6b19d28aa7dbd",
+   "size": 175895
+  },
+  {
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers?numero=3264",
+   "at": "2026-10-09T21:24:06.933Z",
+   "kind": "meta",
+   "hash": "a656a7e69a6eac1f8503c11ef6164563efecb68fe36ecf76b4286c5bf9beef15",
+   "size": 175847
+  },
+  {
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers?numero=3265",
+   "at": "2026-10-09T21:24:20.938Z",
+   "kind": "meta",
+   "hash": "ae7576776bd7d2e9f61cbaa61a70568bccdbf5bdc4d0fd42c6f8f5b5eaef6e50",
+   "size": 175908
+  },
+  {
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers?numero=3266",
+   "at": "2026-10-09T21:24:13.653Z",
+   "kind": "meta",
+   "hash": "20351fbec273180271ab0fbbfd7db9269b26100e61b97964d8e544075ccc9d7e",
+   "size": 175846
+  },
+  {
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers?numero=3267",
+   "at": "2026-10-09T21:24:13.604Z",
+   "kind": "meta",
+   "hash": "66eab3de58e51f3a15625e59c05c840ba796d63f251da38f74293fc8443ed3cc",
+   "size": 175910
+  },
+  {
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers?numero=3268",
+   "at": "2026-10-09T21:24:13.428Z",
+   "kind": "meta",
+   "hash": "592eb7f20acefafaec5a5af0f897103d87edea26bf16d1d243a3b0a00dcb1471",
+   "size": 175877
+  },
+  {
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers?numero=3269",
+   "at": "2026-10-09T21:24:13.398Z",
+   "kind": "meta",
+   "hash": "067e2941571c97fb82c3c0bb74b0174ae08b6aa20cd8d831f7f48596e9c82a51",
+   "size": 175891
+  },
+  {
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers?numero=3270",
+   "at": "2026-10-09T21:24:20.251Z",
+   "kind": "meta",
+   "hash": "8cba9d3d50e44f876e24846aa2b0192da2b11ae0bd3ae9213e6f7fa793b4e786",
+   "size": 175899
+  },
+  {
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers?numero=3271",
+   "at": "2026-10-09T21:24:13.590Z",
+   "kind": "meta",
+   "hash": "cf2599dcbcbcc7b346e92638c36d71a7eb4e1d0d268f983678566a99d9a7533f",
+   "size": 175823
+  },
+  {
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers?numero=3272",
+   "at": "2026-10-09T21:24:13.417Z",
+   "kind": "meta",
+   "hash": "b8eeb80dfaa6975fda036a33b6cc67192541468d00ddd4d0785f643211bdc4a6",
+   "size": 175882
+  },
+  {
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers?numero=3273",
+   "at": "2026-10-09T21:24:21.133Z",
+   "kind": "meta",
+   "hash": "dedded9c88396aea2da8d6515a3588b41578cbf51dc4cbc51f133d9e63642df2",
+   "size": 169762
+  },
+  {
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers?numero=3274",
+   "at": "2026-10-09T21:24:21.193Z",
+   "kind": "meta",
+   "hash": "96de26807fb1540c0ccf88314754f1be2f5df80c7eaaccb5469625c1e9db72c7",
+   "size": 175843
+  },
+  {
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers?numero=3275",
+   "at": "2026-10-09T21:24:21.157Z",
+   "kind": "meta",
+   "hash": "f171a362de216d33e1e412af65f4941e1be85e192d0b0a5bfc88e49ba896a073",
+   "size": 169762
+  },
+  {
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers?numero=3276",
+   "at": "2026-10-09T21:24:21.471Z",
+   "kind": "meta",
+   "hash": "70fb6960e09098ffc8bac6e67191233f50982faee52dd4c0192cd50f90bd1a93",
+   "size": 169762
+  },
+  {
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers?numero=3277",
+   "at": "2026-10-09T21:24:21.128Z",
+   "kind": "meta",
+   "hash": "b4044a33a894142cefa6e798c00610b87ea570fa02c12353814e51d72715bb2a",
+   "size": 169762
+  },
+  {
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers?numero=3278",
+   "at": "2026-10-09T21:24:21.494Z",
+   "kind": "meta",
+   "hash": "dafd127bb1dcc80f685a8b7c39cc34b7b6f99572252ac7bf5cd55629a6b633ba",
+   "size": 169762
+  },
+  {
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers?numero=3279",
+   "at": "2026-10-09T21:24:21.146Z",
+   "kind": "meta",
+   "hash": "168d89c3382fedfe312c96d9e0687889d7f0ac9296ba4c9cd3d8fcf6716d9aac",
+   "size": 175751
+  },
+  {
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers?numero=3280",
+   "at": "2026-10-09T21:24:21.518Z",
+   "kind": "meta",
+   "hash": "7f979944a7c31bc8230642fe3c663dfcbcbbe7ccedbe5ab7633b596dd6f1545a",
+   "size": 175944
+  },
+  {
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers?numero=3281",
+   "at": "2026-10-09T21:24:22.034Z",
+   "kind": "meta",
+   "hash": "93964911dfd8c9644997d9c2a0717b410cb3c504659b3f09d09e03a49a22de71",
+   "size": 176057
+  },
+  {
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers?numero=3282",
+   "at": "2026-10-09T21:24:22.047Z",
+   "kind": "meta",
+   "hash": "06600653a7534668d85cb44dcc9fc57ac35b235efce84ba103e0f9bad3862b8d",
+   "size": 169762
+  },
+  {
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers?numero=3283",
+   "at": "2026-10-09T21:24:22.174Z",
+   "kind": "meta",
+   "hash": "75706e86c2a6d298659f14336ce55b3a9a6a7b3d33505d90769a747cde103636",
+   "size": 175961
+  },
+  {
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers?numero=3284",
+   "at": "2026-10-09T21:24:22.113Z",
+   "kind": "meta",
+   "hash": "8a4339ac09a926b18a44b14285c9ac678738dcbf69730c77183fdacc66bf31d4",
+   "size": 176010
+  },
+  {
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers?numero=3285",
+   "at": "2026-10-09T21:24:22.053Z",
+   "kind": "meta",
+   "hash": "269faf225083cfe33f9f735350b61e81ff2284fc41d6395da1264ce87b7f673a",
+   "size": 175962
+  },
+  {
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers?numero=3286",
+   "at": "2026-10-09T21:24:22.117Z",
+   "kind": "meta",
+   "hash": "697ac28200bb20b11edea1c2ea0733e0194c89223c96cd874275c2ade7b8c365",
+   "size": 175950
+  },
+  {
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers?numero=3287",
+   "at": "2026-10-09T21:24:22.005Z",
+   "kind": "meta",
+   "hash": "6eb68b10941267826a3b7aed4a1bab39d6780dbc3db40729a9776254140e327c",
+   "size": 175981
+  },
+  {
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers?numero=3288",
+   "at": "2026-10-09T21:24:22.109Z",
+   "kind": "meta",
+   "hash": "0272838c0fb7e8c661dfeb820f14cf3c43327d3faff42825b9a37c73f8da2e83",
+   "size": 175959
+  },
+  {
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers?numero=3289",
+   "at": "2026-10-09T21:24:22.777Z",
+   "kind": "meta",
+   "hash": "c2fe54c720b2c9231ac779e67879ac04b8608949e4dd1008e598a3442ae739df",
+   "size": 175920
+  },
+  {
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers?numero=3290",
+   "at": "2026-10-09T21:24:22.766Z",
+   "kind": "meta",
+   "hash": "42e0ceb12b991229a5523a4e89db7183e4f33a7eeedc104a0c226949b2d63530",
+   "size": 175977
+  },
+  {
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers?numero=3291",
+   "at": "2026-10-09T21:24:22.849Z",
+   "kind": "meta",
+   "hash": "35e27ca4f0f9214f63c2891bcf13d81cc15efc576a2fefe8825372d956f8eb68",
+   "size": 175751
+  },
+  {
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers?numero=3292",
+   "at": "2026-10-09T21:24:22.777Z",
+   "kind": "meta",
+   "hash": "f8a68923976bf1b0f9cf5efa2e420b60770839314226d14b9fae14d29dfcc634",
+   "size": 169762
+  },
+  {
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers?numero=3293",
+   "at": "2026-10-09T21:24:22.887Z",
+   "kind": "meta",
+   "hash": "fe4b5aa653a5f5f1e99dbb2997e98d6758d289bdbb1d43017d76018ea5ba47c6",
+   "size": 169762
+  },
+  {
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers?numero=3294",
+   "at": "2026-10-09T21:24:22.749Z",
+   "kind": "meta",
+   "hash": "a977f20bc0751ab9138f811e4dda30bdadde1a712e4c4bc78df9421536c3c3dc",
+   "size": 169762
+  },
+  {
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers?numero=3295",
+   "at": "2026-10-09T21:24:22.679Z",
+   "kind": "meta",
+   "hash": "a1ccc1281885011592de21499cf2213346296b61f84c40bd1d94d610d06e9db6",
+   "size": 169762
+  },
+  {
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers?numero=3296",
+   "at": "2026-10-09T21:24:22.719Z",
+   "kind": "meta",
+   "hash": "13f9a55283f12a13fc8cbb32c1f333405f4964e51eae69320cb58e7e2e28605f",
+   "size": 169762
+  },
+  {
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers?numero=3297",
+   "at": "2026-10-09T21:24:23.440Z",
+   "kind": "meta",
+   "hash": "2f9cb6f7181bab8f5bd25c78359ee01c5bbbe05a5b5fd2d92090b52776080c8f",
+   "size": 169762
+  },
+  {
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers?numero=3298",
+   "at": "2026-10-09T21:24:23.508Z",
+   "kind": "meta",
+   "hash": "b5952ea60b87cca4334cb7a037642070615c66cdd16228153225471c91c68dfd",
+   "size": 169762
+  },
+  {
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers?numero=3299",
+   "at": "2026-10-09T21:24:23.486Z",
+   "kind": "meta",
+   "hash": "b1f664bf6ac0fd63a648cfcf42e4640112e455b544b40d7639fc4155a4d72b19",
+   "size": 169762
+  },
+  {
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers?numero=3300",
+   "at": "2026-10-09T21:24:23.452Z",
+   "kind": "meta",
+   "hash": "d5b0c969b0d14ca87a66b253fed615e3c6939f4b86763a79a9c48ed28c2b0f94",
+   "size": 169762
+  },
+  {
+   "url": "https://www.senat.fr/dossiers-legislatifs/lois-promulguees.html",
+   "at": "2026-10-09T21:13:31.943Z",
+   "kind": "evidence",
+   "hash": "0d464df217bb23156407839f411da5952bd04fc8fc47d8a960a02aee7b8774bd",
+   "size": 137295
+  },
+  {
+   "url": "https://www.legifrance.gouv.fr/jorf/jo",
+   "at": "2026-10-09T21:13:30.244Z",
+   "kind": "fail",
+   "hash": "3f22707f5e20ad5bc16d77439f811c7bb0344408680d428b568642e91b7414b5",
+   "size": 5711,
+   "error": "HTTP 403 access challenge (Cloudflare); a local headless render also stopped at the verification page. Not bypassed; no source text."
+  },
+  {
+   "url": "https://www.service-public.gouv.fr/particuliers/actualites/A14632",
+   "at": "2026-10-09T21:13:58.777Z",
+   "kind": "evidence",
+   "hash": "1407c3da51f252ecd7ca2e46adb6835d00876778bb793bcf01a4b6dc33bc3c0d",
+   "size": 60763
+  },
+  {
+   "url": "https://www.service-public.gouv.fr/particuliers/actualites/A19081",
+   "at": "2026-10-09T21:14:00.373Z",
+   "kind": "evidence",
+   "hash": "0f49c4b7e52c1754e8773aa615538312eb71e601d48b6e5f34d0c67fe899e059",
+   "size": 58265
+  },
+  {
+   "url": "https://www.service-public.gouv.fr/particuliers/actualites/A15144",
+   "at": "2026-10-09T21:14:00.809Z",
+   "kind": "evidence",
+   "hash": "057ac52fb407f5da22e11f3d865a2c27da8e7536f6cb29b04b93ab4284f0f3af",
+   "size": 65801
+  },
+  {
+   "url": "https://www.service-public.gouv.fr/particuliers/actualites/A19085",
+   "at": "2026-10-09T21:13:58.133Z",
+   "kind": "evidence",
+   "hash": "51d3892b639dacbfb735d676175f3e4d5cf359de2974f6430854097a9b5f9d1a",
+   "size": 63876
+  },
+  {
+   "url": "https://www.service-public.gouv.fr/particuliers/actualites/A19080",
+   "at": "2026-10-09T21:13:57.921Z",
+   "kind": "evidence",
+   "hash": "77c877848af220668b4c42ec32469fe84f27ba3930590dff6a94e52368bc3988",
+   "size": 61286
+  },
+  {
+   "url": "https://www.service-public.gouv.fr/particuliers/actualites/A19086",
+   "at": "2026-10-09T21:13:57.735Z",
+   "kind": "evidence",
+   "hash": "d864a9b1e3c1dc83c9518902484a905f872ec80ba4c4692170d41ad932ea7a35",
+   "size": 60958
+  },
+  {
+   "url": "https://www.service-public.gouv.fr/particuliers/actualites/A18926",
+   "at": "2026-10-09T21:13:57.513Z",
+   "kind": "evidence",
+   "hash": "ebbd1b567d8f6b88d190e54ee456989fdef340df2acb2529fbf02746a79923ec",
+   "size": 59444
+  },
+  {
+   "url": "https://www.service-public.gouv.fr/particuliers/actualites/A17166",
+   "at": "2026-10-09T21:25:32.744Z",
+   "kind": "evidence",
+   "hash": "f068fc1c03798c73c819a590bd516bdb3251a08fcb72c6a51e1b65856929e6af",
+   "size": 60687
+  },
+  {
+   "url": "https://www.service-public.gouv.fr/particuliers/actualites/A19066",
+   "at": "2026-10-09T21:25:32.955Z",
+   "kind": "evidence",
+   "hash": "864b6dac8c358bbe00a5dfba0548d680d845db876e7962efebedfa8bbf48bf4d",
+   "size": 61699
+  },
+  {
+   "url": "https://www.service-public.gouv.fr/particuliers/actualites/A19067",
+   "at": "2026-10-09T21:25:33.163Z",
+   "kind": "evidence",
+   "hash": "580dc1f2117ef4b37f7a9a8bfb37152a0226db5d45e4fb9fe9d8983d5c56a821",
+   "size": 59778
+  },
+  {
+   "url": "https://www.service-public.gouv.fr/particuliers/actualites/A14227",
+   "at": "2026-10-09T21:25:33.376Z",
+   "kind": "evidence",
+   "hash": "c74b31c324628a7898c595ff53c7bfc708d62303892baeaf8f3a98c9b506b78a",
+   "size": 58924
+  },
+  {
+   "url": "https://www.service-public.gouv.fr/particuliers/actualites/A17956",
+   "at": "2026-10-09T21:25:33.588Z",
+   "kind": "evidence",
+   "hash": "4b7c1bc1c6faff05dc77644a1b0ab2f19693c1319fec942e4a09f46d97348bfd",
+   "size": 61793
+  },
+  {
+   "url": "https://www.service-public.gouv.fr/particuliers/actualites/A19044",
+   "at": "2026-10-09T21:25:33.796Z",
+   "kind": "evidence",
+   "hash": "5615ff4e99d20971d61d948be440bf7df2b3bca8547fb0e38ead5f8365b9e2c3",
+   "size": 61245
+  },
+  {
+   "url": "https://www.service-public.gouv.fr/particuliers/actualites/A19075",
+   "at": "2026-10-09T21:13:59.178Z",
+   "kind": "evidence",
+   "hash": "c72711ff165aaf1b66c1349201a7c144bf83b6c18907b754ddf4aa95161ddb26",
+   "size": 58265
+  },
+  {
+   "url": "https://www.service-public.gouv.fr/particuliers/actualites/A19074",
+   "at": "2026-10-09T21:13:59.374Z",
+   "kind": "evidence",
+   "hash": "2e47911a2418cd317b28122aad40b2d109c45fae37b128684abe51f45e646e96",
+   "size": 60385
+  },
+  {
+   "url": "https://www.service-public.gouv.fr/particuliers/actualites/A17054",
+   "at": "2026-10-09T21:14:01.000Z",
+   "kind": "evidence",
+   "hash": "241fa6aeaf9beeaaa0e3f4d517bc191815f897a7cf97ed891c9582b8a80e22ca",
+   "size": 61173
+  },
+  {
+   "url": "https://www.service-public.gouv.fr/particuliers/actualites/A16807",
+   "at": "2026-10-09T21:14:01.204Z",
+   "kind": "evidence",
+   "hash": "ee50e096293317ff0b46c835b9c88c09cacef8b6fa888ff26a31807beea8048f",
+   "size": 63616
+  },
+  {
+   "url": "https://www.service-public.gouv.fr/particuliers/actualites/A17729",
+   "at": "2026-10-09T21:13:59.022Z",
+   "kind": "evidence",
+   "hash": "d81939bd9a0c36c87cae63811668c27e9c143778877a6b8391c9a4f2ed13b47f",
+   "size": 65732
+  },
+  {
+   "url": "https://www.service-public.gouv.fr/particuliers/actualites/A18903",
+   "at": "2026-10-09T21:13:58.374Z",
+   "kind": "evidence",
+   "hash": "debc79f0a2a24a9061c7923228c4cef68ec789a93192b9258912e3c3d83be339",
+   "size": 70979
+  },
+  {
+   "url": "https://www.service-public.gouv.fr/particuliers/actualites/A18466",
+   "at": "2026-10-09T21:13:59.819Z",
+   "kind": "evidence",
+   "hash": "6db0cd3794b6bd357a7feb446f19f3bfbec9ed5822f95248939cd4cc81f5e790",
+   "size": 62724
+  },
+  {
+   "url": "https://www.service-public.gouv.fr/particuliers/actualites/A19093",
+   "at": "2026-10-09T21:13:57.304Z",
+   "kind": "meta",
+   "hash": "37cb17c0c4673d82846eb7cf9c2bbe14046b2ff17ce5e9f7493e0624c7ee6ad0",
+   "size": 58426
+  },
+  {
+   "url": "https://www.service-public.gouv.fr/particuliers/actualites/A17677",
+   "at": "2026-10-09T21:13:58.582Z",
+   "kind": "meta",
+   "hash": "11d413664275c88cff1bae9bb77d0125b0e24792ef41ee8685300fb24f0ad2af",
+   "size": 64267
+  },
+  {
+   "url": "https://www.service-public.gouv.fr/particuliers/actualites/A19069",
+   "at": "2026-10-09T21:13:59.570Z",
+   "kind": "meta",
+   "hash": "e7d7c4bd9360218d16deb1dd6d88b96c2b0c107e13c777250bf2e6210ed25394",
+   "size": 59749
+  },
+  {
+   "url": "https://www.service-public.gouv.fr/particuliers/actualites/A13880",
+   "at": "2026-10-09T21:14:00.010Z",
+   "kind": "meta",
+   "hash": "a782deaa2475da532b06f10f6fee369389ff79780c2b835b996b270eaf730c98",
+   "size": 63918
+  },
+  {
+   "url": "https://www.service-public.gouv.fr/particuliers/actualites/A15263",
+   "at": "2026-10-09T21:14:01.423Z",
+   "kind": "meta",
+   "hash": "64acb9b961a6ff62ec83c082dcae147d21d839e1b11fba3b46b98acb4cb21bf5",
+   "size": 56149
+  },
+  {
+   "url": "https://www.service-public.gouv.fr/particuliers/actualites/A15125",
+   "at": "2026-10-09T21:14:01.638Z",
+   "kind": "meta",
+   "hash": "d1873e676fd6128a720f92c98ace8370e43995fe71a72644d74a90547329b174",
+   "size": 57923
+  },
+  {
+   "url": "https://www.service-public.gouv.fr/particuliers/actualites/A19055",
+   "at": "2026-10-09T21:14:00.204Z",
+   "kind": "meta",
+   "hash": "5b1cbfb17eb58080f97bcc170757a0e8b28e397fc695ed49fa8c6b25d2e97801",
+   "size": 59006
+  },
+  {
+   "url": "https://www.service-public.gouv.fr/particuliers/actualites/A19054",
+   "at": "2026-10-09T21:14:00.588Z",
+   "kind": "meta",
+   "hash": "e2557cc90e6f634395fed552c385879dfd5a6b8fb4fca36253edeabbc455e4bb",
+   "size": 61424
+  },
+  {
+   "url": "https://www.service-public.gouv.fr/particuliers/actualites/A17727",
+   "at": "2026-10-09T21:25:34.010Z",
+   "kind": "meta",
+   "hash": "3f799a2975844fbe9baec52eaa5d87fb5bea1ae0409841334dbe8a7850f89049",
+   "size": 66534
+  },
+  {
+   "url": "https://www.service-public.gouv.fr/particuliers/actualites/A15275",
+   "at": "2026-10-09T21:25:34.192Z",
+   "kind": "meta",
+   "hash": "075660b3072d8cb904e751f2768fd5e74f07ecd31063eab79abe07a786bf2fa0",
+   "size": 71465
+  },
+  {
+   "url": "https://www.service-public.gouv.fr/particuliers/actualites/A14944",
+   "at": "2026-10-09T21:25:34.407Z",
+   "kind": "meta",
+   "hash": "441fe93082d30e9ca6683eeca53d082fc6d198891f07ee6fb003cca87c9d4147",
+   "size": 76146
+  },
+  {
+   "url": "https://entreprendre.service-public.gouv.fr/actualites/A19090",
+   "at": "2026-10-09T21:14:01.850Z",
+   "kind": "evidence",
+   "hash": "5cff3aa3879734b6c50ec87403e158ef1734e2feb44cb1caa92d9cff0729c2cf",
+   "size": 92131
+  },
+  {
+   "url": "https://entreprendre.service-public.gouv.fr/actualites/A19082",
+   "at": "2026-10-09T21:14:02.060Z",
+   "kind": "meta",
+   "hash": "1d60e06f9eff8a0984c98a4f292199ae614dd288b25a5ee91f58988d10ec53f1",
+   "size": 90803
+  },
+  {
+   "url": "https://entreprendre.service-public.gouv.fr/actualites/A19077",
+   "at": "2026-10-09T21:14:02.258Z",
+   "kind": "evidence",
+   "hash": "4893894121db73236573bdbb5723f499f31eef244efc246c250cb0ef0b0dd849",
+   "size": 91817
+  },
+  {
+   "url": "https://entreprendre.service-public.gouv.fr/actualites/A18905",
+   "at": "2026-10-09T21:14:02.550Z",
+   "kind": "evidence",
+   "hash": "149818066e88c02806f10b6c84272e0521530baafece4d860c6f1096fa403606",
+   "size": 98153
+  },
+  {
+   "url": "https://entreprendre.service-public.gouv.fr/actualites/A19079",
+   "at": "2026-10-09T21:14:02.812Z",
+   "kind": "meta",
+   "hash": "0e6da0f01f9b8f87c9c4d7d3bfddf17da0227812b051396f33b87c664ccc2ee1",
+   "size": 93514
+  },
+  {
+   "url": "https://entreprendre.service-public.gouv.fr/actualites/A19072",
+   "at": "2026-10-09T21:14:03.035Z",
+   "kind": "meta",
+   "hash": "7051b80f87c4c0e2098a3c2cf9e91b2c13e00219139383295c68bea7febfb781",
+   "size": 91989
+  },
+  {
+   "url": "https://entreprendre.service-public.gouv.fr/actualites/A19076",
+   "at": "2026-10-09T21:14:03.237Z",
+   "kind": "meta",
+   "hash": "1e91ca21a32b86ba5b645ffddb4e23de6d519585693f41732edff69c87a2d841",
+   "size": 90317
+  },
+  {
+   "url": "https://entreprendre.service-public.gouv.fr/actualites/A18980",
+   "at": "2026-10-09T21:14:03.500Z",
+   "kind": "evidence",
+   "hash": "987d4fe6d4880ad108a59c05a769f067a15d355dc1a6a68fd8498e2b6eab44ae",
+   "size": 96009
+  },
+  {
+   "url": "https://entreprendre.service-public.gouv.fr/actualites/A18818",
+   "at": "2026-10-09T21:14:03.759Z",
+   "kind": "evidence",
+   "hash": "3c2842b07b47a87740877508e294f3e56b06cf5b1daac277aa65cc0fd8dfb240",
+   "size": 95244
+  },
+  {
+   "url": "https://entreprendre.service-public.gouv.fr/actualites/A19041",
+   "at": "2026-10-09T21:14:04.032Z",
+   "kind": "evidence",
+   "hash": "dab2509effdfe980c72168dea46d3ca33844e14cacc13af63cf86ecc546c0213",
+   "size": 94652
+  },
+  {
+   "url": "https://entreprendre.service-public.gouv.fr/actualites/A18907",
+   "at": "2026-10-09T21:14:04.249Z",
+   "kind": "meta",
+   "hash": "1444dffe228975f6e00b91c54b90f95c003aab444b63af42fe0fcda9d8dc16da",
+   "size": 90610
+  },
+  {
+   "url": "https://www.urssaf.fr/accueil/outils-documentation/taux-baremes/plafonds-securite-sociale.html",
+   "at": "2026-10-09T21:17:49.016Z",
+   "kind": "evidence",
+   "hash": "a5b4e6343cc1d3e703fab2f69966cdf5b37158103d7db76fb40d8094b8115bc1",
+   "size": 363711
+  },
+  {
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/PLF_2027",
+   "at": "2026-10-09T21:18:48.031Z",
+   "kind": "evidence",
+   "hash": "702f5dd53f9e69d79deba618f30001ab015fba8b14a94f0e31b1b96f40b2862b",
+   "size": 171115
+  },
+  {
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/PLFSS_2027",
+   "at": "2026-10-09T21:18:50.899Z",
+   "kind": "evidence",
+   "hash": "c2f084812e123b258ad0ac24574bd2d071679e0228d2d671100454027d3d118a",
+   "size": 97580
+  },
+  {
+   "url": "https://www.assemblee-nationale.fr/dyn/17/textes/l17b3210_projet-loi.pdf",
+   "at": "2026-10-09T21:19:09.476Z",
+   "kind": "evidence",
+   "hash": "132274b83bed4861a9e1a147d0d16abda2d729cdad2373ef804e26747c43d881",
+   "size": 2877451
+  },
+  {
+   "url": "https://www.assemblee-nationale.fr/dyn/17/textes/l17b3211_projet-loi.pdf",
+   "at": "2026-10-09T21:19:10.635Z",
+   "kind": "evidence",
+   "hash": "47f5fc0d1581c90634449516281070495b92cfe062c20c2a366919622906eab6",
+   "size": 874307
+  },
+  {
+   "url": "https://www.auvergnerhonealpes.fr/",
+   "at": "2026-10-09T21:21:03.449Z",
+   "kind": "fail",
+   "hash": "72b37daa89df1271da9b3c1c50d83e626e5ab981bea31cc739ced049dc5547ea",
+   "size": 1536,
+   "error": "Client-rendered cookie shell; no substantive source text."
+  },
+  {
+   "url": "https://edelib.auvergnerhonealpes.fr/webdelibplus/jsp/seances.jsp?role=usager",
+   "at": "2026-10-09T21:21:08.383Z",
+   "kind": "evidence",
+   "hash": "8658d01fbd4e641ba7e85c7543c70b9681daab6348b19a0609e819f44c486120",
+   "size": 59205
+  },
+  {
+   "url": "https://www.prefectures-regions.gouv.fr/auvergne-rhone-alpes/",
+   "at": "2026-10-09T21:21:03.413Z",
+   "kind": "fail",
+   "hash": "734595b7a50bdcf707517b5e113e81a235cc4a61cad3f82c58e5a43cee84b469",
+   "size": 5500,
+   "error": "HTTP 403 access challenge or blocked response; not archived as evidence."
+  },
+  {
+   "url": "https://www.bourgognefranchecomte.fr/",
+   "at": "2026-10-09T21:21:03.573Z",
+   "kind": "evidence",
+   "hash": "405090b317c6a93398f90e7e9929461b675f4a2e7ffbd78fb3f5f1bd3edb2f33",
+   "size": 126778
+  },
+  {
+   "url": "https://abcdelib.bourgognefranchecomte.fr/",
+   "at": "2026-10-09T21:21:28.272Z",
+   "kind": "evidence",
+   "hash": "aa4e0cd85f3467940bb5bc346a13c8e6fa5316eb2e2584aabda80e0a5ad20135",
+   "size": 294880
+  },
+  {
+   "url": "https://www.prefectures-regions.gouv.fr/bourgogne-franche-comte/",
+   "at": "2026-10-09T21:21:03.383Z",
+   "kind": "fail",
+   "hash": "8de587177385cb5a2c73e316d1b06612575683f2a477b0b9ebeb730c801b3557",
+   "size": 5500,
+   "error": "HTTP 403 access challenge or blocked response; not archived as evidence."
+  },
+  {
+   "url": "https://www.bretagne.bzh/",
+   "at": "2026-10-09T21:21:03.343Z",
+   "kind": "fail",
+   "hash": "194433a61ff459be7e1421c3d239525d254a6dd68faf4457181e68d94e5bc2cd",
+   "size": 5620,
+   "error": "HTTP 403 access challenge or blocked response; not archived as evidence."
+  },
+  {
+   "url": "https://www.bretagne.bzh/region/decisions/",
+   "at": "2026-10-09T21:21:03.357Z",
+   "kind": "fail",
+   "hash": "118faa1eadfdcf0718d8265924d63e397dc0462501508716c19aac57dd212d8a",
+   "size": 5693,
+   "error": "HTTP 403 access challenge or blocked response; not archived as evidence."
+  },
+  {
+   "url": "https://www.prefectures-regions.gouv.fr/bretagne/",
+   "at": "2026-10-09T21:21:03.381Z",
+   "kind": "fail",
+   "hash": "5d1135c68068881753a2e79ee35e69c6c595d04306a81035806310ad4283cefb",
+   "size": 5500,
+   "error": "HTTP 403 access challenge or blocked response; not archived as evidence."
+  },
+  {
+   "url": "https://www.centre-valdeloire.fr/",
+   "at": "2026-10-09T21:24:00.000Z",
+   "kind": "fail",
+   "hash": null,
+   "size": 0,
+   "error": "No usable response (timeout or redirect without content)."
+  },
+  {
+   "url": "https://actes.centre-valdeloire.fr/webdelibplus/jsp/seances.jsp?role=usager",
+   "at": "2026-10-09T21:21:29.367Z",
+   "kind": "evidence",
+   "hash": "7fa6d4cb35cb705243202b5067fd03b9f4a9401084494f9251ad7d441349c1e6",
+   "size": 27610
+  },
+  {
+   "url": "https://www.prefectures-regions.gouv.fr/centre-val-de-loire/",
+   "at": "2026-10-09T21:21:28.411Z",
+   "kind": "fail",
+   "hash": "d6841e3e562efc49d34d58e581c225fa1a0239ba2d804f36f382a7de1bf71349",
+   "size": 5500,
+   "error": "HTTP 403 access challenge or blocked response; not archived as evidence."
+  },
+  {
+   "url": "https://www.isula.corsica/",
+   "at": "2026-10-09T21:21:32.810Z",
+   "kind": "evidence",
+   "hash": "3d14ed055f2a76807212bac858cfa44a171556d32e53caf57d92ad2c1a0d6bec",
+   "size": 97594
+  },
+  {
+   "url": "https://www.isula.corsica/Recueils-des-actes-administratifs_r100.html",
+   "at": "2026-10-09T21:21:32.421Z",
+   "kind": "evidence",
+   "hash": "889c52ebe201014dff688a7920a5fe22740216cde2e4d3fef39f2201c86a685d",
+   "size": 72957
+  },
+  {
+   "url": "https://www.prefectures-regions.gouv.fr/corse/",
+   "at": "2026-10-09T21:21:28.370Z",
+   "kind": "fail",
+   "hash": "273943b5ef448041342018e1d9e92ccdb1b019b88c08d48dfbfd4fc65f16d011",
+   "size": 5500,
+   "error": "HTTP 403 access challenge or blocked response; not archived as evidence."
+  },
+  {
+   "url": "https://www.grandest.fr/",
+   "at": "2026-10-09T21:21:28.429Z",
+   "kind": "evidence",
+   "hash": "d5cfc136bf8d47be0bebf32d20ebdc8e7355d8bb394491ff7102c26d9c1227ad",
+   "size": 58600
+  },
+  {
+   "url": "https://www.grandest.fr/le-conseil-regional/deliberations/",
+   "at": "2026-10-09T21:21:29.188Z",
+   "kind": "evidence",
+   "hash": "3e55ef02684f6c435fe71268bb4f39d7130a1881e2a612367c76697146e78eaf",
+   "size": 47918
+  },
+  {
+   "url": "https://www.prefectures-regions.gouv.fr/grand-est/",
+   "at": "2026-10-09T21:21:28.365Z",
+   "kind": "fail",
+   "hash": "54b4345992d6359f1826a06637ecc4d4c88045c79f35c41a6ed9af79d5438f01",
+   "size": 5500,
+   "error": "HTTP 403 access challenge or blocked response; not archived as evidence."
+  },
+  {
+   "url": "https://www.hautsdefrance.fr/",
+   "at": "2026-10-09T21:21:28.856Z",
+   "kind": "evidence",
+   "hash": "ee3525d55a704f6716fccd03876909c16e032dc60b4f1df4832aeac532854f31",
+   "size": 82323
+  },
+  {
+   "url": "https://www.hautsdefrance.fr/conseil-regional-hdf/les-actes-institutionnels/",
+   "at": "2026-10-09T21:21:29.211Z",
+   "kind": "evidence",
+   "hash": "670089c90918154bc3d42b61d1ebc41274ec4bab44b8a26af185f41e39409c3a",
+   "size": 60224
+  },
+  {
+   "url": "https://www.prefectures-regions.gouv.fr/hauts-de-france/",
+   "at": "2026-10-09T21:21:32.947Z",
+   "kind": "fail",
+   "hash": "8d781666a661f5a1f06deb9c8ac5bf76c57b4784a591b248c77e1cf348387335",
+   "size": 5500,
+   "error": "HTTP 403 access challenge or blocked response; not archived as evidence."
+  },
+  {
+   "url": "https://www.iledefrance.fr/",
+   "at": "2026-10-09T21:21:33.188Z",
+   "kind": "evidence",
+   "hash": "385b7bdd884626e837012c50ad0b19df3538f7b154d4462c63999665baf33796",
+   "size": 155209
+  },
+  {
+   "url": "https://www.data.gouv.fr/datasets/actes-administratifs-de-la-region-ile-de-france",
+   "at": "2026-10-09T21:21:33.206Z",
+   "kind": "evidence",
+   "hash": "0da19c51e594a1b0feb3464160ead509d83afff241c033da1b325415b508c08d",
+   "size": 117050
+  },
+  {
+   "url": "https://www.prefectures-regions.gouv.fr/ile-de-france/",
+   "at": "2026-10-09T21:21:32.940Z",
+   "kind": "fail",
+   "hash": "9e06192e4c8195f64a308875d6ab917f922de0b2fdfd3974bb2649d176561421",
+   "size": 5500,
+   "error": "HTTP 403 access challenge or blocked response; not archived as evidence."
+  },
+  {
+   "url": "https://www.normandie.fr/",
+   "at": "2026-10-09T21:21:33.048Z",
+   "kind": "fail",
+   "hash": "4ff6d856a8b90ad068c88db23dc54b846cf52a6e04551105d8bb35f2a339b9b9",
+   "size": 368,
+   "error": "HTTP 403 access challenge or blocked response; not archived as evidence."
+  },
+  {
+   "url": "https://www.normandie.fr/deliberations-normandie-et-ex-haute-normandie",
+   "at": "2026-10-09T21:21:32.989Z",
+   "kind": "fail",
+   "hash": "5404130df9fb660620042938e0d4476aab7a8df5a7d4d6f86770d9e4413bef4f",
+   "size": 433,
+   "error": "HTTP 403 access challenge or blocked response; not archived as evidence."
+  },
+  {
+   "url": "https://www.prefectures-regions.gouv.fr/normandie/",
+   "at": "2026-10-09T21:21:32.964Z",
+   "kind": "fail",
+   "hash": "7135335b586cea55ed110c9e4ce180002f3aa865b16107ab1a315679a1893424",
+   "size": 5500,
+   "error": "HTTP 403 access challenge or blocked response; not archived as evidence."
+  },
+  {
+   "url": "https://www.nouvelle-aquitaine.fr/",
+   "at": "2026-10-09T21:21:35.097Z",
+   "kind": "evidence",
+   "hash": "1862666dc12e879f359b57c5309345edb11f1de8e316158a255633a5717344ce",
+   "size": 194226
+  },
+  {
+   "url": "https://www.nouvelle-aquitaine.fr/linstitution/le-conseil-regional/decisions-de-lassemblee-et-arretes-du-president",
+   "at": "2026-10-09T21:21:34.935Z",
+   "kind": "evidence",
+   "hash": "08c3cf7994200a7bc070205bb8dbf297b3cb69e694bb7c7325f8ad6119a193a6",
+   "size": 128808
+  },
+  {
+   "url": "https://www.prefectures-regions.gouv.fr/nouvelle-aquitaine/",
+   "at": "2026-10-09T21:21:32.955Z",
+   "kind": "fail",
+   "hash": "a2adfa6944b182e633550989d3909ea146e58d56a7eabdaa17927928f489f57b",
+   "size": 5500,
+   "error": "HTTP 403 access challenge or blocked response; not archived as evidence."
+  },
+  {
+   "url": "https://www.laregion.fr/",
+   "at": "2026-10-09T21:21:36.676Z",
+   "kind": "evidence",
+   "hash": "4d087bd4d3e5f588bfa8e04b9a7c12efc46e413bd5808b96bfa9e5c42aa51a1e",
+   "size": 225029
+  },
+  {
+   "url": "https://www.laregion.fr/Portail-de-publication-des-Deliberations-et-autres-actes-administratifs-de-la-Region",
+   "at": "2026-10-09T21:21:36.023Z",
+   "kind": "evidence",
+   "hash": "a2849d7d3a0af87d0315b2fef7119a64c470a835d6ea07ba8e75d361cfc4d4c4",
+   "size": 113005
+  },
+  {
+   "url": "https://www.prefectures-regions.gouv.fr/occitanie/",
+   "at": "2026-10-09T21:21:35.205Z",
+   "kind": "fail",
+   "hash": "2f8b84ac89e68c274e0e512b805459d10249d959f89b31246f5bbd802bd368f5",
+   "size": 5500,
+   "error": "HTTP 403 access challenge or blocked response; not archived as evidence."
+  },
+  {
+   "url": "https://www.paysdelaloire.fr/",
+   "at": "2026-10-09T21:21:35.293Z",
+   "kind": "evidence",
+   "hash": "85b2994ea7d9e32d77a1fa2c1c40d84dcf0bceff262e1775e1f48c8f5a38b43b",
+   "size": 208585
+  },
+  {
+   "url": "https://www.paysdelaloire.fr/mon-conseil-regional/linstitution/les-actes-administratifs",
+   "at": "2026-10-09T21:21:35.326Z",
+   "kind": "evidence",
+   "hash": "527deea7233cee21dd6ea326c770bfb9e73680016aa46b1d89c3cce1d0579c76",
+   "size": 133346
+  },
+  {
+   "url": "https://www.prefectures-regions.gouv.fr/pays-de-la-loire/",
+   "at": "2026-10-09T21:21:35.231Z",
+   "kind": "fail",
+   "hash": "ad20bd61115fcc906d6aa0885ca53297acca859d350fd32245f225e6b0e625fe",
+   "size": 5500,
+   "error": "HTTP 403 access challenge or blocked response; not archived as evidence."
+  },
+  {
+   "url": "https://www.maregionsud.fr/",
+   "at": "2026-10-09T21:21:35.348Z",
+   "kind": "evidence",
+   "hash": "58911703d24f87a22b14f4a42fcdf12b2f436fbd4bb98f80b20f6ace02723b14",
+   "size": 67871
+  },
+  {
+   "url": "https://actes.maregionsud.fr/actes/",
+   "at": "2026-10-09T21:21:35.337Z",
+   "kind": "evidence",
+   "hash": "9f2290a9574e6ec743dfc60283eb73002421dfa62cfac6ae8cfef5ffa03c31ee",
+   "size": 5900
+  },
+  {
+   "url": "https://www.prefectures-regions.gouv.fr/provence-alpes-cote-dazur/",
+   "at": "2026-10-09T21:21:35.220Z",
+   "kind": "fail",
+   "hash": "6456af4aa43477763a94893e2c8c8ffbc69c3d83f9a00b05496e85be0037d644",
+   "size": 5500,
+   "error": "HTTP 403 access challenge or blocked response; not archived as evidence."
+  },
+  {
+   "url": "https://www.regionguadeloupe.fr/",
+   "at": "2026-10-09T21:21:35.457Z",
+   "kind": "evidence",
+   "hash": "2bf58eae026cd16f74ec91895ac61859221c733cb93e4edad7dcc2f1cfd47e8b",
+   "size": 294300
+  },
+  {
+   "url": "https://www.regionguadeloupe.fr/Publication-des-actes-administratifs",
+   "at": "2026-10-09T21:21:37.251Z",
+   "kind": "evidence",
+   "hash": "f36045704595688b8816102bd72b9a20e23e48dfa112a8f0076f23ce953d063d",
+   "size": 231983
+  },
+  {
+   "url": "https://www.guadeloupe.gouv.fr/",
+   "at": "2026-10-09T21:24:00.000Z",
+   "kind": "fail",
+   "hash": null,
+   "size": 0,
+   "error": "No usable response (timeout or redirect without content)."
+  },
+  {
+   "url": "https://www.collectivitedemartinique.mq/",
+   "at": "2026-10-09T21:21:37.625Z",
+   "kind": "evidence",
+   "hash": "b7ac714e3c3945225fc8336d91a5670ab5cef73132246e1cf99823e1bc5f9beb",
+   "size": 200243
+  },
+  {
+   "url": "https://www.collectivitedemartinique.mq/actes-adminitratifs/",
+   "at": "2026-10-09T21:21:37.499Z",
+   "kind": "evidence",
+   "hash": "1327784811214d23ba8f743993351c06bff48159ab530ed5f044b5bcd271b005",
+   "size": 148343
+  },
+  {
+   "url": "https://www.martinique.gouv.fr/",
+   "at": "2026-10-09T21:24:00.000Z",
+   "kind": "fail",
+   "hash": null,
+   "size": 0,
+   "error": "No usable response (timeout or redirect without content)."
+  },
+  {
+   "url": "https://www.ctguyane.fr/",
+   "at": "2026-10-09T21:21:37.179Z",
+   "kind": "evidence",
+   "hash": "0f08e10054a6f2aea0bd3e0734c2f6430c2cfd6932d3e3d547b68b748e81815a",
+   "size": 240459
+  },
+  {
+   "url": "https://webdelib.ctguyane.fr/webdelibplus/jsp/seances.jsp?role=usager",
+   "at": "2026-10-09T21:21:38.877Z",
+   "kind": "evidence",
+   "hash": "682ff24e1e485f874d4d8c7b31faa24cde5dff64e88da57474dfa51bda072bd4",
+   "size": 64355
+  },
+  {
+   "url": "https://www.guyane.gouv.fr/",
+   "at": "2026-10-09T21:24:00.000Z",
+   "kind": "fail",
+   "hash": null,
+   "size": 0,
+   "error": "No usable response (timeout or redirect without content)."
+  },
+  {
+   "url": "https://regionreunion.com/",
+   "at": "2026-10-09T21:21:36.773Z",
+   "kind": "fail",
+   "hash": "3b2542a5b32f6eb43412139783b96b17e7bd5d997f8a11ba5d1e329811525a6d",
+   "size": 5776,
+   "error": "HTTP 403 access challenge or blocked response; not archived as evidence."
+  },
+  {
+   "url": "https://regionreunion.com/la-region/les-actes-administratifs/article/commission-permanente-assemblee-pleniere",
+   "at": "2026-10-09T21:21:36.802Z",
+   "kind": "fail",
+   "hash": "548b65dedfa0dbc9c5c08677ee439710e5fb7536b1e6370354a7a4681cd895e1",
+   "size": 5776,
+   "error": "HTTP 403 access challenge or blocked response; not archived as evidence."
+  },
+  {
+   "url": "https://www.reunion.gouv.fr/",
+   "at": "2026-10-09T21:24:00.000Z",
+   "kind": "fail",
+   "hash": null,
+   "size": 0,
+   "error": "No usable response (timeout or redirect without content)."
+  },
+  {
+   "url": "https://www.mayotte.fr/",
+   "at": "2026-10-09T21:21:39.156Z",
+   "kind": "evidence",
+   "hash": "129f2154b0ef610605ec3f4fb00e31771b2d4abf0d32295346918c4ede367297",
+   "size": 91164
+  },
+  {
+   "url": "https://www.mayotte.fr/le-departement/transparence-administrative/publicite-des-actes",
+   "at": "2026-10-09T21:21:40.171Z",
+   "kind": "evidence",
+   "hash": "0a8dd92d183e450893e6607e4df679d8de66178e0c74910c82347f69db1217c4",
+   "size": 79597
+  },
+  {
+   "url": "https://www.mayotte.gouv.fr/",
+   "at": "2026-10-09T21:24:00.000Z",
+   "kind": "fail",
+   "hash": null,
+   "size": 0,
+   "error": "No usable response (timeout or redirect without content)."
+  }
+ ]
+}

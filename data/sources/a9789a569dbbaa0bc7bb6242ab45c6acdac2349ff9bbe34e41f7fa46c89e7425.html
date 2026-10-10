@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="nl">
+  <head>
+    <script id="anubis_version" type="application/json">"1.25.0"
+</script><script id="anubis_challenge" type="application/json">{"rules":{"algorithm":"fast","difficulty":4},"challenge":{"issuedAt":"2026-10-11T00:40:22.571464213+02:00","metadata":{"User-Agent":"Mozilla/5.0","X-Real-Ip":"91.63.116.144"},"id":"01a127f9-762b-76ef-9138-46fd7293b4eb","method":"fast","randomData":"1d96c9785833c96b89f48af68e3c63ba9083c5c80d82ebe09d9db2babbf6a5f3c72869723fbbf6a94960488296b01e6460836564d27d14dc4468438a59330c84","policyRuleHash":"30638f4bcccce8ea","difficulty":4,"spent":false}}
+</script><script id="anubis_base_prefix" type="application/json">""
+</script><script id="anubis_public_url" type="application/json">""
+</script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="noindex,nofollow">
+    <link rel="stylesheet" href="/.within.website/x/cmd/anubis/static/css/custom.css">
+    <style>
+      html, body { height: 100%; }
+      html {
+        font-family: "Open Sans", system-ui, -apple-system, sans-serif;
+        color: var(--text);
+        background: var(--background);
+        line-height: 1.4;
+      }
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+      }
+      .centered-div {
+        display: flex;
+        flex-flow: column nowrap;
+        gap: 1em;
+        align-items: center;
+        text-align: center;
+        width: clamp(0px, 90vw, 300px);
+      }
+      h2, h3 { color: light-dark(var(--grey), #fff); margin: 0 0 0.1em 0; }
+      h2 { font-size: 1.1rem; }
+      h3 { font-size: 0.9rem; }
+      .logo { width: 25vw; max-width: 200px; }
+      .st0 { fill: #5B6B75; }
+      .st1 { fill: #F47721; }
+      .custom-status {
+        font-size: 0.9rem;
+        color: var(--grey);
+        margin: 0;
+        margin-inline: 1em;
+      }
+      .progress { width: 100%; }
+      #progress {
+        width: 100%;
+        height: 30px;
+        border-radius: 15px;
+        overflow: hidden;
+        background: light-dark(#eee, #222);
+      }
+      #progress .bar-inner {
+        width: 0;
+        height: 100%;
+        border-radius: 15px;
+        background: var(--progress-bar-fill);
+        transition: width 0.2s ease;
+      }
+      .links {
+        display: flex;
+        flex-flow: row nowrap;
+        gap: 20px;
+        margin: 0;
+        margin-top: 2em;
+        font-size: 0.9rem;
+        color: var(--grey);
+      }
+      .links a { color: light-dark(var(--secondary), #49beff); }
+      .links a:hover { color: var(--text); }
+    </style>
+  </head>
+  <body>
+    <div class="centered-div">
+      <svg class="logo" version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 105.2 54.8" xml:space="preserve">
+        <g>
+          <path class="st0" d="M105.2,51.3c0,1.7-1.4,3.2-3.2,3.2c-1.7,0-3.2-1.4-3.2-3.2c0-1.7,1.4-3.1,3.2-3.1 C103.8,48.1,105.2,49.6,105.2,51.3z"/>
+          <path class="st1" d="M40.1,47.6c-4,5.2-9.3,7.2-14.4,7.2C9.5,54.8,0,42.7,0,27.6C0,12.1,9.5,0,25.7,0c10.7,0,20.8,6.6,22.1,18.5 h-11c-1.3-5.8-5.6-8.8-11.1-8.8c-10.3,0-14.2,8.8-14.2,18c0,8.7,3.9,17.5,14.2,17.5c7.5,0,11.8-4,12.5-11.3H26.6v-8.6h22v28.3h-7.3 L40.1,47.6z"/>
+          <path class="st1" d="M78.2,0c17,0,27,12.1,27,27.6c0,15.1-10,27.2-27,27.2s-27-12.1-27-27.2C51.2,12.1,61.2,0,78.2,0z M78.2,45.2 c10.8,0,14.9-8.8,14.9-17.5c0-9.2-4.1-18-14.9-18s-14.9,8.8-14.9,18C63.3,36.4,67.4,45.2,78.2,45.2z"/>
+        </g>
+      </svg>
+
+      <h2>Beveiligingscontrole</h2>
+      <p class="custom-status">Wij controleren uw verbinding. Dit duurt slechts enkele seconden.</p>
+
+      <div class="progress" aria-hidden="true">
+        <h3>Voortgang</h3>
+        <div class="centered-div"><p id="status">Laden...</p><script async type="module" src="/.within.website/x/cmd/anubis/static/js/main.mjs?cacheBuster=1.25.0"></script><div id="progress" role="progressbar" aria-labelledby="status"><div class="bar-inner"></div></div><div id="testarea"></div></div>
+      </div>
+
+      <p class="links">
+        <a href="https://www.gemeenteoplossingen.nl/security/">meer weten?</a>
+        <a href="https://www.gemeenteoplossingen.nl">over ons</a>
+      </p>
+    </div>
+
+    <svg class="top-left" viewBox="0 0 1600 1202" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+      <g transform="matrix(1,0,0,1,-1,2)">
+        <g transform="matrix(2.216066,0,0,2.250936,-138.612188,-249.602996)">
+          <path class="svgGrey" d="M63,644L63,110L785,110C446.425,182.362 198.908,352.971 63,644Z"/>
+        </g>
+        <circle class="svgWhite" cx="138.5" cy="96.5" r="49.5"/>
+        <g transform="matrix(0.616162,0,0,0.616162,131.161614,438.040393)">
+          <circle class="svgWhite" cx="138.5" cy="96.5" r="49.5"/>
+        </g>
+        <g transform="matrix(0.434343,0,0,0.434343,657.343422,51.585857)">
+          <circle class="svgWhite" cx="138.5" cy="96.5" r="49.5"/>
+        </g>
+        <g transform="matrix(0.434343,0,0,0.434343,266.343436,221.585851)">
+          <circle class="svgWhite" cx="138.5" cy="96.5" r="49.5"/>
+        </g>
+        <g transform="matrix(0.217172,0,0,0.217172,81.171713,682.292923)">
+          <circle class="svgWhite" cx="138.5" cy="96.5" r="49.5"/>
+        </g>
+        <g transform="matrix(0.217172,0,0,0.217172,600.171706,231.292922)">
+          <circle class="svgWhite" cx="138.5" cy="96.5" r="49.5"/>
+        </g>
+        <g transform="matrix(0.217172,0,0,0.217172,449.171709,43.292926)">
+          <circle class="svgWhite" cx="138.5" cy="96.5" r="49.5"/>
+        </g>
+      </g>
+    </svg>
+
+    <div class="bottom-right">
+      <svg viewBox="0 0 291 360" xmlns="http://www.w3.org/2000/svg" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+        <g transform="matrix(1,0,0,1,-1235.000011,-791.000006)">
+          <g transform="matrix(1.676768,0,0,1.676768,1210.767687,889.191926)">
+            <circle class="svgGrey" cx="138.5" cy="96.5" r="49.5"/>
+          </g>
+          <g transform="matrix(0.757576,0,0,0.757576,1167.575769,1011.393947)">
+            <circle class="svgGrey" cx="138.5" cy="96.5" r="49.5"/>
+          </g>
+          <g transform="matrix(0.343434,0,0,0.343434,1269.434356,972.858594)">
+            <circle class="svgGrey" cx="138.5" cy="96.5" r="49.5"/>
+          </g>
+          <g transform="matrix(0.757576,0,0,0.757576,1353.57577,755.393945)">
+            <circle class="svgGrey" cx="138.5" cy="96.5" r="49.5"/>
+          </g>
+        </g>
+      </svg>
+    </div>
+  </body>
+</html>

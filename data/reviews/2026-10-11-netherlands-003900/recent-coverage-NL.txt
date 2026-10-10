@@ -1,0 +1,97 @@
+
+> policy-radar@0.1.0 data:coverage
+> node --experimental-strip-types scripts/check-recent-coverage.mjs data/store NL
+
+{
+  "checkedAt": "2026-10-10T22:53:30.648Z",
+  "scope": "NL",
+  "channels": 6,
+  "incompleteChannels": 5,
+  "gaps": [
+    {
+      "sourceUrl": "https://zoek.officielebekendmakingen.nl/",
+      "region": "NL",
+      "title": "荷兰官方公报与议会文件",
+      "windowStart": "2026-10-04",
+      "windowEnd": "2026-10-10",
+      "missingDays": [
+        "2026-10-04",
+        "2026-10-05",
+        "2026-10-06",
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://wetten.overheid.nl/",
+      "region": "NL",
+      "title": "荷兰现行国家法规",
+      "windowStart": "2026-10-04",
+      "windowEnd": "2026-10-10",
+      "missingDays": [
+        "2026-10-04",
+        "2026-10-05",
+        "2026-10-06",
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://lokaleregelgeving.overheid.nl/",
+      "region": "NL",
+      "title": "荷兰地方现行法规",
+      "windowStart": "2026-10-04",
+      "windowEnd": "2026-10-10",
+      "missingDays": [
+        "2026-10-04",
+        "2026-10-05",
+        "2026-10-06",
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.tweedekamer.nl/kamerstukken/wetsvoorstellen",
+      "region": "NL",
+      "title": "荷兰众议院法案",
+      "windowStart": "2026-10-04",
+      "windowEnd": "2026-10-10",
+      "missingDays": [
+        "2026-10-04",
+        "2026-10-05",
+        "2026-10-06",
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.eerstekamer.nl/wetsvoorstellen_2",
+      "region": "NL",
+      "title": "荷兰参议院法案",
+      "windowStart": "2026-10-04",
+      "windowEnd": "2026-10-10",
+      "missingDays": [
+        "2026-10-04",
+        "2026-10-05",
+        "2026-10-06",
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10"
+      ],
+      "latestScan": "partial"
+    }
+  ]
+}

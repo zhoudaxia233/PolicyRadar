@@ -1804,111 +1804,111 @@
   },
   {
     "url": "https://www.provinciegroningen.nl/",
-    "checked_at": "2026-10-06T20:24:18.221172Z",
-    "last_success_at": "2026-10-06T20:24:18.221172Z",
-    "snapshot_key": "sources/dca5b175421086f34c527ec9894dc5b03dfe501127f780600c0a6c47e4372cff/c87e7a159a1254c21cc5b69886c4d9914233684e1717121732f41822e17ed524.html",
+    "checked_at": "2026-10-10T22:40:22.072891Z",
+    "last_success_at": "2026-10-10T22:40:22.072891Z",
+    "hash": "7516fd128a9a6331dbad9ea44a14554bab1a9d31d7e10b313621219a4df7031d",
+    "snapshot_key": "sources/dca5b175421086f34c527ec9894dc5b03dfe501127f780600c0a6c47e4372cff/7516fd128a9a6331dbad9ea44a14554bab1a9d31d7e10b313621219a4df7031d.html",
     "changed": 1,
-    "error": null,
-    "hash": "c87e7a159a1254c21cc5b69886c4d9914233684e1717121732f41822e17ed524"
+    "error": null
   },
   {
     "url": "https://www.fryslan.frl/",
-    "checked_at": "2026-10-06T20:24:18.353611Z",
-    "last_success_at": "2026-10-03T22:05:30.362277Z",
-    "snapshot_key": "sources/4bce53d522439a8a8e7fdaa3c62b9ef070d66ae1a7233021e4d9d101965d9a28/d46358a345b3ac271263612f89d293633cb1b93478e0e64a8bccdf09bb063a74.html",
-    "changed": 0,
-    "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
-    "hash": "d46358a345b3ac271263612f89d293633cb1b93478e0e64a8bccdf09bb063a74"
+    "checked_at": "2026-10-10T22:40:22.073231Z",
+    "last_success_at": "2026-10-10T22:40:22.073231Z",
+    "hash": "5a3d95b848186e2ca1ba4871d2eb60516116e98f498e7d67f7d18d5a14c1da76",
+    "snapshot_key": "sources/4bce53d522439a8a8e7fdaa3c62b9ef070d66ae1a7233021e4d9d101965d9a28/5a3d95b848186e2ca1ba4871d2eb60516116e98f498e7d67f7d18d5a14c1da76.html",
+    "changed": 1,
+    "error": null
   },
   {
     "url": "https://www.provincie.drenthe.nl/",
-    "checked_at": "2026-10-06T20:24:18.455291Z",
-    "last_success_at": "2026-10-06T20:24:18.455291Z",
-    "snapshot_key": "sources/cabe7d9fe6ae48e102b85c2383f5d8d4e4a2e7d73bac239caf3ebcd7a60cf43a/c1230bec39605577d99c41d60453066c3f0e19121478ed54cbdd2579ef2281d9.html",
+    "checked_at": "2026-10-10T22:40:22.074021Z",
+    "last_success_at": "2026-10-10T22:40:22.074021Z",
+    "hash": "dda588875f72a58a25e222a108f827380977dffc00acaa1dbd910f9b969010ad",
+    "snapshot_key": "sources/cabe7d9fe6ae48e102b85c2383f5d8d4e4a2e7d73bac239caf3ebcd7a60cf43a/dda588875f72a58a25e222a108f827380977dffc00acaa1dbd910f9b969010ad.html",
     "changed": 1,
-    "error": null,
-    "hash": "c1230bec39605577d99c41d60453066c3f0e19121478ed54cbdd2579ef2281d9"
+    "error": null
   },
   {
     "url": "https://www.overijssel.nl/",
-    "checked_at": "2026-10-06T20:24:18.473323Z",
-    "last_success_at": "2026-10-06T20:24:18.473323Z",
-    "snapshot_key": "sources/faa9ddc38a87bf699ec43955fb73f08bc34f089131bb4b922f7db1468f4d7576/4b665698fe485dea6947bf7c8076a2a0bef57266f2747ea1ecc3460aa6099451.html",
+    "checked_at": "2026-10-10T22:40:22.219490Z",
+    "last_success_at": "2026-10-10T22:40:22.219490Z",
+    "hash": "2b061f67763124a9decf6fa20ffc94f383a1ca69939ba4d0d71313ccc7655917",
+    "snapshot_key": "sources/faa9ddc38a87bf699ec43955fb73f08bc34f089131bb4b922f7db1468f4d7576/2b061f67763124a9decf6fa20ffc94f383a1ca69939ba4d0d71313ccc7655917.html",
     "changed": 1,
-    "error": null,
-    "hash": "4b665698fe485dea6947bf7c8076a2a0bef57266f2747ea1ecc3460aa6099451"
+    "error": null
   },
   {
     "url": "https://www.flevoland.nl/",
-    "checked_at": "2026-10-06T20:24:18.876422Z",
-    "last_success_at": "2026-10-03T22:05:30.362444Z",
+    "checked_at": "2026-10-10T22:40:22.288445Z",
+    "last_success_at": "2026-10-10T22:40:22.288445Z",
+    "hash": "326965ad634e279323db1caa81bee1bd0b85338c384f7d5a48b771d44618b7d4",
     "snapshot_key": "sources/d78d8ce76ffdb9698a4a96e78d8071bad69ed310535cd78bb1bceaa473eac8da/326965ad634e279323db1caa81bee1bd0b85338c384f7d5a48b771d44618b7d4.html",
     "changed": 0,
-    "error": "Unusable portal shell or access challenge",
-    "hash": "326965ad634e279323db1caa81bee1bd0b85338c384f7d5a48b771d44618b7d4"
+    "error": null
   },
   {
     "url": "https://www.gelderland.nl/",
-    "checked_at": "2026-10-06T20:24:19.029303Z",
-    "last_success_at": "2026-10-06T20:24:19.029303Z",
+    "checked_at": "2026-10-10T22:40:22.593017Z",
+    "last_success_at": "2026-10-10T22:40:22.593017Z",
+    "hash": "cb002fb6c0c5e30528efe6bf3ff8c7525598fa73fc1d28858c9405cb64031cba",
     "snapshot_key": "sources/b182cc0127cf2ccf9ec7a704bf2f3bc13451cdfc24c143be7524a12974dec060/cb002fb6c0c5e30528efe6bf3ff8c7525598fa73fc1d28858c9405cb64031cba.html",
     "changed": 0,
-    "error": null,
-    "hash": "cb002fb6c0c5e30528efe6bf3ff8c7525598fa73fc1d28858c9405cb64031cba"
+    "error": null
   },
   {
     "url": "https://www.provincie-utrecht.nl/",
-    "checked_at": "2026-10-06T20:24:19.279565Z",
-    "last_success_at": "2026-10-06T20:24:19.279565Z",
-    "snapshot_key": "sources/ee403db6cdecee540210fc9147038ac79461daed348a204dfcd84fbd7e3848ed/e407c6af5e43047c0c610be674389b77c1b25024dde12971aabd6c6f3b4374ce.html",
+    "checked_at": "2026-10-10T22:40:22.642130Z",
+    "last_success_at": "2026-10-10T22:40:22.642130Z",
+    "hash": "617b6791272ecb91f02cb9705a1706273293cc2e74f3e92a0052e855a1d32a35",
+    "snapshot_key": "sources/ee403db6cdecee540210fc9147038ac79461daed348a204dfcd84fbd7e3848ed/617b6791272ecb91f02cb9705a1706273293cc2e74f3e92a0052e855a1d32a35.html",
     "changed": 1,
-    "error": null,
-    "hash": "e407c6af5e43047c0c610be674389b77c1b25024dde12971aabd6c6f3b4374ce"
+    "error": null
   },
   {
     "url": "https://www.noord-holland.nl/",
-    "checked_at": "2026-10-06T20:24:19.423518Z",
-    "last_success_at": "2026-10-06T20:24:19.423518Z",
-    "snapshot_key": "sources/f3608884a5cbbb0ed00f856d20f9dcc099eae9f0fb9f1be4c05d945c817b398d/ea0848423db7e109ff6b6efc22e5a4a0f7cd84e92338a7563b29e4cc6948c547.html",
+    "checked_at": "2026-10-10T22:40:22.655143Z",
+    "last_success_at": "2026-10-10T22:40:22.655143Z",
+    "hash": "523e448c90327f01fc85ef97089806d74e7ee6e567036a511c3631b2f8575d2f",
+    "snapshot_key": "sources/f3608884a5cbbb0ed00f856d20f9dcc099eae9f0fb9f1be4c05d945c817b398d/523e448c90327f01fc85ef97089806d74e7ee6e567036a511c3631b2f8575d2f.html",
     "changed": 1,
-    "error": null,
-    "hash": "ea0848423db7e109ff6b6efc22e5a4a0f7cd84e92338a7563b29e4cc6948c547"
+    "error": null
   },
   {
     "url": "https://www.zuid-holland.nl/",
-    "checked_at": "2026-10-06T20:24:19.741969Z",
-    "last_success_at": "2026-10-06T20:24:19.741969Z",
-    "snapshot_key": "sources/74eb805e2c2e21abb7c61a15b214ea738bfe7c66d26afb330d975a23d9056c41/043056866cc58c283c74efb7cab96034d24e548a6868f05e4e7b1a2fdb0297a5.html",
+    "checked_at": "2026-10-10T22:40:22.735038Z",
+    "last_success_at": "2026-10-10T22:40:22.735038Z",
+    "hash": "24033f84f8fe4e0bb28eaefb3bc1d57c07cb7a036bae66f69832159108e474ae",
+    "snapshot_key": "sources/74eb805e2c2e21abb7c61a15b214ea738bfe7c66d26afb330d975a23d9056c41/24033f84f8fe4e0bb28eaefb3bc1d57c07cb7a036bae66f69832159108e474ae.html",
     "changed": 1,
-    "error": null,
-    "hash": "043056866cc58c283c74efb7cab96034d24e548a6868f05e4e7b1a2fdb0297a5"
+    "error": null
   },
   {
     "url": "https://www.zeeland.nl/",
-    "checked_at": "2026-10-06T20:24:19.967195Z",
-    "last_success_at": "2026-10-06T20:24:19.967195Z",
-    "snapshot_key": "sources/1456e78d4766a590fca9618358f4c0ac7180b1c8835a03a2e7dd9b1f714ad437/5c572cd997f42f1a4cf79e279f8e0d48922c9dbfc5e801108b2d0c5a691d683c.html",
+    "checked_at": "2026-10-10T22:40:22.825871Z",
+    "last_success_at": "2026-10-10T22:40:22.825871Z",
+    "hash": "9963a381a2f13d05f672171e18d0a3c2b279f25df8adec7030720fab4b96b499",
+    "snapshot_key": "sources/1456e78d4766a590fca9618358f4c0ac7180b1c8835a03a2e7dd9b1f714ad437/9963a381a2f13d05f672171e18d0a3c2b279f25df8adec7030720fab4b96b499.html",
     "changed": 1,
-    "error": null,
-    "hash": "5c572cd997f42f1a4cf79e279f8e0d48922c9dbfc5e801108b2d0c5a691d683c"
+    "error": null
   },
   {
     "url": "https://www.brabant.nl/",
-    "checked_at": "2026-10-06T20:24:20.097495Z",
-    "last_success_at": "2026-10-06T20:24:20.097495Z",
-    "snapshot_key": "sources/ba7b9c28cdae7dbd0d8afa941f92ddb9e23f94efc529f3490a44e7816b9402e7/4c81f50ddf242abc1102734b555723902d511608c7efaad6f5ee9f385786ffe8.html",
+    "checked_at": "2026-10-10T22:40:23.065482Z",
+    "last_success_at": "2026-10-10T22:40:23.065482Z",
+    "hash": "7bdb52b912459b9c02090b7150e65cec5f8cd70d950b223154efb7e5f1a60e60",
+    "snapshot_key": "sources/ba7b9c28cdae7dbd0d8afa941f92ddb9e23f94efc529f3490a44e7816b9402e7/7bdb52b912459b9c02090b7150e65cec5f8cd70d950b223154efb7e5f1a60e60.html",
     "changed": 1,
-    "error": null,
-    "hash": "4c81f50ddf242abc1102734b555723902d511608c7efaad6f5ee9f385786ffe8"
+    "error": null
   },
   {
     "url": "https://www.limburg.nl/",
-    "checked_at": "2026-10-06T20:24:20.265402Z",
-    "last_success_at": "2026-10-06T20:24:20.265402Z",
-    "snapshot_key": "sources/31c4bf82f604602f8ce288fb7c93a2162d0daa8022369ccff830c637b286be79/822b4a6cab8d8a77b0224104a7a673d1f76dc075044d28a6f41e62ebb080970f.html",
+    "checked_at": "2026-10-10T22:40:23.498186Z",
+    "last_success_at": "2026-10-10T22:40:23.498186Z",
+    "hash": "3f18cba147fd3c558d62688d07e89a2d2b2bb3ba75d00922f50c06a667c90f8f",
+    "snapshot_key": "sources/31c4bf82f604602f8ce288fb7c93a2162d0daa8022369ccff830c637b286be79/3f18cba147fd3c558d62688d07e89a2d2b2bb3ba75d00922f50c06a667c90f8f.html",
     "changed": 1,
-    "error": null,
-    "hash": "822b4a6cab8d8a77b0224104a7a673d1f76dc075044d28a6f41e62ebb080970f"
+    "error": null
   },
   {
     "url": "https://www.rijksoverheid.nl/themas/werk/minimumloon/bedragen-minimumloon/bedragen-minimumloon-2026",
@@ -1957,12 +1957,12 @@
   },
   {
     "url": "https://www.overijssel.nl/nieuws/ideeen-gezocht-voor-buurt-of-dorp-langs-kanaal-almelo-de-haandrik/",
-    "checked_at": "2026-10-06T20:24:32.766393Z",
-    "last_success_at": "2026-10-06T20:24:32.766393Z",
-    "snapshot_key": "sources/54d5627835e1735f42100d18d5c7f9c8bda15991ccedc05ae4f693ec51b8bf5a/588f142ff4d8eaaf53bef6f29b3eefbb274c2104b7f2a9c2ee74b43ea29e4c05.html",
-    "changed": 0,
-    "error": null,
-    "hash": "588f142ff4d8eaaf53bef6f29b3eefbb274c2104b7f2a9c2ee74b43ea29e4c05"
+    "checked_at": "2026-10-10T22:53:57.179896Z",
+    "last_success_at": "2026-10-10T22:53:57.179896Z",
+    "hash": "6d0d36c9cfc1e3aae3ac9ad76f4c33e409f9d2bff59356cbe1749115b2048837",
+    "snapshot_key": "sources/54d5627835e1735f42100d18d5c7f9c8bda15991ccedc05ae4f693ec51b8bf5a/6d0d36c9cfc1e3aae3ac9ad76f4c33e409f9d2bff59356cbe1749115b2048837.html",
+    "changed": 1,
+    "error": null
   },
   {
     "url": "https://www.flevoland.nl/actueel/subsidie-beschikbaar-voor-thuisbatterijen-in-flevo",
@@ -2011,165 +2011,165 @@
   },
   {
     "url": "https://www.limburg.nl/onderwerpen/economie/%4011431/subsidie-sprintsubsidie-mkb-2026-2027/",
-    "checked_at": "2026-10-06T20:24:33.121117Z",
-    "last_success_at": "2026-10-06T20:24:33.121117Z",
-    "snapshot_key": "sources/5bde6ba38685a63a1b1a62638b690f28e6ea3dc21f58fd5d30c9007a0942ddd3/0f86206155ad04b522d657f23cd41bb57fa801814caa861292f55cfe881d6670.html",
+    "checked_at": "2026-10-10T23:35:55.941989Z",
+    "last_success_at": "2026-10-10T23:35:55.941989Z",
+    "hash": "ec5bda84c5ba077e9dd633d55934a8c1077c7c3241c3a563ab7de68253d3ef63",
+    "snapshot_key": "sources/5bde6ba38685a63a1b1a62638b690f28e6ea3dc21f58fd5d30c9007a0942ddd3/ec5bda84c5ba077e9dd633d55934a8c1077c7c3241c3a563ab7de68253d3ef63.html",
     "changed": 1,
-    "error": null,
-    "hash": "0f86206155ad04b522d657f23cd41bb57fa801814caa861292f55cfe881d6670"
+    "error": null
   },
   {
     "url": "https://www.zeeland.nl/actueel/nieuws",
-    "checked_at": "2026-10-03T22:05:31.143505Z",
-    "last_success_at": "2026-10-03T22:05:31.143505Z",
-    "snapshot_key": "sources/32a9aeccd5ab1ceb201e37b724bd2c8d4052200148d0867c8d475dac605c3390/95508621298e26055b4674fd7ecf528c14fc6b48c0b420918d6ebec72cd1e22b.html",
-    "changed": 0,
-    "error": null,
-    "hash": "95508621298e26055b4674fd7ecf528c14fc6b48c0b420918d6ebec72cd1e22b"
+    "checked_at": "2026-10-10T22:59:41.379335Z",
+    "last_success_at": "2026-10-10T22:59:41.379335Z",
+    "hash": "4d7fccc15b0d03c03d03ea483a797aea0685174b07647c52ac7a3704009312d9",
+    "snapshot_key": "sources/32a9aeccd5ab1ceb201e37b724bd2c8d4052200148d0867c8d475dac605c3390/4d7fccc15b0d03c03d03ea483a797aea0685174b07647c52ac7a3704009312d9.html",
+    "changed": 1,
+    "error": null
   },
   {
     "url": "https://www.brabant.nl/actueel/nieuws/",
-    "checked_at": "2026-10-03T22:05:31.232634Z",
-    "last_success_at": "2026-10-03T22:05:31.232634Z",
-    "snapshot_key": "sources/e849567abf96a627c0ff9b415f5f774714b9c88760665a3b0028d228a8e5dd73/ded3e06a27ea038026dfd5c8c223ed95cf56fbcecc404b2bc719ef78dd49dca7.html",
-    "changed": 0,
-    "error": null,
-    "hash": "ded3e06a27ea038026dfd5c8c223ed95cf56fbcecc404b2bc719ef78dd49dca7"
+    "checked_at": "2026-10-10T22:59:41.474610Z",
+    "last_success_at": "2026-10-10T22:59:41.474610Z",
+    "hash": "e671c683a87c50bfde77b572401f70c3fe70cea59bc962d22feff6e7ddcece36",
+    "snapshot_key": "sources/e849567abf96a627c0ff9b415f5f774714b9c88760665a3b0028d228a8e5dd73/e671c683a87c50bfde77b572401f70c3fe70cea59bc962d22feff6e7ddcece36.html",
+    "changed": 1,
+    "error": null
   },
   {
     "url": "https://www.rijksoverheid.nl/actueel/nieuws",
-    "checked_at": "2026-10-06T20:24:20.423203Z",
-    "last_success_at": "2026-10-03T22:05:31.257491Z",
-    "snapshot_key": "sources/19a49ae94af0af6d036405c2a8b81065af92fdfd98ea466f5717b70a29b4a7ad/ef3d0eb199db9f3d10355d602b012498a2b4c324b6ca5ddbf376c836824a0054.html",
-    "changed": 0,
-    "error": "Unusable portal shell or access challenge",
-    "hash": "ef3d0eb199db9f3d10355d602b012498a2b4c324b6ca5ddbf376c836824a0054"
+    "checked_at": "2026-10-10T22:40:23.665854Z",
+    "last_success_at": "2026-10-10T22:40:23.665854Z",
+    "hash": "d22f58630911177c805e9e27152833e340c7212097e45c08c4a913201260e8bd",
+    "snapshot_key": "sources/19a49ae94af0af6d036405c2a8b81065af92fdfd98ea466f5717b70a29b4a7ad/d22f58630911177c805e9e27152833e340c7212097e45c08c4a913201260e8bd.html",
+    "changed": 1,
+    "error": null
   },
   {
     "url": "https://zoek.officielebekendmakingen.nl/",
-    "checked_at": "2026-10-06T20:24:20.663903Z",
-    "last_success_at": "2026-10-06T20:24:20.663903Z",
-    "snapshot_key": "sources/b19300914c3f0619d2903ea04ee180e94b8760f4aa52822cd4d28f6d548b3509/d86f996c19894e40e24229fe18a893cf889d37f8f817a6ee6d4604c875c2357c.html",
+    "checked_at": "2026-10-10T22:40:23.767304Z",
+    "last_success_at": "2026-10-10T22:40:23.767304Z",
+    "hash": "55388c4da91b8951929cc43090abd85337c6eb671d9645586f7be4dbe0e34350",
+    "snapshot_key": "sources/b19300914c3f0619d2903ea04ee180e94b8760f4aa52822cd4d28f6d548b3509/55388c4da91b8951929cc43090abd85337c6eb671d9645586f7be4dbe0e34350.html",
     "changed": 1,
-    "error": null,
-    "hash": "d86f996c19894e40e24229fe18a893cf889d37f8f817a6ee6d4604c875c2357c"
+    "error": null
   },
   {
     "url": "https://wetten.overheid.nl/",
-    "checked_at": "2026-10-06T20:24:20.764486Z",
-    "last_success_at": "2026-10-06T20:24:20.764486Z",
-    "snapshot_key": "sources/4e5ce3bed8064378d566320750889516de62f1f7bad1da553fa85733739b672c/c797c1a43f75fbf82db5e12ef0d4d25b20277277865fbaeef702f63f177002c0.html",
+    "checked_at": "2026-10-10T22:40:23.793072Z",
+    "last_success_at": "2026-10-10T22:40:23.793072Z",
+    "hash": "f64b40dd8a03a85866848d88ccf2261ea52da6360deaaedc8379e14e52959a62",
+    "snapshot_key": "sources/4e5ce3bed8064378d566320750889516de62f1f7bad1da553fa85733739b672c/f64b40dd8a03a85866848d88ccf2261ea52da6360deaaedc8379e14e52959a62.html",
     "changed": 1,
-    "error": null,
-    "hash": "c797c1a43f75fbf82db5e12ef0d4d25b20277277865fbaeef702f63f177002c0"
+    "error": null
   },
   {
     "url": "https://lokaleregelgeving.overheid.nl/",
-    "checked_at": "2026-10-06T20:24:20.779533Z",
-    "last_success_at": "2026-10-06T20:24:20.779533Z",
-    "snapshot_key": "sources/a7cda05d9359346b4d822b73c23ef799a5907377fe83da3c9e6692afb0622724/d6278710c331ff35406ef8e6ab0396cc32229421dc0b383693b7512451f3df6a.html",
+    "checked_at": "2026-10-10T22:40:23.935158Z",
+    "last_success_at": "2026-10-10T22:40:23.935158Z",
+    "hash": "d7b27cfb3079cfd229c5cf4f8721d0436c01bd7b4f4aa49efb19f45a2377f531",
+    "snapshot_key": "sources/a7cda05d9359346b4d822b73c23ef799a5907377fe83da3c9e6692afb0622724/d7b27cfb3079cfd229c5cf4f8721d0436c01bd7b4f4aa49efb19f45a2377f531.html",
     "changed": 1,
-    "error": null,
-    "hash": "d6278710c331ff35406ef8e6ab0396cc32229421dc0b383693b7512451f3df6a"
+    "error": null
   },
   {
     "url": "https://www.tweedekamer.nl/kamerstukken/wetsvoorstellen",
-    "checked_at": "2026-10-06T20:24:20.924723Z",
-    "last_success_at": "2026-10-03T22:05:31.479884Z",
-    "snapshot_key": "sources/a8936984db0988f4be49f949d712f1494434f4215485b5eafc9933c05d9f3eeb/bb2de148f9b9596b828e96e9d4d543c3729b32d4d29502ce06b810a94ef6cd58.html",
-    "changed": 0,
-    "error": "<urlopen error timed out>",
-    "hash": "bb2de148f9b9596b828e96e9d4d543c3729b32d4d29502ce06b810a94ef6cd58"
+    "checked_at": "2026-10-10T22:40:24.136396Z",
+    "last_success_at": "2026-10-10T22:40:24.136396Z",
+    "hash": "fe2ff50bbb96eaafa9c4e513127503c821d14f4142390f4e098bb46caf509118",
+    "snapshot_key": "sources/a8936984db0988f4be49f949d712f1494434f4215485b5eafc9933c05d9f3eeb/fe2ff50bbb96eaafa9c4e513127503c821d14f4142390f4e098bb46caf509118.html",
+    "changed": 1,
+    "error": null
   },
   {
     "url": "https://www.fryslan.frl/provinciale-staten",
-    "checked_at": "2026-10-06T20:24:18.394885Z",
-    "last_success_at": "2026-10-03T22:06:03.648719Z",
-    "snapshot_key": "sources/b4af05c9f8fc1d2069964385cb6f7fc6ebc4a364be68cef7470722eba50d451b/7d9acf633417ae0e01c75f507c2afe2d4cecb73966b24b2074ffd8a06725489f.html",
-    "changed": 0,
-    "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
-    "hash": "7d9acf633417ae0e01c75f507c2afe2d4cecb73966b24b2074ffd8a06725489f"
+    "checked_at": "2026-10-10T22:40:22.073974Z",
+    "last_success_at": "2026-10-10T22:40:22.073974Z",
+    "hash": "f2db8731737463b367c7a8da2a2750cf44ba3a2824c0b27c191966d19b1ab752",
+    "snapshot_key": "sources/b4af05c9f8fc1d2069964385cb6f7fc6ebc4a364be68cef7470722eba50d451b/f2db8731737463b367c7a8da2a2750cf44ba3a2824c0b27c191966d19b1ab752.html",
+    "changed": 1,
+    "error": null
   },
   {
     "url": "https://www.provincie.drenthe.nl/organisatie-bestuur/provinciale-staten/",
-    "checked_at": "2026-10-06T20:24:18.455644Z",
-    "last_success_at": "2026-10-06T20:24:18.455644Z",
-    "snapshot_key": "sources/e243e0cc9141196a535eb41cd79cad077e01505086734a665d641a6e4fe8def1/52066e65060d7a682ace1cf210009896154ed3cb1bd5f91cd5e46db332dab468.html",
+    "checked_at": "2026-10-10T22:40:22.074060Z",
+    "last_success_at": "2026-10-10T22:40:22.074060Z",
+    "hash": "855d4b92082214c1f9cc1f9cc96bf8fa645ac84919c443e7f71cb90316079f06",
+    "snapshot_key": "sources/e243e0cc9141196a535eb41cd79cad077e01505086734a665d641a6e4fe8def1/855d4b92082214c1f9cc1f9cc96bf8fa645ac84919c443e7f71cb90316079f06.html",
     "changed": 1,
-    "error": null,
-    "hash": "52066e65060d7a682ace1cf210009896154ed3cb1bd5f91cd5e46db332dab468"
+    "error": null
   },
   {
     "url": "https://www.overijssel.nl/bestuur/provinciale-staten/",
-    "checked_at": "2026-10-06T20:24:18.473612Z",
-    "last_success_at": "2026-10-06T20:24:18.473612Z",
-    "snapshot_key": "sources/6738f291a6a629dcf6610ede71fe76c12af0d1ee6f572e4049fa1877238f57ac/820500c1f0021b74cf0c6c6fdd7ce6d90966b3d8023b26392eef7b7d47d776d5.html",
-    "changed": 0,
-    "error": null,
-    "hash": "820500c1f0021b74cf0c6c6fdd7ce6d90966b3d8023b26392eef7b7d47d776d5"
+    "checked_at": "2026-10-10T22:40:22.263953Z",
+    "last_success_at": "2026-10-10T22:40:22.263953Z",
+    "hash": "7a0b5b4d5b9da949b9d7fe09752bd3c36c1da89b52a576a7911732e5085cebd7",
+    "snapshot_key": "sources/6738f291a6a629dcf6610ede71fe76c12af0d1ee6f572e4049fa1877238f57ac/7a0b5b4d5b9da949b9d7fe09752bd3c36c1da89b52a576a7911732e5085cebd7.html",
+    "changed": 1,
+    "error": null
   },
   {
     "url": "https://www.gelderland.nl/themas/politiek/ps",
-    "checked_at": "2026-10-06T20:24:19.165465Z",
-    "last_success_at": "2026-10-06T20:24:19.165465Z",
+    "checked_at": "2026-10-10T22:40:22.640734Z",
+    "last_success_at": "2026-10-10T22:40:22.640734Z",
+    "hash": "126ac54aa565fbb825f489ec39eff0d1e095559e07287f62dd4484b4f293f2a8",
     "snapshot_key": "sources/d506c7a503678b0e0f04a217c66c8eaf9115af24d9c0e8b8595558eb407b97e1/126ac54aa565fbb825f489ec39eff0d1e095559e07287f62dd4484b4f293f2a8.html",
     "changed": 0,
-    "error": null,
-    "hash": "126ac54aa565fbb825f489ec39eff0d1e095559e07287f62dd4484b4f293f2a8"
+    "error": null
   },
   {
     "url": "https://www.provincie-utrecht.nl/politiek-bestuur/provinciale-staten",
-    "checked_at": "2026-10-06T20:24:19.396501Z",
-    "last_success_at": "2026-10-06T20:24:19.396501Z",
-    "snapshot_key": "sources/92a74b1164b70cc8566a965edf552ac5dfe062637e6807a9bfd454b965fdecfa/40fd9e573bb25e40ba81ab8928d93dbe46c3c92d75210424c46eee4191f7a285.html",
+    "checked_at": "2026-10-10T22:40:22.649426Z",
+    "last_success_at": "2026-10-10T22:40:22.649426Z",
+    "hash": "7c22270f27b39a5070a194667e9a994eb73c0e6b26dd3dc101694f7920f73bb6",
+    "snapshot_key": "sources/92a74b1164b70cc8566a965edf552ac5dfe062637e6807a9bfd454b965fdecfa/7c22270f27b39a5070a194667e9a994eb73c0e6b26dd3dc101694f7920f73bb6.html",
     "changed": 1,
-    "error": null,
-    "hash": "40fd9e573bb25e40ba81ab8928d93dbe46c3c92d75210424c46eee4191f7a285"
+    "error": null
   },
   {
     "url": "https://www.noord-holland.nl/Bestuur/Provinciale_Staten",
-    "checked_at": "2026-10-06T20:24:19.425105Z",
-    "last_success_at": "2026-10-06T20:24:19.425105Z",
-    "snapshot_key": "sources/a376dfc72e61421d18a336f57c5acc0a38cdcaa961a050dc13e5480349134adf/8a6f43d145356939869e3b7ada91b864cdd2e9cf05942aa2c3b17d1a18b8e458.html",
+    "checked_at": "2026-10-10T22:40:22.656108Z",
+    "last_success_at": "2026-10-10T22:40:22.656108Z",
+    "hash": "a839614dfde5e71ed3a3294bd18c1a0d33ecda58ff2568098001e3595842b8c9",
+    "snapshot_key": "sources/a376dfc72e61421d18a336f57c5acc0a38cdcaa961a050dc13e5480349134adf/a839614dfde5e71ed3a3294bd18c1a0d33ecda58ff2568098001e3595842b8c9.html",
     "changed": 1,
-    "error": null,
-    "hash": "8a6f43d145356939869e3b7ada91b864cdd2e9cf05942aa2c3b17d1a18b8e458"
+    "error": null
   },
   {
     "url": "https://www.zuid-holland.nl/politiek-bestuur/provinciale-staten/",
-    "checked_at": "2026-10-06T20:24:19.877083Z",
-    "last_success_at": "2026-10-06T20:24:19.877083Z",
-    "snapshot_key": "sources/175690bb4ce6be589fb6773276e95511186b1ba01f5a23cf4ac33bbe2a494807/0f9840ab6cf79a492ad841d88d168bf38bf55be5add95cc974045556598f8f8d.html",
+    "checked_at": "2026-10-10T22:40:22.825029Z",
+    "last_success_at": "2026-10-10T22:40:22.825029Z",
+    "hash": "55f3bb4527e2318fa365116f8a6119345de15d170d42c2e0163838398a23bd4b",
+    "snapshot_key": "sources/175690bb4ce6be589fb6773276e95511186b1ba01f5a23cf4ac33bbe2a494807/55f3bb4527e2318fa365116f8a6119345de15d170d42c2e0163838398a23bd4b.html",
     "changed": 1,
-    "error": null,
-    "hash": "0f9840ab6cf79a492ad841d88d168bf38bf55be5add95cc974045556598f8f8d"
+    "error": null
   },
   {
     "url": "https://www.zeeland.nl/bestuur/provinciale-staten",
-    "checked_at": "2026-10-06T20:24:20.067288Z",
-    "last_success_at": "2026-10-06T20:24:20.067288Z",
-    "snapshot_key": "sources/9914a941c5edb7dc123d3d95f7af06f82b3ea6892944dcb984f842b4c7d44288/c25b232ac29a83b4a08f38ec72b653b54844012b84bc11a7d3461a4e05efa069.html",
+    "checked_at": "2026-10-10T22:40:22.959948Z",
+    "last_success_at": "2026-10-10T22:40:22.959948Z",
+    "hash": "8af8b2cb791e81d9b76f470abc2eca34a0b66a32abee67ef33fc460829c9aecd",
+    "snapshot_key": "sources/9914a941c5edb7dc123d3d95f7af06f82b3ea6892944dcb984f842b4c7d44288/8af8b2cb791e81d9b76f470abc2eca34a0b66a32abee67ef33fc460829c9aecd.html",
     "changed": 1,
-    "error": null,
-    "hash": "c25b232ac29a83b4a08f38ec72b653b54844012b84bc11a7d3461a4e05efa069"
+    "error": null
   },
   {
     "url": "https://www.brabant.nl/bestuur/provinciale-staten/statenstukken/",
-    "checked_at": "2026-10-06T20:24:20.208612Z",
-    "last_success_at": "2026-10-06T20:24:20.208612Z",
+    "checked_at": "2026-10-10T22:40:23.159786Z",
+    "last_success_at": "2026-10-10T22:40:23.159786Z",
+    "hash": "429d23902f1ad1b212e7853d9416a7dacfe8c5b2947ff9e5b8f3bad6b718f7e9",
     "snapshot_key": "sources/7cf30719aca82b775d0cd2decdc110b522d93f2768dc986ddd27402ba5dc1b08/429d23902f1ad1b212e7853d9416a7dacfe8c5b2947ff9e5b8f3bad6b718f7e9.html",
     "changed": 0,
-    "error": null,
-    "hash": "429d23902f1ad1b212e7853d9416a7dacfe8c5b2947ff9e5b8f3bad6b718f7e9"
+    "error": null
   },
   {
     "url": "https://www.limburg.nl/bestuur/provinciale-staten/",
-    "checked_at": "2026-10-06T20:24:20.277597Z",
-    "last_success_at": "2026-10-06T20:24:20.277597Z",
-    "snapshot_key": "sources/da2382ea86530f1f521bf24d7b6aaaeaeb35485690082fc9b29980de341c740d/63957d7a219a4a886d8e0437ac1bbb8de35eddc19905ad18351e96ea43bfef2e.html",
+    "checked_at": "2026-10-10T22:40:23.626539Z",
+    "last_success_at": "2026-10-10T22:40:23.626539Z",
+    "hash": "8d1a77000230cd75b2837de07c68bde5730fc81795ec0f75f16c76cf15bea0ed",
+    "snapshot_key": "sources/da2382ea86530f1f521bf24d7b6aaaeaeb35485690082fc9b29980de341c740d/8d1a77000230cd75b2837de07c68bde5730fc81795ec0f75f16c76cf15bea0ed.html",
     "changed": 1,
-    "error": null,
-    "hash": "63957d7a219a4a886d8e0437ac1bbb8de35eddc19905ad18351e96ea43bfef2e"
+    "error": null
   },
   {
     "url": "https://www.provinciegroningen.nl/bestuur-en-organisatie/",
@@ -2182,20 +2182,21 @@
   },
   {
     "url": "https://stateninformatie.flevoland.nl/",
-    "checked_at": "2026-10-06T20:24:18.905537Z",
-    "last_success_at": null,
-    "snapshot_key": null,
+    "checked_at": "2026-10-10T22:40:22.471844Z",
+    "last_success_at": "2026-10-10T22:40:22.471844Z",
+    "hash": "a9789a569dbbaa0bc7bb6242ab45c6acdac2349ff9bbe34e41f7fa46c89e7425",
+    "snapshot_key": "sources/d7c7a82797c17437e8c66460fa3754138cc0cd00444f70ce359183cbe2147002/a9789a569dbbaa0bc7bb6242ab45c6acdac2349ff9bbe34e41f7fa46c89e7425.html",
     "changed": 0,
-    "error": "Unusable portal shell or access challenge"
+    "error": null
   },
   {
     "url": "https://www.eerstekamer.nl/wetsvoorstellen_2",
-    "checked_at": "2026-10-06T20:24:21.026374Z",
-    "last_success_at": "2026-10-06T20:24:21.026374Z",
-    "snapshot_key": "sources/bcf4a536df99c175b9d3c8e6af8c5b41b84456a8e378cece3f2252bf0b5a7ff6/fbf94bc4126bb2c3ace4c801a7391d5df8afeace2e438f36c064e88f8d564a0f.html",
+    "checked_at": "2026-10-10T22:40:24.332947Z",
+    "last_success_at": "2026-10-10T22:40:24.332947Z",
+    "hash": "8dea34a4a130e573ebd02030eaac985b82f5d593fdf59f4321f0564082eff18c",
+    "snapshot_key": "sources/bcf4a536df99c175b9d3c8e6af8c5b41b84456a8e378cece3f2252bf0b5a7ff6/8dea34a4a130e573ebd02030eaac985b82f5d593fdf59f4321f0564082eff18c.html",
     "changed": 1,
-    "error": null,
-    "hash": "fbf94bc4126bb2c3ace4c801a7391d5df8afeace2e438f36c064e88f8d564a0f"
+    "error": null
   },
   {
     "url": "https://www.zuid-holland.nl/actueel/nieuws?pager_page=0",
@@ -2208,12 +2209,12 @@
   },
   {
     "url": "https://www.brabant.nl/actueel/nieuws/provincie-noord-brabant-presenteert-begroting-2027/",
-    "checked_at": "2026-10-06T20:24:32.980438Z",
-    "last_success_at": "2026-10-06T20:24:32.980438Z",
+    "checked_at": "2026-10-10T23:01:08.980161Z",
+    "last_success_at": "2026-10-10T23:01:08.980161Z",
+    "hash": "e9de18532b89ae85bd5647229880dcc454aefc9f68d083385e8d59de3f8666d1",
     "snapshot_key": "sources/5dfd2ba61a696d26c2fc2eae534291994e0de92c48b10ebe56350dcac86ecd47/e9de18532b89ae85bd5647229880dcc454aefc9f68d083385e8d59de3f8666d1.html",
-    "changed": 1,
-    "error": null,
-    "hash": "e9de18532b89ae85bd5647229880dcc454aefc9f68d083385e8d59de3f8666d1"
+    "changed": 0,
+    "error": null
   },
   {
     "url": "https://www.zeeland.nl/actueel/elf-rijksmonumenten-ontvangen-bijna-eur-3-miljoen-voor-restauratie-en-volgende-eur-37",
@@ -2226,102 +2227,102 @@
   },
   {
     "url": "https://www.provinciegroningen.nl/bestuur-en-organisatie/provinciale-staten/",
-    "checked_at": "2026-10-06T20:24:18.315517Z",
-    "last_success_at": "2026-10-06T20:24:18.315517Z",
-    "snapshot_key": "sources/560b78dda2d3f21bfc6a1c0fddeaa3f1fa432d0ffaa911638c100ece74f37aa4/1ea17feeb18e4a81ca034998d8b82f6b6d1ad60da5aa9e245e7c539ba527a205.html",
+    "checked_at": "2026-10-10T22:40:22.073146Z",
+    "last_success_at": "2026-10-10T22:40:22.073146Z",
+    "hash": "079cea8ed554c9aee454bd29c918807c4ca6bc253c10c4e03369f3f1d5b5417c",
+    "snapshot_key": "sources/560b78dda2d3f21bfc6a1c0fddeaa3f1fa432d0ffaa911638c100ece74f37aa4/079cea8ed554c9aee454bd29c918807c4ca6bc253c10c4e03369f3f1d5b5417c.html",
     "changed": 1,
-    "error": null,
-    "hash": "1ea17feeb18e4a81ca034998d8b82f6b6d1ad60da5aa9e245e7c539ba527a205"
+    "error": null
   },
   {
     "url": "https://www.zuid-holland.nl/actueel/nieuws/september-2026/ruimte-planten-dieren-subsidie-icoonsoorten-opent/",
-    "checked_at": "2026-10-06T20:24:32.766540Z",
-    "last_success_at": "2026-10-06T20:24:32.766540Z",
+    "checked_at": "2026-10-10T23:35:55.941715Z",
+    "last_success_at": "2026-10-10T23:35:55.941715Z",
+    "hash": "96df0d726cb432c6d4f7fa335abedca572b98be51342e89abd332a62f5fd92eb",
     "snapshot_key": "sources/a562c2d34f88d48adc60a2dec909b88b713f8f0e8a213ccd86df2c2bfcd66969/96df0d726cb432c6d4f7fa335abedca572b98be51342e89abd332a62f5fd92eb.html",
-    "changed": 1,
-    "error": null,
-    "hash": "96df0d726cb432c6d4f7fa335abedca572b98be51342e89abd332a62f5fd92eb"
+    "changed": 0,
+    "error": null
   },
   {
     "url": "https://www.fryslan.frl/bekendmakingen-2026",
-    "checked_at": "2026-10-06T20:24:21.058056Z",
-    "last_success_at": "2026-10-03T22:06:50.222116Z",
-    "snapshot_key": "sources/de630d458e75df59b0812cdd81e0b7128b32bbfae6aeb0427962c6179a51de5e/eb1dadb14564f8435643f2c85cb89e3d10dd5ba68c287e465ac7dbad126ea883.html",
-    "changed": 0,
-    "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
-    "hash": "eb1dadb14564f8435643f2c85cb89e3d10dd5ba68c287e465ac7dbad126ea883"
+    "checked_at": "2026-10-10T22:40:24.333794Z",
+    "last_success_at": "2026-10-10T22:40:24.333794Z",
+    "hash": "ff7b4878026ce42358b2007dd8983505bffbfc0154f299ddaf0cbcc7274ecd75",
+    "snapshot_key": "sources/de630d458e75df59b0812cdd81e0b7128b32bbfae6aeb0427962c6179a51de5e/ff7b4878026ce42358b2007dd8983505bffbfc0154f299ddaf0cbcc7274ecd75.html",
+    "changed": 1,
+    "error": null
   },
   {
     "url": "https://www.provincie.drenthe.nl/actueel/bekendmakingen/",
-    "checked_at": "2026-10-06T20:24:21.058954Z",
-    "last_success_at": "2026-10-06T20:24:21.058954Z",
-    "snapshot_key": "sources/198e9d0e2ba8e565088cd4f7728fd1adf65d4c992a9edcd7d87d1e9d472fdf88/8a852c98be425d788204b95672b5ab74a85c864c02ba3fa3c1398add9094ef4f.html",
+    "checked_at": "2026-10-10T22:40:24.334036Z",
+    "last_success_at": "2026-10-10T22:40:24.334036Z",
+    "hash": "7558ad575dd12218cb7dcc7d1f62a0fb5641441f1106a6ae8ea7a9a5881e1c2d",
+    "snapshot_key": "sources/198e9d0e2ba8e565088cd4f7728fd1adf65d4c992a9edcd7d87d1e9d472fdf88/7558ad575dd12218cb7dcc7d1f62a0fb5641441f1106a6ae8ea7a9a5881e1c2d.html",
     "changed": 1,
-    "error": null,
-    "hash": "8a852c98be425d788204b95672b5ab74a85c864c02ba3fa3c1398add9094ef4f"
+    "error": null
   },
   {
     "url": "https://www.flevoland.nl/loket/openbare-documenten/overzicht-openbare-documenten/wet-en-regelgeving",
-    "checked_at": "2026-10-06T20:24:21.189742Z",
-    "last_success_at": "2026-10-06T20:24:21.189742Z",
-    "snapshot_key": "sources/66994b7b41a2ac3ba269b4ba4e3205602308cb7095386e980548fed89e5b9533/89bcbe0684f235bf36220ccd6e1ea7761effa95083c921143730e9de7afc60f2.html",
+    "checked_at": "2026-10-10T22:40:24.771566Z",
+    "last_success_at": "2026-10-10T22:40:24.771566Z",
+    "hash": "12cb239aabca788d69ed5fa79b70a07b77fd38bf5d9838d7f4306936af1c3f1f",
+    "snapshot_key": "sources/66994b7b41a2ac3ba269b4ba4e3205602308cb7095386e980548fed89e5b9533/12cb239aabca788d69ed5fa79b70a07b77fd38bf5d9838d7f4306936af1c3f1f.html",
     "changed": 1,
-    "error": null,
-    "hash": "89bcbe0684f235bf36220ccd6e1ea7761effa95083c921143730e9de7afc60f2"
+    "error": null
   },
   {
     "url": "https://www.provincie-utrecht.nl/actueel/gs-besluiten",
-    "checked_at": "2026-10-06T20:24:22.045727Z",
-    "last_success_at": "2026-10-06T20:24:22.045727Z",
-    "snapshot_key": "sources/cc24bfb11c92c9cc97596cfb1723eb07693a586bf75d2207f601c5f10e31590e/c5c653e8443a4572aa9550ae7f535ff9b45d69ebf7b2795b1c986d68a1be32c2.html",
+    "checked_at": "2026-10-10T22:40:24.800648Z",
+    "last_success_at": "2026-10-10T22:40:24.800648Z",
+    "hash": "555a67ef99015864c59741260829119b0b03a4d83afcab94c6f1ef2cd2664d4c",
+    "snapshot_key": "sources/cc24bfb11c92c9cc97596cfb1723eb07693a586bf75d2207f601c5f10e31590e/555a67ef99015864c59741260829119b0b03a4d83afcab94c6f1ef2cd2664d4c.html",
     "changed": 1,
-    "error": null,
-    "hash": "c5c653e8443a4572aa9550ae7f535ff9b45d69ebf7b2795b1c986d68a1be32c2"
+    "error": null
   },
   {
     "url": "https://www.zuid-holland.nl/actueel/bekendmakingen/",
-    "checked_at": "2026-10-06T20:24:22.195025Z",
-    "last_success_at": "2026-10-06T20:24:22.195025Z",
-    "snapshot_key": "sources/09ea9c3d481105911b7da1ddffd8eb0f4c1992010d3c442a39782b8f0d87a324/a7b284c7c95433af2b0ab98ada9549416ceab094a397cbfa45aa295744d71965.html",
+    "checked_at": "2026-10-10T22:40:24.998952Z",
+    "last_success_at": "2026-10-10T22:40:24.998952Z",
+    "hash": "1d655299a55d049d7d7a057848a97c49ecd742a67a93e27dc04456d5c8497d99",
+    "snapshot_key": "sources/09ea9c3d481105911b7da1ddffd8eb0f4c1992010d3c442a39782b8f0d87a324/1d655299a55d049d7d7a057848a97c49ecd742a67a93e27dc04456d5c8497d99.html",
     "changed": 1,
-    "error": null,
-    "hash": "a7b284c7c95433af2b0ab98ada9549416ceab094a397cbfa45aa295744d71965"
+    "error": null
   },
   {
     "url": "https://www.zeeland.nl/loket/Provinciaal-Blad-en-Bekendmakingen",
-    "checked_at": "2026-10-06T20:24:22.308372Z",
-    "last_success_at": "2026-10-06T20:24:22.308372Z",
-    "snapshot_key": "sources/1f95db5bd2b03b0452a2797b1741f3578816f5267352ad78cde979b272bef0ed/33371d4a47da50f0e1715d5c79ab6feecc9605ffa0c7f9867dc2cdadd5d8c000.html",
+    "checked_at": "2026-10-10T22:40:25.063870Z",
+    "last_success_at": "2026-10-10T22:40:25.063870Z",
+    "hash": "8ba1381630518f36d218b69436736f1170390fd4a389933738c072b39f3de459",
+    "snapshot_key": "sources/1f95db5bd2b03b0452a2797b1741f3578816f5267352ad78cde979b272bef0ed/8ba1381630518f36d218b69436736f1170390fd4a389933738c072b39f3de459.html",
     "changed": 1,
-    "error": null,
-    "hash": "33371d4a47da50f0e1715d5c79ab6feecc9605ffa0c7f9867dc2cdadd5d8c000"
+    "error": null
   },
   {
     "url": "https://www.brabant.nl/actueel/bekendmakingen/",
-    "checked_at": "2026-10-06T20:24:22.389297Z",
-    "last_success_at": "2026-10-06T20:24:22.389297Z",
-    "snapshot_key": "sources/50ce5f424a873bbdbd837008c30267afe6b2a04de3b8021319af935f78ff0f47/bb8b4685404ae2bb0533f76740ea3c6abca0c932de6445858297d53019b87216.html",
+    "checked_at": "2026-10-10T22:40:25.273803Z",
+    "last_success_at": "2026-10-10T22:40:25.273803Z",
+    "hash": "2bee1be6a80b2ada9bb56381e624261182bc4e0f4dd082d3d9038c49a0541f07",
+    "snapshot_key": "sources/50ce5f424a873bbdbd837008c30267afe6b2a04de3b8021319af935f78ff0f47/2bee1be6a80b2ada9bb56381e624261182bc4e0f4dd082d3d9038c49a0541f07.html",
     "changed": 1,
-    "error": null,
-    "hash": "bb8b4685404ae2bb0533f76740ea3c6abca0c932de6445858297d53019b87216"
+    "error": null
   },
   {
     "url": "https://www.limburg.nl/actueel/bekendmakingen/",
-    "checked_at": "2026-10-06T20:24:22.396590Z",
-    "last_success_at": "2026-10-06T20:24:22.396590Z",
-    "snapshot_key": "sources/609fcf0d50cea4fcb1f2ea944070ac57e629e8392de7843065c743cc0de2a492/4d7f0f2574b981380d24daf8bccf80c055913d44cabe2dea929510da0efcb65f.html",
+    "checked_at": "2026-10-10T22:40:25.588496Z",
+    "last_success_at": "2026-10-10T22:40:25.588496Z",
+    "hash": "443ff0415803215464cc5ea98759a46c1fbe78cbf2e57bda40407e24ad580aa5",
+    "snapshot_key": "sources/609fcf0d50cea4fcb1f2ea944070ac57e629e8392de7843065c743cc0de2a492/443ff0415803215464cc5ea98759a46c1fbe78cbf2e57bda40407e24ad580aa5.html",
     "changed": 1,
-    "error": null,
-    "hash": "4d7f0f2574b981380d24daf8bccf80c055913d44cabe2dea929510da0efcb65f"
+    "error": null
   },
   {
     "url": "https://www.rijksoverheid.nl/vraag-en-antwoord/woning-huren/welke-regels-gelden-er-voor-een-huurverhoging",
-    "checked_at": "2026-10-03T22:06:50.371746Z",
-    "last_success_at": "2026-10-03T22:06:50.371746Z",
-    "snapshot_key": "sources/dd84f0677eda3b64862ee4cd1d2cf52d48c5ff9ff933e728bcbfb124b9d35de6/d3f8a1a56b2d5fbe3e6d79d09c32a332804e371eb0b72abc71343ba23507b324.html",
-    "changed": 0,
-    "error": null,
-    "hash": "d3f8a1a56b2d5fbe3e6d79d09c32a332804e371eb0b72abc71343ba23507b324"
+    "checked_at": "2026-10-10T23:26:09.100114Z",
+    "last_success_at": "2026-10-10T23:26:09.100114Z",
+    "hash": "4c74bf1235118e27cc97114534e5c707b8a7687f9e499e85ad482e89dbe83514",
+    "snapshot_key": "sources/dd84f0677eda3b64862ee4cd1d2cf52d48c5ff9ff933e728bcbfb124b9d35de6/4c74bf1235118e27cc97114534e5c707b8a7687f9e499e85ad482e89dbe83514.html",
+    "changed": 1,
+    "error": null
   },
   {
     "url": "https://lokaleregelgeving.overheid.nl/CVDR766850",
@@ -4266,11 +4267,11 @@
   },
   {
     "url": "https://www.rijksoverheid.nl/actueel/nieuws/2026/10/01/zelfstandigenwet-biedt-meer-duidelijkheid-en-erkenning-voor-zzpers",
-    "last_success_at": "2026-10-06T20:24:34.725898Z",
-    "hash": "f62adbd8128ac5eb691e03094c7b6d4829a67e3f071da4fb2a4e22a5fdbea961",
-    "snapshot_key": "sources/eb9dff1982b702f0938f273cf6b58d89183d62aec8f9168174f624695ebf2f54/f62adbd8128ac5eb691e03094c7b6d4829a67e3f071da4fb2a4e22a5fdbea961.html",
+    "checked_at": "2026-10-10T22:42:22.194528Z",
+    "last_success_at": "2026-10-10T22:42:22.194528Z",
+    "hash": "c939996b08c5bb77f58a7cbdcb96a79ed55e8c059043d809e100326dde9b72b8",
+    "snapshot_key": "sources/eb9dff1982b702f0938f273cf6b58d89183d62aec8f9168174f624695ebf2f54/c939996b08c5bb77f58a7cbdcb96a79ed55e8c059043d809e100326dde9b72b8.html",
     "changed": 1,
-    "checked_at": "2026-10-06T20:24:34.725898Z",
     "error": null
   },
   {
@@ -4311,10 +4312,10 @@
   },
   {
     "url": "https://www.rijksoverheid.nl/actueel/nieuws/2026/10/02/kabinet-presenteert-maatregelen-voor-mentale-gezondheid-en-ggz",
-    "checked_at": "2026-10-06T20:24:35.038278Z",
-    "last_success_at": "2026-10-06T20:24:35.038278Z",
-    "hash": "0e65c1489e6da62d33ea58c88f74062b22954a7c89cd50f2102bab716c97c42d",
-    "snapshot_key": "sources/fb11e05a902e5da437a8334c94fbc8a90fa7fda0dbd7967fa3436b6a6d3c054b/0e65c1489e6da62d33ea58c88f74062b22954a7c89cd50f2102bab716c97c42d.html",
+    "checked_at": "2026-10-10T22:42:21.781456Z",
+    "last_success_at": "2026-10-10T22:42:21.781456Z",
+    "hash": "cfd4fcdba629e4ebeb7ca1f8e4324ccd2f88f3fc7abfeff6b6592739f4b506de",
+    "snapshot_key": "sources/fb11e05a902e5da437a8334c94fbc8a90fa7fda0dbd7967fa3436b6a6d3c054b/cfd4fcdba629e4ebeb7ca1f8e4324ccd2f88f3fc7abfeff6b6592739f4b506de.html",
     "changed": 1,
     "error": null
   },
@@ -5607,20 +5608,20 @@
   },
   {
     "url": "https://www.rijksoverheid.nl/actueel/nieuws/2026/10/05/kabinet-weloverwogen-regie-op-internationaal-talent",
-    "checked_at": "2026-10-06T20:24:42.083578Z",
-    "last_success_at": "2026-10-06T20:24:42.083578Z",
-    "hash": "cf5f62f6c89981db14d3e739e6d2905916a7877eef25032cb5b13c02c8e1aa36",
-    "snapshot_key": "sources/20ceee64238f391bda79d03fc713c57a2511b8284d40ee2fdda4cec23c533985/cf5f62f6c89981db14d3e739e6d2905916a7877eef25032cb5b13c02c8e1aa36.html",
-    "changed": 0,
+    "checked_at": "2026-10-10T22:42:21.322998Z",
+    "last_success_at": "2026-10-10T22:42:21.322998Z",
+    "hash": "5c05b34e313b6ba4570926072a75eb1b2382b3b9c35793695d78bd28ed667d3d",
+    "snapshot_key": "sources/20ceee64238f391bda79d03fc713c57a2511b8284d40ee2fdda4cec23c533985/5c05b34e313b6ba4570926072a75eb1b2382b3b9c35793695d78bd28ed667d3d.html",
+    "changed": 1,
     "error": null
   },
   {
     "url": "https://www.rijksoverheid.nl/actueel/nieuws/2026/10/05/kabinet-presenteert-strategie-om-kinderen-online-te-beschermen",
-    "checked_at": "2026-10-06T20:24:42.083628Z",
-    "last_success_at": "2026-10-06T20:24:42.083628Z",
-    "hash": "ad9a2d91d882434e71097a9bd47da7bf10aa117bdcb30c5968be8a0a9ae10d58",
-    "snapshot_key": "sources/e26a2dfa2e8005671362d79c9a282e10a93fa24ae13666ab21639a99f099775c/ad9a2d91d882434e71097a9bd47da7bf10aa117bdcb30c5968be8a0a9ae10d58.html",
-    "changed": 0,
+    "checked_at": "2026-10-10T22:42:21.547238Z",
+    "last_success_at": "2026-10-10T22:42:21.547238Z",
+    "hash": "d0e1b7af428b4270860bab3798a25db9d5527e18c56b16cf256616f0608faa84",
+    "snapshot_key": "sources/e26a2dfa2e8005671362d79c9a282e10a93fa24ae13666ab21639a99f099775c/d0e1b7af428b4270860bab3798a25db9d5527e18c56b16cf256616f0608faa84.html",
+    "changed": 1,
     "error": null
   },
   {
@@ -5886,26 +5887,26 @@
   },
   {
     "url": "https://www.noord-holland.nl/Actueel/Archief/2026/Oktober_2026/Besluiten_Provinciale_Staten_Noord_Holland_5_oktober_2026",
-    "checked_at": "2026-10-06T20:26:25.084219Z",
-    "last_success_at": "2026-10-06T20:26:25.084219Z",
-    "hash": "7dab05b3061a5d1bb94ff2d95a81c62e1f154fbb8f3f970938c3233c43c17bcf",
-    "snapshot_key": "sources/173e342ff2637e0feb00e6d296617a3844cfd89b8c86f6d1116bb0a80b10f0db/7dab05b3061a5d1bb94ff2d95a81c62e1f154fbb8f3f970938c3233c43c17bcf.html",
-    "changed": 0,
+    "checked_at": "2026-10-10T23:01:11.107043Z",
+    "last_success_at": "2026-10-10T23:01:11.107043Z",
+    "hash": "a5d00b54be4210e9915866d39286f1bbc47457fbefca30e2e2fda8b2f3909dce",
+    "snapshot_key": "sources/173e342ff2637e0feb00e6d296617a3844cfd89b8c86f6d1116bb0a80b10f0db/a5d00b54be4210e9915866d39286f1bbc47457fbefca30e2e2fda8b2f3909dce.html",
+    "changed": 1,
     "error": null
   },
   {
     "url": "https://www.noord-holland.nl/Actueel/Archief/2026/Oktober_2026/Provincie_wijzigt_grenzen_van_11_locaties_in_Noord_Holland",
-    "checked_at": "2026-10-06T20:26:25.084275Z",
-    "last_success_at": "2026-10-06T20:26:25.084275Z",
-    "hash": "3b5a83a89981e9e11fa37efc0211e540f3b92562d98a20949a857ad2f3f1e94b",
-    "snapshot_key": "sources/5833b106dc9211a5d0535dcdac19b9f5bf78d6caf1a47dc653d1fe38ec4d9354/3b5a83a89981e9e11fa37efc0211e540f3b92562d98a20949a857ad2f3f1e94b.html",
-    "changed": 0,
+    "checked_at": "2026-10-10T22:53:57.179990Z",
+    "last_success_at": "2026-10-10T22:53:57.179990Z",
+    "hash": "70096354386860026ddc8b009bf6ac440c2e36918d2e3533bf9d90fb78b19e56",
+    "snapshot_key": "sources/5833b106dc9211a5d0535dcdac19b9f5bf78d6caf1a47dc653d1fe38ec4d9354/70096354386860026ddc8b009bf6ac440c2e36918d2e3533bf9d90fb78b19e56.html",
+    "changed": 1,
     "error": null
   },
   {
     "url": "https://www.zuid-holland.nl/actueel/nieuws/oktober-2026/energieraad-zuid-holland-komt-met-actieplan/",
-    "checked_at": "2026-10-06T20:26:25.084325Z",
-    "last_success_at": "2026-10-06T20:26:25.084325Z",
+    "checked_at": "2026-10-10T22:53:57.179609Z",
+    "last_success_at": "2026-10-10T22:53:57.179609Z",
     "hash": "ae63ae89510c2c63129b8ce76e02ac50b3718ef3f1a9645da394788d388aaaa4",
     "snapshot_key": "sources/21a8bf55123aba4eb0d31134c5cc30d041e4b1467d4befe611e89efeb4b9c82e/ae63ae89510c2c63129b8ce76e02ac50b3718ef3f1a9645da394788d388aaaa4.html",
     "changed": 0,

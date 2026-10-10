@@ -1,0 +1,15 @@
+(node:74707) ExperimentalWarning: Type Stripping is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+✔ Dutch provinces use ISO identities and round-trip without colliding with France (1.634833ms)
+✔ Netherlands connects all provinces but does not assert full scan coverage (4.326792ms)
+✔ Dutch baseline preserves German and French history and review markers (87.329042ms)
+✔ Dutch policy facts distinguish future, exhausted and closed application windows (0.111208ms)
+✔ Friesland annual publications advance without losing previous scan history (9.894125ms)
+ℹ tests 5
+ℹ suites 0
+ℹ pass 5
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 247.732

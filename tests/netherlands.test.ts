@@ -53,7 +53,7 @@ test('Dutch baseline preserves German and French history and review markers',()=
  assert.equal(data.intake.records.filter(r=>r.region.startsWith('NL')).length,6);
  for(const country of ['DE','FR'])for(const key of ['lastReviewAt','reviewNote'])assert.equal(data.status.settings[key+':'+country],createStaticData(previous).status.settings[key+':'+country]);
  assert(data.status.settings['lastReviewAt:NL']);
- const localized=createLocalization(data,read('../data/translations/content.json'),read('../data/translations/bindings.json'));
+ const localized=createLocalization(data,read('../data/translations/content.json'),read('./fixtures/weekly-i18n-bindings.json'));
  for(const p of nl){assert.equal(localized.policies[p.id],'current');assert.equal(p.originalLanguage,'nl');for(const s of p.sources)assert(data.status.checks.some(c=>c.url===s.url&&c.snapshot_key&&!c.error));}
 });
 test('Dutch policy facts distinguish future, exhausted and closed application windows',()=>{

@@ -1222,5 +1222,311 @@
     "source_url": "https://www.bundesrat.de/DE/plenum/plenum-node.html",
     "checked_at": "2026-10-10T16:37:38.169Z",
     "data": "{\"id\":\"daily-de-20261010-5-2026-10-10-2026-10-10\",\"sourceUrl\":\"https://www.bundesrat.de/DE/plenum/plenum-node.html\",\"checkedAt\":\"2026-10-10T16:37:38.169Z\",\"windowStart\":\"2026-10-10\",\"windowEnd\":\"2026-10-10\",\"status\":\"partial\",\"pages\":[\"https://www.bundesrat.de/DE/plenum/plenum-node.html\",\"https://www.bundesrat.de/DE/plenum/to-plenum/to-plenum-node.html\",\"https://www.bundesrat.de/SharedDocs/TO/1069/tagesordnung-1069.html\"],\"recordIds\":[],\"excluded\":[],\"allPagesChecked\":false,\"totalListed\":null,\"note\":\"重新核对10月16日议程及既有条目；全部文件更新历史及其他公告仍未完成对账，保留缺口。\"}"
+  },
+  {
+    "id": "nl-20261011-government-recent",
+    "source_url": "https://www.rijksoverheid.nl/actueel/nieuws",
+    "checked_at": "2026-10-10T22:47:30.629Z",
+    "data": "{\"id\":\"nl-20261011-government-recent\",\"sourceUrl\":\"https://www.rijksoverheid.nl/actueel/nieuws\",\"checkedAt\":\"2026-10-10T22:47:30.629Z\",\"windowStart\":\"2026-10-03\",\"windowEnd\":\"2026-10-10\",\"status\":\"complete\",\"pages\":[\"https://www.rijksoverheid.nl/actueel/nieuws\",\"https://www.rijksoverheid.nl/actueel/nieuws?current=n_2_n\",\"https://www.rijksoverheid.nl/actueel/nieuws?current=n_3_n\"],\"recordIds\":[\"nl-20261011-2248874689d1a2284cd4\",\"nl-20261011-cf23aefa052071971152\",\"nl-20261011-439c63f768d2168dc0b9\",\"nl-20261011-da278f374e772c4681d2\",\"nl-20261011-652eb0422b3a497173cd\",\"nl-20261011-ddabbce1a22635bfb04e\",\"nl-20261011-7c0196f1d142ec3b3164\",\"nl-20261011-444b1567433f16b83eb1\",\"nl-20261011-edbfb41b4556f7dbb3af\",\"nl-20261011-da4cd56c56b7735806ac\",\"nl-20261011-ee66ea75ec960f47ce3b\",\"nl-20261011-b961033d3b8a6106b202\",\"oct06-1bea7370fe67c3028e28f44d\",\"nl-20261011-704b11bd93f4dc0991c6\",\"oct06-86f036c1e470208955d55c3b\",\"nl-20261011-ccb82356c6382e2638be\"],\"excluded\":[{\"url\":\"https://www.rijksoverheid.nl/actueel/nieuws/2026/10/09/collectiestukken-uit-rijksmuseum-en-wereldmuseum-terug-naar-indonesie\",\"reason\":\"特定博物馆藏品归还决定，没有新增一般政策规则。\"},{\"url\":\"https://www.rijksoverheid.nl/actueel/nieuws/2026/10/09/eu-wijst-4-nederlandse-projecten-aan-als-strategisch-voor-kritieke-grondstoffen\",\"reason\":\"四个特定企业项目获得欧盟战略项目认定；不是荷兰新立法或普遍适用的新申请制度。\"},{\"url\":\"https://www.rijksoverheid.nl/actueel/nieuws/2026/10/09/benoeming-staatsraad-bij-raad-van-state\",\"reason\":\"单个人事任命，不改变政策规则。\"},{\"url\":\"https://www.rijksoverheid.nl/actueel/nieuws/2026/10/09/omgaan-met-des-en-misinformatie-handreiking-voor-maatschappelijke-organisaties\",\"reason\":\"提供应对虚假信息的非强制性实务指南，不设新权利义务。\"},{\"url\":\"https://www.rijksoverheid.nl/actueel/nieuws/2026/10/08/werkbezoek-staatssecretaris-eric-van-der-burg-aan-benedenwindse-eilanden\",\"reason\":\"访问行程预告，无立法或新政策决定。\"},{\"url\":\"https://www.rijksoverheid.nl/actueel/nieuws/2026/10/06/minister-president-jetten-ontvangt-voorzitter-van-de-europese-raad-costa\",\"reason\":\"工作晚宴及讨论议程预告，无决定结果。\"},{\"url\":\"https://www.rijksoverheid.nl/actueel/nieuws/2026/10/05/nederlands-auschwitz-paviljoen-wordt-vernieuwd\",\"reason\":\"单一博物馆展览改造项目拨款，不是一般补助制度。\"},{\"url\":\"https://www.rijksoverheid.nl/actueel/nieuws/2026/10/05/de-asielinstroom-van-week-40-bedroeg-ongeveer-860\",\"reason\":\"每周庇护申请统计，不改变庇护规则。\"}],\"allPagesChecked\":true,\"totalListed\":24,\"note\":\"已渲染按日期倒序排列的前3页，并读完10月3日至10日列出的24条公告：16条政策记录（含2条既有记录）和8条逐项排除。第3页已越过窗口至10月2日。这里只完成新闻频道该时段，不代表全部法规、议会或地区覆盖。\"}"
+  },
+  {
+    "id": "nl-20261011-channel-0",
+    "source_url": "https://www.provinciegroningen.nl/",
+    "checked_at": "2026-10-10T22:40:22.072891Z",
+    "data": "{\"id\":\"nl-20261011-channel-0\",\"sourceUrl\":\"https://www.provinciegroningen.nl/\",\"checkedAt\":\"2026-10-10T22:40:22.072891Z\",\"windowStart\":\"2026-10-03\",\"windowEnd\":\"2026-10-10\",\"status\":\"partial\",\"pages\":[\"https://www.provinciegroningen.nl/\"],\"recordIds\":[],\"excluded\":[],\"allPagesChecked\":false,\"totalListed\":null,\"note\":\"已读取登记入口；完整目录、分页、附件和历次修改尚未全部核对，不能据此关闭日期缺口。\"}"
+  },
+  {
+    "id": "nl-20261011-channel-1",
+    "source_url": "https://www.provinciegroningen.nl/bestuur-en-organisatie/provinciale-staten/",
+    "checked_at": "2026-10-10T22:40:22.073146Z",
+    "data": "{\"id\":\"nl-20261011-channel-1\",\"sourceUrl\":\"https://www.provinciegroningen.nl/bestuur-en-organisatie/provinciale-staten/\",\"checkedAt\":\"2026-10-10T22:40:22.073146Z\",\"windowStart\":\"2026-10-03\",\"windowEnd\":\"2026-10-10\",\"status\":\"partial\",\"pages\":[\"https://www.provinciegroningen.nl/bestuur-en-organisatie/provinciale-staten/\"],\"recordIds\":[],\"excluded\":[],\"allPagesChecked\":false,\"totalListed\":null,\"note\":\"已读取登记入口；完整目录、分页、附件和历次修改尚未全部核对，不能据此关闭日期缺口。\"}"
+  },
+  {
+    "id": "nl-20261011-channel-2",
+    "source_url": "https://www.fryslan.frl/",
+    "checked_at": "2026-10-10T22:40:22.073231Z",
+    "data": "{\"id\":\"nl-20261011-channel-2\",\"sourceUrl\":\"https://www.fryslan.frl/\",\"checkedAt\":\"2026-10-10T22:40:22.073231Z\",\"windowStart\":\"2026-10-03\",\"windowEnd\":\"2026-10-10\",\"status\":\"partial\",\"pages\":[\"https://www.fryslan.frl/\"],\"recordIds\":[],\"excluded\":[],\"allPagesChecked\":false,\"totalListed\":null,\"note\":\"已读取登记入口；完整目录、分页、附件和历次修改尚未全部核对，不能据此关闭日期缺口。\"}"
+  },
+  {
+    "id": "nl-20261011-channel-3",
+    "source_url": "https://www.fryslan.frl/provinciale-staten",
+    "checked_at": "2026-10-10T22:40:22.073974Z",
+    "data": "{\"id\":\"nl-20261011-channel-3\",\"sourceUrl\":\"https://www.fryslan.frl/provinciale-staten\",\"checkedAt\":\"2026-10-10T22:40:22.073974Z\",\"windowStart\":\"2026-10-03\",\"windowEnd\":\"2026-10-10\",\"status\":\"partial\",\"pages\":[\"https://www.fryslan.frl/provinciale-staten\"],\"recordIds\":[],\"excluded\":[],\"allPagesChecked\":false,\"totalListed\":null,\"note\":\"已读取登记入口；完整目录、分页、附件和历次修改尚未全部核对，不能据此关闭日期缺口。\"}"
+  },
+  {
+    "id": "nl-20261011-channel-4",
+    "source_url": "https://www.provincie.drenthe.nl/",
+    "checked_at": "2026-10-10T22:40:22.074021Z",
+    "data": "{\"id\":\"nl-20261011-channel-4\",\"sourceUrl\":\"https://www.provincie.drenthe.nl/\",\"checkedAt\":\"2026-10-10T22:40:22.074021Z\",\"windowStart\":\"2026-10-03\",\"windowEnd\":\"2026-10-10\",\"status\":\"partial\",\"pages\":[\"https://www.provincie.drenthe.nl/\"],\"recordIds\":[],\"excluded\":[],\"allPagesChecked\":false,\"totalListed\":null,\"note\":\"已读取登记入口；完整目录、分页、附件和历次修改尚未全部核对，不能据此关闭日期缺口。\"}"
+  },
+  {
+    "id": "nl-20261011-channel-5",
+    "source_url": "https://www.provincie.drenthe.nl/organisatie-bestuur/provinciale-staten/",
+    "checked_at": "2026-10-10T22:40:22.074060Z",
+    "data": "{\"id\":\"nl-20261011-channel-5\",\"sourceUrl\":\"https://www.provincie.drenthe.nl/organisatie-bestuur/provinciale-staten/\",\"checkedAt\":\"2026-10-10T22:40:22.074060Z\",\"windowStart\":\"2026-10-03\",\"windowEnd\":\"2026-10-10\",\"status\":\"partial\",\"pages\":[\"https://www.provincie.drenthe.nl/organisatie-bestuur/provinciale-staten/\"],\"recordIds\":[],\"excluded\":[],\"allPagesChecked\":false,\"totalListed\":null,\"note\":\"已读取登记入口；完整目录、分页、附件和历次修改尚未全部核对，不能据此关闭日期缺口。\"}"
+  },
+  {
+    "id": "nl-20261011-channel-6",
+    "source_url": "https://www.overijssel.nl/",
+    "checked_at": "2026-10-10T22:40:22.219490Z",
+    "data": "{\"id\":\"nl-20261011-channel-6\",\"sourceUrl\":\"https://www.overijssel.nl/\",\"checkedAt\":\"2026-10-10T22:40:22.219490Z\",\"windowStart\":\"2026-10-03\",\"windowEnd\":\"2026-10-10\",\"status\":\"partial\",\"pages\":[\"https://www.overijssel.nl/\"],\"recordIds\":[],\"excluded\":[],\"allPagesChecked\":false,\"totalListed\":null,\"note\":\"已读取登记入口；完整目录、分页、附件和历次修改尚未全部核对，不能据此关闭日期缺口。\"}"
+  },
+  {
+    "id": "nl-20261011-channel-7",
+    "source_url": "https://www.overijssel.nl/bestuur/provinciale-staten/",
+    "checked_at": "2026-10-10T22:40:22.263953Z",
+    "data": "{\"id\":\"nl-20261011-channel-7\",\"sourceUrl\":\"https://www.overijssel.nl/bestuur/provinciale-staten/\",\"checkedAt\":\"2026-10-10T22:40:22.263953Z\",\"windowStart\":\"2026-10-03\",\"windowEnd\":\"2026-10-10\",\"status\":\"partial\",\"pages\":[\"https://www.overijssel.nl/bestuur/provinciale-staten/\"],\"recordIds\":[],\"excluded\":[],\"allPagesChecked\":false,\"totalListed\":null,\"note\":\"已读取登记入口；完整目录、分页、附件和历次修改尚未全部核对，不能据此关闭日期缺口。\"}"
+  },
+  {
+    "id": "nl-20261011-channel-8",
+    "source_url": "https://www.flevoland.nl/",
+    "checked_at": "2026-10-10T22:40:22.288445Z",
+    "data": "{\"id\":\"nl-20261011-channel-8\",\"sourceUrl\":\"https://www.flevoland.nl/\",\"checkedAt\":\"2026-10-10T22:40:22.288445Z\",\"windowStart\":\"2026-10-03\",\"windowEnd\":\"2026-10-10\",\"status\":\"partial\",\"pages\":[\"https://www.flevoland.nl/\"],\"recordIds\":[],\"excluded\":[],\"allPagesChecked\":false,\"totalListed\":null,\"note\":\"已读取登记入口；完整目录、分页、附件和历次修改尚未全部核对，不能据此关闭日期缺口。\"}"
+  },
+  {
+    "id": "nl-20261011-channel-9",
+    "source_url": "https://stateninformatie.flevoland.nl/",
+    "checked_at": "2026-10-10T22:40:22.471844Z",
+    "data": "{\"id\":\"nl-20261011-channel-9\",\"sourceUrl\":\"https://stateninformatie.flevoland.nl/\",\"checkedAt\":\"2026-10-10T22:40:22.471844Z\",\"windowStart\":\"2026-10-03\",\"windowEnd\":\"2026-10-10\",\"status\":\"partial\",\"pages\":[\"https://stateninformatie.flevoland.nl/\"],\"recordIds\":[],\"excluded\":[],\"allPagesChecked\":false,\"totalListed\":null,\"note\":\"已读取登记入口；完整目录、分页、附件和历次修改尚未全部核对，不能据此关闭日期缺口。\"}"
+  },
+  {
+    "id": "nl-20261011-channel-10",
+    "source_url": "https://www.gelderland.nl/",
+    "checked_at": "2026-10-10T22:40:22.593017Z",
+    "data": "{\"id\":\"nl-20261011-channel-10\",\"sourceUrl\":\"https://www.gelderland.nl/\",\"checkedAt\":\"2026-10-10T22:40:22.593017Z\",\"windowStart\":\"2026-10-03\",\"windowEnd\":\"2026-10-10\",\"status\":\"partial\",\"pages\":[\"https://www.gelderland.nl/\"],\"recordIds\":[],\"excluded\":[],\"allPagesChecked\":false,\"totalListed\":null,\"note\":\"已读取登记入口；完整目录、分页、附件和历次修改尚未全部核对，不能据此关闭日期缺口。\"}"
+  },
+  {
+    "id": "nl-20261011-channel-11",
+    "source_url": "https://www.gelderland.nl/themas/politiek/ps",
+    "checked_at": "2026-10-10T22:40:22.640734Z",
+    "data": "{\"id\":\"nl-20261011-channel-11\",\"sourceUrl\":\"https://www.gelderland.nl/themas/politiek/ps\",\"checkedAt\":\"2026-10-10T22:40:22.640734Z\",\"windowStart\":\"2026-10-03\",\"windowEnd\":\"2026-10-10\",\"status\":\"partial\",\"pages\":[\"https://www.gelderland.nl/themas/politiek/ps\"],\"recordIds\":[],\"excluded\":[],\"allPagesChecked\":false,\"totalListed\":null,\"note\":\"已读取登记入口；完整目录、分页、附件和历次修改尚未全部核对，不能据此关闭日期缺口。\"}"
+  },
+  {
+    "id": "nl-20261011-channel-12",
+    "source_url": "https://www.provincie-utrecht.nl/",
+    "checked_at": "2026-10-10T22:40:22.642130Z",
+    "data": "{\"id\":\"nl-20261011-channel-12\",\"sourceUrl\":\"https://www.provincie-utrecht.nl/\",\"checkedAt\":\"2026-10-10T22:40:22.642130Z\",\"windowStart\":\"2026-10-03\",\"windowEnd\":\"2026-10-10\",\"status\":\"partial\",\"pages\":[\"https://www.provincie-utrecht.nl/\"],\"recordIds\":[],\"excluded\":[],\"allPagesChecked\":false,\"totalListed\":null,\"note\":\"已读取登记入口；完整目录、分页、附件和历次修改尚未全部核对，不能据此关闭日期缺口。\"}"
+  },
+  {
+    "id": "nl-20261011-channel-13",
+    "source_url": "https://www.provincie-utrecht.nl/politiek-bestuur/provinciale-staten",
+    "checked_at": "2026-10-10T22:40:22.649426Z",
+    "data": "{\"id\":\"nl-20261011-channel-13\",\"sourceUrl\":\"https://www.provincie-utrecht.nl/politiek-bestuur/provinciale-staten\",\"checkedAt\":\"2026-10-10T22:40:22.649426Z\",\"windowStart\":\"2026-10-03\",\"windowEnd\":\"2026-10-10\",\"status\":\"partial\",\"pages\":[\"https://www.provincie-utrecht.nl/politiek-bestuur/provinciale-staten\"],\"recordIds\":[],\"excluded\":[],\"allPagesChecked\":false,\"totalListed\":null,\"note\":\"已读取登记入口；完整目录、分页、附件和历次修改尚未全部核对，不能据此关闭日期缺口。\"}"
+  },
+  {
+    "id": "nl-20261011-channel-14",
+    "source_url": "https://www.noord-holland.nl/",
+    "checked_at": "2026-10-10T22:40:22.655143Z",
+    "data": "{\"id\":\"nl-20261011-channel-14\",\"sourceUrl\":\"https://www.noord-holland.nl/\",\"checkedAt\":\"2026-10-10T22:40:22.655143Z\",\"windowStart\":\"2026-10-03\",\"windowEnd\":\"2026-10-10\",\"status\":\"partial\",\"pages\":[\"https://www.noord-holland.nl/\"],\"recordIds\":[],\"excluded\":[],\"allPagesChecked\":false,\"totalListed\":null,\"note\":\"已读取登记入口；完整目录、分页、附件和历次修改尚未全部核对，不能据此关闭日期缺口。\"}"
+  },
+  {
+    "id": "nl-20261011-channel-15",
+    "source_url": "https://www.noord-holland.nl/Bestuur/Provinciale_Staten",
+    "checked_at": "2026-10-10T22:40:22.656108Z",
+    "data": "{\"id\":\"nl-20261011-channel-15\",\"sourceUrl\":\"https://www.noord-holland.nl/Bestuur/Provinciale_Staten\",\"checkedAt\":\"2026-10-10T22:40:22.656108Z\",\"windowStart\":\"2026-10-03\",\"windowEnd\":\"2026-10-10\",\"status\":\"partial\",\"pages\":[\"https://www.noord-holland.nl/Bestuur/Provinciale_Staten\"],\"recordIds\":[],\"excluded\":[],\"allPagesChecked\":false,\"totalListed\":null,\"note\":\"已读取登记入口；完整目录、分页、附件和历次修改尚未全部核对，不能据此关闭日期缺口。\"}"
+  },
+  {
+    "id": "nl-20261011-channel-16",
+    "source_url": "https://www.zuid-holland.nl/",
+    "checked_at": "2026-10-10T22:40:22.735038Z",
+    "data": "{\"id\":\"nl-20261011-channel-16\",\"sourceUrl\":\"https://www.zuid-holland.nl/\",\"checkedAt\":\"2026-10-10T22:40:22.735038Z\",\"windowStart\":\"2026-10-03\",\"windowEnd\":\"2026-10-10\",\"status\":\"partial\",\"pages\":[\"https://www.zuid-holland.nl/\"],\"recordIds\":[],\"excluded\":[],\"allPagesChecked\":false,\"totalListed\":null,\"note\":\"已读取登记入口；完整目录、分页、附件和历次修改尚未全部核对，不能据此关闭日期缺口。\"}"
+  },
+  {
+    "id": "nl-20261011-channel-17",
+    "source_url": "https://www.zuid-holland.nl/politiek-bestuur/provinciale-staten/",
+    "checked_at": "2026-10-10T22:40:22.825029Z",
+    "data": "{\"id\":\"nl-20261011-channel-17\",\"sourceUrl\":\"https://www.zuid-holland.nl/politiek-bestuur/provinciale-staten/\",\"checkedAt\":\"2026-10-10T22:40:22.825029Z\",\"windowStart\":\"2026-10-03\",\"windowEnd\":\"2026-10-10\",\"status\":\"partial\",\"pages\":[\"https://www.zuid-holland.nl/politiek-bestuur/provinciale-staten/\"],\"recordIds\":[],\"excluded\":[],\"allPagesChecked\":false,\"totalListed\":null,\"note\":\"已读取登记入口；完整目录、分页、附件和历次修改尚未全部核对，不能据此关闭日期缺口。\"}"
+  },
+  {
+    "id": "nl-20261011-channel-18",
+    "source_url": "https://www.zeeland.nl/",
+    "checked_at": "2026-10-10T22:40:22.825871Z",
+    "data": "{\"id\":\"nl-20261011-channel-18\",\"sourceUrl\":\"https://www.zeeland.nl/\",\"checkedAt\":\"2026-10-10T22:40:22.825871Z\",\"windowStart\":\"2026-10-03\",\"windowEnd\":\"2026-10-10\",\"status\":\"partial\",\"pages\":[\"https://www.zeeland.nl/\"],\"recordIds\":[],\"excluded\":[],\"allPagesChecked\":false,\"totalListed\":null,\"note\":\"已读取登记入口；完整目录、分页、附件和历次修改尚未全部核对，不能据此关闭日期缺口。\"}"
+  },
+  {
+    "id": "nl-20261011-channel-19",
+    "source_url": "https://www.zeeland.nl/bestuur/provinciale-staten",
+    "checked_at": "2026-10-10T22:40:22.959948Z",
+    "data": "{\"id\":\"nl-20261011-channel-19\",\"sourceUrl\":\"https://www.zeeland.nl/bestuur/provinciale-staten\",\"checkedAt\":\"2026-10-10T22:40:22.959948Z\",\"windowStart\":\"2026-10-03\",\"windowEnd\":\"2026-10-10\",\"status\":\"partial\",\"pages\":[\"https://www.zeeland.nl/bestuur/provinciale-staten\"],\"recordIds\":[],\"excluded\":[],\"allPagesChecked\":false,\"totalListed\":null,\"note\":\"已读取登记入口；完整目录、分页、附件和历次修改尚未全部核对，不能据此关闭日期缺口。\"}"
+  },
+  {
+    "id": "nl-20261011-channel-20",
+    "source_url": "https://www.brabant.nl/",
+    "checked_at": "2026-10-10T22:40:23.065482Z",
+    "data": "{\"id\":\"nl-20261011-channel-20\",\"sourceUrl\":\"https://www.brabant.nl/\",\"checkedAt\":\"2026-10-10T22:40:23.065482Z\",\"windowStart\":\"2026-10-03\",\"windowEnd\":\"2026-10-10\",\"status\":\"partial\",\"pages\":[\"https://www.brabant.nl/\"],\"recordIds\":[],\"excluded\":[],\"allPagesChecked\":false,\"totalListed\":null,\"note\":\"已读取登记入口；完整目录、分页、附件和历次修改尚未全部核对，不能据此关闭日期缺口。\"}"
+  },
+  {
+    "id": "nl-20261011-channel-21",
+    "source_url": "https://www.brabant.nl/bestuur/provinciale-staten/statenstukken/",
+    "checked_at": "2026-10-10T22:40:23.159786Z",
+    "data": "{\"id\":\"nl-20261011-channel-21\",\"sourceUrl\":\"https://www.brabant.nl/bestuur/provinciale-staten/statenstukken/\",\"checkedAt\":\"2026-10-10T22:40:23.159786Z\",\"windowStart\":\"2026-10-03\",\"windowEnd\":\"2026-10-10\",\"status\":\"partial\",\"pages\":[\"https://www.brabant.nl/bestuur/provinciale-staten/statenstukken/\"],\"recordIds\":[],\"excluded\":[],\"allPagesChecked\":false,\"totalListed\":null,\"note\":\"已读取登记入口；完整目录、分页、附件和历次修改尚未全部核对，不能据此关闭日期缺口。\"}"
+  },
+  {
+    "id": "nl-20261011-channel-22",
+    "source_url": "https://www.limburg.nl/",
+    "checked_at": "2026-10-10T22:40:23.498186Z",
+    "data": "{\"id\":\"nl-20261011-channel-22\",\"sourceUrl\":\"https://www.limburg.nl/\",\"checkedAt\":\"2026-10-10T22:40:23.498186Z\",\"windowStart\":\"2026-10-03\",\"windowEnd\":\"2026-10-10\",\"status\":\"partial\",\"pages\":[\"https://www.limburg.nl/\"],\"recordIds\":[],\"excluded\":[],\"allPagesChecked\":false,\"totalListed\":null,\"note\":\"已读取登记入口；完整目录、分页、附件和历次修改尚未全部核对，不能据此关闭日期缺口。\"}"
+  },
+  {
+    "id": "nl-20261011-channel-23",
+    "source_url": "https://www.limburg.nl/bestuur/provinciale-staten/",
+    "checked_at": "2026-10-10T22:40:23.626539Z",
+    "data": "{\"id\":\"nl-20261011-channel-23\",\"sourceUrl\":\"https://www.limburg.nl/bestuur/provinciale-staten/\",\"checkedAt\":\"2026-10-10T22:40:23.626539Z\",\"windowStart\":\"2026-10-03\",\"windowEnd\":\"2026-10-10\",\"status\":\"partial\",\"pages\":[\"https://www.limburg.nl/bestuur/provinciale-staten/\"],\"recordIds\":[],\"excluded\":[],\"allPagesChecked\":false,\"totalListed\":null,\"note\":\"已读取登记入口；完整目录、分页、附件和历次修改尚未全部核对，不能据此关闭日期缺口。\"}"
+  },
+  {
+    "id": "nl-20261011-channel-25",
+    "source_url": "https://zoek.officielebekendmakingen.nl/",
+    "checked_at": "2026-10-10T22:40:23.767304Z",
+    "data": "{\"id\":\"nl-20261011-channel-25\",\"sourceUrl\":\"https://zoek.officielebekendmakingen.nl/\",\"checkedAt\":\"2026-10-10T22:40:23.767304Z\",\"windowStart\":\"2026-10-03\",\"windowEnd\":\"2026-10-10\",\"status\":\"partial\",\"pages\":[\"https://zoek.officielebekendmakingen.nl/\"],\"recordIds\":[],\"excluded\":[],\"allPagesChecked\":false,\"totalListed\":null,\"note\":\"已读取登记入口；完整目录、分页、附件和历次修改尚未全部核对，不能据此关闭日期缺口。\"}"
+  },
+  {
+    "id": "nl-20261011-channel-26",
+    "source_url": "https://wetten.overheid.nl/",
+    "checked_at": "2026-10-10T22:40:23.793072Z",
+    "data": "{\"id\":\"nl-20261011-channel-26\",\"sourceUrl\":\"https://wetten.overheid.nl/\",\"checkedAt\":\"2026-10-10T22:40:23.793072Z\",\"windowStart\":\"2026-10-03\",\"windowEnd\":\"2026-10-10\",\"status\":\"partial\",\"pages\":[\"https://wetten.overheid.nl/\"],\"recordIds\":[],\"excluded\":[],\"allPagesChecked\":false,\"totalListed\":null,\"note\":\"已读取登记入口；完整目录、分页、附件和历次修改尚未全部核对，不能据此关闭日期缺口。\"}"
+  },
+  {
+    "id": "nl-20261011-channel-27",
+    "source_url": "https://lokaleregelgeving.overheid.nl/",
+    "checked_at": "2026-10-10T22:40:23.935158Z",
+    "data": "{\"id\":\"nl-20261011-channel-27\",\"sourceUrl\":\"https://lokaleregelgeving.overheid.nl/\",\"checkedAt\":\"2026-10-10T22:40:23.935158Z\",\"windowStart\":\"2026-10-03\",\"windowEnd\":\"2026-10-10\",\"status\":\"partial\",\"pages\":[\"https://lokaleregelgeving.overheid.nl/\"],\"recordIds\":[],\"excluded\":[],\"allPagesChecked\":false,\"totalListed\":null,\"note\":\"已读取登记入口；完整目录、分页、附件和历次修改尚未全部核对，不能据此关闭日期缺口。\"}"
+  },
+  {
+    "id": "nl-20261011-channel-28",
+    "source_url": "https://www.tweedekamer.nl/kamerstukken/wetsvoorstellen",
+    "checked_at": "2026-10-10T22:40:24.136396Z",
+    "data": "{\"id\":\"nl-20261011-channel-28\",\"sourceUrl\":\"https://www.tweedekamer.nl/kamerstukken/wetsvoorstellen\",\"checkedAt\":\"2026-10-10T22:40:24.136396Z\",\"windowStart\":\"2026-10-03\",\"windowEnd\":\"2026-10-10\",\"status\":\"partial\",\"pages\":[\"https://www.tweedekamer.nl/kamerstukken/wetsvoorstellen\"],\"recordIds\":[\"nl-tk-37039-20261011\",\"nl-tk-37038-20261011\",\"nl-tk-37037-20261011\",\"nl-tk-37036-20261011\",\"nl-tk-37034-20261011\",\"nl-tk-37033-20261011\"],\"excluded\":[],\"allPagesChecked\":false,\"totalListed\":null,\"note\":\"已读取登记入口；完整目录、分页、附件和历次修改尚未全部核对，不能据此关闭日期缺口。\"}"
+  },
+  {
+    "id": "nl-20261011-channel-29",
+    "source_url": "https://www.eerstekamer.nl/wetsvoorstellen_2",
+    "checked_at": "2026-10-10T22:40:24.332947Z",
+    "data": "{\"id\":\"nl-20261011-channel-29\",\"sourceUrl\":\"https://www.eerstekamer.nl/wetsvoorstellen_2\",\"checkedAt\":\"2026-10-10T22:40:24.332947Z\",\"windowStart\":\"2026-10-03\",\"windowEnd\":\"2026-10-10\",\"status\":\"partial\",\"pages\":[\"https://www.eerstekamer.nl/wetsvoorstellen_2\"],\"recordIds\":[],\"excluded\":[],\"allPagesChecked\":false,\"totalListed\":null,\"note\":\"已读取登记入口；完整目录、分页、附件和历次修改尚未全部核对，不能据此关闭日期缺口。\"}"
+  },
+  {
+    "id": "nl-20261011-channel-30",
+    "source_url": "https://www.fryslan.frl/bekendmakingen-2026",
+    "checked_at": "2026-10-10T22:40:24.333794Z",
+    "data": "{\"id\":\"nl-20261011-channel-30\",\"sourceUrl\":\"https://www.fryslan.frl/bekendmakingen-2026\",\"checkedAt\":\"2026-10-10T22:40:24.333794Z\",\"windowStart\":\"2026-10-03\",\"windowEnd\":\"2026-10-10\",\"status\":\"partial\",\"pages\":[\"https://www.fryslan.frl/bekendmakingen-2026\"],\"recordIds\":[],\"excluded\":[],\"allPagesChecked\":false,\"totalListed\":null,\"note\":\"已读取登记入口；完整目录、分页、附件和历次修改尚未全部核对，不能据此关闭日期缺口。\"}"
+  },
+  {
+    "id": "nl-20261011-channel-31",
+    "source_url": "https://www.provincie.drenthe.nl/actueel/bekendmakingen/",
+    "checked_at": "2026-10-10T22:40:24.334036Z",
+    "data": "{\"id\":\"nl-20261011-channel-31\",\"sourceUrl\":\"https://www.provincie.drenthe.nl/actueel/bekendmakingen/\",\"checkedAt\":\"2026-10-10T22:40:24.334036Z\",\"windowStart\":\"2026-10-03\",\"windowEnd\":\"2026-10-10\",\"status\":\"partial\",\"pages\":[\"https://www.provincie.drenthe.nl/actueel/bekendmakingen/\"],\"recordIds\":[],\"excluded\":[],\"allPagesChecked\":false,\"totalListed\":null,\"note\":\"已读取登记入口；完整目录、分页、附件和历次修改尚未全部核对，不能据此关闭日期缺口。\"}"
+  },
+  {
+    "id": "nl-20261011-channel-32",
+    "source_url": "https://www.flevoland.nl/loket/openbare-documenten/overzicht-openbare-documenten/wet-en-regelgeving",
+    "checked_at": "2026-10-10T22:40:24.771566Z",
+    "data": "{\"id\":\"nl-20261011-channel-32\",\"sourceUrl\":\"https://www.flevoland.nl/loket/openbare-documenten/overzicht-openbare-documenten/wet-en-regelgeving\",\"checkedAt\":\"2026-10-10T22:40:24.771566Z\",\"windowStart\":\"2026-10-03\",\"windowEnd\":\"2026-10-10\",\"status\":\"partial\",\"pages\":[\"https://www.flevoland.nl/loket/openbare-documenten/overzicht-openbare-documenten/wet-en-regelgeving\"],\"recordIds\":[],\"excluded\":[],\"allPagesChecked\":false,\"totalListed\":null,\"note\":\"已读取登记入口；完整目录、分页、附件和历次修改尚未全部核对，不能据此关闭日期缺口。\"}"
+  },
+  {
+    "id": "nl-20261011-channel-33",
+    "source_url": "https://www.provincie-utrecht.nl/actueel/gs-besluiten",
+    "checked_at": "2026-10-10T22:40:24.800648Z",
+    "data": "{\"id\":\"nl-20261011-channel-33\",\"sourceUrl\":\"https://www.provincie-utrecht.nl/actueel/gs-besluiten\",\"checkedAt\":\"2026-10-10T22:40:24.800648Z\",\"windowStart\":\"2026-10-03\",\"windowEnd\":\"2026-10-10\",\"status\":\"partial\",\"pages\":[\"https://www.provincie-utrecht.nl/actueel/gs-besluiten\"],\"recordIds\":[],\"excluded\":[],\"allPagesChecked\":false,\"totalListed\":null,\"note\":\"已读取登记入口；完整目录、分页、附件和历次修改尚未全部核对，不能据此关闭日期缺口。\"}"
+  },
+  {
+    "id": "nl-20261011-channel-34",
+    "source_url": "https://www.zuid-holland.nl/actueel/bekendmakingen/",
+    "checked_at": "2026-10-10T22:40:24.998952Z",
+    "data": "{\"id\":\"nl-20261011-channel-34\",\"sourceUrl\":\"https://www.zuid-holland.nl/actueel/bekendmakingen/\",\"checkedAt\":\"2026-10-10T22:40:24.998952Z\",\"windowStart\":\"2026-10-03\",\"windowEnd\":\"2026-10-10\",\"status\":\"partial\",\"pages\":[\"https://www.zuid-holland.nl/actueel/bekendmakingen/\"],\"recordIds\":[],\"excluded\":[],\"allPagesChecked\":false,\"totalListed\":null,\"note\":\"已读取登记入口；完整目录、分页、附件和历次修改尚未全部核对，不能据此关闭日期缺口。\"}"
+  },
+  {
+    "id": "nl-20261011-channel-35",
+    "source_url": "https://www.zeeland.nl/loket/Provinciaal-Blad-en-Bekendmakingen",
+    "checked_at": "2026-10-10T22:40:25.063870Z",
+    "data": "{\"id\":\"nl-20261011-channel-35\",\"sourceUrl\":\"https://www.zeeland.nl/loket/Provinciaal-Blad-en-Bekendmakingen\",\"checkedAt\":\"2026-10-10T22:40:25.063870Z\",\"windowStart\":\"2026-10-03\",\"windowEnd\":\"2026-10-10\",\"status\":\"partial\",\"pages\":[\"https://www.zeeland.nl/loket/Provinciaal-Blad-en-Bekendmakingen\"],\"recordIds\":[],\"excluded\":[],\"allPagesChecked\":false,\"totalListed\":null,\"note\":\"已读取登记入口；完整目录、分页、附件和历次修改尚未全部核对，不能据此关闭日期缺口。\"}"
+  },
+  {
+    "id": "nl-20261011-channel-36",
+    "source_url": "https://www.brabant.nl/actueel/bekendmakingen/",
+    "checked_at": "2026-10-10T22:40:25.273803Z",
+    "data": "{\"id\":\"nl-20261011-channel-36\",\"sourceUrl\":\"https://www.brabant.nl/actueel/bekendmakingen/\",\"checkedAt\":\"2026-10-10T22:40:25.273803Z\",\"windowStart\":\"2026-10-03\",\"windowEnd\":\"2026-10-10\",\"status\":\"partial\",\"pages\":[\"https://www.brabant.nl/actueel/bekendmakingen/\"],\"recordIds\":[],\"excluded\":[],\"allPagesChecked\":false,\"totalListed\":null,\"note\":\"已读取登记入口；完整目录、分页、附件和历次修改尚未全部核对，不能据此关闭日期缺口。\"}"
+  },
+  {
+    "id": "nl-20261011-channel-37",
+    "source_url": "https://www.limburg.nl/actueel/bekendmakingen/",
+    "checked_at": "2026-10-10T22:40:25.588496Z",
+    "data": "{\"id\":\"nl-20261011-channel-37\",\"sourceUrl\":\"https://www.limburg.nl/actueel/bekendmakingen/\",\"checkedAt\":\"2026-10-10T22:40:25.588496Z\",\"windowStart\":\"2026-10-03\",\"windowEnd\":\"2026-10-10\",\"status\":\"partial\",\"pages\":[\"https://www.limburg.nl/actueel/bekendmakingen/\"],\"recordIds\":[],\"excluded\":[],\"allPagesChecked\":false,\"totalListed\":null,\"note\":\"已读取登记入口；完整目录、分页、附件和历次修改尚未全部核对，不能据此关闭日期缺口。\"}"
+  },
+  {
+    "id": "nl-20261011-government-today",
+    "source_url": "https://www.rijksoverheid.nl/actueel/nieuws",
+    "checked_at": "2026-10-10T22:47:30.629Z",
+    "data": "{\"id\":\"nl-20261011-government-today\",\"sourceUrl\":\"https://www.rijksoverheid.nl/actueel/nieuws\",\"checkedAt\":\"2026-10-10T22:47:30.629Z\",\"windowStart\":\"2026-10-11\",\"windowEnd\":\"2026-10-11\",\"status\":\"partial\",\"pages\":[\"https://www.rijksoverheid.nl/actueel/nieuws\"],\"recordIds\":[],\"excluded\":[],\"allPagesChecked\":false,\"totalListed\":null,\"note\":\"本日尚未结束；列表最新公告为10月9日，不能声称全天无变化。\"}"
+  },
+  {
+    "id": "nl-20261011-tk-history-submissions",
+    "source_url": "https://www.tweedekamer.nl/kamerstukken/wetsvoorstellen",
+    "checked_at": "2026-10-10T22:52:19.158Z",
+    "data": "{\"id\":\"nl-20261011-tk-history-submissions\",\"sourceUrl\":\"https://www.tweedekamer.nl/kamerstukken/wetsvoorstellen\",\"checkedAt\":\"2026-10-10T22:52:19.158Z\",\"windowStart\":\"2026-01-01\",\"windowEnd\":\"2026-10-10\",\"status\":\"partial\",\"pages\":[\"https://www.tweedekamer.nl/kamerstukken/wetsvoorstellen?cfg=tksearch&fld_prl_kamerstuk=Wetsvoorstellen&fld_tk_categorie=Kamerstukken&qry=%2A&srt=date%3Adesc%3Adate&sta=1&fld_prl_status=Alles\",\"https://www.tweedekamer.nl/kamerstukken/wetsvoorstellen?cfg=tksearch&fld_prl_kamerstuk=Wetsvoorstellen&fld_prl_status=Alles&fld_tk_categorie=Kamerstukken&qry=%2A&srt=date%3Adesc%3Adate&sta=1&page=1\",\"https://www.tweedekamer.nl/kamerstukken/wetsvoorstellen?cfg=tksearch&fld_prl_kamerstuk=Wetsvoorstellen&fld_prl_status=Alles&fld_tk_categorie=Kamerstukken&qry=%2A&srt=date%3Adesc%3Adate&sta=1&page=2\",\"https://www.tweedekamer.nl/kamerstukken/wetsvoorstellen?cfg=tksearch&fld_prl_kamerstuk=Wetsvoorstellen&fld_prl_status=Alles&fld_tk_categorie=Kamerstukken&qry=%2A&srt=date%3Adesc%3Adate&sta=1&page=3\",\"https://www.tweedekamer.nl/kamerstukken/wetsvoorstellen?cfg=tksearch&fld_prl_kamerstuk=Wetsvoorstellen&fld_prl_status=Alles&fld_tk_categorie=Kamerstukken&qry=%2A&srt=date%3Adesc%3Adate&sta=1&page=4\",\"https://www.tweedekamer.nl/kamerstukken/wetsvoorstellen?cfg=tksearch&fld_prl_kamerstuk=Wetsvoorstellen&fld_prl_status=Alles&fld_tk_categorie=Kamerstukken&qry=%2A&srt=date%3Adesc%3Adate&sta=1&page=5\",\"https://www.tweedekamer.nl/kamerstukken/wetsvoorstellen?cfg=tksearch&fld_prl_kamerstuk=Wetsvoorstellen&fld_prl_status=Alles&fld_tk_categorie=Kamerstukken&qry=%2A&srt=date%3Adesc%3Adate&sta=1&page=6\",\"https://www.tweedekamer.nl/kamerstukken/wetsvoorstellen?cfg=tksearch&fld_prl_kamerstuk=Wetsvoorstellen&fld_prl_status=Alles&fld_tk_categorie=Kamerstukken&qry=%2A&srt=date%3Adesc%3Adate&sta=1&page=7\",\"https://www.tweedekamer.nl/kamerstukken/wetsvoorstellen?cfg=tksearch&fld_prl_kamerstuk=Wetsvoorstellen&fld_prl_status=Alles&fld_tk_categorie=Kamerstukken&qry=%2A&srt=date%3Adesc%3Adate&sta=1&page=8\",\"https://www.tweedekamer.nl/kamerstukken/wetsvoorstellen?cfg=tksearch&fld_prl_kamerstuk=Wetsvoorstellen&fld_prl_status=Alles&fld_tk_categorie=Kamerstukken&qry=%2A&srt=date%3Adesc%3Adate&sta=1&page=9\",\"https://www.tweedekamer.nl/kamerstukken/wetsvoorstellen?cfg=tksearch&fld_prl_kamerstuk=Wetsvoorstellen&fld_prl_status=Alles&fld_tk_categorie=Kamerstukken&qry=%2A&srt=date%3Adesc%3Adate&sta=1&page=10\",\"https://www.tweedekamer.nl/kamerstukken/wetsvoorstellen?cfg=tksearch&fld_prl_kamerstuk=Wetsvoorstellen&fld_prl_status=Alles&fld_tk_categorie=Kamerstukken&qry=%2A&srt=date%3Adesc%3Adate&sta=1&page=11\",\"https://www.tweedekamer.nl/kamerstukken/wetsvoorstellen?cfg=tksearch&fld_prl_kamerstuk=Wetsvoorstellen&fld_prl_status=Alles&fld_tk_categorie=Kamerstukken&qry=%2A&srt=date%3Adesc%3Adate&sta=1&page=12\",\"https://www.tweedekamer.nl/kamerstukken/wetsvoorstellen?cfg=tksearch&fld_prl_kamerstuk=Wetsvoorstellen&fld_prl_status=Alles&fld_tk_categorie=Kamerstukken&qry=%2A&srt=date%3Adesc%3Adate&sta=1&page=13\",\"https://www.tweedekamer.nl/kamerstukken/wetsvoorstellen?cfg=tksearch&fld_prl_kamerstuk=Wetsvoorstellen&fld_prl_status=Alles&fld_tk_categorie=Kamerstukken&qry=%2A&srt=date%3Adesc%3Adate&sta=1&page=14\"],\"recordIds\":[\"nl-tk-37039-20261011\",\"nl-tk-37038-20261011\",\"nl-tk-37037-20261011\",\"nl-tk-37036-20261011\",\"nl-tk-37034-20261011\",\"nl-tk-37033-20261011\",\"nl-tk-37027-20261011\",\"nl-tk-37014-20261011\",\"nl-tk-37020-l-20261011\",\"nl-tk-37020-xiii-20261011\",\"nl-tk-37020-xvi-20261011\",\"nl-tk-37022-20261011\",\"nl-tk-37035-ix-20261011\",\"nl-tk-37020-vi-20261011\",\"nl-tk-37024-20261011\",\"nl-tk-37020-iv-20261011\",\"nl-tk-37023-20261011\",\"nl-tk-37020-j-20261011\",\"nl-tk-37020-xvii-20261011\",\"nl-tk-37020-xx-20261011\",\"nl-tk-37020-k-20261011\",\"nl-tk-37035-viii-20261011\",\"nl-tk-37020-x-20261011\",\"nl-tk-37020-viii-20261011\",\"nl-tk-37035-vi-20261011\",\"nl-tk-37035-xvi-20261011\",\"nl-tk-37020-m-20261011\",\"nl-tk-37020-xv-20261011\",\"nl-tk-37020-xxiii-20261011\",\"nl-tk-37035-xx-20261011\",\"nl-tk-37020-vii-20261011\",\"nl-tk-37035-xvii-20261011\",\"nl-tk-37035-iib-20261011\",\"nl-tk-37035-m-20261011\",\"nl-tk-37035-iv-20261011\",\"nl-tk-37035-j-20261011\",\"nl-tk-37035-iii-20261011\",\"nl-tk-37035-v-20261011\",\"nl-tk-37035-k-20261011\",\"nl-tk-37035-xiv-20261011\",\"nl-tk-37035-i-20261011\",\"nl-tk-37035-iia-20261011\",\"nl-tk-37035-vii-20261011\",\"nl-tk-37035-x-20261011\",\"nl-tk-37035-c-20261011\",\"nl-tk-37035-xii-20261011\",\"nl-tk-37035-b-20261011\",\"nl-tk-37035-xv-20261011\",\"nl-tk-37035-xxii-20261011\",\"nl-tk-37035-a-20261011\",\"nl-tk-37035-xxiii-20261011\",\"nl-tk-37025-20261011\",\"nl-tk-37020-v-20261011\",\"nl-tk-37020-xiv-20261011\",\"nl-tk-37020-ix-20261011\",\"nl-tk-37020-a-20261011\",\"nl-tk-37020-xii-20261011\",\"nl-tk-37020-b-20261011\",\"nl-tk-37020-iii-20261011\",\"nl-tk-37020-iib-20261011\",\"nl-tk-37020-i-20261011\",\"nl-tk-37020-iia-20261011\",\"nl-tk-37020-c-20261011\",\"nl-tk-37020-xxii-20261011\",\"nl-tk-37009-20261011\",\"nl-tk-37010-20261011\",\"nl-tk-37007-20261011\",\"nl-tk-37005-20261011\",\"nl-tk-37006-r2223-20261011\",\"nl-tk-37000-20261011\",\"nl-tk-37001-20261011\",\"nl-tk-37002-20261011\",\"nl-tk-36997-20261011\",\"nl-tk-36995-20261011\",\"nl-tk-36996-20261011\",\"nl-tk-36994-20261011\",\"nl-tk-36993-20261011\",\"nl-tk-36991-20261011\",\"nl-tk-36990-20261011\",\"nl-tk-36992-20261011\",\"nl-tk-36988-20261011\",\"nl-tk-36987-20261011\",\"nl-tk-36989-20261011\",\"nl-tk-36984-r2222-20261011\",\"nl-tk-36981-20261011\",\"nl-tk-36980-20261011\",\"nl-tk-36978-20261011\",\"nl-tk-36976-20261011\",\"nl-tk-36979-20261011\",\"nl-tk-36977-20261011\",\"nl-tk-36973-20261011\",\"nl-tk-36971-20261011\",\"nl-tk-36972-20261011\",\"nl-tk-36970-20261011\",\"nl-tk-36967-20261011\",\"nl-tk-36966-20261011\",\"nl-tk-36964-20261011\",\"nl-tk-36962-20261011\",\"nl-tk-36961-20261011\",\"nl-tk-36958-20261011\",\"nl-tk-36957-20261011\",\"nl-tk-36956-r2220-20261011\",\"nl-tk-36955-20261011\",\"nl-tk-36950-20261011\",\"nl-tk-36951-20261011\",\"nl-tk-36952-20261011\",\"nl-tk-36947-20261011\",\"nl-tk-36949-20261011\",\"nl-tk-36948-20261011\",\"nl-tk-36944-20261011\",\"nl-tk-36945-v-20261011\",\"nl-tk-36945-vi-20261011\",\"nl-tk-36945-m-20261011\",\"nl-tk-36945-vii-20261011\",\"nl-tk-36945-xxiii-20261011\",\"nl-tk-36945-iii-20261011\",\"nl-tk-36945-xvi-20261011\",\"nl-tk-36945-xiv-20261011\",\"nl-tk-36945-iv-20261011\",\"nl-tk-36945-xiii-20261011\",\"nl-tk-36945-x-20261011\",\"nl-tk-36945-k-20261011\",\"nl-tk-36945-l-20261011\",\"nl-tk-36945-viii-20261011\",\"nl-tk-36945-ix-20261011\",\"nl-tk-36945-xii-20261011\",\"nl-tk-36945-j-20261011\",\"nl-tk-36945-xv-20261011\",\"nl-tk-36945-b-20261011\",\"nl-tk-36945-a-20261011\",\"nl-tk-36945-xx-20261011\",\"nl-tk-36945-c-20261011\",\"nl-tk-36945-xvii-20261011\",\"nl-tk-36945-i-20261011\",\"nl-tk-36945-iib-20261011\",\"nl-tk-36945-iia-20261011\",\"nl-tk-36945-xxii-20261011\",\"nl-tk-36943-20261011\",\"nl-tk-36942-20261011\",\"nl-tk-36940-20261011\",\"nl-tk-36938-20261011\",\"nl-tk-36936-20261011\",\"nl-tk-36939-20261011\",\"nl-tk-36937-20261011\",\"nl-tk-36935-20261011\",\"nl-tk-36932-20261011\",\"nl-tk-36931-20261011\",\"nl-tk-36930-20261011\",\"nl-tk-36928-20261011\",\"nl-tk-36927-20261011\",\"nl-tk-36926-20261011\",\"nl-tk-36925-r2219-20261011\",\"nl-tk-36924-20261011\",\"nl-tk-36922-20261011\",\"nl-tk-36923-20261011\",\"nl-tk-36915-xxiii-20261011\",\"nl-tk-36915-iia-20261011\",\"nl-tk-36915-x-20261011\",\"nl-tk-36915-c-20261011\",\"nl-tk-36915-a-20261011\",\"nl-tk-36915-i-20261011\",\"nl-tk-36915-xiii-20261011\",\"nl-tk-36915-xiv-20261011\",\"nl-tk-36915-xx-20261011\",\"nl-tk-36915-xxii-20261011\",\"nl-tk-36915-viii-20261011\",\"nl-tk-36915-xvii-20261011\",\"nl-tk-36915-xvi-20261011\",\"nl-tk-36915-xv-20261011\",\"nl-tk-36915-xii-20261011\",\"nl-tk-36915-vii-20261011\",\"nl-tk-36915-vi-20261011\",\"nl-tk-36915-v-20261011\",\"nl-tk-36915-iib-20261011\",\"nl-tk-36915-l-20261011\",\"nl-tk-36915-m-20261011\",\"nl-tk-36915-k-20261011\",\"nl-tk-36915-iii-20261011\",\"nl-tk-36915-iv-20261011\",\"nl-tk-36915-ix-20261011\",\"nl-tk-36915-j-20261011\",\"nl-tk-36915-b-20261011\",\"nl-tk-36920-20261011\",\"nl-tk-36921-20261011\",\"nl-tk-36919-20261011\",\"nl-tk-36918-20261011\",\"nl-tk-36913-20261011\",\"nl-tk-36914-20261011\",\"nl-tk-36917-20261011\",\"nl-tk-36912-20261011\",\"nl-tk-36916-20261011\",\"nl-tk-36911-20261011\",\"nl-tk-36910-r2218-20261011\",\"nl-tk-36908-20261011\",\"nl-tk-36906-20261011\",\"nl-tk-36905-20261011\",\"nl-tk-36904-20261011\",\"nl-tk-36903-20261011\",\"nl-tk-36902-20261011\",\"nl-tk-36899-20261011\",\"nl-tk-36900-20261011\",\"nl-tk-36901-20261011\",\"nl-tk-36898-20261011\",\"nl-tk-36897-20261011\",\"nl-tk-36892-20261011\",\"nl-tk-36889-20261011\",\"nl-tk-36886-20261011\",\"nl-tk-36885-20261011\",\"nl-tk-36882-20261011\",\"nl-tk-36884-20261011\",\"nl-tk-36879-20261011\",\"nl-tk-36878-20261011\",\"nl-tk-36880-20261011\",\"nl-tk-36881-20261011\"],\"excluded\":[],\"allPagesChecked\":false,\"totalListed\":214,\"note\":\"已读取全部状态目录第1—15页，发现2026年1月12日至10月9日提交的214个不同编号法案，并逐一获取独立档案核对提交日期；第15页跨入2025年。当前只补齐提交记录，尚未逐案检查所有正文、表决、公布及生效文件，也未涵盖2026年前提交法案的本年进展，因此保留部分覆盖。\"}"
+  },
+  {
+    "id": "nl-20261011-news-reconciled-nl-gr",
+    "source_url": "https://www.provinciegroningen.nl/",
+    "checked_at": "2026-10-10T23:10:23.979Z",
+    "data": "{\"id\":\"nl-20261011-news-reconciled-nl-gr\",\"sourceUrl\":\"https://www.provinciegroningen.nl/\",\"checkedAt\":\"2026-10-10T23:10:23.979Z\",\"windowStart\":\"2026-10-03\",\"windowEnd\":\"2026-10-10\",\"status\":\"partial\",\"pages\":[\"https://www.provinciegroningen.nl/actueel/nieuws/\",\"https://www.provinciegroningen.nl/actueel/nieuws/2/\"],\"recordIds\":[\"nl-prov-20261011-cf8625cdfb77e8d470e8\",\"nl-prov-20261011-cb32238bc9e43c770f5e\",\"nl-prov-20261011-e307ac20c792cd6aa4e5\",\"nl-prov-20261011-bb4b702da37f79cb9113\",\"nl-prov-20261011-86ebdcccccd934c7d123\",\"nl-prov-20261011-9c0019d34e6344f361d6\"],\"excluded\":[{\"url\":\"https://www.provinciegroningen.nl/actueel/nieuws/nieuwsartikel/onderscheidingen-voor-meinardi-de-stadsakker-en-zandhoeve-holsteins/\",\"reason\":\"向三个指定经营者授予食品推广荣誉，没有新政策或一般申请规则。\"},{\"url\":\"https://www.provinciegroningen.nl/actueel/nieuws/nieuwsartikel/winnaars-beste-groninger-boek-2026/\",\"reason\":\"年度图书奖获奖名单，未更改文化补助制度。\"},{\"url\":\"https://www.provinciegroningen.nl/actueel/nieuws/nieuwsartikel/provinciaal-steunpunt-roodehaan-officieel-geopend/\",\"reason\":\"既有公共维护业务迁入新工作场所及开幕报道，不是新的公众规则或权利。\"},{\"url\":\"https://www.provinciegroningen.nl/actueel/nieuws/nieuwsartikel/winnaars-groninger-cultuurprijzen-2026-bekend/\",\"reason\":\"向指定个人及组织颁发本年度文化奖，不是新的普遍补助轮次。\"},{\"url\":\"https://www.provinciegroningen.nl/actueel/nieuws/nieuwsartikel/jongeren-hebben-behoefte-aan-saamhorigheid-blijkt-uit-de-jongerentop-thuis-in-groningen/\",\"reason\":\"住房青年讨论会及问卷结果作为未来规划输入，公告没有采纳新住房规则或确定拨款。\"},{\"url\":\"https://www.provinciegroningen.nl/actueel/nieuws/nieuwsartikel/noord-nederlandse-actieweek-helpt-inwoners-digitaal-veiliger-te-worden/\",\"reason\":\"网络安全宣传活动安排，不设新监管义务或补助资格。\"},{\"url\":\"https://www.provinciegroningen.nl/actueel/nieuws/nieuwsartikel/ag-wildervanckweg-16-en-17-oktober-dicht-voor-onderhoud/\",\"reason\":\"既有道路两天例行保养、绕行和公交改道的运营通知，没有新一般交通政策。\"}],\"allPagesChecked\":true,\"totalListed\":13,\"note\":\"已读完本频道新闻目录覆盖10月3—10日的条目，并逐项核对政策记录或排除理由；列表已跨过日期边界。本登记来源还包含其他政府目录和决定，未全部核对，因此整个来源仍为部分覆盖。\"}"
+  },
+  {
+    "id": "nl-20261011-news-reconciled-nl-fr",
+    "source_url": "https://www.fryslan.frl/",
+    "checked_at": "2026-10-10T23:10:23.979Z",
+    "data": "{\"id\":\"nl-20261011-news-reconciled-nl-fr\",\"sourceUrl\":\"https://www.fryslan.frl/\",\"checkedAt\":\"2026-10-10T23:10:23.979Z\",\"windowStart\":\"2026-10-03\",\"windowEnd\":\"2026-10-10\",\"status\":\"partial\",\"pages\":[\"https://www.fryslan.frl/nieuws\"],\"recordIds\":[\"nl-prov-20261011-cd7e1bc276a49cf2d4f1\"],\"excluded\":[{\"url\":\"https://www.fryslan.frl/nieuwe-entree-geeft-joodse-begraafplaats-tacozijl-waardige-toegang\",\"reason\":\"指定墓园入口修缮完成及既有沿岸项目进度，无新普遍适用规则或补助申请。\"}],\"allPagesChecked\":true,\"totalListed\":2,\"note\":\"已读完本频道新闻目录覆盖10月3—10日的条目，并逐项核对政策记录或排除理由；列表已跨过日期边界。本登记来源还包含其他政府目录和决定，未全部核对，因此整个来源仍为部分覆盖。\"}"
+  },
+  {
+    "id": "nl-20261011-news-reconciled-nl-ge",
+    "source_url": "https://www.gelderland.nl/",
+    "checked_at": "2026-10-10T23:10:23.979Z",
+    "data": "{\"id\":\"nl-20261011-news-reconciled-nl-ge\",\"sourceUrl\":\"https://www.gelderland.nl/\",\"checkedAt\":\"2026-10-10T23:10:23.979Z\",\"windowStart\":\"2026-10-03\",\"windowEnd\":\"2026-10-10\",\"status\":\"partial\",\"pages\":[\"https://www.gelderland.nl/nieuws\"],\"recordIds\":[\"nl-prov-20261011-2c97279653fdbbcc2870\"],\"excluded\":[{\"url\":\"https://www.gelderland.nl/nieuws/winnaars-gelderse-waarde-ringen-bekend\",\"reason\":\"向三个指定人士授予食品推广荣誉，不改变政策规则。\"}],\"allPagesChecked\":true,\"totalListed\":2,\"note\":\"已读完本频道新闻目录覆盖10月3—10日的条目，并逐项核对政策记录或排除理由；列表已跨过日期边界。本登记来源还包含其他政府目录和决定，未全部核对，因此整个来源仍为部分覆盖。\"}"
+  },
+  {
+    "id": "nl-20261011-news-reconciled-nl-dr",
+    "source_url": "https://www.provincie.drenthe.nl/",
+    "checked_at": "2026-10-10T23:22:41.895Z",
+    "data": "{\"id\":\"nl-20261011-news-reconciled-nl-dr\",\"sourceUrl\":\"https://www.provincie.drenthe.nl/\",\"checkedAt\":\"2026-10-10T23:22:41.895Z\",\"windowStart\":\"2026-10-03\",\"windowEnd\":\"2026-10-10\",\"status\":\"partial\",\"pages\":[\"https://www.provincie.drenthe.nl/actueel/nieuwsberichten/\"],\"recordIds\":[\"nl-prov-20261011-966037a83a3dbb5c1452\",\"nl-prov-20261011-51479b50b0f01a14b260\",\"nl-prov-20261011-a103575759b8ae7eee2c\",\"nl-prov-20261011-212a68e72453d19c3dfc\"],\"excluded\":[{\"url\":\"https://www.provincie.drenthe.nl/actueel/nieuwsberichten/2026/oktober/hijsen-regenboogvlag/\",\"reason\":\"升旗纪念活动，未修改权利、义务或补助条件。\"},{\"url\":\"https://www.provincie.drenthe.nl/actueel/nieuwsberichten/2026/oktober/waarde-ring-2026-ambacht-ruinerwold/\",\"reason\":\"指定食品推广奖项得主，不是新的一般补助制度。\"},{\"url\":\"https://www.provincie.drenthe.nl/actueel/nieuwsberichten/2026/oktober/persbericht-vijf-drentse/\",\"reason\":\"志愿服务奖候选名单，无新政策条件。\"}],\"allPagesChecked\":true,\"totalListed\":7,\"note\":\"已读完本频道新闻目录覆盖10月3—10日的条目，并逐项核对政策记录或排除理由；列表已跨过日期边界。同一会议报道内的多项记录在本次新闻条目计数中只计一次。本登记来源还包含其他政府目录和决定，未全部核对，因此整个来源仍为部分覆盖。\"}"
+  },
+  {
+    "id": "nl-20261011-news-reconciled-nl-ov",
+    "source_url": "https://www.overijssel.nl/",
+    "checked_at": "2026-10-10T23:22:41.895Z",
+    "data": "{\"id\":\"nl-20261011-news-reconciled-nl-ov\",\"sourceUrl\":\"https://www.overijssel.nl/\",\"checkedAt\":\"2026-10-10T23:22:41.895Z\",\"windowStart\":\"2026-10-03\",\"windowEnd\":\"2026-10-10\",\"status\":\"partial\",\"pages\":[\"https://www.overijssel.nl/nieuws/\"],\"recordIds\":[\"nl-prov-20261011-611acd64d362a2fa3a98\",\"nl-prov-20261011-8b1f877ce384a80bae87\",\"nl-prov-20261011-505494cbf7cf43fa0d30\",\"nl-prov-20261011-e2c9e204cc9f162e059b\",\"nl-prov-20261011-bc6c3d5be3bebc977c06\"],\"excluded\":[{\"url\":\"https://www.overijssel.nl/nieuws/drie-verbinders-tussen-boer-en-burger-ontvangen-waarde-ring-2026/\",\"reason\":\"向三位指定人士颁奖；不是新的普遍补助规则。\"},{\"url\":\"https://www.overijssel.nl/nieuws/vestiging-wolf-in-vechtdal-nog-niet-zeker/\",\"reason\":\"狼的监测、尚待DNA确认及既有保护建议和补助提醒；本条未新设狼管理措施。\"},{\"url\":\"https://www.overijssel.nl/nieuws/ipo-jaarcongres-opgaven-stoppen-niet-bij-provinciegrens/\",\"reason\":\"省际会议、演讲与研讨安排；薪酬和投资呼吁没有形成新的决定。\"}],\"allPagesChecked\":true,\"totalListed\":8,\"note\":\"已读完本频道新闻目录覆盖10月3—10日的条目，并逐项核对政策记录或排除理由；列表已跨过日期边界。同一会议报道内的多项记录在本次新闻条目计数中只计一次。本登记来源还包含其他政府目录和决定，未全部核对，因此整个来源仍为部分覆盖。\"}"
+  },
+  {
+    "id": "nl-20261011-news-reconciled-nl-fl",
+    "source_url": "https://www.flevoland.nl/",
+    "checked_at": "2026-10-10T23:22:41.895Z",
+    "data": "{\"id\":\"nl-20261011-news-reconciled-nl-fl\",\"sourceUrl\":\"https://www.flevoland.nl/\",\"checkedAt\":\"2026-10-10T23:22:41.895Z\",\"windowStart\":\"2026-10-03\",\"windowEnd\":\"2026-10-10\",\"status\":\"partial\",\"pages\":[\"https://www.flevoland.nl/nieuwsoverzicht\",\"https://www.flevoland.nl/nieuwsoverzicht?pageNumber=2\"],\"recordIds\":[\"nl-prov-20261011-ce977d0b81107f430bed\",\"nl-prov-20261011-9e734b4d6066da727daa\",\"nl-prov-20261011-a6508bc61797ea660d33\",\"nl-prov-20261011-d901aa9685ed8333dfbf\"],\"excluded\":[{\"url\":\"https://www.flevoland.nl/actueel/regiodag-2026-nieuwsgierig-vooruit\",\"reason\":\"区域交流会预告，没有采纳新的政策或资金安排。\"},{\"url\":\"https://www.flevoland.nl/actueel/werkzaamheden-gooiseweg-en-spiekweg\",\"reason\":\"既有道路维修、临时封闭和绕行运营通知，无新一般交通政策。\"},{\"url\":\"https://www.flevoland.nl/actueel/flevoland-vraagt-het-komende-jaar-aandacht-voor-he\",\"reason\":\"森林和木材宣传接力活动，未改变采伐或补助规则。\"},{\"url\":\"https://www.flevoland.nl/actueel/schoolconcert-muziek-voor-de-prinses-in-almere\",\"reason\":\"两所学校的文化教育活动及演出通知，无一般政策变化。\"},{\"url\":\"https://www.flevoland.nl/actueel/kom-12-november-naar-de-cultuurmakersdag-2026\",\"reason\":\"文化行业交流日及报名安排，不是补助申请轮次。\"},{\"url\":\"https://www.flevoland.nl/actueel/week-van-de-technologie-officieel-geopend-in-almer\",\"reason\":\"技术开放周及青年宣传活动，没有新的教育资格或拨款规则。\"},{\"url\":\"https://www.flevoland.nl/actueel/maand-van-de-geschiedenis-geopend-door-commissaris\",\"reason\":\"历史月开幕及博物馆活动，未改变文化资助制度。\"}],\"allPagesChecked\":true,\"totalListed\":11,\"note\":\"已读完本频道新闻目录覆盖10月3—10日的条目，并逐项核对政策记录或排除理由；列表已跨过日期边界。同一会议报道内的多项记录在本次新闻条目计数中只计一次。本登记来源还包含其他政府目录和决定，未全部核对，因此整个来源仍为部分覆盖。\"}"
+  },
+  {
+    "id": "nl-20261011-news-reconciled-nl-ze",
+    "source_url": "https://www.zeeland.nl/",
+    "checked_at": "2026-10-10T23:22:41.895Z",
+    "data": "{\"id\":\"nl-20261011-news-reconciled-nl-ze\",\"sourceUrl\":\"https://www.zeeland.nl/\",\"checkedAt\":\"2026-10-10T23:22:41.895Z\",\"windowStart\":\"2026-10-03\",\"windowEnd\":\"2026-10-10\",\"status\":\"partial\",\"pages\":[\"https://www.zeeland.nl/actueel/nieuws\"],\"recordIds\":[\"nl-prov-20261011-39e15cf8f72dea0082e8\"],\"excluded\":[{\"url\":\"https://www.zeeland.nl/actueel/werkzaamheden-aan-de-zeelandbrug-eerder-klaar\",\"reason\":\"现有桥梁维修完成及恢复通行日期的运营通知，不是新一般规则。\"},{\"url\":\"https://www.zeeland.nl/actueel/zeeuwse-streekmakers-de-schijnwerpers-tijdens-nationale-week-van-ons-eten\",\"reason\":\"食品推广奖及特定经营者认证，没有新的政策制度。\"}],\"allPagesChecked\":true,\"totalListed\":3,\"note\":\"已读完本频道新闻目录覆盖10月3—10日的条目，并逐项核对政策记录或排除理由；列表已跨过日期边界。同一会议报道内的多项记录在本次新闻条目计数中只计一次。本登记来源还包含其他政府目录和决定，未全部核对，因此整个来源仍为部分覆盖。\"}"
+  },
+  {
+    "id": "nl-20261011-news-reconciled-nl-li",
+    "source_url": "https://www.limburg.nl/",
+    "checked_at": "2026-10-10T23:22:41.895Z",
+    "data": "{\"id\":\"nl-20261011-news-reconciled-nl-li\",\"sourceUrl\":\"https://www.limburg.nl/\",\"checkedAt\":\"2026-10-10T23:22:41.895Z\",\"windowStart\":\"2026-10-03\",\"windowEnd\":\"2026-10-10\",\"status\":\"partial\",\"pages\":[\"https://www.limburg.nl/actueel/nieuws/\"],\"recordIds\":[\"nl-prov-20261011-26fb57b9656eedad7844\",\"nl-prov-20261011-42792a08b3577c74b09e\",\"nl-prov-20261011-9ce6f829e293d1411a13\"],\"excluded\":[{\"url\":\"https://www.limburg.nl/actueel/nieuws/nieuwsberichten/2026/oktober/autobandencentrale-sampermans-ontvangt/\",\"reason\":\"向指定百年企业授予王室荣誉，不修改一般经营规则。\"},{\"url\":\"https://www.limburg.nl/actueel/nieuws/nieuwsberichten/2026/oktober/winnaars-waarde-ring-2026-bekend/\",\"reason\":\"指定食品推广奖获奖者及奖金，无新一般申请制度。\"},{\"url\":\"https://www.limburg.nl/actueel/nieuws/nieuwsberichten/2026/oktober/limburg-gaat-record-111-uur-onafgebroken/\",\"reason\":\"朗读马拉松报名与宣传活动，重述已有免费图书馆安排，未新设福利资格。\"}],\"allPagesChecked\":true,\"totalListed\":6,\"note\":\"已读完本频道新闻目录覆盖10月3—10日的条目，并逐项核对政策记录或排除理由；列表已跨过日期边界。同一会议报道内的多项记录在本次新闻条目计数中只计一次。本登记来源还包含其他政府目录和决定，未全部核对，因此整个来源仍为部分覆盖。\"}"
+  },
+  {
+    "id": "nl-20261011-news-reconciled-nl-nb",
+    "source_url": "https://www.brabant.nl/",
+    "checked_at": "2026-10-10T23:22:41.895Z",
+    "data": "{\"id\":\"nl-20261011-news-reconciled-nl-nb\",\"sourceUrl\":\"https://www.brabant.nl/\",\"checkedAt\":\"2026-10-10T23:22:41.895Z\",\"windowStart\":\"2026-10-03\",\"windowEnd\":\"2026-10-10\",\"status\":\"partial\",\"pages\":[\"https://www.brabant.nl/actueel/nieuws/\"],\"recordIds\":[\"nl-prov-20261011-02538941fdf7255de76b\"],\"excluded\":[{\"url\":\"https://www.brabant.nl/actueel/nieuws/milieudag-oktober-2026/\",\"reason\":\"环境专业交流会报道，没有新的监管决定。\"},{\"url\":\"https://www.brabant.nl/actueel/nieuws/gastvrijheid-kwaliteit-brabantse-ondernemers/\",\"reason\":\"既有企业培训项目及年度奖项回顾，无新资助条件。\"},{\"url\":\"https://www.brabant.nl/actueel/nieuws/cultuurfonds-noord-brabant-investeert-ruim-250-000-euro/\",\"reason\":\"私人文化基金第三季度向59个指定项目拨款的回顾；本公告没有省级一般政策变更。\"},{\"url\":\"https://www.brabant.nl/actueel/nieuws/ps-dag-16-oktober-2026/\",\"reason\":\"省议会会议及发言报名安排，本新闻没有政策决定结果；链接议程的实质议案属于尚未完整核查的议会来源。\"}],\"allPagesChecked\":true,\"totalListed\":5,\"note\":\"已读完本频道新闻目录覆盖10月3—10日的条目，并逐项核对政策记录或排除理由；列表已跨过日期边界。同一会议报道内的多项记录在本次新闻条目计数中只计一次。本登记来源还包含其他政府目录和决定，未全部核对，因此整个来源仍为部分覆盖。\"}"
+  },
+  {
+    "id": "nl-20261011-news-reconciled-nl-nh",
+    "source_url": "https://www.noord-holland.nl/",
+    "checked_at": "2026-10-10T23:22:41.895Z",
+    "data": "{\"id\":\"nl-20261011-news-reconciled-nl-nh\",\"sourceUrl\":\"https://www.noord-holland.nl/\",\"checkedAt\":\"2026-10-10T23:22:41.895Z\",\"windowStart\":\"2026-10-03\",\"windowEnd\":\"2026-10-10\",\"status\":\"partial\",\"pages\":[\"https://www.noord-holland.nl/Actueel/Nieuws\",\"https://www.noord-holland.nl/Actueel/Nieuws?paging_page=2&paging_count=748\"],\"recordIds\":[\"oct06-7609f4ad57ef28d8e910b8fc\",\"oct06-08386c41c75ecf3b0aeb8962\",\"nl-prov-20261011-3b5fca0601ba8aeffb5f\",\"nl-prov-20261011-cf0b968d568e50e74c26\",\"nl-prov-20261011-5425e354a9c77e158ecd\",\"nl-prov-20261011-579e973fcfad1c180483\",\"nl-prov-20261011-de2e096e43b1ad09779e\",\"nl-prov-20261011-e6a2f84215428dd6ff53\"],\"excluded\":[{\"url\":\"https://www.noord-holland.nl/Actueel/Archief/2026/Oktober_2026/Huygenfietsbrug_vanaf_2_november_gesloten\",\"reason\":\"自行车桥改造与临时交通绕行通知，含施工路段临时限速；未新设一般交通政策。\"},{\"url\":\"https://www.noord-holland.nl/Actueel/Archief/2026/Oktober_2026/Voedselmakers_en_politici_aan_tafel_tijdens_Noord_Hollands_Streekdiner\",\"reason\":\"地方食品晚宴及三项奖项，无新的农业规则。\"},{\"url\":\"https://www.noord-holland.nl/Actueel/Archief/2026/Oktober_2026/Al_ruim_150_000_ritten_gemaakt_met_deelfietsen_in_regio_s_Gooi_en_Vechtstreek_en_Amersfoort\",\"reason\":\"已开展共享自行车项目的使用统计及运营改进；本次未开放新补助。\"},{\"url\":\"https://www.noord-holland.nl/Actueel/Archief/2026/Oktober_2026/Herdenken_en_vieren_tijdens_Marrondag_in_Haarlem\",\"reason\":\"Marrondag纪念活动安排，不改变公众政策权利。\"},{\"url\":\"https://www.noord-holland.nl/Actueel/Archief/2026/Oktober_2026/Beperkte_bediening_bruggen_en_sluizen_door_onderhoud_bediencentrale_Provincie_Noord_Holland\",\"reason\":\"桥闸控制中心短期维护及通行时段通知，无新一般政策。\"},{\"url\":\"https://www.noord-holland.nl/Actueel/Archief/2026/Oktober_2026/Meer_ruimte_voor_recreatie_in_Noord_Holland_hard_nodig\",\"reason\":\"受委托的休闲空间需求研究及既有规划方向，未采纳新的空间划定、预算或申请规则。\"},{\"url\":\"https://www.noord-holland.nl/Actueel/Archief/2026/Oktober_2026/Meld_nu_jouw_favoriete_onderneming_aan_voor_de_Ondernemingsverkiezing_Noord_Holland_2027\",\"reason\":\"年度企业奖提名通知，非公共资助轮次或监管变更。\"},{\"url\":\"https://www.noord-holland.nl/Actueel/Archief/2026/Oktober_2026/Molenprijs_voor_educatieve_film_over_meelmolen_De_Oude_Knegt\",\"reason\":\"指定风车教育影片获得奖项；重述2027年维护补助安排，未公布新轮次的额度与条件。\"}],\"allPagesChecked\":true,\"totalListed\":16,\"note\":\"已读完本频道新闻目录覆盖10月3—10日的条目，并逐项核对政策记录或排除理由；列表已跨过日期边界。同一会议报道内的多项记录在本次新闻条目计数中只计一次。本登记来源还包含其他政府目录和决定，未全部核对，因此整个来源仍为部分覆盖。\"}"
+  },
+  {
+    "id": "nl-20261011-news-reconciled-nl-zh",
+    "source_url": "https://www.zuid-holland.nl/",
+    "checked_at": "2026-10-10T23:24:06.539Z",
+    "data": "{\"id\":\"nl-20261011-news-reconciled-nl-zh\",\"sourceUrl\":\"https://www.zuid-holland.nl/\",\"checkedAt\":\"2026-10-10T23:24:06.539Z\",\"windowStart\":\"2026-10-03\",\"windowEnd\":\"2026-10-10\",\"status\":\"partial\",\"pages\":[\"https://www.zuid-holland.nl/actueel/nieuws/\"],\"recordIds\":[\"nl-prov-20261011-fd9003624f4d47eb61e9\",\"nl-prov-20261011-6a08da0a0bbdb1de2a54\",\"nl-zh-rotterdam-nature-20261008\"],\"excluded\":[{\"url\":\"https://www.zuid-holland.nl/actueel/nieuws/oktober-2026/6-initiatieven-zuid-holland-krijgen-waarde-ring/\",\"reason\":\"指定食品推广奖获奖名单，无新政策或一般申请规则。\"},{\"url\":\"https://www.zuid-holland.nl/actueel/nieuws/oktober-2026/zuid-holland-proeftuin-nieuwe-energietechnologie/\",\"reason\":\"海洋能源会议讲话及既有试验设施和创新计划回顾，未采纳新规则或拨款决定。\"},{\"url\":\"https://www.zuid-holland.nl/actueel/nieuws/oktober-2026/vier-projecten-genomineerd-zuid-hollandse/\",\"reason\":\"四个可负担住房奖候选项目，不是新的住房资格或补助规则。\"}],\"allPagesChecked\":true,\"totalListed\":6,\"note\":\"已读完本频道新闻目录覆盖10月3—10日的条目，并逐项核对政策记录或排除理由；列表已跨过日期边界。同一会议报道内的多项记录在本次新闻条目计数中只计一次。本登记来源还包含其他政府目录和决定，未全部核对，因此整个来源仍为部分覆盖。\"}"
   }
 ]

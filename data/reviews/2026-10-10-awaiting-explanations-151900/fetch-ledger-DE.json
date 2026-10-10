@@ -1,0 +1,306 @@
+{
+ "note": "Fetch ledger for the German awaiting-explanation review on 10 October 2026. \"evidence\" bytes are archived in data/sources; \"fail\" requests returned 404 and are not archived. Many explanations also cite pages archived by earlier runs, which are not refetched here.",
+ "fetches": [
+  {
+   "url": "https://dserver.bundestag.de/btd/21/084/2108405.pdf",
+   "at": "2026-10-10T10:20:24.892Z",
+   "kind": "evidence",
+   "hash": "c19574c21e751a847f27705a5fb9b4dec45cff94783de9fb5a83f523da9c0098",
+   "size": 1306440
+  },
+  {
+   "url": "https://dserver.bundestag.de/btd/21/084/2108412.pdf",
+   "at": "2026-10-10T10:20:25.211Z",
+   "kind": "evidence",
+   "hash": "70e4fe61414b322654c8acca7a43bcd20eb715ed275662a912af90af7003a449",
+   "size": 775903
+  },
+  {
+   "url": "https://dserver.bundestag.de/btd/21/082/2108284.pdf",
+   "at": "2026-10-10T10:20:25.409Z",
+   "kind": "evidence",
+   "hash": "0ea0d4b3cfee5c459cc4853811fb05109b17ae47a6eb6d191d1ed3406874eab1",
+   "size": 2267703
+  },
+  {
+   "url": "https://www.gesetze-im-internet.de/baf_g/__13.html",
+   "at": "2026-10-10T10:20:25.660Z",
+   "kind": "evidence",
+   "hash": "16c1ebda6b392ed32e5a30d6bad60101db94079c314cc9ccb69258f481c8e854",
+   "size": 4967
+  },
+  {
+   "url": "https://www.gesetze-im-internet.de/wogg/__12.html",
+   "at": "2026-10-10T10:20:25.739Z",
+   "kind": "evidence",
+   "hash": "feb04fe970a5123b0de4cf306e50224cc40e5cec7c60021e601257e30b9a81fc",
+   "size": 16031
+  },
+  {
+   "url": "https://www.gesetze-im-internet.de/wogg/__43.html",
+   "at": "2026-10-10T10:20:25.763Z",
+   "kind": "evidence",
+   "hash": "c37a0ff709bbbed392a1473e86e5222f27af76545584e6ad7e06781feb48dced",
+   "size": 12150
+  },
+  {
+   "url": "https://www.gesetze-im-internet.de/afbg/__12.html",
+   "at": "2026-10-10T10:20:25.790Z",
+   "kind": "evidence",
+   "hash": "ef25361465631e362b3313e5af20bc1b601397bbccf28b59fcde8368e6ee8814",
+   "size": 5725
+  },
+  {
+   "url": "https://www.gesetze-im-internet.de/afbg/__10.html",
+   "at": "2026-10-10T10:20:25.816Z",
+   "kind": "evidence",
+   "hash": "77a03e769cbd1a3ce351f4e70d6cde05ce4c508b0740ad946c28caaf87dca514",
+   "size": 5246
+  },
+  {
+   "url": "https://dserver.bundestag.de/btd/21/078/2107864.pdf",
+   "at": "2026-10-10T10:24:40.679Z",
+   "kind": "evidence",
+   "hash": "9d14355f8293339cd031b901c02c7be0b0f9dab1d7ca5f7edf5ce07fa834b4e7",
+   "size": 1019904
+  },
+  {
+   "url": "https://dserver.bundestag.de/btd/21/078/2107869.pdf",
+   "at": "2026-10-10T10:24:41.036Z",
+   "kind": "evidence",
+   "hash": "cb48c3954e4777e343788a5f243483a4b431cd4622f0f38728cc9c5b7ca53de3",
+   "size": 392240
+  },
+  {
+   "url": "https://www.gesetze-im-internet.de/behg/__10.html",
+   "at": "2026-10-10T10:24:41.249Z",
+   "kind": "evidence",
+   "hash": "468055cac8708ea216399d10811725a0bb9cbbefcffc87c0a1c33b21e3c1d73d",
+   "size": 9292
+  },
+  {
+   "url": "https://dserver.bundestag.de/btd/21/078/2107859.pdf",
+   "at": "2026-10-10T15:01:55.756Z",
+   "kind": "evidence",
+   "hash": "1c48a41e7772b40048267c5bef63697422e1fc0183d7e81075208cf6ff0599ba",
+   "size": 354136
+  },
+  {
+   "url": "https://www.gesetze-im-internet.de/tabstg_2009/__2.html",
+   "at": "2026-10-10T15:02:05.133Z",
+   "kind": "evidence",
+   "hash": "e47935d70b11e6c2b3f23dfa9d20702966b4477c0cd5ab08bec1f851cd4f55f6",
+   "size": 15712
+  },
+  {
+   "url": "https://www.recht.bund.de/bgbl/1/2026/287/regelungstext.pdf?__blob=publicationFile&v=1",
+   "at": "2026-10-10T15:02:22.477Z",
+   "kind": "evidence",
+   "hash": "8d0d0d28f313c19a0518577c4fdd22a908076574e52479a00c2840e8687b75ca",
+   "size": 291301
+  },
+  {
+   "url": "https://www.bundesrat.de/SharedDocs/drucksachen/2026/0501-0600/503-26.pdf?__blob=publicationFile&v=1",
+   "at": "2026-10-10T15:02:22.651Z",
+   "kind": "evidence",
+   "hash": "932f083b1bed86ef45668f862595f1e11f7aff0294017621fa583ced394e29bc",
+   "size": 1043992
+  },
+  {
+   "url": "https://dserver.bundestag.de/btd/21/078/2107867.pdf",
+   "at": "2026-10-10T15:02:38.478Z",
+   "kind": "evidence",
+   "hash": "9c884e1ee80fe910c394f065c344eb953c3020b3a2f094fecfc555a61cd02a3d",
+   "size": 2365943
+  },
+  {
+   "url": "https://dserver.bundestag.de/btd/21/074/2107404.pdf",
+   "at": "2026-10-10T15:02:39.150Z",
+   "kind": "evidence",
+   "hash": "bb8fc57510906f3ec95f751abed4e7402d21c4a2442f0266204918645ca59866",
+   "size": 1174153
+  },
+  {
+   "url": "https://dserver.bundestag.de/btd/21/082/2108239.pdf",
+   "at": "2026-10-10T15:02:54.501Z",
+   "kind": "evidence",
+   "hash": "913499faea86cf1678647237b3ca285a97722a61dfc1a971f72028130916313c",
+   "size": 3688605
+  },
+  {
+   "url": "https://dserver.bundestag.de/btd/21/068/2106808.pdf",
+   "at": "2026-10-10T15:02:54.927Z",
+   "kind": "evidence",
+   "hash": "16d39b74180e4c25f3aae8201ccd7d60256c84aa04d617f63bbf5e76bb6aa858",
+   "size": 1826644
+  },
+  {
+   "url": "https://www.bundesrat.de/SharedDocs/TO/1069/erl/5.pdf?__blob=publicationFile&v=1",
+   "at": "2026-10-10T15:09:23.108Z",
+   "kind": "evidence",
+   "hash": "8caa46d566ee09505c96a17fe46b2abf9cc5a28e1b0f7e557c296281ffd7d2dc",
+   "size": 64511
+  },
+  {
+   "url": "https://www.bundesrat.de/SharedDocs/TO/1069/erl/6.pdf?__blob=publicationFile&v=1",
+   "at": "2026-10-10T15:09:24.308Z",
+   "kind": "evidence",
+   "hash": "2b25f1a48b71d42cd2134eca2e6e021003487b901f30d78d4fcf3a4cf5f68011",
+   "size": 159455
+  },
+  {
+   "url": "https://www.bundesrat.de/SharedDocs/TO/1069/erl/7.pdf?__blob=publicationFile&v=1",
+   "at": "2026-10-10T15:09:24.465Z",
+   "kind": "evidence",
+   "hash": "fcbf7c9f8296d5409aef6bfa3856adebc6e0e8d0db9d0d4cf28a36ed2f11dfdd",
+   "size": 322196
+  },
+  {
+   "url": "https://www.bundesrat.de/SharedDocs/TO/1069/erl/8.pdf?__blob=publicationFile&v=1",
+   "at": "2026-10-10T15:09:24.639Z",
+   "kind": "evidence",
+   "hash": "7abdd756da4fc341d79a135a678020fefef4c6c4fcbde411dfb143aea2b76b52",
+   "size": 112989
+  },
+  {
+   "url": "https://www.bundesrat.de/SharedDocs/TO/1069/erl/9.pdf?__blob=publicationFile&v=1",
+   "at": "2026-10-10T15:09:24.797Z",
+   "kind": "evidence",
+   "hash": "75495c12380c1f3dc3fc70501fba8eabb36055a4abfbe3386be7dbe50be5034e",
+   "size": 151942
+  },
+  {
+   "url": "https://www.bundesrat.de/SharedDocs/TO/1069/erl/21.pdf?__blob=publicationFile&v=1",
+   "at": "2026-10-10T15:09:24.959Z",
+   "kind": "evidence",
+   "hash": "6769137a36bfac321239606c81802321902dd43e73be3fe679c829c97d54033f",
+   "size": 148953
+  },
+  {
+   "url": "https://www.bundesrat.de/SharedDocs/TO/1069/erl/23.pdf?__blob=publicationFile&v=1",
+   "at": "2026-10-10T15:09:25.127Z",
+   "kind": "evidence",
+   "hash": "4c73bc62688831d4158f02637999e3a46757218e5a6672611cf23b0388a17145",
+   "size": 156858
+  },
+  {
+   "url": "https://www.bundesrat.de/SharedDocs/TO/1069/erl/25.pdf?__blob=publicationFile&v=1",
+   "at": "2026-10-10T15:09:25.296Z",
+   "kind": "evidence",
+   "hash": "816fa0f5457ce41f67463e070dbe5eed1bccc08ad0395c6dbffe3273e7521ea0",
+   "size": 144558
+  },
+  {
+   "url": "https://www.bundesrat.de/SharedDocs/TO/1069/erl/26.pdf?__blob=publicationFile&v=1",
+   "at": "2026-10-10T15:09:25.455Z",
+   "kind": "evidence",
+   "hash": "5818319b8704f2f28668209aa8d1b9d4900b842b08e7413fcf66bbc06ab18427",
+   "size": 146866
+  },
+  {
+   "url": "https://www.bundesrat.de/SharedDocs/TO/1069/erl/40.pdf?__blob=publicationFile&v=1",
+   "at": "2026-10-10T15:09:25.630Z",
+   "kind": "evidence",
+   "hash": "f254e11d0698efcd82383905650ec9b67850ec19884fdec1b3995194843adb21",
+   "size": 141230
+  },
+  {
+   "url": "https://www.bundesrat.de/SharedDocs/TO/1069/erl/41.pdf?__blob=publicationFile&v=1",
+   "at": "2026-10-10T15:09:25.788Z",
+   "kind": "evidence",
+   "hash": "3779747991cb70056f3026eea7b4c7be2be130f9614c23ce498eb7a1e0a86e32",
+   "size": 153689
+  },
+  {
+   "url": "https://www.bundesrat.de/SharedDocs/TO/1069/erl/42.pdf?__blob=publicationFile&v=1",
+   "at": "2026-10-10T15:09:25.947Z",
+   "kind": "evidence",
+   "hash": "e3d8a7c24dc6858fad7d2297d561fd52e19d67d6ee6e80cf48b4a068aa2e47c7",
+   "size": 158781
+  },
+  {
+   "url": "https://www.bundesrat.de/SharedDocs/TO/1069/erl/43.pdf?__blob=publicationFile&v=1",
+   "at": "2026-10-10T15:09:26.108Z",
+   "kind": "evidence",
+   "hash": "edaf92adf2f3284825e6142eb70daa4ca1a9284cd958f5a9f4a0c374c6050da6",
+   "size": 177429
+  },
+  {
+   "url": "https://www.bundesrat.de/SharedDocs/TO/1069/erl/47.pdf?__blob=publicationFile&v=1",
+   "at": "2026-10-10T15:09:26.271Z",
+   "kind": "fail",
+   "size": 32976,
+   "status": 404
+  },
+  {
+   "url": "https://www.bundesrat.de/SharedDocs/TO/1069/erl/50.pdf?__blob=publicationFile&v=1",
+   "at": "2026-10-10T15:09:26.413Z",
+   "kind": "fail",
+   "size": 32934,
+   "status": 404
+  },
+  {
+   "url": "https://www.recht.bund.de/bgbl/1/2026/288/regelungstext.pdf?__blob=publicationFile&v=1",
+   "at": "2026-10-10T15:09:50.650Z",
+   "kind": "evidence",
+   "hash": "69d0dfc349171a76618c586edc89e676fcbc28c3cee3df92d0fa5ce008170d9c",
+   "size": 253780
+  },
+  {
+   "url": "https://www.recht.bund.de/bgbl/1/2026/282/regelungstext.pdf?__blob=publicationFile&v=1",
+   "at": "2026-10-10T15:09:50.852Z",
+   "kind": "evidence",
+   "hash": "e0e73f025661845c4894d4df5ebbf2b08ead322bc19eb3ee816b72947a7451ac",
+   "size": 292409
+  },
+  {
+   "url": "https://www.recht.bund.de/bgbl/2/2026/220/regelungstext.pdf?__blob=publicationFile&v=1",
+   "at": "2026-10-10T15:09:51.010Z",
+   "kind": "evidence",
+   "hash": "f2e30e56033e7436cdb354cef2678f5d3c0e054d1d508be274ca42fd884799c6",
+   "size": 408094
+  },
+  {
+   "url": "https://www.recht.bund.de/bgbl/1/2026/289/regelungstext.pdf?__blob=publicationFile&v=1",
+   "at": "2026-10-10T15:09:51.118Z",
+   "kind": "evidence",
+   "hash": "dc408b7d21a8b92420ce20ccc05889dbc4385d45a672c1ece73c3e4ea7adf4d9",
+   "size": 304447
+  },
+  {
+   "url": "https://www.bundesrat.de/SharedDocs/drucksachen/2026/0501-0600/575-26.pdf?__blob=publicationFile&v=1",
+   "at": "2026-10-10T15:09:51.184Z",
+   "kind": "evidence",
+   "hash": "12b43abfd28341a7375392af053033b3c6e3c40e2c47474620954c05ea9c681e",
+   "size": 1455927
+  },
+  {
+   "url": "https://www.bundesrat.de/SharedDocs/drucksachen/2026/0501-0600/583-26.pdf?__blob=publicationFile&v=1",
+   "at": "2026-10-10T15:09:51.410Z",
+   "kind": "evidence",
+   "hash": "ee9205af9f802322d5bd0ba4125728493b162ba021795e4e8edae3b0ebf4ebfb",
+   "size": 1412892
+  },
+  {
+   "url": "https://www.gesetze-im-internet.de/ukraineaufenth_v/__2.html",
+   "at": "2026-10-10T15:10:03.629Z",
+   "kind": "evidence",
+   "hash": "6bb7768d1efac1b1368bd1d7535524020db3612e2ddcfcacaeaf49e24c1ac593",
+   "size": 6848
+  },
+  {
+   "url": "https://www.gesetze-im-internet.de/ukraineaufenth_v/BJNR0270B0022.html",
+   "at": "2026-10-10T15:10:03.745Z",
+   "kind": "fail",
+   "size": 236,
+   "status": 404
+  },
+  {
+   "url": "https://www.bundesrat.de/SharedDocs/drucksachen/2026/0401-0500/466-26.pdf?__blob=publicationFile&v=1",
+   "at": "2026-10-10T15:13:52.710Z",
+   "kind": "evidence",
+   "hash": "97fe7f97501e0f8f024756a4551cc1118b8545b568f2141302db326ffda9ab63",
+   "size": 1671512
+  }
+ ]
+}

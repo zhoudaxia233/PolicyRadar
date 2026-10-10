@@ -1,4 +1,580 @@
 {
   "appliesFromExport": "2026-10-10T09:59:09.410Z",
-  "dispositions": []
+  "dispositions": [
+    {
+      "id": "de-bt-debates-2026-10",
+      "reason": [
+        "议会辩论、质询、政府声明、时事辩论或人事选举，本身不作立法决定，不改变规则。",
+        "A parliamentary debate, question time, government statement, topical debate or personnel election. It makes no legislative decision and changes no rule."
+      ],
+      "basis": "Each Bundestag text-archive page was read: government statements, question times, government Q&A, topical debates (Aktuelle Stunden) and items removed from the agenda, without a bill or regulation being decided. One item is the rejection of a nominee for the KfW board.",
+      "documents": [
+        {
+          "region": "DE",
+          "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw42-de-regierungserklaerung-1223644",
+          "title": "Regierungserklärung des Bundeskanzlers zum Europäischen Rat"
+        },
+        {
+          "region": "DE",
+          "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw42-de-regierungsbefragung-1154744",
+          "title": "Dorothee Bär und Karsten Wildberger stellen sich den Fragen der Abgeordneten"
+        },
+        {
+          "region": "DE",
+          "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw42-de-fragestunde-1154764",
+          "title": "Fragestunde am 14. Oktober"
+        },
+        {
+          "region": "DE",
+          "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw42-de-migrationsbilanz-1223580",
+          "title": "Debatte über Kosten und Nutzen der Zuwanderung"
+        },
+        {
+          "region": "DE",
+          "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw42-de-menschenrechtspolitik-1223610",
+          "title": "Debatte über Menschenrechtspolitik der Bundesregierung"
+        },
+        {
+          "region": "DE",
+          "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-de-aktuelle-stunde-sachsen-anhalt-1223410",
+          "title": "Konsequenzen aus der Landtagswahl in Sachsen-Anhalt"
+        },
+        {
+          "region": "DE",
+          "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-de-tuerkei-1217576",
+          "title": "Abgesetzt: Partnerschaft zwischen Deutschland und der Türkei"
+        },
+        {
+          "region": "DE",
+          "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-de-aktuelle-stunde-wirtschaftsprognosen-1222762",
+          "title": "Unzufriedenheit mit dem fragilen Wirtschafts­aufschwung"
+        },
+        {
+          "region": "DE",
+          "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-de-linksextreme-gewalt-1217526",
+          "title": "Kontroverse über Sondierungsgespräche zur Regierungsbildung in Berlin"
+        },
+        {
+          "region": "DE",
+          "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw39-de-linksextreme-gewalt-1211262",
+          "title": "Abgesetzt: Maßnahmen zur Bekämpfung von linksextremer Gewalt"
+        },
+        {
+          "region": "DE",
+          "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-de-vereinbarte-debatte-israel-1222196",
+          "title": "Debatte zum Schutz jüdischen Lebens in Deutschland"
+        },
+        {
+          "region": "DE",
+          "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-de-aktuelle-stunde-ukraine-1222758",
+          "title": "Fraktionen streiten über finanzielle Unterstützung der Ukraine"
+        },
+        {
+          "region": "DE",
+          "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-de-fragestunde-1154732",
+          "title": "Fragestunde am 7. Oktober"
+        },
+        {
+          "region": "DE",
+          "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-de-regierungsbefragung-1154718",
+          "title": "Reiche: Für Wettbewerbs­fähigkeit und nachhaltiges Wachstum sorgen"
+        },
+        {
+          "region": "DE",
+          "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-de-wahl-kfw-1222472",
+          "title": "Bundestag lehnt AfD-Wahlvorschlag zum Verwaltungsrat der KfW ab"
+        }
+      ],
+      "appliesFromExport": "2026-10-10T10:19:26.897Z"
+    },
+    {
+      "id": "de-bt-motions-2026-10",
+      "reason": [
+        "议会党团或议员的非约束性动议（Antrag）：只是要求政府采取行动，本身不改变法律；即使获通过，也还需要另行立法。",
+        "A non-binding parliamentary motion asking the government to act. It does not change the law; even if adopted, separate legislation would still be needed."
+      ],
+      "basis": "Each page was read; the items are motions (Anträge) or Bundestag resolutions on motions, not bills or regulations.",
+      "documents": [
+        {
+          "region": "DE",
+          "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw42-de-staatsgold-1223572",
+          "title": "Lagerung des Staatsgold in Deutschland"
+        },
+        {
+          "region": "DE",
+          "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw42-de-ovaherero-nama-1223576",
+          "title": "Aussprache über Anträge zur deutschen Kolonialgeschichte"
+        },
+        {
+          "region": "DE",
+          "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw42-de-familien-1223584",
+          "title": "Familienpolitik im Mittelpunkt einer Bundestagsdebatte"
+        },
+        {
+          "region": "DE",
+          "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw42-de-erdgas-1223588",
+          "title": "Anträge zur Energieversorgung Deutschlands werden beraten"
+        },
+        {
+          "region": "DE",
+          "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw42-de-pflege-1223594",
+          "title": "Debatte über Anträge zur Finanzierung der Pflege"
+        },
+        {
+          "region": "DE",
+          "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw42-de-handelsschutz-1223598",
+          "title": "Anträge zur deutschen Handels- und Energiepolitik"
+        },
+        {
+          "region": "DE",
+          "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw42-de-verlagspreis-1223602",
+          "title": "Antrag fordert Streichung des Deutschen Verlagspreises"
+        },
+        {
+          "region": "DE",
+          "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw42-de-pflegeversicherung-1223626",
+          "title": "Bundestag berät Anträge zur Pflegeversicherung"
+        },
+        {
+          "region": "DE",
+          "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw42-de-biodiversitaet-1223632",
+          "title": "Forderungen im Vorfeld der Weltbiodiversitätskonferenz in Jerewan"
+        },
+        {
+          "region": "DE",
+          "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw42-de-technologieoffenheit-1223636",
+          "title": "Forderung nach Technologieoffenheit im Verkehrssektor"
+        },
+        {
+          "region": "DE",
+          "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-de-regelaltersgrenze-1217530",
+          "title": "Anträge zur Rentenpolitik debattiert"
+        },
+        {
+          "region": "DE",
+          "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-de-migrationswende-1222454",
+          "title": "Maßnahmen für eine Migrationswende erörtert"
+        },
+        {
+          "region": "DE",
+          "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-de-buergerrat-1222760",
+          "title": "Nein zur Einberufung eines Bürgerrats zu gleichwerti­gen Lebensverhältnissen"
+        },
+        {
+          "region": "DE",
+          "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-de-lebensmittelversorgung-1217542",
+          "title": "Bundestag lehnt Anträge zur Lebensmittelversorgung ab"
+        },
+        {
+          "region": "DE",
+          "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-de-bauen-wohnen-1217538",
+          "title": "Bezahlbares Wohneigen­tum und Baulandvergabe an Einheimische erörtert"
+        },
+        {
+          "region": "DE",
+          "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-de-praenataltests-1184324",
+          "title": "Ja zum Monitoring der Kassenzulassung des nicht-invasiven Pränataltests"
+        },
+        {
+          "region": "DE",
+          "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-de-energieversorgung-1217572",
+          "title": "Antrag fordert Stopp der Reprivatisierung von Uniper SE und SEFE GmbH"
+        },
+        {
+          "region": "DE",
+          "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-de-erinnerungskultur-1217518",
+          "title": "Forderung nach Neuausrichtung der deutschen Erinnerungskultur"
+        },
+        {
+          "region": "DE",
+          "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-de-organisierte-kriminalitaet-1217514",
+          "title": "Antrag fordert Zerschlagung der organisierten Kriminalität"
+        }
+      ],
+      "appliesFromExport": "2026-10-10T10:19:26.897Z"
+    },
+    {
+      "id": "de-bt-hearings-briefings-2026-10",
+      "reason": [
+        "委员会专题座谈、情况通报或政府报告审议：只收集意见、陈述情况，不审议具体法案，也不作决定。",
+        "A committee discussion, briefing or debate on a report. It gathers views or describes the situation; it considers no specific bill and decides nothing."
+      ],
+      "basis": "Each page was read: expert discussions (Fachgespräche), public hearings of agency heads, self-introductions and debates on reports, none tied to a specific bill or regulation.",
+      "documents": [
+        {
+          "region": "DE",
+          "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-pa-forschung-ki-sicherheit-1223046",
+          "title": "Fachgespräch zur Sicherheit von Künstlicher Intelligenz"
+        },
+        {
+          "region": "DE",
+          "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-de-bericht-ostdeutschland-2026-1222200",
+          "title": "Bericht der Beauftragten der Bundesregierung für Ost­deutschland 2026 beraten"
+        },
+        {
+          "region": "DE",
+          "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-pa-bildung-donnerstag-1221648",
+          "title": "Pisa-Studie: Plädoyer für möglichst frühe Bildungsprozesse"
+        },
+        {
+          "region": "DE",
+          "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-de-vereinbarte-debatte-nachhaltigkeit-1217524",
+          "title": "Nachhaltigkeit und Zukunftsfragen erörtert"
+        },
+        {
+          "region": "DE",
+          "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-pa-digitales-bfdi-1222380",
+          "title": "Bundesdatenschutzbeauftragter Hennemann stellt sich vor"
+        },
+        {
+          "region": "DE",
+          "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-pa-nachhaltigkeitsbeirat-1221634",
+          "title": "Zukunft der Arbeit: Betriebsnahe Weiterbildung als Schlüssel"
+        },
+        {
+          "region": "DE",
+          "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-pa-tourismus-1206184",
+          "title": "E-Umstieg große Herausforderung für Bustouristik-Branche"
+        },
+        {
+          "region": "DE",
+          "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-pa-bildung-mittwoch-1221652",
+          "title": "Fachgespräch zu KI und Berufsbildung und -ori­entierung"
+        },
+        {
+          "region": "DE",
+          "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-pa-forschung-1221660",
+          "title": "Fachgespräch zur jüdischen Gegenwartsforschung"
+        },
+        {
+          "region": "DE",
+          "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-interview-heinrich-1222938",
+          "title": "Heinrich: Demokra­tie und Rechts­staatlichkeit in der Türkei und Georgien bedroht"
+        },
+        {
+          "region": "DE",
+          "url": "https://www.bundesregierung.de/breg-de/bundesregierung/bundeskanzleramt/kabinett-bericht-staatsmodernisierung-2454576",
+          "title": "Digitaler, einfacher, moderner – Bericht zum Stand der Staatsmodernisierung"
+        },
+        {
+          "region": "DE",
+          "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-pa-ua-krisenpraevention-1201676",
+          "title": "Globale Risiken in Nationaler Sicherheitsstrategie ausreichend berücksichtigen"
+        },
+        {
+          "region": "DE",
+          "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-pa-pkgr-1211186",
+          "title": "Nachrichtendienste sehen Russland als gefährlichsten Gegner"
+        }
+      ],
+      "appliesFromExport": "2026-10-10T10:19:26.897Z"
+    },
+    {
+      "id": "de-bt-agenda-summaries-2026-10",
+      "reason": [
+        "联邦议院议程汇总页：一次列出多项无辩论表决或转交委员会的事项，本身不是单一政策；其中各项法案以各自的文件为准。",
+        "A Bundestag agenda summary listing several items voted on or referred to committees without debate. It is not one policy; each bill in it stands on its own documents."
+      ],
+      "basis": "Read in full. 15 October items are motions and petitions; 8 October items include final votes on two tax information-exchange agreements and referrals of several government bills, which are separate matters and are listed as leads in the review notes.",
+      "documents": [
+        {
+          "region": "DE",
+          "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw42-de-ueberweisungen-1154766",
+          "title": "Überweisungen im vereinfachten Verfahren"
+        },
+        {
+          "region": "DE",
+          "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw42-de-abschliessende-beratungen-1154762",
+          "title": "Abschließende Beratungen ohne Aussprache"
+        },
+        {
+          "region": "DE",
+          "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-de-abschliessende-beratungen-1154720",
+          "title": "Abschließende Beratungen ohne Aussprache"
+        },
+        {
+          "region": "DE",
+          "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-de-ueberweisungen-1154722",
+          "title": "Überweisungen im vereinfachten Verfahren"
+        }
+      ],
+      "appliesFromExport": "2026-10-10T10:19:26.897Z"
+    },
+    {
+      "id": "de-treaty-scope-notices-2026-10",
+      "reason": [
+        "条约适用范围公告：只更新哪些国家已加入或批准某项国际条约，德国国内规则不因此改变。",
+        "A notice on a treaty’s scope: it only updates which states have joined or ratified an international treaty. Rules in Germany do not change."
+      ],
+      "basis": "Federal Law Gazette Part II notices on the territorial scope (Geltungsbereich) of treaties already in force for Germany.",
+      "documents": [
+        {
+          "region": "DE",
+          "officialId": "BGBl. 2026 II Nr. 228"
+        },
+        {
+          "region": "DE",
+          "officialId": "BGBl. 2026 II Nr. 227"
+        },
+        {
+          "region": "DE",
+          "officialId": "BGBl. 2026 II Nr. 226"
+        },
+        {
+          "region": "DE",
+          "officialId": "BGBl. 2026 II Nr. 225"
+        },
+        {
+          "region": "DE",
+          "officialId": "BGBl. 2026 II Nr. 224"
+        },
+        {
+          "region": "DE",
+          "officialId": "BGBl. 2026 II Nr. 223"
+        },
+        {
+          "region": "DE",
+          "officialId": "BGBl. 2026 II Nr. 222"
+        },
+        {
+          "region": "DE",
+          "officialId": "BGBl. 2026 II Nr. 221"
+        }
+      ],
+      "appliesFromExport": "2026-10-10T10:19:26.897Z"
+    },
+    {
+      "id": "de-br-resolutions-2026-10",
+      "reason": [
+        "联邦参议院决议提案：由州提出、要求联邦政府采取行动，不具法律约束力，本身不改变法律；若据此形成法案，再单独解读。",
+        "A Bundesrat resolution proposed by states asking the federal government to act. It is not legally binding and does not change the law; any resulting bill will be explained separately."
+      ],
+      "basis": "Agenda items of the 16 October Bundesrat plenary titled “Entschließung des Bundesrates”.",
+      "documents": [
+        {
+          "region": "DE",
+          "officialId": "BR-Drs. 578/24"
+        },
+        {
+          "region": "DE",
+          "officialId": "BR-Drs. 343/26"
+        },
+        {
+          "region": "DE",
+          "officialId": "BR-Drs. 532/26"
+        },
+        {
+          "region": "DE",
+          "officialId": "BR-Drs. 521/26"
+        },
+        {
+          "region": "DE",
+          "officialId": "BR-Drs. 534/26"
+        },
+        {
+          "region": "DE",
+          "officialId": "BR-Drs. 543/26"
+        },
+        {
+          "region": "DE",
+          "officialId": "BR-Drs. 568/26"
+        },
+        {
+          "region": "DE",
+          "officialId": "BR-Drs. 513/26"
+        },
+        {
+          "region": "DE",
+          "officialId": "BR-Drs. 518/26"
+        },
+        {
+          "region": "DE",
+          "officialId": "BR-Drs. 525/26"
+        },
+        {
+          "region": "DE",
+          "officialId": "BR-Drs. 594/26"
+        },
+        {
+          "region": "DE",
+          "officialId": "BR-Drs. 544/26"
+        }
+      ],
+      "appliesFromExport": "2026-10-10T10:19:26.897Z"
+    },
+    {
+      "id": "de-br-eu-opinions-2026-10",
+      "reason": [
+        "联邦参议院就欧盟委员会提案或通报发表意见：意见不改变德国法律，也不决定欧盟立法结果；提案本身属于欧盟层面。",
+        "The Bundesrat’s opinion on a European Commission proposal or communication. It changes no German law and does not decide the EU outcome; the proposal itself is EU-level."
+      ],
+      "basis": "Agenda items of the 16 October Bundesrat plenary on EU proposals and communications (EU-Vorlagen); the Bundesrat adopts an opinion only.",
+      "documents": [
+        {
+          "region": "DE",
+          "officialId": "BR-Drs. 425/26"
+        },
+        {
+          "region": "DE",
+          "officialId": "BR-Drs. 501/26"
+        },
+        {
+          "region": "DE",
+          "officialId": "BR-Drs. 523/26"
+        },
+        {
+          "region": "DE",
+          "officialId": "BR-Drs. 519/26"
+        },
+        {
+          "region": "DE",
+          "officialId": "BR-Drs. 520/26"
+        },
+        {
+          "region": "DE",
+          "officialId": "BR-Drs. 487/26"
+        },
+        {
+          "region": "DE",
+          "officialId": "BR-Drs. 530/26"
+        },
+        {
+          "region": "DE",
+          "officialId": "BR-Drs. 486/26"
+        },
+        {
+          "region": "DE",
+          "officialId": "BR-Drs. 524/26"
+        },
+        {
+          "region": "DE",
+          "officialId": "BR-Drs. 526/26"
+        },
+        {
+          "region": "DE",
+          "officialId": "BR-Drs. 515/26"
+        },
+        {
+          "region": "DE",
+          "officialId": "BR-Drs. 542/26"
+        }
+      ],
+      "appliesFromExport": "2026-10-10T10:19:26.897Z"
+    },
+    {
+      "id": "de-single-projects-2026-10",
+      "reason": [
+        "关于具体建设项目、资助对象或单个企业的决定或通报，只涉及该项目，不是普遍适用的新规则。",
+        "A decision or notice about one construction project, funding recipient or company. It concerns only that case and is not a new general rule."
+      ],
+      "basis": "Read: bridge opening, dyke works, excellence-university selection, one investment-screening prohibition and a Bundestag resolution on a rail project report.",
+      "documents": [
+        {
+          "region": "DE",
+          "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-de-ausbaustrecke-1222180",
+          "title": "Zusätzliche Lärmvorsorge für Schienenneubau­strecke Hannover – Hamburg"
+        },
+        {
+          "region": "DE",
+          "url": "https://www.bundesregierung.de/breg-de/bundesregierung/bundeskanzleramt/kabinettssitzungen/bundeskabinett-ergebnisse-2455982#top1-26",
+          "title": "Untersagung in einem Investitionsprüffall"
+        },
+        {
+          "region": "DE-BB",
+          "url": "https://mil.brandenburg.de/mil/de/presse/detail/~02-10-2026-verkehsfreigabe-bruecke-b1-wust",
+          "title": "Brücke Wust freigegeben: Wartezeiten am Bahnübergang entfallen"
+        },
+        {
+          "region": "DE-SN",
+          "url": "https://www.medienservice.sachsen.de/medien/news/1100335",
+          "title": "Hochwasserschutzdeich an der Elbe in Dresden-Kaditz wird erhöht - Elberadweg muss weiträumig umgeleitet werden"
+        },
+        {
+          "region": "DE-NW",
+          "url": "https://www.land.nrw/pressemitteilung/nordrhein-westfalen-bundesweit-der-spitze-koeln-und-der-verbund-bochumdortmund",
+          "title": "Nordrhein-Westfalen bundesweit an der Spitze: Köln und der Verbund Bochum/Dortmund werden Exzellenzuniversitäten"
+        }
+      ],
+      "appliesFromExport": "2026-10-10T10:19:26.897Z"
+    },
+    {
+      "id": "de-information-campaigns-2026-10",
+      "reason": [
+        "宣传活动或一般性信息，不改变任何规则、费用或待遇。",
+        "An information campaign or general announcement. It changes no rule, charge or entitlement."
+      ],
+      "basis": "Read: an animal-vaccination awareness campaign and a monthly round-up page of several unrelated measures, each measure standing on its own documents.",
+      "documents": [
+        {
+          "region": "DE-SN",
+          "url": "https://www.medienservice.sachsen.de/medien/news/1100319",
+          "title": "»Schütze, was dir wichtig ist« – Kampagne wirbt für Impfschutz für Tiere"
+        },
+        {
+          "region": "DE",
+          "url": "https://www.bundesregierung.de/breg-de/suche/gesetzliche-neuregelungen-oktober-2026-2454624",
+          "title": "Gesetzliche Neuregelungen im Oktober 2026"
+        }
+      ],
+      "appliesFromExport": "2026-10-10T10:19:26.897Z"
+    },
+    {
+      "id": "de-internal-administration-2026-10",
+      "reason": [
+        "只调整政府内部的主管机关、办事分工或内部程序期限，对公众的权利、义务和费用没有改变。",
+        "It only reassigns responsibilities or extends an internal procedural deadline inside the administration; rights, obligations and charges for the public do not change."
+      ],
+      "basis": "Read: Bremen Gazette No. 98 (competence for notary matters) and No. 100 (electronic-file transition extended to 31 December 2026); Rhineland-Palatinate committee resolution minutes of 2 October.",
+      "documents": [
+        {
+          "region": "DE-RP",
+          "url": "https://dokumente.landtag.rlp.de/landtag/ausschuesse/umwelta-b-3-19.pdf",
+          "title": "环境等事务委员会会议决定记录（正文待核实）"
+        },
+        {
+          "region": "DE-HB",
+          "url": "https://www.gesetzblatt.bremen.de/fastmedia/218/2026_10_01_GBl_Nr_0098_signed.pdf",
+          "title": "Gesetzblatt 2026 Nr. 98"
+        },
+        {
+          "region": "DE-HB",
+          "url": "https://www.gesetzblatt.bremen.de/fastmedia/218/2026_10_01_GBl_Nr_0100_signed.pdf",
+          "title": "Gesetzblatt 2026 Nr. 100"
+        }
+      ],
+      "appliesFromExport": "2026-10-10T10:19:26.897Z"
+    },
+    {
+      "id": "de-bt-commemorations-2026-10",
+      "reason": [
+        "议会纪念活动，不作立法决定，不改变规则。",
+        "A parliamentary commemoration. It makes no legislative decision and changes no rule."
+      ],
+      "basis": "Bundestag commemoration of the Babyn Yar massacre.",
+      "documents": [
+        {
+          "region": "DE",
+          "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-de-babyn-jar-1222766",
+          "title": "Bundestag erinnert an das Massaker von Babyn Jar in der Ukraine vor 85 Jahren"
+        }
+      ],
+      "appliesFromExport": "2026-10-10T15:09:13.764Z"
+    },
+    {
+      "id": "de-bt-agenda-summaries-2026-09",
+      "reason": [
+        "联邦议院议程汇总页：一次列出多项无辩论表决或转交委员会的事项，本身不是单一政策；其中各项法案以各自的文件为准。",
+        "A Bundestag agenda summary listing several items voted on or referred to committees without debate. It is not one policy; each bill in it stands on its own documents."
+      ],
+      "basis": "The archived page is the 24 September summary of referrals without debate (sustainable aviation fuel, aircraft noise, financial-account and crypto information exchange, and more).",
+      "documents": [
+        {
+          "region": "DE",
+          "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw42-de-flugkraftstoffe-1223604",
+          "title": "Abstimmung über Gesetzentwürfe zur Regelung des Flugverkehrs"
+        }
+      ],
+      "appliesFromExport": "2026-10-10T15:18:58.703Z"
+    }
+  ]
 }

@@ -2096,7 +2096,13 @@
           "title": "Sachverständige begrüßen Einführung der EUDI-Wallet "
         }
       ],
-      "appliesFromExport": "2026-10-09T16:51:41.086Z"
+      "appliesFromExport": "2026-10-09T16:51:41.086Z",
+      "explanations": [
+        {
+          "id": "de-eudi-wallet-2026",
+          "appliesFromExport": "2026-10-10T15:09:13.764Z"
+        }
+      ]
     },
     {
       "id": "de-aspides-extension-2026",
@@ -2117,7 +2123,13 @@
           "title": "Bundeswehreinsatz im Roten Meer soll fortgeführt werden"
         }
       ],
-      "appliesFromExport": "2026-10-09T16:51:41.086Z"
+      "appliesFromExport": "2026-10-09T16:51:41.086Z",
+      "explanations": [
+        {
+          "id": "de-aspides-mandate-2026",
+          "appliesFromExport": "2026-10-10T15:09:13.764Z"
+        }
+      ]
     },
     {
       "id": "de-unmiss-extension-2026",
@@ -2138,7 +2150,13 @@
           "title": "Verlängerung des Bundeswehreinsatzes in Südsudan"
         }
       ],
-      "appliesFromExport": "2026-10-09T16:51:41.086Z"
+      "appliesFromExport": "2026-10-09T16:51:41.086Z",
+      "explanations": [
+        {
+          "id": "de-unmiss-mandate-2026",
+          "appliesFromExport": "2026-10-10T15:09:13.764Z"
+        }
+      ]
     },
     {
       "id": "de-ukraine-claims-2026",
@@ -2159,7 +2177,13 @@
           "title": "Einrichtung einer interna­tionalen Schadensersatz­kommission für die Ukraine"
         }
       ],
-      "appliesFromExport": "2026-10-09T16:51:41.086Z"
+      "appliesFromExport": "2026-10-09T16:51:41.086Z",
+      "explanations": [
+        {
+          "id": "de-ukraine-claims-commission-2026",
+          "appliesFromExport": "2026-10-10T15:09:13.764Z"
+        }
+      ]
     },
     {
       "id": "de-fuel-emissions-2026",
@@ -2180,7 +2204,13 @@
           "title": "Gesetz zum Brennstoffemissionshandel auf dem Prüfstand "
         }
       ],
-      "appliesFromExport": "2026-10-09T16:51:41.086Z"
+      "appliesFromExport": "2026-10-09T16:51:41.086Z",
+      "explanations": [
+        {
+          "id": "de-co2-price-corridor-2027",
+          "appliesFromExport": "2026-10-10T15:01:36.539Z"
+        }
+      ]
     },
     {
       "id": "de-starter-pension-2026",
@@ -2201,7 +2231,13 @@
           "title": "Finanzwirtschaft lobt die Frühstartrente"
         }
       ],
-      "appliesFromExport": "2026-10-09T16:51:41.086Z"
+      "appliesFromExport": "2026-10-09T16:51:41.086Z",
+      "explanations": [
+        {
+          "id": "de-starter-pension-2027",
+          "appliesFromExport": "2026-10-10T15:01:36.539Z"
+        }
+      ]
     },
     {
       "id": "de-transport-administration-2026",
@@ -2220,9 +2256,21 @@
           "region": "DE",
           "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-de-buerokratierueckbau-1217570",
           "title": "Abgesetzt: Debatte zum Bürokratierückbau im Verkehrsbereich"
+        },
+        {
+          "region": "DE",
+          "url": "https://www.bundesregierung.de/breg-de/bundesregierung/bundeskanzleramt/kabinettssitzungen/bundeskabinett-ergebnisse-2455982#top1-23",
+          "title": "Entwurf eines Gesetzes zum Bürokratierückbau im Verkehrsbereich; hier: Entwurf einer Gegenäußerung der Bundesregierung zur Stellungnahme des Bundesrates (BR-Drs. 465/26 – Beschluss)",
+          "appliesFromExport": "2026-10-10T15:09:13.764Z"
         }
       ],
-      "appliesFromExport": "2026-10-09T16:51:41.086Z"
+      "appliesFromExport": "2026-10-09T16:51:41.086Z",
+      "explanations": [
+        {
+          "id": "de-transport-bureaucracy-2026",
+          "appliesFromExport": "2026-10-10T15:09:13.764Z"
+        }
+      ]
     },
     {
       "id": "de-income-tax-reform-2027",
@@ -2239,6 +2287,12 @@
         {
           "region": "DE",
           "officialId": "BR-Drs. 507/1/26"
+        },
+        {
+          "region": "DE",
+          "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-de-einkommensteuerreform-1217520",
+          "title": "Einkommensteuerreformgesetz soll kleine und mittlere Einkommen entlasten",
+          "appliesFromExport": "2026-10-10T15:01:36.539Z"
         }
       ],
       "appliesFromExport": "2026-10-09T19:51:01.868Z"
@@ -2258,6 +2312,11 @@
         {
           "region": "DE",
           "officialId": "BT-Drs. 21/8236"
+        },
+        {
+          "region": "DE",
+          "officialId": "https://www.bundesregierung.de/breg-de/aktuelles/niedrigere-netzentgelte-2382396",
+          "appliesFromExport": "2026-10-10T15:01:36.539Z"
         }
       ],
       "appliesFromExport": "2026-10-09T19:51:01.868Z"
@@ -2323,7 +2382,13 @@
           "title": "Entwurf eines Gesetzes zur Reform der Steuerberaterprüfung"
         }
       ],
-      "appliesFromExport": "2026-10-09T20:20:19.903Z"
+      "appliesFromExport": "2026-10-09T20:20:19.903Z",
+      "explanations": [
+        {
+          "id": "de-tax-adviser-exam-2026",
+          "appliesFromExport": "2026-10-10T15:09:13.764Z"
+        }
+      ]
     },
     {
       "id": "fr-additional-birth-leave-2026",
@@ -2343,6 +2408,1152 @@
         }
       ],
       "appliesFromExport": "2026-10-10T09:59:09.410Z"
+    },
+    {
+      "id": "de-bafoeg-reform-2027",
+      "title": [
+        "德国学生助学金（BAföG）第30次修订",
+        "Germany: 30th amendment of student aid (BAföG)"
+      ],
+      "basis": "The Bundestag first-reading notice names bill 21/8405 (30. BAföGÄndG); the cabinet item is the government’s reply to the Bundesrat’s opinion on the same bill (BR-Drs. 457/26).",
+      "explanations": [
+        "de-bafoeg-reform-2027"
+      ],
+      "documents": [
+        {
+          "region": "DE",
+          "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw42-de-bafoeg-1223582",
+          "title": "Erste Lesung zur geplanten BAföG-Novelle"
+        },
+        {
+          "region": "DE",
+          "url": "https://www.bundesregierung.de/breg-de/bundesregierung/bundeskanzleramt/kabinettssitzungen/bundeskabinett-ergebnisse-2455982#top1-03",
+          "title": "Entwurf eines Dreißigsten Gesetzes zur Änderung des Bundesausbildungsförderungsgesetzes und anderer Gesetze (30. BAföGÄndG); hier: Entwurf einer Gegenäußerung der Bundesregierung zur Stellungnahme des Bundesrates (BR-Drs. 457/26 – Beschluss)"
+        }
+      ],
+      "appliesFromExport": "2026-10-10T10:23:41.797Z"
+    },
+    {
+      "id": "de-afbg-reform-2027",
+      "title": [
+        "德国进修晋升资助（晋升BAföG）第5次修订",
+        "Germany: fifth amendment of upgrading-training aid (AFBG)"
+      ],
+      "basis": "The Bundestag notice names bill 21/8412 (fifth AFBG amendment); the cabinet item is the reply to the Bundesrat’s opinion on the same bill (BR-Drs. 454/26).",
+      "explanations": [
+        "de-afbg-reform-2027"
+      ],
+      "documents": [
+        {
+          "region": "DE",
+          "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw42-de-aufstiegsfortbildung-1223570",
+          "title": "Beratung der Novelle des Aufstiegsfortbildungs­förderungsgesetzes"
+        },
+        {
+          "region": "DE",
+          "url": "https://www.bundesregierung.de/breg-de/bundesregierung/bundeskanzleramt/kabinettssitzungen/bundeskabinett-ergebnisse-2455982#top1-07",
+          "title": "Entwurf eines Fünften Gesetzes zur Änderung des Aufstiegsfortbildungsförderungsgesetzes; hier: Entwurf einer Gegenäußerung der Bundesregierung zur Stellungnahme des Bundesrates (BR-Drs. 454/26 – Beschluss)"
+        }
+      ],
+      "appliesFromExport": "2026-10-10T10:23:41.797Z"
+    },
+    {
+      "id": "de-housing-benefit-cuts-2027",
+      "title": [
+        "德国住房补贴（Wohngeld）改革草案",
+        "Germany: housing benefit (Wohngeld) reform bill"
+      ],
+      "basis": "The Bundestag report covers the first reading of government bill 21/8284.",
+      "explanations": [
+        "de-housing-benefit-cuts-2027"
+      ],
+      "documents": [
+        {
+          "region": "DE",
+          "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-de-wohngeldgesetz-1217564",
+          "title": "Vereinfachung und Fortentwicklung des Wohngeldgesetzes"
+        }
+      ],
+      "appliesFromExport": "2026-10-10T10:23:41.797Z"
+    },
+    {
+      "id": "de-social-insurance-ceilings-2027",
+      "title": [
+        "德国2027年社保计费收入上限",
+        "Germany: 2027 social insurance earnings ceilings"
+      ],
+      "basis": "The cabinet notice of 7 October announces the 2027 social insurance calculation values regulation that the existing explanation covers.",
+      "explanations": [
+        "de-social-insurance-ceilings-2027"
+      ],
+      "documents": [
+        {
+          "region": "DE",
+          "url": "https://www.bundesregierung.de/breg-de/bundesregierung/bundeskanzleramt/beitragsbemessungsgrenzen-2027-2454638",
+          "title": "Sozialversicherung: Beitragsbemessungsgrenzen sollen ab 2027 steigen"
+        }
+      ],
+      "appliesFromExport": "2026-10-10T15:01:36.539Z"
+    },
+    {
+      "id": "de-emergency-care-reform-2026",
+      "title": [
+        "德国急诊改革法案（含医保节支法后续修正）",
+        "Germany: emergency care reform bill (with follow-up changes to the health-insurance savings law)"
+      ],
+      "basis": "Both Bundestag pages concern bill 21/6808: the vote notice, and the hearing on coalition amendments to be adopted with that bill.",
+      "explanations": [
+        "de-emergency-care-reform-2026"
+      ],
+      "documents": [
+        {
+          "region": "DE",
+          "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw42-de-notfallversorgung-1223578",
+          "title": "Bundestag entscheidet über die Reform der Notfallversorgung"
+        },
+        {
+          "region": "DE",
+          "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-pa-gesundheit-1217920",
+          "title": "Lob der Verbände für geplante Entlastungen im GKV-Sparpaket"
+        }
+      ],
+      "appliesFromExport": "2026-10-10T15:05:47.913Z"
+    },
+    {
+      "id": "de-tobacco-tax-2027",
+      "title": [
+        "德国烟草税上调草案",
+        "Germany: tobacco tax increase bill"
+      ],
+      "basis": "Hearing report on government bill 21/7859.",
+      "explanations": [
+        "de-tobacco-tax-2027"
+      ],
+      "documents": [
+        {
+          "region": "DE",
+          "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-pa-finanzen-tabaksteuer-1218102",
+          "title": "Tabakwirtschaft warnt vor zu starken Steuererhöhungen "
+        }
+      ],
+      "appliesFromExport": "2026-10-10T15:05:47.913Z"
+    },
+    {
+      "id": "de-driving-school-reform-2026",
+      "title": [
+        "德国驾校与驾照培训改革草案",
+        "Germany: driving-school and licence training reform bill"
+      ],
+      "basis": "Hearing report on government bill 21/7404.",
+      "explanations": [
+        "de-driving-school-reform-2026"
+      ],
+      "documents": [
+        {
+          "region": "DE",
+          "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-pa-verkehr-1211240",
+          "title": "Führerscheinreform unter Sachverständigen umstritten"
+        }
+      ],
+      "appliesFromExport": "2026-10-10T15:05:47.913Z"
+    },
+    {
+      "id": "de-eeg-reform-2027",
+      "title": [
+        "德国可再生能源法（EEG 2027）改革草案",
+        "Germany: renewable energy law (EEG 2027) reform bill"
+      ],
+      "basis": "Hearing report on government bill 21/7867.",
+      "explanations": [
+        "de-eeg-reform-2027"
+      ],
+      "documents": [
+        {
+          "region": "DE",
+          "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-pa-wirtschaft-stromsektor-1218072",
+          "title": "Experten: Beim Ausbau erneuerbarer Energien nicht nachlassen"
+        }
+      ],
+      "appliesFromExport": "2026-10-10T15:05:47.913Z"
+    },
+    {
+      "id": "de-kita-quality-act-2027",
+      "title": [
+        "德国托育起步机会与质量法草案",
+        "Germany: childcare start-opportunities and quality bill"
+      ],
+      "basis": "The Bundestag report names bill 21/8239 (Startchancen- und Qualitätsentwicklungsgesetz); the Bundesrat item is the same government bill (BR-Drs. 505/26).",
+      "documents": [
+        {
+          "region": "DE",
+          "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-de-startchancengesetz-1217528",
+          "title": "Qualitätsentwicklung in der Kindertagesbetreuung beraten"
+        },
+        {
+          "region": "DE",
+          "officialId": "BR-Drs. 505/26"
+        }
+      ],
+      "appliesFromExport": "2026-10-10T15:05:47.913Z"
+    },
+    {
+      "id": "de-care-insurance-reform-pnog",
+      "title": [
+        "德国护理保险改革法（PNOG）草案",
+        "Germany: long-term care insurance reform bill (PNOG)"
+      ],
+      "basis": "Health ministry notice of the cabinet decision on the PNOG.",
+      "explanations": [
+        "de-care-insurance-reform-pnog"
+      ],
+      "documents": [
+        {
+          "region": "DE",
+          "url": "https://www.bundesgesundheitsministerium.de/presse/pressemitteilungen/kabinett-beschliesst-pflegeneuordnungsgesetz",
+          "title": "Kabinett beschließt Pflegeneuordnungsgesetz"
+        }
+      ],
+      "appliesFromExport": "2026-10-10T15:05:47.913Z"
+    },
+    {
+      "id": "de-cooperative-law-2026",
+      "title": [
+        "德国合作社法改革草案",
+        "Germany: cooperative law reform bill"
+      ],
+      "basis": "Bundestag notice names bill 21/8410; cabinet item is the reply to the Bundesrat opinion (BR-Drs. 459/26) on the same bill.",
+      "explanations": [
+        "de-cooperative-law-2026"
+      ],
+      "documents": [
+        {
+          "region": "DE",
+          "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw42-de-genossenschaften-1223574",
+          "title": "Regierung plant Modernisierung des Genossenschaftsrechts"
+        },
+        {
+          "region": "DE",
+          "url": "https://www.bundesregierung.de/breg-de/bundesregierung/bundeskanzleramt/kabinettssitzungen/bundeskabinett-ergebnisse-2455982#top1-05",
+          "title": "Entwurf eines Gesetzes zur Stärkung der genossenschaftlichen Rechtsform; hier: Entwurf einer Gegenäußerung der Bundesregierung zur Stellungnahme des Bundesrates (BR-Drs. 459/26 – Beschluss)"
+        }
+      ],
+      "appliesFromExport": "2026-10-10T15:09:13.764Z"
+    },
+    {
+      "id": "de-reserve-service-2026",
+      "title": [
+        "德国预备役强化法草案",
+        "Germany: reserve strengthening bill"
+      ],
+      "basis": "Bundestag notice names bill 21/8407 (Reservestärkungsgesetz); cabinet item is the reply on the same bill.",
+      "explanations": [
+        "de-reserve-service-2026"
+      ],
+      "documents": [
+        {
+          "region": "DE",
+          "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw42-de-reservestaerkungsgesetz-1223596",
+          "title": "Reservistendienst in der Bundeswehr soll neu geregelt werden"
+        },
+        {
+          "region": "DE",
+          "url": "https://www.bundesregierung.de/breg-de/bundesregierung/bundeskanzleramt/kabinettssitzungen/bundeskabinett-ergebnisse-2455982#top1-21",
+          "title": "Entwurf eines Gesetzes zur Stärkung der Reserve (Reservestärkungsgesetz – ResStG); hier: Entwurf einer Gegenäußerung der Bundesregierung zur Stellungnahme des Bundesrates (BR-Drs. 463/26 – Beschluss)"
+        }
+      ],
+      "appliesFromExport": "2026-10-10T15:09:13.764Z"
+    },
+    {
+      "id": "de-bundeswehr-infrastructure-2026",
+      "title": [
+        "德国国防军基础设施加速法草案",
+        "Germany: Bundeswehr infrastructure acceleration bill"
+      ],
+      "basis": "Bundestag notice names bill 21/8409; cabinet item is the reply on the same bill.",
+      "explanations": [
+        "de-bundeswehr-infrastructure-2026"
+      ],
+      "documents": [
+        {
+          "region": "DE",
+          "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw42-de-bundeswehr-infrastruktur-1223614",
+          "title": "Erste Lesung zum Bundeswehr-Infrastrukturbeschleunigungsgesetz"
+        },
+        {
+          "region": "DE",
+          "url": "https://www.bundesregierung.de/breg-de/bundesregierung/bundeskanzleramt/kabinettssitzungen/bundeskabinett-ergebnisse-2455982#top1-22",
+          "title": "Entwurf eines Bundeswehr-Infrastrukturbeschleunigungsgesetzes; hier: Entwurf einer Gegenäußerung der Bundesregierung zur Stellungnahme des Bundesrates (BR-Drs. 464/26 – Beschluss)"
+        }
+      ],
+      "appliesFromExport": "2026-10-10T15:09:13.764Z"
+    },
+    {
+      "id": "de-terror-victims-commissioner-2026",
+      "title": [
+        "德国联邦恐袭受害者专员法草案",
+        "Germany: federal victims’ commissioner bill"
+      ],
+      "basis": "Bundestag notice names bill 21/8413; cabinet item is the reply (BR-Drs. 460/26) on the same bill.",
+      "explanations": [
+        "de-terror-victims-commissioner-2026"
+      ],
+      "documents": [
+        {
+          "region": "DE",
+          "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw42-de-bundesopferbeauftragtengesetz-1223618",
+          "title": "Entwurf für ein Bundesopferbeauftragtengesetz"
+        },
+        {
+          "region": "DE",
+          "url": "https://www.bundesregierung.de/breg-de/bundesregierung/bundeskanzleramt/kabinettssitzungen/bundeskabinett-ergebnisse-2455982#top1-06",
+          "title": "Entwurf eines Gesetzes über eine Beauftragte oder einen Beauftragten der Bundesregierung für die Anliegen von Betroffenen von terroristischen Straftaten im Inland (Bundesopferbeauftragtengesetz – BOpfBeG); hier: Entwurf einer Gegenäußerung der Bundesregierung zur Stellungnahme des Bundesrates (BR-Drs. 460/26 – Beschluss)"
+        }
+      ],
+      "appliesFromExport": "2026-10-10T15:09:13.764Z"
+    },
+    {
+      "id": "de-flight-expulsion-foundation-2026",
+      "title": [
+        "“逃亡、驱逐与和解”基金会法草案",
+        "Germany: Flight, Expulsion, Reconciliation foundation bill"
+      ],
+      "basis": "Bundestag notice names bill 21/8411; cabinet item is the reply (BR-Drs. 449/26) on the same bill.",
+      "explanations": [
+        "de-flight-expulsion-foundation-2026"
+      ],
+      "documents": [
+        {
+          "region": "DE",
+          "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw42-de-stiftung-flucht-1223616",
+          "title": "Selbstständigkeit der Stiftung Flucht, Vertreibung, Versöhnung"
+        },
+        {
+          "region": "DE",
+          "url": "https://www.bundesregierung.de/breg-de/bundesregierung/bundeskanzleramt/kabinettssitzungen/bundeskabinett-ergebnisse-2455982#top1-02",
+          "title": "Entwurf eines Gesetzes zur Stiftung Flucht, Vertreibung, Versöhnung; hier: Entwurf einer Gegenäußerung der Bundesregierung zur Stellungnahme des Bundesrates (BR-Drs. 449/26 – Beschluss)"
+        }
+      ],
+      "appliesFromExport": "2026-10-10T15:09:13.764Z"
+    },
+    {
+      "id": "de-arbitration-law-2026",
+      "title": [
+        "德国仲裁法现代化草案",
+        "Germany: arbitration law modernisation bill"
+      ],
+      "basis": "Bundestag notice names bill 21/8414; cabinet item is the reply (BR-Drs. 458/26) on the same bill.",
+      "explanations": [
+        "de-arbitration-law-2026"
+      ],
+      "documents": [
+        {
+          "region": "DE",
+          "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw42-de-schiedsverfahrensrecht-1223634",
+          "title": "Erste Lesung zur Modernisierung des Schiedsverfahrensrechts"
+        },
+        {
+          "region": "DE",
+          "url": "https://www.bundesregierung.de/breg-de/bundesregierung/bundeskanzleramt/kabinettssitzungen/bundeskabinett-ergebnisse-2455982#top1-04",
+          "title": "Entwurf eines Gesetzes zur Modernisierung des Schiedsverfahrensrechts sowie zu weiteren Änderungen der Zivilprozessordnung im Bereich des internationalen Zivilverfahrensrechts; hier: Entwurf einer Gegenäußerung der Bundesregierung zur Stellungnahme des Bundesrates (BR-Drs. 458/26 – Beschluss)"
+        }
+      ],
+      "appliesFromExport": "2026-10-10T15:09:13.764Z"
+    },
+    {
+      "id": "de-cap-farm-simplification-2026",
+      "title": [
+        "德国落实欧盟农业补贴简化草案",
+        "Germany: implementing EU farm-subsidy simplification"
+      ],
+      "basis": "Bundestag report on government bill 21/7407.",
+      "explanations": [
+        "de-cap-farm-simplification-2026"
+      ],
+      "documents": [
+        {
+          "region": "DE",
+          "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw42-de-gap-1223606",
+          "title": "Entlastung landwirtschaftlicher Betriebe von Bürokratieaufwand"
+        }
+      ],
+      "appliesFromExport": "2026-10-10T15:09:13.764Z"
+    },
+    {
+      "id": "de-agriculture-bureaucracy-2026",
+      "title": [
+        "德国农业等领域减少官僚程序草案",
+        "Germany: agriculture bureaucracy reduction bill"
+      ],
+      "basis": "Bundestag notice names bill 21/8408; cabinet item is the reply (BR-Drs. 437/26) on the same bill.",
+      "explanations": [
+        "de-agriculture-bureaucracy-2026"
+      ],
+      "documents": [
+        {
+          "region": "DE",
+          "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw42-de-buerokratierueckbau-agrar-1223612",
+          "title": "Gesetzentwurf zum Bürokratierückbau in der Landwirtschaft"
+        },
+        {
+          "region": "DE",
+          "url": "https://www.bundesregierung.de/breg-de/bundesregierung/bundeskanzleramt/kabinettssitzungen/bundeskabinett-ergebnisse-2455982#top1-09",
+          "title": "Entwurf eines Gesetzes für Bürokratierückbau im Bereich des Bundesministeriums für Landwirtschaft, Ernährung und Heimat sowie in weiteren Bereichen; hier: Entwurf einer Gegenäußerung der Bundesregierung zur Stellungnahme des Bundesrates (BR-Drs. 437/26 – Beschluss)"
+        }
+      ],
+      "appliesFromExport": "2026-10-10T15:09:13.764Z"
+    },
+    {
+      "id": "de-radiation-protection-2026",
+      "title": [
+        "德国辐射防护法简化草案",
+        "Germany: radiation protection simplification bill"
+      ],
+      "basis": "Both Bundestag pages report the dropped first reading of the same government bill; cabinet item is the reply (BR-Drs. 461/26) on it.",
+      "explanations": [
+        "de-radiation-protection-2026"
+      ],
+      "documents": [
+        {
+          "region": "DE",
+          "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw42-de-strahlenschutzrecht-1223620",
+          "title": "Modernisierung des Strahlenschutzrechts"
+        },
+        {
+          "region": "DE",
+          "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-de-strahlenschutzrecht-1217560",
+          "title": "Abgesetzt: Modernisierung des Strahlenschutzrechts"
+        },
+        {
+          "region": "DE",
+          "url": "https://www.bundesregierung.de/breg-de/bundesregierung/bundeskanzleramt/kabinettssitzungen/bundeskabinett-ergebnisse-2455982#top1-08",
+          "title": "Entwurf eines Gesetzes zum Bürokratierückbau, zur Digitalisierung und zur weiteren Modernisierung des Strahlenschutzrechts; hier: Entwurf einer Gegenäußerung der Bundesregierung zur Stellungnahme des Bundesrates (BR-Drs. 461/26 – Beschluss)"
+        }
+      ],
+      "appliesFromExport": "2026-10-10T15:09:13.764Z"
+    },
+    {
+      "id": "de-fiscal-equalisation-2026",
+      "title": [
+        "德国2026年财政平衡法修订草案",
+        "Germany: 2026 Fiscal Equalisation Act amendment"
+      ],
+      "basis": "Bundesrat item 21 (BR-Drs. 506/26) and the cabinet reply concern the same government bill (FAG-Änderungsgesetz 2026).",
+      "documents": [
+        {
+          "region": "DE",
+          "officialId": "BR-Drs. 506/26"
+        },
+        {
+          "region": "DE",
+          "url": "https://www.bundesregierung.de/breg-de/bundesregierung/bundeskanzleramt/kabinettssitzungen/bundeskabinett-ergebnisse-2455982#top1-25",
+          "title": "Entwurf eines Gesetzes zur Änderung des Finanzausgleichsgesetzes 2026 (FAG-Änderungsgesetz 2026); hier: Entwurf einer Formulierungshilfe für einen Änderungsantrag der Fraktionen der CDU/CSU und der SPD (Länderbeitrag Absenkung Energiesteuer)"
+        }
+      ],
+      "appliesFromExport": "2026-10-10T15:13:06.107Z"
+    },
+    {
+      "id": "de-offshore-wind-2027",
+      "title": [
+        "德国海上风电法改革草案",
+        "Germany: offshore wind law reform bill"
+      ],
+      "basis": "Bundesrat item 23 (BR-Drs. 508/26) and the Bundestag first-reading report concern the same government bill.",
+      "documents": [
+        {
+          "region": "DE",
+          "officialId": "BR-Drs. 508/26"
+        },
+        {
+          "region": "DE",
+          "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-de-windenergie-auf-see-1217556",
+          "title": "Optimierung des Ausbaus der Windenergie auf See"
+        }
+      ],
+      "appliesFromExport": "2026-10-10T15:13:06.107Z"
+    },
+    {
+      "id": "de-telecom-network-rollout-2026",
+      "title": [
+        "德国电信法修订草案（网络建设）",
+        "Germany: telecoms act amendment (network roll-out)"
+      ],
+      "basis": "Bundestag report on bill 21/8277.",
+      "explanations": [
+        "de-telecom-network-rollout-2026"
+      ],
+      "documents": [
+        {
+          "region": "DE",
+          "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-de-telekommunikationsnetze-1217568",
+          "title": "Debatte über schnelleren Ausbau von Glasfaser- und Mobilfunknetzen"
+        }
+      ],
+      "appliesFromExport": "2026-10-10T15:18:58.703Z"
+    },
+    {
+      "id": "de-customs-financial-crime-2026",
+      "title": [
+        "德国海关改革和打击金融犯罪草案",
+        "Germany: customs reform and financial-crime bill"
+      ],
+      "basis": "Bundestag report on bill 21/8282.",
+      "explanations": [
+        "de-customs-financial-crime-2026"
+      ],
+      "documents": [
+        {
+          "region": "DE",
+          "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-de-finanzkriminalitaet-1217574",
+          "title": "Stärkung der Zollverwaltung und Bekämpfung der Finanzkriminalität"
+        }
+      ],
+      "appliesFromExport": "2026-10-10T15:18:58.703Z"
+    },
+    {
+      "id": "de-biomass-regulation-2026",
+      "title": [
+        "德国生物质条例修订",
+        "Germany: biomass regulation amendment"
+      ],
+      "basis": "Hearing report on draft regulation 21/6810.",
+      "explanations": [
+        "de-biomass-regulation-2026"
+      ],
+      "documents": [
+        {
+          "region": "DE",
+          "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-pa-wirtschaft-biomasse-1218062",
+          "title": "Kritik an der Biomasseverordnung"
+        }
+      ],
+      "appliesFromExport": "2026-10-10T15:18:58.703Z"
+    },
+    {
+      "id": "de-social-admin-digital-roadmap-2026",
+      "title": [
+        "德国社会福利行政数字化路线图",
+        "Germany: social administration digital roadmap"
+      ],
+      "basis": "Labour ministry press release on the roadmap.",
+      "explanations": [
+        "de-social-admin-digital-roadmap-2026"
+      ],
+      "documents": [
+        {
+          "region": "DE",
+          "url": "https://www.bmas.de/DE/Service/Presse/Pressemitteilungen/2026/digitalisierung-der-arbeits-und-sozialverwaltung-roadmap-naechste-schritte.html",
+          "title": "Digitalisierung der Arbeits- und Sozialverwaltung: Roadmap für die nächsten Schritte steht"
+        }
+      ],
+      "appliesFromExport": "2026-10-10T15:18:58.703Z"
+    },
+    {
+      "id": "de-deforestation-free-products-2026",
+      "title": [
+        "德国零毁林产品法草案",
+        "Germany: deforestation-free products bill"
+      ],
+      "basis": "Bundestag report on bill 21/8278.",
+      "explanations": [
+        "de-deforestation-free-products-2026"
+      ],
+      "documents": [
+        {
+          "region": "DE",
+          "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-de-entwaldungsfreie-produkte-1222198",
+          "title": "Neuregelung des Rechts über entwaldungsfreie Produkte debattiert"
+        }
+      ],
+      "appliesFromExport": "2026-10-10T15:18:58.703Z"
+    },
+    {
+      "id": "de-belgium-police-treaty-2026",
+      "title": [
+        "德比警务和海关合作条约批准",
+        "Germany–Belgium police and customs treaty ratification"
+      ],
+      "basis": "Bundestag report on bill 21/8242.",
+      "explanations": [
+        "de-belgium-police-treaty-2026"
+      ],
+      "documents": [
+        {
+          "region": "DE",
+          "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-de-polizeivertrag-belgien-1217562",
+          "title": "Polizei- und Zollzusammenarbeit mit Belgien erörtert"
+        }
+      ],
+      "appliesFromExport": "2026-10-10T15:18:58.703Z"
+    },
+    {
+      "id": "de-child-youth-services-reform-2026",
+      "title": [
+        "德国儿童和青少年福利结构改革草案",
+        "Germany: child and youth services structural reform bill"
+      ],
+      "basis": "Bundestag report on bill 21/8274.",
+      "explanations": [
+        "de-child-youth-services-reform-2026"
+      ],
+      "documents": [
+        {
+          "region": "DE",
+          "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-de-kinder-jugendhilfe-1217552",
+          "title": "Erste Lesung der Strukturreform der Kinder- und Jugendhilfe"
+        }
+      ],
+      "appliesFromExport": "2026-10-10T15:18:58.703Z"
+    },
+    {
+      "id": "de-ai-migration-administration-2026",
+      "title": [
+        "德国移民管理使用人工智能法草案",
+        "Germany: AI in migration administration bill"
+      ],
+      "basis": "Bundestag report on bill 21/8275.",
+      "explanations": [
+        "de-ai-migration-administration-2026"
+      ],
+      "documents": [
+        {
+          "region": "DE",
+          "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-de-ki-migrationsverwaltung-1217550",
+          "title": "Einsatz künstlicher Intelligenz in der Migrationsverwaltung"
+        }
+      ],
+      "appliesFromExport": "2026-10-10T15:18:58.703Z"
+    },
+    {
+      "id": "de-health-data-innovation-2026",
+      "title": [
+        "德国医疗数据与数字创新法草案",
+        "Germany: health data and digital innovation bill"
+      ],
+      "basis": "Bundestag report on bill 21/8279.",
+      "explanations": [
+        "de-health-data-innovation-2026"
+      ],
+      "documents": [
+        {
+          "region": "DE",
+          "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-de-digitale-innovation-1217540",
+          "title": "Digitalisierung im Gesundheitswesen und in der Pflege"
+        }
+      ],
+      "appliesFromExport": "2026-10-10T15:18:58.703Z"
+    },
+    {
+      "id": "de-afd-pension-insurance-bill-2026",
+      "title": [
+        "AfD养老保险独立性法案",
+        "AfD bill on pension insurance independence"
+      ],
+      "basis": "Bundestag report on AfD bill 21/8370.",
+      "explanations": [
+        "de-afd-pension-insurance-bill-2026"
+      ],
+      "documents": [
+        {
+          "region": "DE",
+          "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-de-rentenversicherung-1222458",
+          "title": "Unabhängigkeit der Deutschen Rentenversicherung debattiert"
+        }
+      ],
+      "appliesFromExport": "2026-10-10T15:18:58.703Z"
+    },
+    {
+      "id": "de-academic-fixed-term-contracts-2026",
+      "title": [
+        "德国科研定期合同改革草案",
+        "Germany: academic fixed-term contract reform bill"
+      ],
+      "basis": "Bundestag report on bill 21/8281.",
+      "explanations": [
+        "de-academic-fixed-term-contracts-2026"
+      ],
+      "documents": [
+        {
+          "region": "DE",
+          "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-de-befristungsrecht-1217536",
+          "title": "Reform des Befristungsrechts in der Wissenschaft beraten"
+        }
+      ],
+      "appliesFromExport": "2026-10-10T15:18:58.703Z"
+    },
+    {
+      "id": "de-afd-social-media-bill-2026",
+      "title": [
+        "AfD社交网络言论法案",
+        "AfD social-network speech bill"
+      ],
+      "basis": "Bundestag report on AfD bill 21/8369.",
+      "explanations": [
+        "de-afd-social-media-bill-2026"
+      ],
+      "documents": [
+        {
+          "region": "DE",
+          "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-de-meinungsfreiheit-1217534",
+          "title": "Meinungsfreiheit in den sozialen Netzwerken erörtert"
+        }
+      ],
+      "appliesFromExport": "2026-10-10T15:18:58.703Z"
+    },
+    {
+      "id": "de-autobahn-financing-2026",
+      "title": [
+        "德国高速公路公司融资改革草案",
+        "Germany: Autobahn company financing bill"
+      ],
+      "basis": "Federal government report on the 7 October cabinet bill.",
+      "explanations": [
+        "de-autobahn-financing-2026"
+      ],
+      "documents": [
+        {
+          "region": "DE",
+          "url": "https://www.bundesregierung.de/breg-de/bundesregierung/bundeskanzleramt/modernisierunng-autobahn-gmbh-2456122",
+          "title": "Modernisierung der Autobahnen voranbringen"
+        }
+      ],
+      "appliesFromExport": "2026-10-10T15:18:58.703Z"
+    },
+    {
+      "id": "de-digital-violence-bill-2026",
+      "title": [
+        "德国打击数字暴力法草案",
+        "Germany: digital violence bill"
+      ],
+      "basis": "Federal government report on the 7 October cabinet bill.",
+      "explanations": [
+        "de-digital-violence-bill-2026"
+      ],
+      "documents": [
+        {
+          "region": "DE",
+          "url": "https://www.bundesregierung.de/breg-de/bundesregierung/bundeskanzleramt/kabinett-digitale-gewalt-2455990",
+          "title": "Besserer Schutz vor digitaler Gewalt"
+        }
+      ],
+      "appliesFromExport": "2026-10-10T15:18:58.703Z"
+    },
+    {
+      "id": "de-domestic-violence-family-court-2026",
+      "title": [
+        "德国家暴受害者家事诉讼保护草案",
+        "Germany: domestic violence victims in family courts bill"
+      ],
+      "basis": "Federal government report on the 7 October cabinet bill.",
+      "explanations": [
+        "de-domestic-violence-family-court-2026"
+      ],
+      "documents": [
+        {
+          "region": "DE",
+          "url": "https://www.bundesregierung.de/breg-de/bundesregierung/bundeskanzleramt/schutz-haeusliche-gewalt-2455828",
+          "title": "Mehr Schutz bei häuslicher Gewalt"
+        }
+      ],
+      "appliesFromExport": "2026-10-10T15:18:58.703Z"
+    },
+    {
+      "id": "de-eu-mercosur-ratification-2026",
+      "title": [
+        "德国批准欧盟—南方共同市场协定",
+        "Germany: EU–Mercosur agreement ratification"
+      ],
+      "basis": "Bundestag report on bill 21/8240.",
+      "explanations": [
+        "de-eu-mercosur-ratification-2026"
+      ],
+      "documents": [
+        {
+          "region": "DE",
+          "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-de-mercosur-1217578",
+          "title": "Partnerschaftsabkommen der EU mit den Mercosur-Staaten"
+        }
+      ],
+      "appliesFromExport": "2026-10-10T15:18:58.703Z"
+    },
+    {
+      "id": "de-guardianship-coercive-treatment-2026",
+      "title": [
+        "德国监护法强制医疗规定修订",
+        "Germany: coercive treatment under guardianship law"
+      ],
+      "basis": "Bundestag report on bill 21/7561.",
+      "explanations": [
+        "de-guardianship-coercive-treatment-2026"
+      ],
+      "documents": [
+        {
+          "region": "DE",
+          "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-pa-recht-betreuungsrecht-1201714",
+          "title": "Änderungen bei ärztlichen Zwangsmaßnahmen im Betreuungsrecht"
+        }
+      ],
+      "appliesFromExport": "2026-10-10T15:18:58.703Z"
+    },
+    {
+      "id": "de-ip-address-retention-2026",
+      "title": [
+        "德国IP地址保存法草案",
+        "Germany: IP address retention bill"
+      ],
+      "basis": "Hearing report on bill 21/6581.",
+      "explanations": [
+        "de-ip-address-retention-2026"
+      ],
+      "documents": [
+        {
+          "region": "DE",
+          "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-pa-recht-ip-adressspeicherung-1221516",
+          "title": "Sachverständige uneins bei geplanter IP-Adressspeicherung "
+        }
+      ],
+      "appliesFromExport": "2026-10-10T15:18:58.703Z"
+    },
+    {
+      "id": "de-grid-connection-package-2026",
+      "title": [
+        "德国电网接入一揽子草案",
+        "Germany: grid connection package"
+      ],
+      "basis": "Hearing report on bill 21/7866.",
+      "explanations": [
+        "de-grid-connection-package-2026"
+      ],
+      "documents": [
+        {
+          "region": "DE",
+          "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-pa-wirtschaft-energiewirtschaftsrecht-1217934",
+          "title": "Experten üben heftige Kritik am Redispatch-Vorbehalt"
+        }
+      ],
+      "appliesFromExport": "2026-10-10T15:18:58.703Z"
+    },
+    {
+      "id": "de-bat-chemical-waste-gas-2026",
+      "title": [
+        "化工废气最佳可行技术行政规定",
+        "BAT administrative rules: chemical sector waste gas"
+      ],
+      "basis": "Cabinet TOP-1 item.",
+      "explanations": [
+        "de-bat-chemical-waste-gas-2026"
+      ],
+      "documents": [
+        {
+          "region": "DE",
+          "url": "https://www.bundesregierung.de/breg-de/bundesregierung/bundeskanzleramt/kabinettssitzungen/bundeskabinett-ergebnisse-2455982#top1-10",
+          "title": "Entwurf einer Allgemeinen Verwaltungsvorschrift zur Umsetzung des Durchführungsbeschlusses (EU) 2022/2427 über Schlussfolgerungen zu den besten verfügbaren Techniken in Bezug auf einheitliche Abgasmanagement- und -behandlungssysteme in der Chemiebranche"
+        }
+      ],
+      "appliesFromExport": "2026-10-10T15:18:58.703Z"
+    },
+    {
+      "id": "de-bat-ferrous-metals-2026",
+      "title": [
+        "黑色金属加工最佳可行技术行政规定",
+        "BAT administrative rules: ferrous metals processing"
+      ],
+      "basis": "Cabinet TOP-1 item.",
+      "explanations": [
+        "de-bat-ferrous-metals-2026"
+      ],
+      "documents": [
+        {
+          "region": "DE",
+          "url": "https://www.bundesregierung.de/breg-de/bundesregierung/bundeskanzleramt/kabinettssitzungen/bundeskabinett-ergebnisse-2455982#top1-11",
+          "title": "Entwurf einer Allgemeinen Verwaltungsvorschrift zur Umsetzung des Durchführungsbeschlusses (EU) 2022/2110 über Schlussfolgerungen zu den besten verfügbaren Techniken in Bezug auf die Eisenmetallverarbeitungsindustrie"
+        }
+      ],
+      "appliesFromExport": "2026-10-10T15:18:58.703Z"
+    },
+    {
+      "id": "de-bat-slaughterhouses-2026",
+      "title": [
+        "屠宰及副产品加工最佳可行技术行政规定",
+        "BAT administrative rules: slaughterhouses and by-products"
+      ],
+      "basis": "Cabinet TOP-1 item.",
+      "explanations": [
+        "de-bat-slaughterhouses-2026"
+      ],
+      "documents": [
+        {
+          "region": "DE",
+          "url": "https://www.bundesregierung.de/breg-de/bundesregierung/bundeskanzleramt/kabinettssitzungen/bundeskabinett-ergebnisse-2455982#top1-12",
+          "title": "Entwurf einer Allgemeinen Verwaltungsvorschrift zur Umsetzung des Durchführungsbeschlusses (EU) 2023/2749 über Schlussfolgerungen zu den besten verfügbaren Techniken in Bezug auf Schlachtanlagen und Anlagen zur Verarbeitung tierischer Nebenprodukte und/oder essbarer Schlachtnebenprodukte"
+        }
+      ],
+      "appliesFromExport": "2026-10-10T15:18:58.703Z"
+    },
+    {
+      "id": "de-bat-textiles-2026",
+      "title": [
+        "纺织业最佳可行技术行政规定",
+        "BAT administrative rules: textiles"
+      ],
+      "basis": "Cabinet TOP-1 item.",
+      "explanations": [
+        "de-bat-textiles-2026"
+      ],
+      "documents": [
+        {
+          "region": "DE",
+          "url": "https://www.bundesregierung.de/breg-de/bundesregierung/bundeskanzleramt/kabinettssitzungen/bundeskabinett-ergebnisse-2455982#top1-13",
+          "title": "Entwurf einer Allgemeinen Verwaltungsvorschrift zur Umsetzung des Durchführungsbeschlusses (EU) 2022/2508 über Schlussfolgerungen zu den besten verfügbaren Techniken in Bezug auf die Textilindustrie"
+        }
+      ],
+      "appliesFromExport": "2026-10-10T15:18:58.703Z"
+    },
+    {
+      "id": "de-ta-luft-amendment-2026",
+      "title": [
+        "《空气质量技术指南》修订",
+        "TA Luft amendment"
+      ],
+      "basis": "Cabinet TOP-1 item.",
+      "explanations": [
+        "de-ta-luft-amendment-2026"
+      ],
+      "documents": [
+        {
+          "region": "DE",
+          "url": "https://www.bundesregierung.de/breg-de/bundesregierung/bundeskanzleramt/kabinettssitzungen/bundeskabinett-ergebnisse-2455982#top1-14",
+          "title": "Entwurf einer Allgemeinen Verwaltungsvorschrift zur Änderung der Technischen Anleitung zur Reinhaltung der Luft und zum Erlass von Besonderen Technischen Anleitungen zur Reinhaltung der Luft für bestimmte Anlagenarten"
+        }
+      ],
+      "appliesFromExport": "2026-10-10T15:18:58.703Z"
+    },
+    {
+      "id": "de-deforestation-admin-rules-2026",
+      "title": [
+        "零毁林执行行政规定",
+        "Deforestation enforcement administrative rules"
+      ],
+      "basis": "Cabinet TOP-1 item.",
+      "explanations": [
+        "de-deforestation-admin-rules-2026"
+      ],
+      "documents": [
+        {
+          "region": "DE",
+          "url": "https://www.bundesregierung.de/breg-de/bundesregierung/bundeskanzleramt/kabinettssitzungen/bundeskabinett-ergebnisse-2455982#top1-15",
+          "title": "Entwurf einer Allgemeinen Verwaltungsvorschrift zum Gesetz zur Durchführung der EU-Verordnung für entwaldungsfreie Produkte und zur Änderung der Allgemeinen Verwaltungsvorschrift zum Holzhandels-Sicherungs-Gesetz"
+        }
+      ],
+      "appliesFromExport": "2026-10-10T15:18:58.703Z"
+    },
+    {
+      "id": "de-electric-vehicle-privileges-2026",
+      "title": [
+        "德国电动车优待法延续草案",
+        "Germany: electric vehicle privileges law extension"
+      ],
+      "basis": "Cabinet reply on the same government bill (BR-Drs. 466/26).",
+      "explanations": [
+        "de-electric-vehicle-privileges-2026"
+      ],
+      "documents": [
+        {
+          "region": "DE",
+          "url": "https://www.bundesregierung.de/breg-de/bundesregierung/bundeskanzleramt/kabinettssitzungen/bundeskabinett-ergebnisse-2455982#top1-24",
+          "title": "Entwurf eines Gesetzes zur Änderung der Bevorrechtigung der Verwendung elektrisch betriebener Fahrzeuge sowie damit zusammenhängender straßenverkehrsrechtlicher Vorschriften; hier: Entwurf einer Gegenäußerung der Bundesregierung zur Stellungnahme des Bundesrates (BR-Drs. 466/26 – Beschluss)"
+        }
+      ],
+      "appliesFromExport": "2026-10-10T15:18:58.703Z"
+    },
+    {
+      "id": "de-criminal-mutual-legal-assistance-2026",
+      "title": [
+        "德国国际刑事司法协助法重订草案",
+        "Germany: international mutual legal assistance bill"
+      ],
+      "basis": "Hearing report on bill 21/7558.",
+      "explanations": [
+        "de-criminal-mutual-legal-assistance-2026"
+      ],
+      "documents": [
+        {
+          "region": "DE",
+          "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-pa-recht-strafsachen-1201700",
+          "title": "Experten fordern Rechtsbehelf im Auslieferungs­verfahren "
+        }
+      ],
+      "appliesFromExport": "2026-10-10T15:18:58.703Z"
+    },
+    {
+      "id": "de-associations-act-foreign-2026",
+      "title": [
+        "德国社团法修订草案",
+        "Germany: associations act amendment"
+      ],
+      "basis": "Hearing report on bill 21/6805.",
+      "explanations": [
+        "de-associations-act-foreign-2026"
+      ],
+      "documents": [
+        {
+          "region": "DE",
+          "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-pa-inneres-vereinsgesetz-1221644",
+          "title": "Nachbesserungen am Entwurf zur Änderung des Vereins­gesetzes angemahnt"
+        }
+      ],
+      "appliesFromExport": "2026-10-10T15:18:58.703Z"
+    },
+    {
+      "id": "de-knockout-drops-penalty-2026",
+      "title": [
+        "德国“迷药”犯罪加重处罚草案",
+        "Germany: tougher penalties for knockout drops"
+      ],
+      "basis": "Hearing report on bill 21/7560.",
+      "explanations": [
+        "de-knockout-drops-penalty-2026"
+      ],
+      "documents": [
+        {
+          "region": "DE",
+          "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-pa-recht-k-o-tropfen-1201682",
+          "title": "Experten: Höhere Strafe für Einsatz von K.o.-Tropfen"
+        }
+      ],
+      "appliesFromExport": "2026-10-10T15:18:58.703Z"
+    },
+    {
+      "id": "de-equal-treatment-act-reform-2026",
+      "title": [
+        "德国反歧视法改革草案",
+        "Germany: anti-discrimination act reform"
+      ],
+      "basis": "Hearing report on bill 21/6178.",
+      "explanations": [
+        "de-equal-treatment-act-reform-2026"
+      ],
+      "documents": [
+        {
+          "region": "DE",
+          "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-pa-recht-gleichbehandlung-1221502",
+          "title": "Expertenstreit um die Novelle zum Antidiskriminierungsgesetz "
+        }
+      ],
+      "appliesFromExport": "2026-10-10T15:18:58.703Z"
+    },
+    {
+      "id": "de-energy-efficiency-act-2026",
+      "title": [
+        "德国能效法改革草案",
+        "Germany: energy efficiency act reform"
+      ],
+      "basis": "Bundestag report on bill 21/8027.",
+      "explanations": [
+        "de-energy-efficiency-act-2026"
+      ],
+      "documents": [
+        {
+          "region": "DE",
+          "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-pa-wirtschaft-energieeffizienzrichtlinie-1218082",
+          "title": "Unterschiedliche Bewer­tungen der Umsetzung der EU-Energieeffizienzrichtlinie"
+        }
+      ],
+      "appliesFromExport": "2026-10-10T15:18:58.703Z"
+    },
+    {
+      "id": "de-cyber-defence-act-2026",
+      "title": [
+        "德国网络安全强化法草案",
+        "Germany: cybersecurity bill"
+      ],
+      "basis": "Hearing report on bill 21/6585.",
+      "explanations": [
+        "de-cyber-defence-act-2026"
+      ],
+      "documents": [
+        {
+          "region": "DE",
+          "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-pa-inneres-cybersicherheit-1221640",
+          "title": "Lob und Kritik zum Cyberabwehr-Gesetzentwurf "
+        }
+      ],
+      "appliesFromExport": "2026-10-10T15:18:58.703Z"
+    },
+    {
+      "id": "hb-procurement-wage-law-2026",
+      "title": [
+        "不来梅公共采购法修订",
+        "Bremen procurement law amendment"
+      ],
+      "basis": "Gazette issue No. 99 contains only this law.",
+      "explanations": [
+        "hb-procurement-wage-law-2026"
+      ],
+      "documents": [
+        {
+          "region": "DE-HB",
+          "url": "https://www.gesetzblatt.bremen.de/fastmedia/218/2026_10_01_GBl_Nr_0099_signed.pdf",
+          "title": "Gesetzblatt 2026 Nr. 99"
+        }
+      ],
+      "appliesFromExport": "2026-10-10T15:18:58.703Z"
+    },
+    {
+      "id": "hb-data-protection-fees-2026",
+      "title": [
+        "不来梅数据保护监管收费",
+        "Bremen data protection fees"
+      ],
+      "basis": "Gazette issue No. 97 contains only this regulation.",
+      "explanations": [
+        "hb-data-protection-fees-2026"
+      ],
+      "documents": [
+        {
+          "region": "DE-HB",
+          "url": "https://www.gesetzblatt.bremen.de/fastmedia/218/2026_09_29_GBl_Nr_0097_signed.pdf",
+          "title": "Gesetzblatt 2026 Nr. 97"
+        }
+      ],
+      "appliesFromExport": "2026-10-10T15:18:58.703Z"
+    },
+    {
+      "id": "rp-environmental-fees-power-lines-2026",
+      "title": [
+        "莱法州电力线路审批收费",
+        "Rhineland-Palatinate power-line approval fees"
+      ],
+      "basis": "Gazette record of this regulation.",
+      "explanations": [
+        "rp-environmental-fees-power-lines-2026"
+      ],
+      "documents": [
+        {
+          "region": "DE-RP",
+          "url": "https://upload.open.rlp.de/verkuendung/8af1a218-fc40-4ec5-9c5f-de9fe197fb64/resource/56c7c740-dae6-44be-a850-4c46e3899e2c/download/gvbl.-nr.-30-2026_sealed.pdf",
+          "title": "Zweite Landesverordnung zur Änderung der Landesverordnung über Gebühren auf dem Gebiet des Umweltrechts (Besonderes Gebührenverzeichnis)"
+        }
+      ],
+      "appliesFromExport": "2026-10-10T15:18:58.703Z"
+    },
+    {
+      "id": "rp-civil-servant-pay-2026-2028",
+      "title": [
+        "莱法州公务员薪酬调整2026—2028",
+        "Rhineland-Palatinate civil servant pay 2026–2028"
+      ],
+      "basis": "Gazette record of this law.",
+      "explanations": [
+        "rp-civil-servant-pay-2026-2028"
+      ],
+      "documents": [
+        {
+          "region": "DE-RP",
+          "url": "https://upload.open.rlp.de/verkuendung/5a748f67-fc62-43a9-bbc7-957ec59d6cdd/resource/dc7a6e85-d285-419f-975f-6369ebcb7b73/download/gvbl.-nr.-29-2026_sealed.pdf",
+          "title": "Landesgesetz zur Anpassung der Besoldung und Versorgung 2026/2027/2028 (LBVAnpG 2026/2027/2028)"
+        }
+      ],
+      "appliesFromExport": "2026-10-10T15:18:58.703Z"
     }
   ]
 }

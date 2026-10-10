@@ -299,6 +299,9 @@ required editorial review, not a claim that automated tests can guarantee clarit
    exports. Update `lastReviewAt:DE` / `reviewNote:DE` and/or
    `lastReviewAt:FR` / `reviewNote:FR` and/or `lastReviewAt:NL` / `reviewNote:NL` and/or `lastReviewAt:CH` / `reviewNote:CH` and/or `lastReviewAt:IT` / `reviewNote:IT` and/or `lastReviewAt:EU` / `reviewNote:EU` and/or `lastReviewAt:GB` / `reviewNote:GB` and/or `lastReviewAt:ES` / `reviewNote:ES` only for the countries actually reviewed;
    the UI falls back to the preserved initial markers until a country is updated.
+   Write `lastReviewAt:<country>` as a full ISO timestamp of the review's export
+   (for example `2026-10-10T16:37:38.169Z`), never a bare date; the selection gate
+   rejects a changed stamp without a time.
    Name coverage gaps,
    affected channels and unresolved facts. Do not claim full nationwide coverage.
 5. Maintain `data/translations/content.json` and `data/translations/bindings.json`

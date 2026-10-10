@@ -45,6 +45,12 @@ test('operational gate requires a versioned registry without rewriting old expor
  const next={...structuredClone(active),discoveryRegistry:JSON.parse(readFileSync('data/discovery-registry.json','utf8'))};
  assert.doesNotThrow(()=>validateSelection(active,next));
 });
+test('a changed country review stamp must carry a time, not just a date',()=>{
+ const base={...structuredClone(active),discoveryRegistry:JSON.parse(readFileSync('data/discovery-registry.json','utf8'))};
+ const stamp=(value:string)=>{const next=structuredClone(base);next.tables.settings=next.tables.settings.filter((r:any)=>r.key!=='lastReviewAt:DE').concat({key:'lastReviewAt:DE',value});return next;};
+ assert.throws(()=>validateSelection(base,stamp('2026-10-10')),/full ISO timestamp: lastReviewAt:DE/);
+ assert.doesNotThrow(()=>validateSelection(base,stamp('2026-10-10T16:37:38.169Z')));
+});
 test('Swiss initial export retains the retired channel in its historical registry',()=>{
  const initial=JSON.parse(readFileSync('data/exports/2026-10-04-switzerland/policy-radar-export.json','utf8'));
  assert(createStaticData(initial).status.discovery.some(s=>s.url==='https://www.sz.ch/behoerden/gesetzessammlung.html/8756-8758-8801'));

@@ -6,9 +6,9 @@ import {policyTags,type Policy} from '../lib/domain/model';
 import {translator,languageTags,formatDate,regionName,type Locale} from '../lib/i18n/index';
 import {contentText,type Localization} from '../lib/i18n/content';
 
-type Context={policies:Policy[];open:(p:Policy)=>void;locale:Locale;localization:Localization};
-function RecordContent({record:r,nested=false,policies,open,locale,localization}:Context&{record:IntakeRecord;nested?:boolean}){
- const tr=translator(locale),linked=policies.find(p=>explainsRecord(p,r));
+type Context={policies:Policy[];open:(p:Policy)=>void;locale:Locale;localization:Localization;dismissals?:ReadonlyMap<string,readonly [string,string]>};
+function RecordContent({record:r,nested=false,policies,open,locale,localization,dismissals}:Context&{record:IntakeRecord;nested?:boolean}){
+ const tr=translator(locale),linked=policies.find(p=>explainsRecord(p,r)),dismissal=!linked&&dismissals?.get(r.id);
  const Heading=nested?'h3':'h2';
  const language=locale!=='zh'&&localization.intake[r.id]==='current'?languageTags[locale]:r.titleZh?'zh-CN':localization.originalIntakeTitles[r.id]?(r.originalLanguage??localization.sourceLanguages[r.id]??'und'):'zh-CN';
  return <>
@@ -20,7 +20,7 @@ function RecordContent({record:r,nested=false,policies,open,locale,localization}
   <div className="policy-tags">{policyTags(r).map(t=><span key={t}>{contentText(t,locale,localization.messages)}</span>)}</div>
   <p>{r.note}</p>
   <p className="intake-date">{r.dateKind==='adopted'?tr('通过日期'):r.dateKind==='announced'?tr('公告发布日期'):tr('正式公布日期')}{formatDate(r.date,locale)}{r.effectiveDate&&tr(' · 本次改动开始生效：')+formatDate(r.effectiveDate,locale)}</p>
-  {linked?<button className="quiet-button" onClick={()=>open(linked)}>{tr('查看政策解读')}</button>:<small>{tr('完整政策解读待补充 · 原始记录已保留')}</small>}
+  {linked?<button className="quiet-button" onClick={()=>open(linked)}>{tr('查看政策解读')}</button>:dismissal?<small className="dismissal">{tr('已审阅，无需单独解读：')}<span lang={languageTags[locale]}>{dismissal[locale==='zh'?0:1]}</span></small>:<small>{tr('完整政策解读待补充 · 原始记录已保留')}</small>}
   <a className="intake-source" href={r.url} target="_blank" rel="noreferrer">{tr('打开原始文件（新标签页）')}</a>
  </>;
 }

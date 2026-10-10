@@ -151,6 +151,8 @@ new documents for existing relationships even when no automated candidate is
 reported. Similar titles or a shared gazette/URL alone must never trigger a merge.
 Include grouping/separation decisions and unresolved candidates in review notes,
 and run the grouping, filter/count and record-preservation regression tests.
+Records reviewed as needing no explanation go in `data/dispositions.json` under
+the rules in TOPICS.md; list those decisions in the review notes too.
 
 ## Save and validate
 
@@ -345,7 +347,7 @@ required editorial review, not a claim that automated tests can guarantee clarit
 On 2026-10-03 the owner explicitly authorized publishing this implementation and
 automatically publishing subsequent weekly data updates after validation.
 Commit and push only the validated `data/store/` changes, new files in the shared `data/sources/` archive,
-the run's `data/reviews/` directory, `data/topics.json`, and reviewed translation data in
+the run's `data/reviews/` directory, `data/topics.json`, `data/dispositions.json`, and reviewed translation data in
 `data/translations/content.json` and `data/translations/bindings.json` to `main`. The site links archived originals
 to their committed copies in `data/sources/` on `main`; an archive file that is not pushed is a broken
 evidence link. Do not include unrelated changes or publish

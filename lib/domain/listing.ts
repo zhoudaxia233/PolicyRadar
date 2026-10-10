@@ -2,6 +2,7 @@ import {groupRecords,type Topic,type RecordGroup} from './topics.ts';
 import {countryOf,selectPolicies,policyTags,type Policy} from './model.ts';
 import {type IntakeRecord} from './intake.ts';
 import {type readFilters} from './filters.ts';
+import type {Disposition} from './dispositions.ts';
 
 // Announcements without an official number use their exact source URL as identity.
 // Never match a numbered law by URL: one gazette can contain several laws.
@@ -21,13 +22,16 @@ function cachedSearch(searchText:(p:{id:string})=>string,topics:Topic[]){
 }
 
 // Lists and navigation counts share scope, matching and inclusion rules.
-export function selectListing(items:Policy[],records:IntakeRecord[],filters:ReturnType<typeof readFilters>,searchText?:(p:{id:string})=>string,today?:string,topics:Topic[]=[]){
+export function selectListing(items:Policy[],records:IntakeRecord[],filters:ReturnType<typeof readFilters>,searchText?:(p:{id:string})=>string,today?:string,topics:Topic[]=[],dispositions:Disposition[]=[]){
  const {country,view,region,query,tags}=filters;
  const scoped=items.filter(p=>countryOf(p.region)===country);
  const intake=records.filter(r=>countryOf(r.region)===country);
  // Same identity rule as explainsRecord, indexed so each render does not scan every policy per record.
  const explained=new Set(scoped.map(p=>p.region+'\0'+p.officialId));
+ // Records reviewed as needing no explanation leave the awaiting list but stay in official progress.
+ const dismissed=new Set(dispositions.flatMap(d=>d.recordIds));
  const unexplained=intake.filter(r=>!explained.has(r.region+'\0'+(r.officialId??r.url)));
+ const awaiting=unexplained.filter(r=>!dismissed.has(r.id));
  const recordsById=new Map(intake.map(r=>[r.id,r]));
  const topicText=new Map(topics.flatMap(t=>t.recordIds.map(id=>[id,t.title.join(' ')] as const)));
  const text=(r:{id:string})=>[searchText?.(r)??[recordsById.get(r.id)].filter(x=>x!==undefined).map(x=>[x.title,x.titleZh,x.officialId,x.note,...policyTags(x)].join(' ')).join(' '),topicText.get(r.id)??''].join(' ');
@@ -39,7 +43,8 @@ export function selectListing(items:Policy[],records:IntakeRecord[],filters:Retu
  const matchingPolicyIds=new Set(topics.filter(t=>t.recordIds.some(id=>progressIds.has(id))).flatMap(t=>t.policyIds));
  const policyMatches=selectPolicies(scoped,view,region,'all','',tags,searchText,today).filter(p=>!query.trim()||matchingPolicyIds.has(p.id)||selectPolicies([p],view,region,'all',query,tags,searchText,today).length>0);
  const matchedPolicyIds=new Set(policyMatches.map(p=>p.id));
- const rawMatches=selectIntake(unexplained,region,tags,query,recordSearch,!!cache).filter(r=>view==='all'||r.stage===view);
+ const rawMatches=selectIntake(awaiting,region,tags,query,recordSearch,!!cache).filter(r=>view==='all'||r.stage===view);
+ const reviewed=selectIntake(unexplained.filter(r=>dismissed.has(r.id)),region,tags,query,recordSearch,!!cache).filter(r=>view==='all'||r.stage===view);
  const rawGroups=groupRecords(rawMatches,topics).filter(g=>!g.policyIds.some(id=>matchedPolicyIds.has(id)));
  const raw=rawGroups.flatMap(g=>g.records),progressGroups=groupRecords(progress,topics);
  const explainedGroups=topics.filter(t=>['all','adopted','pending'].includes(view)&&t.policyIds.length>1&&t.policyIds.some(id=>matchedPolicyIds.has(id))).flatMap(t=>{
@@ -62,7 +67,7 @@ export function selectListing(items:Policy[],records:IntakeRecord[],filters:Retu
  }
  const policyIds=new Set(policies.map(p=>p.id));
  const policyGroups=progressGroups.filter(g=>g.title&&g.policyIds.some(id=>policyIds.has(id)));
- return {policies,cards,raw,progress,rawGroups,progressGroups,policyGroups,explainedGroups,explainedCount:policyMatches.length,count:view==='intake'?progressGroups.length:policies.length+rawGroups.length+explainedGroups.length};
+ return {policies,cards,raw,reviewed,progress,rawGroups,progressGroups,policyGroups,explainedGroups,explainedCount:policyMatches.length,count:view==='intake'?progressGroups.length:policies.length+rawGroups.length+explainedGroups.length};
 }
 
 // The shared timeline shows official events only. Corrections are dated by our own

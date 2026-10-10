@@ -1125,461 +1125,463 @@
   },
   {
     "url": "https://www.auvergnerhonealpes.fr/",
-    "checked_at": "2026-10-06T20:24:12.874666Z",
+    "checked_at": "2026-10-09T21:21:03.449Z",
     "last_success_at": null,
     "snapshot_key": null,
     "changed": 0,
-    "error": "Unusable portal shell or access challenge"
+    "error": "Client-rendered cookie shell; no substantive source text."
   },
   {
     "url": "https://www.prefectures-regions.gouv.fr/auvergne-rhone-alpes/",
-    "checked_at": "2026-10-06T20:24:13.158929Z",
+    "checked_at": "2026-10-09T21:21:03.413Z",
     "last_success_at": null,
     "snapshot_key": null,
     "changed": 0,
-    "error": "HTTP Error 403: Forbidden"
+    "error": "HTTP 403 access challenge or blocked response; not archived as evidence."
   },
   {
     "url": "https://www.bourgognefranchecomte.fr/",
-    "checked_at": "2026-10-06T20:24:13.306355Z",
-    "last_success_at": "2026-10-06T20:24:13.306355Z",
-    "snapshot_key": "sources/67c90b6b63840d25d7ab09bc710132312a42dcedaabe9c2f88ee87666b82a914/4828b0028327073c9056f4580fe3cb762df4cd8b15500a8088dc3e224286ea11.html",
+    "checked_at": "2026-10-09T21:21:03.573Z",
+    "last_success_at": "2026-10-09T21:21:03.573Z",
+    "hash": "405090b317c6a93398f90e7e9929461b675f4a2e7ffbd78fb3f5f1bd3edb2f33",
+    "snapshot_key": "sources/67c90b6b63840d25d7ab09bc710132312a42dcedaabe9c2f88ee87666b82a914/405090b317c6a93398f90e7e9929461b675f4a2e7ffbd78fb3f5f1bd3edb2f33.html",
     "changed": 1,
-    "error": null,
-    "hash": "4828b0028327073c9056f4580fe3cb762df4cd8b15500a8088dc3e224286ea11"
+    "error": null
   },
   {
     "url": "https://www.prefectures-regions.gouv.fr/bourgogne-franche-comte/",
-    "checked_at": "2026-10-06T20:24:13.552618Z",
+    "checked_at": "2026-10-09T21:21:03.383Z",
     "last_success_at": null,
     "snapshot_key": null,
     "changed": 0,
-    "error": "HTTP Error 403: Forbidden"
+    "error": "HTTP 403 access challenge or blocked response; not archived as evidence."
   },
   {
     "url": "https://www.bretagne.bzh/",
-    "checked_at": "2026-10-06T20:24:13.597137Z",
+    "checked_at": "2026-10-09T21:21:03.343Z",
     "last_success_at": null,
     "snapshot_key": null,
     "changed": 0,
-    "error": "HTTP Error 403: Forbidden"
+    "error": "HTTP 403 access challenge or blocked response; not archived as evidence."
   },
   {
     "url": "https://www.prefectures-regions.gouv.fr/bretagne/",
-    "checked_at": "2026-10-06T20:24:13.673296Z",
+    "checked_at": "2026-10-09T21:21:03.381Z",
     "last_success_at": null,
     "snapshot_key": null,
     "changed": 0,
-    "error": "HTTP Error 403: Forbidden"
+    "error": "HTTP 403 access challenge or blocked response; not archived as evidence."
   },
   {
     "url": "https://www.centre-valdeloire.fr/",
-    "checked_at": "2026-10-06T20:24:13.683217Z",
+    "checked_at": "2026-10-09T21:24:00.000Z",
     "last_success_at": null,
     "snapshot_key": null,
     "changed": 0,
-    "error": "HTTP Error 302: The HTTP server returned a redirect error that would lead to an infinite loop.\nThe last 30x error message was:\nFound"
+    "error": "No usable response (timeout or redirect without content)."
   },
   {
     "url": "https://www.prefectures-regions.gouv.fr/centre-val-de-loire/",
-    "checked_at": "2026-10-06T20:24:13.777430Z",
+    "checked_at": "2026-10-09T21:21:28.411Z",
     "last_success_at": null,
     "snapshot_key": null,
     "changed": 0,
-    "error": "HTTP Error 403: Forbidden"
+    "error": "HTTP 403 access challenge or blocked response; not archived as evidence."
   },
   {
     "url": "https://www.isula.corsica/",
-    "checked_at": "2026-10-06T20:24:13.870214Z",
-    "last_success_at": "2026-10-06T20:24:13.870214Z",
-    "snapshot_key": "sources/e6626c7e5d452e874d6bdc1b6a62d4911c3245ff5251d8d2950f0d29bf6eeeec/c2326909af7523c51dda4e13d590763d9ac25a6383c51ffe4f2d851b1739cd1f.html",
+    "checked_at": "2026-10-09T21:21:32.810Z",
+    "last_success_at": "2026-10-09T21:21:32.810Z",
+    "hash": "3d14ed055f2a76807212bac858cfa44a171556d32e53caf57d92ad2c1a0d6bec",
+    "snapshot_key": "sources/e6626c7e5d452e874d6bdc1b6a62d4911c3245ff5251d8d2950f0d29bf6eeeec/3d14ed055f2a76807212bac858cfa44a171556d32e53caf57d92ad2c1a0d6bec.html",
     "changed": 1,
-    "error": null,
-    "hash": "c2326909af7523c51dda4e13d590763d9ac25a6383c51ffe4f2d851b1739cd1f"
+    "error": null
   },
   {
     "url": "https://www.prefectures-regions.gouv.fr/corse/",
-    "checked_at": "2026-10-06T20:24:14.150394Z",
+    "checked_at": "2026-10-09T21:21:28.370Z",
     "last_success_at": null,
     "snapshot_key": null,
     "changed": 0,
-    "error": "HTTP Error 403: Forbidden"
+    "error": "HTTP 403 access challenge or blocked response; not archived as evidence."
   },
   {
     "url": "https://www.grandest.fr/",
-    "checked_at": "2026-10-06T20:24:14.241236Z",
-    "last_success_at": "2026-10-06T20:24:14.241236Z",
-    "snapshot_key": "sources/f76fbcb5c928b56686015caab951c233f07c3d8c84582c110dd0cf473f752758/7459ff8229cb68863e15d64556b5261c04bc1aa17c948e6756d1e7da2f69aaf1.html",
+    "checked_at": "2026-10-09T21:21:28.429Z",
+    "last_success_at": "2026-10-09T21:21:28.429Z",
+    "hash": "d5cfc136bf8d47be0bebf32d20ebdc8e7355d8bb394491ff7102c26d9c1227ad",
+    "snapshot_key": "sources/f76fbcb5c928b56686015caab951c233f07c3d8c84582c110dd0cf473f752758/d5cfc136bf8d47be0bebf32d20ebdc8e7355d8bb394491ff7102c26d9c1227ad.html",
     "changed": 1,
-    "error": null,
-    "hash": "7459ff8229cb68863e15d64556b5261c04bc1aa17c948e6756d1e7da2f69aaf1"
+    "error": null
   },
   {
     "url": "https://www.prefectures-regions.gouv.fr/grand-est/",
-    "checked_at": "2026-10-06T20:24:14.564645Z",
+    "checked_at": "2026-10-09T21:21:28.365Z",
     "last_success_at": null,
     "snapshot_key": null,
     "changed": 0,
-    "error": "HTTP Error 403: Forbidden"
+    "error": "HTTP 403 access challenge or blocked response; not archived as evidence."
   },
   {
     "url": "https://www.hautsdefrance.fr/",
-    "checked_at": "2026-10-06T20:24:14.649910Z",
-    "last_success_at": "2026-10-06T20:24:14.649910Z",
-    "snapshot_key": "sources/3a68160179a71226c1eedcba9dfd8178fb44091d13af9a5d3727557db59f8e8a/fb29186250e54ce42fe8e15c6228a22ddc6b559bc8d429dfadae46320bd9b766.html",
+    "checked_at": "2026-10-09T21:21:28.856Z",
+    "last_success_at": "2026-10-09T21:21:28.856Z",
+    "hash": "ee3525d55a704f6716fccd03876909c16e032dc60b4f1df4832aeac532854f31",
+    "snapshot_key": "sources/3a68160179a71226c1eedcba9dfd8178fb44091d13af9a5d3727557db59f8e8a/ee3525d55a704f6716fccd03876909c16e032dc60b4f1df4832aeac532854f31.html",
     "changed": 1,
-    "error": null,
-    "hash": "fb29186250e54ce42fe8e15c6228a22ddc6b559bc8d429dfadae46320bd9b766"
+    "error": null
   },
   {
     "url": "https://www.prefectures-regions.gouv.fr/hauts-de-france/",
-    "checked_at": "2026-10-06T20:24:14.783941Z",
+    "checked_at": "2026-10-09T21:21:32.947Z",
     "last_success_at": null,
     "snapshot_key": null,
     "changed": 0,
-    "error": "HTTP Error 403: Forbidden"
+    "error": "HTTP 403 access challenge or blocked response; not archived as evidence."
   },
   {
     "url": "https://www.iledefrance.fr/",
-    "checked_at": "2026-10-06T20:24:14.870584Z",
-    "last_success_at": "2026-10-06T20:24:14.870584Z",
-    "snapshot_key": "sources/c06cd81ef111670ee5878619391ec6dcf271a61048107236e2c531b9522aa860/c8c27d57866a590bc6644473edc43e3f7e8150aaf405892a91bdf31d0d2fa5c4.html",
+    "checked_at": "2026-10-09T21:21:33.188Z",
+    "last_success_at": "2026-10-09T21:21:33.188Z",
+    "hash": "385b7bdd884626e837012c50ad0b19df3538f7b154d4462c63999665baf33796",
+    "snapshot_key": "sources/c06cd81ef111670ee5878619391ec6dcf271a61048107236e2c531b9522aa860/385b7bdd884626e837012c50ad0b19df3538f7b154d4462c63999665baf33796.html",
     "changed": 1,
-    "error": null,
-    "hash": "c8c27d57866a590bc6644473edc43e3f7e8150aaf405892a91bdf31d0d2fa5c4"
+    "error": null
   },
   {
     "url": "https://www.prefectures-regions.gouv.fr/ile-de-france/",
-    "checked_at": "2026-10-06T20:24:15.215340Z",
+    "checked_at": "2026-10-09T21:21:32.940Z",
     "last_success_at": null,
     "snapshot_key": null,
     "changed": 0,
-    "error": "HTTP Error 403: Forbidden"
+    "error": "HTTP 403 access challenge or blocked response; not archived as evidence."
   },
   {
     "url": "https://www.normandie.fr/",
-    "checked_at": "2026-10-06T20:24:15.294362Z",
+    "checked_at": "2026-10-09T21:21:33.048Z",
     "last_success_at": null,
     "snapshot_key": null,
     "changed": 0,
-    "error": "HTTP Error 403: Forbidden"
+    "error": "HTTP 403 access challenge or blocked response; not archived as evidence."
   },
   {
     "url": "https://www.prefectures-regions.gouv.fr/normandie/",
-    "checked_at": "2026-10-06T20:24:15.513514Z",
+    "checked_at": "2026-10-09T21:21:32.964Z",
     "last_success_at": null,
     "snapshot_key": null,
     "changed": 0,
-    "error": "HTTP Error 403: Forbidden"
+    "error": "HTTP 403 access challenge or blocked response; not archived as evidence."
   },
   {
     "url": "https://www.nouvelle-aquitaine.fr/",
-    "checked_at": "2026-10-06T20:24:15.589859Z",
-    "last_success_at": "2026-10-06T20:24:15.589859Z",
-    "snapshot_key": "sources/2af80094b58258b07887567eee14a9a4705d55b71c72edd6ef148cd324faa887/1349a8971567e25fbd0607fb2fd02705a964a6d52af481e468c985b5edc82edd.html",
+    "checked_at": "2026-10-09T21:21:35.097Z",
+    "last_success_at": "2026-10-09T21:21:35.097Z",
+    "hash": "1862666dc12e879f359b57c5309345edb11f1de8e316158a255633a5717344ce",
+    "snapshot_key": "sources/2af80094b58258b07887567eee14a9a4705d55b71c72edd6ef148cd324faa887/1862666dc12e879f359b57c5309345edb11f1de8e316158a255633a5717344ce.html",
     "changed": 1,
-    "error": null,
-    "hash": "1349a8971567e25fbd0607fb2fd02705a964a6d52af481e468c985b5edc82edd"
+    "error": null
   },
   {
     "url": "https://www.prefectures-regions.gouv.fr/nouvelle-aquitaine/",
-    "checked_at": "2026-10-06T20:24:15.607992Z",
+    "checked_at": "2026-10-09T21:21:32.955Z",
     "last_success_at": null,
     "snapshot_key": null,
     "changed": 0,
-    "error": "HTTP Error 403: Forbidden"
+    "error": "HTTP 403 access challenge or blocked response; not archived as evidence."
   },
   {
     "url": "https://www.laregion.fr/",
-    "checked_at": "2026-10-06T20:24:15.630736Z",
-    "last_success_at": "2026-10-06T20:24:15.630736Z",
-    "snapshot_key": "sources/82a24a3ba8023c6741fe04e5f3618ec257f4c789f422cced5b82c7ca3401a37d/f005de34878820f06257a6667606150e915bf71da287623cef359de7b174608a.html",
+    "checked_at": "2026-10-09T21:21:36.676Z",
+    "last_success_at": "2026-10-09T21:21:36.676Z",
+    "hash": "4d087bd4d3e5f588bfa8e04b9a7c12efc46e413bd5808b96bfa9e5c42aa51a1e",
+    "snapshot_key": "sources/82a24a3ba8023c6741fe04e5f3618ec257f4c789f422cced5b82c7ca3401a37d/4d087bd4d3e5f588bfa8e04b9a7c12efc46e413bd5808b96bfa9e5c42aa51a1e.html",
     "changed": 1,
-    "error": null,
-    "hash": "f005de34878820f06257a6667606150e915bf71da287623cef359de7b174608a"
+    "error": null
   },
   {
     "url": "https://www.prefectures-regions.gouv.fr/occitanie/",
-    "checked_at": "2026-10-06T20:24:15.936899Z",
+    "checked_at": "2026-10-09T21:21:35.205Z",
     "last_success_at": null,
     "snapshot_key": null,
     "changed": 0,
-    "error": "HTTP Error 403: Forbidden"
+    "error": "HTTP 403 access challenge or blocked response; not archived as evidence."
   },
   {
     "url": "https://www.paysdelaloire.fr/",
-    "checked_at": "2026-10-06T20:24:16.062771Z",
-    "last_success_at": "2026-10-06T20:24:16.062771Z",
-    "snapshot_key": "sources/c9c5a45f3885b6b2a85289b5287897b075792013052034fca325fa6cfd34bbc4/2e069dc47fbdc01abe75e9b957da26b3243c8e5b4e1a9ee4c416582460967c2a.html",
+    "checked_at": "2026-10-09T21:21:35.293Z",
+    "last_success_at": "2026-10-09T21:21:35.293Z",
+    "hash": "85b2994ea7d9e32d77a1fa2c1c40d84dcf0bceff262e1775e1f48c8f5a38b43b",
+    "snapshot_key": "sources/c9c5a45f3885b6b2a85289b5287897b075792013052034fca325fa6cfd34bbc4/85b2994ea7d9e32d77a1fa2c1c40d84dcf0bceff262e1775e1f48c8f5a38b43b.html",
     "changed": 1,
-    "error": null,
-    "hash": "2e069dc47fbdc01abe75e9b957da26b3243c8e5b4e1a9ee4c416582460967c2a"
+    "error": null
   },
   {
     "url": "https://www.prefectures-regions.gouv.fr/pays-de-la-loire/",
-    "checked_at": "2026-10-06T20:24:16.395299Z",
+    "checked_at": "2026-10-09T21:21:35.231Z",
     "last_success_at": null,
     "snapshot_key": null,
     "changed": 0,
-    "error": "HTTP Error 403: Forbidden"
+    "error": "HTTP 403 access challenge or blocked response; not archived as evidence."
   },
   {
     "url": "https://www.maregionsud.fr/",
-    "checked_at": "2026-10-06T20:24:16.502854Z",
-    "last_success_at": "2026-10-06T20:24:16.502854Z",
-    "snapshot_key": "sources/883d8253f670dcab5b9f30bbad38e66ffda1385e4fcc938e94511221ebdfc0cb/fccfad34ef412549b616f68d566c89df3afc434231e884324a11933023d3a634.html",
+    "checked_at": "2026-10-09T21:21:35.348Z",
+    "last_success_at": "2026-10-09T21:21:35.348Z",
+    "hash": "58911703d24f87a22b14f4a42fcdf12b2f436fbd4bb98f80b20f6ace02723b14",
+    "snapshot_key": "sources/883d8253f670dcab5b9f30bbad38e66ffda1385e4fcc938e94511221ebdfc0cb/58911703d24f87a22b14f4a42fcdf12b2f436fbd4bb98f80b20f6ace02723b14.html",
     "changed": 1,
-    "error": null,
-    "hash": "fccfad34ef412549b616f68d566c89df3afc434231e884324a11933023d3a634"
+    "error": null
   },
   {
     "url": "https://www.prefectures-regions.gouv.fr/provence-alpes-cote-dazur/",
-    "checked_at": "2026-10-06T20:24:16.746549Z",
+    "checked_at": "2026-10-09T21:21:35.220Z",
     "last_success_at": null,
     "snapshot_key": null,
     "changed": 0,
-    "error": "HTTP Error 403: Forbidden"
+    "error": "HTTP 403 access challenge or blocked response; not archived as evidence."
   },
   {
     "url": "https://www.regionguadeloupe.fr/",
-    "checked_at": "2026-10-06T20:24:16.789529Z",
-    "last_success_at": null,
-    "snapshot_key": null,
+    "checked_at": "2026-10-09T21:21:35.457Z",
+    "last_success_at": "2026-10-09T21:21:35.457Z",
+    "hash": "2bf58eae026cd16f74ec91895ac61859221c733cb93e4edad7dcc2f1cfd47e8b",
+    "snapshot_key": "sources/20d4ca3a85d3a7ebc0e4066642423420f0a70f9c8dd8c7de6f84ac0bb4405a9d/2bf58eae026cd16f74ec91895ac61859221c733cb93e4edad7dcc2f1cfd47e8b.html",
     "changed": 0,
-    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1081)>"
+    "error": null
   },
   {
     "url": "https://www.guadeloupe.gouv.fr/",
-    "checked_at": "2026-10-06T20:24:16.889988Z",
+    "checked_at": "2026-10-09T21:24:00.000Z",
     "last_success_at": null,
     "snapshot_key": null,
     "changed": 0,
-    "error": "Remote end closed connection without response"
+    "error": "No usable response (timeout or redirect without content)."
   },
   {
     "url": "https://www.collectivitedemartinique.mq/",
-    "checked_at": "2026-10-06T20:24:16.890213Z",
-    "last_success_at": "2026-10-06T20:24:16.890213Z",
-    "snapshot_key": "sources/853685666e8ed07d42d6ebdadeadae1d7c7b0fc77362b7037ddf4794c361e1bd/a6efadf8fa6eb7f5976bebe24b3ceab3b6a56716ca4c1ecc80f06b380d62c970.html",
+    "checked_at": "2026-10-09T21:21:37.625Z",
+    "last_success_at": "2026-10-09T21:21:37.625Z",
+    "hash": "b7ac714e3c3945225fc8336d91a5670ab5cef73132246e1cf99823e1bc5f9beb",
+    "snapshot_key": "sources/853685666e8ed07d42d6ebdadeadae1d7c7b0fc77362b7037ddf4794c361e1bd/b7ac714e3c3945225fc8336d91a5670ab5cef73132246e1cf99823e1bc5f9beb.html",
     "changed": 1,
-    "error": null,
-    "hash": "a6efadf8fa6eb7f5976bebe24b3ceab3b6a56716ca4c1ecc80f06b380d62c970"
+    "error": null
   },
   {
     "url": "https://www.martinique.gouv.fr/",
-    "checked_at": "2026-10-06T20:24:17.054077Z",
+    "checked_at": "2026-10-09T21:24:00.000Z",
     "last_success_at": null,
     "snapshot_key": null,
     "changed": 0,
-    "error": "Remote end closed connection without response"
+    "error": "No usable response (timeout or redirect without content)."
   },
   {
     "url": "https://www.ctguyane.fr/",
-    "checked_at": "2026-10-06T20:24:17.203530Z",
-    "last_success_at": "2026-10-06T20:24:17.203530Z",
-    "snapshot_key": "sources/8d08d2b73a5d03b22b13ca48ad64397dca097e8420fdbd8b58024ff7e9f62562/1f07b01a7dadd5ec9e86166be07db856acec489093338deab603cd1edd4164f5.html",
-    "changed": 0,
-    "error": null,
-    "hash": "1f07b01a7dadd5ec9e86166be07db856acec489093338deab603cd1edd4164f5"
+    "checked_at": "2026-10-09T21:21:37.179Z",
+    "last_success_at": "2026-10-09T21:21:37.179Z",
+    "hash": "0f08e10054a6f2aea0bd3e0734c2f6430c2cfd6932d3e3d547b68b748e81815a",
+    "snapshot_key": "sources/8d08d2b73a5d03b22b13ca48ad64397dca097e8420fdbd8b58024ff7e9f62562/0f08e10054a6f2aea0bd3e0734c2f6430c2cfd6932d3e3d547b68b748e81815a.html",
+    "changed": 1,
+    "error": null
   },
   {
     "url": "https://www.guyane.gouv.fr/",
-    "checked_at": "2026-10-06T20:24:18.048782Z",
+    "checked_at": "2026-10-09T21:24:00.000Z",
     "last_success_at": null,
     "snapshot_key": null,
     "changed": 0,
-    "error": "Remote end closed connection without response"
+    "error": "No usable response (timeout or redirect without content)."
   },
   {
     "url": "https://regionreunion.com/",
-    "checked_at": "2026-10-06T20:24:18.048964Z",
+    "checked_at": "2026-10-09T21:21:36.773Z",
     "last_success_at": null,
     "snapshot_key": null,
     "changed": 0,
-    "error": "HTTP Error 403: Forbidden"
+    "error": "HTTP 403 access challenge or blocked response; not archived as evidence."
   },
   {
     "url": "https://www.reunion.gouv.fr/",
-    "checked_at": "2026-10-06T20:24:18.152580Z",
+    "checked_at": "2026-10-09T21:24:00.000Z",
     "last_success_at": null,
     "snapshot_key": null,
     "changed": 0,
-    "error": "Remote end closed connection without response"
+    "error": "No usable response (timeout or redirect without content)."
   },
   {
     "url": "https://www.mayotte.fr/",
-    "checked_at": "2026-10-06T20:24:18.183873Z",
-    "last_success_at": "2026-10-06T20:24:18.183873Z",
-    "snapshot_key": "sources/2e1417c89f4409e2e83ba8e14a26ba1460c62e8a95905557c5d4f508e9f93a3a/875b60e92ce4f66094528e096ea2ae63289e609a5089854f6a180b5889fe2cb7.html",
+    "checked_at": "2026-10-09T21:21:39.156Z",
+    "last_success_at": "2026-10-09T21:21:39.156Z",
+    "hash": "129f2154b0ef610605ec3f4fb00e31771b2d4abf0d32295346918c4ede367297",
+    "snapshot_key": "sources/2e1417c89f4409e2e83ba8e14a26ba1460c62e8a95905557c5d4f508e9f93a3a/129f2154b0ef610605ec3f4fb00e31771b2d4abf0d32295346918c4ede367297.html",
     "changed": 1,
-    "error": null,
-    "hash": "875b60e92ce4f66094528e096ea2ae63289e609a5089854f6a180b5889fe2cb7"
+    "error": null
   },
   {
     "url": "https://www.mayotte.gouv.fr/",
-    "checked_at": "2026-10-06T20:24:18.201928Z",
+    "checked_at": "2026-10-09T21:24:00.000Z",
     "last_success_at": null,
     "snapshot_key": null,
     "changed": 0,
-    "error": "Remote end closed connection without response"
+    "error": "No usable response (timeout or redirect without content)."
   },
   {
     "url": "https://edelib.auvergnerhonealpes.fr/webdelibplus/jsp/seances.jsp?role=usager",
-    "checked_at": "2026-10-06T20:24:13.021632Z",
-    "last_success_at": "2026-10-06T20:24:13.021632Z",
+    "checked_at": "2026-10-09T21:21:08.383Z",
+    "last_success_at": "2026-10-09T21:21:08.383Z",
+    "hash": "8658d01fbd4e641ba7e85c7543c70b9681daab6348b19a0609e819f44c486120",
     "snapshot_key": "sources/6235d6087043ef4688657ec39d17f1284fcc887ac89b7be655c7efdb0b19c815/8658d01fbd4e641ba7e85c7543c70b9681daab6348b19a0609e819f44c486120.html",
     "changed": 0,
-    "error": null,
-    "hash": "8658d01fbd4e641ba7e85c7543c70b9681daab6348b19a0609e819f44c486120"
+    "error": null
   },
   {
     "url": "https://abcdelib.bourgognefranchecomte.fr/",
-    "checked_at": "2026-10-06T20:24:13.307097Z",
-    "last_success_at": "2026-10-06T20:24:13.307097Z",
-    "snapshot_key": "sources/011c1f4d30cb8e8b3da456a12f2b8f8fe775dbadf5aee1f53ad0102af777c3e6/72c3dab04d7dea333e83184e97aa69afbf1c4714b5b3e97c712581284117df6a.html",
+    "checked_at": "2026-10-09T21:21:28.272Z",
+    "last_success_at": "2026-10-09T21:21:28.272Z",
+    "hash": "aa4e0cd85f3467940bb5bc346a13c8e6fa5316eb2e2584aabda80e0a5ad20135",
+    "snapshot_key": "sources/011c1f4d30cb8e8b3da456a12f2b8f8fe775dbadf5aee1f53ad0102af777c3e6/aa4e0cd85f3467940bb5bc346a13c8e6fa5316eb2e2584aabda80e0a5ad20135.html",
     "changed": 1,
-    "error": null,
-    "hash": "72c3dab04d7dea333e83184e97aa69afbf1c4714b5b3e97c712581284117df6a"
+    "error": null
   },
   {
     "url": "https://www.bretagne.bzh/region/decisions/",
-    "checked_at": "2026-10-06T20:24:13.646204Z",
+    "checked_at": "2026-10-09T21:21:03.357Z",
     "last_success_at": null,
     "snapshot_key": null,
     "changed": 0,
-    "error": "HTTP Error 403: Forbidden"
+    "error": "HTTP 403 access challenge or blocked response; not archived as evidence."
   },
   {
     "url": "https://actes.centre-valdeloire.fr/webdelibplus/jsp/seances.jsp?role=usager",
-    "checked_at": "2026-10-06T20:24:13.707482Z",
-    "last_success_at": "2026-10-06T20:24:13.707482Z",
+    "checked_at": "2026-10-09T21:21:29.367Z",
+    "last_success_at": "2026-10-09T21:21:29.367Z",
+    "hash": "7fa6d4cb35cb705243202b5067fd03b9f4a9401084494f9251ad7d441349c1e6",
     "snapshot_key": "sources/445db3ef45fd743d24fa9bba662fc460efa5f32fc1c1976c44cedab43c64de67/7fa6d4cb35cb705243202b5067fd03b9f4a9401084494f9251ad7d441349c1e6.html",
     "changed": 0,
-    "error": null,
-    "hash": "7fa6d4cb35cb705243202b5067fd03b9f4a9401084494f9251ad7d441349c1e6"
+    "error": null
   },
   {
     "url": "https://www.isula.corsica/Recueils-des-actes-administratifs_r100.html",
-    "checked_at": "2026-10-06T20:24:14.001307Z",
-    "last_success_at": "2026-10-03T21:17:11.355366Z",
-    "snapshot_key": "sources/2ad4c25425cdf2b0a12e6b682c9fc5b4ed8e6cdbfc2c69409b882e62ca10decd/b0fd15ab24da5a8bb682a22f1cdfdcb8ede192bd0f7bdc9d5856fc18bfeb6b1f.html",
-    "changed": 0,
-    "error": "The read operation timed out",
-    "hash": "b0fd15ab24da5a8bb682a22f1cdfdcb8ede192bd0f7bdc9d5856fc18bfeb6b1f"
+    "checked_at": "2026-10-09T21:21:32.421Z",
+    "last_success_at": "2026-10-09T21:21:32.421Z",
+    "hash": "889c52ebe201014dff688a7920a5fe22740216cde2e4d3fef39f2201c86a685d",
+    "snapshot_key": "sources/2ad4c25425cdf2b0a12e6b682c9fc5b4ed8e6cdbfc2c69409b882e62ca10decd/889c52ebe201014dff688a7920a5fe22740216cde2e4d3fef39f2201c86a685d.html",
+    "changed": 1,
+    "error": null
   },
   {
     "url": "https://www.grandest.fr/le-conseil-regional/deliberations/",
-    "checked_at": "2026-10-06T20:24:14.373201Z",
-    "last_success_at": "2026-10-06T20:24:14.373201Z",
-    "snapshot_key": "sources/89258e48dea771d3e0d3565c3e7a0accd40b02a2a7ec9994df1b2990dd918f73/9f02af204bb5ddef7a23becbdfaa34205acf5e71a4756df0d60e653032d22c17.html",
+    "checked_at": "2026-10-09T21:21:29.188Z",
+    "last_success_at": "2026-10-09T21:21:29.188Z",
+    "hash": "3e55ef02684f6c435fe71268bb4f39d7130a1881e2a612367c76697146e78eaf",
+    "snapshot_key": "sources/89258e48dea771d3e0d3565c3e7a0accd40b02a2a7ec9994df1b2990dd918f73/3e55ef02684f6c435fe71268bb4f39d7130a1881e2a612367c76697146e78eaf.html",
     "changed": 1,
-    "error": null,
-    "hash": "9f02af204bb5ddef7a23becbdfaa34205acf5e71a4756df0d60e653032d22c17"
+    "error": null
   },
   {
     "url": "https://www.hautsdefrance.fr/conseil-regional-hdf/les-actes-institutionnels/",
-    "checked_at": "2026-10-06T20:24:14.705427Z",
-    "last_success_at": "2026-10-06T20:24:14.705427Z",
-    "snapshot_key": "sources/d4c9a1741af22aaba0e52bf6aba313740dff4dffb0c6f47a46fb7814007fb369/5bd148a92a26b1ead0cf9472046f7fedfe6b5b805c26824242b40c5788f443f5.html",
+    "checked_at": "2026-10-09T21:21:29.211Z",
+    "last_success_at": "2026-10-09T21:21:29.211Z",
+    "hash": "670089c90918154bc3d42b61d1ebc41274ec4bab44b8a26af185f41e39409c3a",
+    "snapshot_key": "sources/d4c9a1741af22aaba0e52bf6aba313740dff4dffb0c6f47a46fb7814007fb369/670089c90918154bc3d42b61d1ebc41274ec4bab44b8a26af185f41e39409c3a.html",
     "changed": 1,
-    "error": null,
-    "hash": "5bd148a92a26b1ead0cf9472046f7fedfe6b5b805c26824242b40c5788f443f5"
+    "error": null
   },
   {
     "url": "https://www.data.gouv.fr/datasets/actes-administratifs-de-la-region-ile-de-france",
-    "checked_at": "2026-10-06T20:24:15.193428Z",
-    "last_success_at": "2026-10-06T20:24:15.193428Z",
-    "snapshot_key": "sources/e98abc16b46f6dd5d4cdbcd7d68eef1e0621f027e227eb7f075f0cd3f7c3a6ea/c27cb696369478dcfe37e134970ff0d776a8d3545c5b311ea84e144eaf26ce9b.html",
+    "checked_at": "2026-10-09T21:21:33.206Z",
+    "last_success_at": "2026-10-09T21:21:33.206Z",
+    "hash": "0da19c51e594a1b0feb3464160ead509d83afff241c033da1b325415b508c08d",
+    "snapshot_key": "sources/e98abc16b46f6dd5d4cdbcd7d68eef1e0621f027e227eb7f075f0cd3f7c3a6ea/0da19c51e594a1b0feb3464160ead509d83afff241c033da1b325415b508c08d.html",
     "changed": 1,
-    "error": null,
-    "hash": "c27cb696369478dcfe37e134970ff0d776a8d3545c5b311ea84e144eaf26ce9b"
+    "error": null
   },
   {
     "url": "https://www.normandie.fr/deliberations-normandie-et-ex-haute-normandie",
-    "checked_at": "2026-10-06T20:24:15.327203Z",
+    "checked_at": "2026-10-09T21:21:32.989Z",
     "last_success_at": null,
     "snapshot_key": null,
     "changed": 0,
-    "error": "HTTP Error 403: Forbidden"
+    "error": "HTTP 403 access challenge or blocked response; not archived as evidence."
   },
   {
     "url": "https://www.nouvelle-aquitaine.fr/linstitution/le-conseil-regional/decisions-de-lassemblee-et-arretes-du-president",
-    "checked_at": "2026-10-06T20:24:15.599096Z",
-    "last_success_at": "2026-10-06T20:24:15.599096Z",
+    "checked_at": "2026-10-09T21:21:34.935Z",
+    "last_success_at": "2026-10-09T21:21:34.935Z",
+    "hash": "08c3cf7994200a7bc070205bb8dbf297b3cb69e694bb7c7325f8ad6119a193a6",
     "snapshot_key": "sources/61f3bc48fae85b640aa3c25e7ecf0d4a5a125b2d4ffbbb24854b84a41c595704/08c3cf7994200a7bc070205bb8dbf297b3cb69e694bb7c7325f8ad6119a193a6.html",
     "changed": 1,
-    "error": null,
-    "hash": "08c3cf7994200a7bc070205bb8dbf297b3cb69e694bb7c7325f8ad6119a193a6"
+    "error": null
   },
   {
     "url": "https://www.laregion.fr/Portail-de-publication-des-Deliberations-et-autres-actes-administratifs-de-la-Region",
-    "checked_at": "2026-10-06T20:24:15.706626Z",
-    "last_success_at": "2026-10-06T20:24:15.706626Z",
-    "snapshot_key": "sources/1f3bf348df670d04db9f5fd1968ebfdc0969eb34e315fc6ef11737f0e4aee092/d3dc5704ddb7bc799be6e4d06a8c9d6b607af8a0d7b44f4ed8cb3df28346d19d.html",
+    "checked_at": "2026-10-09T21:21:36.023Z",
+    "last_success_at": "2026-10-09T21:21:36.023Z",
+    "hash": "a2849d7d3a0af87d0315b2fef7119a64c470a835d6ea07ba8e75d361cfc4d4c4",
+    "snapshot_key": "sources/1f3bf348df670d04db9f5fd1968ebfdc0969eb34e315fc6ef11737f0e4aee092/a2849d7d3a0af87d0315b2fef7119a64c470a835d6ea07ba8e75d361cfc4d4c4.html",
     "changed": 1,
-    "error": null,
-    "hash": "d3dc5704ddb7bc799be6e4d06a8c9d6b607af8a0d7b44f4ed8cb3df28346d19d"
+    "error": null
   },
   {
     "url": "https://www.paysdelaloire.fr/mon-conseil-regional/linstitution/les-actes-administratifs",
-    "checked_at": "2026-10-06T20:24:16.233339Z",
-    "last_success_at": "2026-10-06T20:24:16.233339Z",
-    "snapshot_key": "sources/b5146486f3331c4b157e1d118db758d0ee3dd2b44f912832df9c94d01c156b74/e8007a7c405b40280d60b0a5797bda1b87795e54ab83cb8af4c261b7b91cae40.html",
+    "checked_at": "2026-10-09T21:21:35.326Z",
+    "last_success_at": "2026-10-09T21:21:35.326Z",
+    "hash": "527deea7233cee21dd6ea326c770bfb9e73680016aa46b1d89c3cce1d0579c76",
+    "snapshot_key": "sources/b5146486f3331c4b157e1d118db758d0ee3dd2b44f912832df9c94d01c156b74/527deea7233cee21dd6ea326c770bfb9e73680016aa46b1d89c3cce1d0579c76.html",
     "changed": 1,
-    "error": null,
-    "hash": "e8007a7c405b40280d60b0a5797bda1b87795e54ab83cb8af4c261b7b91cae40"
+    "error": null
   },
   {
     "url": "https://actes.maregionsud.fr/actes/",
-    "checked_at": "2026-10-06T20:24:16.504898Z",
-    "last_success_at": "2026-10-06T20:24:16.504898Z",
+    "checked_at": "2026-10-09T21:21:35.337Z",
+    "last_success_at": "2026-10-09T21:21:35.337Z",
+    "hash": "9f2290a9574e6ec743dfc60283eb73002421dfa62cfac6ae8cfef5ffa03c31ee",
     "snapshot_key": "sources/1b96254c94e060ecd034738369ed3d9bb324d98f7e18ec6d51a385c6f30365a2/9f2290a9574e6ec743dfc60283eb73002421dfa62cfac6ae8cfef5ffa03c31ee.html",
     "changed": 0,
-    "error": null,
-    "hash": "9f2290a9574e6ec743dfc60283eb73002421dfa62cfac6ae8cfef5ffa03c31ee"
+    "error": null
   },
   {
     "url": "https://www.regionguadeloupe.fr/Publication-des-actes-administratifs",
-    "checked_at": "2026-10-06T20:24:16.849988Z",
-    "last_success_at": null,
-    "snapshot_key": null,
+    "checked_at": "2026-10-09T21:21:37.251Z",
+    "last_success_at": "2026-10-09T21:21:37.251Z",
+    "hash": "f36045704595688b8816102bd72b9a20e23e48dfa112a8f0076f23ce953d063d",
+    "snapshot_key": "sources/bfb08190cf275bbfe56f0d727141a2fa63ef394ba2877f9685cbe03215b6a1ed/f36045704595688b8816102bd72b9a20e23e48dfa112a8f0076f23ce953d063d.html",
     "changed": 0,
-    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1081)>"
+    "error": null
   },
   {
     "url": "https://www.collectivitedemartinique.mq/actes-adminitratifs/",
-    "checked_at": "2026-10-06T20:24:17.025862Z",
-    "last_success_at": "2026-10-06T20:24:17.025862Z",
-    "snapshot_key": "sources/a9a2c2b407a60e29067671317c66c160149f1f6eb4698111d0adac44d5894daa/b033b464a2a7f382a8d582edd3db4bda555f0347baf6f1f7ac13f2448d8b4627.html",
+    "checked_at": "2026-10-09T21:21:37.499Z",
+    "last_success_at": "2026-10-09T21:21:37.499Z",
+    "hash": "1327784811214d23ba8f743993351c06bff48159ab530ed5f044b5bcd271b005",
+    "snapshot_key": "sources/a9a2c2b407a60e29067671317c66c160149f1f6eb4698111d0adac44d5894daa/1327784811214d23ba8f743993351c06bff48159ab530ed5f044b5bcd271b005.html",
     "changed": 1,
-    "error": null,
-    "hash": "b033b464a2a7f382a8d582edd3db4bda555f0347baf6f1f7ac13f2448d8b4627"
+    "error": null
   },
   {
     "url": "https://webdelib.ctguyane.fr/webdelibplus/jsp/seances.jsp?role=usager",
-    "checked_at": "2026-10-06T20:24:17.540231Z",
-    "last_success_at": "2026-10-06T20:24:17.540231Z",
+    "checked_at": "2026-10-09T21:21:38.877Z",
+    "last_success_at": "2026-10-09T21:21:38.877Z",
+    "hash": "682ff24e1e485f874d4d8c7b31faa24cde5dff64e88da57474dfa51bda072bd4",
     "snapshot_key": "sources/1bc7fc03200f00b02a85c02e48f1919ae6a3b58ecb2c49c23e0a33dc409246c4/682ff24e1e485f874d4d8c7b31faa24cde5dff64e88da57474dfa51bda072bd4.html",
     "changed": 0,
-    "error": null,
-    "hash": "682ff24e1e485f874d4d8c7b31faa24cde5dff64e88da57474dfa51bda072bd4"
+    "error": null
   },
   {
     "url": "https://regionreunion.com/la-region/les-actes-administratifs/article/commission-permanente-assemblee-pleniere",
-    "checked_at": "2026-10-06T20:24:18.131525Z",
+    "checked_at": "2026-10-09T21:21:36.802Z",
     "last_success_at": null,
     "snapshot_key": null,
     "changed": 0,
-    "error": "HTTP Error 403: Forbidden"
+    "error": "HTTP 403 access challenge or blocked response; not archived as evidence."
   },
   {
     "url": "https://www.mayotte.fr/le-departement/transparence-administrative/publicite-des-actes",
-    "checked_at": "2026-10-06T20:24:18.189763Z",
-    "last_success_at": "2026-10-06T20:24:18.189763Z",
-    "snapshot_key": "sources/72dbe315dd715b486c4055c0084fbbae38e951b3417bdccdbe70f5fd562f7d45/14e82b127f499ad1f15eb699540c91a04faaa037e2060622ac439c0bd7f90a37.html",
+    "checked_at": "2026-10-09T21:21:40.171Z",
+    "last_success_at": "2026-10-09T21:21:40.171Z",
+    "hash": "0a8dd92d183e450893e6607e4df679d8de66178e0c74910c82347f69db1217c4",
+    "snapshot_key": "sources/72dbe315dd715b486c4055c0084fbbae38e951b3417bdccdbe70f5fd562f7d45/0a8dd92d183e450893e6607e4df679d8de66178e0c74910c82347f69db1217c4.html",
     "changed": 1,
-    "error": null,
-    "hash": "14e82b127f499ad1f15eb699540c91a04faaa037e2060622ac439c0bd7f90a37"
+    "error": null
   },
   {
     "url": "https://www.ent.auvergnerhonealpes.fr/actualites/la-region-vous-aide-a-financer-votre-permis-de-conduire-b-2199648.htm",
@@ -1742,29 +1744,29 @@
   },
   {
     "url": "https://www.legifrance.gouv.fr/jorf/jo",
-    "checked_at": "2026-10-06T20:24:22.427993Z",
+    "checked_at": "2026-10-09T21:13:30.244Z",
     "last_success_at": null,
     "snapshot_key": null,
     "changed": 0,
-    "error": "HTTP Error 403: Forbidden"
+    "error": "HTTP 403 access challenge (Cloudflare); a local headless render also stopped at the verification page. Not bypassed; no source text."
   },
   {
     "url": "https://www.service-public.gouv.fr/particuliers/actualites",
-    "checked_at": "2026-10-06T20:24:22.452397Z",
-    "last_success_at": "2026-10-06T20:24:22.452397Z",
-    "snapshot_key": "sources/9d9400ff8a074301ed4d62d153899fdb2f52f3601a866e4f142a48f30fdb475a/14b0065bec8f4151801e11a5987a187c00d8d69cf9a81e6c5eaa60d32346a1bb.html",
-    "changed": 1,
-    "error": null,
-    "hash": "14b0065bec8f4151801e11a5987a187c00d8d69cf9a81e6c5eaa60d32346a1bb"
+    "checked_at": "2026-10-09T21:13:29.775Z",
+    "last_success_at": "2026-10-09T21:13:29.775Z",
+    "hash": "787abb5dd88c9d9749859b249504c7b7130b66c2cb122095e59afa4b9daddea3",
+    "snapshot_key": "sources/9d9400ff8a074301ed4d62d153899fdb2f52f3601a866e4f142a48f30fdb475a/787abb5dd88c9d9749859b249504c7b7130b66c2cb122095e59afa4b9daddea3.html",
+    "changed": 0,
+    "error": null
   },
   {
     "url": "https://entreprendre.service-public.gouv.fr/actualites",
-    "checked_at": "2026-10-06T20:24:22.536196Z",
-    "last_success_at": "2026-10-06T20:24:22.536196Z",
-    "snapshot_key": "sources/98a5cb1d1e2601efbcbd81ad272da1f27bfa2db376ffbb0cf82ed3c0943d1c5b/f8f61d36346355b0bbc9931f55866e3d42302534acc912c1bc4f6359f929bb0c.html",
-    "changed": 1,
-    "error": null,
-    "hash": "f8f61d36346355b0bbc9931f55866e3d42302534acc912c1bc4f6359f929bb0c"
+    "checked_at": "2026-10-09T21:13:30.108Z",
+    "last_success_at": "2026-10-09T21:13:30.108Z",
+    "hash": "e22e5c27b70cedaab020d40e7a2c06ee2c08ad59b76a6b59555668e3c4d83d7d",
+    "snapshot_key": "sources/98a5cb1d1e2601efbcbd81ad272da1f27bfa2db376ffbb0cf82ed3c0943d1c5b/e22e5c27b70cedaab020d40e7a2c06ee2c08ad59b76a6b59555668e3c4d83d7d.html",
+    "changed": 0,
+    "error": null
   },
   {
     "url": "https://www.assemblee-nationale.fr/dyn/textes-et-travaux",
@@ -1776,12 +1778,12 @@
   },
   {
     "url": "https://www.senat.fr/dossiers-legislatifs/lois-promulguees.html",
-    "checked_at": "2026-10-06T20:24:22.801242Z",
-    "last_success_at": "2026-10-06T20:24:22.801242Z",
-    "snapshot_key": "sources/44ed64993dd238c39c35086a7aa06c81eaab618e6cadf34e872cc2b7173ab983/40d4cef5b419275efff2be4eaceca3353a3e959d5e5b48f83cf711ecd7e2d10d.html",
-    "changed": 1,
-    "error": null,
-    "hash": "40d4cef5b419275efff2be4eaceca3353a3e959d5e5b48f83cf711ecd7e2d10d"
+    "checked_at": "2026-10-09T21:13:31.943Z",
+    "last_success_at": "2026-10-09T21:13:31.943Z",
+    "hash": "0d464df217bb23156407839f411da5952bd04fc8fc47d8a960a02aee7b8774bd",
+    "snapshot_key": "sources/44ed64993dd238c39c35086a7aa06c81eaab618e6cadf34e872cc2b7173ab983/0d464df217bb23156407839f411da5952bd04fc8fc47d8a960a02aee7b8774bd.html",
+    "changed": 0,
+    "error": null
   },
   {
     "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054945438",
@@ -1793,12 +1795,12 @@
   },
   {
     "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers",
-    "checked_at": "2026-10-06T20:24:22.699991Z",
-    "last_success_at": "2026-10-03T21:24:57.665601Z",
-    "snapshot_key": "sources/516dd6d07b6fb9617e4071799058af58db499b05935ea81cc280147ca0940f75/dfaa3557a6ec3e7b11581cf2147cb148dcb9dea33c40d03a4513a9c1d9b6557b.html",
+    "checked_at": "2026-10-09T21:13:31.346Z",
+    "last_success_at": "2026-10-09T21:13:31.346Z",
+    "hash": "ff7c49e1d572a5952960c482fbe2707a85e8a77acbb2112d450d75741f6be4db",
+    "snapshot_key": "sources/516dd6d07b6fb9617e4071799058af58db499b05935ea81cc280147ca0940f75/ff7c49e1d572a5952960c482fbe2707a85e8a77acbb2112d450d75741f6be4db.html",
     "changed": 0,
-    "error": "HTTP Error 503: Backend fetch failed",
-    "hash": "dfaa3557a6ec3e7b11581cf2147cb148dcb9dea33c40d03a4513a9c1d9b6557b"
+    "error": null
   },
   {
     "url": "https://www.provinciegroningen.nl/",
@@ -5722,10 +5724,10 @@
   },
   {
     "url": "https://www.service-public.gouv.fr/particuliers/actualites/A18903",
-    "checked_at": "2026-10-06T20:25:19.442128Z",
-    "last_success_at": "2026-10-06T20:25:19.442128Z",
-    "hash": "09a8cd87a6f2540e1982888a95e5b3fd3cc5071ecfe4665c059e311f4c71a4ef",
-    "snapshot_key": "sources/84c99c0464cc8994f886113d137c249339390fe46165ba6fe913d92a8d8a4439/09a8cd87a6f2540e1982888a95e5b3fd3cc5071ecfe4665c059e311f4c71a4ef.html",
+    "checked_at": "2026-10-09T21:13:58.374Z",
+    "last_success_at": "2026-10-09T21:13:58.374Z",
+    "hash": "debc79f0a2a24a9061c7923228c4cef68ec789a93192b9258912e3c3d83be339",
+    "snapshot_key": "sources/84c99c0464cc8994f886113d137c249339390fe46165ba6fe913d92a8d8a4439/debc79f0a2a24a9061c7923228c4cef68ec789a93192b9258912e3c3d83be339.html",
     "changed": 0,
     "error": null
   },
@@ -5740,10 +5742,10 @@
   },
   {
     "url": "https://entreprendre.service-public.gouv.fr/actualites/A18905",
-    "checked_at": "2026-10-06T20:25:19.442239Z",
-    "last_success_at": "2026-10-06T20:25:19.442239Z",
-    "hash": "60e0891bc539d38e2978c2b25530e868dd7cc0c86c16271f56b37aecb84858cb",
-    "snapshot_key": "sources/fcaffa6321fd0bc30a2796e58d8e309e3ddeb8550343b1275842f53060adde93/60e0891bc539d38e2978c2b25530e868dd7cc0c86c16271f56b37aecb84858cb.html",
+    "checked_at": "2026-10-09T21:14:02.550Z",
+    "last_success_at": "2026-10-09T21:14:02.550Z",
+    "hash": "149818066e88c02806f10b6c84272e0521530baafece4d860c6f1096fa403606",
+    "snapshot_key": "sources/fcaffa6321fd0bc30a2796e58d8e309e3ddeb8550343b1275842f53060adde93/149818066e88c02806f10b6c84272e0521530baafece4d860c6f1096fa403606.html",
     "changed": 0,
     "error": null
   },

@@ -5584,5 +5584,432 @@
     "hash": "e2806d46b750896aa460d06ae8d4dc5557fd436e076e4cbe3660ad352bcf560d",
     "fetched_at": "2026-10-09T20:15:15.000Z",
     "content_type": "text/html"
+  },
+  {
+    "key": "sources/9d9400ff8a074301ed4d62d153899fdb2f52f3601a866e4f142a48f30fdb475a/787abb5dd88c9d9749859b249504c7b7130b66c2cb122095e59afa4b9daddea3.html",
+    "url": "https://www.service-public.gouv.fr/particuliers/actualites",
+    "hash": "787abb5dd88c9d9749859b249504c7b7130b66c2cb122095e59afa4b9daddea3",
+    "fetched_at": "2026-10-09T21:13:29.775Z",
+    "content_type": "text/html"
+  },
+  {
+    "key": "sources/98a5cb1d1e2601efbcbd81ad272da1f27bfa2db376ffbb0cf82ed3c0943d1c5b/e22e5c27b70cedaab020d40e7a2c06ee2c08ad59b76a6b59555668e3c4d83d7d.html",
+    "url": "https://entreprendre.service-public.gouv.fr/actualites",
+    "hash": "e22e5c27b70cedaab020d40e7a2c06ee2c08ad59b76a6b59555668e3c4d83d7d",
+    "fetched_at": "2026-10-09T21:13:30.108Z",
+    "content_type": "text/html"
+  },
+  {
+    "key": "sources/516dd6d07b6fb9617e4071799058af58db499b05935ea81cc280147ca0940f75/ff7c49e1d572a5952960c482fbe2707a85e8a77acbb2112d450d75741f6be4db.html",
+    "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers",
+    "hash": "ff7c49e1d572a5952960c482fbe2707a85e8a77acbb2112d450d75741f6be4db",
+    "fetched_at": "2026-10-09T21:13:31.346Z",
+    "content_type": "text/html"
+  },
+  {
+    "key": "sources/9412898719e386adb5b141fdf63db94cd86b9097183a8ad7b83beaf6dd7ab079/88c252de0322be030cf91feccf1157556fbc697bc99e94e356ce51c68b6c8751.html",
+    "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers?page=1",
+    "hash": "88c252de0322be030cf91feccf1157556fbc697bc99e94e356ce51c68b6c8751",
+    "fetched_at": "2026-10-09T21:16:11.433Z",
+    "content_type": "text/html"
+  },
+  {
+    "key": "sources/428d5aafa39e6e889b0bd9ca06dd1373a6223316e3ed8b8d0c45399a44e538ae/13df87b2f3a8f2b0a538d898bb7fa35004c5127e808d7f4020a36579c972ac60.html",
+    "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers?page=2",
+    "hash": "13df87b2f3a8f2b0a538d898bb7fa35004c5127e808d7f4020a36579c972ac60",
+    "fetched_at": "2026-10-09T21:16:14.824Z",
+    "content_type": "text/html"
+  },
+  {
+    "key": "sources/0e35733615664df5549be77fdec46ea74817c8ba07b9be10bddcdd4f06fe5b59/b03904376263ef664941fa43e5c89f1e09e64f456ecbd026e6277f1f70712121.html",
+    "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers?page=3",
+    "hash": "b03904376263ef664941fa43e5c89f1e09e64f456ecbd026e6277f1f70712121",
+    "fetched_at": "2026-10-09T21:16:15.461Z",
+    "content_type": "text/html"
+  },
+  {
+    "key": "sources/44ed64993dd238c39c35086a7aa06c81eaab618e6cadf34e872cc2b7173ab983/0d464df217bb23156407839f411da5952bd04fc8fc47d8a960a02aee7b8774bd.html",
+    "url": "https://www.senat.fr/dossiers-legislatifs/lois-promulguees.html",
+    "hash": "0d464df217bb23156407839f411da5952bd04fc8fc47d8a960a02aee7b8774bd",
+    "fetched_at": "2026-10-09T21:13:31.943Z",
+    "content_type": "text/html"
+  },
+  {
+    "key": "sources/7ded76670dbacb0999f159e350bb3fdf664939de2e84c046e5abd51726a6a2db/1407c3da51f252ecd7ca2e46adb6835d00876778bb793bcf01a4b6dc33bc3c0d.html",
+    "url": "https://www.service-public.gouv.fr/particuliers/actualites/A14632",
+    "hash": "1407c3da51f252ecd7ca2e46adb6835d00876778bb793bcf01a4b6dc33bc3c0d",
+    "fetched_at": "2026-10-09T21:13:58.777Z",
+    "content_type": "text/html"
+  },
+  {
+    "key": "sources/8d123c6caa8f83e73dce79d91994df96e9487393c0012cf8af1d11a00271e716/0f49c4b7e52c1754e8773aa615538312eb71e601d48b6e5f34d0c67fe899e059.html",
+    "url": "https://www.service-public.gouv.fr/particuliers/actualites/A19081",
+    "hash": "0f49c4b7e52c1754e8773aa615538312eb71e601d48b6e5f34d0c67fe899e059",
+    "fetched_at": "2026-10-09T21:14:00.373Z",
+    "content_type": "text/html"
+  },
+  {
+    "key": "sources/f7f6064251262b6b54043184cc40a079e79a53a4dafc76aa3167d56238a82cd9/057ac52fb407f5da22e11f3d865a2c27da8e7536f6cb29b04b93ab4284f0f3af.html",
+    "url": "https://www.service-public.gouv.fr/particuliers/actualites/A15144",
+    "hash": "057ac52fb407f5da22e11f3d865a2c27da8e7536f6cb29b04b93ab4284f0f3af",
+    "fetched_at": "2026-10-09T21:14:00.809Z",
+    "content_type": "text/html"
+  },
+  {
+    "key": "sources/bb1ccdb4e0e3ea0b86c2026858414eb1657ab0ba97d64877ddd2962815da1918/51d3892b639dacbfb735d676175f3e4d5cf359de2974f6430854097a9b5f9d1a.html",
+    "url": "https://www.service-public.gouv.fr/particuliers/actualites/A19085",
+    "hash": "51d3892b639dacbfb735d676175f3e4d5cf359de2974f6430854097a9b5f9d1a",
+    "fetched_at": "2026-10-09T21:13:58.133Z",
+    "content_type": "text/html"
+  },
+  {
+    "key": "sources/ff95e4d442cd260339e5f0b3895eb80fb0f41e1761e45f974d7fbfa7280187dc/77c877848af220668b4c42ec32469fe84f27ba3930590dff6a94e52368bc3988.html",
+    "url": "https://www.service-public.gouv.fr/particuliers/actualites/A19080",
+    "hash": "77c877848af220668b4c42ec32469fe84f27ba3930590dff6a94e52368bc3988",
+    "fetched_at": "2026-10-09T21:13:57.921Z",
+    "content_type": "text/html"
+  },
+  {
+    "key": "sources/764574b719b21827e3722ef53b4f87437337f286201aaa9c435cb631deaac8c5/d864a9b1e3c1dc83c9518902484a905f872ec80ba4c4692170d41ad932ea7a35.html",
+    "url": "https://www.service-public.gouv.fr/particuliers/actualites/A19086",
+    "hash": "d864a9b1e3c1dc83c9518902484a905f872ec80ba4c4692170d41ad932ea7a35",
+    "fetched_at": "2026-10-09T21:13:57.735Z",
+    "content_type": "text/html"
+  },
+  {
+    "key": "sources/1bd25fb34271f39bc9612e2219e334dbc9d9104393eb948c9341213065cf071b/ebbd1b567d8f6b88d190e54ee456989fdef340df2acb2529fbf02746a79923ec.html",
+    "url": "https://www.service-public.gouv.fr/particuliers/actualites/A18926",
+    "hash": "ebbd1b567d8f6b88d190e54ee456989fdef340df2acb2529fbf02746a79923ec",
+    "fetched_at": "2026-10-09T21:13:57.513Z",
+    "content_type": "text/html"
+  },
+  {
+    "key": "sources/045b48f0e5d96b08092f018027e5653278a7bee203bc60d7cd39a7e73260cda7/f068fc1c03798c73c819a590bd516bdb3251a08fcb72c6a51e1b65856929e6af.html",
+    "url": "https://www.service-public.gouv.fr/particuliers/actualites/A17166",
+    "hash": "f068fc1c03798c73c819a590bd516bdb3251a08fcb72c6a51e1b65856929e6af",
+    "fetched_at": "2026-10-09T21:25:32.744Z",
+    "content_type": "text/html"
+  },
+  {
+    "key": "sources/6c7c41a36e374d0c68e8c498c0c8c3d931ea10279bba7ee8cc4f7d74d8752b0e/864b6dac8c358bbe00a5dfba0548d680d845db876e7962efebedfa8bbf48bf4d.html",
+    "url": "https://www.service-public.gouv.fr/particuliers/actualites/A19066",
+    "hash": "864b6dac8c358bbe00a5dfba0548d680d845db876e7962efebedfa8bbf48bf4d",
+    "fetched_at": "2026-10-09T21:25:32.955Z",
+    "content_type": "text/html"
+  },
+  {
+    "key": "sources/984740bc1e00de63124548a73198aaccf44522833dca02e42c1ecd2f918fa587/580dc1f2117ef4b37f7a9a8bfb37152a0226db5d45e4fb9fe9d8983d5c56a821.html",
+    "url": "https://www.service-public.gouv.fr/particuliers/actualites/A19067",
+    "hash": "580dc1f2117ef4b37f7a9a8bfb37152a0226db5d45e4fb9fe9d8983d5c56a821",
+    "fetched_at": "2026-10-09T21:25:33.163Z",
+    "content_type": "text/html"
+  },
+  {
+    "key": "sources/bf772b3fcbfd04d073d0139d368eed610f5a191a41be74f0b8d9ce57a76180c8/c74b31c324628a7898c595ff53c7bfc708d62303892baeaf8f3a98c9b506b78a.html",
+    "url": "https://www.service-public.gouv.fr/particuliers/actualites/A14227",
+    "hash": "c74b31c324628a7898c595ff53c7bfc708d62303892baeaf8f3a98c9b506b78a",
+    "fetched_at": "2026-10-09T21:25:33.376Z",
+    "content_type": "text/html"
+  },
+  {
+    "key": "sources/adb117b5b89d3c0db0bef7d379edec39fe2184b41e4de58249b6499f83cc9b5c/4b7c1bc1c6faff05dc77644a1b0ab2f19693c1319fec942e4a09f46d97348bfd.html",
+    "url": "https://www.service-public.gouv.fr/particuliers/actualites/A17956",
+    "hash": "4b7c1bc1c6faff05dc77644a1b0ab2f19693c1319fec942e4a09f46d97348bfd",
+    "fetched_at": "2026-10-09T21:25:33.588Z",
+    "content_type": "text/html"
+  },
+  {
+    "key": "sources/e836b12f0fc99297480237ccfd3d1c3d8ba53f354187452d590464816ef5a8c1/5615ff4e99d20971d61d948be440bf7df2b3bca8547fb0e38ead5f8365b9e2c3.html",
+    "url": "https://www.service-public.gouv.fr/particuliers/actualites/A19044",
+    "hash": "5615ff4e99d20971d61d948be440bf7df2b3bca8547fb0e38ead5f8365b9e2c3",
+    "fetched_at": "2026-10-09T21:25:33.796Z",
+    "content_type": "text/html"
+  },
+  {
+    "key": "sources/82a1e32daf73d94ddc3b5bb043aafdc04397f9f999815576e1cf5a3a7411ab5f/c72711ff165aaf1b66c1349201a7c144bf83b6c18907b754ddf4aa95161ddb26.html",
+    "url": "https://www.service-public.gouv.fr/particuliers/actualites/A19075",
+    "hash": "c72711ff165aaf1b66c1349201a7c144bf83b6c18907b754ddf4aa95161ddb26",
+    "fetched_at": "2026-10-09T21:13:59.178Z",
+    "content_type": "text/html"
+  },
+  {
+    "key": "sources/edbac6c5b31c53237707ef05f98c6db157340a59911510841c961cc0cea550bd/2e47911a2418cd317b28122aad40b2d109c45fae37b128684abe51f45e646e96.html",
+    "url": "https://www.service-public.gouv.fr/particuliers/actualites/A19074",
+    "hash": "2e47911a2418cd317b28122aad40b2d109c45fae37b128684abe51f45e646e96",
+    "fetched_at": "2026-10-09T21:13:59.374Z",
+    "content_type": "text/html"
+  },
+  {
+    "key": "sources/d86d30b8bf7c84f1b39ae37ccba05b9abce7c014b6a8353bba2fd6799900fd74/241fa6aeaf9beeaaa0e3f4d517bc191815f897a7cf97ed891c9582b8a80e22ca.html",
+    "url": "https://www.service-public.gouv.fr/particuliers/actualites/A17054",
+    "hash": "241fa6aeaf9beeaaa0e3f4d517bc191815f897a7cf97ed891c9582b8a80e22ca",
+    "fetched_at": "2026-10-09T21:14:01.000Z",
+    "content_type": "text/html"
+  },
+  {
+    "key": "sources/01647d07a5adeae52bd5ef1e2451d348af1b2490812a2c16c5a5efcb56592c34/ee50e096293317ff0b46c835b9c88c09cacef8b6fa888ff26a31807beea8048f.html",
+    "url": "https://www.service-public.gouv.fr/particuliers/actualites/A16807",
+    "hash": "ee50e096293317ff0b46c835b9c88c09cacef8b6fa888ff26a31807beea8048f",
+    "fetched_at": "2026-10-09T21:14:01.204Z",
+    "content_type": "text/html"
+  },
+  {
+    "key": "sources/9067a21c4da5f02dcf2a4cb2f1b17ec24492deea149357099a97c64d119d3f24/d81939bd9a0c36c87cae63811668c27e9c143778877a6b8391c9a4f2ed13b47f.html",
+    "url": "https://www.service-public.gouv.fr/particuliers/actualites/A17729",
+    "hash": "d81939bd9a0c36c87cae63811668c27e9c143778877a6b8391c9a4f2ed13b47f",
+    "fetched_at": "2026-10-09T21:13:59.022Z",
+    "content_type": "text/html"
+  },
+  {
+    "key": "sources/84c99c0464cc8994f886113d137c249339390fe46165ba6fe913d92a8d8a4439/debc79f0a2a24a9061c7923228c4cef68ec789a93192b9258912e3c3d83be339.html",
+    "url": "https://www.service-public.gouv.fr/particuliers/actualites/A18903",
+    "hash": "debc79f0a2a24a9061c7923228c4cef68ec789a93192b9258912e3c3d83be339",
+    "fetched_at": "2026-10-09T21:13:58.374Z",
+    "content_type": "text/html"
+  },
+  {
+    "key": "sources/139a414422852d705792c13e64b58963ec3967ab4f5031220736dc9bd11e5b5d/6db0cd3794b6bd357a7feb446f19f3bfbec9ed5822f95248939cd4cc81f5e790.html",
+    "url": "https://www.service-public.gouv.fr/particuliers/actualites/A18466",
+    "hash": "6db0cd3794b6bd357a7feb446f19f3bfbec9ed5822f95248939cd4cc81f5e790",
+    "fetched_at": "2026-10-09T21:13:59.819Z",
+    "content_type": "text/html"
+  },
+  {
+    "key": "sources/3407c1274ce80ad2ee86a0a6fd458fdf1e2c2d004bffa0c4f0f39116f32d17ff/5cff3aa3879734b6c50ec87403e158ef1734e2feb44cb1caa92d9cff0729c2cf.html",
+    "url": "https://entreprendre.service-public.gouv.fr/actualites/A19090",
+    "hash": "5cff3aa3879734b6c50ec87403e158ef1734e2feb44cb1caa92d9cff0729c2cf",
+    "fetched_at": "2026-10-09T21:14:01.850Z",
+    "content_type": "text/html"
+  },
+  {
+    "key": "sources/acf740fca5ae56671bf549b68324c11caeac103c1a67c821a8d119158bd7524e/4893894121db73236573bdbb5723f499f31eef244efc246c250cb0ef0b0dd849.html",
+    "url": "https://entreprendre.service-public.gouv.fr/actualites/A19077",
+    "hash": "4893894121db73236573bdbb5723f499f31eef244efc246c250cb0ef0b0dd849",
+    "fetched_at": "2026-10-09T21:14:02.258Z",
+    "content_type": "text/html"
+  },
+  {
+    "key": "sources/fcaffa6321fd0bc30a2796e58d8e309e3ddeb8550343b1275842f53060adde93/149818066e88c02806f10b6c84272e0521530baafece4d860c6f1096fa403606.html",
+    "url": "https://entreprendre.service-public.gouv.fr/actualites/A18905",
+    "hash": "149818066e88c02806f10b6c84272e0521530baafece4d860c6f1096fa403606",
+    "fetched_at": "2026-10-09T21:14:02.550Z",
+    "content_type": "text/html"
+  },
+  {
+    "key": "sources/1b70b01ae31d4a675e84fc2fe5871494137c2722af82dacdc03fd5b724e1ddd6/987d4fe6d4880ad108a59c05a769f067a15d355dc1a6a68fd8498e2b6eab44ae.html",
+    "url": "https://entreprendre.service-public.gouv.fr/actualites/A18980",
+    "hash": "987d4fe6d4880ad108a59c05a769f067a15d355dc1a6a68fd8498e2b6eab44ae",
+    "fetched_at": "2026-10-09T21:14:03.500Z",
+    "content_type": "text/html"
+  },
+  {
+    "key": "sources/2aeeed8326e0b23a4aecc20d9562efc75831375bb4a3a21a5d7f52b6526b4588/3c2842b07b47a87740877508e294f3e56b06cf5b1daac277aa65cc0fd8dfb240.html",
+    "url": "https://entreprendre.service-public.gouv.fr/actualites/A18818",
+    "hash": "3c2842b07b47a87740877508e294f3e56b06cf5b1daac277aa65cc0fd8dfb240",
+    "fetched_at": "2026-10-09T21:14:03.759Z",
+    "content_type": "text/html"
+  },
+  {
+    "key": "sources/c8e976210a422f4a305f551ec1688a7961ab878cae497710a9bda93da1e0f359/dab2509effdfe980c72168dea46d3ca33844e14cacc13af63cf86ecc546c0213.html",
+    "url": "https://entreprendre.service-public.gouv.fr/actualites/A19041",
+    "hash": "dab2509effdfe980c72168dea46d3ca33844e14cacc13af63cf86ecc546c0213",
+    "fetched_at": "2026-10-09T21:14:04.032Z",
+    "content_type": "text/html"
+  },
+  {
+    "key": "sources/b91d087d780de315879439b82615d3f3cf20a554191ba2a64ff8e894b42a403f/a5b4e6343cc1d3e703fab2f69966cdf5b37158103d7db76fb40d8094b8115bc1.html",
+    "url": "https://www.urssaf.fr/accueil/outils-documentation/taux-baremes/plafonds-securite-sociale.html",
+    "hash": "a5b4e6343cc1d3e703fab2f69966cdf5b37158103d7db76fb40d8094b8115bc1",
+    "fetched_at": "2026-10-09T21:17:49.016Z",
+    "content_type": "text/html"
+  },
+  {
+    "key": "sources/7365369a690818ad6e942a408c0bc00656bda6914538c01e4eeb8845c595fe25/702f5dd53f9e69d79deba618f30001ab015fba8b14a94f0e31b1b96f40b2862b.html",
+    "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/PLF_2027",
+    "hash": "702f5dd53f9e69d79deba618f30001ab015fba8b14a94f0e31b1b96f40b2862b",
+    "fetched_at": "2026-10-09T21:18:48.031Z",
+    "content_type": "text/html"
+  },
+  {
+    "key": "sources/ee2047dc91fa12185c8c046ce43e70d70786faf04ef593ddb4403878d6bbf318/c2f084812e123b258ad0ac24574bd2d071679e0228d2d671100454027d3d118a.html",
+    "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/PLFSS_2027",
+    "hash": "c2f084812e123b258ad0ac24574bd2d071679e0228d2d671100454027d3d118a",
+    "fetched_at": "2026-10-09T21:18:50.899Z",
+    "content_type": "text/html"
+  },
+  {
+    "key": "sources/84205f3d15d4fca6e8f7b884edc2bac6d383b0fabb85158ec88dd283c61308af/132274b83bed4861a9e1a147d0d16abda2d729cdad2373ef804e26747c43d881.pdf",
+    "url": "https://www.assemblee-nationale.fr/dyn/17/textes/l17b3210_projet-loi.pdf",
+    "hash": "132274b83bed4861a9e1a147d0d16abda2d729cdad2373ef804e26747c43d881",
+    "fetched_at": "2026-10-09T21:19:09.476Z",
+    "content_type": "application/pdf"
+  },
+  {
+    "key": "sources/e2dfd9797d22d06f148fe360a0577ace36aa276dadeb75e6646b42b4c4e5515a/47f5fc0d1581c90634449516281070495b92cfe062c20c2a366919622906eab6.pdf",
+    "url": "https://www.assemblee-nationale.fr/dyn/17/textes/l17b3211_projet-loi.pdf",
+    "hash": "47f5fc0d1581c90634449516281070495b92cfe062c20c2a366919622906eab6",
+    "fetched_at": "2026-10-09T21:19:10.635Z",
+    "content_type": "application/pdf"
+  },
+  {
+    "key": "sources/67c90b6b63840d25d7ab09bc710132312a42dcedaabe9c2f88ee87666b82a914/405090b317c6a93398f90e7e9929461b675f4a2e7ffbd78fb3f5f1bd3edb2f33.html",
+    "url": "https://www.bourgognefranchecomte.fr/",
+    "hash": "405090b317c6a93398f90e7e9929461b675f4a2e7ffbd78fb3f5f1bd3edb2f33",
+    "fetched_at": "2026-10-09T21:21:03.573Z",
+    "content_type": "text/html"
+  },
+  {
+    "key": "sources/011c1f4d30cb8e8b3da456a12f2b8f8fe775dbadf5aee1f53ad0102af777c3e6/aa4e0cd85f3467940bb5bc346a13c8e6fa5316eb2e2584aabda80e0a5ad20135.html",
+    "url": "https://abcdelib.bourgognefranchecomte.fr/",
+    "hash": "aa4e0cd85f3467940bb5bc346a13c8e6fa5316eb2e2584aabda80e0a5ad20135",
+    "fetched_at": "2026-10-09T21:21:28.272Z",
+    "content_type": "text/html"
+  },
+  {
+    "key": "sources/e6626c7e5d452e874d6bdc1b6a62d4911c3245ff5251d8d2950f0d29bf6eeeec/3d14ed055f2a76807212bac858cfa44a171556d32e53caf57d92ad2c1a0d6bec.html",
+    "url": "https://www.isula.corsica/",
+    "hash": "3d14ed055f2a76807212bac858cfa44a171556d32e53caf57d92ad2c1a0d6bec",
+    "fetched_at": "2026-10-09T21:21:32.810Z",
+    "content_type": "text/html"
+  },
+  {
+    "key": "sources/2ad4c25425cdf2b0a12e6b682c9fc5b4ed8e6cdbfc2c69409b882e62ca10decd/889c52ebe201014dff688a7920a5fe22740216cde2e4d3fef39f2201c86a685d.html",
+    "url": "https://www.isula.corsica/Recueils-des-actes-administratifs_r100.html",
+    "hash": "889c52ebe201014dff688a7920a5fe22740216cde2e4d3fef39f2201c86a685d",
+    "fetched_at": "2026-10-09T21:21:32.421Z",
+    "content_type": "text/html"
+  },
+  {
+    "key": "sources/f76fbcb5c928b56686015caab951c233f07c3d8c84582c110dd0cf473f752758/d5cfc136bf8d47be0bebf32d20ebdc8e7355d8bb394491ff7102c26d9c1227ad.html",
+    "url": "https://www.grandest.fr/",
+    "hash": "d5cfc136bf8d47be0bebf32d20ebdc8e7355d8bb394491ff7102c26d9c1227ad",
+    "fetched_at": "2026-10-09T21:21:28.429Z",
+    "content_type": "text/html"
+  },
+  {
+    "key": "sources/89258e48dea771d3e0d3565c3e7a0accd40b02a2a7ec9994df1b2990dd918f73/3e55ef02684f6c435fe71268bb4f39d7130a1881e2a612367c76697146e78eaf.html",
+    "url": "https://www.grandest.fr/le-conseil-regional/deliberations/",
+    "hash": "3e55ef02684f6c435fe71268bb4f39d7130a1881e2a612367c76697146e78eaf",
+    "fetched_at": "2026-10-09T21:21:29.188Z",
+    "content_type": "text/html"
+  },
+  {
+    "key": "sources/3a68160179a71226c1eedcba9dfd8178fb44091d13af9a5d3727557db59f8e8a/ee3525d55a704f6716fccd03876909c16e032dc60b4f1df4832aeac532854f31.html",
+    "url": "https://www.hautsdefrance.fr/",
+    "hash": "ee3525d55a704f6716fccd03876909c16e032dc60b4f1df4832aeac532854f31",
+    "fetched_at": "2026-10-09T21:21:28.856Z",
+    "content_type": "text/html"
+  },
+  {
+    "key": "sources/d4c9a1741af22aaba0e52bf6aba313740dff4dffb0c6f47a46fb7814007fb369/670089c90918154bc3d42b61d1ebc41274ec4bab44b8a26af185f41e39409c3a.html",
+    "url": "https://www.hautsdefrance.fr/conseil-regional-hdf/les-actes-institutionnels/",
+    "hash": "670089c90918154bc3d42b61d1ebc41274ec4bab44b8a26af185f41e39409c3a",
+    "fetched_at": "2026-10-09T21:21:29.211Z",
+    "content_type": "text/html"
+  },
+  {
+    "key": "sources/c06cd81ef111670ee5878619391ec6dcf271a61048107236e2c531b9522aa860/385b7bdd884626e837012c50ad0b19df3538f7b154d4462c63999665baf33796.html",
+    "url": "https://www.iledefrance.fr/",
+    "hash": "385b7bdd884626e837012c50ad0b19df3538f7b154d4462c63999665baf33796",
+    "fetched_at": "2026-10-09T21:21:33.188Z",
+    "content_type": "text/html"
+  },
+  {
+    "key": "sources/e98abc16b46f6dd5d4cdbcd7d68eef1e0621f027e227eb7f075f0cd3f7c3a6ea/0da19c51e594a1b0feb3464160ead509d83afff241c033da1b325415b508c08d.html",
+    "url": "https://www.data.gouv.fr/datasets/actes-administratifs-de-la-region-ile-de-france",
+    "hash": "0da19c51e594a1b0feb3464160ead509d83afff241c033da1b325415b508c08d",
+    "fetched_at": "2026-10-09T21:21:33.206Z",
+    "content_type": "text/html"
+  },
+  {
+    "key": "sources/2af80094b58258b07887567eee14a9a4705d55b71c72edd6ef148cd324faa887/1862666dc12e879f359b57c5309345edb11f1de8e316158a255633a5717344ce.html",
+    "url": "https://www.nouvelle-aquitaine.fr/",
+    "hash": "1862666dc12e879f359b57c5309345edb11f1de8e316158a255633a5717344ce",
+    "fetched_at": "2026-10-09T21:21:35.097Z",
+    "content_type": "text/html"
+  },
+  {
+    "key": "sources/82a24a3ba8023c6741fe04e5f3618ec257f4c789f422cced5b82c7ca3401a37d/4d087bd4d3e5f588bfa8e04b9a7c12efc46e413bd5808b96bfa9e5c42aa51a1e.html",
+    "url": "https://www.laregion.fr/",
+    "hash": "4d087bd4d3e5f588bfa8e04b9a7c12efc46e413bd5808b96bfa9e5c42aa51a1e",
+    "fetched_at": "2026-10-09T21:21:36.676Z",
+    "content_type": "text/html"
+  },
+  {
+    "key": "sources/1f3bf348df670d04db9f5fd1968ebfdc0969eb34e315fc6ef11737f0e4aee092/a2849d7d3a0af87d0315b2fef7119a64c470a835d6ea07ba8e75d361cfc4d4c4.html",
+    "url": "https://www.laregion.fr/Portail-de-publication-des-Deliberations-et-autres-actes-administratifs-de-la-Region",
+    "hash": "a2849d7d3a0af87d0315b2fef7119a64c470a835d6ea07ba8e75d361cfc4d4c4",
+    "fetched_at": "2026-10-09T21:21:36.023Z",
+    "content_type": "text/html"
+  },
+  {
+    "key": "sources/c9c5a45f3885b6b2a85289b5287897b075792013052034fca325fa6cfd34bbc4/85b2994ea7d9e32d77a1fa2c1c40d84dcf0bceff262e1775e1f48c8f5a38b43b.html",
+    "url": "https://www.paysdelaloire.fr/",
+    "hash": "85b2994ea7d9e32d77a1fa2c1c40d84dcf0bceff262e1775e1f48c8f5a38b43b",
+    "fetched_at": "2026-10-09T21:21:35.293Z",
+    "content_type": "text/html"
+  },
+  {
+    "key": "sources/b5146486f3331c4b157e1d118db758d0ee3dd2b44f912832df9c94d01c156b74/527deea7233cee21dd6ea326c770bfb9e73680016aa46b1d89c3cce1d0579c76.html",
+    "url": "https://www.paysdelaloire.fr/mon-conseil-regional/linstitution/les-actes-administratifs",
+    "hash": "527deea7233cee21dd6ea326c770bfb9e73680016aa46b1d89c3cce1d0579c76",
+    "fetched_at": "2026-10-09T21:21:35.326Z",
+    "content_type": "text/html"
+  },
+  {
+    "key": "sources/883d8253f670dcab5b9f30bbad38e66ffda1385e4fcc938e94511221ebdfc0cb/58911703d24f87a22b14f4a42fcdf12b2f436fbd4bb98f80b20f6ace02723b14.html",
+    "url": "https://www.maregionsud.fr/",
+    "hash": "58911703d24f87a22b14f4a42fcdf12b2f436fbd4bb98f80b20f6ace02723b14",
+    "fetched_at": "2026-10-09T21:21:35.348Z",
+    "content_type": "text/html"
+  },
+  {
+    "key": "sources/20d4ca3a85d3a7ebc0e4066642423420f0a70f9c8dd8c7de6f84ac0bb4405a9d/2bf58eae026cd16f74ec91895ac61859221c733cb93e4edad7dcc2f1cfd47e8b.html",
+    "url": "https://www.regionguadeloupe.fr/",
+    "hash": "2bf58eae026cd16f74ec91895ac61859221c733cb93e4edad7dcc2f1cfd47e8b",
+    "fetched_at": "2026-10-09T21:21:35.457Z",
+    "content_type": "text/html"
+  },
+  {
+    "key": "sources/bfb08190cf275bbfe56f0d727141a2fa63ef394ba2877f9685cbe03215b6a1ed/f36045704595688b8816102bd72b9a20e23e48dfa112a8f0076f23ce953d063d.html",
+    "url": "https://www.regionguadeloupe.fr/Publication-des-actes-administratifs",
+    "hash": "f36045704595688b8816102bd72b9a20e23e48dfa112a8f0076f23ce953d063d",
+    "fetched_at": "2026-10-09T21:21:37.251Z",
+    "content_type": "text/html"
+  },
+  {
+    "key": "sources/853685666e8ed07d42d6ebdadeadae1d7c7b0fc77362b7037ddf4794c361e1bd/b7ac714e3c3945225fc8336d91a5670ab5cef73132246e1cf99823e1bc5f9beb.html",
+    "url": "https://www.collectivitedemartinique.mq/",
+    "hash": "b7ac714e3c3945225fc8336d91a5670ab5cef73132246e1cf99823e1bc5f9beb",
+    "fetched_at": "2026-10-09T21:21:37.625Z",
+    "content_type": "text/html"
+  },
+  {
+    "key": "sources/a9a2c2b407a60e29067671317c66c160149f1f6eb4698111d0adac44d5894daa/1327784811214d23ba8f743993351c06bff48159ab530ed5f044b5bcd271b005.html",
+    "url": "https://www.collectivitedemartinique.mq/actes-adminitratifs/",
+    "hash": "1327784811214d23ba8f743993351c06bff48159ab530ed5f044b5bcd271b005",
+    "fetched_at": "2026-10-09T21:21:37.499Z",
+    "content_type": "text/html"
+  },
+  {
+    "key": "sources/8d08d2b73a5d03b22b13ca48ad64397dca097e8420fdbd8b58024ff7e9f62562/0f08e10054a6f2aea0bd3e0734c2f6430c2cfd6932d3e3d547b68b748e81815a.html",
+    "url": "https://www.ctguyane.fr/",
+    "hash": "0f08e10054a6f2aea0bd3e0734c2f6430c2cfd6932d3e3d547b68b748e81815a",
+    "fetched_at": "2026-10-09T21:21:37.179Z",
+    "content_type": "text/html"
+  },
+  {
+    "key": "sources/2e1417c89f4409e2e83ba8e14a26ba1460c62e8a95905557c5d4f508e9f93a3a/129f2154b0ef610605ec3f4fb00e31771b2d4abf0d32295346918c4ede367297.html",
+    "url": "https://www.mayotte.fr/",
+    "hash": "129f2154b0ef610605ec3f4fb00e31771b2d4abf0d32295346918c4ede367297",
+    "fetched_at": "2026-10-09T21:21:39.156Z",
+    "content_type": "text/html"
+  },
+  {
+    "key": "sources/72dbe315dd715b486c4055c0084fbbae38e951b3417bdccdbe70f5fd562f7d45/0a8dd92d183e450893e6607e4df679d8de66178e0c74910c82347f69db1217c4.html",
+    "url": "https://www.mayotte.fr/le-departement/transparence-administrative/publicite-des-actes",
+    "hash": "0a8dd92d183e450893e6607e4df679d8de66178e0c74910c82347f69db1217c4",
+    "fetched_at": "2026-10-09T21:21:40.171Z",
+    "content_type": "text/html"
   }
 ]

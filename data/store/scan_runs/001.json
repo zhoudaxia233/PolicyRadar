@@ -724,5 +724,395 @@
     "source_url": "https://oeil.europarl.europa.eu/oeil/en",
     "checked_at": "2026-10-09T20:20:19.903Z",
     "data": "{\"id\":\"scan-render-20261009222019-oeil\",\"sourceUrl\":\"https://oeil.europarl.europa.eu/oeil/en\",\"checkedAt\":\"2026-10-09T20:20:19.903Z\",\"windowStart\":\"2026-10-09\",\"windowEnd\":\"2026-10-09\",\"status\":\"partial\",\"pages\":[\"https://oeil.europarl.europa.eu/oeil/en\",\"https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=2025/0395(COD)\",\"https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=2025/0396(COD)\",\"https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=2025/0385(COD)\"],\"recordIds\":[\"oeil-2025-0395-cod\",\"oeil-2025-0396-cod\"],\"excluded\":[{\"url\":\"https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=2026/2925(RSP)\",\"reason\":\"“国际消除贫困日”全会决议议题，只有预计会期，没有已发生的程序事件；不编造发布日期。\"}],\"allPagesChecked\":false,\"totalListed\":null,\"note\":\"用浏览器渲染立法观察站首页：40个程序中36个已收录；新增2项10月9日提交全会报告的“综合简化方案第八部分”提案，补录1项7月的历史程序（不在本窗口），1项只有预计会期的决议注明排除。各程序标题和日期均打开程序页核对。今天尚未结束。\"}"
+  },
+  {
+    "id": "scan-fr-20261009-sp-part-recent",
+    "source_url": "https://www.service-public.gouv.fr/particuliers/actualites",
+    "checked_at": "2026-10-09T21:13:29.775Z",
+    "data": "{\"id\":\"scan-fr-20261009-sp-part-recent\",\"sourceUrl\":\"https://www.service-public.gouv.fr/particuliers/actualites\",\"checkedAt\":\"2026-10-09T21:13:29.775Z\",\"windowStart\":\"2026-10-02\",\"windowEnd\":\"2026-10-08\",\"status\":\"partial\",\"pages\":[\"https://www.service-public.gouv.fr/particuliers/actualites\"],\"recordIds\":[\"fr-sp-a14632\",\"fr-sp-a19081\",\"fr-sp-a15144\",\"fr-sp-a19085\",\"fr-sp-a19080\",\"fr-sp-a19086\"],\"excluded\":[{\"url\":\"https://www.service-public.gouv.fr/particuliers/actualites/A17677\",\"reason\":\"已收录：与现有记录oct06-d74fdf38f8f8ade2fb73ec4b为同一文章，不重复收录。\"}],\"allPagesChecked\":false,\"totalListed\":null,\"note\":\"Service-Public个人动态列表首页列出的10月2日至8日文章已逐篇打开并收录或说明排除原因；该列表只显示最新约20篇且没有完整分页存档，不能证明窗口内无遗漏。\"}"
+  },
+  {
+    "id": "scan-fr-20261009-sp-part-today",
+    "source_url": "https://www.service-public.gouv.fr/particuliers/actualites",
+    "checked_at": "2026-10-09T21:13:29.775Z",
+    "data": "{\"id\":\"scan-fr-20261009-sp-part-today\",\"sourceUrl\":\"https://www.service-public.gouv.fr/particuliers/actualites\",\"checkedAt\":\"2026-10-09T21:13:29.775Z\",\"windowStart\":\"2026-10-09\",\"windowEnd\":\"2026-10-09\",\"status\":\"partial\",\"pages\":[\"https://www.service-public.gouv.fr/particuliers/actualites\"],\"recordIds\":[\"fr-sp-a18926\"],\"excluded\":[{\"url\":\"https://www.service-public.gouv.fr/particuliers/actualites/A19093\",\"reason\":\"教育部面向高中生的在线意见征集（10月23日截止），不改变规则或权利义务。\"}],\"allPagesChecked\":false,\"totalListed\":null,\"note\":\"10月9日（当时尚未结束）列表中已出现的文章；当天不构成完整扫描。\"}"
+  },
+  {
+    "id": "scan-fr-20261009-sp-part-backfill",
+    "source_url": "https://www.service-public.gouv.fr/particuliers/actualites",
+    "checked_at": "2026-10-09T21:13:29.775Z",
+    "data": "{\"id\":\"scan-fr-20261009-sp-part-backfill\",\"sourceUrl\":\"https://www.service-public.gouv.fr/particuliers/actualites\",\"checkedAt\":\"2026-10-09T21:13:29.775Z\",\"windowStart\":\"2026-08-19\",\"windowEnd\":\"2026-10-01\",\"status\":\"partial\",\"pages\":[\"https://www.service-public.gouv.fr/particuliers/actualites\",\"https://www.service-public.gouv.fr/particuliers/actualites/A18466\"],\"recordIds\":[\"fr-sp-a17166\",\"fr-sp-a19066\",\"fr-sp-a19067\",\"fr-sp-a14227\",\"fr-sp-a17956\",\"fr-sp-a19044\",\"fr-sp-a19075\",\"fr-sp-a19074\",\"fr-sp-a17054\",\"fr-sp-a16807\",\"fr-sp-a17729\"],\"excluded\":[{\"url\":\"https://www.service-public.gouv.fr/particuliers/actualites/A19069\",\"reason\":\"新增手机上传纸质报销单的线上服务渠道，不改变报销权利或规则。\"},{\"url\":\"https://www.service-public.gouv.fr/particuliers/actualites/A18466\",\"reason\":\"10月变化月度汇总；所列事项已分别按原文章收录或排除。\"},{\"url\":\"https://www.service-public.gouv.fr/particuliers/actualites/A13880\",\"reason\":\"消费者投诉平台的常设介绍，无新规则。\"},{\"url\":\"https://www.service-public.gouv.fr/particuliers/actualites/A15263\",\"reason\":\"冬令时切换提示，无政策变化。\"},{\"url\":\"https://www.service-public.gouv.fr/particuliers/actualites/A15125\",\"reason\":\"万圣节学校假期日期提示，属既定校历，无新规则。\"},{\"url\":\"https://www.service-public.gouv.fr/particuliers/actualites/A19055\",\"reason\":\"住房援助在线模拟器上线，不改变补助条件。\"},{\"url\":\"https://www.service-public.gouv.fr/particuliers/actualites/A19054\",\"reason\":\"税务判例解读（孙辈代位继承时赠与的计入），说明既有规则，无新规定。\"},{\"url\":\"https://www.service-public.gouv.fr/particuliers/actualites/A17727\",\"reason\":\"房产税申诉方法的常设说明，无新规则。\"},{\"url\":\"https://www.service-public.gouv.fr/particuliers/actualites/A15275\",\"reason\":\"5月发布的初中助学金学年说明，不在本次核对窗口，留待历史回补。\"},{\"url\":\"https://www.service-public.gouv.fr/particuliers/actualites/A14944\",\"reason\":\"5月发布的高中助学金学年说明，不在本次核对窗口，留待历史回补。\"},{\"url\":\"https://www.service-public.gouv.fr/particuliers/actualites/A18903\",\"reason\":\"已收录：与现有记录oct06-fbbb6cee8d2c1ebe2f4084e6为同一文章，不重复收录。\"},{\"url\":\"https://www.service-public.gouv.fr/particuliers/actualites/A18883\",\"reason\":\"已收录：可重复使用卫生用品报销已有解读fr-reusable-menstrual-products-2026。\"}],\"allPagesChecked\":false,\"totalListed\":null,\"note\":\"历史回补：通过当前列表和“10月有哪些变化”汇总找到的8月至10月1日文章，逐篇打开后收录或排除。9月2日起的历史窗口仍未完整核对。\"}"
+  },
+  {
+    "id": "scan-fr-20261009-sp-pro-recent",
+    "source_url": "https://entreprendre.service-public.gouv.fr/actualites",
+    "checked_at": "2026-10-09T21:13:30.108Z",
+    "data": "{\"id\":\"scan-fr-20261009-sp-pro-recent\",\"sourceUrl\":\"https://entreprendre.service-public.gouv.fr/actualites\",\"checkedAt\":\"2026-10-09T21:13:30.108Z\",\"windowStart\":\"2026-10-02\",\"windowEnd\":\"2026-10-08\",\"status\":\"partial\",\"pages\":[\"https://entreprendre.service-public.gouv.fr/actualites\"],\"recordIds\":[\"fr-sp-pro-a19077\"],\"excluded\":[{\"url\":\"https://entreprendre.service-public.gouv.fr/actualites/A19082\",\"reason\":\"Urssaf提供委托书表格，属办事工具，不改变权利义务。\"},{\"url\":\"https://entreprendre.service-public.gouv.fr/actualites/A19079\",\"reason\":\"数字化调查（France Num晴雨表）结果，不是政策措施。\"}],\"allPagesChecked\":false,\"totalListed\":null,\"note\":\"Entreprendre Service-Public企业动态列表和官方RSS中10月2日至8日的文章已逐篇打开并收录或说明排除原因；RSS和列表只是发现途径，不能证明完整。\"}"
+  },
+  {
+    "id": "scan-fr-20261009-sp-pro-today",
+    "source_url": "https://entreprendre.service-public.gouv.fr/actualites",
+    "checked_at": "2026-10-09T21:13:30.108Z",
+    "data": "{\"id\":\"scan-fr-20261009-sp-pro-today\",\"sourceUrl\":\"https://entreprendre.service-public.gouv.fr/actualites\",\"checkedAt\":\"2026-10-09T21:13:30.108Z\",\"windowStart\":\"2026-10-09\",\"windowEnd\":\"2026-10-09\",\"status\":\"partial\",\"pages\":[\"https://entreprendre.service-public.gouv.fr/actualites\"],\"recordIds\":[\"fr-sp-pro-a19090\"],\"excluded\":[],\"allPagesChecked\":false,\"totalListed\":null,\"note\":\"10月9日（当时尚未结束）列表中已出现的文章；当天不构成完整扫描。\"}"
+  },
+  {
+    "id": "scan-fr-20261009-sp-pro-backfill",
+    "source_url": "https://entreprendre.service-public.gouv.fr/actualites",
+    "checked_at": "2026-10-09T21:13:30.108Z",
+    "data": "{\"id\":\"scan-fr-20261009-sp-pro-backfill\",\"sourceUrl\":\"https://entreprendre.service-public.gouv.fr/actualites\",\"checkedAt\":\"2026-10-09T21:13:30.108Z\",\"windowStart\":\"2026-02-26\",\"windowEnd\":\"2026-10-01\",\"status\":\"partial\",\"pages\":[\"https://entreprendre.service-public.gouv.fr/actualites\"],\"recordIds\":[\"fr-sp-pro-a19041\",\"fr-sp-pro-a18980\",\"fr-sp-pro-a18818\"],\"excluded\":[{\"url\":\"https://entreprendre.service-public.gouv.fr/actualites/A19072\",\"reason\":\"企业脱碳指南，属指导材料，无新规则。\"},{\"url\":\"https://entreprendre.service-public.gouv.fr/actualites/A19076\",\"reason\":\"Net-entreprises网站改版，不改变申报义务。\"},{\"url\":\"https://entreprendre.service-public.gouv.fr/actualites/A18907\",\"reason\":\"燃油援助汇总页，所列援助已有单独记录或解读。\"},{\"url\":\"https://entreprendre.service-public.gouv.fr/actualites/A18905\",\"reason\":\"已收录：与现有记录oct06-e4e03f54b42cd71aa40558c4为同一文章，不重复收录。\"}],\"allPagesChecked\":false,\"totalListed\":null,\"note\":\"历史回补：企业动态列表首页上较早发布（或近期更新）的文章，逐篇打开后收录或排除。不代表这些月份已完整覆盖。\"}"
+  },
+  {
+    "id": "scan-fr-20261009-an-recent",
+    "source_url": "https://www.assemblee-nationale.fr/dyn/17/dossiers",
+    "checked_at": "2026-10-09T21:24:23.452Z",
+    "data": "{\"id\":\"scan-fr-20261009-an-recent\",\"sourceUrl\":\"https://www.assemblee-nationale.fr/dyn/17/dossiers\",\"checkedAt\":\"2026-10-09T21:24:23.452Z\",\"windowStart\":\"2026-10-02\",\"windowEnd\":\"2026-10-08\",\"status\":\"complete\",\"pages\":[\"https://www.assemblee-nationale.fr/dyn/17/dossiers\",\"https://www.assemblee-nationale.fr/dyn/17/dossiers?page=1\",\"https://www.assemblee-nationale.fr/dyn/17/dossiers?page=2\",\"https://www.assemblee-nationale.fr/dyn/17/dossiers?page=3\",\"https://www.assemblee-nationale.fr/dyn/17/dossiers?numero=3212\",\"https://www.assemblee-nationale.fr/dyn/17/dossiers?numero=3213\",\"https://www.assemblee-nationale.fr/dyn/17/dossiers?numero=3214\",\"https://www.assemblee-nationale.fr/dyn/17/dossiers?numero=3215\",\"https://www.assemblee-nationale.fr/dyn/17/dossiers?numero=3216\",\"https://www.assemblee-nationale.fr/dyn/17/dossiers?numero=3217\",\"https://www.assemblee-nationale.fr/dyn/17/dossiers?numero=3218\",\"https://www.assemblee-nationale.fr/dyn/17/dossiers?numero=3219\",\"https://www.assemblee-nationale.fr/dyn/17/dossiers?numero=3220\",\"https://www.assemblee-nationale.fr/dyn/17/dossiers?numero=3221\",\"https://www.assemblee-nationale.fr/dyn/17/dossiers?numero=3222\",\"https://www.assemblee-nationale.fr/dyn/17/dossiers?numero=3223\",\"https://www.assemblee-nationale.fr/dyn/17/dossiers?numero=3224\",\"https://www.assemblee-nationale.fr/dyn/17/dossiers?numero=3225\",\"https://www.assemblee-nationale.fr/dyn/17/dossiers?numero=3226\",\"https://www.assemblee-nationale.fr/dyn/17/dossiers?numero=3227\",\"https://www.assemblee-nationale.fr/dyn/17/dossiers?numero=3228\",\"https://www.assemblee-nationale.fr/dyn/17/dossiers?numero=3229\",\"https://www.assemblee-nationale.fr/dyn/17/dossiers?numero=3230\",\"https://www.assemblee-nationale.fr/dyn/17/dossiers?numero=3231\",\"https://www.assemblee-nationale.fr/dyn/17/dossiers?numero=3232\",\"https://www.assemblee-nationale.fr/dyn/17/dossiers?numero=3233\",\"https://www.assemblee-nationale.fr/dyn/17/dossiers?numero=3234\",\"https://www.assemblee-nationale.fr/dyn/17/dossiers?numero=3235\",\"https://www.assemblee-nationale.fr/dyn/17/dossiers?numero=3236\",\"https://www.assemblee-nationale.fr/dyn/17/dossiers?numero=3237\",\"https://www.assemblee-nationale.fr/dyn/17/dossiers?numero=3238\",\"https://www.assemblee-nationale.fr/dyn/17/dossiers?numero=3239\",\"https://www.assemblee-nationale.fr/dyn/17/dossiers?numero=3240\",\"https://www.assemblee-nationale.fr/dyn/17/dossiers?numero=3241\",\"https://www.assemblee-nationale.fr/dyn/17/dossiers?numero=3242\",\"https://www.assemblee-nationale.fr/dyn/17/dossiers?numero=3243\",\"https://www.assemblee-nationale.fr/dyn/17/dossiers?numero=3244\",\"https://www.assemblee-nationale.fr/dyn/17/dossiers?numero=3245\",\"https://www.assemblee-nationale.fr/dyn/17/dossiers?numero=3246\",\"https://www.assemblee-nationale.fr/dyn/17/dossiers?numero=3247\",\"https://www.assemblee-nationale.fr/dyn/17/dossiers?numero=3248\",\"https://www.assemblee-nationale.fr/dyn/17/dossiers?numero=3249\",\"https://www.assemblee-nationale.fr/dyn/17/dossiers?numero=3250\",\"https://www.assemblee-nationale.fr/dyn/17/dossiers?numero=3251\",\"https://www.assemblee-nationale.fr/dyn/17/dossiers?numero=3252\",\"https://www.assemblee-nationale.fr/dyn/17/dossiers?numero=3253\",\"https://www.assemblee-nationale.fr/dyn/17/dossiers?numero=3254\",\"https://www.assemblee-nationale.fr/dyn/17/dossiers?numero=3255\",\"https://www.assemblee-nationale.fr/dyn/17/dossiers?numero=3256\",\"https://www.assemblee-nationale.fr/dyn/17/dossiers?numero=3257\",\"https://www.assemblee-nationale.fr/dyn/17/dossiers?numero=3258\",\"https://www.assemblee-nationale.fr/dyn/17/dossiers?numero=3259\",\"https://www.assemblee-nationale.fr/dyn/17/dossiers?numero=3260\",\"https://www.assemblee-nationale.fr/dyn/17/dossiers?numero=3261\",\"https://www.assemblee-nationale.fr/dyn/17/dossiers?numero=3262\",\"https://www.assemblee-nationale.fr/dyn/17/dossiers?numero=3263\",\"https://www.assemblee-nationale.fr/dyn/17/dossiers?numero=3264\",\"https://www.assemblee-nationale.fr/dyn/17/dossiers?numero=3265\",\"https://www.assemblee-nationale.fr/dyn/17/dossiers?numero=3266\",\"https://www.assemblee-nationale.fr/dyn/17/dossiers?numero=3267\",\"https://www.assemblee-nationale.fr/dyn/17/dossiers?numero=3268\",\"https://www.assemblee-nationale.fr/dyn/17/dossiers?numero=3269\",\"https://www.assemblee-nationale.fr/dyn/17/dossiers?numero=3270\",\"https://www.assemblee-nationale.fr/dyn/17/dossiers?numero=3271\",\"https://www.assemblee-nationale.fr/dyn/17/dossiers?numero=3272\",\"https://www.assemblee-nationale.fr/dyn/17/dossiers?numero=3273\",\"https://www.assemblee-nationale.fr/dyn/17/dossiers?numero=3274\",\"https://www.assemblee-nationale.fr/dyn/17/dossiers?numero=3275\",\"https://www.assemblee-nationale.fr/dyn/17/dossiers?numero=3276\",\"https://www.assemblee-nationale.fr/dyn/17/dossiers?numero=3277\",\"https://www.assemblee-nationale.fr/dyn/17/dossiers?numero=3278\",\"https://www.assemblee-nationale.fr/dyn/17/dossiers?numero=3279\",\"https://www.assemblee-nationale.fr/dyn/17/dossiers?numero=3280\",\"https://www.assemblee-nationale.fr/dyn/17/dossiers?numero=3281\",\"https://www.assemblee-nationale.fr/dyn/17/dossiers?numero=3282\",\"https://www.assemblee-nationale.fr/dyn/17/dossiers?numero=3283\",\"https://www.assemblee-nationale.fr/dyn/17/dossiers?numero=3284\",\"https://www.assemblee-nationale.fr/dyn/17/dossiers?numero=3285\",\"https://www.assemblee-nationale.fr/dyn/17/dossiers?numero=3286\",\"https://www.assemblee-nationale.fr/dyn/17/dossiers?numero=3287\",\"https://www.assemblee-nationale.fr/dyn/17/dossiers?numero=3288\",\"https://www.assemblee-nationale.fr/dyn/17/dossiers?numero=3289\"],\"recordIds\":[\"fr-an-3212\",\"fr-an-3213\",\"fr-an-3214\",\"fr-an-3215\",\"fr-an-3216\",\"fr-an-3217\",\"fr-an-3219\",\"fr-an-3221\",\"fr-an-3222\",\"fr-an-3223\",\"fr-an-3224\",\"fr-an-3225\",\"fr-an-3226\",\"fr-an-3227\",\"fr-an-3228\",\"fr-an-3229\",\"fr-an-3230\",\"fr-an-3231\",\"fr-an-3232\",\"fr-an-3233\",\"fr-an-3234\",\"fr-an-3235\",\"fr-an-3236\",\"fr-an-3237\",\"fr-an-3238\",\"fr-an-3239\",\"fr-an-3240\",\"fr-an-3241\",\"fr-an-3242\",\"fr-an-3243\",\"fr-an-3244\",\"fr-an-3245\",\"fr-an-3246\",\"fr-an-3247\",\"fr-an-3248\",\"fr-an-3249\",\"fr-an-3250\",\"fr-an-3251\",\"fr-an-3252\",\"fr-an-3253\",\"fr-an-3254\",\"fr-an-3255\",\"fr-an-3256\",\"fr-an-3257\",\"fr-an-3258\",\"fr-an-3259\",\"fr-an-3260\",\"fr-an-3261\",\"fr-an-3262\",\"fr-an-3263\",\"fr-an-3264\",\"fr-an-3265\",\"fr-an-3266\",\"fr-an-3267\",\"fr-an-3268\",\"fr-an-3269\",\"fr-an-3270\",\"fr-an-3271\",\"fr-an-3280\",\"fr-an-3281\",\"fr-an-3283\",\"fr-an-3284\",\"fr-an-3285\",\"fr-an-3286\",\"fr-an-3287\",\"fr-an-3288\",\"fr-an-3289\"],\"excluded\":[{\"url\":\"https://www.assemblee-nationale.fr/dyn/17/dossiers?numero=3218\",\"reason\":\"编号3218在立法档案检索中没有对应档案（通常为报告等非档案文件），不是新提交的立法档案。\"},{\"url\":\"https://www.assemblee-nationale.fr/dyn/17/dossiers?numero=3220\",\"reason\":\"编号3220属于较早提交的第446号档案的后续文件（档案已进入公开辩论阶段），不是本窗口新提交的档案；该文件本身的日期和内容未核实，作为未解决线索记录。\"},{\"url\":\"https://www.assemblee-nationale.fr/dyn/17/dossiers?numero=3272\",\"reason\":\"编号3272属于较早提交的第533号档案的后续文件（档案已进入公开辩论阶段），不是本窗口新提交的档案；该文件本身的日期和内容未核实，作为未解决线索记录。\"},{\"url\":\"https://www.assemblee-nationale.fr/dyn/17/dossiers?numero=3273\",\"reason\":\"编号3273在立法档案检索中没有对应档案（通常为报告等非档案文件），不是新提交的立法档案。\"},{\"url\":\"https://www.assemblee-nationale.fr/dyn/17/dossiers?numero=3274\",\"reason\":\"编号3274属于较早提交的第2892号档案的后续文件（档案已进入公开辩论阶段），不是本窗口新提交的档案；该文件本身的日期和内容未核实，作为未解决线索记录。\"},{\"url\":\"https://www.assemblee-nationale.fr/dyn/17/dossiers?numero=3275\",\"reason\":\"编号3275在立法档案检索中没有对应档案（通常为报告等非档案文件），不是新提交的立法档案。\"},{\"url\":\"https://www.assemblee-nationale.fr/dyn/17/dossiers?numero=3276\",\"reason\":\"编号3276在立法档案检索中没有对应档案（通常为报告等非档案文件），不是新提交的立法档案。\"},{\"url\":\"https://www.assemblee-nationale.fr/dyn/17/dossiers?numero=3277\",\"reason\":\"编号3277在立法档案检索中没有对应档案（通常为报告等非档案文件），不是新提交的立法档案。\"},{\"url\":\"https://www.assemblee-nationale.fr/dyn/17/dossiers?numero=3278\",\"reason\":\"编号3278在立法档案检索中没有对应档案（通常为报告等非档案文件），不是新提交的立法档案。\"},{\"url\":\"https://www.assemblee-nationale.fr/dyn/17/dossiers?numero=3279\",\"reason\":\"编号3279是国防委员会10月7日对2027年财政法案（第3210号）的意见，已在该法案记录和解读中体现，不是新档案。\"},{\"url\":\"https://www.assemblee-nationale.fr/dyn/17/dossiers?numero=3282\",\"reason\":\"编号3282在立法档案检索中没有对应档案（通常为报告等非档案文件），不是新提交的立法档案。\"}],\"allPagesChecked\":true,\"totalListed\":78,\"note\":\"按文件编号逐号核对国民议会立法档案（第3212至3289号），覆盖10月2日至8日新提交的全部档案：67份收录，11个编号为报告或较早档案的后续文件并说明原因。第3211号为10月1日，第3290号为10月9日。分页列表在同日提交项之间排序不稳定，曾漏列8份，因此改用编号核对。本扫描只针对新提交档案，不代表已核对较早档案的全部进展。\"}"
+  },
+  {
+    "id": "scan-fr-20261009-an-today",
+    "source_url": "https://www.assemblee-nationale.fr/dyn/17/dossiers",
+    "checked_at": "2026-10-09T21:24:23.452Z",
+    "data": "{\"id\":\"scan-fr-20261009-an-today\",\"sourceUrl\":\"https://www.assemblee-nationale.fr/dyn/17/dossiers\",\"checkedAt\":\"2026-10-09T21:24:23.452Z\",\"windowStart\":\"2026-10-09\",\"windowEnd\":\"2026-10-09\",\"status\":\"partial\",\"pages\":[\"https://www.assemblee-nationale.fr/dyn/17/dossiers?numero=3290\",\"https://www.assemblee-nationale.fr/dyn/17/dossiers?numero=3291\"],\"recordIds\":[\"fr-an-3290\"],\"excluded\":[{\"url\":\"https://www.assemblee-nationale.fr/dyn/17/dossiers?numero=3291\",\"reason\":\"编号3291是财政委员会关于2027年财政法案（第3210号）的报告，已在该法案解读中体现，不是新档案。\"}],\"allPagesChecked\":false,\"totalListed\":null,\"note\":\"10月9日（当时尚未结束）已出现的新档案；当天不构成完整扫描。\"}"
+  },
+  {
+    "id": "scan-fr-20261009-an-budget",
+    "source_url": "https://www.assemblee-nationale.fr/dyn/17/dossiers",
+    "checked_at": "2026-10-09T21:24:23.452Z",
+    "data": "{\"id\":\"scan-fr-20261009-an-budget\",\"sourceUrl\":\"https://www.assemblee-nationale.fr/dyn/17/dossiers\",\"checkedAt\":\"2026-10-09T21:24:23.452Z\",\"windowStart\":\"2026-10-01\",\"windowEnd\":\"2026-10-01\",\"status\":\"partial\",\"pages\":[\"https://www.assemblee-nationale.fr/dyn/17/dossiers?numero=3210\",\"https://www.assemblee-nationale.fr/dyn/17/dossiers?numero=3211\",\"https://www.assemblee-nationale.fr/dyn/17/dossiers/PLF_2027\",\"https://www.assemblee-nationale.fr/dyn/17/dossiers/PLFSS_2027\"],\"recordIds\":[\"fr-an-3210\",\"fr-an-3211\"],\"excluded\":[],\"allPagesChecked\":false,\"totalListed\":null,\"note\":\"历史回补：10月1日提交的两部预算法案。未逐号核对10月1日的全部编号，该日不视为完整。\"}"
+  },
+  {
+    "id": "scan-fr-20261009-senat",
+    "source_url": "https://www.senat.fr/dossiers-legislatifs/lois-promulguees.html",
+    "checked_at": "2026-10-09T21:13:31.943Z",
+    "data": "{\"id\":\"scan-fr-20261009-senat\",\"sourceUrl\":\"https://www.senat.fr/dossiers-legislatifs/lois-promulguees.html\",\"checkedAt\":\"2026-10-09T21:13:31.943Z\",\"windowStart\":\"2026-10-02\",\"windowEnd\":\"2026-10-08\",\"status\":\"partial\",\"pages\":[\"https://www.senat.fr/dossiers-legislatifs/lois-promulguees.html\"],\"recordIds\":[],\"excluded\":[],\"allPagesChecked\":false,\"totalListed\":null,\"note\":\"参议院“已公布法律”列表最新一项为8月24日公布的第2026-813号法律，未列出10月2日至8日公布的法律；因官方公报（Légifrance）受阻，无法交叉核对，暂不视为完整。\"}"
+  },
+  {
+    "id": "scan-fr-20261009-legifrance",
+    "source_url": "https://www.legifrance.gouv.fr/jorf/jo",
+    "checked_at": "2026-10-09T21:13:30.244Z",
+    "data": "{\"id\":\"scan-fr-20261009-legifrance\",\"sourceUrl\":\"https://www.legifrance.gouv.fr/jorf/jo\",\"checkedAt\":\"2026-10-09T21:13:30.244Z\",\"windowStart\":\"2026-10-02\",\"windowEnd\":\"2026-10-09\",\"status\":\"blocked\",\"pages\":[\"https://www.legifrance.gouv.fr/jorf/jo\"],\"recordIds\":[],\"excluded\":[],\"allPagesChecked\":false,\"totalListed\":null,\"note\":\"官方公报页面返回访问验证（403），本地浏览器渲染也停在验证页；按规则未绕过，未存档拦截页。公报内容只能经Service-Public等官方解读间接获知。\"}"
+  },
+  {
+    "id": "scan-fr-20261009-fr-ara-government-1",
+    "source_url": "https://www.auvergnerhonealpes.fr/",
+    "checked_at": "2026-10-09T21:21:03.449Z",
+    "data": "{\"id\":\"scan-fr-20261009-fr-ara-government-1\",\"sourceUrl\":\"https://www.auvergnerhonealpes.fr/\",\"checkedAt\":\"2026-10-09T21:21:03.449Z\",\"windowStart\":\"2026-10-02\",\"windowEnd\":\"2026-10-08\",\"status\":\"blocked\",\"pages\":[\"https://www.auvergnerhonealpes.fr/\"],\"recordIds\":[],\"excluded\":[],\"allPagesChecked\":false,\"totalListed\":null,\"note\":\"渠道访问受阻（访问验证、403、仅脚本外壳或无响应），未能读取10月2日至8日的内容；未存档拦截页。\"}"
+  },
+  {
+    "id": "scan-fr-20261009-fr-ara-law-2",
+    "source_url": "https://edelib.auvergnerhonealpes.fr/webdelibplus/jsp/seances.jsp?role=usager",
+    "checked_at": "2026-10-09T21:21:08.383Z",
+    "data": "{\"id\":\"scan-fr-20261009-fr-ara-law-2\",\"sourceUrl\":\"https://edelib.auvergnerhonealpes.fr/webdelibplus/jsp/seances.jsp?role=usager\",\"checkedAt\":\"2026-10-09T21:21:08.383Z\",\"windowStart\":\"2026-10-02\",\"windowEnd\":\"2026-10-08\",\"status\":\"partial\",\"pages\":[\"https://edelib.auvergnerhonealpes.fr/webdelibplus/jsp/seances.jsp?role=usager\"],\"recordIds\":[],\"excluded\":[],\"allPagesChecked\":false,\"totalListed\":null,\"note\":\"只访问了渠道首页或列表首页，未逐项核对10月2日至8日的全部文件和分页；本次未收录新文件，不能据此认定该地区没有新政策。\"}"
+  },
+  {
+    "id": "scan-fr-20261009-fr-ara-government-3",
+    "source_url": "https://www.prefectures-regions.gouv.fr/auvergne-rhone-alpes/",
+    "checked_at": "2026-10-09T21:21:03.413Z",
+    "data": "{\"id\":\"scan-fr-20261009-fr-ara-government-3\",\"sourceUrl\":\"https://www.prefectures-regions.gouv.fr/auvergne-rhone-alpes/\",\"checkedAt\":\"2026-10-09T21:21:03.413Z\",\"windowStart\":\"2026-10-02\",\"windowEnd\":\"2026-10-08\",\"status\":\"blocked\",\"pages\":[\"https://www.prefectures-regions.gouv.fr/auvergne-rhone-alpes/\"],\"recordIds\":[],\"excluded\":[],\"allPagesChecked\":false,\"totalListed\":null,\"note\":\"渠道访问受阻（访问验证、403、仅脚本外壳或无响应），未能读取10月2日至8日的内容；未存档拦截页。\"}"
+  },
+  {
+    "id": "scan-fr-20261009-fr-bfc-government-4",
+    "source_url": "https://www.bourgognefranchecomte.fr/",
+    "checked_at": "2026-10-09T21:21:03.573Z",
+    "data": "{\"id\":\"scan-fr-20261009-fr-bfc-government-4\",\"sourceUrl\":\"https://www.bourgognefranchecomte.fr/\",\"checkedAt\":\"2026-10-09T21:21:03.573Z\",\"windowStart\":\"2026-10-02\",\"windowEnd\":\"2026-10-08\",\"status\":\"partial\",\"pages\":[\"https://www.bourgognefranchecomte.fr/\"],\"recordIds\":[],\"excluded\":[],\"allPagesChecked\":false,\"totalListed\":null,\"note\":\"只访问了渠道首页或列表首页，未逐项核对10月2日至8日的全部文件和分页；本次未收录新文件，不能据此认定该地区没有新政策。\"}"
+  },
+  {
+    "id": "scan-fr-20261009-fr-bfc-law-5",
+    "source_url": "https://abcdelib.bourgognefranchecomte.fr/",
+    "checked_at": "2026-10-09T21:21:28.272Z",
+    "data": "{\"id\":\"scan-fr-20261009-fr-bfc-law-5\",\"sourceUrl\":\"https://abcdelib.bourgognefranchecomte.fr/\",\"checkedAt\":\"2026-10-09T21:21:28.272Z\",\"windowStart\":\"2026-10-02\",\"windowEnd\":\"2026-10-08\",\"status\":\"partial\",\"pages\":[\"https://abcdelib.bourgognefranchecomte.fr/\"],\"recordIds\":[],\"excluded\":[],\"allPagesChecked\":false,\"totalListed\":null,\"note\":\"只访问了渠道首页或列表首页，未逐项核对10月2日至8日的全部文件和分页；本次未收录新文件，不能据此认定该地区没有新政策。\"}"
+  },
+  {
+    "id": "scan-fr-20261009-fr-bfc-government-6",
+    "source_url": "https://www.prefectures-regions.gouv.fr/bourgogne-franche-comte/",
+    "checked_at": "2026-10-09T21:21:03.383Z",
+    "data": "{\"id\":\"scan-fr-20261009-fr-bfc-government-6\",\"sourceUrl\":\"https://www.prefectures-regions.gouv.fr/bourgogne-franche-comte/\",\"checkedAt\":\"2026-10-09T21:21:03.383Z\",\"windowStart\":\"2026-10-02\",\"windowEnd\":\"2026-10-08\",\"status\":\"blocked\",\"pages\":[\"https://www.prefectures-regions.gouv.fr/bourgogne-franche-comte/\"],\"recordIds\":[],\"excluded\":[],\"allPagesChecked\":false,\"totalListed\":null,\"note\":\"渠道访问受阻（访问验证、403、仅脚本外壳或无响应），未能读取10月2日至8日的内容；未存档拦截页。\"}"
+  },
+  {
+    "id": "scan-fr-20261009-fr-bre-government-7",
+    "source_url": "https://www.bretagne.bzh/",
+    "checked_at": "2026-10-09T21:21:03.343Z",
+    "data": "{\"id\":\"scan-fr-20261009-fr-bre-government-7\",\"sourceUrl\":\"https://www.bretagne.bzh/\",\"checkedAt\":\"2026-10-09T21:21:03.343Z\",\"windowStart\":\"2026-10-02\",\"windowEnd\":\"2026-10-08\",\"status\":\"blocked\",\"pages\":[\"https://www.bretagne.bzh/\"],\"recordIds\":[],\"excluded\":[],\"allPagesChecked\":false,\"totalListed\":null,\"note\":\"渠道访问受阻（访问验证、403、仅脚本外壳或无响应），未能读取10月2日至8日的内容；未存档拦截页。\"}"
+  },
+  {
+    "id": "scan-fr-20261009-fr-bre-law-8",
+    "source_url": "https://www.bretagne.bzh/region/decisions/",
+    "checked_at": "2026-10-09T21:21:03.357Z",
+    "data": "{\"id\":\"scan-fr-20261009-fr-bre-law-8\",\"sourceUrl\":\"https://www.bretagne.bzh/region/decisions/\",\"checkedAt\":\"2026-10-09T21:21:03.357Z\",\"windowStart\":\"2026-10-02\",\"windowEnd\":\"2026-10-08\",\"status\":\"blocked\",\"pages\":[\"https://www.bretagne.bzh/region/decisions/\"],\"recordIds\":[],\"excluded\":[],\"allPagesChecked\":false,\"totalListed\":null,\"note\":\"渠道访问受阻（访问验证、403、仅脚本外壳或无响应），未能读取10月2日至8日的内容；未存档拦截页。\"}"
+  },
+  {
+    "id": "scan-fr-20261009-fr-bre-government-9",
+    "source_url": "https://www.prefectures-regions.gouv.fr/bretagne/",
+    "checked_at": "2026-10-09T21:21:03.381Z",
+    "data": "{\"id\":\"scan-fr-20261009-fr-bre-government-9\",\"sourceUrl\":\"https://www.prefectures-regions.gouv.fr/bretagne/\",\"checkedAt\":\"2026-10-09T21:21:03.381Z\",\"windowStart\":\"2026-10-02\",\"windowEnd\":\"2026-10-08\",\"status\":\"blocked\",\"pages\":[\"https://www.prefectures-regions.gouv.fr/bretagne/\"],\"recordIds\":[],\"excluded\":[],\"allPagesChecked\":false,\"totalListed\":null,\"note\":\"渠道访问受阻（访问验证、403、仅脚本外壳或无响应），未能读取10月2日至8日的内容；未存档拦截页。\"}"
+  },
+  {
+    "id": "scan-fr-20261009-fr-cvl-government-10",
+    "source_url": "https://www.centre-valdeloire.fr/",
+    "checked_at": "2026-10-09T21:24:00.000Z",
+    "data": "{\"id\":\"scan-fr-20261009-fr-cvl-government-10\",\"sourceUrl\":\"https://www.centre-valdeloire.fr/\",\"checkedAt\":\"2026-10-09T21:24:00.000Z\",\"windowStart\":\"2026-10-02\",\"windowEnd\":\"2026-10-08\",\"status\":\"blocked\",\"pages\":[\"https://www.centre-valdeloire.fr/\"],\"recordIds\":[],\"excluded\":[],\"allPagesChecked\":false,\"totalListed\":null,\"note\":\"渠道访问受阻（访问验证、403、仅脚本外壳或无响应），未能读取10月2日至8日的内容；未存档拦截页。\"}"
+  },
+  {
+    "id": "scan-fr-20261009-fr-cvl-law-11",
+    "source_url": "https://actes.centre-valdeloire.fr/webdelibplus/jsp/seances.jsp?role=usager",
+    "checked_at": "2026-10-09T21:21:29.367Z",
+    "data": "{\"id\":\"scan-fr-20261009-fr-cvl-law-11\",\"sourceUrl\":\"https://actes.centre-valdeloire.fr/webdelibplus/jsp/seances.jsp?role=usager\",\"checkedAt\":\"2026-10-09T21:21:29.367Z\",\"windowStart\":\"2026-10-02\",\"windowEnd\":\"2026-10-08\",\"status\":\"partial\",\"pages\":[\"https://actes.centre-valdeloire.fr/webdelibplus/jsp/seances.jsp?role=usager\"],\"recordIds\":[],\"excluded\":[],\"allPagesChecked\":false,\"totalListed\":null,\"note\":\"只访问了渠道首页或列表首页，未逐项核对10月2日至8日的全部文件和分页；本次未收录新文件，不能据此认定该地区没有新政策。\"}"
+  },
+  {
+    "id": "scan-fr-20261009-fr-cvl-government-12",
+    "source_url": "https://www.prefectures-regions.gouv.fr/centre-val-de-loire/",
+    "checked_at": "2026-10-09T21:21:28.411Z",
+    "data": "{\"id\":\"scan-fr-20261009-fr-cvl-government-12\",\"sourceUrl\":\"https://www.prefectures-regions.gouv.fr/centre-val-de-loire/\",\"checkedAt\":\"2026-10-09T21:21:28.411Z\",\"windowStart\":\"2026-10-02\",\"windowEnd\":\"2026-10-08\",\"status\":\"blocked\",\"pages\":[\"https://www.prefectures-regions.gouv.fr/centre-val-de-loire/\"],\"recordIds\":[],\"excluded\":[],\"allPagesChecked\":false,\"totalListed\":null,\"note\":\"渠道访问受阻（访问验证、403、仅脚本外壳或无响应），未能读取10月2日至8日的内容；未存档拦截页。\"}"
+  },
+  {
+    "id": "scan-fr-20261009-fr-20r-government-13",
+    "source_url": "https://www.isula.corsica/",
+    "checked_at": "2026-10-09T21:21:32.810Z",
+    "data": "{\"id\":\"scan-fr-20261009-fr-20r-government-13\",\"sourceUrl\":\"https://www.isula.corsica/\",\"checkedAt\":\"2026-10-09T21:21:32.810Z\",\"windowStart\":\"2026-10-02\",\"windowEnd\":\"2026-10-08\",\"status\":\"partial\",\"pages\":[\"https://www.isula.corsica/\"],\"recordIds\":[],\"excluded\":[],\"allPagesChecked\":false,\"totalListed\":null,\"note\":\"只访问了渠道首页或列表首页，未逐项核对10月2日至8日的全部文件和分页；本次未收录新文件，不能据此认定该地区没有新政策。\"}"
+  },
+  {
+    "id": "scan-fr-20261009-fr-20r-law-14",
+    "source_url": "https://www.isula.corsica/Recueils-des-actes-administratifs_r100.html",
+    "checked_at": "2026-10-09T21:21:32.421Z",
+    "data": "{\"id\":\"scan-fr-20261009-fr-20r-law-14\",\"sourceUrl\":\"https://www.isula.corsica/Recueils-des-actes-administratifs_r100.html\",\"checkedAt\":\"2026-10-09T21:21:32.421Z\",\"windowStart\":\"2026-10-02\",\"windowEnd\":\"2026-10-08\",\"status\":\"partial\",\"pages\":[\"https://www.isula.corsica/Recueils-des-actes-administratifs_r100.html\"],\"recordIds\":[],\"excluded\":[],\"allPagesChecked\":false,\"totalListed\":null,\"note\":\"只访问了渠道首页或列表首页，未逐项核对10月2日至8日的全部文件和分页；本次未收录新文件，不能据此认定该地区没有新政策。\"}"
+  },
+  {
+    "id": "scan-fr-20261009-fr-20r-government-15",
+    "source_url": "https://www.prefectures-regions.gouv.fr/corse/",
+    "checked_at": "2026-10-09T21:21:28.370Z",
+    "data": "{\"id\":\"scan-fr-20261009-fr-20r-government-15\",\"sourceUrl\":\"https://www.prefectures-regions.gouv.fr/corse/\",\"checkedAt\":\"2026-10-09T21:21:28.370Z\",\"windowStart\":\"2026-10-02\",\"windowEnd\":\"2026-10-08\",\"status\":\"blocked\",\"pages\":[\"https://www.prefectures-regions.gouv.fr/corse/\"],\"recordIds\":[],\"excluded\":[],\"allPagesChecked\":false,\"totalListed\":null,\"note\":\"渠道访问受阻（访问验证、403、仅脚本外壳或无响应），未能读取10月2日至8日的内容；未存档拦截页。\"}"
+  },
+  {
+    "id": "scan-fr-20261009-fr-ges-government-16",
+    "source_url": "https://www.grandest.fr/",
+    "checked_at": "2026-10-09T21:21:28.429Z",
+    "data": "{\"id\":\"scan-fr-20261009-fr-ges-government-16\",\"sourceUrl\":\"https://www.grandest.fr/\",\"checkedAt\":\"2026-10-09T21:21:28.429Z\",\"windowStart\":\"2026-10-02\",\"windowEnd\":\"2026-10-08\",\"status\":\"partial\",\"pages\":[\"https://www.grandest.fr/\"],\"recordIds\":[],\"excluded\":[],\"allPagesChecked\":false,\"totalListed\":null,\"note\":\"只访问了渠道首页或列表首页，未逐项核对10月2日至8日的全部文件和分页；本次未收录新文件，不能据此认定该地区没有新政策。\"}"
+  },
+  {
+    "id": "scan-fr-20261009-fr-ges-law-17",
+    "source_url": "https://www.grandest.fr/le-conseil-regional/deliberations/",
+    "checked_at": "2026-10-09T21:21:29.188Z",
+    "data": "{\"id\":\"scan-fr-20261009-fr-ges-law-17\",\"sourceUrl\":\"https://www.grandest.fr/le-conseil-regional/deliberations/\",\"checkedAt\":\"2026-10-09T21:21:29.188Z\",\"windowStart\":\"2026-10-02\",\"windowEnd\":\"2026-10-08\",\"status\":\"partial\",\"pages\":[\"https://www.grandest.fr/le-conseil-regional/deliberations/\"],\"recordIds\":[],\"excluded\":[],\"allPagesChecked\":false,\"totalListed\":null,\"note\":\"只访问了渠道首页或列表首页，未逐项核对10月2日至8日的全部文件和分页；本次未收录新文件，不能据此认定该地区没有新政策。\"}"
+  },
+  {
+    "id": "scan-fr-20261009-fr-ges-government-18",
+    "source_url": "https://www.prefectures-regions.gouv.fr/grand-est/",
+    "checked_at": "2026-10-09T21:21:28.365Z",
+    "data": "{\"id\":\"scan-fr-20261009-fr-ges-government-18\",\"sourceUrl\":\"https://www.prefectures-regions.gouv.fr/grand-est/\",\"checkedAt\":\"2026-10-09T21:21:28.365Z\",\"windowStart\":\"2026-10-02\",\"windowEnd\":\"2026-10-08\",\"status\":\"blocked\",\"pages\":[\"https://www.prefectures-regions.gouv.fr/grand-est/\"],\"recordIds\":[],\"excluded\":[],\"allPagesChecked\":false,\"totalListed\":null,\"note\":\"渠道访问受阻（访问验证、403、仅脚本外壳或无响应），未能读取10月2日至8日的内容；未存档拦截页。\"}"
+  },
+  {
+    "id": "scan-fr-20261009-fr-hdf-government-19",
+    "source_url": "https://www.hautsdefrance.fr/",
+    "checked_at": "2026-10-09T21:21:28.856Z",
+    "data": "{\"id\":\"scan-fr-20261009-fr-hdf-government-19\",\"sourceUrl\":\"https://www.hautsdefrance.fr/\",\"checkedAt\":\"2026-10-09T21:21:28.856Z\",\"windowStart\":\"2026-10-02\",\"windowEnd\":\"2026-10-08\",\"status\":\"partial\",\"pages\":[\"https://www.hautsdefrance.fr/\"],\"recordIds\":[],\"excluded\":[],\"allPagesChecked\":false,\"totalListed\":null,\"note\":\"只访问了渠道首页或列表首页，未逐项核对10月2日至8日的全部文件和分页；本次未收录新文件，不能据此认定该地区没有新政策。\"}"
+  },
+  {
+    "id": "scan-fr-20261009-fr-hdf-law-20",
+    "source_url": "https://www.hautsdefrance.fr/conseil-regional-hdf/les-actes-institutionnels/",
+    "checked_at": "2026-10-09T21:21:29.211Z",
+    "data": "{\"id\":\"scan-fr-20261009-fr-hdf-law-20\",\"sourceUrl\":\"https://www.hautsdefrance.fr/conseil-regional-hdf/les-actes-institutionnels/\",\"checkedAt\":\"2026-10-09T21:21:29.211Z\",\"windowStart\":\"2026-10-02\",\"windowEnd\":\"2026-10-08\",\"status\":\"partial\",\"pages\":[\"https://www.hautsdefrance.fr/conseil-regional-hdf/les-actes-institutionnels/\"],\"recordIds\":[],\"excluded\":[],\"allPagesChecked\":false,\"totalListed\":null,\"note\":\"只访问了渠道首页或列表首页，未逐项核对10月2日至8日的全部文件和分页；本次未收录新文件，不能据此认定该地区没有新政策。\"}"
+  },
+  {
+    "id": "scan-fr-20261009-fr-hdf-government-21",
+    "source_url": "https://www.prefectures-regions.gouv.fr/hauts-de-france/",
+    "checked_at": "2026-10-09T21:21:32.947Z",
+    "data": "{\"id\":\"scan-fr-20261009-fr-hdf-government-21\",\"sourceUrl\":\"https://www.prefectures-regions.gouv.fr/hauts-de-france/\",\"checkedAt\":\"2026-10-09T21:21:32.947Z\",\"windowStart\":\"2026-10-02\",\"windowEnd\":\"2026-10-08\",\"status\":\"blocked\",\"pages\":[\"https://www.prefectures-regions.gouv.fr/hauts-de-france/\"],\"recordIds\":[],\"excluded\":[],\"allPagesChecked\":false,\"totalListed\":null,\"note\":\"渠道访问受阻（访问验证、403、仅脚本外壳或无响应），未能读取10月2日至8日的内容；未存档拦截页。\"}"
+  },
+  {
+    "id": "scan-fr-20261009-fr-idf-government-22",
+    "source_url": "https://www.iledefrance.fr/",
+    "checked_at": "2026-10-09T21:21:33.188Z",
+    "data": "{\"id\":\"scan-fr-20261009-fr-idf-government-22\",\"sourceUrl\":\"https://www.iledefrance.fr/\",\"checkedAt\":\"2026-10-09T21:21:33.188Z\",\"windowStart\":\"2026-10-02\",\"windowEnd\":\"2026-10-08\",\"status\":\"partial\",\"pages\":[\"https://www.iledefrance.fr/\"],\"recordIds\":[],\"excluded\":[],\"allPagesChecked\":false,\"totalListed\":null,\"note\":\"只访问了渠道首页或列表首页，未逐项核对10月2日至8日的全部文件和分页；本次未收录新文件，不能据此认定该地区没有新政策。\"}"
+  },
+  {
+    "id": "scan-fr-20261009-fr-idf-law-23",
+    "source_url": "https://www.data.gouv.fr/datasets/actes-administratifs-de-la-region-ile-de-france",
+    "checked_at": "2026-10-09T21:21:33.206Z",
+    "data": "{\"id\":\"scan-fr-20261009-fr-idf-law-23\",\"sourceUrl\":\"https://www.data.gouv.fr/datasets/actes-administratifs-de-la-region-ile-de-france\",\"checkedAt\":\"2026-10-09T21:21:33.206Z\",\"windowStart\":\"2026-10-02\",\"windowEnd\":\"2026-10-08\",\"status\":\"partial\",\"pages\":[\"https://www.data.gouv.fr/datasets/actes-administratifs-de-la-region-ile-de-france\"],\"recordIds\":[],\"excluded\":[],\"allPagesChecked\":false,\"totalListed\":null,\"note\":\"只访问了渠道首页或列表首页，未逐项核对10月2日至8日的全部文件和分页；本次未收录新文件，不能据此认定该地区没有新政策。\"}"
+  },
+  {
+    "id": "scan-fr-20261009-fr-idf-government-24",
+    "source_url": "https://www.prefectures-regions.gouv.fr/ile-de-france/",
+    "checked_at": "2026-10-09T21:21:32.940Z",
+    "data": "{\"id\":\"scan-fr-20261009-fr-idf-government-24\",\"sourceUrl\":\"https://www.prefectures-regions.gouv.fr/ile-de-france/\",\"checkedAt\":\"2026-10-09T21:21:32.940Z\",\"windowStart\":\"2026-10-02\",\"windowEnd\":\"2026-10-08\",\"status\":\"blocked\",\"pages\":[\"https://www.prefectures-regions.gouv.fr/ile-de-france/\"],\"recordIds\":[],\"excluded\":[],\"allPagesChecked\":false,\"totalListed\":null,\"note\":\"渠道访问受阻（访问验证、403、仅脚本外壳或无响应），未能读取10月2日至8日的内容；未存档拦截页。\"}"
+  },
+  {
+    "id": "scan-fr-20261009-fr-nor-government-25",
+    "source_url": "https://www.normandie.fr/",
+    "checked_at": "2026-10-09T21:21:33.048Z",
+    "data": "{\"id\":\"scan-fr-20261009-fr-nor-government-25\",\"sourceUrl\":\"https://www.normandie.fr/\",\"checkedAt\":\"2026-10-09T21:21:33.048Z\",\"windowStart\":\"2026-10-02\",\"windowEnd\":\"2026-10-08\",\"status\":\"blocked\",\"pages\":[\"https://www.normandie.fr/\"],\"recordIds\":[],\"excluded\":[],\"allPagesChecked\":false,\"totalListed\":null,\"note\":\"渠道访问受阻（访问验证、403、仅脚本外壳或无响应），未能读取10月2日至8日的内容；未存档拦截页。\"}"
+  },
+  {
+    "id": "scan-fr-20261009-fr-nor-law-26",
+    "source_url": "https://www.normandie.fr/deliberations-normandie-et-ex-haute-normandie",
+    "checked_at": "2026-10-09T21:21:32.989Z",
+    "data": "{\"id\":\"scan-fr-20261009-fr-nor-law-26\",\"sourceUrl\":\"https://www.normandie.fr/deliberations-normandie-et-ex-haute-normandie\",\"checkedAt\":\"2026-10-09T21:21:32.989Z\",\"windowStart\":\"2026-10-02\",\"windowEnd\":\"2026-10-08\",\"status\":\"blocked\",\"pages\":[\"https://www.normandie.fr/deliberations-normandie-et-ex-haute-normandie\"],\"recordIds\":[],\"excluded\":[],\"allPagesChecked\":false,\"totalListed\":null,\"note\":\"渠道访问受阻（访问验证、403、仅脚本外壳或无响应），未能读取10月2日至8日的内容；未存档拦截页。\"}"
+  },
+  {
+    "id": "scan-fr-20261009-fr-nor-government-27",
+    "source_url": "https://www.prefectures-regions.gouv.fr/normandie/",
+    "checked_at": "2026-10-09T21:21:32.964Z",
+    "data": "{\"id\":\"scan-fr-20261009-fr-nor-government-27\",\"sourceUrl\":\"https://www.prefectures-regions.gouv.fr/normandie/\",\"checkedAt\":\"2026-10-09T21:21:32.964Z\",\"windowStart\":\"2026-10-02\",\"windowEnd\":\"2026-10-08\",\"status\":\"blocked\",\"pages\":[\"https://www.prefectures-regions.gouv.fr/normandie/\"],\"recordIds\":[],\"excluded\":[],\"allPagesChecked\":false,\"totalListed\":null,\"note\":\"渠道访问受阻（访问验证、403、仅脚本外壳或无响应），未能读取10月2日至8日的内容；未存档拦截页。\"}"
+  },
+  {
+    "id": "scan-fr-20261009-fr-naq-government-28",
+    "source_url": "https://www.nouvelle-aquitaine.fr/",
+    "checked_at": "2026-10-09T21:21:35.097Z",
+    "data": "{\"id\":\"scan-fr-20261009-fr-naq-government-28\",\"sourceUrl\":\"https://www.nouvelle-aquitaine.fr/\",\"checkedAt\":\"2026-10-09T21:21:35.097Z\",\"windowStart\":\"2026-10-02\",\"windowEnd\":\"2026-10-08\",\"status\":\"partial\",\"pages\":[\"https://www.nouvelle-aquitaine.fr/\"],\"recordIds\":[],\"excluded\":[],\"allPagesChecked\":false,\"totalListed\":null,\"note\":\"只访问了渠道首页或列表首页，未逐项核对10月2日至8日的全部文件和分页；本次未收录新文件，不能据此认定该地区没有新政策。\"}"
+  },
+  {
+    "id": "scan-fr-20261009-fr-naq-law-29",
+    "source_url": "https://www.nouvelle-aquitaine.fr/linstitution/le-conseil-regional/decisions-de-lassemblee-et-arretes-du-president",
+    "checked_at": "2026-10-09T21:21:34.935Z",
+    "data": "{\"id\":\"scan-fr-20261009-fr-naq-law-29\",\"sourceUrl\":\"https://www.nouvelle-aquitaine.fr/linstitution/le-conseil-regional/decisions-de-lassemblee-et-arretes-du-president\",\"checkedAt\":\"2026-10-09T21:21:34.935Z\",\"windowStart\":\"2026-10-02\",\"windowEnd\":\"2026-10-08\",\"status\":\"partial\",\"pages\":[\"https://www.nouvelle-aquitaine.fr/linstitution/le-conseil-regional/decisions-de-lassemblee-et-arretes-du-president\"],\"recordIds\":[],\"excluded\":[],\"allPagesChecked\":false,\"totalListed\":null,\"note\":\"只访问了渠道首页或列表首页，未逐项核对10月2日至8日的全部文件和分页；本次未收录新文件，不能据此认定该地区没有新政策。\"}"
+  },
+  {
+    "id": "scan-fr-20261009-fr-naq-government-30",
+    "source_url": "https://www.prefectures-regions.gouv.fr/nouvelle-aquitaine/",
+    "checked_at": "2026-10-09T21:21:32.955Z",
+    "data": "{\"id\":\"scan-fr-20261009-fr-naq-government-30\",\"sourceUrl\":\"https://www.prefectures-regions.gouv.fr/nouvelle-aquitaine/\",\"checkedAt\":\"2026-10-09T21:21:32.955Z\",\"windowStart\":\"2026-10-02\",\"windowEnd\":\"2026-10-08\",\"status\":\"blocked\",\"pages\":[\"https://www.prefectures-regions.gouv.fr/nouvelle-aquitaine/\"],\"recordIds\":[],\"excluded\":[],\"allPagesChecked\":false,\"totalListed\":null,\"note\":\"渠道访问受阻（访问验证、403、仅脚本外壳或无响应），未能读取10月2日至8日的内容；未存档拦截页。\"}"
+  },
+  {
+    "id": "scan-fr-20261009-fr-occ-government-31",
+    "source_url": "https://www.laregion.fr/",
+    "checked_at": "2026-10-09T21:21:36.676Z",
+    "data": "{\"id\":\"scan-fr-20261009-fr-occ-government-31\",\"sourceUrl\":\"https://www.laregion.fr/\",\"checkedAt\":\"2026-10-09T21:21:36.676Z\",\"windowStart\":\"2026-10-02\",\"windowEnd\":\"2026-10-08\",\"status\":\"partial\",\"pages\":[\"https://www.laregion.fr/\"],\"recordIds\":[],\"excluded\":[],\"allPagesChecked\":false,\"totalListed\":null,\"note\":\"只访问了渠道首页或列表首页，未逐项核对10月2日至8日的全部文件和分页；本次未收录新文件，不能据此认定该地区没有新政策。\"}"
+  },
+  {
+    "id": "scan-fr-20261009-fr-occ-law-32",
+    "source_url": "https://www.laregion.fr/Portail-de-publication-des-Deliberations-et-autres-actes-administratifs-de-la-Region",
+    "checked_at": "2026-10-09T21:21:36.023Z",
+    "data": "{\"id\":\"scan-fr-20261009-fr-occ-law-32\",\"sourceUrl\":\"https://www.laregion.fr/Portail-de-publication-des-Deliberations-et-autres-actes-administratifs-de-la-Region\",\"checkedAt\":\"2026-10-09T21:21:36.023Z\",\"windowStart\":\"2026-10-02\",\"windowEnd\":\"2026-10-08\",\"status\":\"partial\",\"pages\":[\"https://www.laregion.fr/Portail-de-publication-des-Deliberations-et-autres-actes-administratifs-de-la-Region\"],\"recordIds\":[],\"excluded\":[],\"allPagesChecked\":false,\"totalListed\":null,\"note\":\"只访问了渠道首页或列表首页，未逐项核对10月2日至8日的全部文件和分页；本次未收录新文件，不能据此认定该地区没有新政策。\"}"
+  },
+  {
+    "id": "scan-fr-20261009-fr-occ-government-33",
+    "source_url": "https://www.prefectures-regions.gouv.fr/occitanie/",
+    "checked_at": "2026-10-09T21:21:35.205Z",
+    "data": "{\"id\":\"scan-fr-20261009-fr-occ-government-33\",\"sourceUrl\":\"https://www.prefectures-regions.gouv.fr/occitanie/\",\"checkedAt\":\"2026-10-09T21:21:35.205Z\",\"windowStart\":\"2026-10-02\",\"windowEnd\":\"2026-10-08\",\"status\":\"blocked\",\"pages\":[\"https://www.prefectures-regions.gouv.fr/occitanie/\"],\"recordIds\":[],\"excluded\":[],\"allPagesChecked\":false,\"totalListed\":null,\"note\":\"渠道访问受阻（访问验证、403、仅脚本外壳或无响应），未能读取10月2日至8日的内容；未存档拦截页。\"}"
+  },
+  {
+    "id": "scan-fr-20261009-fr-pdl-government-34",
+    "source_url": "https://www.paysdelaloire.fr/",
+    "checked_at": "2026-10-09T21:21:35.293Z",
+    "data": "{\"id\":\"scan-fr-20261009-fr-pdl-government-34\",\"sourceUrl\":\"https://www.paysdelaloire.fr/\",\"checkedAt\":\"2026-10-09T21:21:35.293Z\",\"windowStart\":\"2026-10-02\",\"windowEnd\":\"2026-10-08\",\"status\":\"partial\",\"pages\":[\"https://www.paysdelaloire.fr/\"],\"recordIds\":[],\"excluded\":[],\"allPagesChecked\":false,\"totalListed\":null,\"note\":\"只访问了渠道首页或列表首页，未逐项核对10月2日至8日的全部文件和分页；本次未收录新文件，不能据此认定该地区没有新政策。\"}"
+  },
+  {
+    "id": "scan-fr-20261009-fr-pdl-law-35",
+    "source_url": "https://www.paysdelaloire.fr/mon-conseil-regional/linstitution/les-actes-administratifs",
+    "checked_at": "2026-10-09T21:21:35.326Z",
+    "data": "{\"id\":\"scan-fr-20261009-fr-pdl-law-35\",\"sourceUrl\":\"https://www.paysdelaloire.fr/mon-conseil-regional/linstitution/les-actes-administratifs\",\"checkedAt\":\"2026-10-09T21:21:35.326Z\",\"windowStart\":\"2026-10-02\",\"windowEnd\":\"2026-10-08\",\"status\":\"partial\",\"pages\":[\"https://www.paysdelaloire.fr/mon-conseil-regional/linstitution/les-actes-administratifs\"],\"recordIds\":[],\"excluded\":[],\"allPagesChecked\":false,\"totalListed\":null,\"note\":\"只访问了渠道首页或列表首页，未逐项核对10月2日至8日的全部文件和分页；本次未收录新文件，不能据此认定该地区没有新政策。\"}"
+  },
+  {
+    "id": "scan-fr-20261009-fr-pdl-government-36",
+    "source_url": "https://www.prefectures-regions.gouv.fr/pays-de-la-loire/",
+    "checked_at": "2026-10-09T21:21:35.231Z",
+    "data": "{\"id\":\"scan-fr-20261009-fr-pdl-government-36\",\"sourceUrl\":\"https://www.prefectures-regions.gouv.fr/pays-de-la-loire/\",\"checkedAt\":\"2026-10-09T21:21:35.231Z\",\"windowStart\":\"2026-10-02\",\"windowEnd\":\"2026-10-08\",\"status\":\"blocked\",\"pages\":[\"https://www.prefectures-regions.gouv.fr/pays-de-la-loire/\"],\"recordIds\":[],\"excluded\":[],\"allPagesChecked\":false,\"totalListed\":null,\"note\":\"渠道访问受阻（访问验证、403、仅脚本外壳或无响应），未能读取10月2日至8日的内容；未存档拦截页。\"}"
+  },
+  {
+    "id": "scan-fr-20261009-fr-pac-government-37",
+    "source_url": "https://www.maregionsud.fr/",
+    "checked_at": "2026-10-09T21:21:35.348Z",
+    "data": "{\"id\":\"scan-fr-20261009-fr-pac-government-37\",\"sourceUrl\":\"https://www.maregionsud.fr/\",\"checkedAt\":\"2026-10-09T21:21:35.348Z\",\"windowStart\":\"2026-10-02\",\"windowEnd\":\"2026-10-08\",\"status\":\"partial\",\"pages\":[\"https://www.maregionsud.fr/\"],\"recordIds\":[],\"excluded\":[],\"allPagesChecked\":false,\"totalListed\":null,\"note\":\"只访问了渠道首页或列表首页，未逐项核对10月2日至8日的全部文件和分页；本次未收录新文件，不能据此认定该地区没有新政策。\"}"
+  },
+  {
+    "id": "scan-fr-20261009-fr-pac-law-38",
+    "source_url": "https://actes.maregionsud.fr/actes/",
+    "checked_at": "2026-10-09T21:21:35.337Z",
+    "data": "{\"id\":\"scan-fr-20261009-fr-pac-law-38\",\"sourceUrl\":\"https://actes.maregionsud.fr/actes/\",\"checkedAt\":\"2026-10-09T21:21:35.337Z\",\"windowStart\":\"2026-10-02\",\"windowEnd\":\"2026-10-08\",\"status\":\"partial\",\"pages\":[\"https://actes.maregionsud.fr/actes/\"],\"recordIds\":[],\"excluded\":[],\"allPagesChecked\":false,\"totalListed\":null,\"note\":\"只访问了渠道首页或列表首页，未逐项核对10月2日至8日的全部文件和分页；本次未收录新文件，不能据此认定该地区没有新政策。\"}"
+  },
+  {
+    "id": "scan-fr-20261009-fr-pac-government-39",
+    "source_url": "https://www.prefectures-regions.gouv.fr/provence-alpes-cote-dazur/",
+    "checked_at": "2026-10-09T21:21:35.220Z",
+    "data": "{\"id\":\"scan-fr-20261009-fr-pac-government-39\",\"sourceUrl\":\"https://www.prefectures-regions.gouv.fr/provence-alpes-cote-dazur/\",\"checkedAt\":\"2026-10-09T21:21:35.220Z\",\"windowStart\":\"2026-10-02\",\"windowEnd\":\"2026-10-08\",\"status\":\"blocked\",\"pages\":[\"https://www.prefectures-regions.gouv.fr/provence-alpes-cote-dazur/\"],\"recordIds\":[],\"excluded\":[],\"allPagesChecked\":false,\"totalListed\":null,\"note\":\"渠道访问受阻（访问验证、403、仅脚本外壳或无响应），未能读取10月2日至8日的内容；未存档拦截页。\"}"
+  },
+  {
+    "id": "scan-fr-20261009-fr-971-government-40",
+    "source_url": "https://www.regionguadeloupe.fr/",
+    "checked_at": "2026-10-09T21:21:35.457Z",
+    "data": "{\"id\":\"scan-fr-20261009-fr-971-government-40\",\"sourceUrl\":\"https://www.regionguadeloupe.fr/\",\"checkedAt\":\"2026-10-09T21:21:35.457Z\",\"windowStart\":\"2026-10-02\",\"windowEnd\":\"2026-10-08\",\"status\":\"partial\",\"pages\":[\"https://www.regionguadeloupe.fr/\"],\"recordIds\":[],\"excluded\":[],\"allPagesChecked\":false,\"totalListed\":null,\"note\":\"只访问了渠道首页或列表首页，未逐项核对10月2日至8日的全部文件和分页；本次未收录新文件，不能据此认定该地区没有新政策。\"}"
+  },
+  {
+    "id": "scan-fr-20261009-fr-971-law-41",
+    "source_url": "https://www.regionguadeloupe.fr/Publication-des-actes-administratifs",
+    "checked_at": "2026-10-09T21:21:37.251Z",
+    "data": "{\"id\":\"scan-fr-20261009-fr-971-law-41\",\"sourceUrl\":\"https://www.regionguadeloupe.fr/Publication-des-actes-administratifs\",\"checkedAt\":\"2026-10-09T21:21:37.251Z\",\"windowStart\":\"2026-10-02\",\"windowEnd\":\"2026-10-08\",\"status\":\"partial\",\"pages\":[\"https://www.regionguadeloupe.fr/Publication-des-actes-administratifs\"],\"recordIds\":[],\"excluded\":[],\"allPagesChecked\":false,\"totalListed\":null,\"note\":\"只访问了渠道首页或列表首页，未逐项核对10月2日至8日的全部文件和分页；本次未收录新文件，不能据此认定该地区没有新政策。\"}"
+  },
+  {
+    "id": "scan-fr-20261009-fr-971-government-42",
+    "source_url": "https://www.guadeloupe.gouv.fr/",
+    "checked_at": "2026-10-09T21:24:00.000Z",
+    "data": "{\"id\":\"scan-fr-20261009-fr-971-government-42\",\"sourceUrl\":\"https://www.guadeloupe.gouv.fr/\",\"checkedAt\":\"2026-10-09T21:24:00.000Z\",\"windowStart\":\"2026-10-02\",\"windowEnd\":\"2026-10-08\",\"status\":\"blocked\",\"pages\":[\"https://www.guadeloupe.gouv.fr/\"],\"recordIds\":[],\"excluded\":[],\"allPagesChecked\":false,\"totalListed\":null,\"note\":\"渠道访问受阻（访问验证、403、仅脚本外壳或无响应），未能读取10月2日至8日的内容；未存档拦截页。\"}"
+  },
+  {
+    "id": "scan-fr-20261009-fr-972-government-43",
+    "source_url": "https://www.collectivitedemartinique.mq/",
+    "checked_at": "2026-10-09T21:21:37.625Z",
+    "data": "{\"id\":\"scan-fr-20261009-fr-972-government-43\",\"sourceUrl\":\"https://www.collectivitedemartinique.mq/\",\"checkedAt\":\"2026-10-09T21:21:37.625Z\",\"windowStart\":\"2026-10-02\",\"windowEnd\":\"2026-10-08\",\"status\":\"partial\",\"pages\":[\"https://www.collectivitedemartinique.mq/\"],\"recordIds\":[],\"excluded\":[],\"allPagesChecked\":false,\"totalListed\":null,\"note\":\"只访问了渠道首页或列表首页，未逐项核对10月2日至8日的全部文件和分页；本次未收录新文件，不能据此认定该地区没有新政策。\"}"
+  },
+  {
+    "id": "scan-fr-20261009-fr-972-law-44",
+    "source_url": "https://www.collectivitedemartinique.mq/actes-adminitratifs/",
+    "checked_at": "2026-10-09T21:21:37.499Z",
+    "data": "{\"id\":\"scan-fr-20261009-fr-972-law-44\",\"sourceUrl\":\"https://www.collectivitedemartinique.mq/actes-adminitratifs/\",\"checkedAt\":\"2026-10-09T21:21:37.499Z\",\"windowStart\":\"2026-10-02\",\"windowEnd\":\"2026-10-08\",\"status\":\"partial\",\"pages\":[\"https://www.collectivitedemartinique.mq/actes-adminitratifs/\"],\"recordIds\":[],\"excluded\":[],\"allPagesChecked\":false,\"totalListed\":null,\"note\":\"只访问了渠道首页或列表首页，未逐项核对10月2日至8日的全部文件和分页；本次未收录新文件，不能据此认定该地区没有新政策。\"}"
+  },
+  {
+    "id": "scan-fr-20261009-fr-972-government-45",
+    "source_url": "https://www.martinique.gouv.fr/",
+    "checked_at": "2026-10-09T21:24:00.000Z",
+    "data": "{\"id\":\"scan-fr-20261009-fr-972-government-45\",\"sourceUrl\":\"https://www.martinique.gouv.fr/\",\"checkedAt\":\"2026-10-09T21:24:00.000Z\",\"windowStart\":\"2026-10-02\",\"windowEnd\":\"2026-10-08\",\"status\":\"blocked\",\"pages\":[\"https://www.martinique.gouv.fr/\"],\"recordIds\":[],\"excluded\":[],\"allPagesChecked\":false,\"totalListed\":null,\"note\":\"渠道访问受阻（访问验证、403、仅脚本外壳或无响应），未能读取10月2日至8日的内容；未存档拦截页。\"}"
+  },
+  {
+    "id": "scan-fr-20261009-fr-973-government-46",
+    "source_url": "https://www.ctguyane.fr/",
+    "checked_at": "2026-10-09T21:21:37.179Z",
+    "data": "{\"id\":\"scan-fr-20261009-fr-973-government-46\",\"sourceUrl\":\"https://www.ctguyane.fr/\",\"checkedAt\":\"2026-10-09T21:21:37.179Z\",\"windowStart\":\"2026-10-02\",\"windowEnd\":\"2026-10-08\",\"status\":\"partial\",\"pages\":[\"https://www.ctguyane.fr/\"],\"recordIds\":[],\"excluded\":[],\"allPagesChecked\":false,\"totalListed\":null,\"note\":\"只访问了渠道首页或列表首页，未逐项核对10月2日至8日的全部文件和分页；本次未收录新文件，不能据此认定该地区没有新政策。\"}"
+  },
+  {
+    "id": "scan-fr-20261009-fr-973-law-47",
+    "source_url": "https://webdelib.ctguyane.fr/webdelibplus/jsp/seances.jsp?role=usager",
+    "checked_at": "2026-10-09T21:21:38.877Z",
+    "data": "{\"id\":\"scan-fr-20261009-fr-973-law-47\",\"sourceUrl\":\"https://webdelib.ctguyane.fr/webdelibplus/jsp/seances.jsp?role=usager\",\"checkedAt\":\"2026-10-09T21:21:38.877Z\",\"windowStart\":\"2026-10-02\",\"windowEnd\":\"2026-10-08\",\"status\":\"partial\",\"pages\":[\"https://webdelib.ctguyane.fr/webdelibplus/jsp/seances.jsp?role=usager\"],\"recordIds\":[],\"excluded\":[],\"allPagesChecked\":false,\"totalListed\":null,\"note\":\"只访问了渠道首页或列表首页，未逐项核对10月2日至8日的全部文件和分页；本次未收录新文件，不能据此认定该地区没有新政策。\"}"
+  },
+  {
+    "id": "scan-fr-20261009-fr-973-government-48",
+    "source_url": "https://www.guyane.gouv.fr/",
+    "checked_at": "2026-10-09T21:24:00.000Z",
+    "data": "{\"id\":\"scan-fr-20261009-fr-973-government-48\",\"sourceUrl\":\"https://www.guyane.gouv.fr/\",\"checkedAt\":\"2026-10-09T21:24:00.000Z\",\"windowStart\":\"2026-10-02\",\"windowEnd\":\"2026-10-08\",\"status\":\"blocked\",\"pages\":[\"https://www.guyane.gouv.fr/\"],\"recordIds\":[],\"excluded\":[],\"allPagesChecked\":false,\"totalListed\":null,\"note\":\"渠道访问受阻（访问验证、403、仅脚本外壳或无响应），未能读取10月2日至8日的内容；未存档拦截页。\"}"
+  },
+  {
+    "id": "scan-fr-20261009-fr-974-government-49",
+    "source_url": "https://regionreunion.com/",
+    "checked_at": "2026-10-09T21:21:36.773Z",
+    "data": "{\"id\":\"scan-fr-20261009-fr-974-government-49\",\"sourceUrl\":\"https://regionreunion.com/\",\"checkedAt\":\"2026-10-09T21:21:36.773Z\",\"windowStart\":\"2026-10-02\",\"windowEnd\":\"2026-10-08\",\"status\":\"blocked\",\"pages\":[\"https://regionreunion.com/\"],\"recordIds\":[],\"excluded\":[],\"allPagesChecked\":false,\"totalListed\":null,\"note\":\"渠道访问受阻（访问验证、403、仅脚本外壳或无响应），未能读取10月2日至8日的内容；未存档拦截页。\"}"
+  },
+  {
+    "id": "scan-fr-20261009-fr-974-law-50",
+    "source_url": "https://regionreunion.com/la-region/les-actes-administratifs/article/commission-permanente-assemblee-pleniere",
+    "checked_at": "2026-10-09T21:21:36.802Z",
+    "data": "{\"id\":\"scan-fr-20261009-fr-974-law-50\",\"sourceUrl\":\"https://regionreunion.com/la-region/les-actes-administratifs/article/commission-permanente-assemblee-pleniere\",\"checkedAt\":\"2026-10-09T21:21:36.802Z\",\"windowStart\":\"2026-10-02\",\"windowEnd\":\"2026-10-08\",\"status\":\"blocked\",\"pages\":[\"https://regionreunion.com/la-region/les-actes-administratifs/article/commission-permanente-assemblee-pleniere\"],\"recordIds\":[],\"excluded\":[],\"allPagesChecked\":false,\"totalListed\":null,\"note\":\"渠道访问受阻（访问验证、403、仅脚本外壳或无响应），未能读取10月2日至8日的内容；未存档拦截页。\"}"
+  },
+  {
+    "id": "scan-fr-20261009-fr-974-government-51",
+    "source_url": "https://www.reunion.gouv.fr/",
+    "checked_at": "2026-10-09T21:24:00.000Z",
+    "data": "{\"id\":\"scan-fr-20261009-fr-974-government-51\",\"sourceUrl\":\"https://www.reunion.gouv.fr/\",\"checkedAt\":\"2026-10-09T21:24:00.000Z\",\"windowStart\":\"2026-10-02\",\"windowEnd\":\"2026-10-08\",\"status\":\"blocked\",\"pages\":[\"https://www.reunion.gouv.fr/\"],\"recordIds\":[],\"excluded\":[],\"allPagesChecked\":false,\"totalListed\":null,\"note\":\"渠道访问受阻（访问验证、403、仅脚本外壳或无响应），未能读取10月2日至8日的内容；未存档拦截页。\"}"
+  },
+  {
+    "id": "scan-fr-20261009-fr-976-government-52",
+    "source_url": "https://www.mayotte.fr/",
+    "checked_at": "2026-10-09T21:21:39.156Z",
+    "data": "{\"id\":\"scan-fr-20261009-fr-976-government-52\",\"sourceUrl\":\"https://www.mayotte.fr/\",\"checkedAt\":\"2026-10-09T21:21:39.156Z\",\"windowStart\":\"2026-10-02\",\"windowEnd\":\"2026-10-08\",\"status\":\"partial\",\"pages\":[\"https://www.mayotte.fr/\"],\"recordIds\":[],\"excluded\":[],\"allPagesChecked\":false,\"totalListed\":null,\"note\":\"只访问了渠道首页或列表首页，未逐项核对10月2日至8日的全部文件和分页；本次未收录新文件，不能据此认定该地区没有新政策。\"}"
+  },
+  {
+    "id": "scan-fr-20261009-fr-976-law-53",
+    "source_url": "https://www.mayotte.fr/le-departement/transparence-administrative/publicite-des-actes",
+    "checked_at": "2026-10-09T21:21:40.171Z",
+    "data": "{\"id\":\"scan-fr-20261009-fr-976-law-53\",\"sourceUrl\":\"https://www.mayotte.fr/le-departement/transparence-administrative/publicite-des-actes\",\"checkedAt\":\"2026-10-09T21:21:40.171Z\",\"windowStart\":\"2026-10-02\",\"windowEnd\":\"2026-10-08\",\"status\":\"partial\",\"pages\":[\"https://www.mayotte.fr/le-departement/transparence-administrative/publicite-des-actes\"],\"recordIds\":[],\"excluded\":[],\"allPagesChecked\":false,\"totalListed\":null,\"note\":\"只访问了渠道首页或列表首页，未逐项核对10月2日至8日的全部文件和分页；本次未收录新文件，不能据此认定该地区没有新政策。\"}"
+  },
+  {
+    "id": "scan-fr-20261009-fr-976-government-54",
+    "source_url": "https://www.mayotte.gouv.fr/",
+    "checked_at": "2026-10-09T21:24:00.000Z",
+    "data": "{\"id\":\"scan-fr-20261009-fr-976-government-54\",\"sourceUrl\":\"https://www.mayotte.gouv.fr/\",\"checkedAt\":\"2026-10-09T21:24:00.000Z\",\"windowStart\":\"2026-10-02\",\"windowEnd\":\"2026-10-08\",\"status\":\"blocked\",\"pages\":[\"https://www.mayotte.gouv.fr/\"],\"recordIds\":[],\"excluded\":[],\"allPagesChecked\":false,\"totalListed\":null,\"note\":\"渠道访问受阻（访问验证、403、仅脚本外壳或无响应），未能读取10月2日至8日的内容；未存档拦截页。\"}"
   }
 ]

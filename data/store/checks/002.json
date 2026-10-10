@@ -5830,5 +5830,293 @@
     "snapshot_key": "sources/53e7fe02fcd469f6118ac33915b359940fe0ac80a1dc778d4c3268588f0df1c3/e2806d46b750896aa460d06ae8d4dc5557fd436e076e4cbe3660ad352bcf560d.html",
     "changed": 0,
     "error": null
+  },
+  {
+    "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers?page=1",
+    "checked_at": "2026-10-09T21:16:11.433Z",
+    "last_success_at": "2026-10-09T21:16:11.433Z",
+    "hash": "88c252de0322be030cf91feccf1157556fbc697bc99e94e356ce51c68b6c8751",
+    "snapshot_key": "sources/9412898719e386adb5b141fdf63db94cd86b9097183a8ad7b83beaf6dd7ab079/88c252de0322be030cf91feccf1157556fbc697bc99e94e356ce51c68b6c8751.html",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers?page=2",
+    "checked_at": "2026-10-09T21:16:14.824Z",
+    "last_success_at": "2026-10-09T21:16:14.824Z",
+    "hash": "13df87b2f3a8f2b0a538d898bb7fa35004c5127e808d7f4020a36579c972ac60",
+    "snapshot_key": "sources/428d5aafa39e6e889b0bd9ca06dd1373a6223316e3ed8b8d0c45399a44e538ae/13df87b2f3a8f2b0a538d898bb7fa35004c5127e808d7f4020a36579c972ac60.html",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers?page=3",
+    "checked_at": "2026-10-09T21:16:15.461Z",
+    "last_success_at": "2026-10-09T21:16:15.461Z",
+    "hash": "b03904376263ef664941fa43e5c89f1e09e64f456ecbd026e6277f1f70712121",
+    "snapshot_key": "sources/0e35733615664df5549be77fdec46ea74817c8ba07b9be10bddcdd4f06fe5b59/b03904376263ef664941fa43e5c89f1e09e64f456ecbd026e6277f1f70712121.html",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://www.service-public.gouv.fr/particuliers/actualites/A14632",
+    "checked_at": "2026-10-09T21:13:58.777Z",
+    "last_success_at": "2026-10-09T21:13:58.777Z",
+    "hash": "1407c3da51f252ecd7ca2e46adb6835d00876778bb793bcf01a4b6dc33bc3c0d",
+    "snapshot_key": "sources/7ded76670dbacb0999f159e350bb3fdf664939de2e84c046e5abd51726a6a2db/1407c3da51f252ecd7ca2e46adb6835d00876778bb793bcf01a4b6dc33bc3c0d.html",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://www.service-public.gouv.fr/particuliers/actualites/A19081",
+    "checked_at": "2026-10-09T21:14:00.373Z",
+    "last_success_at": "2026-10-09T21:14:00.373Z",
+    "hash": "0f49c4b7e52c1754e8773aa615538312eb71e601d48b6e5f34d0c67fe899e059",
+    "snapshot_key": "sources/8d123c6caa8f83e73dce79d91994df96e9487393c0012cf8af1d11a00271e716/0f49c4b7e52c1754e8773aa615538312eb71e601d48b6e5f34d0c67fe899e059.html",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://www.service-public.gouv.fr/particuliers/actualites/A15144",
+    "checked_at": "2026-10-09T21:14:00.809Z",
+    "last_success_at": "2026-10-09T21:14:00.809Z",
+    "hash": "057ac52fb407f5da22e11f3d865a2c27da8e7536f6cb29b04b93ab4284f0f3af",
+    "snapshot_key": "sources/f7f6064251262b6b54043184cc40a079e79a53a4dafc76aa3167d56238a82cd9/057ac52fb407f5da22e11f3d865a2c27da8e7536f6cb29b04b93ab4284f0f3af.html",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://www.service-public.gouv.fr/particuliers/actualites/A19085",
+    "checked_at": "2026-10-09T21:13:58.133Z",
+    "last_success_at": "2026-10-09T21:13:58.133Z",
+    "hash": "51d3892b639dacbfb735d676175f3e4d5cf359de2974f6430854097a9b5f9d1a",
+    "snapshot_key": "sources/bb1ccdb4e0e3ea0b86c2026858414eb1657ab0ba97d64877ddd2962815da1918/51d3892b639dacbfb735d676175f3e4d5cf359de2974f6430854097a9b5f9d1a.html",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://www.service-public.gouv.fr/particuliers/actualites/A19080",
+    "checked_at": "2026-10-09T21:13:57.921Z",
+    "last_success_at": "2026-10-09T21:13:57.921Z",
+    "hash": "77c877848af220668b4c42ec32469fe84f27ba3930590dff6a94e52368bc3988",
+    "snapshot_key": "sources/ff95e4d442cd260339e5f0b3895eb80fb0f41e1761e45f974d7fbfa7280187dc/77c877848af220668b4c42ec32469fe84f27ba3930590dff6a94e52368bc3988.html",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://www.service-public.gouv.fr/particuliers/actualites/A19086",
+    "checked_at": "2026-10-09T21:13:57.735Z",
+    "last_success_at": "2026-10-09T21:13:57.735Z",
+    "hash": "d864a9b1e3c1dc83c9518902484a905f872ec80ba4c4692170d41ad932ea7a35",
+    "snapshot_key": "sources/764574b719b21827e3722ef53b4f87437337f286201aaa9c435cb631deaac8c5/d864a9b1e3c1dc83c9518902484a905f872ec80ba4c4692170d41ad932ea7a35.html",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://www.service-public.gouv.fr/particuliers/actualites/A18926",
+    "checked_at": "2026-10-09T21:13:57.513Z",
+    "last_success_at": "2026-10-09T21:13:57.513Z",
+    "hash": "ebbd1b567d8f6b88d190e54ee456989fdef340df2acb2529fbf02746a79923ec",
+    "snapshot_key": "sources/1bd25fb34271f39bc9612e2219e334dbc9d9104393eb948c9341213065cf071b/ebbd1b567d8f6b88d190e54ee456989fdef340df2acb2529fbf02746a79923ec.html",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://www.service-public.gouv.fr/particuliers/actualites/A17166",
+    "checked_at": "2026-10-09T21:25:32.744Z",
+    "last_success_at": "2026-10-09T21:25:32.744Z",
+    "hash": "f068fc1c03798c73c819a590bd516bdb3251a08fcb72c6a51e1b65856929e6af",
+    "snapshot_key": "sources/045b48f0e5d96b08092f018027e5653278a7bee203bc60d7cd39a7e73260cda7/f068fc1c03798c73c819a590bd516bdb3251a08fcb72c6a51e1b65856929e6af.html",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://www.service-public.gouv.fr/particuliers/actualites/A19066",
+    "checked_at": "2026-10-09T21:25:32.955Z",
+    "last_success_at": "2026-10-09T21:25:32.955Z",
+    "hash": "864b6dac8c358bbe00a5dfba0548d680d845db876e7962efebedfa8bbf48bf4d",
+    "snapshot_key": "sources/6c7c41a36e374d0c68e8c498c0c8c3d931ea10279bba7ee8cc4f7d74d8752b0e/864b6dac8c358bbe00a5dfba0548d680d845db876e7962efebedfa8bbf48bf4d.html",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://www.service-public.gouv.fr/particuliers/actualites/A19067",
+    "checked_at": "2026-10-09T21:25:33.163Z",
+    "last_success_at": "2026-10-09T21:25:33.163Z",
+    "hash": "580dc1f2117ef4b37f7a9a8bfb37152a0226db5d45e4fb9fe9d8983d5c56a821",
+    "snapshot_key": "sources/984740bc1e00de63124548a73198aaccf44522833dca02e42c1ecd2f918fa587/580dc1f2117ef4b37f7a9a8bfb37152a0226db5d45e4fb9fe9d8983d5c56a821.html",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://www.service-public.gouv.fr/particuliers/actualites/A14227",
+    "checked_at": "2026-10-09T21:25:33.376Z",
+    "last_success_at": "2026-10-09T21:25:33.376Z",
+    "hash": "c74b31c324628a7898c595ff53c7bfc708d62303892baeaf8f3a98c9b506b78a",
+    "snapshot_key": "sources/bf772b3fcbfd04d073d0139d368eed610f5a191a41be74f0b8d9ce57a76180c8/c74b31c324628a7898c595ff53c7bfc708d62303892baeaf8f3a98c9b506b78a.html",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://www.service-public.gouv.fr/particuliers/actualites/A17956",
+    "checked_at": "2026-10-09T21:25:33.588Z",
+    "last_success_at": "2026-10-09T21:25:33.588Z",
+    "hash": "4b7c1bc1c6faff05dc77644a1b0ab2f19693c1319fec942e4a09f46d97348bfd",
+    "snapshot_key": "sources/adb117b5b89d3c0db0bef7d379edec39fe2184b41e4de58249b6499f83cc9b5c/4b7c1bc1c6faff05dc77644a1b0ab2f19693c1319fec942e4a09f46d97348bfd.html",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://www.service-public.gouv.fr/particuliers/actualites/A19044",
+    "checked_at": "2026-10-09T21:25:33.796Z",
+    "last_success_at": "2026-10-09T21:25:33.796Z",
+    "hash": "5615ff4e99d20971d61d948be440bf7df2b3bca8547fb0e38ead5f8365b9e2c3",
+    "snapshot_key": "sources/e836b12f0fc99297480237ccfd3d1c3d8ba53f354187452d590464816ef5a8c1/5615ff4e99d20971d61d948be440bf7df2b3bca8547fb0e38ead5f8365b9e2c3.html",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://www.service-public.gouv.fr/particuliers/actualites/A19075",
+    "checked_at": "2026-10-09T21:13:59.178Z",
+    "last_success_at": "2026-10-09T21:13:59.178Z",
+    "hash": "c72711ff165aaf1b66c1349201a7c144bf83b6c18907b754ddf4aa95161ddb26",
+    "snapshot_key": "sources/82a1e32daf73d94ddc3b5bb043aafdc04397f9f999815576e1cf5a3a7411ab5f/c72711ff165aaf1b66c1349201a7c144bf83b6c18907b754ddf4aa95161ddb26.html",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://www.service-public.gouv.fr/particuliers/actualites/A19074",
+    "checked_at": "2026-10-09T21:13:59.374Z",
+    "last_success_at": "2026-10-09T21:13:59.374Z",
+    "hash": "2e47911a2418cd317b28122aad40b2d109c45fae37b128684abe51f45e646e96",
+    "snapshot_key": "sources/edbac6c5b31c53237707ef05f98c6db157340a59911510841c961cc0cea550bd/2e47911a2418cd317b28122aad40b2d109c45fae37b128684abe51f45e646e96.html",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://www.service-public.gouv.fr/particuliers/actualites/A17054",
+    "checked_at": "2026-10-09T21:14:01.000Z",
+    "last_success_at": "2026-10-09T21:14:01.000Z",
+    "hash": "241fa6aeaf9beeaaa0e3f4d517bc191815f897a7cf97ed891c9582b8a80e22ca",
+    "snapshot_key": "sources/d86d30b8bf7c84f1b39ae37ccba05b9abce7c014b6a8353bba2fd6799900fd74/241fa6aeaf9beeaaa0e3f4d517bc191815f897a7cf97ed891c9582b8a80e22ca.html",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://www.service-public.gouv.fr/particuliers/actualites/A16807",
+    "checked_at": "2026-10-09T21:14:01.204Z",
+    "last_success_at": "2026-10-09T21:14:01.204Z",
+    "hash": "ee50e096293317ff0b46c835b9c88c09cacef8b6fa888ff26a31807beea8048f",
+    "snapshot_key": "sources/01647d07a5adeae52bd5ef1e2451d348af1b2490812a2c16c5a5efcb56592c34/ee50e096293317ff0b46c835b9c88c09cacef8b6fa888ff26a31807beea8048f.html",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://www.service-public.gouv.fr/particuliers/actualites/A17729",
+    "checked_at": "2026-10-09T21:13:59.022Z",
+    "last_success_at": "2026-10-09T21:13:59.022Z",
+    "hash": "d81939bd9a0c36c87cae63811668c27e9c143778877a6b8391c9a4f2ed13b47f",
+    "snapshot_key": "sources/9067a21c4da5f02dcf2a4cb2f1b17ec24492deea149357099a97c64d119d3f24/d81939bd9a0c36c87cae63811668c27e9c143778877a6b8391c9a4f2ed13b47f.html",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://www.service-public.gouv.fr/particuliers/actualites/A18466",
+    "checked_at": "2026-10-09T21:13:59.819Z",
+    "last_success_at": "2026-10-09T21:13:59.819Z",
+    "hash": "6db0cd3794b6bd357a7feb446f19f3bfbec9ed5822f95248939cd4cc81f5e790",
+    "snapshot_key": "sources/139a414422852d705792c13e64b58963ec3967ab4f5031220736dc9bd11e5b5d/6db0cd3794b6bd357a7feb446f19f3bfbec9ed5822f95248939cd4cc81f5e790.html",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://entreprendre.service-public.gouv.fr/actualites/A19090",
+    "checked_at": "2026-10-09T21:14:01.850Z",
+    "last_success_at": "2026-10-09T21:14:01.850Z",
+    "hash": "5cff3aa3879734b6c50ec87403e158ef1734e2feb44cb1caa92d9cff0729c2cf",
+    "snapshot_key": "sources/3407c1274ce80ad2ee86a0a6fd458fdf1e2c2d004bffa0c4f0f39116f32d17ff/5cff3aa3879734b6c50ec87403e158ef1734e2feb44cb1caa92d9cff0729c2cf.html",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://entreprendre.service-public.gouv.fr/actualites/A19077",
+    "checked_at": "2026-10-09T21:14:02.258Z",
+    "last_success_at": "2026-10-09T21:14:02.258Z",
+    "hash": "4893894121db73236573bdbb5723f499f31eef244efc246c250cb0ef0b0dd849",
+    "snapshot_key": "sources/acf740fca5ae56671bf549b68324c11caeac103c1a67c821a8d119158bd7524e/4893894121db73236573bdbb5723f499f31eef244efc246c250cb0ef0b0dd849.html",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://entreprendre.service-public.gouv.fr/actualites/A18980",
+    "checked_at": "2026-10-09T21:14:03.500Z",
+    "last_success_at": "2026-10-09T21:14:03.500Z",
+    "hash": "987d4fe6d4880ad108a59c05a769f067a15d355dc1a6a68fd8498e2b6eab44ae",
+    "snapshot_key": "sources/1b70b01ae31d4a675e84fc2fe5871494137c2722af82dacdc03fd5b724e1ddd6/987d4fe6d4880ad108a59c05a769f067a15d355dc1a6a68fd8498e2b6eab44ae.html",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://entreprendre.service-public.gouv.fr/actualites/A18818",
+    "checked_at": "2026-10-09T21:14:03.759Z",
+    "last_success_at": "2026-10-09T21:14:03.759Z",
+    "hash": "3c2842b07b47a87740877508e294f3e56b06cf5b1daac277aa65cc0fd8dfb240",
+    "snapshot_key": "sources/2aeeed8326e0b23a4aecc20d9562efc75831375bb4a3a21a5d7f52b6526b4588/3c2842b07b47a87740877508e294f3e56b06cf5b1daac277aa65cc0fd8dfb240.html",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://entreprendre.service-public.gouv.fr/actualites/A19041",
+    "checked_at": "2026-10-09T21:14:04.032Z",
+    "last_success_at": "2026-10-09T21:14:04.032Z",
+    "hash": "dab2509effdfe980c72168dea46d3ca33844e14cacc13af63cf86ecc546c0213",
+    "snapshot_key": "sources/c8e976210a422f4a305f551ec1688a7961ab878cae497710a9bda93da1e0f359/dab2509effdfe980c72168dea46d3ca33844e14cacc13af63cf86ecc546c0213.html",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://www.urssaf.fr/accueil/outils-documentation/taux-baremes/plafonds-securite-sociale.html",
+    "checked_at": "2026-10-09T21:17:49.016Z",
+    "last_success_at": "2026-10-09T21:17:49.016Z",
+    "hash": "a5b4e6343cc1d3e703fab2f69966cdf5b37158103d7db76fb40d8094b8115bc1",
+    "snapshot_key": "sources/b91d087d780de315879439b82615d3f3cf20a554191ba2a64ff8e894b42a403f/a5b4e6343cc1d3e703fab2f69966cdf5b37158103d7db76fb40d8094b8115bc1.html",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/PLF_2027",
+    "checked_at": "2026-10-09T21:18:48.031Z",
+    "last_success_at": "2026-10-09T21:18:48.031Z",
+    "hash": "702f5dd53f9e69d79deba618f30001ab015fba8b14a94f0e31b1b96f40b2862b",
+    "snapshot_key": "sources/7365369a690818ad6e942a408c0bc00656bda6914538c01e4eeb8845c595fe25/702f5dd53f9e69d79deba618f30001ab015fba8b14a94f0e31b1b96f40b2862b.html",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/PLFSS_2027",
+    "checked_at": "2026-10-09T21:18:50.899Z",
+    "last_success_at": "2026-10-09T21:18:50.899Z",
+    "hash": "c2f084812e123b258ad0ac24574bd2d071679e0228d2d671100454027d3d118a",
+    "snapshot_key": "sources/ee2047dc91fa12185c8c046ce43e70d70786faf04ef593ddb4403878d6bbf318/c2f084812e123b258ad0ac24574bd2d071679e0228d2d671100454027d3d118a.html",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://www.assemblee-nationale.fr/dyn/17/textes/l17b3210_projet-loi.pdf",
+    "checked_at": "2026-10-09T21:19:09.476Z",
+    "last_success_at": "2026-10-09T21:19:09.476Z",
+    "hash": "132274b83bed4861a9e1a147d0d16abda2d729cdad2373ef804e26747c43d881",
+    "snapshot_key": "sources/84205f3d15d4fca6e8f7b884edc2bac6d383b0fabb85158ec88dd283c61308af/132274b83bed4861a9e1a147d0d16abda2d729cdad2373ef804e26747c43d881.pdf",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://www.assemblee-nationale.fr/dyn/17/textes/l17b3211_projet-loi.pdf",
+    "checked_at": "2026-10-09T21:19:10.635Z",
+    "last_success_at": "2026-10-09T21:19:10.635Z",
+    "hash": "47f5fc0d1581c90634449516281070495b92cfe062c20c2a366919622906eab6",
+    "snapshot_key": "sources/e2dfd9797d22d06f148fe360a0577ace36aa276dadeb75e6646b42b4c4e5515a/47f5fc0d1581c90634449516281070495b92cfe062c20c2a366919622906eab6.pdf",
+    "changed": 0,
+    "error": null
   }
 ]

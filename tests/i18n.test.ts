@@ -1,7 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
-import {resolveLocale,localeSearch,formatDate,translator} from '../lib/i18n/index.ts';
+import {resolveLocale,localeSearch,formatDate,formatTimestamp,translator} from '../lib/i18n/index.ts';
 import {messages} from '../lib/i18n/messages.ts';
 import {contentText,localizePolicy,localizeIntake,searchText,policyTextFields} from '../lib/i18n/content.ts';
 import {createLocalization,contentHash} from '../lib/i18n/build.ts';
@@ -101,6 +101,13 @@ test('original-language metadata is record-specific, not inferred from the chose
 test('dates are formatted in the selected language without shifting date-only values',()=>{
  assert.equal(formatDate('2026-10-03','zh'),'2026/10/03');
  assert.match(formatDate('2026-10-03','en',{year:'numeric',month:'long',day:'numeric'}),/October 3, 2026/);
+});
+
+test('country update stamps show Berlin time for instants and no invented time for bare dates',()=>{
+ assert.equal(formatTimestamp('2026-10-10T15:34:39.000Z','zh'),'2026年10月10日 17:34');
+ assert.equal(formatTimestamp('2026-10-10T15:34:39.000Z','en'),'Oct 10, 2026, 17:34');
+ assert.equal(formatTimestamp('2026-10-10','zh'),'2026年10月10日');
+ assert.equal(formatTimestamp('2026-10-10','en'),'Oct 10, 2026');
 });
 
 test('editorial intake placeholders are never presented as German original titles',()=>{

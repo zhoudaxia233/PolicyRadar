@@ -28,6 +28,12 @@ export function formatDate(value:string,locale:Locale,options:Intl.DateTimeForma
  return new Intl.DateTimeFormat(languageTags[locale],{timeZone:'Europe/Berlin',...options}).format(new Date(value.length===10?value+'T12:00:00Z':value));
 }
 
+// Review timestamps are either an instant or a bare date. A bare date has no time of day: never invent one.
+export function formatTimestamp(value:string,locale:Locale){
+ const day:Intl.DateTimeFormatOptions={year:'numeric',month:'short',day:'numeric'};
+ return formatDate(value,locale,value.length===10?day:{...day,hour:'2-digit',minute:'2-digit',hourCycle:'h23'});
+}
+
 export function regionName(id:string,locale:Locale){const r=regions.find(r=>r.id===id);return locale==='zh'?r?.name??id:(r&&'en' in r?r.en:undefined)??r?.de??id;}
 export function countryName(id:string,locale:Locale){const country=countries.find(c=>c.id===id);return country?.[locale==='zh'?'name':locale]??id;}
 

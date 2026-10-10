@@ -12,7 +12,7 @@ import { CompactSelect } from './compact-select';
 import { archiveUrl } from '../lib/archive-url';
 import { readNavigation, navigationSearch } from '../lib/domain/navigation';
 import { selectListing, countrySourceUrls, timelineEvents } from '../lib/domain/listing';
-import { translator, readLocale, localeSearch, languageTags, formatDate, originalRegionName, regionName, countryName as localizedCountryName, type Locale } from '../lib/i18n/index';
+import { translator, readLocale, localeSearch, languageTags, formatDate, formatTimestamp, originalRegionName, regionName, countryName as localizedCountryName, type Locale } from '../lib/i18n/index';
 import { contentText, localizePolicy, localizeIntake, searchText, emptyLocalization, type Localization } from '../lib/i18n/content';
 type IntakeData = { trackingStart: string; records: IntakeRecord[]; coverage: ReturnType<typeof coverageRows> };
 type CheckRow = { url: string; checked_at: string; last_success_at: string | null; error: string | null; changed: number; snapshot_key: string | null };
@@ -244,6 +244,14 @@ export default function Home() {
   const cname = countryName(country);
   const reviewAt = status.settings['lastReviewAt:' + country];
   const reviewNote = status.settings['reviewNote:' + country];
+  // One per-country update stamp: the sidebar shows it on wide screens, the top of the page on phones.
+  const updatedStamp = (className: string) => <button
+    className={'updated-stamp ' + className}
+    onClick={() => go('sources')}
+    aria-label={reviewAt ? tr('{0}数据更新于 {1}（柏林时间），查看来源与更新', [cname, formatTimestamp(reviewAt, locale)]) : tr('{0}数据尚未更新，查看来源与更新', [cname])}>
+    <RefreshCw size={12} />
+    {reviewAt ? <time dateTime={reviewAt}>{tr('更新于 {0}', [formatTimestamp(reviewAt, locale)])}</time> : tr('尚未更新')}
+  </button>;
   const activeSourceUrls = countrySourceUrls(country, items, intake.records, status.discovery ?? []);
   const activeChecks = status.checks.filter(c => activeSourceUrls.has(c.url));
   const filtering = !!(query || tags.length || region !== 'all');
@@ -446,6 +454,7 @@ export default function Home() {
           align="left"
           onChange={pickCountry}
           options={countries.map(c => ({ value: c.id, label: countryName(c.id) }))} />
+        {updatedStamp('sidebar-updated')}
       </div>
       <div className="region-nav" ref={regionNav} aria-label={cname + tr("各地区")}>
         <button aria-current={region === 'all' ? 'true' : undefined} onClick={() => pickRegion('all')}>
@@ -528,6 +537,10 @@ export default function Home() {
         </div>
       </header>
       <main id="main">
+        <p className="mobile-updated">
+          <span>{cname}</span>
+          {updatedStamp('')}
+        </p>
         <div className="page-heading">
           <div>
             <h1>
@@ -595,7 +608,7 @@ export default function Home() {
 
             <p>
               {tr("上次事实复核：")}
-              {reviewAt ? new Date(reviewAt).toLocaleString(languageTags[locale], { timeZone: 'Europe/Berlin' }) : tr("尚未事实复核")}
+              {reviewAt ? formatTimestamp(reviewAt, locale) : tr("尚未事实复核")}
               ·
               {note(reviewNote)}
             </p>

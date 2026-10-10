@@ -1,0 +1,645 @@
+{
+  "checkedAt": "2026-10-10T23:39:51.017Z",
+  "channels": 38,
+  "incompleteChannels": 37,
+  "rows": [
+    {
+      "sourceUrl": "https://www.provinciegroningen.nl/",
+      "region": "NL-GR",
+      "title": "格罗宁根：省政府公告",
+      "windowStart": "2026-10-04",
+      "windowEnd": "2026-10-10",
+      "missingDays": [
+        "2026-10-04",
+        "2026-10-05",
+        "2026-10-06",
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.provinciegroningen.nl/bestuur-en-organisatie/provinciale-staten/",
+      "region": "NL-GR",
+      "title": "格罗宁根：省议会文件",
+      "windowStart": "2026-10-04",
+      "windowEnd": "2026-10-10",
+      "missingDays": [
+        "2026-10-04",
+        "2026-10-05",
+        "2026-10-06",
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.fryslan.frl/",
+      "region": "NL-FR",
+      "title": "弗里斯兰：省政府公告",
+      "windowStart": "2026-10-04",
+      "windowEnd": "2026-10-10",
+      "missingDays": [
+        "2026-10-04",
+        "2026-10-05",
+        "2026-10-06",
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.fryslan.frl/provinciale-staten",
+      "region": "NL-FR",
+      "title": "弗里斯兰：省议会文件",
+      "windowStart": "2026-10-04",
+      "windowEnd": "2026-10-10",
+      "missingDays": [
+        "2026-10-04",
+        "2026-10-05",
+        "2026-10-06",
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.provincie.drenthe.nl/",
+      "region": "NL-DR",
+      "title": "德伦特：省政府公告",
+      "windowStart": "2026-10-04",
+      "windowEnd": "2026-10-10",
+      "missingDays": [
+        "2026-10-04",
+        "2026-10-05",
+        "2026-10-06",
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.provincie.drenthe.nl/organisatie-bestuur/provinciale-staten/",
+      "region": "NL-DR",
+      "title": "德伦特：省议会文件",
+      "windowStart": "2026-10-04",
+      "windowEnd": "2026-10-10",
+      "missingDays": [
+        "2026-10-04",
+        "2026-10-05",
+        "2026-10-06",
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.overijssel.nl/",
+      "region": "NL-OV",
+      "title": "上艾瑟尔：省政府公告",
+      "windowStart": "2026-10-04",
+      "windowEnd": "2026-10-10",
+      "missingDays": [
+        "2026-10-04",
+        "2026-10-05",
+        "2026-10-06",
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.overijssel.nl/bestuur/provinciale-staten/",
+      "region": "NL-OV",
+      "title": "上艾瑟尔：省议会文件",
+      "windowStart": "2026-10-04",
+      "windowEnd": "2026-10-10",
+      "missingDays": [
+        "2026-10-04",
+        "2026-10-05",
+        "2026-10-06",
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.flevoland.nl/",
+      "region": "NL-FL",
+      "title": "弗莱福兰：省政府公告",
+      "windowStart": "2026-10-04",
+      "windowEnd": "2026-10-10",
+      "missingDays": [
+        "2026-10-04",
+        "2026-10-05",
+        "2026-10-06",
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://stateninformatie.flevoland.nl/",
+      "region": "NL-FL",
+      "title": "弗莱福兰：省议会文件",
+      "windowStart": "2026-10-04",
+      "windowEnd": "2026-10-10",
+      "missingDays": [
+        "2026-10-04",
+        "2026-10-05",
+        "2026-10-06",
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.gelderland.nl/",
+      "region": "NL-GE",
+      "title": "海尔德兰：省政府公告",
+      "windowStart": "2026-10-04",
+      "windowEnd": "2026-10-10",
+      "missingDays": [
+        "2026-10-04",
+        "2026-10-05",
+        "2026-10-06",
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.gelderland.nl/themas/politiek/ps",
+      "region": "NL-GE",
+      "title": "海尔德兰：省议会文件",
+      "windowStart": "2026-10-04",
+      "windowEnd": "2026-10-10",
+      "missingDays": [
+        "2026-10-04",
+        "2026-10-05",
+        "2026-10-06",
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.provincie-utrecht.nl/",
+      "region": "NL-UT",
+      "title": "乌得勒支：省政府公告",
+      "windowStart": "2026-10-04",
+      "windowEnd": "2026-10-10",
+      "missingDays": [
+        "2026-10-04",
+        "2026-10-05",
+        "2026-10-06",
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.provincie-utrecht.nl/politiek-bestuur/provinciale-staten",
+      "region": "NL-UT",
+      "title": "乌得勒支：省议会文件",
+      "windowStart": "2026-10-04",
+      "windowEnd": "2026-10-10",
+      "missingDays": [
+        "2026-10-04",
+        "2026-10-05",
+        "2026-10-06",
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.noord-holland.nl/",
+      "region": "NL-NH",
+      "title": "北荷兰：省政府公告",
+      "windowStart": "2026-10-04",
+      "windowEnd": "2026-10-10",
+      "missingDays": [
+        "2026-10-04",
+        "2026-10-05",
+        "2026-10-06",
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.noord-holland.nl/Bestuur/Provinciale_Staten",
+      "region": "NL-NH",
+      "title": "北荷兰：省议会文件",
+      "windowStart": "2026-10-04",
+      "windowEnd": "2026-10-10",
+      "missingDays": [
+        "2026-10-04",
+        "2026-10-05",
+        "2026-10-06",
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.zuid-holland.nl/",
+      "region": "NL-ZH",
+      "title": "南荷兰：省政府公告",
+      "windowStart": "2026-10-04",
+      "windowEnd": "2026-10-10",
+      "missingDays": [
+        "2026-10-04",
+        "2026-10-05",
+        "2026-10-06",
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.zuid-holland.nl/politiek-bestuur/provinciale-staten/",
+      "region": "NL-ZH",
+      "title": "南荷兰：省议会文件",
+      "windowStart": "2026-10-04",
+      "windowEnd": "2026-10-10",
+      "missingDays": [
+        "2026-10-04",
+        "2026-10-05",
+        "2026-10-06",
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.zeeland.nl/",
+      "region": "NL-ZE",
+      "title": "泽兰：省政府公告",
+      "windowStart": "2026-10-04",
+      "windowEnd": "2026-10-10",
+      "missingDays": [
+        "2026-10-04",
+        "2026-10-05",
+        "2026-10-06",
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.zeeland.nl/bestuur/provinciale-staten",
+      "region": "NL-ZE",
+      "title": "泽兰：省议会文件",
+      "windowStart": "2026-10-04",
+      "windowEnd": "2026-10-10",
+      "missingDays": [
+        "2026-10-04",
+        "2026-10-05",
+        "2026-10-06",
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.brabant.nl/",
+      "region": "NL-NB",
+      "title": "北布拉班特：省政府公告",
+      "windowStart": "2026-10-04",
+      "windowEnd": "2026-10-10",
+      "missingDays": [
+        "2026-10-04",
+        "2026-10-05",
+        "2026-10-06",
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.brabant.nl/bestuur/provinciale-staten/statenstukken/",
+      "region": "NL-NB",
+      "title": "北布拉班特：省议会文件",
+      "windowStart": "2026-10-04",
+      "windowEnd": "2026-10-10",
+      "missingDays": [
+        "2026-10-04",
+        "2026-10-05",
+        "2026-10-06",
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.limburg.nl/",
+      "region": "NL-LI",
+      "title": "林堡：省政府公告",
+      "windowStart": "2026-10-04",
+      "windowEnd": "2026-10-10",
+      "missingDays": [
+        "2026-10-04",
+        "2026-10-05",
+        "2026-10-06",
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.limburg.nl/bestuur/provinciale-staten/",
+      "region": "NL-LI",
+      "title": "林堡：省议会文件",
+      "windowStart": "2026-10-04",
+      "windowEnd": "2026-10-10",
+      "missingDays": [
+        "2026-10-04",
+        "2026-10-05",
+        "2026-10-06",
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.rijksoverheid.nl/actueel/nieuws",
+      "region": "NL",
+      "title": "荷兰政府政策公告",
+      "windowStart": "2026-10-04",
+      "windowEnd": "2026-10-10",
+      "missingDays": [],
+      "latestScan": "complete"
+    },
+    {
+      "sourceUrl": "https://zoek.officielebekendmakingen.nl/",
+      "region": "NL",
+      "title": "荷兰官方公报与议会文件",
+      "windowStart": "2026-10-04",
+      "windowEnd": "2026-10-10",
+      "missingDays": [
+        "2026-10-04",
+        "2026-10-05",
+        "2026-10-06",
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://wetten.overheid.nl/",
+      "region": "NL",
+      "title": "荷兰现行国家法规",
+      "windowStart": "2026-10-04",
+      "windowEnd": "2026-10-10",
+      "missingDays": [
+        "2026-10-04",
+        "2026-10-05",
+        "2026-10-06",
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://lokaleregelgeving.overheid.nl/",
+      "region": "NL",
+      "title": "荷兰地方现行法规",
+      "windowStart": "2026-10-04",
+      "windowEnd": "2026-10-10",
+      "missingDays": [
+        "2026-10-04",
+        "2026-10-05",
+        "2026-10-06",
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.tweedekamer.nl/kamerstukken/wetsvoorstellen",
+      "region": "NL",
+      "title": "荷兰众议院法案",
+      "windowStart": "2026-10-04",
+      "windowEnd": "2026-10-10",
+      "missingDays": [
+        "2026-10-04",
+        "2026-10-05",
+        "2026-10-06",
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.eerstekamer.nl/wetsvoorstellen_2",
+      "region": "NL",
+      "title": "荷兰参议院法案",
+      "windowStart": "2026-10-04",
+      "windowEnd": "2026-10-10",
+      "missingDays": [
+        "2026-10-04",
+        "2026-10-05",
+        "2026-10-06",
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.fryslan.frl/bekendmakingen-2026",
+      "region": "NL-FR",
+      "title": "弗里斯兰：官方公布与决定",
+      "windowStart": "2026-10-04",
+      "windowEnd": "2026-10-10",
+      "missingDays": [
+        "2026-10-04",
+        "2026-10-05",
+        "2026-10-06",
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.provincie.drenthe.nl/actueel/bekendmakingen/",
+      "region": "NL-DR",
+      "title": "德伦特：官方公布与决定",
+      "windowStart": "2026-10-04",
+      "windowEnd": "2026-10-10",
+      "missingDays": [
+        "2026-10-04",
+        "2026-10-05",
+        "2026-10-06",
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.flevoland.nl/loket/openbare-documenten/overzicht-openbare-documenten/wet-en-regelgeving",
+      "region": "NL-FL",
+      "title": "弗莱福兰：官方公布与决定",
+      "windowStart": "2026-10-04",
+      "windowEnd": "2026-10-10",
+      "missingDays": [
+        "2026-10-04",
+        "2026-10-05",
+        "2026-10-06",
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.provincie-utrecht.nl/actueel/gs-besluiten",
+      "region": "NL-UT",
+      "title": "乌得勒支：官方公布与决定",
+      "windowStart": "2026-10-04",
+      "windowEnd": "2026-10-10",
+      "missingDays": [
+        "2026-10-04",
+        "2026-10-05",
+        "2026-10-06",
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.zuid-holland.nl/actueel/bekendmakingen/",
+      "region": "NL-ZH",
+      "title": "南荷兰：官方公布与决定",
+      "windowStart": "2026-10-04",
+      "windowEnd": "2026-10-10",
+      "missingDays": [
+        "2026-10-04",
+        "2026-10-05",
+        "2026-10-06",
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.zeeland.nl/loket/Provinciaal-Blad-en-Bekendmakingen",
+      "region": "NL-ZE",
+      "title": "泽兰：官方公布与决定",
+      "windowStart": "2026-10-04",
+      "windowEnd": "2026-10-10",
+      "missingDays": [
+        "2026-10-04",
+        "2026-10-05",
+        "2026-10-06",
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.brabant.nl/actueel/bekendmakingen/",
+      "region": "NL-NB",
+      "title": "北布拉班特：官方公布与决定",
+      "windowStart": "2026-10-04",
+      "windowEnd": "2026-10-10",
+      "missingDays": [
+        "2026-10-04",
+        "2026-10-05",
+        "2026-10-06",
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.limburg.nl/actueel/bekendmakingen/",
+      "region": "NL-LI",
+      "title": "林堡：官方公布与决定",
+      "windowStart": "2026-10-04",
+      "windowEnd": "2026-10-10",
+      "missingDays": [
+        "2026-10-04",
+        "2026-10-05",
+        "2026-10-06",
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10"
+      ],
+      "latestScan": "partial"
+    }
+  ]
+}

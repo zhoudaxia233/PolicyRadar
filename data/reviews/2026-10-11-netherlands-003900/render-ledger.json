@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://www.rijksoverheid.nl/actueel/nieuws?current=n_2_n",
+    "out": "/tmp/nl-update/rijk-news-2.html",
+    "renderedAt": "2026-10-10T22:41:44.011Z",
+    "bytes": 242829,
+    "sha256": "300b47574584ed45c8540177c3aff95d7c650f5bd94494f92eee47ba8cebcfd8"
+  },
+  {
+    "url": "https://www.rijksoverheid.nl/actueel/nieuws?current=n_3_n",
+    "out": "/tmp/nl-update/rijk-news-3.html",
+    "renderedAt": "2026-10-10T22:41:44.071Z",
+    "bytes": 242887,
+    "sha256": "f48ea2fa4e465a2e437e6c45e00d0cecec5567741bd0a65cdc88249b75148bd0"
+  },
+  {
+    "url": "https://www.rijksoverheid.nl/actueel/nieuws?current=n_4_n",
+    "out": "/tmp/nl-update/rijk-news-4.html",
+    "renderedAt": "2026-10-10T22:41:44.071Z",
+    "bytes": 242655,
+    "sha256": "22629c08d32fd519bdca561779171617925adb9412b919e16eee62ebf5b6d130"
+  },
+  {
+    "url": "https://www.rijksoverheid.nl/actueel/nieuws?current=n_5_n",
+    "out": "/tmp/nl-update/rijk-news-5.html",
+    "renderedAt": "2026-10-10T22:41:43.722Z",
+    "bytes": 242720,
+    "sha256": "f6c3a4eb89e89488b23da9ae98c4e826d790393e33fce453d0d16da972d015d2"
+  }
+]

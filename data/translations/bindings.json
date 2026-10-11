@@ -2524,11 +2524,12 @@
       ]
     },
     "de-care-insurance-reform-pnog": {
-      "version": 1,
-      "hash": "d54be00e3f812a187396ef29ca6c5d314c38cb5cfc38367c8dc92774f04c0f16",
+      "hash": "b1e0ce0cf5cc54bf0dbbf7c09395ecb5be743dc31bfc29e6457d18c40da66b47",
+      "version": 2,
       "originalLanguage": "de",
       "verbatim": [
-        "Bundesministerium für Gesundheit"
+        "Bundesministerium für Gesundheit",
+        "Bundesministerium der Justiz / Bundesamt für Justiz"
       ]
     },
     "de-cooperative-law-2026": {
@@ -3875,6 +3876,269 @@
       "verbatim": [
         "Tweede Kamer der Staten-Generaal",
         "Eerste Kamer der Staten-Generaal"
+      ]
+    },
+    "de-gwb-twelfth-amendment-2026": {
+      "hash": "30b0c91e6f77ac9f712e47e2735d462b392d939c0574bc282118d82444d8c6ad",
+      "version": 1,
+      "originalLanguage": "de",
+      "verbatim": [
+        "Deutscher Bundestag",
+        "Bundesministerium der Justiz und für Verbraucherschutz"
+      ]
+    },
+    "de-hannover-hamburg-rail-resolution-2026": {
+      "hash": "4990fc7b66b00487dc239c2f5d1205873226580f30a19463653692f0c28d97af",
+      "version": 1,
+      "originalLanguage": "de",
+      "verbatim": [
+        "Deutscher Bundestag"
+      ]
+    },
+    "de-car-label-penalty-reference-2026": {
+      "hash": "ae16e597678e8e91a423d43711c807026b509f3a77d7b55e0ef36a57fe0bcd8f",
+      "version": 1,
+      "originalLanguage": "de",
+      "verbatim": [
+        "Bundesrat",
+        "Bundesministerium der Justiz und für Verbraucherschutz"
+      ]
+    },
+    "de-self-employed-maternity-proposals-2026": {
+      "hash": "3aa3c04bdf7c3a277fc08452021ece736f9bffacdbfa6a55acd8bdd41686e4ec",
+      "version": 1,
+      "originalLanguage": "de",
+      "verbatim": [
+        "Deutscher Bundestag",
+        "Bundesministerium der Justiz und für Verbraucherschutz"
+      ]
+    },
+    "de-energy-price-left-package-2026": {
+      "hash": "367d71e26d3dc050429528613f4a4f36f5cca453f2cdf5d640865d1795092c6e",
+      "version": 1,
+      "originalLanguage": "de",
+      "verbatim": [
+        "Deutscher Bundestag",
+        "Bundesministerium der Finanzen",
+        "Bundesregierung"
+      ]
+    },
+    "de-wealth-tax-alternatives-2026": {
+      "hash": "8f9b5ba3ac205592131b2784cf092f404ebc1f01d15fbc2c8b8a9d365b386d2f",
+      "version": 1,
+      "originalLanguage": "de",
+      "verbatim": [
+        "Deutscher Bundestag"
+      ]
+    },
+    "rp-flood-reconstruction-framework-2031": {
+      "hash": "e39ae17c2d17ee3e3b2f780afe560a6f84b552c8199e4bf02723eb1f8ae50d94",
+      "version": 1,
+      "originalLanguage": "de",
+      "verbatim": [
+        "Staatskanzlei Rheinland-Pfalz",
+        "Land Rheinland-Pfalz"
+      ]
+    },
+    "rp-tourism-investment-rules-2026": {
+      "hash": "8c00a3dff91ffba2fd4196e2943c88d0db3cf6cd19ef1aaa184e605410a2207d",
+      "version": 1,
+      "originalLanguage": "de",
+      "verbatim": [
+        "Staatskanzlei Rheinland-Pfalz",
+        "Investitions- und Strukturbank Rheinland-Pfalz"
+      ]
+    },
+    "sh-energy-regulator-independence-2026": {
+      "hash": "1ae1a8e55107bab7d342c17ee65ddbd7b523adb448512fdb34227758ea01fe82",
+      "version": 1,
+      "originalLanguage": "de",
+      "verbatim": [
+        "Land Schleswig-Holstein"
+      ]
+    },
+    "he-economic-administration-fees-2026": {
+      "hash": "6719a21cc1d9618babf3d73ebafe0a53f254b745eb50533de86dd5b146e7d421",
+      "version": 1,
+      "originalLanguage": "de",
+      "verbatim": [
+        "Hessische Staatskanzlei"
+      ]
+    },
+    "he-cadastral-survey-fees-2026": {
+      "hash": "054f1e4d814b2082394e3beff819e396c639948a11ea2e5bec92579bc88ce7fc",
+      "version": 1,
+      "originalLanguage": "de",
+      "verbatim": [
+        "Hessische Staatskanzlei"
+      ]
+    },
+    "sh-foundation-accounts-2026": {
+      "hash": "536eccda1a5049ce463d2776098467c20435c2e6566a93155983eea8dbd17fc7",
+      "version": 1,
+      "originalLanguage": "de",
+      "verbatim": [
+        "Land Schleswig-Holstein"
+      ]
+    },
+    "bw-freiburg-franco-german-school-2026": {
+      "hash": "824f62ab3761251bff9a0fd039253b0e5127819c03aac3383bbe9a1e78b7280c",
+      "version": 1,
+      "originalLanguage": "de",
+      "verbatim": [
+        "Land Baden-Württemberg",
+        "Bundesgesetzblatt"
+      ]
+    },
+    "sh-public-pay-benefits-2025-2028": {
+      "hash": "ecc690a1cde4fc1caaa941fda04a69e7f74eaa0ac86f8a08cf562f20f5fae39e",
+      "version": 1,
+      "originalLanguage": "de",
+      "verbatim": [
+        "Land Schleswig-Holstein",
+        "Dienstleistungszentrum Personal Schleswig-Holstein"
+      ]
+    },
+    "de-artists-income-gap-insurance": {
+      "hash": "bc7116a7e4773ffe6e5163784eb09e573e949d33797f0c03c6cfcb61ac248f74",
+      "version": 1,
+      "originalLanguage": "de",
+      "verbatim": [
+        "Bundesrat",
+        "Bundesministerium der Justiz / Bundesamt für Justiz"
+      ]
+    },
+    "de-multidisciplinary-child-protection": {
+      "hash": "3736aaf08241b8eea76c8bfc70df58d7556ebc592f1480be8bc767a1eefbaf43",
+      "version": 1,
+      "originalLanguage": "de",
+      "verbatim": [
+        "Bundesrat",
+        "Bundesministerium der Justiz / Bundesamt für Justiz"
+      ]
+    },
+    "de-eu-worker-mobility-abuse-resolution": {
+      "hash": "25c4853797d7e231e9506dce2f6da4560479c3bc64e727a478a2d8030ee8d273",
+      "version": 1,
+      "originalLanguage": "de",
+      "verbatim": [
+        "Bundesrat",
+        "Bundesministerium der Justiz / Bundesamt für Justiz"
+      ]
+    },
+    "de-digital-inducement-minor-self-harm": {
+      "hash": "b0c9de95ce44f4faeca55a94e927274994f2d345a625acfc0efb4306d4e2cbc6",
+      "version": 1,
+      "originalLanguage": "de",
+      "verbatim": [
+        "Bundesrat",
+        "Bundesministerium der Justiz / Bundesamt für Justiz"
+      ]
+    },
+    "de-food-bank-transport-relief": {
+      "hash": "9867f00c20791aedcae644fc434f13a0cff4871d1d39a99ecd97c6724f41b9ff",
+      "version": 1,
+      "originalLanguage": "de",
+      "verbatim": [
+        "Bundesrat",
+        "Bundesministerium der Justiz / Bundesamt für Justiz"
+      ]
+    },
+    "de-intelligence-driving-licence-registers": {
+      "hash": "8fca59c531ad1fe8df02ef596c0da08ce3247f28bae8c6d7646ae6f2ae0ace9c",
+      "version": 1,
+      "originalLanguage": "de",
+      "verbatim": [
+        "Bundesrat",
+        "Bundesministerium der Justiz / Bundesamt für Justiz"
+      ]
+    },
+    "de-light-vehicle-60-kmh-proposal": {
+      "hash": "481af6095dc99c6b7dabdc320790d90246eaf57ab5ebf9035fa5c9ae68b0f9b2",
+      "version": 1,
+      "originalLanguage": "de",
+      "verbatim": [
+        "Bundesrat",
+        "Bundesministerium der Justiz / Bundesamt für Justiz"
+      ]
+    },
+    "de-autonomous-driving-model-regions": {
+      "hash": "0bf3d0d506285ad2f2f9b590e977fdf17da12318ea8f824c9f8056acc2e82dc3",
+      "version": 1,
+      "originalLanguage": "de",
+      "verbatim": [
+        "Bundesrat",
+        "Bundesministerium der Justiz / Bundesamt für Justiz"
+      ]
+    },
+    "de-occupational-safety-modernisation": {
+      "hash": "86daff78f646b987b4ed0b55fcacb5926fc0fe4605a09ddf62056a78b24986fd",
+      "version": 1,
+      "originalLanguage": "de",
+      "verbatim": [
+        "Bundesrat",
+        "Bundesministerium der Justiz / Bundesamt für Justiz",
+        "Bundesministerium für Arbeit und Soziales"
+      ]
+    },
+    "de-cancer-right-to-be-forgotten": {
+      "hash": "a7fb34ac936e2ec11980cd63757e3f24c6664491831851a8e4309b671e491f82",
+      "version": 1,
+      "originalLanguage": "de",
+      "verbatim": [
+        "Bundesrat",
+        "Bundesministerium der Justiz / Bundesamt für Justiz"
+      ]
+    },
+    "de-defence-industry-permit-acceleration": {
+      "hash": "9c856fce2d4a2f1b5fc803e5dae404a7c436b24ed9c1212b110ef865257386b3",
+      "version": 1,
+      "originalLanguage": "de",
+      "verbatim": [
+        "Bundesrat",
+        "Bundesministerium der Justiz / Bundesamt für Justiz"
+      ]
+    },
+    "de-biotechnology-ipcei-location-resolution": {
+      "hash": "7580c17a5b819112c61e3232f1d02b8b3f96e942d1acf7c6fa425051670af131",
+      "version": 1,
+      "originalLanguage": "de",
+      "verbatim": [
+        "Bundesrat",
+        "European Commission",
+        "Bundesministerium für Gesundheit",
+        "Bundesregierung"
+      ]
+    },
+    "de-nipt-monitoring-resolution-2026": {
+      "hash": "247bb538c3147c42dc024e892599291f5f3186024250e321c4f44f15a9eb0742",
+      "version": 1,
+      "originalLanguage": "de",
+      "verbatim": [
+        "Deutscher Bundestag",
+        "Gemeinsamer Bundesausschuss",
+        "Bundesrat"
+      ]
+    },
+    "de-retirement-age-and-early-exit-proposals-2026": {
+      "hash": "2e12a48cc24b1c10ebd8716e933597779a3c12714b92442ff9e54c15d2424a5c",
+      "version": 1,
+      "originalLanguage": "de",
+      "verbatim": [
+        "Deutscher Bundestag",
+        "Bundesministerium für Arbeit und Soziales",
+        "Deutsche Rentenversicherung",
+        "Bundesministerium der Justiz / Bundesamt für Justiz"
+      ]
+    },
+    "de-care-financing-opposition-2026": {
+      "hash": "da147e56bf6e51ff063ab31768e104c0b7045610998de566676ca52f5cfc3377",
+      "version": 1,
+      "originalLanguage": "de",
+      "verbatim": [
+        "Deutscher Bundestag",
+        "Bundesministerium der Justiz / Bundesamt für Justiz",
+        "Bundesministerium für Gesundheit"
       ]
     }
   },
@@ -37590,6 +37854,138 @@
     "nl-stb-2026-305": {
       "hash": "463736a8d03d24534ea7820e7435333365500e368868db2ce3ecc41d91cc3f4d",
       "originalLanguage": "nl",
+      "titleIsOriginal": true,
+      "verbatim": []
+    },
+    "de-20261011-gwb-bill": {
+      "hash": "654f51da5946eb6d3ea9bddb55fcd4a678822c46a0faaaf2f80b651c63c5ad08",
+      "originalLanguage": "de",
+      "titleIsOriginal": true,
+      "verbatim": []
+    },
+    "de-20261011-rail-committee": {
+      "hash": "dcebcae93632af29ba0466ce536d72048b6e1093d0891feed4cb9a0ef876deb9",
+      "originalLanguage": "de",
+      "titleIsOriginal": true,
+      "verbatim": []
+    },
+    "de-20261011-maternity-green": {
+      "hash": "b2c97f763fbb684b472126c9115bc7f4cb3e7fd732c9b687513ccbbba71edd03",
+      "originalLanguage": "de",
+      "titleIsOriginal": true,
+      "verbatim": []
+    },
+    "de-20261011-wealth-original": {
+      "hash": "1e6c4f99a977fd8abaeaf5484890dbd40dfbd21271c4a9da0e0166a910be0808",
+      "originalLanguage": "de",
+      "titleIsOriginal": true,
+      "verbatim": []
+    },
+    "de-20261011-wealth-committee": {
+      "hash": "42649e91931d3c1c2732f5e936d9a9ced3cd681aab9f1c754286ea6e2b35a048",
+      "originalLanguage": "de",
+      "titleIsOriginal": true,
+      "verbatim": []
+    },
+    "de-20261011-wealth-afd": {
+      "hash": "c4660aafcb4d825ed6e312e9d1a54e33579da3b7d90ac6b6881a040e9f3d3a7c",
+      "originalLanguage": "de",
+      "titleIsOriginal": true,
+      "verbatim": []
+    },
+    "de-20261011-correct-bt-132": {
+      "hash": "0e3c6ba47a3885e1da3c15611b89ac9b0093015e3ee61cad0aa8698d0b60691e",
+      "originalLanguage": "de",
+      "titleIsOriginal": true,
+      "verbatim": []
+    },
+    "de-20261011-correct-bt-136": {
+      "hash": "a66afce6ac9661f6b3a7126fa87794daa609339e6548b674b8de8feeec9a188a",
+      "originalLanguage": "de",
+      "titleIsOriginal": true,
+      "verbatim": []
+    },
+    "de-20261011-correct-dip-wealth-tax": {
+      "hash": "6584f7c11a7b91b14d02a62b418a7917e15fb822a215fdf975e571e6ccbf71cc",
+      "originalLanguage": "de",
+      "titleIsOriginal": true,
+      "verbatim": []
+    },
+    "de-20261011-rp-flood-reconstruction-framework-2031": {
+      "hash": "8d40211096a883dc4c7f343134b79b7335db5c14ae6c0f4cf7e4f66f15a4de43",
+      "originalLanguage": "de",
+      "titleIsOriginal": true,
+      "verbatim": []
+    },
+    "de-20261011-rp-tourism-investment-rules-2026": {
+      "hash": "51347206b92227a540b001b1e14082822e8366ea7ddaad7a8cc5864f04933389",
+      "originalLanguage": "de",
+      "titleIsOriginal": true,
+      "verbatim": []
+    },
+    "de-20261011-sh-energy-regulator-independence-2026": {
+      "hash": "5b987b4d8a31566f1ffe88b589aea48cb1dc4fd7a7f018fb63289ebaf6050d01",
+      "originalLanguage": "de",
+      "titleIsOriginal": true,
+      "verbatim": []
+    },
+    "de-20261011-he-economic-administration-fees-2026": {
+      "hash": "7c2e29192bf7f6e5c88cc2f73f834cab974e25e016e812b9c2177f8fe045b29d",
+      "originalLanguage": "de",
+      "titleIsOriginal": true,
+      "verbatim": []
+    },
+    "de-20261011-he-cadastral-survey-fees-2026": {
+      "hash": "095e6bbdea8aa4c2d38890208cf22cb2dbe439a997a91fd58c7259ed80d4ca63",
+      "originalLanguage": "de",
+      "titleIsOriginal": true,
+      "verbatim": []
+    },
+    "de-20261011-sh-foundation-accounts-2026": {
+      "hash": "b0000d0b227fbb08ee7ead9da2b68e387f9acfe5e82642be631458a385deed10",
+      "originalLanguage": "de",
+      "titleIsOriginal": true,
+      "verbatim": []
+    },
+    "de-20261011-bw-freiburg-franco-german-school-2026": {
+      "hash": "6de36587b7e593fdc035704c3ef80a865730dd2d59cd7f26f3ec0f32bff6e476",
+      "originalLanguage": "de",
+      "titleIsOriginal": true,
+      "verbatim": []
+    },
+    "de-20261011-sh-public-pay-benefits-2025-2028": {
+      "hash": "4320def931793a83eeb1b7a120093967031e1294ecbc0b7b16bfdc956d1b9f0b",
+      "originalLanguage": "de",
+      "titleIsOriginal": true,
+      "verbatim": []
+    },
+    "de-20261011-ni-gvbl-85": {
+      "hash": "b9ba9be56f54da247bbb1361a114aa434b9aa0caf1e53eaf9916eed1c16c2762",
+      "originalLanguage": "de",
+      "titleIsOriginal": true,
+      "verbatim": []
+    },
+    "de-20261011-ni-gvbl-84": {
+      "hash": "28923ec21d8efd92efa3ce22e2581ac9c1eee8f001798d78588e836daf6b4543",
+      "originalLanguage": "de",
+      "titleIsOriginal": true,
+      "verbatim": []
+    },
+    "de-20261011-ni-gvbl-83": {
+      "hash": "9a104f5d396d99b40702d5de65fab9a87c85576b205bf0a2b64764b126ef3427",
+      "originalLanguage": "de",
+      "titleIsOriginal": true,
+      "verbatim": []
+    },
+    "de-20261011-ni-gvbl-82": {
+      "hash": "7839124928ee4104f08f7e090deca970cdf8231d513021dd3d3a7d7b6194ebf3",
+      "originalLanguage": "de",
+      "titleIsOriginal": true,
+      "verbatim": []
+    },
+    "de-20261011-ni-gvbl-81": {
+      "hash": "111af2c303b6ff6b4ab1a4c673dc6a37e6e432c6bde276f02a0f7e6f3942bd94",
+      "originalLanguage": "de",
       "titleIsOriginal": true,
       "verbatim": []
     }

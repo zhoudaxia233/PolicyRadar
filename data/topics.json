@@ -38,6 +38,35 @@
       ]
     },
     {
+      "id": "de-care-insurance-reform-pnog",
+      "title": [
+        "护理保险融资与待遇：政府草案和替代方案",
+        "Care-insurance financing and benefits: government draft and alternatives"
+      ],
+      "basis": "The PNOG cabinet notice and the Bundestag debate address the same concrete reform of social care financing and benefits. Operative sections of 21/2216, 21/5828 and 21/8398 oppose cuts or propose alternative funding and benefits; 21/8398 expressly responds to the government reform. Preserve all distinct instruments, sponsors, dates, existing law and proposed transitions. The debate explanation accounts for all three motions.",
+      "explanations": [
+        "de-care-insurance-reform-pnog",
+        {
+          "id": "de-care-financing-opposition-2026",
+          "appliesFromExport": "2026-10-11T00:41:18.747Z"
+        }
+      ],
+      "documents": [
+        {
+          "region": "DE",
+          "url": "https://www.bundesgesundheitsministerium.de/presse/pressemitteilungen/kabinett-beschliesst-pflegeneuordnungsgesetz",
+          "title": "Kabinett beschließt Pflegeneuordnungsgesetz"
+        },
+        {
+          "region": "DE",
+          "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw42-de-pflegeversicherung-1223626",
+          "title": "Bundestag berät Anträge zur Pflegeversicherung",
+          "appliesFromExport": "2026-10-11T00:41:18.747Z"
+        }
+      ],
+      "appliesFromExport": "2026-10-10T15:05:47.913Z"
+    },
+    {
       "id": "de-crypto-holding-period",
       "title": [
         "德国加密资产一年持有期优惠：现行规则与不同改革版本",
@@ -2621,25 +2650,6 @@
       "appliesFromExport": "2026-10-10T15:05:47.913Z"
     },
     {
-      "id": "de-care-insurance-reform-pnog",
-      "title": [
-        "德国护理保险改革法（PNOG）草案",
-        "Germany: long-term care insurance reform bill (PNOG)"
-      ],
-      "basis": "Health ministry notice of the cabinet decision on the PNOG.",
-      "explanations": [
-        "de-care-insurance-reform-pnog"
-      ],
-      "documents": [
-        {
-          "region": "DE",
-          "url": "https://www.bundesgesundheitsministerium.de/presse/pressemitteilungen/kabinett-beschliesst-pflegeneuordnungsgesetz",
-          "title": "Kabinett beschließt Pflegeneuordnungsgesetz"
-        }
-      ],
-      "appliesFromExport": "2026-10-10T15:05:47.913Z"
-    },
-    {
       "id": "de-cooperative-law-2026",
       "title": [
         "德国合作社法改革草案",
@@ -3997,6 +4007,132 @@
           "region": "NL",
           "officialId": "Staatsblad 2026, 305"
         }
+      ]
+    },
+    {
+      "id": "de-gwb-twelfth-amendment",
+      "title": [
+        "第十二次反限制竞争法修正案",
+        "Twelfth GWB amendment"
+      ],
+      "basis": "The article explicitly identifies the twelfth GWB amendment and its 21/8302 Bundesrat response. Its opening link incorrectly targets 21/786; the actual bill is 21/7865. Original bill checked; no identity inferred from that erroneous link.",
+      "documents": [
+        {
+          "region": "DE",
+          "officialId": "BT-Drs. 21/7865"
+        },
+        {
+          "region": "DE",
+          "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw39-de-gwb-novelle-1211322",
+          "title": "Kartellrechtsverfahren sollen effizienter und digitaler werden"
+        }
+      ],
+      "appliesFromExport": "2026-10-11T00:02:07.042Z"
+    },
+    {
+      "id": "de-hannover-hamburg-rail",
+      "title": [
+        "汉诺威—汉堡铁路规划及保护要求",
+        "Hanover–Hamburg rail planning and safeguards"
+      ],
+      "basis": "The full article records adoption on 8 October of the resolution in 21/8445 concerning the explicitly identified report 21/3150. Its old removed-from-agenda title does not describe the latest outcome. The separately published week-41 article expressly names the same 21/8445 resolution, 21/3150 report, 416/131 vote and rejected alternatives 21/8447 and 21/8448; it is the same matter.",
+      "documents": [
+        {
+          "region": "DE",
+          "officialId": "BT-Drs. 21/8445"
+        },
+        {
+          "region": "DE",
+          "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw39-de-ausbaustrecke-1211290",
+          "title": "Abgesetzt: Debatte über Schienenneubaustrecke Hannover – Hamburg"
+        },
+        {
+          "region": "DE",
+          "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-de-ausbaustrecke-1222180",
+          "title": "Zusätzliche Lärmvorsorge für Schienenneubau­strecke Hannover – Hamburg",
+          "appliesFromExport": "2026-10-11T00:46:03.353Z"
+        }
+      ],
+      "appliesFromExport": "2026-10-11T00:02:07.042Z"
+    },
+    {
+      "id": "de-self-employed-maternity",
+      "title": [
+        "自雇者孕产保障的不同提案",
+        "Competing maternity-protection proposals for self-employed people"
+      ],
+      "basis": "Operative section II of both 21/8461 and 21/8401 explicitly seeks maternity income protection for self-employed people. They are competing Left and Green designs, not stages of one bill. The shared explanation states current law and both designs, preserving separate identities, dates and sponsors.",
+      "documents": [
+        {
+          "region": "DE",
+          "officialId": "BT-Drs. 21/8461"
+        },
+        {
+          "region": "DE",
+          "officialId": "BT-Drs. 21/8401"
+        }
+      ],
+      "appliesFromExport": "2026-10-11T00:02:07.042Z"
+    },
+    {
+      "id": "de-wealth-tax-question",
+      "title": [
+        "财产税：恢复征收、替代设计还是废除",
+        "Wealth tax: restoring collection, alternative designs or repeal"
+      ],
+      "basis": "21/8481 explicitly reports on Left motion 21/4029. Operative section II of the separate AfD motion 21/5486 seeks repeal of the same Wealth Tax Act whose collection 21/4029 would restore. A neutral policy question joins opposite proposals, not their legal stages. The explanation retains both and the committee-reported Green concept.",
+      "documents": [
+        {
+          "region": "DE",
+          "officialId": "BT-Drs. 21/4029"
+        },
+        {
+          "region": "DE",
+          "officialId": "BT-Drs. 21/8481"
+        },
+        {
+          "region": "DE",
+          "officialId": "BT-Drs. 21/5486"
+        }
+      ],
+      "appliesFromExport": "2026-10-11T00:02:07.042Z"
+    },
+    {
+      "id": "de-nipt-monitoring-resolution-2026-matter",
+      "appliesFromExport": "2026-10-11T00:37:08.216Z",
+      "title": [
+        "产前无创检测：议会要求监测，并保留有医学指征的医保可及性",
+        "Prenatal screening: Parliament requests monitoring while protecting justified insured access"
+      ],
+      "basis": "The full Bundestag report explicitly covers original 21/3873, withdrawn 21/8376 and adopted 21/8475. The explanation covers the final resolution, preserved current coverage and separate amendment stages.",
+      "documents": [
+        {
+          "region": "DE",
+          "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-de-praenataltests-1184324",
+          "title": "Ja zum Monitoring der Kassenzulassung des nicht-invasiven Pränataltests"
+        }
+      ],
+      "explanations": [
+        "de-nipt-monitoring-resolution-2026"
+      ]
+    },
+    {
+      "id": "de-retirement-age-and-early-exit-proposals-2026-matter",
+      "appliesFromExport": "2026-10-11T00:37:08.216Z",
+      "title": [
+        "退休年龄和提前退出工作：现行规则、改革建议及左翼党反对方案",
+        "Retirement age and early exit: current rules, reform recommendations and Left counterproposals"
+      ],
+      "basis": "The single debate record expressly discusses the three named retirement-exit motions 21/8388, 21/8389 and 21/8390. Its explanation accounts for all three separate instruments and the corresponding commission alternatives; no motion is hidden by explaining only one.",
+      "documents": [
+        {
+          "region": "DE",
+          "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-de-regelaltersgrenze-1217530",
+          "title": "Anträge zur Rentenpolitik debattiert"
+        }
+      ],
+      "explanations": [
+        "de-retirement-age-and-early-exit-proposals-2026"
       ]
     }
   ]

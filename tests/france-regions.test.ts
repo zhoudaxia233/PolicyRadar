@@ -1,4 +1,5 @@
 import {readSnapshot} from '../lib/source-archive.ts';
+import {readExport} from '../lib/export-store.ts';
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
@@ -50,9 +51,15 @@ test('regional evidence and translations pass the same gates without rewriting h
  for(const table of ['policies','revisions','intake','scan_runs','snapshots'])for(const row of previous.tables[table])assert(candidate.tables[table].some((r:unknown)=>JSON.stringify(r)===JSON.stringify(row)));
  const old=createStaticData(previous);assert.equal(data.status.settings['lastReviewAt:DE'],old.status.settings['lastReviewAt:DE']);
  assert(data.status.settings['lastReviewAt:FR']);
- const l=createLocalization(data,read('../data/translations/content.json'),read('../data/translations/bindings.json'));
- for(const p of data.policies.filter(p=>countryOf(p.region)==='FR'))assert.equal(l.policies[p.id],'current');
- for(const r of data.intake.records.filter(r=>countryOf(r.region)==='FR'))assert.equal(l.intake[r.id],'current');
+ const current=createStaticData(readExport(process.env.POLICY_RADAR_EXPORT??read('../data/current-export.json').path));
+ const catalog=read('../data/translations/content.json'),bindings=read('../data/translations/bindings.json');
+ const l=createLocalization(data,catalog,bindings),latest=createLocalization(current,catalog,bindings);
+ for(const p of data.policies.filter(p=>countryOf(p.region)==='FR')){
+  assert.equal(latest.policies[p.id],'current',p.id);
+  // A binding reviewed for a later revision must not certify the frozen old facts.
+  assert.equal(l.policies[p.id],data.policyVersions[p.id]===current.policyVersions[p.id]?'current':'stale',p.id);
+ }
+ for(const r of data.intake.records.filter(r=>countryOf(r.region)==='FR'))assert.equal(l.intake[r.id],'current',r.id);
  const snapshotKeys=new Set(previous.tables.snapshots.map((s:{key:string})=>s.key));
  for(const s of candidate.tables.snapshots.filter((s:{key:string})=>!snapshotKeys.has(s.key))){
   const bytes=readSnapshot('data/exports/2026-10-03-france-regions/policy-radar-export.json',s);

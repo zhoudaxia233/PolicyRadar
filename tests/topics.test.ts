@@ -227,3 +227,48 @@ test('PNOG acronym search preserves one care matter in both languages',()=>{
   assert.equal(progress.progress.length,2);
  }
 });
+
+test('French courier agreement, approval and correction remain one searchable matter',()=>{
+ const index=new Map([...data.policies,...data.intake.records].map(r=>[r.id,searchText(r,localization)]));
+ for(const query of ['TRST2624412S','TRST2625149S','平台独立配送员最低活动收入','Independent platform couriers']){
+  const filters={...base,country:'FR',view:'intake' as const,query};
+  const result=selectListing(data.policies,data.intake.records,filters,p=>index.get(p.id)??'','2026-10-11',topics);
+  assert.equal(result.count,1,query);
+  assert.equal(result.progressGroups[0]?.id,'topic:fr-platform-courier-income-2026');
+  const all=selectListing(data.policies,data.intake.records,{...filters,view:'all'},p=>index.get(p.id)??'','2026-10-11',topics);
+  assert.equal(all.cards.filter(c=>c.policy.id==='fr-platform-courier-income-2026').length,1);
+ }
+ const group=topics.find(t=>t.id==='fr-platform-courier-income-2026')!;
+ assert.equal(group.recordIds.length,4);
+ assert(group.recordIds.includes('fr-20261011-courier-notice-corrected'));
+ assert(!group.recordIds.includes('fr-sp-a19075'));
+ assert(!group.recordIds.includes('fr-20261011-gas-benchmark'));
+});
+
+test('French gas notice and CRE benchmark count once and stay separate from courier income',()=>{
+ for(const query of ['CRE PRVG octobre 2026','2026年10月住宅燃气参考价','October 2026 residential gas benchmark']){
+  const result=selectListing(data.policies,data.intake.records,{...base,country:'FR',query},undefined,'2026-10-11',topics);
+  assert.equal(result.count,1,query);
+  assert.equal(result.progressGroups[0]?.id,'topic:fr-gas-benchmark-october-2026');
+ }
+ const group=topics.find(t=>t.id==='fr-gas-benchmark-october-2026')!;
+ assert.equal(group.recordIds.length,2);
+ assert.deepEqual(group.policyIds,['fr-gas-benchmark-october-2026']);
+});
+
+test('Mayotte port orders share their reviewed explanation without absorbing fuel excise',()=>{
+ const group=topics.find(t=>t.id==='fr-mayotte-port-tariffs-2026')!;
+ assert.deepEqual(new Set(group.recordIds),new Set(['fr-mayotte-port-order-431-2026','fr-mayotte-port-order-432-2026']));
+ assert.deepEqual(group.policyIds,['fr-06-port-tariff']);
+ assert(!group.recordIds.includes('fr-mayotte-energy-excise-reduction-2026-notice'));
+ const index=new Map([...data.policies,...data.intake.records].map(r=>[r.id,searchText(r,localization)]));
+ for(const query of ['432/DAJAC/DRM/2026','隆戈尼港经营及收费安排','Longoni port operating and tariff arrangements']){
+  const filters={...base,country:'FR',region:'FR-976',query};
+  const progress=selectListing(data.policies,data.intake.records,filters,p=>index.get(p.id)??'','2026-10-11',topics);
+  assert.equal(progress.count,1,query);
+  assert.equal(progress.progressGroups[0]?.id,'topic:'+group.id);
+  const all=selectListing(data.policies,data.intake.records,{...filters,view:'all'},p=>index.get(p.id)??'','2026-10-11',topics);
+  assert.equal(all.cards.filter(c=>c.policy.id==='fr-06-port-tariff').length,1);
+  assert(!all.raw.some(r=>group.recordIds.includes(r.id)));
+ }
+});

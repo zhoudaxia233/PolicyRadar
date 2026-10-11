@@ -1,0 +1,1006 @@
+{
+  "checkedAt": "2026-10-11T10:21:41.069Z",
+  "scope": "FR and all 18 registered regional areas",
+  "channels": 59,
+  "incompleteChannels": 59,
+  "gaps": [
+    {
+      "sourceUrl": "https://www.auvergnerhonealpes.fr/",
+      "region": "FR-ARA",
+      "title": "奥弗涅-罗讷-阿尔卑斯：地方政府公告",
+      "windowStart": "2026-10-04",
+      "windowEnd": "2026-10-10",
+      "missingDays": [
+        "2026-10-04",
+        "2026-10-05",
+        "2026-10-06",
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://edelib.auvergnerhonealpes.fr/webdelibplus/jsp/seances.jsp?role=usager",
+      "region": "FR-ARA",
+      "title": "奥弗涅-罗讷-阿尔卑斯：地方决议及行政文件",
+      "windowStart": "2026-10-04",
+      "windowEnd": "2026-10-10",
+      "missingDays": [
+        "2026-10-04",
+        "2026-10-05",
+        "2026-10-06",
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.prefectures-regions.gouv.fr/auvergne-rhone-alpes/",
+      "region": "FR-ARA",
+      "title": "奥弗涅-罗讷-阿尔卑斯：国家驻区机构入口",
+      "windowStart": "2026-10-04",
+      "windowEnd": "2026-10-10",
+      "missingDays": [
+        "2026-10-04",
+        "2026-10-05",
+        "2026-10-06",
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10"
+      ],
+      "latestScan": "blocked"
+    },
+    {
+      "sourceUrl": "https://www.bourgognefranchecomte.fr/",
+      "region": "FR-BFC",
+      "title": "勃艮第-弗朗什-孔泰：地方政府公告",
+      "windowStart": "2026-10-04",
+      "windowEnd": "2026-10-10",
+      "missingDays": [
+        "2026-10-04",
+        "2026-10-05",
+        "2026-10-06",
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://abcdelib.bourgognefranchecomte.fr/",
+      "region": "FR-BFC",
+      "title": "勃艮第-弗朗什-孔泰：地方决议及行政文件",
+      "windowStart": "2026-10-04",
+      "windowEnd": "2026-10-10",
+      "missingDays": [
+        "2026-10-04",
+        "2026-10-05",
+        "2026-10-06",
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.prefectures-regions.gouv.fr/bourgogne-franche-comte/",
+      "region": "FR-BFC",
+      "title": "勃艮第-弗朗什-孔泰：国家驻区机构入口",
+      "windowStart": "2026-10-04",
+      "windowEnd": "2026-10-10",
+      "missingDays": [
+        "2026-10-04",
+        "2026-10-05",
+        "2026-10-06",
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10"
+      ],
+      "latestScan": "blocked"
+    },
+    {
+      "sourceUrl": "https://www.bretagne.bzh/",
+      "region": "FR-BRE",
+      "title": "布列塔尼：地方政府公告",
+      "windowStart": "2026-10-04",
+      "windowEnd": "2026-10-10",
+      "missingDays": [
+        "2026-10-04",
+        "2026-10-05",
+        "2026-10-06",
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10"
+      ],
+      "latestScan": "blocked"
+    },
+    {
+      "sourceUrl": "https://www.bretagne.bzh/region/decisions/",
+      "region": "FR-BRE",
+      "title": "布列塔尼：地方决议及行政文件",
+      "windowStart": "2026-10-04",
+      "windowEnd": "2026-10-10",
+      "missingDays": [
+        "2026-10-04",
+        "2026-10-05",
+        "2026-10-06",
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10"
+      ],
+      "latestScan": "blocked"
+    },
+    {
+      "sourceUrl": "https://www.prefectures-regions.gouv.fr/bretagne/",
+      "region": "FR-BRE",
+      "title": "布列塔尼：国家驻区机构入口",
+      "windowStart": "2026-10-04",
+      "windowEnd": "2026-10-10",
+      "missingDays": [
+        "2026-10-04",
+        "2026-10-05",
+        "2026-10-06",
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10"
+      ],
+      "latestScan": "blocked"
+    },
+    {
+      "sourceUrl": "https://www.centre-valdeloire.fr/",
+      "region": "FR-CVL",
+      "title": "中央-卢瓦尔河谷：地方政府公告",
+      "windowStart": "2026-10-04",
+      "windowEnd": "2026-10-10",
+      "missingDays": [
+        "2026-10-04",
+        "2026-10-05",
+        "2026-10-06",
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10"
+      ],
+      "latestScan": "blocked"
+    },
+    {
+      "sourceUrl": "https://actes.centre-valdeloire.fr/webdelibplus/jsp/seances.jsp?role=usager",
+      "region": "FR-CVL",
+      "title": "中央-卢瓦尔河谷：地方决议及行政文件",
+      "windowStart": "2026-10-04",
+      "windowEnd": "2026-10-10",
+      "missingDays": [
+        "2026-10-04",
+        "2026-10-05",
+        "2026-10-06",
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.prefectures-regions.gouv.fr/centre-val-de-loire/",
+      "region": "FR-CVL",
+      "title": "中央-卢瓦尔河谷：国家驻区机构入口",
+      "windowStart": "2026-10-04",
+      "windowEnd": "2026-10-10",
+      "missingDays": [
+        "2026-10-04",
+        "2026-10-05",
+        "2026-10-06",
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10"
+      ],
+      "latestScan": "blocked"
+    },
+    {
+      "sourceUrl": "https://www.isula.corsica/",
+      "region": "FR-20R",
+      "title": "科西嘉：地方政府公告",
+      "windowStart": "2026-10-04",
+      "windowEnd": "2026-10-10",
+      "missingDays": [
+        "2026-10-04",
+        "2026-10-05",
+        "2026-10-06",
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.isula.corsica/Recueils-des-actes-administratifs_r100.html",
+      "region": "FR-20R",
+      "title": "科西嘉：地方决议及行政文件",
+      "windowStart": "2026-10-04",
+      "windowEnd": "2026-10-10",
+      "missingDays": [
+        "2026-10-04",
+        "2026-10-05",
+        "2026-10-06",
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.prefectures-regions.gouv.fr/corse/",
+      "region": "FR-20R",
+      "title": "科西嘉：国家驻区机构入口",
+      "windowStart": "2026-10-04",
+      "windowEnd": "2026-10-10",
+      "missingDays": [
+        "2026-10-04",
+        "2026-10-05",
+        "2026-10-06",
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10"
+      ],
+      "latestScan": "blocked"
+    },
+    {
+      "sourceUrl": "https://www.grandest.fr/",
+      "region": "FR-GES",
+      "title": "大东部：地方政府公告",
+      "windowStart": "2026-10-04",
+      "windowEnd": "2026-10-10",
+      "missingDays": [
+        "2026-10-04",
+        "2026-10-05",
+        "2026-10-06",
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.grandest.fr/le-conseil-regional/deliberations/",
+      "region": "FR-GES",
+      "title": "大东部：地方决议及行政文件",
+      "windowStart": "2026-10-04",
+      "windowEnd": "2026-10-10",
+      "missingDays": [
+        "2026-10-04",
+        "2026-10-05",
+        "2026-10-06",
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.prefectures-regions.gouv.fr/grand-est/",
+      "region": "FR-GES",
+      "title": "大东部：国家驻区机构入口",
+      "windowStart": "2026-10-04",
+      "windowEnd": "2026-10-10",
+      "missingDays": [
+        "2026-10-04",
+        "2026-10-05",
+        "2026-10-06",
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10"
+      ],
+      "latestScan": "blocked"
+    },
+    {
+      "sourceUrl": "https://www.hautsdefrance.fr/",
+      "region": "FR-HDF",
+      "title": "上法兰西：地方政府公告",
+      "windowStart": "2026-10-04",
+      "windowEnd": "2026-10-10",
+      "missingDays": [
+        "2026-10-04",
+        "2026-10-05",
+        "2026-10-06",
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.hautsdefrance.fr/conseil-regional-hdf/les-actes-institutionnels/",
+      "region": "FR-HDF",
+      "title": "上法兰西：地方决议及行政文件",
+      "windowStart": "2026-10-04",
+      "windowEnd": "2026-10-10",
+      "missingDays": [
+        "2026-10-04",
+        "2026-10-05",
+        "2026-10-06",
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.prefectures-regions.gouv.fr/hauts-de-france/",
+      "region": "FR-HDF",
+      "title": "上法兰西：国家驻区机构入口",
+      "windowStart": "2026-10-04",
+      "windowEnd": "2026-10-10",
+      "missingDays": [
+        "2026-10-04",
+        "2026-10-05",
+        "2026-10-06",
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10"
+      ],
+      "latestScan": "blocked"
+    },
+    {
+      "sourceUrl": "https://www.iledefrance.fr/",
+      "region": "FR-IDF",
+      "title": "法兰西岛：地方政府公告",
+      "windowStart": "2026-10-04",
+      "windowEnd": "2026-10-10",
+      "missingDays": [
+        "2026-10-04",
+        "2026-10-05",
+        "2026-10-06",
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.data.gouv.fr/datasets/actes-administratifs-de-la-region-ile-de-france",
+      "region": "FR-IDF",
+      "title": "法兰西岛：地方决议及行政文件",
+      "windowStart": "2026-10-04",
+      "windowEnd": "2026-10-10",
+      "missingDays": [
+        "2026-10-04",
+        "2026-10-05",
+        "2026-10-06",
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.prefectures-regions.gouv.fr/ile-de-france/",
+      "region": "FR-IDF",
+      "title": "法兰西岛：国家驻区机构入口",
+      "windowStart": "2026-10-04",
+      "windowEnd": "2026-10-10",
+      "missingDays": [
+        "2026-10-04",
+        "2026-10-05",
+        "2026-10-06",
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10"
+      ],
+      "latestScan": "blocked"
+    },
+    {
+      "sourceUrl": "https://www.normandie.fr/",
+      "region": "FR-NOR",
+      "title": "诺曼底：地方政府公告",
+      "windowStart": "2026-10-04",
+      "windowEnd": "2026-10-10",
+      "missingDays": [
+        "2026-10-04",
+        "2026-10-05",
+        "2026-10-06",
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10"
+      ],
+      "latestScan": "blocked"
+    },
+    {
+      "sourceUrl": "https://www.normandie.fr/deliberations-normandie-et-ex-haute-normandie",
+      "region": "FR-NOR",
+      "title": "诺曼底：地方决议及行政文件",
+      "windowStart": "2026-10-04",
+      "windowEnd": "2026-10-10",
+      "missingDays": [
+        "2026-10-04",
+        "2026-10-05",
+        "2026-10-06",
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10"
+      ],
+      "latestScan": "blocked"
+    },
+    {
+      "sourceUrl": "https://www.prefectures-regions.gouv.fr/normandie/",
+      "region": "FR-NOR",
+      "title": "诺曼底：国家驻区机构入口",
+      "windowStart": "2026-10-04",
+      "windowEnd": "2026-10-10",
+      "missingDays": [
+        "2026-10-04",
+        "2026-10-05",
+        "2026-10-06",
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10"
+      ],
+      "latestScan": "blocked"
+    },
+    {
+      "sourceUrl": "https://www.nouvelle-aquitaine.fr/",
+      "region": "FR-NAQ",
+      "title": "新阿基坦：地方政府公告",
+      "windowStart": "2026-10-04",
+      "windowEnd": "2026-10-10",
+      "missingDays": [
+        "2026-10-04",
+        "2026-10-05",
+        "2026-10-06",
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.nouvelle-aquitaine.fr/linstitution/le-conseil-regional/decisions-de-lassemblee-et-arretes-du-president",
+      "region": "FR-NAQ",
+      "title": "新阿基坦：地方决议及行政文件",
+      "windowStart": "2026-10-04",
+      "windowEnd": "2026-10-10",
+      "missingDays": [
+        "2026-10-04",
+        "2026-10-05",
+        "2026-10-06",
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.prefectures-regions.gouv.fr/nouvelle-aquitaine/",
+      "region": "FR-NAQ",
+      "title": "新阿基坦：国家驻区机构入口",
+      "windowStart": "2026-10-04",
+      "windowEnd": "2026-10-10",
+      "missingDays": [
+        "2026-10-04",
+        "2026-10-05",
+        "2026-10-06",
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10"
+      ],
+      "latestScan": "blocked"
+    },
+    {
+      "sourceUrl": "https://www.laregion.fr/",
+      "region": "FR-OCC",
+      "title": "奥克西塔尼：地方政府公告",
+      "windowStart": "2026-10-04",
+      "windowEnd": "2026-10-10",
+      "missingDays": [
+        "2026-10-04",
+        "2026-10-05",
+        "2026-10-06",
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.laregion.fr/Portail-de-publication-des-Deliberations-et-autres-actes-administratifs-de-la-Region",
+      "region": "FR-OCC",
+      "title": "奥克西塔尼：地方决议及行政文件",
+      "windowStart": "2026-10-04",
+      "windowEnd": "2026-10-10",
+      "missingDays": [
+        "2026-10-04",
+        "2026-10-05",
+        "2026-10-06",
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.prefectures-regions.gouv.fr/occitanie/",
+      "region": "FR-OCC",
+      "title": "奥克西塔尼：国家驻区机构入口",
+      "windowStart": "2026-10-04",
+      "windowEnd": "2026-10-10",
+      "missingDays": [
+        "2026-10-04",
+        "2026-10-05",
+        "2026-10-06",
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10"
+      ],
+      "latestScan": "blocked"
+    },
+    {
+      "sourceUrl": "https://www.paysdelaloire.fr/",
+      "region": "FR-PDL",
+      "title": "卢瓦尔河地区：地方政府公告",
+      "windowStart": "2026-10-04",
+      "windowEnd": "2026-10-10",
+      "missingDays": [
+        "2026-10-04",
+        "2026-10-05",
+        "2026-10-06",
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.paysdelaloire.fr/mon-conseil-regional/linstitution/les-actes-administratifs",
+      "region": "FR-PDL",
+      "title": "卢瓦尔河地区：地方决议及行政文件",
+      "windowStart": "2026-10-04",
+      "windowEnd": "2026-10-10",
+      "missingDays": [
+        "2026-10-04",
+        "2026-10-05",
+        "2026-10-06",
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.prefectures-regions.gouv.fr/pays-de-la-loire/",
+      "region": "FR-PDL",
+      "title": "卢瓦尔河地区：国家驻区机构入口",
+      "windowStart": "2026-10-04",
+      "windowEnd": "2026-10-10",
+      "missingDays": [
+        "2026-10-04",
+        "2026-10-05",
+        "2026-10-06",
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10"
+      ],
+      "latestScan": "blocked"
+    },
+    {
+      "sourceUrl": "https://www.maregionsud.fr/",
+      "region": "FR-PAC",
+      "title": "普罗旺斯-阿尔卑斯-蓝色海岸：地方政府公告",
+      "windowStart": "2026-10-04",
+      "windowEnd": "2026-10-10",
+      "missingDays": [
+        "2026-10-04",
+        "2026-10-05",
+        "2026-10-06",
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://actes.maregionsud.fr/actes/",
+      "region": "FR-PAC",
+      "title": "普罗旺斯-阿尔卑斯-蓝色海岸：地方决议及行政文件",
+      "windowStart": "2026-10-04",
+      "windowEnd": "2026-10-10",
+      "missingDays": [
+        "2026-10-04",
+        "2026-10-05",
+        "2026-10-06",
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.prefectures-regions.gouv.fr/provence-alpes-cote-dazur/",
+      "region": "FR-PAC",
+      "title": "普罗旺斯-阿尔卑斯-蓝色海岸：国家驻区机构入口",
+      "windowStart": "2026-10-04",
+      "windowEnd": "2026-10-10",
+      "missingDays": [
+        "2026-10-04",
+        "2026-10-05",
+        "2026-10-06",
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10"
+      ],
+      "latestScan": "blocked"
+    },
+    {
+      "sourceUrl": "https://www.regionguadeloupe.fr/",
+      "region": "FR-971",
+      "title": "瓜德罗普：地方政府公告",
+      "windowStart": "2026-10-04",
+      "windowEnd": "2026-10-10",
+      "missingDays": [
+        "2026-10-04",
+        "2026-10-05",
+        "2026-10-06",
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10"
+      ],
+      "latestScan": "blocked"
+    },
+    {
+      "sourceUrl": "https://www.regionguadeloupe.fr/Publication-des-actes-administratifs",
+      "region": "FR-971",
+      "title": "瓜德罗普：地方决议及行政文件",
+      "windowStart": "2026-10-04",
+      "windowEnd": "2026-10-10",
+      "missingDays": [
+        "2026-10-04",
+        "2026-10-05",
+        "2026-10-06",
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10"
+      ],
+      "latestScan": "blocked"
+    },
+    {
+      "sourceUrl": "https://www.guadeloupe.gouv.fr/",
+      "region": "FR-971",
+      "title": "瓜德罗普：国家驻区机构入口",
+      "windowStart": "2026-10-04",
+      "windowEnd": "2026-10-10",
+      "missingDays": [
+        "2026-10-04",
+        "2026-10-05",
+        "2026-10-06",
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10"
+      ],
+      "latestScan": "blocked"
+    },
+    {
+      "sourceUrl": "https://www.collectivitedemartinique.mq/",
+      "region": "FR-972",
+      "title": "马提尼克：地方政府公告",
+      "windowStart": "2026-10-04",
+      "windowEnd": "2026-10-10",
+      "missingDays": [
+        "2026-10-04",
+        "2026-10-05",
+        "2026-10-06",
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.collectivitedemartinique.mq/actes-adminitratifs/",
+      "region": "FR-972",
+      "title": "马提尼克：地方决议及行政文件",
+      "windowStart": "2026-10-04",
+      "windowEnd": "2026-10-10",
+      "missingDays": [
+        "2026-10-04",
+        "2026-10-05",
+        "2026-10-06",
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.martinique.gouv.fr/",
+      "region": "FR-972",
+      "title": "马提尼克：国家驻区机构入口",
+      "windowStart": "2026-10-04",
+      "windowEnd": "2026-10-10",
+      "missingDays": [
+        "2026-10-04",
+        "2026-10-05",
+        "2026-10-06",
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10"
+      ],
+      "latestScan": "blocked"
+    },
+    {
+      "sourceUrl": "https://www.ctguyane.fr/",
+      "region": "FR-973",
+      "title": "法属圭亚那：地方政府公告",
+      "windowStart": "2026-10-04",
+      "windowEnd": "2026-10-10",
+      "missingDays": [
+        "2026-10-04",
+        "2026-10-05",
+        "2026-10-06",
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://webdelib.ctguyane.fr/webdelibplus/jsp/seances.jsp?role=usager",
+      "region": "FR-973",
+      "title": "法属圭亚那：地方决议及行政文件",
+      "windowStart": "2026-10-04",
+      "windowEnd": "2026-10-10",
+      "missingDays": [
+        "2026-10-04",
+        "2026-10-05",
+        "2026-10-06",
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.guyane.gouv.fr/",
+      "region": "FR-973",
+      "title": "法属圭亚那：国家驻区机构入口",
+      "windowStart": "2026-10-04",
+      "windowEnd": "2026-10-10",
+      "missingDays": [
+        "2026-10-04",
+        "2026-10-05",
+        "2026-10-06",
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10"
+      ],
+      "latestScan": "blocked"
+    },
+    {
+      "sourceUrl": "https://regionreunion.com/",
+      "region": "FR-974",
+      "title": "留尼汪：地方政府公告",
+      "windowStart": "2026-10-04",
+      "windowEnd": "2026-10-10",
+      "missingDays": [
+        "2026-10-04",
+        "2026-10-05",
+        "2026-10-06",
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10"
+      ],
+      "latestScan": "blocked"
+    },
+    {
+      "sourceUrl": "https://regionreunion.com/la-region/les-actes-administratifs/article/commission-permanente-assemblee-pleniere",
+      "region": "FR-974",
+      "title": "留尼汪：地方决议及行政文件",
+      "windowStart": "2026-10-04",
+      "windowEnd": "2026-10-10",
+      "missingDays": [
+        "2026-10-04",
+        "2026-10-05",
+        "2026-10-06",
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10"
+      ],
+      "latestScan": "blocked"
+    },
+    {
+      "sourceUrl": "https://www.reunion.gouv.fr/",
+      "region": "FR-974",
+      "title": "留尼汪：国家驻区机构入口",
+      "windowStart": "2026-10-04",
+      "windowEnd": "2026-10-10",
+      "missingDays": [
+        "2026-10-04",
+        "2026-10-05",
+        "2026-10-06",
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10"
+      ],
+      "latestScan": "blocked"
+    },
+    {
+      "sourceUrl": "https://www.mayotte.fr/",
+      "region": "FR-976",
+      "title": "马约特：地方政府公告",
+      "windowStart": "2026-10-04",
+      "windowEnd": "2026-10-10",
+      "missingDays": [
+        "2026-10-04",
+        "2026-10-05",
+        "2026-10-06",
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.mayotte.fr/le-departement/transparence-administrative/publicite-des-actes",
+      "region": "FR-976",
+      "title": "马约特：地方决议及行政文件",
+      "windowStart": "2026-10-04",
+      "windowEnd": "2026-10-10",
+      "missingDays": [
+        "2026-10-04",
+        "2026-10-05",
+        "2026-10-06",
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.mayotte.gouv.fr/",
+      "region": "FR-976",
+      "title": "马约特：国家驻区机构入口",
+      "windowStart": "2026-10-04",
+      "windowEnd": "2026-10-10",
+      "missingDays": [
+        "2026-10-04",
+        "2026-10-05",
+        "2026-10-06",
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10"
+      ],
+      "latestScan": "blocked"
+    },
+    {
+      "sourceUrl": "https://www.legifrance.gouv.fr/jorf/jo",
+      "region": "FR",
+      "title": "法国官方公报",
+      "windowStart": "2026-10-04",
+      "windowEnd": "2026-10-10",
+      "missingDays": [
+        "2026-10-04",
+        "2026-10-05",
+        "2026-10-06",
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10"
+      ],
+      "latestScan": "blocked"
+    },
+    {
+      "sourceUrl": "https://www.service-public.gouv.fr/particuliers/actualites",
+      "region": "FR",
+      "title": "法国公共服务：个人政策动态",
+      "windowStart": "2026-10-04",
+      "windowEnd": "2026-10-10",
+      "missingDays": [
+        "2026-10-04",
+        "2026-10-05",
+        "2026-10-06",
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://entreprendre.service-public.gouv.fr/actualites",
+      "region": "FR",
+      "title": "法国公共服务：企业政策动态",
+      "windowStart": "2026-10-04",
+      "windowEnd": "2026-10-10",
+      "missingDays": [
+        "2026-10-04",
+        "2026-10-05",
+        "2026-10-06",
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.assemblee-nationale.fr/dyn/17/dossiers",
+      "region": "FR",
+      "title": "法国国民议会立法进程",
+      "windowStart": "2026-10-04",
+      "windowEnd": "2026-10-10",
+      "missingDays": [
+        "2026-10-09",
+        "2026-10-10"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.senat.fr/dossiers-legislatifs/lois-promulguees.html",
+      "region": "FR",
+      "title": "法国参议院已公布法律",
+      "windowStart": "2026-10-04",
+      "windowEnd": "2026-10-10",
+      "missingDays": [
+        "2026-10-04",
+        "2026-10-05",
+        "2026-10-06",
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10"
+      ],
+      "latestScan": "partial"
+    }
+  ]
+}

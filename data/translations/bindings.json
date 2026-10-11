@@ -263,8 +263,8 @@
       ]
     },
     "fr-32-carpool-strategy": {
-      "version": 1,
-      "hash": "e8ce6d22595a8b4d2bb675aaedb55c7bdc676fa097c649df9afcd1e2fa99e3a6",
+      "version": 2,
+      "hash": "fa93a2d69c3322b53134ac64895afbc2bc5db2dc3a23a65f761659827c467aa0",
       "originalLanguage": "fr",
       "verbatim": [
         "Hauts-de-France"
@@ -327,11 +327,12 @@
       ]
     },
     "fr-06-port-tariff": {
-      "version": 1,
-      "hash": "698838eee12ff7d13193b82906fc13f11baa47a15baab8f9105d8a1ecf54ff82",
+      "version": 2,
+      "hash": "d8b5aeb813190b7cd202e29bfbc592f33f22923b5dec641b427068c05e9e7d2e",
       "originalLanguage": "fr",
       "verbatim": [
-        "Mayotte"
+        "Mayotte",
+        "Département-Région de Mayotte"
       ]
     },
     "nl-national-minimum-wage": {
@@ -2409,8 +2410,8 @@
       "verbatim": []
     },
     "fr-finance-bill-2027": {
-      "hash": "f1b9144f41bac74963a683253a08ea1e785d99ad6a57d3b1b4002a132c296698",
-      "version": 1,
+      "hash": "d304a8678d3a9683d3a2bf8fae6d4aef5d11319ea4244fb89d33824341623c22",
+      "version": 2,
       "originalLanguage": "fr",
       "verbatim": []
     },
@@ -4139,6 +4140,1249 @@
         "Deutscher Bundestag",
         "Bundesministerium der Justiz / Bundesamt für Justiz",
         "Bundesministerium für Gesundheit"
+      ]
+    },
+    "fr-platform-courier-income-2026": {
+      "hash": "587e88994ed1566021ad4f85c8484a8c439f791935386ad7e43b6c53eb45db90",
+      "version": 1,
+      "originalLanguage": "fr",
+      "verbatim": [
+        "ARPE",
+        "Service Public / DILA"
+      ]
+    },
+    "fr-gas-benchmark-october-2026": {
+      "hash": "f34ca8d99828beb1c0c732e90eec042ffb3e8f16984f71d779296209e0005c4a",
+      "version": 1,
+      "originalLanguage": "fr",
+      "verbatim": [
+        "Commission de régulation de l’énergie",
+        "Service Public / DILA"
+      ]
+    },
+    "fr-rental-models-october-2026": {
+      "hash": "ffc2ec49968a83b818112d3cc034a6a29c437d99578f2b69de4a64d1ea04e63e",
+      "version": 1,
+      "originalLanguage": "fr",
+      "verbatim": [
+        "Service Public / DILA"
+      ]
+    },
+    "fr-housing-aid-indexation-2026": {
+      "hash": "f6c8562404ab6b802a39671006bc177f108ddcf61333a3112819034ff2d0c489",
+      "version": 1,
+      "originalLanguage": "fr",
+      "verbatim": [
+        "Service Public / DILA"
+      ]
+    },
+    "fr-winter-eviction-pause-2026": {
+      "hash": "ec0e31248d104e37ca432f46d1d433fc0da000c23fe09ae1d562cc2ed4452abf",
+      "version": 1,
+      "originalLanguage": "fr",
+      "verbatim": [
+        "Service Public / DILA",
+        "ANIL",
+        "Médiateur national de l’énergie"
+      ]
+    },
+    "fr-property-tax-deadlines-2026": {
+      "hash": "2c6b3561e6ca6d877911deacc0605a1363102e286a5a06b98209161510ed55e2",
+      "version": 1,
+      "originalLanguage": "fr",
+      "verbatim": [
+        "Service Public / DILA",
+        "Direction générale des Finances publiques"
+      ]
+    },
+    "fr-disability-card-transition-2026": {
+      "hash": "3abc3f80b023502bb54ef8e53f80964f3241047f8442b1aa3f3b9f4c979f4aab",
+      "version": 1,
+      "originalLanguage": "fr",
+      "verbatim": [
+        "Service Public / DILA",
+        "Mon Parcours Handicap"
+      ]
+    },
+    "fr-vehicle-impound-fees-2026": {
+      "hash": "13dacb5ec7de4d88daf41c27a6eb25c018b26da2065e184ab5915faa79d20224",
+      "version": 1,
+      "originalLanguage": "fr",
+      "verbatim": [
+        "Service Public / DILA"
+      ]
+    },
+    "fr-urssaf-card-payments-2026": {
+      "hash": "c1c4740d3a063baa5b20d61ff48d8c132c978aacf00913d107cf5564f3e9734a",
+      "version": 1,
+      "originalLanguage": "fr",
+      "verbatim": [
+        "Service Public / DILA"
+      ]
+    },
+    "fr-funeral-information-notice-2026": {
+      "hash": "c06057405c4dd287de3a72f7961100f248b6e04b31e09c5ed5fb04be29092706",
+      "version": 1,
+      "originalLanguage": "fr",
+      "verbatim": [
+        "Service Public / DILA"
+      ]
+    },
+    "fr-phone-driving-suspension-2026": {
+      "hash": "80afca6fc1c1a12c089954090c8688878ad71241c3db669d644be66957c1b5cb",
+      "version": 1,
+      "originalLanguage": "fr",
+      "verbatim": [
+        "Service Public / DILA",
+        "Sécurité routière"
+      ]
+    },
+    "fr-luxembourg-municipal-compensation-2026": {
+      "hash": "2151598f3ed102e6a47902b9d30075f0f275b971117e8792bf88912b74c2488d",
+      "version": 1,
+      "originalLanguage": "fr",
+      "verbatim": [
+        "Assemblée nationale",
+        "DGFiP / BOFiP"
+      ]
+    },
+    "fr-iroise-maritime-unesco-proposal-2026": {
+      "hash": "6ad555c684b256ebfab87013e1a0a0e05143f717f1982f7cc384b62b85b9acd7",
+      "version": 1,
+      "originalLanguage": "fr",
+      "verbatim": [
+        "Assemblée nationale"
+      ]
+    },
+    "fr-ofb-overseas-deployment-proposal-2026": {
+      "hash": "e83a8fd5d499ceabdb6443f252dade0c181e9c47ffdcfeaa40a0b27ad7490542",
+      "version": 1,
+      "originalLanguage": "fr",
+      "verbatim": [
+        "Assemblée nationale",
+        "Office français de la biodiversité"
+      ]
+    },
+    "fr-fonds-vert-cooling-proposal-2026": {
+      "hash": "d73f5f035fb0afb4fb3c54afe2db52ff13a11c6e73cd44b7c395e82dce035b9d",
+      "version": 1,
+      "originalLanguage": "fr",
+      "verbatim": [
+        "Assemblée nationale",
+        "Ministères de la Transition écologique"
+      ]
+    },
+    "fr-craft-classification-nafa-2027": {
+      "hash": "3ea7036c7505d31487c79856d818c946e58d2254d77b87ec83a0bafb97299aa4",
+      "version": 1,
+      "originalLanguage": "fr",
+      "verbatim": [
+        "Service Public / DILA",
+        "Direction générale des Entreprises"
+      ]
+    },
+    "fr-autumn-vaccination-access-2026": {
+      "hash": "39ad4f9c4b5551d63820afb9030d8f8fc408f69cb80cc074a385a36abe9b3968",
+      "version": 1,
+      "originalLanguage": "fr",
+      "verbatim": [
+        "Service Public / DILA",
+        "Assurance Maladie"
+      ]
+    },
+    "fr-usury-ceilings-q4-2026": {
+      "hash": "1a95027d586c0d7d03207ef4c42eb02ad1c63cdd5da798a88547e391d4ad672d",
+      "version": 1,
+      "originalLanguage": "fr",
+      "verbatim": [
+        "Service Public / DILA"
+      ]
+    },
+    "fr-deceased-spouse-data-rights-2026": {
+      "hash": "fbcf2dc2e8cf251e33414a2745e4353512e6ea08a50d0f8a5cebccdde0d2532d",
+      "version": 1,
+      "originalLanguage": "fr",
+      "verbatim": [
+        "Service Public / DILA",
+        "CNIL"
+      ]
+    },
+    "fr-wildfire-partial-activity-aid-2026": {
+      "hash": "391f3feaad95c88c0301e5ee1e5922e1889d5df29ccb3bd0c40210cd187ac032",
+      "version": 1,
+      "originalLanguage": "fr",
+      "verbatim": [
+        "Service Public / DILA"
+      ]
+    },
+    "fr-business-lease-indices-q2-2026": {
+      "hash": "b380cd124257cc398ac881312193c3dbbeea217deef8da8350a0d8c93c54fc2a",
+      "version": 1,
+      "originalLanguage": "fr",
+      "verbatim": [
+        "Service Public / DILA",
+        "INSEE"
+      ]
+    },
+    "fr-minors-addictive-design-resolution-2026": {
+      "hash": "19a900ee5b271e02bf6ecfd9b6fba1be00505131e993f33c0f24e785ba025136",
+      "version": 1,
+      "originalLanguage": "fr",
+      "verbatim": [
+        "Assemblée nationale",
+        "European Commission",
+        "Conseil constitutionnel",
+        "Sénat"
+      ]
+    },
+    "fr-agriculture-de-minimis-resolution-2026": {
+      "hash": "3e6c2b4381b798dc24100e413b1a2f061cd2b024554c2018978b835276a31a81",
+      "version": 1,
+      "originalLanguage": "fr",
+      "verbatim": [
+        "Assemblée nationale",
+        "DGFiP / BOFiP",
+        "Service Public / DILA"
+      ]
+    },
+    "fr-drug-harm-reduction-resolution-2026": {
+      "hash": "3715517103f1c57215c0c08c36eb1c385300080b145718dfbc74aa11e0f9f80c",
+      "version": 1,
+      "originalLanguage": "fr",
+      "verbatim": [
+        "Assemblée nationale",
+        "Assemblée nationale / Ministère de la Santé",
+        "Journal officiel / OFDT"
+      ]
+    },
+    "fr-pesticide-export-eu-resolution-2026": {
+      "hash": "7a739454d953ea4a8e6793493278c5cc0c675abb2619959e7d119601a9d12f1a",
+      "version": 1,
+      "originalLanguage": "fr",
+      "verbatim": [
+        "Assemblée nationale",
+        "Ministère de la Transition écologique"
+      ]
+    },
+    "fr-budget-accountability-constitutional-proposal-2026": {
+      "hash": "28e94225f129c58315968bbb3356884cbb4840dc438751368b20ac3af51bed1c",
+      "version": 1,
+      "originalLanguage": "fr",
+      "verbatim": [
+        "Assemblée nationale",
+        "Conseil constitutionnel"
+      ]
+    },
+    "fr-child-rights-constitutional-proposal-2026": {
+      "hash": "6b142b48ab13d1422bd5576845812915f6e66a1c12259b9b18b3d2b73250a93b",
+      "version": 1,
+      "originalLanguage": "fr",
+      "verbatim": [
+        "Assemblée nationale",
+        "Conseil constitutionnel"
+      ]
+    },
+    "fr-ministers-local-office-constitutional-proposal-2026": {
+      "hash": "0243a89a9fec18701ef83627a8b3d16a6ef88f5bc380445c6b48981acf7811fa",
+      "version": 1,
+      "originalLanguage": "fr",
+      "verbatim": [
+        "Assemblée nationale",
+        "Conseil constitutionnel"
+      ]
+    },
+    "fr-regional-languages-constitutional-proposal-2026": {
+      "hash": "563c2450e3c1c47855bf4493daa3b10e37884408993efc2ff28d22a53bb5e702",
+      "version": 1,
+      "originalLanguage": "fr",
+      "verbatim": [
+        "Assemblée nationale",
+        "Conseil constitutionnel"
+      ]
+    },
+    "fr-government-size-constitutional-proposal-2026": {
+      "hash": "1334d15f96438bc24694a745ed08c2479b301e54dfc4ae33820f1018237fa7dc",
+      "version": 1,
+      "originalLanguage": "fr",
+      "verbatim": [
+        "Assemblée nationale",
+        "Conseil constitutionnel"
+      ]
+    },
+    "fr-protected-adults-eligibility-proposal-2026": {
+      "hash": "67d413d89f4dd1efb56485e6d773241ae8ec9e80434aeb140a6040537474c41e",
+      "version": 1,
+      "originalLanguage": "fr",
+      "verbatim": [
+        "Assemblée nationale",
+        "Conseil constitutionnel",
+        "Service Public / DILA"
+      ]
+    },
+    "fr-transport-identity-proposal-2026": {
+      "hash": "3cd7ecea1ba7d69f5a3c12ea6cba4d0f18db852c59bb897758d868a168d92e2f",
+      "version": 1,
+      "originalLanguage": "fr",
+      "verbatim": [
+        "Assemblée nationale",
+        "Sénat"
+      ]
+    },
+    "fr-parental-leave-training-proposal-2026": {
+      "hash": "ddd7db390d32d803ee9cee06e28489e5415e77ecc210bdc757ea1208999de603",
+      "version": 1,
+      "originalLanguage": "fr",
+      "verbatim": [
+        "Assemblée nationale",
+        "Service Public / DILA"
+      ]
+    },
+    "fr-comparator-independence-proposal-2026": {
+      "hash": "803b3c34d53a3da0901e7ffd71b127ba971d6b48287a712297d7c41b7217423e",
+      "version": 1,
+      "originalLanguage": "fr",
+      "verbatim": [
+        "Assemblée nationale",
+        "Ministère de l’Économie"
+      ]
+    },
+    "fr-edpm-helmet-proposal-2026": {
+      "hash": "f3da425c54a89ed28bb5e0463c612b37e2794333ffdcf69ee886476848b91b24",
+      "version": 1,
+      "originalLanguage": "fr",
+      "verbatim": [
+        "Assemblée nationale",
+        "Service Public / DILA"
+      ]
+    },
+    "fr-rural-electric-leasing-proposal-2026": {
+      "hash": "d4aff77999995d5511f1c718ecf2ebe38b2f8f1a78fd1edb55f7a6c28ed75a83",
+      "version": 1,
+      "originalLanguage": "fr",
+      "verbatim": [
+        "Assemblée nationale",
+        "Service Public / DILA",
+        "Ministère de la Transition écologique"
+      ]
+    },
+    "fr-freeflow-toll-penalties-proposal-2026": {
+      "hash": "7a9236c6dd8c2d333c23698bfe8c1893a25afffcaa5d572bd68f86787704125a",
+      "version": 1,
+      "originalLanguage": "fr",
+      "verbatim": [
+        "Assemblée nationale",
+        "Service Public / DILA",
+        "Ministère des Transports"
+      ]
+    },
+    "fr-carer-pension-enrolment-proposal-2026": {
+      "hash": "f21f53dc50dcb8601b3d786a27320e8625ebca60da034c5d2189d0283ff811c6",
+      "version": 1,
+      "originalLanguage": "fr",
+      "verbatim": [
+        "Assemblée nationale",
+        "CAF"
+      ]
+    },
+    "fr-firefighter-pension-cap-proposal-2026": {
+      "hash": "a59acca327e0033b9244fb69d66cdb038a7cfffc98fefbbba559b9e7129fd11c",
+      "version": 1,
+      "originalLanguage": "fr",
+      "verbatim": [
+        "Assemblée nationale",
+        "CNRACL"
+      ]
+    },
+    "fr-working-carers-support-proposal-2026": {
+      "hash": "b24e8497337acd91127491ffb7d0742bf019771cd9284f7e0a9e34c0c7d6c64a",
+      "version": 1,
+      "originalLanguage": "fr",
+      "verbatim": [
+        "Assemblée nationale",
+        "Service Public / DILA"
+      ]
+    },
+    "fr-youth-free-css-proposal-2026": {
+      "hash": "3c3d499a6ae60c2d0a7623824e075215fdee9742f20de743b7082ff7a12f42b2",
+      "version": 1,
+      "originalLanguage": "fr",
+      "verbatim": [
+        "Assemblée nationale",
+        "Service Public / DILA",
+        "Assurance Maladie"
+      ]
+    },
+    "fr-volunteer-pension-rights-proposal-2026": {
+      "hash": "be694148cb9f781912d48f418e760debc5f306c306f35ea97bef23696b4c62e6",
+      "version": 1,
+      "originalLanguage": "fr",
+      "verbatim": [
+        "Assemblée nationale",
+        "Ministère chargé de la Vie associative"
+      ]
+    },
+    "fr-aspa-increase-automatic-proposal-2026": {
+      "hash": "a1d4542de4ffe755be04e077509cb4ae29ebd6d1e374f5b9a2e237dea498ed3a",
+      "version": 1,
+      "originalLanguage": "fr",
+      "verbatim": [
+        "Assemblée nationale",
+        "Service Public / DILA"
+      ]
+    },
+    "fr-family-tax-remittance-proposal-2026": {
+      "hash": "368a57c36c466c1c951daa71d367ed45088ce035c399098f1787d209aa15cf4a",
+      "version": 1,
+      "originalLanguage": "fr",
+      "verbatim": [
+        "Assemblée nationale",
+        "DGFiP",
+        "DGFiP / BOFiP"
+      ]
+    },
+    "fr-large-company-surtax-repeal-proposal-2026": {
+      "hash": "bc7e3612dedacdb297902fbb8f55b6dca8aaaef55b29fe9949bf1adc97d5a7b5",
+      "version": 1,
+      "originalLanguage": "fr",
+      "verbatim": [
+        "Assemblée nationale",
+        "DGFiP / BOFiP"
+      ]
+    },
+    "fr-progressive-corporate-tax-proposal-2026": {
+      "hash": "afa401d71991f66300978afbfacfea35e5074476219afa2960e25c04099c0fb9",
+      "version": 1,
+      "originalLanguage": "fr",
+      "verbatim": [
+        "Assemblée nationale",
+        "Service Public / DILA"
+      ]
+    },
+    "fr-fuel-margin-caps-proposal-2026": {
+      "hash": "c898134de9194d2543ad1c2b7ab9cf4b0255706f2f863223f87c4bee3b46bf45",
+      "version": 1,
+      "originalLanguage": "fr",
+      "verbatim": [
+        "Assemblée nationale",
+        "Ministère de la Transition écologique"
+      ]
+    },
+    "fr-medical-diet-inclusion-proposal-2026": {
+      "hash": "ac0fc74df5a649b472a7b672b301c90a0219a5b4fb3ce663c6aeab77b118882b",
+      "version": 1,
+      "originalLanguage": "fr",
+      "verbatim": [
+        "Assemblée nationale",
+        "Service Public / DILA",
+        "Ministère de l’Éducation nationale"
+      ]
+    },
+    "fr-teleconsultation-extra-fees-proposal-2026": {
+      "hash": "56b45858a5c53867b5d6484d8f9e78d8a0cb1f205689037e49901b9ae935b6d6",
+      "version": 1,
+      "originalLanguage": "fr",
+      "verbatim": [
+        "Assemblée nationale",
+        "DGCCRF",
+        "Assurance Maladie"
+      ]
+    },
+    "fr-company-head-health-proposal-2026": {
+      "hash": "f3815db3d55c0e0f8b8e11dafd8a149d42e0f8d66fe10f80ae57b7904c7470e3",
+      "version": 1,
+      "originalLanguage": "fr",
+      "verbatim": [
+        "Assemblée nationale",
+        "Légifrance"
+      ]
+    },
+    "fr-civil-service-therapeutic-parttime-proposal-2026": {
+      "hash": "b12bf9837258738f411254c7f28d9686be7d4ceac7624fa28c89edb82dddbaf4",
+      "version": 1,
+      "originalLanguage": "fr",
+      "verbatim": [
+        "Assemblée nationale",
+        "Service Public / DILA"
+      ]
+    },
+    "fr-abortion-specific-conscience-proposal-2026": {
+      "hash": "18e579bb3b45de29467c81262a07de8d1979c5d08232577f9aa95d9720691401",
+      "version": 1,
+      "originalLanguage": "fr",
+      "verbatim": [
+        "Assemblée nationale",
+        "Service Public / DILA",
+        "Conseil national de l’Ordre des médecins"
+      ]
+    },
+    "fr-lipoedema-ald-proposal-2026": {
+      "hash": "dd74040318df8f3257f6641104db4968e99135b14ff428d149b7253301dea9b1",
+      "version": 1,
+      "originalLanguage": "fr",
+      "verbatim": [
+        "Assemblée nationale",
+        "Assurance Maladie"
+      ]
+    },
+    "fr-treating-doctor-access-proposal-2026": {
+      "hash": "0166b7c071cf113eecb3bc026e49dc9f068b02fb2f3ff11bdd42dd154d826e6c",
+      "version": 1,
+      "originalLanguage": "fr",
+      "verbatim": [
+        "Assemblée nationale",
+        "DGCCRF",
+        "Assurance Maladie"
+      ]
+    },
+    "fr-criminal-procedure-nullity-proposal-2026": {
+      "hash": "cc5b988a4a6e8f0837a92ed36c96871b7ca41e6aa096800d8bf62dcdf28025a1",
+      "version": 1,
+      "originalLanguage": "fr",
+      "verbatim": [
+        "Assemblée nationale",
+        "Légifrance"
+      ]
+    },
+    "fr-historical-arms-classification-proposal-2026": {
+      "hash": "397de20390550d4ed7921872831d638ac2df84e00b4204aa94314415e2b90585",
+      "version": 1,
+      "originalLanguage": "fr",
+      "verbatim": [
+        "Assemblée nationale",
+        "Service Public / DILA"
+      ]
+    },
+    "fr-automatic-electoral-registration-proposal-2026": {
+      "hash": "39035f153bbf3004bf4c3a305a3b43bd45f7c01dd7f109e795b24a1385d36193",
+      "version": 1,
+      "originalLanguage": "fr",
+      "verbatim": [
+        "Assemblée nationale",
+        "Service Public / DILA"
+      ]
+    },
+    "fr-un-tax-cooperation-resolution-2026": {
+      "hash": "398b71799b6648f5b6fd024d39d3255ae5c158e1e0330498673805bf43d16d0f",
+      "version": 1,
+      "originalLanguage": "fr",
+      "verbatim": [
+        "Assemblée nationale",
+        "DGFiP",
+        "United Nations DESA",
+        "United Nations"
+      ]
+    },
+    "fr-nicaragua-rights-resolution-2026": {
+      "hash": "9ba332741c21bdaeab7b8501773c6fd563c0bb912c55258a93e40a7ed22d0047",
+      "version": 1,
+      "originalLanguage": "fr",
+      "verbatim": [
+        "Assemblée nationale",
+        "Council of the European Union"
+      ]
+    },
+    "fr-recreational-metal-detection-proposal-2026": {
+      "hash": "2eba6207825d2c8c5017f6eba7859237ea88a117cdf25e69655f066a4d80851f",
+      "version": 1,
+      "originalLanguage": "fr",
+      "verbatim": [
+        "Assemblée nationale",
+        "Ministère de la Culture",
+        "Conseil d’État"
+      ]
+    },
+    "fr-wine-spirits-tourism-proposal-2026": {
+      "hash": "24f257e3ae496f3b5971b9f0cd022687d10fb38f5711dec42400d4064f79ae25",
+      "version": 1,
+      "originalLanguage": "fr",
+      "verbatim": [
+        "Assemblée nationale",
+        "Service Public / DILA"
+      ]
+    },
+    "fr-industrial-electrification-grid-cost-proposal-2026": {
+      "hash": "aa4d455a74e5d085193be997f134131b9a7e1f838032845f044cb13633fd9768",
+      "version": 1,
+      "originalLanguage": "fr",
+      "verbatim": [
+        "Assemblée nationale",
+        "Légifrance",
+        "Ministère de la Transition écologique"
+      ]
+    },
+    "fr-commercial-vacancy-rent-tax-proposal-2026": {
+      "hash": "6780ea74c5cbb4df5bcf9a7d9f41ef38378194f9a59b2b62575ec751d5bda01a",
+      "version": 1,
+      "originalLanguage": "fr",
+      "verbatim": [
+        "Assemblée nationale",
+        "Service Public / DILA",
+        "Direction générale des Finances publiques"
+      ]
+    },
+    "fr-landlord-decent-housing-enforcement-proposal-2026": {
+      "hash": "07af8accc2107174622c468e92cd785d25022a403930e5ce41170debe7ea7e32",
+      "version": 1,
+      "originalLanguage": "fr",
+      "verbatim": [
+        "Assemblée nationale",
+        "Service Public / DILA"
+      ]
+    },
+    "fr-illicit-tobacco-penalties-proposal-2026": {
+      "hash": "d6cacd38d0701d9324611909e9a099176b1b9723d8400cadcce3ba85b8c28a9d",
+      "version": 1,
+      "originalLanguage": "fr",
+      "verbatim": [
+        "Assemblée nationale",
+        "Conseil constitutionnel",
+        "Sénat",
+        "Légifrance"
+      ]
+    },
+    "fr-local-foreign-spending-restrictions-proposal-2026": {
+      "hash": "5e262f82bcb89c2984c0aa31c9bb8d0691c39f2d65ea15288cdc4cdab2c88d4b",
+      "version": 1,
+      "originalLanguage": "fr",
+      "verbatim": [
+        "Assemblée nationale",
+        "Conseil d’État",
+        "Ministère de l’Europe et des Affaires étrangères"
+      ]
+    },
+    "fr-coastal-retreat-adaptation-fund-proposal-2026": {
+      "hash": "4146dc9196fcb74dbfb33c7b78e70771435cb094a8836896f680c8f1c6847449",
+      "version": 1,
+      "originalLanguage": "fr",
+      "verbatim": [
+        "Assemblée nationale",
+        "Ministère de la Transition écologique"
+      ]
+    },
+    "fr-exceptional-weather-catnat-extension-proposal-2026": {
+      "hash": "46d19710bea46c3d9c8e8275a1d899609a335ee6b81e5855d6b916aca61e0e60",
+      "version": 1,
+      "originalLanguage": "fr",
+      "verbatim": [
+        "Assemblée nationale",
+        "Service Public",
+        "Sénat"
+      ]
+    },
+    "fr-clay-subsidence-support-fund-proposal-2026": {
+      "hash": "65b78f3877a72e65c401e310120b4d1f5c55104a90b3079b7e27fc0502d6770d",
+      "version": 1,
+      "originalLanguage": "fr",
+      "verbatim": [
+        "Assemblée nationale",
+        "Service Public",
+        "Ministère de la Transition écologique"
+      ]
+    },
+    "fr-forest-clearcut-ban-proposal-2026": {
+      "hash": "671024438d7344ffa5f002d1d13e7685e1d8128be65b970a3229ba776d0ae83b",
+      "version": 1,
+      "originalLanguage": "fr",
+      "verbatim": [
+        "Assemblée nationale",
+        "Conseil d’État"
+      ]
+    },
+    "fr-animal-cruelty-recordings-proposal-2026": {
+      "hash": "abd7a8502fcff7e66bbdca368c788fd8021ad852d5421cacc789dd0604dda86f",
+      "version": 1,
+      "originalLanguage": "fr",
+      "verbatim": [
+        "Assemblée nationale",
+        "Service Public"
+      ]
+    },
+    "fr-work-regularisation-six-months-proposal-2026": {
+      "hash": "285c839b894e83435f871bbf4a4527f836905e2a09828bb031aaa4870317eb5c",
+      "version": 1,
+      "originalLanguage": "fr",
+      "verbatim": [
+        "Assemblée nationale",
+        "Service Public"
+      ]
+    },
+    "fr-essential-shortage-worker-residence-proposal-2026": {
+      "hash": "8b3a5e538d68fb4942bd5eaa517f300009554c4d54f6545dcd85b2a92bde54c4",
+      "version": 1,
+      "originalLanguage": "fr",
+      "verbatim": [
+        "Assemblée nationale",
+        "Service Public",
+        "Conseil d’État"
+      ]
+    },
+    "fr-oqtf-protected-categories-restoration-proposal-2026": {
+      "hash": "5f2d1141952fb89b0a586e69951e3b2f8fc89f8cfe1356b42da6de986ea8193b",
+      "version": 1,
+      "originalLanguage": "fr",
+      "verbatim": [
+        "Assemblée nationale",
+        "Service Public"
+      ]
+    },
+    "fr-sru-social-housing-annual-flow-proposal-2026": {
+      "hash": "07c63bd0772efafe09616102ca2be016b39bef80c3898bfcf0d78b224e2997eb",
+      "version": 1,
+      "originalLanguage": "fr",
+      "verbatim": [
+        "Assemblée nationale",
+        "Ministère de la Transition écologique"
+      ]
+    },
+    "fr-progressive-payroll-csg-inheritance-proposal-2026": {
+      "hash": "540a26b68d0eff06ef0a167bb4693185ca42e68aff109e36075d76b9a0904fbc",
+      "version": 1,
+      "originalLanguage": "fr",
+      "verbatim": [
+        "Assemblée nationale",
+        "Service Public",
+        "Direction générale des Finances publiques"
+      ]
+    },
+    "fr-childhood-national-framework-proposal-2026": {
+      "hash": "da08ac384f146f1ed18095feb50dfa09097668b388366b60b3dcb02dffd4aa47",
+      "version": 1,
+      "originalLanguage": "fr",
+      "verbatim": [
+        "Assemblée nationale",
+        "Ministère des Solidarités"
+      ]
+    },
+    "fr-climate-broadcast-information-proposal-2026": {
+      "hash": "917e52f45f485bcb130d1a437e44ed14cdf6d45cc8cb840a6a6c1eec6d10c1fc",
+      "version": 1,
+      "originalLanguage": "fr",
+      "verbatim": [
+        "Assemblée nationale",
+        "Conseil d’État",
+        "Secrétariat général à la planification écologique",
+        "Haut Conseil pour le climat"
+      ]
+    },
+    "fr-frozen-sovereign-private-assets-confiscation-proposal-2026": {
+      "hash": "34890e4aa3246aa4454c4068d993804f0ef6dcfca57bcb771715b1f58285bac9",
+      "version": 1,
+      "originalLanguage": "fr",
+      "verbatim": [
+        "Assemblée nationale",
+        "Council of the European Union"
+      ]
+    },
+    "fr-elastic-fuel-excise-proposal-2026": {
+      "hash": "a54fc9bafddb605626903ee3fac664c93e3a12df701caabc06c3aea94625f269",
+      "version": 1,
+      "originalLanguage": "fr",
+      "verbatim": [
+        "Assemblée nationale",
+        "Direction générale des douanes et droits indirects",
+        "Ministère de la Transition écologique"
+      ]
+    },
+    "fr-inheritance-gift-relief-reform-proposal-2026": {
+      "hash": "66c7a69d28b66c1bd3f67ff78838e29e3f6619500855be1866c3295ab26dc26c",
+      "version": 1,
+      "originalLanguage": "fr",
+      "verbatim": [
+        "Assemblée nationale",
+        "Direction générale des Finances publiques",
+        "Service Public"
+      ]
+    },
+    "fr-identity-theft-victim-protection-proposal-2026": {
+      "hash": "b4fe4569952cc33b9759e9e0be3ddd48347802db11e9daf753ecaada94d0164e",
+      "version": 1,
+      "originalLanguage": "fr",
+      "verbatim": [
+        "Assemblée nationale",
+        "Service Public"
+      ]
+    },
+    "fr-pastoralism-support-framework-proposal-2026": {
+      "hash": "de5c874952683e72380188a8010cb2f16f72e872821434b5d3b4621bf6e83241",
+      "version": 1,
+      "originalLanguage": "fr",
+      "verbatim": [
+        "Assemblée nationale",
+        "Service Public",
+        "Ministère de l’Agriculture"
+      ]
+    },
+    "fr-climate-emergency-package-proposal-2026": {
+      "hash": "3df0e558814d9aab6649456df7564ecd622c0d211ee69304faef7a14d2ebd7b9",
+      "version": 1,
+      "originalLanguage": "fr",
+      "verbatim": [
+        "Assemblée nationale",
+        "Ministère de la Transition écologique",
+        "Service Public",
+        "Ministère de l’Agriculture"
+      ]
+    },
+    "fr-nor-care-training-cpf-financing-2026": {
+      "hash": "4d52ad567ce5c5cf85c9ea45853de4404896176c7940f6269dcf883c6add700f",
+      "version": 1,
+      "originalLanguage": "fr",
+      "verbatim": [
+        "Région Normandie"
+      ]
+    },
+    "fr-martinique-childhood-youth-family-plan-2025-2030": {
+      "hash": "a8d05900c8616642daac1ef3600677dc2a630ced16749114d6c13e21ef2a791a",
+      "version": 1,
+      "originalLanguage": "fr",
+      "verbatim": [
+        "Collectivité territoriale de Martinique"
+      ]
+    },
+    "fr-hdf-farm-heat-support-2026": {
+      "hash": "eff481123718318fad33f4b1f9025d255b16f8b98419e8e5e348dec1890b1f79",
+      "version": 1,
+      "originalLanguage": "fr",
+      "verbatim": [
+        "Région Hauts-de-France"
+      ]
+    },
+    "fr-hdf-audiovisual-public-service-2026": {
+      "hash": "ef364333cefd050b59fb35219b84e1abafaa8f572d08692fc6d29af450c1cfd9",
+      "version": 1,
+      "originalLanguage": "fr",
+      "verbatim": [
+        "Région Hauts-de-France"
+      ]
+    },
+    "fr-idf-youth-five-measures-2026": {
+      "hash": "4886f8390aa758a60af1ec1995868f6929ce9d8e5ba2bd1a5874daaf65132aa1",
+      "version": 1,
+      "originalLanguage": "fr",
+      "verbatim": [
+        "Région Île-de-France"
+      ]
+    },
+    "fr-naq-post-fire-recovery-plan-2026": {
+      "hash": "6ac9405445e5c67a6b5b12c17a3f9c4be1c248d74388fbe483a35ea018b2315b",
+      "version": 1,
+      "originalLanguage": "fr",
+      "verbatim": [
+        "Région Nouvelle-Aquitaine"
+      ]
+    },
+    "fr-cvl-cycling-support-progress-2026": {
+      "hash": "c663a271f86ba8c803dd865247d5db56300646547d6fd8407d1e1654d89ae820",
+      "version": 1,
+      "originalLanguage": "fr",
+      "verbatim": [
+        "Région Centre-Val de Loire"
+      ]
+    },
+    "fr-mayotte-energy-excise-reduction-2026": {
+      "hash": "c1afc4af9cc05da29e969312f8b84396674aa368fb45365254c4ecb5e839eed4",
+      "version": 1,
+      "originalLanguage": "fr",
+      "verbatim": [
+        "Département-Région de Mayotte"
+      ]
+    },
+    "fr-reunion-displaced-children-reparation-2026": {
+      "hash": "278abbba6b9717038630727abc2507c13581ef1cb2d47b13480da62203f2f885",
+      "version": 1,
+      "originalLanguage": "fr",
+      "verbatim": [
+        "Sénat"
+      ]
+    },
+    "fr-martinique-energy-water-powers-2026": {
+      "hash": "58f4c1ac6471d3b7fc27e2feae7588f9b19d3f99328565e030f26f6127b3a699",
+      "version": 1,
+      "originalLanguage": "fr",
+      "verbatim": [
+        "Sénat",
+        "Assemblée nationale"
+      ]
+    },
+    "fr-guyana-human-remains-return-2026": {
+      "hash": "0628c94310af4217fee357f57801a4db6028e650f4d8a83562784f51a02c0e1d",
+      "version": 1,
+      "originalLanguage": "fr",
+      "verbatim": [
+        "Sénat",
+        "Assemblée nationale"
+      ]
+    },
+    "fr-public-service-worker-housing-2026": {
+      "hash": "1d6e9fd0b71da9261fa08dfbf717955380ee0d69eec6f76fc6d86fc238c9df3e",
+      "version": 1,
+      "originalLanguage": "fr",
+      "verbatim": [
+        "Sénat",
+        "Assemblée nationale"
+      ]
+    },
+    "fr-cardiovascular-prevention-strategy-2026": {
+      "hash": "db3c96db4a10bd77566237246bddc6c1412fc40d61e786b3876a4a9cc296ca22",
+      "version": 1,
+      "originalLanguage": "fr",
+      "verbatim": [
+        "Sénat",
+        "Assemblée nationale"
+      ]
+    },
+    "fr-professional-training-skills-blocks-2026": {
+      "hash": "faa33617ae5b03590d1a0fae82893fcb952a334552b8d04229bb16b96921746a",
+      "version": 1,
+      "originalLanguage": "fr",
+      "verbatim": [
+        "Sénat",
+        "Assemblée nationale"
+      ]
+    },
+    "fr-small-commune-childcare-funding-2026": {
+      "hash": "a591141cff780e47c0ae8f386f274bb03bef8bbae88a04516508daade66a586e",
+      "version": 1,
+      "originalLanguage": "fr",
+      "verbatim": [
+        "Sénat",
+        "Assemblée nationale"
+      ]
+    },
+    "fr-campaign-accountant-cost-reimbursement-2026": {
+      "hash": "113b0329f0a24ff28b8cc4d353672325cfa9df7fc476d44286e463dc95b38faa",
+      "version": 1,
+      "originalLanguage": "fr",
+      "verbatim": [
+        "Sénat",
+        "Assemblée nationale"
+      ]
+    },
+    "fr-uk-trained-doctors-pre-brexit-2026": {
+      "hash": "a6655375574382d582efa6d93194ef489fcda27ab7472bf0c173586e4cd98136",
+      "version": 1,
+      "originalLanguage": "fr",
+      "verbatim": [
+        "Sénat",
+        "Assemblée nationale"
+      ]
+    },
+    "fr-ski-trainee-activity-sharing-2026": {
+      "hash": "063afeaeae83001102ed102df6300095a0358cc0b451350c4aedfe04693ce2ad",
+      "version": 1,
+      "originalLanguage": "fr",
+      "verbatim": [
+        "Sénat"
+      ]
+    },
+    "fr-polynesia-communal-actions-2026": {
+      "hash": "dd698e5b002a572c9c537aae30687b5a89709264b8be7afb2d08848f1e058d42",
+      "version": 1,
+      "originalLanguage": "fr",
+      "verbatim": [
+        "Sénat",
+        "Assemblée nationale",
+        "Conseil constitutionnel"
+      ]
+    },
+    "fr-detention-oversight-visits-2026": {
+      "hash": "933ac50136d728f5c110e57dbb7562ff96266c51696893849cde2e752c77678c",
+      "version": 1,
+      "originalLanguage": "fr",
+      "verbatim": [
+        "Sénat",
+        "Assemblée nationale"
+      ]
+    },
+    "fr-uncontested-commercial-debts-2026": {
+      "hash": "783e4922ff7cc98bc8fe61109e33699e669399548106dfcbdea04d381b889e60",
+      "version": 1,
+      "originalLanguage": "fr",
+      "verbatim": [
+        "Sénat",
+        "Assemblée nationale"
+      ]
+    },
+    "fr-child-protection-lawyer-2026": {
+      "hash": "1f2e240da69f940849cb5edf48351bd66d96b79fc5d9836ef51027820e7efb7a",
+      "version": 1,
+      "originalLanguage": "fr",
+      "verbatim": [
+        "Sénat",
+        "Assemblée nationale"
+      ]
+    },
+    "fr-new-caledonia-native-electoral-roll-2026": {
+      "hash": "5e08f75cc11cddf1a6484675fa7f3b0a9db2524cdceba1a26837f0a406529dfa",
+      "version": 1,
+      "originalLanguage": "fr",
+      "verbatim": [
+        "Sénat",
+        "Assemblée nationale",
+        "Conseil constitutionnel"
+      ]
+    },
+    "fr-chlordecone-state-responsibility-2026": {
+      "hash": "99fd83250442536160e43f9a454b3fb3670c41117b35930af3de1ecc66ba3643",
+      "version": 1,
+      "originalLanguage": "fr",
+      "verbatim": [
+        "Sénat",
+        "Assemblée nationale"
+      ]
+    },
+    "fr-individual-termination-unemployment-duration-2026": {
+      "hash": "b770e2311cb8569320316dac7cd3481c63c4e50cfc39f9ddc0d291c7657df169",
+      "version": 1,
+      "originalLanguage": "fr",
+      "verbatim": [
+        "Sénat",
+        "Assemblée nationale",
+        "Ministère du Travail",
+        "Unédic"
+      ]
+    },
+    "fr-fire-rescue-health-professions-2026": {
+      "hash": "f48a40ad70caef122d618fea14b0b0d0addf385fb73d05512164ff7a515ef525",
+      "version": 1,
+      "originalLanguage": "fr",
+      "verbatim": [
+        "Sénat",
+        "Assemblée nationale"
+      ]
+    },
+    "fr-coownership-vacant-estates-2026": {
+      "hash": "c73b61eb41587618d2122fba0b0b0d0afaef35e4da927370b4b4070af86ae7ff",
+      "version": 1,
+      "originalLanguage": "fr",
+      "verbatim": [
+        "Sénat",
+        "Assemblée nationale"
+      ]
+    },
+    "fr-minors-digital-school-protection-2026": {
+      "hash": "ea7c4537ddc91384e1b08078c89bf147ff560dcf1fa30f485f0404682026f92b",
+      "version": 1,
+      "originalLanguage": "fr",
+      "verbatim": [
+        "Sénat",
+        "Assemblée nationale",
+        "Conseil constitutionnel",
+        "Service Public",
+        "European Commission"
+      ]
+    },
+    "fr-inhouse-legal-advice-confidentiality-2026": {
+      "hash": "d71fcc4dc8e767cc512d94eb4694ab5b5f7e7ef9cbb2e33caab51a0b1006ad28",
+      "version": 1,
+      "originalLanguage": "fr",
+      "verbatim": [
+        "Sénat",
+        "Conseil constitutionnel"
+      ]
+    },
+    "fr-illicit-cultural-property-restitution-2026": {
+      "hash": "8a548fd016589003dfe8e2344da93ced1a68a9c31b8d24ce786f2efb0a3dd020",
+      "version": 1,
+      "originalLanguage": "fr",
+      "verbatim": [
+        "Sénat"
+      ]
+    },
+    "fr-flood-prevention-local-powers-2026": {
+      "hash": "4b856012036f927ff88f17bd278dbc42df1bc147512597d36490d5c982877b24",
+      "version": 1,
+      "originalLanguage": "fr",
+      "verbatim": [
+        "Sénat"
+      ]
+    },
+    "fr-ultra-fast-fashion-environment-2026": {
+      "hash": "da4031f87dc819a09cbc0613c93e8df93e3a7f0832744b71e23b4f4983ef249a",
+      "version": 1,
+      "originalLanguage": "fr",
+      "verbatim": [
+        "Sénat",
+        "Service Public"
+      ]
+    },
+    "fr-parents-seriously-ill-children-2026": {
+      "hash": "919072bcb088dc9d6efab081a9699c8d5e604d8269c4394227f1fe897bf9292b",
+      "version": 1,
+      "originalLanguage": "fr",
+      "verbatim": [
+        "Sénat",
+        "Assemblée nationale",
+        "Service Public"
+      ]
+    },
+    "fr-criminal-court-honorary-lawyers-2026": {
+      "hash": "48ff4ad30592f4d6de481dc1b1ff016d9b75b7788f22792759d02cc8f4ebe673",
+      "version": 1,
+      "originalLanguage": "fr",
+      "verbatim": [
+        "Sénat",
+        "Conseil constitutionnel"
+      ]
+    },
+    "fr-state-property-agency-reform-2026": {
+      "hash": "5157d57d406b1f30db8b7f4985472bb9e8ff62c05105b0b93a2319ab59fe6737",
+      "version": 1,
+      "originalLanguage": "fr",
+      "verbatim": [
+        "Sénat",
+        "Assemblée nationale",
+        "Conseil constitutionnel"
+      ]
+    },
+    "fr-mountain-services-land-planning-2026": {
+      "hash": "785e8e8c1cba1965a2e07ea7999368560065991a29d84038de3d9779e7e70ca7",
+      "version": 1,
+      "originalLanguage": "fr",
+      "verbatim": [
+        "Sénat",
+        "Conseil constitutionnel"
+      ]
+    },
+    "fr-palliative-care-access-2026": {
+      "hash": "507e248bb040b09d0eb7d3492e3fc3104bc26860a6877d72564b676600d507a6",
+      "version": 1,
+      "originalLanguage": "fr",
+      "verbatim": [
+        "Sénat"
+      ]
+    },
+    "fr-assisted-dying-right-framework-2026": {
+      "hash": "859ef67a0244ba331b534e16a3eb275a9b9f80f1ead4d4fa035a93f26649e09f",
+      "version": 1,
+      "originalLanguage": "fr",
+      "verbatim": [
+        "Sénat",
+        "Assemblée nationale",
+        "Conseil constitutionnel"
+      ]
+    },
+    "fr-security-detention-terrorism-safeguards-2026": {
+      "hash": "8f202acfb1d2a67350a6b2a96dc8383d3fa76e29aec505a0003ad3b26a2a999c",
+      "version": 1,
+      "originalLanguage": "fr",
+      "verbatim": [
+        "Sénat",
+        "Assemblée nationale",
+        "Conseil constitutionnel"
+      ]
+    },
+    "fr-criminal-justice-victim-reform-2026": {
+      "hash": "5cd76e7a6e65d869437672bf82eab799da107b6e424c9206b0947fabada70482",
+      "version": 1,
+      "originalLanguage": "fr",
+      "verbatim": [
+        "Sénat",
+        "Conseil constitutionnel"
+      ]
+    },
+    "fr-hydropower-concession-transition-2026": {
+      "hash": "e1fc8094162eade79f2b6162a13e871a3679eae2f27cadb2c16c6ead1d62ac72",
+      "version": 1,
+      "originalLanguage": "fr",
+      "verbatim": [
+        "Sénat",
+        "Assemblée nationale"
+      ]
+    },
+    "fr-professional-sport-governance-2026": {
+      "hash": "18d4be0105f00da29d2652ac1f0e1edce0ce92055688d4bd00c1c886eee48700",
+      "version": 1,
+      "originalLanguage": "fr",
+      "verbatim": [
+        "Sénat"
+      ]
+    },
+    "fr-social-tax-fraud-safeguards-2026": {
+      "hash": "4bcd27b8af984b6bb08bf64404b515db7d21cda7852b9aff6a158c5efe224121",
+      "version": 1,
+      "originalLanguage": "fr",
+      "verbatim": [
+        "Sénat",
+        "Assemblée nationale",
+        "Conseil constitutionnel"
+      ]
+    },
+    "fr-economic-simplification-framework-2026": {
+      "hash": "0716d14e46453a6f85790d7962e4bc9b5b725198cad9b32c4eb911c3d862a3a1",
+      "version": 1,
+      "originalLanguage": "fr",
+      "verbatim": [
+        "Sénat",
+        "Conseil constitutionnel",
+        "Ministère de la Transition écologique"
+      ]
+    },
+    "fr-agricultural-sovereignty-framework-2026": {
+      "hash": "73c15dd862b229e08f0781422765b981a8b0de0b4df3e4dad428797aaf929469",
+      "version": 1,
+      "originalLanguage": "fr",
+      "verbatim": [
+        "Sénat",
+        "Assemblée nationale",
+        "Conseil constitutionnel"
+      ]
+    },
+    "fr-public-order-framework-2026": {
+      "hash": "626fc2f60abd603791e485a9432f419f39e7d6fe5a4ec092e65ba9bb70c38cd2",
+      "version": 1,
+      "originalLanguage": "fr",
+      "verbatim": [
+        "Sénat",
+        "Assemblée nationale",
+        "Conseil constitutionnel"
+      ]
+    },
+    "fr-military-programme-update-2026": {
+      "hash": "4058c9ae54e5b41954f2708e7e667312a5db3e8b37d6568a730eb553a4f187f8",
+      "version": 1,
+      "originalLanguage": "fr",
+      "verbatim": [
+        "Sénat",
+        "Assemblée nationale",
+        "Conseil constitutionnel"
+      ]
+    },
+    "fr-winter-olympics-2030-framework-2026": {
+      "hash": "6831dbc7f84bdd6b6a06bc477e6f360411c3df25f9af23b574ab6c83a080eb27",
+      "version": 1,
+      "originalLanguage": "fr",
+      "verbatim": [
+        "Sénat",
+        "Assemblée nationale",
+        "Conseil constitutionnel"
+      ]
+    },
+    "fr-finance-law-household-framework-2026": {
+      "hash": "26ed0f26da3f5e5fd99ed69152959ded10bb058e57d58c7291e7acef2374e50a",
+      "version": 1,
+      "originalLanguage": "fr",
+      "verbatim": [
+        "Sénat",
+        "Assemblée nationale",
+        "Conseil constitutionnel",
+        "Direction générale des finances publiques"
+      ]
+    },
+    "fr-pac-e85-conversion-grant-2026": {
+      "hash": "16dc27edc80280c8ba9ed49101a148c220d035479a7b582fb404e38b82baedbf",
+      "version": 1,
+      "originalLanguage": "fr",
+      "verbatim": [
+        "Région Sud"
+      ]
+    },
+    "fr-pac-mobile-breast-screening-2026": {
+      "hash": "6fcafb60cf8406173a0aed9afd0c2aa26ec1bd357d8bc5c18e8f60aedaca295a",
+      "version": 1,
+      "originalLanguage": "fr",
+      "verbatim": [
+        "Région Sud"
       ]
     }
   },
@@ -37986,6 +39230,408 @@
     "de-20261011-ni-gvbl-81": {
       "hash": "111af2c303b6ff6b4ab1a4c673dc6a37e6e432c6bde276f02a0f7e6f3942bd94",
       "originalLanguage": "de",
+      "titleIsOriginal": true,
+      "verbatim": []
+    },
+    "fr-20261011-courier-notice-corrected": {
+      "hash": "6a778d165526e00002fc1535ddf261e611e8ffb841049c6a5255ed1aa9920312",
+      "originalLanguage": "fr",
+      "titleIsOriginal": true,
+      "verbatim": []
+    },
+    "fr-20261011-courier-agreement": {
+      "hash": "1ac31bb20e6b2e5a1410df0201ae26a2a044e09bf7648d7f605b8ec6c3de7bd0",
+      "originalLanguage": "fr",
+      "titleIsOriginal": true,
+      "verbatim": []
+    },
+    "fr-20261011-courier-approval": {
+      "hash": "f488d7dd6ab6d9760ca5dd79cbf78387d20a822213c2fa91241cb5ef4ef8ddbe",
+      "originalLanguage": "fr",
+      "titleIsOriginal": true,
+      "verbatim": []
+    },
+    "fr-20261011-courier-correction": {
+      "hash": "a2914e4262d823b7b1463bc1559a01e61d7181087ec42936d69f4f75800c0702",
+      "originalLanguage": "fr",
+      "titleIsOriginal": true,
+      "verbatim": []
+    },
+    "fr-20261011-gas-benchmark": {
+      "hash": "771cd5348e93219a7d9da740b9f5dc6dc6643649ab93fa382dfa853aece4f2b3",
+      "originalLanguage": "fr",
+      "titleIsOriginal": true,
+      "verbatim": []
+    },
+    "fr-20261011-a19067-clarified": {
+      "hash": "42bced02afe03d832b8d45d2c385a3ec34571c403a157857cc7f05a57f7bd620",
+      "originalLanguage": "fr",
+      "titleIsOriginal": true,
+      "verbatim": []
+    },
+    "fr-20261011-a16807-clarified": {
+      "hash": "6414279d6c7b8e75fe72e6a2f63117c459540121c18c5f28bab97a3198a4cd55",
+      "originalLanguage": "fr",
+      "titleIsOriginal": true,
+      "verbatim": []
+    },
+    "fr-20261011-a14632-clarified": {
+      "hash": "f77c0d399bd3727a09941244840795e8427d94583221e47e98aa86f83f5f3500",
+      "originalLanguage": "fr",
+      "titleIsOriginal": true,
+      "verbatim": []
+    },
+    "fr-20261011-wildfire-periods": {
+      "hash": "98e2c0bfb575e43abcb2887559bcff4d8cf354c3faece6f6910ecb8ccaca0927",
+      "originalLanguage": "fr",
+      "titleIsOriginal": true,
+      "verbatim": []
+    },
+    "fr-20261011-iroise-scope": {
+      "hash": "64f65d4e633b1c1eba594c400a3c67a5b0fae7398c217b642e3261e8b8a8e94a",
+      "originalLanguage": "fr",
+      "titleIsOriginal": true,
+      "verbatim": []
+    },
+    "fr-20261011-minors-stage": {
+      "hash": "478581ca2d5ea4c0b9de661f336e28693153515e2b4d039377983e46364ff6fd",
+      "originalLanguage": "fr",
+      "titleIsOriginal": true,
+      "verbatim": []
+    },
+    "fr-20261011-protected-adults-scope": {
+      "hash": "8c36a0f743ccc4891bfa12e2f913824710db8f627d1d1afa19e324f8fb112228",
+      "originalLanguage": "fr",
+      "titleIsOriginal": true,
+      "verbatim": []
+    },
+    "fr-20261011-territorial-text-unavailable": {
+      "hash": "ad0e0a1f9762e688f8888274932d90fc452c2797fa12e656b167e1fa7a4c423f",
+      "originalLanguage": "fr",
+      "titleIsOriginal": true,
+      "verbatim": []
+    },
+    "fr-20261011-family-remittance-scope": {
+      "hash": "ee7fd910d913b440779c01d441282f6826ac5a2ed430960bf113f65254e71210",
+      "originalLanguage": "fr",
+      "titleIsOriginal": true,
+      "verbatim": []
+    },
+    "fr-20261011-aspa-amount-dates": {
+      "hash": "6367d166b9a3f883d60f4cebde00ae12fe08c911bfdcc018b95c052a720f486f",
+      "originalLanguage": "fr",
+      "titleIsOriginal": true,
+      "verbatim": []
+    },
+    "fr-hdf-farm-heat-support-2026-notice": {
+      "hash": "e30c22d399e4e001889578e4369f9c9083fbf2addbcdc1a4ad2c6e1a8cc0891c",
+      "originalLanguage": "fr",
+      "titleIsOriginal": true,
+      "verbatim": []
+    },
+    "fr-hdf-audiovisual-public-service-2026-notice": {
+      "hash": "0788a0087897fa46216822a722437e576203b3c607915cb89e13281ef0c9372d",
+      "originalLanguage": "fr",
+      "titleIsOriginal": true,
+      "verbatim": []
+    },
+    "fr-idf-youth-five-measures-2026-notice": {
+      "hash": "f5074c006c5ed1f0c5a54e3415f24cd4f39ca9851b1b8ee4dc280a97c21341aa",
+      "originalLanguage": "fr",
+      "titleIsOriginal": true,
+      "verbatim": []
+    },
+    "fr-naq-post-fire-recovery-plan-2026-notice": {
+      "hash": "d7224c7b8d9473aea90c94a6af3165cecb3672db60a173d23d2b8b7855ac002d",
+      "originalLanguage": "fr",
+      "titleIsOriginal": true,
+      "verbatim": []
+    },
+    "fr-mayotte-energy-excise-reduction-2026-notice": {
+      "hash": "bf390532fc5e7721287c768ddae09d5a64b83ea8249c06a67ca550461c0fc826",
+      "originalLanguage": "fr",
+      "titleIsOriginal": true,
+      "verbatim": []
+    },
+    "fr-mayotte-port-order-431-2026": {
+      "hash": "405bfb29b4ab0597c137e643f86f4dc782d248b2d7e8a784489d785edaea83e5",
+      "originalLanguage": "fr",
+      "titleIsOriginal": true,
+      "verbatim": []
+    },
+    "fr-mayotte-port-order-432-2026": {
+      "hash": "e945700d0970eeadd6d7435b5d042ae090c91ebc5603cfac7c7131ba44379f39",
+      "originalLanguage": "fr",
+      "titleIsOriginal": true,
+      "verbatim": []
+    },
+    "fr-nor-care-finance-rules-20260914": {
+      "hash": "bed0950b93ef16ed70ee95f6e8907ec964e9da951c961cb94b3f0d96e58c002f",
+      "originalLanguage": "fr",
+      "titleIsOriginal": true,
+      "verbatim": []
+    },
+    "fr-naq-fire-implementation-20260928": {
+      "hash": "cb5238d24abc52ebb32f1bf409a1289ced2418b212fe74f489708ace76b596b0",
+      "originalLanguage": "fr",
+      "titleIsOriginal": true,
+      "verbatim": []
+    },
+    "fr-reunion-displaced-children-reparation-2026-law": {
+      "hash": "ad96711547a4cb6dbb1fc90df8ec0de4d446225995e0f11f3185ade382853077",
+      "originalLanguage": "fr",
+      "titleIsOriginal": true,
+      "verbatim": []
+    },
+    "fr-martinique-energy-water-powers-2026-law": {
+      "hash": "c77c3abfe90b84fd2839157f1d1a430454e10460c275d68a923cafaeb200f2c6",
+      "originalLanguage": "fr",
+      "titleIsOriginal": true,
+      "verbatim": []
+    },
+    "fr-guyana-human-remains-return-2026-law": {
+      "hash": "b24d62e0f9c9918fc82ce506cab7f57aa6c1dfaf5dd7f5df3a33df177cb49a20",
+      "originalLanguage": "fr",
+      "titleIsOriginal": true,
+      "verbatim": []
+    },
+    "fr-public-service-worker-housing-2026-law": {
+      "hash": "9a82281344870c9de8c27db0cbfed8beef94a995627d6c08a6984b122496491c",
+      "originalLanguage": "fr",
+      "titleIsOriginal": true,
+      "verbatim": []
+    },
+    "fr-cardiovascular-prevention-strategy-2026-law": {
+      "hash": "fe7865084a6d1efc2e8108cb4f70870df573980401f7f5f43294acac76a0a568",
+      "originalLanguage": "fr",
+      "titleIsOriginal": true,
+      "verbatim": []
+    },
+    "fr-professional-training-skills-blocks-2026-law": {
+      "hash": "c319413c8ac5de2396ddcc8d1aed8c71b6e0dbbc2885a471fea746c7e46f0c0e",
+      "originalLanguage": "fr",
+      "titleIsOriginal": true,
+      "verbatim": []
+    },
+    "fr-small-commune-childcare-funding-2026-law": {
+      "hash": "9e6e867c2b55b670bf797f8361922648f34c40b757e8589301b9ff031b73c458",
+      "originalLanguage": "fr",
+      "titleIsOriginal": true,
+      "verbatim": []
+    },
+    "fr-campaign-accountant-cost-reimbursement-2026-law": {
+      "hash": "67150440c901f98e65d20983814b76fa4665e489174a8aec52379306fcc78da9",
+      "originalLanguage": "fr",
+      "titleIsOriginal": true,
+      "verbatim": []
+    },
+    "fr-uk-trained-doctors-pre-brexit-2026-law": {
+      "hash": "15e5fdda4a729213e026923d3cd55ebdb6d3cf0f4bf05089e2c16e3371edbc65",
+      "originalLanguage": "fr",
+      "titleIsOriginal": true,
+      "verbatim": []
+    },
+    "fr-ski-trainee-activity-sharing-2026-law": {
+      "hash": "7c0440d68da174fa8a223f1e64debd07d084c7f87c6bba0ebf3820161f7a73e0",
+      "originalLanguage": "fr",
+      "titleIsOriginal": true,
+      "verbatim": []
+    },
+    "fr-polynesia-communal-actions-2026-law": {
+      "hash": "2007138035a1d7d7e5562bcc46aa9e565f22d880865eda8923fc3128b675462f",
+      "originalLanguage": "fr",
+      "titleIsOriginal": true,
+      "verbatim": []
+    },
+    "fr-detention-oversight-visits-2026-law": {
+      "hash": "a827c57f02ad225eed474f2d653e3419728a11a0df67cf9fd203b42b33444410",
+      "originalLanguage": "fr",
+      "titleIsOriginal": true,
+      "verbatim": []
+    },
+    "fr-uncontested-commercial-debts-2026-law": {
+      "hash": "12ebe37d606089bf0217b9b309c62e8e3dd5ad457cb1f5dad7f37af23333221d",
+      "originalLanguage": "fr",
+      "titleIsOriginal": true,
+      "verbatim": []
+    },
+    "fr-child-protection-lawyer-2026-law": {
+      "hash": "b7a69417c5233e7a30ef597bb3bda848f68e73f04893d0e10a44f4de55234067",
+      "originalLanguage": "fr",
+      "titleIsOriginal": true,
+      "verbatim": []
+    },
+    "fr-new-caledonia-native-electoral-roll-2026-law": {
+      "hash": "d534b3464e62151f054ab8ce6a2c7565e27d6f4b22dfffc56d343e5e2f384874",
+      "originalLanguage": "fr",
+      "titleIsOriginal": true,
+      "verbatim": []
+    },
+    "fr-chlordecone-state-responsibility-2026-law": {
+      "hash": "32691ec511269cf4756feec0e3c090d3e5123ea622786f5f1bda409c0e717dde",
+      "originalLanguage": "fr",
+      "titleIsOriginal": true,
+      "verbatim": []
+    },
+    "fr-individual-termination-unemployment-duration-2026-law": {
+      "hash": "561a1ca9da4e8d60ad97072374b3c9d439270865b803a2d10373e7fd7fa8e61b",
+      "originalLanguage": "fr",
+      "titleIsOriginal": true,
+      "verbatim": []
+    },
+    "fr-fire-rescue-health-professions-2026-law": {
+      "hash": "86d6ee06dd0176d62acff18289b2814489768fa9eec35b4cfe0e880e9d079e5d",
+      "originalLanguage": "fr",
+      "titleIsOriginal": true,
+      "verbatim": []
+    },
+    "fr-coownership-vacant-estates-2026-law": {
+      "hash": "9d353aee8a4a4f2e17b367091fe1ec7644a1ea36fbce796b806a74e3c6fa980f",
+      "originalLanguage": "fr",
+      "titleIsOriginal": true,
+      "verbatim": []
+    },
+    "fr-minors-digital-school-protection-2026-law": {
+      "hash": "d9951fc0d4d4b8e32c9e164b7778ab40cb02d15cc7c455ee3e50dffc11549d6e",
+      "originalLanguage": "fr",
+      "titleIsOriginal": true,
+      "verbatim": []
+    },
+    "fr-inhouse-legal-advice-confidentiality-2026-law": {
+      "hash": "25d84664ca062e6dc5196a6e08f0962342a516e0a902146e3af2b5dbbbce8ac2",
+      "originalLanguage": "fr",
+      "titleIsOriginal": true,
+      "verbatim": []
+    },
+    "fr-illicit-cultural-property-restitution-2026-law": {
+      "hash": "2b4ea0759ea47446fce7a7736117eb776a472533f60618c7a4f5cbe143795358",
+      "originalLanguage": "fr",
+      "titleIsOriginal": true,
+      "verbatim": []
+    },
+    "fr-flood-prevention-local-powers-2026-law": {
+      "hash": "362ea631f360acc3b61fbd6af92a527706c310e41dc801f443df21c07330810b",
+      "originalLanguage": "fr",
+      "titleIsOriginal": true,
+      "verbatim": []
+    },
+    "fr-ultra-fast-fashion-environment-2026-law": {
+      "hash": "b26e2c0542b537ff19834f09dcbef4df4855d3a0b87297a499eabf26a523c307",
+      "originalLanguage": "fr",
+      "titleIsOriginal": true,
+      "verbatim": []
+    },
+    "fr-parents-seriously-ill-children-2026-law": {
+      "hash": "e10ef2117fcd819e7856bec478aa9b2d33ac46e45cdd2b5c5fbce52d40eb07c1",
+      "originalLanguage": "fr",
+      "titleIsOriginal": true,
+      "verbatim": []
+    },
+    "fr-criminal-court-honorary-lawyers-2026-law": {
+      "hash": "d45c2c79a27724a09f8caf1889401b1984441cea3e502bd0d0813aaf6912d7ef",
+      "originalLanguage": "fr",
+      "titleIsOriginal": true,
+      "verbatim": []
+    },
+    "fr-state-property-agency-reform-2026-law": {
+      "hash": "11ad80023909a6565f535cf2553f420e27cdc06056e18556f69015df80ee14ed",
+      "originalLanguage": "fr",
+      "titleIsOriginal": true,
+      "verbatim": []
+    },
+    "fr-mountain-services-land-planning-2026-law": {
+      "hash": "8f18557756a405a0e1b5117032796ffc913d029a3152f114e3d1bb9196b070e4",
+      "originalLanguage": "fr",
+      "titleIsOriginal": true,
+      "verbatim": []
+    },
+    "fr-palliative-care-access-2026-law": {
+      "hash": "17166d58115c05b56e6f7c763b277d275884ecf2a96ed798a0d6dd9acf21ccfd",
+      "originalLanguage": "fr",
+      "titleIsOriginal": true,
+      "verbatim": []
+    },
+    "fr-assisted-dying-right-framework-2026-law": {
+      "hash": "95006cb0b086b6f9c6e288f29b63235b5fb220fc23ed82b776acec72bf7ec1b4",
+      "originalLanguage": "fr",
+      "titleIsOriginal": true,
+      "verbatim": []
+    },
+    "fr-security-detention-terrorism-safeguards-2026-law": {
+      "hash": "555a4035e8fe9a2daaceef9f9da2e3cec8da0daca95719d9953bea437e9edd1c",
+      "originalLanguage": "fr",
+      "titleIsOriginal": true,
+      "verbatim": []
+    },
+    "fr-criminal-justice-victim-reform-2026-law": {
+      "hash": "041091e3054201f27004c4535cf61c75320edc541defc198a59a7ebb032b0bc4",
+      "originalLanguage": "fr",
+      "titleIsOriginal": true,
+      "verbatim": []
+    },
+    "fr-hydropower-concession-transition-2026-law": {
+      "hash": "5e23cc89842367b97f523a3304c4e59b89f4778f6fd865bd57cb59e8fdfec626",
+      "originalLanguage": "fr",
+      "titleIsOriginal": true,
+      "verbatim": []
+    },
+    "fr-professional-sport-governance-2026-law": {
+      "hash": "591d0c66b4b6b04db401bfd08fabf48d9fdbbe3a67216397a6325f4ccded300c",
+      "originalLanguage": "fr",
+      "titleIsOriginal": true,
+      "verbatim": []
+    },
+    "fr-social-tax-fraud-safeguards-2026-law": {
+      "hash": "39f727d5fc3652aeaa7fa474db56d2f5c6f7c378c6b54b893a4502a01999209e",
+      "originalLanguage": "fr",
+      "titleIsOriginal": true,
+      "verbatim": []
+    },
+    "fr-economic-simplification-framework-2026-law": {
+      "hash": "21c5716f1a800664520c79a97647159ce30e194ba0f861fb3ad6e0244ecefa50",
+      "originalLanguage": "fr",
+      "titleIsOriginal": true,
+      "verbatim": []
+    },
+    "fr-agricultural-sovereignty-framework-2026-law": {
+      "hash": "be7bebd824fc7e1e239ab5b402a7b129abf061de9388efbc0090c978c9faf813",
+      "originalLanguage": "fr",
+      "titleIsOriginal": true,
+      "verbatim": []
+    },
+    "fr-public-order-framework-2026-law": {
+      "hash": "26fb2aa97d9a2b14d6bbb0121efd276283a88de184e439a8988a6c5692deb346",
+      "originalLanguage": "fr",
+      "titleIsOriginal": true,
+      "verbatim": []
+    },
+    "fr-military-programme-update-2026-law": {
+      "hash": "0e2fcc38d4e72ab4e35aa89fba035caa74497d1ea93939c2ecefd966ac68ede7",
+      "originalLanguage": "fr",
+      "titleIsOriginal": true,
+      "verbatim": []
+    },
+    "fr-winter-olympics-2030-framework-2026-law": {
+      "hash": "5d0cda8f5a6bbe836f0521501dbfc2950c43091afd53e9b4090abccc0cbd5516",
+      "originalLanguage": "fr",
+      "titleIsOriginal": true,
+      "verbatim": []
+    },
+    "fr-finance-law-household-framework-2026-law": {
+      "hash": "b3d13dc32e5855855599c7b7f0102b98c4fe92141efeb3089433c1876bd050ba",
+      "originalLanguage": "fr",
+      "titleIsOriginal": true,
+      "verbatim": []
+    },
+    "fr-pac-e85-conversion-grant-2026-law": {
+      "hash": "dd3c00f1fc3ba3aac1953beb3b56554a4638f67731adcb225ef93dc0aaa09ebf",
+      "originalLanguage": "fr",
+      "titleIsOriginal": true,
+      "verbatim": []
+    },
+    "fr-pac-mobile-breast-screening-2026-law": {
+      "hash": "a50503043bd3c8b5c2bb3bd9455c44914a0edffd530f4b3ba0b07fed10feb07d",
+      "originalLanguage": "fr",
       "titleIsOriginal": true,
       "verbatim": []
     }

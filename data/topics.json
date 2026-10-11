@@ -4134,6 +4134,112 @@
       "explanations": [
         "de-retirement-age-and-early-exit-proposals-2026"
       ]
+    },
+    {
+      "id": "fr-platform-courier-income-2026",
+      "title": [
+        "平台独立配送员最低活动收入：协议、批准与范围修正",
+        "Independent platform couriers’ activity-income guarantee: agreement, approval and scope correction"
+      ],
+      "basis": "The 12 September decision explicitly homologates the 10 July amendment to the 20 April 2023 agreement. The 22 September decision explicitly amends that decision. Service Public A19075 describes the same increase and is corrected against both original decisions. Different document stages and dates remain separate.",
+      "appliesFromExport": "2026-10-11T01:08:18.429Z",
+      "documents": [
+        {
+          "region": "FR",
+          "officialId": "Service Public A19075"
+        },
+        {
+          "region": "FR",
+          "officialId": "Avenant ARPE du 10 juillet 2026"
+        },
+        {
+          "region": "FR",
+          "officialId": "NOR TRST2624412S"
+        },
+        {
+          "region": "FR",
+          "officialId": "NOR TRST2625149S"
+        }
+      ]
+    },
+    {
+      "id": "fr-gas-benchmark-october-2026",
+      "title": [
+        "2026年10月住宅燃气参考价",
+        "October 2026 residential gas benchmark"
+      ],
+      "basis": "Service Public A17956 explicitly cites the 10 September CRE announcement for the same October benchmark and bill estimate. This is not a separate tariff law.",
+      "appliesFromExport": "2026-10-11T01:08:18.429Z",
+      "documents": [
+        {
+          "region": "FR",
+          "officialId": "Service Public A17956"
+        },
+        {
+          "region": "FR",
+          "officialId": "CRE PRVG octobre 2026"
+        }
+      ]
+    },
+    {
+      "id": "fr-mayotte-port-tariffs-2026",
+      "title": [
+        "隆戈尼港经营及收费安排",
+        "Longoni port operating and tariff arrangements"
+      ],
+      "basis": "Orders 431 and 432 explicitly implement tariffs from the EPPCM handover on 1 September; order 431 cites the 19 August board deliberation described by the earlier announcement. Equipment/land-use and direct Boluda towage/mooring documents remain separate children with distinct charges.",
+      "documents": [
+        {
+          "region": "FR-976",
+          "officialId": "Arrêté 431/DAJAC/DRM/2026"
+        },
+        {
+          "region": "FR-976",
+          "officialId": "Arrêté 432/DAJAC/DRM/2026"
+        }
+      ],
+      "appliesFromExport": "2026-10-11T09:21:39.332Z",
+      "explanations": [
+        "fr-06-port-tariff"
+      ]
+    },
+    {
+      "id": "fr-nor-care-training-financing-2026",
+      "title": [
+        "诺曼底卫生社会培训融资",
+        "Normandy health/social-care training financing"
+      ],
+      "basis": "The spring selection notice explicitly announces the September CPF financing route. The current funding guidance links the 14 September amended regulation detailing that route; the explanation cites both.",
+      "documents": [
+        {
+          "region": "FR-NOR",
+          "officialId": "Ouverture des inscriptions aux sélections d’aide-soignant"
+        },
+        {
+          "region": "FR-NOR",
+          "officialId": "Normandie règlement financement FSS / 2026-09-14"
+        }
+      ],
+      "appliesFromExport": "2026-10-11T09:21:39.332Z"
+    },
+    {
+      "id": "fr-naq-fire-recovery-plan-2026",
+      "title": [
+        "吉伦特及朗德火灾恢复计划",
+        "Gironde and Landes fire recovery plan"
+      ],
+      "basis": "The 28 September committee report explicitly links the fourteen-measure plan and states adoption of its implementation arrangements. Other committee decisions are not grouped into this matter.",
+      "documents": [
+        {
+          "region": "FR-NAQ",
+          "officialId": "Nouvelle-Aquitaine plan incendies / CP 28 septembre 2026"
+        },
+        {
+          "region": "FR-NAQ",
+          "officialId": "Nouvelle-Aquitaine incendies / adoption 2026-09-28"
+        }
+      ],
+      "appliesFromExport": "2026-10-11T09:21:39.332Z"
     }
   ]
 }

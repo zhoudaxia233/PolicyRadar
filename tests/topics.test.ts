@@ -213,3 +213,17 @@ test('an explanation linked to an older group later does not break builds of ear
  assert.deepEqual(resolveTopicRegistry(extended,prior),resolveTopicRegistry(registry,prior));
  assert.throws(()=>resolveTopicRegistry(extended,{...prior,exportedAt:later}),/Unresolved topic explanation/);
 });
+
+test('PNOG acronym search preserves one care matter in both languages',()=>{
+ const index=new Map([...data.policies,...data.intake.records].map(r=>[r.id,searchText(r,localization)]));
+ for(const query of ['PNOG','护理保险融资与待遇','Care-insurance financing and benefits']){
+  const result=selectListing(data.policies,data.intake.records,{...base,country:'DE',view:'all',query},p=>index.get(p.id)??'', '2026-10-11',topics);
+  const care=result.cards.filter(c=>c.policy.id==='de-care-insurance-reform-pnog'||c.policy.id==='de-care-financing-opposition-2026');
+  assert.equal(care.length,1);
+  assert.equal(care[0].group?.id,'topic:de-care-insurance-reform-pnog');
+  assert.equal(care[0].group?.policyIds.length,2);
+  const progress=selectListing(data.policies,data.intake.records,{...base,country:'DE',view:'intake',query},p=>index.get(p.id)??'', '2026-10-11',topics);
+  assert.equal(progress.count,1);
+  assert.equal(progress.progress.length,2);
+ }
+});

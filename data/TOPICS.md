@@ -117,6 +117,10 @@ decision in `data/dispositions.json` instead of writing a placeholder explanatio
   a change, a sanctions listing or an act that changes rights, obligations,
   charges or benefits is a policy matter: explain it or group it with the matter
   it belongs to. When unsure, leave it awaiting explanation.
+- A non-binding motion or resolution can still propose a concrete policy change.
+  Non-binding status alone never justifies dismissal. A debate page covering
+  several such proposals needs each substantive proposal accounted for; linking
+  one of them must not hide the others behind a narrow explanation.
 - The build rejects missing references, records with two decisions, records
   already explained, part of a topic group (a group can only be dismissed as a
   whole, and only if no explanation covers it) and cross-country entries. A

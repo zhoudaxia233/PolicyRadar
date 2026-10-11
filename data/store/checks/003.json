@@ -2104,5 +2104,833 @@
     "snapshot_key": "sources/5c69f57aac85522ceee46a01ed28fc27e825d291bdf6417b9460f0a9ad69022c/93543fa5c5d7fd9b27c72bbc54f6fe20404ffb44ee20b5ddff6abcb14022e38d.html",
     "changed": 0,
     "error": null
+  },
+  {
+    "url": "https://dserver.bundestag.de/btd/21/078/2107865.pdf",
+    "checked_at": "2026-10-10T23:50:02.805042Z",
+    "last_success_at": "2026-10-10T23:50:02.805042Z",
+    "hash": "f4436f10446c9fd49e6ac4ffe1b0950efe8564848ed7ef3dd90c551cbe33d511",
+    "snapshot_key": "sources/8829e156cc6ec18b9ecaa11b9c66836fdc9ea35cbd1e2a0495ffc4aa6be27086/f4436f10446c9fd49e6ac4ffe1b0950efe8564848ed7ef3dd90c551cbe33d511.pdf",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://dserver.bundestag.de/btd/21/083/2108302.pdf",
+    "checked_at": "2026-10-10T23:50:02.812330Z",
+    "last_success_at": "2026-10-10T23:50:02.812330Z",
+    "hash": "df6c8f79651320a0f51ff8d1a2bdf60b84bc03a11ec21c703b0796434e61e099",
+    "snapshot_key": "sources/633a39f991cbbbfaf5454850674fce44ab4ed980dafe2cb0bcac584312d22db9/df6c8f79651320a0f51ff8d1a2bdf60b84bc03a11ec21c703b0796434e61e099.pdf",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://www.gesetze-im-internet.de/gwb/__35.html",
+    "checked_at": "2026-10-10T23:51:21.202480Z",
+    "last_success_at": "2026-10-10T23:51:21.202480Z",
+    "hash": "b46668820723cc6c6b26d0a71e6f225c25cf5bb1810027aa7d68e046bdfd73a1",
+    "snapshot_key": "sources/c9ad77655c80dd7052f1059aa986b76c264aa801add9634370c34c4a8da7dfc4/b46668820723cc6c6b26d0a71e6f225c25cf5bb1810027aa7d68e046bdfd73a1.html",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://dserver.bundestag.de/btd/21/084/2108445.pdf",
+    "checked_at": "2026-10-10T23:50:02.961150Z",
+    "last_success_at": "2026-10-10T23:50:02.961150Z",
+    "hash": "5229f8d1e2d76333254f232c445398bd25cdd5f0341d7c19c1b07ec32d5f4578",
+    "snapshot_key": "sources/8b18ee238b0ee909de2c81ad3197866c9d039e81aef4b66bea6e5a8221f55f85/5229f8d1e2d76333254f232c445398bd25cdd5f0341d7c19c1b07ec32d5f4578.pdf",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://dserver.bundestag.de/btd/21/084/2108447.pdf",
+    "checked_at": "2026-10-10T23:50:03.003345Z",
+    "last_success_at": "2026-10-10T23:50:03.003345Z",
+    "hash": "ce22a4ff505ca6130fa9fa5a413682c6f0bd65a5432288e1081cd9cd7fff5f20",
+    "snapshot_key": "sources/68abe99a07f4123c379d2176649d1dbe4aa8e2ee3322f5bc5a700f4654ea0073/ce22a4ff505ca6130fa9fa5a413682c6f0bd65a5432288e1081cd9cd7fff5f20.pdf",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://dserver.bundestag.de/btd/21/084/2108448.pdf",
+    "checked_at": "2026-10-10T23:50:03.131876Z",
+    "last_success_at": "2026-10-10T23:50:03.131876Z",
+    "hash": "adf3ae0020e2e7a34a0c02d070ed71a7633af3316397dc670baaec2bfc74322c",
+    "snapshot_key": "sources/9a20d0c534d5f5d3f9fdbe18da9dad13fd8e38c313d9d0ddee5153969e0de272/adf3ae0020e2e7a34a0c02d070ed71a7633af3316397dc670baaec2bfc74322c.pdf",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://www.gesetze-im-internet.de/pkw-envkv/__7.html",
+    "checked_at": "2026-10-10T23:51:21.202704Z",
+    "last_success_at": "2026-10-10T23:51:21.202704Z",
+    "hash": "fcdfd8c75862d81a83b8bebc36565b85f4a2ec2ed0ff79e875261e645370e6b8",
+    "snapshot_key": "sources/2995ff1f966807665833382bb5090bea073ffa688350d65b2b0e5479d150cbe8/fcdfd8c75862d81a83b8bebc36565b85f4a2ec2ed0ff79e875261e645370e6b8.html",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://dserver.bundestag.de/btd/21/084/2108401.pdf",
+    "checked_at": "2026-10-10T23:51:21.202212Z",
+    "last_success_at": "2026-10-10T23:51:21.202212Z",
+    "hash": "297fae1eb7a1550b3dd7ee1bcdfe4f05e2a468b218bfaafa739ed731899106b0",
+    "snapshot_key": "sources/0d749927ed3dc112908e6ec0c6237661f17502a5ddefd4a36d4aea22e9004e6c/297fae1eb7a1550b3dd7ee1bcdfe4f05e2a468b218bfaafa739ed731899106b0.pdf",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://www.gesetze-im-internet.de/muschg_2018/__1.html",
+    "checked_at": "2026-10-10T23:51:21.202660Z",
+    "last_success_at": "2026-10-10T23:51:21.202660Z",
+    "hash": "8af8aec0146e843ec1f0a2f0302ecc82e0fca29872167b71ea89371b449fd6ce",
+    "snapshot_key": "sources/1251d036baf7603ac1431530384620f311c8138f9c861f8c647c5f8f5c041566/8af8aec0146e843ec1f0a2f0302ecc82e0fca29872167b71ea89371b449fd6ce.html",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://www.gesetze-im-internet.de/sgb_5/__24i.html",
+    "checked_at": "2026-10-10T23:51:21.202615Z",
+    "last_success_at": "2026-10-10T23:51:21.202615Z",
+    "hash": "286c6a1de1a620ecf7103da846fef37afc082265b36b08ea349b9130c980538b",
+    "snapshot_key": "sources/e66885906619e9a5621404bb4c02ad28c0b4813227db9f584d9d9f59a50e550a/286c6a1de1a620ecf7103da846fef37afc082265b36b08ea349b9130c980538b.html",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://www.bundesfinanzministerium.de/Content/DE/FAQ/energiesteuersenkung.html",
+    "checked_at": "2026-10-10T23:57:49.917583Z",
+    "last_success_at": "2026-10-10T23:57:49.917583Z",
+    "hash": "3c546b8745fef064f31fcdcdb91a181a1501dc615836250de2d9625029d9d713",
+    "snapshot_key": "sources/c96419ec3a4d7519547f2b92d0ce4cfd17e772a2155d0f84f9ce03fa779d49a4/3c546b8745fef064f31fcdcdb91a181a1501dc615836250de2d9625029d9d713.html",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://dserver.bundestag.de/btd/21/084/2108481.pdf",
+    "checked_at": "2026-10-10T23:50:02.774519Z",
+    "last_success_at": "2026-10-10T23:50:02.774519Z",
+    "hash": "e94f5e37ffe7e649054cce2dd29d47f455f93a5e1df300d8fcb19467781d7cde",
+    "snapshot_key": "sources/13449bb599b35c1d37d2b1b8104e5a9bb49495a5ad578d2e8b247864eccb5965/e94f5e37ffe7e649054cce2dd29d47f455f93a5e1df300d8fcb19467781d7cde.pdf",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://dserver.bundestag.de/btd/21/054/2105486.pdf",
+    "checked_at": "2026-10-10T23:52:59.375888Z",
+    "last_success_at": "2026-10-10T23:52:59.375888Z",
+    "hash": "eb16147dc2e74a9944f7390d556ac0c6bd1e64b607036b4b10a554ef874f0d74",
+    "snapshot_key": "sources/e7aa41e214f8005955c90c4ae148ab6879f01eeed2adc7f20e53210d597c0278/eb16147dc2e74a9944f7390d556ac0c6bd1e64b607036b4b10a554ef874f0d74.pdf",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw17-de-vermoegensteuer-1145270",
+    "checked_at": "2026-10-10T23:52:25.840201Z",
+    "last_success_at": "2026-10-10T23:52:25.840201Z",
+    "hash": "f7a3b662680addc61e0b142f06684c2b63e219c62d6519837ace7193151ba6d1",
+    "snapshot_key": "sources/873f16fd8f7b892740ac46e45db38bfb75e744421330793d667909162cc84753/f7a3b662680addc61e0b142f06684c2b63e219c62d6519837ace7193151ba6d1.html",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://upload.open.rlp.de/verkuendung/bb88dd98-1eee-45ba-af3e-eb77aa9e5ec8/resource/c6dc851b-52e6-427a-a850-9002598e509a/download/minblatt-nr.-42-2026_sealed.pdf",
+    "checked_at": "2026-10-11T00:03:09.695225Z",
+    "last_success_at": "2026-10-11T00:03:09.695225Z",
+    "hash": "1f963aa647c428a6ed939c626008944e8a1e8d98d80fd25774dbc390a2baa4d3",
+    "snapshot_key": "sources/fd11170ef6dbc66cf6a19c7198dbc650d50b80b6f7286764d24729414a7d3c6b/1f963aa647c428a6ed939c626008944e8a1e8d98d80fd25774dbc390a2baa4d3.pdf",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://wiederaufbau.rlp.de/haeufige-fragen/aufbauhilfen-fuer-private/fragen-zur-foerderung-allgemein",
+    "checked_at": "2026-10-11T00:05:16.589073Z",
+    "last_success_at": "2026-10-11T00:05:16.589073Z",
+    "hash": "f55c1bd65ae6563eeeb930c3de2eed0cc4a65d60e829cadfd1e8e276eb4a993a",
+    "snapshot_key": "sources/a226a899dd39d5194203dd2c1c0ca87695c87c562ab14dbc36d91eb27b6ce88d/f55c1bd65ae6563eeeb930c3de2eed0cc4a65d60e829cadfd1e8e276eb4a993a.html",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://wiederaufbau.rlp.de/haeufige-fragen/aufbauhilfen-fuer-kommunen",
+    "checked_at": "2026-10-11T00:05:16.589155Z",
+    "last_success_at": "2026-10-11T00:05:16.589155Z",
+    "hash": "4eef5475eb196921e4cd542cf9ba26c8dda44a7483f92c3bbb55a38dca227daf",
+    "snapshot_key": "sources/31b57e442349b1a303ce3aac0757497437f7a961b426978c66f259fe0cb0ae07/4eef5475eb196921e4cd542cf9ba26c8dda44a7483f92c3bbb55a38dca227daf.html",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://upload.open.rlp.de/verkuendung/4627da61-2e63-44ff-b935-d787e4e248c0/resource/062aba03-cd6f-44d9-b589-6d9fe85aec83/download/minblatt-nr.-43-2026_sealed.pdf",
+    "checked_at": "2026-10-11T00:03:09.651472Z",
+    "last_success_at": "2026-10-11T00:03:09.651472Z",
+    "hash": "a8b03612df53765d423b648646ced04bd0afaf7073a79883dc6c578940b7a362",
+    "snapshot_key": "sources/5f6b5bbab3cd47fb90bc3b684eaaf73d60f0079f78b7a42343ff1cdcecdf5b54/a8b03612df53765d423b648646ced04bd0afaf7073a79883dc6c578940b7a362.pdf",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://isb.rlp.de/wirtschaft/tourismus.html",
+    "checked_at": "2026-10-11T00:05:16.588762Z",
+    "last_success_at": "2026-10-11T00:05:16.588762Z",
+    "hash": "95cfbde4726b19acda9aa7e76b2b8daffa3a876b56a5118bc2a8d1c53ac4a8dc",
+    "snapshot_key": "sources/778511bb8b9721c7eff2a7faaff4c13456464a8d6894abbfac5cdd203cd228b7/95cfbde4726b19acda9aa7e76b2b8daffa3a876b56a5118bc2a8d1c53ac4a8dc.html",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://verkuendungsportal.schleswig-holstein.de/home/gvobl/veroeffentlichungen/2026/2026_10/2026-94_oktober06.pdf?__blob=publicationFile&v=1",
+    "checked_at": "2026-10-11T00:04:32.302646Z",
+    "last_success_at": "2026-10-11T00:04:32.302646Z",
+    "hash": "796ca70f942102bf370b37f73dfe752016e281cc80344288b7066fe1a3242fdc",
+    "snapshot_key": "sources/4334263d6d1d9d687a528c377dc01cecfa9b6b1a35b6b2515d1a764568fb6136/796ca70f942102bf370b37f73dfe752016e281cc80344288b7066fe1a3242fdc.pdf",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://verkuendung.hessen.de/sites/verkuendung.hessen.de/files/veroeffentlichungsplattform_plugin/published/1534/GVBl_2026_Nr_66_Regelungstext.pdf",
+    "checked_at": "2026-10-11T00:08:49.822438Z",
+    "last_success_at": "2026-10-11T00:08:49.822438Z",
+    "hash": "010a8cb815366bfbf5866c851d9973ffa1d6a310b2835f30a7cabb22cf7fa9e5",
+    "snapshot_key": "sources/be0e470ae26151d7836d5a97bfdb4dd8b9f52ee846d11cc3326ebe87fa1da7a3/010a8cb815366bfbf5866c851d9973ffa1d6a310b2835f30a7cabb22cf7fa9e5.pdf",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://verkuendung.hessen.de/sites/verkuendung.hessen.de/files/veroeffentlichungsplattform_plugin/published/1535/GVBl_2026_Nr_67_Regelungstext.pdf",
+    "checked_at": "2026-10-11T00:08:49.822168Z",
+    "last_success_at": "2026-10-11T00:08:49.822168Z",
+    "hash": "ddca3ea92f65cadbca00d7a8c6517c7f51be1452ca1a124ebb893db191c1532e",
+    "snapshot_key": "sources/fa868612ebc86926a3248578bf00cd6a68125ab67f3571d9855e4107d293ab7f/ddca3ea92f65cadbca00d7a8c6517c7f51be1452ca1a124ebb893db191c1532e.pdf",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://verkuendungsportal.schleswig-holstein.de/home/gvobl/veroeffentlichungen/2026/2026_10/2026-89_oktober06.pdf?__blob=publicationFile&v=1",
+    "checked_at": "2026-10-11T00:04:32.302717Z",
+    "last_success_at": "2026-10-11T00:04:32.302717Z",
+    "hash": "18c39f088cfdfd9b98b99680260490ae1cf148abfd314f48fae24a09f591a785",
+    "snapshot_key": "sources/d819c0818fd2da189f9c750613ddbd1f9ffa45f667dba133bdf868e1c180a22c/18c39f088cfdfd9b98b99680260490ae1cf148abfd314f48fae24a09f591a785.pdf",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://verkuendungsportal.schleswig-holstein.de/home/gvobl/veroeffentlichungen/2025/2025_dezember/2025-166_dezember15.pdf?__blob=publicationFile&v=1",
+    "checked_at": "2026-10-11T00:15:48.853965Z",
+    "last_success_at": "2026-10-11T00:15:48.853965Z",
+    "hash": "4ea9fea442679c4ff2898355b0353eafd21ab6c5d142996d67323620495033ae",
+    "snapshot_key": "sources/f1e73da212732035611079c0784dc25852a39d1b316cf7b35d214e4a8b227755/4ea9fea442679c4ff2898355b0353eafd21ab6c5d142996d67323620495033ae.pdf",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://www.baden-wuerttemberg.de/index.php?eID=dumpFile&t=r&r=500862&dl=1&fn=GBl._2026_Nr._80_vom_06.10.2026_signed.pdf&token=09a6b26a59b08adf0fe0c63c24ad5d4223aad50c",
+    "checked_at": "2026-10-11T00:03:50.532913Z",
+    "last_success_at": "2026-10-11T00:03:50.532913Z",
+    "hash": "24e848a9728c6a1c783ff9e4e39cac8d1b49bb62f54bf1a53a84f43976d3b230",
+    "snapshot_key": "sources/c34aebb3deb295becd9decfb6061ab99a9882043e18a0e78edcd0030297653d7/24e848a9728c6a1c783ff9e4e39cac8d1b49bb62f54bf1a53a84f43976d3b230.pdf",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://www.baden-wuerttemberg.de/index.php?dl=1&eID=dumpFile&fn=GBl._2026_Nr._25_vom_27.02.2026_signed.pdf&r=468235&t=r&token=3c8d8278167db87e7e371f4130f933a17c7299d0",
+    "checked_at": "2026-10-11T00:15:14.414163Z",
+    "last_success_at": "2026-10-11T00:15:14.414163Z",
+    "hash": "16c980f48a39a0cf28733e64d9a7b6253c936769af23bc5d828a0ff48893aead",
+    "snapshot_key": "sources/189c31973f0e8875f2f05497bc62f00508f0c499f2d5edf581768505f0262ce2/16c980f48a39a0cf28733e64d9a7b6253c936769af23bc5d828a0ff48893aead.pdf",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://www.recht.bund.de/bgbl/2/2026/140/regelungstext.pdf?__blob=publicationFile&v=1",
+    "checked_at": "2026-10-11T00:17:19.192572Z",
+    "last_success_at": "2026-10-11T00:17:19.192572Z",
+    "hash": "80cd52b0bd97eee7178563613926a1cd76622c9e5b42a1e064f44739f3f3f86d",
+    "snapshot_key": "sources/204cd088c8ab02a80c30273d85257e8b0b24c2b7c5419e3017b4f32b349e781a/80cd52b0bd97eee7178563613926a1cd76622c9e5b42a1e064f44739f3f3f86d.pdf",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://verkuendungsportal.schleswig-holstein.de/home/gvobl/veroeffentlichungen/2026/2026_10/2026-92_oktober02.pdf?__blob=publicationFile&v=1",
+    "checked_at": "2026-10-11T00:04:32.302775Z",
+    "last_success_at": "2026-10-11T00:04:32.302775Z",
+    "hash": "58887d766b1020501b982e9a73e03f5c41501aa8bf2f16e5b40942bfe6d7c2c9",
+    "snapshot_key": "sources/16248afe903d6a9d0d86e919615725f39e924c0beecd83c3b69ab453caf90ae0/58887d766b1020501b982e9a73e03f5c41501aa8bf2f16e5b40942bfe6d7c2c9.pdf",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://www.schleswig-holstein.de/DE/landesregierung/ministerien-behoerden/DLZP/_startseite/Kurzmeldungen/_documents/Besoldungs-_und_Versorgungsanpassung_2025-2027",
+    "checked_at": "2026-10-11T00:15:48.853581Z",
+    "last_success_at": "2026-10-11T00:15:48.853581Z",
+    "hash": "a379d96d2b6c91b7be194a05ea3194f6045e44a050a27061d52b08e531f907f0",
+    "snapshot_key": "sources/d5c3d37929de8986927a678d0160204f42a70554be19b017b7be3ad4e9ad4674/a379d96d2b6c91b7be194a05ea3194f6045e44a050a27061d52b08e531f907f0.html",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://www.bundesrat.de/drs.html?id=578-24",
+    "checked_at": "2026-10-11T00:23:08.125576Z",
+    "last_success_at": "2026-10-11T00:23:08.125576Z",
+    "hash": "1ae1cd959f5f8af0e29e3492aeb47c7c63d7cccdaee78cd038cafac6c704ef28",
+    "snapshot_key": "sources/b38b5888d4500f4a882f7766cc005468a3c755cdacd173f674b8583fe7b06ed3/1ae1cd959f5f8af0e29e3492aeb47c7c63d7cccdaee78cd038cafac6c704ef28.pdf",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://www.gesetze-im-internet.de/ksvg/__1.html",
+    "checked_at": "2026-10-11T00:27:07.551870Z",
+    "last_success_at": "2026-10-11T00:27:07.551870Z",
+    "hash": "ebb26c0d702380c89a41a50dc114877bb8e167bd4b20cf210726f1fb2fb56f81",
+    "snapshot_key": "sources/9023246dda434ff8696796247f5c6eecf23edd54ff28693621ac1855e7238583/ebb26c0d702380c89a41a50dc114877bb8e167bd4b20cf210726f1fb2fb56f81.html",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://www.gesetze-im-internet.de/sgb_3/__28a.html",
+    "checked_at": "2026-10-11T00:27:07.552140Z",
+    "last_success_at": "2026-10-11T00:27:07.552140Z",
+    "hash": "6fd9462a577707e07779a927e02667e1e634a68f1a59c0d2abd8226ea5af7f7a",
+    "snapshot_key": "sources/f8a9e2ba978bbdaa2acbf0f00a80737a99aecfbe5f9f8052b6eb5310b1a1e58b/6fd9462a577707e07779a927e02667e1e634a68f1a59c0d2abd8226ea5af7f7a.html",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://www.bundesrat.de/SharedDocs/TO/1069/erl/10.pdf?__blob=publicationFile&v=1",
+    "checked_at": "2026-10-11T00:22:44.309249Z",
+    "last_success_at": "2026-10-11T00:22:44.309249Z",
+    "hash": "ef9a484dd742b4f8a89db4fba79d1e92d1335d89d4053b64cb2fa4f1f3690b09",
+    "snapshot_key": "sources/a6d97d2720611c102fcd7d7ce5793fd56595081d45383cd6f5dfd5e9073f53e1/ef9a484dd742b4f8a89db4fba79d1e92d1335d89d4053b64cb2fa4f1f3690b09.pdf",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://www.bundesrat.de/drs.html?id=532-26",
+    "checked_at": "2026-10-11T00:23:08.126075Z",
+    "last_success_at": "2026-10-11T00:23:08.126075Z",
+    "hash": "223d798794867eac8d0003fd6580fc99dd2ac5cb82d527f3f48e96a138391c1e",
+    "snapshot_key": "sources/08f4e847fbcd4d302ce086716abff7290361453c0bbf9401c2bc1834dabdd690/223d798794867eac8d0003fd6580fc99dd2ac5cb82d527f3f48e96a138391c1e.pdf",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://www.bundesrat.de/drs.html?id=532-1-26",
+    "checked_at": "2026-10-11T00:23:08.126129Z",
+    "last_success_at": "2026-10-11T00:23:08.126129Z",
+    "hash": "b80ada6f1d27bff27409ac6280876549b22589f4c8ed9ba4e4bf0199bc0dd873",
+    "snapshot_key": "sources/59c2df3d6f49b5e0f3438df99329d3b40d5658fbdaa701c75d79d4212ee4e2c9/b80ada6f1d27bff27409ac6280876549b22589f4c8ed9ba4e4bf0199bc0dd873.pdf",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://www.gesetze-im-internet.de/sgb_5/__118b.html",
+    "checked_at": "2026-10-11T00:27:07.673201Z",
+    "last_success_at": "2026-10-11T00:27:07.673201Z",
+    "hash": "c7125806def6148de99c98d4868dfb6261d69b512eeef57e23b903261135b57c",
+    "snapshot_key": "sources/07815a0de5398057c790453944782c47d6a81ed2ab2474a2fe47c287c5860ed4/c7125806def6148de99c98d4868dfb6261d69b512eeef57e23b903261135b57c.html",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://www.bundesrat.de/drs.html?id=521-26",
+    "checked_at": "2026-10-11T00:23:08.126181Z",
+    "last_success_at": "2026-10-11T00:23:08.126181Z",
+    "hash": "2e7ec3442c201a4891c2ca2ec148ec4bfb6a96e36bbb24f389dae3f82b1cc700",
+    "snapshot_key": "sources/38177022d1b2aec45764ab6a411fd79fd1fa0e18d2bea3a04530d5499073032c/2e7ec3442c201a4891c2ca2ec148ec4bfb6a96e36bbb24f389dae3f82b1cc700.pdf",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://www.gesetze-im-internet.de/freiz_gg_eu_2004/__2.html",
+    "checked_at": "2026-10-11T00:27:07.697676Z",
+    "last_success_at": "2026-10-11T00:27:07.697676Z",
+    "hash": "5e17c834db269927f88958f4672b3b4e88549258a7285e5f44199f0aaa7fbe38",
+    "snapshot_key": "sources/bafde13f89d52551c690681b456ef1ae58d7e8a5cb7376eec7f4b53969b7ad8f/5e17c834db269927f88958f4672b3b4e88549258a7285e5f44199f0aaa7fbe38.html",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://www.gesetze-im-internet.de/freiz_gg_eu_2004/__7.html",
+    "checked_at": "2026-10-11T00:27:07.697932Z",
+    "last_success_at": "2026-10-11T00:27:07.697932Z",
+    "hash": "a8c1f242913071a99f03ab7ec38fc53204231ad7fa1ea343a2440b2432f36697",
+    "snapshot_key": "sources/7ae0ee1357c3247ca05d902001e14b1489927d57ce682a6f92ac6a3cb272047e/a8c1f242913071a99f03ab7ec38fc53204231ad7fa1ea343a2440b2432f36697.html",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://www.bundesrat.de/drs.html?id=534-26",
+    "checked_at": "2026-10-11T00:23:08.126230Z",
+    "last_success_at": "2026-10-11T00:23:08.126230Z",
+    "hash": "21539606bbf962debf78c0d268fc41df3a5e5f4db4187cb1b4ddcb5328b2b86b",
+    "snapshot_key": "sources/b68d08351c2c6c67ad936e8d04e6fadbccbede96a4e6e797446f11977b2dd724/21539606bbf962debf78c0d268fc41df3a5e5f4db4187cb1b4ddcb5328b2b86b.pdf",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://www.gesetze-im-internet.de/stgb/__223.html",
+    "checked_at": "2026-10-11T00:27:07.698016Z",
+    "last_success_at": "2026-10-11T00:27:07.698016Z",
+    "hash": "26da59295a3e03cc5f3bcbbbc4c39bb126263f39dac777a174102e661dba15da",
+    "snapshot_key": "sources/e9768eded32fda79e1dd797c5635138884e19f85b93d4d4395f1fced748babc4/26da59295a3e03cc5f3bcbbbc4c39bb126263f39dac777a174102e661dba15da.html",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://www.gesetze-im-internet.de/stgb/__240.html",
+    "checked_at": "2026-10-11T00:27:07.769050Z",
+    "last_success_at": "2026-10-11T00:27:07.769050Z",
+    "hash": "90e9b26f3f4178112bcd626df863e53356fc3fc33e85db2ac9b1ca175000dba4",
+    "snapshot_key": "sources/a309bee497f2439e0746cc8471fdc51b4ade5532fab92242e4dc8ffcb114bca6/90e9b26f3f4178112bcd626df863e53356fc3fc33e85db2ac9b1ca175000dba4.html",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://www.bundesrat.de/drs.html?id=513-26",
+    "checked_at": "2026-10-11T00:23:08.561163Z",
+    "last_success_at": "2026-10-11T00:23:08.561163Z",
+    "hash": "0d34f62b8c76c04bc9595f2ae1250093aa29abc855a89e74a6cbd9154162e6d0",
+    "snapshot_key": "sources/a7e76d78dffd0b9fffd068e01a6eb4135724a918a5ffcdaac69f20332b15c3b1/0d34f62b8c76c04bc9595f2ae1250093aa29abc855a89e74a6cbd9154162e6d0.pdf",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://www.bundesrat.de/drs.html?id=513-1-26",
+    "checked_at": "2026-10-11T00:23:08.565119Z",
+    "last_success_at": "2026-10-11T00:23:08.565119Z",
+    "hash": "98d0baec5f1592e2c79f613a1a8d14db49a9fca339bc1ea725c593b631a439f1",
+    "snapshot_key": "sources/1e7834b72871f7984245d946a7c2788979a84d5d75294071a2a215ea78dc3029/98d0baec5f1592e2c79f613a1a8d14db49a9fca339bc1ea725c593b631a439f1.pdf",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://www.gesetze-im-internet.de/bfstrmg/__1.html",
+    "checked_at": "2026-10-11T00:27:07.552320Z",
+    "last_success_at": "2026-10-11T00:27:07.552320Z",
+    "hash": "2ecc653bd2513ba6b1d341cc77f86fb0f33bed627b7ee35794db10454f43b2a9",
+    "snapshot_key": "sources/e8414b308da5988517e7354ebcb9563c6f8ad8e779777294edcfcb8114afbfb0/2ecc653bd2513ba6b1d341cc77f86fb0f33bed627b7ee35794db10454f43b2a9.html",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://www.gesetze-im-internet.de/kraftstg/__3.html",
+    "checked_at": "2026-10-11T00:27:07.552363Z",
+    "last_success_at": "2026-10-11T00:27:07.552363Z",
+    "hash": "28da58c184c247fe3cb3721e046a9f0957298c6b61e60cff72100bc92eea7aa8",
+    "snapshot_key": "sources/c2e36a0342d74cdcc863a6b40dfe790639008ff7b96f66d1c5b5c69487c9129a/28da58c184c247fe3cb3721e046a9f0957298c6b61e60cff72100bc92eea7aa8.html",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://www.bundesrat.de/drs.html?id=518-26",
+    "checked_at": "2026-10-11T00:23:08.581601Z",
+    "last_success_at": "2026-10-11T00:23:08.581601Z",
+    "hash": "d5920fbe2d4c7e5e70636d98d800c1fbac2863d7d1b7edd113a4e7fc79f3b3fa",
+    "snapshot_key": "sources/e6433421d7c0f50f206542c00c1bad80db718a24df286ad98012b7df5fd912d8/d5920fbe2d4c7e5e70636d98d800c1fbac2863d7d1b7edd113a4e7fc79f3b3fa.pdf",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://www.gesetze-im-internet.de/stvg/__35.html",
+    "checked_at": "2026-10-11T00:27:07.552216Z",
+    "last_success_at": "2026-10-11T00:27:07.552216Z",
+    "hash": "651b8d6032e8ec1620756af0c6f11844262cf4f090b6e5d07721a893b9c779b6",
+    "snapshot_key": "sources/13b7319bad6b4abeeedab8d44a74dd4081ca92c5f9523b1f42313620e4b7296a/651b8d6032e8ec1620756af0c6f11844262cf4f090b6e5d07721a893b9c779b6.html",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://www.gesetze-im-internet.de/stvg/__52.html",
+    "checked_at": "2026-10-11T00:27:07.552267Z",
+    "last_success_at": "2026-10-11T00:27:07.552267Z",
+    "hash": "51e2327417d35de3aa03f264c2cd81957de03d05a7f48c8204294f01414ccbf6",
+    "snapshot_key": "sources/5b02f7fdb02b77ef69c6f95ec8a2afc3b0961b164eac9ffd407493ab68bd2b57/51e2327417d35de3aa03f264c2cd81957de03d05a7f48c8204294f01414ccbf6.html",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://www.bundesrat.de/drs.html?id=594-26",
+    "checked_at": "2026-10-11T00:23:08.773920Z",
+    "last_success_at": "2026-10-11T00:23:08.773920Z",
+    "hash": "8fe027179d50d1feb372545eedf4c7da14e0a8a2e5d2e319f2a757c1cac7cde0",
+    "snapshot_key": "sources/d5bc08e8ae8be017859aaccfb33918ab997026a26420f70d2ea4b4a034da0e1c/8fe027179d50d1feb372545eedf4c7da14e0a8a2e5d2e319f2a757c1cac7cde0.pdf",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://www.gesetze-im-internet.de/fev_2010/__6.html",
+    "checked_at": "2026-10-11T00:27:07.661565Z",
+    "last_success_at": "2026-10-11T00:27:07.661565Z",
+    "hash": "63644e01126b756c4c98d23a8e2eb7d6d14e9f57b5d6328140163ac92245b805",
+    "snapshot_key": "sources/c100e4042ef31bff830e456ecbde64a1303f1fd77d26ea725eb6eaa423503ed7/63644e01126b756c4c98d23a8e2eb7d6d14e9f57b5d6328140163ac92245b805.html",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://www.gesetze-im-internet.de/fev_2010/__76.html",
+    "checked_at": "2026-10-11T00:27:07.664624Z",
+    "last_success_at": "2026-10-11T00:27:07.664624Z",
+    "hash": "0e117de953c58ba7e369b6816323193a183cfc9d534330df29ed14babf80da38",
+    "snapshot_key": "sources/9ff343fccd3945d6ff7100a0fa285b6ae0719fc70f71446f456a8e6b4cfe49c7/0e117de953c58ba7e369b6816323193a183cfc9d534330df29ed14babf80da38.html",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://www.bundesrat.de/drs.html?id=544-26",
+    "checked_at": "2026-10-11T00:23:08.818507Z",
+    "last_success_at": "2026-10-11T00:23:08.818507Z",
+    "hash": "c34a1ea6b49fb292f1933f164b8fdb49e04e8ef52e53ed8336bfb93fe1f6b407",
+    "snapshot_key": "sources/a24de28e8fb4dff0f53f71d029fc608a28515788a2906839214867451db535cb/c34a1ea6b49fb292f1933f164b8fdb49e04e8ef52e53ed8336bfb93fe1f6b407.pdf",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://www.bundesrat.de/drs.html?id=544-1-26",
+    "checked_at": "2026-10-11T00:23:08.838865Z",
+    "last_success_at": "2026-10-11T00:23:08.838865Z",
+    "hash": "0af90eb575cf7051cf8089044f73e365cdaf68c0491cbd66ca5da05239825d1f",
+    "snapshot_key": "sources/bde6482bf7a55a8f741d069a957d6e8e52679e8e664067401a23e8717213160c/0af90eb575cf7051cf8089044f73e365cdaf68c0491cbd66ca5da05239825d1f.pdf",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://www.gesetze-im-internet.de/stvg/__1i.html",
+    "checked_at": "2026-10-11T00:27:07.790933Z",
+    "last_success_at": "2026-10-11T00:27:07.790933Z",
+    "hash": "e641d1b0a6c70965330c3e84bed693ba3a650382a9b6ee3447cfccc152f23a02",
+    "snapshot_key": "sources/42f3ed7e235fe8e86592c1fe84607b140dac691fcad9e141f3e536c99195a171/e641d1b0a6c70965330c3e84bed693ba3a650382a9b6ee3447cfccc152f23a02.html",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://www.bundesrat.de/drs.html?id=343-26",
+    "checked_at": "2026-10-11T00:23:08.125972Z",
+    "last_success_at": "2026-10-11T00:23:08.125972Z",
+    "hash": "c6d181bc8f424a4c423f0278941bc128604f6efb477e49e5c85ccbb74efc80a8",
+    "snapshot_key": "sources/4365274cf65f535fa28fa77cd034c1167dcd89eb1b3916bb0d5953583574b840/c6d181bc8f424a4c423f0278941bc128604f6efb477e49e5c85ccbb74efc80a8.pdf",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://www.bundesrat.de/drs.html?id=582-25(B)",
+    "checked_at": "2026-10-11T00:27:07.792837Z",
+    "last_success_at": "2026-10-11T00:27:07.792837Z",
+    "hash": "5b266744092ec8cb78e5c67474819cfbc42ac280ab0891d4f6d8d0f18580fe3a",
+    "snapshot_key": "sources/e0af58f2a6b324d9706d3bc47dddaf9e3140308dd13078e7874f53ae80a6f004/5b266744092ec8cb78e5c67474819cfbc42ac280ab0891d4f6d8d0f18580fe3a.pdf",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://www.gesetze-im-internet.de/jarbschg/__32.html",
+    "checked_at": "2026-10-11T00:31:04.091272Z",
+    "last_success_at": "2026-10-11T00:31:04.091272Z",
+    "hash": "274477e0174a0aad907c4740f375df44b698865cea630729eed2e7e84b17cc89",
+    "snapshot_key": "sources/af067f4d672eca21e6f7994639a9d16a883dbc75e18effa705455a8245401fab/274477e0174a0aad907c4740f375df44b698865cea630729eed2e7e84b17cc89.html",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://www.bmas.de/DE/Service/Presse/Meldungen/2026/arbeitsschutz-zukunftsfaehigkeit-staerken-wirtschaft-entlasten.html",
+    "checked_at": "2026-10-11T00:31:04.091203Z",
+    "last_success_at": "2026-10-11T00:31:04.091203Z",
+    "hash": "6653ebad5341582af9e65ac8aaad3304278916ea64852b6ae30d34d6c5c426bd",
+    "snapshot_key": "sources/9a1bacec13e17e7e2e7ae720afb5ea90f2cd918fa7d83469598dda6784e0dcbc/6653ebad5341582af9e65ac8aaad3304278916ea64852b6ae30d34d6c5c426bd.html",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://www.bundesrat.de/drs.html?id=543-26",
+    "checked_at": "2026-10-11T00:23:08.398217Z",
+    "last_success_at": "2026-10-11T00:23:08.398217Z",
+    "hash": "c15373665d77ea4b4ea35582aa9052e2348cf5e0b88fba0e2b9770869afc9597",
+    "snapshot_key": "sources/8c29357ddd7c73e7252717a4714ab9f6290a28ac7e1de8b3df32b94606cdd8f0/c15373665d77ea4b4ea35582aa9052e2348cf5e0b88fba0e2b9770869afc9597.pdf",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://www.bundesrat.de/drs.html?id=543-1-26",
+    "checked_at": "2026-10-11T00:23:08.414587Z",
+    "last_success_at": "2026-10-11T00:23:08.414587Z",
+    "hash": "7d3cfd1419aadf7fca299f89c834f49886cbd8e9507e6b8c6d6f6dd9745c2924",
+    "snapshot_key": "sources/c39827acfd164633509b8abca2753357e327eda2cd35763d1819f7a6d89ca924/7d3cfd1419aadf7fca299f89c834f49886cbd8e9507e6b8c6d6f6dd9745c2924.pdf",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://www.recht.bund.de/bgbl/1/2026/139/regelungstext.pdf?__blob=publicationFile&v=1",
+    "checked_at": "2026-10-11T00:31:36.406029Z",
+    "last_success_at": "2026-10-11T00:31:36.406029Z",
+    "hash": "498ddd09c3dbaf9d91824601b61ab5e8a91167a5d5e58322a94f5858c4eab36b",
+    "snapshot_key": "sources/b39a3d4ba1fe88bd869151019e703f85365766a619a5e2691a94bab4a0b6e096/498ddd09c3dbaf9d91824601b61ab5e8a91167a5d5e58322a94f5858c4eab36b.pdf",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://www.bundesrat.de/drs.html?id=434-25(B)",
+    "checked_at": "2026-10-11T00:31:04.271704Z",
+    "last_success_at": "2026-10-11T00:31:04.271704Z",
+    "hash": "b719e93e5a675a1f33443f5024105a31963fc083a42d8b46047fb47dfbcb7af8",
+    "snapshot_key": "sources/f7e9517028c6a9474112d7c722cb6a22a2b6bed0df97bbe99bcfa35c9275e012/b719e93e5a675a1f33443f5024105a31963fc083a42d8b46047fb47dfbcb7af8.pdf",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://dserver.bundestag.de/btd/21/053/2105381.pdf",
+    "checked_at": "2026-10-11T00:27:07.864471Z",
+    "last_success_at": "2026-10-11T00:27:07.864471Z",
+    "hash": "fd408ba64886c070dce93f4b6bf002d8bcb9dc0ec9f63ca0c4c848a4f771829c",
+    "snapshot_key": "sources/5679fdce288202ce60f1948ffcf264f02b1ee20493959b319963fbef60c171e6/fd408ba64886c070dce93f4b6bf002d8bcb9dc0ec9f63ca0c4c848a4f771829c.pdf",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://www.bundesrat.de/drs.html?id=568-26",
+    "checked_at": "2026-10-11T00:23:08.515767Z",
+    "last_success_at": "2026-10-11T00:23:08.515767Z",
+    "hash": "c134133c29bc0f580fb97a1c877a81fa4a596d4df380dab26262c0a9f5c80ad6",
+    "snapshot_key": "sources/4514b19f95d1578e5321351e98f348c86098e542e00121a19450c206ac271ac5/c134133c29bc0f580fb97a1c877a81fa4a596d4df380dab26262c0a9f5c80ad6.pdf",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://www.gesetze-im-internet.de/bimschg/__60.html",
+    "checked_at": "2026-10-11T00:31:04.091323Z",
+    "last_success_at": "2026-10-11T00:31:04.091323Z",
+    "hash": "40d1baaee10b65d1c35eb4881419e5d3bc6402e399fa1c91348d04dbf9d53ec2",
+    "snapshot_key": "sources/f988d5f97a2373de85d4490534356b7f8bed3934417f3a495749ec1e47344d01/40d1baaee10b65d1c35eb4881419e5d3bc6402e399fa1c91348d04dbf9d53ec2.html",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://www.gesetze-im-internet.de/s_g/__8.html",
+    "checked_at": "2026-10-11T00:31:04.091373Z",
+    "last_success_at": "2026-10-11T00:31:04.091373Z",
+    "hash": "7f7889a82b4470db0b76b6cbf77168f72665746cfba8a19caf4469013d5632a1",
+    "snapshot_key": "sources/933091f2a52446295493ebcba482d67dbc4d6bc33aa356c664603a541c83d94d/7f7889a82b4470db0b76b6cbf77168f72665746cfba8a19caf4469013d5632a1.html",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://www.bundesrat.de/drs.html?id=525-26",
+    "checked_at": "2026-10-11T00:23:08.714525Z",
+    "last_success_at": "2026-10-11T00:23:08.714525Z",
+    "hash": "d188e640b16ae4d3863cf8007570216a72a6295108fc9783f2d47ebb872fcbaf",
+    "snapshot_key": "sources/c27147995a6fb7e8fb54e04bfef60b88fbe75987fb083fa79cde3f6f8d8a6268/d188e640b16ae4d3863cf8007570216a72a6295108fc9783f2d47ebb872fcbaf.pdf",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://health.ec.europa.eu/biotechnology/european-biotech-act_en",
+    "checked_at": "2026-10-11T00:31:04.181049Z",
+    "last_success_at": "2026-10-11T00:31:04.181049Z",
+    "hash": "33f745ddb1bface0e91d4eb6a5e53047ffdc143ba1f3867bedbd89954404908b",
+    "snapshot_key": "sources/f3f084cd8b0dde87861e382cc761f53777e2878e71cb53f4e49333e5d59ddfcd/33f745ddb1bface0e91d4eb6a5e53047ffdc143ba1f3867bedbd89954404908b.html",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://www.bundesgesundheitsministerium.de/ministerium/meldungen/bericht-fachgremium-standortklausel",
+    "checked_at": "2026-10-11T00:31:04.091418Z",
+    "last_success_at": "2026-10-11T00:31:04.091418Z",
+    "hash": "6be5a8a4f5994d94142d67cfa7f8820f267ec97b356a608c0260d741c6a98366",
+    "snapshot_key": "sources/065188fb9334612a0461b5ea07a6c524b4825cde2e7a8bbae6a1e804080b6d7b/6be5a8a4f5994d94142d67cfa7f8820f267ec97b356a608c0260d741c6a98366.html",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://www.bundesbericht-forschung-innovation.de/bundesbericht-2026/3-schluesseltechnologien-und-technologische-souveraenitaet/",
+    "checked_at": "2026-10-11T00:31:04.194695Z",
+    "last_success_at": "2026-10-11T00:31:04.194695Z",
+    "hash": "564f9062176a8876ba55358e73c677c676828847be52026192b932f9d7f75358",
+    "snapshot_key": "sources/8103e813954a8c36e96a049cf46c1120a38720a7e914886a2fbc00ef85b659ee/564f9062176a8876ba55358e73c677c676828847be52026192b932f9d7f75358.html",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://dserver.bundestag.de/btd/21/038/2103873.pdf",
+    "checked_at": "2026-10-11T00:22:02.657991Z",
+    "last_success_at": "2026-10-11T00:22:02.657991Z",
+    "hash": "2bf1bf5b2bd0e36e06634cdd62b5e575c97fec7b9b0f47424dd7fb91d2cc020d",
+    "snapshot_key": "sources/cbd78c6e4705e9f24a9dba90a53d9c9baa9b2289d430fe45ee464f8626a09fa3/2bf1bf5b2bd0e36e06634cdd62b5e575c97fec7b9b0f47424dd7fb91d2cc020d.pdf",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://dserver.bundestag.de/btd/21/084/2108475.pdf",
+    "checked_at": "2026-10-11T00:22:02.667614Z",
+    "last_success_at": "2026-10-11T00:22:02.667614Z",
+    "hash": "95861f724f252c154d5e4ae8b7df134a0a4bb8389e9bee589f55717475194d15",
+    "snapshot_key": "sources/7115f9d971b710e13e69575b8f53c98043b36bbec5eb67a175902c0d8e744ee8/95861f724f252c154d5e4ae8b7df134a0a4bb8389e9bee589f55717475194d15.pdf",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://www.g-ba.de/themen/methodenbewertung/schwangerschaft-mutterschaft/faqs-nipt/",
+    "checked_at": "2026-10-11T00:35:10.191761Z",
+    "last_success_at": "2026-10-11T00:35:10.191761Z",
+    "hash": "82347ade19e40bf4e03f5837ba4225a52cd1675d8fb5005d5be53a33c8fa7702",
+    "snapshot_key": "sources/f155a79760bdab380c6c17c0659283335482a095f364c80fabe75c7b29aad986/82347ade19e40bf4e03f5837ba4225a52cd1675d8fb5005d5be53a33c8fa7702.html",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://www.bundesrat.de/drs.html?id=204-23(B)",
+    "checked_at": "2026-10-11T00:35:10.192253Z",
+    "last_success_at": "2026-10-11T00:35:10.192253Z",
+    "hash": "ed3b7a724616de0444134ea8522553c4adf11963ab8ea07d7058629c91aad6b8",
+    "snapshot_key": "sources/76e4382e53f3df63e81aebc719f97a145c2f405525cb5ad64b015cbfc2100085/ed3b7a724616de0444134ea8522553c4adf11963ab8ea07d7058629c91aad6b8.pdf",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://dserver.bundestag.de/btd/21/083/2108388.pdf",
+    "checked_at": "2026-10-11T00:22:01.638459Z",
+    "last_success_at": "2026-10-11T00:22:01.638459Z",
+    "hash": "e6b663a5d6c9358148066af5521a63e19c10ccc020ac5519294786be26067c68",
+    "snapshot_key": "sources/a8eab6097e47160321c83316ab4c77afb037c9bdcf4b9d5a0742ca50fa1077ea/e6b663a5d6c9358148066af5521a63e19c10ccc020ac5519294786be26067c68.pdf",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://dserver.bundestag.de/btd/21/083/2108389.pdf",
+    "checked_at": "2026-10-11T00:22:01.773053Z",
+    "last_success_at": "2026-10-11T00:22:01.773053Z",
+    "hash": "a2f3a99f0bfd997ae88a1bca3e475d789c2e69c626f7fdcb8c8fa0b6701851a3",
+    "snapshot_key": "sources/031d09ddef4654b83a75f983501e1e6b7a7794827399c7de45d7b6a9a27624ae/a2f3a99f0bfd997ae88a1bca3e475d789c2e69c626f7fdcb8c8fa0b6701851a3.pdf",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://dserver.bundestag.de/btd/21/083/2108390.pdf",
+    "checked_at": "2026-10-11T00:22:01.790606Z",
+    "last_success_at": "2026-10-11T00:22:01.790606Z",
+    "hash": "e1d1f0286ebf865f5578967951d0f8e93f403ebc08eb0ca940acbb86e4954326",
+    "snapshot_key": "sources/ef6a45a86b52f87da04dcc9e9e68ba918ec98e69955d5db6432e17394e769871/e1d1f0286ebf865f5578967951d0f8e93f403ebc08eb0ca940acbb86e4954326.pdf",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://www.bmas.de/DE/Soziales/Rente-und-Altersvorsorge/Rentenreform-2025/Rentenkommission-2026/rentenkommission-2026.html",
+    "checked_at": "2026-10-11T00:35:10.192108Z",
+    "last_success_at": "2026-10-11T00:35:10.192108Z",
+    "hash": "7ff3f375cbd0f18715cde46447389422d3e5ffae2c51ad60880cdf639b0fd2ef",
+    "snapshot_key": "sources/5f5d2a2c628c0580c10739244ccad6e39f5a31b8902803d0acc28eed756fa401/7ff3f375cbd0f18715cde46447389422d3e5ffae2c51ad60880cdf639b0fd2ef.html",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://www.deutsche-rentenversicherung.de/DRV/DE/Rente/Allgemeine-Informationen/Rentenarten-und-Leistungen/Altersrente-fuer-langjaehrig-Versicherte/Altersrente_fuer_langjaehrig_Versicherte.html",
+    "checked_at": "2026-10-11T00:35:10.192158Z",
+    "last_success_at": "2026-10-11T00:35:10.192158Z",
+    "hash": "9d2e49936f365eb0d52c9817000cde9433567bbb050956d454e929c276e7961a",
+    "snapshot_key": "sources/da0865675dcb136bd61a39a17e89365a4675cc3ed64883e41fe166a4bb386947/9d2e49936f365eb0d52c9817000cde9433567bbb050956d454e929c276e7961a.html",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://www.gesetze-im-internet.de/alttzg_1996/__2.html",
+    "checked_at": "2026-10-11T00:35:10.192211Z",
+    "last_success_at": "2026-10-11T00:35:10.192211Z",
+    "hash": "c6f359baa0a941e89a55c7f7843f00886426f85f9309dc2dda327504dccd1513",
+    "snapshot_key": "sources/465623b76718a1d515ab7dc1cc5fd7c22e6bd693dc68884b9de216cacc4ea2a7/c6f359baa0a941e89a55c7f7843f00886426f85f9309dc2dda327504dccd1513.html",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://dserver.bundestag.de/btd/21/022/2102216.pdf",
+    "checked_at": "2026-10-11T00:22:01.610633Z",
+    "last_success_at": "2026-10-11T00:22:01.610633Z",
+    "hash": "ad92337681ab871343db5a785e02f3a20008294650d8e0d7ac8a449db9dddfb0",
+    "snapshot_key": "sources/7c085e6c23d84e686e5b49b86a0710c2b0a5c9b58e95679b4c268cbecf75c363/ad92337681ab871343db5a785e02f3a20008294650d8e0d7ac8a449db9dddfb0.pdf",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://dserver.bundestag.de/btd/21/064/2106409.pdf",
+    "checked_at": "2026-10-11T00:22:01.614182Z",
+    "last_success_at": "2026-10-11T00:22:01.614182Z",
+    "hash": "51a1df78225fb72efc436334f9cd7c8d7512da8f13012aac190483c79ebe2ef8",
+    "snapshot_key": "sources/9108f510b03e53a39e7b155f5517fbaa1d6ed379b368f72ceae4d46d619f01f8/51a1df78225fb72efc436334f9cd7c8d7512da8f13012aac190483c79ebe2ef8.pdf",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://dserver.bundestag.de/btd/21/058/2105828.pdf",
+    "checked_at": "2026-10-11T00:22:01.621755Z",
+    "last_success_at": "2026-10-11T00:22:01.621755Z",
+    "hash": "004779c0488aaf9ecbca44273fe97a7cb640bd7eabe85bce386ddbf21853a47b",
+    "snapshot_key": "sources/4527326a4acc39df933cfffab27f7860ab6e5dae0263ed4d8ae23ffcc0c90904/004779c0488aaf9ecbca44273fe97a7cb640bd7eabe85bce386ddbf21853a47b.pdf",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://dserver.bundestag.de/btd/21/083/2108398.pdf",
+    "checked_at": "2026-10-11T00:22:01.638299Z",
+    "last_success_at": "2026-10-11T00:22:01.638299Z",
+    "hash": "f68cd396ecb704bcc72ef78042ec1887bfad0718715637b033085559dad98db0",
+    "snapshot_key": "sources/3e5bc52806b57451beabdde4f2d462ce157a3f738b8c5bfe3464e887d3833aea/f68cd396ecb704bcc72ef78042ec1887bfad0718715637b033085559dad98db0.pdf",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://www.gesetze-im-internet.de/sgb_11/__43c.html",
+    "checked_at": "2026-10-11T00:37:57.480410Z",
+    "last_success_at": "2026-10-11T00:37:57.480410Z",
+    "hash": "7eb8aceba27c2e8bcfba2a3c686f8e165dd840d263f37abf8263b993d0d0a03a",
+    "snapshot_key": "sources/626e1e52d912763fd412e012aa49908d67aaf9d7338abf394a510288c589e236/7eb8aceba27c2e8bcfba2a3c686f8e165dd840d263f37abf8263b993d0d0a03a.html",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://www.bundesgesundheitsministerium.de/themen/pflege/online-ratgeber-pflege/die-pflegeversicherung/finanzierung",
+    "checked_at": "2026-10-11T00:38:32.104957Z",
+    "last_success_at": "2026-10-11T00:38:32.104957Z",
+    "hash": "b91a7019ebce548f64681dab2a38515dd7d23acde23ec1eb0d084e58c1d1fa5e",
+    "snapshot_key": "sources/7f0adc0d40a1ef51459fabc02345b8e206b316bfc543275a07edcac8fbcef589/b91a7019ebce548f64681dab2a38515dd7d23acde23ec1eb0d084e58c1d1fa5e.html",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://www.bundesgesundheitsministerium.de/fileadmin/Dateien/3_Downloads/Gesetze_und_Verordnungen/GuV/P/Kabinett-GE_Pflegeneuordnungsgesetz_PNOG.pdf",
+    "checked_at": "2026-10-11T00:31:24.322788Z",
+    "last_success_at": "2026-10-11T00:31:24.322788Z",
+    "hash": "70647e37cfca3a0c09340b3cb8c736b1f3b4b74e30954d962d83354bab6633aa",
+    "snapshot_key": "sources/168fcc718d80588ad8116968b58fcbf2486fd0a51df3b6c969a856c440ebc5e3/70647e37cfca3a0c09340b3cb8c736b1f3b4b74e30954d962d83354bab6633aa.pdf",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://www.gesetze-im-internet.de/pbav_2025/__1.html",
+    "checked_at": "2026-10-11T00:38:32.104677Z",
+    "last_success_at": "2026-10-11T00:38:32.104677Z",
+    "hash": "2925d4e8caf1f67d264a172f0b2f731b42dfac838e934679c96dccee660fac09",
+    "snapshot_key": "sources/1c6ffad59c6602577ed066f6a563f1fe7d32ef1f856afca5049af0ed94e8ca04/2925d4e8caf1f67d264a172f0b2f731b42dfac838e934679c96dccee660fac09.html",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://www.gesetze-im-internet.de/sgb_11/__55.html",
+    "checked_at": "2026-10-11T00:37:57.480248Z",
+    "last_success_at": "2026-10-11T00:37:57.480248Z",
+    "hash": "b8fc98b7a5d2724871a37d7a9e69e922b02907b4405cb8176c8c9c63aa4330d2",
+    "snapshot_key": "sources/9fdc085631b6a324d81e422a1de5a8f73e71b924f346f24347f918d284d92737/b8fc98b7a5d2724871a37d7a9e69e922b02907b4405cb8176c8c9c63aa4330d2.html",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://www.gesetze-im-internet.de/sgb_11/__15.html",
+    "checked_at": "2026-10-11T00:37:57.479941Z",
+    "last_success_at": "2026-10-11T00:37:57.479941Z",
+    "hash": "0a9494ede979254a205a735e0ef7dc0639d3766f87ed3fea621dd4cc93b888bc",
+    "snapshot_key": "sources/ca4f1a9e1da9e0d8e150fe4b835dac202482529f68825c4b0cf0b2652ac7a540/0a9494ede979254a205a735e0ef7dc0639d3766f87ed3fea621dd4cc93b888bc.html",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://www.gesetze-im-internet.de/sgb_11/__45b.html",
+    "checked_at": "2026-10-11T00:37:57.480345Z",
+    "last_success_at": "2026-10-11T00:37:57.480345Z",
+    "hash": "5c8c238066100a80513744293feb1c47612a8fdd1cb51a5d6567fe25b51e0e78",
+    "snapshot_key": "sources/759dd926a7dc4323b36a850dd531ad9b5429d7acf1cb67c82d61e4438ce54ba5/5c8c238066100a80513744293feb1c47612a8fdd1cb51a5d6567fe25b51e0e78.html",
+    "changed": 0,
+    "error": null
   }
 ]

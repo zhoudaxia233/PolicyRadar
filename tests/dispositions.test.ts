@@ -65,3 +65,17 @@ test('the current registry resolves, and historical snapshots do not acquire lat
  const prior=createStaticData(read('data/exports/2026-10-08-bmf-timeline-213634/policy-radar-export.json'));
  assert.deepEqual(resolveDispositionRegistry(registry,prior,[]),[]);
 });
+
+test('concrete care and artists-insurance proposals are not dismissed for being non-binding',()=>{
+ const data=createStaticData(readExport(read('data/current-export.json').path));
+ const topics=resolveTopicRegistry(read('data/topics.json'),data);
+ const dismissed=new Set(resolveDispositionRegistry(read('data/dispositions.json'),data,topics).flatMap(d=>d.recordIds));
+ const examples=[
+  data.intake.records.find(r=>r.region==='DE'&&r.officialId==='BR-Drs. 578/24'),
+  data.intake.records.find(r=>r.url==='https://www.bundestag.de/dokumente/textarchiv/2026/kw42-de-pflegeversicherung-1223626'),
+ ];
+ for(const record of examples){
+  assert(record,'The substantive proposal must remain in current intake');
+  assert(!dismissed.has(record.id),'Explain the proposal or retain it as awaiting explanation');
+ }
+});

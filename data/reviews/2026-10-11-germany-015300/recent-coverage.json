@@ -1,0 +1,1015 @@
+{
+  "checkedAt": "2026-10-11T00:46:42.865Z",
+  "scope": "DE and all German states",
+  "channels": 61,
+  "incompleteChannels": 61,
+  "gaps": [
+    {
+      "sourceUrl": "https://www.bundesregierung.de/breg-de/suche/gesetzliche-neuregelungen-442800",
+      "region": "DE",
+      "title": "联邦政府每月新规索引",
+      "windowStart": "2026-10-04",
+      "windowEnd": "2026-10-10",
+      "missingDays": [
+        "2026-10-04",
+        "2026-10-05",
+        "2026-10-06",
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.recht.bund.de/de/home/home_node.html",
+      "region": "DE",
+      "title": "联邦法律公报",
+      "windowStart": "2026-10-04",
+      "windowEnd": "2026-10-10",
+      "missingDays": [
+        "2026-10-10"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://recht.nrw.de/",
+      "region": "DE-NW",
+      "title": "北威州法律与条例公报",
+      "windowStart": "2026-10-04",
+      "windowEnd": "2026-10-10",
+      "missingDays": [
+        "2026-10-04",
+        "2026-10-05",
+        "2026-10-06",
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://verkuendung.rlp.de/de/",
+      "region": "DE-RP",
+      "title": "莱法州官方公布平台",
+      "windowStart": "2026-10-04",
+      "windowEnd": "2026-10-10",
+      "missingDays": [
+        "2026-10-04",
+        "2026-10-05",
+        "2026-10-06",
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.amtsblatt.saarland.de/jportal/portal/page/fpverksl.psml",
+      "region": "DE-SL",
+      "title": "萨尔州官方公报与最新期号",
+      "windowStart": "2026-10-04",
+      "windowEnd": "2026-10-10",
+      "missingDays": [
+        "2026-10-04",
+        "2026-10-05",
+        "2026-10-06",
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.baden-wuerttemberg.de/de/service/gesetze-und-verordnungen/gesetzblatt",
+      "region": "DE-BW",
+      "title": "巴符州法律公报",
+      "windowStart": "2026-10-04",
+      "windowEnd": "2026-10-10",
+      "missingDays": [
+        "2026-10-04",
+        "2026-10-05",
+        "2026-10-06",
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://verkuendung.hessen.de/",
+      "region": "DE-HE",
+      "title": "黑森官方公布平台",
+      "windowStart": "2026-10-04",
+      "windowEnd": "2026-10-10",
+      "missingDays": [
+        "2026-10-04",
+        "2026-10-05",
+        "2026-10-06",
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.verkuendung-bayern.de/",
+      "region": "DE-BY",
+      "title": "巴伐利亚官方公布平台",
+      "windowStart": "2026-10-04",
+      "windowEnd": "2026-10-10",
+      "missingDays": [
+        "2026-10-04",
+        "2026-10-05",
+        "2026-10-06",
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://verkuendungsportal.schleswig-holstein.de/home",
+      "region": "DE-SH",
+      "title": "石荷州官方法律与行政公报",
+      "windowStart": "2026-10-04",
+      "windowEnd": "2026-10-10",
+      "missingDays": [
+        "2026-10-04",
+        "2026-10-05",
+        "2026-10-06",
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.hamburg.de/politik-und-verwaltung/behoerden/bjv/veroeffentlichungen",
+      "region": "DE-HH",
+      "title": "汉堡法规发布及立法程序入口",
+      "windowStart": "2026-10-04",
+      "windowEnd": "2026-10-10",
+      "missingDays": [
+        "2026-10-04",
+        "2026-10-05",
+        "2026-10-06",
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.gesetzblatt.bremen.de/",
+      "region": "DE-HB",
+      "title": "不来梅法律公报",
+      "windowStart": "2026-10-04",
+      "windowEnd": "2026-10-10",
+      "missingDays": [
+        "2026-10-04",
+        "2026-10-05",
+        "2026-10-06",
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.niedersachsen.de/politik_staat/gesetze_verordnungen_und_sonstige_vorschriften/aktuelle_verkundungsblatter/download-verkuendungsblaetter-108794.html",
+      "region": "DE-NI",
+      "title": "下萨克森官方公报入口",
+      "windowStart": "2026-10-04",
+      "windowEnd": "2026-10-10",
+      "missingDays": [
+        "2026-10-04",
+        "2026-10-05",
+        "2026-10-06",
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.regierung-mv.de/Landesregierung/jm/service_justizministerium/verkuendungsblaetter/gesetz-verordnungsblaetter",
+      "region": "DE-MV",
+      "title": "梅前州法律及条例公报",
+      "windowStart": "2026-10-04",
+      "windowEnd": "2026-10-10",
+      "missingDays": [
+        "2026-10-04",
+        "2026-10-05",
+        "2026-10-06",
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.berlin.de/sen/justiz/service/gesetze-und-verordnungen/2026/",
+      "region": "DE-BE",
+      "title": "柏林法律与条例公报：2026年各期",
+      "windowStart": "2026-10-04",
+      "windowEnd": "2026-10-10",
+      "missingDays": [
+        "2026-10-04",
+        "2026-10-05",
+        "2026-10-06",
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://bravors.brandenburg.de/de/veroeffentlichungsblaetter_chronologisch/2026",
+      "region": "DE-BB",
+      "title": "勃兰登堡2026年公报时间顺序目录",
+      "windowStart": "2026-10-04",
+      "windowEnd": "2026-10-10",
+      "missingDays": [
+        "2026-10-04",
+        "2026-10-05",
+        "2026-10-06",
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.medienservice.sachsen.de/",
+      "region": "DE-SN",
+      "title": "萨克森州政府官方新闻与条例发布",
+      "windowStart": "2026-10-04",
+      "windowEnd": "2026-10-10",
+      "missingDays": [
+        "2026-10-04",
+        "2026-10-05",
+        "2026-10-06",
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.revosax.sachsen.de/",
+      "region": "DE-SN",
+      "title": "REVOSax：萨克森现行法规检索",
+      "windowStart": "2026-10-04",
+      "windowEnd": "2026-10-10",
+      "missingDays": [
+        "2026-10-04",
+        "2026-10-05",
+        "2026-10-06",
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.landtag.sachsen-anhalt.de/dokumente/aktuelle-dokumente",
+      "region": "DE-ST",
+      "title": "萨克森-安哈尔特议会：文件与审议记录入口",
+      "windowStart": "2026-10-04",
+      "windowEnd": "2026-10-10",
+      "missingDays": [
+        "2026-10-04",
+        "2026-10-05",
+        "2026-10-06",
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.landtag.sachsen-anhalt.de/",
+      "region": "DE-ST",
+      "title": "萨克森-安哈尔特议会：最新政策与会议信息",
+      "windowStart": "2026-10-04",
+      "windowEnd": "2026-10-10",
+      "missingDays": [
+        "2026-10-04",
+        "2026-10-05",
+        "2026-10-06",
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.thueringer-landtag.de/plenum/neue-gesetze-im-landtag/",
+      "region": "DE-TH",
+      "title": "图林根州议会：已通过的新法律",
+      "windowStart": "2026-10-04",
+      "windowEnd": "2026-10-10",
+      "missingDays": [
+        "2026-10-04",
+        "2026-10-05",
+        "2026-10-06",
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.thueringer-landtag.de/dokumente/parlamentsdokumentation/",
+      "region": "DE-TH",
+      "title": "图林根议会文件、公报及立法程序入口",
+      "windowStart": "2026-10-04",
+      "windowEnd": "2026-10-10",
+      "missingDays": [
+        "2026-10-04",
+        "2026-10-05",
+        "2026-10-06",
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.landtag.ltsh.de/infothek/wahl20/plenum/beschlusspro_seite/",
+      "region": "DE-SH",
+      "title": "石荷州议会决议记录",
+      "windowStart": "2026-10-04",
+      "windowEnd": "2026-10-10",
+      "missingDays": [
+        "2026-10-04",
+        "2026-10-05",
+        "2026-10-06",
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.schleswig-holstein.de/DE/landesportal/presse/pressemitteilungen",
+      "region": "DE-SH",
+      "title": "石荷州政府及各部新闻与决定",
+      "windowStart": "2026-10-04",
+      "windowEnd": "2026-10-10",
+      "missingDays": [
+        "2026-10-04",
+        "2026-10-05",
+        "2026-10-06",
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.hamburgische-buergerschaft.de/recherche-info/protokolle",
+      "region": "DE-HH",
+      "title": "汉堡州议会表决与决议记录",
+      "windowStart": "2026-10-04",
+      "windowEnd": "2026-10-10",
+      "missingDays": [
+        "2026-10-04",
+        "2026-10-05",
+        "2026-10-06",
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.hamburg.de/politik-und-verwaltung/senat/presseservice-des-senats/pressemeldungen-des-senats",
+      "region": "DE-HH",
+      "title": "汉堡州政府各部门新闻与决定",
+      "windowStart": "2026-10-04",
+      "windowEnd": "2026-10-10",
+      "missingDays": [
+        "2026-10-04",
+        "2026-10-05",
+        "2026-10-06",
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.bremische-buergerschaft.de/index.php?id=480",
+      "region": "DE-HB",
+      "title": "不来梅州议会决议记录",
+      "windowStart": "2026-10-04",
+      "windowEnd": "2026-10-10",
+      "missingDays": [
+        "2026-10-04",
+        "2026-10-05",
+        "2026-10-06",
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.senatspressestelle.bremen.de/pressemitteilungen-1464",
+      "region": "DE-HB",
+      "title": "不来梅州政府各部门新闻与决定",
+      "windowStart": "2026-10-04",
+      "windowEnd": "2026-10-10",
+      "missingDays": [
+        "2026-10-04",
+        "2026-10-05",
+        "2026-10-06",
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.landtag-niedersachsen.de/dokumentensuche/",
+      "region": "DE-NI",
+      "title": "下萨克森州议会文书与表决简报",
+      "windowStart": "2026-10-04",
+      "windowEnd": "2026-10-10",
+      "missingDays": [
+        "2026-10-04",
+        "2026-10-05",
+        "2026-10-06",
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.niedersachsen.de/startseite/service/presse/presseinformationen/",
+      "region": "DE-NI",
+      "title": "下萨克森州政府及公共机构公告",
+      "windowStart": "2026-10-04",
+      "windowEnd": "2026-10-10",
+      "missingDays": [
+        "2026-10-04",
+        "2026-10-05",
+        "2026-10-06",
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.landtag-mv.de/plenum-und-ausschuesse/plenum/vergangene-plenarsitzungen",
+      "region": "DE-MV",
+      "title": "梅前州议会全体会议与决议记录",
+      "windowStart": "2026-10-04",
+      "windowEnd": "2026-10-10",
+      "missingDays": [
+        "2026-10-04",
+        "2026-10-05",
+        "2026-10-06",
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.regierung-mv.de/Aktuell/",
+      "region": "DE-MV",
+      "title": "梅前州政府各部新闻与决定",
+      "windowStart": "2026-10-04",
+      "windowEnd": "2026-10-10",
+      "missingDays": [
+        "2026-10-04",
+        "2026-10-05",
+        "2026-10-06",
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://pardok.parlament-berlin.de/portala/start.tt.html",
+      "region": "DE-BE",
+      "title": "柏林议会文献库：法律与议会决议",
+      "windowStart": "2026-10-04",
+      "windowEnd": "2026-10-10",
+      "missingDays": [
+        "2026-10-04",
+        "2026-10-05",
+        "2026-10-06",
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.berlin.de/rbmskzl/aktuelles/pressemitteilungen/",
+      "region": "DE-BE",
+      "title": "柏林州政府与市长办公厅新闻公告",
+      "windowStart": "2026-10-04",
+      "windowEnd": "2026-10-10",
+      "missingDays": [
+        "2026-10-04",
+        "2026-10-05",
+        "2026-10-06",
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.landtag.brandenburg.de/de/parlament/plenum_und_gesetze/beschlossene_gesetze/beschlossene_gesetze_der_8._wahlperiode/39257",
+      "region": "DE-BB",
+      "title": "勃兰登堡州议会已通过法律目录",
+      "windowStart": "2026-10-04",
+      "windowEnd": "2026-10-10",
+      "missingDays": [
+        "2026-10-04",
+        "2026-10-05",
+        "2026-10-06",
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://landesregierung-brandenburg.de/",
+      "region": "DE-BB",
+      "title": "勃兰登堡州政府新闻公告总入口",
+      "windowStart": "2026-10-04",
+      "windowEnd": "2026-10-10",
+      "missingDays": [
+        "2026-10-04",
+        "2026-10-05",
+        "2026-10-06",
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.landtag.sachsen.de/de/aktuelles/plenarsitzungen/index.cshtml",
+      "region": "DE-SN",
+      "title": "萨克森州议会全体会议及决议",
+      "windowStart": "2026-10-04",
+      "windowEnd": "2026-10-10",
+      "missingDays": [
+        "2026-10-04",
+        "2026-10-05",
+        "2026-10-06",
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.medienservice.sachsen.de/medien/",
+      "region": "DE-SN",
+      "title": "萨克森州政府及各部门新闻公告",
+      "windowStart": "2026-10-04",
+      "windowEnd": "2026-10-10",
+      "missingDays": [
+        "2026-10-04",
+        "2026-10-05",
+        "2026-10-06",
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.landtag.sachsen-anhalt.de/archiv",
+      "region": "DE-ST",
+      "title": "萨克森-安哈尔特州议会全体会议与表决结果档案",
+      "windowStart": "2026-10-04",
+      "windowEnd": "2026-10-10",
+      "missingDays": [
+        "2026-10-04",
+        "2026-10-05",
+        "2026-10-06",
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.sachsen-anhalt.de/lj/politik-und-verwaltung/service/politik-aktuell/pressemitteilungen",
+      "region": "DE-ST",
+      "title": "萨克森-安哈尔特州政府新闻公告",
+      "windowStart": "2026-10-04",
+      "windowEnd": "2026-10-10",
+      "missingDays": [
+        "2026-10-04",
+        "2026-10-05",
+        "2026-10-06",
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10"
+      ],
+      "latestScan": "blocked"
+    },
+    {
+      "sourceUrl": "https://www.thueringer-landtag.de/plenum/protokolle/",
+      "region": "DE-TH",
+      "title": "图林根州议会全体会议记录及决议检索入口",
+      "windowStart": "2026-10-04",
+      "windowEnd": "2026-10-10",
+      "missingDays": [
+        "2026-10-04",
+        "2026-10-05",
+        "2026-10-06",
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://thueringen.de/medienservice/medieninformationen",
+      "region": "DE-TH",
+      "title": "图林根州政府及各部门新闻公告",
+      "windowStart": "2026-10-04",
+      "windowEnd": "2026-10-10",
+      "missingDays": [
+        "2026-10-04",
+        "2026-10-05",
+        "2026-10-06",
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10"
+      ],
+      "latestScan": "blocked"
+    },
+    {
+      "sourceUrl": "https://www.landtag.nrw.de/cms/render/live/de/sites/landtag-r20/home/dokumente/dokumentensuche/ubersichtsseite-reden--protoko-1/protokolle-18-wahlperiode-2022-2.html?ausschuss=Plenum",
+      "region": "DE-NW",
+      "title": "北威州议会全体会议决定与会议记录",
+      "windowStart": "2026-10-04",
+      "windowEnd": "2026-10-10",
+      "missingDays": [
+        "2026-10-04",
+        "2026-10-05",
+        "2026-10-06",
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.land.nrw/pressemitteilungen",
+      "region": "DE-NW",
+      "title": "北威州政府新闻与决定公告",
+      "windowStart": "2026-10-04",
+      "windowEnd": "2026-10-10",
+      "missingDays": [
+        "2026-10-04",
+        "2026-10-05",
+        "2026-10-06",
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10"
+      ],
+      "latestScan": "blocked"
+    },
+    {
+      "sourceUrl": "https://opal.rlp.de/portal/dokumente.tt.html",
+      "region": "DE-RP",
+      "title": "莱法州议会最新文件与决定记录",
+      "windowStart": "2026-10-04",
+      "windowEnd": "2026-10-10",
+      "missingDays": [
+        "2026-10-04",
+        "2026-10-05",
+        "2026-10-06",
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.rlp.de/service/pressemitteilungen",
+      "region": "DE-RP",
+      "title": "莱法州政府新闻公告",
+      "windowStart": "2026-10-04",
+      "windowEnd": "2026-10-10",
+      "missingDays": [
+        "2026-10-04",
+        "2026-10-05",
+        "2026-10-06",
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.landtag-saar.de/aktuelles/",
+      "region": "DE-SL",
+      "title": "萨尔州议会动态与表决结果",
+      "windowStart": "2026-10-04",
+      "windowEnd": "2026-10-10",
+      "missingDays": [
+        "2026-10-04",
+        "2026-10-05",
+        "2026-10-06",
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.saarland.de/DE/presse-informationen/medienservice/medieninfos",
+      "region": "DE-SL",
+      "title": "萨尔州政府各部门新闻公告",
+      "windowStart": "2026-10-04",
+      "windowEnd": "2026-10-10",
+      "missingDays": [
+        "2026-10-04",
+        "2026-10-05",
+        "2026-10-06",
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10"
+      ],
+      "latestScan": "blocked"
+    },
+    {
+      "sourceUrl": "https://www.landtag-bw.de/de/aktuelles/beschluesse",
+      "region": "DE-BW",
+      "title": "巴符州议会全体会议决定",
+      "windowStart": "2026-10-04",
+      "windowEnd": "2026-10-10",
+      "missingDays": [
+        "2026-10-04",
+        "2026-10-05",
+        "2026-10-06",
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.baden-wuerttemberg.de/de/service/presse/pressemitteilungen",
+      "region": "DE-BW",
+      "title": "巴符州政府各部门新闻公告",
+      "windowStart": "2026-10-04",
+      "windowEnd": "2026-10-10",
+      "missingDays": [
+        "2026-10-04",
+        "2026-10-05",
+        "2026-10-06",
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://starweb.hessen.de/portal/browse.tt.html?action=link&searchgeneric1-parsed=%28WP%3D21+AND+SGEBES%3DANNAHME%29+NOT+NOWEB%3DX&type=generic1",
+      "region": "DE-HE",
+      "title": "黑森州议会已通过法律目录（第21届）",
+      "windowStart": "2026-10-04",
+      "windowEnd": "2026-10-10",
+      "missingDays": [
+        "2026-10-04",
+        "2026-10-05",
+        "2026-10-06",
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://hessen.de/presse",
+      "region": "DE-HE",
+      "title": "黑森州政府各部门新闻公告",
+      "windowStart": "2026-10-04",
+      "windowEnd": "2026-10-10",
+      "missingDays": [
+        "2026-10-04",
+        "2026-10-05",
+        "2026-10-06",
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.bayern.landtag.de/parlament/dokumente/drucksachen/?anzahl_treffer=20&beschluss=zustimmung&dknr=&dlh=BeschlosseneGesetze19&dokumentenart=Drucksache&dokumentenart=Drucksache&erfassungsdatum%5Bend%5D=&erfassungsdatum%5Bstart%5D=&ist_basisdokument=off&q=&sort=date&suchverhalten=AND&suchvorgangsart%5B%5D=Gesetze%5C%5CGesetzentwurf&suchvorgangsart%5B%5D=Gesetze%5C%5CHaushaltsgesetz,+Nachtragshaushaltsgesetz&wahlperiodeid%5B%5D=19",
+      "region": "DE-BY",
+      "title": "巴伐利亚州议会已通过法律目录（第19届）",
+      "windowStart": "2026-10-04",
+      "windowEnd": "2026-10-10",
+      "missingDays": [
+        "2026-10-04",
+        "2026-10-05",
+        "2026-10-06",
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.bayern.de/presse/pressemitteilungen/",
+      "region": "DE-BY",
+      "title": "巴伐利亚州政府各部门新闻公告",
+      "windowStart": "2026-10-04",
+      "windowEnd": "2026-10-10",
+      "missingDays": [
+        "2026-10-04",
+        "2026-10-05",
+        "2026-10-06",
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.bundestag.de/dokumente/parlamentsdokumentation",
+      "region": "DE",
+      "title": "联邦议会文件与立法进程",
+      "windowStart": "2026-10-04",
+      "windowEnd": "2026-10-10",
+      "missingDays": [
+        "2026-10-04",
+        "2026-10-05",
+        "2026-10-06",
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.bundestag.de/dokumente/textarchiv",
+      "region": "DE",
+      "title": "联邦议会审议与表决新闻档案",
+      "windowStart": "2026-10-04",
+      "windowEnd": "2026-10-10",
+      "missingDays": [
+        "2026-10-04",
+        "2026-10-05",
+        "2026-10-06",
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.bundesregierung.de/breg-de/bundesregierung/kabinettsthemen",
+      "region": "DE",
+      "title": "联邦内阁议题与决定",
+      "windowStart": "2026-10-04",
+      "windowEnd": "2026-10-10",
+      "missingDays": [
+        "2026-10-10"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.bundesrat.de/DE/plenum/plenum-node.html",
+      "region": "DE",
+      "title": "联邦参议院全体会议",
+      "windowStart": "2026-10-04",
+      "windowEnd": "2026-10-10",
+      "missingDays": [
+        "2026-10-04",
+        "2026-10-05",
+        "2026-10-06",
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://mil.brandenburg.de/mil/de/",
+      "region": "DE-BB",
+      "title": "勃兰登堡基础设施与规划部公告",
+      "windowStart": "2026-10-04",
+      "windowEnd": "2026-10-10",
+      "missingDays": [
+        "2026-10-04",
+        "2026-10-05",
+        "2026-10-06",
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.bmas.de/DE/Service/Presse/Pressemitteilungen/pressemitteilungen.html",
+      "region": "DE",
+      "title": "德国劳动与社会事务部：新闻公告",
+      "windowStart": "2026-10-04",
+      "windowEnd": "2026-10-10",
+      "missingDays": [
+        "2026-10-10"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.bundesgesundheitsministerium.de/suche-pressemitteilungen",
+      "region": "DE",
+      "title": "德国卫生部：新闻公告",
+      "windowStart": "2026-10-04",
+      "windowEnd": "2026-10-10",
+      "missingDays": [
+        "2026-10-10"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.bundesfinanzministerium.de/Web/DE/Service/Gesetze_Gesetzesvorhaben/Gesetze_Gesetzgebungsvorhaben.html",
+      "region": "DE",
+      "title": "德国财政部：法律与法案目录",
+      "windowStart": "2026-10-04",
+      "windowEnd": "2026-10-10",
+      "missingDays": [
+        "2026-10-10"
+      ],
+      "latestScan": "partial"
+    }
+  ]
+}

@@ -245,14 +245,19 @@ test('French courier agreement, approval and correction remain one searchable ma
  assert(!group.recordIds.includes('fr-20261011-gas-benchmark'));
 });
 
-test('French gas notice and CRE benchmark count once and stay separate from courier income',()=>{
- for(const query of ['CRE PRVG octobre 2026','2026年10月住宅燃气参考价','October 2026 residential gas benchmark']){
+test('French monthly gas notices count once and preserve separate October and November records',()=>{
+ for(const query of ['CRE PRVG octobre 2026','住宅燃气月度参考价','Monthly residential gas benchmarks']){
   const result=selectListing(data.policies,data.intake.records,{...base,country:'FR',query},undefined,'2026-10-11',topics);
   assert.equal(result.count,1,query);
   assert.equal(result.progressGroups[0]?.id,'topic:fr-gas-benchmark-october-2026');
  }
  const group=topics.find(t=>t.id==='fr-gas-benchmark-october-2026')!;
- assert.equal(group.recordIds.length,2);
+ assert.equal(group.recordIds.length,3);
+ assert(group.recordIds.includes('fr-20261011-gas-benchmark'));
+ assert(group.recordIds.includes('fr-20261013-gas-november'));
+ assert(group.recordIds.includes('fr-20261013-sp-a17956'));
+ assert(!group.recordIds.includes('fr-sp-a17956'));
+ assert(!group.recordIds.includes('fr-20261011-courier-notice-corrected'));
  assert.deepEqual(group.policyIds,['fr-gas-benchmark-october-2026']);
 });
 
@@ -271,4 +276,17 @@ test('Mayotte port orders share their reviewed explanation without absorbing fue
   assert.equal(all.cards.filter(c=>c.policy.id==='fr-06-port-tariff').length,1);
   assert(!all.raw.some(r=>group.recordIds.includes(r.id)));
  }
+});
+
+test('German October announcements link their explanations by exact source identity',()=>{
+ for(const id of ['bw-suspect-nationality-2026','bw-asian-hornet-funding-2026','he-dead-boar-digital-reporting-2026','bb-domestic-violence-court-support-2026','ni-coastal-no-fishing-plan-2026','ni-battery-trains-procurement-2026','by-rail-service-cuts-reversed-2026','bb-statewide-digital-building-permits-2026']){
+  const record=data.intake.records.find(r=>r.id==='de-20261013-'+id)!;
+  const policy=data.policies.find(p=>p.id===id)!;
+  assert(record&&policy,id);
+  assert.equal(policy.region,record.region);
+  assert.equal(policy.officialId,record.officialId??record.url,id);
+ }
+ const matter=topics.find(t=>t.id==='de-psychosocial-family-court-pilot')!;
+ assert.deepEqual(new Set(matter.policyIds),new Set(['bw-domestic-violence-support-pilot-2026','bb-domestic-violence-court-support-2026']));
+ assert(!matter.policyIds.includes('de-domestic-violence-family-court-2026'));
 });

@@ -1,0 +1,82 @@
+
+> policy-radar@0.1.0 data:coverage
+> node --experimental-strip-types scripts/check-recent-coverage.mjs data/store CH
+
+(node:24926) ExperimentalWarning: Type Stripping is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+{
+  "checkedAt": "2026-10-13T10:02:34.485Z",
+  "scope": "CH",
+  "channels": 4,
+  "incompleteChannels": 4,
+  "gaps": [
+    {
+      "sourceUrl": "https://www.news.admin.ch/de",
+      "region": "CH",
+      "title": "瑞士联邦政府公告",
+      "windowStart": "2026-10-06",
+      "windowEnd": "2026-10-12",
+      "missingDays": [
+        "2026-10-06",
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10",
+        "2026-10-11",
+        "2026-10-12"
+      ],
+      "latestScan": "blocked"
+    },
+    {
+      "sourceUrl": "https://www.fedlex.admin.ch/de/oc",
+      "region": "CH",
+      "title": "瑞士联邦法律汇编",
+      "windowStart": "2026-10-06",
+      "windowEnd": "2026-10-12",
+      "missingDays": [
+        "2026-10-06",
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10",
+        "2026-10-11",
+        "2026-10-12"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.parlament.ch/de/ratsbetrieb/suche-curia-vista",
+      "region": "CH",
+      "title": "瑞士联邦议会事务",
+      "windowStart": "2026-10-06",
+      "windowEnd": "2026-10-12",
+      "missingDays": [
+        "2026-10-06",
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10",
+        "2026-10-11",
+        "2026-10-12"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.bk.admin.ch/de/volksabstimmungen",
+      "region": "CH",
+      "title": "瑞士联邦投票结果",
+      "windowStart": "2026-10-06",
+      "windowEnd": "2026-10-12",
+      "missingDays": [
+        "2026-10-06",
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10",
+        "2026-10-11",
+        "2026-10-12"
+      ],
+      "latestScan": "partial"
+    }
+  ]
+}

@@ -67,7 +67,9 @@ export function selectListing(items:Policy[],records:IntakeRecord[],filters:Retu
  }
  const policyIds=new Set(policies.map(p=>p.id));
  const policyGroups=progressGroups.filter(g=>g.title&&g.policyIds.some(id=>policyIds.has(id)));
- return {policies,cards,raw,reviewed,progress,rawGroups,progressGroups,policyGroups,explainedGroups,explainedCount:policyMatches.length,count:view==='intake'?progressGroups.length:policies.length+rawGroups.length+explainedGroups.length};
+ // Registry insertion order is unrelated to the dated card order.
+ const orderedExplainedGroups=cards.flatMap(c=>c.group?[c.group]:[]);
+ return {policies,cards,raw,reviewed,progress,rawGroups,progressGroups,policyGroups,explainedGroups:orderedExplainedGroups,explainedCount:policyMatches.length,count:view==='intake'?progressGroups.length:policies.length+rawGroups.length+explainedGroups.length};
 }
 
 // The shared timeline shows official events only. Corrections are dated by our own

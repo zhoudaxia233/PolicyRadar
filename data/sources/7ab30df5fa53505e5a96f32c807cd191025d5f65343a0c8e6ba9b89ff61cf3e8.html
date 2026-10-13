@@ -1,0 +1,2113 @@
+
+<!DOCTYPE html>
+<html lang="nl" class="scroll-smooth scroll-pt-[140px]" culture="nl-NL" dir="ltr" x-data="{ mobileMenuOpen: false }">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimal-ui">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="format-detection" content="telephone=no">
+    <link rel="stylesheet" href="/dist/fonts/Titillium-font.css">
+    <meta charset="utf-8">
+
+    
+
+
+
+
+
+
+    <link rel="stylesheet" href="/dist/css/all.css">
+    
+<title>Prettig wonen en verantwoord lenen met NHG</title>
+<meta name="description" content="NHG (Nationale Hypotheek Garantie), voor een verantwoorde en betaalbare hypotheek." />
+<meta name="robots" content="index, follow" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="canonical" href="https://www.nhg.nl/"/>
+
+        <meta name="twitter:card" content="summary" />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="Prettig wonen en verantwoord lenen met NHG" />
+        <meta property="og:url" content="https://www.nhg.nl/" />
+            <meta property="og:description" content="NHG (Nationale Hypotheek Garantie), voor een verantwoorde en betaalbare hypotheek." />
+
+<script id="Cookiebot" src="https://consent.cookiebot.eu/uc.js" data-cbid="a787cd72-404a-48a5-a8c4-02c0f28a8df4" data-blockingmode="auto" type="text/javascript"></script>
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-K7GVLGB');</script>
+<!-- End Google Tag Manager -->
+<script src="https://www.googleoptimize.com/optimize.js?id=OPT-MZXW2KK"></script>
+<script>
+document.addEventListener('DOMContentLoaded', function(){
+    window.dataLayer = window.dataLayer || [];
+    window.dataLayer.push({'event': 'optimize.activate'});
+});
+</script>
+
+<script>
+window.addEventListener('DOMContentLoaded', function() {    
+    let param = new URL(document.location).searchParams.get('q') ?? false
+    if (!param) return
+
+    window.addEventListener('message', function(e) {
+        var data = JSON.parse(e.data); 
+        if (data && data.action && data.action == 'dataLayer' && window.dataLayer) {
+            console.log('zoeksuggesties event via embed', data);
+window.dataLayer.push(data.data)
+        }
+    }, false);
+
+    window.dataLayer = window.dataLayer || [];
+    window.dataLayer.push({'event': 'searched', 'keyword': param });
+
+    const searchEmbed = document.createElement('script')
+    searchEmbed.classList.add('embed-iframe')
+    searchEmbed.src = 'https://embeds.nhg.onstuimig.nl/js/embed.js'
+    searchEmbed.setAttribute('iframe-src', 'https://embeds.nhg.onstuimig.nl/search-suggestions?s=' + encodeURIComponent(param))
+    
+    let injectEl = document.querySelector('h1')
+    if (!injectEl) return
+    injectEl.parentElement.after(searchEmbed)
+})
+</script>        <link rel="apple-touch-icon" sizes="180x180" href="/dist/app-icons/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/dist/app-icons/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/dist/app-icons/favicon-16x16.png">
+        <link rel="mask-icon" color="#5bbad5" href="/dist/app-icons/safari-pinned-tab.svg">
+        <link rel="shortcut icon" href="/dist/app-icons/favicon.ico">
+    <link rel="canonical" href="https://www.nhg.nl/" />
+    <meta name="msapplication-TileColor" content="#9f00a7">
+    <meta name="msapplication-config" content="/dist/app-icons/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+
+    <script src="/dist/scripts/jquery-3.4.1.min.js"></script>
+    <script src="/dist/scripts/jquery.validate.min.js"></script>
+    <script src="/dist/scripts/jquery.validate.unobtrusive.min.js"></script>
+
+    <script src="https://cdn1.readspeaker.com/script/11856/webReader/webReader.js?pids=wr"></script>
+
+<script data-cookieconsent="ignore">
+  window.seamly = window.seamly || []
+function handleCookiebotEvent() {
+  window.seamly.push({
+    action: "init",
+    args: {
+     layoutMode: 'window',
+continueChat: {
+  enterDelay: 1000 // Delays entering in ms
+}
+    }
+  })
+;
+console.log('seamly init')
+	if (!window.seamly) return
+	if (window.innerWidth < 768) return
+
+	console.log('seamly starting')
+	let seamly_open_chat_timer = -1 // open chat in x milliseconds
+
+	window.cookieStorage = window.cookieStorage || {
+		getItem(key) {
+			let cookies = document.cookie.split(";");
+			for (let i = 0; i < cookies.length; i++) {
+				let cookie = cookies[i].split("=");
+				if (key == cookie[0].trim()) {
+					return JSON.parse(decodeURIComponent(cookie[1]));
+				}
+			}
+			return null;
+		},
+		setItem(key, value, exdays) {
+			const d = new Date();
+			d.setTime(d.getTime() + exdays * 24 * 60 * 60 * 1000);
+			let expires = "expires=" + d.toUTCString();
+			document.cookie = key + "=" + value + ";" + expires + ";path=/";
+		}
+	}
+	
+	let manuallyclosed = cookieStorage.getItem('seamly_chat_closed')
+	if (manuallyclosed == '1') return
+	
+	window.addEventListener('scroll',function(){
+		console.log('seamly logics')
+		seamlyChatLogics()
+	},{once:true})
+	
+	function seamlyChatLogics() {
+		window.seamly.push({
+			action: 'getVisibility',
+			args: function(visibility) {
+				if (visibility == 'minimized') {
+					//start 5s timer to open
+					if (typeof seamly_open_chat_timer != 'undefined' && seamly_open_chat_timer != -1) {
+						setTimeout(() => {
+							window.seamly.push({
+								action: 'setVisibility',
+								args: 'open',
+							})
+						}, seamly_open_chat_timer)
+					}
+				}
+			},
+		})
+		
+		// on manuallyclosed
+		window.seamly.push({
+			action: 'on',
+			args: [
+				'ui.visible',
+				(visibilityState, appState) => {
+					if (visibilityState == 'minimized') {
+						cookieStorage.setItem('seamly_chat_closed','1', 1)
+					} else if (visibilityState == 'open' && cookieStorage.getItem('seamly_chat_closed') == '1') {
+						cookieStorage.setItem('seamly_chat_closed','1', -1)
+					}
+
+					console.log('seamly ui.visible', visibilityState)
+                    if (visibilityState == 'open') {
+						console.log('seamly open chat')
+                        // on open: send seamly open chat to GA
+                        window.dataLayer = window.dataLayer || [];
+                        window.dataLayer.push({
+                            event: 'chat',
+                            category: 'seamly',
+                            action: 'window_state',
+                            label: visibilityState,
+                        })
+                    }
+				}
+			]
+		})
+        
+	}
+	
+}
+	  
+	  
+window.addEventListener('CookiebotOnAccept', handleCookiebotEvent);
+window.addEventListener('CookiebotOnDecline', handleCookiebotEvent);
+
+</script>
+<style>.cvco-app { z-index:500 !important; } #seamly-placeholder {position: relative; z-index: 5000; }</style>
+<script src="https://cdn.conversationalsdevelopment.nl/nhg/client/v1/index.js" async=""></script>
+    
+</head>
+<body class="template-homepage no-js bg-gray-500" :class="{ 'overflow-hidden': mobileMenuOpen }">
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-K7GVLGB"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+        
+<header class="relative z-[6000] bg-white py-4">
+    <div class="container">
+        <div class="flex">
+
+                <div class="flex items-center">
+                    <div class="mr-3">
+                        <a href="/">
+                            <img alt="logo" class="w-52 lazyload" loading="lazy" src="/media/4p5lvf02/logo.svg" />
+                        </a>
+                    </div>
+                </div>
+
+            <div class="w-full print:hidden">
+                    <div class="m-0 p-0 h-12 flex justify-end items-center space-x-10">
+                                <a class="text-alpha-500 whitespace-no-wrap md:hidden" href="/over-nhg/werken-bij-nhg/">Werken bij NHG</a>
+                                <a class="text-alpha-500 whitespace-no-wrap md:hidden" href="/english-summary/">English summary</a>
+                                <a class="text-alpha-500 whitespace-no-wrap md:hidden" href="https://mijn.nhg.nl" target="_blank">Mijn NHG</a>
+                    </div>
+
+                <div class="m-0 p-0 h-16 flex justify-end items-center text-2xl font-bold lg:hidden space-x-12">
+                        <ul class="flex items-center space-x-12">
+                                <li class="group megamenu-link">
+                                        <a class="text-2xl whitespace-no-wrap text-alpha-500 group-hover:text-bravo-500 " href="/het-product-nhg/een-hypotheek-met-nhg/">Een hypotheek met NHG</a>
+
+                                        <div class="absolute left-0 z-30 hidden w-full bg-white shadow-xl megamenu top-full group-hover:block">
+                                            <div class="max-w-4xl pt-2 pb-10 mx-auto space-y-4">
+                                                    <div>
+                                                        <a class="text-2xl text-alpha-500" href="/het-product-nhg/een-hypotheek-met-nhg/">Een hypotheek met NHG</a>
+                                                    </div>
+
+                                                <div class="flex -m-2">
+                                                    <div class="flex-grow p-2 space-y-4">
+                                                        <div class="flex -m-2">
+                                                                <div class="flex-grow p-2 space-y-3">
+                                                                        <a class="flex items-start font-normal hover:text-bravo-500 text-bravo-700" href="/het-product-nhg/een-hypotheek-met-nhg/">
+                                                                            <svg class="self-center w-3 h-3 mr-4 text-current icon"><use xlink:href="#chevron-right"></use></svg>
+                                                                            <span>Een hypotheek met NHG</span>
+                                                                        </a>
+                                                                        <a class="flex items-start font-normal hover:text-bravo-500 text-bravo-700" href="/verduurzamen/verduurzaming/">
+                                                                            <svg class="self-center w-3 h-3 mr-4 text-current icon"><use xlink:href="#chevron-right"></use></svg>
+                                                                            <span>Verduurzaming</span>
+                                                                        </a>
+                                                                        <a class="flex items-start font-normal hover:text-bravo-500 text-bravo-700" href="/verduurzamen/nhg-borg-voor-kleine-vves/">
+                                                                            <svg class="self-center w-3 h-3 mr-4 text-current icon"><use xlink:href="#chevron-right"></use></svg>
+                                                                            <span>NHG borg voor kleine VvE&#x27;s</span>
+                                                                        </a>
+                                                                </div>
+
+                                                                <div class="flex-grow p-2 space-y-3">
+                                                                        <a class="flex items-start font-normal hover:text-bravo-500 text-bravo-700" href="/het-product-nhg/je-hypotheek-veranderen/">
+                                                                            <svg class="self-center w-3 h-3 mr-4 text-current icon"><use xlink:href="#chevron-right"></use></svg>
+                                                                            <span>Je hypotheek veranderen</span>
+                                                                        </a>
+                                                                        <a class="flex items-start font-normal hover:text-bravo-500 text-bravo-700" href="/hulp-van-nhg/hulp-als-je-relatie-eindigt/">
+                                                                            <svg class="self-center w-3 h-3 mr-4 text-current icon"><use xlink:href="#chevron-right"></use></svg>
+                                                                            <span>Hulp als je relatie eindigt</span>
+                                                                        </a>
+                                                                        <a class="flex items-start font-normal hover:text-bravo-500 text-bravo-700" href="/hulp-van-nhg/hulp-als-je-inkomen-daalt/">
+                                                                            <svg class="self-center w-3 h-3 mr-4 text-current icon"><use xlink:href="#chevron-right"></use></svg>
+                                                                            <span>Hulp als je inkomen daalt</span>
+                                                                        </a>
+                                                                </div>
+                                                        </div>
+
+                                                            <div>
+                                                                <a class="flex items-center text-2xl font-bold text-bravo-500 hover:text-bravo-700" href="/het-product-nhg/een-hypotheek-met-nhg/">
+                                                                    <span>Bekijk alles</span>
+                                                                    <svg role="img" class="icon self-center w-4 h-4 ml-2 text-current icon icon-arrow-right">
+                                                                        <use href="/dist/img/sprite/site-sprites.svg#icon-arrow-right"></use>
+                                                                    </svg>
+                                                                </a>
+                                                            </div>
+                                                    </div>
+
+                                                        <div class="p-2 space-y-3">
+                                                                    <a class="flex items-start text-bravo-500 hover:text-bravo-700" href="/service-en-contact/">
+                                                                        <svg class="self-center w-6 h-6 mr-4 text-current icon"><use xlink:href="#question-circle"></use></svg>
+                                                                        <span>Service en Contact</span>
+                                                                    </a>
+                                                                    <a class="flex items-start text-bravo-500 hover:text-bravo-700" href="/over-nhg/missie-en-strategie/">
+                                                                        <svg class="self-center w-6 h-6 mr-4 text-current icon"><use xlink:href="#info"></use></svg>
+                                                                        <span>Missie en strategie</span>
+                                                                    </a>
+                                                                    <a class="flex items-start text-bravo-500 hover:text-bravo-700" href="/nhg-actueel/">
+                                                                        <svg class="self-center w-6 h-6 mr-4 text-current icon"><use xlink:href="#book"></use></svg>
+                                                                        <span>NHG Actueel</span>
+                                                                    </a>
+                                                        </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                </li>
+                                <li class="group megamenu-link">
+                                        <a class="text-2xl whitespace-no-wrap text-alpha-500 group-hover:text-bravo-500 " href="/professional/">Professional</a>
+
+                                        <div class="absolute left-0 z-30 hidden w-full bg-white shadow-xl megamenu top-full group-hover:block">
+                                            <div class="max-w-4xl pt-2 pb-10 mx-auto space-y-4">
+                                                    <div>
+                                                        <a class="text-2xl text-alpha-500" href="/professional/">Professional</a>
+                                                    </div>
+
+                                                <div class="flex -m-2">
+                                                    <div class="flex-grow p-2 space-y-4">
+                                                        <div class="flex -m-2">
+                                                                <div class="flex-grow p-2 space-y-3">
+                                                                        <a class="flex items-start font-normal hover:text-bravo-500 text-bravo-700" href="/professional/">
+                                                                            <svg class="self-center w-3 h-3 mr-4 text-current icon"><use xlink:href="#chevron-right"></use></svg>
+                                                                            <span>Professional</span>
+                                                                        </a>
+                                                                        <a class="flex items-start font-normal hover:text-bravo-500 text-bravo-700" href="/professional/energiebesparende-maatregelen-financieren/">
+                                                                            <svg class="self-center w-3 h-3 mr-4 text-current icon"><use xlink:href="#chevron-right"></use></svg>
+                                                                            <span>Energiebesparende maatregelen financieren</span>
+                                                                        </a>
+                                                                        <a class="flex items-start font-normal hover:text-bravo-500 text-bravo-700" href="/toolkit-professionals/">
+                                                                            <svg class="self-center w-3 h-3 mr-4 text-current icon"><use xlink:href="#chevron-right"></use></svg>
+                                                                            <span>Toolkit professionals</span>
+                                                                        </a>
+                                                                </div>
+
+                                                                <div class="flex-grow p-2 space-y-3">
+                                                                        <a class="flex items-start font-normal hover:text-bravo-500 text-bravo-700" href="/voorwaarden-en-normen/">
+                                                                            <svg class="self-center w-3 h-3 mr-4 text-current icon"><use xlink:href="#chevron-right"></use></svg>
+                                                                            <span>Voorwaarden en normen</span>
+                                                                        </a>
+                                                                        <a class="flex items-start font-normal hover:text-bravo-500 text-bravo-700" href="/hulp-van-nhg/beheertoets/">
+                                                                            <svg class="self-center w-3 h-3 mr-4 text-current icon"><use xlink:href="#chevron-right"></use></svg>
+                                                                            <span>Beheertoets</span>
+                                                                        </a>
+                                                                        <a class="flex items-start font-normal hover:text-bravo-500 text-bravo-700" href="/kennis-innovatie/">
+                                                                            <svg class="self-center w-3 h-3 mr-4 text-current icon"><use xlink:href="#chevron-right"></use></svg>
+                                                                            <span>Kennis &amp; Innovatie</span>
+                                                                        </a>
+                                                                </div>
+                                                        </div>
+
+                                                            <div>
+                                                                <a class="flex items-center text-2xl font-bold text-bravo-500 hover:text-bravo-700" href="/professional/">
+                                                                    <span>Bekijk alles</span>
+                                                                    <svg role="img" class="icon self-center w-4 h-4 ml-2 text-current icon icon-arrow-right">
+                                                                        <use href="/dist/img/sprite/site-sprites.svg#icon-arrow-right"></use>
+                                                                    </svg>
+                                                                </a>
+                                                            </div>
+                                                    </div>
+
+                                                        <div class="p-2 space-y-3">
+                                                                    <a class="flex items-start text-bravo-500 hover:text-bravo-700" href="/service-en-contact/">
+                                                                        <svg class="self-center w-6 h-6 mr-4 text-current icon"><use xlink:href="#question-circle"></use></svg>
+                                                                        <span>Service en Contact</span>
+                                                                    </a>
+                                                                    <a class="flex items-start text-bravo-500 hover:text-bravo-700" href="/over-nhg/missie-en-strategie/">
+                                                                        <svg class="self-center w-6 h-6 mr-4 text-current icon"><use xlink:href="#info"></use></svg>
+                                                                        <span>Missie en strategie</span>
+                                                                    </a>
+                                                                    <a class="flex items-start text-bravo-500 hover:text-bravo-700" href="/nhg-actueel/">
+                                                                        <svg class="self-center w-6 h-6 mr-4 text-current icon"><use xlink:href="#book"></use></svg>
+                                                                        <span>NHG Actueel</span>
+                                                                    </a>
+                                                        </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                </li>
+                                <li class="group megamenu-link">
+                                        <a class="text-2xl whitespace-no-wrap text-alpha-500 group-hover:text-bravo-500 " href="/nhg-actueel/">NHG Actueel</a>
+
+                                </li>
+                        </ul>
+                    <div class="flex relative">
+                        
+    <div class="field block	flex flex-col alt w-full">
+        <form method="get" class="flex mt-auto" action="/zoeken/" x-data="{expanded: false, search: ''}">
+
+            <div class="absolute w-[480px] flex justify-end form-input-search-wrapper bg-white"
+                 x-cloak
+                 x-show="expanded">
+                <input x-show="expanded"
+                       x-transition:enter="search-input-open"
+                       x-transition:enter-start="search-input-open-start"
+                       x-transition:enter-end="search-input-open-end"
+                       x-transition:leave="search-input-close"
+                       x-model="search"
+                       x-on:click.away="expanded=false"
+                       x-ref="searchinput"
+                       id=""
+                       name="q"
+                       class="form-input block rounded-r-none alt:placeholder-alpha-500	alt:font-bold alt:bg-alpha-100 alt:text-alpha-500 w-full alt:border alt:border-alpha-100 alt:text-xl alt:focus:border-alpha-500 form-input-search"
+                       type="search"
+                       placeholder="">
+            </div>
+            <button type="submit"
+                    x-bind:class="{'rounded-l-none':expanded}"
+                    x-on:click="if (!expanded || search == ''){
+                    $event.preventDefault()
+                    $event.stopImmediatePropagation();
+                    expanded=!expanded
+                    if(expanded) {
+                    $nextTick(()=>
+                $refs.searchinput.focus())
+                }
+                }"
+                class="border border-alpha-500 text-white bg-alpha-500 rounded-md  hover:bg-alpha-700 flex justify-center items-center form-button-search w-14" aria-label="Zoeken"><span class="w-0 overflow-hidden">&nbsp;</span>			<svg role="img" class="icon h-6 w-6 fill-current">
+                    <use href="/dist/img/sprite/site-sprites.svg#icon-search"></use>
+                </svg>
+            </button>
+        </form>
+        <p class="shadow z-10 absolute top-100 right-0 px-4 py-2 border bg-gray-500 mt-2 text-sm rounded mx-2" validate-message=""></p>
+    </div>
+
+                    </div>
+                </div>
+                <div class="hidden lg:flex justify-end" x-on:click.prevent="mobileMenuOpen = true">
+                    <a href="#">
+                        <svg role="img" class="icon h-8 w-8 text-alpha-500">
+                            <use xlink:href="#menu"></use>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+    <main class="space-y-16 sm:space-y-10 readFromHere" id="readFromHere">
+        
+<div class="container mt-16 md:mt-10">
+    <div class="">
+        <div class="bg-cover px-10 bg-center bg-no-repeat relative" style="background-image:url(&#x27;/media/2kcdcble/istock-1174851858.jpg?width=1920&amp;height=1080&amp;v=1dad6a624a92130&#x27;)">
+            <div class="gradient absolute w-full h-full top-0 left-0 pointer-events-none"></div>
+            <div class="print:h-auto text-white relative  pb-12 pt-64 md:pt-32 md:pb-6 ">
+                <div class="flex md:flex-wrap md:space-y-4 w-full items-end">
+                    <div class="w-6/10 md:w-full space-y-4">
+                        
+<div class="print:hidden relative">
+    <div id="readspeaker_button1" class="rs_skip rsbtn rsbtn_compactskin rs_preserve mega_toggle">
+        <a rel="nofollow" class="rsbtn_play" accesskey="L" title="Laat de tekst voorlezen met ReadSpeaker webReader" href="//app-na.readspeaker.com/cgi-bin/rsent?customerid=11856&amp;lang=nl_nl&amp;readid=readFromHere&amp;url=https://www.nhg.nl/">
+            <span class="rsbtn_left rsimg rspart"><span class="rsbtn_text"><span>Lees voor</span></span></span>
+            <span class="rsbtn_right rsimg rsplay rspart"></span>
+        </a>
+    </div>
+</div>
+
+                        <h1 class="text-6xl	text-white leading-tight font-semibold">
+                            Prettig wonen en verantwoord lenen met NHG
+                        </h1>
+
+                        <div class="flex md:flex-wrap items-center">
+                            <div class="">
+                                <p class="text-2xltext-white pr-4">
+                                    Je kunt er op vertrouwen dat jouw hypotheek past bij je persoonlijke situatie en portemonnee.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="ml-auto md:ml-0 flex-shrink space-y-4">
+                            <a class="button px-6 py-3 whitespace-no-wrap inline-flex text-2xl bg-bravo-500 hover:bg-bravo-700" href="/het-product-nhg/een-hypotheek-met-nhg/">
+                                Ontdek hoe NHG helpt
+                            </a>
+                    </div>
+                </div>
+               
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
+
+<div class="space-y-16 sm:space-y-10">
+    
+
+        <div class="background-wrapper">
+            <div class="container">
+                <div
+                    class="umb-block-grid__layout-item"
+                    data-content-element-type-alias="contentListGridComponent"
+                    data-content-element-type-key="8dc10d8c-3269-4031-a3e0-e8adbb94f481"
+                    data-element-udi="umb://element/ecd69ccb409e48e7affba11b3a16c13d"
+                    data-col-span="10"
+                    data-row-span="1"
+                    style="--umb-block-grid--item-column-span: 10; --umb-block-grid--item-row-span: 1;">
+    <div class="grid grid-flow-row grid-cols-3 lg:grid-cols-2 md:grid-cols-1 gap-10 md:gap-4">
+            <div class="">
+                <div class="h-full contentItem overflow-hidden bg-white relative rounded-tr-xl shadow space-y-4 bg-cover bg-center px-7 pb-10 py-4 bg-white">
+                    <div class="space-y-4 break-words">
+                        <div class="flex items-center text-center text-alpha-500">
+                            <svg role="img" class="icon w-6 h-6 mr-4">
+                                <use xlink:href="#house-leaf"></use>
+                            </svg>
+                            <h2 class="mt-0 text-3xl text-alpha-500">Huis kopen</h2>
+                        </div>
+
+                            <ul class="list-arrow space-y-2 text-xl">
+                                    <li class="text-bravo-500 hover:text-bravo-700">
+                                        <a href="/het-krijgen-van-nhg/nhg-voor-starters/" class="flex text-bravo-500 hover:text-bravo-700">
+                                            <span class="flex-grow">Ik wil een eerste huis kopen</span>
+                                        </a>
+                                    </li>
+                                    <li class="text-bravo-500 hover:text-bravo-700">
+                                        <a href="/het-krijgen-van-nhg/een-hypotheek-met-vast-contract/" class="flex text-bravo-500 hover:text-bravo-700">
+                                            <span class="flex-grow">Ik heb een vast contract</span>
+                                        </a>
+                                    </li>
+                                    <li class="text-bravo-500 hover:text-bravo-700">
+                                        <a href="/het-krijgen-van-nhg/een-hypotheek-zonder-vast-contract/" class="flex text-bravo-500 hover:text-bravo-700">
+                                            <span class="flex-grow">Ik heb geen vast contract</span>
+                                        </a>
+                                    </li>
+                                    <li class="text-bravo-500 hover:text-bravo-700">
+                                        <a href="/het-krijgen-van-nhg/een-hypotheek-zonder-vast-contract/" class="flex text-bravo-500 hover:text-bravo-700">
+                                            <span class="flex-grow">Ik ben flexwerker / uitzendkracht</span>
+                                        </a>
+                                    </li>
+                                    <li class="text-bravo-500 hover:text-bravo-700">
+                                        <a href="/het-krijgen-van-nhg/nhg-voor-senioren/" class="flex text-bravo-500 hover:text-bravo-700">
+                                            <span class="flex-grow">Ik ben senior</span>
+                                        </a>
+                                    </li>
+                                    <li class="text-bravo-500 hover:text-bravo-700">
+                                        <a href="/het-krijgen-van-nhg/een-hypotheek-voor-ondernemers/" class="flex text-bravo-500 hover:text-bravo-700">
+                                            <span class="flex-grow">Ik ben ondernemer</span>
+                                        </a>
+                                    </li>
+                            </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="">
+                <div class="h-full contentItem overflow-hidden bg-white relative rounded-tr-xl shadow space-y-4 bg-cover bg-center px-7 pb-10 py-4 bg-white">
+                    <div class="space-y-4 break-words">
+                        <div class="flex items-center text-center text-alpha-500">
+                            <svg role="img" class="icon w-6 h-6 mr-4">
+                                <use xlink:href="#check-circle"></use>
+                            </svg>
+                            <h2 class="mt-0 text-3xl text-alpha-500">Ik wil verduurzamen</h2>
+                        </div>
+
+                            <ul class="list-arrow space-y-2 text-xl">
+                                    <li class="text-bravo-500 hover:text-bravo-700">
+                                        <a href="/verduurzamen/verduurzaming/" class="flex text-bravo-500 hover:text-bravo-700">
+                                            <span class="flex-grow">Het Energiebespaarbudget</span>
+                                        </a>
+                                    </li>
+                                    <li class="text-bravo-500 hover:text-bravo-700">
+                                        <a href="/het-product-nhg/je-hypotheek-veranderen/" class="flex text-bravo-500 hover:text-bravo-700">
+                                            <span class="flex-grow">Ik wil mijn hypotheek veranderen</span>
+                                        </a>
+                                    </li>
+                                    <li class="text-bravo-500 hover:text-bravo-700">
+                                        <a href="/verduurzamen/nhg-borg-voor-kleine-vves/" class="flex text-bravo-500 hover:text-bravo-700">
+                                            <span class="flex-grow">Ik wil verduurzamen met mijn VvE</span>
+                                        </a>
+                                    </li>
+                                    <li class="text-bravo-500 hover:text-bravo-700">
+                                        <a href="/verduurzamen/stijgende-energieprijzen-dit-kun-jij-doen/" class="flex text-bravo-500 hover:text-bravo-700">
+                                            <span class="flex-grow">Stijgende energieprijzen: Dit kun jij doen</span>
+                                        </a>
+                                    </li>
+                                    <li class="text-bravo-500 hover:text-bravo-700">
+                                        <a href="/verduurzamen/energiebesparende-maatregelen/" class="flex text-bravo-500 hover:text-bravo-700">
+                                            <span class="flex-grow">Energiebesparende maatregelen</span>
+                                        </a>
+                                    </li>
+                            </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="">
+                <div class="h-full contentItem overflow-hidden bg-white relative rounded-tr-xl shadow space-y-4 bg-cover bg-center px-7 pb-10 py-4 gradient-box-colored">
+                    <div class="space-y-4 break-words">
+                        <div class="flex items-center text-center text-white">
+                            <svg role="img" class="icon w-6 h-6 mr-4">
+                                <use xlink:href="#people"></use>
+                            </svg>
+                            <h2 class="mt-0 text-3xl text-white">Hulp nodig </h2>
+                        </div>
+
+                            <ul class="list-arrow space-y-2 text-xl">
+                                    <li class="text-white">
+                                        <a href="/hulp-van-nhg/hulp-als-je-relatie-eindigt/" class="flex text-white">
+                                            <span class="flex-grow">Mijn relatie is ge&#xEB;indigd</span>
+                                        </a>
+                                    </li>
+                                    <li class="text-white">
+                                        <a href="/hulp-van-nhg/hulp-als-je-inkomen-daalt/" class="flex text-white">
+                                            <span class="flex-grow">Mijn inkomen is gedaald</span>
+                                        </a>
+                                    </li>
+                                    <li class="text-white">
+                                        <a href="/hulp-van-nhg/hulp-na-het-overlijden-van-je-partner/" class="flex text-white">
+                                            <span class="flex-grow">Mijn partner is overleden</span>
+                                        </a>
+                                    </li>
+                                    <li class="text-white">
+                                        <a href="/hulp-van-nhg/verhuizen-met-een-restschuld/" class="flex text-white">
+                                            <span class="flex-grow">Verhuizen met een restschuld</span>
+                                        </a>
+                                    </li>
+                                    <li class="text-white">
+                                        <a href="/hulp-van-nhg/kwijtschelding-van-een-restschuld/je-komt-niet-in-aanmerking-voor-kwijtschelding/" class="flex text-white">
+                                            <span class="flex-grow">Ik kom niet in aanmerking voor kwijtschelding</span>
+                                        </a>
+                                    </li>
+                            </ul>
+                    </div>
+                </div>
+            </div>
+    </div>
+                </div>
+            </div>
+        </div>
+        <div class="background-wrapper">
+            <div class="container">
+                <div
+                    class="umb-block-grid__layout-item"
+                    data-content-element-type-alias="quoteFullGridComponent"
+                    data-content-element-type-key="384d7094-b139-4552-b2dd-63ee798ea2d7"
+                    data-element-udi="umb://element/ec60ae60d364499ca905152a14450283"
+                    data-col-span="10"
+                    data-row-span="1"
+                    style="--umb-block-grid--item-column-span: 10; --umb-block-grid--item-row-span: 1;">
+<div id="d1500c3a-a1f9-4001-8cc7-503a8c123289" class="flex items-center justify-between space-x-14 sm:flex-col md:space-x-8 sm:space-y-4 md:items-start sm:space-x-0 ">
+        <img class="inline-block rounded-full object-cover object-center h-46 w-46 lg:h-36 lg:w-36 md:w-32 md:h-32 sm:w-36 sm:h-36" src="/media/0kcnhnkk/portret-klant.png?rxy=0.4276023468584009,0.32271558132495365&amp;width=200&amp;height=200&amp;quality=80&amp;v=1dba47936ab84d0" alt="Portret Klant" />
+    <div class="space-y-4">
+        <div class="italic rich-content"><p>Na onze scheiding maakte ik me zorgen. Verhuizen uit onze vertrouwde buurt wilde ik liever niet voor de kinderen. Gelukkig hielp onze hypotheekadviseur om de hypotheek met NHG passend te maken. Ik kan daardoor in het huis blijven wonen. Een hele opluchting!</p></div>
+        <p>Suzanne, Rotterdam</p>
+    </div>
+</div>
+
+
+
+<script type="text/javascript">
+    (function () {
+            var element = document.getElementById("d1500c3a-a1f9-4001-8cc7-503a8c123289");
+            var wrapper = element.closest(".container");
+            wrapper.classList.add("container-narrow");
+        })();
+</script>                </div>
+            </div>
+        </div>
+        <div class="background-wrapper">
+            <div class="container">
+                <div
+                    class="umb-block-grid__layout-item"
+                    data-content-element-type-alias="promoblok"
+                    data-content-element-type-key="b30c1db7-8c7e-41f5-8ac8-2e2523a77008"
+                    data-element-udi="umb://element/c9a798c8bf1548f9b0a8a15f0cc45cb9"
+                    data-col-span="10"
+                    data-row-span="1"
+                    style="--umb-block-grid--item-column-span: 10; --umb-block-grid--item-row-span: 1;">
+<div id="1d1f25ec-1eea-4e42-b872-7d6587529936">
+    <div class="flex lg:flex-col lg:space-y-6">
+        <div class="w-7/10 lg:w-full relative">
+            <div>
+                <div class="
+					h-full
+					contentItem
+				    overflow-hidden
+				    bg-white
+				    relative
+				    px-12
+				    pt-10
+					md:px-8
+				    md:pt-8
+				    sm:px-6
+				    sm:pt-6
+				    rounded-tr-xl
+				    shadow
+				    space-y-4
+				    bg-cover
+				    bg-center
+		        ">
+                    
+    <div class="">
+        <h2 id="Woonlastenbetaalbaarhouden" class="text-4xl text-alpha-500">
+            Woonlasten betaalbaar houden
+    </div>
+        <script type="text/javascript">
+            (function () {
+                var pageAnchors = document.getElementById("PageAnchors");
+                var anchor_li = document.createElement("li");
+                var anchor_a = document.createElement("a");
+                anchor_a.href = "#Woonlastenbetaalbaarhouden".replace("&#235;", "ë");
+                anchor_a.className = "text-alpha-500 hover:text-bravo-500";
+                anchor_a.innerText = "Woonlasten betaalbaar houden".replace("&#235;", "ë");
+
+                anchor_li.appendChild(anchor_a);
+
+                if (pageAnchors != null) {
+                    pageAnchors.appendChild(anchor_li);
+                }
+            })();
+        </script>
+
+
+                    <p>Hypotheekwensen veranderen. Bijvoorbeeld omdat je wilt verduurzamen of je hypotheeklasten wilt verlagen. Je hebt dan verschillende mogelijkheden om je hypotheek te veranderen. </p>
+                </div>
+
+                        <div class="relative z-10 bg-white px-12 py-10 rounded-bl-xl shadow md:px-8 md:py-8 sm:px-6 sm:py-6 ">
+                            <a href="/het-product-nhg/je-hypotheek-veranderen/" class="group flex items-center icon-link text-alpha-500 hover:text-bravo-500 text-bravo-500 hover:text-bravo-700 font-semibold text-xl">
+                                <svg role="img" class="icon w-3 h-3 mr-2 text-links group-hover:text-alpha-500">
+                                    <use href="/dist/img/sprite/site-sprites.svg#icon-linkarrow"></use>
+                                </svg>
+                                Zo regel je het
+                            </a>
+                        </div>
+            </div>
+
+            
+
+        </div>
+    </div>
+</div>
+
+    <script type="text/javascript">
+        (function () {
+            var element = document.getElementById("1d1f25ec-1eea-4e42-b872-7d6587529936");
+            var wrapper = element.closest(".background-wrapper");
+            wrapper.classList.add("bg-cover", "bg-center", "bg-no-repeat", "pt-26", "pb-20", "md:pt-20", "md:pb-14", "sm:pt-18", "sm:pb-12");
+            wrapper.style.backgroundImage = "url('/media/05xihm3h/istock-1227647323.jpg?rxy=0.4676308065330485,0.15189360696685344\u0026width=1920\u0026height=1080\u0026v=1dad6a6f556c2b0')";
+        })();
+    </script>
+                </div>
+            </div>
+        </div>
+        <div class="background-wrapper">
+            <div class="container">
+                <div
+                    class="umb-block-grid__layout-item"
+                    data-content-element-type-alias="relatedContentGridComponent"
+                    data-content-element-type-key="ab6462f5-83fe-4d08-94d1-78890ccaaec9"
+                    data-element-udi="umb://element/9ece9b6ea06145cf85039d50adc9ad80"
+                    data-col-span="10"
+                    data-row-span="1"
+                    style="--umb-block-grid--item-column-span: 10; --umb-block-grid--item-row-span: 1;">
+
+
+    <div class="flex lg:flex-col lg:space-y-6">
+        <div class="w-full relative space-y-6">
+            <div>
+                <div class="h-full contentItem overflow-hidden bg-white relative px-12 pt-10 md:px-8 md:pt-8 sm:px-6 sm:pt-6 rounded-tr-xl shadow space-y-4 bg-cover bg-center hasNoBottomSpace pt-10">
+                    
+    <div class="">
+        <h2 id="Nieuws" class="text-4xl text-alpha-500">
+            Nieuws
+    </div>
+        <script type="text/javascript">
+            (function () {
+                var pageAnchors = document.getElementById("PageAnchors");
+                var anchor_li = document.createElement("li");
+                var anchor_a = document.createElement("a");
+                anchor_a.href = "#Nieuws".replace("&#235;", "ë");
+                anchor_a.className = "text-alpha-500 hover:text-bravo-500";
+                anchor_a.innerText = "Nieuws".replace("&#235;", "ë");
+
+                anchor_li.appendChild(anchor_a);
+
+                if (pageAnchors != null) {
+                    pageAnchors.appendChild(anchor_li);
+                }
+            })();
+        </script>
+
+                    <div>
+    <div class="w-full flex py-0 sm:flex-col relative group flex-row-reverse sm:py-5 mt-4">
+        <a href="/nhg-actueel/financiele-druk-onder-woningeigenaren-neemt-toe/" class="absolute w-full h-full block top-0 left-0"></a>
+
+        <div class="w-full sm:pr-0">
+            <div class="flex flex-col w-full">
+                <h3 class="text-2xl text-bravo-500 font-bold group-hover:text-bravo-700">
+                    Financi&#xEB;le druk onder woningeigenaren neemt toe
+                </h3>
+            </div>
+
+            <p class="text-xl line-clamp-2 sm:line-clamp-3">
+                <span class="space-y-2">
+
+
+                        <span class=" text-xl text-gray-700">Persbericht</span>
+                        <span class=" text-xl text-gray-700"> - </span>
+
+                    <span class="text-xl text-gray-700 mr-4">21 mei 2026</span>
+                </span>
+
+                Dit blijkt uit de nieuwste en vijfde Woonlastenmonitor van NHG (Nationale Hypotheek Garantie). Na een periode van herstel is er een negatieve ontwikkeling te zien op meerdere vlakken.
+            </p>
+        </div>
+    </div>
+            <div class="content-item-border border-b-3 border-gray-550 -mx-12 mt-4"></div>
+    <div class="w-full flex py-0 sm:flex-col relative group flex-row-reverse sm:py-5 mt-4">
+        <a href="/nhg-actueel/nhg-adviseurspanel-luisteren-naar-de-praktijk/" class="absolute w-full h-full block top-0 left-0"></a>
+
+        <div class="w-full sm:pr-0">
+            <div class="flex flex-col w-full">
+                <h3 class="text-2xl text-bravo-500 font-bold group-hover:text-bravo-700">
+                    NHG-adviseurspanel: luisteren naar de praktijk 
+                </h3>
+            </div>
+
+            <p class="text-xl line-clamp-2 sm:line-clamp-3">
+                <span class="space-y-2">
+
+
+                        <span class=" text-xl text-gray-700">Nieuwsbericht</span>
+                        <span class=" text-xl text-gray-700"> - </span>
+
+                    <span class="text-xl text-gray-700 mr-4">15 mei 2026</span>
+                </span>
+
+                Hypotheekadviseurs spelen een belangrijke rol in hoe consumenten NHG ervaren en benutten. Daarom organiseerden we op 12 mei een NHG-adviseurspanel, waarin negen adviseurs met elkaar in gesprek gingen over actuele vraagstukken uit de praktijk. 
+            </p>
+        </div>
+    </div>
+            <div class="content-item-border border-b-3 border-gray-550 -mx-12 mt-4"></div>
+    <div class="w-full flex py-0 sm:flex-col relative group flex-row-reverse sm:py-5 mt-4">
+        <a href="/nhg-actueel/nhg-sluit-aan-bij-pilot-voor-woningbehoud-bij-schulden/" class="absolute w-full h-full block top-0 left-0"></a>
+
+        <div class="w-full sm:pr-0">
+            <div class="flex flex-col w-full">
+                <h3 class="text-2xl text-bravo-500 font-bold group-hover:text-bravo-700">
+                    NHG sluit aan bij pilot voor woningbehoud bij schulden
+                </h3>
+            </div>
+
+            <p class="text-xl line-clamp-2 sm:line-clamp-3">
+                <span class="space-y-2">
+
+
+                        <span class=" text-xl text-gray-700">Nieuwsbericht</span>
+                        <span class=" text-xl text-gray-700"> - </span>
+
+                    <span class="text-xl text-gray-700 mr-4">5 mrt 2026</span>
+                </span>
+
+                In 2025 zijn NVVK en de Gemeentelijke Kredietbank (GKB) Den Haag gestart met een landelijke pilot; &#x2018;De Proeftuin&#x2019;. Het doel van deze pilot is te onderzoeken hoe woningbezitters met problematische schulden in Nederland hun woning kunnen behouden en verkoop kan worden voorkomen. In januari 2026 is NHG bij de pilot betrokken om met onze borgstelling bij te dragen aan verantwoorde financieringsoplossingen.
+            </p>
+        </div>
+    </div>
+            <div class="content-item-border border-b-3 border-gray-550 -mx-12 mt-4"></div>
+    <div class="w-full flex py-0 sm:flex-col relative group flex-row-reverse sm:py-5 mt-4">
+        <a href="/nhg-actueel/nieuwe-e-learning-nu-beschikbaar-grip-op-verkoop-van-de-woning-met-nhg/" class="absolute w-full h-full block top-0 left-0"></a>
+
+        <div class="w-full sm:pr-0">
+            <div class="flex flex-col w-full">
+                <h3 class="text-2xl text-bravo-500 font-bold group-hover:text-bravo-700">
+                    Nieuwe e-learning: grip op verkoop van de woning met NHG 
+                </h3>
+            </div>
+
+            <p class="text-xl line-clamp-2 sm:line-clamp-3">
+                <span class="space-y-2">
+
+
+                        <span class=" text-xl text-gray-700">Nieuwsbericht</span>
+                        <span class=" text-xl text-gray-700"> - </span>
+
+                    <span class="text-xl text-gray-700 mr-4">17 dec 2025</span>
+                </span>
+
+                Vanaf 18 december is de vierde e-learning in het vernieuwde NHG-opleidingscurriculum beschikbaar: NHG Verkoop. Deze module, ontwikkeld in samenwerking met Lindenhaeghe, biedt hypotheekprofessionals de tools om een gedwongen verkoop te voorkomen en verliezen te beperken. &#xA; 
+            </p>
+        </div>
+    </div>
+
+
+                        <div class="emptyspace"></div>
+                    </div>
+                </div>
+
+                
+
+
+                    <div class="relative z-10 bg-white px-12 py-10 rounded-bl-xl shadow md:px-8 md:py-8 sm:px-6 sm:py-6 ">
+                        <div class="flex justify-between sm:flex-col items-center sm:items-start sm:space-y-3">
+                                <a href="/nhg-actueel/"
+                                   class="group flex items-center icon-link text-alpha-500 hover:text-bravo-500 text-bravo-500 hover:text-bravo-700 font-semibold text-xl">
+                                    <svg role="img" class="icon w-3 h-3 mr-2 text-links group-hover:text-alpha-500">
+                                        <use href="../dist/img/sprite/site-sprites.svg#icon-linkarrow"></use>
+                                    </svg>
+                                    <span>NHG Actueel</span>
+                                </a>
+
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+                </div>
+            </div>
+        </div>
+        <div class="background-wrapper">
+            <div class="container">
+                <div
+                    class="umb-block-grid__layout-item"
+                    data-content-element-type-alias="faqFullGridComponent"
+                    data-content-element-type-key="481b5434-ce1b-4093-bbce-d7b4efc3d93b"
+                    data-element-udi="umb://element/c553170e7a2743aa85bd37ee48cd19ce"
+                    data-col-span="10"
+                    data-row-span="1"
+                    style="--umb-block-grid--item-column-span: 10; --umb-block-grid--item-row-span: 1;">
+    <div class="print:hidden flex lg:flex-col lg:space-y-6">
+        <div class="w-full lg:w-full relative">
+            <div>
+                <div class="h-full contentItem overflow-hidden bg-white relative px-12 pt-10 md:px-8 md:pt-8 sm:px-6 sm:pt-6 rounded-tr-xl shadow space-y-4 bg-cover bg-center hasNoBottomSpace">
+                    <div class="space-y-4">
+                        
+    <div class="">
+        <h2 id="Veelgesteldevragen" class="text-4xl text-alpha-500">
+            Veelgestelde vragen 
+    </div>
+        <script type="text/javascript">
+            (function () {
+                var pageAnchors = document.getElementById("PageAnchors");
+                var anchor_li = document.createElement("li");
+                var anchor_a = document.createElement("a");
+                anchor_a.href = "#Veelgesteldevragen".replace("&#235;", "ë");
+                anchor_a.className = "text-alpha-500 hover:text-bravo-500";
+                anchor_a.innerText = "Veelgestelde vragen ".replace("&#235;", "ë");
+
+                anchor_li.appendChild(anchor_a);
+
+                if (pageAnchors != null) {
+                    pageAnchors.appendChild(anchor_li);
+                }
+            })();
+        </script>
+
+                        <div>
+                            <div>
+                                <div class="-mb-12">
+                                        <div class="faq py-6 md:py-6" x-data="{ open: false }" x-init="$watch('open',(val)=> { $dispatch('faq:event', { value: val, question: 'Welk model werkgeversverklaring accepteert NHG?'  }) })">
+                                            <div class="flex items-baseline justify-between group" x-on:click="open = !open">
+                                                <h3 class="text-2xl text-bravo-500 group-hover:text-bravo-700 font-bold w-19/20 cursor-pointer">
+                                                    Welk model werkgeversverklaring accepteert NHG?
+                                                </h3>
+                                                <div class="w-4 h-4 transition-transform duration-500 ease-in-out transform translate-y-05 rotate-45 text-bravo-500 group-hover:text-bravo-700 rotate-90" :class="{ 'rotate-90' : open }">
+                                                    <svg role="img" class="icon  w-4 h-4 fill-current">
+                                                        <use xlink:href="#close"></use>
+                                                    </svg>
+                                                </div>
+                                            </div>
+                                            <div class="details mt-8 rich-content" x-cloak x-show="open">
+                                                <p>Veel bedrijven hebben een werkgeversverklaring in hun eigen stijl. Deze kan voor NHG gebruikt worden als de teksten inclusief soorten voetnoten gelijk zijn aan die in het NHG-model werkgeversverklaring.</p>
+                                            </div>
+                                        </div>
+                                        <div class="content-item-border border-solid border-b-3 border-gray-550 -mx-12"></div>
+                                        <div class="faq py-6 md:py-6" x-data="{ open: false }" x-init="$watch('open',(val)=> { $dispatch('faq:event', { value: val, question: 'Wat zijn de voorwaarden van de werkgeversverklaring?'  }) })">
+                                            <div class="flex items-baseline justify-between group" x-on:click="open = !open">
+                                                <h3 class="text-2xl text-bravo-500 group-hover:text-bravo-700 font-bold w-19/20 cursor-pointer">
+                                                    Wat zijn de voorwaarden van de werkgeversverklaring?
+                                                </h3>
+                                                <div class="w-4 h-4 transition-transform duration-500 ease-in-out transform translate-y-05 rotate-45 text-bravo-500 group-hover:text-bravo-700 rotate-90" :class="{ 'rotate-90' : open }">
+                                                    <svg role="img" class="icon  w-4 h-4 fill-current">
+                                                        <use xlink:href="#close"></use>
+                                                    </svg>
+                                                </div>
+                                            </div>
+                                            <div class="details mt-8 rich-content" x-cloak x-show="open">
+                                                <ul>
+<li>Nadat het document <strong>volledig</strong> is ingevuld, moet de werkgever op het document een handtekening plaatsen.</li>
+<li>De <strong>handtekening </strong>mag elektronisch zijn. De geldverstrekker bepaalt welk soort elektronische handtekening is toegestaan.</li>
+<li>NHG stelt<strong> geen eisen aan de kleur inkt </strong>en handschriften bij een handgeschreven handtekening.</li>
+<li>Op de werkgeversverklaring hoeft géén firmastempel geplaatst te worden.</li>
+</ul>
+<p>Bij het digitaal invullen van de werkgeversverklaring stelt NHG zelf geen eisen aan de wijze waarop dit gebeurt. Vraag bij de geldverstrekker na welke digitale handtekening zij accepteren.</p>
+<p>Het downloaden van het model en meer informatie vind je <u><a rel="noopener" href="/het-krijgen-van-nhg/werkgeversverklaring-nhg/" target="_blank" title="Werkgeversverklaring NHG">hier</a>.<br /></u></p>
+                                            </div>
+                                        </div>
+                                        <div class="content-item-border border-solid border-b-3 border-gray-550 -mx-12"></div>
+                                        <div class="faq py-6 md:py-6" x-data="{ open: false }" x-init="$watch('open',(val)=> { $dispatch('faq:event', { value: val, question: 'Wat zijn erkende energiebesparende maatregelen?'  }) })">
+                                            <div class="flex items-baseline justify-between group" x-on:click="open = !open">
+                                                <h3 class="text-2xl text-bravo-500 group-hover:text-bravo-700 font-bold w-19/20 cursor-pointer">
+                                                    Wat zijn erkende energiebesparende maatregelen?
+                                                </h3>
+                                                <div class="w-4 h-4 transition-transform duration-500 ease-in-out transform translate-y-05 rotate-45 text-bravo-500 group-hover:text-bravo-700 rotate-90" :class="{ 'rotate-90' : open }">
+                                                    <svg role="img" class="icon  w-4 h-4 fill-current">
+                                                        <use xlink:href="#close"></use>
+                                                    </svg>
+                                                </div>
+                                            </div>
+                                            <div class="details mt-8 rich-content" x-cloak x-show="open">
+                                                <p>Bij het afsluiten van een hypotheek met NHG kun je direct energiebesparende maatregelen meefinancieren. Dat kan door gebruik te maken van het Energiebespaarbudget (EBB) of van de regeling Energie Besparende Voorzieningen (EBV). Hier vind je de erkende energiebesparende maatregelen die van toepassing zijn op beide regelingen, en ook zo in de Tijdelijke regeling hypothecair krediet staan: <a href="/verduurzamen/energiebesparende-maatregelen/" title="Energiebesparende maatregelen">https://www.nhg.nl/verduurzamen/energiebesparende-maatregelen/</a></p>
+                                            </div>
+                                        </div>
+                                        <div class="content-item-border border-solid border-b-3 border-gray-550 -mx-12"></div>
+                                        <div class="faq py-6 md:py-6" x-data="{ open: false }" x-init="$watch('open',(val)=> { $dispatch('faq:event', { value: val, question: 'Is het mogelijk om van NHG naar NHG over te sluiten als de marktwaarde hoger is dan de NHG-grens?'  }) })">
+                                            <div class="flex items-baseline justify-between group" x-on:click="open = !open">
+                                                <h3 class="text-2xl text-bravo-500 group-hover:text-bravo-700 font-bold w-19/20 cursor-pointer">
+                                                    Is het mogelijk om van NHG naar NHG over te sluiten als de marktwaarde hoger is dan de NHG-grens?
+                                                </h3>
+                                                <div class="w-4 h-4 transition-transform duration-500 ease-in-out transform translate-y-05 rotate-45 text-bravo-500 group-hover:text-bravo-700 rotate-90" :class="{ 'rotate-90' : open }">
+                                                    <svg role="img" class="icon  w-4 h-4 fill-current">
+                                                        <use xlink:href="#close"></use>
+                                                    </svg>
+                                                </div>
+                                            </div>
+                                            <div class="details mt-8 rich-content" x-cloak x-show="open">
+                                                <p>Wanneer de klant al een lening met NHG heeft, dan is de marktwaarde geen belemmering voor de verstrekking. Dit is bij zowel oversluiten als verhogen van een lening met NHG van toepassing.<br><br>Indien een klant nog geen NHG heeft, maar wel naar NHG wenst over te sluiten, dan mag de marktwaarde van de woning niet hoger zijn dan de NHG-grens.</p>
+                                            </div>
+                                        </div>
+                                        <div class="content-item-border border-solid border-b-3 border-gray-550 -mx-12"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+
+
+                <div class="relative z-10 bg-white px-12 py-10 rounded-bl-xl shadow md:px-8 md:py-8 sm:px-6 sm:py-6 ">
+                    <div class="space-y-3">
+                        <h3 class="text-3xl text-alpha-500 ">
+                            Zit je antwoord er niet bij?
+                        </h3>
+
+                        <div class="flex justify-between items-center sm:flex-col sm:space-y-3 sm:space-x-0 sm:items-start">
+                            <div class="w-2/3 sm:w-full">
+
+    <div class="field relative block flex flex-col alt w-full">
+        <form method="get" action="/zoeken/">
+            <div class="relative flex mt-auto">
+                <div class="relative w-full flex">
+                    <input name="q" 
+                           class="form-input  block w-full  rounded-r-none alt:placeholder-alpha-500 alt:font-bold alt:bg-alpha-100 alt:text-alpha-500 alt:border alt:border-alpha-100 alt:text-xl alt:focus:border-alpha-500 form-input-search" 
+                            placeholder="Zoek" 
+                           type="search">
+                    <input name="category" value="2" style="display: none" />
+
+                    <button type="submit" class="text-white bg-alpha-500 w-15/75 h-13 rounded-md rounded-l-none hover:bg-alpha-700 flex justify-center items-center h-14">
+                        <svg role="img" class="icon h-6 w-6 fill-current">
+                            <use xlink:href="#search"></use>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </form>
+        <p class="shadow z-10 absolute top-100 right-0 px-4 py-2 border bg-gray-500 mt-2 text-sm rounded mx-2" validate-message=""></p>
+    </div>
+                            </div>
+
+                            <a href="/zoeken/?category=2&amp;tag=6504" class="text-2xl font-semibold text-bravo-500 hover:text-bravo-700">Alle vragen</a>
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </div>
+                </div>
+            </div>
+        </div>
+        <div class="background-wrapper">
+            <div class="container">
+                <div
+                    class="umb-block-grid__layout-item"
+                    data-content-element-type-alias="speciaalVoorJouGridComponent"
+                    data-content-element-type-key="f04bb5fd-0eaf-4cb2-938f-001d320701f1"
+                    data-element-udi="umb://element/9b6dc85f5a0242558c45e640d0536b48"
+                    data-col-span="10"
+                    data-row-span="1"
+                    style="--umb-block-grid--item-column-span: 10; --umb-block-grid--item-row-span: 1;">
+<div class="space-y-4">
+    <div class="flex items-baseline space-x-6 sm:flex-col sm:space-x-0 sm:space-y-4 sm:items-start">
+            <h2 class="text-4xl text-alpha-500">Snel naar</h2>
+            <a href="www.nhg.nl/woonlastenmonitor" class="text-lg text-bravo-500 hover:text-bravo-700 font-semibold" target="_blank"></a>
+    </div>
+
+        <div class="grid grid-flow-row grid-cols-4 lg:grid-cols-2 md:grid-cols-1 gap-10 md:gap-4">
+                <div class="">
+                    <div class="h-full contentItem overflow-hidden bg-white relative px-12 py-10 md:px-8 md:py-8 sm:px-6 sm:py-6 rounded-tr-xl space-y-4 bg-cover bg-center hasNoBottomSpace" style=" background-image: url(/media/01sbo4di/wlm_statisch.jpg?width=540&amp;height=280&amp;v=1dba478ee208120);">
+                        <div class="pb-16/9"></div>
+                        <div class="gradient-box-overlay absolute space-y-4 h-full w-full top-0 left-0 px-6 py-6 flex items-end">
+                                <a class="absolute h-full w-full top-0 left-0" href="https://www.nhg.nl/woonlastenmonitor/"></a>
+                            <h2 class="mt-0 text-2xl text-white">Woonlastenmonitor</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="">
+                    <div class="h-full contentItem overflow-hidden bg-white relative px-12 py-10 md:px-8 md:py-8 sm:px-6 sm:py-6 rounded-tr-xl space-y-4 bg-cover bg-center hasNoBottomSpace" style=" background-image: url(/media/knfj5pg3/istock-1200052255.jpg?width=540&amp;height=280&amp;v=1dba479206f6150);">
+                        <div class="pb-16/9"></div>
+                        <div class="gradient-box-overlay absolute space-y-4 h-full w-full top-0 left-0 px-6 py-6 flex items-end">
+                                <a class="absolute h-full w-full top-0 left-0" href="/het-krijgen-van-nhg/werkgeversverklaring-nhg/"></a>
+                            <h2 class="mt-0 text-2xl text-white">Werkgeversverklaring</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="">
+                    <div class="h-full contentItem overflow-hidden bg-white relative px-12 py-10 md:px-8 md:py-8 sm:px-6 sm:py-6 rounded-tr-xl space-y-4 bg-cover bg-center hasNoBottomSpace" style=" background-image: url(/media/r53jspgv/t354_nhg_brochure_2020_cmyk_v5_spreads.jpg?rxy=0.5537224398359425,0.01831874245496795&amp;width=540&amp;height=280&amp;v=1dcd21c70f69e00);">
+                        <div class="pb-16/9"></div>
+                        <div class="gradient-box-overlay absolute space-y-4 h-full w-full top-0 left-0 px-6 py-6 flex items-end">
+                                <a class="absolute h-full w-full top-0 left-0" href="/over-nhg/over-nhg/"></a>
+                            <h2 class="mt-0 text-2xl text-white">Over NHG</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="">
+                    <div class="h-full contentItem overflow-hidden bg-white relative px-12 py-10 md:px-8 md:py-8 sm:px-6 sm:py-6 rounded-tr-xl space-y-4 bg-cover bg-center hasNoBottomSpace" style=" background-image: url(/media/cqhl0vvx/9m4a9116.jpg?rxy=0.5062874354358677,0.3505459175823519&amp;width=540&amp;height=280&amp;v=1dcb22fd58962b0);">
+                        <div class="pb-16/9"></div>
+                        <div class="gradient-box-overlay absolute space-y-4 h-full w-full top-0 left-0 px-6 py-6 flex items-end">
+                                <a class="absolute h-full w-full top-0 left-0" href="/over-nhg/werken-bij-nhg/"></a>
+                            <h2 class="mt-0 text-2xl text-white">Werken bij NHG</h2>
+                        </div>
+                    </div>
+                </div>
+        </div>
+</div>                </div>
+            </div>
+        </div>
+
+</div>
+
+
+
+<footer>
+    <div class="py-11 bg-left-top bg-cover bg-no-repeat md:py-8" style="background-image: url(/dist/img/beeld/bg-blue.svg)">
+        <div class="container">
+            <div class="lg:hidden">
+                <div class="flex justify-between lg:grid lg:space-x-0 lg:space-y-2 column-template md:flex md:flex-col md:w-6/10 md:mx-auto sm:w-full">
+                    <div class="skipRead flex flex-col space-y-6 lg:space-y-2 w-1/4 pr-8 lg:w-full md:pr-0 column-1">
+                        
+
+    <div class="text-white space-y-1" x-data="{ open: false }">
+        <h3 class="text-2xl text-white relative lg:flex lg:items-baseline">
+            <span class="lg:mr-3">Hypotheek met NHG</span>
+            <span class="hidden lg:inline-flex lg:ml-auto transition-transform duration-500 ease-in-out transform w-4 h-4 mt-1" :class="{ 'rotate-180' : open }">
+                <svg role="img" class="icon w-4 h-4 ">
+                    <use xlink:href="#chevron-down"></use>
+                </svg>
+            </span>
+            <div class="absolute top-0 left-0 w-full h-full hidden lg:block" x-on:click="open = !open"></div>
+        </h3>
+
+            <ul class="text-base text-white list-arrow space-y-1 lg:pb-6 lg:hidden" :class="{ 'lg:block': open, 'lg:hidden' : !open }">
+            <li>
+                <a href="/het-product-nhg/een-hypotheek-met-nhg/" class="text-white">Een hypotheek met NHG</a>
+            </li>
+            <li>
+                <a href="/verduurzamen/verduurzaming/" class="text-white">Verduurzamen met NHG</a>
+            </li>
+            <li>
+                <a href="/het-product-nhg/je-hypotheek-veranderen/" class="text-white">Je hypotheek veranderen</a>
+            </li>
+            <li>
+                <a href="/het-product-nhg/voor-welke-woning-een-lening-met-nhg/" class="text-white">Voor welke woning een lening met NHG?</a>
+            </li>
+                        <li class="pb-5 lg:pb-3"></li>
+            </ul>
+    </div>
+    <div class="text-white space-y-1" x-data="{ open: false }">
+        <h3 class="text-2xl text-white relative lg:flex lg:items-baseline">
+            <span class="lg:mr-3">Hulp van NHG</span>
+            <span class="hidden lg:inline-flex lg:ml-auto transition-transform duration-500 ease-in-out transform w-4 h-4 mt-1" :class="{ 'rotate-180' : open }">
+                <svg role="img" class="icon w-4 h-4 ">
+                    <use xlink:href="#chevron-down"></use>
+                </svg>
+            </span>
+            <div class="absolute top-0 left-0 w-full h-full hidden lg:block" x-on:click="open = !open"></div>
+        </h3>
+
+            <ul class="text-base text-white list-arrow space-y-1 lg:pb-6 lg:hidden" :class="{ 'lg:block': open, 'lg:hidden' : !open }">
+            <li>
+                <a href="/hulp-van-nhg/hulp-als-je-relatie-eindigt/" class="text-white">Hulp als je relatie eindigt</a>
+            </li>
+            <li>
+                <a href="/hulp-van-nhg/hulp-als-je-inkomen-daalt/" class="text-white">Hulp als je inkomen daalt</a>
+            </li>
+            <li>
+                <a href="/hulp-van-nhg/beheertoets/" class="text-white">Over de Beheertoets en beheercriteria</a>
+            </li>
+            <li>
+                <a href="/hulp-van-nhg/verhuizen-met-een-restschuld/" class="text-white">Verhuizen met een restschuld</a>
+            </li>
+            <li>
+                <a href="/hulp-van-nhg/kwijtschelding-van-een-restschuld/" class="text-white">Kwijtschelding van een restschuld</a>
+            </li>
+            <li>
+                <a href="/hulp-van-nhg/hulp-na-het-overlijden-van-je-partner/" class="text-white">Hulp na het overlijden van je partner</a>
+            </li>
+            </ul>
+    </div>
+
+                    </div>
+                    <div class="skipRead flex flex-col space-y-6 lg:space-y-2 w-1/4 pr-8 lg:w-full md:pr-0 column-2">
+                        
+
+    <div class="text-white space-y-1" x-data="{ open: false }">
+        <h3 class="text-2xl text-white relative lg:flex lg:items-baseline">
+            <span class="lg:mr-3">NHG op maat</span>
+            <span class="hidden lg:inline-flex lg:ml-auto transition-transform duration-500 ease-in-out transform w-4 h-4 mt-1" :class="{ 'rotate-180' : open }">
+                <svg role="img" class="icon w-4 h-4 ">
+                    <use xlink:href="#chevron-down"></use>
+                </svg>
+            </span>
+            <div class="absolute top-0 left-0 w-full h-full hidden lg:block" x-on:click="open = !open"></div>
+        </h3>
+
+            <ul class="text-base text-white list-arrow space-y-1 lg:pb-6 lg:hidden" :class="{ 'lg:block': open, 'lg:hidden' : !open }">
+            <li>
+                <a href="/het-krijgen-van-nhg/een-hypotheek-met-vast-contract/" class="text-white">Een hypotheek met vast contract</a>
+            </li>
+            <li>
+                <a href="/het-krijgen-van-nhg/een-hypotheek-zonder-vast-contract/" class="text-white">NHG voor flexwerkers</a>
+            </li>
+            <li>
+                <a href="/het-krijgen-van-nhg/een-hypotheek-zonder-vast-contract/" class="text-white">NHG voor uitzendkrachten</a>
+            </li>
+            <li>
+                <a href="/het-krijgen-van-nhg/een-hypotheek-voor-ondernemers/" class="text-white">NHG voor ondernemers</a>
+            </li>
+            <li>
+                <a href="/het-krijgen-van-nhg/nhg-voor-starters/" class="text-white">NHG voor starters</a>
+            </li>
+            <li>
+                <a href="/het-krijgen-van-nhg/nhg-voor-senioren/" class="text-white">NHG voor senioren</a>
+            </li>
+            <li>
+                <a href="/het-krijgen-van-nhg/erfpachtconstructie-in-combinatie-met-nhg/" class="text-white">Erfpachtconstructie en NHG</a>
+            </li>
+            <li>
+                <a href="/het-krijgen-van-nhg/koperssteun-in-combinatie-met-nhg/" class="text-white">Koperssteun en NHG</a>
+            </li>
+            </ul>
+    </div>
+    <div class="text-white space-y-1" x-data="{ open: false }">
+        <h3 class="text-2xl text-white relative lg:flex lg:items-baseline">
+            <span class="lg:mr-3">Professionals</span>
+            <span class="hidden lg:inline-flex lg:ml-auto transition-transform duration-500 ease-in-out transform w-4 h-4 mt-1" :class="{ 'rotate-180' : open }">
+                <svg role="img" class="icon w-4 h-4 ">
+                    <use xlink:href="#chevron-down"></use>
+                </svg>
+            </span>
+            <div class="absolute top-0 left-0 w-full h-full hidden lg:block" x-on:click="open = !open"></div>
+        </h3>
+
+            <ul class="text-base text-white list-arrow space-y-1 lg:pb-6 lg:hidden" :class="{ 'lg:block': open, 'lg:hidden' : !open }">
+            <li>
+                <a href="/professional/" class="text-white">Alles voor professionals</a>
+            </li>
+            <li>
+                <a href="/toolkit-professionals/" class="text-white">Toolkit professionals</a>
+            </li>
+            <li>
+                <a href="https://mijn.nhg.nl/" class="text-white">Mijn NHG</a>
+            </li>
+            <li>
+                <a href="/woonlastenmonitor/" target="_blank" class="text-white">Woonlastenmonitor</a>
+            </li>
+            <li>
+                <a href="/kennis-innovatie/" class="text-white">Kennis &amp; Innovatie</a>
+            </li>
+            <li>
+                <a href="/nhg-als-ondersteuning-bij-woningbehoud/" target="_blank" class="text-white">NHG als ondersteuning bij woningbehoud</a>
+            </li>
+            <li>
+                <a href="/kennis-innovatie/nhg-digitaliseert/" class="text-white">NHG digitaliseert</a>
+            </li>
+            </ul>
+    </div>
+
+                    </div>
+                    <div class="skipRead flex flex-col space-y-6 lg:space-y-2 w-1/4 pr-8 lg:w-full md:pr-0 column-3">
+                        
+
+    <div class="text-white space-y-1" x-data="{ open: false }">
+        <h3 class="text-2xl text-white relative lg:flex lg:items-baseline">
+            <span class="lg:mr-3">Download &amp; tools</span>
+            <span class="hidden lg:inline-flex lg:ml-auto transition-transform duration-500 ease-in-out transform w-4 h-4 mt-1" :class="{ 'rotate-180' : open }">
+                <svg role="img" class="icon w-4 h-4 ">
+                    <use xlink:href="#chevron-down"></use>
+                </svg>
+            </span>
+            <div class="absolute top-0 left-0 w-full h-full hidden lg:block" x-on:click="open = !open"></div>
+        </h3>
+
+            <ul class="text-base text-white list-arrow space-y-1 lg:pb-6 lg:hidden" :class="{ 'lg:block': open, 'lg:hidden' : !open }">
+            <li>
+                <a href="/het-krijgen-van-nhg/werkgeversverklaring-nhg/" class="text-white">Werkgeversverklaring NHG</a>
+            </li>
+            <li>
+                <a href="/rekenhulp-hypotheek-en-verduurzaming/" class="text-white">Rekenhulp verduurzamen</a>
+            </li>
+            <li>
+                <a href="/het-krijgen-van-nhg/keuzehulp-inkomen-consument/" class="text-white">Keuzehulp inkomen</a>
+            </li>
+            <li>
+                <a href="https://mijn.nhg.nl/" class="text-white">NHG toets</a>
+            </li>
+            <li>
+                <a href="https://mijn.nhg.nl/" class="text-white">Beheertoets</a>
+            </li>
+            <li>
+                <a href="/inloggen/" class="text-white">Inlog geldverstrekkers</a>
+            </li>
+            <li>
+                <a href="/professional/procedure-tot-goedkeuring-erfpachtconstructies-en-koperssteun/" class="text-white">Procedure tot acceptatie erfpachtconstructies en koperssteun</a>
+            </li>
+            </ul>
+    </div>
+    <div class="text-white space-y-1" x-data="{ open: false }">
+        <h3 class="text-2xl text-white relative lg:flex lg:items-baseline">
+            <span class="lg:mr-3">Voorwaarden en normen</span>
+            <span class="hidden lg:inline-flex lg:ml-auto transition-transform duration-500 ease-in-out transform w-4 h-4 mt-1" :class="{ 'rotate-180' : open }">
+                <svg role="img" class="icon w-4 h-4 ">
+                    <use xlink:href="#chevron-down"></use>
+                </svg>
+            </span>
+            <div class="absolute top-0 left-0 w-full h-full hidden lg:block" x-on:click="open = !open"></div>
+        </h3>
+
+            <ul class="text-base text-white list-arrow space-y-1 lg:pb-6 lg:hidden" :class="{ 'lg:block': open, 'lg:hidden' : !open }">
+            <li>
+                <a href="/voorwaarden-en-normen/" class="text-white">Voorwaarden en normen</a>
+            </li>
+            </ul>
+    </div>
+
+                       
+                    </div>
+                    <div class="skipRead flex flex-col space-y-6 lg:space-y-2 w-1/4 pr-8 lg:w-full md:pr-0 column-4">
+                        
+
+    <div class="text-white space-y-1" x-data="{ open: false }">
+        <h3 class="text-2xl text-white relative lg:flex lg:items-baseline">
+            <span class="lg:mr-3">Over ons</span>
+            <span class="hidden lg:inline-flex lg:ml-auto transition-transform duration-500 ease-in-out transform w-4 h-4 mt-1" :class="{ 'rotate-180' : open }">
+                <svg role="img" class="icon w-4 h-4 ">
+                    <use xlink:href="#chevron-down"></use>
+                </svg>
+            </span>
+            <div class="absolute top-0 left-0 w-full h-full hidden lg:block" x-on:click="open = !open"></div>
+        </h3>
+
+            <ul class="text-base text-white list-arrow space-y-1 lg:pb-6 lg:hidden" :class="{ 'lg:block': open, 'lg:hidden' : !open }">
+            <li>
+                <a href="/over-nhg/over-nhg/" class="text-white">Ons verhaal</a>
+            </li>
+            <li>
+                <a href="/over-nhg/bedrijfsvoering/" class="text-white">Bedrijfsvoering</a>
+            </li>
+            <li>
+                <a href="/over-nhg/waarborgfondsconstructie/" class="text-white">Evaluaties borgtochtpremiemethodiek</a>
+            </li>
+            <li>
+                <a href="/english-summary/" class="text-white">English summary</a>
+            </li>
+            <li>
+                <a href="/over-nhg/werken-bij-nhg/" class="text-white">Werken bij NHG</a>
+            </li>
+                        <li class="pb-5 lg:pb-3"></li>
+            <li>
+                <a href="/nhg-actueel/" class="text-white">NHG Actueel</a>
+            </li>
+            <li>
+                <a href="/over-nhg/jaarverslagen-liquiditeitsprognoses/" class="text-white">Jaarverslagen</a>
+            </li>
+            <li>
+                <a href="/over-nhg/kwartaalberichten/" class="text-white">Kwartaalberichten</a>
+            </li>
+            <li>
+                <a href="/over-nhg/nieuwsbrieven/" class="text-white">Nieuwsbrieven</a>
+            </li>
+            <li>
+                <a href="https://www.nhg.nl/zoeken/?q&amp;category=5&amp;page=1" class="text-white">Persberichten</a>
+            </li>
+                        <li class="pb-5 lg:pb-3"></li>
+            </ul>
+    </div>
+    <div class="text-white space-y-1" x-data="{ open: false }">
+        <h3 class="text-2xl text-white relative lg:flex lg:items-baseline">
+            <span class="lg:mr-3">Service en contact</span>
+            <span class="hidden lg:inline-flex lg:ml-auto transition-transform duration-500 ease-in-out transform w-4 h-4 mt-1" :class="{ 'rotate-180' : open }">
+                <svg role="img" class="icon w-4 h-4 ">
+                    <use xlink:href="#chevron-down"></use>
+                </svg>
+            </span>
+            <div class="absolute top-0 left-0 w-full h-full hidden lg:block" x-on:click="open = !open"></div>
+        </h3>
+
+            <ul class="text-base text-white list-arrow space-y-1 lg:pb-6 lg:hidden" :class="{ 'lg:block': open, 'lg:hidden' : !open }">
+            <li>
+                <a href="/service-en-contact/" class="text-white">Contact</a>
+            </li>
+            <li>
+                <a href="/service-en-contact/meest-gestelde-vragen/" class="text-white">Veelgestelde vragen</a>
+            </li>
+            </ul>
+    </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="hidden lg:block">
+                <div class="flex justify-between lg:grid lg:space-x-0 lg:space-y-2 column-template md:flex md:flex-col md:w-6/10 md:mx-auto sm:w-full">
+
+                            <div class="skipRead flex flex-col space-y-10 lg:space-y-2 w-1/4 pr-8 lg:w-full md:pr-0 column-1">
+                                        <div class="text-white space-y-2" x-data="{ open: false }">
+                                            <h3 class="text-2xl	text-white relative lg:flex lg:items-baseline">
+
+                                                <span class="lg:mr-3">Hypotheek met NHG</span>
+                                                <span class="hidden lg:inline-flex lg:ml-auto transition-transform duration-500 ease-in-out transform w-4 h-4 mt-1" :class="{ 'rotate-180' : open }">
+
+                                                    <svg role="img" class="icon w-4 h-4 ">
+                                                        <use xlink:href="#chevron-down"></use>
+                                                    </svg>
+
+                                                </span>
+
+                                                <div class="absolute top-0 left-0 w-full h-full hidden lg:block" x-on:click="open = !open"></div>
+                                            </h3>
+                                            <ul class="text-base text-white list-arrow space-y-1 lg:pb-6 lg:hidden" :class="{ 'lg:block': open, 'lg:hidden' : !open }">
+            <li>
+                <a href="/het-product-nhg/een-hypotheek-met-nhg/" class="text-white">Een hypotheek met NHG</a>
+            </li>
+            <li>
+                <a href="/verduurzamen/verduurzaming/" class="text-white">Verduurzamen met NHG</a>
+            </li>
+            <li>
+                <a href="/het-product-nhg/je-hypotheek-veranderen/" class="text-white">Je hypotheek veranderen</a>
+            </li>
+            <li>
+                <a href="/het-product-nhg/voor-welke-woning-een-lening-met-nhg/" class="text-white">Voor welke woning een lening met NHG?</a>
+            </li>
+                                            </ul>
+                                        </div>
+                                        <div class="text-white space-y-2" x-data="{ open: false }">
+                                            <h3 class="text-2xl	text-white relative lg:flex lg:items-baseline">
+
+                                                <span class="lg:mr-3">Hulp van NHG</span>
+                                                <span class="hidden lg:inline-flex lg:ml-auto transition-transform duration-500 ease-in-out transform w-4 h-4 mt-1" :class="{ 'rotate-180' : open }">
+
+                                                    <svg role="img" class="icon w-4 h-4 ">
+                                                        <use xlink:href="#chevron-down"></use>
+                                                    </svg>
+
+                                                </span>
+
+                                                <div class="absolute top-0 left-0 w-full h-full hidden lg:block" x-on:click="open = !open"></div>
+                                            </h3>
+                                            <ul class="text-base text-white list-arrow space-y-1 lg:pb-6 lg:hidden" :class="{ 'lg:block': open, 'lg:hidden' : !open }">
+            <li>
+                <a href="/hulp-van-nhg/hulp-als-je-relatie-eindigt/" class="text-white">Hulp als je relatie eindigt</a>
+            </li>
+            <li>
+                <a href="/hulp-van-nhg/hulp-als-je-inkomen-daalt/" class="text-white">Hulp als je inkomen daalt</a>
+            </li>
+            <li>
+                <a href="/hulp-van-nhg/beheertoets/" class="text-white">Over de Beheertoets en beheercriteria</a>
+            </li>
+            <li>
+                <a href="/hulp-van-nhg/verhuizen-met-een-restschuld/" class="text-white">Verhuizen met een restschuld</a>
+            </li>
+            <li>
+                <a href="/hulp-van-nhg/kwijtschelding-van-een-restschuld/" class="text-white">Kwijtschelding van een restschuld</a>
+            </li>
+            <li>
+                <a href="/hulp-van-nhg/hulp-na-het-overlijden-van-je-partner/" class="text-white">Hulp na het overlijden van je partner</a>
+            </li>
+                                            </ul>
+                                        </div>
+                                        <div class="text-white space-y-2" x-data="{ open: false }">
+                                            <h3 class="text-2xl	text-white relative lg:flex lg:items-baseline">
+
+                                                <span class="lg:mr-3">NHG op maat</span>
+                                                <span class="hidden lg:inline-flex lg:ml-auto transition-transform duration-500 ease-in-out transform w-4 h-4 mt-1" :class="{ 'rotate-180' : open }">
+
+                                                    <svg role="img" class="icon w-4 h-4 ">
+                                                        <use xlink:href="#chevron-down"></use>
+                                                    </svg>
+
+                                                </span>
+
+                                                <div class="absolute top-0 left-0 w-full h-full hidden lg:block" x-on:click="open = !open"></div>
+                                            </h3>
+                                            <ul class="text-base text-white list-arrow space-y-1 lg:pb-6 lg:hidden" :class="{ 'lg:block': open, 'lg:hidden' : !open }">
+            <li>
+                <a href="/het-krijgen-van-nhg/een-hypotheek-met-vast-contract/" class="text-white">Een hypotheek met vast contract</a>
+            </li>
+            <li>
+                <a href="/het-krijgen-van-nhg/een-hypotheek-zonder-vast-contract/" class="text-white">NHG voor flexwerkers</a>
+            </li>
+            <li>
+                <a href="/het-krijgen-van-nhg/een-hypotheek-zonder-vast-contract/" class="text-white">NHG voor uitzendkrachten</a>
+            </li>
+            <li>
+                <a href="/het-krijgen-van-nhg/een-hypotheek-voor-ondernemers/" class="text-white">NHG voor ondernemers</a>
+            </li>
+            <li>
+                <a href="/het-krijgen-van-nhg/nhg-voor-starters/" class="text-white">NHG voor starters</a>
+            </li>
+            <li>
+                <a href="/het-krijgen-van-nhg/nhg-voor-senioren/" class="text-white">NHG voor senioren</a>
+            </li>
+            <li>
+                <a href="/het-krijgen-van-nhg/erfpachtconstructie-in-combinatie-met-nhg/" class="text-white">Erfpachtconstructie en NHG</a>
+            </li>
+            <li>
+                <a href="/het-krijgen-van-nhg/koperssteun-in-combinatie-met-nhg/" class="text-white">Koperssteun en NHG</a>
+            </li>
+                                            </ul>
+                                        </div>
+                            </div>
+                            <div class="skipRead flex flex-col space-y-10 lg:space-y-2 w-1/4 pr-8 lg:w-full md:pr-0 column-2">
+                                        <div class="text-white space-y-2" x-data="{ open: false }">
+                                            <h3 class="text-2xl	text-white relative lg:flex lg:items-baseline">
+
+                                                <span class="lg:mr-3">Professionals</span>
+                                                <span class="hidden lg:inline-flex lg:ml-auto transition-transform duration-500 ease-in-out transform w-4 h-4 mt-1" :class="{ 'rotate-180' : open }">
+
+                                                    <svg role="img" class="icon w-4 h-4 ">
+                                                        <use xlink:href="#chevron-down"></use>
+                                                    </svg>
+
+                                                </span>
+
+                                                <div class="absolute top-0 left-0 w-full h-full hidden lg:block" x-on:click="open = !open"></div>
+                                            </h3>
+                                            <ul class="text-base text-white list-arrow space-y-1 lg:pb-6 lg:hidden" :class="{ 'lg:block': open, 'lg:hidden' : !open }">
+            <li>
+                <a href="/professional/" class="text-white">Alles voor professionals</a>
+            </li>
+            <li>
+                <a href="/toolkit-professionals/" class="text-white">Toolkit professionals</a>
+            </li>
+            <li>
+                <a href="https://mijn.nhg.nl/" class="text-white">Mijn NHG</a>
+            </li>
+            <li>
+                <a href="/woonlastenmonitor/" target="_blank" class="text-white">Woonlastenmonitor</a>
+            </li>
+            <li>
+                <a href="/kennis-innovatie/" class="text-white">Kennis &amp; Innovatie</a>
+            </li>
+            <li>
+                <a href="/nhg-als-ondersteuning-bij-woningbehoud/" target="_blank" class="text-white">NHG als ondersteuning bij woningbehoud</a>
+            </li>
+            <li>
+                <a href="/kennis-innovatie/nhg-digitaliseert/" class="text-white">NHG digitaliseert</a>
+            </li>
+                                            </ul>
+                                        </div>
+                                        <div class="text-white space-y-2" x-data="{ open: false }">
+                                            <h3 class="text-2xl	text-white relative lg:flex lg:items-baseline">
+
+                                                <span class="lg:mr-3">Download &amp; tools</span>
+                                                <span class="hidden lg:inline-flex lg:ml-auto transition-transform duration-500 ease-in-out transform w-4 h-4 mt-1" :class="{ 'rotate-180' : open }">
+
+                                                    <svg role="img" class="icon w-4 h-4 ">
+                                                        <use xlink:href="#chevron-down"></use>
+                                                    </svg>
+
+                                                </span>
+
+                                                <div class="absolute top-0 left-0 w-full h-full hidden lg:block" x-on:click="open = !open"></div>
+                                            </h3>
+                                            <ul class="text-base text-white list-arrow space-y-1 lg:pb-6 lg:hidden" :class="{ 'lg:block': open, 'lg:hidden' : !open }">
+            <li>
+                <a href="/het-krijgen-van-nhg/werkgeversverklaring-nhg/" class="text-white">Werkgeversverklaring NHG</a>
+            </li>
+            <li>
+                <a href="/rekenhulp-hypotheek-en-verduurzaming/" class="text-white">Rekenhulp verduurzamen</a>
+            </li>
+            <li>
+                <a href="/het-krijgen-van-nhg/keuzehulp-inkomen-consument/" class="text-white">Keuzehulp inkomen</a>
+            </li>
+            <li>
+                <a href="https://mijn.nhg.nl/" class="text-white">NHG toets</a>
+            </li>
+            <li>
+                <a href="https://mijn.nhg.nl/" class="text-white">Beheertoets</a>
+            </li>
+            <li>
+                <a href="/inloggen/" class="text-white">Inlog geldverstrekkers</a>
+            </li>
+            <li>
+                <a href="/professional/procedure-tot-goedkeuring-erfpachtconstructies-en-koperssteun/" class="text-white">Procedure tot acceptatie erfpachtconstructies en koperssteun</a>
+            </li>
+                                            </ul>
+                                        </div>
+                                        <div class="text-white space-y-2" x-data="{ open: false }">
+                                            <h3 class="text-2xl	text-white relative lg:flex lg:items-baseline">
+
+                                                <span class="lg:mr-3">Voorwaarden en normen</span>
+                                                <span class="hidden lg:inline-flex lg:ml-auto transition-transform duration-500 ease-in-out transform w-4 h-4 mt-1" :class="{ 'rotate-180' : open }">
+
+                                                    <svg role="img" class="icon w-4 h-4 ">
+                                                        <use xlink:href="#chevron-down"></use>
+                                                    </svg>
+
+                                                </span>
+
+                                                <div class="absolute top-0 left-0 w-full h-full hidden lg:block" x-on:click="open = !open"></div>
+                                            </h3>
+                                            <ul class="text-base text-white list-arrow space-y-1 lg:pb-6 lg:hidden" :class="{ 'lg:block': open, 'lg:hidden' : !open }">
+            <li>
+                <a href="/voorwaarden-en-normen/" class="text-white">Voorwaarden en normen</a>
+            </li>
+                                            </ul>
+                                        </div>
+                            </div>
+                            <div class="skipRead flex flex-col space-y-10 lg:space-y-2 w-1/4 pr-8 lg:w-full md:pr-0 column-3">
+                                        <div class="text-white space-y-2" x-data="{ open: false }">
+                                            <h3 class="text-2xl	text-white relative lg:flex lg:items-baseline">
+
+                                                <span class="lg:mr-3">Over ons</span>
+                                                <span class="hidden lg:inline-flex lg:ml-auto transition-transform duration-500 ease-in-out transform w-4 h-4 mt-1" :class="{ 'rotate-180' : open }">
+
+                                                    <svg role="img" class="icon w-4 h-4 ">
+                                                        <use xlink:href="#chevron-down"></use>
+                                                    </svg>
+
+                                                </span>
+
+                                                <div class="absolute top-0 left-0 w-full h-full hidden lg:block" x-on:click="open = !open"></div>
+                                            </h3>
+                                            <ul class="text-base text-white list-arrow space-y-1 lg:pb-6 lg:hidden" :class="{ 'lg:block': open, 'lg:hidden' : !open }">
+            <li>
+                <a href="/over-nhg/over-nhg/" class="text-white">Ons verhaal</a>
+            </li>
+            <li>
+                <a href="/over-nhg/bedrijfsvoering/" class="text-white">Bedrijfsvoering</a>
+            </li>
+            <li>
+                <a href="/over-nhg/waarborgfondsconstructie/" class="text-white">Evaluaties borgtochtpremiemethodiek</a>
+            </li>
+            <li>
+                <a href="/english-summary/" class="text-white">English summary</a>
+            </li>
+            <li>
+                <a href="/over-nhg/werken-bij-nhg/" class="text-white">Werken bij NHG</a>
+            </li>
+            <li>
+                <a href="/nhg-actueel/" class="text-white">NHG Actueel</a>
+            </li>
+            <li>
+                <a href="/over-nhg/jaarverslagen-liquiditeitsprognoses/" class="text-white">Jaarverslagen</a>
+            </li>
+            <li>
+                <a href="/over-nhg/kwartaalberichten/" class="text-white">Kwartaalberichten</a>
+            </li>
+            <li>
+                <a href="/over-nhg/nieuwsbrieven/" class="text-white">Nieuwsbrieven</a>
+            </li>
+            <li>
+                <a href="https://www.nhg.nl/zoeken/?q&amp;category=5&amp;page=1" class="text-white">Persberichten</a>
+            </li>
+                                            </ul>
+                                        </div>
+                                        <div class="text-white space-y-2" x-data="{ open: false }">
+                                            <h3 class="text-2xl	text-white relative lg:flex lg:items-baseline">
+
+                                                <span class="lg:mr-3">Service en contact</span>
+                                                <span class="hidden lg:inline-flex lg:ml-auto transition-transform duration-500 ease-in-out transform w-4 h-4 mt-1" :class="{ 'rotate-180' : open }">
+
+                                                    <svg role="img" class="icon w-4 h-4 ">
+                                                        <use xlink:href="#chevron-down"></use>
+                                                    </svg>
+
+                                                </span>
+
+                                                <div class="absolute top-0 left-0 w-full h-full hidden lg:block" x-on:click="open = !open"></div>
+                                            </h3>
+                                            <ul class="text-base text-white list-arrow space-y-1 lg:pb-6 lg:hidden" :class="{ 'lg:block': open, 'lg:hidden' : !open }">
+            <li>
+                <a href="/service-en-contact/" class="text-white">Contact</a>
+            </li>
+            <li>
+                <a href="/service-en-contact/meest-gestelde-vragen/" class="text-white">Veelgestelde vragen</a>
+            </li>
+                                            </ul>
+                                        </div>
+                            </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="bg-white py-4">
+        <div class="container">
+            <div class="flex space-x-8 lg:flex-col lg:space-x-0 lg:items-center lg:space-y-4">
+
+                    <div class="flex space-x-6 sm:flex-col sm:space-x-0 sm:space-y-4 items-center mr-10 xl:mr-0">
+                        <a href="/">
+                            <img alt="logo" class="w-52 mt-1 xl:mt-0 xl:w-50 lg:w-32 lazyload" loading="lazy" src="/media/4p5lvf02/logo.svg" />
+                        </a>
+                    </div>
+
+                <div class="flex items-center justify-between w-full space-x-8 text-lg lg:order-4 lg:text-lg xl:flex-wrap xl:space-x-0 lg:flex-col">
+                    <p class="text-lg text-black whitespace-no-wrap xl:order-1 xl:w-full xl:whitespace-normal lg:text-center">© Copyright 2026 NHG</p>
+                        <div class="flex items-center space-x-8 sm:flex-col sm:space-y-2 sm:space-x-0 lg:mb-4">
+                                    <a class="text-alpha-500 hover:text-bravo-500" href="/disclaimer/">Disclaimer</a>
+                                    <a class="text-alpha-500 hover:text-bravo-500" href="/cookies/">Cookies</a>
+                                    <a class="text-alpha-500 hover:text-bravo-500" href="/privacy/">Privacy</a>
+                        </div>
+                </div>
+
+                    <div class="flex-shrink-0 flex items-center lg:order-3">
+                        <a target="_blank" href="/over-nhg/werken-bij-nhg/">
+                            <img alt="World class workplace logo" width="66" height="80" loading="lazy" class="" src="/dist/img/icons/world-class-workplace.png">
+                        </a>
+                    </div>
+                
+                <div class="lg:order-2 flex items-center space-x-2">
+                        <a class="text-white icon-link" href="https://www.facebook.com/NhgNationaleHypotheekGarantie/">
+                            <div class="w-10 h-10 bg-bravo-400 hover:bg-bravo-600 rounded-full flex justify-center items-center p-2">
+                                <svg role="img" class="icon h-6 w-6 fill-current ">
+                                    <use xlink:href="#facebook"></use>
+                                </svg>
+                            </div>
+                        </a>
+                        <a class="text-white icon-link" href="https://www.youtube.com/channel/UCXP-TjbRaH8DZ72xR9neoCQ">
+                            <div class="w-10 h-10 bg-bravo-400 hover:bg-bravo-600 rounded-full flex justify-center items-center p-2">
+                                <svg role="img" class="icon h-6 w-6 fill-current ">
+                                    <use xlink:href="#yt"></use>
+                                </svg>
+                            </div>
+                        </a>
+
+                        <a class="text-white icon-link" href="https://www.linkedin.com/company/nationale-hypotheek-garantie">
+                            <div class="w-10 h-10 bg-bravo-400 hover:bg-bravo-600 rounded-full flex justify-center items-center p-2">
+                                <svg role="img" class="icon h-6 w-6 fill-current ">
+                                    <use xlink:href="#linkedin"></use>
+                                </svg>
+                            </div>
+                        </a>
+
+                        <a class="text-white icon-link" href="https://twitter.com/nhg_nl?lang=en">
+                            <div class="w-10 h-10 bg-bravo-400 hover:bg-bravo-600 rounded-full flex justify-center items-center p-2">
+                                <svg role="img" class="icon h-6 w-6 fill-current h-7 w-7">
+                                    <use xlink:href="#twitter"></use>
+                                </svg>
+                            </div>
+                        </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+    </main>
+
+<div x-show="mobileMenuOpen" x-transition:enter="transition ease-out duration-200" x-transition:enter-start="opacity-0 transform scale-0" x-transition:enter-end="opacity-100 transform scale-100" x-transition:leave="transition ease-in duration-200" x-transition:leave-start="opacity-100 transform scale-100" x-transition:leave-end="opacity-0 transform scale-0" class="mobile-menu fixed z-[6001] inset-0 scrolling-touch overflow-y-auto py-10 px-10 pt-16 bg-alpha-500 text-white bg-left-top bg-cover bg-no-repeat" style="background-image: url(&quot;/dist/img/beeld/bg-blue.svg&quot;); display: none;">
+    <div x-on:click.prevent="mobileMenuOpen = false" class="fixed right-0 top-0 p-8 cursor-pointer">
+        <svg role="img" class="icon w-4 h-4">
+            <use xlink:href="#close"></use>
+        </svg>
+    </div>
+
+    <div class="flex justify-between space-y-2 column-template flex flex-col w-7/10 mx-auto sm:w-full">
+        <div class="mb-8">
+
+    <div class="field relative block flex flex-col alt w-full">
+        <form method="get" action="/zoeken/">
+            <div class="relative flex mt-auto">
+                <div class="relative w-full flex">
+                    <input name="q" 
+                           class="form-input  block w-full  rounded-r-none alt:placeholder-alpha-500 alt:font-bold alt:bg-alpha-100 alt:text-alpha-500 alt:border alt:border-alpha-100 alt:text-xl alt:focus:border-alpha-500 form-input-search" 
+                            placeholder="Zoek" 
+                           type="search">
+                    <input name="category" value="2" style="display: none" />
+
+                    <button type="submit" class="text-white bg-alpha-500 w-15/75 h-13 rounded-md rounded-l-none hover:bg-alpha-700 flex justify-center items-center h-14">
+                        <svg role="img" class="icon h-6 w-6 fill-current">
+                            <use xlink:href="#search"></use>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </form>
+        <p class="shadow z-10 absolute top-100 right-0 px-4 py-2 border bg-gray-500 mt-2 text-sm rounded mx-2" validate-message=""></p>
+    </div>
+        </div>
+                <div class="skipRead flex flex-col space-y-10 lg:space-y-2 w-1/4 pr-8 lg:w-full md:pr-0 column-1">
+                            <div class="text-white space-y-2" x-data="{ open: false }">
+                                <h3 class="text-2xl	text-white relative lg:flex lg:items-baseline">
+
+                                    <span class="lg:mr-3">Hypotheek met NHG</span>
+                                    <span class="hidden lg:inline-flex lg:ml-auto transition-transform duration-500 ease-in-out transform w-4 h-4 mt-1" :class="{ 'rotate-180' : open }">
+
+                                        <svg role="img" class="icon w-4 h-4 ">
+                                            <use xlink:href="#chevron-down"></use>
+                                        </svg>
+
+                                    </span>
+
+                                    <div class="absolute top-0 left-0 w-full h-full hidden lg:block" x-on:click="open = !open"></div>
+                                </h3>
+                                <ul class="text-base text-white list-arrow space-y-1 lg:pb-6 lg:hidden" :class="{ 'lg:block': open, 'lg:hidden' : !open }">
+            <li>
+                <a href="/het-product-nhg/een-hypotheek-met-nhg/" class="text-white">Een hypotheek met NHG</a>
+            </li>
+            <li>
+                <a href="/verduurzamen/verduurzaming/" class="text-white">Verduurzamen met NHG</a>
+            </li>
+            <li>
+                <a href="/het-product-nhg/je-hypotheek-veranderen/" class="text-white">Je hypotheek veranderen</a>
+            </li>
+            <li>
+                <a href="/het-product-nhg/voor-welke-woning-een-lening-met-nhg/" class="text-white">Voor welke woning een lening met NHG?</a>
+            </li>
+                                </ul>
+                            </div>
+                            <div class="text-white space-y-2" x-data="{ open: false }">
+                                <h3 class="text-2xl	text-white relative lg:flex lg:items-baseline">
+
+                                    <span class="lg:mr-3">Hulp van NHG</span>
+                                    <span class="hidden lg:inline-flex lg:ml-auto transition-transform duration-500 ease-in-out transform w-4 h-4 mt-1" :class="{ 'rotate-180' : open }">
+
+                                        <svg role="img" class="icon w-4 h-4 ">
+                                            <use xlink:href="#chevron-down"></use>
+                                        </svg>
+
+                                    </span>
+
+                                    <div class="absolute top-0 left-0 w-full h-full hidden lg:block" x-on:click="open = !open"></div>
+                                </h3>
+                                <ul class="text-base text-white list-arrow space-y-1 lg:pb-6 lg:hidden" :class="{ 'lg:block': open, 'lg:hidden' : !open }">
+            <li>
+                <a href="/hulp-van-nhg/hulp-als-je-relatie-eindigt/" class="text-white">Hulp als je relatie eindigt</a>
+            </li>
+            <li>
+                <a href="/hulp-van-nhg/hulp-als-je-inkomen-daalt/" class="text-white">Hulp als je inkomen daalt</a>
+            </li>
+            <li>
+                <a href="/hulp-van-nhg/beheertoets/" class="text-white">Over de Beheertoets en beheercriteria</a>
+            </li>
+            <li>
+                <a href="/hulp-van-nhg/verhuizen-met-een-restschuld/" class="text-white">Verhuizen met een restschuld</a>
+            </li>
+            <li>
+                <a href="/hulp-van-nhg/kwijtschelding-van-een-restschuld/" class="text-white">Kwijtschelding van een restschuld</a>
+            </li>
+            <li>
+                <a href="/hulp-van-nhg/hulp-na-het-overlijden-van-je-partner/" class="text-white">Hulp na het overlijden van je partner</a>
+            </li>
+                                </ul>
+                            </div>
+                            <div class="text-white space-y-2" x-data="{ open: false }">
+                                <h3 class="text-2xl	text-white relative lg:flex lg:items-baseline">
+
+                                    <span class="lg:mr-3">NHG op maat</span>
+                                    <span class="hidden lg:inline-flex lg:ml-auto transition-transform duration-500 ease-in-out transform w-4 h-4 mt-1" :class="{ 'rotate-180' : open }">
+
+                                        <svg role="img" class="icon w-4 h-4 ">
+                                            <use xlink:href="#chevron-down"></use>
+                                        </svg>
+
+                                    </span>
+
+                                    <div class="absolute top-0 left-0 w-full h-full hidden lg:block" x-on:click="open = !open"></div>
+                                </h3>
+                                <ul class="text-base text-white list-arrow space-y-1 lg:pb-6 lg:hidden" :class="{ 'lg:block': open, 'lg:hidden' : !open }">
+            <li>
+                <a href="/het-krijgen-van-nhg/een-hypotheek-met-vast-contract/" class="text-white">Een hypotheek met vast contract</a>
+            </li>
+            <li>
+                <a href="/het-krijgen-van-nhg/een-hypotheek-zonder-vast-contract/" class="text-white">NHG voor flexwerkers</a>
+            </li>
+            <li>
+                <a href="/het-krijgen-van-nhg/een-hypotheek-zonder-vast-contract/" class="text-white">NHG voor uitzendkrachten</a>
+            </li>
+            <li>
+                <a href="/het-krijgen-van-nhg/een-hypotheek-voor-ondernemers/" class="text-white">NHG voor ondernemers</a>
+            </li>
+            <li>
+                <a href="/het-krijgen-van-nhg/nhg-voor-starters/" class="text-white">NHG voor starters</a>
+            </li>
+            <li>
+                <a href="/het-krijgen-van-nhg/nhg-voor-senioren/" class="text-white">NHG voor senioren</a>
+            </li>
+            <li>
+                <a href="/het-krijgen-van-nhg/erfpachtconstructie-in-combinatie-met-nhg/" class="text-white">Erfpachtconstructie en NHG</a>
+            </li>
+            <li>
+                <a href="/het-krijgen-van-nhg/koperssteun-in-combinatie-met-nhg/" class="text-white">Koperssteun en NHG</a>
+            </li>
+                                </ul>
+                            </div>
+                </div>
+                <div class="skipRead flex flex-col space-y-10 lg:space-y-2 w-1/4 pr-8 lg:w-full md:pr-0 column-2">
+                            <div class="text-white space-y-2" x-data="{ open: false }">
+                                <h3 class="text-2xl	text-white relative lg:flex lg:items-baseline">
+
+                                    <span class="lg:mr-3">Professionals</span>
+                                    <span class="hidden lg:inline-flex lg:ml-auto transition-transform duration-500 ease-in-out transform w-4 h-4 mt-1" :class="{ 'rotate-180' : open }">
+
+                                        <svg role="img" class="icon w-4 h-4 ">
+                                            <use xlink:href="#chevron-down"></use>
+                                        </svg>
+
+                                    </span>
+
+                                    <div class="absolute top-0 left-0 w-full h-full hidden lg:block" x-on:click="open = !open"></div>
+                                </h3>
+                                <ul class="text-base text-white list-arrow space-y-1 lg:pb-6 lg:hidden" :class="{ 'lg:block': open, 'lg:hidden' : !open }">
+            <li>
+                <a href="/professional/" class="text-white">Alles voor professionals</a>
+            </li>
+            <li>
+                <a href="/toolkit-professionals/" class="text-white">Toolkit professionals</a>
+            </li>
+            <li>
+                <a href="https://mijn.nhg.nl/" class="text-white">Mijn NHG</a>
+            </li>
+            <li>
+                <a href="/woonlastenmonitor/" target="_blank" class="text-white">Woonlastenmonitor</a>
+            </li>
+            <li>
+                <a href="/kennis-innovatie/" class="text-white">Kennis &amp; Innovatie</a>
+            </li>
+            <li>
+                <a href="/nhg-als-ondersteuning-bij-woningbehoud/" target="_blank" class="text-white">NHG als ondersteuning bij woningbehoud</a>
+            </li>
+            <li>
+                <a href="/kennis-innovatie/nhg-digitaliseert/" class="text-white">NHG digitaliseert</a>
+            </li>
+                                </ul>
+                            </div>
+                            <div class="text-white space-y-2" x-data="{ open: false }">
+                                <h3 class="text-2xl	text-white relative lg:flex lg:items-baseline">
+
+                                    <span class="lg:mr-3">Download &amp; tools</span>
+                                    <span class="hidden lg:inline-flex lg:ml-auto transition-transform duration-500 ease-in-out transform w-4 h-4 mt-1" :class="{ 'rotate-180' : open }">
+
+                                        <svg role="img" class="icon w-4 h-4 ">
+                                            <use xlink:href="#chevron-down"></use>
+                                        </svg>
+
+                                    </span>
+
+                                    <div class="absolute top-0 left-0 w-full h-full hidden lg:block" x-on:click="open = !open"></div>
+                                </h3>
+                                <ul class="text-base text-white list-arrow space-y-1 lg:pb-6 lg:hidden" :class="{ 'lg:block': open, 'lg:hidden' : !open }">
+            <li>
+                <a href="/het-krijgen-van-nhg/werkgeversverklaring-nhg/" class="text-white">Werkgeversverklaring NHG</a>
+            </li>
+            <li>
+                <a href="/rekenhulp-hypotheek-en-verduurzaming/" class="text-white">Rekenhulp verduurzamen</a>
+            </li>
+            <li>
+                <a href="/het-krijgen-van-nhg/keuzehulp-inkomen-consument/" class="text-white">Keuzehulp inkomen</a>
+            </li>
+            <li>
+                <a href="https://mijn.nhg.nl/" class="text-white">NHG toets</a>
+            </li>
+            <li>
+                <a href="https://mijn.nhg.nl/" class="text-white">Beheertoets</a>
+            </li>
+            <li>
+                <a href="/inloggen/" class="text-white">Inlog geldverstrekkers</a>
+            </li>
+            <li>
+                <a href="/professional/procedure-tot-goedkeuring-erfpachtconstructies-en-koperssteun/" class="text-white">Procedure tot acceptatie erfpachtconstructies en koperssteun</a>
+            </li>
+                                </ul>
+                            </div>
+                            <div class="text-white space-y-2" x-data="{ open: false }">
+                                <h3 class="text-2xl	text-white relative lg:flex lg:items-baseline">
+
+                                    <span class="lg:mr-3">Voorwaarden en normen</span>
+                                    <span class="hidden lg:inline-flex lg:ml-auto transition-transform duration-500 ease-in-out transform w-4 h-4 mt-1" :class="{ 'rotate-180' : open }">
+
+                                        <svg role="img" class="icon w-4 h-4 ">
+                                            <use xlink:href="#chevron-down"></use>
+                                        </svg>
+
+                                    </span>
+
+                                    <div class="absolute top-0 left-0 w-full h-full hidden lg:block" x-on:click="open = !open"></div>
+                                </h3>
+                                <ul class="text-base text-white list-arrow space-y-1 lg:pb-6 lg:hidden" :class="{ 'lg:block': open, 'lg:hidden' : !open }">
+            <li>
+                <a href="/voorwaarden-en-normen/" class="text-white">Voorwaarden en normen</a>
+            </li>
+                                </ul>
+                            </div>
+                </div>
+                <div class="skipRead flex flex-col space-y-10 lg:space-y-2 w-1/4 pr-8 lg:w-full md:pr-0 column-3">
+                            <div class="text-white space-y-2" x-data="{ open: false }">
+                                <h3 class="text-2xl	text-white relative lg:flex lg:items-baseline">
+
+                                    <span class="lg:mr-3">Over ons</span>
+                                    <span class="hidden lg:inline-flex lg:ml-auto transition-transform duration-500 ease-in-out transform w-4 h-4 mt-1" :class="{ 'rotate-180' : open }">
+
+                                        <svg role="img" class="icon w-4 h-4 ">
+                                            <use xlink:href="#chevron-down"></use>
+                                        </svg>
+
+                                    </span>
+
+                                    <div class="absolute top-0 left-0 w-full h-full hidden lg:block" x-on:click="open = !open"></div>
+                                </h3>
+                                <ul class="text-base text-white list-arrow space-y-1 lg:pb-6 lg:hidden" :class="{ 'lg:block': open, 'lg:hidden' : !open }">
+            <li>
+                <a href="/over-nhg/over-nhg/" class="text-white">Ons verhaal</a>
+            </li>
+            <li>
+                <a href="/over-nhg/bedrijfsvoering/" class="text-white">Bedrijfsvoering</a>
+            </li>
+            <li>
+                <a href="/over-nhg/waarborgfondsconstructie/" class="text-white">Evaluaties borgtochtpremiemethodiek</a>
+            </li>
+            <li>
+                <a href="/english-summary/" class="text-white">English summary</a>
+            </li>
+            <li>
+                <a href="/over-nhg/werken-bij-nhg/" class="text-white">Werken bij NHG</a>
+            </li>
+            <li>
+                <a href="/nhg-actueel/" class="text-white">NHG Actueel</a>
+            </li>
+            <li>
+                <a href="/over-nhg/jaarverslagen-liquiditeitsprognoses/" class="text-white">Jaarverslagen</a>
+            </li>
+            <li>
+                <a href="/over-nhg/kwartaalberichten/" class="text-white">Kwartaalberichten</a>
+            </li>
+            <li>
+                <a href="/over-nhg/nieuwsbrieven/" class="text-white">Nieuwsbrieven</a>
+            </li>
+            <li>
+                <a href="https://www.nhg.nl/zoeken/?q&amp;category=5&amp;page=1" class="text-white">Persberichten</a>
+            </li>
+                                </ul>
+                            </div>
+                            <div class="text-white space-y-2" x-data="{ open: false }">
+                                <h3 class="text-2xl	text-white relative lg:flex lg:items-baseline">
+
+                                    <span class="lg:mr-3">Service en contact</span>
+                                    <span class="hidden lg:inline-flex lg:ml-auto transition-transform duration-500 ease-in-out transform w-4 h-4 mt-1" :class="{ 'rotate-180' : open }">
+
+                                        <svg role="img" class="icon w-4 h-4 ">
+                                            <use xlink:href="#chevron-down"></use>
+                                        </svg>
+
+                                    </span>
+
+                                    <div class="absolute top-0 left-0 w-full h-full hidden lg:block" x-on:click="open = !open"></div>
+                                </h3>
+                                <ul class="text-base text-white list-arrow space-y-1 lg:pb-6 lg:hidden" :class="{ 'lg:block': open, 'lg:hidden' : !open }">
+            <li>
+                <a href="/service-en-contact/" class="text-white">Contact</a>
+            </li>
+            <li>
+                <a href="/service-en-contact/meest-gestelde-vragen/" class="text-white">Veelgestelde vragen</a>
+            </li>
+                                </ul>
+                            </div>
+                </div>
+    </div>
+</div>
+
+
+    <iframe src="/dist/img/sprite/sprite.svg" onload="var svg = this.contentWindow.document.childNodes[0] || this.contentDocument.children[0] || this.contentDocument.body.children[0]; svg.style.display = 'none'; svg.setAttribute('aria-hidden', 'true'); this.parentElement.insertBefore(svg, this);this.parentElement.removeChild(this);" style="display: none;" data-cookieconsent="ignore"></iframe>
+
+    <svg width="0" height="0" style="position:absolute">
+    <symbol viewBox="0 0 34.02 28.3465" id="icon-arrow"><path d="M2.7556,16.2335h23.138l-7.541,7.7003c-0.9393,0.959-0.9393,1.9144,0,2.8714c0.4245,0.4352,0.9145,0.6521,1.47,0.6521c0.5519,0,1.0419-0.2169,1.47-0.6521l12.0166-12.6594L21.2926,1.4864c-0.9393-0.9554-1.8981-0.9337-2.8763,0.0649c-0.9818,1.0024-1.003,1.9811-0.0637,2.9365l7.4136,7.5703H2.7556c-0.596,0-1.086,0.1952-1.47,0.5869c-0.3838,0.392-0.5748,0.8706-0.5748,1.4358c0,0.567,0.191,1.0654,0.5748,1.5007C1.6696,16.0187,2.1596,16.2335,2.7556,16.2335z" /></symbol>
+    <symbol viewBox="0 0 20 20" id="icon-close"><path d="M10,9.7L3.8,3.5L3,4.3l6.2,6.2L3,16.7l0.8,0.8l6.2-6.2l6.2,6.2l0.8-0.8l-6.2-6.2L17,4.3l-0.8-0.8L10,9.7z" /></symbol>
+    <symbol viewBox="0 0 48 48" id="icon-home"><path d="M24,0L4,16.53V39a9,9,0,0,0,9,9H35a9,9,0,0,0,9-9V16.53Zm4,46H20V34h8V46Zm14-7a7,7,0,0,1-7,7H30V32H18V46H13a7,7,0,0,1-7-7V17.47L24,2.61,42,17.47V39Z" /></symbol>
+    <symbol viewBox="0 0 48 48" id="icon-search"> <path d="M48,44.8L31.5,28.3c2.3-3,3.7-6.7,3.7-10.7C35.1,7.9,27.2,0,17.6,0S0,7.9,0,17.6c0,9.7,7.9,17.6,17.6,17.6c4,0,7.7-1.4,10.7-3.7L44.8,48L48,44.8z M4.4,17.6c0-7.3,5.9-13.2,13.2-13.2c7.3,0,13.2,5.9,13.2,13.2s-5.9,13.2-13.2,13.2C10.3,30.8,4.4,24.8,4.4,17.6z" /> </symbol>
+    <symbol viewBox="0 0 78.82 79.17" id="icon-instagram"> <path d="M55.86,28.32H78.74c0,.31.05.65.05,1q0,17.24,0,34.48A15.51,15.51,0,0,1,63.35,79.16H15.42A15.46,15.46,0,0,1,0,64C0,52.37,0,40.71,0,29.06c0-.22,0-.44,0-.74H22.9A20,20,0,0,0,20,45.24a19.67,19.67,0,0,0,7.53,10.94A20.16,20.16,0,0,0,55.86,28.32" transform="translate(0 0)" /> <path d="M12.05.52v19h3.18V.08H17.4V19.5h3.21V0H63.4A15.51,15.51,0,0,1,78.79,15.05c.07,3.36,0,6.72,0,10.08a6.63,6.63,0,0,1-.08.71h-1c-7.71,0-15.43,0-23.15,0a2.41,2.41,0,0,1-1.48-.6,20.16,20.16,0,0,0-27.61.15,1.62,1.62,0,0,1-1,.46q-12.05,0-24.11,0A2.44,2.44,0,0,1,0,25.76c0-.39,0-.8,0-1.21C.05,21,0,17.37.15,13.79A14.92,14.92,0,0,1,6.61,2.9V19.54H9.76V2.7c0-1.78.3-2.07,2.3-2.18M58.3,13.31c0,1.41,0,2.82,0,4.22a2.4,2.4,0,0,0,2.52,2.54q4.13,0,8.26,0a2.41,2.41,0,0,0,2.54-2.53q0-4.22,0-8.45a2.38,2.38,0,0,0-2.43-2.54q-4.22-.07-8.45,0A2.37,2.37,0,0,0,58.3,9.09c0,1.41,0,2.82,0,4.22" transform="translate(0 0)" /> <path d="M39.33,55.47A15.53,15.53,0,1,1,54.91,39.94,15.54,15.54,0,0,1,39.33,55.47m.08-27A11.45,11.45,0,1,0,50.84,40,11.43,11.43,0,0,0,39.41,28.5" transform="translate(0 0)" /> </symbol>
+    <symbol viewBox="0 5 1036 990" id="icon-linkedin"><path d="M0 120c0-33.334 11.667-60.834 35-82.5C58.333 15.833 88.667 5 126 5c36.667 0 66.333 10.666 89 32 23.333 22 35 50.666 35 86 0 32-11.333 58.666-34 80-23.333 22-54 33-92 33h-1c-36.667 0-66.333-11-89-33S0 153.333 0 120zm13 875V327h222v668H13zm345 0h222V622c0-23.334 2.667-41.334 8-54 9.333-22.667 23.5-41.834 42.5-57.5 19-15.667 42.833-23.5 71.5-23.5 74.667 0 112 50.333 112 151v357h222V612c0-98.667-23.333-173.5-70-224.5S857.667 311 781 311c-86 0-153 37-201 111v2h-1l1-2v-95H358c1.333 21.333 2 87.666 2 199 0 111.333-.667 267.666-2 469z" /></symbol>
+    <symbol viewBox="0 0 88.53 73.93" id="icon-twitter"><path d="M25.42,57.6c-8.19,0-15.32-5.44-16.66-12.27,2,0,7-.58,7-.88-7.54-3-14.12-9.61-14.9-19.29,3.51,1.75,7.71,4.05,10.81,4.38,0-.29-13.44-13.15-6.43-26.3C12,12.31,29.26,23,43,23.41c-.22-9.85,2.2-16.31,7.89-20.16,14-7.3,23.08-.58,26.3,3.51l9.64-4.38c0,.58-5.26,8.47-6.14,9.64.88,0,6.14-.58,7.89-.88,0,.29-8.76,7.89-8.76,7.89S80.94,40.36,71,53.51c-16.65,23.67-45.1,21.4-55.23,19C9.64,71,3.8,69,0,64.61c10.52.58,25.42-6.43,25.42-7" /></symbol>
+    <symbol viewBox="0 0 511.627 511.627" id="icon-youtube"><path d="M459.954,264.376c-2.471-11.233-7.949-20.653-16.416-28.264c-8.474-7.611-18.227-12.085-29.27-13.418c-35.02-3.806-87.837-5.708-158.457-5.708c-70.618,0-123.341,1.903-158.174,5.708c-11.227,1.333-21.029,5.807-29.407,13.418c-8.376,7.614-13.896,17.035-16.562,28.264c-4.948,22.083-7.423,55.391-7.423,99.931c0,45.299,2.475,78.61,7.423,99.93c2.478,11.225,7.951,20.653,16.421,28.261c8.47,7.614,18.225,11.991,29.263,13.134c35.026,3.997,87.847,5.996,158.461,5.996c70.609,0,123.44-1.999,158.453-5.996c11.043-1.143,20.748-5.52,29.126-13.134c8.377-7.607,13.897-17.036,16.56-28.261c4.948-22.083,7.426-55.391,7.426-99.93C467.377,319.007,464.899,285.695,459.954,264.376z M165.025,293.218h-30.549v162.45h-28.549v-162.45h-29.98v-26.837h89.079V293.218z M242.11,455.668H216.7v-15.421c-10.278,11.615-19.989,17.419-29.125,17.419c-8.754,0-14.275-3.524-16.556-10.564c-1.521-4.568-2.286-11.519-2.286-20.844V314.627h25.41v103.924c0,6.088,0.096,9.421,0.288,9.993c0.571,3.997,2.568,5.995,5.996,5.995c5.138,0,10.566-3.997,16.274-11.991V314.627h25.41V455.668z M339.183,413.411c0,13.894-0.855,23.417-2.56,28.558c-3.244,10.462-9.996,15.697-20.273,15.697c-9.137,0-17.986-5.235-26.556-15.697v13.702h-25.406v-189.29h25.406v61.955c8.189-10.273,17.036-15.413,26.556-15.413c10.277,0,17.029,5.331,20.273,15.988c1.704,4.948,2.56,14.369,2.56,28.264V413.411z M435.685,390.003h-51.104v24.839c0,13.134,4.374,19.697,13.131,19.697c6.279,0,10.089-3.422,11.42-10.28c0.376-1.902,0.571-7.706,0.571-17.412h25.981v3.71c0,9.329-0.195,14.846-0.572,16.563c-0.567,5.133-2.56,10.273-5.995,15.413c-6.852,10.089-17.139,15.133-30.841,15.133c-13.127,0-23.407-4.855-30.833-14.558c-5.517-7.043-8.275-18.083-8.275-33.12v-49.396c0-15.036,2.662-26.076,7.987-33.119c7.427-9.705,17.61-14.558,30.557-14.558c12.755,0,22.85,4.853,30.263,14.558c5.146,7.043,7.71,18.083,7.71,33.119V390.003L435.685,390.003z" /> <path d="M302.634,336.043c-4.38,0-8.658,2.101-12.847,6.283v85.934c4.188,4.186,8.467,6.279,12.847,6.279c7.419,0,11.14-6.372,11.14-19.13v-60.236C313.773,342.418,310.061,336.043,302.634,336.043z" /> <path d="M397.428,336.043c-8.565,0-12.847,6.475-12.847,19.41v13.134h25.693v-13.134C410.274,342.511,405.99,336.043,397.428,336.043z" /> <path d="M148.473,113.917v77.375h28.549v-77.375L211.563,0h-29.121l-19.41,75.089L142.759,0h-30.262c5.33,15.99,11.516,33.785,18.559,53.391C140.003,79.656,145.805,99.835,148.473,113.917z" /> <path d="M249.82,193.291c13.134,0,23.219-4.854,30.262-14.561c5.332-7.043,7.994-18.274,7.994-33.689V95.075c0-15.225-2.669-26.363-7.994-33.406c-7.043-9.707-17.128-14.561-30.262-14.561c-12.756,0-22.75,4.854-29.98,14.561c-5.327,7.043-7.992,18.181-7.992,33.406v49.965c0,15.225,2.662,26.457,7.992,33.689C227.073,188.437,237.063,193.291,249.82,193.291z M237.541,89.935c0-13.134,4.093-19.701,12.279-19.701s12.275,6.567,12.275,19.701v59.955c0,13.328-4.089,19.985-12.275,19.985s-12.279-6.661-12.279-19.985V89.935z" /> <path d="M328.328,193.291c9.523,0,19.328-5.901,29.413-17.705v15.703h25.981V48.822h-25.981v108.777c-5.712,8.186-11.133,12.275-16.279,12.275c-3.429,0-5.428-2.093-5.996-6.28c-0.191-0.381-0.287-3.715-0.287-9.994V48.822h-25.981v112.492c0,9.705,0.767,16.84,2.286,21.411C313.961,189.768,319.574,193.291,328.328,193.291z" /></symbol>
+    <symbol viewBox="0 0 50.37 86.01" id="icon-facebook"><path d="M50.37,17.7H41.29c-9.53,0-7.94,9.08-7.94,16.33h15c0,3.08,0,18.38,0,18.38h-15V86H15V52.41H.11L0,34H15c-.08-6.23.13,6.13.13-12.48S31.08,0,41.29,0h9.07Z" /></symbol>
+</svg>
+
+    <script data-cookieconsent="ignore" src="/dist/scripts.js"></script>
+
+    
+
+    <script type="text/javascript">
+        ((d,i,m)=>{
+            ct=t=>d.createTextNode(t);
+            ce=e=>d.createElement(e);
+            d.querySelectorAll(i).forEach(e=>{
+                const a=ce('a');
+                a.setAttribute('target', '_self');
+                const div=ce('div'), p=ce('p'), s=e.dataset.cookieblockSrc, sp=
+                    /google\.com\/maps\/embed/.test(s)?'Google Maps':
+                    /player\.vimeo\.com\/video\//.test(s)?'Vimeo':
+                    /youtube(-nocookie)?\.com\/embed\//.test(s)?'YouTube':undefined;
+                if(!sp)return;
+                div.innerHTML=`<div style="background-color:#CCC;display:inline-`+
+                    `block;height:400px;position:relative;width:700px;max-width:100%;"><div style=`+
+                    '"background-color:#848484;border-radius:15px;height:50%;position:absolute;'+
+                    'transform:translate(50%,50%);width:50%;"><p style="color:#FFF;font-size:7.5em;'+
+                    'position:relative;top:50%;left:50%;margin:0;text-align:center;transform:translate'+
+                    '(-50%,-50%);">&ctdot;</p></div>';
+                div.classList.add(`cookieconsent-optout-${m}`);
+                a.textContent=`Accepteer ${m} cookies`;
+                a.href='javascript:Cookiebot.renew()';
+                p.append(ct(''), a, ct(` om deze YouTube-video te kunnen bekijken.`));
+                div.append(p);
+                e.parentNode.insertBefore(div, e);
+            })
+        })(document, 'iframe[data-cookieblock-src]', 'marketing')
+    </script>
+
+    <script type="text/javascript">
+        (function () {
+            var pageAnchors = document.getElementById("PageAnchors");
+
+            if (pageAnchors != null) {
+                if (pageAnchors.getElementsByTagName('li').length == 0) {
+                    document.getElementsByClassName("js-thispage")[0].remove();
+                }
+            }
+        })();
+    </script>
+</body>
+</html>

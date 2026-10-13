@@ -1,0 +1,54 @@
+{
+  "store": "data/store",
+  "localOnly": true,
+  "published": false,
+  "baselinePreservation": "PASS: all prior revisions, intake, scan rows and snapshots; all policies except two reviewed CH records; non-CH review settings and unrelated checks preserved",
+  "added": {
+    "policies": 5,
+    "revisions": 7,
+    "checks": 148,
+    "snapshots": 198,
+    "settings": 0,
+    "intake": 26,
+    "scan_runs": 164
+  },
+  "tests": {
+    "existingSuite": 233,
+    "addedRegressionTests": 3,
+    "failures": 0
+  },
+  "typecheck": "PASS",
+  "staticBuild": "PASS",
+  "selectedExport": "PASS",
+  "coverage": {
+    "federalOnlyCommandExit": 2,
+    "allSwissChannels": 82,
+    "incompleteChannels": 82,
+    "failedEntryRequests": 9,
+    "renderedPortals": 27
+  },
+  "topics": {
+    "newGroups": 4,
+    "newRecords": 26,
+    "relationshipReview": "PASS; source-located explicit relations, not title similarity",
+    "newAutomatedCandidateMatches": 0
+  },
+  "browser": {
+    "languages": [
+      "zh",
+      "en"
+    ],
+    "region": "CH-FR",
+    "pendingCount": 2,
+    "officialMatters": 3,
+    "officialRecords": 5,
+    "keyboardExpansion": "PASS; three separate premium documents",
+    "childSearch": "constitutionnelle: one matter, one matching original",
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "scrollWidth": 390
+    },
+    "reload": "PASS: query, matched original count and matter heading persist"
+  }
+}

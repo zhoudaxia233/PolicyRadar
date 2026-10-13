@@ -4165,10 +4165,10 @@
     {
       "id": "fr-gas-benchmark-october-2026",
       "title": [
-        "2026年10月住宅燃气参考价",
-        "October 2026 residential gas benchmark"
+        "住宅燃气月度参考价",
+        "Monthly residential gas benchmarks"
       ],
-      "basis": "Service Public A17956 explicitly cites the 10 September CRE announcement for the same October benchmark and bill estimate. This is not a separate tariff law.",
+      "basis": "Service Public A17956 explicitly cites the 10 September CRE announcement for the same October benchmark and bill estimate. This is not a separate tariff law. The rolling A17956 page now reports November and explicitly cites the 12 October CRE release. October and November observations remain separately archived; grouping does not impose a uniform tariff.",
       "appliesFromExport": "2026-10-11T01:08:18.429Z",
       "documents": [
         {
@@ -4178,6 +4178,12 @@
         {
           "region": "FR",
           "officialId": "CRE PRVG octobre 2026"
+        },
+        {
+          "region": "FR",
+          "url": "https://www.cre.fr/actualites/toute-lactualite/le-prix-repere-de-vente-de-gaz-augmente-de-66-ttc-au-1er-novembre-2026.html",
+          "title": "Le prix repère de vente de gaz augmente de 6,6 % TTC au 1er novembre 2026",
+          "appliesFromExport": "2026-10-13T11:39:02.686Z"
         }
       ]
     },
@@ -4240,6 +4246,152 @@
         }
       ],
       "appliesFromExport": "2026-10-11T09:21:39.332Z"
+    },
+    {
+      "id": "de-psychosocial-family-court-pilot",
+      "title": [
+        "德国家庭法院家暴保护程序陪伴试点：各州实施",
+        "Germany: psychosocial support pilot for family-court protection proceedings"
+      ],
+      "basis": "The Brandenburg justice ministry notice of 12 October explicitly identifies Brandenburg, Baden-Württemberg, North Rhine-Westphalia and Schleswig-Holstein as the four participating states in the same bff/SOCLES nationwide pilot. The Baden-Württemberg announcement identifies the same project and December 2027 end. Retain separate state sites, start dates and explanations. This operational pilot is distinct from the federal family-court protection bill.",
+      "documents": [
+        {
+          "region": "DE-BW",
+          "officialId": "BW Modellprojekt psychosoziale Prozessbegleitung 2026"
+        },
+        {
+          "region": "DE-BB",
+          "url": "https://mdjd.brandenburg.de/mdjd/de/presse/pressemitteilungen/ansicht/~12-10-2026-modellprojekt-zur-psychosozialen-prozessbegleitung",
+          "title": "Brandenburg stärkt Opferschutz bei häuslicher Gewalt – Modellprojekt zur psychosozialen Prozessbegleitung startet"
+        }
+      ],
+      "appliesFromExport": "2026-10-13T09:37:19.523Z"
+    },
+    {
+      "id": "ch-sg-home-assistance-el",
+      "title": [
+        "圣加仑：补充福利居家支持修订",
+        "St Gallen: supplementary-benefit home-support reform"
+      ],
+      "basis": "The news notice explicitly links to the consultation for XI. Nachtrag zum Ergänzungsleistungsgesetz; both concern the same home-support reform. Federal law and the cantonal draft remain distinct stages.",
+      "appliesFromExport": "2026-10-13T10:01:32.755Z",
+      "documents": [
+        {
+          "region": "CH-SG",
+          "url": "https://www.sg.ch/news/sgch_allgemein/2026/10/staerkere-unterstuetzung-im-privaten-wohnumfeld.html",
+          "title": "Stärkere Unterstützung im privaten Wohnumfeld"
+        },
+        {
+          "region": "CH-SG",
+          "url": "https://www.sg.ch/news/sgch_allgemein/2026/10/xi--nachtrag-zum-ergaenzungsleistungsgesetz.html",
+          "title": "XI. Nachtrag zum Ergänzungsleistungsgesetz"
+        }
+      ]
+    },
+    {
+      "id": "ch-fr-affordable-premiums",
+      "title": [
+        "弗里堡：保费负担上限的倡议与反提案",
+        "Fribourg: premium-burden initiative and counterproposal"
+      ],
+      "basis": "The notice and attached draft law/decree expressly identify the 10% constitutional initiative and 10.5% indirect counterproposal as alternatives. Preserve each draft separately; draft decree IV is not an actual referendum result.",
+      "appliesFromExport": "2026-10-13T10:01:32.755Z",
+      "documents": [
+        {
+          "region": "CH-FR",
+          "url": "https://www.fr.ch/dsas/actualites/primes-abordables-le-contre-projet-indirect-du-conseil-detat-a-linitiative-cantonale-transmis-au-grand-conseil",
+          "title": "Primes abordables : le contre-projet indirect du Conseil d’Etat à l’initiative cantonale transmis au Grand Conseil"
+        },
+        {
+          "region": "CH-FR",
+          "url": "https://www.fr.ch/document/607016",
+          "title": "Loi modifiant la loi d’application de la loi fédérale sur l’assurance-maladie (contre-projet indirect à l’initiative «Pour des primes abordables»)"
+        },
+        {
+          "region": "CH-FR",
+          "url": "https://www.fr.ch/document/607011",
+          "title": "Décret concernant l’initiative constitutionnelle «Pour des primes abordables» (votation populaire)"
+        }
+      ]
+    },
+    {
+      "id": "ch-vd-energy-implementation",
+      "title": [
+        "沃州：新能源法及配套实施",
+        "Vaud: new energy law and implementation"
+      ],
+      "basis": "The implementing regulation expressly cites the energy law of 3 February 2026; regulation section 107 and law sections 32 and 78 establish commencement and separate transitions.",
+      "appliesFromExport": "2026-10-13T10:01:32.755Z",
+      "explanations": [
+        "ch-vd-energy-law"
+      ],
+      "documents": [
+        {
+          "region": "CH-VD",
+          "url": "https://www.vd.ch/fileadmin/user_upload/accueil/fichiers_pdf/2026_octobre_actus/26_LEG_158_R%C3%A8glement_RLVLEne.pdf",
+          "title": "Règlement d’application de la loi sur l’énergie (RLVLEne) du 7 octobre 2026"
+        }
+      ]
+    },
+    {
+      "id": "ch-ge-minimum-wage-indexation",
+      "title": [
+        "日内瓦：最低工资年度调整",
+        "Geneva: annual minimum-wage indexation"
+      ],
+      "basis": "The 2027 government notice explicitly compares the new general and sectoral floors with the 2026 rates. Preserve both yearly decisions and the historical 2026 commencement.",
+      "appliesFromExport": "2026-10-13T10:01:32.755Z",
+      "documents": [
+        {
+          "region": "CH-GE",
+          "officialId": "Salaire minimum genevois 2026"
+        },
+        {
+          "region": "CH-GE",
+          "url": "https://www.ge.ch/document/communique-hebdomadaire-du-conseil-etat-du-7-octobre-2026#extrait-45114",
+          "title": "Indexation du salaire minimum pour 2027"
+        }
+      ]
+    },
+    {
+      "id": "fr-heavy-drivers-renewal",
+      "title": [
+        "通勤燃油援助续期",
+        "Commuter fuel-aid renewal"
+      ],
+      "basis": "Both official notices explicitly concern the October–December 2026 renewal. DGFIP provides a newer operational timetable; DILA still warns that formal text is awaited. Administrative publication is not substituted for decree verification.",
+      "appliesFromExport": "2026-10-13T11:39:02.686Z",
+      "documents": [
+        {
+          "region": "FR",
+          "officialId": "Service Public A18903 / renewal October 2026"
+        },
+        {
+          "region": "FR",
+          "url": "https://www.impots.gouv.fr/actualite/extension-de-laide-de-100-eu-pour-les-travailleurs-grands-rouleurs",
+          "title": "Extension de l'aide de 100 € pour les travailleurs « grands rouleurs »"
+        }
+      ]
+    },
+    {
+      "id": "nl-regional-employment-centres",
+      "title": [
+        "区域就业服务中心",
+        "Regional employment centres"
+      ],
+      "basis": "The 12 October government notice explicitly describes the structural regional employment-centre cooperation and funding proposed in the bill submitted to the Tweede Kamer. The current dossier identifies that bill as 37039. Both records concern this same proposal, whose parliamentary stage remains pending.",
+      "appliesFromExport": "2026-10-13T13:29:24.942Z",
+      "documents": [
+        {
+          "region": "NL",
+          "officialId": "Kamerstuk 37039"
+        },
+        {
+          "region": "NL",
+          "url": "https://www.rijksoverheid.nl/actueel/nieuws/2026/10/12/kabinet-zet-werk-centraal-in-elke-regio-een-werkcentrum",
+          "title": "Kabinet zet werk centraal: in elke regio een Werkcentrum"
+        }
+      ]
     }
   ]
 }

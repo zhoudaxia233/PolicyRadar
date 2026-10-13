@@ -1,0 +1,45 @@
+{
+  "localOnly": true,
+  "published": false,
+  "preservation": "PASS",
+  "added": {
+    "policies": 3,
+    "revisions": 5,
+    "checks": 32,
+    "snapshots": 74,
+    "settings": 0,
+    "intake": 13,
+    "scan_runs": 118
+  },
+  "tests": {
+    "passed": 236,
+    "failed": 0
+  },
+  "typecheck": "PASS",
+  "staticBuild": "PASS",
+  "topicValidation": "PASS",
+  "selectedStore": "PASS",
+  "coverage": {
+    "nationalCommandExit": 2,
+    "allFrenchChannels": 59,
+    "incompleteChannels": 59,
+    "failedEntries": 29,
+    "renderedDirectories": 11
+  },
+  "browser": {
+    "languages": [
+      "zh",
+      "en"
+    ],
+    "keyboardExpansion": "PASS: October and November originals retained",
+    "childSearch": "PASS: October official ID returns one matter and one record",
+    "stageFilter": "PASS: fuel renewal remains pending with formal-text limitation",
+    "countryFilter": "FR",
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "scrollWidth": 390
+    },
+    "reload": "PASS: URL retains country, language, view and query"
+  }
+}

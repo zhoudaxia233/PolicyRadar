@@ -649,14 +649,17 @@
       "originalLanguage": "it"
     },
     "ch-vd-energy-law": {
-      "version": 2,
-      "hash": "36d634c1d47ecf4f08339db4847626cc9cb25a1b0466e4bac5f9e7131805b190",
+      "hash": "b5285431bed64d409871dc2c3a55f874b513e8e9f62bd6c0969a3f6be1fabdce",
+      "version": 3,
       "originalLanguage": "fr",
       "verbatim": [
-        "Loi vaudoise sur l’énergie adoptée le 3 février 2026",
         "www.vd.ch",
+        "Grand Conseil du canton de Vaud",
+        "État de Vaud",
+        "Loi vaudoise sur l’énergie adoptée le 3 février 2026",
         "Législation sur l’énergie jusqu’au 31 décembre 2026",
-        "Grand Conseil du canton de Vaud"
+        "Règlement d’application de la loi sur l’énergie du 7 octobre 2026",
+        "Loi sur l’énergie du 3 février 2026 (730.01)"
       ]
     },
     "ch-vs-fire-inspections": {
@@ -678,14 +681,18 @@
       "originalLanguage": "fr"
     },
     "ch-ge-minimum-wage-2026": {
-      "version": 1,
-      "hash": "6399f5821f5d5e3ffdcd27c89ed9909642e738818b8e37c7cc1dca5fb82cdb64",
+      "hash": "df3428d8c09ba07c5fc9e555236d50c0cc170f533e90634a1f4be3a3b35f73dd",
+      "version": 2,
+      "originalLanguage": "fr",
       "verbatim": [
-        "Salaire minimum genevois 2026",
         "www.ge.ch",
-        "Qui bénéficie du salaire minimum et qui doit l’appliquer ?"
-      ],
-      "originalLanguage": "fr"
+        "Conseil d’État de Genève",
+        "République et canton de Genève",
+        "Salaire minimum genevois 2026",
+        "Qui bénéficie du salaire minimum et qui doit l’appliquer ?",
+        "Indexation du salaire minimum pour 2027",
+        "Qui n’est pas soumis au salaire minimum ?"
+      ]
     },
     "ch-ju-planning-building-law": {
       "version": 1,
@@ -1964,11 +1971,14 @@
       ]
     },
     "fr-fuel-heavy-drivers-renewal-2026": {
-      "version": 1,
-      "hash": "0c4fc56f1a89b5a55b8e15a9a39baee98825bf9861c38c58eff74d0d858dcfe6",
+      "hash": "562e68d420a1299cf52cfdfdb88136296c5cade273ddc39a8d5423be4c7aaec0",
+      "version": 2,
       "originalLanguage": "fr",
       "verbatim": [
-        "Service Public / DILA"
+        "Service Public / DILA",
+        "Direction générale des Finances publiques",
+        "Extension de l'aide de 100 € pour les travailleurs grands rouleurs",
+        "Vérifiez si vous pouvez bénéficier de l'aide de 100 €"
       ]
     },
     "fr-construction-diesel-aid-october-2026": {
@@ -2543,12 +2553,13 @@
       ]
     },
     "de-reserve-service-2026": {
-      "version": 1,
-      "hash": "b025bfd1459ecd66944e3531a4810ae68459d785cf19bac06ecc5496717ec225",
+      "hash": "7d0fd479eb297efa2b7700544c196c6d113b999ad491dac8d787ba7343bc553b",
+      "version": 2,
       "originalLanguage": "de",
       "verbatim": [
         "Deutscher Bundestag",
-        "Bundesregierung"
+        "Bundesregierung",
+        "Bundesministerium der Justiz"
       ]
     },
     "de-bundeswehr-infrastructure-2026": {
@@ -3598,11 +3609,12 @@
       ]
     },
     "nl-ov-bus161-trial-202610": {
-      "hash": "596aed9755f57be07a988d3f19b1d6c2b500b06860efeb3768fd96baba4f79db",
-      "version": 1,
+      "hash": "ee055d396f3df2c3948e8956a073b7176797585fd8e494145b17ac4c4abfb21b",
+      "version": 2,
       "originalLanguage": "nl",
       "verbatim": [
-        "Provincie Overijssel"
+        "Provincie Overijssel",
+        "RRReis busprobeeractie tijdens de afsluiting van de N337"
       ]
     },
     "nl-ijssel-vecht-bus-concession-202610": {
@@ -3837,11 +3849,13 @@
       ]
     },
     "nl-regional-employment-centres-bill-202610": {
-      "hash": "58b9e321fbd52f9fdbcd9fd54875cd117743d245dfc2372e39d66357245f62c9",
-      "version": 1,
+      "hash": "5bd50ae31f40e9828fd83b7c896439d09c2a8d9eedebe11efcda7967d1c030cf",
+      "version": 2,
       "originalLanguage": "nl",
       "verbatim": [
-        "Tweede Kamer der Staten-Generaal"
+        "Tweede Kamer der Staten-Generaal",
+        "Rijksoverheid",
+        "Kabinet zet werk centraal: in elke regio een Werkcentrum"
       ]
     },
     "nl-family-long-term-care-application-202610": {
@@ -4152,12 +4166,14 @@
       ]
     },
     "fr-gas-benchmark-october-2026": {
-      "hash": "f34ca8d99828beb1c0c732e90eec042ffb3e8f16984f71d779296209e0005c4a",
-      "version": 1,
+      "hash": "db13cc5d7d56c2d1d1507daf7190bf458afb1357a386859cb93f397062dda863",
+      "version": 2,
       "originalLanguage": "fr",
       "verbatim": [
         "Commission de régulation de l’énergie",
-        "Service Public / DILA"
+        "Service Public / DILA",
+        "Le prix repère de vente de gaz augmente de 6,6 % TTC au 1er novembre 2026",
+        "Prix Repère de Vente de Gaz naturel à destination des clients résidentiels"
       ]
     },
     "fr-rental-models-october-2026": {
@@ -5383,6 +5399,199 @@
       "originalLanguage": "fr",
       "verbatim": [
         "Région Sud"
+      ]
+    },
+    "bw-suspect-nationality-2026": {
+      "hash": "f739d34e7b8ef5bad6921a5481696e2b877fe6b6d1c7adbfc4be24af18c5222c",
+      "version": 1,
+      "originalLanguage": "de",
+      "verbatim": [
+        "Landesregierung Baden-Württemberg"
+      ]
+    },
+    "bw-asian-hornet-funding-2026": {
+      "hash": "ba59f99b5c0e95f5d443803d4bca3ba91a5203f389b2f623381fb5ba45f66057",
+      "version": 1,
+      "originalLanguage": "de",
+      "verbatim": [
+        "Landesregierung Baden-Württemberg"
+      ]
+    },
+    "he-dead-boar-digital-reporting-2026": {
+      "hash": "900f782a2b3ba83178eaeeac8307ffef465966930db8c260d6053b48a27c3f93",
+      "version": 1,
+      "originalLanguage": "de",
+      "verbatim": [
+        "Hessische Landesregierung"
+      ]
+    },
+    "bb-domestic-violence-court-support-2026": {
+      "hash": "b5d2778457031be8a1134b719ebf40a4c0d0e6c33c76b51eb3e5c0bf027671dc",
+      "version": 1,
+      "originalLanguage": "de",
+      "verbatim": [
+        "Landesregierung Brandenburg"
+      ]
+    },
+    "ni-coastal-no-fishing-plan-2026": {
+      "hash": "ea22200a3b326a67ca9903a4af8ca405ad66048a12cac9f1b1e5c5d4c1949e71",
+      "version": 1,
+      "originalLanguage": "de",
+      "verbatim": [
+        "Portal Niedersachsen"
+      ]
+    },
+    "ni-battery-trains-procurement-2026": {
+      "hash": "0b7c152762dfcd8085a3a4fdd60a5653064eefb326dbf0dd53e21c70f0dc6838",
+      "version": 1,
+      "originalLanguage": "de",
+      "verbatim": [
+        "Portal Niedersachsen"
+      ]
+    },
+    "by-rail-service-cuts-reversed-2026": {
+      "hash": "ee51ab29066bb8e3a0584d149f25b89a9e41ca6e232b94eae7aacbe34ab4b581",
+      "version": 1,
+      "originalLanguage": "de",
+      "verbatim": [
+        "Bayerische Staatsregierung"
+      ]
+    },
+    "bb-statewide-digital-building-permits-2026": {
+      "hash": "8d6bde84d77bf2c375ad4477bb913c3383032f13952ce0a3046bfcc7f9c756ee",
+      "version": 1,
+      "originalLanguage": "de",
+      "verbatim": [
+        "Ministerium für Infrastruktur und Landesplanung Brandenburg"
+      ]
+    },
+    "ni-wastewater-administration-2027": {
+      "hash": "e3e3bccda4c562a57afc3be0db60ecdb05e379d90925633f40b45637ebf8dddb",
+      "version": 1,
+      "originalLanguage": "de",
+      "verbatim": [
+        "Portal Niedersachsen"
+      ]
+    },
+    "ni-agricultural-land-law-2027": {
+      "hash": "c382375c45bf0b2887d781af1160789b838fcfc8994f7d9aa42523fdb8133479",
+      "version": 1,
+      "originalLanguage": "de",
+      "verbatim": [
+        "Portal Niedersachsen",
+        "Landkreis Göttingen"
+      ]
+    },
+    "ch-fr-premium-counterproposal-2026": {
+      "hash": "e8267b220dee0135e74e79e6178d5763fd82c3ec1e3b0a82c45feb5ef9a850ab",
+      "version": 1,
+      "originalLanguage": "fr",
+      "verbatim": [
+        "Fribourg / Freiburg",
+        "Primes abordables : le contre-projet indirect du Conseil d’Etat à l’initiative cantonale transmis au Grand Conseil",
+        "Projet de loi LALAMal",
+        "Décret concernant l’initiative «Pour des primes abordables»",
+        "Message 2024-DSAS-93"
+      ]
+    },
+    "ch-fr-social-institution-indexation-2026": {
+      "hash": "b35c165f6a7495b8afb12887e25e9a8d9254608af5f6250d534df2a6fe415f58",
+      "version": 1,
+      "originalLanguage": "fr",
+      "verbatim": [
+        "Fribourg / Freiburg",
+        "Les institutions à caractère social verront leurs subventions indexées",
+        "Projet de loi LASoc",
+        "Projet de message LASoc",
+        "Lettre de consultation LASoc"
+      ]
+    },
+    "ch-sg-home-assistance-el-2026": {
+      "hash": "75441a0b97b7b5845d855abfbc151130b75d6e96adaaef137f6cf97abb1db2a6",
+      "version": 1,
+      "originalLanguage": "de",
+      "verbatim": [
+        "St. Gallen",
+        "Stärkere Unterstützung im privaten Wohnumfeld",
+        "XI. Nachtrag zum Ergänzungsleistungsgesetz",
+        "Einladung zur Vernehmlassung",
+        "XI. Nachtrag zum Ergänzungsleistungsgesetz"
+      ]
+    },
+    "ch-ar-fire-ban-lift-october-2026": {
+      "hash": "b36de3f920363dc15fc01431e9d1863cfeb0103ea7970d6db52dde5b7e0bf166",
+      "version": 1,
+      "originalLanguage": "de",
+      "verbatim": [
+        "Appenzell Ausserrhoden",
+        "Aufhebung bedingtes Feuerverbot im Wald und in Waldesnähe"
+      ]
+    },
+    "ch-bs-payroll-tax-deduction-2026": {
+      "hash": "075df871b1bdfba2a0e05785243c88f17efd30749841f13999bd9352884f00d2",
+      "version": 1,
+      "originalLanguage": "de",
+      "verbatim": [
+        "Basel-Stadt",
+        "Direktabzug der Steuern vom Lohn soll in zwei Phasen umgesetzt werden",
+        "Gesetzesvorlage und Kommissionsbericht Direktabzug"
+      ]
+    },
+    "fr-micro-turnover-october-deadline-2026": {
+      "hash": "d8fd3da9094acd9f6e866464f9dcc2495b1c2057a11a37a5cf6428c0bb3555f9",
+      "version": 1,
+      "originalLanguage": "fr",
+      "verbatim": [
+        "DILA",
+        "Avancement de la date limite de déclaration du chiffre d'affaires de septembre 2026 pour les micro-entrepreneurs"
+      ]
+    },
+    "fr-agora-lycees-consultation-2026": {
+      "hash": "38793b9e2d98366c64e5407070b9f7bc5903d3cab85339035c6d016d91535545",
+      "version": 1,
+      "originalLanguage": "fr",
+      "verbatim": [
+        "DILA",
+        "Plateforme Agora : comment les propositions et difficultés des lycéens sont-elles recueillies ?"
+      ]
+    },
+    "fr-guyane-doctoral-grants-2026": {
+      "hash": "a3ab429c5591842a0162417db345ac2a9c98ee502624c448b8ddc6299b969b4c",
+      "version": 1,
+      "originalLanguage": "fr",
+      "verbatim": [
+        "Guyane",
+        "La CTG lance un appel à candidatures pour 4 allocations de recherche"
+      ]
+    },
+    "nl-ze-labour-innovation-round-2026": {
+      "hash": "e6b030eb0332d13f90b29bd1733453953c3e4b22b61f60b84b2576db861f368d",
+      "version": 1,
+      "originalLanguage": "nl",
+      "verbatim": [
+        "Provincie Zeeland",
+        "€ 500.000 beschikbaar voor innovatieve oplossingen voor arbeidsmarktkrapte in Zeeland",
+        "Subsidie Zeeland in Stroomversnelling voor innovatieve oplossingen voor krapte op de arbeidsmarkt.",
+        "Algemeen subsidiebesluit Zeeland 2023"
+      ]
+    },
+    "nl-fr-nature-land-sale-framework-2026": {
+      "hash": "99d0dec0011eb908ffeb4f465a0d4dd988358da0f8de5c76d52ef4fe1f203c2a",
+      "version": 1,
+      "originalLanguage": "nl",
+      "verbatim": [
+        "Provincie Fryslân",
+        "Aankoop natuur aantrekkelijker voor brede doelgroep",
+        "Aanbod (te koop)"
+      ]
+    },
+    "nl-zoo-licensing-vision-2026": {
+      "hash": "709402e7a58680e4c82d2afc77f5bb122cd0f0d7f5863eb70932e6f5cd94e391",
+      "version": 1,
+      "originalLanguage": "nl",
+      "verbatim": [
+        "Rijksoverheid",
+        "Nieuw stelsel maakt dierentuinen van deze tijd"
       ]
     }
   },
@@ -39632,6 +39841,462 @@
     "fr-pac-mobile-breast-screening-2026-law": {
       "hash": "a50503043bd3c8b5c2bb3bd9455c44914a0edffd530f4b3ba0b07fed10feb07d",
       "originalLanguage": "fr",
+      "titleIsOriginal": true,
+      "verbatim": []
+    },
+    "de-20261013-bw-suspect-nationality-2026": {
+      "hash": "294a7ca1fc33220128715a04d36c17d412398848a67feb68e6ba61ef9740e37d",
+      "originalLanguage": "de",
+      "titleIsOriginal": true,
+      "verbatim": []
+    },
+    "de-20261013-bw-asian-hornet-funding-2026": {
+      "hash": "ffc957573f617f6beef87eac6f79482b1c27ab84473006472c3094e37c3d71a4",
+      "originalLanguage": "de",
+      "titleIsOriginal": true,
+      "verbatim": []
+    },
+    "de-20261013-he-dead-boar-digital-reporting-2026": {
+      "hash": "65fa00ca42b4bd3f32e0f3e66f23db75eb7637122a61d176c24c52db03d653f4",
+      "originalLanguage": "de",
+      "titleIsOriginal": true,
+      "verbatim": []
+    },
+    "de-20261013-bb-domestic-violence-court-support-2026": {
+      "hash": "ad3b1bb196daa0ad59f8c972b5c0ed177464a41afe9c70ebf43035fae9c62702",
+      "originalLanguage": "de",
+      "titleIsOriginal": true,
+      "verbatim": []
+    },
+    "de-20261013-ni-coastal-no-fishing-plan-2026": {
+      "hash": "d37713c76e18208c12cd260df4ad447d44baf597be81096f262c17a9484c3b10",
+      "originalLanguage": "de",
+      "titleIsOriginal": true,
+      "verbatim": []
+    },
+    "de-20261013-ni-battery-trains-procurement-2026": {
+      "hash": "2a65d321692db7230a68eb4d00b85491036ede8230f5a1cc9ebf50e0bfa0a0ca",
+      "originalLanguage": "de",
+      "titleIsOriginal": true,
+      "verbatim": []
+    },
+    "de-20261013-by-rail-service-cuts-reversed-2026": {
+      "hash": "b018bb5a4b8c25bdde97924aa606c2cc80a34bd3c5aa39ad99f083883cfdae83",
+      "originalLanguage": "de",
+      "titleIsOriginal": true,
+      "verbatim": []
+    },
+    "de-20261013-bb-statewide-digital-building-permits-2026": {
+      "hash": "305a9f1c50622150c29ce86cb4fc4b6b04efc510244a38b20051b921a8c26814",
+      "originalLanguage": "de",
+      "titleIsOriginal": true,
+      "verbatim": []
+    },
+    "de-20261013-ni-wastewater-administration-2027": {
+      "hash": "2545bdf40fede6cb524c28a86c5ee6fe06fd4b79cf3e67e74ea5bf785c22cc2f",
+      "originalLanguage": "de",
+      "titleIsOriginal": true,
+      "verbatim": []
+    },
+    "de-20261013-ni-agricultural-land-law-2027": {
+      "hash": "02e6cf22c5e11d7b875fb07baeabc96e995243dec1cf439dd8e593f2aa93f7d9",
+      "originalLanguage": "de",
+      "titleIsOriginal": true,
+      "verbatim": []
+    },
+    "de-20261013-source-114": {
+      "hash": "cfe2ff462f6679b8ae38180c2faa29e38f6a3890babfc4a8f53788a980dc5408",
+      "originalLanguage": "de",
+      "titleIsOriginal": true,
+      "verbatim": []
+    },
+    "de-20261013-source-115": {
+      "hash": "c85b96f068c773643247fd72822c9be18113b255feb4bb49ef1da0db08590919",
+      "originalLanguage": "de",
+      "titleIsOriginal": true,
+      "verbatim": []
+    },
+    "de-20261013-source-116": {
+      "hash": "c6818c47da07e9a5741fdd4210e0e99fdfa70bb727c6cd828a2653edf0c5a04a",
+      "originalLanguage": "de",
+      "titleIsOriginal": true,
+      "verbatim": []
+    },
+    "de-20261013-source-118": {
+      "hash": "1ece05865516fc1bdab2c3482ea7c7a2fa8475e5f3dc68f93a362c0dde382d2b",
+      "originalLanguage": "de",
+      "titleIsOriginal": true,
+      "verbatim": []
+    },
+    "de-20261013-source-122": {
+      "hash": "f2304fa36ec0d0d4315f7e041a019ceeccd7582f4c9d29fadb9352059ec90050",
+      "originalLanguage": "de",
+      "titleIsOriginal": true,
+      "verbatim": []
+    },
+    "de-20261013-source-124": {
+      "hash": "bd4ce934a391f115f199117611e133be4220f5c341a6a336ed5e38b304ab17f1",
+      "originalLanguage": "de",
+      "titleIsOriginal": true,
+      "verbatim": []
+    },
+    "de-20261013-source-151": {
+      "hash": "fc1685a67ba49e7360e65cf7811a584fc2028f361b57d9074ea4da526818db44",
+      "originalLanguage": "de",
+      "titleIsOriginal": true,
+      "verbatim": []
+    },
+    "de-20261013-source-157": {
+      "hash": "32756d9ea35991d7e79aa1dce3b861035d85020f7c7c3d320820292972a820da",
+      "originalLanguage": "de",
+      "titleIsOriginal": true,
+      "verbatim": []
+    },
+    "de-20261013-source-161": {
+      "hash": "910da71cf45d40992cfb32c26b4ee1f91ab12cdc49c486c56ad84ce42e148dce",
+      "originalLanguage": "de",
+      "titleIsOriginal": true,
+      "verbatim": []
+    },
+    "de-20261013-source-174": {
+      "hash": "ee233da399fbc05c356ea0146bfb26558c9deb133b231f0f864cc7f30fa02475",
+      "originalLanguage": "de",
+      "titleIsOriginal": true,
+      "verbatim": []
+    },
+    "de-20261013-source-175": {
+      "hash": "cd6cfaa2164eec7b774d20214bdb00997ec78b9f27a4e0a5cb75679bb5574ba3",
+      "originalLanguage": "de",
+      "titleIsOriginal": true,
+      "verbatim": []
+    },
+    "de-20261013-source-400": {
+      "hash": "1ecbddb342864db4744fff84c4445199e04ed0b00c6d7d7042970bd50e7db48a",
+      "originalLanguage": "de",
+      "titleIsOriginal": true,
+      "verbatim": []
+    },
+    "de-20261013-source-414": {
+      "hash": "032b86873382c072dbc48abf180764b8e53e7db194e692a76edd6c0173213070",
+      "originalLanguage": "de",
+      "titleIsOriginal": true,
+      "verbatim": []
+    },
+    "de-20261013-source-425": {
+      "hash": "c283f039722eeca6dd70c97e8acfd028ac23946a8cc85afd0e146b09296fbc04",
+      "originalLanguage": "de",
+      "titleIsOriginal": true,
+      "verbatim": []
+    },
+    "de-20261013-source-114-date-correction": {
+      "hash": "7cf2ed13a0170681834449597dd0ab2d5c29bbe7d27bc9be3819a2b7b0d32a78",
+      "originalLanguage": "de",
+      "titleIsOriginal": true,
+      "verbatim": []
+    },
+    "ch-20261013-ch-fr-premium-counterproposal-2026": {
+      "hash": "e78996b3c48d7d2a14e00404317a88f3010e7c41c1ea8ba16b1c4c78204f3c72",
+      "originalLanguage": "fr",
+      "titleIsOriginal": true,
+      "verbatim": []
+    },
+    "ch-20261013-ch-fr-social-institution-indexation-2026": {
+      "hash": "e93dcf349b8e00542d84661cfc12c17a11d854b10d0114b1da960054a0ee9382",
+      "originalLanguage": "fr",
+      "titleIsOriginal": true,
+      "verbatim": []
+    },
+    "ch-20261013-ch-sg-home-assistance-el-2026": {
+      "hash": "be4798068683019e91bae30f4d414cdb4a8278de14d948c8bf92ae591115fb75",
+      "originalLanguage": "de",
+      "titleIsOriginal": true,
+      "verbatim": []
+    },
+    "ch-20261013-ch-ar-fire-ban-lift-october-2026": {
+      "hash": "5c721571b150ad5c2583b66b19994771a442348290961ae18bbd7a08ed669fe4",
+      "originalLanguage": "de",
+      "titleIsOriginal": true,
+      "verbatim": []
+    },
+    "ch-20261013-ch-bs-payroll-tax-deduction-2026": {
+      "hash": "e3192a9a18a8abe17a7166dbd1175d04ae0035aeafe823e9dbc5ea595b3f5617",
+      "originalLanguage": "de",
+      "titleIsOriginal": true,
+      "verbatim": []
+    },
+    "ch-20261013-source-95": {
+      "hash": "524eb0ff600f5fc670fe09c7bf193d24cc42ce7222d408ce960f4e3509e639ee",
+      "originalLanguage": "de",
+      "titleIsOriginal": true,
+      "verbatim": []
+    },
+    "ch-20261013-source-103": {
+      "hash": "505eca6856ef75fdb584744d36ec3467b1ffceaf86a269560958340d2aaaa6fb",
+      "originalLanguage": "de",
+      "titleIsOriginal": true,
+      "verbatim": []
+    },
+    "ch-20261013-source-116": {
+      "hash": "456bbffd6bc4e78bc55e74202007e786420ef9ceabf05499576f9bad7fba4ebe",
+      "originalLanguage": "de",
+      "titleIsOriginal": true,
+      "verbatim": []
+    },
+    "ch-20261013-source-129": {
+      "hash": "b9b0162bc22a3856ab6afc90f547123510ffcca0ebae8a1a1b1cf9d8ebc22372",
+      "originalLanguage": "de",
+      "titleIsOriginal": true,
+      "verbatim": []
+    },
+    "ch-20261013-source-148": {
+      "hash": "3a275dcc920bcb5dfa7cc1a44e7f9d677a725ec3f715aac29f6bd8dc7cf2ee20",
+      "originalLanguage": "de",
+      "titleIsOriginal": true,
+      "verbatim": []
+    },
+    "ch-20261013-source-150": {
+      "hash": "f6c6dc08332052662da3be6157a5378d1b03503ced7709265805a7ebf0c9a2bd",
+      "originalLanguage": "de",
+      "titleIsOriginal": true,
+      "verbatim": []
+    },
+    "ch-20261013-source-153": {
+      "hash": "e811bfe4bd18c97b63002126e8c301d18ccb2433e1cdeced635d9e55e77467e4",
+      "originalLanguage": "de",
+      "titleIsOriginal": true,
+      "verbatim": []
+    },
+    "ch-20261013-source-226": {
+      "hash": "8b783e30327991eec21ab89e72fa520c2cc93b396b47e93f5d788e19f2304a10",
+      "originalLanguage": "fr",
+      "titleIsOriginal": true,
+      "verbatim": []
+    },
+    "ch-20261013-source-187": {
+      "hash": "de7747f38233039222f2f0ed22debca22b4fc1c049d3bf3b28bd3ed3ecb4bb00",
+      "originalLanguage": "fr",
+      "titleIsOriginal": true,
+      "verbatim": []
+    },
+    "ch-20261013-source-196": {
+      "hash": "dc1dd558785a4146f693ea91e0a22092eb31a6787f09a25ebd20cb343e9611ff",
+      "originalLanguage": "fr",
+      "titleIsOriginal": true,
+      "verbatim": []
+    },
+    "ch-20261013-vd-energy-regulation": {
+      "hash": "1e18eade53febe4d180451023451bf3a82d5dae998b1f55c3320e158df51fc1f",
+      "originalLanguage": "fr",
+      "titleIsOriginal": true,
+      "verbatim": []
+    },
+    "ch-20261013-ge-wage-2027": {
+      "hash": "b1744d6ee5bc4a711ce8e67cc483c037fcddb639bba58b9c74e0e3d1e96533a8",
+      "originalLanguage": "fr",
+      "titleIsOriginal": true,
+      "verbatim": []
+    },
+    "ch-20261013-source-152": {
+      "hash": "adfa4a4a4ffdf81e05e3ab3e885c7deb09a7734d12f10e91cf6217ddccf4211e",
+      "originalLanguage": "de",
+      "titleIsOriginal": true,
+      "verbatim": []
+    },
+    "ch-20261013-source-228": {
+      "hash": "8def5c3f139974c55e947674ada35125a7a5f17aacc72c0a7ff388d42522644f",
+      "originalLanguage": "fr",
+      "titleIsOriginal": true,
+      "verbatim": []
+    },
+    "ch-20261013-source-229": {
+      "hash": "55cf7e9da51efa3daa1d1da278755833f9c9bba61868a17786c164eaf65a07e5",
+      "originalLanguage": "fr",
+      "titleIsOriginal": true,
+      "verbatim": []
+    },
+    "ch-20261013-ge-45123": {
+      "hash": "d1b68fb2566cff62c5a39cc032716e421644917001e4b27564e91fa3700e1756",
+      "originalLanguage": "fr",
+      "titleIsOriginal": true,
+      "verbatim": []
+    },
+    "ch-20261013-ge-45055": {
+      "hash": "757d69997a3770cfc044ae20c85e2ea30b4f26919c138ae9b57ee2bb4b237883",
+      "originalLanguage": "fr",
+      "titleIsOriginal": true,
+      "verbatim": []
+    },
+    "ch-20261013-ge-45041": {
+      "hash": "85801827fd2928aa9a056e6f6a2b73b3a70afb9c30caa39283ae9448af7bdfdc",
+      "originalLanguage": "fr",
+      "titleIsOriginal": true,
+      "verbatim": []
+    },
+    "ch-20261013-ge-45091": {
+      "hash": "56cb7fda8d3f79f3261b1bd8d2d3ea80c56906a5b05210e86376c67ee9123fde",
+      "originalLanguage": "fr",
+      "titleIsOriginal": true,
+      "verbatim": []
+    },
+    "ch-20261013-ge-45044": {
+      "hash": "659cd11a67d4fd0b315fc5f3ef19bb96174a856709f56547a46ad9122ee68958",
+      "originalLanguage": "fr",
+      "titleIsOriginal": true,
+      "verbatim": []
+    },
+    "ch-20261013-ge-45115": {
+      "hash": "f17529ced064b9afe57205247bf117f24189f7a223631cac6bd7854a16df8a0a",
+      "originalLanguage": "fr",
+      "titleIsOriginal": true,
+      "verbatim": []
+    },
+    "fr-20261013-fr-micro-turnover-october-deadline-2026": {
+      "hash": "2464ffc190aa6386dce8ec9b934cc052ff52e4b5c6a5e8a7910a4997035be540",
+      "originalLanguage": "fr",
+      "titleIsOriginal": true,
+      "verbatim": []
+    },
+    "fr-20261013-fr-agora-lycees-consultation-2026": {
+      "hash": "c52971526214388a889066c094c966fa86fdb4c5d17c73155203ba9c4a496535",
+      "originalLanguage": "fr",
+      "titleIsOriginal": true,
+      "verbatim": []
+    },
+    "fr-20261013-fr-guyane-doctoral-grants-2026": {
+      "hash": "7d4d93f2ec8a51f658c4458a8e49dd480164b250e1481ce1b3ecf677a39a1249",
+      "originalLanguage": "fr",
+      "titleIsOriginal": true,
+      "verbatim": []
+    },
+    "fr-20261013-source-68": {
+      "hash": "1916767618c32a0f3f4575a51878fc4c9a4d92945a970d8cf239387f19f9bfca",
+      "originalLanguage": "fr",
+      "titleIsOriginal": true,
+      "verbatim": []
+    },
+    "fr-20261013-source-90": {
+      "hash": "ed337a1dbd3178b41c244b3339887acc70f49d67fed5ea6db7666c6cc9e0c390",
+      "originalLanguage": "fr",
+      "titleIsOriginal": true,
+      "verbatim": []
+    },
+    "fr-20261013-source-92": {
+      "hash": "0ca5ef92e1cc562ac3b301c567cfb2a4a7dd433320cfa89d14d78fde81cfae98",
+      "originalLanguage": "fr",
+      "titleIsOriginal": true,
+      "verbatim": []
+    },
+    "fr-20261013-source-109": {
+      "hash": "02825d10a65dbfaa857a7b51e22b0564be17f928b4f1af964dc6badfd77a1391",
+      "originalLanguage": "fr",
+      "titleIsOriginal": true,
+      "verbatim": []
+    },
+    "fr-20261013-source-110": {
+      "hash": "a3b2f5d39cc4ee45bdc0661fc0c7540bac60b6a9d6d98a1197d9da2e45d0ebe8",
+      "originalLanguage": "fr",
+      "titleIsOriginal": true,
+      "verbatim": []
+    },
+    "fr-20261013-source-111": {
+      "hash": "ba13e9033699942753a4d16d8b8c7debcee3063591eacb701946abd71963fbca",
+      "originalLanguage": "fr",
+      "titleIsOriginal": true,
+      "verbatim": []
+    },
+    "fr-20261013-source-113": {
+      "hash": "440d802466fe738ebfb27e8a19753c69ba63b174790301c9b9d94fe4bd1fcb5b",
+      "originalLanguage": "fr",
+      "titleIsOriginal": true,
+      "verbatim": []
+    },
+    "fr-20261013-gas-november": {
+      "hash": "cddbd02b50824fbc0c75b7ba65bd503709baaea0dd4d4d3de661a6ed216b3c57",
+      "originalLanguage": "fr",
+      "titleIsOriginal": true,
+      "verbatim": []
+    },
+    "fr-20261013-sp-a17956": {
+      "hash": "00f62445899c8e4793e74be165a17df765140b495a9cf05d0210be2348012f3f",
+      "originalLanguage": "fr",
+      "titleIsOriginal": true,
+      "verbatim": []
+    },
+    "fr-20261013-fuel-dgfip": {
+      "hash": "bb816d7a8cdb2ef7b1bbbdccbdc35cd4501156452c522ab75a581cfbedf3f6c9",
+      "originalLanguage": "fr",
+      "titleIsOriginal": true,
+      "verbatim": []
+    },
+    "nl-20261013-nl-ze-labour-innovation-round-2026": {
+      "hash": "b65f24378fc6061aaee7758aad8ca72d1b7b2928eca201f69cfafc674f95c75e",
+      "originalLanguage": "nl",
+      "titleIsOriginal": true,
+      "verbatim": []
+    },
+    "nl-20261013-nl-fr-nature-land-sale-framework-2026": {
+      "hash": "ef72a6cb30448981d92c68f2a7fd6c95c4204bfc93590783a4dacd047ab461b3",
+      "originalLanguage": "nl",
+      "titleIsOriginal": true,
+      "verbatim": []
+    },
+    "nl-20261013-nl-zoo-licensing-vision-2026": {
+      "hash": "aa8d2d06b333c66c75a2934d3ea0d65e75d724726c874981bd1ee5d277266839",
+      "originalLanguage": "nl",
+      "titleIsOriginal": true,
+      "verbatim": []
+    },
+    "nl-20261013-source-71": {
+      "hash": "c95279ad14cd35f9d1e22a319bd7d562ee65b3765416efbc0373591b7bd447f6",
+      "originalLanguage": "nl",
+      "titleIsOriginal": true,
+      "verbatim": []
+    },
+    "nl-20261013-source-72": {
+      "hash": "8c0cd35fc5efd8454bcbdad5055548530c90778a3141588db92f4e240950c914",
+      "originalLanguage": "nl",
+      "titleIsOriginal": true,
+      "verbatim": []
+    },
+    "nl-20261013-source-76": {
+      "hash": "61e42d77ff849d242841bff8422dc608af00a653ae3f0fc613c76b23a5ab3dec",
+      "originalLanguage": "nl",
+      "titleIsOriginal": true,
+      "verbatim": []
+    },
+    "nl-20261013-source-77": {
+      "hash": "dbdd0fcb8ad1fbbf027e2bee3e625b5ed429784594be8c3c0f00916ef816d165",
+      "originalLanguage": "nl",
+      "titleIsOriginal": true,
+      "verbatim": []
+    },
+    "nl-20261013-source-78": {
+      "hash": "5b0f92245394f667a27f200af3c1e64dfb0af29d21b06096181edabfc3e20a89",
+      "originalLanguage": "nl",
+      "titleIsOriginal": true,
+      "verbatim": []
+    },
+    "nl-20261013-source-68": {
+      "hash": "2ff45d0b044e8fad08606805ac46a9eb10613381625fe81fdb091814053a8b82",
+      "originalLanguage": "nl",
+      "titleIsOriginal": true,
+      "verbatim": []
+    },
+    "nl-20261013-source-84": {
+      "hash": "3e80cab9861496c0e99f32ecfa6526986c4fa2443559a518da8d290ce2ffeae2",
+      "originalLanguage": "nl",
+      "titleIsOriginal": true,
+      "verbatim": []
+    },
+    "nl-20261013-source-85": {
+      "hash": "d2988c2d8d609ee35eb3eded15ff16dcedf5ab940be69658ff93a2d0862e1f95",
+      "originalLanguage": "nl",
+      "titleIsOriginal": true,
+      "verbatim": []
+    },
+    "nl-20261013-workcentres": {
+      "hash": "c21eecc3af65dc5361ebf6be3b0882b1ee2e6ec9d79e1f8091f2f796851133d4",
+      "originalLanguage": "nl",
       "titleIsOriginal": true,
       "verbatim": []
     }

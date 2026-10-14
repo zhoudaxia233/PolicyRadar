@@ -1,0 +1,66 @@
+[
+ {
+  "url": "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/oc/2026/48/de/pdf-a/fedlex-data-admin-ch-eli-oc-2026-48-de-pdf-a.pdf",
+  "status": "ok",
+  "sha256": "830c78a040ddf6d8e7aa66aa498a2fe7b0b6967e778f7a689f24f05f81d71c2a",
+  "bytes": 373836,
+  "fetchedAt": "2026-10-14T18:13:28.783Z"
+ },
+ {
+  "url": "https://www.parlament.ch/poly/Abstimmung/52/out/vote_52_33096.pdf",
+  "status": "ok",
+  "sha256": "698a62fb9b3af03948faa7eed8f42261b4ff17b8d4cfe3c9e1ae05bff8684765",
+  "bytes": 539928,
+  "fetchedAt": "2026-10-14T18:12:37.266Z"
+ },
+ {
+  "url": "https://www.parlament.ch/poly/Abstimmung/52/out/vote_52_33095.pdf",
+  "status": "ok",
+  "sha256": "e97a09c6be832e373b24aaebb13c42cf66577d5347597b8d03ae18b43ff55af7",
+  "bytes": 539881,
+  "fetchedAt": "2026-10-14T18:12:36.999Z"
+ },
+ {
+  "url": "https://www.sif.admin.ch/dam/de/sd-web/3DLzoBB6uMYz/CARF%20FAQ%20Update%20DE.pdf",
+  "status": "ok",
+  "sha256": "0925792c3168021e7c31ce8edfdb3ffc005edb49bf4d47072f198a3ad5caf762",
+  "bytes": 156416,
+  "fetchedAt": "2026-10-14T18:05:28.067Z"
+ },
+ {
+  "url": "https://www.sif.admin.ch/de/newnsb/oAaJyRFS1lqJ7PN3sLJTP",
+  "status": "ok",
+  "sha256": "739a0c5841b94b19cdf428b52c93ec9f139cf28fece0dcebb1a5715d0507c006",
+  "bytes": 121785,
+  "fetchedAt": "2026-10-14T18:07:59.479Z"
+ },
+ {
+  "url": "https://www.sif.admin.ch/de/newnsb/x4TMWQ1SWofNoFx7XyHhY",
+  "status": "ok",
+  "sha256": "b029af37bc5448947e320f706cc92592200fa73f83923ac046a114deb374bd96",
+  "bytes": 130255,
+  "fetchedAt": "2026-10-14T18:07:49.472Z"
+ },
+ {
+  "url": "https://www.sif.admin.ch/dam/de/sd-web/dUviLBIEgTjT/Faktenblatt%20Stablecoins.pdf",
+  "status": "ok",
+  "sha256": "5fc8bc837f67a7c083e001fc3d60efc3d6af912920069bcfa4fb4f501fc372fe",
+  "bytes": 146893,
+  "fetchedAt": "2026-10-14T18:09:08.528Z"
+ },
+ {
+  "url": "https://ws.parlament.ch/odata.svc/Business?$filter=BusinessShortNumber eq '25.052'",
+  "status": "ok-json-not-archived",
+  "note": "Parliament OData: business 25.052 status \"Mehrere Entwürfe in Beratung\"; National Council 28 Sep 2026 (Herbstsession 2026): draft 1 not entered (commission and Federal Council: obsolete), draft 2 entered 126:62 and adopted 126:61. Transcript entity for subject 82942 read (rapporteur Amoos, minority Pamini, Federal Councillor Keller-Sutter). The Curia Vista and Official Bulletin pages render by script and returned no content to archive, so the commission and Federal Council reasoning on draft 1 and the year-end activation statement are recorded here and in REVIEW.md but not stated in reader text."
+ },
+ {
+  "url": "https://ws.parlament.ch/odata.svc/Business (title contains Finanzinstitutsgesetz, Kryptowerte, Stablecoin, Krypto; submitted after 2024-06-01)",
+  "status": "ok-json-not-archived",
+  "note": "No Federal Council business amending the Financial Institutions Act for stablecoins or crypto institutions was listed on 14 October 2026."
+ },
+ {
+  "url": "https://www.admin.ch/de/newnsb/oAaJyRFS1lqJ7PN3sLJTP",
+  "status": "http-403",
+  "note": "admin.ch returned Access Denied to the archiver; the same release was archived from sif.admin.ch."
+ }
+]

@@ -1,0 +1,91 @@
+{
+  "checkedAt": "2026-10-14T14:24:44.623Z",
+  "scope": "FR",
+  "channels": 5,
+  "incompleteChannels": 5,
+  "gaps": [
+    {
+      "sourceUrl": "https://www.legifrance.gouv.fr/jorf/jo",
+      "region": "FR",
+      "title": "法国官方公报",
+      "windowStart": "2026-10-07",
+      "windowEnd": "2026-10-13",
+      "missingDays": [
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10",
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13"
+      ],
+      "latestScan": "blocked"
+    },
+    {
+      "sourceUrl": "https://www.service-public.gouv.fr/particuliers/actualites",
+      "region": "FR",
+      "title": "法国公共服务：个人政策动态",
+      "windowStart": "2026-10-07",
+      "windowEnd": "2026-10-13",
+      "missingDays": [
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10",
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://entreprendre.service-public.gouv.fr/actualites",
+      "region": "FR",
+      "title": "法国公共服务：企业政策动态",
+      "windowStart": "2026-10-07",
+      "windowEnd": "2026-10-13",
+      "missingDays": [
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10",
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.assemblee-nationale.fr/dyn/17/dossiers",
+      "region": "FR",
+      "title": "法国国民议会立法进程",
+      "windowStart": "2026-10-07",
+      "windowEnd": "2026-10-13",
+      "missingDays": [
+        "2026-10-09",
+        "2026-10-10",
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.senat.fr/dossiers-legislatifs/lois-promulguees.html",
+      "region": "FR",
+      "title": "法国参议院已公布法律",
+      "windowStart": "2026-10-07",
+      "windowEnd": "2026-10-13",
+      "missingDays": [
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10",
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13"
+      ],
+      "latestScan": "partial"
+    }
+  ]
+}

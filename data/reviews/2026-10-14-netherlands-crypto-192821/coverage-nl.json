@@ -1,0 +1,106 @@
+(node:97809) ExperimentalWarning: Type Stripping is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+{
+  "checkedAt": "2026-10-14T17:31:59.203Z",
+  "scope": "NL",
+  "channels": 6,
+  "incompleteChannels": 6,
+  "gaps": [
+    {
+      "sourceUrl": "https://www.rijksoverheid.nl/actueel/nieuws",
+      "region": "NL",
+      "title": "荷兰政府政策公告",
+      "windowStart": "2026-10-07",
+      "windowEnd": "2026-10-13",
+      "missingDays": [
+        "2026-10-13"
+      ],
+      "latestScan": "complete"
+    },
+    {
+      "sourceUrl": "https://zoek.officielebekendmakingen.nl/",
+      "region": "NL",
+      "title": "荷兰官方公报与议会文件",
+      "windowStart": "2026-10-07",
+      "windowEnd": "2026-10-13",
+      "missingDays": [
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10",
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://wetten.overheid.nl/",
+      "region": "NL",
+      "title": "荷兰现行国家法规",
+      "windowStart": "2026-10-07",
+      "windowEnd": "2026-10-13",
+      "missingDays": [
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10",
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://lokaleregelgeving.overheid.nl/",
+      "region": "NL",
+      "title": "荷兰地方现行法规",
+      "windowStart": "2026-10-07",
+      "windowEnd": "2026-10-13",
+      "missingDays": [
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10",
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.tweedekamer.nl/kamerstukken/wetsvoorstellen",
+      "region": "NL",
+      "title": "荷兰众议院法案",
+      "windowStart": "2026-10-07",
+      "windowEnd": "2026-10-13",
+      "missingDays": [
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10",
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.eerstekamer.nl/wetsvoorstellen_2",
+      "region": "NL",
+      "title": "荷兰参议院法案",
+      "windowStart": "2026-10-07",
+      "windowEnd": "2026-10-13",
+      "missingDays": [
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10",
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13"
+      ],
+      "latestScan": "partial"
+    }
+  ]
+}

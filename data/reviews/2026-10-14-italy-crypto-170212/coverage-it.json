@@ -1,0 +1,127 @@
+{
+  "checkedAt": "2026-10-14T15:03:25.690Z",
+  "scope": "IT",
+  "channels": 7,
+  "incompleteChannels": 7,
+  "gaps": [
+    {
+      "sourceUrl": "https://www.governo.it/",
+      "region": "IT",
+      "title": "意大利：政府公告",
+      "windowStart": "2026-10-07",
+      "windowEnd": "2026-10-13",
+      "missingDays": [
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10",
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.gazzettaufficiale.it/",
+      "region": "IT",
+      "title": "意大利：国家公报",
+      "windowStart": "2026-10-07",
+      "windowEnd": "2026-10-13",
+      "missingDays": [
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10",
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.normattiva.it/",
+      "region": "IT",
+      "title": "意大利：现行法律库",
+      "windowStart": "2026-10-07",
+      "windowEnd": "2026-10-13",
+      "missingDays": [
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10",
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.camera.it/",
+      "region": "IT",
+      "title": "意大利：众议院",
+      "windowStart": "2026-10-07",
+      "windowEnd": "2026-10-13",
+      "missingDays": [
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10",
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.senato.it/",
+      "region": "IT",
+      "title": "意大利：参议院",
+      "windowStart": "2026-10-07",
+      "windowEnd": "2026-10-13",
+      "missingDays": [
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10",
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13"
+      ],
+      "latestScan": "blocked"
+    },
+    {
+      "sourceUrl": "https://www.inps.it/it/it/inps-comunica/notizie.html",
+      "region": "IT",
+      "title": "意大利：社会保障机构公告",
+      "windowStart": "2026-10-07",
+      "windowEnd": "2026-10-13",
+      "missingDays": [
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10",
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.gazzettaufficiale.it/30giorni/regioni",
+      "region": "IT",
+      "title": "意大利：国家公报大区法律栏目",
+      "windowStart": "2026-10-07",
+      "windowEnd": "2026-10-13",
+      "missingDays": [
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10",
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13"
+      ],
+      "latestScan": "partial"
+    }
+  ]
+}

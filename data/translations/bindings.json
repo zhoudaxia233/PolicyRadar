@@ -75,11 +75,12 @@
       ]
     },
     "de-carf-agreement-2026": {
-      "version": 8,
-      "hash": "7379a4b4b74147cb4e757e8499dc0a7f7c3b0f7d675eda7dea5cbd3eb739947d",
+      "version": 9,
+      "hash": "ea8685684739652717cd5f844650f46ece262c03b6398e5d524e5bcedcdcf93b",
       "originalLanguage": "de",
       "verbatim": [
-        "Deutscher Bundestag"
+        "Deutscher Bundestag",
+        "Bundesrat"
       ]
     },
     "nw-rent-cap-extension-2025": {
@@ -2304,14 +2305,14 @@
       "originalLanguage": "de"
     },
     "de-bmf-crypto-tax-reform-2027": {
+      "version": 3,
+      "hash": "f933217013c43527958913ac16d7220b11a840b36619ea648fb0b176fdb83f9a",
       "originalLanguage": "de",
       "verbatim": [
         "Gesetze im Internet",
         "Deutscher Bundestag",
         "Bundesministerium der Finanzen"
-      ],
-      "hash": "4e4e57c5782ddd5184a452a418b857955f8f9ba4945f7b11497920ad9f9a0e02",
-      "version": 2
+      ]
     },
     "eu-pig-poultry-operating-rules-2026": {
       "version": 1,
@@ -5592,6 +5593,125 @@
       "verbatim": [
         "Rijksoverheid",
         "Nieuw stelsel maakt dierentuinen van deze tijd"
+      ]
+    },
+    "fr-plf2027-crypto-tax-amendments": {
+      "version": 1,
+      "hash": "cd7c96aea6cbc81435116bfe258bf5aed8ecaa54575981c6cccf308d21100385",
+      "originalLanguage": "fr",
+      "verbatim": [
+        "Assemblée nationale",
+        "Gauche démocrate et républicaine (GDR)"
+      ]
+    },
+    "fr-crypto-gains-social-levy-2026": {
+      "version": 1,
+      "hash": "c9b4b0c9888132db1c177f16e244331bb03969dfb97498742497e332ba5e9f69",
+      "originalLanguage": "fr",
+      "verbatim": [
+        "Assemblée nationale",
+        "Sénat"
+      ]
+    },
+    "fr-mica-casp-transition-end-2026": {
+      "version": 1,
+      "hash": "f44472b9a03e85af6b6bf6572a45f2e3e0e859f3e1cc63df9e656b4d6dd647b9",
+      "originalLanguage": "fr",
+      "verbatim": [
+        "Autorité des marchés financiers"
+      ]
+    },
+    "fr-fraud-law-crypto-2026": {
+      "version": 1,
+      "hash": "856596d33fb240f326cd9f376d4e01a7bfe824048870e9bf02c769fc4899e64b",
+      "originalLanguage": "fr",
+      "verbatim": [
+        "Assemblée nationale",
+        "Sénat"
+      ]
+    },
+    "de-kmanzv-2026": {
+      "version": 1,
+      "hash": "a5dcf6a0ad3aa2448a04ae05c5e493de877f4c120dc1cd4cf00bb55bf6c71851",
+      "originalLanguage": "de",
+      "verbatim": [
+        "Bundesministerium der Justiz"
+      ]
+    },
+    "eu-dac8-crypto-reporting-2026": {
+      "version": 1,
+      "hash": "13c3dc3a387d6097b624c74bded088b34ccd5a3d014e2c305e83397876a2ee8f",
+      "originalLanguage": "en",
+      "verbatim": [
+        "European Commission"
+      ]
+    },
+    "eu-mica-transition-end-2026": {
+      "version": 1,
+      "hash": "81ce8ec134c538521da606c6f351b09d38a58210f3d696ded3ce950daf385690",
+      "originalLanguage": "en",
+      "verbatim": [
+        "European Securities and Markets Authority"
+      ]
+    },
+    "eu-misp-casp-esma-supervision": {
+      "version": 1,
+      "hash": "39f7b697f08ffc348a435d9ee34749c600f4277b0f634c0f417a217d08a3e0ed",
+      "originalLanguage": "en",
+      "verbatim": [
+        "Council of the European Union"
+      ]
+    },
+    "it-crypto-gains-tax-33-2026": {
+      "version": 1,
+      "hash": "b5762348a45166f65aed0580c5b0410a95aa6dbace2d8b0d458019c3b48e1ee7",
+      "originalLanguage": "it",
+      "verbatim": [
+        "Normattiva"
+      ]
+    },
+    "it-isee-crypto-holdings-2026": {
+      "version": 1,
+      "hash": "993d21123fbb2baaaee0e5172114967e1993ed3b8fbc9cbc09f3565fd18332f9",
+      "originalLanguage": "it",
+      "verbatim": [
+        "Normattiva"
+      ]
+    },
+    "es-dac8-tax-bill-121-60": {
+      "version": 1,
+      "hash": "995f04f33dfb47552831f53444bea7cf192c34532d80bff50dde53759c07cb5c",
+      "originalLanguage": "es",
+      "verbatim": [
+        "Congreso de los Diputados",
+        "Agencia Estatal de Administración Tributaria"
+      ]
+    },
+    "es-rdl-25-2026-casp-aml": {
+      "version": 1,
+      "hash": "670068389f00f619298fe038be724f6ab64d5898bd868375787b09a04c33fa10",
+      "originalLanguage": "es",
+      "verbatim": [
+        "Boletín Oficial del Estado"
+      ]
+    },
+    "nl-box3-actual-return-crypto": {
+      "version": 1,
+      "hash": "e6ec44cf37d83b8a776e674e6bcdb58ed73f1f9e3f085548079df3b60f0d1979",
+      "originalLanguage": "nl",
+      "verbatim": [
+        "Belastingdienst",
+        "Eerste Kamer der Staten-Generaal",
+        "Ministerie van Financiën",
+        "Tweede Kamer der Staten-Generaal"
+      ]
+    },
+    "nl-dac8-crypto-reporting-law-2026": {
+      "version": 1,
+      "hash": "06fe3f45b638db03bc4ef666a4298f759816ccde5f34f316182c89e956121a1b",
+      "originalLanguage": "nl",
+      "verbatim": [
+        "Rijksoverheid"
       ]
     }
   },
@@ -40299,6 +40419,108 @@
       "originalLanguage": "nl",
       "titleIsOriginal": true,
       "verbatim": []
+    },
+    "fr-an-plf2027-i-cf1826": {
+      "originalLanguage": "fr",
+      "verbatim": [],
+      "titleIsOriginal": true,
+      "hash": "43bfff258ad528545c2045a3ab64c895e68fa7e6e00a91aab04dd810447ca2fe"
+    },
+    "fr-an-plf2027-i-cf798": {
+      "originalLanguage": "fr",
+      "verbatim": [],
+      "titleIsOriginal": true,
+      "hash": "52c277a592c153ac5e23f6e8c05052fc5a96e884174f6251cdb4d52871343739"
+    },
+    "fr-an-plf2027-i-cf1822": {
+      "originalLanguage": "fr",
+      "verbatim": [],
+      "titleIsOriginal": true,
+      "hash": "0f700959a897bd8aa60196f910a7faad5af1aabd272efe159fe183aee0422283"
+    },
+    "fr-an-plf2027-i-cf821": {
+      "originalLanguage": "fr",
+      "verbatim": [],
+      "titleIsOriginal": true,
+      "hash": "f3518547d1e59dae365024d2c7c6d12fe3311433914978182376ba5cf474ecd5"
+    },
+    "fr-lfss-2026-art12-csg-capital": {
+      "originalLanguage": "fr",
+      "verbatim": [],
+      "titleIsOriginal": true,
+      "hash": "56039099509f48e493feaf1cfac28b0e36ccf68f921c950ee0904ac9ddbd15bc"
+    },
+    "fr-fraud-law-2026-534-crypto": {
+      "originalLanguage": "fr",
+      "verbatim": [],
+      "titleIsOriginal": true,
+      "hash": "09154cc92c1d155bae8602a0f280957937320ce4f1e2c5a9d7f244c56dd816ee"
+    },
+    "de-bt-petition-crypto-holding-20261012": {
+      "originalLanguage": "de",
+      "verbatim": [],
+      "titleIsOriginal": true,
+      "hash": "90736bbf5a2e86ac2613b3e551c488be9112ff492a16faed2d3bb473766206f7"
+    },
+    "de-bgbl-2026-i-153-kmanzv": {
+      "originalLanguage": "de",
+      "verbatim": [],
+      "titleIsOriginal": true,
+      "hash": "d76f1fe5d82e62aea4dd3e78f814b14a5292453af84c994832ce82e63ee3204b"
+    },
+    "it-l207-2024-c24-crypto-33": {
+      "originalLanguage": "it",
+      "verbatim": [],
+      "titleIsOriginal": true,
+      "hash": "43d97cabbe91ff7acbe617292d033517073bbac3dba3c72b94185bc73f709e9d"
+    },
+    "it-l199-2025-c28-euro-emt": {
+      "originalLanguage": "it",
+      "verbatim": [],
+      "titleIsOriginal": true,
+      "hash": "f2a1ef545e93d19134ff4ebc622339c72e3c93005daae2aebe9875644f294415"
+    },
+    "it-l199-2025-c32-isee-crypto": {
+      "originalLanguage": "it",
+      "verbatim": [],
+      "titleIsOriginal": true,
+      "hash": "d34d985035e67baf7544ab806f25ea6e73cae9eb17fe56d606a845ce980bfe25"
+    },
+    "it-dlgs-117-2026-tuir": {
+      "originalLanguage": "it",
+      "verbatim": [],
+      "titleIsOriginal": true,
+      "hash": "873f55a8321fb515948ec4316921540aaa8f93eaee9a8c5e667e7851b2d0a7c7"
+    },
+    "es-boe-a-2026-5843-aeat-plan": {
+      "originalLanguage": "es",
+      "verbatim": [],
+      "titleIsOriginal": true,
+      "hash": "e598d33489c8c18c2010307b105b08b2efd64fd651248340f845412fd22dcf0c"
+    },
+    "es-boe-a-2026-20265-rdl-25": {
+      "originalLanguage": "es",
+      "verbatim": [],
+      "titleIsOriginal": true,
+      "hash": "1f755482faa374c7e845436f5ef161b2514a2bfea75d136187a25800426e7623"
+    },
+    "nl-stb-2026-79-dac8": {
+      "originalLanguage": "nl",
+      "verbatim": [],
+      "titleIsOriginal": true,
+      "hash": "b4370ae50c8c144b0f38ce8c4dcb2cd52660e080c0e8d4b6f30ba0ebed9b8e84"
+    },
+    "nl-stb-2026-93-dac8-decree": {
+      "originalLanguage": "nl",
+      "verbatim": [],
+      "titleIsOriginal": true,
+      "hash": "afe57e9c24532a41cb3497633caa88fca896f2a31bde4b579748b70b46ef5754"
+    },
+    "nl-ek-36748-letter-2026-09-30": {
+      "originalLanguage": "nl",
+      "verbatim": [],
+      "titleIsOriginal": true,
+      "hash": "5ff8d04427b8b486ad22e0a09ece2e610d831393ea98c35a0918e284d9cb82d2"
     }
   }
 }

@@ -1,0 +1,47 @@
+[
+ {
+  "url": "https://www.congreso.es/public_oficiales/L15/CONG/BOCG/A/BOCG-15-A-60-1.PDF",
+  "status": "ok",
+  "sha256": "31c041699ea9063daf8602edcaeb8dcc9da45e4bb3e3d5a7b57767c9c8010b34",
+  "bytes": 210619,
+  "fetchedAt": "2026-10-14T15:55:51.082Z"
+ },
+ {
+  "url": "https://www.congreso.es/public_oficiales/L15/CONG/BOCG/A/BOCG-15-A-60-3.PDF",
+  "status": "ok",
+  "sha256": "8079c1f8c86362a604eaa12688644e0710a13c47f937f41737990a1102a911d6",
+  "bytes": 590805,
+  "fetchedAt": "2026-10-14T15:55:51.902Z"
+ },
+ {
+  "url": "https://www.congreso.es/public_oficiales/L15/CONG/BOCG/A/BOCG-15-A-60-4.PDF",
+  "status": "ok",
+  "sha256": "9f4ef3d34d583f6251ee99d9b532d5a3c30e0cf9c3cc9bb76a83f0da947c55b5",
+  "bytes": 118026,
+  "fetchedAt": "2026-10-14T15:55:52.266Z"
+ },
+ {
+  "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2026-20265",
+  "status": "ok",
+  "sha256": "f9bb443d61928e76d194431c75beaa731f9c1cab966afa24dd8fc7c33da40de8",
+  "bytes": 353748,
+  "fetchedAt": "2026-10-14T15:55:15.173Z"
+ },
+ {
+  "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2026-5843",
+  "status": "ok",
+  "sha256": "7e7aa67016fe1d48226b1da98add83a758438496702fbfd97582b4e1db8eb9b4",
+  "bytes": 201277,
+  "fetchedAt": "2026-10-14T15:55:15.654Z"
+ },
+ {
+  "url": "https://www.congreso.es/public_oficiales/L15/CONG/BOCG/A/BOCG-15-A-60-5.PDF",
+  "status": "not-found",
+  "note": "HTTP 404 on 14 October 2026: no fifth Series A publication for 121/000060."
+ },
+ {
+  "url": "https://www.boe.es/datosabiertos/api/legislacion-consolidada",
+  "status": "ok-json-not-archived",
+  "note": "Consolidated-legislation API queries (titulo:criptoactivos; texto:criptoactivos 2026-01-01..2026-10-13; titulo:\"Ley 58/2003\") returned no 2026 law transposing DAC8. JSON responses are not archivable snapshot types."
+ }
+]

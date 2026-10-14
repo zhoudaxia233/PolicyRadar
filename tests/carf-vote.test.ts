@@ -25,7 +25,7 @@ test('CARF passage clears the scheduled homepage node without implying commencem
 });
 
 test('both languages distinguish information exchange from changes to tax liability',()=>{
- const l=createLocalization(data,read('data/translations/content.json'),read('data/translations/bindings.json'));
+ const l=createLocalization(data,read('data/translations/content.json'),read('tests/fixtures/carf-vote-bindings.json'));
  for(const locale of ['zh','en'] as const){
   const p=localizePolicy(carf,locale,l);
   assert.match(p.summary,/21\/7195/);

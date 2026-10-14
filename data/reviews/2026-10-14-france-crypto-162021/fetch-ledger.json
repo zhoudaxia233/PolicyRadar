@@ -1,0 +1,116 @@
+[
+ {
+  "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3210A/CION_FIN/CF1826.pdf",
+  "status": "ok",
+  "sha256": "ebc7564d46170d66a95c8eee71acf9f38f6f1235c1045c58eb507bd832ef5359",
+  "bytes": 75871,
+  "contentType": "application/pdf",
+  "fetchedAt": "2026-10-14T14:14:34.730Z",
+  "reused": false
+ },
+ {
+  "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3210A/CION_FIN/CF798.pdf",
+  "status": "ok",
+  "sha256": "157213f01cae3d691bcf3cc65b884ea66d6d85d19c5b5ee7eafd5e01f56d3279",
+  "bytes": 74921,
+  "contentType": "application/pdf",
+  "fetchedAt": "2026-10-14T14:14:37.602Z",
+  "reused": false
+ },
+ {
+  "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3210A/CION_FIN/CF1822.pdf",
+  "status": "ok",
+  "sha256": "44c514abf0b4088e4a824f0cbaeb7c2d6b3f5c9d3b720083fcc15db219aa3729",
+  "bytes": 72399,
+  "contentType": "application/pdf",
+  "fetchedAt": "2026-10-14T14:14:40.541Z",
+  "reused": false
+ },
+ {
+  "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3210A/CION_FIN/CF821.pdf",
+  "status": "ok",
+  "sha256": "d1c79e80585739f6ebcffe5c53738f5e7767005b65ddf45b682b1cfb158f2ca0",
+  "bytes": 4827,
+  "contentType": "application/pdf",
+  "fetchedAt": "2026-10-14T14:14:40.624Z",
+  "reused": false
+ },
+ {
+  "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3210A/CION_FIN/CF1564.pdf",
+  "status": "ok",
+  "sha256": "3813c8705e1dad73448a93c079c9fcf21c4ec8e22bb5783bcf6bd60ea11d53b5",
+  "bytes": 5500,
+  "contentType": "application/pdf",
+  "fetchedAt": "2026-10-14T14:14:46.267Z",
+  "reused": false
+ },
+ {
+  "url": "https://www.assemblee-nationale.fr/dyn/17/textes/l17b3210_projet-loi.pdf",
+  "status": "ok",
+  "sha256": "132274b83bed4861a9e1a147d0d16abda2d729cdad2373ef804e26747c43d881",
+  "bytes": 2877451,
+  "contentType": "application/pdf",
+  "fetchedAt": "2026-10-14T14:10:37.141Z",
+  "reused": true
+ },
+ {
+  "url": "https://www.assemblee-nationale.fr/dyn/17/textes/l17t0199_texte-adopte-seance.pdf",
+  "status": "ok",
+  "sha256": "45cf34cffffdd6c99d0979c85243bb474247b2ff49ff64d1f73c2913b2047ebd",
+  "bytes": 639941,
+  "contentType": "application/pdf",
+  "fetchedAt": "2026-10-14T14:12:09.433Z",
+  "reused": false
+ },
+ {
+  "url": "https://www.senat.fr/dossier-legislatif/plfss2026.html",
+  "status": "ok",
+  "sha256": "de120a033ce5694df435c1e7ea1516acf2df4bcda5b801354ef27f1daebcc55d",
+  "bytes": 132733,
+  "contentType": "text/html",
+  "fetchedAt": "2026-10-14T14:11:37.272Z",
+  "reused": false
+ },
+ {
+  "url": "https://www.assemblee-nationale.fr/dyn/17/textes/l17t0279_texte-adopte-seance.pdf",
+  "status": "ok",
+  "sha256": "674ee81728f60263054c470d972eda85bdd986df30e6b6f1e52e8a2de2d39324",
+  "bytes": 548896,
+  "contentType": "application/pdf",
+  "fetchedAt": "2026-10-14T14:13:08.405Z",
+  "reused": false
+ },
+ {
+  "url": "https://www.amf-france.org/fr/actualites-publications/actualites/lamf-rappelle-que-la-periode-transitoire-pour-les-psan-pour-continuer-de-fournir-des-services-sur",
+  "status": "ok",
+  "sha256": "c9f84fc1d50dbff9e24e25ffcd756cee6d76eb018a54ab97ff6b15c21c290780",
+  "bytes": 78738,
+  "contentType": "text/html; charset=UTF-8",
+  "fetchedAt": "2026-10-14T14:09:55.002Z",
+  "reused": false
+ },
+ {
+  "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/PLF_2027",
+  "status": "ok",
+  "sha256": "5ffbc571f9b86b58daed894f682b7cd582cc089762d69b4335e4b18da8cedb53",
+  "bytes": 186011,
+  "contentType": "text/html; charset=UTF-8",
+  "fetchedAt": "2026-10-14T14:19:25.070Z",
+  "reused": false
+ },
+ {
+  "url": "https://www.legifrance.gouv.fr/jorf/article_jo/JORFARTI000054310089",
+  "status": "blocked",
+  "error": "Cloudflare security verification page returned to HTTP and local anonymous render; not archived and not bypassed."
+ },
+ {
+  "url": "https://www.legifrance.gouv.fr/jorf/article_jo/JORFARTI000054310086",
+  "status": "blocked",
+  "error": "Cloudflare security verification page returned to HTTP and local anonymous render; not archived and not bypassed."
+ },
+ {
+  "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000051212954",
+  "status": "blocked",
+  "error": "HTTP 403; current consolidated article 150 VH bis not retrieved."
+ }
+]

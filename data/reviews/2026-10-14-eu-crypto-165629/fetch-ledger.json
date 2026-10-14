@@ -1,0 +1,47 @@
+[
+ {
+  "url": "https://taxation-customs.ec.europa.eu/taxation/tax-transparency-cooperation/administrative-co-operation-and-mutual-assistance/directive-administrative-cooperation-dac/dac8_en",
+  "status": "ok",
+  "sha256": "f4ef52d5e19dfa4bcb2d14abfeab610a9d4e51b8f1165eb0495af1c532f4ea01",
+  "bytes": 113667,
+  "contentType": "text/html; charset=utf-8",
+  "fetchedAt": "2026-10-14T14:54:11.115Z"
+ },
+ {
+  "url": "https://www.esma.europa.eu/sites/default/files/2026-04/ESMA75-113276571-1679_Statement_on_the_end_of_transitional_periods_under_MiCA.pdf",
+  "status": "ok",
+  "sha256": "c80c4565368147b355124171185e13498b11448720c91f0d3caaa2db1bede805",
+  "bytes": 162253,
+  "contentType": "application/pdf",
+  "fetchedAt": "2026-10-14T14:54:42.834Z"
+ },
+ {
+  "url": "https://www.esma.europa.eu/esmas-activities/digital-finance-and-innovation/markets-crypto-assets-regulation-mica",
+  "status": "ok",
+  "sha256": "e75c588c37358e3473a39b5a6cb11f3a45b3a01b318f71090ac6cc01f68a96a8",
+  "bytes": 88571,
+  "contentType": "text/html; charset=UTF-8",
+  "fetchedAt": "2026-10-14T14:54:11.240Z"
+ },
+ {
+  "url": "https://data.consilium.europa.eu/doc/document/ST-8367-2026-INIT/en/pdf",
+  "status": "ok",
+  "sha256": "a4a0063b50179d820ec00d4a0bb720f33e73f2721d4bd4ece8435697f51738c5",
+  "bytes": 417481,
+  "contentType": "application/pdf",
+  "fetchedAt": "2026-10-14T14:54:53.067Z"
+ },
+ {
+  "url": "https://data.consilium.europa.eu/doc/document/ST-9891-2026-INIT/en/pdf",
+  "status": "ok",
+  "sha256": "257c30d3ab18ce7270bc7c47d0a263d240189f9666215c8e310a58160bd5c1a5",
+  "bytes": 383372,
+  "contentType": "application/pdf",
+  "fetchedAt": "2026-10-14T14:54:53.496Z"
+ },
+ {
+  "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32023L2226",
+  "status": "failed",
+  "error": "Empty HTTP 202 response"
+ }
+]

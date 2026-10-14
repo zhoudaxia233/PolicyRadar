@@ -1,0 +1,61 @@
+(node:32653) ExperimentalWarning: Type Stripping is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+{
+  "checkedAt": "2026-10-14T19:02:59.065Z",
+  "scope": "GB",
+  "channels": 3,
+  "incompleteChannels": 3,
+  "gaps": [
+    {
+      "sourceUrl": "https://www.gov.uk/",
+      "region": "GB",
+      "title": "英国政府政策入口",
+      "windowStart": "2026-10-07",
+      "windowEnd": "2026-10-13",
+      "missingDays": [
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10",
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://bills.parliament.uk/",
+      "region": "GB",
+      "title": "英国议会法案",
+      "windowStart": "2026-10-07",
+      "windowEnd": "2026-10-13",
+      "missingDays": [
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10",
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.legislation.gov.uk/new",
+      "region": "GB",
+      "title": "英国最新法律法规",
+      "windowStart": "2026-10-07",
+      "windowEnd": "2026-10-13",
+      "missingDays": [
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10",
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13"
+      ],
+      "latestScan": "partial"
+    }
+  ]
+}

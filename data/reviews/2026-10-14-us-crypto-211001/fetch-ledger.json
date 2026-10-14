@@ -1,0 +1,75 @@
+[
+ {
+  "url": "https://www.govinfo.gov/content/pkg/CREC-2026-09-15/pdf/CREC-2026-09-15-senate.pdf",
+  "status": "ok",
+  "sha256": "24ec0383b18944c9fa60093e0ca2a45ddf39caae256adb48cb6a25081d61432d",
+  "bytes": 575653,
+  "fetchedAt": "2026-10-14T19:05:56.529Z"
+ },
+ {
+  "url": "https://www.govinfo.gov/content/pkg/CREC-2025-07-17/pdf/CREC-2025-07-17-house.pdf",
+  "status": "ok",
+  "sha256": "24c3b4df14fc1b37bba8fa988199caed007e27b2ed249eec3720e93cfa2a5b12",
+  "bytes": 1010458,
+  "fetchedAt": "2026-10-14T19:06:28.314Z"
+ },
+ {
+  "url": "https://www.govinfo.gov/content/pkg/PLAW-119publ27/pdf/PLAW-119publ27.pdf",
+  "status": "ok",
+  "sha256": "6eaa3cf8ff45f1b2aff792adc73d69605a657a64eb54f72d5a47c182692de38f",
+  "bytes": 315625,
+  "fetchedAt": "2026-10-14T19:05:57.791Z"
+ },
+ {
+  "url": "https://www.occ.gov/news-issuances/news-releases/2026/nr-occ-2026-9.html",
+  "status": "ok",
+  "sha256": "ba044ec298dc45a562458f1f32ca37722626dded0677b6f1478dd90562c344fb",
+  "bytes": 57684,
+  "fetchedAt": "2026-10-14T19:07:12.304Z"
+ },
+ {
+  "url": "https://ofac.treasury.gov/recent-actions/20260408_33",
+  "status": "ok",
+  "sha256": "47581b11a0cbb23a679df53227f3b56e91a0aa666315ddfd2f9f3b2efcd7d58a",
+  "bytes": 41180,
+  "fetchedAt": "2026-10-14T19:07:03.883Z"
+ },
+ {
+  "url": "https://www.govinfo.gov/content/pkg/FR-2026-08-18/pdf/2026-16796.pdf",
+  "status": "ok",
+  "sha256": "b5682164ab42122dfd7dfe106317086f7bfdda4f49bfa3495d7a13be9733dbb6",
+  "bytes": 309728,
+  "fetchedAt": "2026-10-14T19:07:40.935Z"
+ },
+ {
+  "url": "https://www.govinfo.gov/content/pkg/FR-2026-09-30/pdf/2026-19966.pdf",
+  "status": "ok",
+  "sha256": "8f2dda5b18ab52949e4ced5536693ef36d319e92b37168bef90fd655b4b6c005",
+  "bytes": 304223,
+  "fetchedAt": "2026-10-14T19:07:41.594Z"
+ },
+ {
+  "url": "https://www.govinfo.gov/content/pkg/FR-2026-03-23/pdf/2026-05635.pdf",
+  "status": "ok",
+  "sha256": "b84a6a04fab9ff461078b04c177635218e09db7ef3fa1af1834993a8c7639f28",
+  "bytes": 353096,
+  "fetchedAt": "2026-10-14T19:07:40.270Z"
+ },
+ {
+  "url": "https://www.irs.gov/instructions/i1099da",
+  "status": "ok",
+  "sha256": "c2065e8e84f283111e86ca6fc1d4ded1e9401a61fa149eb9f036da9011b51ad7",
+  "bytes": 182284,
+  "fetchedAt": "2026-10-14T19:08:09.517Z"
+ },
+ {
+  "url": "https://www.congress.gov/bill/119th-congress/house-bill/3633/all-actions",
+  "status": "http-403",
+  "note": "congress.gov and senate.gov returned 403 to the archiver; the Congressional Record PDFs on govinfo were used instead."
+ },
+ {
+  "url": "https://www.federalregister.gov/api/v1/documents.json?conditions[term]=\"GENIUS Act\"&publication_date>=2026-01-01",
+  "status": "ok-json-not-archived",
+  "note": "35 documents. Final or interim final rules: Treasury 2026-19966 (Stablecoin Certification Review Committee procedures, interim final, effective 30 Sep 2026); SEC 2026-05635 (interpretation). OCC, FDIC, Federal Reserve, NCUA, FinCEN/OFAC and Treasury section 3 rules were still proposed rules as of 13 Oct 2026."
+ }
+]

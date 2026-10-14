@@ -5396,5 +5396,93 @@
     "source_url": "https://www.news.admin.ch/de",
     "discovered_at": "2026-10-14T18:14:46.235Z",
     "data": "{\"originalLanguage\":\"de\",\"id\":\"ch-sif-finig-consultation-2025-10-22\",\"region\":\"CH\",\"title\":\"Bundesrat geht voran mit Stablecoins und Kryptos: Vernehmlassung eröffnet\",\"titleZh\":\"瑞士联邦委员会就稳定币和加密机构新牌照启动咨询\",\"date\":\"2025-10-22\",\"dateKind\":\"announced\",\"url\":\"https://www.sif.admin.ch/de/newnsb/x4TMWQ1SWofNoFx7XyHhY\",\"sourceUrl\":\"https://www.news.admin.ch/de\",\"kind\":\"announcement\",\"stage\":\"pending\",\"note\":\"咨询稿，不是法律；咨询期至2026年2月6日，咨文最早2026年下半年提交议会。\",\"tags\":[\"加密资产\",\"金融监管\"]}"
+  },
+  {
+    "id": "gb-uksi-2026-102-cryptoassets",
+    "region": "GB",
+    "url": "https://www.legislation.gov.uk/uksi/2026/102/made",
+    "source_url": "https://www.legislation.gov.uk/new",
+    "discovered_at": "2026-10-14T19:01:26.903Z",
+    "data": "{\"originalLanguage\":\"en\",\"id\":\"gb-uksi-2026-102-cryptoassets\",\"region\":\"GB\",\"title\":\"The Financial Services and Markets Act 2000 (Cryptoassets) Regulations 2026\",\"titleZh\":\"英国加密资产监管条例：2027年10月25日全面生效\",\"date\":\"2026-02-04\",\"dateKind\":\"adopted\",\"effectiveDate\":\"2027-10-25\",\"url\":\"https://www.legislation.gov.uk/uksi/2026/102/made\",\"sourceUrl\":\"https://www.legislation.gov.uk/new\",\"officialId\":\"S.I. 2026/102\",\"kind\":\"regulation\",\"stage\":\"adopted\",\"note\":\"2026年2月4日制定；制定后21天期满时部分条款提前生效，供FCA制定规则和受理申请；主体部分2027年10月25日生效。\",\"tags\":[\"加密资产\",\"金融监管\"]}"
+  },
+  {
+    "id": "gb-hmrc-defi-draft-2026-07-13",
+    "region": "GB",
+    "url": "https://www.gov.uk/government/publications/cryptoasset-loans-and-liquidity-pools",
+    "source_url": "https://www.gov.uk/",
+    "discovered_at": "2026-10-14T19:01:26.903Z",
+    "data": "{\"originalLanguage\":\"en\",\"id\":\"gb-hmrc-defi-draft-2026-07-13\",\"region\":\"GB\",\"title\":\"Cryptoasset loans and liquidity pools\",\"titleZh\":\"英国税务局公布草案：加密借贷和流动性池拟按不计收益不计损失处理\",\"date\":\"2026-07-13\",\"dateKind\":\"announced\",\"url\":\"https://www.gov.uk/government/publications/cryptoasset-loans-and-liquidity-pools\",\"sourceUrl\":\"https://www.gov.uk/\",\"kind\":\"announcement\",\"stage\":\"pending\",\"note\":\"财政法案条款草案，不是法律；拟自2027年4月6日起生效。\",\"tags\":[\"加密资产\",\"税务\",\"投资\"]}"
+  },
+  {
+    "id": "us-fr-2026-05635-sec-crypto",
+    "region": "US",
+    "url": "https://www.govinfo.gov/content/pkg/FR-2026-03-23/pdf/2026-05635.pdf",
+    "source_url": "https://www.govinfo.gov/app/collection/FR",
+    "discovered_at": "2026-10-14T19:10:01.848Z",
+    "data": "{\"originalLanguage\":\"en\",\"id\":\"us-fr-2026-05635-sec-crypto\",\"region\":\"US\",\"title\":\"Application of the Federal Securities Laws to Certain Types of Crypto Assets and Certain Transactions Involving Crypto Assets\",\"titleZh\":\"美国证券交易委员会：加密资产适用证券法的解释\",\"date\":\"2026-03-23\",\"dateKind\":\"published\",\"effectiveDate\":\"2026-03-23\",\"url\":\"https://www.govinfo.gov/content/pkg/FR-2026-03-23/pdf/2026-05635.pdf\",\"sourceUrl\":\"https://www.govinfo.gov/app/collection/FR\",\"officialId\":\"FR Doc. 2026-05635\",\"kind\":\"regulation\",\"stage\":\"adopted\",\"note\":\"SEC解释，CFTC提供指引；刊登当日生效。\",\"tags\":[\"加密资产\",\"金融监管\"]}"
+  },
+  {
+    "id": "us-fr-2026-16796-genius-s3",
+    "region": "US",
+    "url": "https://www.govinfo.gov/content/pkg/FR-2026-08-18/pdf/2026-16796.pdf",
+    "source_url": "https://www.govinfo.gov/app/collection/FR",
+    "discovered_at": "2026-10-14T19:10:01.848Z",
+    "data": "{\"originalLanguage\":\"en\",\"id\":\"us-fr-2026-16796-genius-s3\",\"region\":\"US\",\"title\":\"GENIUS Act Regulations on Payment Stablecoin Issuance, Offer, and Sale\",\"titleZh\":\"美国财政部拟议规则：GENIUS法支付稳定币发行、提供和销售\",\"date\":\"2026-08-18\",\"dateKind\":\"published\",\"url\":\"https://www.govinfo.gov/content/pkg/FR-2026-08-18/pdf/2026-16796.pdf\",\"sourceUrl\":\"https://www.govinfo.gov/app/collection/FR\",\"officialId\":\"FR Doc. 2026-16796\",\"kind\":\"regulation\",\"stage\":\"pending\",\"note\":\"拟议规则，意见截止2026年10月19日。\",\"tags\":[\"加密资产\",\"稳定币\",\"金融监管\"]}"
+  },
+  {
+    "id": "us-fr-2026-19966-genius-committee",
+    "region": "US",
+    "url": "https://www.govinfo.gov/content/pkg/FR-2026-09-30/pdf/2026-19966.pdf",
+    "source_url": "https://www.govinfo.gov/app/collection/FR",
+    "discovered_at": "2026-10-14T19:10:01.848Z",
+    "data": "{\"originalLanguage\":\"en\",\"id\":\"us-fr-2026-19966-genius-committee\",\"region\":\"US\",\"title\":\"Forms and Procedures for Review of State Certifications by the Stablecoin Certification Review Committee\",\"titleZh\":\"美国财政部临时最终规则：稳定币认证审查委员会程序\",\"date\":\"2026-09-30\",\"dateKind\":\"published\",\"effectiveDate\":\"2026-09-30\",\"url\":\"https://www.govinfo.gov/content/pkg/FR-2026-09-30/pdf/2026-19966.pdf\",\"sourceUrl\":\"https://www.govinfo.gov/app/collection/FR\",\"officialId\":\"FR Doc. 2026-19966\",\"kind\":\"regulation\",\"stage\":\"adopted\",\"note\":\"程序性临时最终规则，9月30日生效；意见截止11月30日；在文书削减法批准前不受理州认证。\",\"tags\":[\"加密资产\",\"稳定币\",\"金融监管\"]}"
+  },
+  {
+    "id": "us-crec-2026-09-15-hr3633",
+    "region": "US",
+    "url": "https://www.govinfo.gov/content/pkg/CREC-2026-09-15/pdf/CREC-2026-09-15-senate.pdf",
+    "source_url": "https://www.congress.gov/",
+    "discovered_at": "2026-10-14T19:10:01.848Z",
+    "data": "{\"originalLanguage\":\"en\",\"id\":\"us-crec-2026-09-15-hr3633\",\"region\":\"US\",\"title\":\"Digital Asset Market Clarity Act: cloture on the motion to proceed to H.R. 3633\",\"titleZh\":\"美国参议院：CLARITY法案结束辩论动议49比50未获通过\",\"date\":\"2026-09-15\",\"dateKind\":\"announced\",\"url\":\"https://www.govinfo.gov/content/pkg/CREC-2026-09-15/pdf/CREC-2026-09-15-senate.pdf\",\"sourceUrl\":\"https://www.congress.gov/\",\"officialId\":\"H.R. 3633 (119th Congress)\",\"kind\":\"decision\",\"stage\":\"pending\",\"note\":\"程序表决，不是对法案内容的表决；Tillis参议员提出复议动议。\",\"tags\":[\"加密资产\",\"金融监管\"]}"
+  },
+  {
+    "id": "fr-amf-psan-transition-2026-02-05",
+    "region": "FR",
+    "url": "https://www.amf-france.org/fr/actualites-publications/actualites/lamf-rappelle-que-la-periode-transitoire-pour-les-psan-pour-continuer-de-fournir-des-services-sur",
+    "source_url": "https://www.amf-france.org/fr/actualites-publications/actualites",
+    "discovered_at": "2026-10-14T19:17:19.749Z",
+    "data": "{\"originalLanguage\":\"fr\",\"id\":\"fr-amf-psan-transition-2026-02-05\",\"region\":\"FR\",\"title\":\"L'AMF rappelle que la période transitoire pour les PSAN pour continuer de fournir des services sur crypto-actifs en France sans autorisation sous MiCA prend fin le 1er juillet 2026\",\"titleZh\":\"法国金融市场管理局提醒：加密服务商的MiCA过渡期于2026年7月1日结束\",\"date\":\"2026-02-05\",\"dateKind\":\"published\",\"effectiveDate\":\"2026-07-01\",\"url\":\"https://www.amf-france.org/fr/actualites-publications/actualites/lamf-rappelle-que-la-periode-transitoire-pour-les-psan-pour-continuer-de-fournir-des-services-sur\",\"sourceUrl\":\"https://www.amf-france.org/fr/actualites-publications/actualites\",\"officialId\":\"Règlement (UE) 2023/1114, art. 143 — fin de la période transitoire PSAN en France\",\"kind\":\"announcement\",\"stage\":\"adopted\",\"note\":\"监管机构提醒，不是新法律；过渡期依据MiCA第143条和法国的过渡安排。\",\"tags\":[\"加密资产\",\"金融监管\"]}"
+  },
+  {
+    "id": "eu-dac8-directive-2023-2226",
+    "region": "EU",
+    "url": "https://taxation-customs.ec.europa.eu/taxation/tax-transparency-cooperation/administrative-co-operation-and-mutual-assistance/directive-administrative-cooperation-dac/dac8_en",
+    "source_url": "https://taxation-customs.ec.europa.eu/news_en",
+    "discovered_at": "2026-10-14T19:17:19.749Z",
+    "data": "{\"originalLanguage\":\"en\",\"id\":\"eu-dac8-directive-2023-2226\",\"region\":\"EU\",\"title\":\"Council Directive (EU) 2023/2226 amending Directive 2011/16/EU on administrative cooperation in the field of taxation (DAC8)\",\"titleZh\":\"欧盟DAC8指令：加密资产交易信息自动交换，2026年1月1日起适用\",\"date\":\"2023-10-17\",\"dateKind\":\"adopted\",\"effectiveDate\":\"2026-01-01\",\"url\":\"https://taxation-customs.ec.europa.eu/taxation/tax-transparency-cooperation/administrative-co-operation-and-mutual-assistance/directive-administrative-cooperation-dac/dac8_en\",\"sourceUrl\":\"https://taxation-customs.ec.europa.eu/news_en\",\"officialId\":\"Directive (EU) 2023/2226 (DAC8)\",\"kind\":\"law\",\"stage\":\"adopted\",\"note\":\"记录链接为欧盟委员会说明页；指令原文在欧盟法律数据库，本轮未能存档。2026年1月1日是适用日，各国转化情况须分别核实。\",\"tags\":[\"加密资产\",\"税务\"]}"
+  },
+  {
+    "id": "eu-esma-mica-transition-statement-2026-04-17",
+    "region": "EU",
+    "url": "https://www.esma.europa.eu/sites/default/files/2026-04/ESMA75-113276571-1679_Statement_on_the_end_of_transitional_periods_under_MiCA.pdf",
+    "source_url": "https://www.esma.europa.eu/press-news/esma-news",
+    "discovered_at": "2026-10-14T19:17:19.749Z",
+    "data": "{\"originalLanguage\":\"en\",\"id\":\"eu-esma-mica-transition-statement-2026-04-17\",\"region\":\"EU\",\"title\":\"Statement on the End of Transitional Periods under MiCA (ESMA75-113276571-1679)\",\"titleZh\":\"欧洲证券和市场管理局声明：MiCA过渡期于2026年7月1日在全欧盟结束\",\"date\":\"2026-04-17\",\"dateKind\":\"published\",\"effectiveDate\":\"2026-07-01\",\"url\":\"https://www.esma.europa.eu/sites/default/files/2026-04/ESMA75-113276571-1679_Statement_on_the_end_of_transitional_periods_under_MiCA.pdf\",\"sourceUrl\":\"https://www.esma.europa.eu/press-news/esma-news\",\"officialId\":\"Regulation (EU) 2023/1114 (MiCA), Article 143 — end of transitional periods\",\"kind\":\"announcement\",\"stage\":\"adopted\",\"note\":\"监管声明，说明监管预期；执法由各成员国主管机关负责。\",\"tags\":[\"加密资产\",\"金融监管\"]}"
+  },
+  {
+    "id": "eu-council-st-8367-2026-misp",
+    "region": "EU",
+    "url": "https://data.consilium.europa.eu/doc/document/ST-8367-2026-INIT/en/pdf",
+    "source_url": "https://www.consilium.europa.eu/en/documents-publications/public-register/",
+    "discovered_at": "2026-10-14T19:17:19.749Z",
+    "data": "{\"originalLanguage\":\"en\",\"id\":\"eu-council-st-8367-2026-misp\",\"region\":\"EU\",\"title\":\"Market Integration and Supervision Package — Presidency steering note (ST 8367/26)\",\"titleZh\":\"欧盟理事会主席国说明：市场整合与监管方案（含加密服务商直接监管）\",\"date\":\"2026-04-24\",\"dateKind\":\"published\",\"url\":\"https://data.consilium.europa.eu/doc/document/ST-8367-2026-INIT/en/pdf\",\"sourceUrl\":\"https://www.consilium.europa.eu/en/documents-publications/public-register/\",\"officialId\":\"ST 8367/26\",\"kind\":\"announcement\",\"stage\":\"pending\",\"note\":\"主席国讨论说明，不是理事会立场；供5月5日财长会议讨论。\",\"tags\":[\"加密资产\",\"金融监管\"]}"
+  },
+  {
+    "id": "eu-council-st-9891-2026-misp",
+    "region": "EU",
+    "url": "https://data.consilium.europa.eu/doc/document/ST-9891-2026-INIT/en/pdf",
+    "source_url": "https://www.consilium.europa.eu/en/documents-publications/public-register/",
+    "discovered_at": "2026-10-14T19:17:19.749Z",
+    "data": "{\"originalLanguage\":\"en\",\"id\":\"eu-council-st-9891-2026-misp\",\"region\":\"EU\",\"title\":\"Market Integration and Supervision Package — Presidency steering note (ST 9891/26)\",\"titleZh\":\"欧盟理事会主席国说明：市场整合与监管方案的后续讨论选项\",\"date\":\"2026-06-08\",\"dateKind\":\"published\",\"url\":\"https://data.consilium.europa.eu/doc/document/ST-9891-2026-INIT/en/pdf\",\"sourceUrl\":\"https://www.consilium.europa.eu/en/documents-publications/public-register/\",\"officialId\":\"ST 9891/26\",\"kind\":\"announcement\",\"stage\":\"pending\",\"note\":\"主席国讨论说明，不是理事会立场；记录5月5日财长倾向只由ESMA直接监管“重要”加密服务商，供6月12日财长会议讨论。\",\"tags\":[\"加密资产\",\"金融监管\"]}"
   }
 ]

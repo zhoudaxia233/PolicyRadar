@@ -5731,6 +5731,68 @@
       "verbatim": [
         "Staatssekretariat für internationale Finanzfragen SIF"
       ]
+    },
+    "gb-carf-reporting-2026": {
+      "version": 1,
+      "hash": "e87812d4c9b5b0557ebc9276e644201ba8480614862635e7635e3ac238575322",
+      "originalLanguage": "en",
+      "verbatim": [
+        "legislation.gov.uk",
+        "HM Revenue & Customs"
+      ]
+    },
+    "gb-fsma-cryptoasset-regime-2027": {
+      "version": 1,
+      "hash": "be81fef00bda8f7275cd0694e3c2c52c14a10972cf6fd755c54d810aafca51e8",
+      "originalLanguage": "en",
+      "verbatim": [
+        "legislation.gov.uk",
+        "Financial Conduct Authority"
+      ]
+    },
+    "gb-defi-loans-pools-cgt-2027": {
+      "version": 1,
+      "hash": "5e1f85c560978b12ea5b3f212eee73fe8fa25b2da61e325900ec8ac098e1db50",
+      "originalLanguage": "en",
+      "verbatim": [
+        "HM Revenue & Customs",
+        "GOV.UK"
+      ]
+    },
+    "us-clarity-act-market-structure": {
+      "version": 1,
+      "hash": "03f1fb22ad240223ad358e320f081c7941cc5d5113e837ee13aaeb54579d5299",
+      "originalLanguage": "en",
+      "verbatim": [
+        "Congressional Record (GovInfo)"
+      ]
+    },
+    "us-genius-act-stablecoin-implementation": {
+      "version": 1,
+      "hash": "2cc8c884a39c74b06446f37a379d7dffb98399c5d2bb7d28b1ec4c890e984838",
+      "originalLanguage": "en",
+      "verbatim": [
+        "GovInfo",
+        "Office of the Comptroller of the Currency",
+        "Office of Foreign Assets Control",
+        "Federal Register (GovInfo)"
+      ]
+    },
+    "us-sec-crypto-asset-interpretation-2026": {
+      "version": 1,
+      "hash": "eb85592c887df0375b1268d7c929004f9b2be79c5a6c0a2f79bb9ccad9470cb8",
+      "originalLanguage": "en",
+      "verbatim": [
+        "Federal Register (GovInfo)"
+      ]
+    },
+    "us-1099-da-cost-basis-2026": {
+      "version": 1,
+      "hash": "f77e21aea4591ae90deb7bb6f221b8d98be90fac2ef1ee7370d1b62bf7278a30",
+      "originalLanguage": "en",
+      "verbatim": [
+        "Internal Revenue Service"
+      ]
     }
   },
   "intake": {
@@ -40557,6 +40619,72 @@
       "verbatim": [],
       "titleIsOriginal": true,
       "hash": "0caf3d9fd8c4f79267552cb78e4f5ea64d6041f52eec101226a7e5695edabec4"
+    },
+    "gb-uksi-2026-102-cryptoassets": {
+      "originalLanguage": "en",
+      "verbatim": [],
+      "titleIsOriginal": true,
+      "hash": "8dd96fc1953aa3c72d53701ee7a9173be804e33c6412772e566f48d7afb41a69"
+    },
+    "gb-hmrc-defi-draft-2026-07-13": {
+      "originalLanguage": "en",
+      "verbatim": [],
+      "titleIsOriginal": true,
+      "hash": "3275e39c25a1b0abe0f6f1e7b4be971a3b4022b7d86101da7cbc5055bb51c720"
+    },
+    "us-fr-2026-05635-sec-crypto": {
+      "originalLanguage": "en",
+      "verbatim": [],
+      "titleIsOriginal": true,
+      "hash": "c65d2023a9ed69e6979a844f8f128990e454176dbbc839b9d229ac2661c2574d"
+    },
+    "us-fr-2026-16796-genius-s3": {
+      "originalLanguage": "en",
+      "verbatim": [],
+      "titleIsOriginal": true,
+      "hash": "d0dc10147ff083781c56e349bcc3c1412162f6dd17873623c259e640b778cb46"
+    },
+    "us-fr-2026-19966-genius-committee": {
+      "originalLanguage": "en",
+      "verbatim": [],
+      "titleIsOriginal": true,
+      "hash": "506614693ab83eba2fe607813618cefe7317a362061a962e8479e18dd5e2a9d5"
+    },
+    "us-crec-2026-09-15-hr3633": {
+      "originalLanguage": "en",
+      "verbatim": [],
+      "titleIsOriginal": true,
+      "hash": "7403f7e23be62f25b9d363a317bb98f05403a5bc5694145321e74dcf8641f0b8"
+    },
+    "fr-amf-psan-transition-2026-02-05": {
+      "originalLanguage": "fr",
+      "verbatim": [],
+      "titleIsOriginal": true,
+      "hash": "43135918d0a607d60bb8b63a06c81d29c55427b87fafe05643736a6d7c909658"
+    },
+    "eu-dac8-directive-2023-2226": {
+      "originalLanguage": "en",
+      "verbatim": [],
+      "titleIsOriginal": true,
+      "hash": "cb060c82e742ff45cd6bb8d4f3b6bec1fc27e8cc7d0ba297f8b672963767543d"
+    },
+    "eu-esma-mica-transition-statement-2026-04-17": {
+      "originalLanguage": "en",
+      "verbatim": [],
+      "titleIsOriginal": true,
+      "hash": "837c2854540a5bdea317d53796a500ba55d4154b17246d34da119f80e4c583ac"
+    },
+    "eu-council-st-8367-2026-misp": {
+      "originalLanguage": "en",
+      "verbatim": [],
+      "titleIsOriginal": true,
+      "hash": "a1f3ea840f49d79ed05340d0f8b7e8e2b521d24411a1aacb9a81109320886c98"
+    },
+    "eu-council-st-9891-2026-misp": {
+      "originalLanguage": "en",
+      "verbatim": [],
+      "titleIsOriginal": true,
+      "hash": "6212a16d1fbf36b2e9cbd86f7f1595bdf25d4c84ebfbe2e671aef714b7e57eea"
     }
   }
 }

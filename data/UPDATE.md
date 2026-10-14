@@ -507,6 +507,12 @@ deadlines separately. A directive deadline does not prove national implementatio
 Do not assume that EU membership, the euro area, EEA or SEPA participation have
 identical legal scope; non-members such as Switzerland are not automatically covered.
 
+Since 14 October 2026 the EU registry also includes ESMA news, the Commission's
+taxation and customs news, and the Council's public register; France also has the
+AMF news channel. Supervisory statements and Presidency notes are not legislation:
+a Presidency note is not a Council position, and an ESMA statement sets supervisory
+expectations while national authorities enforce.
+
 Store each EU measure once under region `EU`. National implementing laws are
 separate measures, with their own evidence and dates. The first version does not
 automatically include EU records in national views or claim national transposition

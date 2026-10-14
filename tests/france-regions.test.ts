@@ -19,7 +19,8 @@ const data=createStaticData(candidate),fr=regions.filter(r=>countryOf(r.id)==='F
 
 test('France has 18 geographical areas with three channels and a record per area',()=>{
  assert.deepEqual(fr.filter(r=>r.id!=='FR').map(r=>r.id).sort(),['ARA','BFC','BRE','CVL','20R','GES','HDF','IDF','NOR','NAQ','OCC','PDL','PAC','971','972','973','974','976'].map(c=>'FR-'+c).sort());
- assert.equal(discovery.filter(d=>countryOf(d.region)==='FR').length,59);
+ // 59 regional and national channels plus the AMF news channel registered on 14 October 2026.
+ assert.equal(discovery.filter(d=>countryOf(d.region)==='FR').length,60);
  assert.equal(new Set(discovery.map(d=>d.url)).size,discovery.length);
  for(const r of fr.filter(r=>r.id!=='FR')){
   const sources=discovery.filter(d=>d.region===r.id);assert.equal(sources.length,3);
@@ -39,7 +40,8 @@ test('French policy and source views isolate countries and retain uncertain disc
  assert.equal(selectListing(data.policies,data.intake.records,{...f,view:'all'}).count,21);
  assert.equal(selectListing(data.policies,data.intake.records,{...f,view:'intake'}).count,7);
  const urls=countrySourceUrls('FR',data.policies,data.intake.records,data.status.discovery);
- for(const r of fr)for(const s of discovery.filter(d=>d.region===r.id))assert(urls.has(s.url));
+ // Compare with the fixed export's own registry: channels registered later are not part of that view.
+ for(const r of fr)for(const s of data.status.discovery.filter(d=>d.region===r.id))assert(urls.has(s.url));
  for(const p of data.policies.filter(p=>countryOf(p.region)==='DE'))for(const s of p.sources)assert(!urls.has(s.url));
  const regional=data.intake.coverage.filter(c=>c.region.startsWith('FR-'));
  assert.equal(regional.length,54);

@@ -1282,6 +1282,13 @@
     "kind": "parliament"
   },
   {
+    "region": "FR",
+    "url": "https://www.amf-france.org/fr/actualites-publications/actualites",
+    "title": "法国金融市场管理局：新闻",
+    "publisher": "Autorité des marchés financiers",
+    "kind": "government"
+  },
+  {
     "region": "DE",
     "url": "https://www.bundesregierung.de/breg-de/suche/gesetzliche-neuregelungen-442800",
     "title": "联邦政府每月新规索引",
@@ -1904,6 +1911,27 @@
     "title": "欧盟委员会立法流程与提案入口",
     "publisher": "European Commission",
     "kind": "government"
+  },
+  {
+    "region": "EU",
+    "url": "https://www.esma.europa.eu/press-news/esma-news",
+    "title": "欧洲证券和市场管理局：新闻",
+    "publisher": "European Securities and Markets Authority",
+    "kind": "government"
+  },
+  {
+    "region": "EU",
+    "url": "https://taxation-customs.ec.europa.eu/news_en",
+    "title": "欧盟委员会税务与海关总司：新闻",
+    "publisher": "European Commission",
+    "kind": "government"
+  },
+  {
+    "region": "EU",
+    "url": "https://www.consilium.europa.eu/en/documents-publications/public-register/",
+    "title": "欧盟理事会公共文件登记册",
+    "publisher": "Council of the European Union",
+    "kind": "parliament"
   },
   {
     "region": "GB",

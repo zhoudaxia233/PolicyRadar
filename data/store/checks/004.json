@@ -142,5 +142,176 @@
     "snapshot_key": "sources/7805ffcc7e24b7c3cd17cb63837b56c200e86ec40963cc1a50cb3c9ad3827165/5fc8bc837f67a7c083e001fc3d60efc3d6af912920069bcfa4fb4f501fc372fe.pdf",
     "changed": 0,
     "error": null
+  },
+  {
+    "url": "https://www.legislation.gov.uk/uksi/2026/102/made",
+    "checked_at": "2026-10-14T18:57:46.843Z",
+    "last_success_at": "2026-10-14T18:57:46.843Z",
+    "hash": "1ebd9646766d485bca7a733e545bbc2fbb447c36dbff33a3e70e612e2ac4229b",
+    "snapshot_key": "sources/645f3e2068dd381215d8fcefea633a60c648d420341912849bec2845427afc78/1ebd9646766d485bca7a733e545bbc2fbb447c36dbff33a3e70e612e2ac4229b.html",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://www.fca.org.uk/firms/new-regime-cryptoasset-regulation",
+    "checked_at": "2026-10-14T18:58:06.701Z",
+    "last_success_at": "2026-10-14T18:58:06.701Z",
+    "hash": "6b575564432ceed09ce2c7dde5b918cf3eb1b1529b43b59b71e175e16b75be6b",
+    "snapshot_key": "sources/6da1d363635f32d79741e8807d672c3731f3c8770c351f352bdcd8d41a8e2e66/6b575564432ceed09ce2c7dde5b918cf3eb1b1529b43b59b71e175e16b75be6b.html",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://www.fca.org.uk/publications/policy-statements/cryptoasset-regime",
+    "checked_at": "2026-10-14T18:58:29.925Z",
+    "last_success_at": "2026-10-14T18:58:29.925Z",
+    "hash": "35669bb70c76626ff1ce83b7740e15c9abec3d5afd72c0541147e810236e24ac",
+    "snapshot_key": "sources/39af0a824808c5c922d826719f49e840df924210a2acbcfbab689ad0795abff4/35669bb70c76626ff1ce83b7740e15c9abec3d5afd72c0541147e810236e24ac.html",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://www.legislation.gov.uk/uksi/2025/744/made",
+    "checked_at": "2026-10-14T18:59:02.070Z",
+    "last_success_at": "2026-10-14T18:59:02.070Z",
+    "hash": "a4c2c7768eabd8658023e68e30c0c5803b92a3fd5015a25e0e879b250ca4df7e",
+    "snapshot_key": "sources/32aedf5eacd9aedde7de0ca33d5119267adc069c81864bdb658673ad8fdfe83f/a4c2c7768eabd8658023e68e30c0c5803b92a3fd5015a25e0e879b250ca4df7e.html",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://www.gov.uk/guidance/reporting-cryptoasset-user-and-transaction-data",
+    "checked_at": "2026-10-14T18:58:06.871Z",
+    "last_success_at": "2026-10-14T18:58:06.871Z",
+    "hash": "78b7ff3a69addd260e507609f681e910a3b595cc91c1c904d430db499dbc271e",
+    "snapshot_key": "sources/f094e5a4417c7e758f5dbedce3f9fe4eb31daca031781fede75ddc8aa8ef5d84/78b7ff3a69addd260e507609f681e910a3b595cc91c1c904d430db499dbc271e.html",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://www.gov.uk/government/publications/cryptoasset-loans-and-liquidity-pools",
+    "checked_at": "2026-10-14T18:59:02.196Z",
+    "last_success_at": "2026-10-14T18:59:02.196Z",
+    "hash": "e558acb8aff4b35d65abcdb4322103951d0f339fd553221161965c64b42f68ef",
+    "snapshot_key": "sources/8d7ed127199e34fa02b23fe77ac3f25973f4d6006521b97342851635a5da553c/e558acb8aff4b35d65abcdb4322103951d0f339fd553221161965c64b42f68ef.html",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://www.gov.uk/government/publications/cryptoasset-loans-and-liquidity-pools/tax-treatment-of-cryptoasset-loans-and-liquidity-pools",
+    "checked_at": "2026-10-14T18:59:09.108Z",
+    "last_success_at": "2026-10-14T18:59:09.108Z",
+    "hash": "f123e5b04d04c22592da88324b5ce29abffda32141f5295f566940cf922a3835",
+    "snapshot_key": "sources/aa15ccc5db3b36a3d7404e59205c67be7e3cf08c16702ff7679489bff8ff04e3/f123e5b04d04c22592da88324b5ce29abffda32141f5295f566940cf922a3835.html",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://assets.publishing.service.gov.uk/media/6a50e1b6a4890e65cce64cd9/Cryptoassets_and_liquidity_pools_draft_legislation.pdf",
+    "checked_at": "2026-10-14T18:59:15.370Z",
+    "last_success_at": "2026-10-14T18:59:15.370Z",
+    "hash": "14bffecb608cf87c28cc300fbeaf570df307db17f9fe8c5dd86c26efbe5f47e7",
+    "snapshot_key": "sources/e48a4f244dea05fe82c4c03fcacaccdf42acfb2bd80fedd9d41e65b3c85280e5/14bffecb608cf87c28cc300fbeaf570df307db17f9fe8c5dd86c26efbe5f47e7.pdf",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://www.gov.uk/capital-gains-tax/rates",
+    "checked_at": "2026-10-14T18:59:22.690Z",
+    "last_success_at": "2026-10-14T18:59:22.690Z",
+    "hash": "dab5c837790754aac864030beb05ac2bf100fd4ee9ac6d7764f2b978d4a02090",
+    "snapshot_key": "sources/753cb37b06965606e0e2318f6b255f71e00db2ba043bb571306f42745a32dc9c/dab5c837790754aac864030beb05ac2bf100fd4ee9ac6d7764f2b978d4a02090.html",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://www.gov.uk/capital-gains-tax/allowances",
+    "checked_at": "2026-10-14T18:59:22.929Z",
+    "last_success_at": "2026-10-14T18:59:22.929Z",
+    "hash": "5008f31a43560baa464087929b36342430128ae161d282fc0fb3d829471f0f68",
+    "snapshot_key": "sources/f18555a27b2a40b22b508560f7601c0f8373599946cb59b1bb09bee807f09ab9/5008f31a43560baa464087929b36342430128ae161d282fc0fb3d829471f0f68.html",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://www.govinfo.gov/content/pkg/CREC-2026-09-15/pdf/CREC-2026-09-15-senate.pdf",
+    "checked_at": "2026-10-14T19:05:56.529Z",
+    "last_success_at": "2026-10-14T19:05:56.529Z",
+    "hash": "24ec0383b18944c9fa60093e0ca2a45ddf39caae256adb48cb6a25081d61432d",
+    "snapshot_key": "sources/1c49d36138461160c34977d571c05c25d9e80eb714ad1ba89207d4402fa540a1/24ec0383b18944c9fa60093e0ca2a45ddf39caae256adb48cb6a25081d61432d.pdf",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://www.govinfo.gov/content/pkg/CREC-2025-07-17/pdf/CREC-2025-07-17-house.pdf",
+    "checked_at": "2026-10-14T19:06:28.314Z",
+    "last_success_at": "2026-10-14T19:06:28.314Z",
+    "hash": "24c3b4df14fc1b37bba8fa988199caed007e27b2ed249eec3720e93cfa2a5b12",
+    "snapshot_key": "sources/af352b12f74fcc04509c05a01a8681e61e9b94ee57b11e207e35703d48cb1e69/24c3b4df14fc1b37bba8fa988199caed007e27b2ed249eec3720e93cfa2a5b12.pdf",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://www.govinfo.gov/content/pkg/PLAW-119publ27/pdf/PLAW-119publ27.pdf",
+    "checked_at": "2026-10-14T19:05:57.791Z",
+    "last_success_at": "2026-10-14T19:05:57.791Z",
+    "hash": "6eaa3cf8ff45f1b2aff792adc73d69605a657a64eb54f72d5a47c182692de38f",
+    "snapshot_key": "sources/9e55292ab319016eec7c4446807ce06066d9a3732bfb36f4cd79d0fc91730ee1/6eaa3cf8ff45f1b2aff792adc73d69605a657a64eb54f72d5a47c182692de38f.pdf",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://www.occ.gov/news-issuances/news-releases/2026/nr-occ-2026-9.html",
+    "checked_at": "2026-10-14T19:07:12.304Z",
+    "last_success_at": "2026-10-14T19:07:12.304Z",
+    "hash": "ba044ec298dc45a562458f1f32ca37722626dded0677b6f1478dd90562c344fb",
+    "snapshot_key": "sources/ffd110cf7479652fa6d3d734c0cffc56342e7656ec7858db853fe2765a6277d1/ba044ec298dc45a562458f1f32ca37722626dded0677b6f1478dd90562c344fb.html",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://ofac.treasury.gov/recent-actions/20260408_33",
+    "checked_at": "2026-10-14T19:07:03.883Z",
+    "last_success_at": "2026-10-14T19:07:03.883Z",
+    "hash": "47581b11a0cbb23a679df53227f3b56e91a0aa666315ddfd2f9f3b2efcd7d58a",
+    "snapshot_key": "sources/d4359960517752fc2aa8b73d86f09300f6ce6f57d9acf5e41c45b26db5af278a/47581b11a0cbb23a679df53227f3b56e91a0aa666315ddfd2f9f3b2efcd7d58a.html",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://www.govinfo.gov/content/pkg/FR-2026-08-18/pdf/2026-16796.pdf",
+    "checked_at": "2026-10-14T19:07:40.935Z",
+    "last_success_at": "2026-10-14T19:07:40.935Z",
+    "hash": "b5682164ab42122dfd7dfe106317086f7bfdda4f49bfa3495d7a13be9733dbb6",
+    "snapshot_key": "sources/6a1f734581525f4a652266933c3fadf795a44303fdbe8632bd0159d0f0e39e02/b5682164ab42122dfd7dfe106317086f7bfdda4f49bfa3495d7a13be9733dbb6.pdf",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://www.govinfo.gov/content/pkg/FR-2026-09-30/pdf/2026-19966.pdf",
+    "checked_at": "2026-10-14T19:07:41.594Z",
+    "last_success_at": "2026-10-14T19:07:41.594Z",
+    "hash": "8f2dda5b18ab52949e4ced5536693ef36d319e92b37168bef90fd655b4b6c005",
+    "snapshot_key": "sources/cb31eb5d31274d7e5e9f51fe19fd5b82405b2e740d6d9edf6de6e1d6207fef2b/8f2dda5b18ab52949e4ced5536693ef36d319e92b37168bef90fd655b4b6c005.pdf",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://www.govinfo.gov/content/pkg/FR-2026-03-23/pdf/2026-05635.pdf",
+    "checked_at": "2026-10-14T19:07:40.270Z",
+    "last_success_at": "2026-10-14T19:07:40.270Z",
+    "hash": "b84a6a04fab9ff461078b04c177635218e09db7ef3fa1af1834993a8c7639f28",
+    "snapshot_key": "sources/366c9265cb4a1d55eb67025341e7437b1982f3ad7321512d065b3ea0831c21b7/b84a6a04fab9ff461078b04c177635218e09db7ef3fa1af1834993a8c7639f28.pdf",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://www.irs.gov/instructions/i1099da",
+    "checked_at": "2026-10-14T19:08:09.517Z",
+    "last_success_at": "2026-10-14T19:08:09.517Z",
+    "hash": "c2065e8e84f283111e86ca6fc1d4ded1e9401a61fa149eb9f036da9011b51ad7",
+    "snapshot_key": "sources/ebaa6a0c504f614354511b1d5fa8582a26564dbfc2e7b51b433e95a836e847cf/c2065e8e84f283111e86ca6fc1d4ded1e9401a61fa149eb9f036da9011b51ad7.html",
+    "changed": 0,
+    "error": null
   }
 ]

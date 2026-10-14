@@ -4486,6 +4486,44 @@
         }
       ],
       "appliesFromExport": "2026-10-14T17:28:22.313Z"
+    },
+    {
+      "id": "us-genius-act-implementation-rules",
+      "title": [
+        "美国GENIUS稳定币法：财政部实施规则",
+        "United States: GENIUS Act stablecoin implementing rules from Treasury"
+      ],
+      "basis": "Both Federal Register documents state that they implement the GENIUS Act (Public Law 119-27): FR Doc. 2026-16796 proposes rules under section 3, and FR Doc. 2026-19966 adopts interim procedures under section 4(c). Grouping does not mean the Act is in force or that other agencies' rules are final.",
+      "documents": [
+        {
+          "region": "US",
+          "officialId": "FR Doc. 2026-16796"
+        },
+        {
+          "region": "US",
+          "officialId": "FR Doc. 2026-19966"
+        }
+      ],
+      "appliesFromExport": "2026-10-14T19:10:01.848Z"
+    },
+    {
+      "id": "eu-misp-crypto-supervision-council",
+      "title": [
+        "欧盟市场整合与监管方案：理事会主席国说明",
+        "EU Market Integration and Supervision Package: Council Presidency notes"
+      ],
+      "basis": "Both Council documents are Presidency steering notes on the same legislative package, procedures 2025/0381 (COD), 2025/0382 (COD) and 2025/0383 (COD), including direct ESMA supervision of crypto-asset service providers. Presidency notes are not Council positions; grouping does not imply agreement.",
+      "documents": [
+        {
+          "region": "EU",
+          "officialId": "ST 8367/26"
+        },
+        {
+          "region": "EU",
+          "officialId": "ST 9891/26"
+        }
+      ],
+      "appliesFromExport": "2026-10-14T19:17:19.749Z"
     }
   ]
 }

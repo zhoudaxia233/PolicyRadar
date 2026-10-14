@@ -1,0 +1,77 @@
+[
+ {
+  "url": "https://www.legislation.gov.uk/uksi/2026/102/made",
+  "status": "ok",
+  "sha256": "1ebd9646766d485bca7a733e545bbc2fbb447c36dbff33a3e70e612e2ac4229b",
+  "bytes": 412054,
+  "fetchedAt": "2026-10-14T18:57:46.843Z"
+ },
+ {
+  "url": "https://www.fca.org.uk/firms/new-regime-cryptoasset-regulation",
+  "status": "ok",
+  "sha256": "6b575564432ceed09ce2c7dde5b918cf3eb1b1529b43b59b71e175e16b75be6b",
+  "bytes": 189976,
+  "fetchedAt": "2026-10-14T18:58:06.701Z"
+ },
+ {
+  "url": "https://www.fca.org.uk/publications/policy-statements/cryptoasset-regime",
+  "status": "ok",
+  "sha256": "35669bb70c76626ff1ce83b7740e15c9abec3d5afd72c0541147e810236e24ac",
+  "bytes": 260324,
+  "fetchedAt": "2026-10-14T18:58:29.925Z"
+ },
+ {
+  "url": "https://www.legislation.gov.uk/uksi/2025/744/made",
+  "status": "ok",
+  "sha256": "a4c2c7768eabd8658023e68e30c0c5803b92a3fd5015a25e0e879b250ca4df7e",
+  "bytes": 74276,
+  "fetchedAt": "2026-10-14T18:59:02.070Z"
+ },
+ {
+  "url": "https://www.gov.uk/guidance/reporting-cryptoasset-user-and-transaction-data",
+  "status": "ok",
+  "sha256": "78b7ff3a69addd260e507609f681e910a3b595cc91c1c904d430db499dbc271e",
+  "bytes": 79218,
+  "fetchedAt": "2026-10-14T18:58:06.871Z"
+ },
+ {
+  "url": "https://www.gov.uk/government/publications/cryptoasset-loans-and-liquidity-pools",
+  "status": "ok",
+  "sha256": "e558acb8aff4b35d65abcdb4322103951d0f339fd553221161965c64b42f68ef",
+  "bytes": 75539,
+  "fetchedAt": "2026-10-14T18:59:02.196Z"
+ },
+ {
+  "url": "https://www.gov.uk/government/publications/cryptoasset-loans-and-liquidity-pools/tax-treatment-of-cryptoasset-loans-and-liquidity-pools",
+  "status": "ok",
+  "sha256": "f123e5b04d04c22592da88324b5ce29abffda32141f5295f566940cf922a3835",
+  "bytes": 86491,
+  "fetchedAt": "2026-10-14T18:59:09.108Z"
+ },
+ {
+  "url": "https://assets.publishing.service.gov.uk/media/6a50e1b6a4890e65cce64cd9/Cryptoassets_and_liquidity_pools_draft_legislation.pdf",
+  "status": "ok",
+  "sha256": "14bffecb608cf87c28cc300fbeaf570df307db17f9fe8c5dd86c26efbe5f47e7",
+  "bytes": 424779,
+  "fetchedAt": "2026-10-14T18:59:15.370Z"
+ },
+ {
+  "url": "https://www.gov.uk/capital-gains-tax/rates",
+  "status": "ok",
+  "sha256": "dab5c837790754aac864030beb05ac2bf100fd4ee9ac6d7764f2b978d4a02090",
+  "bytes": 84354,
+  "fetchedAt": "2026-10-14T18:59:22.690Z"
+ },
+ {
+  "url": "https://www.gov.uk/capital-gains-tax/allowances",
+  "status": "ok",
+  "sha256": "5008f31a43560baa464087929b36342430128ae161d282fc0fb3d829471f0f68",
+  "bytes": 75299,
+  "fetchedAt": "2026-10-14T18:59:22.929Z"
+ },
+ {
+  "url": "https://bills-api.parliament.uk/api/v1/Bills?SearchTerm=Finance",
+  "status": "ok-json-not-archived",
+  "note": "On 14 October 2026 the most recent finance legislation listed was the Finance Act 2026 (Royal Assent, March 2026); no Finance Bill 2026-27 had been introduced."
+ }
+]

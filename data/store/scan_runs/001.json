@@ -5290,5 +5290,17 @@
     "source_url": "https://www.parlament.ch/de/ratsbetrieb/suche-curia-vista",
     "checked_at": "2026-10-14T18:14:46.235Z",
     "data": "{\"id\":\"ch-crypto-20261014-curia\",\"sourceUrl\":\"https://www.parlament.ch/de/ratsbetrieb/suche-curia-vista\",\"checkedAt\":\"2026-10-14T18:14:46.235Z\",\"windowStart\":\"2026-01-01\",\"windowEnd\":\"2026-10-13\",\"status\":\"partial\",\"pages\":[\"https://www.parlament.ch/de/ratsbetrieb/suche-curia-vista/geschaeft?AffairId=20250052\"],\"recordIds\":[\"ch-cv-25052-nr-2026-09-28\"],\"excluded\":[],\"allPagesChecked\":false,\"totalListed\":null,\"note\":\"加密资产专题检索：用议会开放数据接口按标题关键词（金融机构法、加密资产、稳定币、加密）检索2024年6月以后的议案，并阅读25.052号议案的国民院辩论记录；未逐项翻阅全部议案。\"}"
+  },
+  {
+    "id": "gb-crypto-20261014-legislation",
+    "source_url": "https://www.legislation.gov.uk/new",
+    "checked_at": "2026-10-14T19:01:26.903Z",
+    "data": "{\"id\":\"gb-crypto-20261014-legislation\",\"sourceUrl\":\"https://www.legislation.gov.uk/new\",\"checkedAt\":\"2026-10-14T19:01:26.903Z\",\"windowStart\":\"2026-01-01\",\"windowEnd\":\"2026-10-13\",\"status\":\"partial\",\"pages\":[\"https://www.legislation.gov.uk/uksi/2026/102/made\"],\"recordIds\":[\"gb-uksi-2026-102-cryptoassets\"],\"excluded\":[],\"allPagesChecked\":false,\"totalListed\":null,\"note\":\"加密资产专题检索：按加密资产线索查找并阅读2026年第102号法定文书；未逐日翻阅新法规列表。\"}"
+  },
+  {
+    "id": "us-crypto-20261014-fr",
+    "source_url": "https://www.govinfo.gov/app/collection/FR",
+    "checked_at": "2026-10-14T19:10:01.848Z",
+    "data": "{\"id\":\"us-crypto-20261014-fr\",\"sourceUrl\":\"https://www.govinfo.gov/app/collection/FR\",\"checkedAt\":\"2026-10-14T19:10:01.848Z\",\"windowStart\":\"2026-01-01\",\"windowEnd\":\"2026-10-13\",\"status\":\"partial\",\"pages\":[\"https://www.govinfo.gov/content/pkg/FR-2026-03-23/pdf/2026-05635.pdf\",\"https://www.govinfo.gov/content/pkg/FR-2026-08-18/pdf/2026-16796.pdf\",\"https://www.govinfo.gov/content/pkg/FR-2026-09-30/pdf/2026-19966.pdf\"],\"recordIds\":[\"us-fr-2026-05635-sec-crypto\",\"us-fr-2026-16796-genius-s3\",\"us-fr-2026-19966-genius-committee\"],\"excluded\":[],\"allPagesChecked\":false,\"totalListed\":null,\"note\":\"加密资产专题检索：用联邦公报接口检索2026年提及“GENIUS Act”的35份文件，收录SEC解释、财政部第3条拟议规则和财政部程序性临时最终规则；其余机构的拟议规则在解读中概述，未逐份收录。\"}"
   }
 ]

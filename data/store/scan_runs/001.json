@@ -5236,5 +5236,53 @@
     "source_url": "https://www.limburg.nl/actueel/bekendmakingen/",
     "checked_at": "2026-10-13T13:29:24.942Z",
     "data": "{\"id\":\"netherlands-20261013-37-today\",\"sourceUrl\":\"https://www.limburg.nl/actueel/bekendmakingen/\",\"checkedAt\":\"2026-10-13T13:29:24.942Z\",\"windowStart\":\"2026-10-13\",\"windowEnd\":\"2026-10-13\",\"status\":\"partial\",\"pages\":[\"https://www.limburg.nl/actueel/bekendmakingen/\"],\"recordIds\":[],\"excluded\":[],\"allPagesChecked\":false,\"totalListed\":null,\"note\":\"今天尚未结束，本轮仅核对目前可见资料，不能标为查全。\"}"
+  },
+  {
+    "id": "fr-crypto-20261014-an-plf2027-committee",
+    "source_url": "https://www.assemblee-nationale.fr/dyn/17/dossiers",
+    "checked_at": "2026-10-14T14:23:09.842Z",
+    "data": "{\"id\":\"fr-crypto-20261014-an-plf2027-committee\",\"sourceUrl\":\"https://www.assemblee-nationale.fr/dyn/17/dossiers\",\"checkedAt\":\"2026-10-14T14:23:09.842Z\",\"windowStart\":\"2026-10-01\",\"windowEnd\":\"2026-10-13\",\"status\":\"partial\",\"pages\":[\"https://www.assemblee-nationale.fr/dyn/17/dossiers/PLF_2027\",\"https://www.assemblee-nationale.fr/dyn/17/textes/l17b3210_projet-loi.pdf\"],\"recordIds\":[\"fr-an-plf2027-i-cf1826\",\"fr-an-plf2027-i-cf798\",\"fr-an-plf2027-i-cf1822\",\"fr-an-plf2027-i-cf821\"],\"excluded\":[{\"url\":\"https://www.assemblee-nationale.fr/dyn/17/amendements/3210A/CION_FIN/CF1564.pdf\",\"reason\":\"委员会10月9日否决，未进入委员会文本；仅在解读中作为被否决方案说明。\"}],\"allPagesChecked\":false,\"totalListed\":null,\"note\":\"加密资产专题检索：从政府原稿、立法档案及报道线索定位到的委员会修正案。没有逐一审阅第一部分全部3,891项修正案和全会资料，不能视为查全。\"}"
+  },
+  {
+    "id": "fr-crypto-20261014-legifrance-blocked",
+    "source_url": "https://www.legifrance.gouv.fr/jorf/jo",
+    "checked_at": "2026-10-14T14:23:09.842Z",
+    "data": "{\"id\":\"fr-crypto-20261014-legifrance-blocked\",\"sourceUrl\":\"https://www.legifrance.gouv.fr/jorf/jo\",\"checkedAt\":\"2026-10-14T14:23:09.842Z\",\"windowStart\":\"2026-06-26\",\"windowEnd\":\"2026-06-26\",\"status\":\"blocked\",\"pages\":[\"https://www.legifrance.gouv.fr/jorf/article_jo/JORFARTI000054310089\",\"https://www.legifrance.gouv.fr/jorf/article_jo/JORFARTI000054310086\"],\"recordIds\":[],\"excluded\":[],\"allPagesChecked\":false,\"totalListed\":null,\"note\":\"Légifrance返回安全验证页，直接下载和本地匿名渲染均未取得公报正文；未绕过访问限制。改用国民议会和参议院的通过文本与立法档案。\"}"
+  },
+  {
+    "id": "de-crypto-20261014-textarchiv",
+    "source_url": "https://www.bundestag.de/dokumente/textarchiv",
+    "checked_at": "2026-10-14T14:50:28.632Z",
+    "data": "{\"id\":\"de-crypto-20261014-textarchiv\",\"sourceUrl\":\"https://www.bundestag.de/dokumente/textarchiv\",\"checkedAt\":\"2026-10-14T14:50:28.632Z\",\"windowStart\":\"2026-10-12\",\"windowEnd\":\"2026-10-12\",\"status\":\"partial\",\"pages\":[\"https://www.bundestag.de/dokumente/textarchiv/2026/kw42-pa-petitionen-1221702\",\"https://www.bundestag.de/presse/hib/kurzmeldungen-1224166\"],\"recordIds\":[\"de-bt-petition-crypto-holding-20261012\"],\"excluded\":[],\"allPagesChecked\":false,\"totalListed\":null,\"note\":\"加密资产专题检索：只读取定位到的请愿会议页面和hib报道，未对当日全部议会新闻对账。\"}"
+  },
+  {
+    "id": "de-crypto-20261014-bundesrat-to1069",
+    "source_url": "https://www.bundesrat.de/DE/plenum/plenum-node.html",
+    "checked_at": "2026-10-14T14:50:28.632Z",
+    "data": "{\"id\":\"de-crypto-20261014-bundesrat-to1069\",\"sourceUrl\":\"https://www.bundesrat.de/DE/plenum/plenum-node.html\",\"checkedAt\":\"2026-10-14T14:50:28.632Z\",\"windowStart\":\"2026-10-13\",\"windowEnd\":\"2026-10-13\",\"status\":\"partial\",\"pages\":[\"https://www.bundesrat.de/SharedDocs/TO/1069/tagesordnung-1069.html\"],\"recordIds\":[],\"excluded\":[],\"allPagesChecked\":false,\"totalListed\":null,\"note\":\"只检查10月16日会议议程中是否有加密资产信息交换法案（未列入）；未审阅其他议程项。\"}"
+  },
+  {
+    "id": "de-crypto-20261014-bgbl-kmanzv",
+    "source_url": "https://www.recht.bund.de/de/home/home_node.html",
+    "checked_at": "2026-10-14T14:50:28.632Z",
+    "data": "{\"id\":\"de-crypto-20261014-bgbl-kmanzv\",\"sourceUrl\":\"https://www.recht.bund.de/de/home/home_node.html\",\"checkedAt\":\"2026-10-14T14:50:28.632Z\",\"windowStart\":\"2026-05-20\",\"windowEnd\":\"2026-05-20\",\"status\":\"partial\",\"pages\":[\"https://www.gesetze-im-internet.de/kmanzv/BJNR0990A0026.html\"],\"recordIds\":[\"de-bgbl-2026-i-153-kmanzv\"],\"excluded\":[],\"allPagesChecked\":false,\"totalListed\":null,\"note\":\"从加密资产专题检索定位到KMAnzV，并在法律数据库读取全文；未逐期翻阅当日法律公报。\"}"
+  },
+  {
+    "id": "it-crypto-20261014-normattiva",
+    "source_url": "https://www.normattiva.it/",
+    "checked_at": "2026-10-14T15:02:12.223Z",
+    "data": "{\"id\":\"it-crypto-20261014-normattiva\",\"sourceUrl\":\"https://www.normattiva.it/\",\"checkedAt\":\"2026-10-14T15:02:12.223Z\",\"windowStart\":\"2026-01-01\",\"windowEnd\":\"2026-10-13\",\"status\":\"partial\",\"pages\":[\"https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:2024-12-30;207!vig=2026-10-14\",\"https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:2025-12-30;199\",\"https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2026-06-19;117\",\"https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:2024-12-30;207\"],\"recordIds\":[\"it-dlgs-117-2026-tuir\"],\"excluded\":[],\"allPagesChecked\":false,\"totalListed\":null,\"note\":\"加密资产专题检索：按法律编号读取现行法律库中的相关条文，并跟进第24款的废止记录。窗口内只新增第117/2026号立法令记录；2024和2025年公布的法律条文作为历史回补另行收录。未逐期翻阅公报，未取得新《所得税统一法典》附件全文。\"}"
+  },
+  {
+    "id": "es-crypto-20261014-boe",
+    "source_url": "https://www.boe.es/diario_boe/",
+    "checked_at": "2026-10-14T15:58:01.222Z",
+    "data": "{\"id\":\"es-crypto-20261014-boe\",\"sourceUrl\":\"https://www.boe.es/diario_boe/\",\"checkedAt\":\"2026-10-14T15:58:01.222Z\",\"windowStart\":\"2026-01-01\",\"windowEnd\":\"2026-10-13\",\"status\":\"partial\",\"pages\":[\"https://www.boe.es/buscar/act.php?id=BOE-A-2026-5843\",\"https://www.boe.es/buscar/act.php?id=BOE-A-2026-20265\"],\"recordIds\":[\"es-boe-a-2026-5843-aeat-plan\",\"es-boe-a-2026-20265-rdl-25\"],\"excluded\":[{\"url\":\"https://www.boe.es/buscar/act.php?id=BOE-A-2026-14432\",\"reason\":\"国家证券市场委员会内部规章修改，只涉及机构内部组织，不是面向公众的加密资产政策。\"}],\"allPagesChecked\":false,\"totalListed\":null,\"note\":\"加密资产专题检索：用国家公报现行法规接口按“加密资产”全文和标题检索2026年文件，命中3份并逐一阅读；未查到DAC8转化法律。接口检索不等于逐期翻阅公报。\"}"
+  },
+  {
+    "id": "nl-crypto-20261014-ob",
+    "source_url": "https://zoek.officielebekendmakingen.nl/",
+    "checked_at": "2026-10-14T17:28:22.313Z",
+    "data": "{\"id\":\"nl-crypto-20261014-ob\",\"sourceUrl\":\"https://zoek.officielebekendmakingen.nl/\",\"checkedAt\":\"2026-10-14T17:28:22.313Z\",\"windowStart\":\"2026-01-01\",\"windowEnd\":\"2026-10-13\",\"status\":\"partial\",\"pages\":[\"https://zoek.officielebekendmakingen.nl/stb-2026-79.html\",\"https://zoek.officielebekendmakingen.nl/stb-2026-93.html\"],\"recordIds\":[\"nl-stb-2026-79-dac8\",\"nl-stb-2026-93-dac8-decree\"],\"excluded\":[],\"allPagesChecked\":false,\"totalListed\":null,\"note\":\"加密资产专题检索：按DAC8和加密资产线索查找并阅读2026年《法律公报》第79号和第93号；未逐期翻阅公报。\"}"
   }
 ]

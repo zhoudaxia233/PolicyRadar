@@ -72,7 +72,7 @@
         "德国加密资产一年持有期优惠：现行规则与不同改革版本",
         "Germany: current crypto holding-period relief and competing reform proposals"
       ],
-      "basis": "Both drafts expressly change taxation of privately held crypto sale gains regardless of holding period: Green 21/5752 amends section 23 (pages 3–5), while the BMF draft changes section 20 (pages 8, 13, 15). The 8 October Bundestag report explicitly links the debate to the separate BMF draft. This is a shared concrete policy question with competing instruments, not one bill or a shared legal status. CARF information exchange remains separate.",
+      "basis": "Both drafts expressly change taxation of privately held crypto sale gains regardless of holding period: Green 21/5752 amends section 23 (pages 3–5), while the BMF draft changes section 20 (pages 8, 13, 15). The 8 October Bundestag report explicitly links the debate to the separate BMF draft. This is a shared concrete policy question with competing instruments, not one bill or a shared legal status. CARF information exchange remains separate. The 12 October 2026 Petitions Committee hearing page concerns a petition to keep the section 23 holding period and records the BMF statement that its draft is still in interministerial coordination; the second petition on the same page (animal-testing law) is unrelated and not explained here.",
       "documents": [
         {
           "region": "DE",
@@ -81,6 +81,12 @@
         {
           "region": "DE",
           "officialId": "https://www.bundesfinanzministerium.de/Content/DE/Gesetzestexte/Gesetze_Gesetzesvorhaben/Abteilungen/Abteilung_IV/21_Legislaturperiode/2026-09-30-Reform-Besteuerung-Kryptowerte-PV/0-Gesetz.html"
+        },
+        {
+          "region": "DE",
+          "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw42-pa-petitionen-1221702",
+          "title": "Veräußerungsgeschäfte mit Kryptowerten und Stopp des Tierversuchsgesetzes",
+          "appliesFromExport": "2026-10-14T14:50:28.632Z"
         }
       ]
     },
@@ -4392,6 +4398,94 @@
           "title": "Kabinet zet werk centraal: in elke regio een Werkcentrum"
         }
       ]
+    },
+    {
+      "id": "fr-plf2027-crypto-tax",
+      "title": [
+        "法国2027年财政法案：加密资产税务修正案（委员会阶段）",
+        "France 2027 Finance Bill: crypto-asset tax amendments (committee stage)"
+      ],
+      "basis": "All four records are Finance Committee amendments to the same bill no. 3210 that each amend crypto-asset taxation or reporting (article 150 VH bis, new article 167 ter, article 1649 bis C). Each keeps its own committee outcome date; none has passed the plenary, the Senate or final adoption. The wider budget bill record fr-an-3210 stays separate because it covers many unrelated measures.",
+      "documents": [
+        {
+          "region": "FR",
+          "officialId": "Amendement n° I-CF1826 (PLF 2027, n° 3210)"
+        },
+        {
+          "region": "FR",
+          "officialId": "Amendement n° I-CF798 (PLF 2027, n° 3210)"
+        },
+        {
+          "region": "FR",
+          "officialId": "Amendement n° I-CF1822 (PLF 2027, n° 3210)"
+        },
+        {
+          "region": "FR",
+          "officialId": "Amendement n° I-CF821 (PLF 2027, n° 3210)"
+        }
+      ],
+      "appliesFromExport": "2026-10-14T14:22:29.399Z"
+    },
+    {
+      "id": "fr-fraud-law-2026-534",
+      "title": [
+        "法国第2026-534号反欺诈法",
+        "France: anti-fraud Act no. 2026-534"
+      ],
+      "basis": "Both records identify Act no. 2026-534 of 25 June 2026. One explanation covers its general fraud-control and safeguard provisions, the other its crypto-asset provisions (Assembly adopted text no. 279, articles 20 quinquies and 20 sexies A). Each provision keeps its own commencement.",
+      "documents": [
+        {
+          "region": "FR",
+          "officialId": "Loi n° 2026-534"
+        },
+        {
+          "region": "FR",
+          "officialId": "Loi n° 2026-534 — volet crypto-actifs (T.A. n° 279, art. 20 quinquies et 20 sexies A)"
+        }
+      ],
+      "appliesFromExport": "2026-10-14T14:22:29.399Z"
+    },
+    {
+      "id": "it-crypto-gains-rate",
+      "title": [
+        "意大利加密资产收益税率：33%与欧元稳定币例外",
+        "Italy: crypto gains tax rate — 33% and the euro-stablecoin exception"
+      ],
+      "basis": "The three records concern the same provision: Law 207/2024 art. 1(24) sets the 33% rate from 2026; Law 199/2025 art. 1(28) expressly amends that paragraph to add the 26% euro e-money token exception; D.Lgs. 117/2026 is recorded by Normattiva as repealing that paragraph from 1 January 2027 within the new income-tax consolidated text. The decree covers many other income-tax provisions; grouping does not extend this matter to them or infer the 2027 rate.",
+      "documents": [
+        {
+          "region": "IT",
+          "officialId": "Legge 207/2024, art. 1, comma 24"
+        },
+        {
+          "region": "IT",
+          "officialId": "Legge 199/2025, art. 1, comma 28"
+        },
+        {
+          "region": "IT",
+          "officialId": "D.Lgs. 117/2026"
+        }
+      ],
+      "appliesFromExport": "2026-10-14T15:02:12.223Z"
+    },
+    {
+      "id": "nl-dac8-crypto-reporting",
+      "title": [
+        "荷兰DAC8加密资产信息报送：实施法与实施法令",
+        "Netherlands: DAC8 crypto-asset reporting — act and implementing decree"
+      ],
+      "basis": "The implementing decree (Stb. 2026, 93) states it is made under article 10oa of the Wet op de internationale bijstandsverlening, which the DAC8 implementation act (Stb. 2026, 79) inserts. Both are part of the same reporting regime; grouping does not verify individual reporting duties.",
+      "documents": [
+        {
+          "region": "NL",
+          "officialId": "Stb. 2026, 79"
+        },
+        {
+          "region": "NL",
+          "officialId": "Stb. 2026, 93"
+        }
+      ],
+      "appliesFromExport": "2026-10-14T17:28:22.313Z"
     }
   ]
 }

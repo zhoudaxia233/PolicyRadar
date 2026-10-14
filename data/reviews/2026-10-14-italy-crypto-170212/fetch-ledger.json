@@ -1,0 +1,35 @@
+[
+ {
+  "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:2024-12-30;207!vig=2026-10-14",
+  "status": "ok",
+  "sha256": "e6d9ab763c6c1b6f6ab69db5ad81c0714a460838adb7a714bd7870870db6d5fc",
+  "bytes": 196021,
+  "fetchedAt": "2026-10-14T14:59:54.038Z"
+ },
+ {
+  "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:2025-12-30;199",
+  "status": "ok",
+  "sha256": "7c4310d6a6a47bebaf5a725630d5485281b8829ed427585465541fcc725bcbf7",
+  "bytes": 255345,
+  "fetchedAt": "2026-10-14T14:58:46.183Z"
+ },
+ {
+  "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2026-06-19;117",
+  "status": "ok",
+  "sha256": "7b1aaed4f7bf718361cf425a22cfcf5a4dea6d80c4862c4a001b84850c3c375b",
+  "bytes": 313734,
+  "fetchedAt": "2026-10-14T14:59:08.081Z"
+ },
+ {
+  "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:2024-12-30;207",
+  "status": "ok",
+  "sha256": "d1fdd37607c843142ef6aceaa13c18eefcc59684f2ed1026a591f321817dd199",
+  "bytes": 326759,
+  "fetchedAt": "2026-10-14T14:58:47.319Z"
+ },
+ {
+  "url": "https://www.normattiva.it/do/atto/caricaAKN?dataGU=20260703&codiceRedaz=26G00131&dataVigenza=20261014",
+  "status": "failed",
+  "error": "annex text not returned"
+ }
+]

@@ -5713,6 +5713,24 @@
       "verbatim": [
         "Rijksoverheid"
       ]
+    },
+    "ch-crypto-aeoi-activation": {
+      "version": 1,
+      "hash": "7a21db8ca852862858961354d52d3fb2493cd9ef3cfdd386755f9e47dde242a1",
+      "originalLanguage": "de",
+      "verbatim": [
+        "Staatssekretariat für internationale Finanzfragen SIF",
+        "Bundeskanzlei",
+        "Schweizer Parlament"
+      ]
+    },
+    "ch-finig-stablecoin-crypto-institutes": {
+      "version": 1,
+      "hash": "af4c1174e0f7184a362ac917c635c9f4c3ee4c60015b9791099175c5662756bf",
+      "originalLanguage": "de",
+      "verbatim": [
+        "Staatssekretariat für internationale Finanzfragen SIF"
+      ]
     }
   },
   "intake": {
@@ -40521,6 +40539,24 @@
       "verbatim": [],
       "titleIsOriginal": true,
       "hash": "5ff8d04427b8b486ad22e0a09ece2e610d831393ea98c35a0918e284d9cb82d2"
+    },
+    "ch-cv-25052-nr-2026-09-28": {
+      "originalLanguage": "de",
+      "verbatim": [],
+      "titleIsOriginal": true,
+      "hash": "53e1a3db3379d934b9fe21b808b23608394d8525f5af6c7eb03b30036375f39d"
+    },
+    "ch-sif-aiav-2025-11-26": {
+      "originalLanguage": "de",
+      "verbatim": [],
+      "titleIsOriginal": true,
+      "hash": "387bb9d2be016f47af5409b9144c59b59e862e2d499758370a025eafd26c929d"
+    },
+    "ch-sif-finig-consultation-2025-10-22": {
+      "originalLanguage": "de",
+      "verbatim": [],
+      "titleIsOriginal": true,
+      "hash": "0caf3d9fd8c4f79267552cb78e4f5ea64d6041f52eec101226a7e5695edabec4"
     }
   }
 }

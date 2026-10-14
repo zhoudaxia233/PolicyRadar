@@ -5284,5 +5284,11 @@
     "source_url": "https://zoek.officielebekendmakingen.nl/",
     "checked_at": "2026-10-14T17:28:22.313Z",
     "data": "{\"id\":\"nl-crypto-20261014-ob\",\"sourceUrl\":\"https://zoek.officielebekendmakingen.nl/\",\"checkedAt\":\"2026-10-14T17:28:22.313Z\",\"windowStart\":\"2026-01-01\",\"windowEnd\":\"2026-10-13\",\"status\":\"partial\",\"pages\":[\"https://zoek.officielebekendmakingen.nl/stb-2026-79.html\",\"https://zoek.officielebekendmakingen.nl/stb-2026-93.html\"],\"recordIds\":[\"nl-stb-2026-79-dac8\",\"nl-stb-2026-93-dac8-decree\"],\"excluded\":[],\"allPagesChecked\":false,\"totalListed\":null,\"note\":\"加密资产专题检索：按DAC8和加密资产线索查找并阅读2026年《法律公报》第79号和第93号；未逐期翻阅公报。\"}"
+  },
+  {
+    "id": "ch-crypto-20261014-curia",
+    "source_url": "https://www.parlament.ch/de/ratsbetrieb/suche-curia-vista",
+    "checked_at": "2026-10-14T18:14:46.235Z",
+    "data": "{\"id\":\"ch-crypto-20261014-curia\",\"sourceUrl\":\"https://www.parlament.ch/de/ratsbetrieb/suche-curia-vista\",\"checkedAt\":\"2026-10-14T18:14:46.235Z\",\"windowStart\":\"2026-01-01\",\"windowEnd\":\"2026-10-13\",\"status\":\"partial\",\"pages\":[\"https://www.parlament.ch/de/ratsbetrieb/suche-curia-vista/geschaeft?AffairId=20250052\"],\"recordIds\":[\"ch-cv-25052-nr-2026-09-28\"],\"excluded\":[],\"allPagesChecked\":false,\"totalListed\":null,\"note\":\"加密资产专题检索：用议会开放数据接口按标题关键词（金融机构法、加密资产、稳定币、加密）检索2024年6月以后的议案，并阅读25.052号议案的国民院辩论记录；未逐项翻阅全部议案。\"}"
   }
 ]

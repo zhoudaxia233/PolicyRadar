@@ -17,6 +17,10 @@ function index(rows:Row[],key:(r:Row)=>unknown){
 
 // This gate checks evidence structure and history, not whether an AI interpretation is true.
 export function validateUpdate(previous:unknown,candidate:unknown,now=new Date()){
+ return validateDataUpdate(previous,candidate,now,false);
+}
+
+function validateDataUpdate(previous:unknown,candidate:unknown,now:Date,allowRevisionChain:boolean){
  createStaticData(previous);createStaticData(candidate);
  if((previous as {schemaVersion:number}).schemaVersion>(candidate as {schemaVersion:number}).schemaVersion)throw Error('Export schema cannot regress');
  const old=migrateExportRegions(previous) as Export,next=migrateExportRegions(candidate) as Export;
@@ -41,15 +45,34 @@ export function validateUpdate(previous:unknown,candidate:unknown,now=new Date()
   if(row.id!==p.id)throw Error('Policy row identity mismatch');
   const before=prior.get(p.id);
   if(before&&equal(before,row))continue;
-  if(row.version!==(before?Number(before.version)+1:1))throw Error('Policy version must advance exactly once');
-  if(before)validateRevision(policySchema.parse(JSON.parse(before.data!)),p);
-  if(p.verifiedAt>berlinDate(now))throw Error('Policy verification is in the future');
-  const revision=revisions.get(`${p.id}:${row.version}`);
+  const firstVersion=before?Number(before.version)+1:1,lastVersion=Number(row.version);
+  if(!Number.isSafeInteger(lastVersion)||lastVersion<firstVersion||(!allowRevisionChain&&lastVersion!==firstVersion))throw Error('Policy version must advance exactly once');
+  const revision=revisions.get(`${p.id}:${lastVersion}`);
+  // Detect skipped versions before validating the final payload, including a
+  // missing final revision in a multi-update selection.
+  if(allowRevisionChain&&lastVersion>firstVersion){
+   if(lastVersion-firstVersion+1>revisions.size)throw Error('Policy version must advance exactly once per archived revision');
+   for(let version=firstVersion;version<=lastVersion;version++)if(!revisions.has(`${p.id}:${version}`))throw Error('Policy version must advance exactly once per archived revision');
+  }
   if(!revision||revision.data!==row.data)throw Error('Policy needs a matching revision');
-  // Every cited page needs an archived original; a search snippet is not evidence.
-  for(const source of p.sources){
-   const c=checks.get(source.url),s=c&&snapshots.get(c.snapshot_key);
-   if(!s||s.url!==source.url||c.error)throw Error('Policy source needs successful archived evidence: '+source.url);
+  let priorPolicy=before?policySchema.parse(JSON.parse(before.data!)):undefined;
+  // A selection may contain several local updates. Check every transition,
+  // so a valid final payload cannot hide an invalid intermediate revision.
+  for(let version=firstVersion;version<=lastVersion;version++){
+   const step=policySchema.parse(JSON.parse(revisions.get(`${p.id}:${version}`).data));
+   if(step.id!==p.id)throw Error('Policy revision identity mismatch');
+   if(priorPolicy)validateRevision(priorPolicy,step);
+   if(step.verifiedAt>berlinDate(now))throw Error('Policy verification is in the future');
+   if(allowRevisionChain){
+    statusCodeSchema.parse(step.status);
+    if(step.nextDate&&!step.nextKind)throw Error('Dated next steps require nextKind');
+   }
+   // Every cited page needs an archived original; a search snippet is not evidence.
+   for(const source of step.sources){
+    const c=checks.get(source.url),s=c&&snapshots.get(c.snapshot_key);
+    if(!s||s.url!==source.url||c.error)throw Error('Policy source needs successful archived evidence: '+source.url);
+   }
+   priorPolicy=step;
   }
  }
  for(const revision of next.tables.revisions){
@@ -75,7 +98,7 @@ export function validateUpdate(previous:unknown,candidate:unknown,now=new Date()
 
 // Operational selection is stricter than replaying legacy exports.
 export function validateSelection(previous:unknown,candidate:unknown,now=new Date()){
- const result=validateUpdate(previous,candidate,now);
+ const result=validateDataUpdate(previous,candidate,now,true);
  const next=candidate as Export & {discoveryRegistry?:unknown};
  if(!next.discoveryRegistry)throw Error('New exports must include discoveryRegistry');
  const prior=index((previous as Export).tables.policies,r=>r.id);

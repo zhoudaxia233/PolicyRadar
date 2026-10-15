@@ -1,0 +1,5 @@
+
+> policy-radar@0.1.0 build
+> node --experimental-strip-types scripts/build-static.mjs
+
+Static site built: 691 policies, 811 revisions, 5290 verified evidence files linked from the repository archive. No server credentials required.

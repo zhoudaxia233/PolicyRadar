@@ -1,0 +1,5 @@
+
+> policy-radar@0.1.0 data:select
+> node --experimental-strip-types scripts/select-export.mjs
+
+{"selected":"data/store","comparedWith":"data/store","policies":684,"revisions":800,"scans":2128}

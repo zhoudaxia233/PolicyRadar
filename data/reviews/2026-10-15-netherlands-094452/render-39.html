@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Security verifications</title>
+    <style>
+        body { background: #ddd; color: #000; margin: 0; padding: 0; }
+        iframe { display: none; }
+        footer { position: fixed; bottom: 4px; width: 100%; text-align: center; }
+
+        #pow-widget, .widget {
+            display: flex;
+            justify-content: center;
+            margin-top: 40px;
+            font-family: system-ui, -apple-system, sans-serif;
+        }
+
+        .title {
+            font-weight: bold;
+        }
+
+        .box {
+            display: flex;
+            align-items: center;
+            gap: 16px;
+
+            padding: 16px 20px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            background: #fafafa;
+
+            width: 320px;
+            transition: box-shadow 0.2s ease, border-color 0.2s ease;
+        }
+
+        .box.clickable {
+            cursor: pointer;
+        }
+
+        .box:hover {
+            border-color: #bbb;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+        }
+
+        .label {
+            font-size: 16px;
+            color: #333;
+        }
+
+        .icon {
+            flex-shrink: 0;
+        }
+
+    </style>
+</head>
+<body>
+<form method="post" target="post" action="/_challenge_0" name="challenge">
+    <input type="hidden" name="ip" value="::ffff:91.63.116.144">
+    <input type="hidden" name="ts" value="1792057212">
+    <input type="hidden" name="diff" value="4">
+    <input type="hidden" name="tries" value="">
+    <input type="hidden" name="as" value="">
+    <input type="hidden" name="in" value="-1">
+</form>
+<iframe src="about:blank" name="post"></iframe>
+
+<div class="widget">
+    <div class="title">Additional verification required</div>
+</div>
+
+<div id="pow-widget">
+    <div class="box clickable">
+        <div class="icon">
+            <svg width="60" height="60" viewBox="0 0 100 100">
+
+                <style>
+                    .hidden { opacity: 0; pointer-events: none; }
+                    .visible { opacity: 1; transition: opacity 0.25s ease; }
+
+                    /* Ring */
+                    #ring {
+                        transform-origin: 50px 50px;
+                        animation: pulseRing 1.5s ease-in-out infinite;
+                    }
+
+                    @keyframes pulseRing {
+                    0%   { stroke-width: 3; opacity: 0.6; }
+                    50%  { stroke-width: 6; opacity: 1; }
+                    100% { stroke-width: 3; opacity: 0.6; }
+                    }
+
+                    /* Orbit */
+                    .orbit {
+                        transform-origin: 50px 50px;
+                        animation: spin linear infinite;
+                    }
+
+                    .cw { animation-name: spinCW; }
+                    .ccw { animation-name: spinCCW; }
+
+                    .slow { animation-duration: 3s; }
+                    .medium { animation-duration: 2s; }
+
+                    @keyframes spinCW {
+                        from { transform: rotate(0deg); }
+                        to   { transform: rotate(360deg); }
+                    }
+
+                    @keyframes spinCCW {
+                        from { transform: rotate(360deg); }
+                        to   { transform: rotate(0deg); }
+                    }
+
+                    /* Draw animations */
+                    .draw path {
+                        stroke-dasharray: 60;
+                        stroke-dashoffset: 60;
+                        animation: draw 0.4s ease forwards;
+                    }
+
+                    @keyframes draw {
+                        to { stroke-dashoffset: 0; }
+                    }
+
+                    iframe { display: none; }
+                </style>
+
+                <!-- INIT -->
+                <g id="state-init" class="visible">
+                    <rect x="25" y="25" width="50" height="50" rx="6" fill="none" stroke="#bbb" stroke-width="4"></rect>
+                </g>
+
+                <!-- CALCULATING -->
+                <g id="state-calculating" class="hidden">
+                    <circle id="ring" cx="50" cy="50" r="40" stroke="#4a90e2" fill="none"></circle>
+
+                    <g class="orbit cw slow">
+                        <circle cx="50" cy="18" r="4" fill="#4a90e2"></circle>
+                    </g>
+
+                    <g class="orbit ccw medium">
+                        <circle cx="50" cy="30" r="4" fill="#4a90e2"></circle>
+                    </g>
+
+                    <g transform="translate(35,34)">
+                        <rect x="0" y="10" width="30" height="22" rx="4" fill="#4a90e2"></rect>
+                        <path d="M6 10 V6a9 9 0 0 1 18 0v4" fill="none" stroke="#4a90e2" stroke-width="3"></path>
+                    </g>
+                </g>
+
+                <!-- SUCCESS -->
+                <g id="state-success" class="hidden">
+                    <circle cx="50" cy="50" r="40" stroke="#2ecc71" fill="none"></circle>
+
+                    <g class="draw">
+                        <path d="M30 52 L45 65 L70 35" stroke="#2ecc71" stroke-width="6" fill="none" stroke-linecap="round" stroke-linejoin="round"></path>
+                    </g>
+                </g>
+
+                <!-- ERROR -->
+                <g id="state-error" class="hidden">
+                    <circle cx="50" cy="50" r="40" stroke="#e74c3c" fill="none"></circle>
+
+                    <g class="draw">
+                        <path d="M35 35 L65 65" stroke="#e74c3c" stroke-width="6" stroke-linecap="round"></path>
+                        <path d="M65 35 L35 65" stroke="#e74c3c" stroke-width="6" stroke-linecap="round"></path>
+                    </g>
+                </g>
+
+            </svg>
+        </div>
+
+        <div class="label" id="progressText">Verify you are human</div>
+    </div>
+</div>
+
+
+<script>
+    (function() {
+        const states = {
+            init: document.getElementById('state-init'),
+            calculating: document.getElementById('state-calculating'),
+            success: document.getElementById('state-success'),
+            error: document.getElementById('state-error')
+        };
+
+        function setState(newState) {
+            Object.values(states).forEach(el => {
+                el.classList.remove('visible');
+                el.classList.add('hidden');
+            });
+
+            const el = states[newState];
+            if (!el) return;
+
+            if (newState === 'success' || newState === 'error') {
+                const paths = el.querySelectorAll('path');
+                paths.forEach(p => {
+                    p.style.animation = 'none';
+                    p.getBoundingClientRect();
+                    p.style.animation = '';
+                });
+            }
+
+            el.classList.remove('hidden');
+            el.classList.add('visible');
+        }
+
+        window.PowIndicator = {
+            init: () => setState('init'),
+            calculating: () => setState('calculating'),
+            success: () => setState('success'),
+            error: () => setState('error')
+        };
+
+        // Example interaction: click to start
+        document.querySelector('#pow-widget .box').addEventListener('click', (event) => {
+            document.forms.challenge.in.value = event.isTrusted ? '1' : '0';
+            startChallenge(document.forms.challenge);
+        });
+    })();
+</script>
+
+<script>
+    "use strict";
+
+    const sleep = (ms) => new Promise(resolve => setTimeout(resolve, ms));
+    // Runs in a Web Worker — kept as a string so it can be turned into a Blob URL.
+    // diff is in nibbles (4-bit units); diff=0 is trivially satisfied.
+    const WORKER_SRC = `
+            self.onmessage = async function(e) {
+                const { diff, ip, ts, hostname } = e.data;
+                const te = new TextEncoder();
+
+                if (diff === 0) {
+                    self.postMessage({ type: 'done', tries: 0 });
+                    return;
+                }
+
+                for (let tries = 0; tries < 10_000_000; tries++) {
+                    const hash = await crypto.subtle.digest(
+                        "SHA-256",
+                        te.encode([ip, hostname, ts, tries].join(";"))
+                    );
+                    const y = new Uint8Array(hash);
+                    let i = 0;
+                    while (i < diff / 2) {
+                        if (y[i] > 0x0F) break;
+                        if ((i * 2) + 1 >= diff) { self.postMessage({ type: 'done', tries }); return; }
+                        if (y[i++] > 0) break;
+                        if ((i * 2) >= diff) { self.postMessage({ type: 'done', tries }); return; }
+                    }
+                    if (tries > 0 && tries % 5000 === 0) {
+                        self.postMessage({ type: 'progress', tries });
+                    }
+                }
+                self.postMessage({ type: 'exhausted' });
+            };
+        `;
+
+    function runWorker(diff, ip, ts) {
+        return new Promise((resolve, reject) => {
+            const blob = new Blob([WORKER_SRC], { type: 'application/javascript' });
+            const url = URL.createObjectURL(blob);
+            const worker = new Worker(url);
+
+            worker.onmessage = function(e) {
+                const { type, tries } = e.data;
+                if (type === 'progress') {
+                    progressText.innerText = 'Verifying you are human';
+                } else if (type === 'done' || type === 'exhausted') {
+                    worker.terminate();
+                    URL.revokeObjectURL(url);
+                    resolve(type === 'done' ? tries : undefined);
+                }
+            };
+
+            worker.onerror = function(err) {
+                worker.terminate();
+                URL.revokeObjectURL(url);
+                reject(err);
+            };
+
+            worker.postMessage({ diff, ip, ts, hostname: location.hostname });
+        });
+    }
+
+    function submitWithRetry(form) {
+        const iframe = document.querySelector('iframe');
+        let backoff = 0;
+        let retryTimer = null;
+
+        // Redirect once the server responds via the hidden iframe.
+        iframe.addEventListener('load', function() {
+            clearTimeout(retryTimer);
+            location.hash.length ? location.reload() : location.replace(location);
+        }, { once: true });
+
+        function trySubmit() {
+            if (backoff > 4) {
+                progressText.innerText = 'Failed to submit. Try reloading.';
+                PowIndicator.error();
+                return;
+            }
+            const delay = 1000 * (Math.pow(2, backoff++) - 1);
+            setTimeout(function() {
+                form.submit();
+                // If the iframe hasn't loaded within 8 s, assume the request
+                // was lost and retry.
+                retryTimer = setTimeout(trySubmit, 8000);
+            }, delay);
+        }
+
+        trySubmit();
+    }
+    async function startChallenge(form) {
+        if (!('subtle' in window.crypto)) {
+            progressText.innerText = location.protocol !== 'https:'
+                ? 'No WebCrypto support. This must be served over a HTTPS connection.'
+                : 'No WebCrypto support in your browser. This is required to complete the check.';
+            return;
+        }
+
+        progressText.innerText = 'Verifying you are human\u2026';
+        PowIndicator.calculating();
+
+        const start = Date.now();
+        let tries;
+
+        try {
+            tries = await runWorker(parseInt(form.diff.value, 10), form.ip.value, form.ts.value);
+        } catch (err) {
+            progressText.innerText = 'Verification failed. Please try reloading.';
+            PowIndicator.error();
+            return;
+        }
+
+        if (tries === undefined) {
+            progressText.innerText = 'Verification failed. Please try reloading.';
+            PowIndicator.error();
+            return;
+        }
+        form.tries.value = tries;
+
+        const elapsed = Date.now() - start;
+        if (elapsed < 1000) {
+            await sleep(1000 - elapsed);
+        }
+
+        progressText.innerText = 'Check complete';
+        PowIndicator.success();
+        await sleep(750);
+
+        submitWithRetry(form);
+    }
+
+    function computeBotScore() {
+        var score = 0;
+
+        if (navigator.webdriver) {
+            score += 5;
+        }
+
+        if (!navigator.plugins || navigator.plugins.length === 0) {
+            score += 3;
+        }
+
+        if (navigator.hardwareConcurrency && navigator.hardwareConcurrency <= 2) {
+            score += 2;
+        }
+
+        if (window.outerWidth === 0 || window.outerHeight === 0) {
+            score += 5;
+        }
+
+        try {
+            var canvas = document.createElement('canvas');
+            var gl = canvas.getContext('webgl') || canvas.getContext('experimental-webgl');
+            if (gl) {
+                var ext = gl.getExtension('WEBGL_debug_renderer_info');
+                if (ext) {
+                    var renderer = gl.getParameter(ext.UNMASKED_RENDERER_WEBGL).toLowerCase();
+                    if (renderer.indexOf('swiftshader') !== -1 || renderer.indexOf('llvmpipe') !== -1) {
+                        score += 5;
+                    }
+                }
+            }
+        } catch (e) {}
+
+        return score;
+    }
+
+    window.addEventListener('load', function() {
+        var form = document.forms.challenge;
+        var haproxyAutostart = form.as.value == '1' || form.as.value === '';
+        var botScore = computeBotScore();
+
+        if (haproxyAutostart && botScore < 5) {
+            setTimeout(function() { if (form.in.value == '-1') { form.in.value = '2'; } startChallenge(form); }, 250);
+        }
+    });
+</script>
+<noscript>To use this page you need JavaScript enabled.</noscript>
+
+</body></html>

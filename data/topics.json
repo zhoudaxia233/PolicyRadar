@@ -4524,6 +4524,217 @@
         }
       ],
       "appliesFromExport": "2026-10-14T19:17:19.749Z"
+    },
+    {
+      "id": "de-hb-police-appearance-2026",
+      "appliesFromExport": "2026-10-15T08:40:53.194Z",
+      "title": [
+        "不来梅警察仪容规定：提出至公布",
+        "Bremen police appearance rules: proposal to promulgation"
+      ],
+      "basis": "The 2 October announcement and Brem.GBl. 2026 No. 105 concern the same police appearance regulation. The original proposal stage is retained; section 8 of the published instrument establishes commencement on 16 October.",
+      "documents": [
+        {
+          "region": "DE-HB",
+          "url": "https://www.senatspressestelle.bremen.de/pressemitteilungen/neue-verordnung-zum-erscheinungsbild-der-polizei-491840?asl=bremen02.c.732.de",
+          "title": "Neue Verordnung zum Erscheinungsbild der Polizei"
+        },
+        {
+          "region": "DE-HB",
+          "officialId": "Brem.GBl. 2026 Nr. 105"
+        }
+      ]
+    },
+    {
+      "id": "fr-budget-2027-legislative-progress",
+      "title": [
+        "法国2027年预算案：草案、委员会意见及会场文本",
+        "France’s 2027 budget: bill, committee opinions and plenary text"
+      ],
+      "basis": "The official opinion metadata and plenary text explicitly identify the same numbered bill. This groups legislative documents only, without implying final adoption. Crypto-specific amendments remain a separate narrower matter.",
+      "appliesFromExport": "2026-10-15T09:01:59.265Z",
+      "documents": [
+        {
+          "region": "FR",
+          "officialId": "Projet de loi de finances pour 2027, n° 3210"
+        },
+        {
+          "region": "FR",
+          "officialId": "Assemblée nationale, 17e législature, avis n° 3340"
+        },
+        {
+          "region": "FR",
+          "officialId": "Assemblée nationale, 17e législature, avis n° 3337"
+        },
+        {
+          "region": "FR",
+          "officialId": "plf-2027-montage-20261015"
+        }
+      ]
+    },
+    {
+      "id": "fr-social-security-2027-legislative-progress",
+      "title": [
+        "法国2027年社保融资案：草案与委员会意见",
+        "France’s 2027 social-security financing: bill and committee opinion"
+      ],
+      "basis": "The official opinion metadata and plenary text explicitly identify the same numbered bill. This groups legislative documents only, without implying final adoption. Crypto-specific amendments remain a separate narrower matter.",
+      "appliesFromExport": "2026-10-15T09:01:59.265Z",
+      "documents": [
+        {
+          "region": "FR",
+          "officialId": "Projet de loi de financement de la sécurité sociale pour 2027, n° 3211"
+        },
+        {
+          "region": "FR",
+          "officialId": "Assemblée nationale, 17e législature, avis n° 3339"
+        }
+      ]
+    },
+    {
+      "id": "ch-customs-ordinances-consultation-2026",
+      "title": [
+        "瑞士海关执行条例征询",
+        "Swiss customs implementing-ordinance consultation"
+      ],
+      "basis": "The consultation notice and government announcement both explicitly identify the same customs-ordinance consultation opened on 14 October 2026.",
+      "documents": [
+        {
+          "region": "CH",
+          "url": "https://www.admin.ch/de/newnsb/ZDMSU-iEkLJK",
+          "title": "Vernehmlassungseröffnung: Eidgenössisches Finanzdepartement"
+        },
+        {
+          "region": "CH",
+          "url": "https://www.admin.ch/de/newnsb/Jmo3fhpgMuJt",
+          "title": "Zollverordnungen: Bundesrat eröffnet Vernehmlassung"
+        }
+      ],
+      "appliesFromExport": "2026-10-15T09:27:07.385Z"
+    },
+    {
+      "id": "ch-disability-political-rights-consultation-2026",
+      "title": [
+        "瑞士残障人士政治权利修订征询",
+        "Swiss consultation on political rights of persons with disabilities"
+      ],
+      "basis": "Both texts identify the constitutional and political-rights revision consultation opened on 14 October 2026, not the separate adult-protection revision.",
+      "documents": [
+        {
+          "region": "CH",
+          "url": "https://www.admin.ch/de/newnsb/wbniUxzTspl7",
+          "title": "Vernehmlassungseröffnung: Eidgenössisches Justiz- und Polizeidepartement"
+        },
+        {
+          "region": "CH",
+          "url": "https://www.admin.ch/de/newnsb/E7kYfiMOZOmH",
+          "title": "Politische Rechte für Menschen mit Behinderungen stärken"
+        }
+      ],
+      "appliesFromExport": "2026-10-15T09:27:07.385Z"
+    },
+    {
+      "id": "ch-ecommerce-agreement-consultation-2026",
+      "title": [
+        "瑞士电子商务协定征询",
+        "Swiss E-Commerce Agreement consultation"
+      ],
+      "basis": "Both texts explicitly identify the E-Commerce Agreement consultation opened on 14 October 2026.",
+      "documents": [
+        {
+          "region": "CH",
+          "url": "https://www.admin.ch/de/newnsb/j4oVbnYxB8Fq",
+          "title": "Vernehmlassungseröffnung: Departement für Wirtschaft, Bildung und Forschung"
+        },
+        {
+          "region": "CH",
+          "url": "https://www.admin.ch/de/newnsb/cX62ZqR2mreH",
+          "title": "Neues Abkommen für den digitalen Handel"
+        }
+      ],
+      "appliesFromExport": "2026-10-15T09:27:07.385Z"
+    },
+    {
+      "id": "ch-critical-device-shortage-consultation-2026",
+      "title": [
+        "瑞士关键医疗器械供应短缺报告义务征询",
+        "Swiss consultation on reporting shortages of critical medical devices"
+      ],
+      "basis": "Both texts identify the same proposed extension of shortage-reporting duties to critical medical devices.",
+      "documents": [
+        {
+          "region": "CH",
+          "url": "https://www.admin.ch/de/newnsb/jjqFUfO9SD05",
+          "title": "Vernehmlassungseröffnung: Departement für Wirtschaft, Bildung und Forschung"
+        },
+        {
+          "region": "CH",
+          "url": "https://www.admin.ch/de/newnsb/CjMfSkioYMfq",
+          "title": "Einführung einer Meldepflicht bei Versorgungsstörungen bei lebenswichtigen Medizinprodukten"
+        }
+      ],
+      "appliesFromExport": "2026-10-15T09:27:07.385Z"
+    },
+    {
+      "id": "ch-food-ordinances-consultation-2026",
+      "title": [
+        "瑞士2026年食品法规修订征询",
+        "Swiss 2026 food-law ordinance consultation"
+      ],
+      "basis": "Both records announce the same package of 16 food-law ordinances opened on 13 October 2026.",
+      "documents": [
+        {
+          "region": "CH",
+          "url": "https://www.admin.ch/de/newnsb/g361eekwklma",
+          "title": "Vernehmlassungseröffnung: Eidgenössisches Departement des Innern"
+        },
+        {
+          "region": "CH",
+          "url": "https://www.admin.ch/de/newnsb/8nw0jvLIyq5h",
+          "title": "Revision im Lebensmittelrecht: Vernehmlassung eröffnet"
+        }
+      ],
+      "appliesFromExport": "2026-10-15T09:27:07.385Z"
+    },
+    {
+      "id": "ch-uri-klausen-roadworks-oct2026",
+      "title": [
+        "乌里Klausenpass道路工程夜间封闭",
+        "Uri Klausenpass roadworks night closures"
+      ],
+      "basis": "The notices explicitly describe successive stages of the Klausenpass roadworks: dismantling and resurfacing. Their separate closure dates and exceptions remain attached to each record.",
+      "documents": [
+        {
+          "region": "CH-UR",
+          "url": "https://www.ur.ch/_rte/information/138844",
+          "title": "Kanton Uri - Klausenpass: Nachtsperrung wegen Belagseinbau"
+        },
+        {
+          "region": "CH-UR",
+          "url": "https://www.ur.ch/_rte/information/138700",
+          "title": "Kanton Uri - Klausenpass: Nachtsperrung wegen Demontagearbeiten"
+        }
+      ],
+      "appliesFromExport": "2026-10-15T09:27:07.385Z"
+    },
+    {
+      "id": "ch-uri-energy-law-implementation",
+      "title": [
+        "乌里新能源法及建筑实施规则",
+        "Uri energy law and building implementation rules"
+      ],
+      "basis": "The 5 October cantonal announcement explicitly explains implementation of the 2023 energy law and the same 1 October 2026 commencement. The stable explanation identifier is retained; its old source snapshot is not deleted.",
+      "documents": [
+        {
+          "region": "CH-UR",
+          "url": "https://www.ur.ch/_rte/information/138820",
+          "title": "Kanton Uri"
+        }
+      ],
+      "explanations": [
+        "ch-ur-energy-law"
+      ],
+      "appliesFromExport": "2026-10-15T09:27:07.385Z"
     }
   ]
 }

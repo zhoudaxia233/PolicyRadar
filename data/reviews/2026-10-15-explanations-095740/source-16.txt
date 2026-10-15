@@ -1,0 +1,1559 @@
+RECOMMANDATION AMF
+DOC-2026-06
+ARRÊTÉ DES COMPTES 2026 ET TRAVAUX DE REVUE DES ÉTATS FINANCIERS
+
+Texte de référence : article 223-1 du règlement général de l’AMF
+
+Ces recommandations s’adressent principalement aux sociétés préparant leurs états financiers selon le référentiel
+IFRS1 (règlement IAS n°1606/2002 de l’Union européenne) quel que soit leur secteur d’activité (industrie, services,
+banque, assurance, etc.).
+La mission d’élaboration et d’interprétation des normes comptables internationales est du ressort exclusif de l’IASB
+et du comité d’interprétation des normes internationales, l’IFRS IC. Pour être conforme au référentiel IFRS, une
+société doit appliquer dès que raisonnablement possible les décisions de l’IFRS IC tout en ayant un délai suffisant
+pour mettre en œuvre les changements de principes comptables qui en résulteraient. L’AMF, à l’instar de l’ESMA
+ou d’autres régulateurs, identifie avant chaque clôture annuelle les sujets comptables et financiers qui paraissent
+importants pour les sociétés cotées, y compris leurs comités d’audit, ainsi que leurs commissaires aux comptes.
+L’AMF contribue ainsi à la protection de l’épargne et à une bonne information des investisseurs au moyen d’une
+information comptable et financière de qualité. Certaines des recommandations ci-après invitent les sociétés à
+fournir des descriptions ou des explications dans leurs états financiers. S’agissant d’aspects particuliers des normes,
+les thèmes traités ne trouveront pas à s’appliquer à toutes les sociétés et le niveau d’information sera adapté à
+l’importance relative du sujet.
+
+L’ESMA a identifié au niveau européen des priorités communes de supervision :
+ - Concernant les états financiers 2026 :
+       • Risques géopolitiques et incertitudes
+       • Provisions pour restructuration et restructuration de dettes
+ -   Concernant l’état de durabilité :
+       • Assurer la cohérence des informations entre les impacts risques et opportunités, les politiques, actions
+          et cibles, et les indicateurs
+       • Continuer à progresser dans l’analyse de la matérialité
+ -   Concernant le balisage du tableau de variation des capitaux propres des états financiers au format
+     électronique européen (ESEF).
+
+Les présentes recommandations AMF reprennent les priorités2 de l’ESMA sur les aspects financiers (« section 1 »
+du document ESMA) et le format ESEF (« section 3 » du document ESMA) complétées cette année de deux études
+sur IFRS 8 et IFRS 18. Dans certains cas, l’AMF a adapté les sujets au contexte spécifique français. Des références
+au document ESMA sont faites afin de faciliter le lien entre les deux documents. Concernant l’état de durabilité
+(« section 2 » du document ESMA), l’AMF encourage les sociétés à mettre en œuvre les priorités de l’ESMA. Une
+traduction libre en français de ces priorités est par ailleurs disponible sur le site de l’AMF.
+
+L’AMF encourage par ailleurs les sociétés à prendre connaissance de la table des matières3 qui reprend l’ensemble
+des recommandations formulées dans le cadre des Recommandations d’arrêté des comptes passées qui sont
+toujours en vigueur.
+
+
+
+
+1 Ce document comporte également des points d’attention relatifs à l’application des normes comptables françaises.
+2
+    ESMA - European common enforcement priorities for 2026 corporate reporting
+3 Table des matières des recommandations d’arrêté des comptes applicables au 1er janvier 2026
+
+
+
+Document créé le 13 octobre 2026
+Recommandation AMF - DOC-2026-06 - Arrêté des comptes 2026 et travaux de revue des états financiers
+
+
+                                               Table des matières
+1.      Points d’attention spécifiques ou nouvelles normes et réglementations .................................................... 3
+     1.1.    Points d’attention sur IFRS 18 - Présentation et informations à fournir dans les états financiers ........ 3
+     1.2.    Amendements à IFRS 9 / IFRS 7 ............................................................................................................... 5
+     1.3.    Mécanisme d’Ajustement Carbone aux Frontières (« MACF ») .............................................................. 6
+     1.4.    Fonds monétaires – mécanisme de liquidité ........................................................................................... 6
+     1.5.    Distinction entre dettes et autres fonds propres en normes françaises ................................................ 7
+2.      Recommandations en vue de l’arrêté des comptes 2026 ............................................................................. 7
+     2.1.    Risques géopolitiques et incertitudes ...................................................................................................... 7
+        2.1.1.         Risque de liquidité et gestion de la liquidité ................................................................................ 7
+        2.1.1.1.       Echéancier des passifs financiers .................................................................................................. 8
+        2.1.1.2.       Trésorerie et équivalents de trésorerie indisponibles ................................................................. 8
+        2.1.1.3.       Clauses restrictives (« covenants ») .............................................................................................. 9
+        2.1.2.         Juste valeur et informations en annexe ....................................................................................... 9
+        2.1.3.         Actifs non courants détenus en vue de la vente et activités abandonnées .............................. 10
+        2.1.3.1.       Classement tardif ou anticipé en actifs détenus en vue de la vente ......................................... 10
+        2.1.3.2.       Retard dans la réalisation de la cession prévue au-delà de 12 mois ......................................... 12
+        2.1.4.         Risque de crédit et pertes de crédit attendues (Institutions financières) ................................. 12
+     2.2.    Provisions pour restructuration et restructuration de dettes............................................................... 13
+        2.2.1.         Provisions pour restructuration .................................................................................................. 13
+        2.2.1.1.       Date de reconnaissance des provisions pour restructuration ................................................... 13
+        2.2.1.2.       Evaluation des provisions pour restructuration ......................................................................... 13
+        2.2.2.         Indemnités de licenciement et liquidation de régime ............................................................... 14
+        2.2.2.1.       Indemnités de licenciement ........................................................................................................ 14
+        2.2.2.2.       Modification, réduction ou liquidation de régime ..................................................................... 14
+        2.2.3.         Restructuration d’instruments financiers ................................................................................... 15
+        2.2.3.1.       Renégociation ou restructuration des emprunts ....................................................................... 15
+        2.2.3.2.       Renégociation ou restructuration des prêts (Institutions financières)...................................... 16
+     2.3.    Reporting électronique – ESEF (« European Single Electronic Format ») ............................................. 16
+3.      Revue des états financiers ........................................................................................................................... 19
+     3.1.    Cas pratiques .......................................................................................................................................... 19
+        3.1.1.         Evolution des analyses de sensibilité - IAS 36 ............................................................................ 19
+        3.1.2.         Informations communiquées au titre des regroupements d’entreprises - IFRS 3 .................... 19
+        3.1.3.         Format électronique unique européen - ESEF ............................................................................ 20
+        3.1.4.         Modernisation des états financiers en normes françaises ........................................................ 20
+     3.2.    Sélection des émetteurs et type de revue de la période....................................................................... 21
+        3.2.1.         Sélection initiale des émetteurs et type de revue ...................................................................... 21
+        3.2.2.         Recommandations et points d’amélioration .............................................................................. 21
+        3.2.3.         Synthèse des recommandations et des points d’amélioration.................................................. 24
+        3.2.4.         Autres revues ............................................................................................................................... 26
+     3.3.    Focus sur les informations sectorielles (IFRS 8) ..................................................................................... 26
+        3.3.1.         Principaux éléments issus des revues ......................................................................................... 26
+        3.3.2.         Etude menée sur un échantillon de sociétés .............................................................................. 27
+
+
+Document créé le 13 octobre 2026                                                                                                                              2/30
+Recommandation AMF - DOC-2026-06 - Arrêté des comptes 2026 et travaux de revue des états financiers
+
+
+1.      Points d’attention spécifiques ou nouvelles normes et réglementations
+
+1.1. Points d’attention sur IFRS 18 - Présentation et informations à fournir dans les états financiers
+La norme IFRS 18 « Présentation et informations à fournir dans les états financiers » est d’application obligatoire
+pour les exercices ouverts à compter du 1er janvier 2027 et impose la publication dès les comptes semestriels 2027
+d’informations comparatives pour la période précédente et les réconciliations nécessaires4. L’entrée en vigueur de
+cette nouvelle norme a impliqué d'anticiper les travaux relatifs aux systèmes d'information, aux processus de
+reporting et d’évaluer comment la mise en œuvre de la norme IFRS 18 pourrait affecter d’autres domaines, par
+exemple les indicateurs de performance utilisés dans la communication financière ou dans les plans d’affaires et
+les éventuels impacts sur les mesures de rémunération du personnel.
+
+L’AMF rappelle la publication5 de l’ESMA du 17 février 2026 relative à IFRS 18 qui attire notamment l’attention des
+sociétés sur l’importance de veiller à la transparence des informations fournies dans les états financiers 2026 sur
+les impacts de la mise en œuvre de la norme incluant les indicateurs de performance (indicateurs de résultat)
+utilisés par la direction6, avec des exigences nouvelles en matière de présentation, de justification et de
+rapprochement avec les totaux et sous-totaux IFRS.
+
+Par ailleurs, l’AMF attire l’attention des émetteurs sur les conséquences de la norme IFRS 18 sur le reporting ESEF,
+obligeant à revoir les travaux de cartographie ou de choix des éléments de taxonomie à retenir ainsi que la
+nécessité éventuelle d’avoir recours à des extensions (y compris pour les informations comparatives).
+
+L’AMF encourage également les sociétés à suivre de près les discussions en cours au sein du Comité
+d’interprétation des normes IFRS (IFRS IC)7 concernant l’application de la norme IFRS 18, car ses décisions apportent
+des précisions supplémentaires sur l’application de certaines exigences.
+
+Enfin, l’AMF rappelle que l’ESMA a mis à jour ses FAQ8 relatives aux Orientations sur les IAP (Indicateurs Alternatifs
+de Performance) en février 2026. Une question a notamment été ajoutée afin de préciser leur articulation avec les
+mesures de performance définies par le management (MPM) introduites par IFRS 18. L’ESMA rappelle qu'un même
+indicateur de performance lié au compte de résultat peut, dans certaines circonstances, relever simultanément de
+la définition d'un MPM au sens d'IFRS 18 et d'un IAP au sens de ses orientations. Dans ce cas, l'émetteur doit
+respecter à la fois les exigences d'information prévues par IFRS 18 dans les états financiers et celles applicables aux
+IAP dans les communications réglementées. Aussi, il conviendra de veiller à ne pas présenter ces indicateurs avec
+plus de prééminence que ceux définis par les normes IFRS dans les supports de communication. Un enjeu
+supplémentaire portera sur la communication des informations exigées (notamment réconciliations, explications,
+définitions) au moment même de la publication de l’indicateur. Ainsi, si la société publie son indicateur dans un
+communiqué de presse avant la publication de ses états financiers audités, ces informations devront y être
+intégrées car il ne sera pas possible de renvoyer vers les annexes des états financiers.
+
+En ce qui concerne les mesures de performance fondées sur des revenus et des charges hypothétiques figurant
+dans les communications publiques, l’AMF rappelle aux émetteurs la question-réponse n° 18849 de l’ESMA. L’AMF
+invite notamment les émetteurs, avant de procéder à des ajustements des IAP10 précédemment utilisés ou d’inclure
+de nouveaux IAP, à évaluer attentivement si les ajustements envisagés ou les nouveaux IAP apporteraient des
+
+
+
+
+4 La norme IFRS 18 remplacera la norme IAS 1 à partir des exercices ouverts à compter du 1er janvier 2027.
+5 Cette publication est antérieure aux discussions en cours à l’IFRS IC. Certaines des positions exprimées dans cette publication pourraient être
+
+remises en cause par les positions finales de l’IFRS IC.
+6
+  Management-defined performance measures - « MPM »
+7 IFRIC Update mars 2026 et IFRIC Update juin 2026
+8 ESMA FAQ IAP
+9 ESMA Q&A n°1884
+10
+   L’AMF rappelle que les IAP qui ne sont pas des MPM ne doivent pas être présentés dans les notes des annexes des états financiers à
+l’exception de la dette nette couramment présentée par les émetteurs dans leurs comptes en France.
+
+Document créé le 13 octobre 2026                                                                                                          3/30
+Recommandation AMF - DOC-2026-06 - Arrêté des comptes 2026 et travaux de revue des états financiers
+
+
+informations transparentes et utiles au marché, et amélioreraient la comparabilité, la fiabilité et/ou l’intelligibilité
+des IAP et des informations financières communiquées au marché.
+
+Enfin, l’AMF attire l’attention des émetteurs sur les impacts de cette nouvelle norme quant à leur manière de
+communiquer sur leur performance financière en dehors des états financiers, ainsi que sur la nécessité d’informer
+le marché en cas de changement majeur dans les habitudes de communication financière (nouvel agrégat
+opérationnel retenu dans les communiqués de presse sur les résultats annuels par exemple).
+
+Information fournie dans les états financiers semestriels
+Afin d'apprécier le niveau d’informations communiquées par les émetteurs français et européens sur les effets
+attendus de l’application de cette nouvelle norme, l’AMF a réalisé une revue des états financiers semestriels 2026
+des sociétés du CAC 40 (39 sociétés hors clôture annuelle 30 juin) et de l'EURO STOXX 50 (50 sociétés dont 15 du
+CAC 40).
+
+A l’échelle de l’indice EURO STOXX 50, cette revue fait apparaître que la majorité des émetteurs (82,00 %)
+communiquent une information au titre d’IFRS 18 dans leurs comptes semestriels 2026 même si encore 18,00 %
+n’y font pas référence. Néanmoins, l’information communiquée par les émetteurs européens reste générique
+(information rappelant les principes généraux de la norme et le fait que des travaux d'analyse d'impact sont
+engagés, sans précision sur leur état d'avancement et/ou sur la nature des incidences identifiées) pour 34,00 %
+d’entre eux. Aucun émetteur de l’échantillon n’a fait le choix d’une application anticipée de la norme.
+
+
+
+
+Les résultats obtenus sont différents selon l’indice analysé (CAC 40 ou EURO STOXX 50 hors CAC 40).
+
+Sur le CAC 40, une majorité d'émetteurs (53,85 %, 21 sociétés) ont limité leur communication à une mention
+générique et seulement une minorité d’émetteurs ne font pas référence à IFRS 18 (7,69 %, 3 émetteurs).
+Sur le périmètre EURO STOXX 50 (hors valeurs du CAC 40, soit 35 sociétés), l’absence de mention à IFRS 18 est
+beaucoup plus fréquente (25,71%, 9 émetteurs) mais les émetteurs donnent pour près de la moitié (48,58 %, 17
+émetteurs) une information détaillée (plus spécifique à la société).
+
+
+
+
+Document créé le 13 octobre 2026                                                                                 4/30
+Recommandation AMF - DOC-2026-06 - Arrêté des comptes 2026 et travaux de revue des états financiers
+
+
+
+
+L’étude révèle également que l’information détaillée qui est communiquée par les émetteurs de l’indice EURO
+STOXX 50 diffère d’un émetteur à l’autre. Ainsi, parmi les 48,00 % d’émetteurs qui communiquent une information
+détaillée, l’étude montre que, dans les faits, environ un tiers d’entre eux fournissent une information parcellaire
+qui ne détaille que certaines des incidences attendues de l’application de la norme, l’analyse étant souvent
+indiquée comme étant encore en cours. De la même façon, l’étude révèle que la quasi-totalité des émetteurs
+fournissent une analyse qualitative des impacts de la norme (activité principale identifiée, MPM pressentis,
+description de la future structure du compte de résultat, catégorisation des principaux reclassements Exploitation/
+Investissement/ Financement) et seul un émetteur franchit l'étape de la quantification des impacts attendus, en
+communiquant l’impact chiffré qu’aurait eu l’application d’IFRS 18 sur son résultat opérationnel du premier
+semestre 2026.
+
+L’AMF rappelle l’importance de fournir dans les états financiers annuels 2026 une information qualitative
+davantage étoffée11 que celles fournies précédemment ainsi qu’une information quantitative et spécifique sur les
+impacts significatifs attendus de cette nouvelle norme dès lors que cette dernière est disponible, fiable et
+pertinente. Cette information reste attendue par le marché dans les états financiers annuels 2026 en application
+d’IAS 8.30-31. Il conviendra de préciser les éventuels éléments encore en cours d’analyse si l’information fournie
+n’est pas exhaustive.
+
+1.2. Amendements à IFRS 9 / IFRS 7
+L’AMF rappelle12 que des amendements à IFRS 9 et IFRS 7 sont applicables à compter du 1er janvier 2026 et portent
+principalement :
+
+     -     d’une part, sur certains contrats faisant référence à l’électricité produite à partir de sources naturelles ;
+     -     d’autre part, sur la décomptabilisation de passifs financiers réglés au moyen d’un système de paiement
+           électronique ainsi que sur le classement de certains instruments financiers comportant des clauses
+           contingentes telles que par exemple des objectifs environnementaux, sociaux et de gouvernance (ESG).
+
+L’AMF rappelle également que les sociétés doivent fournir en annexe 2026 des informations claires, spécifiques et
+transparentes sur l’impact de l’application de ces amendements sur leurs états financiers, si significatif.
+
+
+
+
+11 Notamment sur les modifications de présentation du compte de résultat, la détermination des activités principales ou encore les mesures de
+
+performance définies par le management (MPM)
+12 Voir également AMF DOC-2025-08 partie 1.3
+
+
+
+Document créé le 13 octobre 2026                                                                                                      5/30
+Recommandation AMF - DOC-2026-06 - Arrêté des comptes 2026 et travaux de revue des états financiers
+
+
+S’agissant plus particulièrement des dispositions de l’amendement relatives à la décomptabilisation d’un passif
+financier réglé au moyen d’un système de paiement électronique, l’AMF attire l’attention des sociétés sur le fait
+que dans certains cas elles devront recalculer les soldes d’ouverture des postes du bilan impactés au 1er janvier
+2026 même si elles choisissent de ne pas retraiter les périodes comparatives, conformément aux modalités de
+transition prévues. L’ajustement de la trésorerie d’ouverture devra être présenté dans le tableau des flux de
+trésorerie.
+
+L’AMF relève par ailleurs que des informations additionnelles sont requises pour les instruments financiers ayant
+des flux de trésorerie contractuels susceptibles d’être modifiés en cas d’occurrence de certains évènements
+contingents, par exemple les instruments financiers dont le taux peut varier en fonction de caractéristiques
+environnementales. Ainsi les sociétés devront notamment fournir une description qualitative de la nature de
+l’évènement, des informations quantitatives sur les modifications possibles des flux de trésorerie contractuels qui
+pourraient en découler, la valeur comptable brute des actifs financiers et le coût amorti des passifs financiers
+concernés.
+Ces informations complémentaires doivent être fournies, si matérielles, aussi bien pour les actifs que les passifs
+financiers.
+
+Enfin, concernant les contrats faisant référence à l’électricité produite à partir de sources naturelles, l’AMF rappelle
+l’importance de la cohérence entre les données publiées dans les autres éléments de l’état de durabilité et celles
+communiquées dans les états financiers (par exemple la note sur les dérivés ou celle sur les engagements hors
+bilan).
+
+1.3. Mécanisme d’Ajustement Carbone aux Frontières (« MACF »)
+Le Mécanisme d’Ajustement Carbone aux Frontières (« MACF »), qui vise à soumettre les produits importés à une
+tarification du carbone équivalente à celle appliquée aux industriels fabriquant ces mêmes produits dans l’Union
+Européenne, est entré en vigueur dans sa phase définitive le 1er janvier 2026.
+
+Ce mécanisme impose aux importateurs d’acier, de ciment, d’aluminium, d’engrais azotés, d’hydrogène ou
+d’électricité une restitution annuelle de certificats MACF qu’ils auront acquis au préalable. Il devrait
+progressivement être étendu à d’autres produits périphériques à ceux déjà identifiés.
+
+Ces certificats ne pourront être achetés qu’à compter du 1er février 2027, pour l’exercice 2026. L’obligation d’achat
+de certificats en vue de leur restitution au titre des importations réalisées en 2026 qui doit intervenir avant le 30
+septembre doit faire l’objet d’une provision au titre d’IAS 37, aussi bien dans les états financiers consolidés IFRS
+que dans les comptes sociaux 2026.
+Cette provision est estimée en appliquant aux émissions incorporées dans les importations le prix des certificats
+MACF correspondant au trimestre d’importation, déterminé sur la base des prix d’enchères des quotas de l’EU ETS.
+
+1.4. Fonds monétaires – mécanisme de liquidité
+La directive (UE) 2024/927 du 13 mars 2024, dite « AIFM 2 », impose aux sociétés de gestion de doter les OPCVM
+et les FIA13 ouverts d’au moins deux outils de gestion de la liquidité. Par dérogation, les fonds agréés au titre du
+règlement européen sur les fonds monétaires (règlement (UE) 2017/1131 dit « MMF ») doivent sélectionner au
+moins un outil de gestion de la liquidité.
+
+Dans ce contexte, interrogée par l’Association française de la gestion financière (AFG) et à l’issue de travaux
+d’analyse auxquels a contribué l’AMF, l’Autorité des Normes Comptables (ANC) précise, dans une lettre14 du 8 juillet
+2026, que la présence d’outils de gestion de la liquidité tels que le « swing pricing » ne change pas la présomption
+
+
+
+
+13
+     Fonds d’Investissement Alternatif
+14 Lettre ANC
+
+
+
+Document créé le 13 octobre 2026                                                                                 6/30
+Recommandation AMF - DOC-2026-06 - Arrêté des comptes 2026 et travaux de revue des états financiers
+
+
+d’éligibilité au classement en « trésorerie et équivalents de trésorerie » des fonds monétaires à valeur liquidative
+variable (VNAV), standards ou à court terme.
+
+Cette présomption reste toutefois réfutable, notamment en période de tensions sur les marchés et en cas
+d’activation de l’outil.
+
+Le guide15 de l’AMF sur les fonds monétaires sera mis à jour afin d’intégrer notamment la position de l’ANC.
+
+1.5. Distinction entre dettes et autres fonds propres en normes françaises16
+S’agissant du référentiel comptable français, la nouveauté majeure concerne l’application, aux exercices ouverts à
+compter du 1er janvier 2026, du règlement ANC n° 2024-07 relatif à la distinction dettes – autres fonds propres.
+
+L’AMF rappelle que ce règlement ne se limite pas à introduire une nouvelle définition des autres fonds propres
+applicable aux comptes sociaux (règlement ANC n°2014-03) et aux comptes consolidés établis selon les normes
+comptables françaises (règlement ANC n°2020-01) ; il supprime certaines dispositions du règlement ANC n° 2020-
+01, qui conduisaient à des divergences entre les comptes consolidés et les comptes sociaux quant à la définition
+des capitaux propres :
+
+- l'article 252-3 qui prévoyait la comptabilisation des titres auto-détenus en diminution des capitaux propres
+consolidés. À la suite de sa suppression, ces titres sont désormais maintenus à l’actif des comptes consolidés, selon
+les mêmes modalités que dans les comptes sociaux ;
+
+- l'article 273-1 qui offrait la possibilité de classer dans les capitaux propres consolidés les emprunts ne prévoyant
+ni remboursement à l'initiative du prêteur, ni rémunération obligatoire en cas d'absence ou d'insuffisance de
+bénéfice. A la suite de sa suppression les emprunts non remboursables ne peuvent plus être classés en capitaux
+propres non consolidés.
+
+2.         Recommandations en vue de l’arrêté des comptes 2026
+
+2.1. Risques géopolitiques et incertitudes
+Le contexte actuel de tensions géopolitiques accompagnées de politiques commerciales protectionnistes et de
+régimes de sanctions peut avoir des répercussions directes et indirectes significatives sur les activités des sociétés,
+leurs conditions de financement, l’évaluation de leurs actifs et leurs prévisions de flux de trésorerie, ainsi que sur
+les estimations, jugements et informations comptables liés. Les recommandations formulées l’an passé sur ces
+sujets demeurent d’actualité et l’AMF invite les émetteurs à s’y référer 17.
+2.1.1. Risque de liquidité et gestion de la liquidité
+Ce contexte géopolitique complexe et la hausse des taux d’intérêt rendent nécessaire, pour tous les émetteurs, la
+communication d’une information pertinente et adaptée sur le risque de liquidité 18.
+
+L’AMF rappelle aux sociétés l’importance d’être transparentes sur les évolutions du risque de liquidité et sur les
+outils mis en place pour le gérer, notamment en distinguant clairement les lignes de financement confirmées de
+celles qui ne le sont pas (négociations en cours, conditions suspensives non levées qui rendent la trésorerie non
+mobilisable, etc.) et leurs évolutions (IFRS 7.33c).
+
+
+
+
+15   Actualité AMF du 30 juillet 2026
+16 Voir également AMF DOC-2025- 08 partie 1.4
+17
+     Voir également AMF DOC-2025-08 partie 2.1
+18 Voir également AMF DOC-2024-05 partie 2.1
+
+
+
+Document créé le 13 octobre 2026                                                                                7/30
+Recommandation AMF - DOC-2026-06 - Arrêté des comptes 2026 et travaux de revue des états financiers
+
+
+Recommandation
+L’AMF recommande aux émetteurs de fournir une information transparente, détaillée et spécifique sur leur
+risque de liquidité, sur les outils mis en place et sur les sources de financement, en cas de difficultés de
+financement accrues du fait du contexte incertain à la clôture.
+Cf. ESMA section 1, priority 1.1 Liquidity risk and liquidity management paragraphe 3
+
+2.1.1.1. Echéancier des passifs financiers
+Une attention particulière doit être portée notamment aux échéanciers de dettes (établis sur des flux non
+actualisés) afin qu’un lecteur des états financiers puisse apprécier les engagements financiers pour lesquels
+l’émetteur va devoir opérer une sortie de trésorerie ou régler au moyen d’un autre actif financier (IFRS 7.39).
+
+Le paragraphe B11 d’IFRS 7 fournit un exemple d’intervalles de temps qui pourraient être présentés dans
+l’échéancier. Cependant, les sociétés doivent exercer leur jugement pour définir les intervalles de temps
+appropriés à retenir à chaque clôture.
+
+Recommandation
+Ainsi l’AMF recommande aux émetteurs d’adapter les bandes de maturité des échéanciers de passifs financiers
+(y compris les dettes locatives et les dettes fournisseurs), en découpant plus finement les bandes de maturité
+(intervalles de temps) concentrant des montants de remboursement significatifs.
+A ce titre, les sociétés peuvent devoir communiquer une granularité plus fine des échéanciers des passifs
+financiers, s’agissant des échéances attendues à moins d’un an mais également de celles attendues à plus long
+terme lorsque cela est pertinent (par exemple, au sein de la bande un à cinq ans). A défaut d’une telle ventilation,
+l’AMF encourage les sociétés à présenter une information narrative sur les montants de remboursement
+significatifs inclus dans les différentes bandes de maturité.
+Cf. ESMA section 1, priority 1.1 Liquidity risk and liquidity management paragraphe 2
+
+Par ailleurs l’AMF rappelle aux émetteurs qu’ils doivent également présenter un échéancier des actifs financiers
+détenus dans le cadre de la gestion de leur risque de liquidité (IFRS 7 B11E et BC.58D).
+
+
+2.1.1.2. Trésorerie et équivalents de trésorerie indisponibles
+Dans un contexte susceptible de limiter l’accès à la trésorerie, une information transparente sur la disponibilité
+des ressources de liquidité revêt une importance particulière pour les utilisateurs des états financiers.
+
+Conformément aux paragraphes 48 et 49 d’IAS 7, une entité est tenue de présenter le montant des soldes
+significatifs de trésorerie et d'équivalents de trésorerie qui ne sont pas disponibles pour le groupe, accompagné
+d'un commentaire de la direction expliquant la nature de ces restrictions (i.e. contrôles de change, restrictions
+légales ou réglementaires, ou encore limitations contractuelles empêchant la société mère ou les autres entités du
+groupe d’accéder librement à ces disponibilités). Par ailleurs, pour les intérêts détenus dans les autres entités, IFRS
+12.13 traite des restrictions qui limitent la capacité d’une société mère et de ses filiales de transférer de la
+trésorerie au sein du groupe.
+
+Recommandation
+Dans ce contexte, l’AMF recommande aux émetteurs de fournir des informations complémentaires sur les
+restrictions significatives affectant la trésorerie et les équivalents de trésorerie, en précisant notamment les pays
+concernés et leur durée prévisible, ainsi que leur évolution par rapport à l’exercice précédent.
+Ces informations doivent permettre aux lecteurs des états financiers d’apprécier les incidences de ces
+restrictions sur la liquidité disponible et la capacité de la société à mobiliser ses ressources de trésorerie.
+Cf. ESMA section 1, priority 1.1 Liquidity risk and liquidity management paragraphe 4
+
+
+
+
+Document créé le 13 octobre 2026                                                                                8/30
+Recommandation AMF - DOC-2026-06 - Arrêté des comptes 2026 et travaux de revue des états financiers
+
+
+Par ailleurs l’AMF attire l’attention des sociétés qui n’auraient pas appliqué l’option de décomptabilisation des
+passifs réglés au moyen d’un système de paiement électronique sur le fait qu’elles doivent mentionner les
+montants faisant l’objet d’instructions irrévocables de paiement à la clôture comme des montants soumis à
+restriction, conformément à ce qui est rappelé par IFRS 9. BC3.63.
+2.1.1.3. Clauses restrictives (« covenants »)
+Les recommandations formulées les années précédentes concernant les informations relatives aux clauses
+restrictives demeurent pleinement applicables. L'AMF a constaté que les informations publiées par les émetteurs
+sont globalement de bonne qualité et cohérentes entre les états financiers et le rapport de gestion. Toutefois,
+compte tenu du contexte actuel caractérisé par un recours plus fréquent aux opérations de refinancement et de
+restructuration de la dette, l’AMF souhaite attirer l'attention des émetteurs sur l’importance des informations
+requises par IAS 119 sur les clauses restrictives (« covenants ») ainsi que les conséquences que ces opérations de
+refinancement et de restructuration peuvent avoir eues sur ces « covenants ».
+
+Recommandation
+L’AMF rappelle ses recommandations 202420 sur le sujet et notamment celle de communiquer pour chaque
+emprunt significatif tiré ou non, les clauses restrictives applicables, la ou les date(s) de vérification de la clause,
+la formule et la méthodologie de détermination du ratio à respecter ainsi que le résultat du calcul à la dernière
+date de vérification.
+Par ailleurs, l’AMF recommande aux émetteurs de présenter une information transparente sur les modifications
+apportées aux « covenants » à la suite de restructuration ou de renégociation de dettes. Cette information doit
+permettre aux utilisateurs des états financiers de les comprendre et d’apprécier la capacité de la société à les
+respecter.
+Cf. ESMA section 1, priority 1.1 Liquidity risk and liquidity management paragraphes 5 et 6
+
+L’AMF rappelle que dans le cas du non-respect constaté d’une clause restrictive à la date de clôture ou avant, le
+reclassement du passif en courant n’est pas affecté par les possibles négociations (y compris les « waivers »
+obtenus) avec le prêteur dès lors que celles-ci interviendraient entre la date de clôture et la date d’arrêté des
+comptes (IAS 1.74).
+
+
+2.1.2. Juste valeur et informations en annexe
+La pression inflationniste, la volatilité des prix de l’énergie ou encore l’environnement macroéconomique de plus
+en plus complexe peuvent affecter les calculs de juste valeur, les projections de flux de trésorerie21 basés sur des
+hypothèses opérationnelles étant plus compliquées à déterminer. Cette difficulté provient notamment de la
+multiplication des scénarios et des incertitudes qui pèsent sur les différentes hypothèses de flux qui impactent
+notamment l’évaluation à la juste valeur des actifs et des passifs22.
+
+L’AMF rappelle que les émetteurs doivent s’assurer que leur valorisation à la juste valeur reflète, de façon
+appropriée, les incertitudes et les risques à la date de clôture. Ces derniers pourront ainsi être amenés à ajuster en
+conséquence les hypothèses opérationnelles ainsi que les hypothèses financières 23 (taux d’actualisation et taux de
+croissance long terme) en maximisant le recours à des données observables24.
+L’AMF rappelle également que la baisse du nombre de transactions ne doit pas conduire automatiquement à
+considérer qu’un cours coté n’est plus pertinent (IFRS 13.B38).
+
+
+
+19 La norme IAS 1 sera remplacée par la norme IFRS 18 à partir des exercices ouverts à compter du 1er janvier 2027.
+20 Voir également AMF DOC-2024-05 partie 2.1.2
+21
+     IFRS 13 B13 à B30.
+22 Incluant notamment les instruments financiers (IFRS 9), les tests de dépréciation des actifs (IAS 36), les immeubles de placement (IAS 40), les
+
+regroupements d’entreprises (IFRS 3) et les actifs non courants détenus en vue de la vente et activités abandonnées (IFRS 5).
+23 S’agissant des hypothèses retenues au titre des tests de dépréciation et de l’analyse de la continuité d’exploitation, l’AMF rappelle que ses
+
+recommandations précédentes restent applicables. Voir AMF DOC-2024-05 partie 2.1.4 et AMF DOC-2025-08 partie 2.1.2.
+24 IFRS 13.67 et B38
+
+
+
+Document créé le 13 octobre 2026                                                                                                          9/30
+Recommandation AMF - DOC-2026-06 - Arrêté des comptes 2026 et travaux de revue des états financiers
+
+
+Recommandation
+L'AMF rappelle aux émetteurs que, dans le contexte d’incertitudes persistantes, la projection des flux de
+trésorerie basés sur des hypothèses opérationnelles et financières aux fins de l’évaluation d’actifs et de passifs
+à la juste valeur fait appel à des jugements importants (IAS 1.125) mais doit cependant refléter les hypothèses
+qu’utiliserait un acteur de marché (IFRS 13.87 et B13).
+S’agissant des informations requises par IFRS 13.91, 13.93 (d et f à h) et IAS 36.134 (e), l’AMF recommande aux
+émetteurs de communiquer de manière transparente une information suffisamment détaillée et spécifique
+notamment sur les principales hypothèses utilisées, en particulier lorsque ces dernières ont été ajustées pour
+prendre en compte un risque propre ou encore lorsqu’elles impliquent des jugements importants.
+Cf. ESMA section 1, priority 1.1 Fair value measurement and disclosures paragraphes 2 et 4
+
+L’AMF observe, en lien avec les opérations de variation de périmètre (acquisitions et cessions d’activités ou de
+groupes d’actifs), que les potentiels compléments de prix sont par exemple souvent évalués à la juste valeur selon
+une méthode d’actualisation des flux futurs de trésorerie. Ces compléments de prix dépendent, pour la plupart,
+de l’atteinte d’objectifs opérationnels tels qu’un volume de vente prédéfini, la réalisation d’un niveau d’EBITDA ou
+encore la réalisation d’un pourcentage de croissance du chiffre d’affaires sur une période donnée.
+Cette évaluation à la juste valeur se base sur des hypothèses opérationnelles qui sont propres à chaque société et
+sont donc qualifiées de données non observables. IFRS 13.93(d) requiert, pour les justes valeurs évaluées de façon
+récurrente ou non et classées au niveau 2 ou 3 de la hiérarchie des justes valeurs, de fournir une description de la
+méthode d’évaluation ainsi que des données utilisées. Des informations quantitatives sur les données non
+observables utilisées importantes doivent également être communiquées pour les justes valeurs classées au niveau
+3 de la hiérarchie des justes valeurs.
+
+Recommandation
+L’AMF recommande aux émetteurs ayant des compléments de prix significatifs de décrire la manière dont ces
+compléments de prix sont contractuellement calculés, et rappelle les informations requises par IFRS 3. B 64 g
+(iii) (fourchettes estimées des montants pouvant être reçus ou payés en fonction de l’atteinte ou non de seuils
+opérationnels, plafonds, etc.).
+
+Enfin, l’AMF souligne que les émetteurs doivent également expliquer comment le contexte macroéconomique a
+pu impacter le processus de valorisation des instruments classés en niveau 3 de la hiérarchie de juste valeur et si
+des ajustements complémentaires pour prendre en compte les risques liés au contexte macroéconomique ont été
+appliqués (IFRS 13.88). L’AMF rappelle également aux émetteurs de présenter une analyse de sensibilité à une
+évolution des hypothèses opérationnelles et financières qui pourrait résulter en une variation significative de la
+juste valeur (IFRS 13.93(h)), par exemple celles sur lesquelles est calculé le complément de prix, afin de permettre
+aux lecteurs des états financiers d’apprécier les éventuels impacts de futures réévaluations du complément de
+prix.
+
+
+2.1.3. Actifs non courants détenus en vue de la vente et activités abandonnées
+Dans le contexte économique et géopolitique actuel, marqué par des incertitudes susceptibles d’affecter les plans
+stratégiques de cession de nombreux émetteurs (dans le cadre de cessions d’actifs ou de sortie d’un marché),
+l'application des critères de classement en actifs (ou groupes d'actifs) détenus en vue de la vente ou en activités
+devant être abandonnées prévus par IFRS 5, revêt une importance particulière afin d’éviter un classement
+inapproprié (un retard dans le classement de certains actifs, ou à l'inverse, une anticipation de ce classement ou
+encore, un maintien prolongé en actifs détenus en vue de la vente lorsque cette dernière ne se réalise pas dans le
+délai d'un an initialement envisagé).
+
+
+2.1.3.1. Classement tardif ou anticipé en actifs détenus en vue de la vente
+IFRS 5.6 à 8 posent trois conditions cumulatives pour qu'un actif non courant (ou un groupe destiné à être cédé)
+soit classé comme détenu en vue de la vente : l'actif doit être disponible en vue de la vente (i) immédiatement, (ii)
+
+Document créé le 13 octobre 2026                                                                             10/30
+Recommandation AMF - DOC-2026-06 - Arrêté des comptes 2026 et travaux de revue des états financiers
+
+
+dans son état actuel, et (iii) cette vente doit être hautement probable. Ce dernier critère s’apprécie au regard de
+l’engagement de la direction dans un plan de vente, de la mise en œuvre d’un projet actif pour trouver un acheteur
+et de la finalisation de la vente dans un délai de 12 mois (sous réserve des exceptions prévues dans l’annexe B
+d’IFRS 5), ainsi que du caractère raisonnable du prix de vente demandé par rapport à la juste valeur actuelle de
+l’actif. Dès lors que ces conditions sont réunies, le classement ne doit pas être différé.
+
+L'AMF avait déjà relevé, dans ses recommandations précédentes 25, qu'un décalage pouvait exister entre la
+communication des sociétés sur leurs plans de cession d'actifs et le classement effectif plus tardif en actifs détenus
+en vue de la vente. Ce décalage étant susceptible de susciter des interrogations chez les utilisateurs des états
+financiers, notamment lorsque la cession intervient peu de temps après la clôture, l'AMF avait ainsi encouragé les
+sociétés à clarifier, dans les cas significatifs, l'analyse effectuée pour déterminer dans quelle mesure les critères de
+classement étaient remplis.
+
+Le contexte d'incertitude actuel peut rendre plus difficile, pour les émetteurs, l'appréciation du caractère
+« hautement probable » d'une vente, et les conduire à différer le classement d'un actif en actifs détenus en vue de
+la vente sans que ce report soit facilement compréhensible par un lecteur des états financiers. L'AMF souligne que
+les difficultés à évaluer certaines conditions (par exemple obtention d'autorisations réglementaires ou
+concurrentielles, approbation des actionnaires, etc.) ne doivent pas conduire systématiquement à différer le
+classement : il convient d'apprécier, sans attendre la levée effective de l’ensemble de ces conditions, si la
+réalisation de la cession peut être vue comme hautement probable à la date de clôture.
+À l'inverse, l’évaluation de ces mêmes conditions pourrait conduire certains émetteurs à anticiper le classement
+d'un actif en actifs détenus en vue de la vente, notamment afin de prendre en compte les effets comptables
+associés à ce classement (arrêt des amortissements, présentation distincte lorsque le groupe destiné à être cédé
+remplit la définition d’une activité abandonnée). L'AMF rappelle que les trois conditions cumulatives d'IFRS 5.6 à 8
+doivent être effectivement réunies à la date de clôture pour justifier un tel classement, et qu'un engagement qui
+ne serait pas pris au niveau hiérarchique approprié, ou un projet de vente dont la probabilité de réalisation dans
+les 12 mois ne serait pas suffisamment établie, ne permettent pas de conclure à un classement en actifs détenus
+en vue de la vente. De même la vente d’une activité qui nécessiterait une restructuration (IAS 37) préalable ne
+remplirait pas le critère de cessibilité dans son état actuel.
+
+Recommandation
+ L'AMF rappelle aux émetteurs la nécessité de présenter en annexe, pour les cas significatifs, l'analyse ayant
+ conduit à classer ou à ne pas classer un actif non courant ou un groupe destiné à être cédé comme détenu en
+ vue de la vente, dès que les critères d'IFRS 5.6 à 8 sont susceptibles d'être remplis.
+
+ Cette information est notamment attendue lorsque les utilisateurs des états financiers pourraient
+ légitimement attendre une analyse ou une conclusion différente au regard des informations disponibles sur
+ le marché.
+ En particulier, l’AMF recommande aux émetteurs d’expliciter les éléments ayant conduit à :
+      -   conclure que les critères de classement prévus par IFRS 5 n'étaient pas remplis à la date de clôture,
+          alors même qu'un projet de cession avait fait l'objet d'une communication financière avant cette
+          date ou que l'opération a été finalisée peu de temps après celle-ci ;
+      -   différer le classement dans l’attente de la réalisation d’une condition, telle que l’obtention d’une
+          autorisation réglementaire ou l’approbation des actionnaires, en justifiant en quoi cette condition
+          était de nature à remettre en cause le caractère hautement probable de la vente ;
+      -   à l’inverse retenir le classement en actif détenu en vue de la vente, en démontrant que la décision
+          de céder l’actif a été prise au niveau approprié (au regard de la nature et de l'importance de
+          l'opération) ;
+
+
+
+
+25 Voir également la table des matières - section IFRS 5 (AMF DOC-2012-16 partie 5.1.1)
+
+
+
+Document créé le 13 octobre 2026                                                                                11/30
+Recommandation AMF - DOC-2026-06 - Arrêté des comptes 2026 et travaux de revue des états financiers
+
+
+       -    retenir le classement en actif détenu en vue de la vente alors que l’état connu de l’actif paraît
+            incompatible avec une cession immédiate dans son état actuel (par exemple nécessité d’une
+            restructuration préalable (IAS 37)).
+Cf. ESMA section 1, priority 1.1 Non-current assets held for sale and discontinued operations paragraphes 1 et 2
+
+
+2.1.3.2. Retard dans la réalisation de la cession prévue au-delà de 12 mois
+IFRS 5.8 prévoit que la vente d'un actif classé comme détenu en vue de la vente doit normalement se réaliser dans
+le délai d'un an suivant son classement. IFRS 5.9 admet toutefois qu'un tel délai puisse être prolongé sans remettre
+en cause le classement, dès lors que le retard résulte d'événements ou de circonstances indépendants du contrôle
+de l'entité et qu'il existe suffisamment d'éléments probants démontrant que l'entité demeure engagée dans son
+plan de cession. L'annexe B de la norme précise les situations dans lesquelles une telle prolongation peut être
+admise (par exemple la survenance, pendant la période initiale d'un an, de circonstances auparavant jugées peu
+probables).
+Dans le contexte économique actuel, les délais de réalisation de cessions peuvent se trouver allongés au-delà d'un
+an, en raison par exemple de l'évolution des conditions de marché affectant la recherche d'un acquéreur. Ces
+circonstances ne justifient toutefois le maintien du classement comme détenu en vue de la vente que si les
+conditions prévues par IFRS 5.9 et l’annexe B sont remplies.
+
+Recommandation
+L'AMF rappelle aux émetteurs concernés par le dépassement du délai d'un an d'indiquer clairement, en annexe,
+les événements et circonstances à l'origine de l’allongement de ce délai (par exemple le désengagement d'un
+acquéreur pressenti ou une évolution défavorable des conditions de marché affectant le processus de cession),
+en démontrant qu'ils sont en dehors du contrôle de l'entité, ainsi que les éléments probants justifiant que cette
+dernière demeure engagée dans son plan de cession (tel que l’état d’avancement des échanges avec des
+acquéreurs potentiels), conformément à IFRS 5.9 et à l'annexe B de la norme.
+
+Lorsque cette information est pertinente (IAS 1), l’AMF recommande également aux émetteurs de présenter les
+principales conséquences qu'aurait sur les états financiers l'absence de réalisation de la cession dans les délais
+désormais anticipés (par exemple rattrapage en matière d’amortissement).
+Cf. ESMA section 1, priority 1.1 Non-current assets held for sale and discontinued operations paragraphe 2
+
+
+2.1.4. Risque de crédit et pertes de crédit attendues (Institutions financières)
+Dans la continuité de ses précédentes recommandations 26, l’AMF rappelle que les incertitudes liées au contexte
+macroéconomique peuvent affecter le risque de crédit et le montant des pertes de crédit attendues.
+
+Recommandation
+L’AMF recommande aux établissements bancaires, dans le cadre de la détermination des pertes de crédit
+attendues, de s’assurer que les modèles existants, les hypothèses retenues et les « managements overlays »
+reflètent correctement les effets des incertitudes croissantes du contexte à la clôture. L’augmentation de ces
+dernières pouvant peser différemment sur certains secteurs, certaines zones géographiques ou certaines
+contreparties spécifiques auxquels les établissements bancaires peuvent être exposés, l’AMF recommande aux
+sociétés une vigilance accrue sur ces sujets.
+Cf. ESMA section 1, priority 1.1 Non-current assets held for sale and discontinued operations paragraphe 3
+
+
+
+
+26 Voir également AMF DOC-2025-08 partie 2.1.7
+
+
+
+Document créé le 13 octobre 2026                                                                                   12/30
+Recommandation AMF - DOC-2026-06 - Arrêté des comptes 2026 et travaux de revue des états financiers
+
+
+2.2. Provisions pour restructuration et restructuration de dettes
+2.2.1. Provisions pour restructuration
+Le contexte macroéconomique actuel peut conduire certaines sociétés à mettre en place de nouveaux plans de
+restructuration. L’AMF a rappelé dans ses recommandations antérieures les modalités de reconnaissance des
+provisions pour restructuration.
+
+
+2.2.1.1. Date de reconnaissance des provisions pour restructuration
+En complément de ses recommandations précédentes27, l’AMF souligne que l’obligation implicite de restructurer
+est générée uniquement lorsqu’une entité a un plan formalisé et détaillé et que les personnes concernées ont une
+attente fondée que la restructuration sera mise en œuvre. (IAS 37.72).
+
+La simple annonce publique ou la seule décision par la direction ou le conseil d’administration de restructurer avant
+la date de clôture ne permet pas isolément de considérer l’existence d’une obligation implicite. La prise en compte
+d’autres facteurs (plan suffisamment détaillé, annonce faite aux personnes concernées ou leurs représentants,
+début d’exécution du plan de restructuration, etc.) est également nécessaire pour apprécier l’existence d’une
+obligation implicite (IAS 37.73 à 75).
+
+En France, ces restructurations peuvent notamment inclure un plan de sauvegarde de l’emploi (PSE) dont la mise
+en œuvre est définie par le Code du Travail. La reconnaissance d’une provision pour restructuration dépend de
+l’avancée28 de ces plans (information au comité d’entreprise, ouverture des négociations avec les organisations
+syndicales, consultations administratives en cours, etc.).
+
+Recommandation
+L’obligation de comptabiliser une provision dépend des faits et circonstances propres à chaque situation. L’AMF
+rappelle aux sociétés qu’IAS 37.71 précise comment les critères généraux de comptabilisation d’une provision
+s’appliquent aux provisions pour restructuration.
+L’AMF recommande aux sociétés significativement impactées de communiquer l’analyse, ainsi que les
+principaux éléments pris en compte dans cette analyse (i.e. communication aux personnes concernées ou leurs
+représentants, consultation des organisations syndicales, etc.) les ayant conduites à reconnaître une provision
+pour restructuration à la clôture, pour répondre aux informations qualitatives et quantitatives requises par IAS
+37.
+Par ailleurs, l’AMF rappelle que la comptabilisation d’une provision pour restructuration peut avoir des
+incidences sur l’application d’autres normes IFRS à la clôture (par exemple IAS 36 et IFRS 5).
+Cf. ESMA section 1, priority 1.2 Restructuring provisions paragraphe 1
+
+Par ailleurs, l’AMF rappelle qu’une information doit être fournie en annexe dans les cas où :
+    - Aucune provision pour restructuration n’a été reconnue à la clôture, les critères de reconnaissance (IAS
+          37.14) n’étant pas remplis à cette date, et ce, dans le cadre d’un projet de restructuration significative
+          (IAS 37.72 et 75) alors que des annonces publiques ont été faites ;
+    - La décision prise ou annoncée de restructuration postérieurement à la date de clôture est matérielle. (IAS
+          10.21 et IAS 10.22(e)).
+
+
+2.2.1.2. Evaluation des provisions pour restructuration
+La norme prévoit que seules les dépenses directement liées à la restructuration (c’est-à-dire les dépenses induites
+par la restructuration et non liées à la poursuite de l’activité de l’entité) doivent être prises en compte dans
+l’évaluation de la provision (IAS 37.80).
+
+
+27
+     Voir également AMF DOC-2025-08 partie 2.1.5
+28 En France les conditions de comptabilisation d’un PSE sont généralement remplies après la présentation du Livre I au CSE.
+
+
+
+Document créé le 13 octobre 2026                                                                                               13/30
+Recommandation AMF - DOC-2026-06 - Arrêté des comptes 2026 et travaux de revue des états financiers
+
+
+La norme ne détaille pas les natures des coûts à inclure dans le calcul de la provision. Elle indique uniquement (IAS
+37.81-83) celles à exclure de cette dernière (coûts de reconversion ou de réinstallation du personnel conservé,
+marketing, investissement dans de nouveaux systèmes, réseaux de distribution, pertes d’exploitation futures hors
+contrats déficitaires, gains sur la cession d’actifs). Les sociétés doivent ainsi utiliser leur jugement pour déterminer
+les coûts à inclure dans l’évaluation de la provision au regard du principe général défini par la norme.
+
+Recommandation
+L’AMF recommande aux sociétés d’indiquer les principaux coûts inclus (nature et montant) dans l’évaluation de
+la provision, dès lors qu’ils sont significatifs (par exemple : indemnités de licenciement selon les circonstances,
+coûts de démantèlement de l’usine, coûts de résiliation de contrats, certains honoraires de conseil liés à la
+restructuration, etc.), et de préciser, le cas échéant, les jugements retenus les ayant conduites à les prendre en
+considération. Elle recommande par ailleurs de donner une information sur le calendrier des décaissements
+significatifs attendus.
+Enfin, l’AMF rappelle aux émetteurs qu’il convient de s’assurer de la cohérence des informations entre celles
+données dans les états financiers et toutes explications relatives à la restructuration qui seraient plus détaillées,
+communiquées, le cas échéant, en dehors des états financiers.
+Cf. ESMA section 1, priority 1.2 Restructuring provisions paragraphes 1 et 2
+
+
+
+2.2.2. Indemnités de licenciement et liquidation de régime
+2.2.2.1. Indemnités de licenciement
+Concernant les indemnités de licenciement, l’AMF rappelle que celles directement liées à un plan de
+restructuration sont dans le champ d’application de la norme IAS 19 159-171. Ces indemnités résultent (i) soit de
+la décision de la société de mettre fin à l’emploi du salarié (IAS 19.167), (ii) soit de la décision du salarié d’accepter
+une offre d’indemnités, et doivent être intégrées à la provision pour restructuration, dès lors qu’elles sont
+directement liées à cette dernière (IAS 37.80).
+
+Les indemnités dont le versement est conditionné à la présence du salarié licencié sont également dans le champ
+de la norme IAS 19 (IAS 19.162) et constituent, selon leurs caractéristiques, un avantage à court terme, un avantage
+postérieur à l’emploi ou un autre avantage à long terme. En revanche, elles ne sont pas prises en compte dans les
+provisions pour restructuration.
+
+Par ailleurs, l’AMF rappelle que si le règlement intégral des indemnités de cessation d’emploi n’est pas attendu
+dans les 12 mois suivant la clôture, ces dernières doivent être actualisées si les effets sont significatifs (IAS 19.169).
+
+
+2.2.2.2. Modification, réduction ou liquidation de régime
+Certains régimes à prestations définies ou autres avantages à long terme pourraient être modifiés, réduits (par
+exemple à la suite d’un plan de réduction des effectifs) ou liquidés dans le cadre des plans de restructuration. En
+cas de modification, réduction ou liquidation de régime, les sociétés doivent calculer le coût des services passés et
+le profit ou la perte résultant d’une liquidation pour les différents régimes concernés (IAS 19.99 et suivants). Ces
+impacts doivent être comptabilisés en résultat (IAS 19.103 et IAS 19.110).
+
+Concernant les régimes à prestations définies, les sociétés doivent présenter une description de toute
+modification, réduction ou liquidation de régime (IAS 19.139 (c)) et le montant des coûts des services passés ainsi
+que les profits et pertes liés à la liquidation (IAS 19.141 (d)).
+
+
+
+
+Document créé le 13 octobre 2026                                                                                  14/30
+Recommandation AMF - DOC-2026-06 - Arrêté des comptes 2026 et travaux de revue des états financiers
+
+
+2.2.3. Restructuration d’instruments financiers
+2.2.3.1. Renégociation ou restructuration des emprunts
+Dans le contexte macroéconomique actuel, un nombre croissant d’émetteurs sont amenés à renégocier leurs
+emprunts ou à les restructurer. Les conditions contractuelles modifiées peuvent concerner le taux d’intérêt de
+l’emprunt, l’échéancier de paiement, les clauses restrictives, etc. Ces renégociations et restructurations
+d’emprunts peuvent conduire à l’extinction de tout ou partie du passif financier initial dès lors que les conditions
+contractuelles du nouvel instrument sont substantiellement différentes de celles de l’instrument initial, tel que
+prévu par IFRS 9.3.3.2, et à sa décomptabilisation. Ainsi, l’enjeu pour les émetteurs est d’évaluer si les termes et
+conditions des emprunts restructurés sont « substantiellement différents ».
+
+Au-delà du test quantitatif pour identifier une modification substantielle introduit par IFRS 9.B3.3.6 qui requiert de
+comparer la valeur des flux de trésorerie selon les nouvelles conditions, y compris les coûts nets afférents à la
+renégociation de l’emprunt, actualisée par application du taux d’intérêt effectif initial, à la valeur actualisée des
+flux de trésorerie restants du passif financier initial, l’AMF souligne l’importance d’également prendre en compte
+des critères qualitatifs.
+
+Recommandation
+L’AMF rappelle l’importance de fournir une information transparente, détaillée et spécifique sur les principaux
+jugements et hypothèses retenus pour analyser les modifications des emprunts dans le contexte actuel de
+dégradation significative du risque de crédit conformément à IAS 1.122. Ces informations sont également
+requises pour expliquer comment a été déterminée la juste valeur du nouvel emprunt en cas de
+décomptabilisation.
+L'AMF rappelle29 également aux émetteurs l’importance de considérer les facteurs qualitatifs dans le cadre de
+l’analyse du caractère substantiel d’une modification de dette lorsque le résultat du test quantitatif est inférieur
+à 10 % (IFRS 9.B3.3.6). Ces facteurs sont divers et peuvent inclure, par exemple, un changement de devise de
+l’emprunt, un changement de nature de taux d’intérêt (passage d’un taux variable à un taux fixe ou inversement)
+ou encore une extension significative de la maturité de l’emprunt. Cette considération est encore plus
+importante lorsque le résultat du test quantitatif est proche de 10 %.
+Par ailleurs, l’AMF recommande aux émetteurs dont la dette a été modifiée au cours de l’exercice de présenter
+en annexe, pour les emprunts significatifs, les modifications apportées aux conditions contractuelles et
+d’indiquer si ces modifications ont été considérées comme substantielles et sur quels critères. Enfin, dans le cas
+d’une décomptabilisation de l’emprunt initial, l’AMF rappelle aux émetteurs que les frais encourus doivent
+passer directement en résultat à l’exception, le cas échéant, de la part directement attribuable à l’émission du
+nouvel emprunt qui est à prendre en compte dans la valeur comptable de cette nouvelle dette (en diminution
+de la juste valeur de cette dernière). Lorsque ces frais sont significatifs, l’AMF recommande aux émetteurs de
+décrire l’analyse effectuée afin de distinguer les frais directement attribuables au nouvel emprunt de ceux qui
+ne le sont pas.
+Cf. ESMA section 1, priority 1.2 Debt restructuring paragraphes 2 et 3
+
+Pour rappel, une modification substantielle des conditions contractuelles d’un nouvel instrument conduit à
+l’extinction du passif financier initial en tout ou partie et à la comptabilisation d’un nouveau passif financier.
+L’impact de cette modification est comptabilisé en contrepartie du résultat (IFRS 9.3.3.3 et 9.3.3.4).
+
+A contrario, une modification des conditions contractuelles jugée non substantielle n’entraîne pas l’extinction du
+passif et est comptabilisée selon IFRS 9.B5.4.6 : le coût amorti du passif financier est ajusté afin de refléter la valeur
+actualisée des flux de trésorerie contractuels futurs estimés au taux d’intérêt effectif initial de l’emprunt. Cet
+ajustement est, lui aussi, comptabilisé en résultat.
+
+
+
+
+29
+  Dans son rapport d'activité publié en avril 2018, l'ESMA s'est prononcé sur le fait que toute méthode d'analyse d'une modification de dette
+devrait comporter à la fois des critères quantitatifs et qualitatifs (ESMA 32-63-424)
+
+Document créé le 13 octobre 2026                                                                                                      15/30
+Recommandation AMF - DOC-2026-06 - Arrêté des comptes 2026 et travaux de revue des états financiers
+
+
+Recommandation
+L'AMF recommande de présenter en annexe les impacts significatifs de toute modification, substantielle ou non,
+des conditions contractuelles d’un emprunt et d’indiquer dans quel poste cet impact est comptabilisé.
+Cf. ESMA section 1, priority 1.2 Debt restructuring paragraphe 3
+
+
+2.2.3.2. Renégociation ou restructuration des prêts (Institutions financières)30
+Les restructurations d’emprunts induisent aussi des impacts comptables pour les prêteurs.
+
+En pratique, l’AMF observe que la plupart des établissements bancaires analysent une restructuration de prêt (en
+cas de difficultés financières) par analogie avec les tests quantitatifs et qualitatifs réalisés côté emprunteurs afin
+de déterminer si les conditions contractuelles ont été substantiellement modifiées, et donc si ces prêts doivent
+être décomptabilisés en contrepartie de la reconnaissance d’un nouveau prêt. Les modifications jugées non
+substantielles sont traitées en accord avec IFRS 9.5.4.3.
+
+L’AMF rappelle aux établissements bancaires qu’il est requis en annexe :
+    - de détailler la méthode retenue pour conclure au caractère substantiel ou non de la modification de
+        l’instrument financier initial (IAS 1.117 et 122), et
+    - de présenter séparément les montants des variations des pertes de crédit attendues provenant (i) des
+        décomptabilisations et (ii) des modifications non substantielles des actifs financiers (IFRS 7.35H-I(b)-(c))31.
+
+L’AMF rappelle également qu’un changement de contrepartie (transfert de la dette à une nouvelle contrepartie)
+doit être pris en compte dans l’analyse de la nature de la modification du prêt.
+
+
+2.3. Reporting électronique – ESEF (« European Single Electronic Format »)
+Le règlement délégué (UE) 2026/283 (RTS 2025), qui modifie le règlement délégué (UE) 2019/815 relatif au format
+d’information électronique unique (ESEF), a été publié le 18 mars 2026 au journal officiel de l’Union européenne.
+Le RTS 2025 pouvait être appliqué de façon anticipée et s’applique obligatoirement aux exercices ouverts à
+compter du 1er janvier 2026.
+
+Ce RTS intègre la taxonomie ESEF 2025 (incluant la taxonomie IFRS 2025) qui est structurée autour de deux points
+d’entrée (« entry points ») permettant de distinguer les balises applicables selon le référentiel utilisé par l’émetteur
+: l’un pour les entités continuant d’appliquer IAS 1 à la clôture, l’autre pour les entités appliquant IFRS 18 par
+anticipation. L’AMF souligne l’importance de bien veiller à choisir le bon point d’entrée.
+
+L’AMF rappelle par ailleurs que la taxonomie ESEF 2025 constituera l’unique taxonomie applicable pour les
+exercices ouverts à compter du 1er janvier 2026, aucune taxonomie IFRS 2026 ne devant être publiée cette année
+par la Fondation IFRS. Les émetteurs devront, le cas échéant, s’assurer de ne plus recourir aux éléments devenus
+obsolètes. La prochaine mise à jour de la taxonomie IFRS par la Fondation est attendue en 2027.
+
+Après des recommandations dédiées, respectivement en 2024 et 2025, au bilan et au tableau de flux de trésorerie,
+l’ESMA publie cette année des recommandations sur l’application d’ESEF au tableau de variation des capitaux
+propres.
+
+
+
+
+30
+   S’agissant des impacts des renégociations et des restructurations de prêts, l’AMF rappelle que ses recommandations précédentes restent
+applicables. Voir également la table des matières - section IFRS 9 (AMF DOC-2012-16 parties 4.3.1 et 4.3.2)
+31
+   S’agissant du rapprochement des soldes d’ouverture et de clôture des dépréciations et encours, l’AMF rappelle que ses recommandations
+précédentes restent applicables. Voir également la table des matières - section IFRS 7 (AMF DOC-2019-13 partie 4.3.2)
+
+Document créé le 13 octobre 2026                                                                                                   16/30
+Recommandation AMF - DOC-2026-06 - Arrêté des comptes 2026 et travaux de revue des états financiers
+
+
+Recommandation
+Dans le cadre du balisage du tableau de variation des capitaux propres, l’AMF recommande aux sociétés de :
+
+- Concernant l’exactitude des balises utilisées (Annexe IV, §3 du RTS)
+S’assurer que les balises utilisées pour le balisage du tableau de variation des capitaux propres sont appropriées.
+En effet, l'interprétation erronée de la granularité ou de la portée des concepts de taxonomie IFRS par les
+sociétés peut conduire à l'utilisation de balises inappropriées dans le tableau de variation des capitaux propres,
+comme par exemple le balisage des variations de certaines composantes des capitaux propres à l’aide
+d’éléments généraux et n’ayant pas les bons attributs tels que le « total des capitaux propres » ou le balisage
+erroné des transactions avec les actionnaires, des éléments des autres éléments du résultat global ou des
+transferts entre postes de réserves.
+Des erreurs peuvent également survenir lorsque le balisage ne reflète pas pleinement la substance économique
+du poste, en particulier, en cas de combinaison de plusieurs composantes des capitaux propres (par exemple le
+balisage d’un élément des capitaux propres combinant la prime d’émission et le capital souscrit à l’aide d’un
+seul des concepts sous-jacents).
+
+- Concernant l’exhaustivité et la cohérence des balisages (Annexe II, §1 et 2 du RTS)
+S’assurer que l’ensemble des éléments en devises est balisé et que le balisage est cohérent d’une période à une
+autre afin de permettre aux utilisateurs du reporting ESEF de pouvoir reconstituer les différentes composantes
+des capitaux propres. L’AMF recommande par exemple de veiller à baliser l’ensemble des colonnes telles que
+les participations ne donnant pas le contrôle, les résultats non distribués ou certaines natures de réserves et pas
+seulement le total des capitaux propres.
+S’assurer également que le balisage d’un même concept est cohérent (valeur, unité, période, etc.) entre les
+différents états financiers primaires (par exemple : le total des capitaux propres, le résultat net ou le résultat
+global).
+L’AMF recommande de s’assurer également que les dimensions retenues sont cohérentes : veiller à utiliser les
+membres de façon cohérente d’une période à une autre, à correctement appliquer l’axe « total des capitaux
+propres » ou les membres (par défaut ou totaux) et à baliser de façon cohérente une même information au sein
+des états financiers en cas de répétition de cette dernière.
+Enfin, l’AMF recommande de s’assurer que l’ensemble des données chiffrées (en devises) du tableau de variation
+des capitaux propres sont balisées (y compris les notes de bas de page) et que l’ensemble des notes annexes
+relatives au tableau de variation des capitaux propres le sont également (par macro-balisage).
+Cette obligation de balisage porte également sur les valeurs nulles, mais uniquement lorsqu’une donnée est
+véritablement nulle (équivalente à un zéro) et non lorsque l’information est laissée en blanc (ou comporte un
+tiret) parce qu’elle n’est pas applicable. L’AMF recommande aux sociétés de se référer au manuel de reporting
+(recommandation 2.2.5) qui rappelle les fonctions de transformation à utiliser selon les situations (« ixt-fixed-
+zero » transformant le tiret en « 0 »).
+
+- Concernant les règles de construction/présentation et l’exhaustivité des relations de calcul (Annexe III du RTS)
+L’AMF a constaté que certains fichiers déposés contiennent des fichiers zip au sein du report package (.zip ou
+.xbri). L’AMF recommande aux sociétés de s’assurer que les fichiers au format ESEF déposés auprès de l’AMF
+respectent les règles de nommage applicables32 (contenu et dénomination). L’AMF recommande également aux
+sociétés de s’assurer de la correcte modélisation du tableau de variation des capitaux propres (utilisation
+appropriée des axes et des membres et prise en compte de sa nature multidimensionnelle).
+S’assurer également que la base de présentation reflète la structure du tableau de variation des capitaux
+propres, incluant les composantes des capitaux propres et les variations de la période. Les erreurs peuvent
+résulter d’une utilisation incorrecte ou de l’absence des « abstracts » et d’un ordre de présentation des
+variations incohérent.
+Concernant les relations arithmétiques, les soldes d’ouverture, de clôture et les variations de la période doivent
+être reflétés de façon cohérente dans la base de liens de présentation (incluant dans certains cas des règles de
+
+
+32 AMF FAQ ESEF
+
+
+
+Document créé le 13 octobre 2026                                                                           17/30
+Recommandation AMF - DOC-2026-06 - Arrêté des comptes 2026 et travaux de revue des états financiers
+
+
+calcul) afin qu’un utilisateur puisse reconstituer le tableau de variation des capitaux propres à partir du balisage
+XBRL. Des liens de présentation manquants ou incorrects conduisent souvent à des difficultés de réconciliation
+des données entre elles et nuisent à l’analyse et aux contrôles automatiques de ces dernières.
+
+- Concernant la création et l’ancrage des extensions (Annexe IV, §4, 4(a), 9(a), 9(b) du RTS)
+S’assurer que la création d’une extension est justifiée (exemples primes de fusion, réserves légales). L’AMF
+rappelle aux sociétés que la création d’une extension est possible uniquement en l’absence d’élément
+correspondant au sein de la taxonomie ESEF et après avoir considéré l’intégralité de la taxonomie.
+Concernant l’ancrage des extensions, l’AMF recommande de s’assurer que la balise d’ancrage retenue (ou les
+balises quand un ancrage plus restreint est également requis en plus de l'ancrage à une balise plus large) est
+appropriée (par exemple ancrer un poste de réserves au concept plus large « Autres réserves » ou une variation
+des capitaux propres telle que « Augmentation de capital en numéraire » au concept plus large « Emission de
+capitaux propres », dans les deux cas un ancrage plus restreint est également requis).
+Un concept des capitaux propres ne doit en revanche pas être ancré à un concept du compte de résultat car cela
+nuit automatiquement à la comparabilité. De la même façon, la balise « Produits de la vente ou de l’émission
+d’actions propres » est réservée au tableau des flux de trésorerie et ne doit pas être utilisée dans le cadre du
+balisage du tableau de variation des capitaux propres.
+
+- Concernant les anomalies d’unité d’échelle, de décimale et de signe
+S’assurer que les signes et les attributs (débit et crédit) des éléments balisés sont le reflet des informations
+financières incluses dans les états financiers publiés 33 (y compris pour les extensions), l’absence de contrôles
+automatiques sur l’ensemble du tableau de variation des capitaux propres ne permettant pas de détecter ce
+type d’erreurs. L’AMF recommande aux sociétés de s’assurer des signes appliqués aux postes balisés, par
+exemple sur les versements de dividendes et l’allocation du résultat de la période pour lesquels des signes
+incorrects sont parfois constatés.
+
+S’assurer que l’échelle et les décimales sélectionnées correspondent bien à l’information en devises présentée
+et sont homogènes au sein du tableau de variation des capitaux propres, en particulier quand le tableau est
+détaillé et présente plusieurs composantes des capitaux propres à la suite.
+Des erreurs dans les soldes d’ouverture et de clôture ou des incohérences entre les totaux et les variations
+présentés sont fréquemment rencontrées, également lorsque les dates de clôture ne sont pas conformes à la
+convention XBRL selon laquelle les dates correspondent à la fin du jour indiqué. L’AMF rappelle que dans le
+cadre du balisage ESEF, un solde d’ouverture au 1 er janvier 2026 doit être balisé en date du 31 décembre 2025
+avec un attribut « Instant ». Ces anomalies engendrent des difficultés de réconciliation des données entre elles.
+
+L’AMF rappelle aux émetteurs de se référer également aux recommandations du manuel de reporting 34 sur ces
+différents sujets.
+Cf. ESMA section 3, priority related to ESEF reporting
+
+L’AMF rappelle que ses précédentes recommandations sur les sujets ESEF restent applicables.
+
+Au travers de ses contrôles, l’AMF a identifié par ailleurs trois autres points d’attention qu’elle souhaite souligner:
+    (i)      l’importance pour les émetteurs de renforcer leur contrôle interne dans les travaux de préparation
+             des états financiers sous le format ESEF ;
+    (ii)     l’interdiction stricte d'inclure des informations financières sous forme d'image dans un rapport
+             financier annuel. Les images ne peuvent être utilisées que pour le contenu tel que l’information sur
+             l’image de marque, la mise en page graphique, les photographies, etc. (recommandations 2.5.1. et
+             4.1.3. du manuel de reporting de l'ESMA) ;
+
+
+
+
+33
+     Etats financiers lisibles par un humain
+34 Manuel de reporting au format ESEF (traduction)
+
+
+
+Document créé le 13 octobre 2026                                                                               18/30
+Recommandation AMF - DOC-2026-06 - Arrêté des comptes 2026 et travaux de revue des états financiers
+
+
+     (iii)    pour les rapports financiers annuels balisés xbrl, l'AMF s'assure de la conformité du contenu et de la
+              dénomination du fichier déposé avec les conventions établies. L’AMF souligne que le nom du fichier
+              doit préciser la version du package de reporting ESEF déposé auprès de l'AMF. Plus précisément, un
+              chiffre distinct est ajouté à la suite de la composante {date}, dont il est séparé par un trait d'union.
+              Ce chiffre, limité à un unique caractère numérique, représente le numéro de version de la soumission.
+              Ainsi, pour la première soumission cette valeur doit obligatoirement être égale à 1 (et non à 0, comme
+              c'était le cas précédemment). Puis, pour chaque soumission ultérieure, cette valeur doit être
+              incrémentée d'une unité.
+
+Enfin, s’agissant de la consultation publique de l'ESMA lancée en décembre 2024 sur la digitalisation des états
+financiers et de durabilité, l’AMF souhaite saluer une nouvelle fois la forte mobilisation de la Place, qui a joué un
+rôle déterminant pour faire entendre la voix de la France. L’analyse des réponses à la consultation est toujours en
+cours par l’ESMA qui réfléchit actuellement à la meilleure façon de revoir ce sujet, compte tenu de la publication
+de l’Omnibus Package.
+
+3.       Revue des états financiers
+
+3.1. Cas pratiques
+3.1.1. Evolution des analyses de sensibilité - IAS 36
+En application d’IAS 36.134(f), les sociétés doivent communiquer des informations sur la sensibilité des tests de
+dépréciation à des variations raisonnablement possibles des hypothèses opérationnelles et financières clés. Dans
+le contexte géopolitique qui prévalait à la clôture et au vu des conditions macroéconomiques dans lesquelles les
+émetteurs ont arrêté leurs comptes, certains ont jugé utile de compléter leurs notes annexes en ajoutant des
+informations complémentaires sur les analyses de sensibilité.
+
+Ainsi, dans le cadre de ses revues, l’AMF a relevé qu’un émetteur avait enrichi son analyse de sensibilité en y
+intégrant des sensibilités complémentaires fondées sur l’évolution des hypothèses jugées clés, notamment des
+analyses de sensibilité sur le prix moyen du pétrole brut et/ou à une diminution des volumes de production de
+pétrole. Cette information spécifique présentée dans les notes annexes permettait de mieux apprécier l’incidence
+des variations du prix du pétrole brut sur la performance de l’émetteur.
+
+Dans le cadre de ses revues, l’AMF a également relevé que d’autres émetteurs n’avaient pas complété leurs
+analyses de sensibilité afin d’y intégrer une variation raisonnable des principales hypothèses opérationnelles clés
+(notamment celles relatives aux coûts de construction, aux surcoûts découlant de changements dans la chaîne
+d’approvisionnement, ainsi qu’à d’autres paramètres opérationnels susceptibles d’avoir une incidence significative
+sur les projections retenues) ni fait varier plusieurs hypothèses clés de manière combinée. L’AMF a rappelé aux
+sociétés concernées l’importance, dans le contexte macroéconomique, de compléter leurs analyses de sensibilité
+des tests de dépréciation.
+
+
+3.1.2. Informations communiquées au titre des regroupements d’entreprises - IFRS 3
+Dans le cadre de ses revues, l'AMF a constaté une présentation hétérogène des informations relatives aux
+regroupements d'entreprises significatifs, exigées par IFRS 3.B64 à B67. A ce titre, l'AMF a régulièrement interrogé
+les émetteurs afin d'obtenir l'ensemble des informations requises, notamment le prix d’acquisition ainsi que le
+montant du chiffre d'affaires et du résultat net présenté comme si le regroupement avait été opéré à l'ouverture
+de la période de présentation de l’information financière, sur base individuelle en cas d’acquisition significative ou
+de façon cumulée dans les autres cas. Ces informations permettent notamment aux lecteurs des états financiers
+d'évaluer la nature et les impacts financiers des regroupements d'entreprises significatifs et de mieux appréhender
+les risques et opportunités liés.
+
+Face à ces constats, l'AMF a rappelé aux émetteurs l'importance de s'assurer de l'exhaustivité des informations
+communiquées.
+
+Document créé le 13 octobre 2026                                                                              19/30
+Recommandation AMF - DOC-2026-06 - Arrêté des comptes 2026 et travaux de revue des états financiers
+
+
+3.1.3. Format électronique unique européen - ESEF
+Dans le cadre de ses revues, l’AMF a noté que les règles de dépôt des rapports financiers annuels n’étaient pas
+toujours respectées35. Tout d’abord, certains émetteurs continuent de déposer auprès de l’AMF un fichier .zip
+contenant lui-même un autre fichier zip. De plus, le report package n’inclut pas toujours les dossiers et sous-
+dossiers requis et sa dénomination ne respecte pas toujours les règles de nommage. L’AMF a donc rappelé à ces
+émetteurs les règles relatives au dépôt (composition et dénomination) en leur recommandant de se référer aux
+instructions (instructions AMF DOC-2007-03 et DOC-2019-21) relatives aux modalités de dépôt du rapport au
+format ESEF ainsi qu’aux questions fréquentes sur l’ESEF36.
+
+Par ailleurs, l’AMF a constaté que les règles de mise à disposition des documents d’enregistrement universels
+valant rapport financier annuel (RFA) et des rapports financiers annuels (RFA) déposés à l’AMF n’étaient pas
+toujours respectées. L’AMF a donc rappelé aux émetteurs concernés que la version ESEF (.zip ou .ixbri) du
+document d’enregistrement universel valant RFA ou du RFA est la seule version officielle et qu’elle doit être mise
+à disposition sur le site internet de l’émetteur dès son dépôt auprès de l’AMF. L’AMF a également souligné que les
+versions PDF qui sont mises à disposition sur les sites internet des émetteurs en plus des versions .zip ou .ixbri
+devaient mentionner qu’elles étaient des reproductions des versions officielles.
+
+Enfin, l’AMF a rappelé à ces émetteurs que le niveau de contrôle interne relatif à l’élaboration du format ESEF doit
+être similaire à celui en place pour la préparation des états financiers consolidés. La mise en place d’un contrôle
+interne fiable et d’appropriation des différents processus d’élaboration de l’information est d’autant plus
+importante que plusieurs parties prenantes (y compris externes) interviennent dans la production de cette
+information.
+
+
+3.1.4. Modernisation des états financiers en normes françaises
+Dans le cadre de ses revues, l’AMF a noté un certain nombre de manquements dans l’application du règlement
+ANC n°2022-06 relatif à la modernisation des états financiers, d’application obligatoire depuis le 1 er janvier 2025,
+(hors secteur du logement social). Ainsi, lors de ses revues, l’AMF a rappelé l’importance de s’assurer de l’utilisation
+des nouveaux modèles obligatoires d’états primaires, ainsi que des nouveaux modèles normés de tableaux, à
+caractère obligatoire, des notes annexes des états financiers (i.e. informations relatives aux filiales et
+participations, crédits d’impôts, engagements de crédit-bail, etc.).
+
+L’AMF a également rappelé l’importance de détailler et commenter les impacts de l’entrée en vigueur du
+règlement ANC sur les principaux postes concernés de 2025 (Art. 831-2 et 831-3 du PCG) au sein d’une note dédiée
+dans les annexes, avec la mention qu’il s’agit d’un changement de méthode comptable imposé par la
+réglementation37.
+
+S’agissant de la nouvelle définition et présentation du résultat exceptionnel, l’AMF a rappelé, lors de ses revues,
+que ce dernier doit désormais être uniquement constitué de (i) produits et charges directement liés à un
+événement majeur et inhabituel, (ii) d’écritures comptables purement fiscales et (iii) de changements de méthode
+comptable comptabilisés en résultat et de corrections d’erreur autres que celles comptabilisées en capitaux
+propres. L’AMF a interrogé les sociétés concernées sur les jugements exercés dans cette analyse des charges et
+produits classés en exceptionnel, en tenant compte des circonstances particulières à la société, qui sont par nature
+évolutives et leur a rappelé l’importance de fournir les nouvelles informations requises en annexe.
+Par ailleurs, dans le cadre de ses revues, l'AMF a constaté la correcte suppression par les émetteurs de la technique
+du transfert de charges, ainsi que l’absence de conséquence sur les comptes comparatifs, autres que les
+reclassements nécessaires pour se conformer aux nouveaux modèles de bilan et de compte de résultat, tel que
+prévu par le règlement.
+
+
+
+35 Voir également sur ce sujet la partie 2.3 ci-avant
+36
+     AMF FAQ ESEF
+37 Voir le communiqué de la CNCC du 17 octobre 2025
+
+
+
+Document créé le 13 octobre 2026                                                                                20/30
+Recommandation AMF - DOC-2026-06 - Arrêté des comptes 2026 et travaux de revue des états financiers
+
+
+
+Enfin, s’agissant plus particulièrement des impacts sur les comptes consolidés établis selon le règlement 2020-01,
+l’AMF a relevé que certains émetteurs n’avaient pas appliqué les nouveaux tableaux obligatoires en annexe. Face
+à ces constats, l'AMF a rappelé aux émetteurs que si le règlement 2022-06 n’a pas d’incidence38 sur les modèles de
+bilan et de compte de résultat consolidés, il prescrit de nouveaux tableaux obligatoires, qui doivent être présentés
+dans les notes annexes aux comptes consolidés (en l’absence de dispositions contraires dans le règlement 2020-
+01).
+
+
+3.2. Sélection des émetteurs et type de revue de la période
+
+L’AMF présente ci-après une synthèse de ses revues des états financiers finalisées entre octobre 2025 et septembre
+2026 (49 émetteurs dont 37 documents d’enregistrement universels et 12 rapports financiers annuels), ainsi que
+les principaux thèmes ayant donné lieu à des travaux et commentaires de l’AMF.
+
+
+3.2.1. Sélection initiale des émetteurs et type de revue
+Les sociétés revues sont sélectionnées, en accord avec les lignes directrices de l’ESMA, à partir d’une méthode
+multicritère alliant une sélection par les risques, par la rotation et sur base aléatoire. Dans son analyse de risques,
+l’AMF considère des critères de marché (par exemple : la capitalisation boursière, le flottant ainsi que leurs
+évolutions), des indicateurs financiers (ratios et évolution des chiffres clés, opérations financières) et des critères
+plus généraux (problématiques sectorielles, risques climatiques par exemple). L’AMF retient également une
+approche par rotation, différenciée selon les compartiments, qui permet de s’assurer que les états financiers de
+chacun des émetteurs d’un compartiment donné soient revus au moins une fois sur une période donnée.
+Pour les sociétés sélectionnées en 2026, environ 85% l’ont été à la suite d’une analyse par les risques :
+
+
+
+
+82% des revues réalisées sur la période (stable par rapport à l’an dernier) sont des revues complètes (revue de
+l’ensemble des états financiers). Les revues ciblées (sur un ou plusieurs thèmes spécifiques) de la période ont porté
+principalement sur les faits marquants pour la société sur la période (restructuration, variation de périmètre, etc.),
+les jugements et estimations comptables et l’information sectorielle.
+
+
+3.2.2. Recommandations et points d’amélioration
+Dans ses courriers de fin de contrôle, l’AMF émet des recommandations et des points d’amélioration. Les
+recommandations font systématiquement l’objet d’un suivi à l’occasion de la clôture annuelle suivante et sont
+
+
+
+38
+  Le règlement 2024-05 relatif aux écarts d’acquisition et à la méthode applicable aux regroupements entre entités sous contrôle commun a
+entrainé des modifications du modèle des états financiers consolidés. Les émetteurs revus par l’AMF n’étaient pas concernés par ce règlement.
+
+Document créé le 13 octobre 2026                                                                                                    21/30
+Recommandation AMF - DOC-2026-06 - Arrêté des comptes 2026 et travaux de revue des états financiers
+
+
+prises en considération par l’ESMA dans son rapport d’activité, alors que les points d’amélioration couvrent
+généralement des sujets moins significatifs à date pour les sociétés et ne sont pas remontés à l’ESMA.
+Le nombre moyen de recommandations et de points d’amélioration par revue s’élève à 7 par société. S’agissant
+des recommandations uniquement, leur nombre moyen s’établit à 4.
+
+
+
+
+  A : Présentation des états financiers      G : Instruments financiers, juste valeur et risques financiers (IAS
+  (IAS 1, IAS 8)                             32, IFRS 7, IFRS 9, IFRS 13)
+  B : Tableau des flux de trésorerie (IAS    H : Chiffre d’affaires (IFRS 15)
+  7)                                         I : Climat / Taxonomie
+  C : Contrats de location (IFRS 16)         J : ESEF
+  D : Tests de dépréciation (IAS 36)         K : Autres (IAS 37, IAS 33, IFRS 3, IAS 2, IAS 38, IAS 12, IFRS 10, IFRS
+  E : Immeubles de placement (IAS 40)        12 etc.)
+  F : Information sectorielle (IFRS 8)
+
+
+ Evolution de la répartition par thème des recommandations et des points d’amélioration, sur les trois dernières
+                                                  périodes
+
+
+
+
+Document créé le 13 octobre 2026                                                                                22/30
+Recommandation AMF - DOC-2026-06 - Arrêté des comptes 2026 et travaux de revue des états financiers
+
+
+Evolution de la répartition entre recommandations et points d’amélioration émis sur les deux dernières périodes
+
+
+
+
+Evolution de la répartition des recommandations et points d’amélioration entre ceux portant uniquement sur les
+                       informations en annexe et les autres, sur les deux dernières périodes
+
+
+
+
+Document créé le 13 octobre 2026                                                                        23/30
+Recommandation AMF - DOC-2026-06 - Arrêté des comptes 2026 et travaux de revue des états financiers
+
+
+3.2.3. Synthèse des recommandations et des points d’amélioration
+Les principaux éléments issus des recommandations et des points d’amélioration formulés en 2025-2026 par
+catégorie sur les états financiers 2024 et 2025 sont les suivants :
+
+
+
+ A - Présentation des états financiers (IAS 1, IAS 8) (14%)          D - Tests de dépréciation (IAS 36) (8%)
+
+ Ces recommandations et points d’amélioration ont                    Ces recommandations et points d’amélioration ont
+ principalement porté sur les sujets suivants :                      principalement porté sur les sujets suivants :
+ a. Le détail des postes significatifs et les informations
+     relatives aux variations significatives,                        a. La communication de l’ensemble des hypothèses clés
+ b. La suppression d’informations additionnelles au sein                retenues y compris les hypothèses opérationnelles,
+     des états primaires, autres que celles prévues par les          b. La présentation d’une analyse de sensibilité à
+     normes. L’AMF a rappelé que les états primaires se                 l’ensemble    des     hypothèses    financières    et
+     limitent strictement au bilan, à l’état du résultat global,        opérationnelles,
+     à l’état des autres éléments du résultat global, au             c. La présentation des indices de perte de valeur
+     tableau des flux de trésorerie et au tableau de variation          examinés à chaque clôture,
+     des capitaux propres,                                           d. La présentation des regroupements d’UGT et l’analyse
+ c. La pertinence des informations fournies et la                       sous-jacente.
+     suppression de lignes nulles et principes comptables
+     non applicables,
+ d. La référence à des normes obsolètes (notamment IAS
+     17, IAS 39).
+ L’AMF a également demandé à certaines sociétés
+ concernées de compléter les informations relatives aux
+ hypothèses sous-tendant la continuité d’exploitation.
+                                                                     E – Immeubles de placement (IAS 40) (2%)
+ B - Tableau des flux de trésorerie (IAS 7) (4%)
+                                                                     Ces recommandations et points d’amélioration ont
+                                                                     principalement porté sur les sujets suivants :
+ L’AMF a effectué des commentaires relativement similaires
+ à ceux formulés lors des revues précédentes relatifs à :
+                                                                     a. La présentation de l’ensemble des hypothèses clés et
+                                                                        les analyses de sensibilité à ces hypothèses,
+ a. L’ajout de renvoi vers les notes annexes pour les flux
+                                                                     b. La clarification des méthodes utilisées (poids relatif de
+    significatifs, permettant la lisibilité et la réconciliation
+                                                                        chaque méthode, utilisation combinée).               Des
+    du tableau des flux de trésorerie avec les états
+                                                                        compléments d’informations ont également été
+    financiers,
+                                                                        demandés concernant la mise en place des méthodes
+ b. La présentation des passifs issus des activités de
+                                                                        (par exemple, comparables retenus),
+    financement en distinguant les mouvements sans effet
+                                                                     c. La prise en compte de l’impact des changements
+    sur la trésorerie et les mouvements de trésorerie
+                                                                        climatiques dans la valorisation des immeubles de
+    (IAS7.44A-B).
+                                                                        placement.
+
+ C - Contrats de location (IFRS 16) (3%)
+
+ Cette année encore, les recommandations et points
+ d’amélioration ont porté sur :                                       F – Information sectorielle (IFRS 8) (9%)
+ a. La présentation d’un échéancier des paiements de
+    loyers non actualisés à recevoir (bailleur),                      Voir la partie 3.3.1 qui présente les principaux constats
+ b. La présentation et la détermination des hypothèses clés           issus des revues de l’AMF ainsi que les recommandations
+    retenues dans l’évaluation des droits d’utilisation,              formulées sur ce sujet.
+ c. La présentation des charges liées aux contrats de
+    location à court terme et aux actifs de faible valeur.
+
+
+Document créé le 13 octobre 2026                                                                               24/30
+Recommandation AMF - DOC-2026-06 - Arrêté des comptes 2026 et travaux de revue des états financiers
+
+
+   G - Instruments financiers, juste valeur (15% IFRS 7 ; 5%        H - Chiffre d'affaires (IFRS 15) (4%)
+   IFRS 13 ; 4% IFRS 9) (24%)
+                                                                    L’AMF a émis des recommandations similaires à celles
+   L’AMF a émis des recommandations et des points                   formulées lors des revues 2025, à savoir :
+   d’amélioration portant sur :
+                                                                    a. La précision, au sein des principes et méthodes
+   a. Le risque de liquidité,                                          comptables, de la méthode de reconnaissance du
+      a. la présentation d’un échéancier des dettes                    chiffre d’affaires,
+         locatives et financières en valeur brute sur la            b. La présentation d’un échéancier des obligations restant
+         base de flux contractuels non actualisés,                     à remplir,
+      b. la présentation des covenants bancaires                    c. La présentation d’une ventilation du chiffre d’affaires
+         auxquels sont soumises les sociétés, notamment                complémentaire à l’information sectorielle, cohérente
+         i) les clauses restrictives applicables ii) les dates         avec l’information extra-financière,
+         de vérification de la clause iii) la formule ou            d. La présentation des actifs et passifs sur contrats et les
+         méthodologie de détermination du ratio iv) le                 raisons des variations significatives sur ces postes.
+         résultat du calcul. L’AMF a également rappelé
+         qu’en cas de non-respect de ces clauses, les
+         dettes dues doivent être reclassées en courant à
+         la clôture de l’exercice.
+
+   b. L’information fournie au titre de la juste valeur des         I- Risques climatiques et taxonomie (2%)
+      instruments financiers, notamment :                           Ces recommandations et points d’amélioration ont
+      a. Les niveaux de juste valeur, y compris pour les            principalement porté sur les sujets suivants :
+          instruments évalués au coût amorti,
+      b. La présentation des données d’entrée non                   a. La prise en compte des enjeux climatiques dans les
+          observables utilisées pour l’estimation de la juste          estimations comptables utilisées dans le cadre des
+          valeur de niveau 3 et une sensibilité de la juste            tests de dépréciation,
+          valeur à une variation raisonnable de ces                 b. L’utilisation des modèles prescrits par le règlement
+          données,                                                     Taxonomie et la réconciliation des CAPEX totaux avec
+      c. La juste valeur des instruments au coût amorti.               les états financiers.
+
+   c. La présentation des contrats d’affacturage ou
+      d’affacturage inversé mis en place, notamment leurs
+      principales caractéristiques (volume maximal prévu
+      au contrat, montant des créances ou dettes
+      concernées), l’analyse du transfert de la quasi-
+      totalité des risques et avantages et les impacts              J- Format électronique unique européen (ESEF) (7%)
+      comptables,
+                                                                    L’AMF a émis des recommandations portant sur :
+   d. La présentation d’un échéancier des créances                  a. La mise à disposition de la version ESEF des rapports
+      clients, par bandes de maturité suffisamment                     financiers annuels sur le site internet des sociétés et
+      décomposées, et les dépréciations associées.                     l’obligation d’indiquer en cas de publication d’une
+                                                                       version PDF qu’il ne s’agit pas de la version officielle,
+                                                                    b. Le balisage de l’intégralité des données en devises des
+                                                                       états primaires, y compris les notes de bas de page et
+                                                                       les lignes à zéro ainsi que des informations obligatoires,
+                                                                    c. La pertinence des extensions créées,
+                                                                    d. L’exhaustivité des relations de calcul.
+
+
+
+
+Document créé le 13 octobre 2026                                                                               25/30
+ K - Autres (IAS 37, IAS 12, IAS 33, IFRS 3, IAS 2, IAS 38, IFRS 10, IFRS 12, etc.) (23%)
+
+ Ces recommandations et points d’amélioration ont principalement porté sur les sujets suivants :
+  a. Intérêts détenus dans les autres entités (IFRS 12 / IFRS 10 ; 4%) : les recommandations ont porté sur la transparence
+Recommandation AMF - DOC-2026-06 - Arrêté des comptes 2026 et travaux de revue des états financiers
+      des informations relatives aux jugements exercés dans la détermination du contrôle ainsi qu’aux informations à
+      fournir sur les participations dans les entités contrôlées, les partenariats et les entités structurées,
+  b. Impôt sur le résultat (IAS 12 ; 3%) : l’AMF a formulé des recommandations quant à la présentation de l’horizon de
+      temps retenu relatif à l’utilisation des reports déficitaires, les principales hypothèses retenues pour la reconnaissance
+      des actifs d’impôts différés et des compléments d’informations relatives à la charge d’impôt (taux réel / théorique,
+      principaux retraitements),
+  c. Résultat par action (IAS 33 ; 3%) : les recommandations ont principalement porté sur le calcul du résultat par action
+      et notamment les éléments pris en compte dans le dénominateur,
+  d. Parties liées (IAS 24 ; 3%) : l’AMF a formulé des recommandations sur la présentation des relations avec les parties
+      liées, les principales caractéristiques des transactions réalisées et l’exhaustivité des informations présentées en
+      annexe y compris la rémunération des principaux dirigeants selon les catégories listées par IAS 24,
+  e. Stocks (IAS 2 ; 2%) : l’AMF a demandé des précisions quant à la méthode d’évaluation et de dépréciation des stocks
+      ainsi que sur l’identification et la justification des dépréciations constatées.
+
+
+
+3.2.4. Autres revues
+Les états financiers de deux sociétés ont été revus dans le cadre de prospectus d’introduction en bourse entre
+octobre 2025 et septembre 2026 (à comparer à une société au cours de la période précédente).
+
+3.3. Focus sur les informations sectorielles (IFRS 8)
+L'information sectorielle avait été identifiée par l'ESMA et l'AMF comme une priorité de supervision des états
+financiers lors de l'arrêté des comptes 2025. À cette occasion, l'AMF avait rappelé que plusieurs principes essentiels
+d'IFRS 8 demeuraient insuffisamment appliqués. Elle avait notamment souligné que les paragraphes 31 à 34 de la
+norme imposent, y compris aux sociétés ne présentant qu'un seul secteur opérationnel, la publication
+d'informations relatives aux produits et services, aux zones géographiques ainsi qu'aux principaux clients.
+Par ailleurs, la décision de l'IFRS IC de juillet 2024 est venue préciser la portée du paragraphe 23 d'IFRS 8, en
+confirmant que les produits et charges significatifs doivent être présentés par secteur dès lors qu'ils sont présentés
+au principal décideur opérationnel ou sont inclus dans une mesure de performance sectorielle examinée par le
+principal décideur opérationnel, sans que cette obligation se limite aux seuls éléments mentionnés au paragraphe
+98 d'IAS 1.
+3.3.1. Principaux éléments issus des revues
+Ce sujet de l’information sectorielle a représenté 9% des recommandations et autres points d’amélioration
+formulés sur la période (13% des recommandations) et a concerné indifféremment des sociétés de l’ensemble des
+compartiments d’Euronext. Les mêmes tendances sont observées sur les revues en cours à la date de publication
+de ces constats.
+Ces recommandations ont plus particulièrement porté sur des manquements au titre de l’information requise par
+le paragraphe 23 d’IFRS 8 (47% des émetteurs dont la revue a été finalisée sur la période) et le paragraphe 33
+concernant les informations relatives aux zones géographiques (33% des émetteurs).
+
+Concernant la présentation des produits et charges significatifs par secteur (paragraphe 23), l’AMF a relevé que les
+informations communiquées par secteur étaient parfois insuffisamment détaillées et ne couvraient pas l’ensemble
+des postes de charges significatifs inclus dans les agrégats revus par le principal décideur opérationnel.
+
+Par ailleurs, sur les informations requises au titre des zones géographiques, l’AMF a noté que l’information
+communiquée ne couvrait pas l’ensemble des pays individuellement significatifs. Dans certaines revues, l’AMF a
+également identifié des défauts de communication d’informations sur les actifs non courants par zone
+géographique.
+
+L’AMF a également recommandé, dans une moindre mesure, aux émetteurs d’ajouter dans leurs prochains états
+financiers des informations sur :
+     • La présentation des regroupements de secteurs effectués et l’analyse sous-jacente des critères d’IFRS 8
+         applicables,
+     • Le degré de dépendance aux principaux clients.
+
+Document créé le 13 octobre 2026                                                                              26/30
+Recommandation AMF - DOC-2026-06 - Arrêté des comptes 2026 et travaux de revue des états financiers
+
+
+3.3.2. Etude menée sur un échantillon de sociétés
+Au-delà du panel des sociétés ayant fait l’objet d’une revue sur la période, une étude comparative a été réalisée
+par l’AMF sur les états financiers clos en 2025 pour un échantillon de 75 d'émetteurs : les sociétés du CAC 40 (40
+émetteurs) d’une part et celles de l'EURO STOXX 50 hors CAC 40 (35 émetteurs) d’autre part. Cette analyse,
+complétée par une comparaison avec les informations publiées au titre de l'exercice 2024, vise à apprécier la façon
+dont les émetteurs appliquent IFRS 8 ainsi que les évolutions observées à la suite des priorités de supervision
+formulées pour l'arrêté des comptes 2025.
+Cette étude s’appuie sur les informations publiques disponibles, sans interaction avec les émetteurs.
+
+
+      Information sur les produits et charges des secteurs opérationnels (IFRS 8.23)
+
+La quasi-totalité des émetteurs de l’échantillon EURO STOXX 50 (98 %) présentent plusieurs secteurs opérationnels
+(contre 97,5 % au sein du CAC 40 et 88,6 % au sein de l'EURO STOXX 50 hors CAC 40), ce qui confère une importance
+particulière aux informations sectorielles prévues par le paragraphe 23 d'IFRS 8.
+
+L'AMF observe qu’un petit nombre d’émetteurs présentent un compte de résultat sectoriel avec un niveau de
+détail identique à celui du compte de résultat consolidé (2 % des émetteurs pour l'EURO STOXX 50 hors CAC 40 et
+5 % pour le CAC 40).
+
+Plus généralement, une décomposition des produits et charges significatifs au sens du paragraphe 23 est présentée
+par 68 % des émetteurs de l’EURO STOXX 50 (57,5 % des émetteurs du CAC 40 (23 sur 40), contre 80 % des
+émetteurs de l'EURO STOXX 50 hors CAC 40 (28 sur 35)). Toutefois, lorsque cette information est fournie, l’AMF
+s’interroge sur le caractère suffisamment39 détaillé de cette information dans 25 % des cas au sein du CAC 40 (10
+des 23 émetteurs concernés), contre 23 % au sein de l'EURO STOXX 50 hors CAC 40 (8 des 28).
+
+
+
+
+                                                  OUI
+
+
+
+
+Les questionnements soulevés résultent le plus souvent de l'absence de ventilation, par secteur opérationnel, de
+natures de produits ou de charges pourtant significatives 40, telles que les charges de personnel dans les secteurs à
+forte intensité de main-d'œuvre, les charges d'énergie dans le transport ou les coûts industriels dans les activités
+manufacturières.
+L’étude a permis de constater que quatre émetteurs du CAC 40 ont enrichi leur information sectorielle en 2025 par
+rapport à l’exercice précédent.
+
+
+
+39 L’étude ayant été menée sans interaction avec les émetteurs, elle ne permet pas notamment de s’assurer que l’ensemble des informations
+
+fournies régulièrement au PDO conformément à IFRS 8.23 sont présentées en annexe.
+40 Ce caractère significatif s’apprécie au regard de critères qualitatifs et quantitatifs.
+
+
+
+Document créé le 13 octobre 2026                                                                                                  27/30
+Recommandation AMF - DOC-2026-06 - Arrêté des comptes 2026 et travaux de revue des états financiers
+
+
+
+      Informations relatives aux produits et services (IFRS 8.32)
+
+Une décomposition du chiffre d'affaires par produits et services est présentée par 96 % des émetteurs de l’EURO
+STOXX 50 (87,5 % des émetteurs du CAC 40, contre 97,1 % de ceux de l'EURO STOXX 50 hors CAC 40). Il est à noter
+que les émetteurs qui présentent leur information sectorielle par zone géographique ont tendance à ne pas publier
+les informations requises par ailleurs sur les produits/activités (IFRS 8.32). Comparé à 2024, seul un émetteur du
+CAC 40 a fait évoluer son annexe.
+
+
+                                            Informations relatives aux produits et services
+
+
+
+
+      Informations relatives aux zones géographiques (IFRS 8.33)
+
+Les informations relatives aux zones géographiques sont présentées par une grande majorité des émetteurs de
+l'EURO STOXX 50. Ce constat de présence généralisée masque toutefois un niveau de détail hétérogène et souvent
+insuffisant au regard des exigences du paragraphe 33 d'IFRS 8.
+S'agissant du chiffre d'affaires, l'information relative au pays du siège social est fournie par 87,5 % des émetteurs
+du CAC 40, contre 94,3 % de ceux de l'EURO STOXX 50 hors CAC 40. Une ventilation par zone géographique est
+présentée par 95 % des émetteurs du CAC 40 et par la totalité des émetteurs de l'EURO STOXX 50 hors CAC 40,
+tandis que l'identification41 d'un ou plusieurs pays significatifs est réalisée par respectivement 77,8 % et 84,4 % des
+émetteurs des deux indices.
+
+Les écarts entre les émetteurs des deux indices sont plus marqués s'agissant des actifs non courants, dont la
+publication est également requise par le paragraphe 33. Seuls 55 % des émetteurs du CAC 40 présentent ces actifs
+pour le pays du siège social (contre 77,1 % au sein de l'EURO STOXX 50 hors CAC 40), 60 % les ventilent par zone
+géographique (contre 77,1 %) et 42,9 % identifient41 un ou plusieurs pays significatifs (contre 58,1 %).
+
+
+
+
+41
+   Concernant l’identification des pays individuellement significatifs, cette étude sans interaction avec les sociétés n’a pas permis de s’assurer de
+l’exhaustivité des informations communiquées.
+
+Document créé le 13 octobre 2026                                                                                                           28/30
+Recommandation AMF - DOC-2026-06 - Arrêté des comptes 2026 et travaux de revue des états financiers
+
+
+
+
+L’étude a permis de constater des évolutions marginales entre les deux exercices comparés.
+
+     Informations relatives aux principaux clients (IFRS 8.34)
+
+46 % des émetteurs de l’EURO STOXX 50 fournissent une information relative à leurs principaux clients (65 % des
+émetteurs du CAC 40 contre 40 % au sein de l'EURO STOXX 50 hors CAC 40). Lorsque cette information est
+disponible, elle prend très majoritairement la forme d'une déclaration négative indiquant qu’aucun client ne
+dépasse individuellement le seuil de 10 % (soit 88 % des émetteurs du CAC 40 ayant fourni une information et 79
+% au sein de l'EURO STOXX 50 hors CAC 40). Seuls trois émetteurs de chacun des deux indices déclarent avoir un
+client ou des clients dépassant ce seuil et pour la plupart communiquent également le secteur de rattachement
+ainsi que le poids de ces clients.
+
+
+
+
+Document créé le 13 octobre 2026                                                                       29/30
+Recommandation AMF - DOC-2026-06 - Arrêté des comptes 2026 et travaux de revue des états financiers
+
+
+
+
+L'absence d'information, relevée chez 14 émetteurs (35 %) du CAC 40 et 21 (60%) de l'EURO STOXX 50 hors CAC
+40, s'explique dans la plupart des cas, par les caractéristiques du secteur d'activité concerné (banques, automobile,
+grande distribution, hôtellerie, luxe), pour lesquels l'existence d'un client représentant plus de 10 % du chiffre
+d'affaires apparaît peu probable au regard du modèle d'affaires.
+L’AMF a observé une stabilité de cette information entre 2024 et 2025.
+
+
+Les informations sectorielles fournies au titre d’IFRS 8 revues dans le cadre de cette étude mettent en évidence
+des constats hétérogènes :
+     - Certaines informations communiquées pourraient être complétées et améliorées : par exemple des
+         informations sur les charges significatives (IFRS 8.23) par secteur plus granulaires et une information sur
+         le chiffre d’affaires et les actifs non courants par pays individuellement significatif complétée (IFRS 8.33) ;
+     - Certaines informations sont généralement mieux communiquées : par exemple les déclarations des
+         principaux clients (IFRS 8.34) et l’information relative aux produits et services (IFRS 8.32).
+
+
+
+
+Document créé le 13 octobre 2026                                                                                30/30
+

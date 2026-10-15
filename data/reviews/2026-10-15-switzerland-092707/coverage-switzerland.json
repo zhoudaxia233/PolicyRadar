@@ -1,0 +1,1402 @@
+{
+  "checkedAt": "2026-10-15T09:28:15.822Z",
+  "scope": "CH federation and all cantons",
+  "channels": 82,
+  "incompleteChannels": 82,
+  "gaps": [
+    {
+      "sourceUrl": "https://www.zh.ch/de.html",
+      "region": "CH-ZH",
+      "title": "苏黎世：州政府公告",
+      "windowStart": "2026-10-08",
+      "windowEnd": "2026-10-14",
+      "missingDays": [
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10",
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.zh.ch/de/politik-staat/gesetze-beschluesse/gesetzessammlung.html",
+      "region": "CH-ZH",
+      "title": "苏黎世：法律汇编",
+      "windowStart": "2026-10-08",
+      "windowEnd": "2026-10-14",
+      "missingDays": [
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10",
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.kantonsrat.zh.ch/",
+      "region": "CH-ZH",
+      "title": "苏黎世：州议会文件",
+      "windowStart": "2026-10-08",
+      "windowEnd": "2026-10-14",
+      "missingDays": [
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10",
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.be.ch/de/start.html",
+      "region": "CH-BE",
+      "title": "伯尔尼：州政府公告",
+      "windowStart": "2026-10-08",
+      "windowEnd": "2026-10-14",
+      "missingDays": [
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10",
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.belex.sites.be.ch/",
+      "region": "CH-BE",
+      "title": "伯尔尼：法律汇编",
+      "windowStart": "2026-10-08",
+      "windowEnd": "2026-10-14",
+      "missingDays": [
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10",
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.gr.be.ch/de/start.html",
+      "region": "CH-BE",
+      "title": "伯尔尼：州议会文件",
+      "windowStart": "2026-10-08",
+      "windowEnd": "2026-10-14",
+      "missingDays": [
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10",
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.lu.ch/",
+      "region": "CH-LU",
+      "title": "卢塞恩：州政府公告",
+      "windowStart": "2026-10-08",
+      "windowEnd": "2026-10-14",
+      "missingDays": [
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10",
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://srl.lu.ch/app/de/systematic",
+      "region": "CH-LU",
+      "title": "卢塞恩：法律汇编",
+      "windowStart": "2026-10-08",
+      "windowEnd": "2026-10-14",
+      "missingDays": [
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10",
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.lu.ch/kr",
+      "region": "CH-LU",
+      "title": "卢塞恩：州议会文件",
+      "windowStart": "2026-10-08",
+      "windowEnd": "2026-10-14",
+      "missingDays": [
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10",
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.ur.ch/",
+      "region": "CH-UR",
+      "title": "乌里：州政府公告",
+      "windowStart": "2026-10-08",
+      "windowEnd": "2026-10-14",
+      "missingDays": [
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10",
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://rechtsbuch.ur.ch/app/de/systematic",
+      "region": "CH-UR",
+      "title": "乌里：法律汇编",
+      "windowStart": "2026-10-08",
+      "windowEnd": "2026-10-14",
+      "missingDays": [
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10",
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.ur.ch/landrat",
+      "region": "CH-UR",
+      "title": "乌里：州议会文件",
+      "windowStart": "2026-10-08",
+      "windowEnd": "2026-10-14",
+      "missingDays": [
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10",
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.sz.ch/",
+      "region": "CH-SZ",
+      "title": "施维茨：州政府公告",
+      "windowStart": "2026-10-08",
+      "windowEnd": "2026-10-14",
+      "missingDays": [
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10",
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.sz.ch/kanton/gesetze.html/8756-8757-10021",
+      "region": "CH-SZ",
+      "title": "施维茨：法律汇编",
+      "windowStart": "2026-10-08",
+      "windowEnd": "2026-10-14",
+      "missingDays": [
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10",
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.sz.ch/behoerden/kantonsrat.html/8756-8758-8799",
+      "region": "CH-SZ",
+      "title": "施维茨：州议会文件",
+      "windowStart": "2026-10-08",
+      "windowEnd": "2026-10-14",
+      "missingDays": [
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10",
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.ow.ch/",
+      "region": "CH-OW",
+      "title": "上瓦尔登：州政府公告",
+      "windowStart": "2026-10-08",
+      "windowEnd": "2026-10-14",
+      "missingDays": [
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10",
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://gdb.ow.ch/app/de/systematic",
+      "region": "CH-OW",
+      "title": "上瓦尔登：法律汇编",
+      "windowStart": "2026-10-08",
+      "windowEnd": "2026-10-14",
+      "missingDays": [
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10",
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.ow.ch/kantonsratmain",
+      "region": "CH-OW",
+      "title": "上瓦尔登：州议会文件",
+      "windowStart": "2026-10-08",
+      "windowEnd": "2026-10-14",
+      "missingDays": [
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10",
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.nw.ch/",
+      "region": "CH-NW",
+      "title": "下瓦尔登：州政府公告",
+      "windowStart": "2026-10-08",
+      "windowEnd": "2026-10-14",
+      "missingDays": [
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10",
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://gesetze.nw.ch/app/de/systematic",
+      "region": "CH-NW",
+      "title": "下瓦尔登：法律汇编",
+      "windowStart": "2026-10-08",
+      "windowEnd": "2026-10-14",
+      "missingDays": [
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10",
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.nw.ch/landratmain",
+      "region": "CH-NW",
+      "title": "下瓦尔登：州议会文件",
+      "windowStart": "2026-10-08",
+      "windowEnd": "2026-10-14",
+      "missingDays": [
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10",
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.gl.ch/",
+      "region": "CH-GL",
+      "title": "格拉鲁斯：州政府公告",
+      "windowStart": "2026-10-08",
+      "windowEnd": "2026-10-14",
+      "missingDays": [
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10",
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14"
+      ],
+      "latestScan": "blocked"
+    },
+    {
+      "sourceUrl": "https://gesetze.gl.ch/app/de/systematic",
+      "region": "CH-GL",
+      "title": "格拉鲁斯：法律汇编",
+      "windowStart": "2026-10-08",
+      "windowEnd": "2026-10-14",
+      "missingDays": [
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10",
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.gl.ch/parlament/landrat.html/250",
+      "region": "CH-GL",
+      "title": "格拉鲁斯：州议会文件",
+      "windowStart": "2026-10-08",
+      "windowEnd": "2026-10-14",
+      "missingDays": [
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10",
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14"
+      ],
+      "latestScan": "blocked"
+    },
+    {
+      "sourceUrl": "https://zg.ch/de",
+      "region": "CH-ZG",
+      "title": "楚格：州政府公告",
+      "windowStart": "2026-10-08",
+      "windowEnd": "2026-10-14",
+      "missingDays": [
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10",
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://bgs.zg.ch/app/de/systematic",
+      "region": "CH-ZG",
+      "title": "楚格：法律汇编",
+      "windowStart": "2026-10-08",
+      "windowEnd": "2026-10-14",
+      "missingDays": [
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10",
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://zg.ch/de/kantonsrat",
+      "region": "CH-ZG",
+      "title": "楚格：州议会文件",
+      "windowStart": "2026-10-08",
+      "windowEnd": "2026-10-14",
+      "missingDays": [
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10",
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.fr.ch/",
+      "region": "CH-FR",
+      "title": "弗里堡：州政府公告",
+      "windowStart": "2026-10-08",
+      "windowEnd": "2026-10-14",
+      "missingDays": [
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10",
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://bdlf.fr.ch/app/fr/systematic/texts_of_law",
+      "region": "CH-FR",
+      "title": "弗里堡：法律汇编",
+      "windowStart": "2026-10-08",
+      "windowEnd": "2026-10-14",
+      "missingDays": [
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10",
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.fr.ch/parlinfo/programmes-et-dates-des-sessions-du-grand-conseil",
+      "region": "CH-FR",
+      "title": "弗里堡：州议会文件",
+      "windowStart": "2026-10-08",
+      "windowEnd": "2026-10-14",
+      "missingDays": [
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10",
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://so.ch/",
+      "region": "CH-SO",
+      "title": "索洛图恩：州政府公告",
+      "windowStart": "2026-10-08",
+      "windowEnd": "2026-10-14",
+      "missingDays": [
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10",
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://bgs.so.ch/app/de/systematic",
+      "region": "CH-SO",
+      "title": "索洛图恩：法律汇编",
+      "windowStart": "2026-10-08",
+      "windowEnd": "2026-10-14",
+      "missingDays": [
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10",
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://so.ch/parlament/",
+      "region": "CH-SO",
+      "title": "索洛图恩：州议会文件",
+      "windowStart": "2026-10-08",
+      "windowEnd": "2026-10-14",
+      "missingDays": [
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10",
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.bs.ch/",
+      "region": "CH-BS",
+      "title": "巴塞尔城市：州政府公告",
+      "windowStart": "2026-10-08",
+      "windowEnd": "2026-10-14",
+      "missingDays": [
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10",
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.gesetzessammlung.bs.ch/app/de/systematic",
+      "region": "CH-BS",
+      "title": "巴塞尔城市：法律汇编",
+      "windowStart": "2026-10-08",
+      "windowEnd": "2026-10-14",
+      "missingDays": [
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10",
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://grosserrat.bs.ch/",
+      "region": "CH-BS",
+      "title": "巴塞尔城市：州议会文件",
+      "windowStart": "2026-10-08",
+      "windowEnd": "2026-10-14",
+      "missingDays": [
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10",
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.baselland.ch/",
+      "region": "CH-BL",
+      "title": "巴塞尔乡村：州政府公告",
+      "windowStart": "2026-10-08",
+      "windowEnd": "2026-10-14",
+      "missingDays": [
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10",
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14"
+      ],
+      "latestScan": "blocked"
+    },
+    {
+      "sourceUrl": "https://bl.clex.ch/app/de/systematic",
+      "region": "CH-BL",
+      "title": "巴塞尔乡村：法律汇编",
+      "windowStart": "2026-10-08",
+      "windowEnd": "2026-10-14",
+      "missingDays": [
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10",
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.baselland.ch/politik-und-behorden/landrat-parlament",
+      "region": "CH-BL",
+      "title": "巴塞尔乡村：州议会文件",
+      "windowStart": "2026-10-08",
+      "windowEnd": "2026-10-14",
+      "missingDays": [
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10",
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14"
+      ],
+      "latestScan": "blocked"
+    },
+    {
+      "sourceUrl": "https://sh.ch/",
+      "region": "CH-SH",
+      "title": "沙夫豪森：州政府公告",
+      "windowStart": "2026-10-08",
+      "windowEnd": "2026-10-14",
+      "missingDays": [
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10",
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://rechtsbuch.sh.ch/app/de/systematic",
+      "region": "CH-SH",
+      "title": "沙夫豪森：法律汇编",
+      "windowStart": "2026-10-08",
+      "windowEnd": "2026-10-14",
+      "missingDays": [
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10",
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://sh.ch/CMS/Webseite/Kanton-Schaffhausen/Beh-rde/Parlament-3085-DE.html",
+      "region": "CH-SH",
+      "title": "沙夫豪森：州议会文件",
+      "windowStart": "2026-10-08",
+      "windowEnd": "2026-10-14",
+      "missingDays": [
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10",
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14"
+      ],
+      "latestScan": "blocked"
+    },
+    {
+      "sourceUrl": "https://ar.ch/",
+      "region": "CH-AR",
+      "title": "外阿彭策尔：州政府公告",
+      "windowStart": "2026-10-08",
+      "windowEnd": "2026-10-14",
+      "missingDays": [
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10",
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.bgs.ar.ch/app/de/systematic",
+      "region": "CH-AR",
+      "title": "外阿彭策尔：法律汇编",
+      "windowStart": "2026-10-08",
+      "windowEnd": "2026-10-14",
+      "missingDays": [
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10",
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://ar.ch/kantonsrat/",
+      "region": "CH-AR",
+      "title": "外阿彭策尔：州议会文件",
+      "windowStart": "2026-10-08",
+      "windowEnd": "2026-10-14",
+      "missingDays": [
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10",
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://ai.ch/",
+      "region": "CH-AI",
+      "title": "内阿彭策尔：州政府公告",
+      "windowStart": "2026-10-08",
+      "windowEnd": "2026-10-14",
+      "missingDays": [
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10",
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://ai.clex.ch/app/de/systematic",
+      "region": "CH-AI",
+      "title": "内阿彭策尔：法律汇编",
+      "windowStart": "2026-10-08",
+      "windowEnd": "2026-10-14",
+      "missingDays": [
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10",
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://ai.ch/politik/grosser-rat",
+      "region": "CH-AI",
+      "title": "内阿彭策尔：州议会文件",
+      "windowStart": "2026-10-08",
+      "windowEnd": "2026-10-14",
+      "missingDays": [
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10",
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.sg.ch/",
+      "region": "CH-SG",
+      "title": "圣加仑：州政府公告",
+      "windowStart": "2026-10-08",
+      "windowEnd": "2026-10-14",
+      "missingDays": [
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10",
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.gesetzessammlung.sg.ch/app/de/systematic",
+      "region": "CH-SG",
+      "title": "圣加仑：法律汇编",
+      "windowStart": "2026-10-08",
+      "windowEnd": "2026-10-14",
+      "missingDays": [
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10",
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.sg.ch/politik-verwaltung/kantonsrat.html",
+      "region": "CH-SG",
+      "title": "圣加仑：州议会文件",
+      "windowStart": "2026-10-08",
+      "windowEnd": "2026-10-14",
+      "missingDays": [
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10",
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.gr.ch/de",
+      "region": "CH-GR",
+      "title": "格劳宾登：州政府公告",
+      "windowStart": "2026-10-08",
+      "windowEnd": "2026-10-14",
+      "missingDays": [
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10",
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.gr-lex.gr.ch/app/de/systematic",
+      "region": "CH-GR",
+      "title": "格劳宾登：法律汇编",
+      "windowStart": "2026-10-08",
+      "windowEnd": "2026-10-14",
+      "missingDays": [
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10",
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.gr.ch/DE/institutionen/parlament/Seiten/Start.aspx",
+      "region": "CH-GR",
+      "title": "格劳宾登：州议会文件",
+      "windowStart": "2026-10-08",
+      "windowEnd": "2026-10-14",
+      "missingDays": [
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10",
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.ag.ch/de",
+      "region": "CH-AG",
+      "title": "阿尔高：州政府公告",
+      "windowStart": "2026-10-08",
+      "windowEnd": "2026-10-14",
+      "missingDays": [
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10",
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://gesetzessammlungen.ag.ch/app/de/chronology",
+      "region": "CH-AG",
+      "title": "阿尔高：法律汇编",
+      "windowStart": "2026-10-08",
+      "windowEnd": "2026-10-14",
+      "missingDays": [
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10",
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.ag.ch/de/ueber-uns/grosser-rat/ueber-uns/ratsmitglieder",
+      "region": "CH-AG",
+      "title": "阿尔高：州议会文件",
+      "windowStart": "2026-10-08",
+      "windowEnd": "2026-10-14",
+      "missingDays": [
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10",
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.tg.ch/",
+      "region": "CH-TG",
+      "title": "图尔高：州政府公告",
+      "windowStart": "2026-10-08",
+      "windowEnd": "2026-10-14",
+      "missingDays": [
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10",
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14"
+      ],
+      "latestScan": "blocked"
+    },
+    {
+      "sourceUrl": "https://www.rechtsbuch.tg.ch/app/de/systematic",
+      "region": "CH-TG",
+      "title": "图尔高：法律汇编",
+      "windowStart": "2026-10-08",
+      "windowEnd": "2026-10-14",
+      "missingDays": [
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10",
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.parlament.tg.ch/",
+      "region": "CH-TG",
+      "title": "图尔高：州议会文件",
+      "windowStart": "2026-10-08",
+      "windowEnd": "2026-10-14",
+      "missingDays": [
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10",
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www4.ti.ch/",
+      "region": "CH-TI",
+      "title": "提契诺：州政府公告",
+      "windowStart": "2026-10-08",
+      "windowEnd": "2026-10-14",
+      "missingDays": [
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10",
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14"
+      ],
+      "latestScan": "blocked"
+    },
+    {
+      "sourceUrl": "https://www3.ti.ch/CAN/RLeggi/public/index.php",
+      "region": "CH-TI",
+      "title": "提契诺：法律汇编",
+      "windowStart": "2026-10-08",
+      "windowEnd": "2026-10-14",
+      "missingDays": [
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10",
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14"
+      ],
+      "latestScan": "blocked"
+    },
+    {
+      "sourceUrl": "https://www4.ti.ch/poteri/gran-consiglio/",
+      "region": "CH-TI",
+      "title": "提契诺：州议会文件",
+      "windowStart": "2026-10-08",
+      "windowEnd": "2026-10-14",
+      "missingDays": [
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10",
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14"
+      ],
+      "latestScan": "blocked"
+    },
+    {
+      "sourceUrl": "https://www.vd.ch/",
+      "region": "CH-VD",
+      "title": "沃：州政府公告",
+      "windowStart": "2026-10-08",
+      "windowEnd": "2026-10-14",
+      "missingDays": [
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10",
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://prestations.vd.ch/pub/blv-publication/",
+      "region": "CH-VD",
+      "title": "沃：法律汇编",
+      "windowStart": "2026-10-08",
+      "windowEnd": "2026-10-14",
+      "missingDays": [
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10",
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.vd.ch/gc",
+      "region": "CH-VD",
+      "title": "沃：州议会文件",
+      "windowStart": "2026-10-08",
+      "windowEnd": "2026-10-14",
+      "missingDays": [
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10",
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.vs.ch/",
+      "region": "CH-VS",
+      "title": "瓦莱：州政府公告",
+      "windowStart": "2026-10-08",
+      "windowEnd": "2026-10-14",
+      "missingDays": [
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10",
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://lex.vs.ch/app/fr/systematic",
+      "region": "CH-VS",
+      "title": "瓦莱：法律汇编",
+      "windowStart": "2026-10-08",
+      "windowEnd": "2026-10-14",
+      "missingDays": [
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10",
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://parlement.vs.ch/",
+      "region": "CH-VS",
+      "title": "瓦莱：州议会文件",
+      "windowStart": "2026-10-08",
+      "windowEnd": "2026-10-14",
+      "missingDays": [
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10",
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.ne.ch/",
+      "region": "CH-NE",
+      "title": "纳沙泰尔：州政府公告",
+      "windowStart": "2026-10-08",
+      "windowEnd": "2026-10-14",
+      "missingDays": [
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10",
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://rsn.ne.ch/",
+      "region": "CH-NE",
+      "title": "纳沙泰尔：法律汇编",
+      "windowStart": "2026-10-08",
+      "windowEnd": "2026-10-14",
+      "missingDays": [
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10",
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.ne.ch/autorites/GC/Pages/accueil.aspx",
+      "region": "CH-NE",
+      "title": "纳沙泰尔：州议会文件",
+      "windowStart": "2026-10-08",
+      "windowEnd": "2026-10-14",
+      "missingDays": [
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10",
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.ge.ch/",
+      "region": "CH-GE",
+      "title": "日内瓦：州政府公告",
+      "windowStart": "2026-10-08",
+      "windowEnd": "2026-10-14",
+      "missingDays": [
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10",
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://silgeneve.ch/legis/",
+      "region": "CH-GE",
+      "title": "日内瓦：法律汇编",
+      "windowStart": "2026-10-08",
+      "windowEnd": "2026-10-14",
+      "missingDays": [
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10",
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://ge.ch/grandconseil/",
+      "region": "CH-GE",
+      "title": "日内瓦：州议会文件",
+      "windowStart": "2026-10-08",
+      "windowEnd": "2026-10-14",
+      "missingDays": [
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10",
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.jura.ch/",
+      "region": "CH-JU",
+      "title": "汝拉：州政府公告",
+      "windowStart": "2026-10-08",
+      "windowEnd": "2026-10-14",
+      "missingDays": [
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10",
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://rsju.jura.ch/",
+      "region": "CH-JU",
+      "title": "汝拉：法律汇编",
+      "windowStart": "2026-10-08",
+      "windowEnd": "2026-10-14",
+      "missingDays": [
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10",
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.jura.ch/PLT",
+      "region": "CH-JU",
+      "title": "汝拉：州议会文件",
+      "windowStart": "2026-10-08",
+      "windowEnd": "2026-10-14",
+      "missingDays": [
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10",
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.news.admin.ch/de",
+      "region": "CH",
+      "title": "瑞士联邦政府公告",
+      "windowStart": "2026-10-08",
+      "windowEnd": "2026-10-14",
+      "missingDays": [
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10",
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.fedlex.admin.ch/de/oc",
+      "region": "CH",
+      "title": "瑞士联邦法律汇编",
+      "windowStart": "2026-10-08",
+      "windowEnd": "2026-10-14",
+      "missingDays": [
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10",
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.parlament.ch/de/ratsbetrieb/suche-curia-vista",
+      "region": "CH",
+      "title": "瑞士联邦议会事务",
+      "windowStart": "2026-10-08",
+      "windowEnd": "2026-10-14",
+      "missingDays": [
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10",
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.bk.admin.ch/de/volksabstimmungen",
+      "region": "CH",
+      "title": "瑞士联邦投票结果",
+      "windowStart": "2026-10-08",
+      "windowEnd": "2026-10-14",
+      "missingDays": [
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10",
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14"
+      ],
+      "latestScan": "partial"
+    }
+  ]
+}

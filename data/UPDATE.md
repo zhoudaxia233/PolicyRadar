@@ -337,7 +337,12 @@ required editorial review, not a claim that automated tests can guarantee clarit
 
    `data:select` compares the working-tree `data/store` with the selection
    committed at `HEAD`. It rejects lost history, missing revisions, unarchived
-   policy citations, invalid scans and corrupt/missing source files. If any gate
+   policy citations, invalid scans and corrupt/missing source files. A selection
+   may include several local updates since HEAD: retain every consecutive
+   revision starting at version 1 for new policies, or at the committed version
+   plus 1 for existing policies. Each individual update still increments once.
+   The selection gate checks every intermediate payload, identity, event history
+   and cited evidence; do not squash, renumber or delete revisions to pass it. If any gate
    fails, fix the data or discard the attempt with `git restore data/store`;
    never commit an invalid store.
 7. Verify the built `dist/data.json` contains the intended records and real review

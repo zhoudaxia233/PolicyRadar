@@ -6,7 +6,7 @@ import {join} from 'node:path';
 import {fileURLToPath} from 'node:url';
 import {spawnSync,execFileSync} from 'node:child_process';
 import {writeStore} from '../lib/export-store.ts';
-import {validateUpdate} from '../lib/update-data.ts';
+import {validateUpdate,validateSelection} from '../lib/update-data.ts';
 const old=JSON.parse(readFileSync(new URL('../data/exports/2026-10-03/policy-radar-export.json',import.meta.url),'utf8'));
 const now=new Date('2026-10-04T08:00:00Z');
 const copy=()=>structuredClone(old);
@@ -63,7 +63,7 @@ test('selection validates the in-place store against the committed selection and
   cpSync(fixture,join(root,'data/exports/old'),{recursive:true});
   const pointer=join(root,'data/current-export.json');writeFileSync(pointer,JSON.stringify({path:'data/exports/old/policy-radar-export.json'}));
   git('add','.');git('commit','-qm','old');
-  const candidate=copy();candidate.discoveryRegistry=JSON.parse(readFileSync(new URL('../data/discovery-registry.json',import.meta.url),'utf8'));
+  const candidate=revisionBatch().next;
   writeStore(join(root,'data/store'),candidate);
   const run=()=>spawnSync(process.execPath,['--experimental-strip-types',fileURLToPath(new URL('../scripts/select-export.mjs',import.meta.url))],{cwd:root,encoding:'utf8'});
   cpSync(fileURLToPath(new URL('../data/sources',import.meta.url)),join(root,'data/sources'),{recursive:true});
@@ -78,4 +78,49 @@ test('selection validates the in-place store against the committed selection and
   const lost=copy();lost.discoveryRegistry=candidate.discoveryRegistry;lost.tables.intake.pop();writeStore(join(root,'data/store'),lost);
   const rejected=run();assert.notEqual(rejected.status,0);assert.match(rejected.stderr,/Immutable intake row changed or removed/);
  }finally{rmSync(root,{recursive:true,force:true});}
+});
+
+function revisionBatch(isNew=false){
+ const previous=copy(),next=copy(),row=next.tables.policies[0];
+ next.discoveryRegistry=JSON.parse(readFileSync(new URL('../data/discovery-registry.json',import.meta.url),'utf8'));
+ if(isNew){
+  previous.tables.policies=previous.tables.policies.filter((r:{id:string})=>r.id!==row.id);
+  previous.tables.revisions=previous.tables.revisions.filter((r:{policy_id:string})=>r.policy_id!==row.id);
+  next.tables.revisions=next.tables.revisions.filter((r:{policy_id:string})=>r.policy_id!==row.id);
+  row.version=0;
+ }
+ for(let i=0;i<2;i++){
+  const p=JSON.parse(row.data);p.status='adopted';p.summary+=' Reviewed step '+i;
+  row.version++;row.data=JSON.stringify(p);
+  next.tables.revisions.push({id:`${row.id}:${row.version}`,policy_id:row.id,version:row.version,recorded_at:now.toISOString(),data:row.data});
+ }
+ return {previous,next,row};
+}
+test('selection accepts complete consecutive local revision chains for new and existing policies',()=>{
+ for(const isNew of [true,false]){
+  const {previous,next}=revisionBatch(isNew);
+  assert.doesNotThrow(()=>validateSelection(previous,next,now));
+  // A single editing operation must still advance exactly once.
+  assert.throws(()=>validateUpdate(previous,next,now),/version must advance exactly once/);
+ }
+});
+test('selection rejects missing intermediate revisions and mismatched final payloads',()=>{
+ for(const isNew of [true,false]){
+  const {previous,next,row}=revisionBatch(isNew);
+  const gap=structuredClone(next);gap.tables.revisions.splice(-2,1);
+  assert.throws(()=>validateSelection(previous,gap,now),/version must advance exactly once/);
+  const mismatch=structuredClone(next);const p=JSON.parse(row.data);p.summary+=' unrecorded';mismatch.tables.policies[0].data=JSON.stringify(p);
+  assert.throws(()=>validateSelection(previous,mismatch,now),/matching revision/);
+ }
+});
+test('selection validates intermediate identity, immutable events, dates and evidence even if the final version restores them',()=>{
+ for(const mutate of [
+  (p:any)=>{p.officialId+=' changed';},
+  (p:any)=>{p.events[0].detail='temporarily rewritten';},
+  (p:any)=>{p.verifiedAt='2026-10-05';},
+  (p:any)=>{p.sources[0].url='https://www.bundesregierung.de/unarchived-intermediate';},
+ ]){
+  const {previous,next}=revisionBatch();const r=next.tables.revisions.at(-2),p=JSON.parse(r.data);mutate(p);r.data=JSON.stringify(p);
+  assert.throws(()=>validateSelection(previous,next,now),/identity|immutable|future|archived evidence/);
+ }
 });

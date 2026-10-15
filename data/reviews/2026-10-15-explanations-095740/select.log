@@ -1,0 +1,19 @@
+
+> policy-radar@0.1.0 data:select
+> node --experimental-strip-types scripts/select-export.mjs data/store
+
+(node:22126) ExperimentalWarning: Type Stripping is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+file:///Users/closears/PolicyRadar/lib/update-data.ts:44
+  if(row.version!==(before?Number(before.version)+1:1))throw Error('Policy version must advance exactly once');
+                                                             ^
+
+Error: Policy version must advance exactly once
+    at validateUpdate (file:///Users/closears/PolicyRadar/lib/update-data.ts:44:62)
+    at validateSelection (file:///Users/closears/PolicyRadar/lib/update-data.ts:78:15)
+    at file:///Users/closears/PolicyRadar/scripts/select-export.mjs:23:15
+    at ModuleJob.run (node:internal/modules/esm/module_job:274:25)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:644:26)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:98:5)
+
+Node.js v23.10.0

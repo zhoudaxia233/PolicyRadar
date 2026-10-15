@@ -406,10 +406,10 @@
   },
   {
     "url": "https://www.tweedekamer.nl/kamerstukken/wetsvoorstellen/detail?cfg=wetsvoorsteldetails&qry=wetsvoorstel%3A36889",
-    "checked_at": "2026-10-13T13:16:14.693116Z",
-    "last_success_at": "2026-10-13T13:16:14.693116Z",
-    "hash": "91e2a989fc5b0c570e2d5cbce8300d8de73f8d691f265f48e9d2334e3bf70457",
-    "snapshot_key": "sources/71ba8ce5987d272b8da3328cdb8be80aaf95b64bfeb7c3387ce3ba3575f6a7f1/91e2a989fc5b0c570e2d5cbce8300d8de73f8d691f265f48e9d2334e3bf70457.html",
+    "checked_at": "2026-10-15T09:35:52.766614Z",
+    "last_success_at": "2026-10-15T09:35:52.766614Z",
+    "hash": "3ee7ca35621fc386de54ad167b40a7f3f884699c73f8442df50e92ccf49fe458",
+    "snapshot_key": "sources/71ba8ce5987d272b8da3328cdb8be80aaf95b64bfeb7c3387ce3ba3575f6a7f1/3ee7ca35621fc386de54ad167b40a7f3f884699c73f8442df50e92ccf49fe458.html",
     "changed": 1,
     "error": null
   },
@@ -523,11 +523,11 @@
   },
   {
     "url": "https://www.eerstekamer.nl/wetsvoorstel/36947_wet_bijmengverplichting",
-    "checked_at": "2026-10-13T13:16:14.042340Z",
-    "last_success_at": "2026-10-13T13:16:14.042340Z",
-    "hash": "2d36ff4c7c352b5a8a01ded16cd86aa103566ac50bd2ab195efe6b78a27af768",
-    "snapshot_key": "sources/44de734af3f84f0042bf123cf7d89d3c18877bc1cf11d8b52c0fcd19a9eb9cee/2d36ff4c7c352b5a8a01ded16cd86aa103566ac50bd2ab195efe6b78a27af768.html",
-    "changed": 0,
+    "checked_at": "2026-10-15T09:35:46.232118Z",
+    "last_success_at": "2026-10-15T09:35:46.232118Z",
+    "hash": "9829091e007146a7bd95c2130563f5b6e2a5b4d48d6e4b53a3a330522ac68bd0",
+    "snapshot_key": "sources/44de734af3f84f0042bf123cf7d89d3c18877bc1cf11d8b52c0fcd19a9eb9cee/9829091e007146a7bd95c2130563f5b6e2a5b4d48d6e4b53a3a330522ac68bd0.html",
+    "changed": 1,
     "error": null
   },
   {
@@ -595,12 +595,12 @@
   },
   {
     "url": "https://www.provincie-utrecht.nl/actueel/nieuws",
-    "checked_at": "2026-10-13T13:16:51.764978Z",
+    "checked_at": "2026-10-15T09:44:52.842Z",
     "last_success_at": null,
     "hash": null,
     "snapshot_key": null,
     "changed": 0,
-    "error": "Only an application shell, empty search or request-rejected page was retrieved; no documentary snapshot accepted."
+    "error": "Security verification page, including browser rendering; not archived as policy evidence"
   },
   {
     "url": "https://www.zuid-holland.nl/actueel/nieuws/",
@@ -676,11 +676,11 @@
   },
   {
     "url": "https://www.provinciegroningen.nl/actueel/nieuws/nieuwsartikel/winnaars-groninger-cultuurprijzen-2026-bekend/",
-    "checked_at": "2026-10-10T23:01:04.188011Z",
-    "last_success_at": "2026-10-10T23:01:04.188011Z",
-    "hash": "eee9cd7d35dcd8dc1e2111e45a370eb5954fd84d1c407dfea53b4517f8a98330",
-    "snapshot_key": "sources/42bc03091fe0dcb3811116360c2c795d0f1e26fdd920f2cc78f83e6272844813/eee9cd7d35dcd8dc1e2111e45a370eb5954fd84d1c407dfea53b4517f8a98330.html",
-    "changed": 0,
+    "checked_at": "2026-10-15T09:39:44.085541Z",
+    "last_success_at": "2026-10-15T09:39:44.085541Z",
+    "hash": "e7d6f9760c252ec41a99d45e48027d25e34a8ecff3c67ac5944a5e29f337d7eb",
+    "snapshot_key": "sources/42bc03091fe0dcb3811116360c2c795d0f1e26fdd920f2cc78f83e6272844813/e7d6f9760c252ec41a99d45e48027d25e34a8ecff3c67ac5944a5e29f337d7eb.html",
+    "changed": 1,
     "error": null
   },
   {
@@ -1045,8 +1045,8 @@
   },
   {
     "url": "https://www.zuid-holland.nl/actueel/nieuws/oktober-2026/zuid-holland-proeftuin-nieuwe-energietechnologie/",
-    "checked_at": "2026-10-10T23:01:07.528150Z",
-    "last_success_at": "2026-10-10T23:01:07.528150Z",
+    "checked_at": "2026-10-15T09:39:45.425720Z",
+    "last_success_at": "2026-10-15T09:39:45.425720Z",
     "hash": "cfe713c68d1efe7f55ced341242358809b4c8314758994b737e2c23f22caa50a",
     "snapshot_key": "sources/769f8aa48610735305039bc7f80361a5ab631827c23361180de2f2179c03d9c6/cfe713c68d1efe7f55ced341242358809b4c8314758994b737e2c23f22caa50a.html",
     "changed": 0,
@@ -1081,8 +1081,8 @@
   },
   {
     "url": "https://www.zuid-holland.nl/actueel/nieuws/oktober-2026/groot-nieuw-natuur-recreatiegebied-katwijk/",
-    "checked_at": "2026-10-10T23:01:08.283644Z",
-    "last_success_at": "2026-10-10T23:01:08.283644Z",
+    "checked_at": "2026-10-15T09:39:45.593136Z",
+    "last_success_at": "2026-10-15T09:39:45.593136Z",
     "hash": "45a4c0dd4078967a4404b1a20f0684f563d396c788e241ed94399cc8e82156b1",
     "snapshot_key": "sources/e5ab3d64aaf08b974b44e1ddd22305a7578df5ef504c24365ab3c5fe794b73b1/45a4c0dd4078967a4404b1a20f0684f563d396c788e241ed94399cc8e82156b1.html",
     "changed": 0,
@@ -1108,11 +1108,11 @@
   },
   {
     "url": "https://www.brabant.nl/actueel/nieuws/cultuurfonds-noord-brabant-investeert-ruim-250-000-euro/",
-    "checked_at": "2026-10-10T23:01:08.757073Z",
-    "last_success_at": "2026-10-10T23:01:08.757073Z",
-    "hash": "9c5b17f4cd0b2935ca84fc366d497b5850beac02831108ea225d61d32dbd1844",
-    "snapshot_key": "sources/325ac754874f352bea24002544e480357d5df150939bda74fc8b714d78ad85cd/9c5b17f4cd0b2935ca84fc366d497b5850beac02831108ea225d61d32dbd1844.html",
-    "changed": 0,
+    "checked_at": "2026-10-15T09:39:46.895751Z",
+    "last_success_at": "2026-10-15T09:39:46.895751Z",
+    "hash": "fa352ee29e0fa672b3494dda5638cd19c603f1e02d1c678def51725063b0518f",
+    "snapshot_key": "sources/325ac754874f352bea24002544e480357d5df150939bda74fc8b714d78ad85cd/fa352ee29e0fa672b3494dda5638cd19c603f1e02d1c678def51725063b0518f.html",
+    "changed": 1,
     "error": null
   },
   {
@@ -1270,11 +1270,11 @@
   },
   {
     "url": "https://www.noord-holland.nl/Actueel/Archief/2026/Oktober_2026/Huygenfietsbrug_vanaf_2_november_gesloten",
-    "checked_at": "2026-10-10T23:01:10.631397Z",
-    "last_success_at": "2026-10-10T23:01:10.631397Z",
-    "hash": "03ae61a0270301b6ecaffb377cf85f330dbc8db767e5771c225f5b179e6c5e4e",
-    "snapshot_key": "sources/b28b13999e8004fe221fcf743b5d2e313daabd4026cd167145f07ae9f8e70f0b/03ae61a0270301b6ecaffb377cf85f330dbc8db767e5771c225f5b179e6c5e4e.html",
-    "changed": 0,
+    "checked_at": "2026-10-15T09:39:45.212872Z",
+    "last_success_at": "2026-10-15T09:39:45.212872Z",
+    "hash": "4e36012f96336b757c5e73799b76e3e1d6e440d1903656b3258039286ae022bc",
+    "snapshot_key": "sources/b28b13999e8004fe221fcf743b5d2e313daabd4026cd167145f07ae9f8e70f0b/4e36012f96336b757c5e73799b76e3e1d6e440d1903656b3258039286ae022bc.html",
+    "changed": 1,
     "error": null
   },
   {
@@ -1459,11 +1459,11 @@
   },
   {
     "url": "https://www.zeeland.nl/actueel/werkzaamheden-aan-de-zeelandbrug-eerder-klaar",
-    "checked_at": "2026-10-10T23:01:11.912741Z",
-    "last_success_at": "2026-10-10T23:01:11.912741Z",
-    "hash": "6313b56e4c2b80590960d9a39922e9ce87b60608f141d45b73c404ea5bf06363",
-    "snapshot_key": "sources/895e71333216838e427996a1712eef496877c4bd8b655cf65baae42a1e14d9ce/6313b56e4c2b80590960d9a39922e9ce87b60608f141d45b73c404ea5bf06363.html",
-    "changed": 0,
+    "checked_at": "2026-10-15T09:39:45.716598Z",
+    "last_success_at": "2026-10-15T09:39:45.716598Z",
+    "hash": "b5f7de2c0b8dcddd7f2543847708870b73a51c49f7f505bfe1b85b7d4622aa22",
+    "snapshot_key": "sources/895e71333216838e427996a1712eef496877c4bd8b655cf65baae42a1e14d9ce/b5f7de2c0b8dcddd7f2543847708870b73a51c49f7f505bfe1b85b7d4622aa22.html",
+    "changed": 1,
     "error": null
   },
   {
@@ -1864,28 +1864,28 @@
   },
   {
     "url": "https://zoek.officielebekendmakingen.nl/stb-2025-431.html",
-    "checked_at": "2026-10-13T13:16:14.503575Z",
-    "last_success_at": "2026-10-13T13:16:14.503575Z",
-    "hash": "a98c7bc91a83ffa632d72365e4a05f5e08630847f2c5b7abbe4965a56d3c8faa",
-    "snapshot_key": "sources/840661db9ffa4b3463502835147eadf2b7a548a52c9b72d66439e1049f715253/a98c7bc91a83ffa632d72365e4a05f5e08630847f2c5b7abbe4965a56d3c8faa.html",
+    "checked_at": "2026-10-15T09:35:51.160482Z",
+    "last_success_at": "2026-10-15T09:35:51.160482Z",
+    "hash": "75d13be0338adf60f299aaec8426318de1fe8a13f3639f360dc116cd96c549e1",
+    "snapshot_key": "sources/840661db9ffa4b3463502835147eadf2b7a548a52c9b72d66439e1049f715253/75d13be0338adf60f299aaec8426318de1fe8a13f3639f360dc116cd96c549e1.html",
     "changed": 1,
     "error": null
   },
   {
     "url": "https://zoek.officielebekendmakingen.nl/stb-2026-58.html",
-    "checked_at": "2026-10-13T13:16:14.631670Z",
-    "last_success_at": "2026-10-13T13:16:14.631670Z",
-    "hash": "c5148be949d39fe0234773b3e4f438da89ab633deb29c46c3fac8572e7d0db5f",
-    "snapshot_key": "sources/1de71a6c06a0f25415db75d74535e6601b8e2afce65c5013ea4de5fe59591a4e/c5148be949d39fe0234773b3e4f438da89ab633deb29c46c3fac8572e7d0db5f.html",
+    "checked_at": "2026-10-15T09:35:51.258921Z",
+    "last_success_at": "2026-10-15T09:35:51.258921Z",
+    "hash": "4bf0b7468cdca669c1aceefddafe7a7407667077e367ce308d43432034c5d780",
+    "snapshot_key": "sources/1de71a6c06a0f25415db75d74535e6601b8e2afce65c5013ea4de5fe59591a4e/4bf0b7468cdca669c1aceefddafe7a7407667077e367ce308d43432034c5d780.html",
     "changed": 1,
     "error": null
   },
   {
     "url": "https://www.rijksoverheid.nl/actueel/nieuws/2026/03/23/leegstandsheffing-nieuw-instrument-in-aanpak-leegstand",
-    "checked_at": "2026-10-13T13:16:14.632058Z",
-    "last_success_at": "2026-10-13T13:16:14.632058Z",
-    "hash": "757cd9a3a395b3344ea2b8a0958bc8ab0e94307ef7798a709b8f3eb3a14b376f",
-    "snapshot_key": "sources/987a8dfccd86d3fe382234af59f3c74a259011b1ba1eab141351245ac3dedbb1/757cd9a3a395b3344ea2b8a0958bc8ab0e94307ef7798a709b8f3eb3a14b376f.html",
+    "checked_at": "2026-10-15T09:35:51.275154Z",
+    "last_success_at": "2026-10-15T09:35:51.275154Z",
+    "hash": "80df158173a9b597dc7675d9a97931ff30b6461b91d284c11f0ab9cb87b0f7a5",
+    "snapshot_key": "sources/987a8dfccd86d3fe382234af59f3c74a259011b1ba1eab141351245ac3dedbb1/80df158173a9b597dc7675d9a97931ff30b6461b91d284c11f0ab9cb87b0f7a5.html",
     "changed": 1,
     "error": null
   },
@@ -1945,10 +1945,10 @@
   },
   {
     "url": "https://zoek.officielebekendmakingen.nl/kst-36889-3.html",
-    "checked_at": "2026-10-13T13:16:14.818560Z",
-    "last_success_at": "2026-10-13T13:16:14.818560Z",
-    "hash": "358cbcbf7c570d2063cf1ec7fe2df074d24546eaa898c928804ae1d5e410bb9e",
-    "snapshot_key": "sources/fca81c4ac11ae3d2b7fa4a6bb9e92e887b9792cb247ff8bb95d346789d6fbb53/358cbcbf7c570d2063cf1ec7fe2df074d24546eaa898c928804ae1d5e410bb9e.html",
+    "checked_at": "2026-10-15T09:35:52.814317Z",
+    "last_success_at": "2026-10-15T09:35:52.814317Z",
+    "hash": "309915cceb7e6df596ce4d4795bd058b89a853caad231bd49d1be5a80a73a84e",
+    "snapshot_key": "sources/fca81c4ac11ae3d2b7fa4a6bb9e92e887b9792cb247ff8bb95d346789d6fbb53/309915cceb7e6df596ce4d4795bd058b89a853caad231bd49d1be5a80a73a84e.html",
     "changed": 1,
     "error": null
   },
@@ -1999,11 +1999,11 @@
   },
   {
     "url": "https://www.eerstekamer.nl/wetsvoorstel/36889_raadplegen_en_gebruik_van",
-    "checked_at": "2026-10-13T13:16:15.083181Z",
-    "last_success_at": "2026-10-13T13:16:15.083181Z",
-    "hash": "4ed5b255d43095a7e435376a80d9ca26632a344d10939af0084f3f7605cef0a0",
-    "snapshot_key": "sources/af3be378581720cbc8f1edc4c7e11c385accdc578cacdeb0177b9ffc9e258e0b/4ed5b255d43095a7e435376a80d9ca26632a344d10939af0084f3f7605cef0a0.html",
-    "changed": 0,
+    "checked_at": "2026-10-15T09:35:53.291013Z",
+    "last_success_at": "2026-10-15T09:35:53.291013Z",
+    "hash": "bd0c78c5ee3ffd4c0ef0143390eaa0482581a81cf1c6feedbfd53a8ef62f4277",
+    "snapshot_key": "sources/af3be378581720cbc8f1edc4c7e11c385accdc578cacdeb0177b9ffc9e258e0b/bd0c78c5ee3ffd4c0ef0143390eaa0482581a81cf1c6feedbfd53a8ef62f4277.html",
+    "changed": 1,
     "error": null
   },
   {
@@ -2026,17 +2026,17 @@
   },
   {
     "url": "https://zoek.officielebekendmakingen.nl/kst-36889-A.html",
-    "checked_at": "2026-10-13T13:16:15.015111Z",
-    "last_success_at": "2026-10-13T13:16:15.015111Z",
-    "hash": "4f1962193417c2ab141f5bec309e42cc8c5b20dd56617baba8ee38332b3c34d5",
-    "snapshot_key": "sources/cdf8ddb578421981d9118798164ab0d878e8219765a70adf81f5eb4720ebf566/4f1962193417c2ab141f5bec309e42cc8c5b20dd56617baba8ee38332b3c34d5.html",
+    "checked_at": "2026-10-15T09:35:53.253722Z",
+    "last_success_at": "2026-10-15T09:35:53.253722Z",
+    "hash": "fbd7137fda87e82220b5caf5a9551aeb8075ca867fb3d6be88efae635f0d68a8",
+    "snapshot_key": "sources/cdf8ddb578421981d9118798164ab0d878e8219765a70adf81f5eb4720ebf566/fbd7137fda87e82220b5caf5a9551aeb8075ca867fb3d6be88efae635f0d68a8.html",
     "changed": 1,
     "error": null
   },
   {
     "url": "https://www.eerstekamer.nl/wetsvoorstel/35968_archiefwet_2026",
-    "checked_at": "2026-10-13T13:16:15.142781Z",
-    "last_success_at": "2026-10-13T13:16:15.142781Z",
+    "checked_at": "2026-10-15T09:35:53.398803Z",
+    "last_success_at": "2026-10-15T09:35:53.398803Z",
     "hash": "2e36c7935368f0084a9dc60f8dbd03209b3376878758c1273c9be5733405a5e9",
     "snapshot_key": "sources/b7838b00afb04f3e26ae93d727ec72486753b92459d1084a8df33df9cee05cbc/2e36c7935368f0084a9dc60f8dbd03209b3376878758c1273c9be5733405a5e9.html",
     "changed": 0,
@@ -6796,11 +6796,11 @@
   },
   {
     "url": "https://www.hamburg.de/politik-und-verwaltung/behoerden/behoerde-fuer-stadtentwicklung-und-wohnen/aktuelles/pressemeldungen/erschliessungsarbeiten-fuer-die-fischbeker-reethen-haben-begonnen-1227948",
-    "checked_at": "2026-10-13T09:28:23.278748Z",
-    "last_success_at": "2026-10-13T09:28:23.278748Z",
-    "hash": "16de007fffe299993b1bb60d58c2529e01e5d725158169d581137ef71c644696",
-    "snapshot_key": "sources/9835be0b9d680740984ae00c44924277dbd338251d3dd9369bea869c02134547/16de007fffe299993b1bb60d58c2529e01e5d725158169d581137ef71c644696.html",
-    "changed": 0,
+    "checked_at": "2026-10-15T10:02:32.371178Z",
+    "last_success_at": "2026-10-15T10:02:32.371178Z",
+    "hash": "2642805c371f76ffd79499305d91eb5fc3d3f83b4c68669634f2cfaf8fd99854",
+    "snapshot_key": "sources/9835be0b9d680740984ae00c44924277dbd338251d3dd9369bea869c02134547/2642805c371f76ffd79499305d91eb5fc3d3f83b4c68669634f2cfaf8fd99854.html",
+    "changed": 1,
     "error": null
   },
   {
@@ -6814,26 +6814,26 @@
   },
   {
     "url": "https://www.arl-lw.niedersachsen.de/startseite/aktuelles/presseinformationen/gute-ideen-brauchen-ruckenwind-innovation-in-hildesheim-wird-gestarkt-254504.html",
-    "checked_at": "2026-10-13T09:28:26.516814Z",
-    "last_success_at": "2026-10-13T09:28:26.516814Z",
-    "hash": "69c3bdbb4163cbb4db29048d91631dbdb2c3eb10f4bf0d92588c3a538a45ae59",
-    "snapshot_key": "sources/e151fc76fddd3f12eab2f3f65f4e13ad8750cf12a2dabf7edca18942ab86cf6b/69c3bdbb4163cbb4db29048d91631dbdb2c3eb10f4bf0d92588c3a538a45ae59.html",
-    "changed": 0,
+    "checked_at": "2026-10-15T10:02:29.963401Z",
+    "last_success_at": "2026-10-15T10:02:29.963401Z",
+    "hash": "04c437d1a126cd55c15541fa58921176bd0f5dd9139bbd9de700a10293b195c9",
+    "snapshot_key": "sources/e151fc76fddd3f12eab2f3f65f4e13ad8750cf12a2dabf7edca18942ab86cf6b/04c437d1a126cd55c15541fa58921176bd0f5dd9139bbd9de700a10293b195c9.html",
+    "changed": 1,
     "error": null
   },
   {
     "url": "https://www.arl-lw.niedersachsen.de/startseite/aktuelles/presseinformationen/kunstliche-intelligenz-fur-mehr-service-landkreise-verden-diepholz-und-nienburg-starten-gemeinsames-digitalprojekt-254459.html",
-    "checked_at": "2026-10-13T09:28:26.979091Z",
-    "last_success_at": "2026-10-13T09:28:26.979091Z",
-    "hash": "7a69943d7b007e7bd6139655d9dab42056e9813f9bcf504d4651ff1d7d7ef588",
-    "snapshot_key": "sources/e04fe8af16501391bea68bf598ad069f31d7dc60833434947654c0c260d670bc/7a69943d7b007e7bd6139655d9dab42056e9813f9bcf504d4651ff1d7d7ef588.html",
-    "changed": 0,
+    "checked_at": "2026-10-15T10:02:32.413572Z",
+    "last_success_at": "2026-10-15T10:02:32.413572Z",
+    "hash": "982e305613f0cbc6d2b4394b995bd16ba26fdb45e6b35071325e901946a5a7a0",
+    "snapshot_key": "sources/e04fe8af16501391bea68bf598ad069f31d7dc60833434947654c0c260d670bc/982e305613f0cbc6d2b4394b995bd16ba26fdb45e6b35071325e901946a5a7a0.html",
+    "changed": 1,
     "error": null
   },
   {
     "url": "https://www.lbeg.niedersachsen.de/aktuelles/pressemitteilungen/wasserstoffleitung-von-bunde-nach-wettringen-lbeg-genehmigt-niedersachsischen-teil-des-nrl-iii-254444.html",
-    "checked_at": "2026-10-13T09:28:27.270516Z",
-    "last_success_at": "2026-10-13T09:28:27.270516Z",
+    "checked_at": "2026-10-15T10:02:32.510161Z",
+    "last_success_at": "2026-10-15T10:02:32.510161Z",
     "hash": "3e466d139670a29e6b4e45e67067792ff133a134f2db305e3ec461c722c5fe6f",
     "snapshot_key": "sources/c38f34c9bd00265d07acdc8ddd1c0f1230355f5327d755226810a4832f68e6a7/3e466d139670a29e6b4e45e67067792ff133a134f2db305e3ec461c722c5fe6f.html",
     "changed": 0,
@@ -6859,11 +6859,11 @@
   },
   {
     "url": "https://www.baden-wuerttemberg.de/de/service/presse/pressemitteilung/pid/mint-exzellenzgymnasium-in-bad-saulgau-eroeffnet",
-    "checked_at": "2026-10-13T09:29:15.061311Z",
-    "last_success_at": "2026-10-13T09:29:15.061311Z",
-    "hash": "d751ddae7fd16d5cf3dc1ecd567d07e24ae49fd66e69507755783568bf267cb2",
-    "snapshot_key": "sources/54223ce68c12f08fe308ee0256e1baece96abe0632d686d3a6e981e431c6122c/d751ddae7fd16d5cf3dc1ecd567d07e24ae49fd66e69507755783568bf267cb2.html",
-    "changed": 0,
+    "checked_at": "2026-10-15T10:02:32.706818Z",
+    "last_success_at": "2026-10-15T10:02:32.706818Z",
+    "hash": "e0cb4b6e2c4913ae7715a6938ddc9e7741f92d5c43b62972285faf98d61b9287",
+    "snapshot_key": "sources/54223ce68c12f08fe308ee0256e1baece96abe0632d686d3a6e981e431c6122c/e0cb4b6e2c4913ae7715a6938ddc9e7741f92d5c43b62972285faf98d61b9287.html",
+    "changed": 1,
     "error": null
   },
   {
@@ -6877,11 +6877,11 @@
   },
   {
     "url": "https://mbjs.brandenburg.de/aktuelles/pressemitteilungen.html?news=brandenburg_06.c.917517.de",
-    "checked_at": "2026-10-13T09:30:15.517565Z",
-    "last_success_at": "2026-10-13T09:30:15.517565Z",
-    "hash": "7f2b326b709eab88e8d2d8fda63a2fdd4b2c66eace6ae4f1756184b02d3e57f8",
-    "snapshot_key": "sources/54058195dddbf7dbd4cbdea09d48dded5d4ce9938fb35fed8abb73f65d5f4a2f/7f2b326b709eab88e8d2d8fda63a2fdd4b2c66eace6ae4f1756184b02d3e57f8.html",
-    "changed": 0,
+    "checked_at": "2026-10-15T10:02:32.734907Z",
+    "last_success_at": "2026-10-15T10:02:32.734907Z",
+    "hash": "c2abfecddacddc8c53af4990570cbee96e8d4da5cbfdc2927c57527fe0da42da",
+    "snapshot_key": "sources/54058195dddbf7dbd4cbdea09d48dded5d4ce9938fb35fed8abb73f65d5f4a2f/c2abfecddacddc8c53af4990570cbee96e8d4da5cbfdc2927c57527fe0da42da.html",
+    "changed": 1,
     "error": null
   },
   {
@@ -6913,11 +6913,11 @@
   },
   {
     "url": "https://www.zh.ch/de/news-uebersicht/medienmitteilungen/2026/10/meilen-durchgangsplatz-fuer-fahrende-auf-dem-vorderen-pfannenstiel-wird-ausgebaut.html",
-    "checked_at": "2026-10-13T09:50:43.913817Z",
-    "last_success_at": "2026-10-13T09:50:43.913817Z",
-    "hash": "2dbda18afe95329dcabf732ef2d82e60875703a70c7aa21a463abf0e6d120e9a",
-    "snapshot_key": "sources/6db8bf09f17bb51ab8971a80525e10926abc8df27dfd6f494d4a72e1f93b1f4d/2dbda18afe95329dcabf732ef2d82e60875703a70c7aa21a463abf0e6d120e9a.html",
-    "changed": 0,
+    "checked_at": "2026-10-15T09:12:56.811111Z",
+    "last_success_at": "2026-10-15T09:12:56.811111Z",
+    "hash": "2b2a285c10d08510dc60b0162284734a04f3f17c73ed33ab2ac918e4b9c4c312",
+    "snapshot_key": "sources/6db8bf09f17bb51ab8971a80525e10926abc8df27dfd6f494d4a72e1f93b1f4d/2b2a285c10d08510dc60b0162284734a04f3f17c73ed33ab2ac918e4b9c4c312.html",
+    "changed": 1,
     "error": null
   },
   {
@@ -6940,47 +6940,47 @@
   },
   {
     "url": "https://www.ur.ch/_rte/information/138922",
-    "checked_at": "2026-10-13T09:50:43.914205Z",
-    "last_success_at": "2026-10-13T09:50:43.914205Z",
-    "hash": "011898d8403628501bfb11e8211d5518155fec7166a9212829a2cb2556f7b7f7",
-    "snapshot_key": "sources/4c6d6f46b6f2d3a106808ef1be3e0b4835a5963b44fe252b05cd17cf141e37af/011898d8403628501bfb11e8211d5518155fec7166a9212829a2cb2556f7b7f7.html",
-    "changed": 0,
+    "checked_at": "2026-10-15T09:15:52.131303Z",
+    "last_success_at": "2026-10-15T09:15:52.131303Z",
+    "hash": "fdda351a06d4da506f8c7b527ace0c9aea2fe768c856d44b4e010b76da28233c",
+    "snapshot_key": "sources/4c6d6f46b6f2d3a106808ef1be3e0b4835a5963b44fe252b05cd17cf141e37af/fdda351a06d4da506f8c7b527ace0c9aea2fe768c856d44b4e010b76da28233c.html",
+    "changed": 1,
     "error": null
   },
   {
     "url": "https://www.ur.ch/_rte/information/138850",
-    "checked_at": "2026-10-13T09:50:43.914243Z",
-    "last_success_at": "2026-10-13T09:50:43.914243Z",
-    "hash": "eea093893b7f240a79768af110afe24991930df6ac2cd50dc12df7c3ac503556",
-    "snapshot_key": "sources/96e5a690cd3295fe6ddae94700b176ea3fb7167250445a71aabd923e26ae031f/eea093893b7f240a79768af110afe24991930df6ac2cd50dc12df7c3ac503556.html",
-    "changed": 0,
+    "checked_at": "2026-10-15T09:15:52.131378Z",
+    "last_success_at": "2026-10-15T09:15:52.131378Z",
+    "hash": "acd80c7177139f51b6d90201ed9e69554deb6779a6274b0808356e519033a2f2",
+    "snapshot_key": "sources/96e5a690cd3295fe6ddae94700b176ea3fb7167250445a71aabd923e26ae031f/acd80c7177139f51b6d90201ed9e69554deb6779a6274b0808356e519033a2f2.html",
+    "changed": 1,
     "error": null
   },
   {
     "url": "https://www.ur.ch/_rte/information/138895",
-    "checked_at": "2026-10-13T09:50:43.914280Z",
-    "last_success_at": "2026-10-13T09:50:43.914280Z",
-    "hash": "7dd017f197fdae4b2d6514f39593a53b2f0d0cb7deb61971c10cc185412dba16",
-    "snapshot_key": "sources/54dfebcd6bf5029cc818c52348798b4a3130cc27a541cfd79d23cbd37c1ac98f/7dd017f197fdae4b2d6514f39593a53b2f0d0cb7deb61971c10cc185412dba16.html",
-    "changed": 0,
+    "checked_at": "2026-10-15T09:15:52.131432Z",
+    "last_success_at": "2026-10-15T09:15:52.131432Z",
+    "hash": "26e98f88f3596bd831b099c373960de3f6d360d8a15d5faa013a66186d6a9ff3",
+    "snapshot_key": "sources/54dfebcd6bf5029cc818c52348798b4a3130cc27a541cfd79d23cbd37c1ac98f/26e98f88f3596bd831b099c373960de3f6d360d8a15d5faa013a66186d6a9ff3.html",
+    "changed": 1,
     "error": null
   },
   {
     "url": "https://www.ur.ch/_rte/information/138502",
-    "checked_at": "2026-10-13T09:50:44.094294Z",
-    "last_success_at": "2026-10-13T09:50:44.094294Z",
-    "hash": "83871c982df424bfe7000e4fcc7f9bffcbfefd27518cbb937f5078db04789122",
-    "snapshot_key": "sources/5599e641b869e1733d05d56833172d858f03845480784bf60b81f786a45f264b/83871c982df424bfe7000e4fcc7f9bffcbfefd27518cbb937f5078db04789122.html",
-    "changed": 0,
+    "checked_at": "2026-10-15T09:15:52.131481Z",
+    "last_success_at": "2026-10-15T09:15:52.131481Z",
+    "hash": "8d40f25ebbb5eee4f949aec420f473e95f286757e12ca703491776e03e5c8847",
+    "snapshot_key": "sources/5599e641b869e1733d05d56833172d858f03845480784bf60b81f786a45f264b/8d40f25ebbb5eee4f949aec420f473e95f286757e12ca703491776e03e5c8847.html",
+    "changed": 1,
     "error": null
   },
   {
     "url": "https://www.ur.ch/_rte/information/138844",
-    "checked_at": "2026-10-13T09:50:44.094620Z",
-    "last_success_at": "2026-10-13T09:50:44.094620Z",
-    "hash": "e8956860111152282cedf53a54608127f2a5a999b4c21fd72b5509e9fe5fe965",
-    "snapshot_key": "sources/83fd9ed43a012ed102f444fb87a99e5dbd1090ec8e647a4ba48319477b57efbc/e8956860111152282cedf53a54608127f2a5a999b4c21fd72b5509e9fe5fe965.html",
-    "changed": 0,
+    "checked_at": "2026-10-15T09:15:52.131530Z",
+    "last_success_at": "2026-10-15T09:15:52.131530Z",
+    "hash": "dc71bd8986315a0bae049b899623ed73e40b47297aa9d620157eaaa71f45c082",
+    "snapshot_key": "sources/83fd9ed43a012ed102f444fb87a99e5dbd1090ec8e647a4ba48319477b57efbc/dc71bd8986315a0bae049b899623ed73e40b47297aa9d620157eaaa71f45c082.html",
+    "changed": 1,
     "error": null
   },
   {
@@ -7102,11 +7102,11 @@
   },
   {
     "url": "https://www.nw.ch/_rte/information/138544",
-    "checked_at": "2026-10-13T09:50:53.381761Z",
-    "last_success_at": "2026-10-13T09:50:53.381761Z",
-    "hash": "3a1ae95fc1bbc1a7cb00136a187a30ec43d0591106ba931cd56197679e11143f",
-    "snapshot_key": "sources/b518a25ed2bcef4d03acedc1921271e8cb89ee3ff73560aa92d2d5b6bf348ba0/3a1ae95fc1bbc1a7cb00136a187a30ec43d0591106ba931cd56197679e11143f.html",
-    "changed": 0,
+    "checked_at": "2026-10-15T09:16:46.444721Z",
+    "last_success_at": "2026-10-15T09:16:46.444721Z",
+    "hash": "5b6b06915392598ffc61ffb6c88fe83a5229236c64cb27c38f4c9ca5b1ab20a4",
+    "snapshot_key": "sources/b518a25ed2bcef4d03acedc1921271e8cb89ee3ff73560aa92d2d5b6bf348ba0/5b6b06915392598ffc61ffb6c88fe83a5229236c64cb27c38f4c9ca5b1ab20a4.html",
+    "changed": 1,
     "error": null
   },
   {
@@ -7210,20 +7210,20 @@
   },
   {
     "url": "https://zg.ch/de/news/2026/October/Garantiearbeiten-an-der-Tangente-Zug-Baar",
-    "checked_at": "2026-10-13T09:51:02.197384Z",
-    "last_success_at": "2026-10-13T09:51:02.197384Z",
-    "hash": "b49c7343c73c5f8c7d3535142aa70fb82769ea7dd803960b98302afa3acba8c1",
-    "snapshot_key": "sources/4a3a3b98361158fd0ab2bc8c34484ad2a297716299d0b9bce6ce6dc9c95623aa/b49c7343c73c5f8c7d3535142aa70fb82769ea7dd803960b98302afa3acba8c1.html",
-    "changed": 0,
+    "checked_at": "2026-10-15T09:12:57.122424Z",
+    "last_success_at": "2026-10-15T09:12:57.122424Z",
+    "hash": "06395e482149c013409168564ca79d10cb96e85e7a9015c39802c9fc07cb567e",
+    "snapshot_key": "sources/4a3a3b98361158fd0ab2bc8c34484ad2a297716299d0b9bce6ce6dc9c95623aa/06395e482149c013409168564ca79d10cb96e85e7a9015c39802c9fc07cb567e.html",
+    "changed": 1,
     "error": null
   },
   {
     "url": "https://zg.ch/de/news/2026/2026-10-07-infos-des-regierungsrats",
-    "checked_at": "2026-10-13T09:51:02.483811Z",
-    "last_success_at": "2026-10-13T09:51:02.483811Z",
-    "hash": "5e69cb98ea7bd4f3abf11e1d2ef8ae7fb911f84654fdb15daa0eb11c0153f6f0",
-    "snapshot_key": "sources/2497ac7ac69a5d96b6d1f53bc08f80f8d79670abad3fa31da7a444bbaa6ccf5f/5e69cb98ea7bd4f3abf11e1d2ef8ae7fb911f84654fdb15daa0eb11c0153f6f0.html",
-    "changed": 0,
+    "checked_at": "2026-10-15T09:12:57.169300Z",
+    "last_success_at": "2026-10-15T09:12:57.169300Z",
+    "hash": "f097ccaeaab990aeee074d84ea418619282dbc43e54df17f90043014ba704696",
+    "snapshot_key": "sources/2497ac7ac69a5d96b6d1f53bc08f80f8d79670abad3fa31da7a444bbaa6ccf5f/f097ccaeaab990aeee074d84ea418619282dbc43e54df17f90043014ba704696.html",
+    "changed": 1,
     "error": null
   },
   {
@@ -7327,11 +7327,11 @@
   },
   {
     "url": "https://ar.ch/schnellzugriff/medienmitteilungen-der-kantonalen-verwaltung/detail/news/vernehmlassung-zur-gesamtverkehrsstrategie-startet/",
-    "checked_at": "2026-10-13T09:51:03.120785Z",
-    "last_success_at": "2026-10-13T09:51:03.120785Z",
-    "hash": "eb335e94e1a24960e905bf975794f19a4cdde023c0abd5c11aba805935b66bdd",
-    "snapshot_key": "sources/527d56eb11a444a74f6b8fb50083290df445fec9cb3d00d2bb37de045b2e961c/eb335e94e1a24960e905bf975794f19a4cdde023c0abd5c11aba805935b66bdd.html",
-    "changed": 0,
+    "checked_at": "2026-10-15T09:12:57.869503Z",
+    "last_success_at": "2026-10-15T09:12:57.869503Z",
+    "hash": "66faf8fa02337c6ccb6e67a004e948de8b416ef7f2520921cba192eb389e6294",
+    "snapshot_key": "sources/527d56eb11a444a74f6b8fb50083290df445fec9cb3d00d2bb37de045b2e961c/66faf8fa02337c6ccb6e67a004e948de8b416ef7f2520921cba192eb389e6294.html",
+    "changed": 1,
     "error": null
   },
   {
@@ -7363,11 +7363,11 @@
   },
   {
     "url": "https://ai.ch/politik/standeskommission/mitteilungen/aktuelles/mitteilungen-der-tandeskommission-20260929",
-    "checked_at": "2026-10-13T09:51:03.466766Z",
-    "last_success_at": "2026-10-13T09:51:03.466766Z",
-    "hash": "eb54c50eeda1478a675188294bdb211dad9b587d38d5e2219cc2d36b458c0205",
-    "snapshot_key": "sources/424f4181d162bd58575da3023d7f26788fe6b53d1df22e48aedc4cf72d3fcc11/eb54c50eeda1478a675188294bdb211dad9b587d38d5e2219cc2d36b458c0205.html",
-    "changed": 0,
+    "checked_at": "2026-10-15T09:12:57.956320Z",
+    "last_success_at": "2026-10-15T09:12:57.956320Z",
+    "hash": "d5f91001f6f333d9ef0d18658b2d86529f89b823115035f0b0a733cce960bd65",
+    "snapshot_key": "sources/424f4181d162bd58575da3023d7f26788fe6b53d1df22e48aedc4cf72d3fcc11/d5f91001f6f333d9ef0d18658b2d86529f89b823115035f0b0a733cce960bd65.html",
+    "changed": 1,
     "error": null
   },
   {
@@ -7390,8 +7390,8 @@
   },
   {
     "url": "https://www.sg.ch/news/sgch_allgemein/2026/10/ausweisstelle-sargans--terminbuchungen-ab-jetzt.html",
-    "checked_at": "2026-10-13T09:51:04.054982Z",
-    "last_success_at": "2026-10-13T09:51:04.054982Z",
+    "checked_at": "2026-10-15T09:12:59.993124Z",
+    "last_success_at": "2026-10-15T09:12:59.993124Z",
     "hash": "ab9492a727cdbc23c51a72eddf8d9214edc8432004d8b11a1aa11a23cbe96e64",
     "snapshot_key": "sources/81565ab7356ef57c8469d87ed37ebb1f950cf3b4db799a59ee3b51f1512fdd6a/ab9492a727cdbc23c51a72eddf8d9214edc8432004d8b11a1aa11a23cbe96e64.html",
     "changed": 0,
@@ -7408,8 +7408,8 @@
   },
   {
     "url": "https://www.sg.ch/news/sgch_allgemein/2026/10/sichere-und-attraktive-routen-fuer-den-langsamverkehr.html",
-    "checked_at": "2026-10-13T09:51:04.210792Z",
-    "last_success_at": "2026-10-13T09:51:04.210792Z",
+    "checked_at": "2026-10-15T09:13:00.116231Z",
+    "last_success_at": "2026-10-15T09:13:00.116231Z",
     "hash": "e49809da967a66458c78f249958fc24b627e59703ba76f7a8044b88a022317b9",
     "snapshot_key": "sources/0939ccb8fd544e353fbb21ead1fd4ec54eec3d3c8fcbdf52dda83194b58089e5/e49809da967a66458c78f249958fc24b627e59703ba76f7a8044b88a022317b9.html",
     "changed": 0,
@@ -7435,11 +7435,11 @@
   },
   {
     "url": "https://www.gr.ch/DE/Medien/Mitteilungen/MMStaka/2026/Seiten/2026101301.aspx",
-    "checked_at": "2026-10-13T09:51:04.563958Z",
-    "last_success_at": "2026-10-13T09:51:04.563958Z",
-    "hash": "fb0d3890ac00f7ac508184e0b88055f078529ddedf5954679cb3567a6ad0bbcb",
-    "snapshot_key": "sources/8c7ac8c601c916ad82f8c617bce74f7e2ace8eec5b6a2bfbbf0ee0bbd9f4aa22/fb0d3890ac00f7ac508184e0b88055f078529ddedf5954679cb3567a6ad0bbcb.html",
-    "changed": 0,
+    "checked_at": "2026-10-15T09:13:00.471033Z",
+    "last_success_at": "2026-10-15T09:13:00.471033Z",
+    "hash": "7187cc252438c44daf5b4df6cb75f4fac0b200bc32fc0f70979393ee507a4809",
+    "snapshot_key": "sources/8c7ac8c601c916ad82f8c617bce74f7e2ace8eec5b6a2bfbbf0ee0bbd9f4aa22/7187cc252438c44daf5b4df6cb75f4fac0b200bc32fc0f70979393ee507a4809.html",
+    "changed": 1,
     "error": null
   },
   {
@@ -7453,11 +7453,11 @@
   },
   {
     "url": "https://www.gr.ch/DE/Medien/Mitteilungen/MMStaka/2026/Seiten/2026100501.aspx",
-    "checked_at": "2026-10-13T09:51:04.575813Z",
-    "last_success_at": "2026-10-13T09:51:04.575813Z",
-    "hash": "d9629d83d8df688bcbf293742f597c4f9f1116884427d90442527e031f418f6f",
-    "snapshot_key": "sources/cd4f0fe899220b9ff14ebca9682cfefe2b500b755a9003fad16c735848dcf2dc/d9629d83d8df688bcbf293742f597c4f9f1116884427d90442527e031f418f6f.html",
-    "changed": 0,
+    "checked_at": "2026-10-15T09:13:01.825322Z",
+    "last_success_at": "2026-10-15T09:13:01.825322Z",
+    "hash": "4a432b9b925cc1237297e5180a5aa0fed8ab329331c04949e3a3819f335ce981",
+    "snapshot_key": "sources/cd4f0fe899220b9ff14ebca9682cfefe2b500b755a9003fad16c735848dcf2dc/4a432b9b925cc1237297e5180a5aa0fed8ab329331c04949e3a3819f335ce981.html",
+    "changed": 1,
     "error": null
   },
   {
@@ -7768,8 +7768,8 @@
   },
   {
     "url": "https://www.ne.ch/communiques-de-presse/le-conseil-federal-autorise-la-reintroduction-du-vote-electronique-dans-le-canton-de-neuchatel",
-    "checked_at": "2026-10-13T09:51:07.380297Z",
-    "last_success_at": "2026-10-13T09:51:07.380297Z",
+    "checked_at": "2026-10-15T09:12:58.023477Z",
+    "last_success_at": "2026-10-15T09:12:58.023477Z",
     "hash": "87152ffacabd7259d9b10a4075ff43af803d520326744933c6cea486dc6a2b28",
     "snapshot_key": "sources/5eee17f5fc88a6f8aaaba8917118e6f59adbcd4c276eef56235bbfd47c87f8e5/87152ffacabd7259d9b10a4075ff43af803d520326744933c6cea486dc6a2b28.html",
     "changed": 0,
@@ -7786,8 +7786,8 @@
   },
   {
     "url": "https://www.ne.ch/communiques-de-presse/budget-2027-le-conseil-detat-fait-le-choix-de-linvestissement",
-    "checked_at": "2026-10-13T09:51:07.411489Z",
-    "last_success_at": "2026-10-13T09:51:07.411489Z",
+    "checked_at": "2026-10-15T09:12:58.222944Z",
+    "last_success_at": "2026-10-15T09:12:58.222944Z",
     "hash": "44de2096cfc2cc6b9aab98fd77b3ee1bced7e51085c5624c5576bcdd27a1b2d0",
     "snapshot_key": "sources/aeba560616d43ea2ce8b33834d772527981c38b8e17be58bab6f916e2941fa65/44de2096cfc2cc6b9aab98fd77b3ee1bced7e51085c5624c5576bcdd27a1b2d0.html",
     "changed": 0,
@@ -7822,11 +7822,11 @@
   },
   {
     "url": "https://www.jura.ch/fr/Autorites/Administration/CHA/SIC/Centre-medias/Communiques-2026/Breves-informations-de-l-Administration-cantonale-jurassienne-7.html",
-    "checked_at": "2026-10-13T09:51:07.687360Z",
-    "last_success_at": "2026-10-13T09:51:07.687360Z",
-    "hash": "1683a97d3853e22ec01a01cbb3e2b428c5ee33232c1706970ea6fc069d579db1",
-    "snapshot_key": "sources/c69495a079fdc03535fc87becc7c652cabfd709de8183c44aff65e2320401576/1683a97d3853e22ec01a01cbb3e2b428c5ee33232c1706970ea6fc069d579db1.html",
-    "changed": 0,
+    "checked_at": "2026-10-15T09:12:58.342363Z",
+    "last_success_at": "2026-10-15T09:12:58.342363Z",
+    "hash": "c2b5068e2ed8d001fc15d07165f96092f5b83b6288ceeba69edc6c7972649314",
+    "snapshot_key": "sources/c69495a079fdc03535fc87becc7c652cabfd709de8183c44aff65e2320401576/c2b5068e2ed8d001fc15d07165f96092f5b83b6288ceeba69edc6c7972649314.html",
+    "changed": 1,
     "error": null
   },
   {
@@ -7885,11 +7885,11 @@
   },
   {
     "url": "https://www.jura.ch/fr/Autorites/Administration/CHA/SIC/Centre-medias/Communiques-2026/Transparence-du-financement-de-la-vie-politique-nouvelles-obligations.html",
-    "checked_at": "2026-10-13T09:51:08.939526Z",
-    "last_success_at": "2026-10-13T09:51:08.939526Z",
-    "hash": "988fdf5822f51aa2252be37aa7a97ae5e1a879e47e22d6bc1c3db6621a78d871",
-    "snapshot_key": "sources/6d9e7a3672a9403e10848cf106220ee5c624ebbc0e8c797e1730c38c4bac1aae/988fdf5822f51aa2252be37aa7a97ae5e1a879e47e22d6bc1c3db6621a78d871.html",
-    "changed": 0,
+    "checked_at": "2026-10-15T09:12:58.606156Z",
+    "last_success_at": "2026-10-15T09:12:58.606156Z",
+    "hash": "b8dbb2d3b3d2501b882a47f45f4ff6466faa0f11ee96a72b7cd2d630ecec448b",
+    "snapshot_key": "sources/6d9e7a3672a9403e10848cf106220ee5c624ebbc0e8c797e1730c38c4bac1aae/b8dbb2d3b3d2501b882a47f45f4ff6466faa0f11ee96a72b7cd2d630ecec448b.html",
+    "changed": 1,
     "error": null
   },
   {
@@ -7939,11 +7939,11 @@
   },
   {
     "url": "https://www.jura.ch/fr/Autorites/Administration/CHA/SIC/Centre-medias/Communiques-2026/Reconduction-du-contrat-type-de-travail-imperatif-pour-le-personnel-de-vente-dans-le-commerce-de-detail-1.html",
-    "checked_at": "2026-10-13T09:51:09.273484Z",
-    "last_success_at": "2026-10-13T09:51:09.273484Z",
-    "hash": "5dfb5494e306b250f2c751a7c1d27740e178225a6154c380966cfb1c6b2bf262",
-    "snapshot_key": "sources/ff50f2c4e090963c2ff95696a79d481bf6b575ce588d0e69e1824481fb5b48fd/5dfb5494e306b250f2c751a7c1d27740e178225a6154c380966cfb1c6b2bf262.html",
-    "changed": 0,
+    "checked_at": "2026-10-15T09:12:58.669062Z",
+    "last_success_at": "2026-10-15T09:12:58.669062Z",
+    "hash": "6870aeeb68382ab0682fc150c81c510845b9790c5cf5d7d7a66361e1938b4fd5",
+    "snapshot_key": "sources/ff50f2c4e090963c2ff95696a79d481bf6b575ce588d0e69e1824481fb5b48fd/6870aeeb68382ab0682fc150c81c510845b9790c5cf5d7d7a66361e1938b4fd5.html",
+    "changed": 1,
     "error": null
   },
   {
@@ -7975,11 +7975,11 @@
   },
   {
     "url": "https://www.bs.ch/medienmitteilungen/pd/2026-auf-dem-weg-zu-netto-null-2037-basel-stadt-lanciert-klimpact-fuer-einen-klimafreundlichen-alltag",
-    "checked_at": "2026-10-13T09:51:09.533367Z",
-    "last_success_at": "2026-10-13T09:51:09.533367Z",
-    "hash": "b4f0fd2401306e8bdd8e98fb0aa1106f5668d75567ca2f1f809e48a03df34737",
-    "snapshot_key": "sources/b03cf106096e59e3a1b7fa0954c285bf0afb2d1337ebf56afb64892b9b610190/b4f0fd2401306e8bdd8e98fb0aa1106f5668d75567ca2f1f809e48a03df34737.html",
-    "changed": 0,
+    "checked_at": "2026-10-15T09:16:00.075363Z",
+    "last_success_at": "2026-10-15T09:16:00.075363Z",
+    "hash": "224cadca1d2b0515378ed65a2b79969ac905fe5dc1f052fdf9962e625cf9789b",
+    "snapshot_key": "sources/b03cf106096e59e3a1b7fa0954c285bf0afb2d1337ebf56afb64892b9b610190/224cadca1d2b0515378ed65a2b79969ac905fe5dc1f052fdf9962e625cf9789b.html",
+    "changed": 1,
     "error": null
   },
   {
@@ -8245,11 +8245,11 @@
   },
   {
     "url": "https://www.service-public.gouv.fr/particuliers/actualites/A19092",
-    "checked_at": "2026-10-13T11:30:42.801240Z",
-    "last_success_at": "2026-10-13T11:30:42.801240Z",
-    "hash": "a8dbad660164ffbe607a9b3ed5be0159f6c0109122eabff84f440ae209035378",
-    "snapshot_key": "sources/517c5a393fa02141210d3241b84f1051281a06e0a5b1d52593e8ab24866db4d5/a8dbad660164ffbe607a9b3ed5be0159f6c0109122eabff84f440ae209035378.html",
-    "changed": 0,
+    "checked_at": "2026-10-15T08:56:27.154016Z",
+    "last_success_at": "2026-10-15T08:56:27.154016Z",
+    "hash": "9c7bae5720c0c8410ee2b442cc40e83b5b29aa7ff5bff7bb37cc46b321163e53",
+    "snapshot_key": "sources/517c5a393fa02141210d3241b84f1051281a06e0a5b1d52593e8ab24866db4d5/9c7bae5720c0c8410ee2b442cc40e83b5b29aa7ff5bff7bb37cc46b321163e53.html",
+    "changed": 1,
     "error": null
   },
   {
@@ -8317,29 +8317,29 @@
   },
   {
     "url": "https://entreprendre.service-public.gouv.fr/actualites/A19087",
-    "checked_at": "2026-10-13T11:30:43.515949Z",
-    "last_success_at": "2026-10-13T11:30:43.515949Z",
-    "hash": "ebee2b73495c7d5103847955199b3569322475a4ff41f7c0e01b278314c8939b",
-    "snapshot_key": "sources/151100ea8a6a5c9fe4cbe7bd51e94158c6cd6cdd661bff3effa461ad8dbf6ce0/ebee2b73495c7d5103847955199b3569322475a4ff41f7c0e01b278314c8939b.html",
-    "changed": 0,
+    "checked_at": "2026-10-15T08:55:57.698296Z",
+    "last_success_at": "2026-10-15T08:55:57.698296Z",
+    "hash": "0d3afeaa483f71f9d7cbab7ef116f31cea8843689052306021ea768ea347ef40",
+    "snapshot_key": "sources/151100ea8a6a5c9fe4cbe7bd51e94158c6cd6cdd661bff3effa461ad8dbf6ce0/0d3afeaa483f71f9d7cbab7ef116f31cea8843689052306021ea768ea347ef40.html",
+    "changed": 1,
     "error": null
   },
   {
     "url": "https://entreprendre.service-public.gouv.fr/actualites/A17480",
-    "checked_at": "2026-10-13T11:30:43.516393Z",
-    "last_success_at": "2026-10-13T11:30:43.516393Z",
-    "hash": "c4381d92eea51297593c32103db1241730b41230f8632dcd0b0cbe3bfca4395e",
-    "snapshot_key": "sources/74c24f9e3d7c4ac4ff63b8c6ca60cd97d15a59438899347616648d34cfc922c3/c4381d92eea51297593c32103db1241730b41230f8632dcd0b0cbe3bfca4395e.html",
-    "changed": 0,
+    "checked_at": "2026-10-15T08:56:27.746578Z",
+    "last_success_at": "2026-10-15T08:56:27.746578Z",
+    "hash": "f4284548b3b1bdc207336444eb1f8fb2930fb9d280fd81f915fa722ef63966cd",
+    "snapshot_key": "sources/74c24f9e3d7c4ac4ff63b8c6ca60cd97d15a59438899347616648d34cfc922c3/f4284548b3b1bdc207336444eb1f8fb2930fb9d280fd81f915fa722ef63966cd.html",
+    "changed": 1,
     "error": null
   },
   {
     "url": "https://entreprendre.service-public.gouv.fr/actualites/A19082",
-    "checked_at": "2026-10-13T11:30:43.688827Z",
-    "last_success_at": "2026-10-13T11:30:43.688827Z",
-    "hash": "414f36c7cc49a7fdec16c6882493d3525d4ff8988c0eb67b0990643c22fd063e",
-    "snapshot_key": "sources/475090ca85dfe5474453b55eb9ae70fea20bb6190eae8148bd819e1142823788/414f36c7cc49a7fdec16c6882493d3525d4ff8988c0eb67b0990643c22fd063e.html",
-    "changed": 0,
+    "checked_at": "2026-10-15T08:56:27.789947Z",
+    "last_success_at": "2026-10-15T08:56:27.789947Z",
+    "hash": "1b46b3dda38ee5474a696a09bbd118b38e7c9199b18873b4df5eb3c325b5511e",
+    "snapshot_key": "sources/475090ca85dfe5474453b55eb9ae70fea20bb6190eae8148bd819e1142823788/1b46b3dda38ee5474a696a09bbd118b38e7c9199b18873b4df5eb3c325b5511e.html",
+    "changed": 1,
     "error": null
   },
   {
@@ -8443,7 +8443,7 @@
   },
   {
     "url": "https://www.urssaf.fr/accueil/actualites/formulaire-procuration-demarches.html",
-    "checked_at": "2026-10-13T11:34:52.812791Z",
+    "checked_at": "2026-10-15T08:56:59.809173Z",
     "last_success_at": null,
     "hash": null,
     "snapshot_key": null,
@@ -8452,7 +8452,7 @@
   },
   {
     "url": "https://www.urssaf.fr/files/live/sites/urssaffr/files/outils-documentation/formulaires-modeles/Procuration-Formulaire.pdf",
-    "checked_at": "2026-10-13T11:34:52.812839Z",
+    "checked_at": "2026-10-15T08:56:59.853858Z",
     "last_success_at": null,
     "hash": null,
     "snapshot_key": null,
@@ -8551,29 +8551,29 @@
   },
   {
     "url": "https://www.brabant.nl/actueel/nieuws/provincie-zet-gesprekken-pluimveehouders-voort/",
-    "checked_at": "2026-10-13T13:16:52.099768Z",
-    "last_success_at": "2026-10-13T13:16:52.099768Z",
-    "hash": "1bf1fdacfe7db8290edac61d846e77e82db230a64aab43297f1521607dc1e30e",
-    "snapshot_key": "sources/04be988e146f38d723278bce4dd505e20e9063161648a60a740af1b050fbac53/1bf1fdacfe7db8290edac61d846e77e82db230a64aab43297f1521607dc1e30e.html",
-    "changed": 0,
+    "checked_at": "2026-10-15T09:39:46.155276Z",
+    "last_success_at": "2026-10-15T09:39:46.155276Z",
+    "hash": "aa1caf50d22ac32ac5ddcffe9aa528bda0c00a7b8e9f342d59a58cabc309715a",
+    "snapshot_key": "sources/04be988e146f38d723278bce4dd505e20e9063161648a60a740af1b050fbac53/aa1caf50d22ac32ac5ddcffe9aa528bda0c00a7b8e9f342d59a58cabc309715a.html",
+    "changed": 1,
     "error": null
   },
   {
     "url": "https://www.rijksoverheid.nl/actueel/nieuws/2026/10/13/100-miljoen-extra-voor-natuurbeheer-in-2027",
-    "checked_at": "2026-10-13T13:17:36.708520Z",
-    "last_success_at": "2026-10-13T13:17:36.708520Z",
-    "hash": "87ac838862cea6d07d432314d6fae5174dc6a865271262c4b1c43bec4cc62536",
-    "snapshot_key": "sources/6bf0753d6d71febeae72396176f8b0faba866d7234623c26573cd71aadf30681/87ac838862cea6d07d432314d6fae5174dc6a865271262c4b1c43bec4cc62536.html",
-    "changed": 0,
+    "checked_at": "2026-10-15T09:39:47.871674Z",
+    "last_success_at": "2026-10-15T09:39:47.871674Z",
+    "hash": "37fbce3e916fbd5213a9b917903bbf8cbbf3087bac7b30e0719bb2a99fbcfd3e",
+    "snapshot_key": "sources/6bf0753d6d71febeae72396176f8b0faba866d7234623c26573cd71aadf30681/37fbce3e916fbd5213a9b917903bbf8cbbf3087bac7b30e0719bb2a99fbcfd3e.html",
+    "changed": 1,
     "error": null
   },
   {
     "url": "https://www.rijksoverheid.nl/actueel/nieuws/2026/10/13/nfbk-euro164-miljoen-beschikbaar-voor-nieuwe-starterswoningen",
-    "checked_at": "2026-10-13T13:17:36.708790Z",
-    "last_success_at": "2026-10-13T13:17:36.708790Z",
-    "hash": "e289f29500297e469f5099e80d0fcb9d2770ca6b28c2051bb98f1e314e73fd06",
-    "snapshot_key": "sources/c9a5727d7777261646e42d39c314e17bfdc9c7e89e1a8ef0f10a4780d788e018/e289f29500297e469f5099e80d0fcb9d2770ca6b28c2051bb98f1e314e73fd06.html",
-    "changed": 0,
+    "checked_at": "2026-10-15T09:39:47.873577Z",
+    "last_success_at": "2026-10-15T09:39:47.873577Z",
+    "hash": "af9da80549eea95ae228e228b4b8ff5ef36d0c129520d82baf8675800a2b689e",
+    "snapshot_key": "sources/c9a5727d7777261646e42d39c314e17bfdc9c7e89e1a8ef0f10a4780d788e018/af9da80549eea95ae228e228b4b8ff5ef36d0c129520d82baf8675800a2b689e.html",
+    "changed": 1,
     "error": null
   },
   {
@@ -8596,20 +8596,20 @@
   },
   {
     "url": "https://www.rijksoverheid.nl/actueel/nieuws/2026/10/12/nieuw-stelsel-maakt-dierentuinen-van-deze-tijd",
-    "checked_at": "2026-10-13T13:17:36.709035Z",
-    "last_success_at": "2026-10-13T13:17:36.709035Z",
-    "hash": "7e1c7c5797b8083e65e5e8965a9c22d72e905003826a4eea4c8018a318bc7118",
-    "snapshot_key": "sources/62523bac29c53fc9ee6aee71f417fced77611f3f3919841274068058b8993459/7e1c7c5797b8083e65e5e8965a9c22d72e905003826a4eea4c8018a318bc7118.html",
-    "changed": 0,
+    "checked_at": "2026-10-15T09:54:00.276286Z",
+    "last_success_at": "2026-10-15T09:54:00.276286Z",
+    "hash": "24e3bff1672bf59005ee200300bb4b1086d1b1838d5b51b8fd99e1b0d2db157d",
+    "snapshot_key": "sources/62523bac29c53fc9ee6aee71f417fced77611f3f3919841274068058b8993459/24e3bff1672bf59005ee200300bb4b1086d1b1838d5b51b8fd99e1b0d2db157d.html",
+    "changed": 1,
     "error": null
   },
   {
     "url": "https://www.rijksoverheid.nl/actueel/nieuws/2026/10/12/nieuwe-denk-vooruit-campagne-om-extra-aandacht-te-vragen-om-voor-te-bereiden-op-noodsituatie",
-    "checked_at": "2026-10-13T13:17:36.709094Z",
-    "last_success_at": "2026-10-13T13:17:36.709094Z",
-    "hash": "f5d3cdbf29d36ae602d91246c9f3f816c7c286701eca526a959236e065db63e1",
-    "snapshot_key": "sources/2184c085c62cd8a91a143d56107b85b43b36e86190ec84874c46a32fc075a5cf/f5d3cdbf29d36ae602d91246c9f3f816c7c286701eca526a959236e065db63e1.html",
-    "changed": 0,
+    "checked_at": "2026-10-15T09:43:36.498716Z",
+    "last_success_at": "2026-10-15T09:43:36.498716Z",
+    "hash": "c44cbae05f020f0cdf2c644e07b9b3005c695a2240b2f17d469cb743c160143c",
+    "snapshot_key": "sources/2184c085c62cd8a91a143d56107b85b43b36e86190ec84874c46a32fc075a5cf/c44cbae05f020f0cdf2c644e07b9b3005c695a2240b2f17d469cb743c160143c.html",
+    "changed": 1,
     "error": null
   },
   {
@@ -8641,8 +8641,8 @@
   },
   {
     "url": "https://www.overijssel.nl/nieuws/reactienota-drinkwaterverbinding-overijssel-vastgesteld/",
-    "checked_at": "2026-10-13T13:17:37.487463Z",
-    "last_success_at": "2026-10-13T13:17:37.487463Z",
+    "checked_at": "2026-10-15T09:39:44.593468Z",
+    "last_success_at": "2026-10-15T09:39:44.593468Z",
     "hash": "c5760b30e6cd6a6cf6f844a05344c755927344032c84ad6fd1eb14a5be81ed4d",
     "snapshot_key": "sources/e505b2f34f66a3d2acbbd648bc2d214fffb3fc16c93a75c01119a58d68ed99c0/c5760b30e6cd6a6cf6f844a05344c755927344032c84ad6fd1eb14a5be81ed4d.html",
     "changed": 0,
@@ -8650,8 +8650,8 @@
   },
   {
     "url": "https://www.overijssel.nl/nieuws/overijssel-kiest-voor-beter-bereikbare-voorzieningen/",
-    "checked_at": "2026-10-13T13:17:37.555135Z",
-    "last_success_at": "2026-10-13T13:17:37.555135Z",
+    "checked_at": "2026-10-15T09:51:30.243315Z",
+    "last_success_at": "2026-10-15T09:51:30.243315Z",
     "hash": "ead668b94264cf5cf2a06898f49e739866645f77a893aa93f6a47c2a9047244b",
     "snapshot_key": "sources/6d91b21a104471a1e0f873f534a5027459a1c8f6627615d85c57710a702c73ee/ead668b94264cf5cf2a06898f49e739866645f77a893aa93f6a47c2a9047244b.html",
     "changed": 0,

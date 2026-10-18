@@ -1,0 +1,306 @@
+[
+ {
+  "name": "ni-list",
+  "url": "https://www.niedersachsen.de/politik_staat/gesetze_verordnungen_und_sonstige_vorschriften/aktuelle_verkundungsblatter/download-verkuendungsblaetter-108794.html",
+  "fetchedAt": "2026-10-18T15:30:57.507794Z",
+  "status": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "finalUrl": "https://www.verkuendung-niedersachsen.de/",
+  "sha256": "3c62515a65145d2b7df99071c8f496841cb1a7d975bd516cb6a484b92a3ba067",
+  "bytes": 401
+ },
+ {
+  "name": "sh-115",
+  "url": "https://www.schleswig-holstein.de/DE/landesregierung/ministerien-behoerden/III/Presse/PI/2026/10_Oktober/20261009_LT_Lehrlingsunterweisung?nn=549a8fa0-66c0-4da0-9f19-70e4be245eac",
+  "fetchedAt": "2026-10-18T15:30:57.820399Z",
+  "status": 200,
+  "contentType": "text/html;charset=UTF-8",
+  "finalUrl": "https://www.schleswig-holstein.de/DE/landesregierung/ministerien-behoerden/III/Presse/PI/2026/10_Oktober/20261009_LT_Lehrlingsunterweisung?nn=549a8fa0-66c0-4da0-9f19-70e4be245eac",
+  "sha256": "329202cc4901f8c98905e7691ad0dccff39a89602e501163b8d1e745c1eaa74f",
+  "bytes": 227008
+ },
+ {
+  "name": "sh-118",
+  "url": "https://www.schleswig-holstein.de/DE/landesregierung/ministerien-behoerden/VIII/Presse/PI/2026/261008_VIII_echte_vielfalt?nn=549a8fa0-66c0-4da0-9f19-70e4be245eac",
+  "fetchedAt": "2026-10-18T15:30:58.571373Z",
+  "status": 200,
+  "contentType": "text/html;charset=UTF-8",
+  "finalUrl": "https://www.schleswig-holstein.de/DE/landesregierung/ministerien-behoerden/VIII/Presse/PI/2026/261008_VIII_echte_vielfalt?nn=549a8fa0-66c0-4da0-9f19-70e4be245eac",
+  "sha256": "38b0f2102a5885c9a7edd2349a088b38d8758e2c597bb60b32aa2b6ca30a41b2",
+  "bytes": 229310
+ },
+ {
+  "name": "sh-114",
+  "url": "https://www.schleswig-holstein.de/DE/landesregierung/ministerien-behoerden/III/Presse/PI/2026/10_Oktober/20261009_LT_Bafoeg?nn=549a8fa0-66c0-4da0-9f19-70e4be245eac",
+  "fetchedAt": "2026-10-18T15:30:59.426781Z",
+  "status": 200,
+  "contentType": "text/html;charset=UTF-8",
+  "finalUrl": "https://www.schleswig-holstein.de/DE/landesregierung/ministerien-behoerden/III/Presse/PI/2026/10_Oktober/20261009_LT_Bafoeg?nn=549a8fa0-66c0-4da0-9f19-70e4be245eac",
+  "sha256": "e7c4e2d5fcf0626187f444a2f8a3acdd357d2b0c7ff31d7fef486a2981f8321b",
+  "bytes": 226288
+ },
+ {
+  "name": "br-601",
+  "url": "https://www.bundesrat.de/SharedDocs/drucksachen/2026/0601-0700/601-26.pdf?__blob=publicationFile&v=1",
+  "fetchedAt": "2026-10-18T15:31:00.259076Z",
+  "status": 200,
+  "contentType": "application/pdf",
+  "finalUrl": "https://www.bundesrat.de/SharedDocs/drucksachen/2026/0601-0700/601-26.pdf?__blob=publicationFile&v=1",
+  "sha256": "db968aa45c9a9619d0d3c48a1537e8fe082ab66ca6df5a40a78f2b604ba76053",
+  "bytes": 1303914
+ },
+ {
+  "name": "br-602",
+  "url": "https://www.bundesrat.de/SharedDocs/drucksachen/2026/0601-0700/602-26.pdf?__blob=publicationFile&v=1",
+  "fetchedAt": "2026-10-18T15:31:01.448159Z",
+  "status": 200,
+  "contentType": "application/pdf",
+  "finalUrl": "https://www.bundesrat.de/SharedDocs/drucksachen/2026/0601-0700/602-26.pdf?__blob=publicationFile&v=1",
+  "sha256": "6c9aff3d546a5c3ecf2c6bdc38f802de37e01051e913a33effe2e25961eb62c9",
+  "bytes": 1289045
+ },
+ {
+  "name": "br-602-B",
+  "url": "https://www.bundesrat.de/SharedDocs/drucksachen/2026/0601-0700/602-26(B).pdf?__blob=publicationFile&v=1",
+  "fetchedAt": "2026-10-18T15:31:01.646717Z",
+  "status": 200,
+  "contentType": "application/pdf",
+  "finalUrl": "https://www.bundesrat.de/SharedDocs/drucksachen/2026/0601-0700/602-26(B).pdf?__blob=publicationFile&v=1",
+  "sha256": "3198d60cf0099661e007b74279946639a98880522fe44e7398b6bcd12e53fb1a",
+  "bytes": 134597
+ },
+ {
+  "name": "ni-81",
+  "url": "https://www.verkuendung-niedersachsen.de/api/ndsgvbl/2026/81/0/nds-gvbl-2026-81.pdf",
+  "fetchedAt": "2026-10-18T15:31:31.699761Z",
+  "status": 200,
+  "contentType": "application/pdf",
+  "finalUrl": "https://www.verkuendung-niedersachsen.de/api/ndsgvbl/2026/81/0/nds-gvbl-2026-81.pdf",
+  "sha256": "0511d688163efda18db6d81a3866bdbabf7e8a6b54f00309a316bbc19a57f95b",
+  "bytes": 223024
+ },
+ {
+  "name": "ni-82",
+  "url": "https://www.verkuendung-niedersachsen.de/api/ndsgvbl/2026/82/0/nds-gvbl-2026-82.pdf",
+  "fetchedAt": "2026-10-18T15:31:32.056867Z",
+  "status": 200,
+  "contentType": "application/pdf",
+  "finalUrl": "https://www.verkuendung-niedersachsen.de/api/ndsgvbl/2026/82/0/nds-gvbl-2026-82.pdf",
+  "sha256": "6065deb30d43e612d4ace43d86f929ec5ec11ada5c7f1f8ff45e2ed5123a3a1d",
+  "bytes": 169269
+ },
+ {
+  "name": "ni-83",
+  "url": "https://www.verkuendung-niedersachsen.de/api/ndsgvbl/2026/83/0/nds-gvbl-2026-83.pdf",
+  "fetchedAt": "2026-10-18T15:31:32.390554Z",
+  "status": 200,
+  "contentType": "application/pdf",
+  "finalUrl": "https://www.verkuendung-niedersachsen.de/api/ndsgvbl/2026/83/0/nds-gvbl-2026-83.pdf",
+  "sha256": "219d0ebf8ac7a3c67b76331fa93e96ae45b05dc14015b8882abbada9925a4d08",
+  "bytes": 101272
+ },
+ {
+  "name": "ni-84",
+  "url": "https://www.verkuendung-niedersachsen.de/api/ndsgvbl/2026/84/0/nds-gvbl-2026-84.pdf",
+  "fetchedAt": "2026-10-18T15:31:32.713531Z",
+  "status": 200,
+  "contentType": "application/pdf",
+  "finalUrl": "https://www.verkuendung-niedersachsen.de/api/ndsgvbl/2026/84/0/nds-gvbl-2026-84.pdf",
+  "sha256": "6318b9d27b5629e0472068968420d23db4cc643012c2bd52e0bb68c768a415ca",
+  "bytes": 91903
+ },
+ {
+  "name": "ni-85",
+  "url": "https://www.verkuendung-niedersachsen.de/api/ndsgvbl/2026/85/0/nds-gvbl-2026-85.pdf",
+  "fetchedAt": "2026-10-18T15:31:33.018076Z",
+  "status": 200,
+  "contentType": "application/pdf",
+  "finalUrl": "https://www.verkuendung-niedersachsen.de/api/ndsgvbl/2026/85/0/nds-gvbl-2026-85.pdf",
+  "sha256": "213085f013433dbb26831deff6b9d7a9f9d0db4a5b107edb4328906fcdc7e820",
+  "bytes": 196200
+ },
+ {
+  "name": "ni-88",
+  "url": "https://www.verkuendung-niedersachsen.de/api/ndsgvbl/2026/88/0/nds-gvbl-2026-88.pdf",
+  "fetchedAt": "2026-10-18T15:31:33.347850Z",
+  "status": 200,
+  "contentType": "application/pdf",
+  "finalUrl": "https://www.verkuendung-niedersachsen.de/api/ndsgvbl/2026/88/0/nds-gvbl-2026-88.pdf",
+  "sha256": "30c288586334f51ac1e0c2b3389ba86c1a0cca6e1f5520bca745604b51bb9563",
+  "bytes": 96865
+ },
+ {
+  "name": "ni-89",
+  "url": "https://www.verkuendung-niedersachsen.de/api/ndsgvbl/2026/89/0/nds-gvbl-2026-89.pdf",
+  "fetchedAt": "2026-10-18T15:31:33.654477Z",
+  "status": 200,
+  "contentType": "application/pdf",
+  "finalUrl": "https://www.verkuendung-niedersachsen.de/api/ndsgvbl/2026/89/0/nds-gvbl-2026-89.pdf",
+  "sha256": "3683bd8eddf71e42592d1549ddc2a65950394a9e31c9d821756efda460c8a7fd",
+  "bytes": 98728
+ },
+ {
+  "name": "ni-90",
+  "url": "https://www.verkuendung-niedersachsen.de/api/ndsgvbl/2026/90/0/nds-gvbl-2026-90.pdf",
+  "fetchedAt": "2026-10-18T15:31:33.960356Z",
+  "status": 200,
+  "contentType": "application/pdf",
+  "finalUrl": "https://www.verkuendung-niedersachsen.de/api/ndsgvbl/2026/90/0/nds-gvbl-2026-90.pdf",
+  "sha256": "3e18142c4a195add1af1d6b04c3d7075ccd323822a3775e29a5f42d85ea9f7bb",
+  "bytes": 144429
+ },
+ {
+  "name": "bjagdg-22d",
+  "url": "https://www.gesetze-im-internet.de/bjagdg/__22d.html",
+  "fetchedAt": "2026-10-18T15:31:59.472961Z",
+  "status": 200,
+  "contentType": "text/html",
+  "finalUrl": "https://www.gesetze-im-internet.de/bjagdg/__22d.html",
+  "sha256": "c5541feb952612beae9532f153a85ab962bbf4e1276db741511ca001e68243a3",
+  "bytes": 12109
+ },
+ {
+  "name": "cons-pr",
+  "url": "https://www.consilium.europa.eu/en/press/press-releases/",
+  "fetchedAt": "2026-10-18T15:32:32.173398Z",
+  "error": "<HTTPError 403: 'Forbidden'>",
+  "status": 403
+ },
+ {
+  "name": "cons-pr2",
+  "url": "https://www.consilium.europa.eu/en/press/press-releases/?page=2",
+  "fetchedAt": "2026-10-18T15:32:32.266010Z",
+  "error": "<HTTPError 403: 'Forbidden'>",
+  "status": 403
+ },
+ {
+  "name": "ec-news",
+  "url": "https://commission.europa.eu/news-and-media/news_en",
+  "fetchedAt": "2026-10-18T15:32:32.335983Z",
+  "status": 200,
+  "contentType": "text/html; charset=utf-8",
+  "finalUrl": "https://commission.europa.eu/news-and-media/news_en",
+  "sha256": "8c36be216e4a547fc433c319d3e6bf114097b6b50f5bb025eeb227e2e097fac7",
+  "bytes": 305749
+ },
+ {
+  "name": "ec-news1",
+  "url": "https://commission.europa.eu/news-and-media/news_en?page=1",
+  "fetchedAt": "2026-10-18T15:32:32.461420Z",
+  "status": 200,
+  "contentType": "text/html; charset=utf-8",
+  "finalUrl": "https://commission.europa.eu/news-and-media/news_en?page=1",
+  "sha256": "e5c37aff17470a3fda0518608833d24fcc632a7a9352e53e628941da31e80d6b",
+  "bytes": 307658
+ },
+ {
+  "name": "ec-news2",
+  "url": "https://commission.europa.eu/news-and-media/news_en?page=2",
+  "fetchedAt": "2026-10-18T15:32:32.583429Z",
+  "status": 200,
+  "contentType": "text/html; charset=utf-8",
+  "finalUrl": "https://commission.europa.eu/news-and-media/news_en?page=2",
+  "sha256": "b7ee46e3f8bca20c73bb23e8b4b05bfb1d21107ab547e9dcc37d9fad214e5812",
+  "bytes": 308709
+ },
+ {
+  "name": "esma",
+  "url": "https://www.esma.europa.eu/press-news/esma-news",
+  "fetchedAt": "2026-10-18T15:32:32.700005Z",
+  "status": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "finalUrl": "https://www.esma.europa.eu/press-news/esma-news",
+  "sha256": "3e61b43a878841a55834327e6ef6751cf3a5093e6da145142574dad6ac81b8e1",
+  "bytes": 96494
+ },
+ {
+  "name": "taxud",
+  "url": "https://taxation-customs.ec.europa.eu/news_en",
+  "fetchedAt": "2026-10-18T15:32:32.801019Z",
+  "status": 200,
+  "contentType": "text/html; charset=utf-8",
+  "finalUrl": "https://taxation-customs.ec.europa.eu/news_en",
+  "sha256": "afb9f836ad2cd20eea4a072f5c0aca36585d2781f9df04c5fa7ac4add1b96a1a",
+  "bytes": 123541
+ },
+ {
+  "name": "ec-news3",
+  "url": "https://commission.europa.eu/news-and-media/news_en?page=3",
+  "fetchedAt": "2026-10-18T15:32:52.999424Z",
+  "status": 200,
+  "contentType": "text/html; charset=utf-8",
+  "finalUrl": "https://commission.europa.eu/news-and-media/news_en?page=3",
+  "sha256": "5500bb4ed012490be301cd54952c06e1a267ba91f4fef48daa350e5ac326f05d",
+  "bytes": 308773
+ },
+ {
+  "name": "ec-news4",
+  "url": "https://commission.europa.eu/news-and-media/news_en?page=4",
+  "fetchedAt": "2026-10-18T15:32:53.109471Z",
+  "status": 200,
+  "contentType": "text/html; charset=utf-8",
+  "finalUrl": "https://commission.europa.eu/news-and-media/news_en?page=4",
+  "sha256": "4740a23a4414ecb2259586e561dc1fd15fb0c5b016ba1d4c7c676c9beea71f71",
+  "bytes": 308184
+ },
+ {
+  "name": "ec-news5",
+  "url": "https://commission.europa.eu/news-and-media/news_en?page=5",
+  "fetchedAt": "2026-10-18T15:32:53.218816Z",
+  "status": 200,
+  "contentType": "text/html; charset=utf-8",
+  "finalUrl": "https://commission.europa.eu/news-and-media/news_en?page=5",
+  "sha256": "6a3f7a28fc92080c1f7f8c42b609d63791f3234068ec7eab5127cb9720c66114",
+  "bytes": 307724
+ },
+ {
+  "name": "n-methane",
+  "url": "https://energy.ec.europa.eu/news/commission-proposes-flexibility-methane-importers-help-save-costs-2026-10-14_en",
+  "fetchedAt": "2026-10-18T15:33:39.676426Z",
+  "status": 200,
+  "contentType": "text/html",
+  "finalUrl": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2119",
+  "sha256": "66ea8bc4c2d0966989aae67d3041de39334fbcfc8ef7513034a91a78c853c461",
+  "bytes": 21841
+ },
+ {
+  "name": "n-trafficking",
+  "url": "https://home-affairs.ec.europa.eu/news/new-strategy-combating-trafficking-human-beings-2026-10-16_en",
+  "fetchedAt": "2026-10-18T15:33:39.944912Z",
+  "status": 200,
+  "contentType": "text/html; charset=utf-8",
+  "finalUrl": "https://home-affairs.ec.europa.eu/news/new-strategy-combating-trafficking-human-beings-2026-10-16_en",
+  "sha256": "6f4510d5a47c7bcf8703e6909c1cf5b78a77a2ccc512ad690343a5d9ac6f039e",
+  "bytes": 309410
+ },
+ {
+  "name": "n-t1",
+  "url": "https://www.esma.europa.eu/press-news/esma-news/one-year-go-t1-settlement-regulatory-framework-complete-now-lets-make-it",
+  "fetchedAt": "2026-10-18T15:33:40.169991Z",
+  "status": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "finalUrl": "https://www.esma.europa.eu/press-news/esma-news/one-year-go-t1-settlement-regulatory-framework-complete-now-lets-make-it",
+  "sha256": "6c7bb25f3716e3febf9e9b0f16b3b035bfdb60f915e16392d9c93b0b31349f8b",
+  "bytes": 62851
+ },
+ {
+  "name": "n-polads",
+  "url": "https://commission.europa.eu/news-and-media/news/commission-launches-repository-transparency-information-online-political-ads-2026-10-12_en",
+  "fetchedAt": "2026-10-18T15:33:40.307314Z",
+  "status": 200,
+  "contentType": "text/html; charset=utf-8",
+  "finalUrl": "https://commission.europa.eu/news-and-media/news/commission-launches-repository-transparency-information-online-political-ads-2026-10-12_en",
+  "sha256": "0606db8b313e185cac90cba090925e5e727be2f39cbc93de6beca814f931e99e",
+  "bytes": 156476
+ },
+ {
+  "name": "pc-2119",
+  "url": "https://ec.europa.eu/commission/presscorner/api/documents?reference=IP/26/2119&language=en",
+  "fetchedAt": "2026-10-18T15:39:41.786487Z",
+  "status": 200,
+  "contentType": "application/json",
+  "finalUrl": "https://ec.europa.eu/commission/presscorner/api/documents?reference=IP/26/2119&language=en",
+  "sha256": "7736543c0edaddc9dd34aaa4cb6ef75faf364a4a126f52b1aaaadb4869ce2e24",
+  "bytes": 7424
+ }
+]

@@ -2500,5 +2500,104 @@
     "snapshot_key": "sources/d678948cb8b81cb59b0c8231fd61c1d94b5ef91de7e45c8ff52be3951952eb82/eaeb15a6f1c6f96e1ac66c00ac6cbbda18dac082255cee60bf6b2fb9ed9e4db9.pdf",
     "changed": 1,
     "error": null
+  },
+  {
+    "url": "https://www.verkuendung-niedersachsen.de/api/ndsgvbl/2026/84/0/nds-gvbl-2026-84.pdf",
+    "checked_at": "2026-10-18T15:31:32.713531Z",
+    "last_success_at": "2026-10-18T15:31:32.713531Z",
+    "hash": "6318b9d27b5629e0472068968420d23db4cc643012c2bd52e0bb68c768a415ca",
+    "snapshot_key": "sources/cc8ae0ba5d989b2430068cfecadb00cf91134f039bb1a29060b7df08ed9c94a5/6318b9d27b5629e0472068968420d23db4cc643012c2bd52e0bb68c768a415ca.pdf",
+    "changed": 1,
+    "error": null
+  },
+  {
+    "url": "https://www.verkuendung-niedersachsen.de/api/ndsgvbl/2026/85/0/nds-gvbl-2026-85.pdf",
+    "checked_at": "2026-10-18T15:31:33.018076Z",
+    "last_success_at": "2026-10-18T15:31:33.018076Z",
+    "hash": "213085f013433dbb26831deff6b9d7a9f9d0db4a5b107edb4328906fcdc7e820",
+    "snapshot_key": "sources/5a6c9da2d67f5d265240b80a315501b811211e94bf42772678e1cd5d974bfa49/213085f013433dbb26831deff6b9d7a9f9d0db4a5b107edb4328906fcdc7e820.pdf",
+    "changed": 1,
+    "error": null
+  },
+  {
+    "url": "https://www.verkuendung-niedersachsen.de/api/ndsgvbl/2026/81/0/nds-gvbl-2026-81.pdf",
+    "checked_at": "2026-10-18T15:31:31.699761Z",
+    "last_success_at": "2026-10-18T15:31:31.699761Z",
+    "hash": "0511d688163efda18db6d81a3866bdbabf7e8a6b54f00309a316bbc19a57f95b",
+    "snapshot_key": "sources/e9984882679953e77602b8ca5a42bd3b3b46e89e783b3aca5c217143c8472134/0511d688163efda18db6d81a3866bdbabf7e8a6b54f00309a316bbc19a57f95b.pdf",
+    "changed": 1,
+    "error": null
+  },
+  {
+    "url": "https://www.verkuendung-niedersachsen.de/api/ndsgvbl/2026/88/0/nds-gvbl-2026-88.pdf",
+    "checked_at": "2026-10-18T15:31:33.347850Z",
+    "last_success_at": "2026-10-18T15:31:33.347850Z",
+    "hash": "30c288586334f51ac1e0c2b3389ba86c1a0cca6e1f5520bca745604b51bb9563",
+    "snapshot_key": "sources/38bafbb16d12f1a5efb4caa5e15ac048a74d88560c3602bd3e126e475f0c3287/30c288586334f51ac1e0c2b3389ba86c1a0cca6e1f5520bca745604b51bb9563.pdf",
+    "changed": 1,
+    "error": null
+  },
+  {
+    "url": "https://www.verkuendung-niedersachsen.de/api/ndsgvbl/2026/89/0/nds-gvbl-2026-89.pdf",
+    "checked_at": "2026-10-18T15:31:33.654477Z",
+    "last_success_at": "2026-10-18T15:31:33.654477Z",
+    "hash": "3683bd8eddf71e42592d1549ddc2a65950394a9e31c9d821756efda460c8a7fd",
+    "snapshot_key": "sources/994d781e302ec5a26474c10ad3e136c32bd5a4c3cd05e1b25b3032e3f7b2a613/3683bd8eddf71e42592d1549ddc2a65950394a9e31c9d821756efda460c8a7fd.pdf",
+    "changed": 1,
+    "error": null
+  },
+  {
+    "url": "https://www.bundesrat.de/SharedDocs/drucksachen/2026/0601-0700/601-26.pdf?__blob=publicationFile&v=1",
+    "checked_at": "2026-10-18T15:31:00.259076Z",
+    "last_success_at": "2026-10-18T15:31:00.259076Z",
+    "hash": "db968aa45c9a9619d0d3c48a1537e8fe082ab66ca6df5a40a78f2b604ba76053",
+    "snapshot_key": "sources/71c2d9937bffa6419844e7560850a270c3515b5812effe13d53848b7ce04ceb8/db968aa45c9a9619d0d3c48a1537e8fe082ab66ca6df5a40a78f2b604ba76053.pdf",
+    "changed": 1,
+    "error": null
+  },
+  {
+    "url": "https://www.bundesrat.de/SharedDocs/drucksachen/2026/0601-0700/602-26(B).pdf?__blob=publicationFile&v=1",
+    "checked_at": "2026-10-18T15:31:01.646717Z",
+    "last_success_at": "2026-10-18T15:31:01.646717Z",
+    "hash": "3198d60cf0099661e007b74279946639a98880522fe44e7398b6bcd12e53fb1a",
+    "snapshot_key": "sources/bfc4edc01f0db6db50052666508914b46eeb4b447646c8999e23f79df6806ef4/3198d60cf0099661e007b74279946639a98880522fe44e7398b6bcd12e53fb1a.pdf",
+    "changed": 1,
+    "error": null
+  },
+  {
+    "url": "https://home-affairs.ec.europa.eu/news/new-strategy-combating-trafficking-human-beings-2026-10-16_en",
+    "checked_at": "2026-10-18T15:33:39.944912Z",
+    "last_success_at": "2026-10-18T15:33:39.944912Z",
+    "hash": "6f4510d5a47c7bcf8703e6909c1cf5b78a77a2ccc512ad690343a5d9ac6f039e",
+    "snapshot_key": "sources/bb6074298bb255b4d54dfe50695b4bc94190c6fffe89a83cae8bec8e6538dd1a/6f4510d5a47c7bcf8703e6909c1cf5b78a77a2ccc512ad690343a5d9ac6f039e.html",
+    "changed": 1,
+    "error": null
+  },
+  {
+    "url": "https://www.esma.europa.eu/press-news/esma-news/one-year-go-t1-settlement-regulatory-framework-complete-now-lets-make-it",
+    "checked_at": "2026-10-18T15:33:40.169991Z",
+    "last_success_at": "2026-10-18T15:33:40.169991Z",
+    "hash": "6c7bb25f3716e3febf9e9b0f16b3b035bfdb60f915e16392d9c93b0b31349f8b",
+    "snapshot_key": "sources/3ab93559fa48e9c2be9fb4869d2d75fb0fa9eb803f207573eab9d1dbca468c9b/6c7bb25f3716e3febf9e9b0f16b3b035bfdb60f915e16392d9c93b0b31349f8b.html",
+    "changed": 1,
+    "error": null
+  },
+  {
+    "url": "https://commission.europa.eu/news-and-media/news/commission-launches-repository-transparency-information-online-political-ads-2026-10-12_en",
+    "checked_at": "2026-10-18T15:33:40.307314Z",
+    "last_success_at": "2026-10-18T15:33:40.307314Z",
+    "hash": "0606db8b313e185cac90cba090925e5e727be2f39cbc93de6beca814f931e99e",
+    "snapshot_key": "sources/6927e85af9068b7bc8e7941ac41de6e1f02a1756b105dfaea147d0b1ed197f31/0606db8b313e185cac90cba090925e5e727be2f39cbc93de6beca814f931e99e.html",
+    "changed": 1,
+    "error": null
+  },
+  {
+    "url": "https://ec.europa.eu/commission/presscorner/api/documents?reference=IP/26/2119&language=en",
+    "checked_at": "2026-10-18T15:39:41.786487Z",
+    "last_success_at": "2026-10-18T15:39:41.786487Z",
+    "hash": "7736543c0edaddc9dd34aaa4cb6ef75faf364a4a126f52b1aaaadb4869ce2e24",
+    "snapshot_key": "sources/0e94104c3d95b9cdcab00e8954c5ab9f39c17a495ffe3b77dcae2179c3214d00/7736543c0edaddc9dd34aaa4cb6ef75faf364a4a126f52b1aaaadb4869ce2e24.html",
+    "changed": 1,
+    "error": null
   }
 ]

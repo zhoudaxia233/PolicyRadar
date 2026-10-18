@@ -5030,6 +5030,44 @@
         "fr-fertiliser-cadmium-2027"
       ],
       "appliesFromExport": "2026-10-18T16:10:14.523Z"
+    },
+    {
+      "id": "ch-crypto-aeoi-2026",
+      "title": [
+        "瑞士加密资产自动信息交换",
+        "Swiss automatic exchange of information on crypto-assets"
+      ],
+      "basis": "The SIF release of 26 November 2025 on the AIAV amendment is the ordinance step of the same AEOI extension (crypto reporting framework not applied in 2026) that the existing explanation covers.",
+      "documents": [
+        {
+          "region": "CH",
+          "url": "https://www.sif.admin.ch/de/newnsb/oAaJyRFS1lqJ7PN3sLJTP",
+          "title": "Bundesrat genehmigt Änderung der AIA-Verordnung"
+        }
+      ],
+      "explanations": [
+        "ch-crypto-aeoi-activation"
+      ],
+      "appliesFromExport": "2026-10-18T17:16:31.189Z"
+    },
+    {
+      "id": "ch-finig-stablecoins-2026",
+      "title": [
+        "瑞士稳定币和加密机构牌照立法",
+        "Swiss stablecoin and crypto institution licensing bill"
+      ],
+      "basis": "The SIF release of 22 October 2025 opened the FINIG consultation that the existing explanation covers; the SIF DLT topic page read on 18 October 2026 still lists the consultation as the latest step.",
+      "documents": [
+        {
+          "region": "CH",
+          "url": "https://www.sif.admin.ch/de/newnsb/x4TMWQ1SWofNoFx7XyHhY",
+          "title": "Bundesrat geht voran mit Stablecoins und Kryptos: Vernehmlassung eröffnet"
+        }
+      ],
+      "explanations": [
+        "ch-finig-stablecoin-crypto-institutes"
+      ],
+      "appliesFromExport": "2026-10-18T17:16:31.189Z"
     }
   ]
 }

@@ -1,0 +1,927 @@
+[
+ {
+  "name": "ch-news",
+  "url": "https://www.news.admin.ch/de",
+  "fetchedAt": "2026-10-18T16:59:31.944443Z",
+  "error": "<HTTPError 403: 'Forbidden'>",
+  "status": 403
+ },
+ {
+  "name": "ch-rss",
+  "url": "https://www.news.admin.ch/de/rss",
+  "fetchedAt": "2026-10-18T16:59:32.285430Z",
+  "error": "<HTTPError 403: 'Forbidden'>",
+  "status": 403
+ },
+ {
+  "name": "ch-rss2",
+  "url": "https://www.admin.ch/de/rss",
+  "fetchedAt": "2026-10-18T16:59:32.429767Z",
+  "error": "<HTTPError 403: 'Forbidden'>",
+  "status": 403
+ },
+ {
+  "name": "ch-newnsb",
+  "url": "https://www.admin.ch/de/newnsb",
+  "fetchedAt": "2026-10-18T16:59:32.498002Z",
+  "error": "<HTTPError 403: 'Forbidden'>",
+  "status": 403
+ },
+ {
+  "name": "ch-art",
+  "url": "https://www.admin.ch/de/newnsb/kJL3FzqwXiXV",
+  "fetchedAt": "2026-10-18T16:59:42.685815Z",
+  "error": "<HTTPError 403: 'Forbidden'>",
+  "status": 403
+ },
+ {
+  "name": "c-ch-20261015-source-74",
+  "url": "https://www.sz.ch/kanton/medien-und-datenschutz/medienmitteilungen/detailseite.html/10392/news/26291",
+  "fetchedAt": "2026-10-18T17:03:46.455714Z",
+  "status": 200,
+  "contentType": "text/html;charset=UTF-8",
+  "finalUrl": "https://www.sz.ch/kanton/medien-und-datenschutz/medienmitteilungen/detailseite.html/8756-8757-8803-10391-10392/news/26291",
+  "sha256": "7738227593680c777503a04d8f9151781c8e2f183cc23355e8ff3df22460d3b9",
+  "bytes": 107773
+ },
+ {
+  "name": "c-ch-20261015-source-95",
+  "url": "https://ar.ch/schnellzugriff/medienmitteilungen-der-kantonalen-verwaltung/detail/news/instabile-felszone-am-girenspitz-weitere-abklaerungen-bestaetigen-bisherige-gefahreneinschaetzung/",
+  "fetchedAt": "2026-10-18T17:03:47.200659Z",
+  "status": 200,
+  "contentType": "text/html; charset=utf-8",
+  "finalUrl": "https://ar.ch/schnellzugriff/medienmitteilungen-der-kantonalen-verwaltung/detail/news/instabile-felszone-am-girenspitz-weitere-abklaerungen-bestaetigen-bisherige-gefahreneinschaetzung/",
+  "sha256": "68b7c0f83c318cb63861ee70b01b89bf115d3746a480525c18c6c9c82d100bb2",
+  "bytes": 107729
+ },
+ {
+  "name": "c-ch-20261015-source-116",
+  "url": "https://www.gr.ch/DE/Medien/Mitteilungen/MMStaka/2026/Seiten/2026101501.aspx",
+  "fetchedAt": "2026-10-18T17:03:47.377972Z",
+  "status": 200,
+  "contentType": "text/html; charset=utf-8",
+  "finalUrl": "https://www.gr.ch/DE/Medien/Mitteilungen/MMStaka/2026/Seiten/2026101501.aspx",
+  "sha256": "76ff3c3647df704d3398b16c226c319440c6433a483403b1af60124e401a3de4",
+  "bytes": 62413
+ },
+ {
+  "name": "c-ch-20261015-source-188",
+  "url": "https://www.be.ch/de/start/dienstleistungen/medien/medienmitteilungen.html?newsID=0fa57d54-ce1a-47d2-a11e-49c69afd5fbf",
+  "fetchedAt": "2026-10-18T17:03:48.317773Z",
+  "status": 200,
+  "contentType": "text/html; charset=utf-8",
+  "finalUrl": "https://www.be.ch/de/start/dienstleistungen/medien/medienmitteilungen.html?newsID=0fa57d54-ce1a-47d2-a11e-49c69afd5fbf",
+  "sha256": "a0925a8a9b64b40afc6c5e89d04bf35681c1cb9c00d15fdf7752b6a4309c55cd",
+  "bytes": 117109
+ },
+ {
+  "name": "c-ch-20261015-source-84",
+  "url": "https://www.fr.ch/dime/actualites/la-pila-nouvelle-etape-importante-vers-lassainissement-de-lancienne-decharge",
+  "fetchedAt": "2026-10-18T17:03:48.603326Z",
+  "status": 200,
+  "contentType": "text/html; charset=utf-8",
+  "finalUrl": "https://www.fr.ch/dime/actualites/la-pila-nouvelle-etape-importante-vers-lassainissement-de-lancienne-decharge",
+  "sha256": "29e9f07e438e15d77fbc9aa8749a6ceaa469489de45f125fdc20dae980a0602e",
+  "bytes": 86166
+ },
+ {
+  "name": "c-ch-20261015-source-96",
+  "url": "https://ar.ch/schnellzugriff/medienmitteilungen-der-kantonalen-verwaltung/detail/news/regierungsrat-kritisiert-bundesvorlage-verkehr-45/",
+  "fetchedAt": "2026-10-18T17:03:48.733211Z",
+  "status": 200,
+  "contentType": "text/html; charset=utf-8",
+  "finalUrl": "https://ar.ch/schnellzugriff/medienmitteilungen-der-kantonalen-verwaltung/detail/news/regierungsrat-kritisiert-bundesvorlage-verkehr-45/",
+  "sha256": "5b4e7930cc6468dc28d5f0ad3b4ddd6b4a8287cc2fc57490238516f4ac4a248a",
+  "bytes": 105323
+ },
+ {
+  "name": "c-ch-20261015-source-104",
+  "url": "https://www.ge.ch/document/communique-hebdomadaire-du-conseil-etat-du-14-octobre-2026",
+  "fetchedAt": "2026-10-18T17:03:48.884034Z",
+  "status": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "finalUrl": "https://www.ge.ch/document/communique-hebdomadaire-du-conseil-etat-du-14-octobre-2026",
+  "sha256": "34f11ae726b696cb89cfe0cc8c23cb5957c747765a32b442d0d764f4f3824531",
+  "bytes": 150187
+ },
+ {
+  "name": "c-ch-20261015-source-117",
+  "url": "https://www.gr.ch/DE/Medien/Mitteilungen/MMStaka/2026/Seiten/2026101401.aspx",
+  "fetchedAt": "2026-10-18T17:03:49.202041Z",
+  "status": 200,
+  "contentType": "text/html; charset=utf-8",
+  "finalUrl": "https://www.gr.ch/DE/Medien/Mitteilungen/MMStaka/2026/Seiten/2026101401.aspx",
+  "sha256": "c04d6637c7ab0b5fe283f297b4722e90ddd77da548f07fc62eef82976872f503",
+  "bytes": 64152
+ },
+ {
+  "name": "c-ch-20261015-source-189",
+  "url": "https://www.be.ch/de/start/dienstleistungen/medien/medienmitteilungen.html?newsID=063ec2c5-334b-46da-ae9a-97928c31401e",
+  "fetchedAt": "2026-10-18T17:03:50.110433Z",
+  "status": 200,
+  "contentType": "text/html; charset=utf-8",
+  "finalUrl": "https://www.be.ch/de/start/dienstleistungen/medien/medienmitteilungen.html?newsID=063ec2c5-334b-46da-ae9a-97928c31401e",
+  "sha256": "662ffa00e24f98f2230ec7eef23f9efecc4abaec86d5ec0286e35be2aaec3ffd",
+  "bytes": 92348
+ },
+ {
+  "name": "c-ch-20261013-source-153",
+  "url": "https://www.gr.ch/DE/Medien/Mitteilungen/MMStaka/2026/Seiten/2026101301.aspx",
+  "fetchedAt": "2026-10-18T17:03:50.309779Z",
+  "status": 200,
+  "contentType": "text/html; charset=utf-8",
+  "finalUrl": "https://www.gr.ch/DE/Medien/Mitteilungen/MMStaka/2026/Seiten/2026101301.aspx",
+  "sha256": "4d59820548639954b4b941dd7d45021afcd592888109824478d0c2b4402f7cb0",
+  "bytes": 63522
+ },
+ {
+  "name": "c-ch-20261015-source-89",
+  "url": "https://so.ch/startseite/aktuell/aktuell/news/neue-fachanwendung-raumdaten/",
+  "fetchedAt": "2026-10-18T17:03:51.333573Z",
+  "status": 200,
+  "contentType": "text/html; charset=utf-8",
+  "finalUrl": "https://so.ch/startseite/aktuell/aktuell/news/neue-fachanwendung-raumdaten/",
+  "sha256": "cacf789352b8682b6a9a5c6b0f725d3c2b97a7bb7e24533d9e9535a8805dedf7",
+  "bytes": 45080
+ },
+ {
+  "name": "c-ch-20261015-source-93",
+  "url": "https://www.bs.ch/medienmitteilungen/2026-kurzmitteilungen-aus-der-regierungsrats-sitzung-bulletin-26",
+  "fetchedAt": "2026-10-18T17:03:51.496578Z",
+  "status": 200,
+  "contentType": "text/html;charset=utf-8",
+  "finalUrl": "https://www.bs.ch/medienmitteilungen/2026-kurzmitteilungen-aus-der-regierungsrats-sitzung-bulletin-26",
+  "sha256": "5675d6a5435a6338269e1ae0d88c6a5055bfe1748a28d206bb39054ef3116996",
+  "bytes": 142182
+ },
+ {
+  "name": "c-ch-20261015-source-125",
+  "url": "https://www.vs.ch/web/communication/w/r%C3%A9gulation-proactive-du-loup-2026-2027-demande-de-r%C3%A9gulation-compl%C3%A8te-de-la-meute-d-arolla-ferp%C3%A8cle",
+  "fetchedAt": "2026-10-18T17:03:51.602372Z",
+  "status": 200,
+  "contentType": "text/html;charset=UTF-8",
+  "finalUrl": "https://www.vs.ch/web/communication/w/r%C3%A9gulation-proactive-du-loup-2026-2027-demande-de-r%C3%A9gulation-compl%C3%A8te-de-la-meute-d-arolla-ferp%C3%A8cle",
+  "sha256": "a6eb3fa5be330c297d1c78f5f37fbd4d0b271e261901a1b7d4f312a30d8e224d",
+  "bytes": 80418
+ },
+ {
+  "name": "c-ch-20261015-source-172",
+  "url": "https://www.ur.ch/_rte/information/138928",
+  "fetchedAt": "2026-10-18T17:03:51.905466Z",
+  "status": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "finalUrl": "https://www.ur.ch/mmdirektionen/138928",
+  "sha256": "aad25ff463d0a8c9c2d09dcbf6e9b5baba4ea1985abb834c28abbd541f48eab2",
+  "bytes": 78833
+ },
+ {
+  "name": "c-ch-20261015-source-173",
+  "url": "https://www.ur.ch/_rte/information/138922",
+  "fetchedAt": "2026-10-18T17:03:52.782109Z",
+  "status": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "finalUrl": "https://www.ur.ch/mmdirektionen/138922",
+  "sha256": "04f84ef199191a02d84bb5feed6b0c313698db664dbe7e82dacb4471590149dc",
+  "bytes": 79191
+ },
+ {
+  "name": "c-ch-20261015-source-174",
+  "url": "https://www.ur.ch/_rte/information/138850",
+  "fetchedAt": "2026-10-18T17:03:53.677892Z",
+  "status": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "finalUrl": "https://www.ur.ch/mmdirektionen/138850",
+  "sha256": "43cf6b8e1180ab99f295fe2830eaef7a4782356d2f5e6bb1077bb1e2f4b840a7",
+  "bytes": 79015
+ },
+ {
+  "name": "c-ch-20261013-source-116",
+  "url": "https://www.nw.ch/_rte/information/138544",
+  "fetchedAt": "2026-10-18T17:03:54.440814Z",
+  "status": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "finalUrl": "https://www.nw.ch/aktuellesinformationen/138544",
+  "sha256": "23594e84654524d5b8d35985b7361ab09ab7d5dec808e05906c6c9d27397a8e6",
+  "bytes": 161224
+ },
+ {
+  "name": "c-ch-20261013-source-148",
+  "url": "https://www.sg.ch/news/sgch_allgemein/2026/10/ausweisstelle-sargans--terminbuchungen-ab-jetzt.html",
+  "fetchedAt": "2026-10-18T17:03:56.576986Z",
+  "status": 200,
+  "contentType": "text/html",
+  "finalUrl": "https://www.sg.ch/news/sgch_allgemein/2026/10/ausweisstelle-sargans--terminbuchungen-ab-jetzt.html",
+  "sha256": "ab9492a727cdbc23c51a72eddf8d9214edc8432004d8b11a1aa11a23cbe96e64",
+  "bytes": 100042
+ },
+ {
+  "name": "c-ch-20261013-source-150",
+  "url": "https://www.sg.ch/news/sgch_allgemein/2026/10/sichere-und-attraktive-routen-fuer-den-langsamverkehr.html",
+  "fetchedAt": "2026-10-18T17:03:56.749238Z",
+  "status": 200,
+  "contentType": "text/html",
+  "finalUrl": "https://www.sg.ch/news/sgch_allgemein/2026/10/sichere-und-attraktive-routen-fuer-den-langsamverkehr.html",
+  "sha256": "e49809da967a66458c78f249958fc24b627e59703ba76f7a8044b88a022317b9",
+  "bytes": 103369
+ },
+ {
+  "name": "c-ch-20261015-source-175",
+  "url": "https://www.ur.ch/_rte/information/138895",
+  "fetchedAt": "2026-10-18T17:03:56.863788Z",
+  "status": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "finalUrl": "https://www.ur.ch/mmdirektionen/138895",
+  "sha256": "3e97e2aec67e9fe5fe9c28abf5808fef7db01e3174473f610cca09b3e6c20402",
+  "bytes": 77409
+ },
+ {
+  "name": "c-ch-20261015-source-190",
+  "url": "https://www.be.ch/de/start/dienstleistungen/medien/medienmitteilungen.html?newsID=460717e0-75a0-4754-b2a8-66974b4def05",
+  "fetchedAt": "2026-10-18T17:03:57.605572Z",
+  "status": 200,
+  "contentType": "text/html; charset=utf-8",
+  "finalUrl": "https://www.be.ch/de/start/dienstleistungen/medien/medienmitteilungen.html?newsID=460717e0-75a0-4754-b2a8-66974b4def05",
+  "sha256": "415aac4c2ee8766620ab4a1009edc2d1a2b95e96e797947c29c45a9a9ecb5d0d",
+  "bytes": 99874
+ },
+ {
+  "name": "c-ch-20261013-source-187",
+  "url": "https://www.vs.ch/web/communication/w/strat%C3%A9gie-eau-cantonale-le-conseil-d-etat-adopte-le-plan-d-action-2035",
+  "fetchedAt": "2026-10-18T17:03:57.863116Z",
+  "status": 200,
+  "contentType": "text/html;charset=UTF-8",
+  "finalUrl": "https://www.vs.ch/web/communication/w/strat%C3%A9gie-eau-cantonale-le-conseil-d-etat-adopte-le-plan-d-action-2035",
+  "sha256": "1d0305e06b6cb2f5d61c090811262ddee5faea19b7baf19669549eaabfcb7cdf",
+  "bytes": 82788
+ },
+ {
+  "name": "c-ch-20261015-source-99",
+  "url": "https://ai.ch/politik/standeskommission/mitteilungen/aktuelles/mitteilungen-der-tandeskommission-20260929",
+  "fetchedAt": "2026-10-18T17:03:58.180259Z",
+  "status": 200,
+  "contentType": "text/html;charset=utf-8",
+  "finalUrl": "https://ai.ch/politik/standeskommission/mitteilungen/aktuelles/mitteilungen-der-tandeskommission-20260929",
+  "sha256": "c0868bc3462b9c6a056d1c3d5647e5d81606663dd22e2527608b2d8cface284d",
+  "bytes": 29474
+ },
+ {
+  "name": "c-ch-20261015-source-176",
+  "url": "https://www.ur.ch/_rte/information/138502",
+  "fetchedAt": "2026-10-18T17:03:58.572870Z",
+  "status": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "finalUrl": "https://www.ur.ch/mmdirektionen/138502",
+  "sha256": "f858dda882e54f3e58eb49be35d28f80efcf9003fba5c7b4e91d82951e086a9b",
+  "bytes": 78853
+ },
+ {
+  "name": "c-ch-20261013-source-95",
+  "url": "https://www.zh.ch/de/news-uebersicht/medienmitteilungen/2026/10/meilen-durchgangsplatz-fuer-fahrende-auf-dem-vorderen-pfannenstiel-wird-ausgebaut.html",
+  "fetchedAt": "2026-10-18T17:03:59.349206Z",
+  "status": 200,
+  "contentType": "text/html;charset=utf-8",
+  "finalUrl": "https://www.zh.ch/de/news-uebersicht/medienmitteilungen/2026/10/meilen-durchgangsplatz-fuer-fahrende-auf-dem-vorderen-pfannenstiel-wird-ausgebaut.html",
+  "sha256": "2b2a285c10d08510dc60b0162284734a04f3f17c73ed33ab2ac918e4b9c4c312",
+  "bytes": 58921
+ },
+ {
+  "name": "c-ch-20261015-source-79",
+  "url": "https://zg.ch/de/news/2026/October/Garantiearbeiten-an-der-Tangente-Zug-Baar",
+  "fetchedAt": "2026-10-18T17:03:59.892916Z",
+  "status": 200,
+  "contentType": "text/html; charset=utf-8",
+  "finalUrl": "https://zg.ch/de/news/2026/October/Garantiearbeiten-an-der-Tangente-Zug-Baar",
+  "sha256": "40bbe29e8fa034035963ec48299ac448ce8913a86656fcfb51fe74d244a23c08",
+  "bytes": 330344
+ },
+ {
+  "name": "c-ch-20261015-source-177",
+  "url": "https://www.ur.ch/_rte/information/138844",
+  "fetchedAt": "2026-10-18T17:04:00.445394Z",
+  "status": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "finalUrl": "https://www.ur.ch/mmdirektionen/138844",
+  "sha256": "349019ac0808c09145349e07fdd4f73db37b21aa71a5d5891c48e0255401739d",
+  "bytes": 77144
+ },
+ {
+  "name": "c-ch-20261015-source-184",
+  "url": "https://www.bs.ch/medienmitteilungen/pd/2026-auf-dem-weg-zu-netto-null-2037-basel-stadt-lanciert-klimpact-fuer-einen-klimafreundlichen-alltag",
+  "fetchedAt": "2026-10-18T17:04:01.346966Z",
+  "status": 200,
+  "contentType": "text/html;charset=utf-8",
+  "finalUrl": "https://www.bs.ch/medienmitteilungen/pd/2026-auf-dem-weg-zu-netto-null-2037-basel-stadt-lanciert-klimpact-fuer-einen-klimafreundlichen-alltag",
+  "sha256": "224cadca1d2b0515378ed65a2b79969ac905fe5dc1f052fdf9962e625cf9789b",
+  "bytes": 96459
+ },
+ {
+  "name": "c-ch-20261013-source-103",
+  "url": "https://www.ur.ch/_rte/information/138832",
+  "fetchedAt": "2026-10-18T17:04:01.433693Z",
+  "status": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "finalUrl": "https://www.ur.ch/exekutivgeschaefte/138832",
+  "sha256": "6eebf8962b8045f13f84efd457029f38becfd2def22c971748fb56cca7375178",
+  "bytes": 79726
+ },
+ {
+  "name": "c-ch-20261013-source-129",
+  "url": "https://zg.ch/de/news/2026/2026-10-07-infos-des-regierungsrats",
+  "fetchedAt": "2026-10-18T17:04:02.301542Z",
+  "status": 200,
+  "contentType": "text/html; charset=utf-8",
+  "finalUrl": "https://zg.ch/de/news/2026/2026-10-07-infos-des-regierungsrats",
+  "sha256": "dfd3057357ccee4b95c7076b74f9e6a5c56411bf5a9256618325d01b64033b6e",
+  "bytes": 317554
+ },
+ {
+  "name": "c-ch-20261013-source-226",
+  "url": "https://www.vd.ch/actualites/communiques-de-presse-de-letat-de-vaud/detail/communique/mise-en-oeuvre-de-linitiative-des-12",
+  "fetchedAt": "2026-10-18T17:04:02.705920Z",
+  "status": 200,
+  "contentType": "text/html; charset=utf-8",
+  "finalUrl": "https://www.vd.ch/actualites/communiques-de-presse-de-letat-de-vaud/detail/communique/mise-en-oeuvre-de-linitiative-des-12",
+  "sha256": "1f5f01521d0cf3f5a3934a5e98708d74228829468934f0fda838db781bf90a0d",
+  "bytes": 32364
+ },
+ {
+  "name": "c-ch-20261013-source-196",
+  "url": "https://www.jura.ch/fr/Autorites/Administration/CHA/SIC/Centre-medias/Communiques-2026/Breves-informations-de-l-Administration-cantonale-jurassienne-7.html",
+  "fetchedAt": "2026-10-18T17:04:03.031568Z",
+  "status": 200,
+  "contentType": "text/html; charset=utf-8",
+  "finalUrl": "https://www.jura.ch/fr/Autorites/Administration/CHA/SIC/Centre-medias/Communiques-2026/Breves-informations-de-l-Administration-cantonale-jurassienne-7.html",
+  "sha256": "2c0dccad16bd252311492b6d86dac621d9a2d94e91c02c7cffe6f092d63dc7fd",
+  "bytes": 70128
+ },
+ {
+  "name": "c-ch-20261013-ge-45123",
+  "url": "https://www.ge.ch/document/communique-hebdomadaire-du-conseil-etat-du-7-octobre-2026#extrait-45123",
+  "fetchedAt": "2026-10-18T17:04:03.336472Z",
+  "status": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "finalUrl": "https://www.ge.ch/document/communique-hebdomadaire-du-conseil-etat-du-7-octobre-2026#extrait-45123",
+  "sha256": "37f18d1e068296c87c688db13d391363a408b3ebe10cdeeabd34160a4819bfd1",
+  "bytes": 177202
+ },
+ {
+  "name": "c-ch-20261013-ge-45055",
+  "url": "https://www.ge.ch/document/communique-hebdomadaire-du-conseil-etat-du-7-octobre-2026#extrait-45055",
+  "fetchedAt": "2026-10-18T17:04:03.571805Z",
+  "status": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "finalUrl": "https://www.ge.ch/document/communique-hebdomadaire-du-conseil-etat-du-7-octobre-2026#extrait-45055",
+  "sha256": "37f18d1e068296c87c688db13d391363a408b3ebe10cdeeabd34160a4819bfd1",
+  "bytes": 177202
+ },
+ {
+  "name": "c-ch-20261013-ge-45041",
+  "url": "https://www.ge.ch/document/communique-hebdomadaire-du-conseil-etat-du-7-octobre-2026#extrait-45041",
+  "fetchedAt": "2026-10-18T17:04:03.809698Z",
+  "status": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "finalUrl": "https://www.ge.ch/document/communique-hebdomadaire-du-conseil-etat-du-7-octobre-2026#extrait-45041",
+  "sha256": "37f18d1e068296c87c688db13d391363a408b3ebe10cdeeabd34160a4819bfd1",
+  "bytes": 177202
+ },
+ {
+  "name": "c-ch-20261013-ge-45091",
+  "url": "https://www.ge.ch/document/communique-hebdomadaire-du-conseil-etat-du-7-octobre-2026#extrait-45091",
+  "fetchedAt": "2026-10-18T17:04:04.046100Z",
+  "status": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "finalUrl": "https://www.ge.ch/document/communique-hebdomadaire-du-conseil-etat-du-7-octobre-2026#extrait-45091",
+  "sha256": "37f18d1e068296c87c688db13d391363a408b3ebe10cdeeabd34160a4819bfd1",
+  "bytes": 177202
+ },
+ {
+  "name": "c-ch-20261013-ge-45044",
+  "url": "https://www.ge.ch/document/communique-hebdomadaire-du-conseil-etat-du-7-octobre-2026#extrait-45044",
+  "fetchedAt": "2026-10-18T17:04:04.289042Z",
+  "status": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "finalUrl": "https://www.ge.ch/document/communique-hebdomadaire-du-conseil-etat-du-7-octobre-2026#extrait-45044",
+  "sha256": "37f18d1e068296c87c688db13d391363a408b3ebe10cdeeabd34160a4819bfd1",
+  "bytes": 177202
+ },
+ {
+  "name": "c-ch-20261013-ge-45115",
+  "url": "https://www.ge.ch/document/communique-hebdomadaire-du-conseil-etat-du-7-octobre-2026#extrait-45115",
+  "fetchedAt": "2026-10-18T17:04:04.529562Z",
+  "status": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "finalUrl": "https://www.ge.ch/document/communique-hebdomadaire-du-conseil-etat-du-7-octobre-2026#extrait-45115",
+  "sha256": "37f18d1e068296c87c688db13d391363a408b3ebe10cdeeabd34160a4819bfd1",
+  "bytes": 177202
+ },
+ {
+  "name": "c-ch-20261015-source-73",
+  "url": "https://news.lu.ch/html_mail.jsp?params=w%2BMz4ekwhGDTzbUjoQnjxmvN0%2Bozj2pLS3fvje28o%2BDdVAj0luINgixx5OCrEMjwUs4N5vhe9IpTKQWsiRLkKuKTCWBSwiK1g3u4XNEwQgo%3D",
+  "fetchedAt": "2026-10-18T17:04:04.781761Z",
+  "status": 200,
+  "contentType": "text/html;charset=UTF-8",
+  "finalUrl": "https://news.lu.ch/html_mail.jsp?params=w%2BMz4ekwhGDTzbUjoQnjxmvN0%2Bozj2pLS3fvje28o%2BDdVAj0luINgixx5OCrEMjwUs4N5vhe9IpTKQWsiRLkKuKTCWBSwiK1g3u4XNEwQgo%3D",
+  "sha256": "c73097a72d52418f9962da48714cda73d315425520214853ba710905b5472270",
+  "bytes": 19966
+ },
+ {
+  "name": "c-ch-20261015-source-191",
+  "url": "https://www.be.ch/de/start/dienstleistungen/medien/medienmitteilungen.html?newsID=c5b30d0c-deb5-4cda-a012-e187c0a4a9ef",
+  "fetchedAt": "2026-10-18T17:04:05.077067Z",
+  "status": 200,
+  "contentType": "text/html; charset=utf-8",
+  "finalUrl": "https://www.be.ch/de/start/dienstleistungen/medien/medienmitteilungen.html?newsID=c5b30d0c-deb5-4cda-a012-e187c0a4a9ef",
+  "sha256": "f61ef5bc323d615179773077a63c589c6e13ab20d0b01d58ee10d436f37727d8",
+  "bytes": 110564
+ },
+ {
+  "name": "c-ch-20261015-source-119",
+  "url": "https://www.gr.ch/DE/Medien/Mitteilungen/MMStaka/2026/Seiten/2026100501.aspx",
+  "fetchedAt": "2026-10-18T17:04:05.289164Z",
+  "status": 200,
+  "contentType": "text/html; charset=utf-8",
+  "finalUrl": "https://www.gr.ch/DE/Medien/Mitteilungen/MMStaka/2026/Seiten/2026100501.aspx",
+  "sha256": "2f1346a66741c2a608696ee94ef489c2e2c5b66880ef5cf24931088e91850fb3",
+  "bytes": 58343
+ },
+ {
+  "name": "c-ch-20261015-source-192",
+  "url": "https://www.be.ch/de/start/dienstleistungen/medien/medienmitteilungen.html?newsID=ef02af67-ccb7-489f-ab6b-00dd37c4b409",
+  "fetchedAt": "2026-10-18T17:04:06.085419Z",
+  "status": 200,
+  "contentType": "text/html; charset=utf-8",
+  "finalUrl": "https://www.be.ch/de/start/dienstleistungen/medien/medienmitteilungen.html?newsID=ef02af67-ccb7-489f-ab6b-00dd37c4b409",
+  "sha256": "30ca9f5d845af2b4559d0ccbf70b9de178a91acc951a9e15801163121f1d5846",
+  "bytes": 119395
+ },
+ {
+  "name": "c-ch-20261015-source-97",
+  "url": "https://ar.ch/schnellzugriff/medienmitteilungen-der-kantonalen-verwaltung/detail/news/vernehmlassung-zur-gesamtverkehrsstrategie-startet/",
+  "fetchedAt": "2026-10-18T17:04:06.331819Z",
+  "status": 200,
+  "contentType": "text/html; charset=utf-8",
+  "finalUrl": "https://ar.ch/schnellzugriff/medienmitteilungen-der-kantonalen-verwaltung/detail/news/vernehmlassung-zur-gesamtverkehrsstrategie-startet/",
+  "sha256": "5aa174a0a5175c7e9b4df34fab659e8d1504e1561b8bd6f70c34c11e7cae3342",
+  "bytes": 104861
+ },
+ {
+  "name": "c-ch-20261015-source-180",
+  "url": "https://www.ur.ch/_rte/information/138772",
+  "fetchedAt": "2026-10-18T17:04:06.473027Z",
+  "status": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "finalUrl": "https://www.ur.ch/mmdirektionen/138772",
+  "sha256": "2d504373a2e9d75c43a8972de6c3656be6b506484aa134928cc56b0c08bc0a77",
+  "bytes": 81479
+ },
+ {
+  "name": "c-ch-20261015-source-181",
+  "url": "https://www.ur.ch/_rte/information/138586",
+  "fetchedAt": "2026-10-18T17:04:07.317011Z",
+  "status": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "finalUrl": "https://www.ur.ch/mmdirektionen/138586",
+  "sha256": "0b60f26c96abf388245d320eaa92e865cc3999097898228dfe4beae83997143d",
+  "bytes": 81444
+ },
+ {
+  "name": "c-ch-20261015-source-182",
+  "url": "https://www.ur.ch/_rte/information/138700",
+  "fetchedAt": "2026-10-18T17:04:08.271318Z",
+  "status": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "finalUrl": "https://www.ur.ch/mmdirektionen/138700",
+  "sha256": "08ff64b873ae96e5fef282e8d9ef6b743dbaaec62c5efec8137d5f6d4de081fa",
+  "bytes": 77153
+ },
+ {
+  "name": "c-audit-ch-zh-police",
+  "url": "https://www.zh.ch/de/news-uebersicht/medienmitteilungen/2026/10/neues-polizeigesetz-und-dazugehoerige-verordnung-ab-1-dezember-2026-in-kraft.html",
+  "fetchedAt": "2026-10-18T17:04:09.061396Z",
+  "status": 200,
+  "contentType": "text/html;charset=utf-8",
+  "finalUrl": "https://www.zh.ch/de/news-uebersicht/medienmitteilungen/2026/10/neues-polizeigesetz-und-dazugehoerige-verordnung-ab-1-dezember-2026-in-kraft.html",
+  "sha256": "48e29610952a227f399f41719f860f0c37f9be31c7903ac9560f799fa12a315d",
+  "bytes": 53520
+ },
+ {
+  "name": "c-oct06-3513379d06f2454db2a5250c-translated",
+  "url": "https://www.ge.ch/document/communique-hebdomadaire-du-conseil-etat-du-30-septembre-2026",
+  "fetchedAt": "2026-10-18T17:04:09.753939Z",
+  "status": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "finalUrl": "https://www.ge.ch/document/communique-hebdomadaire-du-conseil-etat-du-30-septembre-2026",
+  "sha256": "e1f67f708bb49119cc4fa631954ebc5ab36598bf79d9688d0d2c9acd234f3963",
+  "bytes": 158429
+ },
+ {
+  "name": "c-oct06-fc748730045ef3dbc9bf00ef-translated",
+  "url": "https://www.vd.ch/actualites/decisions-du-conseil-detat/seance-du-conseil-detat/seance/1033000",
+  "fetchedAt": "2026-10-18T17:04:10.008574Z",
+  "status": 200,
+  "contentType": "text/html; charset=utf-8",
+  "finalUrl": "https://www.vd.ch/actualites/decisions-du-conseil-detat/seance-du-conseil-detat/seance/1033000",
+  "sha256": "bc9f348fb456788cd767958f047b429b5860629a43e5d590c668e58f4265b55e",
+  "bytes": 97911
+ },
+ {
+  "name": "c-ch-20261015-source-107",
+  "url": "https://www.jura.ch/fr/Autorites/Administration/CHA/SIC/Centre-medias/Communiques-2026/Transparence-du-financement-de-la-vie-politique-nouvelles-obligations.html",
+  "fetchedAt": "2026-10-18T17:04:11.473587Z",
+  "status": 200,
+  "contentType": "text/html; charset=utf-8",
+  "finalUrl": "https://www.jura.ch/fr/Autorites/Administration/CHA/SIC/Centre-medias/Communiques-2026/Transparence-du-financement-de-la-vie-politique-nouvelles-obligations.html",
+  "sha256": "cbebc4f41838e5b5fd2f6db688c5b103040d725ef8313116be1984f85d04dd29",
+  "bytes": 73837
+ },
+ {
+  "name": "c-ch-20261015-source-183",
+  "url": "https://www.ur.ch/_rte/information/138694",
+  "fetchedAt": "2026-10-18T17:04:11.740286Z",
+  "status": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "finalUrl": "https://www.ur.ch/mmdirektionen/138694",
+  "sha256": "ee03e25c7614ee0bf3582c3db9a0a7f0814bb00043de7913832e786b36ae07de",
+  "bytes": 81872
+ },
+ {
+  "name": "c-ch-20261015-source-193",
+  "url": "https://www.be.ch/de/start/dienstleistungen/medien/medienmitteilungen.html?newsID=6ea79ac9-f2da-4d22-afcf-ad756505d23f",
+  "fetchedAt": "2026-10-18T17:04:12.570404Z",
+  "status": 200,
+  "contentType": "text/html; charset=utf-8",
+  "finalUrl": "https://www.be.ch/de/start/dienstleistungen/medien/medienmitteilungen.html?newsID=6ea79ac9-f2da-4d22-afcf-ad756505d23f",
+  "sha256": "2b8798adba0d2516ab30a501bf6f9a4c428f6117d9f12ff96bc4d468f17d55bb",
+  "bytes": 109883
+ },
+ {
+  "name": "c-ch-20261015-source-87",
+  "url": "https://so.ch/verwaltung/staatskanzlei/medien/medienmitteilung/news/neue-biometrische-identitaetskarte-im-ausweiszentrum-solothurn/",
+  "fetchedAt": "2026-10-18T17:04:12.872922Z",
+  "status": 200,
+  "contentType": "text/html; charset=utf-8",
+  "finalUrl": "https://so.ch/verwaltung/staatskanzlei/medien/medienmitteilung/news/neue-biometrische-identitaetskarte-im-ausweiszentrum-solothurn/",
+  "sha256": "dbe77bb80861afef0a43208a0cafc7546e409ae007eb02c29fd2fd91beb71712",
+  "bytes": 114329
+ },
+ {
+  "name": "c-ch-20261015-source-103",
+  "url": "https://www.ne.ch/communiques-de-presse/budget-2027-le-conseil-detat-fait-le-choix-de-linvestissement",
+  "fetchedAt": "2026-10-18T17:04:13.069314Z",
+  "status": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "finalUrl": "https://www.ne.ch/communiques-de-presse/budget-2027-le-conseil-detat-fait-le-choix-de-linvestissement",
+  "sha256": "44de2096cfc2cc6b9aab98fd77b3ee1bced7e51085c5624c5576bcdd27a1b2d0",
+  "bytes": 498514
+ },
+ {
+  "name": "c-ch-20261015-source-194",
+  "url": "https://www.be.ch/de/start/dienstleistungen/medien/medienmitteilungen.html?newsID=dfff5b8f-0382-4f41-b383-622b6877260f",
+  "fetchedAt": "2026-10-18T17:04:14.569194Z",
+  "status": 200,
+  "contentType": "text/html; charset=utf-8",
+  "finalUrl": "https://www.be.ch/de/start/dienstleistungen/medien/medienmitteilungen.html?newsID=dfff5b8f-0382-4f41-b383-622b6877260f",
+  "sha256": "b256cb70985edeb0d9d5113ccab6e6949b1efb2cf3e1fd0cf34cf9fd0e2a1e47",
+  "bytes": 107134
+ },
+ {
+  "name": "c-ch-20261015-source-195",
+  "url": "https://www.be.ch/de/start/dienstleistungen/medien/medienmitteilungen.html?newsID=6e2c3078-59eb-4ee4-b60f-39ccedc96189",
+  "fetchedAt": "2026-10-18T17:04:14.804516Z",
+  "status": 200,
+  "contentType": "text/html; charset=utf-8",
+  "finalUrl": "https://www.be.ch/de/start/dienstleistungen/medien/medienmitteilungen.html?newsID=6e2c3078-59eb-4ee4-b60f-39ccedc96189",
+  "sha256": "5a9e40c49ef81e05072c45389638b495d58437c0446af9496afe8184d1af225d",
+  "bytes": 127860
+ },
+ {
+  "name": "c-ch-20261015-source-197",
+  "url": "https://www.be.ch/de/start/dienstleistungen/medien/medienmitteilungen.html?newsID=ec88aaac-0dfc-490a-b395-71ed07c209af",
+  "fetchedAt": "2026-10-18T17:04:15.088862Z",
+  "status": 200,
+  "contentType": "text/html; charset=utf-8",
+  "finalUrl": "https://www.be.ch/de/start/dienstleistungen/medien/medienmitteilungen.html?newsID=ec88aaac-0dfc-490a-b395-71ed07c209af",
+  "sha256": "ac219e1b8c05caa4e63d1b05bfd46e8ed919466a55c3996e7d23faeb74f67c7e",
+  "bytes": 143856
+ },
+ {
+  "name": "c-ch-20261015-source-102",
+  "url": "https://www.ne.ch/communiques-de-presse/le-conseil-federal-autorise-la-reintroduction-du-vote-electronique-dans-le-canton-de-neuchatel",
+  "fetchedAt": "2026-10-18T17:04:15.423667Z",
+  "status": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "finalUrl": "https://www.ne.ch/communiques-de-presse/le-conseil-federal-autorise-la-reintroduction-du-vote-electronique-dans-le-canton-de-neuchatel",
+  "sha256": "87152ffacabd7259d9b10a4075ff43af803d520326744933c6cea486dc6a2b28",
+  "bytes": 495976
+ },
+ {
+  "name": "p-jet",
+  "url": "https://cms.news.admin.ch/fileservice/sdweb-docs-prod-nsbcch-files/files/2026/10/15/20e4ed44-31c0-4756-87b3-05bb6b82d8d4.pdf",
+  "fetchedAt": "2026-10-18T17:07:01.638511Z",
+  "error": "ConnectionResetError(54, 'Connection reset by peer')"
+ },
+ {
+  "name": "p-plat",
+  "url": "https://cms.news.admin.ch/fileservice/sdweb-docs-prod-nsbcch-files/files/2026/10/14/5ef08bb3-dad8-4cbd-8efd-702edf4a15b1.pdf",
+  "fetchedAt": "2026-10-18T17:07:01.724341Z",
+  "error": "ConnectionResetError(54, 'Connection reset by peer')"
+ },
+ {
+  "name": "p-pet",
+  "url": "https://cms.news.admin.ch/fileservice/sdweb-docs-prod-nsbcch-files/files/2026/10/14/9d8cc3fd-98dd-4187-a2ec-c476c8abe02c.pdf",
+  "fetchedAt": "2026-10-18T17:07:01.799533Z",
+  "error": "ConnectionResetError(54, 'Connection reset by peer')"
+ },
+ {
+  "name": "p-zoll1",
+  "url": "https://cms.news.admin.ch/fileservice/sdweb-docs-prod-nsbcch-files/files/2026/10/14/28fa19d1-e7c3-42cc-bc3a-cb9ed2b33200.pdf",
+  "fetchedAt": "2026-10-18T17:07:01.878112Z",
+  "error": "ConnectionResetError(54, 'Connection reset by peer')"
+ },
+ {
+  "name": "p-aml",
+  "url": "https://cms.news.admin.ch/fileservice/sdweb-docs-prod-nsbcch-files/files/2026/10/14/d4a142fd-1dbe-4909-ab39-9a4386831dca.pdf",
+  "fetchedAt": "2026-10-18T17:07:01.964641Z",
+  "error": "ConnectionResetError(54, 'Connection reset by peer')"
+ },
+ {
+  "name": "p-pol1",
+  "url": "https://cms.news.admin.ch/fileservice/sdweb-docs-prod-nsbcch-files/files/2026/10/14/4c76b13c-fa1e-4b55-85a1-c284e64a4c8c.pdf",
+  "fetchedAt": "2026-10-18T17:07:02.054716Z",
+  "error": "ConnectionResetError(54, 'Connection reset by peer')"
+ },
+ {
+  "name": "p-food",
+  "url": "https://cms.news.admin.ch/fileservice/sdweb-docs-prod-nsbcch-files/files/2026/10/13/82521d3e-d54b-4f7f-af77-4a896b18519d.pdf",
+  "fetchedAt": "2026-10-18T17:07:02.143332Z",
+  "error": "ConnectionResetError(54, 'Connection reset by peer')"
+ },
+ {
+  "name": "p-feed",
+  "url": "https://cms.news.admin.ch/fileservice/sdweb-docs-prod-nsbcch-files/files/2026/10/08/c00c76db-90df-4254-9992-429c71be9d38.pdf",
+  "fetchedAt": "2026-10-18T17:07:02.235963Z",
+  "error": "ConnectionResetError(54, 'Connection reset by peer')"
+ },
+ {
+  "name": "p-aiav",
+  "url": "https://cms.news.admin.ch/fileservice/sdweb-docs-prod-nsbcch-files/files/2025/11/26/86640759-4e65-481f-a32a-b83976a29bb8.pdf",
+  "fetchedAt": "2026-10-18T17:07:02.328534Z",
+  "error": "ConnectionResetError(54, 'Connection reset by peer')"
+ },
+ {
+  "name": "p-finig",
+  "url": "https://cms.news.admin.ch/fileservice/sdweb-docs-prod-nsbcch-files/files/2025/10/22/0f84a88a-049a-4070-8c3a-4662edc7d57d.pdf",
+  "fetchedAt": "2026-10-18T17:07:02.414587Z",
+  "error": "ConnectionResetError(54, 'Connection reset by peer')"
+ },
+ {
+  "name": "a-bazg",
+  "url": "https://www.bazg.admin.ch/de/wichtige-neuerungen-betreffend-zollerleichterungen-fuer-waren-je-nach-verwendungszweck-per-1-november-2026",
+  "fetchedAt": "2026-10-18T17:07:02.505533Z",
+  "status": 200,
+  "contentType": "text/html;charset=utf-8",
+  "finalUrl": "https://www.bazg.admin.ch/de/wichtige-neuerungen-betreffend-zollerleichterungen-fuer-waren-je-nach-verwendungszweck-per-1-november-2026",
+  "sha256": "12ec89ba1824562790fda19c725b47c737d6b59e82d8b684db3313d65a7484c8",
+  "bytes": 426503
+ },
+ {
+  "name": "a-bwl",
+  "url": "https://www.bwl.admin.ch/de",
+  "fetchedAt": "2026-10-18T17:07:02.788514Z",
+  "status": 200,
+  "contentType": "text/html;charset=utf-8",
+  "finalUrl": "https://www.bwl.admin.ch/de",
+  "sha256": "faa4e33e8ac3e8b59f517c4b6116ad71d99f9f789b2b62ea367b76f6c7e18bbf",
+  "bytes": 130684
+ },
+ {
+  "name": "a-ukr",
+  "url": "https://www.fedlex.admin.ch/eli/fga/2026/798/de",
+  "fetchedAt": "2026-10-18T17:07:02.930386Z",
+  "status": 200,
+  "contentType": "text/html",
+  "finalUrl": "https://www.fedlex.admin.ch/eli/fga/2026/798/de",
+  "sha256": "39d0c4d52bf6c1140a7d5b1848e1a625375891aecc22869089e1361f1fd8b3be",
+  "bytes": 77151
+ },
+ {
+  "name": "a-bag",
+  "url": "https://www.bag.admin.ch/de/so-schuetzen-wir-uns-vor-atemwegsinfektionen",
+  "fetchedAt": "2026-10-18T17:07:03.148966Z",
+  "status": 200,
+  "contentType": "text/html;charset=utf-8",
+  "finalUrl": "https://www.bag.admin.ch/de/so-schuetzen-wir-uns-vor-atemwegsinfektionen",
+  "sha256": "0daccbfd37fac76f964f3b06fd064668e98075d26542c322a8469d34378363b5",
+  "bytes": 802516
+ },
+ {
+  "name": "a-sif",
+  "url": "https://www.sif.admin.ch/de/newnsb/oAaJyRFS1lqJ7PN3sLJTP",
+  "fetchedAt": "2026-10-18T17:07:03.522283Z",
+  "status": 200,
+  "contentType": "text/html;charset=utf-8",
+  "finalUrl": "https://www.sif.admin.ch/de/newnsb/oAaJyRFS1lqJ7PN3sLJTP",
+  "sha256": "5380d0887cff1ea773def2a5cff51b722a2c81f3469ed2779ea7d3220b382c35",
+  "bytes": 121785
+ },
+ {
+  "name": "n-jet",
+  "url": "https://www.bwl.admin.ch/de/newnsb/QW9zBGsF8hJ9",
+  "fetchedAt": "2026-10-18T17:09:16.039283Z",
+  "status": 200,
+  "contentType": "text/html;charset=utf-8",
+  "finalUrl": "https://www.bwl.admin.ch/de/newnsb/QW9zBGsF8hJ9",
+  "sha256": "587fd1ec9d5f9c09b1bd636635bce013714b2e440baa8fc184cc861d4eda6c2c",
+  "bytes": 89902
+ },
+ {
+  "name": "n-feed",
+  "url": "https://www.bwl.admin.ch/de/newnsb/VsI1z9jOLUgq",
+  "fetchedAt": "2026-10-18T17:09:16.242843Z",
+  "status": 200,
+  "contentType": "text/html;charset=utf-8",
+  "finalUrl": "https://www.bwl.admin.ch/de/newnsb/VsI1z9jOLUgq",
+  "sha256": "92cc60df8af5ff536441e104b139ccd6c72350d402d80002969d0274b5206bf1",
+  "bytes": 95009
+ },
+ {
+  "name": "n-med",
+  "url": "https://www.bwl.admin.ch/de/newnsb/CjMfSkioYMfq",
+  "fetchedAt": "2026-10-18T17:09:16.453922Z",
+  "status": 200,
+  "contentType": "text/html;charset=utf-8",
+  "finalUrl": "https://www.bwl.admin.ch/de/newnsb/CjMfSkioYMfq",
+  "sha256": "fc1db64e90745f5c8b38aa5e0d5ddceffe2823de77e1c2f89077f8f557101ab0",
+  "bytes": 89864
+ },
+ {
+  "name": "n-medc",
+  "url": "https://www.bk.admin.ch/de/newnsb/jjqFUfO9SD05",
+  "fetchedAt": "2026-10-18T17:09:16.644286Z",
+  "status": 200,
+  "contentType": "text/html;charset=utf-8",
+  "finalUrl": "https://www.bk.admin.ch/de/newnsb/jjqFUfO9SD05",
+  "sha256": "1c13767b87436c4758400ac43ae59e23df68ddd6ab3f663fbb1856748e87f221",
+  "bytes": 218543
+ },
+ {
+  "name": "n-ref",
+  "url": "https://www.bk.admin.ch/de/newnsb/DtU2lZHuVz82",
+  "fetchedAt": "2026-10-18T17:09:16.920063Z",
+  "status": 200,
+  "contentType": "text/html;charset=utf-8",
+  "finalUrl": "https://www.bk.admin.ch/de/newnsb/DtU2lZHuVz82",
+  "sha256": "3af5f526cdcd06862659f044659e1617e36f48438848dcd00986b93c5bda6891",
+  "bytes": 218807
+ },
+ {
+  "name": "n-plat",
+  "url": "https://www.bakom.admin.ch/de/newnsb/NMn5s24l8NjQ",
+  "fetchedAt": "2026-10-18T17:09:17.161260Z",
+  "status": 200,
+  "contentType": "text/html;charset=utf-8",
+  "finalUrl": "https://www.bakom.admin.ch/de/newnsb/NMn5s24l8NjQ",
+  "sha256": "d42f524f4a8b26bb44af7ced1e87c570b5df4e76410df0ddc760b0ef20402825",
+  "bytes": 245714
+ },
+ {
+  "name": "n-zoll",
+  "url": "https://www.bazg.admin.ch/de/newnsb/Jmo3fhpgMuJt",
+  "fetchedAt": "2026-10-18T17:09:17.473307Z",
+  "status": 200,
+  "contentType": "text/html;charset=utf-8",
+  "finalUrl": "https://www.bazg.admin.ch/de/newnsb/Jmo3fhpgMuJt",
+  "sha256": "16fcde8490f82f56a86e665679c90f2a2f8792eb8950961e38c8ee63d0cef0b0",
+  "bytes": 417518
+ },
+ {
+  "name": "n-zollc",
+  "url": "https://www.bk.admin.ch/de/newnsb/ZDMSU-iEkLJK",
+  "fetchedAt": "2026-10-18T17:09:17.852322Z",
+  "status": 200,
+  "contentType": "text/html;charset=utf-8",
+  "finalUrl": "https://www.bk.admin.ch/de/newnsb/ZDMSU-iEkLJK",
+  "sha256": "63c04d7cf773e9f234f92596c6268cbd7f1589c403269dc9f8105ff46ff7c845",
+  "bytes": 221862
+ },
+ {
+  "name": "n-pol",
+  "url": "https://www.bj.admin.ch/de/newnsb/E7kYfiMOZOmH",
+  "fetchedAt": "2026-10-18T17:09:18.113801Z",
+  "status": 200,
+  "contentType": "text/html;charset=utf-8",
+  "finalUrl": "https://www.bj.admin.ch/de/newnsb/E7kYfiMOZOmH",
+  "sha256": "0cecef0cc4c485011dd73a3400fd2bed2b750115f5ae333469ea38169109ce55",
+  "bytes": 295585
+ },
+ {
+  "name": "n-polc",
+  "url": "https://www.bk.admin.ch/de/newnsb/wbniUxzTspl7",
+  "fetchedAt": "2026-10-18T17:09:18.424063Z",
+  "status": 200,
+  "contentType": "text/html;charset=utf-8",
+  "finalUrl": "https://www.bk.admin.ch/de/newnsb/wbniUxzTspl7",
+  "sha256": "8d1e9bfb3378c68c2c53d229a0d618cf24173dd557bfa804042b5a0a4da9889e",
+  "bytes": 219320
+ },
+ {
+  "name": "n-eca",
+  "url": "https://www.seco.admin.ch/de/newnsb/cX62ZqR2mreH",
+  "fetchedAt": "2026-10-18T17:09:18.694645Z",
+  "status": 200,
+  "contentType": "text/html;charset=utf-8",
+  "finalUrl": "https://www.seco.admin.ch/de/newnsb/cX62ZqR2mreH",
+  "sha256": "fee59755e1a075749ce91b15cbcab4fc65e6f6c250921b56c3159086762efeb9",
+  "bytes": 291511
+ },
+ {
+  "name": "n-ecac",
+  "url": "https://www.bk.admin.ch/de/newnsb/j4oVbnYxB8Fq",
+  "fetchedAt": "2026-10-18T17:09:19.009246Z",
+  "status": 200,
+  "contentType": "text/html;charset=utf-8",
+  "finalUrl": "https://www.bk.admin.ch/de/newnsb/j4oVbnYxB8Fq",
+  "sha256": "7877b170d5e2c6b85e26f4a9cae1d5d5b5985c6a4249209c61c815a64dd487b0",
+  "bytes": 219575
+ },
+ {
+  "name": "n-food",
+  "url": "https://www.blv.admin.ch/de/newnsb/8nw0jvLIyq5h",
+  "fetchedAt": "2026-10-18T17:09:19.275781Z",
+  "status": 200,
+  "contentType": "text/html;charset=utf-8",
+  "finalUrl": "https://www.blv.admin.ch/de/newnsb/8nw0jvLIyq5h",
+  "sha256": "c8a9a7d690948dc63abbc1bf26f50b187636ad31f16e5ed86300bb8c54dec8f9",
+  "bytes": 200065
+ },
+ {
+  "name": "n-foodc",
+  "url": "https://www.bk.admin.ch/de/newnsb/g361eekwklma",
+  "fetchedAt": "2026-10-18T17:09:19.556190Z",
+  "status": 200,
+  "contentType": "text/html;charset=utf-8",
+  "finalUrl": "https://www.bk.admin.ch/de/newnsb/g361eekwklma",
+  "sha256": "a7241d9bfa70e759fc06f92450d18ec672f2c03105c402f9522cd8fc3312d43a",
+  "bytes": 218998
+ },
+ {
+  "name": "n-pet",
+  "url": "https://www.blv.admin.ch/de/newnsb/JSSJ2o8gzqLt",
+  "fetchedAt": "2026-10-18T17:09:19.888782Z",
+  "status": 200,
+  "contentType": "text/html;charset=utf-8",
+  "finalUrl": "https://www.blv.admin.ch/de/newnsb/JSSJ2o8gzqLt",
+  "sha256": "84ab64b4caf101b8bc6b9bbf10bf20b0becd26e960d93f65556abb887bf91006",
+  "bytes": 191447
+ },
+ {
+  "name": "n-kvg",
+  "url": "https://www.bag.admin.ch/de/newnsb/k9VijbvpdXiJ",
+  "fetchedAt": "2026-10-18T17:09:20.124980Z",
+  "status": 200,
+  "contentType": "text/html;charset=utf-8",
+  "finalUrl": "https://www.bag.admin.ch/de/newnsb/k9VijbvpdXiJ",
+  "sha256": "b5205b089ce7bf5b7147db5e657bc7ba83c36f3ef1671626b6bc9b693902a894",
+  "bytes": 754962
+ },
+ {
+  "name": "n-vac",
+  "url": "https://www.bag.admin.ch/de/newnsb/UhZ5xgU3Ltn4",
+  "fetchedAt": "2026-10-18T17:09:20.591381Z",
+  "status": 200,
+  "contentType": "text/html;charset=utf-8",
+  "finalUrl": "https://www.bag.admin.ch/de/newnsb/UhZ5xgU3Ltn4",
+  "sha256": "9082c6ffd03d161bde91877390e38283e4eb9eaea3dd1d3d0e259c118afab150",
+  "bytes": 769904
+ },
+ {
+  "name": "n-ukr",
+  "url": "https://www.seco.admin.ch/de/newnsb/Ef89hHZk5zK-",
+  "fetchedAt": "2026-10-18T17:09:20.998038Z",
+  "status": 200,
+  "contentType": "text/html;charset=utf-8",
+  "finalUrl": "https://www.seco.admin.ch/de/newnsb/Ef89hHZk5zK-",
+  "sha256": "7517232402e542b795475eaf868002a611794b08c99be3bb20b96abc3e227515",
+  "bytes": 290181
+ },
+ {
+  "name": "n-finig",
+  "url": "https://www.sif.admin.ch/de/newnsb/x4TMWQ1SWofNoFx7XyHhY",
+  "fetchedAt": "2026-10-18T17:09:21.280932Z",
+  "status": 200,
+  "contentType": "text/html;charset=utf-8",
+  "finalUrl": "https://www.sif.admin.ch/de/newnsb/x4TMWQ1SWofNoFx7XyHhY",
+  "sha256": "f8bbdea1c36cf8ff0cf7bd259207000baff92b0cb0693c258838e24555a94577",
+  "bytes": 130242
+ },
+ {
+  "name": "n-dlt",
+  "url": "https://www.sif.admin.ch/de/dlt-blockchain",
+  "fetchedAt": "2026-10-18T17:09:48.328919Z",
+  "status": 200,
+  "contentType": "text/html;charset=utf-8",
+  "finalUrl": "https://www.sif.admin.ch/de/dlt-blockchain",
+  "sha256": "69524dee6004faf4affa82ce53fdf90208642309d254bd118d072977dcc41323",
+  "bytes": 152511
+ }
+]

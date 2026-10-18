@@ -99,7 +99,8 @@ test('all locales group identical records and search original titles as well as 
   const records=data.intake.records.map(r=>localizeIntake(r,locale,localization));
   const policies=data.policies.map(p=>localizePolicy(p,locale,localization));
   const index=new Map(data.intake.records.map(r=>[r.id,searchText(r,localization)]));
-  const result=selectListing(policies,records,{...base,query:'PRIMA'},r=>index.get(r.id)??'','2026-10-08',topics);
+  // A bare 'PRIMA' also matches unrelated journal titles ("prima facie", "PRIMARY"); search the programme's original name.
+  const result=selectListing(policies,records,{...base,query:'Mediterranean Area (PRIMA)'},r=>index.get(r.id)??'','2026-10-08',topics);
   assert.equal(result.count,1);
   assert.equal(result.progress.length,3);
   assert.equal(result.progressGroups[0].title?.[locale==='zh'?0:1],topics[0].title[locale==='zh'?0:1]);

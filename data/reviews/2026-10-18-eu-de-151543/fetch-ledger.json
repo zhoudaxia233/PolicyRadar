@@ -1,0 +1,1278 @@
+{
+ "requests": [
+  {
+   "name": "oj-L-10",
+   "url": "https://eur-lex.europa.eu/oj/daily-view/L-series/default.html?ojDate=10102026",
+   "fetchedAt": "2026-10-18T14:56:18.239769Z",
+   "status": 202,
+   "contentType": "text/html; charset=UTF-8",
+   "finalUrl": "https://eur-lex.europa.eu/oj/daily-view/L-series/default.html?ojDate=10102026",
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "bytes": 0
+  },
+  {
+   "name": "oj-C-10",
+   "url": "https://eur-lex.europa.eu/oj/daily-view/C-series/default.html?ojDate=10102026",
+   "fetchedAt": "2026-10-18T14:56:18.306987Z",
+   "status": 202,
+   "contentType": "text/html; charset=UTF-8",
+   "finalUrl": "https://eur-lex.europa.eu/oj/daily-view/C-series/default.html?ojDate=10102026",
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "bytes": 0
+  },
+  {
+   "name": "oj-L-11",
+   "url": "https://eur-lex.europa.eu/oj/daily-view/L-series/default.html?ojDate=11102026",
+   "fetchedAt": "2026-10-18T14:56:18.352962Z",
+   "status": 202,
+   "contentType": "text/html; charset=UTF-8",
+   "finalUrl": "https://eur-lex.europa.eu/oj/daily-view/L-series/default.html?ojDate=11102026",
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "bytes": 0
+  },
+  {
+   "name": "oj-C-11",
+   "url": "https://eur-lex.europa.eu/oj/daily-view/C-series/default.html?ojDate=11102026",
+   "fetchedAt": "2026-10-18T14:56:18.401884Z",
+   "status": 202,
+   "contentType": "text/html; charset=UTF-8",
+   "finalUrl": "https://eur-lex.europa.eu/oj/daily-view/C-series/default.html?ojDate=11102026",
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "bytes": 0
+  },
+  {
+   "name": "oj-L-12",
+   "url": "https://eur-lex.europa.eu/oj/daily-view/L-series/default.html?ojDate=12102026",
+   "fetchedAt": "2026-10-18T14:56:18.451444Z",
+   "status": 202,
+   "contentType": "text/html; charset=UTF-8",
+   "finalUrl": "https://eur-lex.europa.eu/oj/daily-view/L-series/default.html?ojDate=12102026",
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "bytes": 0
+  },
+  {
+   "name": "oj-C-12",
+   "url": "https://eur-lex.europa.eu/oj/daily-view/C-series/default.html?ojDate=12102026",
+   "fetchedAt": "2026-10-18T14:56:18.498650Z",
+   "status": 202,
+   "contentType": "text/html; charset=UTF-8",
+   "finalUrl": "https://eur-lex.europa.eu/oj/daily-view/C-series/default.html?ojDate=12102026",
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "bytes": 0
+  },
+  {
+   "name": "oj-L-13",
+   "url": "https://eur-lex.europa.eu/oj/daily-view/L-series/default.html?ojDate=13102026",
+   "fetchedAt": "2026-10-18T14:56:18.548431Z",
+   "status": 202,
+   "contentType": "text/html; charset=UTF-8",
+   "finalUrl": "https://eur-lex.europa.eu/oj/daily-view/L-series/default.html?ojDate=13102026",
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "bytes": 0
+  },
+  {
+   "name": "oj-C-13",
+   "url": "https://eur-lex.europa.eu/oj/daily-view/C-series/default.html?ojDate=13102026",
+   "fetchedAt": "2026-10-18T14:56:18.601598Z",
+   "status": 202,
+   "contentType": "text/html; charset=UTF-8",
+   "finalUrl": "https://eur-lex.europa.eu/oj/daily-view/C-series/default.html?ojDate=13102026",
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "bytes": 0
+  },
+  {
+   "name": "oj-L-14",
+   "url": "https://eur-lex.europa.eu/oj/daily-view/L-series/default.html?ojDate=14102026",
+   "fetchedAt": "2026-10-18T14:56:18.656087Z",
+   "status": 202,
+   "contentType": "text/html; charset=UTF-8",
+   "finalUrl": "https://eur-lex.europa.eu/oj/daily-view/L-series/default.html?ojDate=14102026",
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "bytes": 0
+  },
+  {
+   "name": "oj-C-14",
+   "url": "https://eur-lex.europa.eu/oj/daily-view/C-series/default.html?ojDate=14102026",
+   "fetchedAt": "2026-10-18T14:56:18.711089Z",
+   "status": 202,
+   "contentType": "text/html; charset=UTF-8",
+   "finalUrl": "https://eur-lex.europa.eu/oj/daily-view/C-series/default.html?ojDate=14102026",
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "bytes": 0
+  },
+  {
+   "name": "oj-L-15",
+   "url": "https://eur-lex.europa.eu/oj/daily-view/L-series/default.html?ojDate=15102026",
+   "fetchedAt": "2026-10-18T14:56:18.770217Z",
+   "status": 202,
+   "contentType": "text/html; charset=UTF-8",
+   "finalUrl": "https://eur-lex.europa.eu/oj/daily-view/L-series/default.html?ojDate=15102026",
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "bytes": 0
+  },
+  {
+   "name": "oj-C-15",
+   "url": "https://eur-lex.europa.eu/oj/daily-view/C-series/default.html?ojDate=15102026",
+   "fetchedAt": "2026-10-18T14:56:18.821786Z",
+   "status": 202,
+   "contentType": "text/html; charset=UTF-8",
+   "finalUrl": "https://eur-lex.europa.eu/oj/daily-view/C-series/default.html?ojDate=15102026",
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "bytes": 0
+  },
+  {
+   "name": "oj-L-16",
+   "url": "https://eur-lex.europa.eu/oj/daily-view/L-series/default.html?ojDate=16102026",
+   "fetchedAt": "2026-10-18T14:56:18.872475Z",
+   "status": 202,
+   "contentType": "text/html; charset=UTF-8",
+   "finalUrl": "https://eur-lex.europa.eu/oj/daily-view/L-series/default.html?ojDate=16102026",
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "bytes": 0
+  },
+  {
+   "name": "oj-C-16",
+   "url": "https://eur-lex.europa.eu/oj/daily-view/C-series/default.html?ojDate=16102026",
+   "fetchedAt": "2026-10-18T14:56:18.923758Z",
+   "status": 202,
+   "contentType": "text/html; charset=UTF-8",
+   "finalUrl": "https://eur-lex.europa.eu/oj/daily-view/C-series/default.html?ojDate=16102026",
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "bytes": 0
+  },
+  {
+   "name": "oj-L-17",
+   "url": "https://eur-lex.europa.eu/oj/daily-view/L-series/default.html?ojDate=17102026",
+   "fetchedAt": "2026-10-18T14:56:18.975977Z",
+   "status": 202,
+   "contentType": "text/html; charset=UTF-8",
+   "finalUrl": "https://eur-lex.europa.eu/oj/daily-view/L-series/default.html?ojDate=17102026",
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "bytes": 0
+  },
+  {
+   "name": "oj-C-17",
+   "url": "https://eur-lex.europa.eu/oj/daily-view/C-series/default.html?ojDate=17102026",
+   "fetchedAt": "2026-10-18T14:56:19.034155Z",
+   "status": 202,
+   "contentType": "text/html; charset=UTF-8",
+   "finalUrl": "https://eur-lex.europa.eu/oj/daily-view/C-series/default.html?ojDate=17102026",
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "bytes": 0
+  },
+  {
+   "name": "t-2280",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:L_202602280",
+   "fetchedAt": "2026-10-18T14:59:35.358531Z",
+   "status": 202,
+   "contentType": "text/html; charset=UTF-8",
+   "finalUrl": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:L_202602280",
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "bytes": 0
+  },
+  {
+   "name": "t-2280b",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202602280",
+   "fetchedAt": "2026-10-18T14:59:35.426143Z",
+   "status": 202,
+   "contentType": "text/html; charset=UTF-8",
+   "finalUrl": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202602280",
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "bytes": 0
+  },
+  {
+   "name": "t-pdf",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=OJ:L_202602280",
+   "fetchedAt": "2026-10-18T15:00:00.440603Z",
+   "status": 202,
+   "contentType": "text/html; charset=UTF-8",
+   "finalUrl": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=OJ:L_202602280",
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "bytes": 0
+  },
+  {
+   "name": "t-eli",
+   "url": "https://eur-lex.europa.eu/eli/reg/2026/2280/oj/eng",
+   "fetchedAt": "2026-10-18T15:00:00.512516Z",
+   "status": 202,
+   "contentType": "text/html; charset=UTF-8",
+   "finalUrl": "https://eur-lex.europa.eu/eli/reg/2026/2280/oj/eng",
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "bytes": 0
+  },
+  {
+   "name": "t-pub",
+   "url": "https://publications.europa.eu/resource/oj/L_202602280",
+   "fetchedAt": "2026-10-18T15:00:00.557236Z",
+   "status": 200,
+   "contentType": "application/rdf+xml;charset=UTF-8",
+   "finalUrl": "http://publications.europa.eu/resource/cellar/dbec2e15-c830-11f1-a77b-01aa75ed71a1.0004/rdf/object/full",
+   "sha256": "f7cfc339af7d0e674973ef253279da260e56100540759acc22957e6450b9df66",
+   "bytes": 3785
+  },
+  {
+   "name": "t-cons",
+   "url": "https://www.consilium.europa.eu/en/press/press-releases/",
+   "fetchedAt": "2026-10-18T15:00:00.822955Z",
+   "status": 200,
+   "contentType": "text/html; charset=utf-8",
+   "finalUrl": "https://www.consilium.europa.eu/en/press/press-releases/",
+   "sha256": "6762382b82f28477cd6ee01ae321576255a624120c2c971ba0da9d3d17b20157",
+   "bytes": 143282
+  },
+  {
+   "name": "t-cellar",
+   "url": "https://op.europa.eu/en/publication-detail/-/publication/",
+   "fetchedAt": "2026-10-18T15:00:01.048190Z",
+   "status": 200,
+   "contentType": "text/html;charset=UTF-8",
+   "finalUrl": "https://op.europa.eu/en/publication-detail/-/publication/",
+   "sha256": "f0ab0c0b859f65711097bf8bc498a6deef62e4ea5629b1495e02f8c2e36bda5e",
+   "bytes": 360326
+  },
+  {
+   "name": "cellar-L_202602280",
+   "oj": "L_202602280",
+   "fetchedAt": "2026-10-18T15:00:26.865387Z",
+   "url": "https://publications.europa.eu/resource/cellar/dbec2e15-c830-11f1-a77b-01aa75ed71a1.0006.03/DOC_1",
+   "status": 200,
+   "contentType": "application/xhtml+xml;charset=UTF-8",
+   "sha256": "b3b4b761f695d686184e6b2f1c3e7addf40ea36e69fe10f267aedd9ecae3db84",
+   "bytes": 414389
+  },
+  {
+   "name": "cellar-L_202602259",
+   "oj": "L_202602259",
+   "fetchedAt": "2026-10-18T15:00:27.304003Z",
+   "url": "https://publications.europa.eu/resource/cellar/fc7c16e2-c5d6-11f1-bfcb-01aa75ed71a1.0006.03/DOC_1",
+   "status": 200,
+   "contentType": "application/xhtml+xml;charset=UTF-8",
+   "sha256": "bd2d2706345d5ce6a1a616108e85d3511ad2efe8c15ee008eba5aa3c7d18c71e",
+   "bytes": 10941
+  },
+  {
+   "name": "cellar-L_202602259 L_202602271 L_202602278 L_202602281 L_202602292 L_202602242 L_202602243 L_202602272 L_202602277 L_202602279 L_202602283 L_202602291 L_202602276 L_202602246 L_202602247 L_202602248 L_202602249 L_202602250 L_202602285 L_202602286 L_202602296 L_202602252 L_202602273 L_202602295 L_202602303 L_202602313 L_202602318 L_202601519 L_202601536 L_202601512 L_202602266 L_202602317 L_202602312 L_202602253 L_202602274 L_202602275 L_202602282 L_202602280 L_202602333 L_202602228 L_202602290 L_202602293 L_202602301 L_202602302 L_202602307 L_202602315 L_202602332 L_202602284 L_202602289 L_202602299 L_202602270 L_202602320 L_202602331 L_202602260 L_202602308 L_202602316 L_202602321 ",
+   "oj": "L_202602259 L_202602271 L_202602278 L_202602281 L_202602292 L_202602242 L_202602243 L_202602272 L_202602277 L_202602279 L_202602283 L_202602291 L_202602276 L_202602246 L_202602247 L_202602248 L_202602249 L_202602250 L_202602285 L_202602286 L_202602296 L_202602252 L_202602273 L_202602295 L_202602303 L_202602313 L_202602318 L_202601519 L_202601536 L_202601512 L_202602266 L_202602317 L_202602312 L_202602253 L_202602274 L_202602275 L_202602282 L_202602280 L_202602333 L_202602228 L_202602290 L_202602293 L_202602301 L_202602302 L_202602307 L_202602315 L_202602332 L_202602284 L_202602289 L_202602299 L_202602270 L_202602320 L_202602331 L_202602260 L_202602308 L_202602316 L_202602321 ",
+   "fetchedAt": "2026-10-18T15:00:35.404350Z",
+   "error": "InvalidURL(\"URL can't contain control characters. '/resource/oj/L_202602259 L_202602271 L_202602278 L_202602281 L_202602292 L_202602242 L_202602243 L_202602272 L_202602277 L_202602279 L_202602283 L_202602291 L_202602276 L_202602246 L_202602247 L_202602248 L_202602249 L_202602250 L_202602285 L_202602"
+  },
+  {
+   "name": "cellar-L_202602262",
+   "oj": "L_202602262",
+   "fetchedAt": "2026-10-18T15:00:35.409689Z",
+   "url": "https://publications.europa.eu/resource/cellar/433ecfc7-c3db-11f1-bfcb-01aa75ed71a1.0006.03/DOC_1",
+   "status": 200,
+   "contentType": "application/xhtml+xml;charset=UTF-8",
+   "sha256": "0f55193d303668fce6b9bb38095072a35c52d9594035ad1fecf6c21288f5c4a4",
+   "bytes": 17366
+  },
+  {
+   "name": "cellar-L_202602257",
+   "oj": "L_202602257",
+   "fetchedAt": "2026-10-18T15:00:35.823718Z",
+   "url": "https://publications.europa.eu/resource/cellar/747beea1-c313-11f1-bfcb-01aa75ed71a1.0006.03/DOC_1",
+   "status": 200,
+   "contentType": "application/xhtml+xml;charset=UTF-8",
+   "sha256": "3a610aaf7b5e8fcf3656f77e5a30678004f233352ba1d852f0f3c8b00376aead",
+   "bytes": 33542
+  },
+  {
+   "name": "cellar-C_202605269",
+   "oj": "C_202605269",
+   "fetchedAt": "2026-10-18T15:00:36.239559Z",
+   "url": "https://publications.europa.eu/resource/cellar/b2b0db3a-c8fa-11f1-97f3-01aa75ed71a1.0006.03/DOC_1",
+   "status": 200,
+   "contentType": "application/xhtml+xml;charset=UTF-8",
+   "sha256": "0dcb24c1b4f9c9a840ad978c80d12613749064cb76298eaa9eadc9e593ebd021",
+   "bytes": 2312249
+  },
+  {
+   "name": "cellar-C_202605270",
+   "oj": "C_202605270",
+   "fetchedAt": "2026-10-18T15:00:36.854253Z",
+   "url": "https://publications.europa.eu/resource/cellar/967316e6-c8fa-11f1-97f3-01aa75ed71a1.0006.03/DOC_1",
+   "status": 200,
+   "contentType": "application/xhtml+xml;charset=UTF-8",
+   "sha256": "11f8468a55f05f73bdeabd3b98cedd76941526058d4b8835a81fa5555ae98db0",
+   "bytes": 24150
+  },
+  {
+   "name": "cellar-C_202605271",
+   "oj": "C_202605271",
+   "fetchedAt": "2026-10-18T15:00:37.241107Z",
+   "url": "https://publications.europa.eu/resource/cellar/3d4be87b-c8fa-11f1-97f3-01aa75ed71a1.0006.03/DOC_1",
+   "status": 200,
+   "contentType": "application/xhtml+xml;charset=UTF-8",
+   "sha256": "ef342f7d128de55d4c07afc8c4c852b2ef1f5a73be0b539f2f7ce6a54fe95d3d",
+   "bytes": 1667354
+  },
+  {
+   "name": "cellar-C_202605272",
+   "oj": "C_202605272",
+   "fetchedAt": "2026-10-18T15:00:37.749521Z",
+   "url": "https://publications.europa.eu/resource/cellar/7594ef71-c8fa-11f1-97f3-01aa75ed71a1.0006.03/DOC_1",
+   "status": 200,
+   "contentType": "application/xhtml+xml;charset=UTF-8",
+   "sha256": "bedc68ca5fbd48f42a54af9acb9b27283403066c980e1d7b11a4e04cee3d4178",
+   "bytes": 24629
+  },
+  {
+   "name": "cellar-C_202605413",
+   "oj": "C_202605413",
+   "fetchedAt": "2026-10-18T15:00:38.134401Z",
+   "url": "https://publications.europa.eu/resource/cellar/550e36cd-c8fa-11f1-97f3-01aa75ed71a1.0006.03/DOC_1",
+   "status": 200,
+   "contentType": "application/xhtml+xml;charset=UTF-8",
+   "sha256": "dbcee88e75792b79cb6b5fd4aad9c0f7de806e11072df48c061c30aaf7225023",
+   "bytes": 20279
+  },
+  {
+   "name": "cellar-C_202605419",
+   "oj": "C_202605419",
+   "fetchedAt": "2026-10-18T15:00:38.527430Z",
+   "url": "https://publications.europa.eu/resource/cellar/939412d5-c8fa-11f1-97f3-01aa75ed71a1.0006.03/DOC_1",
+   "status": 200,
+   "contentType": "application/xhtml+xml;charset=UTF-8",
+   "sha256": "bbd7b284d84c40d0fa0a1325440155a7b4ba8c5998e4307c675fca47fe4e5b36",
+   "bytes": 34554
+  },
+  {
+   "name": "cellar-C_202605421",
+   "oj": "C_202605421",
+   "fetchedAt": "2026-10-18T15:00:38.949442Z",
+   "url": "https://publications.europa.eu/resource/cellar/865c96f2-c8fa-11f1-97f3-01aa75ed71a1.0006.03/DOC_1",
+   "status": 200,
+   "contentType": "application/xhtml+xml;charset=UTF-8",
+   "sha256": "2708ab2ed3162e2c5606407275ce1d461e221aeebc08d6771732adf8a5298f14",
+   "bytes": 111234
+  },
+  {
+   "name": "cellar-L_202602259",
+   "oj": "L_202602259",
+   "fetchedAt": "2026-10-18T15:00:50.589281Z",
+   "url": "https://publications.europa.eu/resource/cellar/fc7c16e2-c5d6-11f1-bfcb-01aa75ed71a1.0006.03/DOC_1",
+   "status": 200,
+   "contentType": "application/xhtml+xml;charset=UTF-8",
+   "sha256": "bd2d2706345d5ce6a1a616108e85d3511ad2efe8c15ee008eba5aa3c7d18c71e",
+   "bytes": 10941
+  },
+  {
+   "name": "cellar-L_202602271",
+   "oj": "L_202602271",
+   "fetchedAt": "2026-10-18T15:00:50.999503Z",
+   "url": "https://publications.europa.eu/resource/cellar/7a6cea58-c5d5-11f1-bfcb-01aa75ed71a1.0006.03/DOC_1",
+   "status": 200,
+   "contentType": "application/xhtml+xml;charset=UTF-8",
+   "sha256": "09e00c94f8b8b65d4c4623a3465dffe9a3fe965e14beb3f6ddcee710a78f4af5",
+   "bytes": 9777
+  },
+  {
+   "name": "cellar-L_202602278",
+   "oj": "L_202602278",
+   "fetchedAt": "2026-10-18T15:00:51.392637Z",
+   "url": "https://publications.europa.eu/resource/cellar/8b841f31-c624-11f1-bfcb-01aa75ed71a1.0006.03/DOC_1",
+   "status": 200,
+   "contentType": "application/xhtml+xml;charset=UTF-8",
+   "sha256": "b5f3b06c1a725f70a79f3bf33bb17096eeaa3b682b7794223e2bce0a6c535860",
+   "bytes": 46729
+  },
+  {
+   "name": "cellar-L_202602281",
+   "oj": "L_202602281",
+   "fetchedAt": "2026-10-18T15:00:51.818436Z",
+   "url": "https://publications.europa.eu/resource/cellar/831798df-c624-11f1-bfcb-01aa75ed71a1.0006.03/DOC_1",
+   "status": 200,
+   "contentType": "application/xhtml+xml;charset=UTF-8",
+   "sha256": "ca4377e74b4b66c0d8cbee910aa7214665c6b9c61629df1866e186146c1f58db",
+   "bytes": 3439215
+  },
+  {
+   "name": "cellar-L_202602292",
+   "oj": "L_202602292",
+   "fetchedAt": "2026-10-18T15:00:52.495722Z",
+   "url": "https://publications.europa.eu/resource/cellar/3b00177d-c624-11f1-bfcb-01aa75ed71a1.0006.03/DOC_1",
+   "status": 200,
+   "contentType": "application/xhtml+xml;charset=UTF-8",
+   "sha256": "af125b38cce39642a5220f2eda17372ad95717a30d42bb0f0fbcf210a83b459a",
+   "bytes": 200593
+  },
+  {
+   "name": "cellar-L_202602242",
+   "oj": "L_202602242",
+   "fetchedAt": "2026-10-18T15:00:52.917421Z",
+   "url": "https://publications.europa.eu/resource/cellar/1ef2aee6-c5d6-11f1-bfcb-01aa75ed71a1.0006.03/DOC_1",
+   "status": 200,
+   "contentType": "application/xhtml+xml;charset=UTF-8",
+   "sha256": "57255d7793938715f13b5f5af4d7083bec4498e0725d420b7b56b36c224859bb",
+   "bytes": 9953
+  },
+  {
+   "name": "cellar-L_202602243",
+   "oj": "L_202602243",
+   "fetchedAt": "2026-10-18T15:00:53.307471Z",
+   "url": "https://publications.europa.eu/resource/cellar/b32f71d7-c5d6-11f1-bfcb-01aa75ed71a1.0006.03/DOC_1",
+   "status": 200,
+   "contentType": "application/xhtml+xml;charset=UTF-8",
+   "sha256": "c8c9cafbcc83939536d8a7199929dbb7e1cd3d21b734d02c62fac3a3759f16c5",
+   "bytes": 29095
+  },
+  {
+   "name": "cellar-L_202602272",
+   "oj": "L_202602272",
+   "fetchedAt": "2026-10-18T15:00:53.720138Z",
+   "url": "https://publications.europa.eu/resource/cellar/19e1cbf3-c5d5-11f1-bfcb-01aa75ed71a1.0006.03/DOC_1",
+   "status": 200,
+   "contentType": "application/xhtml+xml;charset=UTF-8",
+   "sha256": "64df57455e82e8a185d3fc2b6098d87c0d190dd42c7e2d38f5063097c988e6f2",
+   "bytes": 10598
+  },
+  {
+   "name": "cellar-L_202602277",
+   "oj": "L_202602277",
+   "fetchedAt": "2026-10-18T15:00:54.096954Z",
+   "url": "https://publications.europa.eu/resource/cellar/fce1b684-c5d6-11f1-bfcb-01aa75ed71a1.0006.03/DOC_1",
+   "status": 200,
+   "contentType": "application/xhtml+xml;charset=UTF-8",
+   "sha256": "49ff75f1672309ca79daceff2fd473db046cab7340cfcae95fb65134bed17bcc",
+   "bytes": 6544
+  },
+  {
+   "name": "cellar-L_202602279",
+   "oj": "L_202602279",
+   "fetchedAt": "2026-10-18T15:00:54.505163Z",
+   "url": "https://publications.europa.eu/resource/cellar/a0909912-c620-11f1-bfcb-01aa75ed71a1.0006.03/DOC_1",
+   "status": 200,
+   "contentType": "application/xhtml+xml;charset=UTF-8",
+   "sha256": "9b534bd0b0992304bc65aacfd241caac40298b397906fed64b39b63034bc0101",
+   "bytes": 3438841
+  },
+  {
+   "name": "cellar-L_202602283",
+   "oj": "L_202602283",
+   "fetchedAt": "2026-10-18T15:00:55.244087Z",
+   "url": "https://publications.europa.eu/resource/cellar/519d2e5f-c61e-11f1-bfcb-01aa75ed71a1.0006.03/DOC_1",
+   "status": 200,
+   "contentType": "application/xhtml+xml;charset=UTF-8",
+   "sha256": "16cde9dfda8f8df37c71cbd7ab507718f131ed3e144a6a2ff48548ecd5943904",
+   "bytes": 46728
+  },
+  {
+   "name": "cellar-L_202602291",
+   "oj": "L_202602291",
+   "fetchedAt": "2026-10-18T15:00:55.751478Z",
+   "url": "https://publications.europa.eu/resource/cellar/4b57589d-c61e-11f1-bfcb-01aa75ed71a1.0006.03/DOC_1",
+   "status": 200,
+   "contentType": "application/xhtml+xml;charset=UTF-8",
+   "sha256": "36a773ee898e15df91c0796640180f582d6660e8c2f36389075c86a06c729f03",
+   "bytes": 200221
+  },
+  {
+   "name": "cellar-L_202602276",
+   "oj": "L_202602276",
+   "fetchedAt": "2026-10-18T15:00:56.242157Z",
+   "url": "https://publications.europa.eu/resource/cellar/134618bd-c5d6-11f1-bfcb-01aa75ed71a1.0006.03/DOC_1",
+   "status": 200,
+   "contentType": "application/xhtml+xml;charset=UTF-8",
+   "sha256": "c0dd07cc93406f570e91351f790d54555027d85655a015e40963898b4d415856",
+   "bytes": 10279
+  },
+  {
+   "name": "cellar-L_202602246",
+   "oj": "L_202602246",
+   "fetchedAt": "2026-10-18T15:00:56.667155Z",
+   "url": "https://publications.europa.eu/resource/cellar/7c4d77b0-c69e-11f1-bfcb-01aa75ed71a1.0006.03/DOC_1",
+   "status": 200,
+   "contentType": "application/xhtml+xml;charset=UTF-8",
+   "sha256": "3f93ce1dcc40cc19e3b25455f96638a2e4c285a50b8a862e2ac41c3183bf03a2",
+   "bytes": 18030
+  },
+  {
+   "name": "cellar-L_202602247",
+   "oj": "L_202602247",
+   "fetchedAt": "2026-10-18T15:00:57.056209Z",
+   "url": "https://publications.europa.eu/resource/cellar/706b5297-c69e-11f1-bfcb-01aa75ed71a1.0006.03/DOC_1",
+   "status": 200,
+   "contentType": "application/xhtml+xml;charset=UTF-8",
+   "sha256": "f68d7e4ab21632fbab505201839e88cf89daaaaac291a36d716919ca5bf97869",
+   "bytes": 17275
+  },
+  {
+   "name": "cellar-L_202602248",
+   "oj": "L_202602248",
+   "fetchedAt": "2026-10-18T15:00:57.475615Z",
+   "url": "https://publications.europa.eu/resource/cellar/cc5ec07e-c69e-11f1-bfcb-01aa75ed71a1.0006.03/DOC_1",
+   "status": 200,
+   "contentType": "application/xhtml+xml;charset=UTF-8",
+   "sha256": "6058698e62c38ed2fe8bd6c7030cdac848933ef88ce49cde501bc7d9644872ae",
+   "bytes": 32068
+  },
+  {
+   "name": "cellar-L_202602249",
+   "oj": "L_202602249",
+   "fetchedAt": "2026-10-18T15:00:57.861366Z",
+   "url": "https://publications.europa.eu/resource/cellar/7bec1dcf-c69e-11f1-bfcb-01aa75ed71a1.0006.03/DOC_1",
+   "status": 200,
+   "contentType": "application/xhtml+xml;charset=UTF-8",
+   "sha256": "27f4216b86f47a90d81d012db65cc4202e75ba5d21b9f64a2623333bffb08afb",
+   "bytes": 47351
+  },
+  {
+   "name": "cellar-L_202602250",
+   "oj": "L_202602250",
+   "fetchedAt": "2026-10-18T15:00:58.277872Z",
+   "url": "https://publications.europa.eu/resource/cellar/319f6ce1-c69e-11f1-bfcb-01aa75ed71a1.0006.03/DOC_1",
+   "status": 200,
+   "contentType": "application/xhtml+xml;charset=UTF-8",
+   "sha256": "85b930b09f959b6a10fcdda55783e62dd11a16b00b048e4d4d37b143e97dca73",
+   "bytes": 25357
+  },
+  {
+   "name": "cellar-L_202602285",
+   "oj": "L_202602285",
+   "fetchedAt": "2026-10-18T15:00:58.711366Z",
+   "url": "https://publications.europa.eu/resource/cellar/22f950a5-c69f-11f1-bfcb-01aa75ed71a1.0006.03/DOC_1",
+   "status": 200,
+   "contentType": "application/xhtml+xml;charset=UTF-8",
+   "sha256": "3b4cc0465bc8b66636e8bccdb00467e031b54a4ed955567b541b74d37349fe55",
+   "bytes": 22470
+  },
+  {
+   "name": "cellar-L_202602286",
+   "oj": "L_202602286",
+   "fetchedAt": "2026-10-18T15:00:59.096131Z",
+   "url": "https://publications.europa.eu/resource/cellar/d729a933-c69e-11f1-bfcb-01aa75ed71a1.0006.03/DOC_1",
+   "status": 200,
+   "contentType": "application/xhtml+xml;charset=UTF-8",
+   "sha256": "1c3587bc7ab91b49c82b5617909ad380bc0267122cfe2b56f09d526147b9e61e",
+   "bytes": 8493
+  },
+  {
+   "name": "cellar-L_202602296",
+   "oj": "L_202602296",
+   "fetchedAt": "2026-10-18T15:00:59.503345Z",
+   "url": "https://publications.europa.eu/resource/cellar/8163ce25-c69e-11f1-bfcb-01aa75ed71a1.0006.03/DOC_1",
+   "status": 200,
+   "contentType": "application/xhtml+xml;charset=UTF-8",
+   "sha256": "dac102f603c6f49dfa9ec141667e8e3187cd393f6ec440c31fe164378853925d",
+   "bytes": 63037
+  },
+  {
+   "name": "cellar-L_202602252",
+   "oj": "L_202602252",
+   "fetchedAt": "2026-10-18T15:00:59.899014Z",
+   "url": "https://publications.europa.eu/resource/cellar/23a85556-c69f-11f1-bfcb-01aa75ed71a1.0006.03/DOC_1",
+   "status": 200,
+   "contentType": "application/xhtml+xml;charset=UTF-8",
+   "sha256": "717547d0d8be5d649ea723e73488e5f32f05eef03e3d1e4ebf06f00ebca695ee",
+   "bytes": 10454
+  },
+  {
+   "name": "cellar-L_202602273",
+   "oj": "L_202602273",
+   "fetchedAt": "2026-10-18T15:01:00.311424Z",
+   "url": "https://publications.europa.eu/resource/cellar/cbef35cd-c69e-11f1-bfcb-01aa75ed71a1.0006.03/DOC_1",
+   "status": 200,
+   "contentType": "application/xhtml+xml;charset=UTF-8",
+   "sha256": "04bbc1b907e6d33d22ad691cb60f5b335d6c776e54ee97cdf4b8ac5b10998518",
+   "bytes": 10439
+  },
+  {
+   "name": "cellar-L_202602295",
+   "oj": "L_202602295",
+   "fetchedAt": "2026-10-18T15:01:00.713168Z",
+   "url": "https://publications.europa.eu/resource/cellar/20efc503-c69f-11f1-bfcb-01aa75ed71a1.0006.03/DOC_1",
+   "status": 200,
+   "contentType": "application/xhtml+xml;charset=UTF-8",
+   "sha256": "917c6718c60ad9f56c06647c8e4f09da3f8e9aa04c34315b5706c9fc316e6a6b",
+   "bytes": 70107
+  },
+  {
+   "name": "cellar-L_202602303",
+   "oj": "L_202602303",
+   "fetchedAt": "2026-10-18T15:01:01.141255Z",
+   "url": "https://publications.europa.eu/resource/cellar/3154f660-c69e-11f1-bfcb-01aa75ed71a1.0006.03/DOC_1",
+   "status": 200,
+   "contentType": "application/xhtml+xml;charset=UTF-8",
+   "sha256": "f86ba2981a094737de8815573c8984d565bcbf70e044585fa7e711e0955a0dc4",
+   "bytes": 64107
+  },
+  {
+   "name": "cellar-L_202602313",
+   "oj": "L_202602313",
+   "fetchedAt": "2026-10-18T15:01:01.548435Z",
+   "url": "https://publications.europa.eu/resource/cellar/2853d5ef-c7a5-11f1-a77b-01aa75ed71a1.0006.03/DOC_1",
+   "status": 200,
+   "contentType": "application/xhtml+xml;charset=UTF-8",
+   "sha256": "6eea1e4c743d2676a273c21c963158f57d00f5237658e721e841b72ed3fce1d1",
+   "bytes": 8425
+  },
+  {
+   "name": "cellar-L_202602318",
+   "oj": "L_202602318",
+   "fetchedAt": "2026-10-18T15:01:01.942234Z",
+   "url": "https://publications.europa.eu/resource/cellar/ad18f0e1-c7a5-11f1-a77b-01aa75ed71a1.0006.03/DOC_1",
+   "status": 200,
+   "contentType": "application/xhtml+xml;charset=UTF-8",
+   "sha256": "4fa443439235330f10d51a58d6b024dd30720960aa99abcb13d0a664da8e7424",
+   "bytes": 7382
+  },
+  {
+   "name": "cellar-L_202601519",
+   "oj": "L_202601519",
+   "fetchedAt": "2026-10-18T15:01:02.319765Z",
+   "url": "https://publications.europa.eu/resource/cellar/6ee0cbb4-c76b-11f1-a77b-01aa75ed71a1.0006.03/DOC_1",
+   "status": 200,
+   "contentType": "application/xhtml+xml;charset=UTF-8",
+   "sha256": "62ae9d3c38a451d8cb1dc0cbde66f070ddf99a3e99f7530eaeeaeb47de9200d9",
+   "bytes": 161507
+  },
+  {
+   "name": "cellar-L_202601536",
+   "oj": "L_202601536",
+   "fetchedAt": "2026-10-18T15:01:02.741730Z",
+   "url": "https://publications.europa.eu/resource/cellar/86062bfb-c76d-11f1-a77b-01aa75ed71a1.0006.03/DOC_1",
+   "status": 200,
+   "contentType": "application/xhtml+xml;charset=UTF-8",
+   "sha256": "1686ff0c66c91c858319776e937315113db3a1ce9ae221de48d606dc66c1f1e8",
+   "bytes": 1166209
+  },
+  {
+   "name": "cellar-L_202601512",
+   "oj": "L_202601512",
+   "fetchedAt": "2026-10-18T15:01:03.228516Z",
+   "url": "https://publications.europa.eu/resource/cellar/c1ab19ea-c76b-11f1-a77b-01aa75ed71a1.0006.03/DOC_1",
+   "status": 200,
+   "contentType": "application/xhtml+xml;charset=UTF-8",
+   "sha256": "2a6bf0e2d35a2945c40072000de354d55d89305cefee530e5c5aee4c3180ff5b",
+   "bytes": 175994
+  },
+  {
+   "name": "cellar-L_202602266",
+   "oj": "L_202602266",
+   "fetchedAt": "2026-10-18T15:01:03.661009Z",
+   "url": "https://publications.europa.eu/resource/cellar/77ea6a99-c76d-11f1-a77b-01aa75ed71a1.0006.03/DOC_1",
+   "status": 200,
+   "contentType": "application/xhtml+xml;charset=UTF-8",
+   "sha256": "c61183b3b45dc08aa08876b35845c6440c7c2ba0ac5a951ab3e2fecab3ef402f",
+   "bytes": 128731
+  },
+  {
+   "name": "cellar-L_202602317",
+   "oj": "L_202602317",
+   "fetchedAt": "2026-10-18T15:01:04.063169Z",
+   "url": "https://publications.europa.eu/resource/cellar/ec398642-c7a5-11f1-a77b-01aa75ed71a1.0006.03/DOC_1",
+   "status": 200,
+   "contentType": "application/xhtml+xml;charset=UTF-8",
+   "sha256": "7d8f7ce91cd2f88c862f05cd774b786c93b11b5170589577b19a735ef5a9d91c",
+   "bytes": 8055
+  },
+  {
+   "name": "cellar-L_202602312",
+   "oj": "L_202602312",
+   "fetchedAt": "2026-10-18T15:01:04.437458Z",
+   "url": "https://publications.europa.eu/resource/cellar/4a56ce50-c7a5-11f1-a77b-01aa75ed71a1.0006.03/DOC_1",
+   "status": 200,
+   "contentType": "application/xhtml+xml;charset=UTF-8",
+   "sha256": "43fda4194b75a054bfe2ea5769dc3c9b7644cac46df43860d843bdac06fff480",
+   "bytes": 8283
+  },
+  {
+   "name": "cellar-L_202602253",
+   "oj": "L_202602253",
+   "fetchedAt": "2026-10-18T15:01:04.795716Z",
+   "url": "https://publications.europa.eu/resource/cellar/a1829c1d-c76d-11f1-a77b-01aa75ed71a1.0006.03/DOC_1",
+   "status": 200,
+   "contentType": "application/xhtml+xml;charset=UTF-8",
+   "sha256": "4b2ffae0a5eb725a961515786da19706050169767a13df16696b2a9fd1a9c290",
+   "bytes": 15551
+  },
+  {
+   "name": "cellar-L_202602274",
+   "oj": "L_202602274",
+   "fetchedAt": "2026-10-18T15:01:05.177047Z",
+   "url": "https://publications.europa.eu/resource/cellar/05805dc1-c76c-11f1-a77b-01aa75ed71a1.0006.03/DOC_1",
+   "status": 200,
+   "contentType": "application/xhtml+xml;charset=UTF-8",
+   "sha256": "fd86b2160326d3af7f438e80abcb0649e87eac21dafb9bdc03175e60cc453961",
+   "bytes": 13455
+  },
+  {
+   "name": "cellar-L_202602275",
+   "oj": "L_202602275",
+   "fetchedAt": "2026-10-18T15:01:05.564349Z",
+   "url": "https://publications.europa.eu/resource/cellar/23e87c26-c76c-11f1-a77b-01aa75ed71a1.0006.03/DOC_1",
+   "status": 200,
+   "contentType": "application/xhtml+xml;charset=UTF-8",
+   "sha256": "424f87fc2e4626bbd16c90d8b7d1bcf55a38b805f307d303b75e2dc30a5b4c95",
+   "bytes": 28634
+  },
+  {
+   "name": "cellar-L_202602282",
+   "oj": "L_202602282",
+   "fetchedAt": "2026-10-18T15:01:05.951059Z",
+   "url": "https://publications.europa.eu/resource/cellar/9b9f752d-c76c-11f1-a77b-01aa75ed71a1.0006.03/DOC_1",
+   "status": 200,
+   "contentType": "application/xhtml+xml;charset=UTF-8",
+   "sha256": "b7d0523c23e21c69631ac5033d0272af11e55a72c72bb981ccd71228540703d5",
+   "bytes": 131330
+  },
+  {
+   "name": "cellar-L_202602280",
+   "oj": "L_202602280",
+   "fetchedAt": "2026-10-18T15:01:06.371577Z",
+   "url": "https://publications.europa.eu/resource/cellar/dbec2e15-c830-11f1-a77b-01aa75ed71a1.0006.03/DOC_1",
+   "status": 200,
+   "contentType": "application/xhtml+xml;charset=UTF-8",
+   "sha256": "b3b4b761f695d686184e6b2f1c3e7addf40ea36e69fe10f267aedd9ecae3db84",
+   "bytes": 414389
+  },
+  {
+   "name": "cellar-L_202602333",
+   "oj": "L_202602333",
+   "fetchedAt": "2026-10-18T15:01:06.805656Z",
+   "url": "https://publications.europa.eu/resource/cellar/a8ba0ed1-c8a9-11f1-a77b-01aa75ed71a1.0006.03/DOC_1",
+   "status": 200,
+   "contentType": "application/xhtml+xml;charset=UTF-8",
+   "sha256": "3703fd49bf30856b2784a910811d6784d51105e08c00df22d965e9f9f44afa07",
+   "bytes": 38755
+  },
+  {
+   "name": "cellar-L_202602228",
+   "oj": "L_202602228",
+   "fetchedAt": "2026-10-18T15:01:07.184555Z",
+   "url": "https://publications.europa.eu/resource/cellar/2394c116-c831-11f1-a77b-01aa75ed71a1.0006.03/DOC_1",
+   "status": 200,
+   "contentType": "application/xhtml+xml;charset=UTF-8",
+   "sha256": "c5674f72cd2ad017062838da23af77522741562d02332c3fedac358fd836be50",
+   "bytes": 467340
+  },
+  {
+   "name": "cellar-L_202602290",
+   "oj": "L_202602290",
+   "fetchedAt": "2026-10-18T15:01:07.646242Z",
+   "url": "https://publications.europa.eu/resource/cellar/23dfacc7-c831-11f1-a77b-01aa75ed71a1.0006.03/DOC_1",
+   "status": 200,
+   "contentType": "application/xhtml+xml;charset=UTF-8",
+   "sha256": "24b4693f319b542aa9c121c9cab7d3b6ef5bbf71dbc70a8ca5def0d50a00a31f",
+   "bytes": 8000
+  },
+  {
+   "name": "cellar-L_202602293",
+   "oj": "L_202602293",
+   "fetchedAt": "2026-10-18T15:01:08.064106Z",
+   "url": "https://publications.europa.eu/resource/cellar/d441e64d-c830-11f1-a77b-01aa75ed71a1.0006.03/DOC_1",
+   "status": 200,
+   "contentType": "application/xhtml+xml;charset=UTF-8",
+   "sha256": "9f6434e44f9eaeb4116d2110fb1e03839b1619a91f29cadd7e7a78c001f43036",
+   "bytes": 11824
+  },
+  {
+   "name": "cellar-L_202602301",
+   "oj": "L_202602301",
+   "fetchedAt": "2026-10-18T15:01:08.464937Z",
+   "url": "https://publications.europa.eu/resource/cellar/d4ce20bf-c830-11f1-a77b-01aa75ed71a1.0006.03/DOC_1",
+   "status": 200,
+   "contentType": "application/xhtml+xml;charset=UTF-8",
+   "sha256": "85508170c149a7b93125ce7f1b09c850da6ba095bdcb7e56a0b1b424f6ebdf71",
+   "bytes": 8803
+  },
+  {
+   "name": "cellar-L_202602302",
+   "oj": "L_202602302",
+   "fetchedAt": "2026-10-18T15:01:08.852052Z",
+   "url": "https://publications.europa.eu/resource/cellar/d499f15e-c830-11f1-a77b-01aa75ed71a1.0006.03/DOC_1",
+   "status": 200,
+   "contentType": "application/xhtml+xml;charset=UTF-8",
+   "sha256": "68743956804271665dfd22aadf31bdc6ebe55a3f8e372e383dca00c2a9284675",
+   "bytes": 8753
+  },
+  {
+   "name": "cellar-L_202602307",
+   "oj": "L_202602307",
+   "fetchedAt": "2026-10-18T15:01:09.235512Z",
+   "url": "https://publications.europa.eu/resource/cellar/db1dba84-c830-11f1-a77b-01aa75ed71a1.0006.03/DOC_1",
+   "status": 200,
+   "contentType": "application/xhtml+xml;charset=UTF-8",
+   "sha256": "ab1c58ca5c5c562c148435eaa0cd0274232ff643753fe33832e609830e19eebd",
+   "bytes": 7817
+  },
+  {
+   "name": "cellar-L_202602315",
+   "oj": "L_202602315",
+   "fetchedAt": "2026-10-18T15:01:09.609331Z",
+   "url": "https://publications.europa.eu/resource/cellar/cd897897-c830-11f1-a77b-01aa75ed71a1.0006.03/DOC_1",
+   "status": 200,
+   "contentType": "application/xhtml+xml;charset=UTF-8",
+   "sha256": "f51aeb9f302b5175c375775bebaab91680a3db2db238f62f0d34a9ef8212c294",
+   "bytes": 10655
+  },
+  {
+   "name": "cellar-L_202602332",
+   "oj": "L_202602332",
+   "fetchedAt": "2026-10-18T15:01:09.966825Z",
+   "url": "https://publications.europa.eu/resource/cellar/c4ca6c6f-c8a7-11f1-a77b-01aa75ed71a1.0006.03/DOC_1",
+   "status": 200,
+   "contentType": "application/xhtml+xml;charset=UTF-8",
+   "sha256": "a8130636c4dda41a99336622968f44e4a9fcf68ec9d8efa3f80732c4df51e4db",
+   "bytes": 38457
+  },
+  {
+   "name": "cellar-L_202602284",
+   "oj": "L_202602284",
+   "fetchedAt": "2026-10-18T15:01:10.380629Z",
+   "url": "https://publications.europa.eu/resource/cellar/ec6fd017-c877-11f1-a77b-01aa75ed71a1.0006.03/DOC_1",
+   "status": 200,
+   "contentType": "application/xhtml+xml;charset=UTF-8",
+   "sha256": "4e4229189896f2d1d6ccaf2512c8e23c6023b0d3c09f9141ab62ab4cbfd274a2",
+   "bytes": 25565
+  },
+  {
+   "name": "cellar-L_202602289",
+   "oj": "L_202602289",
+   "fetchedAt": "2026-10-18T15:01:10.771435Z",
+   "url": "https://publications.europa.eu/resource/cellar/6a8b0ca5-c8fb-11f1-97f3-01aa75ed71a1.0006.03/DOC_1",
+   "status": 200,
+   "contentType": "application/xhtml+xml;charset=UTF-8",
+   "sha256": "a8ac9834a7a13300400f20b4fed260c5d024ab06e129e0b5fdaa06fbd4fda5f0",
+   "bytes": 617666
+  },
+  {
+   "name": "cellar-L_202602299",
+   "oj": "L_202602299",
+   "fetchedAt": "2026-10-18T15:01:11.227598Z",
+   "url": "https://publications.europa.eu/resource/cellar/49a962c2-c8fb-11f1-97f3-01aa75ed71a1.0006.03/DOC_1",
+   "status": 200,
+   "contentType": "application/xhtml+xml;charset=UTF-8",
+   "sha256": "7ca5e435d56b4a6ba75a6bad3237b59252fd93c802ade1aecef983001f86b84d",
+   "bytes": 372701
+  },
+  {
+   "name": "cellar-L_202602270",
+   "oj": "L_202602270",
+   "fetchedAt": "2026-10-18T15:01:11.651892Z",
+   "url": "https://publications.europa.eu/resource/cellar/7c105ed7-c8fb-11f1-97f3-01aa75ed71a1.0006.03/DOC_1",
+   "status": 200,
+   "contentType": "application/xhtml+xml;charset=UTF-8",
+   "sha256": "29c9cd82e180613dbb29e4ef47225366d6db9fb267d288f480cf380614379c56",
+   "bytes": 19943
+  },
+  {
+   "name": "cellar-L_202602320",
+   "oj": "L_202602320",
+   "fetchedAt": "2026-10-18T15:01:12.025601Z",
+   "url": "https://publications.europa.eu/resource/cellar/c696bd5d-c8fb-11f1-97f3-01aa75ed71a1.0006.03/DOC_1",
+   "status": 200,
+   "contentType": "application/xhtml+xml;charset=UTF-8",
+   "sha256": "cf53d48e5a1a5fa72ce9aa54a570d920847941b36ffbdb61b77025d866b82bbd",
+   "bytes": 10401
+  },
+  {
+   "name": "cellar-L_202602331",
+   "oj": "L_202602331",
+   "fetchedAt": "2026-10-18T15:01:12.411392Z",
+   "url": "https://publications.europa.eu/resource/cellar/233ea36c-c8fb-11f1-97f3-01aa75ed71a1.0006.03/DOC_1",
+   "status": 200,
+   "contentType": "application/xhtml+xml;charset=UTF-8",
+   "sha256": "bd85a7993124d7cf7738b6fca105ea7d98e61469d8aa6d66c0d14cb138244281",
+   "bytes": 7171
+  },
+  {
+   "name": "cellar-L_202602260",
+   "oj": "L_202602260",
+   "fetchedAt": "2026-10-18T15:01:12.788813Z",
+   "url": "https://publications.europa.eu/resource/cellar/2d989727-c8fa-11f1-97f3-01aa75ed71a1.0006.03/DOC_1",
+   "status": 200,
+   "contentType": "application/xhtml+xml;charset=UTF-8",
+   "sha256": "5121bd5bd834161ef050b6e59a752dc251cc75f29a829ee325d258d6ef6790fe",
+   "bytes": 604231
+  },
+  {
+   "name": "cellar-L_202602308",
+   "oj": "L_202602308",
+   "fetchedAt": "2026-10-18T15:01:13.216665Z",
+   "url": "https://publications.europa.eu/resource/cellar/98bf8299-c8fb-11f1-97f3-01aa75ed71a1.0006.03/DOC_1",
+   "status": 200,
+   "contentType": "application/xhtml+xml;charset=UTF-8",
+   "sha256": "7a062c6afc6a6f35a250447b62a8b0d1c8155f3a762caca6771cbf6db03442f8",
+   "bytes": 13311
+  },
+  {
+   "name": "cellar-L_202602316",
+   "oj": "L_202602316",
+   "fetchedAt": "2026-10-18T15:01:13.597594Z",
+   "url": "https://publications.europa.eu/resource/cellar/3f265881-c8fb-11f1-97f3-01aa75ed71a1.0006.03/DOC_1",
+   "status": 200,
+   "contentType": "application/xhtml+xml;charset=UTF-8",
+   "sha256": "e572ec413394e1888962d10ece2b20e4f6993ecc5010bd5e06b795d7c84576e7",
+   "bytes": 30848
+  },
+  {
+   "name": "cellar-L_202602321",
+   "oj": "L_202602321",
+   "fetchedAt": "2026-10-18T15:01:13.952375Z",
+   "url": "https://publications.europa.eu/resource/cellar/aa1b2cbb-c8fb-11f1-97f3-01aa75ed71a1.0006.03/DOC_1",
+   "status": 200,
+   "contentType": "application/xhtml+xml;charset=UTF-8",
+   "sha256": "af56196eeef3f2c84398244e8cc8ee1e1174f945ba44cc219d56130f28827902",
+   "bytes": 75273
+  },
+  {
+   "name": "cellar-celex-32008L0115",
+   "oj": "celex/32008L0115",
+   "fetchedAt": "2026-10-18T15:03:05.330476Z",
+   "url": "https://publications.europa.eu/resource/cellar/aa906ab4-6639-4882-8a7e-90176cd8e7d6.0006.02/DOC_1",
+   "status": 200,
+   "contentType": "application/xhtml+xml;charset=UTF-8",
+   "sha256": "2586917f244a7b7d480328fe2cb45cbac97220f4d1d1966d8e6ae589a3c342a3",
+   "bytes": 106438
+  },
+  {
+   "name": "cellar-celex-32025L2205",
+   "oj": "celex/32025L2205",
+   "fetchedAt": "2026-10-18T15:05:59.403915Z",
+   "url": "https://publications.europa.eu/resource/cellar/5ae85a87-b9ed-11f0-b37f-01aa75ed71a1.0006.03/DOC_1",
+   "status": 200,
+   "contentType": "application/xhtml+xml;charset=UTF-8",
+   "sha256": "93af01d2371346da334ac7734d6d753727dab731b78442c42221b9d3865af02a",
+   "bytes": 1054171
+  },
+  {
+   "name": "daily-de-20261009-bt-4",
+   "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw42-de-staatsgold-1223572",
+   "fetchedAt": "2026-10-18T15:07:00.561897Z",
+   "status": 200,
+   "contentType": "text/html;charset=UTF-8",
+   "finalUrl": "https://www.bundestag.de/dokumente/textarchiv/2026/kw42-de-staatsgold-1223572",
+   "sha256": "8c9bfa6d8f60cf8a2eef3990d55651566e2e02712a4fd27dec8efe2cf9f2068d",
+   "bytes": 312960
+  },
+  {
+   "name": "daily-de-20261009-bt-6",
+   "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw42-de-ovaherero-nama-1223576",
+   "fetchedAt": "2026-10-18T15:07:01.630265Z",
+   "status": 200,
+   "contentType": "text/html;charset=UTF-8",
+   "finalUrl": "https://www.bundestag.de/dokumente/textarchiv/2026/kw42-de-ovaherero-nama-1223576",
+   "sha256": "303687098cba55dd3b04f336d828cce6fadb97fadb35ba8a1de55a322b1a3e97",
+   "bytes": 321290
+  },
+  {
+   "name": "daily-de-20261009-bt-10",
+   "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw42-de-familien-1223584",
+   "fetchedAt": "2026-10-18T15:07:01.777835Z",
+   "status": 200,
+   "contentType": "text/html;charset=UTF-8",
+   "finalUrl": "https://www.bundestag.de/dokumente/textarchiv/2026/kw42-de-familien-1223584",
+   "sha256": "675febef876772ad4ba6d665d1fb36c538a3eafe6fd04210cd52a8a649b0623e",
+   "bytes": 367307
+  },
+  {
+   "name": "daily-de-20261009-bt-14",
+   "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw42-de-erdgas-1223588",
+   "fetchedAt": "2026-10-18T15:07:01.924071Z",
+   "status": 200,
+   "contentType": "text/html;charset=UTF-8",
+   "finalUrl": "https://www.bundestag.de/dokumente/textarchiv/2026/kw42-de-erdgas-1223588",
+   "sha256": "3aefa53cc96f5789b1c14f99931304030e17cb2a0720b5e8e095b8a4e38a5e40",
+   "bytes": 309640
+  },
+  {
+   "name": "daily-de-20261009-bt-17",
+   "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw42-de-pflege-1223594",
+   "fetchedAt": "2026-10-18T15:07:02.071931Z",
+   "status": 200,
+   "contentType": "text/html;charset=UTF-8",
+   "finalUrl": "https://www.bundestag.de/dokumente/textarchiv/2026/kw42-de-pflege-1223594",
+   "sha256": "36b7aa85603364c820d4b5004aece108253ced16178e05dc480e4fb9726164af",
+   "bytes": 333842
+  },
+  {
+   "name": "daily-de-20261009-bt-19",
+   "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw42-de-handelsschutz-1223598",
+   "fetchedAt": "2026-10-18T15:07:02.837649Z",
+   "status": 200,
+   "contentType": "text/html;charset=UTF-8",
+   "finalUrl": "https://www.bundestag.de/dokumente/textarchiv/2026/kw42-de-handelsschutz-1223598",
+   "sha256": "53461f1ec1de5069ecaa802a5e690a99678bf76bb28a52b209c6287c57a105ff",
+   "bytes": 255067
+  },
+  {
+   "name": "daily-de-20261009-bt-21",
+   "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw42-de-verlagspreis-1223602",
+   "fetchedAt": "2026-10-18T15:07:03.039953Z",
+   "status": 200,
+   "contentType": "text/html;charset=UTF-8",
+   "finalUrl": "https://www.bundestag.de/dokumente/textarchiv/2026/kw42-de-verlagspreis-1223602",
+   "sha256": "c42515b3a525b41179e80ba236ee4bba57de4f030bfef1f643f784cad9200f95",
+   "bytes": 296855
+  },
+  {
+   "name": "daily-de-20261009-bt-34",
+   "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw42-de-biodiversitaet-1223632",
+   "fetchedAt": "2026-10-18T15:07:03.282709Z",
+   "status": 200,
+   "contentType": "text/html;charset=UTF-8",
+   "finalUrl": "https://www.bundestag.de/dokumente/textarchiv/2026/kw42-de-biodiversitaet-1223632",
+   "sha256": "82d1b880567c990ba5e856728aa080c3c63c3d83f5e60e59ec46b10d443a1d38",
+   "bytes": 308363
+  },
+  {
+   "name": "daily-de-20261009-bt-36",
+   "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw42-de-technologieoffenheit-1223636",
+   "fetchedAt": "2026-10-18T15:07:03.425740Z",
+   "status": 200,
+   "contentType": "text/html;charset=UTF-8",
+   "finalUrl": "https://www.bundestag.de/dokumente/textarchiv/2026/kw42-de-technologieoffenheit-1223636",
+   "sha256": "cbc8657606722cc634dad7b160aa2ae40740db499151d870bf6f7e4a430e585a",
+   "bytes": 329449
+  },
+  {
+   "name": "daily-de-20261009-bt-44",
+   "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-de-migrationswende-1222454",
+   "fetchedAt": "2026-10-18T15:07:03.585343Z",
+   "status": 200,
+   "contentType": "text/html;charset=UTF-8",
+   "finalUrl": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-de-migrationswende-1222454",
+   "sha256": "bd7d67a6c51f207294b8d51ccb197731da08d5f2f04e72e8a18cd23ed867ed2f",
+   "bytes": 374914
+  },
+  {
+   "name": "daily-de-20261009-bt-60",
+   "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-de-buergerrat-1222760",
+   "fetchedAt": "2026-10-18T15:07:04.310635Z",
+   "status": 200,
+   "contentType": "text/html;charset=UTF-8",
+   "finalUrl": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-de-buergerrat-1222760",
+   "sha256": "03fa3d1d79d3f93cd4669a9dd1032fdb1b3141c40a6f7f7bf036f80e725e0077",
+   "bytes": 295506
+  },
+  {
+   "name": "daily-de-20261009-bt-64",
+   "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-de-lebensmittelversorgung-1217542",
+   "fetchedAt": "2026-10-18T15:07:04.553615Z",
+   "status": 200,
+   "contentType": "text/html;charset=UTF-8",
+   "finalUrl": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-de-lebensmittelversorgung-1217542",
+   "sha256": "73345e6692bb0ea31673522767caf6151b8adbd77aa0979bed1f5e24c0786d44",
+   "bytes": 364452
+  },
+  {
+   "name": "daily-de-20261009-bt-66",
+   "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-de-bauen-wohnen-1217538",
+   "fetchedAt": "2026-10-18T15:07:04.701015Z",
+   "status": 200,
+   "contentType": "text/html;charset=UTF-8",
+   "finalUrl": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-de-bauen-wohnen-1217538",
+   "sha256": "d2449076c5c5e941cf810c28b4427521ab200f4ecf5dbc51a57a05824f4e94e7",
+   "bytes": 308607
+  },
+  {
+   "name": "daily-de-20261009-bt-114",
+   "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-de-energieversorgung-1217572",
+   "fetchedAt": "2026-10-18T15:07:04.984311Z",
+   "status": 200,
+   "contentType": "text/html;charset=UTF-8",
+   "finalUrl": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-de-energieversorgung-1217572",
+   "sha256": "7a9b23db2c72c4a10e400d6591822190f375b001c92a3346f0fa7ef51203c786",
+   "bytes": 306570
+  },
+  {
+   "name": "daily-de-20261009-bt-81",
+   "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-de-erinnerungskultur-1217518",
+   "fetchedAt": "2026-10-18T15:07:05.245544Z",
+   "status": 200,
+   "contentType": "text/html;charset=UTF-8",
+   "finalUrl": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-de-erinnerungskultur-1217518",
+   "sha256": "c31e9885a7bee582b2266f97e7f3bf8be87440ec75eb0b84ee9bb3cb34a2d97a",
+   "bytes": 309987
+  },
+  {
+   "name": "daily-de-20261009-bt-83",
+   "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-de-organisierte-kriminalitaet-1217514",
+   "fetchedAt": "2026-10-18T15:07:05.874120Z",
+   "status": 200,
+   "contentType": "text/html;charset=UTF-8",
+   "finalUrl": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-de-organisierte-kriminalitaet-1217514",
+   "sha256": "c23a9a2f5e0d386bea5000c91c9fd789b9af9334b16d33b1aea3cfe3b127979c",
+   "bytes": 313006
+  },
+  {
+   "name": "de-20261015-source-258",
+   "url": "https://www.hamburg.de/politik-und-verwaltung/behoerden/finanzbehoerde/aktuelles/senat-setzt-sich-fuer-gerechte-reform-der-verschonungsregelungen-ein-1228300",
+   "fetchedAt": "2026-10-18T15:07:06.143652Z",
+   "status": 200,
+   "contentType": "text/html;charset=UTF-8",
+   "finalUrl": "https://www.hamburg.de/politik-und-verwaltung/behoerden/finanzbehoerde/aktuelles/senat-setzt-sich-fuer-gerechte-reform-der-verschonungsregelungen-ein-1228300",
+   "sha256": "7fecd19f33b5d49c27eb7f568cca275ced174f4d9d7d9656f50ac32a498b621b",
+   "bytes": 262403
+  },
+  {
+   "name": "br-drs-598",
+   "url": "https://www.bundesrat.de/SharedDocs/drucksachen/2026/0501-0600/598-26.pdf?__blob=publicationFile&v=1",
+   "fetchedAt": "2026-10-18T15:07:06.802374Z",
+   "status": 200,
+   "contentType": "application/pdf",
+   "finalUrl": "https://www.bundesrat.de/SharedDocs/drucksachen/2026/0501-0600/598-26.pdf?__blob=publicationFile&v=1",
+   "sha256": "9bce239b020bc589246b36794238f2dac35e6391e87bd62ad8fa91f85ff7d01b",
+   "bytes": 1313716
+  },
+  {
+   "name": "br-drs-599",
+   "url": "https://www.bundesrat.de/SharedDocs/drucksachen/2026/0501-0600/599-26.pdf?__blob=publicationFile&v=1",
+   "fetchedAt": "2026-10-18T15:07:07.988098Z",
+   "status": 200,
+   "contentType": "application/pdf",
+   "finalUrl": "https://www.bundesrat.de/SharedDocs/drucksachen/2026/0501-0600/599-26.pdf?__blob=publicationFile&v=1",
+   "sha256": "cfb19671857a5a04e378af987a72cb2bbc9629bff95e24f0d9423847a5be1637",
+   "bytes": 1409994
+  },
+  {
+   "name": "br-drs-600",
+   "url": "https://www.bundesrat.de/SharedDocs/drucksachen/2026/0501-0600/600-26.pdf?__blob=publicationFile&v=1",
+   "fetchedAt": "2026-10-18T15:07:08.176352Z",
+   "status": 200,
+   "contentType": "application/pdf",
+   "finalUrl": "https://www.bundesrat.de/SharedDocs/drucksachen/2026/0501-0600/600-26.pdf?__blob=publicationFile&v=1",
+   "sha256": "eaeb15a6f1c6f96e1ac66c00ac6cbbda18dac082255cee60bf6b2fb9ed9e4db9",
+   "bytes": 1439379
+  },
+  {
+   "name": "br-drs-601",
+   "url": "https://www.bundesrat.de/SharedDocs/drucksachen/2026/0501-0600/601-26.pdf?__blob=publicationFile&v=1",
+   "fetchedAt": "2026-10-18T15:07:08.376372Z",
+   "error": "<HTTPError 404: 'Not Found'>",
+   "status": 404
+  },
+  {
+   "name": "br-drs-602",
+   "url": "https://www.bundesrat.de/SharedDocs/drucksachen/2026/0501-0600/602-26.pdf?__blob=publicationFile&v=1",
+   "fetchedAt": "2026-10-18T15:07:08.445503Z",
+   "error": "<HTTPError 404: 'Not Found'>",
+   "status": 404
+  },
+  {
+   "name": "cons-pharma",
+   "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/09/28/pharma-package-council-adopts-new-rules-for-a-fairer-and-more-competitive-eu-pharmaceutical-sector/pdf/",
+   "fetchedAt": "2026-10-18T15:16:02.722698Z",
+   "status": 200,
+   "contentType": "application/pdf",
+   "finalUrl": "https://www.consilium.europa.eu/en/press/press-releases/2026/09/28/pharma-package-council-adopts-new-rules-for-a-fairer-and-more-competitive-eu-pharmaceutical-sector/pdf/",
+   "sha256": "3035cc4f6d535b770a576df189ef1b37a4bc3926af0259a27cb1d23f42b91ece",
+   "bytes": 47911
+  }
+ ],
+ "renders": [
+  {
+   "kind": "rendered",
+   "url": "https://eur-lex.europa.eu/oj/daily-view/C-series/default.html?ojDate=10102026",
+   "sha256": "2cefe97ead2128a45ece6103474323c5f4f0ec2355c8175c8326c2e5850aca4a",
+   "bytes": 116448,
+   "note": "Rendered DOM via npm run data:render; discovery evidence only, not server bytes."
+  },
+  {
+   "kind": "rendered",
+   "url": "https://eur-lex.europa.eu/oj/daily-view/C-series/default.html?ojDate=11102026",
+   "sha256": "fbb67fe20bf62a76d6c55450faffed69401ead8f53e2253e030116d987190f8a",
+   "bytes": 116447,
+   "note": "Rendered DOM via npm run data:render; discovery evidence only, not server bytes."
+  },
+  {
+   "kind": "rendered",
+   "url": "https://eur-lex.europa.eu/oj/daily-view/C-series/default.html?ojDate=12102026",
+   "sha256": "42e8a3dcebda7fdd89ffdaa19ad01609f7b4e37ac20e7992b9b3b61ecfd2c68f",
+   "bytes": 149056,
+   "note": "Rendered DOM via npm run data:render; discovery evidence only, not server bytes."
+  },
+  {
+   "kind": "rendered",
+   "url": "https://eur-lex.europa.eu/oj/daily-view/C-series/default.html?ojDate=13102026",
+   "sha256": "085fbbf9f41ce518fc4287ea83a5a36bca520e2ad585287a2024ada0acfcb101",
+   "bytes": 119091,
+   "note": "Rendered DOM via npm run data:render; discovery evidence only, not server bytes."
+  },
+  {
+   "kind": "rendered",
+   "url": "https://eur-lex.europa.eu/oj/daily-view/C-series/default.html?ojDate=14102026",
+   "sha256": "0b9d723f3311675360e2d4b914788b777ad6a72e504deea2b2ddcff6ed82b945",
+   "bytes": 118448,
+   "note": "Rendered DOM via npm run data:render; discovery evidence only, not server bytes."
+  },
+  {
+   "kind": "rendered",
+   "url": "https://eur-lex.europa.eu/oj/daily-view/C-series/default.html?ojDate=15102026",
+   "sha256": "6e08f5bb2a747a5ccb1a6585c35a4638834a9b5bf2fc9d7f71995481a0db8d7f",
+   "bytes": 108512,
+   "note": "Rendered DOM via npm run data:render; discovery evidence only, not server bytes."
+  },
+  {
+   "kind": "rendered",
+   "url": "https://eur-lex.europa.eu/oj/daily-view/C-series/default.html?ojDate=16102026",
+   "sha256": "933baed982ae2073d1d25162ecfd7127a629f3e4a49d500a1963a0fb2b78b4e4",
+   "bytes": 124432,
+   "note": "Rendered DOM via npm run data:render; discovery evidence only, not server bytes."
+  },
+  {
+   "kind": "rendered",
+   "url": "https://eur-lex.europa.eu/oj/daily-view/C-series/default.html?ojDate=17102026",
+   "sha256": "c78542613b2d26e81674f6942480617b2060f02a288bf0b3e08ada939aecb1d6",
+   "bytes": 124430,
+   "note": "Rendered DOM via npm run data:render; discovery evidence only, not server bytes."
+  },
+  {
+   "kind": "rendered",
+   "url": "https://eur-lex.europa.eu/oj/daily-view/L-series/default.html?ojDate=10102026",
+   "sha256": "d10ea6b3ff645d9eb643b8d4b52d5ad48f40511271808091f4032de07291b53b",
+   "bytes": 112057,
+   "note": "Rendered DOM via npm run data:render; discovery evidence only, not server bytes."
+  },
+  {
+   "kind": "rendered",
+   "url": "https://eur-lex.europa.eu/oj/daily-view/L-series/default.html?ojDate=11102026",
+   "sha256": "a4d00f40d6b1d69489e71f3f476addc3a7cbcb07038b6720bd2f499bfb40d9b1",
+   "bytes": 112152,
+   "note": "Rendered DOM via npm run data:render; discovery evidence only, not server bytes."
+  },
+  {
+   "kind": "rendered",
+   "url": "https://eur-lex.europa.eu/oj/daily-view/L-series/default.html?ojDate=12102026",
+   "sha256": "52049afb33d3c0a2e30ce107368d95d3c4aa34a2a4d799679fbba3b1e117f862",
+   "bytes": 113480,
+   "note": "Rendered DOM via npm run data:render; discovery evidence only, not server bytes."
+  },
+  {
+   "kind": "rendered",
+   "url": "https://eur-lex.europa.eu/oj/daily-view/L-series/default.html?ojDate=13102026",
+   "sha256": "759878d31501732c4392f56ef685e4a6a6dbde0fe777a50e333778c320f768dc",
+   "bytes": 117701,
+   "note": "Rendered DOM via npm run data:render; discovery evidence only, not server bytes."
+  },
+  {
+   "kind": "rendered",
+   "url": "https://eur-lex.europa.eu/oj/daily-view/L-series/default.html?ojDate=14102026",
+   "sha256": "dc8221a22178cab8477a7d24b76601e2cf66fd15a9b014f305750816f9851963",
+   "bytes": 120113,
+   "note": "Rendered DOM via npm run data:render; discovery evidence only, not server bytes."
+  },
+  {
+   "kind": "rendered",
+   "url": "https://eur-lex.europa.eu/oj/daily-view/L-series/default.html?ojDate=15102026",
+   "sha256": "974b023f44a80f4ed0ea4930c1850ddcc6fe3e99d4eb7b3cb2cd41d42b15e3a7",
+   "bytes": 117691,
+   "note": "Rendered DOM via npm run data:render; discovery evidence only, not server bytes."
+  },
+  {
+   "kind": "rendered",
+   "url": "https://eur-lex.europa.eu/oj/daily-view/L-series/default.html?ojDate=16102026",
+   "sha256": "b6c9c5cdd590b5b6ee7b55b17419a9f40093ce85ef235b8e2491651167747b7b",
+   "bytes": 113635,
+   "note": "Rendered DOM via npm run data:render; discovery evidence only, not server bytes."
+  },
+  {
+   "kind": "rendered",
+   "url": "https://eur-lex.europa.eu/oj/daily-view/L-series/default.html?ojDate=17102026",
+   "sha256": "3f49c47c6b0e6a123f12b02025a52eb804ce88c4940f9f4488e6a96da30c6df7",
+   "bytes": 113633,
+   "note": "Rendered DOM via npm run data:render; discovery evidence only, not server bytes."
+  }
+ ]
+}

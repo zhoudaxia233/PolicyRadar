@@ -1775,6 +1775,11 @@
         {
           "region": "EU",
           "officialId": "SWD(2026) 298 final"
+        },
+        {
+          "region": "EU",
+          "officialId": "OJ:L_202602260",
+          "appliesFromExport": "2026-10-18T15:15:34.130Z"
         }
       ]
     },
@@ -4523,7 +4528,13 @@
           "officialId": "ST 9891/26"
         }
       ],
-      "appliesFromExport": "2026-10-14T19:17:19.749Z"
+      "appliesFromExport": "2026-10-14T19:17:19.749Z",
+      "explanations": [
+        {
+          "id": "eu-misp-casp-esma-supervision",
+          "appliesFromExport": "2026-10-18T15:15:34.130Z"
+        }
+      ]
     },
     {
       "id": "de-hb-police-appearance-2026",
@@ -4753,6 +4764,224 @@
         "it-school-decree-170-2026-foreign-pupils"
       ],
       "appliesFromExport": "2026-10-18T14:43:13.562Z"
+    },
+    {
+      "id": "eu-russia-military-industrial-listing-2026-10-acts",
+      "title": [
+        "乌克兰领土完整制裁：新增826个俄军工实体和743人",
+        "Ukraine integrity sanctions: 826 Russian military-industrial entities and 743 people added"
+      ],
+      "basis": "The Council decision OJ:L_202602279 and the regulation OJ:L_202602281 implement the same listing or measure under one sanctions regime and were adopted together; the regulation gives effect to the decision.",
+      "documents": [
+        {
+          "region": "EU",
+          "officialId": "OJ:L_202602279"
+        },
+        {
+          "region": "EU",
+          "officialId": "OJ:L_202602281"
+        }
+      ],
+      "appliesFromExport": "2026-10-18T15:15:34.130Z"
+    },
+    {
+      "id": "eu-occupied-territories-duma-listing-2026-10-acts",
+      "title": [
+        "乌克兰领土完整制裁：被占领土杜马选举相关77人",
+        "Ukraine integrity sanctions: 77 people linked to Duma elections in occupied territories"
+      ],
+      "basis": "The Council decision OJ:L_202602291 and the regulation OJ:L_202602292 implement the same listing or measure under one sanctions regime and were adopted together; the regulation gives effect to the decision.",
+      "documents": [
+        {
+          "region": "EU",
+          "officialId": "OJ:L_202602291"
+        },
+        {
+          "region": "EU",
+          "officialId": "OJ:L_202602292"
+        }
+      ],
+      "appliesFromExport": "2026-10-18T15:15:34.130Z"
+    },
+    {
+      "id": "eu-ukraine-integrity-listing-2026-10-15-acts",
+      "title": [
+        "乌克兰领土完整制裁：10月15日新增3人9个实体",
+        "Ukraine integrity sanctions: 3 people and 9 entities added on 15 October"
+      ],
+      "basis": "The Council decision OJ:L_202602332 and the regulation OJ:L_202602333 implement the same listing or measure under one sanctions regime and were adopted together; the regulation gives effect to the decision.",
+      "documents": [
+        {
+          "region": "EU",
+          "officialId": "OJ:L_202602332"
+        },
+        {
+          "region": "EU",
+          "officialId": "OJ:L_202602333"
+        }
+      ],
+      "appliesFromExport": "2026-10-18T15:15:34.130Z"
+    },
+    {
+      "id": "eu-dprk-sanctions-2026-10-acts",
+      "title": [
+        "朝鲜制裁：新增3人4个实体",
+        "North Korea sanctions: 3 people and 4 entities added"
+      ],
+      "basis": "The Council decision OJ:L_202602283 and the regulation OJ:L_202602278 implement the same listing or measure under one sanctions regime and were adopted together; the regulation gives effect to the decision.",
+      "documents": [
+        {
+          "region": "EU",
+          "officialId": "OJ:L_202602283"
+        },
+        {
+          "region": "EU",
+          "officialId": "OJ:L_202602278"
+        }
+      ],
+      "appliesFromExport": "2026-10-18T15:15:34.130Z"
+    },
+    {
+      "id": "eu-libya-inspection-authorisation-2026-acts",
+      "title": [
+        "利比亚制裁：删除公海检查授权条款",
+        "Libya sanctions: high-seas inspection provisions removed"
+      ],
+      "basis": "The Council decision OJ:L_202602242 and the regulation OJ:L_202602259 implement the same listing or measure under one sanctions regime and were adopted together; the regulation gives effect to the decision.",
+      "documents": [
+        {
+          "region": "EU",
+          "officialId": "OJ:L_202602242"
+        },
+        {
+          "region": "EU",
+          "officialId": "OJ:L_202602259"
+        }
+      ],
+      "appliesFromExport": "2026-10-18T15:15:34.130Z"
+    },
+    {
+      "id": "eu-nicaragua-sanctions-2027-acts",
+      "title": [
+        "尼加拉瓜制裁：延长并更新名单",
+        "Nicaragua sanctions: extension and list update"
+      ],
+      "basis": "The Council decision OJ:L_202602272 and the regulation OJ:L_202602271 implement the same listing or measure under one sanctions regime and were adopted together; the regulation gives effect to the decision.",
+      "documents": [
+        {
+          "region": "EU",
+          "officialId": "OJ:L_202602272"
+        },
+        {
+          "region": "EU",
+          "officialId": "OJ:L_202602271"
+        }
+      ],
+      "appliesFromExport": "2026-10-18T15:15:34.130Z"
+    },
+    {
+      "id": "eu-belarus-delisting-2026-10-acts",
+      "title": [
+        "白俄罗斯制裁：删除两人",
+        "Belarus sanctions: two people delisted"
+      ],
+      "basis": "The Council decision OJ:L_202602312 and the regulation OJ:L_202602313 implement the same listing or measure under one sanctions regime and were adopted together; the regulation gives effect to the decision.",
+      "documents": [
+        {
+          "region": "EU",
+          "officialId": "OJ:L_202602312"
+        },
+        {
+          "region": "EU",
+          "officialId": "OJ:L_202602313"
+        }
+      ],
+      "appliesFromExport": "2026-10-18T15:15:34.130Z"
+    },
+    {
+      "id": "eu-guinea-sanctions-2027-acts",
+      "title": [
+        "几内亚制裁：延长并删除两人",
+        "Guinea sanctions: extension and two delistings"
+      ],
+      "basis": "The Council decision OJ:L_202602317 and the regulation OJ:L_202602318 implement the same listing or measure under one sanctions regime and were adopted together; the regulation gives effect to the decision.",
+      "documents": [
+        {
+          "region": "EU",
+          "officialId": "OJ:L_202602317"
+        },
+        {
+          "region": "EU",
+          "officialId": "OJ:L_202602318"
+        }
+      ],
+      "appliesFromExport": "2026-10-18T15:15:34.130Z"
+    },
+    {
+      "id": "eu-return-regulation-2026",
+      "title": [
+        "欧盟遣返条例（EU）2026/2280",
+        "EU Return Regulation (EU) 2026/2280"
+      ],
+      "basis": "The Official Journal publication OJ:L_202602280 is the published text of the regulation adopted as PE-CONS 40/26, which the existing explanation describes. The explanation keeps its original identifier.",
+      "documents": [
+        {
+          "region": "EU",
+          "officialId": "OJ:L_202602280"
+        }
+      ],
+      "explanations": [
+        "eu-return-regulation-adoption-2026"
+      ],
+      "appliesFromExport": "2026-10-18T15:15:34.130Z"
+    },
+    {
+      "id": "eu-pharma-package-council-positions",
+      "title": [
+        "欧盟药品法改革：理事会一读立场",
+        "EU pharmaceutical reform: Council first-reading positions"
+      ],
+      "basis": "The four Official Journal documents are the Council’s first-reading positions 11/2026 (directive) and 12/2026 (regulation) and their statements of reasons, adopted on 28 September 2026 as announced in the press release that the existing explanation is keyed to. Positions are not adopted law.",
+      "documents": [
+        {
+          "region": "EU",
+          "officialId": "OJ:C_202605269"
+        },
+        {
+          "region": "EU",
+          "officialId": "OJ:C_202605270"
+        },
+        {
+          "region": "EU",
+          "officialId": "OJ:C_202605271"
+        },
+        {
+          "region": "EU",
+          "officialId": "OJ:C_202605272"
+        }
+      ],
+      "explanations": [
+        "eu-pharma-package-council-2026"
+      ],
+      "appliesFromExport": "2026-10-18T15:15:34.130Z"
+    },
+    {
+      "id": "eu-tax-haven-list-2026-10-conclusions",
+      "title": [
+        "欧盟不合作税收管辖区名单（2026年10月）",
+        "EU list of non-cooperative tax jurisdictions (October 2026)"
+      ],
+      "basis": "OJ:C_202605413 publishes the Council conclusions of 9 October 2026 approving the revised list that the existing explanation describes from the Commission news item; the Annex I list is identical.",
+      "documents": [
+        {
+          "region": "EU",
+          "officialId": "OJ:C_202605413"
+        }
+      ],
+      "explanations": [
+        "eu-tax-haven-list-2026-10"
+      ],
+      "appliesFromExport": "2026-10-18T15:15:34.130Z"
     }
   ]
 }

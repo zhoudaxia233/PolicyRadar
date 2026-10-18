@@ -1,0 +1,1873 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<!--@thymesVar id="m" type="it.senato.microservizi.schedeweb.model.leggi.SchedaUltimiDecretiLegge"-->
+
+
+    <head>
+        <title>Ultimi Decreti-Legge esaminati</title>
+        <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon"/>
+        <meta http-equiv="Content-Type" content="application/xhtml+xml; charset=utf-8"/>
+        <meta http-equiv="Content-Script-Type" content="text/javascript"/>
+        <meta name="description" content="Ultimi Decreti-Legge esaminati"/>
+        <meta name="canale" content="leggi"/>
+        
+        <meta name="dataUpdate" content="2026-10-17"/>
+        <link href="/css/style_parlamento.css" rel="stylesheet" type="text/css"/>
+        <link href="/css/style_parlamento_stampa.css" media="print" rel="stylesheet"
+              type="text/css"/>
+        <script type="text/javascript" src="/js/schede/schedeScript.js"></script>
+        <script src="/javascripts/jquery/jquery-1.5.1.min.js?1403785858" type="text/javascript"></script>
+<script src="/javascripts/jquery/jquery_noconflicts.js?1296649126" type="text/javascript"></script>
+<script src="/javascripts/prototype.js?1302774714" type="text/javascript"></script>
+<script src="/javascripts/builder.js?1302774714" type="text/javascript"></script>
+<script src="/javascripts/effects.js?1302774714" type="text/javascript"></script>
+<script src="/javascripts/dragdrop.js?1302774714" type="text/javascript"></script>
+<script src="/javascripts/controls.js?1302774714" type="text/javascript"></script>
+<script src="/javascripts/slider.js?1302774714" type="text/javascript"></script>
+<script src="/javascripts/lightbox.js?1444302056" type="text/javascript"></script>
+<script src="/javascripts/parlamento_analytics.js?1751383413" type="text/javascript"></script>
+<script src="/javascripts/cookiejar.js?1291303599" type="text/javascript"></script>
+<script src="/javascripts/xmanager_live.js?1372413000" type="text/javascript"></script>
+
+
+
+
+
+<!--[if IE]>
+  <link href="/application/xmanager/projects/parlamento/css/ie.css?1389882953" media="screen" rel="stylesheet" type="text/css" />
+<![endif]-->
+
+        <!-- proprietà aggiuntive della composizione storica -->
+        <meta name="area" />
+        <meta name="legislatura" />
+        <meta name="tipodoc" />
+        <meta name="iddoc" />
+    </head>
+
+<body id="elenchileggi" onload="setPopup();">
+
+        <!-- INIZIO FUORI STAMPA --> 
+<div class="hidden"> 
+	Vai direttamente a: 
+	<a href="#nav">barra di navigazione
+	</a>, 
+	<a href="#content">contenuto della pagina
+	</a>, 
+	<a href="home">Home
+	</a> 
+</div> 
+<!-- FINE FUORI STAMPA --> 
+<div class="header"> 
+	<div class="sxHeader"> 
+		<img src="/projects/parlamento/img/testata/imm_parlamento.gif" alt=""/> 
+	</div> 
+	<div class="logo"> 
+		<h1> 
+			<a href="/"> 
+				<strong>PARLAMENTO
+				</strong> ITALIANO
+			</a> 
+		</h1> 
+	</div> 
+	<div class="dxHeader"> 
+		<img src="/projects/parlamento/img/testata/logo_camera.gif" alt=""/> 
+		<img src="/projects/parlamento/img/testata/logo_senato.gif" alt=""/> 
+	</div> 
+</div> 
+<!-- INIZIO  NAV 1 LIV --> 
+<div class="hidden"> 
+	<h2>Sezioni del sito (navigazione principale)
+	</h2> 
+	<p> 
+		<a href="#navigator">salta il menu di navigazione principale
+		</a> 
+	</p> 
+</div> 
+<!-- fine testata **************************** --> 
+    <div id="tree_menu_7" class="menu_orizzontale">
+
+<ul>
+<li class="Decreti_Legislativi url OnClick"><span><a href="/Parlamento/519" class="Decreti_Legislativi url OnClick">Leggi</a></span></li>
+<li class="Parlamento_Seduta_Comune OnClick"><span><a href="http://parlamento18.camera.it/13" class="Parlamento_Seduta_Comune OnClick">Parlamento in seduta comune</a></span></li>
+<li class="Organismi_Bicamerali url OnClick"><span><a href="/Parlamento/7025?legislatura_numero=19" class="Organismi_Bicamerali url OnClick">Organismi bicamerali</a></span></li>
+<li class="Rapporti_Internazionali url OnClick"><span><a href="/Parlamento/798" class="Rapporti_Internazionali url OnClick">Rapporti internazionali</a></span></li>
+<li class="Polo_Bibliotecario url OnClick"><span><a href="/Parlamento/806" class="Polo_Bibliotecario url OnClick">Polo Bibliotecario</a></span></li>
+</ul>
+<span class="clear"></span>
+</div>
+
+    <div id="free_code_5267">
+<!-- Free Code per le breadcrumbs -->
+<p id="navigator"><span class="headPath"> Sei in: </span>
+
+<a href="/Parlamento/home">Home</a> / <a href="/Parlamento/home_leggi_presentazione">Leggi</a> / <span class="pathOn">Indici delle leggi</span> </p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<span class="clear"></span>
+</div>
+
+    <!-- testata per la stampa --> 
+ 
+<div class="headerForPrint"> 
+	<div class="sxHeader"> 
+		<img src="/projects/parlamento/img/testata/emblema_repubblica_stampa.gif" alt=""/> 
+	</div> 
+	<div class="logo"> 
+		<h1> 
+			<a href="/"> 
+				<strong>PARLAMENTO
+				</strong> ITALIANO
+			</a> 
+		</h1> 
+	</div> 
+	<div class="dxHeader"> 
+		<img src="/projects/parlamento/img/testata/logo_camera_stampa.gif" alt=""/> 
+		<img src="/projects/parlamento/img/testata/logo_senato_stampa.gif" alt=""/> 
+	</div> 
+	<br/> 
+</div> 
+<!-- fine testata stampa ******************************* --> 
+<!-- FINE  NAV 1 LIV --> 
+<!-- INIZIO TABELLA CONTENUTO --> 
+<div class="hidden"> 
+	<h2>Navigazione secondaria
+	</h2> 
+	<p> 
+		<a href="#content">salta il menu di navigazione secondario e vai al contenuto della pagina
+		</a> 
+	</p> 
+</div> 
+
+    <!-- FINE TABELLA NAV 1 LIV -->
+
+    <!-- INIZIO TABELLA CONTENUTO -->
+    <div class="sx">
+        <div id="tree_menu_5248" class="menu_sx">
+
+<ul>
+<li class="url OnClick"><span><a href="/Parlamento/519" class="url OnClick">Presentazione</a></span></li>
+<li class="url OnClick"><span><a href="/Parlamento/841" class="url OnClick">Leggi maggiormente richieste</a></span></li>
+<li class="current active_alias_leggi_indici"><span><a href="/leg/ldl_new/v3/sldlelencoordcron.htm" class="current active_alias_leggi_indici">Indici delle leggi</a></span></li>
+<li class="url OnClick"><span><a href="/Parlamento/523?area_tematica=6" class="url OnClick">Leggi per area tematica</a></span></li>
+<li class="active_alias_apprnonpubbl OnClick"><span><a href="/leg/ldl_new/v3/sldlelencoddlappnonpub.htm" class="active_alias_apprnonpubbl OnClick">Progetti di legge approvati non promulgati o pubblicati</a></span></li>
+<li class="active_alias_ultimidl OnClick"><span><a href="/leg/ldl_new/v3/sldlelencodlconvers.htm" class="active_alias_ultimidl OnClick">Ultimi Decreti-Legge esaminati</a></span></li>
+<li class="OnClick"><span><a href="http://parlamento18.camera.it/229" class="OnClick">Decreti legislativi</a></span></li>
+</ul>
+<span class="clear"></span>
+</div>
+
+    </div>
+
+<div class="dx">
+    <div class="top" id="content">
+        <div class="sxSmall">
+            <h1>Ultimi Decreti-Legge esaminati</h1>
+            <br/>
+            <h2>Decreti-Legge in corso di conversione</h2>
+            
+    <dl class="leggi">
+
+        
+            <dt>
+            
+    
+    <a rel="_blank" href="http://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legge:2026;177">Decreto Legge 8 ottobre 2026, n. 177</a>
+
+            </dt>
+            <dd>
+                <p class="titoloLegge">"Disposizioni urgenti per il rafforzamento delle istruttorie ambientali, la gestione dei problemi climatici, l'economia circolare e le bonifiche"</p>
+                
+                <!-- ROBERTO INIZIO-->
+
+                
+
+                
+                <!-- ROBERTO FINE-->
+                
+                <span class="materiaLegge">
+                            
+                        </span>
+                <br/>
+                
+                    
+    <strong>Pubblicazione:</strong>
+    G.U. n. 234 dell'8 ottobre 2026
+    <br/>
+
+                
+                
+                    
+                
+                
+                    
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                    
+                
+                
+                    
+                
+                
+                    
+                
+
+                <div class="iter">
+    <div class="bordoNero">
+        <table width="100%" border="0" cellspacing="2" cellpadding="4"
+               summary="Iter e lavori preparatori">
+            <caption>
+                <strong>Iter e lavori preparatori</strong>
+                <!--p th:utext="*{__${iter.numFase}__}"></p-->
+                <!--p th:utext="${iter.get(0)}"></p-->
+            </caption>
+            <col width="25%"/>
+            <col width="45%"/>
+            <col width="30%"/>
+            <tr valign="top" class="tab2">
+                <td>
+                    <a class="sddl"
+                       rel="schedaweb" href="/loc/link.asp?tipodoc=sddliter&amp;leg=19&amp;id=60511">C.3133</a>
+                </td>
+                <td>
+                    
+    
+
+                    
+    
+
+                    
+    
+
+                </td>
+                <td>14 ottobre 2026:<br/>in corso di esame in commissione</td>
+            </tr>
+        </table>
+    </div>
+</div>
+            </dd>
+        
+            <dt>
+            
+    
+    <a rel="_blank" href="http://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legge:2026;170">Decreto Legge 30 settembre 2026, n. 170</a>
+
+            </dt>
+            <dd>
+                <p class="titoloLegge">"Misure urgenti per garantire il regolare avvio dell'anno scolastico 2026/2027, per l'accompagnamento delle misure del Piano nazionale di ripresa e resilienza (PNRR) di competenza del Ministero dell'istruzione e del merito, per la promozione dell'integrazione degli studenti stranieri nell'ambito scolastico, nonché in materia di formazione superiore e ricerca"</p>
+                
+                <!-- ROBERTO INIZIO-->
+
+                
+
+                
+                <!-- ROBERTO FINE-->
+                
+                <span class="materiaLegge">
+                            
+                        </span>
+                <br/>
+                
+                    
+    <strong>Pubblicazione:</strong>
+    G.U. n. 227 del 30 settembre 2026
+    <br/>
+
+                
+                
+                    
+                
+                
+                    
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                    
+                
+                
+                    
+                
+                
+                    
+                
+
+                <div class="iter">
+    <div class="bordoNero">
+        <table width="100%" border="0" cellspacing="2" cellpadding="4"
+               summary="Iter e lavori preparatori">
+            <caption>
+                <strong>Iter e lavori preparatori</strong>
+                <!--p th:utext="*{__${iter.numFase}__}"></p-->
+                <!--p th:utext="${iter.get(0)}"></p-->
+            </caption>
+            <col width="25%"/>
+            <col width="45%"/>
+            <col width="30%"/>
+            <tr valign="top" class="tab2">
+                <td>
+                    <a class="sddl"
+                       rel="schedaweb" href="/loc/link.asp?tipodoc=sddliter&amp;leg=19&amp;id=60495">S.2053</a>
+                </td>
+                <td>
+                    
+    
+
+                    
+    
+
+                    
+    
+
+                </td>
+                <td>15 ottobre 2026:<br/>in corso di esame in commissione</td>
+            </tr>
+        </table>
+    </div>
+</div>
+            </dd>
+        
+            <dt>
+            
+    
+    <a rel="_blank" href="http://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legge:2026;168">Decreto Legge 29 settembre 2026, n. 168</a>
+
+            </dt>
+            <dd>
+                <p class="titoloLegge">"Misure urgenti in materia di giustizia, di funzionalità del Ministero dell'interno e di impianti di interesse strategico nazionale"</p>
+                
+                <!-- ROBERTO INIZIO-->
+
+                
+
+                
+                <!-- ROBERTO FINE-->
+                
+                <span class="materiaLegge">
+                            
+                        </span>
+                <br/>
+                
+                    
+    <strong>Pubblicazione:</strong>
+    G.U. n. 226 del 29 settembre 2026
+    <br/>
+
+                
+                
+                    
+                
+                
+                    
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                    
+                
+                
+                    
+                
+                
+                    
+                
+
+                <div class="iter">
+    <div class="bordoNero">
+        <table width="100%" border="0" cellspacing="2" cellpadding="4"
+               summary="Iter e lavori preparatori">
+            <caption>
+                <strong>Iter e lavori preparatori</strong>
+                <!--p th:utext="*{__${iter.numFase}__}"></p-->
+                <!--p th:utext="${iter.get(0)}"></p-->
+            </caption>
+            <col width="25%"/>
+            <col width="45%"/>
+            <col width="30%"/>
+            <tr valign="top" class="tab2">
+                <td>
+                    <a class="sddl"
+                       rel="schedaweb" href="/loc/link.asp?tipodoc=sddliter&amp;leg=19&amp;id=60492">C.3121</a>
+                </td>
+                <td>
+                    
+    
+
+                    
+    
+
+                    
+    
+
+                </td>
+                <td>14 ottobre 2026:<br/>in corso di esame in commissione</td>
+            </tr>
+        </table>
+    </div>
+</div>
+            </dd>
+        
+            <dt>
+            
+    
+    <a rel="_blank" href="http://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legge:2026;167">Decreto Legge 28 settembre 2026, n. 167</a>
+
+            </dt>
+            <dd>
+                <p class="titoloLegge">"Misure urgenti per la circolazione dei veicoli ad alimentazione diesel appartenenti alla categoria ambientale «EURO 5»"</p>
+                
+                <!-- ROBERTO INIZIO-->
+
+                
+
+                
+                <!-- ROBERTO FINE-->
+                
+                <span class="materiaLegge">
+                            
+                        </span>
+                <br/>
+                
+                    
+    <strong>Pubblicazione:</strong>
+    G.U. n. 225 del 28 settembre 2026
+    <br/>
+
+                
+                
+                    
+                
+                
+                    
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                    
+                
+                
+                    
+                
+                
+                    
+                
+
+                <div class="iter">
+    <div class="bordoNero">
+        <table width="100%" border="0" cellspacing="2" cellpadding="4"
+               summary="Iter e lavori preparatori">
+            <caption>
+                <strong>Iter e lavori preparatori</strong>
+                <!--p th:utext="*{__${iter.numFase}__}"></p-->
+                <!--p th:utext="${iter.get(0)}"></p-->
+            </caption>
+            <col width="25%"/>
+            <col width="45%"/>
+            <col width="30%"/>
+            <tr valign="top" class="tab2">
+                <td>
+                    <a class="sddl"
+                       rel="schedaweb" href="/loc/link.asp?tipodoc=sddliter&amp;leg=19&amp;id=60486">C.3119</a>
+                </td>
+                <td>
+                    
+    
+
+                    
+    
+
+                    
+    
+
+                </td>
+                <td>15 ottobre 2026:<br/>in corso di esame in commissione</td>
+            </tr>
+        </table>
+    </div>
+</div>
+            </dd>
+        
+            <dt>
+            
+    
+    <a rel="_blank" href="http://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legge:2026;162">Decreto Legge 17 settembre 2026, n. 162</a>
+
+            </dt>
+            <dd>
+                <p class="titoloLegge">"Disposizioni urgenti per il sostegno economico e il contenimento degli effetti derivanti dal perdurante aumento del costo dei carburanti, nonché in materia fiscale"</p>
+                
+                <!-- ROBERTO INIZIO-->
+
+                
+
+                
+                <!-- ROBERTO FINE-->
+                
+                <span class="materiaLegge">
+                            
+                        </span>
+                <br/>
+                
+                    
+    <strong>Pubblicazione:</strong>
+    G.U. n. 216 del 17 settembre 2026
+    <br/>
+
+                
+                
+                    
+                
+                
+                    
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                    
+                
+                
+                    
+                
+                
+                    
+                
+
+                <div class="iter">
+    <div class="bordoNero">
+        <table width="100%" border="0" cellspacing="2" cellpadding="4"
+               summary="Iter e lavori preparatori">
+            <caption>
+                <strong>Iter e lavori preparatori</strong>
+                <!--p th:utext="*{__${iter.numFase}__}"></p-->
+                <!--p th:utext="${iter.get(0)}"></p-->
+            </caption>
+            <col width="25%"/>
+            <col width="45%"/>
+            <col width="30%"/>
+            <tr valign="top" class="tab2">
+                <td>
+                    <a class="sddl"
+                       rel="schedaweb" href="/loc/link.asp?tipodoc=sddliter&amp;leg=19&amp;id=60464">C.3106</a>
+                </td>
+                <td>
+                    
+    
+
+                    
+    
+
+                    
+    
+
+                </td>
+                <td>7 ottobre 2026:<br/>in corso di esame in commissione</td>
+            </tr>
+        </table>
+    </div>
+</div>
+            </dd>
+        
+            <dt>
+            
+    
+    <a rel="_blank" href="http://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legge:2026;157">Decreto Legge 10 settembre 2026, n. 157</a>
+
+            </dt>
+            <dd>
+                <p class="titoloLegge">"Disposizioni urgenti in materia di prezzi petroliferi connessi al protrarsi della nuova crisi dei mercati internazionali e di infrastrutture e attività energetiche strategiche"</p>
+                
+                <!-- ROBERTO INIZIO-->
+
+                
+
+                
+                <!-- ROBERTO FINE-->
+                
+                <span class="materiaLegge">
+                            
+                        </span>
+                <br/>
+                
+                    
+    <strong>Pubblicazione:</strong>
+    G.U. n. 210 del 10 settembre 2026
+    <br/>
+
+                
+                
+                    
+                
+                
+                    
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                    
+                
+                
+                    
+                
+                
+                    
+                
+
+                <div class="iter">
+    <div class="bordoNero">
+        <table width="100%" border="0" cellspacing="2" cellpadding="4"
+               summary="Iter e lavori preparatori">
+            <caption>
+                <strong>Iter e lavori preparatori</strong>
+                <!--p th:utext="*{__${iter.numFase}__}"></p-->
+                <!--p th:utext="${iter.get(0)}"></p-->
+            </caption>
+            <col width="25%"/>
+            <col width="45%"/>
+            <col width="30%"/>
+            <tr valign="top" class="tab2">
+                <td>
+                    <a class="sddl"
+                       rel="schedaweb" href="/loc/link.asp?tipodoc=sddliter&amp;leg=19&amp;id=60442">S.2029</a>
+                </td>
+                <td>
+                    
+    
+
+                    
+    
+
+                    
+    
+
+                </td>
+                <td>15 ottobre 2026:<br/>approvato</td>
+            </tr>
+            <tr valign="top" class="tab1">
+                <td>
+                    <a class="sddl"
+                       rel="schedaweb" href="/loc/link.asp?tipodoc=sddliter&amp;leg=19&amp;id=60531">C.3148</a>
+                </td>
+                <td>
+                    
+    
+
+                    
+    
+
+                    
+    
+
+                </td>
+                <td>15 ottobre 2026:<br/>da assegnare</td>
+            </tr>
+        </table>
+    </div>
+</div>
+            </dd>
+        
+            <dt>
+            
+    
+    <a rel="_blank" href="http://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legge:2026;154">Decreto Legge 28 agosto 2026, n. 154</a>
+
+            </dt>
+            <dd>
+                <p class="titoloLegge">"Misure urgenti per assicurare la continuità operativa di impianti di interesse strategico nazionale"</p>
+                
+                <!-- ROBERTO INIZIO-->
+
+                
+
+                
+                <!-- ROBERTO FINE-->
+                
+                <span class="materiaLegge">
+                            
+                        </span>
+                <br/>
+                
+                    
+    <strong>Pubblicazione:</strong>
+    G.U. n. 199 del 28 agosto 2026
+    <br/>
+
+                
+                
+                    
+                
+                
+                    
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                    
+                
+                
+                    
+                
+                
+                    
+                
+
+                <div class="iter">
+    <div class="bordoNero">
+        <table width="100%" border="0" cellspacing="2" cellpadding="4"
+               summary="Iter e lavori preparatori">
+            <caption>
+                <strong>Iter e lavori preparatori</strong>
+                <!--p th:utext="*{__${iter.numFase}__}"></p-->
+                <!--p th:utext="${iter.get(0)}"></p-->
+            </caption>
+            <col width="25%"/>
+            <col width="45%"/>
+            <col width="30%"/>
+            <tr valign="top" class="tab2">
+                <td>
+                    <a class="sddl"
+                       rel="schedaweb" href="/loc/link.asp?tipodoc=sddliter&amp;leg=19&amp;id=60425">S.2023</a>
+                </td>
+                <td>
+                    
+    
+
+                    
+    
+
+                    
+    
+
+                </td>
+                <td>7 ottobre 2026:<br/>approvato</td>
+            </tr>
+            <tr valign="top" class="tab1">
+                <td>
+                    <a class="sddl"
+                       rel="schedaweb" href="/loc/link.asp?tipodoc=sddliter&amp;leg=19&amp;id=60505">C.3131</a>
+                </td>
+                <td>
+                    
+    
+
+                    
+    
+
+                    
+    
+
+                </td>
+                <td>14 ottobre 2026:<br/>in stato di relazione</td>
+            </tr>
+        </table>
+    </div>
+</div>
+            </dd>
+        
+            <dt>
+            
+    
+    <a rel="_blank" href="http://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legge:2026;153">Decreto Legge 26 agosto 2026, n. 153</a>
+
+            </dt>
+            <dd>
+                <p class="titoloLegge">"Disposizioni urgenti in materia di prezzi petroliferi connessi al protrarsi della nuova crisi dei mercati internazionali"</p>
+                
+                <!-- ROBERTO INIZIO-->
+
+                
+
+                
+                <!-- ROBERTO FINE-->
+                
+                <span class="materiaLegge">
+                            
+                        </span>
+                <br/>
+                
+                    
+    <strong>Pubblicazione:</strong>
+    G.U. n. 197 del 26 agosto 2026
+    <br/>
+
+                
+                
+                    
+                
+                
+                    
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                    
+                
+                
+                    
+                
+                
+                    
+                
+
+                <div class="iter">
+    <div class="bordoNero">
+        <table width="100%" border="0" cellspacing="2" cellpadding="4"
+               summary="Iter e lavori preparatori">
+            <caption>
+                <strong>Iter e lavori preparatori</strong>
+                <!--p th:utext="*{__${iter.numFase}__}"></p-->
+                <!--p th:utext="${iter.get(0)}"></p-->
+            </caption>
+            <col width="25%"/>
+            <col width="45%"/>
+            <col width="30%"/>
+            <tr valign="top" class="tab2">
+                <td>
+                    <a class="sddl"
+                       rel="schedaweb" href="/loc/link.asp?tipodoc=sddliter&amp;leg=19&amp;id=60428">C.3086</a>
+                </td>
+                <td>
+                    
+    
+
+                    
+    
+
+                    
+    
+
+                </td>
+                <td>8 settembre 2026:<br/>in corso di esame in commissione</td>
+            </tr>
+        </table>
+    </div>
+</div>
+            </dd>
+        
+            <dt>
+            
+    
+    <a rel="_blank" href="http://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legge:2026;139">Decreto Legge 5 agosto 2026, n. 139</a>
+
+            </dt>
+            <dd>
+                <p class="titoloLegge">"Disposizioni urgenti in materia di prezzi petroliferi connessi al protrarsi della nuova crisi dei mercati internazionali"</p>
+                
+                <!-- ROBERTO INIZIO-->
+
+                
+
+                
+                <!-- ROBERTO FINE-->
+                
+                <span class="materiaLegge">
+                            
+                        </span>
+                <br/>
+                
+                    
+    <strong>Pubblicazione:</strong>
+    G.U. n. 180 del 5 agosto 2026
+    <br/>
+
+                
+                
+                    
+                
+                
+                    
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                    
+                
+                
+                    
+                
+                
+                    
+                
+
+                <div class="iter">
+    <div class="bordoNero">
+        <table width="100%" border="0" cellspacing="2" cellpadding="4"
+               summary="Iter e lavori preparatori">
+            <caption>
+                <strong>Iter e lavori preparatori</strong>
+                <!--p th:utext="*{__${iter.numFase}__}"></p-->
+                <!--p th:utext="${iter.get(0)}"></p-->
+            </caption>
+            <col width="25%"/>
+            <col width="45%"/>
+            <col width="30%"/>
+            <tr valign="top" class="tab2">
+                <td>
+                    <a class="sddl"
+                       rel="schedaweb" href="/loc/link.asp?tipodoc=sddliter&amp;leg=19&amp;id=60407">C.3077</a>
+                </td>
+                <td>
+                    
+    
+
+                    
+    
+
+                    
+    
+
+                </td>
+                <td>8 settembre 2026:<br/>in corso di esame in commissione</td>
+            </tr>
+        </table>
+    </div>
+</div>
+            </dd>
+        
+
+    </dl>
+
+            
+
+            <br/>
+            <h2>Decreti-Legge approvati dal 17 luglio 2026 a oggi</h2>
+            
+    <dl class="leggi">
+
+        
+            <dt>
+            
+    
+    <a rel="_blank" href="http://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legge:2026;144">Decreto Legge 7 agosto 2026, n. 144</a>
+
+            </dt>
+            <dd>
+                <p class="titoloLegge">"Disposizioni urgenti per la funzionalità della pubblica amministrazione e degli enti territoriali, nonché in materia di protezione civile"</p>
+                
+                <!-- ROBERTO INIZIO-->
+
+                
+
+                
+                <!-- ROBERTO FINE-->
+                
+                <span class="materiaLegge">
+                            
+                        </span>
+                <br/>
+                
+                    
+    <strong>Pubblicazione:</strong>
+    G.U. n. 182 del 7 agosto 2026
+    <br/>
+
+                
+                
+                    
+                
+                
+                    
+                
+                
+                    
+                
+                
+                    <strong>Legge di conversione:</strong>
+                    
+    <a rel="_blank" href="http://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:2026;174">Legge 5 ottobre 2026, n. 174</a>
+    
+
+                    ,
+                    
+    <strong></strong>
+    G.U. n. 232 del 6 ottobre 2026
+    <br/>
+
+                
+                
+                    
+    <strong>Testo coordinato:</strong>
+    G.U. n. 232 del 6 ottobre 2026
+    <br/>
+
+                
+                
+                    
+                
+                
+                    
+                
+                
+                    
+                
+
+                <div class="iter">
+    <div class="bordoNero">
+        <table width="100%" border="0" cellspacing="2" cellpadding="4"
+               summary="Iter e lavori preparatori">
+            <caption>
+                <strong>Iter e lavori preparatori</strong>
+                <!--p th:utext="*{__${iter.numFase}__}"></p-->
+                <!--p th:utext="${iter.get(0)}"></p-->
+            </caption>
+            <col width="25%"/>
+            <col width="45%"/>
+            <col width="30%"/>
+            <tr valign="top" class="tab2">
+                <td>
+                    <a class="sddl"
+                       rel="schedaweb" href="/loc/link.asp?tipodoc=sddliter&amp;leg=19&amp;id=60423">C.3083</a>
+                </td>
+                <td>
+                    
+    
+
+                    
+    
+
+                    
+    
+
+                </td>
+                <td>28 settembre 2026:<br/>approvato</td>
+            </tr>
+            <tr valign="top" class="tab1">
+                <td>
+                    <a class="sddl"
+                       rel="schedaweb" href="/loc/link.asp?tipodoc=sddliter&amp;leg=19&amp;id=60485">S.2047</a>
+                </td>
+                <td>
+                    
+    
+
+                    
+    
+
+                    
+    
+
+                </td>
+                <td>30 settembre 2026:<br/>approvato definitivamente. Legge</td>
+            </tr>
+        </table>
+    </div>
+</div>
+            </dd>
+        
+            <dt>
+            
+    
+    <a rel="_blank" href="http://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legge:2026;143">Decreto Legge 7 agosto 2026, n. 143</a>
+
+            </dt>
+            <dd>
+                <p class="titoloLegge">"Disposizioni urgenti in materia di obbligo di compostabilità di determinate tipologie di imballaggi"</p>
+                
+                <!-- ROBERTO INIZIO-->
+
+                
+
+                
+                <!-- ROBERTO FINE-->
+                
+                <span class="materiaLegge">
+                            
+                        </span>
+                <br/>
+                
+                    
+    <strong>Pubblicazione:</strong>
+    G.U. n. 182 del 7 agosto 2026
+    <br/>
+
+                
+                
+                    
+                
+                
+                    
+                
+                
+                    
+                
+                
+                    <strong>Legge di conversione:</strong>
+                    
+    <a rel="_blank" href="http://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:2026;173">Legge 5 ottobre 2026, n. 173</a>
+    
+
+                    ,
+                    
+    <strong></strong>
+    G.U. n. 232 del 6 ottobre 2026
+    <br/>
+
+                
+                
+                    
+    <strong>Testo coordinato:</strong>
+    G.U. n. 232 del 6 ottobre 2026
+    <br/>
+
+                
+                
+                    
+                
+                
+                    
+                
+                
+                    
+                
+
+                <div class="iter">
+    <div class="bordoNero">
+        <table width="100%" border="0" cellspacing="2" cellpadding="4"
+               summary="Iter e lavori preparatori">
+            <caption>
+                <strong>Iter e lavori preparatori</strong>
+                <!--p th:utext="*{__${iter.numFase}__}"></p-->
+                <!--p th:utext="${iter.get(0)}"></p-->
+            </caption>
+            <col width="25%"/>
+            <col width="45%"/>
+            <col width="30%"/>
+            <tr valign="top" class="tab2">
+                <td>
+                    <a class="sddl"
+                       rel="schedaweb" href="/loc/link.asp?tipodoc=sddliter&amp;leg=19&amp;id=60421">S.2020</a>
+                </td>
+                <td>
+                    
+    
+
+                    
+    
+
+                    
+    
+
+                </td>
+                <td>23 settembre 2026:<br/>approvato</td>
+            </tr>
+            <tr valign="top" class="tab1">
+                <td>
+                    <a class="sddl"
+                       rel="schedaweb" href="/loc/link.asp?tipodoc=sddliter&amp;leg=19&amp;id=60480">C.3118</a>
+                </td>
+                <td>
+                    
+    
+
+                    
+    
+
+                    
+    
+
+                </td>
+                <td>1 ottobre 2026:<br/>approvato definitivamente. Legge</td>
+            </tr>
+        </table>
+    </div>
+</div>
+            </dd>
+        
+            <dt>
+            
+    
+    <a rel="_blank" href="http://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legge:2026;133">Decreto Legge 27 luglio 2026, n. 133</a>
+
+            </dt>
+            <dd>
+                <p class="titoloLegge">"Disposizioni urgenti in materia di prezzi petroliferi connessi alla ulteriore crisi dei mercati internazionali e disposizioni in materia di ILVA S.p.A. in amministrazione straordinaria"</p>
+                
+                <!-- ROBERTO INIZIO-->
+
+                
+
+                
+                <!-- ROBERTO FINE-->
+                
+                <span class="materiaLegge">
+                            
+                        </span>
+                <br/>
+                
+                    
+    <strong>Pubblicazione:</strong>
+    G.U. n. 172 del 27 luglio 2026
+    <br/>
+
+                
+                
+                    
+                
+                
+                    
+                
+                
+                    
+                
+                
+                    <strong>Legge di conversione:</strong>
+                    
+    <a rel="_blank" href="http://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:2026;166">Legge 25 settembre 2026, n. 166</a>
+    
+
+                    ,
+                    
+    <strong></strong>
+    G.U. n. 223 del 25 settembre 2026
+    <br/>
+
+                
+                
+                    
+    <strong>Testo coordinato:</strong>
+    G.U. n. 223 del 25 settembre 2026
+    <br/>
+
+                
+                
+                    
+                
+                
+                    
+                
+                
+                    
+                
+
+                <div class="iter">
+    <div class="bordoNero">
+        <table width="100%" border="0" cellspacing="2" cellpadding="4"
+               summary="Iter e lavori preparatori">
+            <caption>
+                <strong>Iter e lavori preparatori</strong>
+                <!--p th:utext="*{__${iter.numFase}__}"></p-->
+                <!--p th:utext="${iter.get(0)}"></p-->
+            </caption>
+            <col width="25%"/>
+            <col width="45%"/>
+            <col width="30%"/>
+            <tr valign="top" class="tab2">
+                <td>
+                    <a class="sddl"
+                       rel="schedaweb" href="/loc/link.asp?tipodoc=sddliter&amp;leg=19&amp;id=60346">C.3045</a>
+                </td>
+                <td>
+                    
+    
+
+                    
+    
+
+                    
+    
+
+                </td>
+                <td>16 settembre 2026:<br/>approvato</td>
+            </tr>
+            <tr valign="top" class="tab1">
+                <td>
+                    <a class="sddl"
+                       rel="schedaweb" href="/loc/link.asp?tipodoc=sddliter&amp;leg=19&amp;id=60460">S.2036</a>
+                </td>
+                <td>
+                    
+    
+
+                    
+    
+
+                    
+    
+
+                </td>
+                <td>23 settembre 2026:<br/>approvato definitivamente. Legge</td>
+            </tr>
+        </table>
+    </div>
+</div>
+            </dd>
+        
+            <dt>
+            
+    
+    <a rel="_blank" href="http://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legge:2026;127">Decreto Legge 23 luglio 2026, n. 127</a>
+
+            </dt>
+            <dd>
+                <p class="titoloLegge">"Misure urgenti e indifferibili per lo svolgimento dei procedimenti civili e penali a seguito del crollo dell'immobile degli uffici giudiziari di Bolzano"</p>
+                
+                <!-- ROBERTO INIZIO-->
+
+                
+
+                
+                <!-- ROBERTO FINE-->
+                
+                <span class="materiaLegge">
+                            
+                        </span>
+                <br/>
+                
+                    
+    <strong>Pubblicazione:</strong>
+    G.U. n. 169 del 23 luglio 2026
+    <br/>
+
+                
+                
+                    
+                
+                
+                    
+                
+                
+                    
+                
+                
+                    <strong>Legge di conversione:</strong>
+                    
+    <a rel="_blank" href="http://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:2026;163">Legge 17 settembre 2026, n. 163</a>
+    
+
+                    ,
+                    
+    <strong></strong>
+    G.U. n. 218 del 19 settembre 2026
+    <br/>
+
+                
+                
+                    
+    <strong>Testo coordinato:</strong>
+    G.U. n. 218 del 19 settembre 2026
+    <br/>
+
+                
+                
+                    
+                
+                
+                    
+                
+                
+                    
+                
+
+                <div class="iter">
+    <div class="bordoNero">
+        <table width="100%" border="0" cellspacing="2" cellpadding="4"
+               summary="Iter e lavori preparatori">
+            <caption>
+                <strong>Iter e lavori preparatori</strong>
+                <!--p th:utext="*{__${iter.numFase}__}"></p-->
+                <!--p th:utext="${iter.get(0)}"></p-->
+            </caption>
+            <col width="25%"/>
+            <col width="45%"/>
+            <col width="30%"/>
+            <tr valign="top" class="tab2">
+                <td>
+                    <a class="sddl"
+                       rel="schedaweb" href="/loc/link.asp?tipodoc=sddliter&amp;leg=19&amp;id=60341">C.3043</a>
+                </td>
+                <td>
+                    
+    
+
+                    
+    
+
+                    
+    
+
+                </td>
+                <td>9 settembre 2026:<br/>approvato</td>
+            </tr>
+            <tr valign="top" class="tab1">
+                <td>
+                    <a class="sddl"
+                       rel="schedaweb" href="/loc/link.asp?tipodoc=sddliter&amp;leg=19&amp;id=60440">S.2027</a>
+                </td>
+                <td>
+                    
+    
+
+                    
+    
+
+                    
+    
+
+                </td>
+                <td>15 settembre 2026:<br/>approvato definitivamente. Legge</td>
+            </tr>
+        </table>
+    </div>
+</div>
+            </dd>
+        
+            <dt>
+            
+    
+    <a rel="_blank" href="http://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legge:2026;108">Decreto Legge 26 giugno 2026, n. 108</a>
+
+            </dt>
+            <dd>
+                <p class="titoloLegge">"Disposizioni urgenti in materia di sport, per lo svolgimento di grandi eventi e l'efficacia del documento di identità"</p>
+                
+                <!-- ROBERTO INIZIO-->
+
+                
+
+                
+                <!-- ROBERTO FINE-->
+                
+                <span class="materiaLegge">
+                            
+                        </span>
+                <br/>
+                
+                    
+    <strong>Pubblicazione:</strong>
+    G.U. n. 146 del 26 giugno 2026
+    <br/>
+
+                
+                
+                    
+                
+                
+                    
+                
+                
+                    
+                
+                
+                    <strong>Legge di conversione:</strong>
+                    
+    <a rel="_blank" href="http://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:2026;142">Legge 4 agosto 2026, n. 142</a>
+    
+
+                    ,
+                    
+    <strong></strong>
+    G.U. n. 182 del 7 agosto 2026
+    <br/>
+
+                
+                
+                    
+    <strong>Testo coordinato:</strong>
+    G.U. n. 182 del 7 agosto 2026
+    <br/>
+
+                
+                
+                    
+                
+                
+                    
+                
+                
+                    
+                
+
+                <div class="iter">
+    <div class="bordoNero">
+        <table width="100%" border="0" cellspacing="2" cellpadding="4"
+               summary="Iter e lavori preparatori">
+            <caption>
+                <strong>Iter e lavori preparatori</strong>
+                <!--p th:utext="*{__${iter.numFase}__}"></p-->
+                <!--p th:utext="${iter.get(0)}"></p-->
+            </caption>
+            <col width="25%"/>
+            <col width="45%"/>
+            <col width="30%"/>
+            <tr valign="top" class="tab2">
+                <td>
+                    <a class="sddl"
+                       rel="schedaweb" href="/loc/link.asp?tipodoc=sddliter&amp;leg=19&amp;id=60246">C.2988</a>
+                </td>
+                <td>
+                    
+    
+
+                    
+    
+
+                    
+    
+
+                </td>
+                <td>23 luglio 2026:<br/>approvato</td>
+            </tr>
+            <tr valign="top" class="tab1">
+                <td>
+                    <a class="sddl"
+                       rel="schedaweb" href="/loc/link.asp?tipodoc=sddliter&amp;leg=19&amp;id=60332">S.1978</a>
+                </td>
+                <td>
+                    
+    
+
+                    
+    
+
+                    
+    
+
+                </td>
+                <td>29 luglio 2026:<br/>approvato definitivamente. Legge</td>
+            </tr>
+        </table>
+    </div>
+</div>
+            </dd>
+        
+            <dt>
+            
+    
+    <a rel="_blank" href="http://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legge:2026;107">Decreto Legge 26 giugno 2026, n. 107</a>
+
+            </dt>
+            <dd>
+                <p class="titoloLegge">"Disposizioni urgenti per interventi infrastrutturali e per l'attuazione del Piano nazionale di ripresa e resilienza (PNRR), nonché ulteriori disposizioni finanziarie urgenti"</p>
+                
+                <!-- ROBERTO INIZIO-->
+
+                
+
+                
+                <!-- ROBERTO FINE-->
+                
+                <span class="materiaLegge">
+                            
+                        </span>
+                <br/>
+                
+                    
+    <strong>Pubblicazione:</strong>
+    G.U. n. 146 del 26 giugno 2026
+    <br/>
+
+                
+                
+                    
+                
+                
+                    
+                
+                
+                    
+                
+                
+                    <strong>Legge di conversione:</strong>
+                    
+    <a rel="_blank" href="http://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:2026;152">Legge 7 agosto 2026, n. 152</a>
+    
+
+                    ,
+                    
+    <strong></strong>
+    G.U. n. 192 del 20 agosto 2026
+    <br/>
+
+                
+                
+                    
+    <strong>Testo coordinato:</strong>
+    G.U. n. 192 del 20 agosto 2026
+    <br/>
+
+                
+                
+                    
+                
+                
+                    
+                
+                
+                    
+                
+
+                <div class="iter">
+    <div class="bordoNero">
+        <table width="100%" border="0" cellspacing="2" cellpadding="4"
+               summary="Iter e lavori preparatori">
+            <caption>
+                <strong>Iter e lavori preparatori</strong>
+                <!--p th:utext="*{__${iter.numFase}__}"></p-->
+                <!--p th:utext="${iter.get(0)}"></p-->
+            </caption>
+            <col width="25%"/>
+            <col width="45%"/>
+            <col width="30%"/>
+            <tr valign="top" class="tab2">
+                <td>
+                    <a class="sddl"
+                       rel="schedaweb" href="/loc/link.asp?tipodoc=sddliter&amp;leg=19&amp;id=60249">C.2987</a>
+                </td>
+                <td>
+                    
+    
+
+                    
+    
+
+                    
+    
+
+                </td>
+                <td>3 agosto 2026:<br/>approvato</td>
+            </tr>
+            <tr valign="top" class="tab1">
+                <td>
+                    <a class="sddl"
+                       rel="schedaweb" href="/loc/link.asp?tipodoc=sddliter&amp;leg=19&amp;id=60372">S.2001</a>
+                </td>
+                <td>
+                    
+    
+
+                    
+    
+
+                    
+    
+
+                </td>
+                <td>5 agosto 2026:<br/>approvato definitivamente. Legge</td>
+            </tr>
+        </table>
+    </div>
+</div>
+            </dd>
+        
+            <dt>
+            
+    
+    <a rel="_blank" href="http://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legge:2026;100">Decreto Legge 12 giugno 2026, n. 100</a>
+
+            </dt>
+            <dd>
+                <p class="titoloLegge">"Misure urgenti in materia di giustizia e per l'attuazione del Patto dell'Unione europea sulla migrazione e l'asilo del 14 maggio 2024"</p>
+                
+                <!-- ROBERTO INIZIO-->
+
+                
+
+                
+                <!-- ROBERTO FINE-->
+                
+                <span class="materiaLegge">
+                            
+                        </span>
+                <br/>
+                
+                    
+    <strong>Pubblicazione:</strong>
+    G.U. n. 134 del 12 giugno 2026
+    <br/>
+
+                
+                
+                    
+                
+                
+                    
+                
+                
+                    
+                
+                
+                    <strong>Legge di conversione:</strong>
+                    
+    <a rel="_blank" href="http://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:2026;145">Legge 7 agosto 2026, n. 145</a>
+    
+
+                    ,
+                    
+    <strong></strong>
+    G.U. n. 183 dell'8 agosto 2026
+    <br/>
+
+                
+                
+                    
+    <strong>Testo coordinato:</strong>
+    G.U. n. 183 dell'8 agosto 2026
+    <br/>
+
+                
+                
+                    
+                
+                
+                    
+                
+                
+                    
+                
+
+                <div class="iter">
+    <div class="bordoNero">
+        <table width="100%" border="0" cellspacing="2" cellpadding="4"
+               summary="Iter e lavori preparatori">
+            <caption>
+                <strong>Iter e lavori preparatori</strong>
+                <!--p th:utext="*{__${iter.numFase}__}"></p-->
+                <!--p th:utext="${iter.get(0)}"></p-->
+            </caption>
+            <col width="25%"/>
+            <col width="45%"/>
+            <col width="30%"/>
+            <tr valign="top" class="tab2">
+                <td>
+                    <a class="sddl"
+                       rel="schedaweb" href="/loc/link.asp?tipodoc=sddliter&amp;leg=19&amp;id=60214">S.1939</a>
+                </td>
+                <td>
+                    
+    
+
+                    
+    
+
+                    
+    
+
+                </td>
+                <td>30 luglio 2026:<br/>approvato</td>
+            </tr>
+            <tr valign="top" class="tab1">
+                <td>
+                    <a class="sddl"
+                       rel="schedaweb" href="/loc/link.asp?tipodoc=sddliter&amp;leg=19&amp;id=60355">C.3053</a>
+                </td>
+                <td>
+                    
+    
+
+                    
+    
+
+                    
+    
+
+                </td>
+                <td>5 agosto 2026:<br/>approvato definitivamente. Legge</td>
+            </tr>
+        </table>
+    </div>
+</div>
+            </dd>
+        
+
+    </dl>
+
+            
+
+            <br/>
+            <h2>Decreti-Legge con esito diverso dall'approvazione, dal 17 luglio 2026 a oggi</h2>
+            
+    <dl class="leggi">
+
+        
+
+    </dl>
+
+            
+                <strong>Nessun Decreto-legge con esito diverso dall'approvazione, dal 17 luglio 2026</strong><br/>
+            
+
+        </div><!-- sxSmall -->
+        <div class="dxSmall">
+        </div>
+    </div>    <!-- content -->
+</div>    <!-- col dx -->
+
+    <!-- INIZIO TABELLA FOOTER -->
+    <!--	<h2 class="hidden">Link ai due rami del Parlamento</h2> -->
+	<div id="footer">
+		<div class="bordino">
+        <br />	</div>
+	</div>	
+
+
+    <!-- FINE TABELLA FOOTER -->
+
+</body>
+</html>

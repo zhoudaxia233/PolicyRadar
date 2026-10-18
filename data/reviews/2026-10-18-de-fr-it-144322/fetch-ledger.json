@@ -1,0 +1,824 @@
+[
+ {
+  "name": "br-to1069",
+  "url": "https://www.bundesrat.de/SharedDocs/TO/1069/to-node.html",
+  "fetchedAt": "2026-10-18T14:26:10.793936Z",
+  "status": 200,
+  "contentType": "text/html;charset=utf-8",
+  "finalUrl": "https://www.bundesrat.de/SharedDocs/TO/1069/to-node.html",
+  "sha256": "680b43b5470108e5dc554828752139b185cfa4bcbddd367af79556de6e8afb27",
+  "bytes": 186722
+ },
+ {
+  "name": "br-kompakt",
+  "url": "https://www.bundesrat.de/DE/plenum/bundesrat-kompakt/bundesrat-kompakt-node.html",
+  "fetchedAt": "2026-10-18T14:26:11.095555Z",
+  "status": 200,
+  "contentType": "text/html;charset=utf-8",
+  "finalUrl": "https://www.bundesrat.de/DE/plenum/bundesrat-kompakt/bundesrat-kompakt-node.html",
+  "sha256": "ca01ccc7aa0f8f0e2a078dccc29860a2312aa28e6893ba2065814deab303b20f",
+  "bytes": 129979
+ },
+ {
+  "name": "fr-senat-dossier",
+  "url": "https://www.senat.fr/dossier-legislatif/pjl25-952.html",
+  "fetchedAt": "2026-10-18T14:26:11.379847Z",
+  "status": 200,
+  "contentType": "text/html",
+  "finalUrl": "https://www.senat.fr/dossier-legislatif/pjl25-952.html",
+  "sha256": "1a72b61a15eec8fafbf7437bf180c55c61e94a3378417398858f578c5796dabf",
+  "bytes": 111960
+ },
+ {
+  "name": "fr-senat-pjl",
+  "url": "https://www.senat.fr/leg/pjl25-952.html",
+  "fetchedAt": "2026-10-18T14:26:11.816334Z",
+  "status": 200,
+  "contentType": "text/html",
+  "finalUrl": "https://www.senat.fr/leg/pjl25-952.html",
+  "sha256": "e463f6ff772fa425cc8a5f0ab0f06301f5401208fe89d58a86d0e821801cc89e",
+  "bytes": 267294
+ },
+ {
+  "name": "it-dl170-art12",
+  "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legge:2026-09-30;170~art12",
+  "fetchedAt": "2026-10-18T14:26:12.605526Z",
+  "status": 200,
+  "contentType": "text/html;charset=UTF-8",
+  "finalUrl": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legge:2026-09-30;170~art12",
+  "sha256": "efc5a5bad95adc56ca057731428e218891c16fbefd19afc8ae28416bc0381ac7",
+  "bytes": 78895
+ },
+ {
+  "name": "it-dl170-art13",
+  "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legge:2026-09-30;170~art13",
+  "fetchedAt": "2026-10-18T14:26:13.295758Z",
+  "status": 200,
+  "contentType": "text/html;charset=UTF-8",
+  "finalUrl": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legge:2026-09-30;170~art13",
+  "sha256": "6386460290cca12b426f7d8d15f4b55ffed25e8eff8cd6b324adddcb67a110d7",
+  "bytes": 80285
+ },
+ {
+  "name": "it-dl170-art15",
+  "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legge:2026-09-30;170~art15",
+  "fetchedAt": "2026-10-18T14:26:13.822447Z",
+  "status": 200,
+  "contentType": "text/html;charset=UTF-8",
+  "finalUrl": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legge:2026-09-30;170~art15",
+  "sha256": "7df183a400fd8070750d38ab2aef6359b065430ecae8b1c16b06515e45dff476",
+  "bytes": 74856
+ },
+ {
+  "name": "it-parl-dl",
+  "url": "https://www.parlamento.it/leg/ldl_new/v3/sldlelencodlconvers.htm",
+  "fetchedAt": "2026-10-18T14:26:14.267547Z",
+  "status": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "finalUrl": "https://www.parlamento.it/leg/ldl_new/v3/sldlelencodlconvers.htm",
+  "sha256": "4d7c528abbe9c72ae9f8bd69bf133f1948312a402c9aad2e7bb8a9fd1b864594",
+  "bytes": 52449
+ },
+ {
+  "name": "br-507-B",
+  "url": "https://www.bundesrat.de/SharedDocs/drucksachen/2026/0501-0600/507-26(B).pdf?__blob=publicationFile&v=1",
+  "fetchedAt": "2026-10-18T14:26:56.772007Z",
+  "status": 200,
+  "contentType": "application/pdf",
+  "finalUrl": "https://www.bundesrat.de/SharedDocs/drucksachen/2026/0501-0600/507-26(B).pdf?__blob=publicationFile&v=1",
+  "sha256": "036473ba1fe59fe41642cdd7bca045632e260522b62121630abbc394a225b7a6",
+  "bytes": 153426
+ },
+ {
+  "name": "br-505-B",
+  "url": "https://www.bundesrat.de/SharedDocs/drucksachen/2026/0501-0600/505-26(B).pdf?__blob=publicationFile&v=1",
+  "fetchedAt": "2026-10-18T14:26:56.907057Z",
+  "status": 200,
+  "contentType": "application/pdf",
+  "finalUrl": "https://www.bundesrat.de/SharedDocs/drucksachen/2026/0501-0600/505-26(B).pdf?__blob=publicationFile&v=1",
+  "sha256": "5da8ecf29ac12ce91dbdc49a8d152d3cf94d222673da6b71f7a6bf0e21aa93a7",
+  "bytes": 208154
+ },
+ {
+  "name": "br-503-B",
+  "url": "https://www.bundesrat.de/SharedDocs/drucksachen/2026/0501-0600/503-26(B).pdf?__blob=publicationFile&v=1",
+  "fetchedAt": "2026-10-18T14:26:57.044036Z",
+  "status": 200,
+  "contentType": "application/pdf",
+  "finalUrl": "https://www.bundesrat.de/SharedDocs/drucksachen/2026/0501-0600/503-26(B).pdf?__blob=publicationFile&v=1",
+  "sha256": "8c874cf4470329b3684845d8ad2953130a3ace7427bc86c2c2d187687dbf31c7",
+  "bytes": 114600
+ },
+ {
+  "name": "br-560-B",
+  "url": "https://www.bundesrat.de/SharedDocs/drucksachen/2026/0501-0600/560-26(B).pdf?__blob=publicationFile&v=1",
+  "fetchedAt": "2026-10-18T14:26:57.175666Z",
+  "status": 200,
+  "contentType": "application/pdf",
+  "finalUrl": "https://www.bundesrat.de/SharedDocs/drucksachen/2026/0501-0600/560-26(B).pdf?__blob=publicationFile&v=1",
+  "sha256": "28f3e67e9eda30c8ee03557ce568ffa71927f92fafc84e8147b0b5b722696d8d",
+  "bytes": 72666
+ },
+ {
+  "name": "br-561-B",
+  "url": "https://www.bundesrat.de/SharedDocs/drucksachen/2026/0501-0600/561-26(B).pdf?__blob=publicationFile&v=1",
+  "fetchedAt": "2026-10-18T14:26:57.284346Z",
+  "status": 200,
+  "contentType": "application/pdf",
+  "finalUrl": "https://www.bundesrat.de/SharedDocs/drucksachen/2026/0501-0600/561-26(B).pdf?__blob=publicationFile&v=1",
+  "sha256": "43b54de177553f1dae04ed0bd3d01c8e58d20e128c9d4a973434ac192c649d0f",
+  "bytes": 133083
+ },
+ {
+  "name": "br-562-B",
+  "url": "https://www.bundesrat.de/SharedDocs/drucksachen/2026/0501-0600/562-26(B).pdf?__blob=publicationFile&v=1",
+  "fetchedAt": "2026-10-18T14:26:57.402535Z",
+  "status": 200,
+  "contentType": "application/pdf",
+  "finalUrl": "https://www.bundesrat.de/SharedDocs/drucksachen/2026/0501-0600/562-26(B).pdf?__blob=publicationFile&v=1",
+  "sha256": "b54475a3f1488be74abe75db9ee85792d23e3456d8d0ead0d3a09e62711ac55b",
+  "bytes": 115567
+ },
+ {
+  "name": "br-563-B",
+  "url": "https://www.bundesrat.de/SharedDocs/drucksachen/2026/0501-0600/563-26(B).pdf?__blob=publicationFile&v=1",
+  "fetchedAt": "2026-10-18T14:26:57.515163Z",
+  "status": 200,
+  "contentType": "application/pdf",
+  "finalUrl": "https://www.bundesrat.de/SharedDocs/drucksachen/2026/0501-0600/563-26(B).pdf?__blob=publicationFile&v=1",
+  "sha256": "138fd04daac919d8b31b16f7d90bc9ba2886c33b4d68ad0282555dcd63dae29f",
+  "bytes": 114809
+ },
+ {
+  "name": "br-539-B",
+  "url": "https://www.bundesrat.de/SharedDocs/drucksachen/2026/0501-0600/539-26(B).pdf?__blob=publicationFile&v=1",
+  "fetchedAt": "2026-10-18T14:26:57.628439Z",
+  "status": 200,
+  "contentType": "application/pdf",
+  "finalUrl": "https://www.bundesrat.de/SharedDocs/drucksachen/2026/0501-0600/539-26(B).pdf?__blob=publicationFile&v=1",
+  "sha256": "68eff265c72bea368fc697e7d5add5e47bef3b7eb462699b28ff321b5f0e528d",
+  "bytes": 222471
+ },
+ {
+  "name": "br-506-B",
+  "url": "https://www.bundesrat.de/SharedDocs/drucksachen/2026/0501-0600/506-26(B).pdf?__blob=publicationFile&v=1",
+  "fetchedAt": "2026-10-18T14:26:57.756979Z",
+  "status": 200,
+  "contentType": "application/pdf",
+  "finalUrl": "https://www.bundesrat.de/SharedDocs/drucksachen/2026/0501-0600/506-26(B).pdf?__blob=publicationFile&v=1",
+  "sha256": "cc5bd3b6f3fc9f1f8da0993829e200dddc4e1a3eda4cfbb1bbf3b2839a977120",
+  "bytes": 170141
+ },
+ {
+  "name": "br-508-B",
+  "url": "https://www.bundesrat.de/SharedDocs/drucksachen/2026/0501-0600/508-26(B).pdf?__blob=publicationFile&v=1",
+  "fetchedAt": "2026-10-18T14:26:57.885838Z",
+  "status": 200,
+  "contentType": "application/pdf",
+  "finalUrl": "https://www.bundesrat.de/SharedDocs/drucksachen/2026/0501-0600/508-26(B).pdf?__blob=publicationFile&v=1",
+  "sha256": "cabc6b3d5bbe53514e05edaa5cdbbea4451e25a1dac6c58ad5184ea8f824383b",
+  "bytes": 241432
+ },
+ {
+  "name": "br-509-B",
+  "url": "https://www.bundesrat.de/SharedDocs/drucksachen/2026/0501-0600/509-26(B).pdf?__blob=publicationFile&v=1",
+  "fetchedAt": "2026-10-18T14:26:58.017268Z",
+  "status": 200,
+  "contentType": "application/pdf",
+  "finalUrl": "https://www.bundesrat.de/SharedDocs/drucksachen/2026/0501-0600/509-26(B).pdf?__blob=publicationFile&v=1",
+  "sha256": "1f9697241d9b1d2ad73ad7d755f78a1347cd45d03cf084418dca703c9b54bebe",
+  "bytes": 146198
+ },
+ {
+  "name": "br-510-B",
+  "url": "https://www.bundesrat.de/SharedDocs/drucksachen/2026/0501-0600/510-26(B).pdf?__blob=publicationFile&v=1",
+  "fetchedAt": "2026-10-18T14:26:58.129827Z",
+  "status": 200,
+  "contentType": "application/pdf",
+  "finalUrl": "https://www.bundesrat.de/SharedDocs/drucksachen/2026/0501-0600/510-26(B).pdf?__blob=publicationFile&v=1",
+  "sha256": "8cc3d28816d0240ba876ec2d4f823f67b49366fd52b95a5dbd737b9c5bf30614",
+  "bytes": 118121
+ },
+ {
+  "name": "br-511-B",
+  "url": "https://www.bundesrat.de/SharedDocs/drucksachen/2026/0501-0600/511-26(B).pdf?__blob=publicationFile&v=1",
+  "fetchedAt": "2026-10-18T14:26:58.260460Z",
+  "status": 200,
+  "contentType": "application/pdf",
+  "finalUrl": "https://www.bundesrat.de/SharedDocs/drucksachen/2026/0501-0600/511-26(B).pdf?__blob=publicationFile&v=1",
+  "sha256": "82ab637bcce5f81b8a81193230be7a260318fd6240a5667f30a4645417ab63ce",
+  "bytes": 118189
+ },
+ {
+  "name": "br-512-B",
+  "url": "https://www.bundesrat.de/SharedDocs/drucksachen/2026/0501-0600/512-26(B).pdf?__blob=publicationFile&v=1",
+  "fetchedAt": "2026-10-18T14:26:58.372919Z",
+  "status": 200,
+  "contentType": "application/pdf",
+  "finalUrl": "https://www.bundesrat.de/SharedDocs/drucksachen/2026/0501-0600/512-26(B).pdf?__blob=publicationFile&v=1",
+  "sha256": "d4a04d98c045a2dd60a86eb4ed669dc99f7165e0548ad7ba334abd11656ee2b9",
+  "bytes": 117473
+ },
+ {
+  "name": "br-504-B",
+  "url": "https://www.bundesrat.de/SharedDocs/drucksachen/2026/0501-0600/504-26(B).pdf?__blob=publicationFile&v=1",
+  "fetchedAt": "2026-10-18T14:26:58.491598Z",
+  "status": 200,
+  "contentType": "application/pdf",
+  "finalUrl": "https://www.bundesrat.de/SharedDocs/drucksachen/2026/0501-0600/504-26(B).pdf?__blob=publicationFile&v=1",
+  "sha256": "d2e6f6e2e0fadd5ff3c310c895cfe3e6c434f4ac3410d3d31296e3293852545c",
+  "bytes": 250079
+ },
+ {
+  "name": "br-502-B",
+  "url": "https://www.bundesrat.de/SharedDocs/drucksachen/2026/0501-0600/502-26(B).pdf?__blob=publicationFile&v=1",
+  "fetchedAt": "2026-10-18T14:26:58.624659Z",
+  "status": 200,
+  "contentType": "application/pdf",
+  "finalUrl": "https://www.bundesrat.de/SharedDocs/drucksachen/2026/0501-0600/502-26(B).pdf?__blob=publicationFile&v=1",
+  "sha256": "82509f69a9181f7c2d8b68deb89c6e894e548fe0e9edc62180d494b9d1f7ceca",
+  "bytes": 200381
+ },
+ {
+  "name": "br-483-B",
+  "url": "https://www.bundesrat.de/SharedDocs/drucksachen/2026/0401-0500/483-26(B).pdf?__blob=publicationFile&v=1",
+  "fetchedAt": "2026-10-18T14:26:58.752256Z",
+  "status": 200,
+  "contentType": "application/pdf",
+  "finalUrl": "https://www.bundesrat.de/SharedDocs/drucksachen/2026/0401-0500/483-26(B).pdf?__blob=publicationFile&v=1",
+  "sha256": "7b50c6a099b4ff6ecc19371841ab360f4edca959e12b9ef26777b8e43bccb7ea",
+  "bytes": 114932
+ },
+ {
+  "name": "br-575-B",
+  "url": "https://www.bundesrat.de/SharedDocs/drucksachen/2026/0501-0600/575-26(B).pdf?__blob=publicationFile&v=1",
+  "fetchedAt": "2026-10-18T14:26:58.865103Z",
+  "error": "<HTTPError 404: 'Not Found'>",
+  "status": 404
+ },
+ {
+  "name": "br-583-B",
+  "url": "https://www.bundesrat.de/SharedDocs/drucksachen/2026/0501-0600/583-26(B).pdf?__blob=publicationFile&v=1",
+  "fetchedAt": "2026-10-18T14:26:58.942734Z",
+  "status": 200,
+  "contentType": "application/pdf",
+  "finalUrl": "https://www.bundesrat.de/SharedDocs/drucksachen/2026/0501-0600/583-26(B).pdf?__blob=publicationFile&v=1",
+  "sha256": "b6a214c36b7960fad13c37ac5cfe8588e297ba5b0977e17326c6329d481ccf8c",
+  "bytes": 114930
+ },
+ {
+  "name": "br-532-B",
+  "url": "https://www.bundesrat.de/SharedDocs/drucksachen/2026/0501-0600/532-26(B).pdf?__blob=publicationFile&v=1",
+  "fetchedAt": "2026-10-18T14:26:59.059566Z",
+  "status": 200,
+  "contentType": "application/pdf",
+  "finalUrl": "https://www.bundesrat.de/SharedDocs/drucksachen/2026/0501-0600/532-26(B).pdf?__blob=publicationFile&v=1",
+  "sha256": "17e8e34ecd1d22e59628409170bf46f68d74caed59729ae57fbf146e50b85272",
+  "bytes": 141416
+ },
+ {
+  "name": "br-521-B",
+  "url": "https://www.bundesrat.de/SharedDocs/drucksachen/2026/0501-0600/521-26(B).pdf?__blob=publicationFile&v=1",
+  "fetchedAt": "2026-10-18T14:26:59.195116Z",
+  "status": 200,
+  "contentType": "application/pdf",
+  "finalUrl": "https://www.bundesrat.de/SharedDocs/drucksachen/2026/0501-0600/521-26(B).pdf?__blob=publicationFile&v=1",
+  "sha256": "bed4708f690d90fc540e27b06f2db235ebfc4857117cf8365c500ac47ac6c76d",
+  "bytes": 140376
+ },
+ {
+  "name": "br-534-B",
+  "url": "https://www.bundesrat.de/SharedDocs/drucksachen/2026/0501-0600/534-26(B).pdf?__blob=publicationFile&v=1",
+  "fetchedAt": "2026-10-18T14:26:59.328098Z",
+  "status": 200,
+  "contentType": "application/pdf",
+  "finalUrl": "https://www.bundesrat.de/SharedDocs/drucksachen/2026/0501-0600/534-26(B).pdf?__blob=publicationFile&v=1",
+  "sha256": "0a971dd219b7267896c3f255ccdd79278a7c9d660540f6dcc17a4255a3726ce2",
+  "bytes": 149549
+ },
+ {
+  "name": "br-513-B",
+  "url": "https://www.bundesrat.de/SharedDocs/drucksachen/2026/0501-0600/513-26(B).pdf?__blob=publicationFile&v=1",
+  "fetchedAt": "2026-10-18T14:26:59.435390Z",
+  "status": 200,
+  "contentType": "application/pdf",
+  "finalUrl": "https://www.bundesrat.de/SharedDocs/drucksachen/2026/0501-0600/513-26(B).pdf?__blob=publicationFile&v=1",
+  "sha256": "f7098fbea06fe5f02282641e806b636965191e4cbe8c44208001ed9cd649ce48",
+  "bytes": 140113
+ },
+ {
+  "name": "br-518-B",
+  "url": "https://www.bundesrat.de/SharedDocs/drucksachen/2026/0501-0600/518-26(B).pdf?__blob=publicationFile&v=1",
+  "fetchedAt": "2026-10-18T14:26:59.561035Z",
+  "status": 200,
+  "contentType": "application/pdf",
+  "finalUrl": "https://www.bundesrat.de/SharedDocs/drucksachen/2026/0501-0600/518-26(B).pdf?__blob=publicationFile&v=1",
+  "sha256": "4a923b9c70d7db9b56f7f40dda1c20f9951039c5f86b47e4ece5a13c7508528e",
+  "bytes": 136213
+ },
+ {
+  "name": "br-594-B",
+  "url": "https://www.bundesrat.de/SharedDocs/drucksachen/2026/0501-0600/594-26(B).pdf?__blob=publicationFile&v=1",
+  "fetchedAt": "2026-10-18T14:26:59.671091Z",
+  "error": "<HTTPError 404: 'Not Found'>",
+  "status": 404
+ },
+ {
+  "name": "br-544-B",
+  "url": "https://www.bundesrat.de/SharedDocs/drucksachen/2026/0501-0600/544-26(B).pdf?__blob=publicationFile&v=1",
+  "fetchedAt": "2026-10-18T14:26:59.741930Z",
+  "error": "<HTTPError 404: 'Not Found'>",
+  "status": 404
+ },
+ {
+  "name": "br-343-B",
+  "url": "https://www.bundesrat.de/SharedDocs/drucksachen/2026/0301-0400/343-26(B).pdf?__blob=publicationFile&v=1",
+  "fetchedAt": "2026-10-18T14:26:59.813585Z",
+  "status": 200,
+  "contentType": "application/pdf",
+  "finalUrl": "https://www.bundesrat.de/SharedDocs/drucksachen/2026/0301-0400/343-26(B).pdf?__blob=publicationFile&v=1",
+  "sha256": "03e0e987865d6a0cc7eaeddc1bfe8e40c31000217deb256ed8783fe0b476f440",
+  "bytes": 132112
+ },
+ {
+  "name": "br-543-B",
+  "url": "https://www.bundesrat.de/SharedDocs/drucksachen/2026/0501-0600/543-26(B).pdf?__blob=publicationFile&v=1",
+  "fetchedAt": "2026-10-18T14:26:59.922683Z",
+  "status": 200,
+  "contentType": "application/pdf",
+  "finalUrl": "https://www.bundesrat.de/SharedDocs/drucksachen/2026/0501-0600/543-26(B).pdf?__blob=publicationFile&v=1",
+  "sha256": "2aa27ba2bfc9d6841935e73b7dbe7cf5a087d7afc9e542ce6b3b2970539b898b",
+  "bytes": 159949
+ },
+ {
+  "name": "br-568-B",
+  "url": "https://www.bundesrat.de/SharedDocs/drucksachen/2026/0501-0600/568-26(B).pdf?__blob=publicationFile&v=1",
+  "fetchedAt": "2026-10-18T14:27:00.044009Z",
+  "error": "<HTTPError 404: 'Not Found'>",
+  "status": 404
+ },
+ {
+  "name": "br-525-B",
+  "url": "https://www.bundesrat.de/SharedDocs/drucksachen/2026/0501-0600/525-26(B).pdf?__blob=publicationFile&v=1",
+  "fetchedAt": "2026-10-18T14:27:00.114420Z",
+  "status": 200,
+  "contentType": "application/pdf",
+  "finalUrl": "https://www.bundesrat.de/SharedDocs/drucksachen/2026/0501-0600/525-26(B).pdf?__blob=publicationFile&v=1",
+  "sha256": "1a6b39854c98f749a92cba62ca1a8a8eb566ffbad58624561daf62e558036f4a",
+  "bytes": 136803
+ },
+ {
+  "name": "br-584-B",
+  "url": "https://www.bundesrat.de/SharedDocs/drucksachen/2026/0501-0600/584-26(B).pdf?__blob=publicationFile&v=1",
+  "fetchedAt": "2026-10-18T14:27:00.246159Z",
+  "status": 200,
+  "contentType": "application/pdf",
+  "finalUrl": "https://www.bundesrat.de/SharedDocs/drucksachen/2026/0501-0600/584-26(B).pdf?__blob=publicationFile&v=1",
+  "sha256": "0f8e0b0671949ec55bf0b619d30b64d129742b914c738a31670573504c817ff5",
+  "bytes": 115804
+ },
+ {
+  "name": "br-598-B",
+  "url": "https://www.bundesrat.de/SharedDocs/drucksachen/2026/0501-0600/598-26(B).pdf?__blob=publicationFile&v=1",
+  "fetchedAt": "2026-10-18T14:27:00.365851Z",
+  "error": "<HTTPError 404: 'Not Found'>",
+  "status": 404
+ },
+ {
+  "name": "br-578-24-B",
+  "url": "https://www.bundesrat.de/SharedDocs/drucksachen/2024/0501-0600/578-24(B).pdf?__blob=publicationFile&v=1",
+  "fetchedAt": "2026-10-18T14:27:00.442012Z",
+  "status": 200,
+  "contentType": "application/pdf",
+  "finalUrl": "https://www.bundesrat.de/SharedDocs/drucksachen/2024/0501-0600/578-24(B).pdf?__blob=publicationFile&v=1",
+  "sha256": "aa2b5489d9fa8a36982818de3c7c421483ec69ab399a5ebe552177ac72b490a2",
+  "bytes": 140007
+ },
+ {
+  "name": "br-drs-575",
+  "url": "https://www.bundesrat.de/drs.html?id=575-26",
+  "fetchedAt": "2026-10-18T14:27:25.868020Z",
+  "status": 200,
+  "contentType": "application/pdf",
+  "finalUrl": "https://www.bundesrat.de/SharedDocs/drucksachen/2026/0501-0600/575-26.pdf?__blob=publicationFile&v=1",
+  "sha256": "12b43abfd28341a7375392af053033b3c6e3c40e2c47474620954c05ea9c681e",
+  "bytes": 1455927
+ },
+ {
+  "name": "br-drs-544",
+  "url": "https://www.bundesrat.de/drs.html?id=544-26",
+  "fetchedAt": "2026-10-18T14:27:26.147970Z",
+  "status": 200,
+  "contentType": "application/pdf",
+  "finalUrl": "https://www.bundesrat.de/SharedDocs/drucksachen/2026/0501-0600/544-26.pdf?__blob=publicationFile&v=1",
+  "sha256": "c34a1ea6b49fb292f1933f164b8fdb49e04e8ef52e53ed8336bfb93fe1f6b407",
+  "bytes": 1325077
+ },
+ {
+  "name": "br-drs-568",
+  "url": "https://www.bundesrat.de/drs.html?id=568-26",
+  "fetchedAt": "2026-10-18T14:27:26.406227Z",
+  "status": 200,
+  "contentType": "application/pdf",
+  "finalUrl": "https://www.bundesrat.de/SharedDocs/drucksachen/2026/0501-0600/568-26.pdf?__blob=publicationFile&v=1",
+  "sha256": "c134133c29bc0f580fb97a1c877a81fa4a596d4df380dab26262c0a9f5c80ad6",
+  "bytes": 752802
+ },
+ {
+  "name": "br-drs-594",
+  "url": "https://www.bundesrat.de/drs.html?id=594-26",
+  "fetchedAt": "2026-10-18T14:27:26.637316Z",
+  "status": 200,
+  "contentType": "application/pdf",
+  "finalUrl": "https://www.bundesrat.de/SharedDocs/drucksachen/2026/0501-0600/594-26.pdf?__blob=publicationFile&v=1",
+  "sha256": "8fe027179d50d1feb372545eedf4c7da14e0a8a2e5d2e319f2a757c1cac7cde0",
+  "bytes": 1279986
+ },
+ {
+  "name": "br-top-16",
+  "url": "https://www.bundesrat.de/SharedDocs/TO/1069/tagesordnung-1069.html?topNr=16",
+  "fetchedAt": "2026-10-18T14:27:39.511684Z",
+  "status": 200,
+  "contentType": "text/html;charset=utf-8",
+  "finalUrl": "https://www.bundesrat.de/SharedDocs/TO/1069/tagesordnung-1069.html?topNr=16",
+  "sha256": "455be93fd2e314ba8bbadfaf11470e2fe6ab11735ac11f77e4c1549f5091218f",
+  "bytes": 190905
+ },
+ {
+  "name": "br-top-47",
+  "url": "https://www.bundesrat.de/SharedDocs/TO/1069/tagesordnung-1069.html?topNr=47",
+  "fetchedAt": "2026-10-18T14:27:41.724098Z",
+  "status": 200,
+  "contentType": "text/html;charset=utf-8",
+  "finalUrl": "https://www.bundesrat.de/SharedDocs/TO/1069/tagesordnung-1069.html?topNr=47",
+  "sha256": "a25c23ed99ed70a0f7393be2ee932b10747428026a9ae2c8e65a4c94922ab4fc",
+  "bytes": 191613
+ },
+ {
+  "name": "br-top-48",
+  "url": "https://www.bundesrat.de/SharedDocs/TO/1069/tagesordnung-1069.html?topNr=48",
+  "fetchedAt": "2026-10-18T14:27:44.092243Z",
+  "status": 200,
+  "contentType": "text/html;charset=utf-8",
+  "finalUrl": "https://www.bundesrat.de/SharedDocs/TO/1069/tagesordnung-1069.html?topNr=48",
+  "sha256": "c8b5a40ea3a33e10ed7576d1da0a4af3b6df88ed326c0c83ba05fdcd6d41d21b",
+  "bytes": 191685
+ },
+ {
+  "name": "br-top-49",
+  "url": "https://www.bundesrat.de/SharedDocs/TO/1069/tagesordnung-1069.html?topNr=49",
+  "fetchedAt": "2026-10-18T14:27:46.181579Z",
+  "status": 200,
+  "contentType": "text/html;charset=utf-8",
+  "finalUrl": "https://www.bundesrat.de/SharedDocs/TO/1069/tagesordnung-1069.html?topNr=49",
+  "sha256": "fb6a77e95651bcbdc20d3e8f470e39e8c602afbca00d8d3a5f2a2ce84abb12c9",
+  "bytes": 192657
+ },
+ {
+  "name": "br-top-58",
+  "url": "https://www.bundesrat.de/SharedDocs/TO/1069/tagesordnung-1069.html?topNr=58",
+  "fetchedAt": "2026-10-18T14:27:48.188531Z",
+  "status": 200,
+  "contentType": "text/html;charset=utf-8",
+  "finalUrl": "https://www.bundesrat.de/SharedDocs/TO/1069/tagesordnung-1069.html?topNr=58",
+  "sha256": "c758878f55d213a1559919c22ea25875ba1d000f2c8a82b549cd8b7aaae5161c",
+  "bytes": 190795
+ },
+ {
+  "name": "br-top-24",
+  "url": "https://www.bundesrat.de/SharedDocs/TO/1069/tagesordnung-1069.html?topNr=24",
+  "fetchedAt": "2026-10-18T14:27:50.246889Z",
+  "status": 200,
+  "contentType": "text/html;charset=utf-8",
+  "finalUrl": "https://www.bundesrat.de/SharedDocs/TO/1069/tagesordnung-1069.html?topNr=24",
+  "sha256": "4c7c22457c3f80edbc146cdb5f462ad76ceb0b290b919609cf2152b85c76c78c",
+  "bytes": 192386
+ },
+ {
+  "name": "bt-fruehstart",
+  "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw42-de-fruehstartrente-1223624",
+  "fetchedAt": "2026-10-18T14:28:09.635769Z",
+  "status": 200,
+  "contentType": "text/html;charset=UTF-8",
+  "finalUrl": "https://www.bundestag.de/dokumente/textarchiv/2026/kw42-de-fruehstartrente-1223624",
+  "sha256": "eddabec34ee1210c013ffacc27ff4f15f83466194072c90c36750081503edb55",
+  "bytes": 502751
+ },
+ {
+  "name": "bt-tabak",
+  "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw42-de-tabaksteuer-1224154",
+  "fetchedAt": "2026-10-18T14:28:09.832900Z",
+  "status": 200,
+  "contentType": "text/html;charset=UTF-8",
+  "finalUrl": "https://www.bundestag.de/dokumente/textarchiv/2026/kw42-de-tabaksteuer-1224154",
+  "sha256": "bd7d6b32a05a0c8370be1a7f04a791990ec01b2310e8567e18357fd4257ef13c",
+  "bytes": 372277
+ },
+ {
+  "name": "bt-behg",
+  "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw42-de-brennstoffemissionshandelsgesetz-1223608",
+  "fetchedAt": "2026-10-18T14:28:09.983939Z",
+  "status": 200,
+  "contentType": "text/html;charset=UTF-8",
+  "finalUrl": "https://www.bundestag.de/dokumente/textarchiv/2026/kw42-de-brennstoffemissionshandelsgesetz-1223608",
+  "sha256": "f336cd8116f0d12c7e1285b5cc9ee9f8dd6a3b837f970ac9af37815940ec3d66",
+  "bytes": 364989
+ },
+ {
+  "name": "bt-bafoeg",
+  "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw42-de-bafoeg-1223582",
+  "fetchedAt": "2026-10-18T14:28:10.798822Z",
+  "status": 200,
+  "contentType": "text/html;charset=UTF-8",
+  "finalUrl": "https://www.bundestag.de/dokumente/textarchiv/2026/kw42-de-bafoeg-1223582",
+  "sha256": "10679837a55c238cea561967aad5287633dae303af0fb118af9b90b94671a4d3",
+  "bytes": 359232
+ },
+ {
+  "name": "bt-reserve",
+  "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw42-de-reservestaerkungsgesetz-1223596",
+  "fetchedAt": "2026-10-18T14:28:10.958763Z",
+  "status": 200,
+  "contentType": "text/html;charset=UTF-8",
+  "finalUrl": "https://www.bundestag.de/dokumente/textarchiv/2026/kw42-de-reservestaerkungsgesetz-1223596",
+  "sha256": "c97f4f65c61edecdb5fc52ac67713eed85153f2c1c7f47da6d26e8ad91401c34",
+  "bytes": 309822
+ },
+ {
+  "name": "bt-bwinfra",
+  "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw42-de-bundeswehr-infrastruktur-1223614",
+  "fetchedAt": "2026-10-18T14:28:11.238188Z",
+  "status": 200,
+  "contentType": "text/html;charset=UTF-8",
+  "finalUrl": "https://www.bundestag.de/dokumente/textarchiv/2026/kw42-de-bundeswehr-infrastruktur-1223614",
+  "sha256": "1182fef3448e7da147a08617aa697081eee9f2332ea44f18f41aed6bf8e91407",
+  "bytes": 297489
+ },
+ {
+  "name": "bt-opfer",
+  "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw42-de-bundesopferbeauftragtengesetz-1223618",
+  "fetchedAt": "2026-10-18T14:28:11.383868Z",
+  "status": 200,
+  "contentType": "text/html;charset=UTF-8",
+  "finalUrl": "https://www.bundestag.de/dokumente/textarchiv/2026/kw42-de-bundesopferbeauftragtengesetz-1223618",
+  "sha256": "f05d9a81a7f986289a37c07755e695101c19b7f3bd753c31929050cc3a1438e7",
+  "bytes": 290720
+ },
+ {
+  "name": "bt-flucht",
+  "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw42-de-stiftung-flucht-1223616",
+  "fetchedAt": "2026-10-18T14:28:11.531366Z",
+  "status": 200,
+  "contentType": "text/html;charset=UTF-8",
+  "finalUrl": "https://www.bundestag.de/dokumente/textarchiv/2026/kw42-de-stiftung-flucht-1223616",
+  "sha256": "8fbcacfd07089f59512d8cba247e19eb4dab2fbf65a0bf72b82ae620c2c61428",
+  "bytes": 295854
+ },
+ {
+  "name": "bt-schieds",
+  "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw42-de-schiedsverfahrensrecht-1223634",
+  "fetchedAt": "2026-10-18T14:28:11.778228Z",
+  "status": 200,
+  "contentType": "text/html;charset=UTF-8",
+  "finalUrl": "https://www.bundestag.de/dokumente/textarchiv/2026/kw42-de-schiedsverfahrensrecht-1223634",
+  "sha256": "468dc19212ef4c80951c401972fe7a6b42c713c052557c6d65436a77a3374879",
+  "bytes": 312742
+ },
+ {
+  "name": "bt-agrar",
+  "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw42-de-buerokratierueckbau-agrar-1223612",
+  "fetchedAt": "2026-10-18T14:28:12.025700Z",
+  "status": 200,
+  "contentType": "text/html;charset=UTF-8",
+  "finalUrl": "https://www.bundestag.de/dokumente/textarchiv/2026/kw42-de-buerokratierueckbau-agrar-1223612",
+  "sha256": "45aa2f495832edaadf08dacbdc08483c2278f2f98fa32c1d02af056f95f6ecc7",
+  "bytes": 301042
+ },
+ {
+  "name": "bt-eudi",
+  "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw42-de-digitale-identitaeten-gesetz-1223586",
+  "fetchedAt": "2026-10-18T14:28:12.282051Z",
+  "status": 200,
+  "contentType": "text/html;charset=UTF-8",
+  "finalUrl": "https://www.bundestag.de/dokumente/textarchiv/2026/kw42-de-digitale-identitaeten-gesetz-1223586",
+  "sha256": "3289d83c5909fa7a21118f082a01a3e7b689dca5012b28a483eef73f4b86834b",
+  "bytes": 450061
+ },
+ {
+  "name": "bt-aspides",
+  "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw42-de-bundeswehr-eunavfor-aspides-1223590",
+  "fetchedAt": "2026-10-18T14:28:12.448626Z",
+  "status": 200,
+  "contentType": "text/html;charset=UTF-8",
+  "finalUrl": "https://www.bundestag.de/dokumente/textarchiv/2026/kw42-de-bundeswehr-eunavfor-aspides-1223590",
+  "sha256": "54fe367c0536fca9f3d782bea6f61947fa8005af944bc04205c48842c1866289",
+  "bytes": 403762
+ },
+ {
+  "name": "bt-unmiss",
+  "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw42-de-bundeswehr-unmiss-1223592",
+  "fetchedAt": "2026-10-18T14:28:12.779051Z",
+  "status": 200,
+  "contentType": "text/html;charset=UTF-8",
+  "finalUrl": "https://www.bundestag.de/dokumente/textarchiv/2026/kw42-de-bundeswehr-unmiss-1223592",
+  "sha256": "0f8b058c21fab972d73564f8bea77e3f0f2f700d98403e33dd696fbf7733bfb1",
+  "bytes": 382236
+ },
+ {
+  "name": "bt-pflege",
+  "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw42-de-pflegeversicherung-1223626",
+  "fetchedAt": "2026-10-18T14:29:51.052571Z",
+  "status": 200,
+  "contentType": "text/html;charset=UTF-8",
+  "finalUrl": "https://www.bundestag.de/dokumente/textarchiv/2026/kw42-de-pflegeversicherung-1223626",
+  "sha256": "7d306fbe5d190e94e673e035f48a925e64d3eeaf7b037a84ba74bf3ea13b95cf",
+  "bytes": 453505
+ },
+ {
+  "name": "br-603-B",
+  "url": "https://www.bundesrat.de/SharedDocs/drucksachen/2026/0601-0700/603-26(B).pdf?__blob=publicationFile&v=1",
+  "fetchedAt": "2026-10-18T14:30:49.804903Z",
+  "status": 200,
+  "contentType": "application/pdf",
+  "finalUrl": "https://www.bundesrat.de/SharedDocs/drucksachen/2026/0601-0700/603-26(B).pdf?__blob=publicationFile&v=1",
+  "sha256": "ff409d932f56a2f91a7d4793a85f2c9d2542e0acdd2ef68762f64ff45a6333b7",
+  "bytes": 113623
+ },
+ {
+  "name": "fr-sp-part",
+  "url": "https://www.service-public.gouv.fr/particuliers/actualites",
+  "fetchedAt": "2026-10-18T14:31:14.114336Z",
+  "status": 200,
+  "contentType": "text/html;charset=UTF-8",
+  "finalUrl": "https://www.service-public.gouv.fr/particuliers/actualites",
+  "sha256": "c1579b0dead9b82e07f29c718138d8846cdbea799bf003baa21d6cf7259d3ec7",
+  "bytes": 72207
+ },
+ {
+  "name": "fr-sp-pro",
+  "url": "https://entreprendre.service-public.gouv.fr/actualites",
+  "fetchedAt": "2026-10-18T14:31:14.342537Z",
+  "status": 200,
+  "contentType": "text/html;charset=UTF-8",
+  "finalUrl": "https://entreprendre.service-public.gouv.fr/actualites",
+  "sha256": "a88cafcd0e44521a709168bb782c6597312566ea3506a5c0b4c1c11a02f92ab3",
+  "bytes": 94370
+ },
+ {
+  "name": "it-governo",
+  "url": "https://www.governo.it/",
+  "fetchedAt": "2026-10-18T14:31:14.595020Z",
+  "status": 200,
+  "contentType": "text/html; charset=utf-8",
+  "finalUrl": "https://www.governo.it/it",
+  "sha256": "d93e2e342ea1aa3073db0a38265e8a467da6e398a38debc96f14d7d356182588",
+  "bytes": 63645
+ },
+ {
+  "name": "it-cdm",
+  "url": "https://www.governo.it/it/consiglio-dei-ministri/comunicati-stampa",
+  "fetchedAt": "2026-10-18T14:31:14.749559Z",
+  "error": "<HTTPError 404: 'Not Found'>",
+  "status": 404
+ },
+ {
+  "name": "it-inps",
+  "url": "https://www.inps.it/it/it/inps-comunica/notizie.html",
+  "fetchedAt": "2026-10-18T14:31:15.667604Z",
+  "status": 200,
+  "contentType": "text/html;charset=utf-8",
+  "finalUrl": "https://www.inps.it/it/it/inps-comunica/notizie.html",
+  "sha256": "67eb1020a9a67d8644e3899e08528c0cb3b6cfec799d611b2755ef97ee36aa35",
+  "bytes": 853131
+ },
+ {
+  "name": "fr-a18903",
+  "url": "https://www.service-public.gouv.fr/particuliers/actualites/A18903",
+  "fetchedAt": "2026-10-18T14:31:51.319770Z",
+  "status": 200,
+  "contentType": "text/html;charset=UTF-8",
+  "finalUrl": "https://www.service-public.gouv.fr/particuliers/actualites/A18903",
+  "sha256": "21251dc84f7a38a60691d114ce0aecd15c3d7a15108d0ff482a36d3862b2b0c8",
+  "bytes": 72259
+ },
+ {
+  "name": "fr-dgfip-100",
+  "url": "https://www.impots.gouv.fr/actualite/extension-de-laide-de-100-eu-pour-les-travailleurs-grands-rouleurs",
+  "fetchedAt": "2026-10-18T14:31:51.689174Z",
+  "status": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "finalUrl": "https://www.impots.gouv.fr/actualite/extension-de-laide-de-100-eu-pour-les-travailleurs-grands-rouleurs",
+  "sha256": "8f3d560e563fdc238bff36e021957b7cb6f86e9d37e71eb1df623f95cc38fa71",
+  "bytes": 54506
+ },
+ {
+  "name": "fr-a17342",
+  "url": "https://www.service-public.gouv.fr/particuliers/actualites/A17342",
+  "fetchedAt": "2026-10-18T14:31:51.871810Z",
+  "status": 200,
+  "contentType": "text/html;charset=UTF-8",
+  "finalUrl": "https://www.service-public.gouv.fr/particuliers/actualites/A17342",
+  "sha256": "db169d8278b285a4fa4342c77d873e473fd81f85664eddd33379d288b61e781b",
+  "bytes": 54933
+ },
+ {
+  "name": "fr-a18466",
+  "url": "https://www.service-public.gouv.fr/particuliers/actualites/A18466",
+  "fetchedAt": "2026-10-18T14:31:52.102996Z",
+  "status": 200,
+  "contentType": "text/html;charset=UTF-8",
+  "finalUrl": "https://www.service-public.gouv.fr/particuliers/actualites/A18466",
+  "sha256": "2f70833fb21139eee71ad970cc5eb26824bce52499e13a5aeb88214184ba7464",
+  "bytes": 61926
+ },
+ {
+  "name": "it-cdm-archive",
+  "url": "https://www.governo.it/it/archivio-consiglio-dei-ministri",
+  "fetchedAt": "2026-10-18T14:32:20.054503Z",
+  "status": 200,
+  "contentType": "text/html; charset=utf-8",
+  "finalUrl": "https://www.governo.it/it/archivio-consiglio-dei-ministri",
+  "sha256": "f6d7a5609971e6d94a580b480d9a514c043fb6151cab003ed93ea06fa9b3214d",
+  "bytes": 55525
+ },
+ {
+  "name": "it-cdm192",
+  "url": "https://www.governo.it/it/articolo/consiglio-dei-ministri-n-192/32830",
+  "fetchedAt": "2026-10-18T14:32:32.377486Z",
+  "status": 200,
+  "contentType": "text/html; charset=utf-8",
+  "finalUrl": "https://www.governo.it/it/articolo/consiglio-dei-ministri-n-192/32830",
+  "sha256": "6cdcb79e8a602e5fc391f2ff83e7e37b9fd496c805421f1b69dda838df8164f0",
+  "bytes": 40990
+ },
+ {
+  "name": "it-cdm192-com",
+  "url": "https://www.governo.it/it/articolo/comunicato-stampa-del-consiglio-dei-ministri-n-192/32836",
+  "fetchedAt": "2026-10-18T14:32:44.344181Z",
+  "status": 200,
+  "contentType": "text/html; charset=utf-8",
+  "finalUrl": "https://www.governo.it/it/articolo/comunicato-stampa-del-consiglio-dei-ministri-n-192/32836",
+  "sha256": "e39ebd18c595c62ec1c5005079d0713ad0e3dd034eb604b94375e4dbb43b72df",
+  "bytes": 74703
+ },
+ {
+  "name": "de-bmas",
+  "url": "https://www.bmas.de/DE/Service/Presse/Pressemitteilungen/pressemitteilungen.html",
+  "fetchedAt": "2026-10-18T14:32:59.511323Z",
+  "status": 200,
+  "contentType": "text/html;charset=utf-8",
+  "finalUrl": "https://www.bmas.de/DE/Service/Presse/Pressemitteilungen/pressemitteilungen.html",
+  "sha256": "eb32e0a256414f8a2dafb7dfe0ecc26bceef80683248f9234b20d68ae48467ea",
+  "bytes": 544278
+ },
+ {
+  "name": "de-bmg",
+  "url": "https://www.bundesgesundheitsministerium.de/suche-pressemitteilungen",
+  "fetchedAt": "2026-10-18T14:33:00.107504Z",
+  "status": 200,
+  "contentType": "text/html; charset=utf-8",
+  "finalUrl": "https://www.bundesgesundheitsministerium.de/suche-pressemitteilungen",
+  "sha256": "9fc837798a682a22e042d4ced54c833bfb2baef4c856c8a7e8ed24e7836a80f5",
+  "bytes": 430846
+ },
+ {
+  "name": "de-bmf",
+  "url": "https://www.bundesfinanzministerium.de/Web/DE/Service/Gesetze_Gesetzesvorhaben/Gesetze_Gesetzgebungsvorhaben.html",
+  "fetchedAt": "2026-10-18T14:33:00.544426Z",
+  "status": 200,
+  "contentType": "text/html;charset=utf-8",
+  "finalUrl": "https://www.bundesfinanzministerium.de/Web/DE/Service/Gesetze_Gesetzesvorhaben/Gesetze_Gesetzgebungsvorhaben.html",
+  "sha256": "fa99211912c911db9bdb74e0f85f64f7afb8e6a48af05eddb85a9e1e1b981989",
+  "bytes": 212820
+ },
+ {
+  "name": "de-breg-kab",
+  "url": "https://www.bundesregierung.de/breg-de/bundesregierung/kabinettsthemen",
+  "fetchedAt": "2026-10-18T14:33:01.003775Z",
+  "status": 200,
+  "contentType": "text/html;charset=UTF-8",
+  "finalUrl": "https://www.bundesregierung.de/breg-de/bundesregierung/kabinettsthemen",
+  "sha256": "c04efae4bdcbdda66fe9010e551d58042059738a87fa81850c22e0c173e68977",
+  "bytes": 136295
+ },
+ {
+  "name": "it-iter-60511",
+  "url": "https://www.parlamento.it/loc/link.asp?tipodoc=sddliter&leg=19&id=60511",
+  "fetchedAt": "2026-10-18T14:34:43.646721Z",
+  "status": 202,
+  "contentType": "text/html; charset=UTF-8",
+  "finalUrl": "https://www.senato.it/leggi-e-documenti/disegni-di-legge/scheda-ddl?did=60511",
+  "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "bytes": 0
+ },
+ {
+  "name": "it-bollette",
+  "url": "https://www.governo.it/it/articolo/dl-bollette-intesa-italia-commissione-ue-tutela-famiglie-e-imprese/32866",
+  "fetchedAt": "2026-10-18T14:35:44.494430Z",
+  "status": 200,
+  "contentType": "text/html; charset=utf-8",
+  "finalUrl": "https://www.governo.it/it/articolo/dl-bollette-intesa-italia-commissione-ue-tutela-famiglie-e-imprese/32866",
+  "sha256": "8eefaa27f751ec2683f93e286e84254a1b37b301bfe7dfddbdc0486371f9b180",
+  "bytes": 41424
+ }
+]

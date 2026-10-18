@@ -4780,6 +4780,12 @@
         {
           "region": "EU",
           "officialId": "OJ:L_202602281"
+        },
+        {
+          "region": "EU",
+          "url": "https://finance.ec.europa.eu/news/eu-adopts-largest-ever-package-listings-against-russia-2026-10-12_en",
+          "title": "EU adopts largest-ever package of listings against Russia",
+          "appliesFromExport": "2026-10-18T15:39:12.968Z"
         }
       ],
       "appliesFromExport": "2026-10-18T15:15:34.130Z"
@@ -4982,6 +4988,26 @@
         "eu-tax-haven-list-2026-10"
       ],
       "appliesFromExport": "2026-10-18T15:15:34.130Z"
+    },
+    {
+      "id": "eu-sis-union-interest-alerts",
+      "title": [
+        "申根信息系统“欧盟利益信息警报”启用",
+        "Schengen Information System Union-interest alerts start"
+      ],
+      "basis": "The Home Affairs news of 15 October announces the same start of information alerts that Commission Implementing Decision (EU) 2026/2284 sets for 15 October.",
+      "documents": [
+        {
+          "region": "EU",
+          "officialId": "OJ:L_202602284"
+        },
+        {
+          "region": "EU",
+          "url": "https://home-affairs.ec.europa.eu/news/new-information-alert-schengen-information-system-improve-security-2026-10-15_en",
+          "title": "New information alert in the Schengen Information System to improve security"
+        }
+      ],
+      "appliesFromExport": "2026-10-18T15:39:12.968Z"
     }
   ]
 }

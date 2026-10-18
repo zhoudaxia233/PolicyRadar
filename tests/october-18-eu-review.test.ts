@@ -41,7 +41,9 @@ test('the pharmaceutical reform stays pending after the Council positions are pu
 
 test('sanctions decisions and regulations are one matter each',()=>{
  const t=topics.find(t=>t.id==='eu-russia-military-industrial-listing-2026-10-acts')!;
- assert.deepEqual([...t.recordIds].sort(),['eu-oj-l-202602279','eu-oj-l-202602281']);
+ for(const id of ['eu-oj-l-202602279','eu-oj-l-202602281'])assert(t.recordIds.includes(id),id);
+ // The Commission's announcement of the same package joined the group later.
+ assert(t.recordIds.includes('eu-news-20261012-russia-listings'));
  assert.match(revision('eu-russia-military-industrial-listing-2026-10',1).summary,/826个实体和743人/);
 });
 

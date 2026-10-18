@@ -1,0 +1,260 @@
+[
+ {
+  "name": "fr-a17342",
+  "url": "https://www.service-public.gouv.fr/particuliers/actualites/A17342",
+  "fetchedAt": "2026-10-18T16:02:21.361100Z",
+  "status": 200,
+  "contentType": "text/html;charset=UTF-8",
+  "finalUrl": "https://www.service-public.gouv.fr/particuliers/actualites/A17342",
+  "sha256": "20edab2fffe520a674cfda32c562b6465fa618e1ac5875ab395c76cffce6347e",
+  "bytes": 54933
+ },
+ {
+  "name": "fr-a18466",
+  "url": "https://www.service-public.gouv.fr/particuliers/actualites/A18466",
+  "fetchedAt": "2026-10-18T16:02:21.636926Z",
+  "status": 200,
+  "contentType": "text/html;charset=UTF-8",
+  "finalUrl": "https://www.service-public.gouv.fr/particuliers/actualites/A18466",
+  "sha256": "71b8b1a5d2b2e2547a4574c752a15c4da247a2f1c88255d925283138656b5b88",
+  "bytes": 61926
+ },
+ {
+  "name": "fr-an-109",
+  "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/comdamner_instrumentalisation_politique_lyceens",
+  "fetchedAt": "2026-10-18T16:02:21.852546Z",
+  "status": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "finalUrl": "https://www.assemblee-nationale.fr/dyn/17/dossiers/comdamner_instrumentalisation_politique_lyceens",
+  "sha256": "09387598bb7e81f5e65492660f1b952c86db415b7522c77d053b8384cf4f7ab5",
+  "bytes": 72173
+ },
+ {
+  "name": "fr-an-110",
+  "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/moratoire_centres_donnees_non_souverains",
+  "fetchedAt": "2026-10-18T16:02:22.174519Z",
+  "status": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "finalUrl": "https://www.assemblee-nationale.fr/dyn/17/dossiers/moratoire_centres_donnees_non_souverains",
+  "sha256": "2a5c2d6cc9618cbcce7d8a80173367c35577727fa9c0fc0b17b616a2968a93ba",
+  "bytes": 71467
+ },
+ {
+  "name": "fr-naq-318",
+  "url": "https://www.nouvelle-aquitaine.fr/linstitution/le-conseil-regional/les-seances-plenieres/seance-pleniere-des-12-et-13-octobre-2026",
+  "fetchedAt": "2026-10-18T16:02:22.533738Z",
+  "status": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "finalUrl": "https://www.nouvelle-aquitaine.fr/linstitution/le-conseil-regional/les-seances-plenieres/seance-pleniere-des-12-et-13-octobre-2026",
+  "sha256": "c92c5ce02c37440594fa9d1ae6759e8c5e2b68b400bc2d2889f962e8f2103473",
+  "bytes": 155459
+ },
+ {
+  "name": "fr-amf-333",
+  "url": "https://www.amf-france.org/fr/actualites-publications/actualites/lautorite-des-marches-financiers-publie-une-nouvelle-instruction-relative-aux-modalites-de-gestion",
+  "fetchedAt": "2026-10-18T16:02:25.053486Z",
+  "status": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "finalUrl": "https://www.amf-france.org/fr/actualites-publications/actualites/lautorite-des-marches-financiers-publie-une-nouvelle-instruction-relative-aux-modalites-de-gestion",
+  "sha256": "6e7ca55fcc1a6bfb7b862b080e27192de80d72edb170299f0bab5979bb33c387",
+  "bytes": 81852
+ },
+ {
+  "name": "fr-an-3289",
+  "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/faire_egalite_territoires_priorites_ensemble_politiques_publiques",
+  "fetchedAt": "2026-10-18T16:02:25.202655Z",
+  "status": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "finalUrl": "https://www.assemblee-nationale.fr/dyn/17/dossiers/faire_egalite_territoires_priorites_ensemble_politiques_publiques",
+  "sha256": "88b2c86885721201d64cdd7c411df5b2f3ca59f6fd074a56b1768aa3a063943b",
+  "bytes": 71842
+ },
+ {
+  "name": "fr-d920",
+  "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054945173",
+  "fetchedAt": "2026-10-18T16:02:36.273729Z",
+  "error": "<HTTPError 403: 'Forbidden'>",
+  "status": 403
+ },
+ {
+  "name": "fr-ges-111",
+  "url": "https://www.grandest.fr/actualites/eau-biodiversite-et-climat-25-me-pour-ses-territoires/",
+  "fetchedAt": "2026-10-18T16:02:36.428281Z",
+  "status": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "finalUrl": "https://www.grandest.fr/actualites/eau-biodiversite-et-climat-25-me-pour-ses-territoires/",
+  "sha256": "d2eb58c0f6f246e9c96262b8de8ce74b676390000fa2e89b40be4bebb6689d46",
+  "bytes": 55146
+ },
+ {
+  "name": "fr-bre-53",
+  "url": "https://www.bretagne.bzh/presse/communiques-dossiers/space-2026-la-region-bretagne-annonce-le-renforcement-de-ses-aides-agricoles/",
+  "fetchedAt": "2026-10-18T16:02:36.606813Z",
+  "error": "<HTTPError 403: 'Forbidden'>",
+  "status": 403
+ },
+ {
+  "name": "fr-971-01",
+  "url": "https://www.regionguadeloupe.fr/Publication-des-actes-administratifs",
+  "fetchedAt": "2026-10-18T16:02:36.716850Z",
+  "error": "URLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1081)'))"
+ },
+ {
+  "name": "fr-973-113",
+  "url": "https://www.ctguyane.fr/pmi-la-ctg-clarifie-le-cadre-de-son-partenariat-avec-le-chu-de-guyane/",
+  "fetchedAt": "2026-10-18T16:02:36.782309Z",
+  "status": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "finalUrl": "https://www.ctguyane.fr/pmi-la-ctg-clarifie-le-cadre-de-son-partenariat-avec-le-chu-de-guyane/",
+  "sha256": "b65fc668a425c05ef9acb38a53a4e3e416f98e9e0f5ceda3283d99aa9df729e1",
+  "bytes": 255039
+ },
+ {
+  "name": "fr-psy",
+  "url": "https://www.legifrance.gouv.fr/jorf/article_jo/JORFARTI000053226687",
+  "fetchedAt": "2026-10-18T16:02:37.050359Z",
+  "error": "<HTTPError 403: 'Forbidden'>",
+  "status": 403
+ },
+ {
+  "name": "it-cdm191",
+  "url": "https://www.governo.it/it/articolo/comunicato-stampa-del-consiglio-dei-ministri-n-191/32740",
+  "fetchedAt": "2026-10-18T16:02:37.136232Z",
+  "status": 200,
+  "contentType": "text/html; charset=utf-8",
+  "finalUrl": "https://www.governo.it/it/articolo/comunicato-stampa-del-consiglio-dei-ministri-n-191/32740",
+  "sha256": "0fe3a23c62b73956b61adbf8d357aef26b12e248e3067e597b35d5f5efc64385",
+  "bytes": 82384
+ },
+ {
+  "name": "it-cdm192",
+  "url": "https://www.governo.it/it/articolo/comunicato-stampa-del-consiglio-dei-ministri-n-192/32836",
+  "fetchedAt": "2026-10-18T16:02:37.269948Z",
+  "status": 200,
+  "contentType": "text/html; charset=utf-8",
+  "finalUrl": "https://www.governo.it/it/articolo/comunicato-stampa-del-consiglio-dei-ministri-n-192/32836",
+  "sha256": "690a467f00a354929bf067bd3c234fcfffb0452bafa5a664199c0b40e2effa50",
+  "bytes": 74707
+ },
+ {
+  "name": "it-bollette",
+  "url": "https://www.governo.it/it/articolo/dl-bollette-intesa-italia-commissione-ue-tutela-famiglie-e-imprese/32866",
+  "fetchedAt": "2026-10-18T16:02:37.406962Z",
+  "status": 200,
+  "contentType": "text/html; charset=utf-8",
+  "finalUrl": "https://www.governo.it/it/articolo/dl-bollette-intesa-italia-commissione-ue-tutela-famiglie-e-imprese/32866",
+  "sha256": "5fe622cd07c5548719711766b3c239c078569f9fc665befca1fcc6541c2dd91a",
+  "bytes": 41424
+ },
+ {
+  "name": "it-puglia",
+  "url": "https://www.regione.puglia.it/web/politiche-migratorie/-/approvato-l-avviso-pubblico-per-l-attivazione-dei-mediatori-interculturali-negli-istituti-comprensivi-delle-citt%C3%A0-capoluogo-della-regione-puglia?redirect=%2F&utm_campaign=home-page-istituzionale&utm_source=approvato-l-avviso-pubblico-per-l-attivazione-dei-mediatori-interculturali-negli-istituti-comprensivi-delle-citt%C3%A0-capoluogo-della-regione-puglia&utm_medium=card3",
+  "fetchedAt": "2026-10-18T16:02:37.647994Z",
+  "status": 200,
+  "contentType": "text/html;charset=UTF-8",
+  "finalUrl": "https://www.regione.puglia.it/web/politiche-migratorie/-/approvato-l-avviso-pubblico-per-l-attivazione-dei-mediatori-interculturali-negli-istituti-comprensivi-delle-citt%C3%A0-capoluogo-della-regione-puglia?redirect=%2F&utm_campaign=home-page-istituzionale&utm_source=approvato-l-avviso-pubblico-per-l-attivazione-dei-mediatori-interculturali-negli-istituti-comprensivi-delle-citt%C3%A0-capoluogo-della-regione-puglia&utm_medium=card3",
+  "sha256": "4b594afd1c999ab637c34da631fe1ad05c5848a9167530dc033675be386cc7b6",
+  "bytes": 133906
+ },
+ {
+  "name": "it-veneto",
+  "url": "https://www.regione.veneto.it/web/guest/article-detail?articleId=14416684",
+  "fetchedAt": "2026-10-18T16:02:38.193518Z",
+  "status": 200,
+  "contentType": "text/html;charset=UTF-8",
+  "finalUrl": "https://www.regione.veneto.it/web/guest/article-detail?articleId=14416684",
+  "sha256": "aa904ad279301e87305011847076d904b228f1ac9354b3ba03edb655f315cb3b",
+  "bytes": 38922
+ },
+ {
+  "name": "fr-971-01",
+  "url": "https://www.regionguadeloupe.fr/Publication-des-actes-administratifs",
+  "fetchedAt": "2026-10-18T16:03:10.153966Z",
+  "status": 200,
+  "contentType": "text/html; charset=utf-8",
+  "finalUrl": "https://www.regionguadeloupe.fr/Publication-des-actes-administratifs",
+  "sha256": "61dbb093265d56e9de97097a27dbdc57406d51fc42de41b5ea0cd11236d434d5",
+  "bytes": 231546,
+  "via": "curl (system trust store)"
+ },
+ {
+  "name": "fr-a19091",
+  "url": "https://www.service-public.gouv.fr/particuliers/actualites/A19091",
+  "fetchedAt": "2026-10-18T16:03:10.198702Z",
+  "status": 200,
+  "contentType": "text/html;charset=UTF-8",
+  "finalUrl": "https://www.service-public.gouv.fr/particuliers/actualites/A19091",
+  "sha256": "566a09578464d447352d767624e4bb427ed321724ab349778efa46bc617c5f0c",
+  "bytes": 64664
+ },
+ {
+  "name": "an-3292",
+  "url": "https://www.assemblee-nationale.fr/dyn/17/textes/l17b3292_proposition-resolution",
+  "fetchedAt": "2026-10-18T16:04:06.638622Z",
+  "status": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "finalUrl": "https://www.assemblee-nationale.fr/dyn/17/textes/l17b3292_proposition-resolution",
+  "sha256": "e2a25924eedd7c68c2c7370e58d0f36ec1a1632e6a63b17938258be421818e86",
+  "bytes": 74801
+ },
+ {
+  "name": "an-3293",
+  "url": "https://www.assemblee-nationale.fr/dyn/17/textes/l17b3293_proposition-resolution",
+  "fetchedAt": "2026-10-18T16:04:06.915668Z",
+  "status": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "finalUrl": "https://www.assemblee-nationale.fr/dyn/17/textes/l17b3293_proposition-resolution",
+  "sha256": "674b33302d4a3aeda6e1eae7ee395f720213498d8de23592b842e26a55920705",
+  "bytes": 74708
+ },
+ {
+  "name": "an-3289",
+  "url": "https://www.assemblee-nationale.fr/dyn/17/textes/l17b3289_proposition-resolution",
+  "fetchedAt": "2026-10-18T16:04:07.146141Z",
+  "status": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "finalUrl": "https://www.assemblee-nationale.fr/dyn/17/textes/l17b3289_proposition-resolution",
+  "sha256": "0c889ade46100b787a0b708902dd91462269fa33dced0be6e897caca27550374",
+  "bytes": 66143
+ },
+ {
+  "name": "an-3292-pdf",
+  "url": "https://www.assemblee-nationale.fr/dyn/17/textes/l17b3292_proposition-resolution.pdf",
+  "fetchedAt": "2026-10-18T16:04:26.958356Z",
+  "status": 200,
+  "contentType": "application/pdf",
+  "finalUrl": "https://www.assemblee-nationale.fr/dyn/17/textes/l17b3292_proposition-resolution.pdf",
+  "sha256": "fd1a173c914b30d8e1f0194e9926fbb1d4493eaa35b2594818ac6f951f8ed9cf",
+  "bytes": 96273
+ },
+ {
+  "name": "an-3293-pdf",
+  "url": "https://www.assemblee-nationale.fr/dyn/17/textes/l17b3293_proposition-resolution.pdf",
+  "fetchedAt": "2026-10-18T16:04:31.984154Z",
+  "status": 200,
+  "contentType": "application/pdf",
+  "finalUrl": "https://www.assemblee-nationale.fr/dyn/17/textes/l17b3293_proposition-resolution.pdf",
+  "sha256": "efc076680c5a06bc91c877fd71b0355d85cbc0a5d78af43df9b71981cc932f87",
+  "bytes": 103682
+ },
+ {
+  "name": "it-parl-dl2",
+  "url": "https://www.parlamento.it/leg/ldl_new/v3/sldlelencodlconvers.htm",
+  "fetchedAt": "2026-10-18T16:06:13.703148Z",
+  "status": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "finalUrl": "https://www.parlamento.it/leg/ldl_new/v3/sldlelencodlconvers.htm",
+  "sha256": "4d7c528abbe9c72ae9f8bd69bf133f1948312a402c9aad2e7bb8a9fd1b864594",
+  "bytes": 52449
+ },
+ {
+  "name": "ameli-psy",
+  "url": "https://www.ameli.fr/assure/remboursements/rembourse/remboursement-seance-psychologue-mon-soutien-psy",
+  "fetchedAt": "2026-10-18T16:10:49.237990Z",
+  "status": 200,
+  "contentType": "text/html; charset=utf-8",
+  "finalUrl": "https://www.ameli.fr/assure/remboursements/rembourse/remboursement-seance-psychologue-mon-soutien-psy",
+  "sha256": "d59b18e309c5d426d412d0f308fb4b941737326ad6e05911906a0795ca628011",
+  "bytes": 136550
+ }
+]

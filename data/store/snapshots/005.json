@@ -3176,5 +3176,89 @@
     "hash": "7736543c0edaddc9dd34aaa4cb6ef75faf364a4a126f52b1aaaadb4869ce2e24",
     "fetched_at": "2026-10-18T15:39:41.786487Z",
     "content_type": "application/json"
+  },
+  {
+    "key": "sources/053153302f7f2651de289301659ff090b94b1e99d318d66a10ef3c2e7270b0f2/20edab2fffe520a674cfda32c562b6465fa618e1ac5875ab395c76cffce6347e.html",
+    "url": "https://www.service-public.gouv.fr/particuliers/actualites/A17342",
+    "hash": "20edab2fffe520a674cfda32c562b6465fa618e1ac5875ab395c76cffce6347e",
+    "fetched_at": "2026-10-18T16:02:21.361100Z",
+    "content_type": "text/html;charset=UTF-8"
+  },
+  {
+    "key": "sources/b021bcc1b776af9c2968e0e51b7ae61591ee33fef2ced92e06010c24e0e8fa80/fd1a173c914b30d8e1f0194e9926fbb1d4493eaa35b2594818ac6f951f8ed9cf.pdf",
+    "url": "https://www.assemblee-nationale.fr/dyn/17/textes/l17b3292_proposition-resolution.pdf",
+    "hash": "fd1a173c914b30d8e1f0194e9926fbb1d4493eaa35b2594818ac6f951f8ed9cf",
+    "fetched_at": "2026-10-18T16:04:26.958356Z",
+    "content_type": "application/pdf"
+  },
+  {
+    "key": "sources/8f56945cda904104c83a15ab828183259c7a3c1a135a6708611b895fce5afc4d/efc076680c5a06bc91c877fd71b0355d85cbc0a5d78af43df9b71981cc932f87.pdf",
+    "url": "https://www.assemblee-nationale.fr/dyn/17/textes/l17b3293_proposition-resolution.pdf",
+    "hash": "efc076680c5a06bc91c877fd71b0355d85cbc0a5d78af43df9b71981cc932f87",
+    "fetched_at": "2026-10-18T16:04:31.984154Z",
+    "content_type": "application/pdf"
+  },
+  {
+    "key": "sources/2d4ba467bd66171f37c25e501df97abc3b74c0217577e0cdcaaa03f21aba451f/6e7ca55fcc1a6bfb7b862b080e27192de80d72edb170299f0bab5979bb33c387.html",
+    "url": "https://www.amf-france.org/fr/actualites-publications/actualites/lautorite-des-marches-financiers-publie-une-nouvelle-instruction-relative-aux-modalites-de-gestion",
+    "hash": "6e7ca55fcc1a6bfb7b862b080e27192de80d72edb170299f0bab5979bb33c387",
+    "fetched_at": "2026-10-18T16:02:25.053486Z",
+    "content_type": "text/html; charset=UTF-8"
+  },
+  {
+    "key": "sources/47173782a4e3314fcf9d5d544b0badd521b93a45c3831407955d5be36eb318be/d2eb58c0f6f246e9c96262b8de8ce74b676390000fa2e89b40be4bebb6689d46.html",
+    "url": "https://www.grandest.fr/actualites/eau-biodiversite-et-climat-25-me-pour-ses-territoires/",
+    "hash": "d2eb58c0f6f246e9c96262b8de8ce74b676390000fa2e89b40be4bebb6689d46",
+    "fetched_at": "2026-10-18T16:02:36.428281Z",
+    "content_type": "text/html; charset=UTF-8"
+  },
+  {
+    "key": "sources/1cbd45637a2440eb30c21db66d863dca2f789d018038bcedb576cf79d20d41f8/566a09578464d447352d767624e4bb427ed321724ab349778efa46bc617c5f0c.html",
+    "url": "https://www.service-public.gouv.fr/particuliers/actualites/A19091",
+    "hash": "566a09578464d447352d767624e4bb427ed321724ab349778efa46bc617c5f0c",
+    "fetched_at": "2026-10-18T16:03:10.198702Z",
+    "content_type": "text/html;charset=UTF-8"
+  },
+  {
+    "key": "sources/145c6e6869c5cb2c0cc293cec614c17efd3dd5e30637a9fafcc7424f115cd8d5/690a467f00a354929bf067bd3c234fcfffb0452bafa5a664199c0b40e2effa50.html",
+    "url": "https://www.governo.it/it/articolo/comunicato-stampa-del-consiglio-dei-ministri-n-192/32836",
+    "hash": "690a467f00a354929bf067bd3c234fcfffb0452bafa5a664199c0b40e2effa50",
+    "fetched_at": "2026-10-18T16:02:37.269948Z",
+    "content_type": "text/html; charset=utf-8"
+  },
+  {
+    "key": "sources/49c5ba36939615992cd6d33ddaf6d0ee013ca577a276d9cd33577100f4699fa6/0fe3a23c62b73956b61adbf8d357aef26b12e248e3067e597b35d5f5efc64385.html",
+    "url": "https://www.governo.it/it/articolo/comunicato-stampa-del-consiglio-dei-ministri-n-191/32740",
+    "hash": "0fe3a23c62b73956b61adbf8d357aef26b12e248e3067e597b35d5f5efc64385",
+    "fetched_at": "2026-10-18T16:02:37.136232Z",
+    "content_type": "text/html; charset=utf-8"
+  },
+  {
+    "key": "sources/9c9b460225135d060fb7e6618a53039cce7fa50c94c4805e15d4a609502f17b6/5fe622cd07c5548719711766b3c239c078569f9fc665befca1fcc6541c2dd91a.html",
+    "url": "https://www.governo.it/it/articolo/dl-bollette-intesa-italia-commissione-ue-tutela-famiglie-e-imprese/32866",
+    "hash": "5fe622cd07c5548719711766b3c239c078569f9fc665befca1fcc6541c2dd91a",
+    "fetched_at": "2026-10-18T16:02:37.406962Z",
+    "content_type": "text/html; charset=utf-8"
+  },
+  {
+    "key": "sources/8e9359d10cef996288c4c0c3a0c9c10f6c1d944e8ce56a4f3ad4e47683ae8f88/4b594afd1c999ab637c34da631fe1ad05c5848a9167530dc033675be386cc7b6.html",
+    "url": "https://www.regione.puglia.it/web/politiche-migratorie/-/approvato-l-avviso-pubblico-per-l-attivazione-dei-mediatori-interculturali-negli-istituti-comprensivi-delle-citt%C3%A0-capoluogo-della-regione-puglia?redirect=%2F&utm_campaign=home-page-istituzionale&utm_source=approvato-l-avviso-pubblico-per-l-attivazione-dei-mediatori-interculturali-negli-istituti-comprensivi-delle-citt%C3%A0-capoluogo-della-regione-puglia&utm_medium=card3",
+    "hash": "4b594afd1c999ab637c34da631fe1ad05c5848a9167530dc033675be386cc7b6",
+    "fetched_at": "2026-10-18T16:02:37.647994Z",
+    "content_type": "text/html;charset=UTF-8"
+  },
+  {
+    "key": "sources/f47775ea43b1d54b6867539d727c0e0be8b4bb830658f8512a8a858ce81ef71c/aa904ad279301e87305011847076d904b228f1ac9354b3ba03edb655f315cb3b.html",
+    "url": "https://www.regione.veneto.it/web/guest/article-detail?articleId=14416684",
+    "hash": "aa904ad279301e87305011847076d904b228f1ac9354b3ba03edb655f315cb3b",
+    "fetched_at": "2026-10-18T16:02:38.193518Z",
+    "content_type": "text/html;charset=UTF-8"
+  },
+  {
+    "key": "sources/4f6823a454c53796762e6eb4367ebc6799dea6bf86da948c82e82aceaf59945d/d59b18e309c5d426d412d0f308fb4b941737326ad6e05911906a0795ca628011.html",
+    "url": "https://www.ameli.fr/assure/remboursements/rembourse/remboursement-seance-psychologue-mon-soutien-psy",
+    "hash": "d59b18e309c5d426d412d0f308fb4b941737326ad6e05911906a0795ca628011",
+    "fetched_at": "2026-10-18T16:10:49.237990Z",
+    "content_type": "text/html; charset=utf-8"
   }
 ]

@@ -5008,6 +5008,28 @@
         }
       ],
       "appliesFromExport": "2026-10-18T15:39:12.968Z"
+    },
+    {
+      "id": "fr-cadmium-trajectory-2026",
+      "title": [
+        "法国肥料镉含量限制及下调路线",
+        "France: cadmium limits in fertilisers and the reduction trajectory"
+      ],
+      "basis": "The Service Public explainer of 14 October and the Agra trade report of 6 October concern the same cadmium-reduction trajectory for fertilisers that the existing explanation covers; the Agra report is a third-party lead and grouping does not treat its consultation claim as verified.",
+      "documents": [
+        {
+          "region": "FR",
+          "officialId": "Service Public A19091 (2026-10-14)"
+        },
+        {
+          "region": "FR",
+          "officialId": "Agra cadmium consultation 2026-10-06"
+        }
+      ],
+      "explanations": [
+        "fr-fertiliser-cadmium-2027"
+      ],
+      "appliesFromExport": "2026-10-18T16:10:14.523Z"
     }
   ]
 }

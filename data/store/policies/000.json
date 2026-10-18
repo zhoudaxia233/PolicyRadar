@@ -2146,9 +2146,9 @@
     "region": "FR",
     "phase": "adopted",
     "topic": "环境",
-    "updated_at": "2026-10-06T20:36:49.502Z",
-    "version": 1,
-    "data": "{\"id\":\"fr-fertiliser-cadmium-2027\",\"officialId\":\"France fertilisants composition et flux / publication 2026-10-02\",\"title\":\"法国：2027年肥料镉含量及施用量设限\",\"originalTitle\":\"Réduction des teneurs en cadmium dans les matières fertilisantes\",\"region\":\"FR\",\"originalLanguage\":\"fr\",\"topic\":\"环境\",\"tags\":[\"环境\"],\"phase\":\"adopted\",\"status\":\"adopted\",\"summary\":\"主管部门确认2027年1月1日起，磷肥镉上限为每公斤P₂O₅ 60毫克，矿物肥料年输入量上限每公顷3克。\",\"before\":\"此前要求主要依原料类别分散设置。\",\"after\":\"新文本统一安全要求，同时分别限制产品组成及向土壤的污染物输入。\",\"impact\":\"肥料生产供应者及农业使用者。\",\"limits\":\"2028年40毫克和2030年20毫克的进一步下降路线尚需完成程序，不作为已生效要求；本卡不确认争议中的法令签署日。\",\"verifiedAt\":\"2026-10-06\",\"lastEventDate\":\"2026-10-02\",\"effectiveDate\":\"2027-01-01\",\"nextDate\":\"2027-01-01\",\"nextLabel\":\"首阶段限值开始适用\",\"disputed\":false,\"dispute\":\"\",\"sources\":[{\"id\":\"official\",\"title\":\"官方原文\",\"url\":\"https://www.ecologie.gouv.fr/presse/gouvernement-engage-trajectoire-reduction-teneurs-cadmium-matieres-fertilisantes-structure\",\"publisher\":\"Ministère de la Transition écologique\",\"kind\":\"government\",\"note\":\"已保存原始文件；法律阶段与实施日期分别核实。\"}],\"events\":[{\"id\":\"fr-fertiliser-cadmium-2027-published\",\"date\":\"2026-10-02\",\"kind\":\"published\",\"title\":\"官方公布本次安排\",\"detail\":\"主管部门确认2027年1月1日起，磷肥镉上限为每公斤P₂O₅ 60毫克，矿物肥料年输入量上限每公顷3克。\",\"sourceId\":\"official\"}],\"nextKind\":\"implementation\",\"effectiveDateKind\":\"application\"}"
+    "updated_at": "2026-10-18T16:10:14.523Z",
+    "version": 2,
+    "data": "{\"id\":\"fr-fertiliser-cadmium-2027\",\"officialId\":\"France fertilisants composition et flux / publication 2026-10-02\",\"title\":\"法国：2027年肥料镉含量及施用量设限\",\"originalTitle\":\"Réduction des teneurs en cadmium dans les matières fertilisantes\",\"region\":\"FR\",\"originalLanguage\":\"fr\",\"topic\":\"环境\",\"tags\":[\"环境\"],\"phase\":\"adopted\",\"status\":\"adopted\",\"summary\":\"主管部门确认2027年1月1日起，磷肥镉上限为每公斤P₂O₅ 60毫克，矿物肥料年输入量上限每公顷3克。\",\"before\":\"此前要求主要依原料类别分散设置。\",\"after\":\"新文本统一安全要求，同时分别限制产品组成及向土壤的污染物输入。\",\"impact\":\"肥料生产供应者及农业使用者。\",\"limits\":\"2028年40毫克和2030年20毫克的进一步下降路线尚需完成程序，不作为已生效要求；本卡不确认争议中的法令签署日。Service Public 10月14日说明另列：2028年1月1日降至每公斤P₂O₅ 40毫克，2030年1月1日降至20毫克；第三方媒体报道称这一“路线”部长令10月5日至11月9日征求意见，本站未取得征求意见原文，后续两步以最终文本为准。\",\"verifiedAt\":\"2026-10-18\",\"lastEventDate\":\"2026-10-14\",\"effectiveDate\":\"2027-01-01\",\"nextDate\":\"2027-01-01\",\"nextLabel\":\"首阶段限值开始适用\",\"disputed\":false,\"dispute\":\"\",\"sources\":[{\"id\":\"official\",\"title\":\"官方原文\",\"url\":\"https://www.ecologie.gouv.fr/presse/gouvernement-engage-trajectoire-reduction-teneurs-cadmium-matieres-fertilisantes-structure\",\"publisher\":\"Ministère de la Transition écologique\",\"kind\":\"government\",\"note\":\"已保存原始文件；法律阶段与实施日期分别核实。\"},{\"id\":\"sp-a19091\",\"title\":\"Service Public：肥料镉含量上限2027年起降低\",\"url\":\"https://www.service-public.gouv.fr/particuliers/actualites/A19091\",\"publisher\":\"Service Public / DILA\",\"kind\":\"government\",\"note\":\"2027年60毫克、2028年1月1日40毫克、2030年1月1日20毫克（每公斤P₂O₅）；矿物肥料每年每公顷最多3克。\"}],\"events\":[{\"id\":\"fr-fertiliser-cadmium-2027-published\",\"date\":\"2026-10-02\",\"kind\":\"published\",\"title\":\"官方公布本次安排\",\"detail\":\"主管部门确认2027年1月1日起，磷肥镉上限为每公斤P₂O₅ 60毫克，矿物肥料年输入量上限每公顷3克。\",\"sourceId\":\"official\"},{\"id\":\"sp-calendar-20261014\",\"date\":\"2026-10-14\",\"kind\":\"published\",\"title\":\"官方说明公布后续下调时间表\",\"detail\":\"2028年1月1日降至40毫克，2030年1月1日降至20毫克。\",\"sourceId\":\"sp-a19091\"}],\"nextKind\":\"implementation\",\"effectiveDateKind\":\"application\"}"
   },
   {
     "id": "nl-internationalisation-bill-october-2026",
@@ -7090,5 +7090,203 @@
     "updated_at": "2026-10-18T15:40:24.533Z",
     "version": 1,
     "data": "{\"originalLanguage\":\"en\",\"id\":\"eu-methane-regulation-importer-delay-proposal\",\"officialId\":\"https://energy.ec.europa.eu/news/commission-proposes-flexibility-methane-importers-help-save-costs-2026-10-14_en\",\"title\":\"委员会提议把《甲烷条例》对油气煤进口商的报告义务推迟一年\",\"originalTitle\":\"Commission proposes flexibility to methane importers to help save costs\",\"region\":\"EU\",\"topic\":\"能源与环境\",\"tags\":[\"能源与环境\"],\"phase\":\"pending\",\"status\":\"pending\",\"statusNote\":\"委员会10月14日提出的定向修改提案，须经欧洲议会和理事会通过；通过前现行期限不变。\",\"summary\":\"中东冲突令能源市场紧张。委员会提议把2024年《欧盟甲烷条例》中涉及进口的部分义务推迟一年：天然气、石油和煤炭进口商的监测、报告和核查义务，以及进口商和欧盟生产商的甲烷强度报告。委员会称不降低条例的目标和范围。\",\"before\":\"现行《甲烷条例》按原定时间表要求进口商履行上述义务。\",\"after\":\"提案通过后，这些义务延后一年。\",\"impact\":\"主要影响化石燃料进口商和欧盟生产商；对家庭能源账单没有直接、确定的影响。\",\"limits\":\"新闻稿未列出原定和延后后的具体日期，本站不推算；须以修改提案正文为准。\",\"verifiedAt\":\"2026-10-18\",\"lastEventDate\":\"2026-10-14\",\"effectiveDate\":null,\"nextDate\":null,\"nextLabel\":\"\",\"disputed\":false,\"dispute\":\"\",\"sources\":[{\"id\":\"ip\",\"title\":\"委员会新闻稿IP/26/2119（新闻发布室文件接口）\",\"url\":\"https://ec.europa.eu/commission/presscorner/api/documents?reference=IP/26/2119&language=en\",\"publisher\":\"European Commission\",\"kind\":\"government\",\"note\":\"提案内容、涉及的义务和后续程序。\"}],\"events\":[{\"id\":\"proposed\",\"date\":\"2026-10-14\",\"kind\":\"proposal\",\"title\":\"委员会提出定向修改提案\",\"detail\":\"提交欧洲议会和理事会。\",\"sourceId\":\"ip\"}]}"
+  },
+  {
+    "id": "fr-rent-index-irl-2026q3",
+    "region": "FR",
+    "phase": "adopted",
+    "topic": "住房",
+    "updated_at": "2026-10-18T16:10:14.523Z",
+    "version": 1,
+    "data": "{\"originalLanguage\":\"fr\",\"id\":\"fr-rent-index-irl-2026q3\",\"officialId\":\"Service Public A17342 (2026-10-15)\",\"title\":\"法国租金参考指数第三季度上涨1.57%：房东年度涨租上限\",\"originalTitle\":\"Le nouvel indice de référence des loyers vient de paraître\",\"region\":\"FR\",\"topic\":\"住房\",\"tags\":[\"住房\"],\"phase\":\"adopted\",\"status\":\"adopted\",\"summary\":\"统计局10月15日公布2026年第三季度租金参考指数（IRL）：本土为148.06，同比上涨1.57%。租约有约定时，房东每年可按该指数调整一次租金，涨幅最高1.57%。科西嘉（143.80）和海外省（145.21）同样上涨1.57%。\",\"before\":\"第二季度同比上涨1.15%。\",\"after\":\"以第三季度指数为参考的租约，年度上调上限为1.57%。\",\"impact\":\"假设性例子：月租800欧元、租约以第三季度IRL为参考，房东在约定日期最多可涨到812.56欧元（800×1.0157）；房东也可以不涨。\",\"limits\":\"只有租约包含年度调整条款时才适用；使用哪个季度的指数看租约。能耗等级F、G的住房有另外的限制，本条未说明。\",\"verifiedAt\":\"2026-10-18\",\"lastEventDate\":\"2026-10-15\",\"effectiveDate\":\"2026-10-15\",\"nextDate\":null,\"nextLabel\":\"\",\"disputed\":false,\"dispute\":\"\",\"sources\":[{\"id\":\"src\",\"title\":\"Service Public：新租金参考指数公布\",\"url\":\"https://www.service-public.gouv.fr/particuliers/actualites/A17342\",\"publisher\":\"Service Public / DILA\",\"kind\":\"government\",\"note\":\"本土148.06（+1.57%），科西嘉143.80，海外省145.21。\"}],\"events\":[{\"id\":\"event\",\"date\":\"2026-10-15\",\"kind\":\"published\",\"title\":\"统计局公布第三季度指数\",\"detail\":\"同比+1.57%。\",\"sourceId\":\"src\"}]}"
+  },
+  {
+    "id": "fr-an-resolution-lycee-violence-2026",
+    "region": "FR",
+    "phase": "pending",
+    "topic": "公共安全",
+    "updated_at": "2026-10-18T16:10:14.523Z",
+    "version": 1,
+    "data": "{\"originalLanguage\":\"fr\",\"id\":\"fr-an-resolution-lycee-violence-2026\",\"officialId\":\"https://www.assemblee-nationale.fr/dyn/17/dossiers/comdamner_instrumentalisation_politique_lyceens\",\"title\":\"决议提案：谴责把高中生运动工具化、为暴力辩护，要求追究并向肇事者追偿\",\"originalTitle\":\"Proposition de résolution visant à condamner l’instrumentalisation politique des mobilisations lycéennes et la légitimation des violences aux abords des établissements scolaires\",\"region\":\"FR\",\"topic\":\"公共安全\",\"tags\":[\"公共安全\",\"教育\"],\"phase\":\"pending\",\"status\":\"pending\",\"statusNote\":\"10月13日提交国民议会（第3292号）；尚未审议或表决。\",\"summary\":\"提案称：自9月21日起高中周边的冲突造成24所学校受损、891所高中停课、715名警察和宪兵受伤、6000多人被捕，损失达数千万欧元。提案谴责暴力和政界人士为暴力辩护，邀请政府迅速追究违法行为、按现行法（包括父母民事责任）系统地向肇事者追偿，并支持受影响的学生、家庭和人员。\",\"before\":\"追偿依现行民事责任规则，包括父母对未成年子女的责任。\",\"after\":\"不改变法律，只请政府更系统地适用现行规则。\",\"impact\":\"对学生和家长没有新义务；与“打砸者赔偿”法案是不同文件。\",\"limits\":\"这是决议提案，按宪法第34-1条只表达议会意见，即使通过也不具法律约束力。政府另有在参议院审议的“打砸者赔偿”法案（第952号），那份法案才拟改变赔偿规则。\",\"verifiedAt\":\"2026-10-18\",\"lastEventDate\":\"2026-10-13\",\"effectiveDate\":null,\"nextDate\":null,\"nextLabel\":\"\",\"disputed\":false,\"dispute\":\"\",\"sources\":[{\"id\":\"src\",\"title\":\"国民议会第3292号决议提案\",\"url\":\"https://www.assemblee-nationale.fr/dyn/17/textes/l17b3292_proposition-resolution.pdf\",\"publisher\":\"Assemblée nationale\",\"kind\":\"parliament\",\"note\":\"决议条文：所列数字及对政府的三项邀请。\"}],\"events\":[{\"id\":\"event\",\"date\":\"2026-10-13\",\"kind\":\"proposal\",\"title\":\"提交国民议会\",\"detail\":\"第3292号。\",\"sourceId\":\"src\"}]}"
+  },
+  {
+    "id": "fr-an-resolution-data-centre-moratorium-2026",
+    "region": "FR",
+    "phase": "pending",
+    "topic": "数字化",
+    "updated_at": "2026-10-18T16:10:14.523Z",
+    "version": 1,
+    "data": "{\"originalLanguage\":\"fr\",\"id\":\"fr-an-resolution-data-centre-moratorium-2026\",\"officialId\":\"https://www.assemblee-nationale.fr/dyn/17/dossiers/moratoire_centres_donnees_non_souverains\",\"title\":\"决议提案：对“非主权”数据中心项目暂停五年\",\"originalTitle\":\"Proposition de résolution appelant à un moratoire sur les projets de centres de données non souverains\",\"region\":\"FR\",\"topic\":\"数字化\",\"tags\":[\"数字化\",\"能源与环境\"],\"phase\":\"pending\",\"status\":\"pending\",\"statusNote\":\"10月13日由左翼和环保派议员提交（第3293号）；尚未审议或表决。\",\"summary\":\"提案邀请政府对由欧洲以外企业主导、或数据最终供欧洲以外使用、或在所有权、司法管辖和数据保护上不满足主权要求的数据中心项目，实行五年暂停；在所有在建项目所在地组织公开辩论，并公开项目的用水、用电、用地和经济效益等信息。\",\"before\":\"数据中心按现行规划、环保和能源规则审批；2026年5月的经济简化法有相关条款。\",\"after\":\"动议要求暂停部分项目并加强公开。\",\"impact\":\"没有直接影响；若政府采纳，可能影响外国投资的数据中心项目。\",\"limits\":\"这是决议提案，按宪法第34-1条只表达议会意见，即使通过也不具法律约束力。\",\"verifiedAt\":\"2026-10-18\",\"lastEventDate\":\"2026-10-13\",\"effectiveDate\":null,\"nextDate\":null,\"nextLabel\":\"\",\"disputed\":false,\"dispute\":\"\",\"sources\":[{\"id\":\"src\",\"title\":\"国民议会第3293号决议提案\",\"url\":\"https://www.assemblee-nationale.fr/dyn/17/textes/l17b3293_proposition-resolution.pdf\",\"publisher\":\"Assemblée nationale\",\"kind\":\"parliament\",\"note\":\"决议条文：五年暂停、公开辩论和信息公开三项邀请。\"}],\"events\":[{\"id\":\"event\",\"date\":\"2026-10-13\",\"kind\":\"proposal\",\"title\":\"提交国民议会\",\"detail\":\"第3293号。\",\"sourceId\":\"src\"}]}"
+  },
+  {
+    "id": "fr-amf-real-estate-fund-liquidity-2026",
+    "region": "FR",
+    "phase": "adopted",
+    "topic": "投资",
+    "updated_at": "2026-10-18T16:10:14.523Z",
+    "version": 1,
+    "data": "{\"originalLanguage\":\"fr\",\"id\":\"fr-amf-real-estate-fund-liquidity-2026\",\"officialId\":\"https://www.amf-france.org/fr/actualites-publications/actualites/lautorite-des-marches-financiers-publie-une-nouvelle-instruction-relative-aux-modalites-de-gestion\",\"title\":\"法国金融市场管理局新指令：开放式房地产基金和私募股权基金须保持最低流动资产\",\"originalTitle\":\"L'Autorité des marchés financiers publie une nouvelle instruction relative aux modalités de gestion de la liquidité des OPCI et des FCPR evergreen\",\"region\":\"FR\",\"topic\":\"投资\",\"tags\":[\"投资\",\"金融监管\"],\"phase\":\"adopted\",\"status\":\"adopted\",\"summary\":\"AMF发布DOC-2026-05号指令：未按欧盟ELTIF条例获批的开放式房地产基金（OPCI）和开放式私募股权基金（FCPR evergreen）须保持常设流动资产缓冲，最低比例按赎回频率或通知期设定，例如每月可赎回的基金至少25%。仅通过保险或获准储蓄产品销售的基金可有条件降低。\",\"before\":\"此前AMF批准这类基金时要求30%至40%的流动性缓冲并提交压力测试，但未以独立指令规定。\",\"after\":\"以指令明确最低缓冲和压力测试要求，并须在基金文件中说明。\",\"impact\":\"影响通过人寿保险或直接投资这类基金的投资者：更高的流动资产比例有助于按期赎回，但也可能影响收益。\",\"limits\":\"指令适用于基金管理公司；过渡安排以指令全文为准，本站未读全文。将来转化欧盟AIFM修订指令时可能另有规定。\",\"verifiedAt\":\"2026-10-18\",\"lastEventDate\":\"2026-10-13\",\"effectiveDate\":\"2026-10-13\",\"nextDate\":null,\"nextLabel\":\"\",\"disputed\":false,\"dispute\":\"\",\"sources\":[{\"id\":\"src\",\"title\":\"AMF新闻：OPCI和FCPR流动性管理新指令\",\"url\":\"https://www.amf-france.org/fr/actualites-publications/actualites/lautorite-des-marches-financiers-publie-une-nouvelle-instruction-relative-aux-modalites-de-gestion\",\"publisher\":\"Autorité des marchés financiers\",\"kind\":\"government\",\"note\":\"背景（原30%—40%）、最低缓冲按赎回频率（月度25%）及保险渠道减免。\"}],\"events\":[{\"id\":\"event\",\"date\":\"2026-10-13\",\"kind\":\"published\",\"title\":\"AMF发布指令\",\"detail\":\"DOC-2026-05。\",\"sourceId\":\"src\"}]}"
+  },
+  {
+    "id": "fr-ges-water-sector-call-2026",
+    "region": "FR-GES",
+    "phase": "adopted",
+    "topic": "农业",
+    "updated_at": "2026-10-18T16:10:14.523Z",
+    "version": 1,
+    "data": "{\"originalLanguage\":\"fr\",\"id\":\"fr-ges-water-sector-call-2026\",\"officialId\":\"https://www.grandest.fr/actualites/eau-biodiversite-et-climat-25-me-pour-ses-territoires/\",\"title\":\"大东部大区：257万欧元支持水与气候项目，农业水资源保护项目征集开放至11月30日\",\"originalTitle\":\"Eau, biodiversité et climat : 2,5 M€ pour les territoires\",\"region\":\"FR-GES\",\"topic\":\"农业\",\"tags\":[\"农业\",\"环境\"],\"phase\":\"adopted\",\"status\":\"application_announced\",\"nextKind\":\"deadline\",\"summary\":\"大东部大区为约二十个河流修复、饮用水安全（包括阿登省PFAS污染处理）和节水项目拨款超过257万欧元；同时与三个水务局再次开放“支持有利于水资源保护的农业产业”项目征集，时间为9月28日至11月30日。\",\"before\":\"该征集自2018年已支持161个项目、2400万欧元。\",\"after\":\"2026年征集开放至11月30日。\",\"impact\":\"涉及大东部地区的农业产业组织和合作社；个别项目资助只针对公告列出的受益方。\",\"limits\":\"征集的资格和资助比例以征集文件为准，本站未读。\",\"verifiedAt\":\"2026-10-18\",\"lastEventDate\":\"2026-09-25\",\"effectiveDate\":null,\"nextDate\":\"2026-11-30\",\"nextLabel\":\"农业水资源保护项目征集截止\",\"disputed\":false,\"dispute\":\"\",\"sources\":[{\"id\":\"src\",\"title\":\"大东部大区新闻\",\"url\":\"https://www.grandest.fr/actualites/eau-biodiversite-et-climat-25-me-pour-ses-territoires/\",\"publisher\":\"Région Grand Est\",\"kind\":\"government\",\"note\":\"项目清单及9月28日至11月30日的项目征集。\"}],\"events\":[{\"id\":\"event\",\"date\":\"2026-09-25\",\"kind\":\"published\",\"title\":\"大区公布资助和征集\",\"detail\":\"257万欧元及征集。\",\"sourceId\":\"src\"}]}"
+  },
+  {
+    "id": "it-dpb-2027",
+    "region": "IT",
+    "phase": "adopted",
+    "topic": "公共治理",
+    "updated_at": "2026-10-18T16:10:14.523Z",
+    "version": 1,
+    "data": "{\"originalLanguage\":\"it\",\"id\":\"it-dpb-2027\",\"officialId\":\"CdM n. 192 (13.10.2026) — DPB 2027\",\"title\":\"意大利2027年预算草案计划：净支出增长3.3%（含国防能源保障条款）\",\"originalTitle\":\"Documento Programmatico di Bilancio (DPB) 2027\",\"region\":\"IT\",\"topic\":\"公共治理\",\"tags\":[\"公共治理\",\"税务\"],\"phase\":\"adopted\",\"status\":\"adopted\",\"summary\":\"内阁10月13日通过提交欧盟的2027年预算草案计划：净支出增长2027年3.3%、2028年1.7%、2029年0.2%（含启用国防和能源国家保障条款的空间）；不计该条款为1.9%、1.7%、1.5%。具体减税或福利措施要看随后提交议会的预算法案。\",\"before\":\"10月2日内阁已通过《公共财政规划文件》（DPFP）。\",\"after\":\"草案计划提交欧盟委员会审查。\",\"impact\":\"对居民没有直接影响；影响将来预算法的规模。\",\"limits\":\"这是对欧盟的财政计划，不是法律；预算法须由议会通过。\",\"verifiedAt\":\"2026-10-18\",\"lastEventDate\":\"2026-10-13\",\"effectiveDate\":null,\"nextDate\":null,\"nextLabel\":\"\",\"disputed\":false,\"dispute\":\"\",\"sources\":[{\"id\":\"src\",\"title\":\"第192次内阁会议公报（10月13日）\",\"url\":\"https://www.governo.it/it/articolo/comunicato-stampa-del-consiglio-dei-ministri-n-192/32836\",\"publisher\":\"Presidenza del Consiglio dei Ministri\",\"kind\":\"government\",\"note\":\"DPB 2027部分。\"}],\"events\":[{\"id\":\"event\",\"date\":\"2026-10-13\",\"kind\":\"published\",\"title\":\"内阁通过\",\"detail\":\"提交欧盟。\",\"sourceId\":\"src\"}]}"
+  },
+  {
+    "id": "it-ex-ilva-workers-decree-2026",
+    "region": "IT",
+    "phase": "pending",
+    "topic": "工作与收入",
+    "updated_at": "2026-10-18T16:10:14.523Z",
+    "version": 1,
+    "data": "{\"originalLanguage\":\"it\",\"id\":\"it-ex-ilva-workers-decree-2026\",\"officialId\":\"CdM n. 192 (13.10.2026) — decreto-legge ex ILVA\",\"title\":\"前ILVA钢厂紧急法令：配套企业停工工人收入补贴，雇用该厂员工可免雇主社保费\",\"originalTitle\":\"Misure urgenti a sostegno dei lavoratori dell'ex ILVA, dell'indotto e per il rilancio industriale del territorio (decreto-legge)\",\"region\":\"IT\",\"topic\":\"工作与收入\",\"tags\":[\"工作与收入\"],\"phase\":\"pending\",\"status\":\"pending\",\"statusNote\":\"内阁10月13日通过紧急法令；截至10月18日议会网站尚未列出其公报公布，生效日未确认。\",\"summary\":\"内阁通过前ILVA（塔兰托钢厂）紧急法令：2026年10月1日至2027年6月30日，因该厂停产而停工或减产的配套企业员工可获INPS发放的收入补贴并计入缴费记录；2026年11月1日至2027年12月31日长期雇用该厂员工的私营雇主可全额免缴雇主社保费，另获每人补贴（须不裁员、工资不低于“公平工资”）；允许保持熔炉保温至最迟12月15日。\",\"before\":\"该厂员工已享受特别失业补贴（CIGS）；配套企业员工缺少专门补贴。\",\"after\":\"新增上述补贴和雇用激励。\",\"impact\":\"涉及塔兰托钢厂及其配套企业的员工和潜在雇主。\",\"limits\":\"依据内阁公报，法令全文尚未读取；须在公布后60天内由议会转为法律。\",\"verifiedAt\":\"2026-10-18\",\"lastEventDate\":\"2026-10-13\",\"effectiveDate\":null,\"nextDate\":null,\"nextLabel\":\"\",\"disputed\":false,\"dispute\":\"\",\"sources\":[{\"id\":\"src\",\"title\":\"第192次内阁会议公报（10月13日）\",\"url\":\"https://www.governo.it/it/articolo/comunicato-stampa-del-consiglio-dei-ministri-n-192/32836\",\"publisher\":\"Presidenza del Consiglio dei Ministri\",\"kind\":\"government\",\"note\":\"前ILVA部分：补贴期间、雇用激励条件及熔炉保温期限。\"}],\"events\":[{\"id\":\"event\",\"date\":\"2026-10-13\",\"kind\":\"proposal\",\"title\":\"内阁通过紧急法令\",\"detail\":\"尚待公报公布。\",\"sourceId\":\"src\"}]}"
+  },
+  {
+    "id": "it-campi-flegrei-decree-2026",
+    "region": "IT",
+    "phase": "pending",
+    "topic": "灾害恢复",
+    "updated_at": "2026-10-18T16:10:14.523Z",
+    "version": 1,
+    "data": "{\"originalLanguage\":\"it\",\"id\":\"it-campi-flegrei-decree-2026\",\"officialId\":\"CdM n. 192 (13.10.2026) — decreto-legge Campi Flegrei\",\"title\":\"坎皮佛莱格瑞地面抬升紧急法令：住房小修补助最高3万欧元，疏散者税费和房贷暂停\",\"originalTitle\":\"Piano straordinario per i Campi Flegrei nonché ulteriori disposizioni urgenti di protezione civile (decreto-legge)\",\"region\":\"IT\",\"topic\":\"灾害恢复\",\"tags\":[\"灾害恢复\",\"住房\"],\"phase\":\"pending\",\"status\":\"pending\",\"statusNote\":\"内阁10月13日通过紧急法令；尚未确认公报公布。\",\"summary\":\"涉及那不勒斯附近的波佐利、巴科利、蒙特迪普罗奇达和那不勒斯市：被疏散的主要住房可申请最高3万欧元的轻微损坏修复补助（2026年12月31日前申请）；7月31日至8月1日事件中被疏散或待检查住户的税费和社保缴纳期限暂停至11月30日；相关房贷暂停至2027年底；收入低于2.8万欧元的家庭抗震加固补助可达100%。另设两个每年5000万欧元、为期十年的基金。\",\"before\":\"此前有临时安置补助等措施。\",\"after\":\"新增上述补助和暂停。\",\"impact\":\"涉及坎皮佛莱格瑞地区受影响的居民和企业。\",\"limits\":\"依据内阁公报，法令全文尚未读取；须在公布后60天内由议会转为法律。\",\"verifiedAt\":\"2026-10-18\",\"lastEventDate\":\"2026-10-13\",\"effectiveDate\":null,\"nextDate\":null,\"nextLabel\":\"\",\"disputed\":false,\"dispute\":\"\",\"sources\":[{\"id\":\"src\",\"title\":\"第192次内阁会议公报（10月13日）\",\"url\":\"https://www.governo.it/it/articolo/comunicato-stampa-del-consiglio-dei-ministri-n-192/32836\",\"publisher\":\"Presidenza del Consiglio dei Ministri\",\"kind\":\"government\",\"note\":\"坎皮佛莱格瑞部分。\"}],\"events\":[{\"id\":\"event\",\"date\":\"2026-10-13\",\"kind\":\"proposal\",\"title\":\"内阁通过紧急法令\",\"detail\":\"尚待公报公布。\",\"sourceId\":\"src\"}]}"
+  },
+  {
+    "id": "it-new-highway-code-prelim-2026",
+    "region": "IT",
+    "phase": "pending",
+    "topic": "交通",
+    "updated_at": "2026-10-18T16:10:14.523Z",
+    "version": 1,
+    "data": "{\"originalLanguage\":\"it\",\"id\":\"it-new-highway-code-prelim-2026\",\"officialId\":\"CdM n. 192 (13.10.2026) — nuovo Codice della strada (esame preliminare)\",\"title\":\"意大利新《道路交通法典》初审：驾照10年换证年龄延至65岁，超速罚款按每公里递增\",\"originalTitle\":\"Nuovo codice della strada (decreto legislativo – esame preliminare)\",\"region\":\"IT\",\"topic\":\"交通\",\"tags\":[\"交通\"],\"phase\":\"pending\",\"status\":\"pending\",\"summary\":\"内阁初审取代1992年法典的新道路交通法典。公报列出的内容包括：驾驶证件可出示电子版；B等驾照每10年换证的年龄上限由50岁提高到65岁；超速罚款改为按超出的每公里计算；远程取证违章通知期限由90天缩短到45天；摩托车上高速须穿戴背部和手部护具；电动自行车须戴头盔并挂牌。\",\"before\":\"现行1992年法典。\",\"after\":\"拟全面替换。\",\"impact\":\"涉及所有在意大利驾车和骑车的人；现行规则暂时不变。\",\"limits\":\"这是内阁初审的立法令草案，须征求议会委员会等意见后终审并公布，尚未生效；具体条文以公布文本为准。\",\"verifiedAt\":\"2026-10-18\",\"lastEventDate\":\"2026-10-13\",\"effectiveDate\":null,\"nextDate\":null,\"nextLabel\":\"\",\"disputed\":false,\"dispute\":\"\",\"sources\":[{\"id\":\"src\",\"title\":\"第192次内阁会议公报（10月13日）\",\"url\":\"https://www.governo.it/it/articolo/comunicato-stampa-del-consiglio-dei-ministri-n-192/32836\",\"publisher\":\"Presidenza del Consiglio dei Ministri\",\"kind\":\"government\",\"note\":\"新道路交通法典部分。\"}],\"events\":[{\"id\":\"event\",\"date\":\"2026-10-13\",\"kind\":\"proposal\",\"title\":\"内阁初审\",\"detail\":\"尚须征求意见和终审。\",\"sourceId\":\"src\"}]}"
+  },
+  {
+    "id": "it-differentiated-autonomy-four-regions-2026",
+    "region": "IT",
+    "phase": "pending",
+    "topic": "公共治理",
+    "updated_at": "2026-10-18T16:10:14.523Z",
+    "version": 1,
+    "data": "{\"originalLanguage\":\"it\",\"id\":\"it-differentiated-autonomy-four-regions-2026\",\"officialId\":\"CdM n. 192 (13.10.2026) — intese art. 116 Cost. Liguria, Lombardia, Piemonte, Veneto\",\"title\":\"“差异化自治”：内阁终审与利古里亚、伦巴第、皮埃蒙特、威尼托的协议并提交法案\",\"originalTitle\":\"Attribuzione alle Regioni Liguria, Lombardia, Piemonte e Veneto di ulteriori forme e condizioni particolari di autonomia (disegni di legge)\",\"region\":\"IT\",\"topic\":\"公共治理\",\"tags\":[\"公共治理\"],\"phase\":\"pending\",\"status\":\"pending\",\"summary\":\"按宪法第116条第3款，四个大区将在民防（可颁布偏离国家法律的紧急令）、地区性职业、补充养老，以及卫生财政协调（如自定医疗报销费率、设立补充医疗基金）方面获得更多自主权。协议为期十年，须由议会以法律批准。\",\"before\":\"这些事项主要由国家法律统一规定。\",\"after\":\"获批后由大区在协议范围内自行规定。\",\"impact\":\"涉及四个大区的居民和医疗、养老体系；国家医疗服务的资金和分配规则按公报不变。\",\"limits\":\"须议会通过批准法；在基本服务水平确定前，民防紧急令不得偏离特定规则。\",\"verifiedAt\":\"2026-10-18\",\"lastEventDate\":\"2026-10-13\",\"effectiveDate\":null,\"nextDate\":null,\"nextLabel\":\"\",\"disputed\":false,\"dispute\":\"\",\"sources\":[{\"id\":\"src\",\"title\":\"第192次内阁会议公报（10月13日）\",\"url\":\"https://www.governo.it/it/articolo/comunicato-stampa-del-consiglio-dei-ministri-n-192/32836\",\"publisher\":\"Presidenza del Consiglio dei Ministri\",\"kind\":\"government\",\"note\":\"自治协议部分。\"}],\"events\":[{\"id\":\"event\",\"date\":\"2026-10-13\",\"kind\":\"proposal\",\"title\":\"内阁终审协议并通过法案\",\"detail\":\"提交议会。\",\"sourceId\":\"src\"}]}"
+  },
+  {
+    "id": "it-environment-cleanup-decree-177-2026",
+    "region": "IT",
+    "phase": "adopted",
+    "topic": "环境",
+    "updated_at": "2026-10-18T16:10:14.523Z",
+    "version": 1,
+    "data": "{\"originalLanguage\":\"it\",\"id\":\"it-environment-cleanup-decree-177-2026\",\"officialId\":\"CdM 191/2026 / ambiente\",\"title\":\"意大利环境紧急法令（第177/2026号）：“火之地”治理资金增至2亿欧元，加快环评\",\"originalTitle\":\"Misure urgenti per la tutela ambientale e le bonifiche\",\"region\":\"IT\",\"topic\":\"环境\",\"tags\":[\"环境\"],\"phase\":\"adopted\",\"status\":\"adopted\",\"statusNote\":\"内阁10月2日通过；议会网站列为10月8日第177号法令（官方公报第234号），须在60天内转为法律。\",\"summary\":\"法令把那不勒斯和卡塞塔之间“火之地”的治理资金提高到2亿欧元；规定省政府须在150天内对污染责任人下令，否则由大区代行；PNRR和国家能源气候计划项目的环评筛查交由专门委员会；新设每年1100万欧元基金支持市镇应对垃圾危机等事件；施工产生20立方米以内的合格土石可就地再用；PET饮料瓶生产商须每年报告再生塑料用量。\",\"before\":\"相关程序更长、资金更少。\",\"after\":\"自公布次日生效（以公报文本为准）。\",\"impact\":\"主要影响行政机关、企业和“火之地”居民。\",\"limits\":\"依据内阁公报和议会清单；法令全文本站未读，转为法律时可能修改。\",\"verifiedAt\":\"2026-10-18\",\"lastEventDate\":\"2026-10-02\",\"effectiveDate\":null,\"nextDate\":null,\"nextLabel\":\"\",\"disputed\":false,\"dispute\":\"\",\"sources\":[{\"id\":\"src\",\"title\":\"第191次内阁会议公报（10月2日）\",\"url\":\"https://www.governo.it/it/articolo/comunicato-stampa-del-consiglio-dei-ministri-n-191/32740\",\"publisher\":\"Presidenza del Consiglio dei Ministri\",\"kind\":\"government\",\"note\":\"环境、循环经济和治理部分。\"}],\"events\":[{\"id\":\"event\",\"date\":\"2026-10-02\",\"kind\":\"published\",\"title\":\"内阁通过紧急法令\",\"detail\":\"后列为第177/2026号法令。\",\"sourceId\":\"src\"}]}"
+  },
+  {
+    "id": "it-lawyers-profession-reform-prelim-2026",
+    "region": "IT",
+    "phase": "pending",
+    "topic": "司法",
+    "updated_at": "2026-10-18T16:10:14.523Z",
+    "version": 1,
+    "data": "{\"originalLanguage\":\"it\",\"id\":\"it-lawyers-profession-reform-prelim-2026\",\"officialId\":\"CdM 191/2026 / avvocatura\",\"title\":\"意大利律师职业改革初审：恢复律师宣誓，诉讼相关法律咨询由律师专属\",\"originalTitle\":\"Riforma dell’ordinamento forense: esame preliminare\",\"region\":\"IT\",\"topic\":\"司法\",\"tags\":[\"司法\"],\"phase\":\"pending\",\"status\":\"pending\",\"summary\":\"立法令草案拟取代2012年律师法：职业保密为不可放弃的权利；恢复律师宣誓；与诉讼相关、持续有组织的庭外法律咨询由律师专属；收费须书面约定，参考标准每两年更新；律师公司至少三分之二股权和投票权属律师；继续教育改为每年；见习课程12个月，国家考试笔试电子化。\",\"before\":\"现行2012年第247号法律。\",\"after\":\"拟全面取代。\",\"impact\":\"涉及律师、见习律师和法律服务客户。\",\"limits\":\"这是内阁初审的立法令草案，须征求议会委员会等意见后终审并公布，尚未生效；具体条文以公布文本为准。\",\"verifiedAt\":\"2026-10-18\",\"lastEventDate\":\"2026-10-02\",\"effectiveDate\":null,\"nextDate\":null,\"nextLabel\":\"\",\"disputed\":false,\"dispute\":\"\",\"sources\":[{\"id\":\"src\",\"title\":\"第191次内阁会议公报（10月2日）\",\"url\":\"https://www.governo.it/it/articolo/comunicato-stampa-del-consiglio-dei-ministri-n-191/32740\",\"publisher\":\"Presidenza del Consiglio dei Ministri\",\"kind\":\"government\",\"note\":\"律师职业部分。\"}],\"events\":[{\"id\":\"event\",\"date\":\"2026-10-02\",\"kind\":\"proposal\",\"title\":\"内阁初审\",\"detail\":\"依据第137/2026号授权法。\",\"sourceId\":\"src\"}]}"
+  },
+  {
+    "id": "it-cyber-resilience-act-implementation-prelim-2026",
+    "region": "IT",
+    "phase": "pending",
+    "topic": "网络安全",
+    "updated_at": "2026-10-18T16:10:14.523Z",
+    "version": 1,
+    "data": "{\"originalLanguage\":\"it\",\"id\":\"it-cyber-resilience-act-implementation-prelim-2026\",\"officialId\":\"CdM 191/2026 / cyber-resilience\",\"title\":\"意大利落实欧盟《网络韧性法》（初审）：国家网络安全局负责市场监管\",\"originalTitle\":\"Adeguamento al regolamento Cyber Resilience Act: esame preliminare\",\"region\":\"IT\",\"topic\":\"网络安全\",\"tags\":[\"网络安全\",\"数字化\"],\"phase\":\"pending\",\"status\":\"pending\",\"summary\":\"草案指定国家网络安全局（ACN）为市场监管和评估机构通报机关，金融机构由意大利央行、CONSOB和IVASS监管；消费者可直接向CSIRT报告漏洞和事件；为中小企业设咨询渠道和按比例收费，并设监管沙盒。\",\"before\":\"欧盟条例已生效，国内执行机构尚待指定。\",\"after\":\"明确执行机构和处罚程序。\",\"impact\":\"涉及数字产品制造商、进口商和分销商。\",\"limits\":\"这是内阁初审的立法令草案，须征求议会委员会等意见后终审并公布，尚未生效；具体条文以公布文本为准。\",\"verifiedAt\":\"2026-10-18\",\"lastEventDate\":\"2026-10-02\",\"effectiveDate\":null,\"nextDate\":null,\"nextLabel\":\"\",\"disputed\":false,\"dispute\":\"\",\"sources\":[{\"id\":\"src\",\"title\":\"第191次内阁会议公报（10月2日）\",\"url\":\"https://www.governo.it/it/articolo/comunicato-stampa-del-consiglio-dei-ministri-n-191/32740\",\"publisher\":\"Presidenza del Consiglio dei Ministri\",\"kind\":\"government\",\"note\":\"网络韧性部分。\"}],\"events\":[{\"id\":\"event\",\"date\":\"2026-10-02\",\"kind\":\"proposal\",\"title\":\"内阁初审\",\"detail\":\"落实条例（EU）2024/2847。\",\"sourceId\":\"src\"}]}"
+  },
+  {
+    "id": "it-net-zero-industry-act-implementation-prelim-2026",
+    "region": "IT",
+    "phase": "pending",
+    "topic": "企业经营",
+    "updated_at": "2026-10-18T16:10:14.523Z",
+    "version": 1,
+    "data": "{\"originalLanguage\":\"it\",\"id\":\"it-net-zero-industry-act-implementation-prelim-2026\",\"officialId\":\"CdM 191/2026 / net-zero\",\"title\":\"意大利落实欧盟《净零工业法》（初审）：地方一站式窗口办理净零技术项目\",\"originalTitle\":\"Adeguamento al Net-Zero Industry Act: esame preliminare\",\"region\":\"IT\",\"topic\":\"企业经营\",\"tags\":[\"企业经营\",\"能源与环境\"],\"phase\":\"pending\",\"status\":\"pending\",\"summary\":\"草案以各地“生产活动一站式窗口”（SUAP）作为净零技术生产项目的单一联系点，战略项目由企业部投资专班负责，经生态转型部际委员会认定后视为国家公共利益、加快审批；并设立净零技术加速区。\",\"before\":\"欧盟条例已适用，国内程序尚未调整。\",\"after\":\"明确国内审批程序。\",\"impact\":\"涉及投资净零技术生产的企业。\",\"limits\":\"这是内阁初审的立法令草案，须征求议会委员会等意见后终审并公布，尚未生效；具体条文以公布文本为准。\",\"verifiedAt\":\"2026-10-18\",\"lastEventDate\":\"2026-10-02\",\"effectiveDate\":null,\"nextDate\":null,\"nextLabel\":\"\",\"disputed\":false,\"dispute\":\"\",\"sources\":[{\"id\":\"src\",\"title\":\"第191次内阁会议公报（10月2日）\",\"url\":\"https://www.governo.it/it/articolo/comunicato-stampa-del-consiglio-dei-ministri-n-191/32740\",\"publisher\":\"Presidenza del Consiglio dei Ministri\",\"kind\":\"government\",\"note\":\"净零技术部分。\"}],\"events\":[{\"id\":\"event\",\"date\":\"2026-10-02\",\"kind\":\"proposal\",\"title\":\"内阁初审\",\"detail\":\"落实条例（EU）2024/1735。\",\"sourceId\":\"src\"}]}"
+  },
+  {
+    "id": "it-machinery-regulation-implementation-prelim-2026",
+    "region": "IT",
+    "phase": "pending",
+    "topic": "企业经营",
+    "updated_at": "2026-10-18T16:10:14.523Z",
+    "version": 1,
+    "data": "{\"originalLanguage\":\"it\",\"id\":\"it-machinery-regulation-implementation-prelim-2026\",\"officialId\":\"CdM 191/2026 / macchine\",\"title\":\"意大利落实欧盟《机械条例》（初审）：说明书须有意大利语，商会负责处罚\",\"originalTitle\":\"Adeguamento al regolamento macchine: esame preliminare\",\"region\":\"IT\",\"topic\":\"企业经营\",\"tags\":[\"企业经营\"],\"phase\":\"pending\",\"status\":\"pending\",\"summary\":\"草案落实取代机械指令的欧盟条例2023/1230：明确供应链各方义务，说明书须提供意大利语版本，由企业部和劳动部作为市场监管机关，危险机械可责令整改、禁售或召回，商会按违规严重程度处罚。\",\"before\":\"现行依据机械指令2006/42/EC的国内法。\",\"after\":\"适配新条例。\",\"impact\":\"涉及机械制造商、进口商和使用者。\",\"limits\":\"这是内阁初审的立法令草案，须征求议会委员会等意见后终审并公布，尚未生效；具体条文以公布文本为准。\",\"verifiedAt\":\"2026-10-18\",\"lastEventDate\":\"2026-10-02\",\"effectiveDate\":null,\"nextDate\":null,\"nextLabel\":\"\",\"disputed\":false,\"dispute\":\"\",\"sources\":[{\"id\":\"src\",\"title\":\"第191次内阁会议公报（10月2日）\",\"url\":\"https://www.governo.it/it/articolo/comunicato-stampa-del-consiglio-dei-ministri-n-191/32740\",\"publisher\":\"Presidenza del Consiglio dei Ministri\",\"kind\":\"government\",\"note\":\"机械安全部分。\"}],\"events\":[{\"id\":\"event\",\"date\":\"2026-10-02\",\"kind\":\"proposal\",\"title\":\"内阁初审\",\"detail\":\"落实条例（EU）2023/1230。\",\"sourceId\":\"src\"}]}"
+  },
+  {
+    "id": "it-anti-slapp-transposition-2026",
+    "region": "IT",
+    "phase": "pending",
+    "topic": "司法",
+    "updated_at": "2026-10-18T16:10:14.523Z",
+    "version": 1,
+    "data": "{\"originalLanguage\":\"it\",\"id\":\"it-anti-slapp-transposition-2026\",\"officialId\":\"CdM 191/2026 / anti-slapp\",\"title\":\"意大利终审通过反SLAPP指令转化法令：保护参与公共讨论者免受滥诉\",\"originalTitle\":\"Recepimento direttiva anti-SLAPP: esame definitivo\",\"region\":\"IT\",\"topic\":\"司法\",\"tags\":[\"司法\"],\"phase\":\"pending\",\"status\":\"pending\",\"statusNote\":\"内阁10月2日终审；尚待公报公布后生效。\",\"summary\":\"转化欧盟指令2024/1069：保护记者、活动人士等参与公共讨论的人，使其免受明显无理或滥用的诉讼（所谓SLAPP）。\",\"before\":\"指令须由成员国转化。\",\"after\":\"终审通过，待公布。\",\"impact\":\"涉及记者、非政府组织和被诉的公众人物。\",\"limits\":\"公报只列标题，具体程序（如早期驳回、费用承担）以公布文本为准。\",\"verifiedAt\":\"2026-10-18\",\"lastEventDate\":\"2026-10-02\",\"effectiveDate\":null,\"nextDate\":null,\"nextLabel\":\"\",\"disputed\":false,\"dispute\":\"\",\"sources\":[{\"id\":\"src\",\"title\":\"第191次内阁会议公报（10月2日）\",\"url\":\"https://www.governo.it/it/articolo/comunicato-stampa-del-consiglio-dei-ministri-n-191/32740\",\"publisher\":\"Presidenza del Consiglio dei Ministri\",\"kind\":\"government\",\"note\":\"终审立法令部分。\"}],\"events\":[{\"id\":\"event\",\"date\":\"2026-10-02\",\"kind\":\"proposal\",\"title\":\"内阁终审\",\"detail\":\"尚待公布。\",\"sourceId\":\"src\"}]}"
+  },
+  {
+    "id": "it-police-armed-forces-pay-2025-2027",
+    "region": "IT",
+    "phase": "pending",
+    "topic": "工作与收入",
+    "updated_at": "2026-10-18T16:10:14.523Z",
+    "version": 1,
+    "data": "{\"originalLanguage\":\"it\",\"id\":\"it-police-armed-forces-pay-2025-2027\",\"officialId\":\"CdM 191/2026 / sicurezza-difesa\",\"title\":\"意大利警察和军队2025—2027年集体协议：平均每月加薪约189欧元\",\"originalTitle\":\"Accordi sindacali e concertazione per sicurezza e difesa 2025-2027\",\"region\":\"IT\",\"topic\":\"工作与收入\",\"tags\":[\"工作与收入\"],\"phase\":\"pending\",\"status\":\"pending\",\"statusNote\":\"内阁10月2日批准协议草案，须以总统令落实。\",\"summary\":\"涉及约43万名警察和军人：平均每月加薪约189欧元（其中173.50欧元为基本工资和固定津贴），提高计入养老金的津贴并调整加班费；孩子出生时另加3天假，育儿假延长至孩子14岁。\",\"before\":\"上一期协议。\",\"after\":\"按新协议调整。\",\"impact\":\"涉及警察和军人；189欧元是平均数，个人金额不同。\",\"limits\":\"须以总统令公布后生效；是否补发及起算日以总统令为准。\",\"verifiedAt\":\"2026-10-18\",\"lastEventDate\":\"2026-10-02\",\"effectiveDate\":null,\"nextDate\":null,\"nextLabel\":\"\",\"disputed\":false,\"dispute\":\"\",\"sources\":[{\"id\":\"src\",\"title\":\"第191次内阁会议公报（10月2日）\",\"url\":\"https://www.governo.it/it/articolo/comunicato-stampa-del-consiglio-dei-ministri-n-191/32740\",\"publisher\":\"Presidenza del Consiglio dei Ministri\",\"kind\":\"government\",\"note\":\"警察和军队协议部分。\"}],\"events\":[{\"id\":\"event\",\"date\":\"2026-10-02\",\"kind\":\"proposal\",\"title\":\"内阁批准协议\",\"detail\":\"7月15日签署。\",\"sourceId\":\"src\"}]}"
+  },
+  {
+    "id": "it-local-government-contract-2025-2027",
+    "region": "IT",
+    "phase": "pending",
+    "topic": "工作与收入",
+    "updated_at": "2026-10-18T16:10:14.523Z",
+    "version": 1,
+    "data": "{\"originalLanguage\":\"it\",\"id\":\"it-local-government-contract-2025-2027\",\"officialId\":\"CdM 191/2026 / funzioni-locali\",\"title\":\"意大利地方公务员2025—2027年集体合同：市镇员工平均每月加薪约152欧元，首次规定人工智能使用\",\"originalTitle\":\"CCNL Funzioni locali 2025-2027: parere favorevole con condizioni\",\"region\":\"IT\",\"topic\":\"工作与收入\",\"tags\":[\"工作与收入\"],\"phase\":\"pending\",\"status\":\"pending\",\"statusNote\":\"内阁10月2日附条件表示赞成，须正式签署后生效。\",\"summary\":\"涉及40多万名地方行政人员：加薪为2023年工资总额的5.36%，市镇员工平均每月税前约152欧元，其他机构约140欧元；合同首次专章规定人工智能使用，不得在无人工介入下作出显著影响劳动关系的纯自动决定。\",\"before\":\"上一期合同。\",\"after\":\"按新合同调整。\",\"impact\":\"涉及市镇和大区等地方机构员工；金额是平均数。\",\"limits\":\"须按经济财政部关于职位和绩效工资的意见修改后正式签署。\",\"verifiedAt\":\"2026-10-18\",\"lastEventDate\":\"2026-10-02\",\"effectiveDate\":null,\"nextDate\":null,\"nextLabel\":\"\",\"disputed\":false,\"dispute\":\"\",\"sources\":[{\"id\":\"src\",\"title\":\"第191次内阁会议公报（10月2日）\",\"url\":\"https://www.governo.it/it/articolo/comunicato-stampa-del-consiglio-dei-ministri-n-191/32740\",\"publisher\":\"Presidenza del Consiglio dei Ministri\",\"kind\":\"government\",\"note\":\"集体合同部分。\"}],\"events\":[{\"id\":\"event\",\"date\":\"2026-10-02\",\"kind\":\"proposal\",\"title\":\"内阁附条件赞成\",\"detail\":\"7月21日草签。\",\"sourceId\":\"src\"}]}"
+  },
+  {
+    "id": "it-energy-bills-decree-state-aid-2026",
+    "region": "IT",
+    "phase": "pending",
+    "topic": "能源与环境",
+    "updated_at": "2026-10-18T16:10:14.523Z",
+    "version": 1,
+    "data": "{\"originalLanguage\":\"it\",\"id\":\"it-energy-bills-decree-state-aid-2026\",\"officialId\":\"D.L. 21/2026 — intesa con la Commissione europea (16.10.2026)\",\"title\":\"能源账单法令：意大利与欧盟就临时补贴的国家援助评估达成共识，即将正式通报\",\"originalTitle\":\"Dl Bollette: intesa Italia-Commissione Ue a tutela famiglie e imprese\",\"region\":\"IT\",\"topic\":\"能源与环境\",\"tags\":[\"能源与环境\",\"补助\"],\"phase\":\"pending\",\"status\":\"pending\",\"summary\":\"意大利政府与欧盟委员会就第21/2026号“能源账单”法令中的措施达成共识，这些措施旨在减轻能源成本、限制气价上涨对电价的影响。意大利将按“中东国家援助临时框架”正式通报这些临时措施，委员会承诺优先评估。\",\"before\":\"措施的国家援助合规性尚待确认。\",\"after\":\"双方达成共识，进入正式通报。\",\"impact\":\"可能影响家庭和企业的电费减负措施能否按计划实施；不是新的补贴。\",\"limits\":\"不是欧盟的批准决定；通报后委员会仍须作出评估。\",\"verifiedAt\":\"2026-10-18\",\"lastEventDate\":\"2026-10-16\",\"effectiveDate\":null,\"nextDate\":null,\"nextLabel\":\"\",\"disputed\":false,\"dispute\":\"\",\"sources\":[{\"id\":\"src\",\"title\":\"意大利政府新闻：能源账单法令与欧盟委员会达成共识\",\"url\":\"https://www.governo.it/it/articolo/dl-bollette-intesa-italia-commissione-ue-tutela-famiglie-e-imprese/32866\",\"publisher\":\"Presidenza del Consiglio dei Ministri\",\"kind\":\"government\",\"note\":\"共识内容及后续通报。\"}],\"events\":[{\"id\":\"event\",\"date\":\"2026-10-16\",\"kind\":\"proposal\",\"title\":\"与欧盟委员会达成共识\",\"detail\":\"待正式通报。\",\"sourceId\":\"src\"}]}"
+  },
+  {
+    "id": "it-puglia-school-intercultural-mediators-2026",
+    "region": "IT-75",
+    "phase": "adopted",
+    "topic": "教育",
+    "updated_at": "2026-10-18T16:10:14.523Z",
+    "version": 1,
+    "data": "{\"originalLanguage\":\"it\",\"id\":\"it-puglia-school-intercultural-mediators-2026\",\"officialId\":\"Puglia Determinazione 156/2026\",\"title\":\"普利亚大区：首府城市的综合学校可申请跨文化调解员补助券，10月21日中午截止\",\"originalTitle\":\"Avviso pubblico per mediatori interculturali negli istituti comprensivi delle città capoluogo\",\"region\":\"IT-75\",\"topic\":\"教育\",\"tags\":[\"教育\",\"移民\"],\"phase\":\"adopted\",\"status\":\"application_announced\",\"nextKind\":\"deadline\",\"summary\":\"普利亚大区通过第156/2026号决定，向首府城市的综合学校（幼儿园、小学和初中）提供“调解补助券”，用于聘请跨文化调解员，帮助有移民背景的学生融入并促进学校与外国家庭沟通。学校须在10月21日12时前通过认证电子邮件申请。\",\"before\":\"没有这项试点补助。\",\"after\":\"学校可申请补助券。\",\"impact\":\"申请方是学校，不是家庭；家庭可从学校获得调解服务。\",\"limits\":\"补助金额和名额以公告附件为准，本站未读附件。\",\"verifiedAt\":\"2026-10-18\",\"lastEventDate\":\"2026-10-05\",\"effectiveDate\":null,\"nextDate\":\"2026-10-21\",\"nextLabel\":\"学校申请截止（12时）\",\"disputed\":false,\"dispute\":\"\",\"sources\":[{\"id\":\"src\",\"title\":\"普利亚大区公告\",\"url\":\"https://www.regione.puglia.it/web/politiche-migratorie/-/approvato-l-avviso-pubblico-per-l-attivazione-dei-mediatori-interculturali-negli-istituti-comprensivi-delle-citt%C3%A0-capoluogo-della-regione-puglia?redirect=%2F&utm_campaign=home-page-istituzionale&utm_source=approvato-l-avviso-pubblico-per-l-attivazione-dei-mediatori-interculturali-negli-istituti-comprensivi-delle-citt%C3%A0-capoluogo-della-regione-puglia&utm_medium=card3\",\"publisher\":\"Regione Puglia\",\"kind\":\"government\",\"note\":\"决定第156/2026号、适用学校及10月21日12时截止。\"}],\"events\":[{\"id\":\"event\",\"date\":\"2026-10-05\",\"kind\":\"published\",\"title\":\"大区公布公告\",\"detail\":\"10月5日。\",\"sourceId\":\"src\"}]}"
+  },
+  {
+    "id": "it-veneto-metalworking-safety-grants-2026",
+    "region": "IT-34",
+    "phase": "adopted",
+    "topic": "企业经营",
+    "updated_at": "2026-10-18T16:10:14.523Z",
+    "version": 1,
+    "data": "{\"originalLanguage\":\"it\",\"id\":\"it-veneto-metalworking-safety-grants-2026\",\"officialId\":\"Veneto DGR 322/2026 / Bando Metalmeccanica\",\"title\":\"威尼托大区：400万欧元无偿补助金属加工企业改善机械安全，9月22日起30天内申请\",\"originalTitle\":\"Bando Metalmeccanica 2026\",\"region\":\"IT-34\",\"topic\":\"企业经营\",\"tags\":[\"企业经营\",\"工作与收入\"],\"phase\":\"adopted\",\"status\":\"application_announced\",\"nextKind\":\"deadline\",\"summary\":\"威尼托用劳动安全监督部门罚没收入设立400万欧元基金，补助在威尼托有经营场所的金属加工企业更换或改进机械安全设备，优先考虑已参加相关预防计划的企业。申请须在9月22日（公告在Azero网站发布）起30天内通过指定平台提交，按此计算截止日为10月22日。\",\"before\":\"没有这项补助。\",\"after\":\"企业可申请。\",\"impact\":\"涉及威尼托金属加工企业及其员工的安全。\",\"limits\":\"截止日按“30天内”计算得出；补助比例和条件以公告文件为准。\",\"verifiedAt\":\"2026-10-18\",\"lastEventDate\":\"2026-09-25\",\"effectiveDate\":null,\"nextDate\":\"2026-10-22\",\"nextLabel\":\"申请截止（按9月22日起30天计算）\",\"disputed\":false,\"dispute\":\"\",\"sources\":[{\"id\":\"src\",\"title\":\"威尼托大区新闻\",\"url\":\"https://www.regione.veneto.it/web/guest/article-detail?articleId=14416684\",\"publisher\":\"Regione del Veneto\",\"kind\":\"government\",\"note\":\"400万欧元、适用企业、9月22日起30天内申请。\"}],\"events\":[{\"id\":\"event\",\"date\":\"2026-09-25\",\"kind\":\"published\",\"title\":\"大区公布补助\",\"detail\":\"第322/2026号决议。\",\"sourceId\":\"src\"}]}"
+  },
+  {
+    "id": "fr-mon-soutien-psy-2026",
+    "region": "FR",
+    "phase": "adopted",
+    "topic": "社会保障",
+    "updated_at": "2026-10-18T16:11:28.357Z",
+    "version": 1,
+    "data": "{\"originalLanguage\":\"fr\",\"id\":\"fr-mon-soutien-psy-2026\",\"officialId\":\"https://www.legifrance.gouv.fr/jorf/article_jo/JORFARTI000053226687\",\"title\":\"法国“Mon soutien psy”心理咨询报销：每年最多12次、每次50欧元，医保报销60%\",\"originalTitle\":\"Article 56 – LOI n° 2025-1403 du 30 décembre 2025\",\"region\":\"FR\",\"topic\":\"社会保障\",\"tags\":[\"社会保障\"],\"phase\":\"adopted\",\"status\":\"existing\",\"statusNote\":\"依据医保机构ameli 9月16日更新的说明；2025年第2025-1403号法律第56条原文因Légifrance无法访问未读取。“全面免垫付”尚未确认，ameli称刷医保卡结算“即将”推出。\",\"summary\":\"通过“Mon soutien psy”，可在合作心理师处获得最多12次心理咨询（1次评估加最多11次跟进），每次50欧元，医保报销60%，补充保险通常报销其余40%。一般须先自付再报销；领取团结补充医保或国家医疗援助、长期疾病相关治疗、怀孕6个月以上等情形强制免垫付。\",\"before\":\"政府10月概览称10月1日起推广免垫付，但ameli说明仍为先付后报销。\",\"after\":\"按ameli：仍先付后报，特定人群强制免垫付；刷卡结算即将推出。\",\"impact\":\"假设性例子：一次50欧元的咨询，医保报销30欧元（60%），补充保险报销20欧元；没有补充保险则自付20欧元。阿尔萨斯-摩泽尔地区医保合计报销90%。\",\"limits\":\"心理师收取超出协议价格的费用时不予报销；长期疾病未成年人的次数上限另有规定。法律授权条文未读，实施时间表以官方后续公告为准。\",\"verifiedAt\":\"2026-10-18\",\"lastEventDate\":\"2026-09-16\",\"effectiveDate\":null,\"nextDate\":null,\"nextLabel\":\"\",\"disputed\":false,\"dispute\":\"\",\"sources\":[{\"id\":\"ameli\",\"title\":\"ameli：心理咨询报销（Mon soutien psy）\",\"url\":\"https://www.ameli.fr/assure/remboursements/rembourse/remboursement-seance-psychologue-mon-soutien-psy\",\"publisher\":\"Assurance Maladie\",\"kind\":\"government\",\"note\":\"12次、50欧元、60%/40%、强制免垫付情形及刷卡结算“即将”推出。\"}],\"events\":[{\"id\":\"ameli-update\",\"date\":\"2026-09-16\",\"kind\":\"published\",\"title\":\"ameli更新说明\",\"detail\":\"现行报销规则。\",\"sourceId\":\"ameli\"}]}"
   }
 ]

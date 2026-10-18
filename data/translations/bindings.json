@@ -1993,11 +1993,12 @@
       ]
     },
     "fr-fertiliser-cadmium-2027": {
-      "version": 1,
-      "hash": "ddd3eb1ab244822509c72336c67e7618296dd9f8c3e28fe74c2f6ae926c51198",
+      "hash": "71adb6362faa52c0308e31919285f6eee5eab01b9809bdef819c0bad15e74c3a",
+      "version": 2,
       "originalLanguage": "fr",
       "verbatim": [
-        "Ministère de la Transition écologique"
+        "Ministère de la Transition écologique",
+        "Service Public / DILA"
       ]
     },
     "nl-internationalisation-bill-october-2026": {
@@ -6729,6 +6730,182 @@
       "originalLanguage": "en",
       "verbatim": [
         "European Commission"
+      ]
+    },
+    "fr-rent-index-irl-2026q3": {
+      "hash": "6e32fd0c39356b7b2bac122217506f4a61a058a4f0f2611db21189729f668513",
+      "version": 1,
+      "originalLanguage": "fr",
+      "verbatim": [
+        "Service Public / DILA"
+      ]
+    },
+    "fr-an-resolution-lycee-violence-2026": {
+      "hash": "e1612585c4c20ab80dcb8a4f0335b18c17bbfdd8120b97d74cbe1065b142994a",
+      "version": 1,
+      "originalLanguage": "fr",
+      "verbatim": [
+        "Assemblée nationale"
+      ]
+    },
+    "fr-an-resolution-data-centre-moratorium-2026": {
+      "hash": "9a79b3290cee4dc192b482d7d9ceb4dfd0979326fd91d1db815c794e6b26aff4",
+      "version": 1,
+      "originalLanguage": "fr",
+      "verbatim": [
+        "Assemblée nationale"
+      ]
+    },
+    "fr-amf-real-estate-fund-liquidity-2026": {
+      "hash": "4505b71e340bc5aeea1eb0b64792abc2806c803de1f8973c70a251e6e79d1930",
+      "version": 1,
+      "originalLanguage": "fr",
+      "verbatim": [
+        "Autorité des marchés financiers"
+      ]
+    },
+    "fr-ges-water-sector-call-2026": {
+      "hash": "fac7b1dff825e89d5847db2122c998d90e21c8626c996d714c239068abcd3b59",
+      "version": 1,
+      "originalLanguage": "fr",
+      "verbatim": [
+        "Région Grand Est"
+      ]
+    },
+    "it-dpb-2027": {
+      "hash": "7462933ac04f3e190930894c285e3c4daab6f4e4dff0c672b267b8c6ac1fa993",
+      "version": 1,
+      "originalLanguage": "it",
+      "verbatim": [
+        "Presidenza del Consiglio dei Ministri"
+      ]
+    },
+    "it-ex-ilva-workers-decree-2026": {
+      "hash": "1456bb837daaa9aee0eb38874fddc53b1fb150f62ee22b4ad447fa814345dd44",
+      "version": 1,
+      "originalLanguage": "it",
+      "verbatim": [
+        "Presidenza del Consiglio dei Ministri"
+      ]
+    },
+    "it-campi-flegrei-decree-2026": {
+      "hash": "0be0ccb46132bc8168078f6a1bfaff0ec28e9ed94e9d88c785ac05e517cecd22",
+      "version": 1,
+      "originalLanguage": "it",
+      "verbatim": [
+        "Presidenza del Consiglio dei Ministri"
+      ]
+    },
+    "it-new-highway-code-prelim-2026": {
+      "hash": "9f725ac8012761f5819d3708c74c0b514ebdde1041a7945d41891a8df1ef3709",
+      "version": 1,
+      "originalLanguage": "it",
+      "verbatim": [
+        "Presidenza del Consiglio dei Ministri"
+      ]
+    },
+    "it-differentiated-autonomy-four-regions-2026": {
+      "hash": "404b5dc58bb3692a58cc38be6610acb7e838091e1e0b1635dea6e4d59d6794f3",
+      "version": 1,
+      "originalLanguage": "it",
+      "verbatim": [
+        "Presidenza del Consiglio dei Ministri"
+      ]
+    },
+    "it-environment-cleanup-decree-177-2026": {
+      "hash": "df8ebac2ee4031d1939fb22f5ee7b14e099a8e91f29603ba3352844a100dee19",
+      "version": 1,
+      "originalLanguage": "it",
+      "verbatim": [
+        "Presidenza del Consiglio dei Ministri"
+      ]
+    },
+    "it-lawyers-profession-reform-prelim-2026": {
+      "hash": "b01fe69c8b4f65e7ae53e8b55a29ee105065a81be8aa37b1bd7fbb8b33e94aa6",
+      "version": 1,
+      "originalLanguage": "it",
+      "verbatim": [
+        "Presidenza del Consiglio dei Ministri"
+      ]
+    },
+    "it-cyber-resilience-act-implementation-prelim-2026": {
+      "hash": "f0556cc6e4498f5a291067cd778751524b18f2fe0b3430c7efdb6722349ddf48",
+      "version": 1,
+      "originalLanguage": "it",
+      "verbatim": [
+        "Presidenza del Consiglio dei Ministri"
+      ]
+    },
+    "it-net-zero-industry-act-implementation-prelim-2026": {
+      "hash": "c32f02c669cbca80683f32c45e8a303e3f7c8e10626b142146c2f4584905d18c",
+      "version": 1,
+      "originalLanguage": "it",
+      "verbatim": [
+        "Presidenza del Consiglio dei Ministri"
+      ]
+    },
+    "it-machinery-regulation-implementation-prelim-2026": {
+      "hash": "093f08b862e35cfb8c9e1b9a33c0880f6b64c05f070237cc01b5a1f12b1eb592",
+      "version": 1,
+      "originalLanguage": "it",
+      "verbatim": [
+        "Presidenza del Consiglio dei Ministri"
+      ]
+    },
+    "it-anti-slapp-transposition-2026": {
+      "hash": "3af051c1fbb57b99af9cac68862dc4575e0f279bcc368bbade14d138416d883a",
+      "version": 1,
+      "originalLanguage": "it",
+      "verbatim": [
+        "Presidenza del Consiglio dei Ministri"
+      ]
+    },
+    "it-police-armed-forces-pay-2025-2027": {
+      "hash": "29731f4d997cf997bc5097ce886b2da4f9992617fef64b0039c328e4c5c3cd4a",
+      "version": 1,
+      "originalLanguage": "it",
+      "verbatim": [
+        "Presidenza del Consiglio dei Ministri"
+      ]
+    },
+    "it-local-government-contract-2025-2027": {
+      "hash": "605364a212e1bfbd233b89f0a6c9a72e9f008afbe122a74da1e2da46f290b7a5",
+      "version": 1,
+      "originalLanguage": "it",
+      "verbatim": [
+        "Presidenza del Consiglio dei Ministri"
+      ]
+    },
+    "it-energy-bills-decree-state-aid-2026": {
+      "hash": "c2e09b6db5f71200e39cce649f3b4bde33a775f09c1a326e64e3dbdf0dcc232a",
+      "version": 1,
+      "originalLanguage": "it",
+      "verbatim": [
+        "Presidenza del Consiglio dei Ministri"
+      ]
+    },
+    "it-puglia-school-intercultural-mediators-2026": {
+      "hash": "5dc6d6aad4db88d80f55e4705a2bae7ce1a168f2c42b4f219f28606b7c65849c",
+      "version": 1,
+      "originalLanguage": "it",
+      "verbatim": [
+        "Regione Puglia"
+      ]
+    },
+    "it-veneto-metalworking-safety-grants-2026": {
+      "hash": "5b447ecdc2ca74615af1af582feb61e80093b78a68609ab5a1ffe1d1c3e68d84",
+      "version": 1,
+      "originalLanguage": "it",
+      "verbatim": [
+        "Regione del Veneto"
+      ]
+    },
+    "fr-mon-soutien-psy-2026": {
+      "hash": "1dbfbabcf357a201d02ddd031d95db69c3d022d0cae72191f3033dde51cf3165",
+      "version": 1,
+      "originalLanguage": "fr",
+      "verbatim": [
+        "Assurance Maladie"
       ]
     }
   },
@@ -44357,6 +44534,12 @@
       "hash": "f5a230eb2403cde31558f0c28d16f06f8cd344a8e1759187df6a742bd702f23a",
       "verbatim": [],
       "originalLanguage": "en",
+      "titleIsOriginal": true
+    },
+    "fr-sp-a19091-cadmium-2027": {
+      "hash": "8456d574a24fd4272800da36a4560bc635431111e84395c3d4dea659c6c40999",
+      "verbatim": [],
+      "originalLanguage": "fr",
       "titleIsOriginal": true
     }
   }

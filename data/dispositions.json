@@ -3497,6 +3497,65 @@
         }
       ],
       "appliesFromExport": "2026-10-18T15:39:12.968Z"
+    },
+    {
+      "id": "fr-roundups-statements-2026-10-18",
+      "reason": [
+        "新闻、讲话、声明、报告摘要、活动或公开征求意见，本身不改变规则。",
+        "News, speeches, statements, report summaries, events or public consultations; they do not change any rule by themselves."
+      ],
+      "basis": "Read: Service Public’s monthly roundup “Ce qui change en octobre 2026” (each measure has its own source) and Guyane’s 8 September statement that the PMI partnership with the CHU transfers no tasks or staff.",
+      "documents": [
+        {
+          "region": "FR",
+          "officialId": "Service Public A18466 (2026-10-15)"
+        },
+        {
+          "region": "FR-973",
+          "url": "https://www.ctguyane.fr/pmi-la-ctg-clarifie-le-cadre-de-son-partenariat-avec-le-chu-de-guyane/",
+          "title": "PMI : la CTG clarifie le cadre de son partenariat avec le CHU de Guyane"
+        }
+      ],
+      "appliesFromExport": "2026-10-18T16:10:14.523Z"
+    },
+    {
+      "id": "fr-naq-plenary-summary-2026-10-18",
+      "reason": [
+        "地区议会全体会议综述，涵盖数十项议题；它本身不是一项政策，各项决定须看各自文件。",
+        "A regional council plenary summary covering dozens of items; it is not one policy, and each decision stands on its own documents."
+      ],
+      "basis": "Read the Nouvelle-Aquitaine summary of the 12–13 October plenary: 36 agenda items including budget orientations for 2027, lycée funding, cross-border mobility and energy cooperation. Budget orientations are not the adopted budget.",
+      "documents": [
+        {
+          "region": "FR-NAQ",
+          "url": "https://www.nouvelle-aquitaine.fr/linstitution/le-conseil-regional/les-seances-plenieres/seance-pleniere-des-12-et-13-octobre-2026",
+          "title": "Séance plénière des 12 et 13 octobre 2026"
+        }
+      ],
+      "appliesFromExport": "2026-10-18T16:10:14.523Z"
+    },
+    {
+      "id": "it-cdm-technical-decrees-2026-10-18",
+      "reason": [
+        "技术性或行政性规定（统计报送、标准引用、海关归类说明、监管名单、建议等），主要约束行政机关或专业机构，不直接改变居民的权利、义务或费用。",
+        "Technical or administrative provisions (statistical reporting, references to standards, customs classification notes, supervisory lists, recommendations); they mainly bind authorities or specialist bodies and do not directly change residents’ rights, obligations or charges."
+      ],
+      "basis": "Read the Council of Ministers communiqués: no. 191 final decrees completing the e-evidence regulation 2023/1543 and implementing Regulation 2022/1616 on recycled plastic food-contact materials; no. 192 preliminary corrections and coordination of the consolidated tax codes (updating references and errors). These mainly adjust procedures for authorities or specialised operators.",
+      "documents": [
+        {
+          "region": "IT",
+          "officialId": "CdM 191/2026 / e-evidence"
+        },
+        {
+          "region": "IT",
+          "officialId": "CdM 191/2026 / plastica-riciclata"
+        },
+        {
+          "region": "IT",
+          "officialId": "CdM n. 192 (13.10.2026) — correttivi testi unici delega fiscale"
+        }
+      ],
+      "appliesFromExport": "2026-10-18T16:10:14.523Z"
     }
   ]
 }

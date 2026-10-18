@@ -2206,5 +2206,59 @@
     "source_url": "https://www.limburg.nl/actueel/bekendmakingen/",
     "checked_at": "2026-10-15T09:44:52.842Z",
     "data": "{\"id\":\"netherlands-20261015-37-today\",\"sourceUrl\":\"https://www.limburg.nl/actueel/bekendmakingen/\",\"checkedAt\":\"2026-10-15T09:44:52.842Z\",\"windowStart\":\"2026-10-15\",\"windowEnd\":\"2026-10-15\",\"status\":\"partial\",\"pages\":[\"https://www.limburg.nl/actueel/bekendmakingen/\"],\"recordIds\":[],\"excluded\":[],\"allPagesChecked\":false,\"totalListed\":null,\"note\":\"今天尚未结束，当前可见内容仅构成部分覆盖。\"}"
+  },
+  {
+    "id": "de-20261018-bundesrat",
+    "source_url": "https://www.bundesrat.de/DE/plenum/plenum-node.html",
+    "checked_at": "2026-10-18T14:43:13.562Z",
+    "data": "{\"id\":\"de-20261018-bundesrat\",\"sourceUrl\":\"https://www.bundesrat.de/DE/plenum/plenum-node.html\",\"checkedAt\":\"2026-10-18T14:43:13.562Z\",\"windowStart\":\"2026-10-11\",\"windowEnd\":\"2026-10-17\",\"status\":\"partial\",\"pages\":[\"https://www.bundesrat.de/SharedDocs/TO/1069/to-node.html\",\"https://www.bundesrat.de/DE/plenum/bundesrat-kompakt/bundesrat-kompakt-node.html\"],\"recordIds\":[\"br-1069-top-51\",\"br-1069-top-54\",\"br-1069-top-55\",\"br-1069-top-56\",\"br-1069-top-57\"],\"excluded\":[],\"allPagesChecked\":false,\"totalListed\":null,\"note\":\"已核对10月16日第1069次会议的议程、会议综述和已跟踪事项的决议原文；议程全部条目未逐项核对，不能标为完整覆盖。\"}"
+  },
+  {
+    "id": "de-20261018-bundestag-textarchiv",
+    "source_url": "https://www.bundestag.de/dokumente/textarchiv",
+    "checked_at": "2026-10-18T14:43:13.562Z",
+    "data": "{\"id\":\"de-20261018-bundestag-textarchiv\",\"sourceUrl\":\"https://www.bundestag.de/dokumente/textarchiv\",\"checkedAt\":\"2026-10-18T14:43:13.562Z\",\"windowStart\":\"2026-10-11\",\"windowEnd\":\"2026-10-17\",\"status\":\"partial\",\"pages\":[\"https://www.bundestag.de/dokumente/textarchiv/2026/kw42-de-fruehstartrente-1223624\",\"https://www.bundestag.de/dokumente/textarchiv/2026/kw42-de-tabaksteuer-1224154\",\"https://www.bundestag.de/dokumente/textarchiv/2026/kw42-de-brennstoffemissionshandelsgesetz-1223608\",\"https://www.bundestag.de/dokumente/textarchiv/2026/kw42-de-digitale-identitaeten-gesetz-1223586\",\"https://www.bundestag.de/dokumente/textarchiv/2026/kw42-de-pflegeversicherung-1223626\",\"https://www.bundestag.de/dokumente/textarchiv/2026/kw42-de-bundeswehr-eunavfor-aspides-1223590\",\"https://www.bundestag.de/dokumente/textarchiv/2026/kw42-de-bundeswehr-unmiss-1223592\"],\"recordIds\":[],\"excluded\":[],\"allPagesChecked\":false,\"totalListed\":null,\"note\":\"仅核对已跟踪事项在第42周（10月14—16日）的结果页；未遍历全部档案。\"}"
+  },
+  {
+    "id": "de-20261018-bmas",
+    "source_url": "https://www.bmas.de/DE/Service/Presse/Pressemitteilungen/pressemitteilungen.html",
+    "checked_at": "2026-10-18T14:43:13.562Z",
+    "data": "{\"id\":\"de-20261018-bmas\",\"sourceUrl\":\"https://www.bmas.de/DE/Service/Presse/Pressemitteilungen/pressemitteilungen.html\",\"checkedAt\":\"2026-10-18T14:43:13.562Z\",\"windowStart\":\"2026-10-11\",\"windowEnd\":\"2026-10-17\",\"status\":\"partial\",\"pages\":[\"https://www.bmas.de/DE/Service/Presse/Pressemitteilungen/pressemitteilungen.html\"],\"recordIds\":[],\"excluded\":[],\"allPagesChecked\":false,\"totalListed\":null,\"note\":\"列表最新条目为10月13日，已在上轮处理；10月14—17日未见新条目，但未翻页核对。\"}"
+  },
+  {
+    "id": "de-20261018-bmg",
+    "source_url": "https://www.bundesgesundheitsministerium.de/suche-pressemitteilungen",
+    "checked_at": "2026-10-18T14:43:13.562Z",
+    "data": "{\"id\":\"de-20261018-bmg\",\"sourceUrl\":\"https://www.bundesgesundheitsministerium.de/suche-pressemitteilungen\",\"checkedAt\":\"2026-10-18T14:43:13.562Z\",\"windowStart\":\"2026-10-11\",\"windowEnd\":\"2026-10-17\",\"status\":\"partial\",\"pages\":[\"https://www.bundesgesundheitsministerium.de/suche-pressemitteilungen\"],\"recordIds\":[],\"excluded\":[],\"allPagesChecked\":false,\"totalListed\":null,\"note\":\"列表由脚本加载，原始页面未显示日期，未能核对本窗口。\"}"
+  },
+  {
+    "id": "fr-20261018-service-public",
+    "source_url": "https://www.service-public.gouv.fr/particuliers/actualites",
+    "checked_at": "2026-10-18T14:43:13.562Z",
+    "data": "{\"id\":\"fr-20261018-service-public\",\"sourceUrl\":\"https://www.service-public.gouv.fr/particuliers/actualites\",\"checkedAt\":\"2026-10-18T14:43:13.562Z\",\"windowStart\":\"2026-10-11\",\"windowEnd\":\"2026-10-17\",\"status\":\"partial\",\"pages\":[\"https://www.service-public.gouv.fr/particuliers/actualites\"],\"recordIds\":[\"fr-sp-a17342-irl-2026q3\",\"fr-sp-a18466-october-2026\"],\"excluded\":[{\"url\":\"https://www.service-public.gouv.fr/particuliers/actualites/A19096\",\"reason\":\"共有部分专用权损坏赔偿的法律问答，不是新政策。\"}],\"allPagesChecked\":false,\"totalListed\":null,\"note\":\"首页可见10月15—16日条目已登记或排除；燃油援助A18903为既有记录的更新。未翻页，不能标为完整。\"}"
+  },
+  {
+    "id": "fr-20261018-entreprendre",
+    "source_url": "https://entreprendre.service-public.gouv.fr/actualites",
+    "checked_at": "2026-10-18T14:43:13.562Z",
+    "data": "{\"id\":\"fr-20261018-entreprendre\",\"sourceUrl\":\"https://entreprendre.service-public.gouv.fr/actualites\",\"checkedAt\":\"2026-10-18T14:43:13.562Z\",\"windowStart\":\"2026-10-11\",\"windowEnd\":\"2026-10-17\",\"status\":\"partial\",\"pages\":[\"https://entreprendre.service-public.gouv.fr/actualites\"],\"recordIds\":[],\"excluded\":[{\"url\":\"https://entreprendre.service-public.gouv.fr/actualites/A17731\",\"reason\":\"网络安全宣传活动，不是政策变化。\"}],\"allPagesChecked\":false,\"totalListed\":null,\"note\":\"10月16日仅有网络安全宣传月条目；未翻页。\"}"
+  },
+  {
+    "id": "fr-20261018-senat",
+    "source_url": "https://www.senat.fr/dossiers-legislatifs/lois-promulguees.html",
+    "checked_at": "2026-10-18T14:43:13.562Z",
+    "data": "{\"id\":\"fr-20261018-senat\",\"sourceUrl\":\"https://www.senat.fr/dossiers-legislatifs/lois-promulguees.html\",\"checkedAt\":\"2026-10-18T14:43:13.562Z\",\"windowStart\":\"2026-10-11\",\"windowEnd\":\"2026-10-17\",\"status\":\"partial\",\"pages\":[\"https://www.senat.fr/dossier-legislatif/pjl25-952.html\"],\"recordIds\":[],\"excluded\":[],\"allPagesChecked\":false,\"totalListed\":null,\"note\":\"本轮通过立法档案跟进“打砸者赔偿”法案（9月16日提交，不在本窗口）；已公布法律列表未核对。\"}"
+  },
+  {
+    "id": "it-20261018-governo",
+    "source_url": "https://www.governo.it/",
+    "checked_at": "2026-10-18T14:43:13.562Z",
+    "data": "{\"id\":\"it-20261018-governo\",\"sourceUrl\":\"https://www.governo.it/\",\"checkedAt\":\"2026-10-18T14:43:13.562Z\",\"windowStart\":\"2026-10-11\",\"windowEnd\":\"2026-10-17\",\"status\":\"partial\",\"pages\":[\"https://www.governo.it/\",\"https://www.governo.it/it/archivio-consiglio-dei-ministri\",\"https://www.governo.it/it/articolo/comunicato-stampa-del-consiglio-dei-ministri-n-192/32836\"],\"recordIds\":[\"it-cdm192-dpb-2027\",\"it-cdm192-ex-ilva-dl\",\"it-cdm192-campi-flegrei-dl\",\"it-cdm192-highway-code\",\"it-cdm192-autonomy-4-regions\",\"it-cdm192-tax-code-corrections\",\"it-dl-bollette-eu-understanding-20261016\"],\"excluded\":[],\"allPagesChecked\":false,\"totalListed\":null,\"note\":\"登记10月13日第192次内阁会议的主要事项和10月16日能源账单通告；人事、紧急状态延期等未单独登记。首页之外的新闻列表未翻页。\"}"
+  },
+  {
+    "id": "it-20261018-normattiva",
+    "source_url": "https://www.normattiva.it/",
+    "checked_at": "2026-10-18T14:43:13.562Z",
+    "data": "{\"id\":\"it-20261018-normattiva\",\"sourceUrl\":\"https://www.normattiva.it/\",\"checkedAt\":\"2026-10-18T14:43:13.562Z\",\"windowStart\":\"2026-10-11\",\"windowEnd\":\"2026-10-17\",\"status\":\"partial\",\"pages\":[\"https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legge:2026-09-30;170~art12\",\"https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legge:2026-09-30;170~art13\",\"https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legge:2026-09-30;170~art15\"],\"recordIds\":[],\"excluded\":[],\"allPagesChecked\":false,\"totalListed\":null,\"note\":\"定向核读第170/2026号法令（9月30日公布，不在本窗口）；未浏览本窗口的新公布法令。\"}"
   }
 ]

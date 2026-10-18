@@ -1,0 +1,6502 @@
+
+> policy-radar@0.1.0 data:coverage
+> node --experimental-strip-types scripts/check-recent-coverage.mjs data/store
+
+(node:41021) ExperimentalWarning: Type Stripping is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+{
+  "checkedAt": "2026-10-18T14:45:04.289Z",
+  "scope": "all",
+  "channels": 382,
+  "incompleteChannels": 382,
+  "gaps": [
+    {
+      "sourceUrl": "https://www.zh.ch/de.html",
+      "region": "CH-ZH",
+      "title": "苏黎世：州政府公告",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.zh.ch/de/politik-staat/gesetze-beschluesse/gesetzessammlung.html",
+      "region": "CH-ZH",
+      "title": "苏黎世：法律汇编",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.kantonsrat.zh.ch/",
+      "region": "CH-ZH",
+      "title": "苏黎世：州议会文件",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.be.ch/de/start.html",
+      "region": "CH-BE",
+      "title": "伯尔尼：州政府公告",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.belex.sites.be.ch/",
+      "region": "CH-BE",
+      "title": "伯尔尼：法律汇编",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.gr.be.ch/de/start.html",
+      "region": "CH-BE",
+      "title": "伯尔尼：州议会文件",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.lu.ch/",
+      "region": "CH-LU",
+      "title": "卢塞恩：州政府公告",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://srl.lu.ch/app/de/systematic",
+      "region": "CH-LU",
+      "title": "卢塞恩：法律汇编",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.lu.ch/kr",
+      "region": "CH-LU",
+      "title": "卢塞恩：州议会文件",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.ur.ch/",
+      "region": "CH-UR",
+      "title": "乌里：州政府公告",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://rechtsbuch.ur.ch/app/de/systematic",
+      "region": "CH-UR",
+      "title": "乌里：法律汇编",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.ur.ch/landrat",
+      "region": "CH-UR",
+      "title": "乌里：州议会文件",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.sz.ch/",
+      "region": "CH-SZ",
+      "title": "施维茨：州政府公告",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.sz.ch/kanton/gesetze.html/8756-8757-10021",
+      "region": "CH-SZ",
+      "title": "施维茨：法律汇编",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.sz.ch/behoerden/kantonsrat.html/8756-8758-8799",
+      "region": "CH-SZ",
+      "title": "施维茨：州议会文件",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.ow.ch/",
+      "region": "CH-OW",
+      "title": "上瓦尔登：州政府公告",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://gdb.ow.ch/app/de/systematic",
+      "region": "CH-OW",
+      "title": "上瓦尔登：法律汇编",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.ow.ch/kantonsratmain",
+      "region": "CH-OW",
+      "title": "上瓦尔登：州议会文件",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.nw.ch/",
+      "region": "CH-NW",
+      "title": "下瓦尔登：州政府公告",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://gesetze.nw.ch/app/de/systematic",
+      "region": "CH-NW",
+      "title": "下瓦尔登：法律汇编",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.nw.ch/landratmain",
+      "region": "CH-NW",
+      "title": "下瓦尔登：州议会文件",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.gl.ch/",
+      "region": "CH-GL",
+      "title": "格拉鲁斯：州政府公告",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "blocked"
+    },
+    {
+      "sourceUrl": "https://gesetze.gl.ch/app/de/systematic",
+      "region": "CH-GL",
+      "title": "格拉鲁斯：法律汇编",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.gl.ch/parlament/landrat.html/250",
+      "region": "CH-GL",
+      "title": "格拉鲁斯：州议会文件",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "blocked"
+    },
+    {
+      "sourceUrl": "https://zg.ch/de",
+      "region": "CH-ZG",
+      "title": "楚格：州政府公告",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://bgs.zg.ch/app/de/systematic",
+      "region": "CH-ZG",
+      "title": "楚格：法律汇编",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://zg.ch/de/kantonsrat",
+      "region": "CH-ZG",
+      "title": "楚格：州议会文件",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.fr.ch/",
+      "region": "CH-FR",
+      "title": "弗里堡：州政府公告",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://bdlf.fr.ch/app/fr/systematic/texts_of_law",
+      "region": "CH-FR",
+      "title": "弗里堡：法律汇编",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.fr.ch/parlinfo/programmes-et-dates-des-sessions-du-grand-conseil",
+      "region": "CH-FR",
+      "title": "弗里堡：州议会文件",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://so.ch/",
+      "region": "CH-SO",
+      "title": "索洛图恩：州政府公告",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://bgs.so.ch/app/de/systematic",
+      "region": "CH-SO",
+      "title": "索洛图恩：法律汇编",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://so.ch/parlament/",
+      "region": "CH-SO",
+      "title": "索洛图恩：州议会文件",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.bs.ch/",
+      "region": "CH-BS",
+      "title": "巴塞尔城市：州政府公告",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.gesetzessammlung.bs.ch/app/de/systematic",
+      "region": "CH-BS",
+      "title": "巴塞尔城市：法律汇编",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://grosserrat.bs.ch/",
+      "region": "CH-BS",
+      "title": "巴塞尔城市：州议会文件",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.baselland.ch/",
+      "region": "CH-BL",
+      "title": "巴塞尔乡村：州政府公告",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "blocked"
+    },
+    {
+      "sourceUrl": "https://bl.clex.ch/app/de/systematic",
+      "region": "CH-BL",
+      "title": "巴塞尔乡村：法律汇编",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.baselland.ch/politik-und-behorden/landrat-parlament",
+      "region": "CH-BL",
+      "title": "巴塞尔乡村：州议会文件",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "blocked"
+    },
+    {
+      "sourceUrl": "https://sh.ch/",
+      "region": "CH-SH",
+      "title": "沙夫豪森：州政府公告",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://rechtsbuch.sh.ch/app/de/systematic",
+      "region": "CH-SH",
+      "title": "沙夫豪森：法律汇编",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://sh.ch/CMS/Webseite/Kanton-Schaffhausen/Beh-rde/Parlament-3085-DE.html",
+      "region": "CH-SH",
+      "title": "沙夫豪森：州议会文件",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "blocked"
+    },
+    {
+      "sourceUrl": "https://ar.ch/",
+      "region": "CH-AR",
+      "title": "外阿彭策尔：州政府公告",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.bgs.ar.ch/app/de/systematic",
+      "region": "CH-AR",
+      "title": "外阿彭策尔：法律汇编",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://ar.ch/kantonsrat/",
+      "region": "CH-AR",
+      "title": "外阿彭策尔：州议会文件",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://ai.ch/",
+      "region": "CH-AI",
+      "title": "内阿彭策尔：州政府公告",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://ai.clex.ch/app/de/systematic",
+      "region": "CH-AI",
+      "title": "内阿彭策尔：法律汇编",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://ai.ch/politik/grosser-rat",
+      "region": "CH-AI",
+      "title": "内阿彭策尔：州议会文件",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.sg.ch/",
+      "region": "CH-SG",
+      "title": "圣加仑：州政府公告",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.gesetzessammlung.sg.ch/app/de/systematic",
+      "region": "CH-SG",
+      "title": "圣加仑：法律汇编",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.sg.ch/politik-verwaltung/kantonsrat.html",
+      "region": "CH-SG",
+      "title": "圣加仑：州议会文件",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.gr.ch/de",
+      "region": "CH-GR",
+      "title": "格劳宾登：州政府公告",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.gr-lex.gr.ch/app/de/systematic",
+      "region": "CH-GR",
+      "title": "格劳宾登：法律汇编",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.gr.ch/DE/institutionen/parlament/Seiten/Start.aspx",
+      "region": "CH-GR",
+      "title": "格劳宾登：州议会文件",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.ag.ch/de",
+      "region": "CH-AG",
+      "title": "阿尔高：州政府公告",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://gesetzessammlungen.ag.ch/app/de/chronology",
+      "region": "CH-AG",
+      "title": "阿尔高：法律汇编",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.ag.ch/de/ueber-uns/grosser-rat/ueber-uns/ratsmitglieder",
+      "region": "CH-AG",
+      "title": "阿尔高：州议会文件",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.tg.ch/",
+      "region": "CH-TG",
+      "title": "图尔高：州政府公告",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "blocked"
+    },
+    {
+      "sourceUrl": "https://www.rechtsbuch.tg.ch/app/de/systematic",
+      "region": "CH-TG",
+      "title": "图尔高：法律汇编",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.parlament.tg.ch/",
+      "region": "CH-TG",
+      "title": "图尔高：州议会文件",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www4.ti.ch/",
+      "region": "CH-TI",
+      "title": "提契诺：州政府公告",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "blocked"
+    },
+    {
+      "sourceUrl": "https://www3.ti.ch/CAN/RLeggi/public/index.php",
+      "region": "CH-TI",
+      "title": "提契诺：法律汇编",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "blocked"
+    },
+    {
+      "sourceUrl": "https://www4.ti.ch/poteri/gran-consiglio/",
+      "region": "CH-TI",
+      "title": "提契诺：州议会文件",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "blocked"
+    },
+    {
+      "sourceUrl": "https://www.vd.ch/",
+      "region": "CH-VD",
+      "title": "沃：州政府公告",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://prestations.vd.ch/pub/blv-publication/",
+      "region": "CH-VD",
+      "title": "沃：法律汇编",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.vd.ch/gc",
+      "region": "CH-VD",
+      "title": "沃：州议会文件",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.vs.ch/",
+      "region": "CH-VS",
+      "title": "瓦莱：州政府公告",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://lex.vs.ch/app/fr/systematic",
+      "region": "CH-VS",
+      "title": "瓦莱：法律汇编",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://parlement.vs.ch/",
+      "region": "CH-VS",
+      "title": "瓦莱：州议会文件",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.ne.ch/",
+      "region": "CH-NE",
+      "title": "纳沙泰尔：州政府公告",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://rsn.ne.ch/",
+      "region": "CH-NE",
+      "title": "纳沙泰尔：法律汇编",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.ne.ch/autorites/GC/Pages/accueil.aspx",
+      "region": "CH-NE",
+      "title": "纳沙泰尔：州议会文件",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.ge.ch/",
+      "region": "CH-GE",
+      "title": "日内瓦：州政府公告",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://silgeneve.ch/legis/",
+      "region": "CH-GE",
+      "title": "日内瓦：法律汇编",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://ge.ch/grandconseil/",
+      "region": "CH-GE",
+      "title": "日内瓦：州议会文件",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.jura.ch/",
+      "region": "CH-JU",
+      "title": "汝拉：州政府公告",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://rsju.jura.ch/",
+      "region": "CH-JU",
+      "title": "汝拉：法律汇编",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.jura.ch/PLT",
+      "region": "CH-JU",
+      "title": "汝拉：州议会文件",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.news.admin.ch/de",
+      "region": "CH",
+      "title": "瑞士联邦政府公告",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.fedlex.admin.ch/de/oc",
+      "region": "CH",
+      "title": "瑞士联邦法律汇编",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.parlament.ch/de/ratsbetrieb/suche-curia-vista",
+      "region": "CH",
+      "title": "瑞士联邦议会事务",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.bk.admin.ch/de/volksabstimmungen",
+      "region": "CH",
+      "title": "瑞士联邦投票结果",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.auvergnerhonealpes.fr/",
+      "region": "FR-ARA",
+      "title": "奥弗涅-罗讷-阿尔卑斯：地方政府公告",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://edelib.auvergnerhonealpes.fr/webdelibplus/jsp/seances.jsp?role=usager",
+      "region": "FR-ARA",
+      "title": "奥弗涅-罗讷-阿尔卑斯：地方决议及行政文件",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.prefectures-regions.gouv.fr/auvergne-rhone-alpes/",
+      "region": "FR-ARA",
+      "title": "奥弗涅-罗讷-阿尔卑斯：国家驻区机构入口",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "blocked"
+    },
+    {
+      "sourceUrl": "https://www.bourgognefranchecomte.fr/",
+      "region": "FR-BFC",
+      "title": "勃艮第-弗朗什-孔泰：地方政府公告",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://abcdelib.bourgognefranchecomte.fr/",
+      "region": "FR-BFC",
+      "title": "勃艮第-弗朗什-孔泰：地方决议及行政文件",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.prefectures-regions.gouv.fr/bourgogne-franche-comte/",
+      "region": "FR-BFC",
+      "title": "勃艮第-弗朗什-孔泰：国家驻区机构入口",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "blocked"
+    },
+    {
+      "sourceUrl": "https://www.bretagne.bzh/",
+      "region": "FR-BRE",
+      "title": "布列塔尼：地方政府公告",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "blocked"
+    },
+    {
+      "sourceUrl": "https://www.bretagne.bzh/region/decisions/",
+      "region": "FR-BRE",
+      "title": "布列塔尼：地方决议及行政文件",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "blocked"
+    },
+    {
+      "sourceUrl": "https://www.prefectures-regions.gouv.fr/bretagne/",
+      "region": "FR-BRE",
+      "title": "布列塔尼：国家驻区机构入口",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "blocked"
+    },
+    {
+      "sourceUrl": "https://www.centre-valdeloire.fr/",
+      "region": "FR-CVL",
+      "title": "中央-卢瓦尔河谷：地方政府公告",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "blocked"
+    },
+    {
+      "sourceUrl": "https://actes.centre-valdeloire.fr/webdelibplus/jsp/seances.jsp?role=usager",
+      "region": "FR-CVL",
+      "title": "中央-卢瓦尔河谷：地方决议及行政文件",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.prefectures-regions.gouv.fr/centre-val-de-loire/",
+      "region": "FR-CVL",
+      "title": "中央-卢瓦尔河谷：国家驻区机构入口",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "blocked"
+    },
+    {
+      "sourceUrl": "https://www.isula.corsica/",
+      "region": "FR-20R",
+      "title": "科西嘉：地方政府公告",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.isula.corsica/Recueils-des-actes-administratifs_r100.html",
+      "region": "FR-20R",
+      "title": "科西嘉：地方决议及行政文件",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.prefectures-regions.gouv.fr/corse/",
+      "region": "FR-20R",
+      "title": "科西嘉：国家驻区机构入口",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "blocked"
+    },
+    {
+      "sourceUrl": "https://www.grandest.fr/",
+      "region": "FR-GES",
+      "title": "大东部：地方政府公告",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.grandest.fr/le-conseil-regional/deliberations/",
+      "region": "FR-GES",
+      "title": "大东部：地方决议及行政文件",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.prefectures-regions.gouv.fr/grand-est/",
+      "region": "FR-GES",
+      "title": "大东部：国家驻区机构入口",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "blocked"
+    },
+    {
+      "sourceUrl": "https://www.hautsdefrance.fr/",
+      "region": "FR-HDF",
+      "title": "上法兰西：地方政府公告",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.hautsdefrance.fr/conseil-regional-hdf/les-actes-institutionnels/",
+      "region": "FR-HDF",
+      "title": "上法兰西：地方决议及行政文件",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.prefectures-regions.gouv.fr/hauts-de-france/",
+      "region": "FR-HDF",
+      "title": "上法兰西：国家驻区机构入口",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "blocked"
+    },
+    {
+      "sourceUrl": "https://www.iledefrance.fr/",
+      "region": "FR-IDF",
+      "title": "法兰西岛：地方政府公告",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.data.gouv.fr/datasets/actes-administratifs-de-la-region-ile-de-france",
+      "region": "FR-IDF",
+      "title": "法兰西岛：地方决议及行政文件",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.prefectures-regions.gouv.fr/ile-de-france/",
+      "region": "FR-IDF",
+      "title": "法兰西岛：国家驻区机构入口",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "blocked"
+    },
+    {
+      "sourceUrl": "https://www.normandie.fr/",
+      "region": "FR-NOR",
+      "title": "诺曼底：地方政府公告",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "blocked"
+    },
+    {
+      "sourceUrl": "https://www.normandie.fr/deliberations-normandie-et-ex-haute-normandie",
+      "region": "FR-NOR",
+      "title": "诺曼底：地方决议及行政文件",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "blocked"
+    },
+    {
+      "sourceUrl": "https://www.prefectures-regions.gouv.fr/normandie/",
+      "region": "FR-NOR",
+      "title": "诺曼底：国家驻区机构入口",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "blocked"
+    },
+    {
+      "sourceUrl": "https://www.nouvelle-aquitaine.fr/",
+      "region": "FR-NAQ",
+      "title": "新阿基坦：地方政府公告",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.nouvelle-aquitaine.fr/linstitution/le-conseil-regional/decisions-de-lassemblee-et-arretes-du-president",
+      "region": "FR-NAQ",
+      "title": "新阿基坦：地方决议及行政文件",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.prefectures-regions.gouv.fr/nouvelle-aquitaine/",
+      "region": "FR-NAQ",
+      "title": "新阿基坦：国家驻区机构入口",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "blocked"
+    },
+    {
+      "sourceUrl": "https://www.laregion.fr/",
+      "region": "FR-OCC",
+      "title": "奥克西塔尼：地方政府公告",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.laregion.fr/Portail-de-publication-des-Deliberations-et-autres-actes-administratifs-de-la-Region",
+      "region": "FR-OCC",
+      "title": "奥克西塔尼：地方决议及行政文件",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.prefectures-regions.gouv.fr/occitanie/",
+      "region": "FR-OCC",
+      "title": "奥克西塔尼：国家驻区机构入口",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "blocked"
+    },
+    {
+      "sourceUrl": "https://www.paysdelaloire.fr/",
+      "region": "FR-PDL",
+      "title": "卢瓦尔河地区：地方政府公告",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.paysdelaloire.fr/mon-conseil-regional/linstitution/les-actes-administratifs",
+      "region": "FR-PDL",
+      "title": "卢瓦尔河地区：地方决议及行政文件",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.prefectures-regions.gouv.fr/pays-de-la-loire/",
+      "region": "FR-PDL",
+      "title": "卢瓦尔河地区：国家驻区机构入口",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "blocked"
+    },
+    {
+      "sourceUrl": "https://www.maregionsud.fr/",
+      "region": "FR-PAC",
+      "title": "普罗旺斯-阿尔卑斯-蓝色海岸：地方政府公告",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://actes.maregionsud.fr/actes/",
+      "region": "FR-PAC",
+      "title": "普罗旺斯-阿尔卑斯-蓝色海岸：地方决议及行政文件",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.prefectures-regions.gouv.fr/provence-alpes-cote-dazur/",
+      "region": "FR-PAC",
+      "title": "普罗旺斯-阿尔卑斯-蓝色海岸：国家驻区机构入口",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "blocked"
+    },
+    {
+      "sourceUrl": "https://www.regionguadeloupe.fr/",
+      "region": "FR-971",
+      "title": "瓜德罗普：地方政府公告",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "blocked"
+    },
+    {
+      "sourceUrl": "https://www.regionguadeloupe.fr/Publication-des-actes-administratifs",
+      "region": "FR-971",
+      "title": "瓜德罗普：地方决议及行政文件",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "blocked"
+    },
+    {
+      "sourceUrl": "https://www.guadeloupe.gouv.fr/",
+      "region": "FR-971",
+      "title": "瓜德罗普：国家驻区机构入口",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "blocked"
+    },
+    {
+      "sourceUrl": "https://www.collectivitedemartinique.mq/",
+      "region": "FR-972",
+      "title": "马提尼克：地方政府公告",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.collectivitedemartinique.mq/actes-adminitratifs/",
+      "region": "FR-972",
+      "title": "马提尼克：地方决议及行政文件",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.martinique.gouv.fr/",
+      "region": "FR-972",
+      "title": "马提尼克：国家驻区机构入口",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "blocked"
+    },
+    {
+      "sourceUrl": "https://www.ctguyane.fr/",
+      "region": "FR-973",
+      "title": "法属圭亚那：地方政府公告",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://webdelib.ctguyane.fr/webdelibplus/jsp/seances.jsp?role=usager",
+      "region": "FR-973",
+      "title": "法属圭亚那：地方决议及行政文件",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "blocked"
+    },
+    {
+      "sourceUrl": "https://www.guyane.gouv.fr/",
+      "region": "FR-973",
+      "title": "法属圭亚那：国家驻区机构入口",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "blocked"
+    },
+    {
+      "sourceUrl": "https://regionreunion.com/",
+      "region": "FR-974",
+      "title": "留尼汪：地方政府公告",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "blocked"
+    },
+    {
+      "sourceUrl": "https://regionreunion.com/la-region/les-actes-administratifs/article/commission-permanente-assemblee-pleniere",
+      "region": "FR-974",
+      "title": "留尼汪：地方决议及行政文件",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "blocked"
+    },
+    {
+      "sourceUrl": "https://www.reunion.gouv.fr/",
+      "region": "FR-974",
+      "title": "留尼汪：国家驻区机构入口",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "blocked"
+    },
+    {
+      "sourceUrl": "https://www.mayotte.fr/",
+      "region": "FR-976",
+      "title": "马约特：地方政府公告",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.mayotte.fr/le-departement/transparence-administrative/publicite-des-actes",
+      "region": "FR-976",
+      "title": "马约特：地方决议及行政文件",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.mayotte.gouv.fr/",
+      "region": "FR-976",
+      "title": "马约特：国家驻区机构入口",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "blocked"
+    },
+    {
+      "sourceUrl": "https://www.provinciegroningen.nl/",
+      "region": "NL-GR",
+      "title": "格罗宁根：省政府公告",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.provinciegroningen.nl/bestuur-en-organisatie/provinciale-staten/",
+      "region": "NL-GR",
+      "title": "格罗宁根：省议会文件",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.fryslan.frl/",
+      "region": "NL-FR",
+      "title": "弗里斯兰：省政府公告",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.fryslan.frl/provinciale-staten",
+      "region": "NL-FR",
+      "title": "弗里斯兰：省议会文件",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.provincie.drenthe.nl/",
+      "region": "NL-DR",
+      "title": "德伦特：省政府公告",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.provincie.drenthe.nl/organisatie-bestuur/provinciale-staten/",
+      "region": "NL-DR",
+      "title": "德伦特：省议会文件",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.overijssel.nl/",
+      "region": "NL-OV",
+      "title": "上艾瑟尔：省政府公告",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.overijssel.nl/bestuur/provinciale-staten/",
+      "region": "NL-OV",
+      "title": "上艾瑟尔：省议会文件",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.flevoland.nl/",
+      "region": "NL-FL",
+      "title": "弗莱福兰：省政府公告",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://stateninformatie.flevoland.nl/",
+      "region": "NL-FL",
+      "title": "弗莱福兰：省议会文件",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "blocked"
+    },
+    {
+      "sourceUrl": "https://www.gelderland.nl/",
+      "region": "NL-GE",
+      "title": "海尔德兰：省政府公告",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.gelderland.nl/themas/politiek/ps",
+      "region": "NL-GE",
+      "title": "海尔德兰：省议会文件",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.provincie-utrecht.nl/",
+      "region": "NL-UT",
+      "title": "乌得勒支：省政府公告",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.provincie-utrecht.nl/politiek-bestuur/provinciale-staten",
+      "region": "NL-UT",
+      "title": "乌得勒支：省议会文件",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.noord-holland.nl/",
+      "region": "NL-NH",
+      "title": "北荷兰：省政府公告",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.noord-holland.nl/Bestuur/Provinciale_Staten",
+      "region": "NL-NH",
+      "title": "北荷兰：省议会文件",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.zuid-holland.nl/",
+      "region": "NL-ZH",
+      "title": "南荷兰：省政府公告",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.zuid-holland.nl/politiek-bestuur/provinciale-staten/",
+      "region": "NL-ZH",
+      "title": "南荷兰：省议会文件",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.zeeland.nl/",
+      "region": "NL-ZE",
+      "title": "泽兰：省政府公告",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.zeeland.nl/bestuur/provinciale-staten",
+      "region": "NL-ZE",
+      "title": "泽兰：省议会文件",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.brabant.nl/",
+      "region": "NL-NB",
+      "title": "北布拉班特：省政府公告",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.brabant.nl/bestuur/provinciale-staten/statenstukken/",
+      "region": "NL-NB",
+      "title": "北布拉班特：省议会文件",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.limburg.nl/",
+      "region": "NL-LI",
+      "title": "林堡：省政府公告",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.limburg.nl/bestuur/provinciale-staten/",
+      "region": "NL-LI",
+      "title": "林堡：省议会文件",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.rijksoverheid.nl/actueel/nieuws",
+      "region": "NL",
+      "title": "荷兰政府政策公告",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://zoek.officielebekendmakingen.nl/",
+      "region": "NL",
+      "title": "荷兰官方公报与议会文件",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://wetten.overheid.nl/",
+      "region": "NL",
+      "title": "荷兰现行国家法规",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://lokaleregelgeving.overheid.nl/",
+      "region": "NL",
+      "title": "荷兰地方现行法规",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.tweedekamer.nl/kamerstukken/wetsvoorstellen",
+      "region": "NL",
+      "title": "荷兰众议院法案",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.eerstekamer.nl/wetsvoorstellen_2",
+      "region": "NL",
+      "title": "荷兰参议院法案",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.fryslan.frl/bekendmakingen-2026",
+      "region": "NL-FR",
+      "title": "弗里斯兰：官方公布与决定",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.provincie.drenthe.nl/actueel/bekendmakingen/",
+      "region": "NL-DR",
+      "title": "德伦特：官方公布与决定",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.flevoland.nl/loket/openbare-documenten/overzicht-openbare-documenten/wet-en-regelgeving",
+      "region": "NL-FL",
+      "title": "弗莱福兰：官方公布与决定",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.provincie-utrecht.nl/actueel/gs-besluiten",
+      "region": "NL-UT",
+      "title": "乌得勒支：官方公布与决定",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.zuid-holland.nl/actueel/bekendmakingen/",
+      "region": "NL-ZH",
+      "title": "南荷兰：官方公布与决定",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.zeeland.nl/loket/Provinciaal-Blad-en-Bekendmakingen",
+      "region": "NL-ZE",
+      "title": "泽兰：官方公布与决定",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.brabant.nl/actueel/bekendmakingen/",
+      "region": "NL-NB",
+      "title": "北布拉班特：官方公布与决定",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.limburg.nl/actueel/bekendmakingen/",
+      "region": "NL-LI",
+      "title": "林堡：官方公布与决定",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.legifrance.gouv.fr/jorf/jo",
+      "region": "FR",
+      "title": "法国官方公报",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "blocked"
+    },
+    {
+      "sourceUrl": "https://www.service-public.gouv.fr/particuliers/actualites",
+      "region": "FR",
+      "title": "法国公共服务：个人政策动态",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://entreprendre.service-public.gouv.fr/actualites",
+      "region": "FR",
+      "title": "法国公共服务：企业政策动态",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.assemblee-nationale.fr/dyn/17/dossiers",
+      "region": "FR",
+      "title": "法国国民议会立法进程",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.senat.fr/dossiers-legislatifs/lois-promulguees.html",
+      "region": "FR",
+      "title": "法国参议院已公布法律",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.amf-france.org/fr/actualites-publications/actualites",
+      "region": "FR",
+      "title": "法国金融市场管理局：新闻",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.bundesregierung.de/breg-de/suche/gesetzliche-neuregelungen-442800",
+      "region": "DE",
+      "title": "联邦政府每月新规索引",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.recht.bund.de/de/home/home_node.html",
+      "region": "DE",
+      "title": "联邦法律公报",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://recht.nrw.de/",
+      "region": "DE-NW",
+      "title": "北威州法律与条例公报",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://verkuendung.rlp.de/de/",
+      "region": "DE-RP",
+      "title": "莱法州官方公布平台",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.amtsblatt.saarland.de/jportal/portal/page/fpverksl.psml",
+      "region": "DE-SL",
+      "title": "萨尔州官方公报与最新期号",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.baden-wuerttemberg.de/de/service/gesetze-und-verordnungen/gesetzblatt",
+      "region": "DE-BW",
+      "title": "巴符州法律公报",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://verkuendung.hessen.de/",
+      "region": "DE-HE",
+      "title": "黑森官方公布平台",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.verkuendung-bayern.de/",
+      "region": "DE-BY",
+      "title": "巴伐利亚官方公布平台",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://verkuendungsportal.schleswig-holstein.de/home",
+      "region": "DE-SH",
+      "title": "石荷州官方法律与行政公报",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.hamburg.de/politik-und-verwaltung/behoerden/bjv/veroeffentlichungen",
+      "region": "DE-HH",
+      "title": "汉堡法规发布及立法程序入口",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.gesetzblatt.bremen.de/",
+      "region": "DE-HB",
+      "title": "不来梅法律公报",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.niedersachsen.de/politik_staat/gesetze_verordnungen_und_sonstige_vorschriften/aktuelle_verkundungsblatter/download-verkuendungsblaetter-108794.html",
+      "region": "DE-NI",
+      "title": "下萨克森官方公报入口",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.regierung-mv.de/Landesregierung/jm/service_justizministerium/verkuendungsblaetter/gesetz-verordnungsblaetter",
+      "region": "DE-MV",
+      "title": "梅前州法律及条例公报",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.berlin.de/sen/justiz/service/gesetze-und-verordnungen/2026/",
+      "region": "DE-BE",
+      "title": "柏林法律与条例公报：2026年各期",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://bravors.brandenburg.de/de/veroeffentlichungsblaetter_chronologisch/2026",
+      "region": "DE-BB",
+      "title": "勃兰登堡2026年公报时间顺序目录",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.medienservice.sachsen.de/",
+      "region": "DE-SN",
+      "title": "萨克森州政府官方新闻与条例发布",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.revosax.sachsen.de/",
+      "region": "DE-SN",
+      "title": "REVOSax：萨克森现行法规检索",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.landtag.sachsen-anhalt.de/dokumente/aktuelle-dokumente",
+      "region": "DE-ST",
+      "title": "萨克森-安哈尔特议会：文件与审议记录入口",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "blocked"
+    },
+    {
+      "sourceUrl": "https://www.landtag.sachsen-anhalt.de/",
+      "region": "DE-ST",
+      "title": "萨克森-安哈尔特议会：最新政策与会议信息",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.thueringer-landtag.de/plenum/neue-gesetze-im-landtag/",
+      "region": "DE-TH",
+      "title": "图林根州议会：已通过的新法律",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.thueringer-landtag.de/dokumente/parlamentsdokumentation/",
+      "region": "DE-TH",
+      "title": "图林根议会文件、公报及立法程序入口",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.landtag.ltsh.de/infothek/wahl20/plenum/beschlusspro_seite/",
+      "region": "DE-SH",
+      "title": "石荷州议会决议记录",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.schleswig-holstein.de/DE/landesportal/presse/pressemitteilungen",
+      "region": "DE-SH",
+      "title": "石荷州政府及各部新闻与决定",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.hamburgische-buergerschaft.de/recherche-info/protokolle",
+      "region": "DE-HH",
+      "title": "汉堡州议会表决与决议记录",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.hamburg.de/politik-und-verwaltung/senat/presseservice-des-senats/pressemeldungen-des-senats",
+      "region": "DE-HH",
+      "title": "汉堡州政府各部门新闻与决定",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.bremische-buergerschaft.de/index.php?id=480",
+      "region": "DE-HB",
+      "title": "不来梅州议会决议记录",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.senatspressestelle.bremen.de/pressemitteilungen-1464",
+      "region": "DE-HB",
+      "title": "不来梅州政府各部门新闻与决定",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.landtag-niedersachsen.de/dokumentensuche/",
+      "region": "DE-NI",
+      "title": "下萨克森州议会文书与表决简报",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.niedersachsen.de/startseite/service/presse/presseinformationen/",
+      "region": "DE-NI",
+      "title": "下萨克森州政府及公共机构公告",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.landtag-mv.de/plenum-und-ausschuesse/plenum/vergangene-plenarsitzungen",
+      "region": "DE-MV",
+      "title": "梅前州议会全体会议与决议记录",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.regierung-mv.de/Aktuell/",
+      "region": "DE-MV",
+      "title": "梅前州政府各部新闻与决定",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://pardok.parlament-berlin.de/portala/start.tt.html",
+      "region": "DE-BE",
+      "title": "柏林议会文献库：法律与议会决议",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.berlin.de/rbmskzl/aktuelles/pressemitteilungen/",
+      "region": "DE-BE",
+      "title": "柏林州政府与市长办公厅新闻公告",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.landtag.brandenburg.de/de/parlament/plenum_und_gesetze/beschlossene_gesetze/beschlossene_gesetze_der_8._wahlperiode/39257",
+      "region": "DE-BB",
+      "title": "勃兰登堡州议会已通过法律目录",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://landesregierung-brandenburg.de/",
+      "region": "DE-BB",
+      "title": "勃兰登堡州政府新闻公告总入口",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.landtag.sachsen.de/de/aktuelles/plenarsitzungen/index.cshtml",
+      "region": "DE-SN",
+      "title": "萨克森州议会全体会议及决议",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.medienservice.sachsen.de/medien/",
+      "region": "DE-SN",
+      "title": "萨克森州政府及各部门新闻公告",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.landtag.sachsen-anhalt.de/archiv",
+      "region": "DE-ST",
+      "title": "萨克森-安哈尔特州议会全体会议与表决结果档案",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.sachsen-anhalt.de/lj/politik-und-verwaltung/service/politik-aktuell/pressemitteilungen",
+      "region": "DE-ST",
+      "title": "萨克森-安哈尔特州政府新闻公告",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "blocked"
+    },
+    {
+      "sourceUrl": "https://www.thueringer-landtag.de/plenum/protokolle/",
+      "region": "DE-TH",
+      "title": "图林根州议会全体会议记录及决议检索入口",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://thueringen.de/medienservice/medieninformationen",
+      "region": "DE-TH",
+      "title": "图林根州政府及各部门新闻公告",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.landtag.nrw.de/cms/render/live/de/sites/landtag-r20/home/dokumente/dokumentensuche/ubersichtsseite-reden--protoko-1/protokolle-18-wahlperiode-2022-2.html?ausschuss=Plenum",
+      "region": "DE-NW",
+      "title": "北威州议会全体会议决定与会议记录",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.land.nrw/pressemitteilungen",
+      "region": "DE-NW",
+      "title": "北威州政府新闻与决定公告",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "blocked"
+    },
+    {
+      "sourceUrl": "https://opal.rlp.de/portal/dokumente.tt.html",
+      "region": "DE-RP",
+      "title": "莱法州议会最新文件与决定记录",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.rlp.de/service/pressemitteilungen",
+      "region": "DE-RP",
+      "title": "莱法州政府新闻公告",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.landtag-saar.de/aktuelles/",
+      "region": "DE-SL",
+      "title": "萨尔州议会动态与表决结果",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.saarland.de/DE/presse-informationen/medienservice/medieninfos",
+      "region": "DE-SL",
+      "title": "萨尔州政府各部门新闻公告",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "blocked"
+    },
+    {
+      "sourceUrl": "https://www.landtag-bw.de/de/aktuelles/beschluesse",
+      "region": "DE-BW",
+      "title": "巴符州议会全体会议决定",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.baden-wuerttemberg.de/de/service/presse/pressemitteilungen",
+      "region": "DE-BW",
+      "title": "巴符州政府各部门新闻公告",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://starweb.hessen.de/portal/browse.tt.html?action=link&searchgeneric1-parsed=%28WP%3D21+AND+SGEBES%3DANNAHME%29+NOT+NOWEB%3DX&type=generic1",
+      "region": "DE-HE",
+      "title": "黑森州议会已通过法律目录（第21届）",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://hessen.de/presse",
+      "region": "DE-HE",
+      "title": "黑森州政府各部门新闻公告",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.bayern.landtag.de/parlament/dokumente/drucksachen/?anzahl_treffer=20&beschluss=zustimmung&dknr=&dlh=BeschlosseneGesetze19&dokumentenart=Drucksache&dokumentenart=Drucksache&erfassungsdatum%5Bend%5D=&erfassungsdatum%5Bstart%5D=&ist_basisdokument=off&q=&sort=date&suchverhalten=AND&suchvorgangsart%5B%5D=Gesetze%5C%5CGesetzentwurf&suchvorgangsart%5B%5D=Gesetze%5C%5CHaushaltsgesetz,+Nachtragshaushaltsgesetz&wahlperiodeid%5B%5D=19",
+      "region": "DE-BY",
+      "title": "巴伐利亚州议会已通过法律目录（第19届）",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.bayern.de/presse/pressemitteilungen/",
+      "region": "DE-BY",
+      "title": "巴伐利亚州政府各部门新闻公告",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.bundestag.de/dokumente/parlamentsdokumentation",
+      "region": "DE",
+      "title": "联邦议会文件与立法进程",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.bundestag.de/dokumente/textarchiv",
+      "region": "DE",
+      "title": "联邦议会审议与表决新闻档案",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.bundesregierung.de/breg-de/bundesregierung/kabinettsthemen",
+      "region": "DE",
+      "title": "联邦内阁议题与决定",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.bundesrat.de/DE/plenum/plenum-node.html",
+      "region": "DE",
+      "title": "联邦参议院全体会议",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://mil.brandenburg.de/mil/de/",
+      "region": "DE-BB",
+      "title": "勃兰登堡基础设施与规划部公告",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.regione.piemonte.it/",
+      "region": "IT-21",
+      "title": "皮埃蒙特：大区政府入口",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "blocked"
+    },
+    {
+      "sourceUrl": "https://www.regione.vda.it/",
+      "region": "IT-23",
+      "title": "瓦莱达奥斯塔：大区政府入口",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.regione.lombardia.it/",
+      "region": "IT-25",
+      "title": "伦巴第：大区政府入口",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.regione.taa.it/",
+      "region": "IT-32",
+      "title": "特伦蒂诺-上阿迪杰：大区政府入口",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.regione.veneto.it/",
+      "region": "IT-34",
+      "title": "威尼托：大区政府入口",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.regione.fvg.it/",
+      "region": "IT-36",
+      "title": "弗留利-威尼斯朱利亚：大区政府入口",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.regione.liguria.it/",
+      "region": "IT-42",
+      "title": "利古里亚：大区政府入口",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.regione.emilia-romagna.it/",
+      "region": "IT-45",
+      "title": "艾米利亚-罗马涅：大区政府入口",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.regione.toscana.it/",
+      "region": "IT-52",
+      "title": "托斯卡纳：大区政府入口",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.regione.umbria.it/home",
+      "region": "IT-55",
+      "title": "翁布里亚：大区政府入口",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.regione.marche.it/",
+      "region": "IT-57",
+      "title": "马尔凯：大区政府入口",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.regione.lazio.it/",
+      "region": "IT-62",
+      "title": "拉齐奥：大区政府入口",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.regione.abruzzo.it/",
+      "region": "IT-65",
+      "title": "阿布鲁佐：大区政府入口",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "blocked"
+    },
+    {
+      "sourceUrl": "https://www.regione.molise.it/",
+      "region": "IT-67",
+      "title": "莫利塞：大区政府入口",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.regione.campania.it/",
+      "region": "IT-72",
+      "title": "坎帕尼亚：大区政府入口",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "blocked"
+    },
+    {
+      "sourceUrl": "https://www.regione.puglia.it/",
+      "region": "IT-75",
+      "title": "普利亚：大区政府入口",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.regione.basilicata.it/",
+      "region": "IT-77",
+      "title": "巴西利卡塔：大区政府入口",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "blocked"
+    },
+    {
+      "sourceUrl": "https://www.regione.calabria.it/",
+      "region": "IT-78",
+      "title": "卡拉布里亚：大区政府入口",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.regione.sicilia.it/",
+      "region": "IT-82",
+      "title": "西西里：大区政府入口",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.regione.sardegna.it/",
+      "region": "IT-88",
+      "title": "撒丁：大区政府入口",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.governo.it/",
+      "region": "IT",
+      "title": "意大利：政府公告",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.gazzettaufficiale.it/",
+      "region": "IT",
+      "title": "意大利：国家公报",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.normattiva.it/",
+      "region": "IT",
+      "title": "意大利：现行法律库",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.camera.it/",
+      "region": "IT",
+      "title": "意大利：众议院",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.senato.it/",
+      "region": "IT",
+      "title": "意大利：参议院",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "blocked"
+    },
+    {
+      "sourceUrl": "https://www.inps.it/it/it/inps-comunica/notizie.html",
+      "region": "IT",
+      "title": "意大利：社会保障机构公告",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.gazzettaufficiale.it/30giorni/regioni",
+      "region": "IT",
+      "title": "意大利：国家公报大区法律栏目",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://eur-lex.europa.eu/collection/eu-law/legal-acts/recent.html",
+      "region": "EU",
+      "title": "欧盟法律文件：最新公布",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://eur-lex.europa.eu/oj/direct-access.html",
+      "region": "EU",
+      "title": "欧盟官方公报",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "complete"
+    },
+    {
+      "sourceUrl": "https://oeil.europarl.europa.eu/oeil/en",
+      "region": "EU",
+      "title": "欧洲议会立法观察站",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://commission.europa.eu/law/law-making-process_en",
+      "region": "EU",
+      "title": "欧盟委员会立法流程与提案入口",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.esma.europa.eu/press-news/esma-news",
+      "region": "EU",
+      "title": "欧洲证券和市场管理局：新闻",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "never_scanned"
+    },
+    {
+      "sourceUrl": "https://taxation-customs.ec.europa.eu/news_en",
+      "region": "EU",
+      "title": "欧盟委员会税务与海关总司：新闻",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "never_scanned"
+    },
+    {
+      "sourceUrl": "https://www.consilium.europa.eu/en/documents-publications/public-register/",
+      "region": "EU",
+      "title": "欧盟理事会公共文件登记册",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "never_scanned"
+    },
+    {
+      "sourceUrl": "https://www.gov.uk/",
+      "region": "GB",
+      "title": "英国政府政策入口",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://bills.parliament.uk/",
+      "region": "GB",
+      "title": "英国议会法案",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.legislation.gov.uk/new",
+      "region": "GB",
+      "title": "英国最新法律法规",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.gov.scot/publications/",
+      "region": "GB-SCT",
+      "title": "苏格兰政府出版物",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.parliament.scot/bills-and-laws",
+      "region": "GB-SCT",
+      "title": "苏格兰议会法案与法律",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.gov.wales/announcements",
+      "region": "GB-WLS",
+      "title": "威尔士政府公告",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://senedd.wales/senedd-business/legislation/",
+      "region": "GB-WLS",
+      "title": "威尔士议会立法",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.northernireland.gov.uk/",
+      "region": "GB-NIR",
+      "title": "北爱尔兰行政机构入口",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.niassembly.gov.uk/assembly-business/legislation/",
+      "region": "GB-NIR",
+      "title": "北爱尔兰议会立法",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.boe.es/diario_boe/",
+      "region": "ES",
+      "title": "西班牙国家公报",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.lamoncloa.gob.es/consejodeministros/referencias/paginas/index.aspx",
+      "region": "ES",
+      "title": "西班牙内阁会议公告",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.juntadeandalucia.es/",
+      "region": "ES-AN",
+      "title": "安达卢西亚政府",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.juntadeandalucia.es/eboja",
+      "region": "ES-AN",
+      "title": "安达卢西亚官方公报",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.aragon.es/",
+      "region": "ES-AR",
+      "title": "阿拉贡政府",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.boa.aragon.es/",
+      "region": "ES-AR",
+      "title": "阿拉贡官方公报",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.asturias.es/",
+      "region": "ES-AS",
+      "title": "阿斯图里亚斯政府",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://sede.asturias.es/servicios-del-bopa",
+      "region": "ES-AS",
+      "title": "阿斯图里亚斯官方公报",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.cantabria.es/",
+      "region": "ES-CB",
+      "title": "坎塔布里亚政府",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://boc.cantabria.es/boces/",
+      "region": "ES-CB",
+      "title": "坎塔布里亚官方公报",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://gobierno.jcyl.es/web/es/gobierno-castilla-leon.html",
+      "region": "ES-CL",
+      "title": "卡斯蒂利亚-莱昂政府",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://bocyl.jcyl.es/portada.do",
+      "region": "ES-CL",
+      "title": "卡斯蒂利亚-莱昂官方公报",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.castillalamancha.es/",
+      "region": "ES-CM",
+      "title": "卡斯蒂利亚-拉曼恰政府",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://docm.castillalamancha.es/portaldocm/sumario.do",
+      "region": "ES-CM",
+      "title": "卡斯蒂利亚-拉曼恰官方公报",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.gobiernodecanarias.org/principal/",
+      "region": "ES-CN",
+      "title": "加那利群岛政府",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.gobiernodecanarias.org/boc/",
+      "region": "ES-CN",
+      "title": "加那利群岛官方公报",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://govern.cat/gov/",
+      "region": "ES-CT",
+      "title": "加泰罗尼亚政府",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "blocked"
+    },
+    {
+      "sourceUrl": "https://dogc.gencat.cat/es/index.html?newLang=es_ES&language=es_ES",
+      "region": "ES-CT",
+      "title": "加泰罗尼亚官方公报",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.juntaex.es/web/",
+      "region": "ES-EX",
+      "title": "埃斯特雷马杜拉政府",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://doe.juntaex.es/",
+      "region": "ES-EX",
+      "title": "埃斯特雷马杜拉官方公报",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.xunta.gal/portada",
+      "region": "ES-GA",
+      "title": "加利西亚政府",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.xunta.gal/diario-oficial-galicia/portalPublicoHome.do?lang=es",
+      "region": "ES-GA",
+      "title": "加利西亚官方公报",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.caib.es/govern/index.do?lang=es",
+      "region": "ES-IB",
+      "title": "巴利阿里群岛政府",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.caib.es/eboibfront/?lang=es",
+      "region": "ES-IB",
+      "title": "巴利阿里群岛官方公报",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.carm.es/web/pagina?IDCONTENIDO=1&IDTIPO=180",
+      "region": "ES-MC",
+      "title": "穆尔西亚政府",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.borm.es/#/home/",
+      "region": "ES-MC",
+      "title": "穆尔西亚官方公报",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "blocked"
+    },
+    {
+      "sourceUrl": "https://www.comunidad.madrid/gobierno/institucion/gobierno",
+      "region": "ES-MD",
+      "title": "马德里政府",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.bocm.es/",
+      "region": "ES-MD",
+      "title": "马德里官方公报",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.navarra.es/es/gobierno-de-navarra",
+      "region": "ES-NC",
+      "title": "纳瓦拉政府",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.navarra.es/home_es/Actualidad/BON/",
+      "region": "ES-NC",
+      "title": "纳瓦拉官方公报",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.euskadi.eus/gobierno-vasco/inicio/",
+      "region": "ES-PV",
+      "title": "巴斯克政府",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.euskadi.eus/y22-bopv/es/bopv2/datos/Ultimo.shtml",
+      "region": "ES-PV",
+      "title": "巴斯克官方公报",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://web.larioja.org/",
+      "region": "ES-RI",
+      "title": "拉里奥哈政府",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.larioja.org/bor/es",
+      "region": "ES-RI",
+      "title": "拉里奥哈官方公报",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "blocked"
+    },
+    {
+      "sourceUrl": "https://www.gva.es/va/inicio/presentacion",
+      "region": "ES-VC",
+      "title": "瓦伦西亚政府",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "blocked"
+    },
+    {
+      "sourceUrl": "https://dogv.gva.es/es/inici",
+      "region": "ES-VC",
+      "title": "瓦伦西亚官方公报",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.ceuta.es/gobiernodeceuta/",
+      "region": "ES-CE",
+      "title": "休达政府",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.ceuta.es/ceuta/documentos/",
+      "region": "ES-CE",
+      "title": "休达官方公报",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.melilla.es/melillaPortal/index.jsp",
+      "region": "ES-ML",
+      "title": "梅利利亚政府",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://bomemelilla.es/",
+      "region": "ES-ML",
+      "title": "梅利利亚官方公报",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.bmas.de/DE/Service/Presse/Pressemitteilungen/pressemitteilungen.html",
+      "region": "DE",
+      "title": "德国劳动与社会事务部：新闻公告",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.bundesgesundheitsministerium.de/suche-pressemitteilungen",
+      "region": "DE",
+      "title": "德国卫生部：新闻公告",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.bundesfinanzministerium.de/Web/DE/Service/Gesetze_Gesetzesvorhaben/Gesetze_Gesetzgebungsvorhaben.html",
+      "region": "DE",
+      "title": "德国财政部：法律与法案目录",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.whitehouse.gov/presidential-actions/",
+      "region": "US",
+      "title": "美国：总统文件",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.congress.gov/",
+      "region": "US",
+      "title": "美国：国会立法与进展",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "blocked"
+    },
+    {
+      "sourceUrl": "https://www.govinfo.gov/app/collection/PLAW/",
+      "region": "US",
+      "title": "美国：公法与私法",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.govinfo.gov/app/collection/FR",
+      "region": "US",
+      "title": "美国：联邦公报",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://uscode.house.gov/",
+      "region": "US",
+      "title": "美国：美国法典",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "blocked"
+    },
+    {
+      "sourceUrl": "https://www.ecfr.gov/",
+      "region": "US",
+      "title": "美国：联邦规章汇编",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "blocked"
+    },
+    {
+      "sourceUrl": "https://www.alabama.gov/",
+      "region": "US-AL",
+      "title": "阿拉巴马：州政府入口",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "blocked"
+    },
+    {
+      "sourceUrl": "https://alaska.gov/",
+      "region": "US-AK",
+      "title": "阿拉斯加：州政府入口",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "blocked"
+    },
+    {
+      "sourceUrl": "https://az.gov/",
+      "region": "US-AZ",
+      "title": "亚利桑那：州政府入口",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "blocked"
+    },
+    {
+      "sourceUrl": "https://portal.arkansas.gov/",
+      "region": "US-AR",
+      "title": "阿肯色：州政府入口",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.ca.gov/",
+      "region": "US-CA",
+      "title": "加利福尼亚：州政府入口",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.colorado.gov/",
+      "region": "US-CO",
+      "title": "科罗拉多：州政府入口",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "blocked"
+    },
+    {
+      "sourceUrl": "https://portal.ct.gov/",
+      "region": "US-CT",
+      "title": "康涅狄格：州政府入口",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://delaware.gov/",
+      "region": "US-DE",
+      "title": "特拉华：州政府入口",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://dc.gov/",
+      "region": "US-DC",
+      "title": "华盛顿特区：特区政府入口",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.myflorida.com/",
+      "region": "US-FL",
+      "title": "佛罗里达：州政府入口",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://georgia.gov/",
+      "region": "US-GA",
+      "title": "佐治亚：州政府入口",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://portal.ehawaii.gov/",
+      "region": "US-HI",
+      "title": "夏威夷：州政府入口",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.idaho.gov/",
+      "region": "US-ID",
+      "title": "爱达荷：州政府入口",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.illinois.gov/",
+      "region": "US-IL",
+      "title": "伊利诺伊：州政府入口",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "blocked"
+    },
+    {
+      "sourceUrl": "https://www.in.gov/core/index.html",
+      "region": "US-IN",
+      "title": "印第安纳：州政府入口",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.iowa.gov/",
+      "region": "US-IA",
+      "title": "艾奥瓦：州政府入口",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://portal.kansas.gov/",
+      "region": "US-KS",
+      "title": "堪萨斯：州政府入口",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.kentucky.gov/Pages/home.aspx",
+      "region": "US-KY",
+      "title": "肯塔基：州政府入口",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "blocked"
+    },
+    {
+      "sourceUrl": "https://www.louisiana.gov/",
+      "region": "US-LA",
+      "title": "路易斯安那：州政府入口",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "blocked"
+    },
+    {
+      "sourceUrl": "https://www.maine.gov/portal/index.html",
+      "region": "US-ME",
+      "title": "缅因：州政府入口",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.maryland.gov/Pages/default.aspx",
+      "region": "US-MD",
+      "title": "马里兰：州政府入口",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.mass.gov/",
+      "region": "US-MA",
+      "title": "马萨诸塞：州政府入口",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "blocked"
+    },
+    {
+      "sourceUrl": "https://www.michigan.gov/som",
+      "region": "US-MI",
+      "title": "密歇根：州政府入口",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "blocked"
+    },
+    {
+      "sourceUrl": "https://mn.gov/portal/",
+      "region": "US-MN",
+      "title": "明尼苏达：州政府入口",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.ms.gov/",
+      "region": "US-MS",
+      "title": "密西西比：州政府入口",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.mo.gov/",
+      "region": "US-MO",
+      "title": "密苏里：州政府入口",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://mt.gov/",
+      "region": "US-MT",
+      "title": "蒙大拿：州政府入口",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.nebraska.gov/",
+      "region": "US-NE",
+      "title": "内布拉斯加：州政府入口",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://nv.gov/",
+      "region": "US-NV",
+      "title": "内华达：州政府入口",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.nh.gov/index.htm",
+      "region": "US-NH",
+      "title": "新罕布什尔：州政府入口",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "blocked"
+    },
+    {
+      "sourceUrl": "https://www.nj.gov/",
+      "region": "US-NJ",
+      "title": "新泽西：州政府入口",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.nm.gov/",
+      "region": "US-NM",
+      "title": "新墨西哥：州政府入口",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.ny.gov/",
+      "region": "US-NY",
+      "title": "纽约：州政府入口",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.nc.gov/",
+      "region": "US-NC",
+      "title": "北卡罗来纳：州政府入口",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.nd.gov/",
+      "region": "US-ND",
+      "title": "北达科他：州政府入口",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://ohio.gov/home",
+      "region": "US-OH",
+      "title": "俄亥俄：州政府入口",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "blocked"
+    },
+    {
+      "sourceUrl": "https://oklahoma.gov/",
+      "region": "US-OK",
+      "title": "俄克拉荷马：州政府入口",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.oregon.gov/pages/index.aspx",
+      "region": "US-OR",
+      "title": "俄勒冈：州政府入口",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "blocked"
+    },
+    {
+      "sourceUrl": "https://www.pa.gov/",
+      "region": "US-PA",
+      "title": "宾夕法尼亚：州政府入口",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.ri.gov/",
+      "region": "US-RI",
+      "title": "罗得岛：州政府入口",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://sc.gov/",
+      "region": "US-SC",
+      "title": "南卡罗来纳：州政府入口",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "blocked"
+    },
+    {
+      "sourceUrl": "https://www.sd.gov",
+      "region": "US-SD",
+      "title": "南达科他：州政府入口",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "blocked"
+    },
+    {
+      "sourceUrl": "https://www.tn.gov/",
+      "region": "US-TN",
+      "title": "田纳西：州政府入口",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "blocked"
+    },
+    {
+      "sourceUrl": "https://www.texas.gov/",
+      "region": "US-TX",
+      "title": "得克萨斯：州政府入口",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.utah.gov/index.html",
+      "region": "US-UT",
+      "title": "犹他：州政府入口",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.vermont.gov/",
+      "region": "US-VT",
+      "title": "佛蒙特：州政府入口",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.virginia.gov/",
+      "region": "US-VA",
+      "title": "弗吉尼亚：州政府入口",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://wa.gov/",
+      "region": "US-WA",
+      "title": "华盛顿州：州政府入口",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.wv.gov/Pages/default.aspx",
+      "region": "US-WV",
+      "title": "西弗吉尼亚：州政府入口",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.wisconsin.gov/Pages/Home.aspx",
+      "region": "US-WI",
+      "title": "威斯康星：州政府入口",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "blocked"
+    },
+    {
+      "sourceUrl": "https://www.wyo.gov/",
+      "region": "US-WY",
+      "title": "怀俄明：州政府入口",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.irs.gov/newsroom",
+      "region": "US",
+      "title": "美国：税务局新闻与实施说明",
+      "windowStart": "2026-10-11",
+      "windowEnd": "2026-10-17",
+      "missingDays": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "latestScan": "partial"
+    }
+  ]
+}

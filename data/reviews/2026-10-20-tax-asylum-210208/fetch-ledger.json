@@ -1,0 +1,305 @@
+[
+ {
+  "name": "irs-121",
+  "url": "https://www.irs.gov/newsroom/treasury-and-irs-move-to-protect-health-care-benefits-for-eligible-americans",
+  "fetchedAt": "2026-10-20T20:51:57.134277Z",
+  "status": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "finalUrl": "https://www.irs.gov/newsroom/treasury-and-irs-move-to-protect-health-care-benefits-for-eligible-americans",
+  "sha256": "2d3272dc84d34072021d7740d2febb695184b7d373597fe75708148790adeede",
+  "bytes": 102210
+ },
+ {
+  "name": "irs-122",
+  "url": "https://www.irs.gov/newsroom/irs-provides-dyed-diesel-fuel-relief-related-to-excise-tax-following-president-trumps-executive-order",
+  "fetchedAt": "2026-10-20T20:51:58.457928Z",
+  "status": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "finalUrl": "https://www.irs.gov/newsroom/irs-provides-dyed-diesel-fuel-relief-related-to-excise-tax-following-president-trumps-executive-order",
+  "sha256": "068c2164826ca283320f4af6bea89acde48cc6d62083bafd09b30c0c9d6843ad",
+  "bytes": 101021
+ },
+ {
+  "name": "irs-123",
+  "url": "https://www.irs.gov/newsroom/irs-has-begun-issuing-automatic-refunds-to-individuals-who-claimed-adoption-tax-credit-carryforward-from-prior-years",
+  "fetchedAt": "2026-10-20T20:51:59.904306Z",
+  "status": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "finalUrl": "https://www.irs.gov/newsroom/irs-has-begun-issuing-automatic-refunds-to-individuals-who-claimed-adoption-tax-credit-carryforward-from-prior-years",
+  "sha256": "acc06eeb96d51072fabb5acfd0aeef3568ec74599236d12e454d9a7d7e71c105",
+  "bytes": 101842
+ },
+ {
+  "name": "irs-124",
+  "url": "https://www.irs.gov/newsroom/irs-announces-2026-tax-professional-awareness-week-highlighting-resources-to-help-tax-professionals-prepare-for-the-2027-filing-season",
+  "fetchedAt": "2026-10-20T20:52:00.742876Z",
+  "status": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "finalUrl": "https://www.irs.gov/newsroom/irs-announces-2026-tax-professional-awareness-week-highlighting-resources-to-help-tax-professionals-prepare-for-the-2027-filing-season",
+  "sha256": "2241ab565dcbf922fa363e2ab52ce874784add7f04596b14d517a2a6bb6393f4",
+  "bytes": 101992
+ },
+ {
+  "name": "irs-120",
+  "url": "https://www.irs.gov/newsroom/irs-highlights-partnership-with-uk-tax-authoritys-new-whistleblower-program",
+  "fetchedAt": "2026-10-20T20:52:02.323370Z",
+  "status": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "finalUrl": "https://www.irs.gov/newsroom/irs-highlights-partnership-with-uk-tax-authoritys-new-whistleblower-program",
+  "sha256": "72c185692ecfc6a2ea83f1ea5cd9734ea0d128ffacec864dfa67eab5443290e5",
+  "bytes": 101641
+ },
+ {
+  "name": "irs-119",
+  "url": "https://www.irs.gov/newsroom/irs-reminder-cybersecurity-awareness-month-offers-simple-steps-to-protect-tax-data",
+  "fetchedAt": "2026-10-20T20:52:03.733358Z",
+  "status": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "finalUrl": "https://www.irs.gov/newsroom/irs-reminder-cybersecurity-awareness-month-offers-simple-steps-to-protect-tax-data",
+  "sha256": "801d5e167f6dbb4536111a5d0ab7681117e7379d83db7a768e15f1ea72de97d0",
+  "bytes": 107659
+ },
+ {
+  "name": "irs-118",
+  "url": "https://www.irs.gov/newsroom/the-irs-seeks-community-partners-and-volunteers-to-support-free-tax-services",
+  "fetchedAt": "2026-10-20T20:52:05.164351Z",
+  "status": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "finalUrl": "https://www.irs.gov/newsroom/the-irs-seeks-community-partners-and-volunteers-to-support-free-tax-services",
+  "sha256": "837ec6717c4b0707b69808d5cc238148028e94a9fecbe76f8c85340fef14e5be",
+  "bytes": 101980
+ },
+ {
+  "name": "irs-index",
+  "url": "https://www.irs.gov/newsroom/news-releases-for-current-month",
+  "fetchedAt": "2026-10-20T20:52:06.562386Z",
+  "status": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "finalUrl": "https://www.irs.gov/newsroom/news-releases-for-current-month",
+  "sha256": "43ce28a777d56837e0e6a92286b811a1e18a2868937c5b050294443c33a3d17a",
+  "bytes": 101129
+ },
+ {
+  "name": "hmrc-vaping",
+  "url": "https://www.gov.uk/government/news/new-vaping-products-duty-comes-into-effect",
+  "fetchedAt": "2026-10-20T20:52:07.505285Z",
+  "status": 200,
+  "contentType": "text/html; charset=utf-8",
+  "finalUrl": "https://www.gov.uk/government/news/new-vaping-products-duty-comes-into-effect",
+  "sha256": "f68093d090f58c06b4e14aae00f34caae44fa3daca1e1300e8c9aac6e1e2c7ae",
+  "bytes": 82735
+ },
+ {
+  "name": "hmrc-mtd",
+  "url": "https://www.gov.uk/government/news/sole-traders-and-landlords-earning-more-than-30000-urged-to-act-now",
+  "fetchedAt": "2026-10-20T20:52:07.826339Z",
+  "status": 200,
+  "contentType": "text/html; charset=utf-8",
+  "finalUrl": "https://www.gov.uk/government/news/sole-traders-and-landlords-earning-more-than-30000-urged-to-act-now",
+  "sha256": "9e695bc282858987c50bff527056a04c94fa5d1cf8fa18b7d106bf03a76990a8",
+  "bytes": 74920
+ },
+ {
+  "name": "hmrc-index",
+  "url": "https://www.gov.uk/search/news-and-communications?organisations%5B%5D=hm-revenue-customs&order=updated-newest",
+  "fetchedAt": "2026-10-20T20:52:08.012950Z",
+  "status": 200,
+  "contentType": "text/html; charset=utf-8",
+  "finalUrl": "https://www.gov.uk/search/news-and-communications?organisations%5B%5D=hm-revenue-customs&order=updated-newest",
+  "sha256": "495ace7a184be9b7519e9424bd618920f3ff1e7448bd4b0c22de6cfdebe6827b",
+  "bytes": 449161
+ },
+ {
+  "name": "euco-dc",
+  "url": "https://data.consilium.europa.eu/doc/document/EUCO-14-2026-INIT/en/pdf",
+  "fetchedAt": "2026-10-20T20:52:08.389110Z",
+  "error": "<HTTPError 404: 'Not Found'>",
+  "status": 404
+ },
+ {
+  "name": "euco-irish",
+  "url": "https://irish-presidency.consilium.europa.eu/en/news/results-of-the-european-council-16-october-2026/",
+  "fetchedAt": "2026-10-20T20:52:08.549704Z",
+  "status": 200,
+  "contentType": "text/html; charset=utf-8",
+  "finalUrl": "https://irish-presidency.consilium.europa.eu/en/news/results-of-the-european-council-16-october-2026/",
+  "sha256": "819e2a2d13d69af770ec5aefbf3058d873a10e52dd6768fa5ebe2a5e337a754a",
+  "bytes": 162548
+ },
+ {
+  "name": "nl-bp",
+  "url": "https://www.rijksoverheid.nl/actueel/nieuws/2026/09/15/belastingplan-2027-voorstellen-voor-beter-werkend-belastingstelsel-en-gezonde-overheidsfinancien",
+  "fetchedAt": "2026-10-20T20:52:08.814841Z",
+  "status": 200,
+  "contentType": "text/html; charset=utf-8",
+  "finalUrl": "https://www.rijksoverheid.nl/actueel/nieuws/2026/09/15/belastingplan-2027-voorstellen-voor-beter-werkend-belastingstelsel-en-gezonde-overheidsfinancien",
+  "sha256": "c11507e962d142bf937f2508664e4689ee3e2c5b0f78bbc7d1c78fdc76854a39",
+  "bytes": 255839
+ },
+ {
+  "name": "nl-tk37022",
+  "url": "https://www.tweedekamer.nl/kamerstukken/wetsvoorstellen/detail?cfg=wetsvoorsteldetails&qry=wetsvoorstel%3A37022",
+  "fetchedAt": "2026-10-20T20:52:09.184280Z",
+  "status": 200,
+  "contentType": "text/html; charset=utf-8",
+  "finalUrl": "https://www.tweedekamer.nl/kamerstukken/wetsvoorstellen/detail?cfg=wetsvoorsteldetails&qry=wetsvoorstel%3A37022",
+  "sha256": "a77b8ad39b042cad09bb7fad97f2b8c26a1ce4044d3eecb31aa885a432e2cec4",
+  "bytes": 204617
+ },
+ {
+  "name": "euco-fr",
+  "url": "https://data.consilium.europa.eu/doc/document/ST-14-2026-INIT/fr/pdf",
+  "fetchedAt": "2026-10-20T20:52:59.520869Z",
+  "status": 200,
+  "contentType": "application/pdf",
+  "finalUrl": "https://data.consilium.europa.eu/doc/document/ST-14-2026-INIT/fr/pdf",
+  "sha256": "f250cb38b6965323a163888a1100e67ea3b1d8ffb17c19d876dd62b92b786ce1",
+  "bytes": 432832
+ },
+ {
+  "name": "euco-en",
+  "url": "https://data.consilium.europa.eu/doc/document/ST-14-2026-INIT/en/pdf",
+  "fetchedAt": "2026-10-20T20:52:59.935149Z",
+  "status": 200,
+  "contentType": "application/pdf",
+  "finalUrl": "https://data.consilium.europa.eu/doc/document/ST-14-2026-INIT/en/pdf",
+  "sha256": "847fe350827a8139663ec7d302f438b8dd4dd29c70f36157e9f3b92c40b3350a",
+  "bytes": 414015
+ },
+ {
+  "name": "oj-L_202601912",
+  "url": "https://publications.europa.eu/resource/oj/L_202601912",
+  "fetchedAt": "2026-10-20T20:53:46.862917Z",
+  "status": 200,
+  "contentType": "application/xhtml+xml;charset=UTF-8",
+  "finalUrl": "http://publications.europa.eu/resource/cellar/96a1d41c-8fd5-11f1-9262-01aa75ed71a1.0006.03/DOC_1",
+  "sha256": "a5d5c79d8ec491bc6c0a869df458d30fc58ee73cdd5db988d680992a5cdef11f",
+  "bytes": 36894
+ },
+ {
+  "name": "oj-L_202600463",
+  "url": "https://publications.europa.eu/resource/oj/L_202600463",
+  "fetchedAt": "2026-10-20T20:53:47.277639Z",
+  "status": 200,
+  "contentType": "application/xhtml+xml;charset=UTF-8",
+  "finalUrl": "http://publications.europa.eu/resource/cellar/8ad516ca-12b4-11f1-8870-01aa75ed71a1.0006.03/DOC_1",
+  "sha256": "4ea6a673354c4be49071badc37273d6706e826bfb5af94ca939c9f2bb9f40ef2",
+  "bytes": 46821
+ },
+ {
+  "name": "oj-L_202600464",
+  "url": "https://publications.europa.eu/resource/oj/L_202600464",
+  "fetchedAt": "2026-10-20T20:53:47.717309Z",
+  "status": 200,
+  "contentType": "application/xhtml+xml;charset=UTF-8",
+  "finalUrl": "http://publications.europa.eu/resource/cellar/ec91f3a6-12b3-11f1-8870-01aa75ed71a1.0006.03/DOC_1",
+  "sha256": "3ab8d9e14283948a65b68c20c140109126dcbc956a8fb3f4a2d0b852e9a331ce",
+  "bytes": 91142
+ },
+ {
+  "name": "cons-tp-0715",
+  "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/07/15/eu-countries-agree-to-extend-temporary-protection-for-those-fleeing-ukraine-until-march-2028/",
+  "fetchedAt": "2026-10-20T20:53:48.124401Z",
+  "error": "<HTTPError 403: 'Forbidden'>",
+  "status": 403
+ },
+ {
+  "name": "ep-safe",
+  "url": "https://www.europarl.europa.eu/news/en/press-room/20260205IPR33617/asylum-new-rules-for-safe-third-countries-and-eu-safe-countries-of-origin-list",
+  "fetchedAt": "2026-10-20T20:53:48.226732Z",
+  "status": 200,
+  "contentType": "text/html;charset=UTF-8",
+  "finalUrl": "https://www.europarl.europa.eu/news/en/press-room/20260205IPR33617/asylum-new-rules-for-safe-third-countries-and-eu-safe-countries-of-origin-list",
+  "sha256": "681a69d54cdee4de0b6bf9a87a694dfe87ef0f3f2f3aee87cb4d117eaac5f31d",
+  "bytes": 101150
+ },
+ {
+  "name": "oj-L_202401348",
+  "url": "https://publications.europa.eu/resource/oj/L_202401348",
+  "fetchedAt": "2026-10-20T20:54:15.148325Z",
+  "status": 200,
+  "contentType": "application/xhtml+xml;charset=UTF-8",
+  "finalUrl": "http://publications.europa.eu/resource/cellar/2dad592e-17d6-11ef-a251-01aa75ed71a1.0006.03/DOC_1",
+  "sha256": "682d89ec508d4856c5f4ff8f35c699a42eeb60ee925790d95ae05678da039883",
+  "bytes": 712970
+ },
+ {
+  "name": "an-agenda",
+  "url": "https://www.assemblee-nationale.fr/dyn/agendas-parlementaires",
+  "fetchedAt": "2026-10-20T20:54:56.513546Z",
+  "error": "<HTTPError 404: 'Not Found'>",
+  "status": 404
+ },
+ {
+  "name": "an-plf",
+  "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/plf_2027",
+  "fetchedAt": "2026-10-20T20:54:57.026536Z",
+  "status": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "finalUrl": "https://www.assemblee-nationale.fr/dyn/17/dossiers/plf_2027",
+  "sha256": "644338a563150f6cdbf6bed1861c629fe55f0a2ef185583b4501040ef6e05792",
+  "bytes": 215784
+ },
+ {
+  "name": "an-odj",
+  "url": "https://www.assemblee-nationale.fr/dyn/ordre-du-jour",
+  "fetchedAt": "2026-10-20T20:55:10.818701Z",
+  "error": "<HTTPError 404: 'Not Found'>",
+  "status": 404
+ },
+ {
+  "name": "coj-L_202601912",
+  "url": "https://publications.europa.eu/resource/cellar/96a1d41c-8fd5-11f1-9262-01aa75ed71a1.0006.03/DOC_1",
+  "fetchedAt": "2026-10-20T20:55:56.625415Z",
+  "status": 200,
+  "contentType": "application/xhtml+xml;charset=UTF-8",
+  "finalUrl": "https://publications.europa.eu/resource/cellar/96a1d41c-8fd5-11f1-9262-01aa75ed71a1.0006.03/DOC_1",
+  "sha256": "a5d5c79d8ec491bc6c0a869df458d30fc58ee73cdd5db988d680992a5cdef11f",
+  "bytes": 36894
+ },
+ {
+  "name": "coj-L_202600463",
+  "url": "https://publications.europa.eu/resource/cellar/8ad516ca-12b4-11f1-8870-01aa75ed71a1.0006.03/DOC_1",
+  "fetchedAt": "2026-10-20T20:55:56.933344Z",
+  "status": 200,
+  "contentType": "application/xhtml+xml;charset=UTF-8",
+  "finalUrl": "https://publications.europa.eu/resource/cellar/8ad516ca-12b4-11f1-8870-01aa75ed71a1.0006.03/DOC_1",
+  "sha256": "4ea6a673354c4be49071badc37273d6706e826bfb5af94ca939c9f2bb9f40ef2",
+  "bytes": 46821
+ },
+ {
+  "name": "coj-L_202600464",
+  "url": "https://publications.europa.eu/resource/cellar/ec91f3a6-12b3-11f1-8870-01aa75ed71a1.0006.03/DOC_1",
+  "fetchedAt": "2026-10-20T20:55:57.291378Z",
+  "status": 200,
+  "contentType": "application/xhtml+xml;charset=UTF-8",
+  "finalUrl": "https://publications.europa.eu/resource/cellar/ec91f3a6-12b3-11f1-8870-01aa75ed71a1.0006.03/DOC_1",
+  "sha256": "3ab8d9e14283948a65b68c20c140109126dcbc956a8fb3f4a2d0b852e9a331ce",
+  "bytes": 91142
+ },
+ {
+  "name": "coj-L_202401348",
+  "url": "https://publications.europa.eu/resource/cellar/2dad592e-17d6-11ef-a251-01aa75ed71a1.0006.03/DOC_1",
+  "fetchedAt": "2026-10-20T20:55:57.580404Z",
+  "status": 200,
+  "contentType": "application/xhtml+xml;charset=UTF-8",
+  "finalUrl": "https://publications.europa.eu/resource/cellar/2dad592e-17d6-11ef-a251-01aa75ed71a1.0006.03/DOC_1",
+  "sha256": "682d89ec508d4856c5f4ff8f35c699a42eeb60ee925790d95ae05678da039883",
+  "bytes": 712970
+ },
+ {
+  "name": "euco-meeting-render",
+  "url": "https://www.consilium.europa.eu/en/meetings/european-council/2026/10/15-16/",
+  "fetchedAt": "2026-10-20T20:52:41.844Z",
+  "rendered": true,
+  "error": "Browser verification challenge page (GSC Managed Website); not bypassed, not archived",
+  "sha256": "d47238f59b31e124cc73f417d0c17dea17d84e39d44a562875998ce344fc0a4e"
+ },
+ {
+  "name": "euco-media-pdf",
+  "url": "https://www.consilium.europa.eu/media/4tglqede/en-20261016-european-council-conclusions.pdf",
+  "fetchedAt": "2026-10-20T20:50:00Z",
+  "status": 403,
+  "error": "HTTP 403 browser challenge; the same document (EUCO 14/26) was obtained from data.consilium.europa.eu"
+ }
+]

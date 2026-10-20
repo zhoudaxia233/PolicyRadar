@@ -2338,5 +2338,29 @@
     "source_url": "https://www.news.admin.ch/de",
     "checked_at": "2026-10-18T17:16:31.189Z",
     "data": "{\"id\":\"ch-20261018-federal-news\",\"sourceUrl\":\"https://www.news.admin.ch/de\",\"checkedAt\":\"2026-10-18T17:16:31.189Z\",\"windowStart\":\"2026-10-15\",\"windowEnd\":\"2026-10-17\",\"status\":\"partial\",\"pages\":[\"https://www.news.admin.ch/de\"],\"recordIds\":[\"ch-20261018-fed-fatca\",\"ch-20261018-fed-uk-dialogue\",\"ch-20261018-fed-gesda\",\"ch-20261018-fed-prodex\",\"ch-20261018-fed-eu-education\",\"ch-20261018-fed-isil-sanctions\",\"ch-20261018-fed-love-life\",\"ch-20261018-fed-cassis-armenia\",\"ch-20261018-fed-jet-fuel\",\"ch-20261018-fed-sust\",\"ch-20261018-fed-psi-energy\",\"ch-20261018-fed-efta-malaysia-referendum\",\"ch-20261018-fed-customs-end-use\",\"ch-20261018-fed-bakom-newsletter\",\"ch-20261018-fed-iv-research\",\"ch-20261018-fed-cism\"],\"excluded\":[],\"allPagesChecked\":false,\"totalListed\":null,\"note\":\"联邦新闻门户经浏览器渲染列出10月15—16日的16条新闻，均已登记，并从发布机构网站取得同一新闻稿正文；门户的日期筛选在渲染中未生效，且未逐页翻阅，因此仍为部分覆盖。10月17日为周六，未见新条目。\"}"
+  },
+  {
+    "id": "us-20261020-irs-newsroom",
+    "source_url": "https://www.irs.gov/newsroom",
+    "checked_at": "2026-10-20T21:02:08.810Z",
+    "data": "{\"id\":\"us-20261020-irs-newsroom\",\"sourceUrl\":\"https://www.irs.gov/newsroom\",\"checkedAt\":\"2026-10-20T21:02:08.810Z\",\"windowStart\":\"2026-10-01\",\"windowEnd\":\"2026-10-19\",\"status\":\"partial\",\"pages\":[\"https://www.irs.gov/newsroom/news-releases-for-current-month\"],\"recordIds\":[\"us-irs-ir-2026-118\",\"us-irs-ir-2026-119\",\"us-irs-ir-2026-120\",\"us-irs-ir-2026-121\",\"us-irs-ir-2026-122\",\"us-irs-ir-2026-123\",\"us-irs-ir-2026-124\"],\"excluded\":[],\"allPagesChecked\":false,\"totalListed\":null,\"note\":\"国税局本月新闻稿列表列出10月1—16日的IR-2026-117至124，均已登记（117此前已登记）；10月17—19日未见新条目。未与其他索引核对总数，仍为部分覆盖。\"}"
+  },
+  {
+    "id": "gb-20261020-hmrc-news",
+    "source_url": "https://www.gov.uk/",
+    "checked_at": "2026-10-20T21:02:08.810Z",
+    "data": "{\"id\":\"gb-20261020-hmrc-news\",\"sourceUrl\":\"https://www.gov.uk/\",\"checkedAt\":\"2026-10-20T21:02:08.810Z\",\"windowStart\":\"2026-10-01\",\"windowEnd\":\"2026-10-13\",\"status\":\"partial\",\"pages\":[\"https://www.gov.uk/search/news-and-communications?organisations%5B%5D=hm-revenue-customs&order=updated-newest\"],\"recordIds\":[\"gb-hmrc-20261001-vaping-duty\",\"gb-hmrc-20261005-mtd-30000\",\"gb-hmrc-20261008-sa-early\",\"gb-hmrc-20261013-tfc-halloween\"],\"excluded\":[],\"allPagesChecked\":false,\"totalListed\":null,\"note\":\"仅查阅HMRC新闻与通讯索引（按更新时间排序）10月1—13日条目，共4条，均已登记；GOV.UK其他部门未扫描，仍为部分覆盖。\"}"
+  },
+  {
+    "id": "eu-20261020-oj-asylum-backfill",
+    "source_url": "https://eur-lex.europa.eu/oj/direct-access.html",
+    "checked_at": "2026-10-20T21:02:08.810Z",
+    "data": "{\"id\":\"eu-20261020-oj-asylum-backfill\",\"sourceUrl\":\"https://eur-lex.europa.eu/oj/direct-access.html\",\"checkedAt\":\"2026-10-20T21:02:08.810Z\",\"windowStart\":\"2026-02-26\",\"windowEnd\":\"2026-08-04\",\"status\":\"partial\",\"pages\":[\"https://publications.europa.eu/resource/oj/L_202601912\",\"https://publications.europa.eu/resource/oj/L_202600463\",\"https://publications.europa.eu/resource/oj/L_202600464\"],\"recordIds\":[\"eu-oj-l-202601912\",\"eu-oj-l-202600463\",\"eu-oj-l-202600464\"],\"excluded\":[],\"allPagesChecked\":false,\"totalListed\":null,\"note\":\"定向补录三项庇护相关法律文本，非逐日扫描官方公报。\"}"
+  },
+  {
+    "id": "eu-20261020-council-euco",
+    "source_url": "https://www.consilium.europa.eu/en/documents-publications/public-register/",
+    "checked_at": "2026-10-20T21:02:08.810Z",
+    "data": "{\"id\":\"eu-20261020-council-euco\",\"sourceUrl\":\"https://www.consilium.europa.eu/en/documents-publications/public-register/\",\"checkedAt\":\"2026-10-20T21:02:08.810Z\",\"windowStart\":\"2026-10-16\",\"windowEnd\":\"2026-10-16\",\"status\":\"partial\",\"pages\":[\"https://data.consilium.europa.eu/doc/document/ST-14-2026-INIT/en/pdf\"],\"recordIds\":[\"eu-council-euco-14-26\"],\"excluded\":[],\"allPagesChecked\":false,\"totalListed\":null,\"note\":\"定向取得欧洲理事会10月16日结论；登记册其他文件未扫描。\"}"
   }
 ]

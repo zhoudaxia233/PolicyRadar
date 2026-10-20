@@ -5068,6 +5068,92 @@
         "ch-finig-stablecoin-crypto-institutes"
       ],
       "appliesFromExport": "2026-10-18T17:16:31.189Z"
+    },
+    {
+      "id": "eu-asylum-safe-country-concepts-2026",
+      "title": [
+        "欧盟庇护程序：安全来源国名单与安全第三国规则修改",
+        "EU asylum procedure: safe countries of origin list and safe third country amendments"
+      ],
+      "basis": "Regulations (EU) 2026/463 and 2026/464 were adopted together on 24 February 2026, published in the same Official Journal issue on 26 February, and each amends Regulation (EU) 2024/1348 on the designation and use of safe-country concepts (Articles 59–64). Each keeps its own explanation and identity.",
+      "documents": [
+        {
+          "region": "EU",
+          "officialId": "OJ:L_202600463"
+        },
+        {
+          "region": "EU",
+          "officialId": "OJ:L_202600464"
+        }
+      ],
+      "appliesFromExport": "2026-10-20T21:02:08.810Z"
+    },
+    {
+      "id": "us-diesel-emergency-relief-2026",
+      "title": [
+        "美国柴油税收紧急救济",
+        "US diesel emergency tax relief"
+      ],
+      "basis": "IRS news release IR-2026-122 states that it responds to the President’s 5 October 2026 executive order \"Emergency Tax Relief on Diesel Fuel\", which the existing explanation is keyed to.",
+      "documents": [
+        {
+          "region": "US",
+          "url": "https://www.whitehouse.gov/presidential-actions/2026/10/emergency-tax-relief-on-diesel-fuel/",
+          "title": "EMERGENCY TAX RELIEF ON DIESEL FUEL"
+        },
+        {
+          "region": "US",
+          "officialId": "IR-2026-122"
+        }
+      ],
+      "appliesFromExport": "2026-10-20T21:02:08.810Z"
+    },
+    {
+      "id": "gb-vaping-products-duty-2026",
+      "title": [
+        "英国电子烟消费税与税票制度",
+        "UK vaping products duty and duty stamps"
+      ],
+      "basis": "The HMRC release announces the start of Vaping Products Duty and the Vaping Duty Stamps Scheme on 1 October 2026. S.I. 2026/1024 appoints the day for Vaping Products Duty under the Finance Act 2009; S.I. 2026/331 and 2026/338 make the vaping duty stamps rules. All concern the same new duty.",
+      "documents": [
+        {
+          "region": "GB",
+          "officialId": "S.I. 2026/1024"
+        },
+        {
+          "region": "GB",
+          "officialId": "S.I. 2026/331"
+        },
+        {
+          "region": "GB",
+          "officialId": "S.I. 2026/338"
+        },
+        {
+          "region": "GB",
+          "url": "https://www.gov.uk/government/news/new-vaping-products-duty-comes-into-effect",
+          "title": "New Vaping Products Duty comes into effect"
+        }
+      ],
+      "appliesFromExport": "2026-10-20T21:02:08.810Z"
+    },
+    {
+      "id": "nl-tax-plan-2027",
+      "title": [
+        "荷兰2027年税收方案",
+        "Dutch Tax Plan 2027"
+      ],
+      "basis": "The government’s Tax Plan 2027 announcement lists the reduction of the transfer tax rate for non-owner-occupiers from 8% to 7% as part of the Tax Plan 2027 package (bill 37022). The transfer-tax explanation keeps its own identity.",
+      "documents": [
+        {
+          "region": "NL",
+          "officialId": "Kamerstuk 37022"
+        },
+        {
+          "region": "NL",
+          "officialId": "Belastingplan 2027 – overdrachtsbelasting"
+        }
+      ],
+      "appliesFromExport": "2026-10-20T21:02:08.810Z"
     }
   ]
 }

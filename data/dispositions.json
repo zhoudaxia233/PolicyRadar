@@ -4020,6 +4020,54 @@
         }
       ],
       "appliesFromExport": "2026-10-18T17:16:31.189Z"
+    },
+    {
+      "id": "us-irs-newsroom-routine-2026-10",
+      "reason": [
+        "税务机关的宣传、招募、提醒或合作介绍，不改变税务规则。",
+        "A tax authority’s outreach, recruitment, reminder or partnership note. It changes no tax rule."
+      ],
+      "basis": "Each IRS release was read: VITA/TCE volunteer recruitment (IR-2026-118), a cybersecurity reminder (IR-2026-119), a description of cooperation with the UK whistleblower programme (IR-2026-120) and the Tax Professional Awareness Week webinars (IR-2026-124). None announces a change to tax law, rates, deadlines or eligibility.",
+      "documents": [
+        {
+          "region": "US",
+          "officialId": "IR-2026-118"
+        },
+        {
+          "region": "US",
+          "officialId": "IR-2026-119"
+        },
+        {
+          "region": "US",
+          "officialId": "IR-2026-120"
+        },
+        {
+          "region": "US",
+          "officialId": "IR-2026-124"
+        }
+      ],
+      "appliesFromExport": "2026-10-20T21:02:08.810Z"
+    },
+    {
+      "id": "gb-hmrc-reminders-2026-10",
+      "reason": [
+        "税务机关的宣传或提醒，不改变税务规则。",
+        "A tax authority’s promotion or reminder. It changes no tax rule."
+      ],
+      "basis": "The HMRC news index lists a Self Assessment early-filing reminder (8 October) and a Tax-Free Childcare promotion (13 October). Their titles and index summaries describe existing schemes and deadlines, not changes.",
+      "documents": [
+        {
+          "region": "GB",
+          "url": "https://www.gov.uk/government/news/starting-early-is-key-to-less-stress-around-self-assessment",
+          "title": "Starting early is key to less stress around Self Assessment"
+        },
+        {
+          "region": "GB",
+          "url": "https://www.gov.uk/government/news/more-than-600000-families-conjure-up-halloween-savings-with-tax-free-childcare",
+          "title": "More than 600,000 families conjure up Hallowe’en savings with Tax-Free Childcare"
+        }
+      ],
+      "appliesFromExport": "2026-10-20T21:02:08.810Z"
     }
   ]
 }

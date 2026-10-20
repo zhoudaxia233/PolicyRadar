@@ -2333,11 +2333,12 @@
       "verbatim": []
     },
     "us-diesel-emergency-relief-2026": {
-      "hash": "885b3c00e4a1de5ad041ad31cc664ffb720fb90c973e98ff9cceba652099e083",
-      "version": 1,
+      "hash": "b3f62791e752a2f5c2d0e8483f7dc820a874f9462f5fc90fe8cd56cabea1a64d",
+      "version": 2,
       "originalLanguage": "en",
       "verbatim": [
-        "The White House"
+        "The White House",
+        "Internal Revenue Service"
       ]
     },
     "us-scholarship-tax-credit-rules-2026": {
@@ -7118,6 +7119,64 @@
       "verbatim": [
         "www.ne.ch"
       ]
+    },
+    "eu-temporary-protection-ukraine-2028": {
+      "hash": "ee2e3504a0908a90bb95319ef8beee40c8def705a46148025ef0603538d704a0",
+      "version": 1,
+      "originalLanguage": "en",
+      "verbatim": []
+    },
+    "eu-safe-countries-of-origin-list-2026": {
+      "hash": "e8b307e08049adf3e513243d053156ff1c2ec099f21504b26ef6aa33e23d21b4",
+      "version": 1,
+      "originalLanguage": "en",
+      "verbatim": []
+    },
+    "eu-safe-third-country-concept-2026": {
+      "hash": "25201c6b0949fc1745dd45e1ccb858068cc46fd55bc6a9c7441de024860a5ec1",
+      "version": 1,
+      "originalLanguage": "en",
+      "verbatim": []
+    },
+    "eu-euco-migration-conclusions-2026-10": {
+      "hash": "f928b0611396211755a6fa58dac444fd47b4a1ee9c0ee53089c398f707f729cc",
+      "version": 1,
+      "originalLanguage": "en",
+      "verbatim": []
+    },
+    "us-premium-tax-credit-eligibility-2027": {
+      "hash": "cf0726f228d2e6823fd159395884158b51d87d6f1acecb418da911d83fce3d1f",
+      "version": 1,
+      "originalLanguage": "en",
+      "verbatim": [
+        "Internal Revenue Service"
+      ]
+    },
+    "us-adoption-credit-carryforward-refunds-2025": {
+      "hash": "ca03855e3af856ff9377c9de106ba40496afc3a07c4aa2fbec8b879c9db5bd50",
+      "version": 1,
+      "originalLanguage": "en",
+      "verbatim": [
+        "Internal Revenue Service"
+      ]
+    },
+    "gb-vaping-products-duty-2026": {
+      "hash": "9a3ac251acbcd2e351e637923e9b8d5345c8790b75b4d352ff44300464455bf3",
+      "version": 1,
+      "originalLanguage": "en",
+      "verbatim": []
+    },
+    "gb-mtd-income-tax-30000-2027": {
+      "hash": "d79fbfcf3908337acdb55c5923c99efedf87c0b959b4b26f9791a2ad5179b6af",
+      "version": 1,
+      "originalLanguage": "en",
+      "verbatim": []
+    },
+    "nl-tax-plan-2027": {
+      "hash": "152c673a5179ae189026956cbb68eead5aaf64176276d2ccdde4725a8e51a6af",
+      "version": 1,
+      "originalLanguage": "nl",
+      "verbatim": []
     }
   },
   "intake": {
@@ -44847,6 +44906,96 @@
       "hash": "d629ba0c02b9d13bb73a4d6f97a079adad4a56aeb3fba842029c57b942b9c6d1",
       "verbatim": [],
       "originalLanguage": "de",
+      "titleIsOriginal": true
+    },
+    "eu-oj-l-202601912": {
+      "hash": "53519e56163eb8e3e504fa1e0302d83580e25e09360a08968cf3a101de25f2bf",
+      "verbatim": [],
+      "originalLanguage": "en",
+      "titleIsOriginal": true
+    },
+    "eu-oj-l-202600463": {
+      "hash": "251f04bf65060d1c0f63aebcbd613f66ef70956c3a35526875d200817c0a8332",
+      "verbatim": [],
+      "originalLanguage": "en",
+      "titleIsOriginal": true
+    },
+    "eu-oj-l-202600464": {
+      "hash": "63fd4205a95b57d8d0aac8dd319a697fb38e590ebf094abc40571d261ca5f435",
+      "verbatim": [],
+      "originalLanguage": "en",
+      "titleIsOriginal": true
+    },
+    "eu-council-euco-14-26": {
+      "hash": "8cfeb5f628997679f9500b325b75b765b5856ab3299c7381ebcd79a31cf7bf19",
+      "verbatim": [],
+      "originalLanguage": "en",
+      "titleIsOriginal": true
+    },
+    "us-irs-ir-2026-118": {
+      "hash": "b98d948dc76a6175f98c10eb1359a867936c8ff1b64f7ec3d69119e14e0decf7",
+      "verbatim": [],
+      "originalLanguage": "en",
+      "titleIsOriginal": true
+    },
+    "us-irs-ir-2026-119": {
+      "hash": "85900ebefebd43f22d23cd5fddcbbd4e8e276b4f1b8858897763eac94b7a305a",
+      "verbatim": [],
+      "originalLanguage": "en",
+      "titleIsOriginal": true
+    },
+    "us-irs-ir-2026-120": {
+      "hash": "00a0776b82fd9a4310f08021fa7d9ce678397b57e769431cde97b18582350cf2",
+      "verbatim": [],
+      "originalLanguage": "en",
+      "titleIsOriginal": true
+    },
+    "us-irs-ir-2026-121": {
+      "hash": "cccdccfb85d73f9d49f2e4e2a1bf9047c50b7a8bcf05fa9a128654106078dcba",
+      "verbatim": [],
+      "originalLanguage": "en",
+      "titleIsOriginal": true
+    },
+    "us-irs-ir-2026-122": {
+      "hash": "cf381cd6c6dded0b37fc50498f9ce21e95798e6eb2c0c43e9db45240fba37b12",
+      "verbatim": [],
+      "originalLanguage": "en",
+      "titleIsOriginal": true
+    },
+    "us-irs-ir-2026-123": {
+      "hash": "7b46dbc84a68d0a35108e16ba5e0799bd3ab20d0f9709c882f40aef44b861cc9",
+      "verbatim": [],
+      "originalLanguage": "en",
+      "titleIsOriginal": true
+    },
+    "us-irs-ir-2026-124": {
+      "hash": "fcf42c3d27ca140a2e63a95c7f5b2439fe60c235ec8fed5edab315f4dfbd11f2",
+      "verbatim": [],
+      "originalLanguage": "en",
+      "titleIsOriginal": true
+    },
+    "gb-hmrc-20261001-vaping-duty": {
+      "hash": "3949fc981752bb0ecbd9633a2feb8521ec2c0e34e0bec2611c5662596a3c38db",
+      "verbatim": [],
+      "originalLanguage": "en",
+      "titleIsOriginal": true
+    },
+    "gb-hmrc-20261005-mtd-30000": {
+      "hash": "b4f013d6cd0563fffc0a733168919edd9e93f5f0623f4fe71bf380007ca5face",
+      "verbatim": [],
+      "originalLanguage": "en",
+      "titleIsOriginal": true
+    },
+    "gb-hmrc-20261008-sa-early": {
+      "hash": "65f93eae3cd1a4021bb1e3efd5168f034abfb243a4c9159759df3fab739fa1a9",
+      "verbatim": [],
+      "originalLanguage": "en",
+      "titleIsOriginal": true
+    },
+    "gb-hmrc-20261013-tfc-halloween": {
+      "hash": "002fcacd6071f5398c8382ffab9147af3b30710c5d8c1b9ce3a50c531b76fd57",
+      "verbatim": [],
+      "originalLanguage": "en",
       "titleIsOriginal": true
     }
   }

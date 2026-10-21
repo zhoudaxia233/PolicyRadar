@@ -225,7 +225,8 @@ test('PNOG acronym search preserves one care matter in both languages',()=>{
   assert.equal(care[0].group?.policyIds.length,2);
   const progress=selectListing(data.policies,data.intake.records,{...base,country:'DE',view:'intake',query},p=>index.get(p.id)??'', '2026-10-11',topics);
   assert.equal(progress.count,1);
-  assert.equal(progress.progress.length,2);
+  // Every reviewed PNOG record stays in the one matter; later steps add records.
+  assert.equal(progress.progress.length,topics.find(t=>t.id==='de-care-insurance-reform-pnog')!.recordIds.length);
  }
 });
 

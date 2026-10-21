@@ -2503,8 +2503,8 @@
       ]
     },
     "de-tobacco-tax-2027": {
-      "hash": "53f11d98cac4dda9816b0bb6219929fd74bbfa3d271141c4e0b4e11ef1d525aa",
-      "version": 3,
+      "version": 4,
+      "hash": "57bcb04d2583f720e45462455817b1acac8ebc6ad7fba92bcbd282327b2eb6e5",
       "originalLanguage": "de",
       "verbatim": [
         "Gesetze im Internet",
@@ -2555,8 +2555,8 @@
       ]
     },
     "de-care-insurance-reform-pnog": {
-      "hash": "b1e0ce0cf5cc54bf0dbbf7c09395ecb5be743dc31bfc29e6457d18c40da66b47",
-      "version": 2,
+      "version": 3,
+      "hash": "82da8928dbe4abc43d7e4d79db637b3d442332f080a2508491087543af19c3d0",
       "originalLanguage": "de",
       "verbatim": [
         "Bundesministerium für Gesundheit",
@@ -2818,8 +2818,8 @@
       ]
     },
     "de-oil-reserve-release-2026": {
-      "hash": "85be284b3df22ff102b5d710397c8430c127355d562c947afe854951a216cbd3",
-      "version": 2,
+      "version": 3,
+      "hash": "ae1a5a49b8b8cb8e70030056c88fe79a788973a951a3e469d80391427a128dfd",
       "originalLanguage": "de",
       "verbatim": [
         "Bundesrat"
@@ -7176,6 +7176,126 @@
       "hash": "152c673a5179ae189026956cbb68eead5aaf64176276d2ccdde4725a8e51a6af",
       "version": 1,
       "originalLanguage": "nl",
+      "verbatim": []
+    },
+    "de-kindergeld-without-application-2027": {
+      "version": 1,
+      "hash": "1a3c5fbc4cd31446dcbdf4a6ec3021bb2deb47a30769f554b6b0f5950a1e8572",
+      "originalLanguage": "de",
+      "verbatim": []
+    },
+    "de-integration-test-b1-rule-2026": {
+      "version": 1,
+      "hash": "eba318f9e4c00be5179d98eaaf62d5921fbdd61cfb0e4976eba261983339d530",
+      "originalLanguage": "de",
+      "verbatim": []
+    },
+    "de-debt-counselling-access-2026": {
+      "version": 1,
+      "hash": "48c01bf5d40b53ee013a6395221ae94a0cbbb62defe32d116ed38f9ec79adca3",
+      "originalLanguage": "de",
+      "verbatim": []
+    },
+    "de-industrial-emissions-ied-2026": {
+      "version": 1,
+      "hash": "d5c55951b1168b43fab8505d0d4a5633e234a204148ff3fc816ebede97190d22",
+      "originalLanguage": "de",
+      "verbatim": []
+    },
+    "de-sports-funding-act-2026": {
+      "version": 1,
+      "hash": "7cdd36beb0061d6d05825499d82126f83a9e7a868d21dcf192b9ec5b1bd5918b",
+      "originalLanguage": "de",
+      "verbatim": []
+    },
+    "de-bgbl-2026-291-mastr": {
+      "version": 1,
+      "hash": "703e96201adb4193cb3a3811139a4dd17d04fbbdb076b4c1f06cbd980b47eaa1",
+      "originalLanguage": "de",
+      "verbatim": []
+    },
+    "de-bgbl-2026-292-ecodesign-enforcement": {
+      "version": 1,
+      "hash": "7f00d44ac1f9b7fcdea161de46a1e33a592cc60707a684a43e7f7f94f5490428",
+      "originalLanguage": "de",
+      "verbatim": []
+    },
+    "de-bgbl-2026-302-evpg-regulation-expiry": {
+      "version": 1,
+      "hash": "5bedb92bd60077c9b4a006a2fdd45beda2bbbd87492209d681302a451f01d2ee",
+      "originalLanguage": "de",
+      "verbatim": []
+    },
+    "de-court-communication-aids-2027": {
+      "version": 1,
+      "hash": "bd282928f33d5577af9de973fd977582909b9a558e853e3d4b7ad198b7d85035",
+      "originalLanguage": "de",
+      "verbatim": []
+    },
+    "de-bgbl-2026-300-awv-23": {
+      "version": 1,
+      "hash": "2595b371961540000abcea66150be77512fcd901533282f2c576d66ad7659bfd",
+      "originalLanguage": "de",
+      "verbatim": []
+    },
+    "de-bgbl-2026-301-income-tax-municipal-keys": {
+      "version": 1,
+      "hash": "88e049140bda9b6e89b591cf77eadfe017d5644b7d9e1a6fb6ec1543c59b735e",
+      "originalLanguage": "de",
+      "verbatim": []
+    },
+    "de-bgbl-2026-303-ba-pension-fund": {
+      "version": 1,
+      "hash": "41022b1a35d1bf4d5ca8f4bc68fa7bd8b6fc40b649ebd5dc0ef0820133d856ad",
+      "originalLanguage": "de",
+      "verbatim": []
+    },
+    "de-bgbl-2026-305-enforcement-flat-fee": {
+      "version": 1,
+      "hash": "50a700576a6c58edc470b10355232c641a1e1880987af115649071f59231f68a",
+      "originalLanguage": "de",
+      "verbatim": []
+    },
+    "de-bgbl-2026-299-chemnitz-patent-centre": {
+      "version": 1,
+      "hash": "7bab19c63cd3cb5e6335f9bec2e4d53cdfe6584805c62a23abfdbdf2fdad9c73",
+      "originalLanguage": "de",
+      "verbatim": []
+    },
+    "de-bgbl-2026-310-vehicle-approval": {
+      "version": 1,
+      "hash": "fea55d4e12c052a9e5bb7cfb061bbb33f495ad35b1efe227b0fc7f47644884a7",
+      "originalLanguage": "de",
+      "verbatim": []
+    },
+    "de-farmer-training-2027": {
+      "version": 1,
+      "hash": "98c0915d9c3307811409a75015d20c47c89cc31644bf8a568563dc4d444dcaa7",
+      "originalLanguage": "de",
+      "verbatim": []
+    },
+    "de-bgbl-2026-290-print-master-exam": {
+      "version": 1,
+      "hash": "04e0783db2b4dea45cce8a42869e4a1431113cc90f7bc3e8f16e77240eb75f9e",
+      "originalLanguage": "de",
+      "verbatim": []
+    },
+    "de-bgbl-2026-298-barth-ifr": {
+      "version": 1,
+      "hash": "092785874ebea59d4db0d9a78f936dbb4956bdaff9429fd0ce6cb1d875d3b852",
+      "originalLanguage": "de",
+      "verbatim": []
+    },
+    "de-bgbl-2026-313-braunschweig-vfr": {
+      "version": 1,
+      "hash": "172a9efd535770b3cbf165a0e388a336d0d73829171977b62f405f4bbbd23bf3",
+      "originalLanguage": "de",
+      "verbatim": []
+    },
+    "de-annual-tax-act-2026": {
+      "version": 1,
+      "hash": "acc5173780d853f8667d9144ff1a61719e135f1398b37b674b3e8a4922ceb5c7",
+      "originalLanguage": "de",
       "verbatim": []
     }
   },
@@ -44996,6 +45116,240 @@
       "hash": "002fcacd6071f5398c8382ffab9147af3b30710c5d8c1b9ce3a50c531b76fd57",
       "verbatim": [],
       "originalLanguage": "en",
+      "titleIsOriginal": true
+    },
+    "de-20261021-bgbl-290": {
+      "hash": "ff1e4dd4a742330125315c5c3ef0c912e7ae08dd691af29f911cfcedcabc704d",
+      "verbatim": [],
+      "originalLanguage": "de",
+      "titleIsOriginal": true
+    },
+    "de-20261021-bgbl-291": {
+      "hash": "58f00cce7e5642b21a9c4de7d32028c081c578aed1265358c2526aa5aac7be1a",
+      "verbatim": [],
+      "originalLanguage": "de",
+      "titleIsOriginal": true
+    },
+    "de-20261021-bgbl-292": {
+      "hash": "bd0a62c1eead7a141a247968eadf45f929f99a072968df13dbab39eb88f41293",
+      "verbatim": [],
+      "originalLanguage": "de",
+      "titleIsOriginal": true
+    },
+    "de-20261021-bgbl-293": {
+      "hash": "dcf197d37be41ce1827a6644ff1b37b3813de772a087c67b525e9e02569035ed",
+      "verbatim": [],
+      "originalLanguage": "de",
+      "titleIsOriginal": true
+    },
+    "de-20261021-bgbl-294": {
+      "hash": "1975ba479df0c98526a86865a9b0bc73947b3ab219427f8d88851914a2f369ae",
+      "verbatim": [],
+      "originalLanguage": "de",
+      "titleIsOriginal": true
+    },
+    "de-20261021-bgbl-298": {
+      "hash": "e363c3f8b54fe32413c74d9f7e21133f2662d7665656ee38832025285df7dd1a",
+      "verbatim": [],
+      "originalLanguage": "de",
+      "titleIsOriginal": true
+    },
+    "de-20261021-bgbl-299": {
+      "hash": "dd74e46c34ce31e2edf10d7eb28a4e96b29df83ac1061d4570e5fc2b89d17a7f",
+      "verbatim": [],
+      "originalLanguage": "de",
+      "titleIsOriginal": true
+    },
+    "de-20261021-bgbl-300": {
+      "hash": "c9b8bbcb63adedf857299e3049e301e9b01f23af57ef9471fdb4ae658528d839",
+      "verbatim": [],
+      "originalLanguage": "de",
+      "titleIsOriginal": true
+    },
+    "de-20261021-bgbl-301": {
+      "hash": "432a4576850a57566e640fb9091dccff3ae8fe9896915e29a0bcba720b28e0c6",
+      "verbatim": [],
+      "originalLanguage": "de",
+      "titleIsOriginal": true
+    },
+    "de-20261021-bgbl-302": {
+      "hash": "726eaa5dafb273630e3881aef0188fcac10e85ea1d20cdb6498fdaa213d197d4",
+      "verbatim": [],
+      "originalLanguage": "de",
+      "titleIsOriginal": true
+    },
+    "de-20261021-bgbl-303": {
+      "hash": "d0acff9c3f8b2395ead2941e8e22fe692ef5d5fe0c62c8382930d0ebeef1649d",
+      "verbatim": [],
+      "originalLanguage": "de",
+      "titleIsOriginal": true
+    },
+    "de-20261021-bgbl-304": {
+      "hash": "978cafc85b51f7746790adf9de28458cfbbf3d3c4f2f5b15df0ccb152b5395af",
+      "verbatim": [],
+      "originalLanguage": "de",
+      "titleIsOriginal": true
+    },
+    "de-20261021-bgbl-305": {
+      "hash": "1414a8b744d2e57eb972b08da99da5cbb9cbe45d034a0b1ac6ce2e11989c47d9",
+      "verbatim": [],
+      "originalLanguage": "de",
+      "titleIsOriginal": true
+    },
+    "de-20261021-bgbl-306": {
+      "hash": "e22432ef1af4e38f5f57768b4fde5f3e3eea6ca6d8dfa589b7679555341dca7c",
+      "verbatim": [],
+      "originalLanguage": "de",
+      "titleIsOriginal": true
+    },
+    "de-20261021-bgbl-307": {
+      "hash": "cdd5764c90bace121bead1ac2b27dbfe0e8c169f035cc9cdc4038d645eaec35e",
+      "verbatim": [],
+      "originalLanguage": "de",
+      "titleIsOriginal": true
+    },
+    "de-20261021-bgbl-308": {
+      "hash": "85edf378a7be0ceaa9770ac65e402898d453fc4ba8adc31c7ac54af04ec964da",
+      "verbatim": [],
+      "originalLanguage": "de",
+      "titleIsOriginal": true
+    },
+    "de-20261021-bgbl-309": {
+      "hash": "9baf1ea6b68c2bbc3a681b02ab33afd812e3c8713f7eb6c637652a73d3e7c735",
+      "verbatim": [],
+      "originalLanguage": "de",
+      "titleIsOriginal": true
+    },
+    "de-20261021-bgbl-310": {
+      "hash": "41cdec5f193e1b9b4655e13258c8762f8070492e9d0124f638928c342799b73d",
+      "verbatim": [],
+      "originalLanguage": "de",
+      "titleIsOriginal": true
+    },
+    "de-20261021-bgbl-311": {
+      "hash": "c2fc20e164228089a47a35b1a287a9a489a7a0949b4a8829ff3ffa8bec40b23d",
+      "verbatim": [],
+      "originalLanguage": "de",
+      "titleIsOriginal": true
+    },
+    "de-20261021-bgbl-312": {
+      "hash": "852f4488504393c872805be759fe8e39c4ff8001f68b95c40b151b60e3d00175",
+      "verbatim": [],
+      "originalLanguage": "de",
+      "titleIsOriginal": true
+    },
+    "de-20261021-bgbl-313": {
+      "hash": "c7fa69178fb2332eddb810286daa7529d6ba23611508a565a1b830aefbaaa4b6",
+      "verbatim": [],
+      "originalLanguage": "de",
+      "titleIsOriginal": true
+    },
+    "kab62-top1-01": {
+      "hash": "dd476b209b73863d827cbf4916bea37634688af24439102877289320bc856dbc",
+      "verbatim": [],
+      "originalLanguage": "de",
+      "titleIsOriginal": true
+    },
+    "kab62-top1-02": {
+      "hash": "68fee152ad1559cfa9ae027cc510464cec7f93eb47b6a0cad900b0c2f526eec5",
+      "verbatim": [],
+      "originalLanguage": "de",
+      "titleIsOriginal": true
+    },
+    "kab62-top1-03": {
+      "hash": "a59685b3b40bd1526623bd8b63ea3850519dca413ae06fa1197e6f5f9355fcd4",
+      "verbatim": [],
+      "originalLanguage": "de",
+      "titleIsOriginal": true
+    },
+    "kab62-top1-04": {
+      "hash": "78198d4d23d457401a950a342e4476a813da5d1e6e076c2715197541f156782b",
+      "verbatim": [],
+      "originalLanguage": "de",
+      "titleIsOriginal": true
+    },
+    "kab62-top1-05": {
+      "hash": "9cd3f1f9499b3069f1d84af008f37c47b22bb9e8e15374907cd2c389e3f1fe98",
+      "verbatim": [],
+      "originalLanguage": "de",
+      "titleIsOriginal": true
+    },
+    "kab62-top1-06": {
+      "hash": "b91c823533176be9f2fda903e4aa45e5b1574b041edf69c9f7a8a7eef19281de",
+      "verbatim": [],
+      "originalLanguage": "de",
+      "titleIsOriginal": true
+    },
+    "kab62-top1-07": {
+      "hash": "c0fbd0e9c2db45f0f514f4fd80cbcf979661088b4df44b49274e365ce83afe0c",
+      "verbatim": [],
+      "originalLanguage": "de",
+      "titleIsOriginal": true
+    },
+    "kab62-top1-08": {
+      "hash": "8075be450aeeecec09c5deb1f364795bc780242fbf7debec54dbe64ca6860d6b",
+      "verbatim": [],
+      "originalLanguage": "de",
+      "titleIsOriginal": true
+    },
+    "kab62-top1-09": {
+      "hash": "b8f39c46d2f31164082fff307f1d1bc270f3ba63943b73a9de5229ed5433d14d",
+      "verbatim": [],
+      "originalLanguage": "de",
+      "titleIsOriginal": true
+    },
+    "kab62-top1-10": {
+      "hash": "990cbfae1afd03e33090a867ac3d0dae2339a76ed667be1b14c4bcedddb048f5",
+      "verbatim": [],
+      "originalLanguage": "de",
+      "titleIsOriginal": true
+    },
+    "kab62-shipping-action-plan": {
+      "hash": "cdaf19a15c241bc8e4bb1275d9ebd367d75c8c6bffaaa6bbe339d5bc1eef1b27",
+      "verbatim": [],
+      "originalLanguage": "de",
+      "titleIsOriginal": true
+    },
+    "bt-kw45-pnog": {
+      "hash": "3c3d3c0ecfd4affd52c76e900ff321aeaaa7a7e4d14da12fd602bab1f990fcbe",
+      "verbatim": [],
+      "originalLanguage": "de",
+      "titleIsOriginal": true
+    },
+    "bt-kw45-skilled-immigration": {
+      "hash": "8a858f75fab0d615ad4a991c4424c67ac893a06d42165b50a687ccb4d860b186",
+      "verbatim": [],
+      "originalLanguage": "de",
+      "titleIsOriginal": true
+    },
+    "bt-kw45-irini": {
+      "hash": "f30f2c31f15a43b5d997afd644569dc55b379d8982595f7a3688b84d8d0200f8",
+      "verbatim": [],
+      "originalLanguage": "de",
+      "titleIsOriginal": true
+    },
+    "bt-kw45-sea-guardian": {
+      "hash": "42fc8516eea607322d8575c44321eef34cd26a5da49dd7ba45df3dff32ddee3a",
+      "verbatim": [],
+      "originalLanguage": "de",
+      "titleIsOriginal": true
+    },
+    "bt-kw45-icc": {
+      "hash": "24758b9b7a1eddc6761092ac2d21b5eec093bf3b090ffdd6a16bf3a05885c384",
+      "verbatim": [],
+      "originalLanguage": "de",
+      "titleIsOriginal": true
+    },
+    "bt-kw45-swimming": {
+      "hash": "8afcddc7fceaa7789446d2e2efc69e850c334e257d193d56dea886b4869230e2",
+      "verbatim": [],
+      "originalLanguage": "de",
+      "titleIsOriginal": true
+    },
+    "bt-kw45-nsu-debate": {
+      "hash": "3f9bdf4d120c8766a47797b8cf3688a39368579d5361c3ddae6096c30a3f2d29",
+      "verbatim": [],
+      "originalLanguage": "de",
       "titleIsOriginal": true
     }
   }

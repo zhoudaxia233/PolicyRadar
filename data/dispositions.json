@@ -4068,6 +4068,43 @@
         }
       ],
       "appliesFromExport": "2026-10-20T21:02:08.810Z"
+    },
+    {
+      "id": "de-cabinet-reports-2026-10-14",
+      "reason": [
+        "政府报告或评估，不作立法决定，不改变规则。",
+        "A government report or evaluation. It makes no legislative decision and changes no rule."
+      ],
+      "basis": "The 62nd cabinet results list an annual report on the removal of child sexual abuse content in 2025 and a statutory evaluation report on the Youth Protection Act. Both are reports approved for submission, not bills or regulations.",
+      "documents": [
+        {
+          "region": "DE",
+          "url": "https://www.bundesregierung.de/breg-de/aktuelles/bundeskabinett-ergebnisse-2456684#top1-04",
+          "title": "Entwurf des Berichts der Bundesregierung über die im Jahr 2025 erzielten Erfolge im Zusammenhang mit der Löschung von kinderpornografischen Inhalten im Sinne des § 184b des Strafgesetzbuchs in digitalen Diensten"
+        },
+        {
+          "region": "DE",
+          "url": "https://www.bundesregierung.de/breg-de/aktuelles/bundeskabinett-ergebnisse-2456684#top1-05",
+          "title": "Entwurf eines Berichts der Bundesregierung zur Evaluation des Jugendschutzgesetzes nach § 29b Jugendschutzgesetz"
+        }
+      ],
+      "appliesFromExport": "2026-10-21T17:58:19.854Z"
+    },
+    {
+      "id": "de-bt-agreed-debate-nsu-2026-11",
+      "reason": [
+        "议会辩论，本身不作立法决定，不改变规则。",
+        "A parliamentary debate. It makes no legislative decision and changes no rule."
+      ],
+      "basis": "The Bundestag preview describes an agreed debate (Vereinbarte Debatte) on 15 years since the NSU was uncovered, held without a motion, bill or government statement.",
+      "documents": [
+        {
+          "region": "DE",
+          "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw45-de-vereinbarte-debatte-nsu-1225080",
+          "title": "15 Jahre Aufdeckung des NSU – Der Opfer gedenken, der Verantwortung gerecht werden und heutige Bedrohungen ernst nehmen"
+        }
+      ],
+      "appliesFromExport": "2026-10-21T17:58:19.854Z"
     }
   ]
 }

@@ -2398,5 +2398,29 @@
     "source_url": "https://www.bundesfinanzministerium.de/Web/DE/Service/Gesetze_Gesetzesvorhaben/Gesetze_Gesetzgebungsvorhaben.html",
     "checked_at": "2026-10-21T17:58:19.854Z",
     "data": "{\"id\":\"de-20261021-bmf\",\"sourceUrl\":\"https://www.bundesfinanzministerium.de/Web/DE/Service/Gesetze_Gesetzesvorhaben/Gesetze_Gesetzgebungsvorhaben.html\",\"checkedAt\":\"2026-10-21T17:58:19.854Z\",\"windowStart\":\"2026-10-18\",\"windowEnd\":\"2026-10-21\",\"status\":\"partial\",\"pages\":[\"https://www.bundesfinanzministerium.de/Web/DE/Presse/Pressemitteilungen/pressemitteilungen.html\"],\"recordIds\":[],\"excluded\":[{\"url\":\"https://www.bundesfinanzministerium.de/Content/DE/Pressemitteilungen/Briefmarken/2026/2026-10-19-sonderpostwertzeichen-spitzenkloeppeln.html\",\"reason\":\"纪念邮票发行通知，不是政策。\"}],\"allPagesChecked\":false,\"totalListed\":null,\"note\":\"新闻列表第一页：10月18日后只有一则纪念邮票通知；法律目录未逐项核对更新。\"}"
+  },
+  {
+    "id": "eu-20261021-oeil",
+    "source_url": "https://oeil.europarl.europa.eu/oeil/en",
+    "checked_at": "2026-10-21T19:01:56.751Z",
+    "data": "{\"id\":\"eu-20261021-oeil\",\"sourceUrl\":\"https://oeil.europarl.europa.eu/oeil/en\",\"checkedAt\":\"2026-10-21T19:01:56.751Z\",\"windowStart\":\"2026-10-19\",\"windowEnd\":\"2026-10-21\",\"status\":\"partial\",\"pages\":[\"https://oeil.europarl.europa.eu/oeil/en/procedure-file/pdf?reference=2023%2F0437%28COD%29\",\"https://oeil.europarl.europa.eu/oeil/en/procedure-file/pdf?reference=2025%2F0395%28COD%29\",\"https://oeil.europarl.europa.eu/oeil/en/procedure-file/pdf?reference=2025%2F0396%28COD%29\",\"https://oeil.europarl.europa.eu/oeil/en/procedure-file/pdf?reference=2025%2F0222%28COD%29\",\"https://www.europarl.europa.eu/news/en/agenda/briefing/2026-10-19\"],\"recordIds\":[\"ep-20261019-passenger-rights-enforcement\"],\"excluded\":[],\"allPagesChecked\":false,\"totalListed\":null,\"note\":\"欧洲议会10月19—22日全会：只核对了与已跟踪事项及旅客权利相关的程序档案；10月20—21日通过文本页面返回空的HTTP 202，表决结果未能读取。\"}"
+  },
+  {
+    "id": "eu-20261021-esma",
+    "source_url": "https://www.esma.europa.eu/press-news/esma-news",
+    "checked_at": "2026-10-21T19:01:56.751Z",
+    "data": "{\"id\":\"eu-20261021-esma\",\"sourceUrl\":\"https://www.esma.europa.eu/press-news/esma-news\",\"checkedAt\":\"2026-10-21T19:01:56.751Z\",\"windowStart\":\"2026-10-18\",\"windowEnd\":\"2026-10-21\",\"status\":\"partial\",\"pages\":[\"https://www.esma.europa.eu/press-news/esma-news\"],\"recordIds\":[\"esma-20261020-ptrr\"],\"excluded\":[],\"allPagesChecked\":false,\"totalListed\":null,\"note\":\"新闻列表第一页：10月18日后新增一条（10月20日）。\"}"
+  },
+  {
+    "id": "eu-20261021-taxud",
+    "source_url": "https://taxation-customs.ec.europa.eu/news_en",
+    "checked_at": "2026-10-21T19:01:56.751Z",
+    "data": "{\"id\":\"eu-20261021-taxud\",\"sourceUrl\":\"https://taxation-customs.ec.europa.eu/news_en\",\"checkedAt\":\"2026-10-21T19:01:56.751Z\",\"windowStart\":\"2026-10-18\",\"windowEnd\":\"2026-10-21\",\"status\":\"partial\",\"pages\":[\"https://taxation-customs.ec.europa.eu/news_en\"],\"recordIds\":[],\"excluded\":[],\"allPagesChecked\":false,\"totalListed\":null,\"note\":\"新闻列表第一页：10月9日后没有新消息。\"}"
+  },
+  {
+    "id": "eu-20261021-oj",
+    "source_url": "https://eur-lex.europa.eu/oj/direct-access.html",
+    "checked_at": "2026-10-21T19:01:56.751Z",
+    "data": "{\"id\":\"eu-20261021-oj\",\"sourceUrl\":\"https://eur-lex.europa.eu/oj/direct-access.html\",\"checkedAt\":\"2026-10-21T19:01:56.751Z\",\"windowStart\":\"2026-10-17\",\"windowEnd\":\"2026-10-21\",\"status\":\"partial\",\"pages\":[\"https://publications.europa.eu/webapi/rdf/sparql\"],\"recordIds\":[],\"excluded\":[],\"allPagesChecked\":false,\"totalListed\":null,\"note\":\"EUR-Lex对自动访问返回空的HTTP 202；改用出版局公开SPARQL接口列出10月16—21日公布的文件，只核对了消费者相关事项（包括2欧元包裹处理费授权法规：截至10月21日未见公布），其余文件未录入。\"}"
   }
 ]

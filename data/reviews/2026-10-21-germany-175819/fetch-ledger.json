@@ -1,0 +1,812 @@
+[
+ {
+  "name": "bmas-pm",
+  "url": "https://www.bmas.de/DE/Service/Presse/Pressemitteilungen/pressemitteilungen.html",
+  "fetchedAt": "2026-10-21T17:42:48.949223Z",
+  "status": 200,
+  "contentType": "text/html;charset=utf-8",
+  "finalUrl": "https://www.bmas.de/DE/Service/Presse/Pressemitteilungen/pressemitteilungen.html",
+  "sha256": "e1d9ed257a6483544f540b605da7244fc1606ee18f2f9279e2340945478dbd4d",
+  "bytes": 544277
+ },
+ {
+  "name": "bmf-gesetze",
+  "url": "https://www.bundesfinanzministerium.de/Web/DE/Service/Gesetze_Gesetzesvorhaben/Gesetze_Gesetzgebungsvorhaben.html",
+  "fetchedAt": "2026-10-21T17:42:49.432098Z",
+  "status": 200,
+  "contentType": "text/html;charset=utf-8",
+  "finalUrl": "https://www.bundesfinanzministerium.de/Web/DE/Service/Gesetze_Gesetzesvorhaben/Gesetze_Gesetzgebungsvorhaben.html",
+  "sha256": "f92c594fa4df3b50d57681d7ab94354ae0ab0ada23e46c20e3650c729c522a88",
+  "bytes": 212521
+ },
+ {
+  "name": "bmf-presse",
+  "url": "https://www.bundesfinanzministerium.de/Web/DE/Presse/Pressemitteilungen/pressemitteilungen.html",
+  "fetchedAt": "2026-10-21T17:42:49.651879Z",
+  "status": 200,
+  "contentType": "text/html;charset=utf-8",
+  "finalUrl": "https://www.bundesfinanzministerium.de/Web/DE/Presse/Pressemitteilungen/pressemitteilungen.html",
+  "sha256": "b6e4c68663dcb29b8c40ccae60f4b17a2a43f585407e20aee6eac44b115c3c5e",
+  "bytes": 208516
+ },
+ {
+  "name": "br-plenum",
+  "url": "https://www.bundesrat.de/DE/plenum/plenum-node.html",
+  "fetchedAt": "2026-10-21T17:42:49.837425Z",
+  "status": 200,
+  "contentType": "text/html;charset=utf-8",
+  "finalUrl": "https://www.bundesrat.de/DE/plenum/plenum-node.html",
+  "sha256": "cb59d5ceeb69ebe8561bbbdc4f3b8bf3bcdcec9cc1aefc7afa98ce80e9b47e26",
+  "bytes": 33317
+ },
+ {
+  "name": "bt-textarchiv",
+  "url": "https://www.bundestag.de/dokumente/textarchiv",
+  "fetchedAt": "2026-10-21T17:42:50.139928Z",
+  "status": 200,
+  "contentType": "text/html;charset=UTF-8",
+  "finalUrl": "https://www.bundestag.de/dokumente/textarchiv",
+  "sha256": "ff3db26e76e4a9506e2f1d50dcdad340b9024da262221ccf4a2f91f949965d11",
+  "bytes": 263783
+ },
+ {
+  "name": "recht-home",
+  "url": "https://www.recht.bund.de/de/home/home_node.html",
+  "fetchedAt": "2026-10-21T17:42:50.344884Z",
+  "status": 200,
+  "contentType": "text/html;charset=utf-8",
+  "finalUrl": "https://www.recht.bund.de/de/home/home_node.html",
+  "sha256": "2e062c66d9de60f947dab556ac74df2f0eef6c30c91b9b522ee9811f75385d1b",
+  "bytes": 257594
+ },
+ {
+  "name": "breg-kabinett",
+  "url": "https://www.bundesregierung.de/breg-de/bundesregierung/kabinettsthemen",
+  "fetchedAt": "2026-10-21T17:42:50.560105Z",
+  "status": 200,
+  "contentType": "text/html;charset=UTF-8",
+  "finalUrl": "https://www.bundesregierung.de/breg-de/bundesregierung/kabinettsthemen",
+  "sha256": "6b4dcb3aea58b4bca7cd365b75957efe1aa0aa2e29cd0fcd4af8a5bd9abfbb80",
+  "bytes": 136241
+ },
+ {
+  "name": "bgbl1-290",
+  "url": "https://www.recht.bund.de/bgbl/1/2026/290/VO.html",
+  "fetchedAt": "2026-10-21T17:43:15.866092Z",
+  "status": 200,
+  "contentType": "text/html;charset=utf-8",
+  "finalUrl": "https://www.recht.bund.de/bgbl/1/2026/290/VO.html",
+  "sha256": "e17c1f888e7a0f6cb34f117cb1954b1da605a4d234509729fd22c2e09877092c",
+  "bytes": 40482
+ },
+ {
+  "name": "bgbl1-291",
+  "url": "https://www.recht.bund.de/bgbl/1/2026/291/VO.html",
+  "fetchedAt": "2026-10-21T17:43:16.120941Z",
+  "status": 200,
+  "contentType": "text/html;charset=utf-8",
+  "finalUrl": "https://www.recht.bund.de/bgbl/1/2026/291/VO.html",
+  "sha256": "8cb1e6e7138c1104e153be3cb1be027a79680d865577de85a2f778796a00de39",
+  "bytes": 40358
+ },
+ {
+  "name": "bgbl1-292",
+  "url": "https://www.recht.bund.de/bgbl/1/2026/292/VO.html",
+  "fetchedAt": "2026-10-21T17:43:16.263573Z",
+  "status": 200,
+  "contentType": "text/html;charset=utf-8",
+  "finalUrl": "https://www.recht.bund.de/bgbl/1/2026/292/VO.html",
+  "sha256": "631c1d5840427b457b71c32be5aac844a6d98714f112f6076536dc62ffdae538",
+  "bytes": 40666
+ },
+ {
+  "name": "bgbl1-293",
+  "url": "https://www.recht.bund.de/bgbl/1/2026/293/VO.html",
+  "fetchedAt": "2026-10-21T17:43:16.402975Z",
+  "status": 200,
+  "contentType": "text/html;charset=utf-8",
+  "finalUrl": "https://www.recht.bund.de/bgbl/1/2026/293/VO.html",
+  "sha256": "00dc2f6c2ccb3a8f3656abb8f691c5eecc1664654fee5ea9daa659da22eccd14",
+  "bytes": 40589
+ },
+ {
+  "name": "bgbl1-294",
+  "url": "https://www.recht.bund.de/bgbl/1/2026/294/VO.html",
+  "fetchedAt": "2026-10-21T17:43:16.545355Z",
+  "status": 200,
+  "contentType": "text/html;charset=utf-8",
+  "finalUrl": "https://www.recht.bund.de/bgbl/1/2026/294/VO.html",
+  "sha256": "b515ed4b2328270eeabf30aaf19e877ed42d8dfdbf010bcd0f83ac36134d3663",
+  "bytes": 40615
+ },
+ {
+  "name": "bgbl1-295",
+  "url": "https://www.recht.bund.de/bgbl/1/2026/295/VO.html",
+  "fetchedAt": "2026-10-21T17:43:16.691662Z",
+  "status": 200,
+  "contentType": "text/html;charset=utf-8",
+  "finalUrl": "https://www.recht.bund.de/bgbl/1/2026/295/VO.html",
+  "sha256": "f50f0648a5a63b2017d1a194657db2c21132528f82e834f5b0a4d6daf818bd76",
+  "bytes": 40905
+ },
+ {
+  "name": "bgbl1-296",
+  "url": "https://www.recht.bund.de/bgbl/1/2026/296/VO.html",
+  "fetchedAt": "2026-10-21T17:43:16.833118Z",
+  "status": 200,
+  "contentType": "text/html;charset=utf-8",
+  "finalUrl": "https://www.recht.bund.de/bgbl/1/2026/296/VO.html",
+  "sha256": "29b8e6e471fc3ea68afe0fce7031d95b412ef855e697eb064119095c3090129e",
+  "bytes": 40948
+ },
+ {
+  "name": "bgbl1-297",
+  "url": "https://www.recht.bund.de/bgbl/1/2026/297/VO.html",
+  "fetchedAt": "2026-10-21T17:43:17.100708Z",
+  "status": 200,
+  "contentType": "text/html;charset=utf-8",
+  "finalUrl": "https://www.recht.bund.de/bgbl/1/2026/297/VO.html",
+  "sha256": "98365fed8606e00507e5881aa533a65cc79164f23b4464091f4ab11890dd4396",
+  "bytes": 41294
+ },
+ {
+  "name": "bgbl1-298",
+  "url": "https://www.recht.bund.de/bgbl/1/2026/298/VO.html",
+  "fetchedAt": "2026-10-21T17:43:17.247768Z",
+  "status": 200,
+  "contentType": "text/html;charset=utf-8",
+  "finalUrl": "https://www.recht.bund.de/bgbl/1/2026/298/VO.html",
+  "sha256": "7a2a171ea56145ab6a09d875e4e558ac7973f0ce704162c3a1b6ff7c26a7746f",
+  "bytes": 40970
+ },
+ {
+  "name": "bgbl1-299",
+  "url": "https://www.recht.bund.de/bgbl/1/2026/299/VO.html",
+  "fetchedAt": "2026-10-21T17:43:17.517976Z",
+  "status": 200,
+  "contentType": "text/html;charset=utf-8",
+  "finalUrl": "https://www.recht.bund.de/bgbl/1/2026/299/VO.html",
+  "sha256": "31723727a2d06b0b83e181b3e0085543f9231b42a8fb1afa7372998abc9d72b4",
+  "bytes": 40665
+ },
+ {
+  "name": "bgbl1-300",
+  "url": "https://www.recht.bund.de/bgbl/1/2026/300/VO.html",
+  "fetchedAt": "2026-10-21T17:43:17.658546Z",
+  "status": 200,
+  "contentType": "text/html;charset=utf-8",
+  "finalUrl": "https://www.recht.bund.de/bgbl/1/2026/300/VO.html",
+  "sha256": "5d7f33c3b49bead3157ef228dcb8cb367d089883d6b1c55e42b7f6eac9d4ccf1",
+  "bytes": 40388
+ },
+ {
+  "name": "bgbl1-301",
+  "url": "https://www.recht.bund.de/bgbl/1/2026/301/VO.html",
+  "fetchedAt": "2026-10-21T17:43:17.808344Z",
+  "status": 200,
+  "contentType": "text/html;charset=utf-8",
+  "finalUrl": "https://www.recht.bund.de/bgbl/1/2026/301/VO.html",
+  "sha256": "78efefd3a6428906388e20ed58139342304ab19cee89cbf417a172a9da7d5f6f",
+  "bytes": 40738
+ },
+ {
+  "name": "bgbl1-302",
+  "url": "https://www.recht.bund.de/bgbl/1/2026/302/VO.html",
+  "fetchedAt": "2026-10-21T17:43:17.956637Z",
+  "status": 200,
+  "contentType": "text/html;charset=utf-8",
+  "finalUrl": "https://www.recht.bund.de/bgbl/1/2026/302/VO.html",
+  "sha256": "61b5dfd0dd8cd7909af5da879d2e9fe88317fdcc8fea9cec0cf66c5029b0b161",
+  "bytes": 40282
+ },
+ {
+  "name": "bgbl1-303",
+  "url": "https://www.recht.bund.de/bgbl/1/2026/303/VO.html",
+  "fetchedAt": "2026-10-21T17:43:18.520328Z",
+  "status": 200,
+  "contentType": "text/html;charset=utf-8",
+  "finalUrl": "https://www.recht.bund.de/bgbl/1/2026/303/VO.html",
+  "sha256": "3ba37af85969fa91db9a82dfd3ce17b00396b405edb9191996483e59f0d7fdbd",
+  "bytes": 40637
+ },
+ {
+  "name": "bgbl1-304",
+  "url": "https://www.recht.bund.de/bgbl/1/2026/304/VO.html",
+  "fetchedAt": "2026-10-21T17:43:18.687359Z",
+  "status": 200,
+  "contentType": "text/html;charset=utf-8",
+  "finalUrl": "https://www.recht.bund.de/bgbl/1/2026/304/VO.html",
+  "sha256": "b51aec088e5a0d376ab72228e7e1d718ac30b8e09c4525989cb82c934346c7ad",
+  "bytes": 40790
+ },
+ {
+  "name": "bgbl1-305",
+  "url": "https://www.recht.bund.de/bgbl/1/2026/305/VO.html",
+  "fetchedAt": "2026-10-21T17:43:18.848205Z",
+  "status": 200,
+  "contentType": "text/html;charset=utf-8",
+  "finalUrl": "https://www.recht.bund.de/bgbl/1/2026/305/VO.html",
+  "sha256": "73928cc59b373d421c51737b69239eeeff9c0e849d149a3fe9a3c0b09292367e",
+  "bytes": 40342
+ },
+ {
+  "name": "bgbl1-306",
+  "url": "https://www.recht.bund.de/bgbl/1/2026/306/VO.html",
+  "fetchedAt": "2026-10-21T17:43:19.035912Z",
+  "status": 200,
+  "contentType": "text/html;charset=utf-8",
+  "finalUrl": "https://www.recht.bund.de/bgbl/1/2026/306/VO.html",
+  "sha256": "430264879f01886b644da59c68b46e72596ec6141d1fab9feaf3839a09f01b18",
+  "bytes": 40294
+ },
+ {
+  "name": "bgbl1-307",
+  "url": "https://www.recht.bund.de/bgbl/1/2026/307/VO.html",
+  "fetchedAt": "2026-10-21T17:43:19.205793Z",
+  "status": 200,
+  "contentType": "text/html;charset=utf-8",
+  "finalUrl": "https://www.recht.bund.de/bgbl/1/2026/307/VO.html",
+  "sha256": "6d11f9e6e5c5f0b5b834f59cdf8f2391ea8e29f70530e7d5d571c554ce26f656",
+  "bytes": 40480
+ },
+ {
+  "name": "bgbl1-308",
+  "url": "https://www.recht.bund.de/bgbl/1/2026/308/VO.html",
+  "fetchedAt": "2026-10-21T17:43:19.392942Z",
+  "status": 200,
+  "contentType": "text/html;charset=utf-8",
+  "finalUrl": "https://www.recht.bund.de/bgbl/1/2026/308/VO.html",
+  "sha256": "13e80347371719226d9177642ba175eec280bc514519f258657a5f25abf552cd",
+  "bytes": 40858
+ },
+ {
+  "name": "bgbl1-309",
+  "url": "https://www.recht.bund.de/bgbl/1/2026/309/VO.html",
+  "fetchedAt": "2026-10-21T17:43:19.705292Z",
+  "status": 200,
+  "contentType": "text/html;charset=utf-8",
+  "finalUrl": "https://www.recht.bund.de/bgbl/1/2026/309/VO.html",
+  "sha256": "550e77911d7ee846bd028f1182a5c890f04ef2d2c19a643143e6b07a5e9ec9d9",
+  "bytes": 40402
+ },
+ {
+  "name": "bgbl1-310",
+  "url": "https://www.recht.bund.de/bgbl/1/2026/310/VO.html",
+  "fetchedAt": "2026-10-21T17:43:19.896276Z",
+  "status": 200,
+  "contentType": "text/html;charset=utf-8",
+  "finalUrl": "https://www.recht.bund.de/bgbl/1/2026/310/VO.html",
+  "sha256": "69ee0133294c7631ed18fa6bb3a970577cc67c718dc45747bbafd3ed7b15439c",
+  "bytes": 40808
+ },
+ {
+  "name": "bgbl1-311",
+  "url": "https://www.recht.bund.de/bgbl/1/2026/311/VO.html",
+  "fetchedAt": "2026-10-21T17:43:20.069411Z",
+  "status": 200,
+  "contentType": "text/html;charset=utf-8",
+  "finalUrl": "https://www.recht.bund.de/bgbl/1/2026/311/VO.html",
+  "sha256": "59b83afa364a47ac1e03b58e0b624eb66f8dd94de5bef7a98333abb420e2b76e",
+  "bytes": 40453
+ },
+ {
+  "name": "bgbl1-312",
+  "url": "https://www.recht.bund.de/bgbl/1/2026/312/VO.html",
+  "fetchedAt": "2026-10-21T17:43:20.396774Z",
+  "status": 200,
+  "contentType": "text/html;charset=utf-8",
+  "finalUrl": "https://www.recht.bund.de/bgbl/1/2026/312/VO.html",
+  "sha256": "15147dedbfa555fbf305a0e7d3f33bf9c0e42f8f404e0f67177e9831c83e3d3a",
+  "bytes": 40426
+ },
+ {
+  "name": "bgbl1-313",
+  "url": "https://www.recht.bund.de/bgbl/1/2026/313/VO.html",
+  "fetchedAt": "2026-10-21T17:43:20.603374Z",
+  "status": 200,
+  "contentType": "text/html;charset=utf-8",
+  "finalUrl": "https://www.recht.bund.de/bgbl/1/2026/313/VO.html",
+  "sha256": "e9a8f73e436296026382a29c819e4b37995c6348580db9d047647907f6d5633f",
+  "bytes": 40913
+ },
+ {
+  "name": "bt-ta-2026",
+  "url": "https://www.bundestag.de/dokumente/textarchiv/2026",
+  "fetchedAt": "2026-10-21T17:43:54.353782Z",
+  "status": 200,
+  "contentType": "text/html;charset=UTF-8",
+  "finalUrl": "https://www.bundestag.de/dokumente/textarchiv/2026",
+  "sha256": "2efd11a13a9c52d4f04d4d9db85dd05e7ce3dae93e8a6f78e18d828b8582e11f",
+  "bytes": 263258
+ },
+ {
+  "name": "bt-to-43",
+  "url": "https://www.bundestag.de/apps/plenar/plenar/conferenceweekDetail.form?year=2026&week=43",
+  "fetchedAt": "2026-10-21T17:44:56.534660Z",
+  "status": 404,
+  "contentType": "text/html",
+  "finalUrl": "https://www.bundestag.de/apps/plenar/plenar/conferenceweekDetail.form?year=2026&week=43",
+  "error": "HTTP Error 404: Not Found",
+  "sha256": "07e84f3881cb825a64eb64d08f9ccf4eabdea3d28ec28cfb770d1834ab94bb0a",
+  "bytes": 42893
+ },
+ {
+  "name": "bt-to-44",
+  "url": "https://www.bundestag.de/apps/plenar/plenar/conferenceweekDetail.form?year=2026&week=44",
+  "fetchedAt": "2026-10-21T17:44:56.684194Z",
+  "status": 404,
+  "contentType": "text/html",
+  "finalUrl": "https://www.bundestag.de/apps/plenar/plenar/conferenceweekDetail.form?year=2026&week=44",
+  "error": "HTTP Error 404: Not Found",
+  "sha256": "07e84f3881cb825a64eb64d08f9ccf4eabdea3d28ec28cfb770d1834ab94bb0a",
+  "bytes": 42893
+ },
+ {
+  "name": "bmg-pm",
+  "url": "https://www.bundesgesundheitsministerium.de/presse/pressemitteilungen",
+  "fetchedAt": "2026-10-21T17:45:21.639519Z",
+  "status": 200,
+  "contentType": "text/html; charset=utf-8",
+  "finalUrl": "https://www.bundesgesundheitsministerium.de/presse/pressemitteilungen",
+  "sha256": "7dc10e91aba97c372cb8d65eb2c4d0483889089fbc0f4d2aa6b3663760ef4723",
+  "bytes": 442163
+ },
+ {
+  "name": "bt-kw45-de-bundeswehr-eunavfor-med-irini-1225070",
+  "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw45-de-bundeswehr-eunavfor-med-irini-1225070",
+  "fetchedAt": "2026-10-21T17:45:22.143696Z",
+  "status": 200,
+  "contentType": "text/html;charset=UTF-8",
+  "finalUrl": "https://www.bundestag.de/dokumente/textarchiv/2026/kw45-de-bundeswehr-eunavfor-med-irini-1225070",
+  "sha256": "21a8ba227e23f07042e2789d8a83f64829cec81299379db7fa9e81fec35f2ad1",
+  "bytes": 256381
+ },
+ {
+  "name": "bt-kw45-de-bundeswehr-sea-guardian-1225074",
+  "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw45-de-bundeswehr-sea-guardian-1225074",
+  "fetchedAt": "2026-10-21T17:45:22.359222Z",
+  "status": 200,
+  "contentType": "text/html;charset=UTF-8",
+  "finalUrl": "https://www.bundestag.de/dokumente/textarchiv/2026/kw45-de-bundeswehr-sea-guardian-1225074",
+  "sha256": "0c87428767a5554db21169e6705fc85eadde040c405b3e1bf47eae588aaeb612",
+  "bytes": 256329
+ },
+ {
+  "name": "bt-kw45-de-fachkraefteeinwanderung-1225072",
+  "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw45-de-fachkraefteeinwanderung-1225072",
+  "fetchedAt": "2026-10-21T17:45:22.575243Z",
+  "status": 200,
+  "contentType": "text/html;charset=UTF-8",
+  "finalUrl": "https://www.bundestag.de/dokumente/textarchiv/2026/kw45-de-fachkraefteeinwanderung-1225072",
+  "sha256": "16dffb262270eac1826e991f59520e10635d4cbdb13d9fcee0aa6d9f6caee01d",
+  "bytes": 260664
+ },
+ {
+  "name": "bt-kw45-de-pflegeneuordnungsgesetz-1225076",
+  "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw45-de-pflegeneuordnungsgesetz-1225076",
+  "fetchedAt": "2026-10-21T17:45:22.925839Z",
+  "status": 200,
+  "contentType": "text/html;charset=UTF-8",
+  "finalUrl": "https://www.bundestag.de/dokumente/textarchiv/2026/kw45-de-pflegeneuordnungsgesetz-1225076",
+  "sha256": "d413f270b57530ce4c29a50a26c5ee7b8fb418520efb64d1db94b876966e3b79",
+  "bytes": 258553
+ },
+ {
+  "name": "bt-kw45-de-vereinbarte-debatte-nsu-1225080",
+  "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw45-de-vereinbarte-debatte-nsu-1225080",
+  "fetchedAt": "2026-10-21T17:45:23.162239Z",
+  "status": 200,
+  "contentType": "text/html;charset=UTF-8",
+  "finalUrl": "https://www.bundestag.de/dokumente/textarchiv/2026/kw45-de-vereinbarte-debatte-nsu-1225080",
+  "sha256": "a6c02f2a5000cf847f5d8a5398e995a1b4356b2bd164f11ccdee9c5ea011fb0b",
+  "bytes": 255287
+ },
+ {
+  "name": "bt-kw45-de-voelkerstrafrecht-1225078",
+  "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw45-de-voelkerstrafrecht-1225078",
+  "fetchedAt": "2026-10-21T17:45:23.384661Z",
+  "status": 200,
+  "contentType": "text/html;charset=UTF-8",
+  "finalUrl": "https://www.bundestag.de/dokumente/textarchiv/2026/kw45-de-voelkerstrafrecht-1225078",
+  "sha256": "9eed3db6fc239d0c598420ff0f98614db097c6bae61da92538d04bbae3718f8e",
+  "bytes": 283637
+ },
+ {
+  "name": "bt-kw45-de-ueberweisungen-1154782",
+  "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw45-de-ueberweisungen-1154782",
+  "fetchedAt": "2026-10-21T17:45:23.609703Z",
+  "status": 200,
+  "contentType": "text/html;charset=UTF-8",
+  "finalUrl": "https://www.bundestag.de/dokumente/textarchiv/2026/kw45-de-ueberweisungen-1154782",
+  "sha256": "b9a342a91b6afcd989af947082c5ada7693552626d06548643d25dd725d5ce2d",
+  "bytes": 254833
+ },
+ {
+  "name": "bt-kw45-de-fragestunde-1154792",
+  "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw45-de-fragestunde-1154792",
+  "fetchedAt": "2026-10-21T17:45:23.867838Z",
+  "status": 200,
+  "contentType": "text/html;charset=UTF-8",
+  "finalUrl": "https://www.bundestag.de/dokumente/textarchiv/2026/kw45-de-fragestunde-1154792",
+  "sha256": "c57b3ec478ca771be72fb84b4a97fdf6c8ba062f8c6eb837e882696728ad17b2",
+  "bytes": 254993
+ },
+ {
+  "name": "bt-kw45-de-regierungsbefragung-1154780",
+  "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw45-de-regierungsbefragung-1154780",
+  "fetchedAt": "2026-10-21T17:45:24.089574Z",
+  "status": 200,
+  "contentType": "text/html;charset=UTF-8",
+  "finalUrl": "https://www.bundestag.de/dokumente/textarchiv/2026/kw45-de-regierungsbefragung-1154780",
+  "sha256": "01c4fd0401433f16ef54961c7791cb9c82f62d12d0bbd431c44cd4a0caba6fae",
+  "bytes": 255626
+ },
+ {
+  "name": "bt-kw43-interview-radwan-1225438",
+  "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw43-interview-radwan-1225438",
+  "fetchedAt": "2026-10-21T17:45:24.309071Z",
+  "status": 200,
+  "contentType": "text/html;charset=UTF-8",
+  "finalUrl": "https://www.bundestag.de/dokumente/textarchiv/2026/kw43-interview-radwan-1225438",
+  "sha256": "99d5182ee28f3e483bf116f20cd5c72b064849f2d37d75ea4982b89d8233e1bf",
+  "bytes": 263473
+ },
+ {
+  "name": "br-to",
+  "url": "https://www.bundesrat.de/DE/plenum/to-plenum/to-plenum-node.html",
+  "fetchedAt": "2026-10-21T17:45:45.202100Z",
+  "status": 200,
+  "contentType": "text/html;charset=utf-8",
+  "finalUrl": "https://www.bundesrat.de/DE/plenum/to-plenum/to-plenum-node.html",
+  "sha256": "bdd6088177794d2c24c00585516ccc9963abeb46b6f574b312f30b60c044560c",
+  "bytes": 42207
+ },
+ {
+  "name": "br-to1070",
+  "url": "https://www.bundesrat.de/SharedDocs/TO/1070/tagesordnung-1070.html",
+  "fetchedAt": "2026-10-21T17:45:52.373623Z",
+  "status": 404,
+  "contentType": "text/html;charset=utf-8",
+  "finalUrl": "https://www.bundesrat.de/SharedDocs/TO/1070/tagesordnung-1070.html",
+  "error": "HTTP Error 404: Not Found",
+  "sha256": "6fad45d7ce1f268955da3afc35a40b6e9441a31fe9d753cf685082869e64280f",
+  "bytes": 32976
+ },
+ {
+  "name": "bgbl1-290-pdf",
+  "url": "https://www.recht.bund.de/bgbl/1/2026/290/regelungstext.pdf?__blob=publicationFile&v=1",
+  "fetchedAt": "2026-10-21T17:46:02.203316Z",
+  "status": 200,
+  "contentType": "application/pdf",
+  "finalUrl": "https://www.recht.bund.de/bgbl/1/2026/290/regelungstext.pdf?__blob=publicationFile&v=1",
+  "sha256": "da84ee20a793323b0d3fa34d86ae8eb2535b92c58a03ce60a7a4c59f216d4dc8",
+  "bytes": 309154
+ },
+ {
+  "name": "bgbl1-291-pdf",
+  "url": "https://www.recht.bund.de/bgbl/1/2026/291/regelungstext.pdf?__blob=publicationFile&v=1",
+  "fetchedAt": "2026-10-21T17:46:02.545757Z",
+  "status": 200,
+  "contentType": "application/pdf",
+  "finalUrl": "https://www.recht.bund.de/bgbl/1/2026/291/regelungstext.pdf?__blob=publicationFile&v=1",
+  "sha256": "504e3b83a75b986ed649fa91b6647bf14f3fb41426935a9ec9fae5a93dc10840",
+  "bytes": 371627
+ },
+ {
+  "name": "bgbl1-292-pdf",
+  "url": "https://www.recht.bund.de/bgbl/1/2026/292/regelungstext.pdf?__blob=publicationFile&v=1",
+  "fetchedAt": "2026-10-21T17:46:02.806804Z",
+  "status": 200,
+  "contentType": "application/pdf;charset=UTF-8",
+  "finalUrl": "https://www.recht.bund.de/bgbl/1/2026/292/regelungstext.pdf?__blob=publicationFile&v=1",
+  "sha256": "ba23d519acb28b4dbc9b3e2a52e58f4fed20102ae8a8cdd5b257605c9fa50e85",
+  "bytes": 374860
+ },
+ {
+  "name": "bgbl1-293-pdf",
+  "url": "https://www.recht.bund.de/bgbl/1/2026/293/regelungstext.pdf?__blob=publicationFile&v=1",
+  "fetchedAt": "2026-10-21T17:46:03.075783Z",
+  "status": 200,
+  "contentType": "application/pdf",
+  "finalUrl": "https://www.recht.bund.de/bgbl/1/2026/293/regelungstext.pdf?__blob=publicationFile&v=1",
+  "sha256": "ab60a3e09a2fdbccb762dbf34b1ea3959b15cfe336fefa8007da4fd77bda9e4d",
+  "bytes": 264917
+ },
+ {
+  "name": "bgbl1-294-pdf",
+  "url": "https://www.recht.bund.de/bgbl/1/2026/294/regelungstext.pdf?__blob=publicationFile&v=1",
+  "fetchedAt": "2026-10-21T17:46:03.316408Z",
+  "status": 200,
+  "contentType": "application/pdf",
+  "finalUrl": "https://www.recht.bund.de/bgbl/1/2026/294/regelungstext.pdf?__blob=publicationFile&v=1",
+  "sha256": "adce1d20b31749e294475bfeba860d617ceeb2eafbbe9fd90fec55ecda06723c",
+  "bytes": 269786
+ },
+ {
+  "name": "bgbl1-298-pdf",
+  "url": "https://www.recht.bund.de/bgbl/1/2026/298/regelungstext.pdf?__blob=publicationFile&v=1",
+  "fetchedAt": "2026-10-21T17:46:03.558180Z",
+  "status": 200,
+  "contentType": "application/pdf;charset=UTF-8",
+  "finalUrl": "https://www.recht.bund.de/bgbl/1/2026/298/regelungstext.pdf?__blob=publicationFile&v=1",
+  "sha256": "2a615fa8a7d2cd9ef4634888766630eecb5f311bf61089edfaf506b09d0f35d1",
+  "bytes": 258202
+ },
+ {
+  "name": "bgbl1-299-pdf",
+  "url": "https://www.recht.bund.de/bgbl/1/2026/299/regelungstext.pdf?__blob=publicationFile&v=1",
+  "fetchedAt": "2026-10-21T17:46:03.806868Z",
+  "status": 200,
+  "contentType": "application/pdf;charset=UTF-8",
+  "finalUrl": "https://www.recht.bund.de/bgbl/1/2026/299/regelungstext.pdf?__blob=publicationFile&v=1",
+  "sha256": "2d4437aaf1c86d1ea5eb744d9e3abd9d1bf318c5acacc071cffdb3aa7bc358a7",
+  "bytes": 257479
+ },
+ {
+  "name": "bgbl1-300-pdf",
+  "url": "https://www.recht.bund.de/bgbl/1/2026/300/regelungstext.pdf?__blob=publicationFile&v=1",
+  "fetchedAt": "2026-10-21T17:46:04.043244Z",
+  "status": 200,
+  "contentType": "application/pdf;charset=UTF-8",
+  "finalUrl": "https://www.recht.bund.de/bgbl/1/2026/300/regelungstext.pdf?__blob=publicationFile&v=1",
+  "sha256": "c129a5429b0baf57724d8dd3f25710af52e1b6d92072c20c8c174c353468b837",
+  "bytes": 570551
+ },
+ {
+  "name": "bgbl1-301-pdf",
+  "url": "https://www.recht.bund.de/bgbl/1/2026/301/regelungstext.pdf?__blob=publicationFile&v=1",
+  "fetchedAt": "2026-10-21T17:46:04.345048Z",
+  "status": 200,
+  "contentType": "application/pdf;charset=UTF-8",
+  "finalUrl": "https://www.recht.bund.de/bgbl/1/2026/301/regelungstext.pdf?__blob=publicationFile&v=1",
+  "sha256": "85883922c8b57584f726c48bb0a391bbfd63d696f4b43dd8fbd43ea886e2a7da",
+  "bytes": 261772
+ },
+ {
+  "name": "bgbl1-302-pdf",
+  "url": "https://www.recht.bund.de/bgbl/1/2026/302/regelungstext.pdf?__blob=publicationFile&v=1",
+  "fetchedAt": "2026-10-21T17:46:04.577591Z",
+  "status": 200,
+  "contentType": "application/pdf;charset=UTF-8",
+  "finalUrl": "https://www.recht.bund.de/bgbl/1/2026/302/regelungstext.pdf?__blob=publicationFile&v=1",
+  "sha256": "a6677f053d6b61613f50791ee6e19dd4cf25bb2103e9a0f620628e80ef685663",
+  "bytes": 254299
+ },
+ {
+  "name": "bgbl1-303-pdf",
+  "url": "https://www.recht.bund.de/bgbl/1/2026/303/regelungstext.pdf?__blob=publicationFile&v=1",
+  "fetchedAt": "2026-10-21T17:46:04.813347Z",
+  "status": 200,
+  "contentType": "application/pdf;charset=UTF-8",
+  "finalUrl": "https://www.recht.bund.de/bgbl/1/2026/303/regelungstext.pdf?__blob=publicationFile&v=1",
+  "sha256": "3aa0255b8f78e62700a5d9406c03d954f9302161b84e256798e165f20b8d45cb",
+  "bytes": 255419
+ },
+ {
+  "name": "bgbl1-304-pdf",
+  "url": "https://www.recht.bund.de/bgbl/1/2026/304/regelungstext.pdf?__blob=publicationFile&v=1",
+  "fetchedAt": "2026-10-21T17:46:05.071802Z",
+  "status": 200,
+  "contentType": "application/pdf",
+  "finalUrl": "https://www.recht.bund.de/bgbl/1/2026/304/regelungstext.pdf?__blob=publicationFile&v=1",
+  "sha256": "438548acb9dd5094d06ab20c94807d340183ddef44ef3beb5372a48aa7d38bec",
+  "bytes": 601560
+ },
+ {
+  "name": "bgbl1-305-pdf",
+  "url": "https://www.recht.bund.de/bgbl/1/2026/305/regelungstext.pdf?__blob=publicationFile&v=1",
+  "fetchedAt": "2026-10-21T17:46:05.392612Z",
+  "status": 200,
+  "contentType": "application/pdf;charset=UTF-8",
+  "finalUrl": "https://www.recht.bund.de/bgbl/1/2026/305/regelungstext.pdf?__blob=publicationFile&v=1",
+  "sha256": "02bc6cb5a7ca8dffd91e4897674494bb3b0f68964c20bb53946f7adaa3a345b1",
+  "bytes": 291177
+ },
+ {
+  "name": "bgbl1-306-pdf",
+  "url": "https://www.recht.bund.de/bgbl/1/2026/306/regelungstext.pdf?__blob=publicationFile&v=1",
+  "fetchedAt": "2026-10-21T17:46:05.626035Z",
+  "status": 200,
+  "contentType": "application/pdf",
+  "finalUrl": "https://www.recht.bund.de/bgbl/1/2026/306/regelungstext.pdf?__blob=publicationFile&v=1",
+  "sha256": "89558e583720a658178afeb53c3296bbd012394c8d71098675896f6912ee3e38",
+  "bytes": 253829
+ },
+ {
+  "name": "bgbl1-307-pdf",
+  "url": "https://www.recht.bund.de/bgbl/1/2026/307/regelungstext.pdf?__blob=publicationFile&v=1",
+  "fetchedAt": "2026-10-21T17:46:05.856788Z",
+  "status": 200,
+  "contentType": "application/pdf",
+  "finalUrl": "https://www.recht.bund.de/bgbl/1/2026/307/regelungstext.pdf?__blob=publicationFile&v=1",
+  "sha256": "642a1e25430be2056ec61d188327605235303fdfe19ab4a628b5288774853769",
+  "bytes": 269377
+ },
+ {
+  "name": "bgbl1-308-pdf",
+  "url": "https://www.recht.bund.de/bgbl/1/2026/308/regelungstext.pdf?__blob=publicationFile&v=1",
+  "fetchedAt": "2026-10-21T17:46:06.098537Z",
+  "status": 200,
+  "contentType": "application/pdf;charset=UTF-8",
+  "finalUrl": "https://www.recht.bund.de/bgbl/1/2026/308/regelungstext.pdf?__blob=publicationFile&v=1",
+  "sha256": "2a9966019cfe5c364b0697389b60ef4676a2691dd24188c258c9b9f8cba437f8",
+  "bytes": 313331
+ },
+ {
+  "name": "bgbl1-309-pdf",
+  "url": "https://www.recht.bund.de/bgbl/1/2026/309/regelungstext.pdf?__blob=publicationFile&v=1",
+  "fetchedAt": "2026-10-21T17:46:06.344177Z",
+  "status": 200,
+  "contentType": "application/pdf;charset=UTF-8",
+  "finalUrl": "https://www.recht.bund.de/bgbl/1/2026/309/regelungstext.pdf?__blob=publicationFile&v=1",
+  "sha256": "2281a3bfbecf41222c993ae5879a5f08fa7d51a866b645da0c25783b7e497bea",
+  "bytes": 265997
+ },
+ {
+  "name": "bgbl1-310-pdf",
+  "url": "https://www.recht.bund.de/bgbl/1/2026/310/regelungstext.pdf?__blob=publicationFile&v=1",
+  "fetchedAt": "2026-10-21T17:46:06.582150Z",
+  "status": 200,
+  "contentType": "application/pdf;charset=UTF-8",
+  "finalUrl": "https://www.recht.bund.de/bgbl/1/2026/310/regelungstext.pdf?__blob=publicationFile&v=1",
+  "sha256": "caec2c0b7b74f45c4bab94580bfd38af30347d03cb6b6c2980a00c278da76b0a",
+  "bytes": 333595
+ },
+ {
+  "name": "bgbl1-311-pdf",
+  "url": "https://www.recht.bund.de/bgbl/1/2026/311/regelungstext.pdf?__blob=publicationFile&v=1",
+  "fetchedAt": "2026-10-21T17:46:06.835146Z",
+  "status": 200,
+  "contentType": "application/pdf;charset=UTF-8",
+  "finalUrl": "https://www.recht.bund.de/bgbl/1/2026/311/regelungstext.pdf?__blob=publicationFile&v=1",
+  "sha256": "4c7d74bfd7feb1fa209c8e3e872827ff830e6a6b1ecdf4f05c8a04f2893aa061",
+  "bytes": 354205
+ },
+ {
+  "name": "bgbl1-312-pdf",
+  "url": "https://www.recht.bund.de/bgbl/1/2026/312/regelungstext.pdf?__blob=publicationFile&v=1",
+  "fetchedAt": "2026-10-21T17:46:07.092176Z",
+  "status": 200,
+  "contentType": "application/pdf;charset=UTF-8",
+  "finalUrl": "https://www.recht.bund.de/bgbl/1/2026/312/regelungstext.pdf?__blob=publicationFile&v=1",
+  "sha256": "af5915e8aa028b9f12dd5906d81e968d72575122a19c54988524c43a73521028",
+  "bytes": 293832
+ },
+ {
+  "name": "bgbl1-313-pdf",
+  "url": "https://www.recht.bund.de/bgbl/1/2026/313/regelungstext.pdf?__blob=publicationFile&v=1",
+  "fetchedAt": "2026-10-21T17:46:07.326110Z",
+  "status": 200,
+  "contentType": "application/pdf;charset=UTF-8",
+  "finalUrl": "https://www.recht.bund.de/bgbl/1/2026/313/regelungstext.pdf?__blob=publicationFile&v=1",
+  "sha256": "c16f335ad19477023f6058739263cf3bb3c82544c41bf40cb4d889ceabb9ce78",
+  "bytes": 260108
+ },
+ {
+  "name": "inttestv-10",
+  "url": "https://www.gesetze-im-internet.de/inttestv/__10.html",
+  "fetchedAt": "2026-10-21T17:46:46.849855Z",
+  "status": 200,
+  "contentType": "text/html",
+  "finalUrl": "https://www.gesetze-im-internet.de/inttestv/__10.html",
+  "sha256": "27e98a3b976f1afa5051eba403aff94da4388745ea30c6755979dee353a28954",
+  "bytes": 4667
+ },
+ {
+  "name": "vollstrpauschv",
+  "url": "https://www.gesetze-im-internet.de/vollstrpauschv/__1.html",
+  "fetchedAt": "2026-10-21T17:46:47.015895Z",
+  "status": 404,
+  "contentType": "text/html; charset=iso-8859-1",
+  "finalUrl": "https://www.gesetze-im-internet.de/vollstrpauschv/__1.html",
+  "error": "HTTP Error 404: Not Found",
+  "sha256": "9448f8a1159c9b14e3e1b9d8eab1a6ddf88d26e1f888a34cef430c756e4e6e1e",
+  "bytes": 236
+ },
+ {
+  "name": "awv-74",
+  "url": "https://www.gesetze-im-internet.de/awv_2013/__74.html",
+  "fetchedAt": "2026-10-21T17:48:28.664111Z",
+  "status": 200,
+  "contentType": "text/html",
+  "finalUrl": "https://www.gesetze-im-internet.de/awv_2013/__74.html",
+  "sha256": "54d7fd313298cb50262491fb39d14729e821176b3c52fb9793ff09f4c21bcd0b",
+  "bytes": 9153
+ },
+ {
+  "name": "br-447-26",
+  "url": "https://www.bundesrat.de/SharedDocs/drucksachen/2026/0401-0500/447-26.pdf?__blob=publicationFile&v=1",
+  "fetchedAt": "2026-10-21T17:49:00.037904Z",
+  "status": 200,
+  "contentType": "application/pdf",
+  "finalUrl": "https://www.bundesrat.de/SharedDocs/drucksachen/2026/0401-0500/447-26.pdf?__blob=publicationFile&v=1",
+  "sha256": "6d8bc8dd5747ec47bc9119af8f0524139fc207aaa084e241124dd5d3f5209004",
+  "bytes": 8456284
+ },
+ {
+  "name": "bt-jstg-hearing",
+  "url": "https://www.bundestag.de/ausschuesse/a07_finanzen/wp21_a07_Anhoerungen/1225280-1225280",
+  "fetchedAt": "2026-10-21T17:49:34.981238Z",
+  "status": 200,
+  "contentType": "text/html;charset=UTF-8",
+  "finalUrl": "https://www.bundestag.de/ausschuesse/a07_finanzen/wp21_a07_Anhoerungen/1225280-1225280",
+  "sha256": "976c43e5b055b9cb1ae7eea77d1ba5eb9397635b888d5a1deb3b26d0e72fa51f",
+  "bytes": 255261
+ },
+ {
+  "name": "ao-238",
+  "url": "https://www.gesetze-im-internet.de/ao_1977/__238.html",
+  "fetchedAt": "2026-10-21T17:51:24.728392Z",
+  "status": 200,
+  "contentType": "text/html",
+  "finalUrl": "https://www.gesetze-im-internet.de/ao_1977/__238.html",
+  "sha256": "a01c57661b3b357fee9aafae008e3aad69382f5a23b6d48d8160978867326597",
+  "bytes": 5249
+ },
+ {
+  "name": "estg-32",
+  "url": "https://www.gesetze-im-internet.de/estg/__32.html",
+  "fetchedAt": "2026-10-21T17:51:24.901877Z",
+  "status": 200,
+  "contentType": "text/html",
+  "finalUrl": "https://www.gesetze-im-internet.de/estg/__32.html",
+  "sha256": "66809398dc53e36cad2580edd67f9aba0d2f1955c8182c96d488d4817eb4d458",
+  "bytes": 15977
+ },
+ {
+  "name": "estg-67",
+  "url": "https://www.gesetze-im-internet.de/estg/__67.html",
+  "fetchedAt": "2026-10-21T17:51:25.028027Z",
+  "status": 200,
+  "contentType": "text/html",
+  "finalUrl": "https://www.gesetze-im-internet.de/estg/__67.html",
+  "sha256": "e54858de4e7d77f702302aed49aac192a91944f0331040af83f2388dd0f9c256",
+  "bytes": 4702
+ },
+ {
+  "name": "breg-shipping",
+  "url": "https://www.bundesregierung.de/breg-de/aktuelles/klimafreundliche-schifffahrt-2457038",
+  "fetchedAt": "2026-10-21T17:51:25.154501Z",
+  "status": 200,
+  "contentType": "text/html;charset=UTF-8",
+  "finalUrl": "https://www.bundesregierung.de/breg-de/aktuelles/klimafreundliche-schifffahrt-2457038",
+  "sha256": "02775e7962fb263e4c864aafdc19b31611f1367c539a6acb66ca05155923d404",
+  "bytes": 122266
+ },
+ {
+  "name": "kab61-results",
+  "url": "https://www.bundesregierung.de/breg-de/bundesregierung/bundeskanzleramt/kabinettssitzungen/bundeskabinett-ergebnisse-2455982",
+  "rendered": true,
+  "note": "Rendered with npm run data:render as discovery evidence; not archived as server bytes."
+ },
+ {
+  "name": "kab-index",
+  "url": "https://www.bundesregierung.de/breg-de/bundesregierung/bundeskanzleramt/kabinettssitzungen",
+  "rendered": true,
+  "note": "Rendered with npm run data:render as discovery evidence; not archived as server bytes."
+ },
+ {
+  "name": "kab62-results",
+  "url": "https://www.bundesregierung.de/breg-de/aktuelles/bundeskabinett-ergebnisse-2456684",
+  "rendered": true,
+  "note": "Rendered with npm run data:render as discovery evidence; not archived as server bytes."
+ },
+ {
+  "name": "breg-aktuelles",
+  "url": "https://www.bundesregierung.de/breg-de/aktuelles",
+  "rendered": true,
+  "note": "Rendered with npm run data:render as discovery evidence; not archived as server bytes."
+ },
+ {
+  "name": "bt-textarchiv-2026",
+  "url": "https://www.bundestag.de/dokumente/textarchiv/2026",
+  "rendered": true,
+  "note": "Rendered with npm run data:render as discovery evidence; not archived as server bytes."
+ },
+ {
+  "name": "bmg-search",
+  "url": "https://www.bundesgesundheitsministerium.de/suche-pressemitteilungen",
+  "rendered": true,
+  "note": "Rendered with npm run data:render as discovery evidence; not archived as server bytes."
+ }
+]

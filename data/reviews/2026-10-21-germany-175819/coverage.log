@@ -1,0 +1,160 @@
+{
+  "checkedAt": "2026-10-21T18:01:15.435Z",
+  "scope": "DE",
+  "channels": 9,
+  "incompleteChannels": 9,
+  "gaps": [
+    {
+      "sourceUrl": "https://www.bundesregierung.de/breg-de/suche/gesetzliche-neuregelungen-442800",
+      "region": "DE",
+      "title": "联邦政府每月新规索引",
+      "windowStart": "2026-10-14",
+      "windowEnd": "2026-10-20",
+      "missingDays": [
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17",
+        "2026-10-18",
+        "2026-10-19",
+        "2026-10-20"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.recht.bund.de/de/home/home_node.html",
+      "region": "DE",
+      "title": "联邦法律公报",
+      "windowStart": "2026-10-14",
+      "windowEnd": "2026-10-20",
+      "missingDays": [
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17",
+        "2026-10-18",
+        "2026-10-19",
+        "2026-10-20"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.bundestag.de/dokumente/parlamentsdokumentation",
+      "region": "DE",
+      "title": "联邦议会文件与立法进程",
+      "windowStart": "2026-10-14",
+      "windowEnd": "2026-10-20",
+      "missingDays": [
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17",
+        "2026-10-18",
+        "2026-10-19",
+        "2026-10-20"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.bundestag.de/dokumente/textarchiv",
+      "region": "DE",
+      "title": "联邦议会审议与表决新闻档案",
+      "windowStart": "2026-10-14",
+      "windowEnd": "2026-10-20",
+      "missingDays": [
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17",
+        "2026-10-18",
+        "2026-10-19",
+        "2026-10-20"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.bundesregierung.de/breg-de/bundesregierung/kabinettsthemen",
+      "region": "DE",
+      "title": "联邦内阁议题与决定",
+      "windowStart": "2026-10-14",
+      "windowEnd": "2026-10-20",
+      "missingDays": [
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17",
+        "2026-10-18",
+        "2026-10-19",
+        "2026-10-20"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.bundesrat.de/DE/plenum/plenum-node.html",
+      "region": "DE",
+      "title": "联邦参议院全体会议",
+      "windowStart": "2026-10-14",
+      "windowEnd": "2026-10-20",
+      "missingDays": [
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17",
+        "2026-10-18",
+        "2026-10-19",
+        "2026-10-20"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.bmas.de/DE/Service/Presse/Pressemitteilungen/pressemitteilungen.html",
+      "region": "DE",
+      "title": "德国劳动与社会事务部：新闻公告",
+      "windowStart": "2026-10-14",
+      "windowEnd": "2026-10-20",
+      "missingDays": [
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17",
+        "2026-10-18",
+        "2026-10-19",
+        "2026-10-20"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.bundesgesundheitsministerium.de/suche-pressemitteilungen",
+      "region": "DE",
+      "title": "德国卫生部：新闻公告",
+      "windowStart": "2026-10-14",
+      "windowEnd": "2026-10-20",
+      "missingDays": [
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17",
+        "2026-10-18",
+        "2026-10-19",
+        "2026-10-20"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.bundesfinanzministerium.de/Web/DE/Service/Gesetze_Gesetzesvorhaben/Gesetze_Gesetzgebungsvorhaben.html",
+      "region": "DE",
+      "title": "德国财政部：法律与法案目录",
+      "windowStart": "2026-10-14",
+      "windowEnd": "2026-10-20",
+      "missingDays": [
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17",
+        "2026-10-18",
+        "2026-10-19",
+        "2026-10-20"
+      ],
+      "latestScan": "partial"
+    }
+  ]
+}

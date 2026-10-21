@@ -62,6 +62,18 @@
           "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw42-de-pflegeversicherung-1223626",
           "title": "Bundestag berät Anträge zur Pflegeversicherung",
           "appliesFromExport": "2026-10-11T00:41:18.747Z"
+        },
+        {
+          "region": "DE",
+          "url": "https://www.bundesregierung.de/breg-de/aktuelles/bundeskabinett-ergebnisse-2456684#top1-08",
+          "title": "Entwurf eines Gesetzes zur Neuordnung der Pflegeversicherung (Pflegeneuordnungsgesetz); hier: Nachreichung der Stellungnahme des Nationalen Normenkontrollrates",
+          "appliesFromExport": "2026-10-21T17:58:19.854Z"
+        },
+        {
+          "region": "DE",
+          "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw45-de-pflegeneuordnungsgesetz-1225076",
+          "title": "Pflegeneuordnungsgesetz",
+          "appliesFromExport": "2026-10-21T17:58:19.854Z"
         }
       ],
       "appliesFromExport": "2026-10-10T15:05:47.913Z"
@@ -2592,6 +2604,11 @@
           "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw39-de-tabaksteuergesetz-1211308",
           "title": "Tabaksteuer soll vier Jahre lang regelmäßig erhöht werden",
           "appliesFromExport": "2026-10-10T16:37:38.169Z"
+        },
+        {
+          "region": "DE",
+          "officialId": "BGBl. 2026 I Nr. 309",
+          "appliesFromExport": "2026-10-21T17:58:19.854Z"
         }
       ],
       "appliesFromExport": "2026-10-10T15:05:47.913Z"
@@ -5154,6 +5171,88 @@
         }
       ],
       "appliesFromExport": "2026-10-20T21:02:08.810Z"
+    },
+    {
+      "id": "de-oil-reserve-release-2026",
+      "title": [
+        "德国释放战略石油储备",
+        "Germany: release of strategic oil reserves"
+      ],
+      "basis": "Bundesrat document 583/26 is the draft Seventh Oil Reserve Release Regulation (7. ErdölFrV); BGBl. 2026 I No. 312 publishes the regulation with the same title, signed on 16 October after Bundesrat consent. Each record keeps its own stage.",
+      "documents": [
+        {
+          "region": "DE",
+          "officialId": "BR-Drs. 583/26"
+        },
+        {
+          "region": "DE",
+          "officialId": "BGBl. 2026 I Nr. 312"
+        }
+      ],
+      "appliesFromExport": "2026-10-21T17:58:19.854Z"
+    },
+    {
+      "id": "de-annual-tax-act-2026",
+      "title": [
+        "德国2026年度税法草案",
+        "Germany: 2026 Annual Tax Act bill"
+      ],
+      "basis": "The 62nd cabinet meeting results (14 October) list two formulation aids for coalition amendments to the draft Annual Tax Act 2026 (Entwurf eines Jahressteuergesetzes 2026), the bill printed as Bundestag document 21/8283. The amendments’ content is not public; they are steps of the same bill, not adopted text.",
+      "explanations": [
+        "de-annual-tax-act-2026"
+      ],
+      "documents": [
+        {
+          "region": "DE",
+          "url": "https://www.bundesregierung.de/breg-de/aktuelles/bundeskabinett-ergebnisse-2456684#top1-09",
+          "title": "Entwurf eines Jahressteuergesetzes 2026; hier: Entwurf einer Formulierungshilfe für einen Änderungsantrag der Fraktionen der CDU/CSU und der SPD"
+        },
+        {
+          "region": "DE",
+          "url": "https://www.bundesregierung.de/breg-de/aktuelles/bundeskabinett-ergebnisse-2456684#top1-10",
+          "title": "Entwurf eines Jahressteuergesetzes 2026; hier: Entwurf einer Formulierungshilfe für einen Änderungsantrag der Fraktionen der CDU/CSU und der SPD (Anpassung des Postgesetzes)"
+        }
+      ],
+      "appliesFromExport": "2026-10-21T17:58:19.854Z"
+    },
+    {
+      "id": "de-foreign-trade-regulation-23",
+      "title": [
+        "对外经济条例第23次修订",
+        "Foreign Trade Regulation, 23rd amendment"
+      ],
+      "basis": "The cabinet approved the draft Twenty-third Regulation amending the Foreign Trade Regulation on 14 October; BGBl. 2026 I No. 300 publishes that regulation, signed the same day.",
+      "documents": [
+        {
+          "region": "DE",
+          "url": "https://www.bundesregierung.de/breg-de/aktuelles/bundeskabinett-ergebnisse-2456684#top1-06",
+          "title": "Entwurf einer Dreiundzwanzigsten Verordnung zur Änderung der Außenwirtschaftsverordnung"
+        },
+        {
+          "region": "DE",
+          "officialId": "BGBl. 2026 I Nr. 300"
+        }
+      ],
+      "appliesFromExport": "2026-10-21T17:58:19.854Z"
+    },
+    {
+      "id": "de-care-structure-commission-2026",
+      "title": [
+        "德国护理结构委员会",
+        "Germany: care structure commission"
+      ],
+      "basis": "The Health Ministry press release announces the commission set up by the cabinet; the 62nd cabinet meeting results list the government decision to set up the Pflegestrukturkommission on the same day.",
+      "explanations": [
+        "de-care-structure-commission-2026"
+      ],
+      "documents": [
+        {
+          "region": "DE",
+          "url": "https://www.bundesregierung.de/breg-de/aktuelles/bundeskabinett-ergebnisse-2456684#top1-07",
+          "title": "Entwurf eines Beschlusses der Bundesregierung zur Einsetzung einer Pflegestrukturkommission"
+        }
+      ],
+      "appliesFromExport": "2026-10-21T17:58:19.854Z"
     }
   ]
 }

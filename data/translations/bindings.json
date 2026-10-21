@@ -3239,8 +3239,8 @@
       ]
     },
     "eu-epr-authorised-representative-suspension": {
-      "version": 1,
-      "hash": "7b7d76833c98abfe4a2c8f3e39aa2e082f60a99120cb1651979825e1079918b3",
+      "version": 2,
+      "hash": "b466257abcf239f59f5ad5b33fb5c7c82e7095351c6476f546a3f8ad52f1ffe1",
       "originalLanguage": "en",
       "verbatim": [
         "European Parliament – Legislative Observatory",
@@ -3248,8 +3248,8 @@
       ]
     },
     "eu-epr-waste-directives-suspension": {
-      "version": 1,
-      "hash": "cf7703b2dc6b6f1bf6a914307f3488b32604e609eee65717d17c1470bc641074",
+      "version": 2,
+      "hash": "b73de60845025a09c4e9ba4ad58b6a275b623042f1b0486ba3f58e2cc0cd8955",
       "originalLanguage": "en",
       "verbatim": [
         "European Parliament – Legislative Observatory",
@@ -3354,8 +3354,8 @@
       ]
     },
     "eu-erasmus-plus-2028-2034": {
-      "version": 1,
-      "hash": "56ec623557f06fb595c6fd39d30e6f25b13103a6f7720cae8af5d3a3192e542d",
+      "version": 2,
+      "hash": "a3683bb8f13c15d7d8b17e60601b3dcc04146e0621b254d96b4c52575f5a0576",
       "originalLanguage": "en",
       "verbatim": [
         "European Parliament – Legislative Observatory",
@@ -7296,6 +7296,12 @@
       "version": 1,
       "hash": "acc5173780d853f8667d9144ff1a61719e135f1398b37b674b3e8a4922ceb5c7",
       "originalLanguage": "de",
+      "verbatim": []
+    },
+    "eu-passenger-rights-enforcement-2026": {
+      "version": 1,
+      "hash": "ec7f122032df0d9ffc283d6730fb9d63c75c165254a58987dd745357b43cf0ed",
+      "originalLanguage": "en",
       "verbatim": []
     }
   },
@@ -45350,6 +45356,18 @@
       "hash": "3f9bdf4d120c8766a47797b8cf3688a39368579d5361c3ddae6096c30a3f2d29",
       "verbatim": [],
       "originalLanguage": "de",
+      "titleIsOriginal": true
+    },
+    "ep-20261019-passenger-rights-enforcement": {
+      "hash": "97d5e5eab182986179d8af36b321435676651b72e337189f7298ad0d1c66c144",
+      "verbatim": [],
+      "originalLanguage": "en",
+      "titleIsOriginal": true
+    },
+    "esma-20261020-ptrr": {
+      "hash": "c0dbdf503d84b6ff3069f15ac622340709260aee9d4122431e3cceb3d4332199",
+      "verbatim": [],
+      "originalLanguage": "en",
       "titleIsOriginal": true
     }
   }

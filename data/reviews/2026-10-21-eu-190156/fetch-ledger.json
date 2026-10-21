@@ -1,0 +1,178 @@
+[
+ {
+  "name": "ep-press",
+  "url": "https://www.europarl.europa.eu/news/en/press-room",
+  "fetchedAt": "2026-10-21T18:55:57.209294Z",
+  "status": 200,
+  "contentType": "text/html;charset=UTF-8",
+  "finalUrl": "https://www.europarl.europa.eu/news/en",
+  "sha256": "d91b2d1302461c9ee4f0080307910403fb53641f6e6ad0b2b54639e23d3e1d72",
+  "bytes": 209718
+ },
+ {
+  "name": "ep-plenary",
+  "url": "https://www.europarl.europa.eu/news/en/agenda/briefing/2026-10-19",
+  "fetchedAt": "2026-10-21T18:55:57.473015Z",
+  "status": 200,
+  "contentType": "text/html;charset=UTF-8",
+  "finalUrl": "https://www.europarl.europa.eu/news/en/agenda/plenary-news/2026-10-19",
+  "sha256": "2b54129f46801bbcde280d0fc55c41965c2aa1b58a849b70272f1af3eecd12c4",
+  "bytes": 125228
+ },
+ {
+  "name": "taxud",
+  "url": "https://taxation-customs.ec.europa.eu/news_en",
+  "fetchedAt": "2026-10-21T18:55:57.736717Z",
+  "status": 200,
+  "contentType": "text/html; charset=utf-8",
+  "finalUrl": "https://taxation-customs.ec.europa.eu/news_en",
+  "sha256": "976fb6706e954f0d749ea3f5ef1b8d698370d258ebdea5921b9e51b0f2aec02e",
+  "bytes": 123541
+ },
+ {
+  "name": "esma",
+  "url": "https://www.esma.europa.eu/press-news/esma-news",
+  "fetchedAt": "2026-10-21T18:55:57.930665Z",
+  "status": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "finalUrl": "https://www.esma.europa.eu/press-news/esma-news",
+  "sha256": "c827a4e30eca1865b6324df22570a483c8c3d0ffdcf26baa00a77bc7968448eb",
+  "bytes": 96904
+ },
+ {
+  "name": "ep-pr-passenger",
+  "url": "https://www.europarl.europa.eu/news/en/agenda/plenary-news/2026-10-19/6/better-enforcement-of-passenger-rights-in-the-eu",
+  "fetchedAt": "2026-10-21T18:56:44.021927Z",
+  "status": 200,
+  "contentType": "text/html;charset=UTF-8",
+  "finalUrl": "https://www.europarl.europa.eu/news/en/agenda/plenary-news/2026-10-19/6/better-enforcement-of-passenger-rights-in-the-eu",
+  "sha256": "f06b0a1ad89334f1e02cd85b2f88ad34438c00d26e202ed9b449593b91b9b612",
+  "bytes": 100244
+ },
+ {
+  "name": "ep-ta-1020",
+  "url": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-10-20_EN.html",
+  "fetchedAt": "2026-10-21T18:56:44.199870Z",
+  "status": 202,
+  "contentType": "text/html; charset=UTF-8",
+  "finalUrl": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-10-20_EN.html",
+  "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "bytes": 0
+ },
+ {
+  "name": "ep-ta-1021",
+  "url": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-10-21_EN.html",
+  "fetchedAt": "2026-10-21T18:56:44.298333Z",
+  "status": 202,
+  "contentType": "text/html; charset=UTF-8",
+  "finalUrl": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-10-21_EN.html",
+  "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "bytes": 0
+ },
+ {
+  "name": "oeil-0437",
+  "url": "https://oeil.europarl.europa.eu/oeil/en/procedure-file/pdf?reference=2023%2F0437%28COD%29",
+  "fetchedAt": "2026-10-21T18:57:02.638076Z",
+  "status": 200,
+  "contentType": "application/pdf",
+  "finalUrl": "https://oeil.europarl.europa.eu/oeil/en/procedure-file/pdf?reference=2023%2F0437%28COD%29",
+  "sha256": "97b26525c8a405b01369f02f0f4a1d68bddfec6d93aeba3d297b53fc2fc8aa03",
+  "bytes": 138080
+ },
+ {
+  "name": "c6694",
+  "url": "https://ec.europa.eu/transparency/documents-register/detail?ref=C(2026)6694&lang=en",
+  "fetchedAt": "2026-10-21T18:57:44.581076Z",
+  "status": 200,
+  "contentType": "text/html",
+  "finalUrl": "https://ec.europa.eu/transparency/documents-register/detail?ref=C(2026)6694&lang=en",
+  "sha256": "1c83592f2aba74d725b4377aa8bb21ce487bcc12a4cbdf6de3d0efdd2d495a5f",
+  "bytes": 55040
+ },
+ {
+  "name": "taxud-p2",
+  "url": "https://taxation-customs.ec.europa.eu/news_en?page=0",
+  "fetchedAt": "2026-10-21T18:57:44.823780Z",
+  "status": 200,
+  "contentType": "text/html; charset=utf-8",
+  "finalUrl": "https://taxation-customs.ec.europa.eu/news_en?page=0",
+  "sha256": "71b1f8cc7f7c6d9bce5103dc7335c9c70421d1a9b8680c05c3f3afa1d989efc5",
+  "bytes": 123824
+ },
+ {
+  "name": "oj-19102026",
+  "url": "https://eur-lex.europa.eu/oj/daily-view/L-series/default.html?ojDate=19102026",
+  "fetchedAt": "2026-10-21T18:58:14.420917Z",
+  "status": 202,
+  "contentType": "text/html; charset=UTF-8",
+  "finalUrl": "https://eur-lex.europa.eu/oj/daily-view/L-series/default.html?ojDate=19102026",
+  "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "bytes": 0
+ },
+ {
+  "name": "oj-20102026",
+  "url": "https://eur-lex.europa.eu/oj/daily-view/L-series/default.html?ojDate=20102026",
+  "fetchedAt": "2026-10-21T18:58:14.524919Z",
+  "status": 202,
+  "contentType": "text/html; charset=UTF-8",
+  "finalUrl": "https://eur-lex.europa.eu/oj/daily-view/L-series/default.html?ojDate=20102026",
+  "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "bytes": 0
+ },
+ {
+  "name": "oj-21102026",
+  "url": "https://eur-lex.europa.eu/oj/daily-view/L-series/default.html?ojDate=21102026",
+  "fetchedAt": "2026-10-21T18:58:14.624796Z",
+  "status": 202,
+  "contentType": "text/html; charset=UTF-8",
+  "finalUrl": "https://eur-lex.europa.eu/oj/daily-view/L-series/default.html?ojDate=21102026",
+  "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "bytes": 0
+ },
+ {
+  "name": "oeil-0395",
+  "url": "https://oeil.europarl.europa.eu/oeil/en/procedure-file/pdf?reference=2025%2F0395%28COD%29",
+  "fetchedAt": "2026-10-21T18:59:52.417361Z",
+  "status": 200,
+  "contentType": "application/pdf",
+  "finalUrl": "https://oeil.europarl.europa.eu/oeil/en/procedure-file/pdf?reference=2025%2F0395%28COD%29",
+  "sha256": "ac20efc31055c47b484acd90f997e49e5f548f9a2732a3844db9fdde3ee86356",
+  "bytes": 90754
+ },
+ {
+  "name": "oeil-0396",
+  "url": "https://oeil.europarl.europa.eu/oeil/en/procedure-file/pdf?reference=2025%2F0396%28COD%29",
+  "fetchedAt": "2026-10-21T18:59:52.959310Z",
+  "status": 200,
+  "contentType": "application/pdf",
+  "finalUrl": "https://oeil.europarl.europa.eu/oeil/en/procedure-file/pdf?reference=2025%2F0396%28COD%29",
+  "sha256": "e26dfd713deaee48f5b96cedb410e3e16aa46cf91ee2c6476d2b4ccbe687c856",
+  "bytes": 103521
+ },
+ {
+  "name": "oeil-0222",
+  "url": "https://oeil.europarl.europa.eu/oeil/en/procedure-file/pdf?reference=2025%2F0222%28COD%29",
+  "fetchedAt": "2026-10-21T18:59:53.508929Z",
+  "status": 200,
+  "contentType": "application/pdf",
+  "finalUrl": "https://oeil.europarl.europa.eu/oeil/en/procedure-file/pdf?reference=2025%2F0222%28COD%29",
+  "sha256": "d65959315fdb0381e64c7364bb0cd008d268bd93f2a096fbae7f9c679bc93b6b",
+  "bytes": 232320
+ },
+ {
+  "name": "sparql-oj",
+  "url": "https://publications.europa.eu/webapi/rdf/sparql",
+  "note": "Public SPARQL query listing Official Journal acts published 16-21 October; result not archived as evidence."
+ },
+ {
+  "name": "ep-press-rendered",
+  "url": "https://www.europarl.europa.eu/news/en/press-room",
+  "rendered": true
+ },
+ {
+  "name": "c6694-rendered",
+  "url": "https://ec.europa.eu/transparency/documents-register/detail?ref=C(2026)6694&lang=en",
+  "rendered": true,
+  "note": "Rendered page showed only the site shell."
+ }
+]

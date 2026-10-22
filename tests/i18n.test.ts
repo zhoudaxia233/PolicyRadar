@@ -89,6 +89,20 @@ test('translated search matches all languages while category identities and coun
   assert.equal(filtered.count,selectListing(data.policies,data.intake.records,readFilters('?view=all&tag=租房')).count);
  }
 });
+test('tags stay reachable without a chip list: a tag in either language finds every matter carrying it',()=>{
+ const index=new Map([...data.policies,...data.intake.records].map(p=>[p.id,searchText(p,l)]));const text=(p:{id:string})=>index.get(p.id)??'';
+ const tagged=data.policies.filter(p=>p.region.startsWith('DE')&&p.tags?.includes('加密资产')).map(p=>p.id);
+ assert(tagged.length>0);
+ for(const locale of ['zh','en'] as const){
+  const query=contentText('加密资产',locale,l.messages);
+  const found=selectListing(data.policies,data.intake.records,{...readFilters('?view=all&country=DE'),query},text).cards.flatMap(c=>[c.policy,...c.members??[]].map(p=>p.id));
+  for(const id of tagged)assert(found.includes(id),locale+' '+id);
+ }
+ // A detail-page tag link is a ?tag= filter.
+ const linked=selectListing(data.policies,data.intake.records,readFilters('?view=all&country=DE&tag=加密资产'));
+ assert.deepEqual(linked.cards.flatMap(c=>[c.policy,...c.members??[]]).filter(p=>p.tags?.includes('加密资产')).map(p=>p.id).sort(),tagged.sort());
+});
+
 test('canonical lifecycle decisions remain independent of translated next-step wording',()=>{
  const original=data.policies.find(p=>p.id==='de-fuel-relief-2026')!;
  assert.equal(lifecycle(original,'2027-01-02'),'已通过 · 期限已到，后续待核实');

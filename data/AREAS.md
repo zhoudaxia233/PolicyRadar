@@ -5,6 +5,16 @@ matters in 16 fixed policy areas. Each explanation belongs to exactly one area,
 so a matter counts once. Areas are presentation metadata: they never change a
 policy's `topic`, `tags`, legal stage or any other recorded fact.
 
+The area menu in the list's filter bar is the only category filter on the list.
+Policy `tags` stay multi-valued and cross areas (for example crypto assets in
+both tax and finance); they are reached from a policy's detail page and through
+search, not from a list of chips.
+
+In the UI an area is 领域 / Area and a tag is 标签 / Tag. Do not call either
+主题 or Topic: in the code "topic" already means a policy's `topic` label and
+the grouped matters in `data/topics.json`, and reusing it made the Chinese and
+English labels point at different things.
+
 The vocabulary (IDs, Chinese and English names, short column labels) is fixed in
 `lib/domain/areas.ts`. Do not add, rename or merge areas during a data update;
 that is a product decision for the owner.
@@ -54,8 +64,8 @@ After every intake update that adds or changes explanations:
    that repeats the default, or names a policy that does not exist, stops the build.
 3. Explanations grouped as one matter in `data/topics.json` must share one area;
    the build rejects a split.
-4. Run `npm test`. `tests/areas.test.ts` checks that every bar and heatmap cell
-   equals the list count its click produces.
+4. Run `npm test`. `tests/areas.test.ts` checks that every bar, heatmap cell
+   and area menu option equals the list count its click produces.
 
 A matter explained in several regions (for example two states running the same
 pilot) counts once in the country's bars and once in each of those regions'

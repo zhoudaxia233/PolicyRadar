@@ -17,6 +17,9 @@ export function AreaChart({locale,country,region,area,regions,totals,byRegion,on
  const tr=translator(locale),i=locale==='zh'?0:1;
  const [open,setOpen]=useState(()=>{try{return localStorage.getItem('areaPanel')!=='closed';}catch{return true;}});
  const toggle=(next:boolean)=>{setOpen(next);try{if(next)localStorage.removeItem('areaPanel');else localStorage.setItem('areaPanel','closed');}catch{}};
+ // The region heatmap starts folded so the list reaches the first screen; a reader who opens it keeps it open.
+ const [heatOpen,setHeatOpen]=useState(()=>{try{return localStorage.getItem('areaHeat')==='open';}catch{return false;}});
+ const toggleHeat=(next:boolean)=>{setHeatOpen(next);try{if(next)localStorage.setItem('areaHeat','open');else localStorage.removeItem('areaHeat');}catch{}};
  const bars=areas.map(a=>({...a,n:totals.get(a.id)??0})).filter(a=>a.n>0).sort((a,b)=>b.n-a.n);
  const max=Math.max(1,...bars.map(a=>a.n));
  const place=region==='all'?countryName(country,locale):regionName(region,locale);
@@ -40,8 +43,8 @@ export function AreaChart({locale,country,region,area,regions,totals,byRegion,on
      <b>{a.n}</b>
     </button>)}
    </div>:<p className="area-empty">{tr('当前列表没有已解读的事项。')}</p>}
-   {showHeat&&<div className="area-heat-block">
-    <h3>{tr('各地区对比')}</h3>
+   {showHeat&&<details className="area-heat-block" open={heatOpen} onToggle={e=>toggleHeat(e.currentTarget.open)}>
+    <summary><h3>{tr('各地区对比')}</h3></summary>
     <table className="area-heat">
      <thead><tr>
       <th scope="col"><span className="sr-only">{tr('地区')}</span></th>
@@ -67,7 +70,7 @@ export function AreaChart({locale,country,region,area,regions,totals,byRegion,on
       </tr>;
      })}</tbody>
     </table>
-   </div>}
+   </details>}
   </details>
  </section>;
 }

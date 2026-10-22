@@ -1,7 +1,7 @@
 'use client';
 import {PolicyStatusNote} from './policy-status-note';
 import { useCallback, useDeferredValue, useEffect, useMemo, useState, useRef, type ReactNode } from 'react';
-import { Radar, LayoutDashboard, Clock3, Activity, Database, Search, ChevronRight, ChevronDown, ExternalLink, Download, RefreshCw, MapPin, CalendarDays, FileText, X, ShieldCheck, AlertCircle, Layers, Sun, Moon, Monitor } from 'lucide-react';
+import { Radar, LayoutDashboard, Clock3, Activity, Database, Search, ChevronRight, ChevronDown, ExternalLink, Download, RefreshCw, MapPin, CalendarDays, FileText, X, ShieldCheck, AlertCircle, Layers, LayoutGrid, Sun, Moon, Monitor } from 'lucide-react';
 import { regions, countries, detailLabels, countryOf, keyDate, progressDate, berlinToday, isUpcoming, policyTags, lifecycle, nextStepLabel, type Policy } from '../lib/domain/model';
 import { trackingStart, type IntakeRecord, type coverageRows } from '../lib/domain/intake';
 import {type Topic, type RecordGroup, groupRecords} from '../lib/domain/topics';
@@ -205,7 +205,6 @@ export default function Home() {
     setArea('all');
   };
   const scoped = useMemo(() => items.filter(p => countryOf(p.region) === country), [items, country]);
-  const records = intake.records.filter(r => countryOf(r.region) === country);
   const countryInfo = countries.find(c => c.id === country) ?? countries[0];
   const countryRegions = regions.filter(r => countryOf(r.id) === country);
   // Fade the region list's clipped edge so it reads as scrollable even where scrollbars are hidden.
@@ -242,13 +241,14 @@ export default function Home() {
     if (el && el.getBoundingClientRect().top > window.innerHeight * 0.5) el.scrollIntoView({ behavior: matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth', block: 'start' });
   });
   const { policies: visible, raw: visibleRaw, progress: newRecords } = listing;
-  const tagOptions = [...new Set([...scoped.flatMap(policyTags), ...records.flatMap(policyTags), ...tags])].sort((a, b) => ct(a).localeCompare(ct(b), languageTags[locale]));
   // Each count is computed once per filter change; the sidebar and region menu share the same result.
   const viewCounts = useMemo(() => new Map(['intake', 'adopted', 'pending', 'all'].map(target => [target, selectListing(items, intake.records, { ...filters, view: target }, matchText, today, topics, dispositions, areaOf).count])), [items, intake.records, filters, matchText, today, topics, dispositions, areaOf]);
   const viewCount = (target: string) => viewCounts.get(target);
   const upcoming = scoped.filter(p => p.nextDate && p.nextDate >= today).sort((a, b) => a.nextDate!.localeCompare(b.nextDate!));
   const regionCounts = useMemo(() => new Map(['all', ...regions.filter(r => countryOf(r.id) === filters.country).map(r => r.id)].map(id => [id, selectListing(items, intake.records, { ...filters, region: id, view: filters.view === 'sources' ? 'all' : filters.view }, matchText, today, topics, dispositions, areaOf).count])), [items, intake.records, filters, matchText, today, topics, dispositions, areaOf]);
   const regionCount = (id: string) => regionCounts.get(id) ?? 0;
+  // Like the region menu, each area option shows the list count that choosing it produces.
+  const areaCounts = useMemo(() => new Map(areas.map(a => [a.id, selectListing(items, intake.records, { ...filters, area: a.id, view: filters.view === 'sources' ? 'all' : filters.view }, matchText, today, topics, dispositions, areaOf).count])), [items, intake.records, filters, matchText, today, topics, dispositions, areaOf]);
   const sourceCounts = useMemo(() => new Map(['all', ...regions.filter(r => countryOf(r.id) === country).map(r => r.id)].map(id => [id, selectListing(items, intake.records, { view: 'all', country, region: id, query: '', tags: [] }, undefined, today, topics, dispositions).count])), [items, intake.records, country, today, topics, dispositions]);
   const sourceCount = (id: string) => sourceCounts.get(id) ?? 0;
   const pickRegion = (id: string) => {
@@ -794,28 +794,31 @@ export default function Home() {
                     })}
                   </select>
                 </label>
+                <label className="select-label area-select">
+                  <LayoutGrid size={15} />
+                  <select
+                    aria-label={tr("领域")}
+                    value={area}
+                    onChange={e => setArea(e.target.value)}>
+                    <option value="all">
+                      {tr("全部领域")}
+                    </option>
+                    {areas.map(a => <option value={a.id} key={a.id}>
+                      {a.title[locale === 'zh' ? 0 : 1]}
+                      {' (' + tr('{0} 项匹配', [areaCounts.get(a.id) ?? 0]) + ')'}
+                    </option>)}
+                  </select>
+                </label>
               </div>
-              <div
-                className="tag-chips"
-                role="group"
-                aria-label={tr("类别标签，可多选，匹配任一标签")}>
-                {tagOptions.map(t => <button
-                  key={t}
-                  aria-pressed={tags.includes(t)}
-                  onClick={() => toggleTag(t)}>
+              {/* Tags are set from a policy's detail page or a shared link; each can be removed here. */}
+              {tags.length > 0 && <p className="active-tags">
+                {tr('标签：')}
+                {tags.map(t => <button key={t} aria-label={tr('移除标签：{0}', [ct(t)])} onClick={() => toggleTag(t)}>
                   {ct(t)}
-                </button>)}
-              </div>
-              {area !== 'all' && <p className="active-area">
-                {tr('主题：')}
-                <button aria-label={tr('清除主题筛选')} onClick={() => setArea('all')}>
-                  {areas.find(a => a.id === area)?.title[locale === 'zh' ? 0 : 1]}
                   <X size={13} />
-                </button>
+                </button>)}
+                {tags.length > 1 && <span>{tr('匹配任一标签')}</span>}
               </p>}
-              <p className="filter-summary">
-                {tags.length ? tr("已选：{0} · 多选匹配任一标签", [tags.map(ct).join(locale === 'zh' ? '、' : ', ')]) : tr("类别可多选，匹配任一标签")}
-              </p>
             </div>
 
             <div className="list-meta">
@@ -865,7 +868,7 @@ export default function Home() {
                   {tr("没有匹配的政策")}
                 </h3>
                 <p>
-                  {tr("试试其他关键词，或调整标签与地区。")}
+                  {tr("试试其他关键词，或调整领域、标签与地区。")}
                 </p>
                 <button className="quiet-button" onClick={clearFilters}>
                   {tr("清除筛选")}

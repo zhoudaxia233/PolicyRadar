@@ -80,7 +80,8 @@ test('every bar and heatmap cell equals the list count its click produces',()=>{
  for(const country of countries.map(c=>c.id))for(const view of ['adopted','pending','all']){
   const base='?view='+view+'&country='+country;
   const {total,byRegion}=areaBreakdown(list(base).cards,areaOf);
-  for(const [area,n] of total)assert.equal(list(base,{area}).count,n,`${country} ${view} ${area}`);
+  // The area menu offers all 16 areas: an option the chart leaves out (no matters) gives an empty list.
+  for(const area of areaIds)assert.equal(list(base,{area}).count,total.get(area)??0,`${country} ${view} ${area}`);
   for(const [region,row] of byRegion){
    assert(regions.some(r=>r.id===region)&&countryOf(region)===country,region);
    for(const [area,n] of row)assert.equal(list(base,{area,region}).count,n,`${country} ${view} ${region} ${area}`);
@@ -98,6 +99,17 @@ test('every bar and heatmap cell equals the list count its click produces',()=>{
 });
 
 test('area labels and chart text are translated',()=>{
- for(const key of ['{0}在推进什么','各地区对比','主题：','清除主题筛选'] as const)assert(messages[key].trim());
+ for(const key of ['{0}在推进什么','各地区对比','领域','全部领域','标签：','移除标签：{0}','匹配任一标签'] as const)assert(messages[key].trim());
  for(const a of areas)assert.notEqual(a.title[0],a.title[1]);
+});
+
+test('areas are 领域 / Area and tags 标签 / Tag in both languages, never topics',()=>{
+ // "Topic" already names grouped matters; the old filters called areas 主题 in Chinese and tags Topics in English.
+ assert.match(messages['领域'],/^Area$/);
+ assert.match(messages['标签：'],/^Tags?: $/);
+ for(const [zh,en] of Object.entries(messages)){
+  assert.doesNotMatch(zh,/主题/,zh);
+  assert.doesNotMatch(en,/\btopics?\b/i,zh);
+  if(zh.includes('领域'))assert.match(en,/\barea/i,zh);
+ }
 });

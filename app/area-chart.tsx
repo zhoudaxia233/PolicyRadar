@@ -31,7 +31,7 @@ export function AreaChart({locale,country,region,area,regions,totals,byRegion,aw
    <summary>
     <span className="area-heading">
      <strong>{tr('{0}在推进什么',[place])}</strong>
-     <small>{tr('按主题统计当前列表中已解读的事项，点击主题即可筛选。')}</small>
+     <small>{tr('按领域统计当前列表中已解读的事项，点击领域即可筛选。')}</small>
     </span>
    </summary>
    {bars.length?<div className="area-bars" role="group" aria-label={tr('{0}在推进什么',[place])}>

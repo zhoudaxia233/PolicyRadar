@@ -2,7 +2,7 @@ import {useState} from 'react';
 import {explainsRecord} from '../lib/domain/listing.ts';
 import {type RecordGroup} from '../lib/domain/topics.ts';
 import {type IntakeRecord} from '../lib/domain/intake';
-import {policyTags,type Policy} from '../lib/domain/model';
+import {type Policy} from '../lib/domain/model';
 import {translator,languageTags,formatDate,regionName,type Locale} from '../lib/i18n/index';
 import {contentText,type Localization} from '../lib/i18n/content';
 
@@ -17,11 +17,11 @@ function RecordContent({record:r,nested=false,policies,open,locale,localization,
   {locale!=='zh'&&localization.intake[r.id]!=='current'&&<p className="translation-note">{tr('当前语言的解读待补充或更新，暂显示已有解读。')}</p>}
   {localization.originalIntakeTitles[r.id]&&r.titleZh&&r.titleZh!==r.title&&<p className="original-title" lang={r.originalLanguage??localization.sourceLanguages[r.id]??'und'}>{r.title}</p>}
   {r.officialId&&r.officialId!==r.title&&!/^https?:/.test(r.officialId)&&<p className="document-id">{r.officialId}</p>}
-  <div className="policy-tags">{policyTags(r).map(t=><span key={t}>{contentText(t,locale,localization.messages)}</span>)}</div>
+  {!!r.tags?.length&&<div className="policy-tags">{r.tags.map(t=><span key={t}>{contentText(t,locale,localization.messages)}</span>)}</div>}
   <p>{r.note}</p>
   <p className="intake-date">{r.dateKind==='adopted'?tr('通过日期'):r.dateKind==='announced'?tr('公告发布日期'):tr('正式公布日期')}{formatDate(r.date,locale)}{r.effectiveDate&&tr(' · 本次改动开始生效：')+formatDate(r.effectiveDate,locale)}</p>
-  {linked?<button className="quiet-button" onClick={()=>open(linked)}>{tr('查看政策解读')}</button>:dismissal?<small className="dismissal">{tr('已审阅，无需单独解读：')}<span lang={languageTags[locale]}>{dismissal[locale==='zh'?0:1]}</span></small>:<small>{tr('完整政策解读待补充 · 原始记录已保留')}</small>}
-  <a className="intake-source" href={r.url} target="_blank" rel="noreferrer">{tr('打开原始文件（新标签页）')}</a>
+  {linked?<button className="quiet-button" onClick={()=>open(linked)}>{tr('查看政策解读')}</button>:dismissal?<small className="dismissal">{tr('已审阅，无需单独解读：')}<span lang={languageTags[locale]}>{dismissal[locale==='zh'?0:1]}</span></small>:null}
+  <a className="intake-source" href={r.url} target="_blank" rel="noreferrer">{tr('打开原始文件')} ↗</a>
  </>;
 }
 
@@ -29,7 +29,6 @@ export function TopicDocuments({group,...context}:Context&{group:RecordGroup}){
  const tr=translator(context.locale);
  return <details className="topic-documents" key={group.records.map(r=>r.id).join('|')}>
   <summary>{tr('查看 {0} 条匹配的文件与进展',[group.records.length])}</summary>
-  <p className="topic-explanation">{tr('以下是同一事项的不同文件或进展。标签表示各记录当时的阶段，不是多个当前状态；归组不代表整项政策已通过或生效。')}</p>
   <ol>{group.records.map(record=><li className="topic-document" key={record.id}><RecordContent {...context} record={record} nested /></li>)}</ol>
  </details>;
 }

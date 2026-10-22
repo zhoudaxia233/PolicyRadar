@@ -103,6 +103,16 @@ test('tags stay reachable without a chip list: a tag in either language finds ev
  assert.deepEqual(linked.cards.flatMap(c=>[c.policy,...c.members??[]]).filter(p=>p.tags?.includes('加密资产')).map(p=>p.id).sort(),tagged.sort());
 });
 
+test('UI text leaves explaining to the layout: no click, expand or new-tab hints',()=>{
+ // Chevrons, toggles and link icons already show what a control does; see AGENTS.md.
+ for(const [zh,en] of Object.entries(messages)){
+  assert.doesNotMatch(zh,/点击|展开查看/,zh);
+  assert.doesNotMatch(en,/\bclick\b|\(expand\)/i,zh);
+  // Screen readers still hear that a link opens a new tab; visible text does not repeat it.
+  if(/新标签页/.test(zh))assert.match(zh,/^（新标签页）$/,zh);
+ }
+});
+
 test('canonical lifecycle decisions remain independent of translated next-step wording',()=>{
  const original=data.policies.find(p=>p.id==='de-fuel-relief-2026')!;
  assert.equal(lifecycle(original,'2027-01-02'),'已通过 · 期限已到，后续待核实');

@@ -25,5 +25,11 @@
   metadata, not a factual review or a statement that the whole matter is in force.
 - Maintain regression coverage for positive grouping, false-positive separation,
   child search/filter behavior, multilingual labels and consistent counts.
+- Let the layout explain the UI. Add no subtitle, prefix, caption, slogan or
+  hint that restates what headings, grouping, position, icons, counts or
+  controls already show, and no "click to", "expand" or visible "new tab" text.
+  Keep text only for facts the layout cannot show: a record's stage at the
+  time, the kind of date, a coverage gap, an explanation not yet translated,
+  or that an empty list does not mean no policy change.
 - Follow `data/UPDATE.md` for data updates and existing authorization boundaries
   for commits, pushes, merges and publication.

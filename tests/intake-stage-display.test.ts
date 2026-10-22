@@ -26,7 +26,6 @@ test('CARF historical pending and adopted records have explicitly record-scoped 
   assert.equal(html.split(prefix).length-1,group.records.length);
   assert(html.includes(prefix+(locale==='zh'?'待决':'Pending')));
   assert(html.includes(prefix+(locale==='zh'?'已确认通过或公布':'Adoption or publication confirmed')));
-  assert(html.includes(locale==='zh'?'不是多个当前状态':'not multiple current statuses'));
   for(const record of group.records)assert(html.includes(record.url.replaceAll('&','&amp;')));
  }
  assert.equal(JSON.stringify(group),before);

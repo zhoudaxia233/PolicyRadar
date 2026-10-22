@@ -99,14 +99,14 @@ test('every bar and heatmap cell equals the list count its click produces',()=>{
 });
 
 test('area labels and chart text are translated',()=>{
- for(const key of ['{0}在推进什么','各地区对比','领域','全部领域','标签：','移除标签：{0}','匹配任一标签'] as const)assert(messages[key].trim());
+ for(const key of ['{0}在推进什么','各地区对比','领域','全部领域','移除标签：{0}'] as const)assert(messages[key].trim());
  for(const a of areas)assert.notEqual(a.title[0],a.title[1]);
 });
 
 test('areas are 领域 / Area and tags 标签 / Tag in both languages, never topics',()=>{
  // "Topic" already names grouped matters; the old filters called areas 主题 in Chinese and tags Topics in English.
  assert.match(messages['领域'],/^Area$/);
- assert.match(messages['标签：'],/^Tags?: $/);
+ assert.match(messages['移除标签：{0}'],/\btag\b/i);
  for(const [zh,en] of Object.entries(messages)){
   assert.doesNotMatch(zh,/主题/,zh);
   assert.doesNotMatch(en,/\btopics?\b/i,zh);

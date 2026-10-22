@@ -1,7 +1,7 @@
 'use client';
 import {PolicyStatusNote} from './policy-status-note';
 import { useCallback, useDeferredValue, useEffect, useMemo, useState, useRef, type ReactNode } from 'react';
-import { Radar, LayoutDashboard, Clock3, Activity, Database, Search, ChevronRight, ChevronDown, ExternalLink, Download, RefreshCw, MapPin, CalendarDays, FileText, X, ShieldCheck, AlertCircle, Layers, LayoutGrid, Sun, Moon, Monitor } from 'lucide-react';
+import { Radar, LayoutDashboard, Clock3, Activity, Database, Search, ChevronRight, ChevronDown, ExternalLink, Download, RefreshCw, MapPin, CalendarDays, FileText, X, AlertCircle, Layers, LayoutGrid, Sun, Moon, Monitor } from 'lucide-react';
 import { regions, countries, detailLabels, countryOf, keyDate, progressDate, berlinToday, isUpcoming, policyTags, lifecycle, nextStepLabel, type Policy } from '../lib/domain/model';
 import { trackingStart, type IntakeRecord, type coverageRows } from '../lib/domain/intake';
 import {type Topic, type RecordGroup, groupRecords} from '../lib/domain/topics';
@@ -64,13 +64,13 @@ export default function Home() {
     }
   };
   const tone = (p: Policy, today: string) => p.phase !== 'adopted' ? 'amber' : !p.effectiveDate || p.effectiveDate > today ? 'blue' : 'green';
-  const headings: Record<string, [string, string]> = {
-    intake: [tr("官方进展记录"), tr("同一事项的文件与进展集中展示，展开查看每份原文；从 2026 年 1 月 1 日起登记。")],
-    adopted: [tr("看清已经发生的改变"), tr("从通过到生效，追踪政策最终改了什么、何时影响生活。")],
-    pending: [tr("还在推进中的改变"), tr("跟进提案、审议与表决，保留尚未确定的部分。")],
-    all: [tr("全部政策"), tr("已通过、待决议题及尚未解读的官方记录一起查看；待核实记录会单独标明。")],
-    updates: [tr("每一步，都有记录"), tr("未来安排与已发生事件分开列出；未来安排不代表结果。")],
-    sources: [tr("来源与更新"), tr("查看覆盖范围、原文检查结果和事实核实记录。")]
+  const headings: Record<string, string> = {
+    intake: tr("官方进展记录"),
+    adopted: tr("看清已经发生的改变"),
+    pending: tr("还在推进中的改变"),
+    all: tr("全部政策"),
+    updates: tr("每一步，都有记录"),
+    sources: tr("来源与更新")
   };
 
   const [topics,setTopics]=useState<Topic[]>([]),[dispositions,setDispositions]=useState<Disposition[]>([]);
@@ -288,7 +288,7 @@ export default function Home() {
     { id: 'all', label: tr("全部政策"), short: tr("全部"), icon: Layers, count: viewCount('all') },
     { id: 'updates', label: tr("政策时间线"), short: tr("时间线"), icon: Activity },
     { id: 'sources', label: tr("来源与更新"), short: tr("来源"), icon: Database }];
-  const [title, subtitle] = headings[view] ?? headings.adopted;
+  const title = headings[view] ?? headings.adopted;
   const cardDate = (p: Policy) => {
     const k = keyDate(p, today);
     return <div className={'card-date ' + k.kind}>
@@ -344,10 +344,7 @@ export default function Home() {
           <FileText size={14} />
           {p.sources.length === 1 ? tr('1 个官方来源') : tr('{0} 个官方来源', [p.sources.length])}
         </span>
-        <span className="card-detail-action">
-          {tr("查看详情")}
-          <ChevronRight size={14} />
-        </span>
+        <ChevronRight size={14} className="card-detail-action" />
       </div>
     </div>
   </button>
@@ -372,9 +369,6 @@ export default function Home() {
         <h2 lang={languageTags[locale]}>
           {group.title?.[locale === 'zh' ? 0 : 1]}
         </h2>
-        <p className="matter-note">
-          {tr('本事项有 {0} 篇政策解读，分别对应不同版本或进展：', [group.policyIds.length])}
-        </p>
         <ul className="matter-explanations">
           {group.policyIds.map(id => items.find(p => p.id === id)).filter((p): p is Policy => !!p).map(p => <li key={p.id}>
             <button className={selected?.id === p.id ? 'current' : ''} onClick={() => open(p)}>
@@ -440,7 +434,6 @@ export default function Home() {
         </span>
         <span>
           {tr("政策雷达")}
-          <small>POLICY RADAR</small>
         </span>
       </a>
       <nav aria-label={tr("主导航")}>
@@ -461,9 +454,6 @@ export default function Home() {
           </b>}
         </button>)}
       </nav>
-      <p className="sidebar-count-note">
-        {tr("数字随筛选变化；同一事项计一次，原始文件全部保留。")}
-      </p>
       <div className="country-switch">
         <CompactSelect
           value={country}
@@ -493,15 +483,6 @@ export default function Home() {
             </b>
           </button>;
         })}
-      </div>
-      <div className="sidebar-bottom">
-        <ShieldCheck size={18} />
-        <div>
-          {tr("每项变化，都有出处")}
-          <small>
-            {tr("官方来源 · 政策解读")}
-          </small>
-        </div>
       </div>
     </aside>
 
@@ -548,7 +529,7 @@ export default function Home() {
           <button
             className="theme-button"
             onClick={nextTheme}
-            aria-label={tr("外观：") + themeLabel[theme] + tr("，点击切换")}
+            aria-label={tr("外观：") + themeLabel[theme]}
             title={tr("外观：") + themeLabel[theme]}>
             <ThemeIcon size={17} />
           </button>
@@ -564,9 +545,6 @@ export default function Home() {
             <h1>
               {title}
             </h1>
-            <p>
-              {subtitle}
-            </p>
           </div>
           {upcoming[0] && <button className="next-chip" onClick={() => open(upcoming[0])}>
             <span className="next-date">
@@ -576,9 +554,6 @@ export default function Home() {
               {upcoming[0].nextDate!.slice(8)}
             </span>
             <span>
-              <small>
-                {tr("下一个已知节点 · 不代表结果")}
-              </small>
               {upcoming[0].nextLabel}
             </span>
           </button>}
@@ -600,9 +575,6 @@ export default function Home() {
               <h2>
                 {tr("追踪状态")}
               </h2>
-              <p>
-                {tr("本页展示已发布的来源检查结果。")}
-              </p>
             </div>
             <button
               className="primary-button"
@@ -637,9 +609,6 @@ export default function Home() {
           <h2 className="checks-title">
             {tr("各地区的官方来源")}
           </h2>
-          <p className="source-instruction">
-            {tr("下列链接均打开官方原文。查看政策内容，请回到政策列表并按地区筛选。")}
-          </p>
           <div className="coverage-grid">
             {countryRegions.map(r => <div className="coverage-state" key={r.id}>
               <div className="coverage-state-heading">
@@ -696,9 +665,6 @@ export default function Home() {
                   aria-label={tr("打开官方原文：") + sourceTitle(d.title) + tr("（新标签页）")}>
                   {tr("打开官方原文")}
                   <ExternalLink size={12} />
-                  <span className="new-tab-hint">
-                    {tr("新标签页")}
-                  </span>
                 </a>
                 <small>
                   {status.checks.find(c => c.url === d.url)?.error ? tr("读取受限 · 待复核") : status.checks.some(c => c.url === d.url) ? tr("已检查原文") : tr("尚未检查原文")}
@@ -756,7 +722,6 @@ export default function Home() {
               regions={countryRegions.map(r => r.id)}
               totals={areaTotals}
               byRegion={areaRegions}
-              awaiting={areaListing.rawGroups.length}
               onArea={a => { setArea(a); showList(); }}
               onCell={(r, a) => { setRegion(r); setArea(a); showList(); }}
               onRegion={r => { setRegion(r); showList(); }} />}
@@ -789,7 +754,7 @@ export default function Home() {
                       const n = regionCount(r.id);
                       return <option value={r.id} key={r.id}>
                         {localName(r.id)}
-                        {' (' + tr('{0} 项匹配', [n]) + ')'}
+                        {' (' + n + ')'}
                       </option>;
                     })}
                   </select>
@@ -805,19 +770,17 @@ export default function Home() {
                     </option>
                     {areas.map(a => <option value={a.id} key={a.id}>
                       {a.title[locale === 'zh' ? 0 : 1]}
-                      {' (' + tr('{0} 项匹配', [areaCounts.get(a.id) ?? 0]) + ')'}
+                      {' (' + (areaCounts.get(a.id) ?? 0) + ')'}
                     </option>)}
                   </select>
                 </label>
               </div>
               {/* Tags are set from a policy's detail page or a shared link; each can be removed here. */}
               {tags.length > 0 && <p className="active-tags">
-                {tr('标签：')}
                 {tags.map(t => <button key={t} aria-label={tr('移除标签：{0}', [ct(t)])} onClick={() => toggleTag(t)}>
                   {ct(t)}
                   <X size={13} />
                 </button>)}
-                {tags.length > 1 && <span>{tr('匹配任一标签')}</span>}
               </p>}
             </div>
 
@@ -827,21 +790,11 @@ export default function Home() {
                   ? tr("{0} 个事项 · {1} 条官方记录", [listing.progressGroups.length,newRecords.length])
                   : view === 'updates'
                     ? tr("{0} 个时间线节点 · 涉及 {1} 个政策议题", [scheduled.length + happened.length, visible.length])
-                    : tr("{0} 个事项 · {1} 篇政策解读{2}", [
-                        listing.count,
-                        listing.explainedCount,
-                        visibleRaw.length ? tr(" · {0} 个待解读事项（{1} 条记录）", [listing.rawGroups.length,visibleRaw.length]) : ''
-                      ]) + (listing.reviewed.length ? tr(" · {0} 条记录已审阅、无需解读", [listing.reviewed.length]) : '')}
+                    : tr("{0} 个事项 · {1} 篇政策解读", [listing.count, listing.explainedCount])}
               </span>
               {filtering && <button onClick={clearFilters}>
                 {tr("清除筛选")}
               </button>}
-              <span className="tracking-note">
-                {tr("登记起点为 2026.01.01；各国实际核查范围请查看覆盖缺口。")}
-                <button onClick={() => go('sources')}>
-                  {tr("查看覆盖缺口")}
-                </button>
-              </span>
             </div>
 
             {view === 'intake' ? <IntakeView
@@ -867,16 +820,13 @@ export default function Home() {
                 <h3>
                   {tr("没有匹配的政策")}
                 </h3>
-                <p>
-                  {tr("试试其他关键词，或调整领域、标签与地区。")}
-                </p>
                 <button className="quiet-button" onClick={clearFilters}>
                   {tr("清除筛选")}
                 </button>
               </div> : view === 'updates' ? <div className="event-feed">
                 {scheduled.length > 0 && <>
                   <h3 className="feed-month future">
-                    {tr("未来安排 · 不代表结果")}
+                    {tr("未来安排")}
                   </h3>
                   {scheduled.map(feedRow)}
                 </>}
@@ -888,7 +838,7 @@ export default function Home() {
                   aria-expanded={rawOpen}
                   onClick={() => setRawOpen(!rawOpen)}>
                   <span>
-                    {tr('待解读事项 · {0} 项／{1} 条记录（点击展开）', [listing.rawGroups.length,visibleRaw.length])}
+                    {tr('待解读事项 · {0} 项／{1} 条记录', [listing.rawGroups.length,visibleRaw.length])}
                   </span>
                   <ChevronDown size={16} className={rawOpen ? 'flip' : ''} />
                 </button>
@@ -900,7 +850,7 @@ export default function Home() {
                   aria-expanded={reviewedOpen}
                   onClick={() => setReviewedOpen(!reviewedOpen)}>
                   <span>
-                    {tr('已审阅、无需解读 · {0} 条记录（点击展开）', [listing.reviewed.length])}
+                    {tr('已审阅、无需解读 · {0} 条记录', [listing.reviewed.length])}
                   </span>
                   <ChevronDown size={16} className={reviewedOpen ? 'flip' : ''} />
                 </button>
@@ -915,9 +865,6 @@ export default function Home() {
                 </div>
               </section>)}
             </>}
-            <p className="list-footnote">
-              {tr("官方进展记录不以是否完成解读为收录条件 · 历史资料逐步回补")}
-            </p>
           </section>
           <aside className="right-rail">
             <section className="milestones">
@@ -927,9 +874,6 @@ export default function Home() {
                   {tr("接下来关注")}
                 </h2>
               </div>
-              <p className="rail-subtitle">
-                {tr("已知安排，不代表结果")}
-              </p>
               {upcoming.slice(0, 5).map(p => <button
                 className="milestone"
                 key={p.id}
@@ -955,37 +899,8 @@ export default function Home() {
                 </div>
               </button>)}
             </section>
-            <section className="reading-note">
-              <span className="note-icon">
-                <ShieldCheck size={21} />
-              </span>
-              <h3>
-                {tr("通过，和生效之间")}
-              </h3>
-              <p>
-                {tr("内阁提出草案、议会完成表决、正式公布与开始实施，是不同的节点。这里逐项记录，不把计划当成结果。")}
-              </p>
-              <button onClick={() => go('sources')}>
-                {tr("查看来源与覆盖范围")}
-                <ChevronRight size={14} />
-              </button>
-            </section>
           </aside>
         </div>}
-
-        <footer>
-          <span>
-            {tr("政策雷达")}
-            <span className="footer-dot">·</span>
-
-            {tr("以原文为依据，保留不确定性")}
-          </span>
-          <span>
-            {cname}
-            /
-            {countries.find(c => c.id === country)?.en.toUpperCase()}
-          </span>
-        </footer>
       </main>
     </div>
 
@@ -1027,9 +942,6 @@ export default function Home() {
             messages={localization.messages}
             today={today}
           />
-          <p className="explanation-label">
-            {tr("政策解读 · 官方原文见下方来源")}
-          </p>
           <h2 id="detail-title" lang={explanationLang(selected)}>
             {selected.title}
           </h2>
@@ -1042,9 +954,9 @@ export default function Home() {
               <strong>
                 {tr(detailLabels(selected).date) + (selected.effectiveDate ? fmt(selected.effectiveDate) : "")}
               </strong>
-              <p lang={explanationLang(selected)}>
-                {selected.dateExplanation ?? tr("这里记录本次改动的开始生效日期；期限结束和后续步骤在下方时间线单独列出。")}
-              </p>
+              {selected.dateExplanation && <p lang={explanationLang(selected)}>
+                {selected.dateExplanation}
+              </p>}
               {selected.nextDate && <p>
                 {selected.nextLabel}
                 :
@@ -1186,15 +1098,12 @@ export default function Home() {
               setView('all');
               close();
             }}>
-              {tr('查看{0}政策', [ct(t)])}
+              {ct(t)}
             </button>)}
           </div>
           <details className="politics">
             <summary>
               {tr("谁提出的、如何表决")}
-              <span>
-                {tr("补充资料")}
-              </span>
             </summary>
             {selected.politics?.proposedBy ? <p>
               <strong>
@@ -1247,8 +1156,6 @@ export default function Home() {
             <span>
               {tr("事实核实：")}
               {fmt(selected.verifiedAt)}
-
-              {tr("· URL检查不自动更新此日期")}
             </span>
           </div>
         </div>

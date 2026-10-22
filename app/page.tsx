@@ -503,13 +503,14 @@ export default function Home() {
             options={countries.map(c => ({ value: c.id, label: flag(c.id) + ' ' + countryName(c.id), short: flag(c.id), accessibleLabel: countryName(c.id) }))} />
         </div>
         <div className="breadcrumb">
-          <span className="crumb-root">
-            {tr("观察站")}
-          </span>
-          <ChevronRight size={14} className="crumb-sep" />
-          <span className="crumb-country">
-            {cname}
-          </span>
+          <div className="crumb-country">
+            <CompactSelect
+              value={country}
+              label={tr("国家／地区")}
+              align="left"
+              onChange={pickCountry}
+              options={countries.map(c => ({ value: c.id, label: flag(c.id) + ' ' + countryName(c.id), accessibleLabel: countryName(c.id) }))} />
+          </div>
           <ChevronRight size={14} className="crumb-sep" />
           <span className="crumb-view">
             {nav.find(n => n.id === view)?.label}

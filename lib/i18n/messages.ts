@@ -98,7 +98,6 @@ export const messages = {
   "数字随筛选变化；官方进展按记录计数。": "Counts reflect filters; official developments are counted by record.",
   "各地区": " – regions",
   "每项变化，都有出处": "A source for every change",
-  "观察站": "Observatory",
   "国家": "Country",
   "导出数据": "Export data",
   "外观：": "Appearance: ",

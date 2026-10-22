@@ -348,7 +348,7 @@ dialog.drawer::backdrop{background:var(--backdrop)}
  .mobile-updated{display:flex;align-items:center;gap:8px;margin:-4px 0 10px;font-size:12px;color:var(--text-2);font-weight:600}
  .mobile-updated span{white-space:nowrap}
  .mobile-updated .updated-stamp{font-weight:400;min-height:24px}
- .crumb-root,.crumb-country,.crumb-view,.crumb-sep{display:none}
+ .crumb-country,.crumb-view,.crumb-sep{display:none}
  .top-actions .quiet-button span{display:none}
  main{padding:18px 16px}
  h1{font-size:22px}
@@ -419,10 +419,11 @@ dialog.drawer::backdrop{background:var(--backdrop)}
 }
 @media(max-width:380px){.mobile-brand{font-size:13px}.topbar{padding:0 10px}.top-actions{gap:4px}}
 .breadcrumb{overflow:visible;overflow-wrap:normal}
-.crumb-root,.crumb-country,.crumb-view{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
-.crumb-country{flex-shrink:0;color:var(--ink);font-weight:600}
+.crumb-view{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.crumb-country{flex-shrink:0}
+.crumb-country .compact-select summary{font-size:13px;letter-spacing:0;height:30px}
+.crumb-country .compact-options{font-size:14px;letter-spacing:0}
 .crumb-sep,.top-actions{flex-shrink:0}
-@media(max-width:1200px){.crumb-root,.crumb-root+.crumb-sep{display:none}}
 .detail-actions{display:flex;align-items:center;gap:10px;flex-shrink:0}
 .detail-top>span{min-width:0;overflow-wrap:anywhere}
 

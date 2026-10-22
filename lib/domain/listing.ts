@@ -22,8 +22,10 @@ function cachedSearch(searchText:(p:{id:string})=>string,topics:Topic[]){
 }
 
 // Lists and navigation counts share scope, matching and inclusion rules.
-export function selectListing(items:Policy[],records:IntakeRecord[],filters:ReturnType<typeof readFilters>,searchText?:(p:{id:string})=>string,today?:string,topics:Topic[]=[],dispositions:Disposition[]=[]){
- const {country,view,region,query,tags}=filters;
+// An area filter keeps explained matters of that area and the official records behind them;
+// records without an explanation have no reviewed area, so they leave the area-filtered list.
+export function selectListing(items:Policy[],records:IntakeRecord[],filters:Omit<ReturnType<typeof readFilters>,'area'>&{area?:string},searchText?:(p:{id:string})=>string,today?:string,topics:Topic[]=[],dispositions:Disposition[]=[],areaOf:Record<string,string>={}){
+ const {country,view,region,query,tags}=filters,area=filters.area&&filters.area!=='all'?filters.area:'';
  const scoped=items.filter(p=>countryOf(p.region)===country);
  const intake=records.filter(r=>countryOf(r.region)===country);
  // Same identity rule as explainsRecord, indexed so each render does not scan every policy per record.
@@ -38,13 +40,20 @@ export function selectListing(items:Policy[],records:IntakeRecord[],filters:Retu
  // Search text depends only on the search function and topic titles; reuse it across the many count calls of one render.
  const cache=searchText&&cachedSearch(searchText,topics);
  const recordSearch=cache?(r:{id:string})=>{let value=cache.get(r.id);if(value===undefined){value=text(r).toLocaleLowerCase();cache.set(r.id,value);}return value;}:text;
- const progress=selectIntake(intake,region,tags,query,recordSearch,!!cache);
+ const areaPolicies=area?scoped.filter(p=>areaOf[p.id]===area):scoped;
+ let areaIntake=intake;
+ if(area){
+  const keys=new Set(areaPolicies.map(p=>p.region+'\0'+p.officialId)),ids=new Set(areaPolicies.map(p=>p.id));
+  const grouped=new Set(topics.filter(t=>t.policyIds.some(id=>ids.has(id))).flatMap(t=>t.recordIds));
+  areaIntake=intake.filter(r=>keys.has(r.region+'\0'+(r.officialId??r.url))||grouped.has(r.id));
+ }
+ const progress=selectIntake(areaIntake,region,tags,query,recordSearch,!!cache);
  const progressIds=new Set(progress.map(r=>r.id));
  const matchingPolicyIds=new Set(topics.filter(t=>t.recordIds.some(id=>progressIds.has(id))).flatMap(t=>t.policyIds));
- const policyMatches=selectPolicies(scoped,view,region,'all','',tags,searchText,today).filter(p=>!query.trim()||matchingPolicyIds.has(p.id)||selectPolicies([p],view,region,'all',query,tags,searchText,today).length>0);
+ const policyMatches=selectPolicies(areaPolicies,view,region,'all','',tags,searchText,today).filter(p=>!query.trim()||matchingPolicyIds.has(p.id)||selectPolicies([p],view,region,'all',query,tags,searchText,today).length>0);
  const matchedPolicyIds=new Set(policyMatches.map(p=>p.id));
- const rawMatches=selectIntake(awaiting,region,tags,query,recordSearch,!!cache).filter(r=>view==='all'||r.stage===view);
- const reviewed=selectIntake(unexplained.filter(r=>dismissed.has(r.id)),region,tags,query,recordSearch,!!cache).filter(r=>view==='all'||r.stage===view);
+ const rawMatches=selectIntake(area?[]:awaiting,region,tags,query,recordSearch,!!cache).filter(r=>view==='all'||r.stage===view);
+ const reviewed=selectIntake(area?[]:unexplained.filter(r=>dismissed.has(r.id)),region,tags,query,recordSearch,!!cache).filter(r=>view==='all'||r.stage===view);
  const rawGroups=groupRecords(rawMatches,topics).filter(g=>!g.policyIds.some(id=>matchedPolicyIds.has(id)));
  const raw=rawGroups.flatMap(g=>g.records),progressGroups=groupRecords(progress,topics);
  const explainedGroups=topics.filter(t=>['all','adopted','pending'].includes(view)&&t.policyIds.length>1&&t.policyIds.some(id=>matchedPolicyIds.has(id))).flatMap(t=>{
@@ -59,11 +68,11 @@ export function selectListing(items:Policy[],records:IntakeRecord[],filters:Retu
  // card follows the matter's first open or adopted explanation: a closed version (e.g. a
  // rejected bill) must not label the whole matter as ended while another version is active.
  const leads=new Map(explainedGroups.map(g=>{const members=policyMatches.filter(p=>g.policyIds.includes(p.id));return [g,members.find(p=>p.phase!=='closed')??members[0]] as const;}));
- const cards:{policy:Policy;group?:RecordGroup}[]=[];
+ const cards:{policy:Policy;group?:RecordGroup;members?:Policy[]}[]=[];
  for(const policy of policyMatches){
   const group=explainedGroups.find(g=>g.policyIds.includes(policy.id));
   if(!group)cards.push({policy});
-  else if(leads.get(group)===policy)cards.push({policy,group});
+  else if(leads.get(group)===policy)cards.push({policy,group,members:policyMatches.filter(p=>group.policyIds.includes(p.id))});
  }
  const policyIds=new Set(policies.map(p=>p.id));
  const policyGroups=progressGroups.filter(g=>g.title&&g.policyIds.some(id=>policyIds.has(id)));

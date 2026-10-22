@@ -154,6 +154,14 @@ and run the grouping, filter/count and record-preservation regression tests.
 Records reviewed as needing no explanation go in `data/dispositions.json` under
 the rules in TOPICS.md; list those decisions in the review notes too.
 
+## Assign policy areas
+
+Every explanation needs one policy area for the "what is this country working
+on" overview. Follow [the area rules](AREAS.md): map each new `topic` label in
+`data/areas.json` and add a reviewed exception where a generic label does not
+fit the item. The build stops on an unmapped label; list new exceptions in the
+review notes.
+
 ## Save and validate
 
 ### Policy-question completeness gate

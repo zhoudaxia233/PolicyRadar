@@ -8,6 +8,7 @@ import {createHash} from 'node:crypto';
 import {createLocalization} from '../lib/i18n/build.ts';
 import {createStaticData,snapshotKey} from '../lib/static-data.ts';
 import {readExport} from '../lib/export-store.ts';
+import {splitSiteData} from '../lib/site-data.ts';
 
 const source=resolve(process.argv[2]||JSON.parse(await readFile('data/current-export.json','utf8')).path);
 const exported=readExport(source);
@@ -27,7 +28,14 @@ try {
   await writeFile(resolve(output,'index.html'),'<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="color-scheme" content="light dark"><title>Policy Radar</title><script>try{const t=localStorage.getItem(\'theme\');if(t===\'light\'||t===\'dark\')document.documentElement.dataset.theme=t}catch{}</script><link rel="icon" href="./favicon.svg"><link rel="stylesheet" href="./style.css?v='+cssVersion+'"></head><body><div id="root"></div><script type="module" src="./app.js?v='+jsVersion+'"></script></body></html>');
   await copyFile('public/favicon.svg',resolve(output,'favicon.svg'));
   await writeFile(resolve(output,'.nojekyll'),'');
-  await writeFile(resolve(output,'data.json'),JSON.stringify(data));
+  // One small shell plus one file per country: a reader downloads only the country they look at.
+  const site=splitSiteData(data);
+  await mkdir(resolve(output,'data'));
+  await writeFile(resolve(output,'data/shell.json'),JSON.stringify(site.shell));
+  for(const [country,files] of site.countries){
+    await writeFile(resolve(output,`data/${country}.json`),JSON.stringify(files.bundle));
+    await writeFile(resolve(output,`data/${country}.en.json`),JSON.stringify(files.messages));
+  }
   await writeFile(resolve(output,'policy-radar-export.json'),JSON.stringify(exported));
   // Evidence is linked from the repository archive (lib/archive-url.ts), not copied into the site.
   // Every link must resolve to committed bytes that still match their recorded hash.

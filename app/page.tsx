@@ -15,10 +15,13 @@ import { archiveUrl } from '../lib/archive-url';
 import { readNavigation, navigationSearch } from '../lib/domain/navigation';
 import { selectListing, countrySourceUrls, timelineEvents } from '../lib/domain/listing';
 import { translator, readLocale, localeSearch, languageTags, formatDate, formatTimestamp, originalRegionName, regionName, countryName as localizedCountryName, type Locale } from '../lib/i18n/index';
-import { contentText, localizePolicy, localizeIntake, searchText, emptyLocalization, type Localization } from '../lib/i18n/content';
+import { contentText, localizePolicy, localizeIntake, searchText, emptyLocalization, type ContentCatalog } from '../lib/i18n/content';
+import { mergeSiteData, type SiteShell, type CountryBundle } from '../lib/site-data';
 type IntakeData = { trackingStart: string; records: IntakeRecord[]; coverage: ReturnType<typeof coverageRows> };
-type CheckRow = { url: string; checked_at: string; last_success_at: string | null; error: string | null; changed: number; snapshot_key: string | null };
-type Status = { checks: CheckRow[]; settings: Record<string, string>; coverage: string[]; discovery: { region: string; title: string; url: string; publisher: string }[] };
+type Status = { checks: CountryBundle['checks']; settings: Record<string, string>; coverage: string[]; discovery: { region: string; title: string; url: string; publisher: string }[] };
+// Stable empties keep the memoised listings from recomputing while nothing has loaded.
+const noPolicies: Policy[] = [], noTopics: Topic[] = [], noDispositions: Disposition[] = [], noAreas: Record<string, string> = {};
+const noStatus: Status = { checks: [], settings: {}, coverage: [], discovery: [] }, noIntake: IntakeData = { trackingStart, records: [], coverage: [] };
 function sourceProblem(error:string){
   if(/HTTP 403|HTTP 401/.test(error))return '官方站点暂不接受自动读取';
   if(/HTTP 404/.test(error))return '原文地址暂时找不到，需核对新地址';
@@ -32,7 +35,10 @@ const flag = (id: string) => String.fromCodePoint(...[...id].map(ch => 0x1f1a5 +
 
 export default function Home() {
   const [locale, setLocale] = useState<Locale>(readLocale);
-  const [localization, setLocalization] = useState<Localization>(emptyLocalization);
+  // The shell is small and always loaded; each country's records arrive the first time it is shown.
+  const [shell, setShell] = useState<SiteShell | null>(null), [bundles, setBundles] = useState<Record<string, CountryBundle>>({}), [catalogs, setCatalogs] = useState<Record<string, ContentCatalog>>({});
+  const site = useMemo(() => shell ? mergeSiteData(shell, Object.values(bundles), Object.values(catalogs)) : null, [shell, bundles, catalogs]);
+  const localization = site?.localization ?? emptyLocalization;
   const tr = translator(locale);
   const ct = (text: string | undefined) => contentText(text, locale, localization.messages);
   const fmt = (v: string) => formatDate(v, locale);
@@ -73,13 +79,16 @@ export default function Home() {
     sources: tr("来源与更新")
   };
 
-  const [topics,setTopics]=useState<Topic[]>([]),[dispositions,setDispositions]=useState<Disposition[]>([]);
+  const topics = site?.topics ?? noTopics, dispositions = site?.dispositions ?? noDispositions;
   const dismissals=useMemo(()=>new Map(dispositions.flatMap(d=>d.recordIds.map(id=>[id,d.reason] as const))),[dispositions]);
-  const [canonicalItems, setItems] = useState<Policy[]>([]), [status, setStatus] = useState<Status>({ checks: [], settings: {}, coverage: [], discovery: [] }), [loading, setLoading] = useState(true), [error, setError] = useState('');
+  const canonicalItems = site?.policies ?? noPolicies, status: Status = site?.status ?? noStatus;
+  const [error, setError] = useState('');
   const [view, setView] = useState('adopted'), [region, setRegion] = useState('all'), [query, setQuery] = useState(''), [selectedId, setSelectedId] = useState<string | null>(null), [busy, setBusy] = useState(false), [rawOpen, setRawOpen] = useState(false), [reviewedOpen, setReviewedOpen] = useState(false);
-  const [canonicalIntake, setIntake] = useState<IntakeData>({ trackingStart, records: [], coverage: [] }), [tags, setTags] = useState<string[]>([]), [filtersReady, setFiltersReady] = useState(false);
-  const [area, setArea] = useState('all'), [areaOf, setAreaOf] = useState<Record<string, string>>({});
+  const canonicalIntake: IntakeData = site?.intake ?? noIntake;
+  const [tags, setTags] = useState<string[]>([]), [filtersReady, setFiltersReady] = useState(false);
+  const [area, setArea] = useState('all'), areaOf = site?.areas ?? noAreas;
   const [country, setCountry] = useState<string>(countries[0].id), [theme, setTheme] = useState<Theme>('system');
+  const loading = !site || !bundles[country] || (locale === 'en' && !catalogs[country]);
   const items = useMemo(() => canonicalItems.map(p => localizePolicy(p, locale, localization)), [canonicalItems, locale, localization]);
   const intake = useMemo(() => ({ ...canonicalIntake, records: canonicalIntake.records.map(r => localizeIntake(r, locale, localization)) }), [canonicalIntake, locale, localization]);
   const selected = items.find(p => p.id === selectedId) ?? null;
@@ -118,7 +127,7 @@ export default function Home() {
   const dialog = useRef<HTMLDialogElement>(null);
   const regionNav = useRef<HTMLDivElement>(null);
   const navigationMode = useRef<'push' | 'replace'>('replace');
-  const loadedPolicies = useRef<Policy[]>([]);
+  const loadedPolicies = useRef<SiteShell['policies']>([]);
   function restoreNavigation() {
     navigationMode.current = 'replace';
     setLocale(readLocale());
@@ -137,27 +146,47 @@ export default function Home() {
     const timer = setInterval(() => setToday(berlinToday()), 60_000);
     return () => clearInterval(timer);
   }, []);
-  async function load() {
+  async function fetchJson(path: string) {
+    const response = await fetch(path, { cache: 'no-cache' });
+    if (!response.ok) throw Error('data-unavailable');
+    return response.json();
+  }
+  const fetching = useRef(new Set<string>());
+  // A country's records, or its English catalog, which only an English reader needs.
+  async function loadCountry(id: string, english: boolean) {
+    const key = english ? id + '.en' : id;
+    if (fetching.current.has(key)) return;
+    fetching.current.add(key);
     try {
-      const response = await fetch('./data.json', { cache: 'no-cache' });
-      if (!response.ok) throw Error('data-unavailable');
-      const data = await response.json() as { policies: Policy[]; status: Status; intake: IntakeData; localization: Localization;topics?:Topic[];dispositions?:Disposition[];areas?:Record<string, string> };
-      setLocalization(data.localization ?? emptyLocalization);
-      setTopics(data.topics ?? []);
-      setDispositions(data.dispositions ?? []);
-      setAreaOf(data.areas ?? {});
-      setItems(data.policies);
-      loadedPolicies.current = data.policies;
-      restoreNavigation();
-      setStatus(data.status);
-      setIntake(data.intake);
+      const file = await fetchJson(`./data/${key}.json`);
+      if (english) setCatalogs(current => ({ ...current, [id]: file as ContentCatalog }));
+      else setBundles(current => ({ ...current, [id]: file as CountryBundle }));
       setError('');
-    } catch (e) {
+    } catch {
       setError('data-unavailable');
     } finally {
-      setLoading(false);
+      fetching.current.delete(key);
     }
   }
+  // A reload replaces the shell and drops every country; the effect below fetches the shown one again.
+  async function load() {
+    try {
+      const next = await fetchJson('./data/shell.json') as SiteShell;
+      loadedPolicies.current = next.policies;
+      setBundles({});
+      setCatalogs({});
+      setShell(next);
+      restoreNavigation();
+      setError('');
+    } catch {
+      setError('data-unavailable');
+    }
+  }
+  useEffect(() => {
+    if (!shell) return;
+    if (!bundles[country]) loadCountry(country, false);
+    if (locale === 'en' && !catalogs[country]) loadCountry(country, true);
+  }, [shell, bundles, catalogs, country, locale]);
   useEffect(() => {
     load();
     setTheme(readTheme());

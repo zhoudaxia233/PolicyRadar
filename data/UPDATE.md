@@ -353,7 +353,7 @@ required editorial review, not a claim that automated tests can guarantee clarit
    and cited evidence; do not squash, renumber or delete revisions to pass it. If any gate
    fails, fix the data or discard the attempt with `git restore data/store`;
    never commit an invalid store.
-7. Verify the built `dist/data.json` contains the intended records and real review
+7. Verify the built `dist/data/` files (`shell.json` plus one file per country) contain the intended records and real review
    dates. Report the actual policy changes, discovered records and material gaps
    in Chinese. Keep quiet on unchanged/non-actionable runs; notify for meaningful
    changes, new failures, or required owner action.
@@ -373,7 +373,7 @@ preserve the prepared update and report the specific blocker.
 
 Use English commit messages without assistant attribution or session links.
 Wait for the GitHub Pages workflow for the exact pushed commit to succeed, then
-read the deployed `data.json` and confirm it matches the selected export's data.
+read the deployed `data/shell.json` and the updated countries' `data/<CC>.json` and confirm they match the selected export's data.
 Report a failed deployment as a failure; do not claim the live site was updated.
 Routine data-only publication needs no further approval. Application changes,
 new external services, and changes to the update or validation rules are outside

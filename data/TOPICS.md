@@ -12,7 +12,7 @@ explicit document references. Numbered references use region plus official ID;
 unnumbered references require region, exact URL **and original title**. References
 resolve against the current projection so translation corrections do not break
 membership. Existing immutable exports are not rewritten or copied to add groups.
-The build validates every reference and emits resolved groups in `data.json`.
+The build validates every reference and emits resolved groups in `data/shell.json`.
 
 ## Required review on intake updates
 

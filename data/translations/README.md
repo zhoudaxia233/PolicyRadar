@@ -40,7 +40,7 @@ not comprehension. Record the editorial check in the update's review notes.
    policies, also copy `data.policyVersions[id]`. Never refresh all hashes just to
    make a stale translation appear current. Set the original language accurately.
 4. Run the repository checks and build with the candidate export. Inspect
-   `dist/data.json` → `localization.policies` / `localization.intake`. `current`
+   each country's `dist/data/<CC>.json` → `localization.policies` / `localization.intake`. `current`
    means the translation covers the bound record; it does **not** assert legal
    accuracy. `missing` and `stale` show explicit fallback notices without hiding
    official discoveries. Keep historical text keys when adding replacements. The fixed export and

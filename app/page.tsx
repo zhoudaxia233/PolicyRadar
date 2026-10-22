@@ -758,6 +758,7 @@ export default function Home() {
                       </option>;
                     })}
                   </select>
+                  <ChevronDown size={15} className="select-chevron" />
                 </label>
                 <label className="select-label area-select">
                   <LayoutGrid size={15} />
@@ -773,6 +774,7 @@ export default function Home() {
                       {' (' + (areaCounts.get(a.id) ?? 0) + ')'}
                     </option>)}
                   </select>
+                  <ChevronDown size={15} className="select-chevron" />
                 </label>
               </div>
               {/* Tags are set from a policy's detail page or a shared link; each can be removed here. */}

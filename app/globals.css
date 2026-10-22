@@ -97,7 +97,9 @@ h1{font-size:27px;letter-spacing:-.02em;font-weight:720;line-height:1.35;text-wr
 .search button{display:flex;padding:0}
 .select-label{display:flex;align-items:center;position:relative;min-width:0}
 .select-label>svg{position:absolute;left:10px;pointer-events:none;color:var(--faint)}
-.select-label select{height:42px;background:var(--surface);border:1px solid var(--line);border-radius:10px;font-size:14px;color:var(--text-2);padding:0 10px 0 31px;max-width:220px;min-width:0}
+.select-label select{appearance:none;-webkit-appearance:none;height:42px;background:var(--surface);border:1px solid var(--line);border-radius:10px;font-size:14px;color:var(--text-2);padding:0 31px;max-width:220px;min-width:0;text-overflow:ellipsis}
+/* The native arrow hugs the border; this one mirrors the leading icon's inset. */
+.select-label>.select-chevron{left:auto;right:10px}
 .region-select{display:none}
 .list-meta{display:flex;flex-wrap:wrap;align-items:baseline;gap:4px 14px;font-size:13px;color:var(--muted);margin:4px 0 14px}
 .list-meta>button{color:var(--accent);text-decoration:underline;text-underline-offset:3px;font-size:13px}

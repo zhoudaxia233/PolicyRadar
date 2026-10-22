@@ -7,6 +7,8 @@ import { trackingStart, type IntakeRecord, type coverageRows } from '../lib/doma
 import {type Topic, type RecordGroup, groupRecords} from '../lib/domain/topics';
 import {type Disposition} from '../lib/domain/dispositions';
 import { IntakeView, TopicDocuments } from './intake-view';
+import { AreaChart } from './area-chart';
+import { areas, areaBreakdown } from '../lib/domain/areas';
 import { LanguageSwitch } from './language-switch';
 import { CompactSelect } from './compact-select';
 import { archiveUrl } from '../lib/archive-url';
@@ -76,6 +78,7 @@ export default function Home() {
   const [canonicalItems, setItems] = useState<Policy[]>([]), [status, setStatus] = useState<Status>({ checks: [], settings: {}, coverage: [], discovery: [] }), [loading, setLoading] = useState(true), [error, setError] = useState('');
   const [view, setView] = useState('adopted'), [region, setRegion] = useState('all'), [query, setQuery] = useState(''), [selectedId, setSelectedId] = useState<string | null>(null), [busy, setBusy] = useState(false), [rawOpen, setRawOpen] = useState(false), [reviewedOpen, setReviewedOpen] = useState(false);
   const [canonicalIntake, setIntake] = useState<IntakeData>({ trackingStart, records: [], coverage: [] }), [tags, setTags] = useState<string[]>([]), [filtersReady, setFiltersReady] = useState(false);
+  const [area, setArea] = useState('all'), [areaOf, setAreaOf] = useState<Record<string, string>>({});
   const [country, setCountry] = useState<string>(countries[0].id), [theme, setTheme] = useState<Theme>('system');
   const items = useMemo(() => canonicalItems.map(p => localizePolicy(p, locale, localization)), [canonicalItems, locale, localization]);
   const intake = useMemo(() => ({ ...canonicalIntake, records: canonicalIntake.records.map(r => localizeIntake(r, locale, localization)) }), [canonicalIntake, locale, localization]);
@@ -126,6 +129,7 @@ export default function Home() {
     setRegion(f.region);
     setQuery(f.query);
     setTags(f.tags);
+    setArea(f.area);
     setFiltersReady(true);
   }
   const [today, setToday] = useState(berlinToday);
@@ -137,10 +141,11 @@ export default function Home() {
     try {
       const response = await fetch('./data.json', { cache: 'no-cache' });
       if (!response.ok) throw Error('data-unavailable');
-      const data = await response.json() as { policies: Policy[]; status: Status; intake: IntakeData; localization: Localization;topics?:Topic[];dispositions?:Disposition[] };
+      const data = await response.json() as { policies: Policy[]; status: Status; intake: IntakeData; localization: Localization;topics?:Topic[];dispositions?:Disposition[];areas?:Record<string, string> };
       setLocalization(data.localization ?? emptyLocalization);
       setTopics(data.topics ?? []);
       setDispositions(data.dispositions ?? []);
+      setAreaOf(data.areas ?? {});
       setItems(data.policies);
       loadedPolicies.current = data.policies;
       restoreNavigation();
@@ -162,10 +167,10 @@ export default function Home() {
   }, []);
   useEffect(() => {
     if (!filtersReady || loading) return;
-    const search = navigationSearch(location.search, { view, country, region, query, tags, selectedId });
+    const search = navigationSearch(location.search, { view, country, region, query, tags, area, selectedId });
     if (search !== location.search) history[navigationMode.current === 'replace' ? 'replaceState' : 'pushState'](null, '', location.pathname + search + location.hash);
     navigationMode.current = 'push';
-  }, [view, country, region, query, tags, selectedId, filtersReady, loading]);
+  }, [view, country, region, query, tags, area, selectedId, filtersReady, loading]);
   useEffect(() => {
     const r = document.documentElement;
     if (theme === 'system') delete r.dataset.theme; else r.dataset.theme = theme;
@@ -197,6 +202,7 @@ export default function Home() {
     setQuery('');
     setTags([]);
     setRegion('all');
+    setArea('all');
   };
   const scoped = useMemo(() => items.filter(p => countryOf(p.region) === country), [items, country]);
   const records = intake.records.filter(r => countryOf(r.region) === country);
@@ -221,16 +227,27 @@ export default function Home() {
   }, [country]);
   // Typing stays responsive: results and counts follow the query once React has time to recompute them.
   const listedQuery = useDeferredValue(query);
-  const filters = useMemo(() => ({ view, country, region, query: listedQuery, tags }), [view, country, region, listedQuery, tags]);
-  const listing = useMemo(() => selectListing(items, intake.records, filters, matchText, today, topics, dispositions), [items, intake.records, filters, matchText, today, topics, dispositions]);
+  const filters = useMemo(() => ({ view, country, region, query: listedQuery, tags, area }), [view, country, region, listedQuery, tags, area]);
+  const listing = useMemo(() => selectListing(items, intake.records, filters, matchText, today, topics, dispositions, areaOf), [items, intake.records, filters, matchText, today, topics, dispositions, areaOf]);
   const reviewedGroups = useMemo(() => groupRecords(listing.reviewed, []), [listing.reviewed]);
+  // The chart counts every list filter except the area itself; its region rows also ignore the region filter.
+  const areaListing = useMemo(() => area === 'all' ? listing : selectListing(items, intake.records, { ...filters, area: 'all' }, matchText, today, topics, dispositions, areaOf), [area, listing, items, intake.records, filters, matchText, today, topics, dispositions, areaOf]);
+  const regionAreaListing = useMemo(() => region === 'all' ? areaListing : selectListing(items, intake.records, { ...filters, area: 'all', region: 'all' }, matchText, today, topics, dispositions, areaOf), [region, areaListing, items, intake.records, filters, matchText, today, topics, dispositions, areaOf]);
+  const areaTotals = useMemo(() => areaBreakdown(areaListing.cards, areaOf).total, [areaListing, areaOf]);
+  const areaRegions = useMemo(() => areaBreakdown(regionAreaListing.cards, areaOf).byRegion, [regionAreaListing, areaOf]);
+  const filterBar = useRef<HTMLDivElement>(null);
+  // A chart click changes the list below the chart; bring the list's start into view when it is off screen.
+  const showList = () => requestAnimationFrame(() => {
+    const el = filterBar.current;
+    if (el && el.getBoundingClientRect().top > window.innerHeight * 0.5) el.scrollIntoView({ behavior: matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth', block: 'start' });
+  });
   const { policies: visible, raw: visibleRaw, progress: newRecords } = listing;
   const tagOptions = [...new Set([...scoped.flatMap(policyTags), ...records.flatMap(policyTags), ...tags])].sort((a, b) => ct(a).localeCompare(ct(b), languageTags[locale]));
   // Each count is computed once per filter change; the sidebar and region menu share the same result.
-  const viewCounts = useMemo(() => new Map(['intake', 'adopted', 'pending', 'all'].map(target => [target, selectListing(items, intake.records, { ...filters, view: target }, matchText, today, topics, dispositions).count])), [items, intake.records, filters, matchText, today, topics, dispositions]);
+  const viewCounts = useMemo(() => new Map(['intake', 'adopted', 'pending', 'all'].map(target => [target, selectListing(items, intake.records, { ...filters, view: target }, matchText, today, topics, dispositions, areaOf).count])), [items, intake.records, filters, matchText, today, topics, dispositions, areaOf]);
   const viewCount = (target: string) => viewCounts.get(target);
   const upcoming = scoped.filter(p => p.nextDate && p.nextDate >= today).sort((a, b) => a.nextDate!.localeCompare(b.nextDate!));
-  const regionCounts = useMemo(() => new Map(['all', ...regions.filter(r => countryOf(r.id) === filters.country).map(r => r.id)].map(id => [id, selectListing(items, intake.records, { ...filters, region: id, view: filters.view === 'sources' ? 'all' : filters.view }, matchText, today, topics, dispositions).count])), [items, intake.records, filters, matchText, today, topics, dispositions]);
+  const regionCounts = useMemo(() => new Map(['all', ...regions.filter(r => countryOf(r.id) === filters.country).map(r => r.id)].map(id => [id, selectListing(items, intake.records, { ...filters, region: id, view: filters.view === 'sources' ? 'all' : filters.view }, matchText, today, topics, dispositions, areaOf).count])), [items, intake.records, filters, matchText, today, topics, dispositions, areaOf]);
   const regionCount = (id: string) => regionCounts.get(id) ?? 0;
   const sourceCounts = useMemo(() => new Map(['all', ...regions.filter(r => countryOf(r.id) === country).map(r => r.id)].map(id => [id, selectListing(items, intake.records, { view: 'all', country, region: id, query: '', tags: [] }, undefined, today, topics, dispositions).count])), [items, intake.records, country, today, topics, dispositions]);
   const sourceCount = (id: string) => sourceCounts.get(id) ?? 0;
@@ -254,7 +271,7 @@ export default function Home() {
   </button>;
   const activeSourceUrls = countrySourceUrls(country, items, intake.records, status.discovery ?? []);
   const activeChecks = status.checks.filter(c => activeSourceUrls.has(c.url));
-  const filtering = !!(query || tags.length || region !== 'all');
+  const filtering = !!(query || tags.length || region !== 'all' || area !== 'all');
   const { scheduled, happened } = timelineEvents(visible, today);
   async function refresh() {
     setBusy(true);
@@ -731,7 +748,19 @@ export default function Home() {
           </div>
         </section> : <div className="content-layout">
           <section className="policy-section">
-            <div className="filter-bar">
+            {['adopted', 'pending', 'all'].includes(view) && <AreaChart
+              locale={locale}
+              country={country}
+              region={region}
+              area={area}
+              regions={countryRegions.map(r => r.id)}
+              totals={areaTotals}
+              byRegion={areaRegions}
+              awaiting={areaListing.rawGroups.length}
+              onArea={a => { setArea(a); showList(); }}
+              onCell={(r, a) => { setRegion(r); setArea(a); showList(); }}
+              onRegion={r => { setRegion(r); showList(); }} />}
+            <div className="filter-bar" ref={filterBar}>
               <div className="filters">
                 <label className="search">
                   <Search size={17} />
@@ -777,6 +806,13 @@ export default function Home() {
                   {ct(t)}
                 </button>)}
               </div>
+              {area !== 'all' && <p className="active-area">
+                {tr('主题：')}
+                <button aria-label={tr('清除主题筛选')} onClick={() => setArea('all')}>
+                  {areas.find(a => a.id === area)?.title[locale === 'zh' ? 0 : 1]}
+                  <X size={13} />
+                </button>
+              </p>}
               <p className="filter-summary">
                 {tags.length ? tr("已选：{0} · 多选匹配任一标签", [tags.map(ct).join(locale === 'zh' ? '、' : ', ')]) : tr("类别可多选，匹配任一标签")}
               </p>

@@ -1,5 +1,6 @@
 import {resolveTopicRegistry} from '../lib/domain/topics.ts';
 import {resolveDispositionRegistry} from '../lib/domain/dispositions.ts';
+import {resolveAreas} from '../lib/domain/areas.ts';
 import {build} from 'esbuild';
 import {mkdir,writeFile,readFile,copyFile,rm,rename,mkdtemp} from 'node:fs/promises';
 import {resolve} from 'node:path';
@@ -13,6 +14,7 @@ const exported=readExport(source);
 const data=createStaticData(exported);
 data.topics=resolveTopicRegistry(JSON.parse(await readFile('data/topics.json','utf8')),data);
 data.dispositions=resolveDispositionRegistry(JSON.parse(await readFile('data/dispositions.json','utf8')),data,data.topics);
+data.areas=resolveAreas(JSON.parse(await readFile('data/areas.json','utf8')),data.policies,data.topics);
 data.localization=createLocalization(data,JSON.parse(await readFile('data/translations/content.json','utf8')),JSON.parse(await readFile('data/translations/bindings.json','utf8')));
 await mkdir('.build-tmp',{recursive:true});
 const output=await mkdtemp(resolve('.build-tmp/static-build-'));

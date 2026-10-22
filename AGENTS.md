@@ -13,6 +13,9 @@
   approval, implementation, amendment, correction and other related official
   records as expandable children. Apply this consistently to official progress,
   unexplained listings, related explanations and navigation counts.
+- Read `data/AREAS.md` before changing policy areas or the area overview. Each
+  explanation has one reviewed area in `data/areas.json`; every chart count must
+  equal the list count its click produces.
 - Read `data/TOPICS.md` before changing intake, grouping or listing behavior.
   Maintain reviewed relations in `data/topics.json` and run `npm run data:topics`
   after every intake update. Resolve candidates from source identities and

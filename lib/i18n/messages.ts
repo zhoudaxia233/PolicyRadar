@@ -245,6 +245,19 @@ export const messages = {
   "完整政策解读待补充 · 原始记录已保留": "Full explanation pending · Original record retained",
   "同一政策可以有多条进展记录；从 2026 年 1 月 1 日起登记，解读未完成也保留原文。": "Tracked since 1 January 2026. A policy may have multiple entries; originals remain available even before an explanation is ready.",
   "1 个官方来源": "1 official source",
-  "最近进展 {0}": "Latest development {0}"
+  "最近进展 {0}": "Latest development {0}",
+  "{0}在推进什么": "What {0} is working on",
+  "按主题统计当前列表中已解读的事项，点击主题即可筛选。": "Explained matters in the current list by policy area. Select an area to filter the list.",
+  "当前列表没有已解读的事项。": "The current list has no explained matters.",
+  "{0} 个已解读事项": "{0} explained matters",
+  "；另有 {0} 个待解读事项尚未分类": "; {0} matters awaiting explanation are not yet classified",
+  "各地区对比": "By region",
+  "其他": "Other",
+  "合计": "Total",
+  "{0} · {1}：{2} 项": "{0} · {1}: {2}",
+  "颜色按各地区内部比例，数字为事项数；浅色行事项少于 3 项，比例不具代表性。": "Shading compares areas within each region; numbers count matters. Faded rows have fewer than 3 matters, too few to show a pattern.",
+  "其余 {0} 个地区暂无已解读事项。": " {0} other regions have no explained matters yet.",
+  "主题：": "Area: ",
+  "清除主题筛选": "Clear area filter"
 } as const;
 export type MessageKey = keyof typeof messages;

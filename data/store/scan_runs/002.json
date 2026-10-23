@@ -2512,5 +2512,95 @@
     "source_url": "https://taxation-customs.ec.europa.eu/news_en",
     "checked_at": "2026-10-23T18:23:05.829Z",
     "data": "{\"id\":\"eu-20261023-taxud\",\"sourceUrl\":\"https://taxation-customs.ec.europa.eu/news_en\",\"checkedAt\":\"2026-10-23T18:23:05.829Z\",\"windowStart\":\"2026-10-21\",\"windowEnd\":\"2026-10-23\",\"status\":\"partial\",\"pages\":[\"https://taxation-customs.ec.europa.eu/news_en\"],\"recordIds\":[\"taxud-20261022-counterfeit-report\"],\"excluded\":[],\"allPagesChecked\":false,\"totalListed\":null,\"note\":\"新闻列表第一页：10月9日后新增一条（10月22日）。\"}"
+  },
+  {
+    "id": "fr-20261023-sp-particuliers",
+    "source_url": "https://www.service-public.gouv.fr/particuliers/actualites",
+    "checked_at": "2026-10-23T19:26:24.012Z",
+    "data": "{\"id\":\"fr-20261023-sp-particuliers\",\"sourceUrl\":\"https://www.service-public.gouv.fr/particuliers/actualites\",\"checkedAt\":\"2026-10-23T19:26:24.012Z\",\"windowStart\":\"2026-10-16\",\"windowEnd\":\"2026-10-23\",\"status\":\"partial\",\"pages\":[\"https://www.service-public.gouv.fr/particuliers/actualites\"],\"recordIds\":[\"fr-sp-a15386-pass-2027\",\"fr-sp-a19095-aah-ass-2027\",\"fr-sp-a19101-school-questionnaire\",\"fr-sp-a19103-survivor-pension\",\"fr-sp-a14389-winter-tyres\",\"fr-sp-a19097-carers-pension\"],\"excluded\":[{\"url\":\"https://www.service-public.gouv.fr/particuliers/actualites/A15186\",\"reason\":\"采蘑菇防中毒的健康提示，不是政策。\"},{\"url\":\"https://www.service-public.gouv.fr/particuliers/actualites/A19096\",\"reason\":\"对一项法院判决的解读，不是新规则。\"},{\"url\":\"https://www.service-public.gouv.fr/particuliers/actualites/A15263\",\"reason\":\"冬令时调整提醒，不是政策。\"}],\"allPagesChecked\":false,\"totalListed\":null,\"note\":\"动态首页10月16—23日的条目逐条核对：新的政策条目已登记；此前已记录的条目（租金指数、补充养老金、燃油补助等）不重复登记。“全部简讯”等分页未逐页核对。\"}"
+  },
+  {
+    "id": "fr-20261023-sp-entreprendre",
+    "source_url": "https://entreprendre.service-public.gouv.fr/actualites",
+    "checked_at": "2026-10-23T19:26:24.012Z",
+    "data": "{\"id\":\"fr-20261023-sp-entreprendre\",\"sourceUrl\":\"https://entreprendre.service-public.gouv.fr/actualites\",\"checkedAt\":\"2026-10-23T19:26:24.012Z\",\"windowStart\":\"2026-10-16\",\"windowEnd\":\"2026-10-23\",\"status\":\"partial\",\"pages\":[\"https://entreprendre.service-public.gouv.fr/actualites\"],\"recordIds\":[\"fr-spe-a19104-riot-partial-activity\",\"fr-spe-a19098-decarb-flash\"],\"excluded\":[{\"url\":\"https://entreprendre.service-public.gouv.fr/actualites/A17731\",\"reason\":\"网络安全宣传月活动，不是政策。\"},{\"url\":\"https://entreprendre.service-public.gouv.fr/actualites/A19100\",\"reason\":\"巴黎经济活动法庭提醒其现有预防服务，不是新措施。\"}],\"allPagesChecked\":false,\"totalListed\":null,\"note\":\"企业动态第一页10月16—23日的条目逐条核对；Net-entreprises门户改版（9月29日发布、10月22日更新）只是界面变化，未登记。\"}"
+  },
+  {
+    "id": "fr-20261023-senat-lois",
+    "source_url": "https://www.senat.fr/dossiers-legislatifs/lois-promulguees.html",
+    "checked_at": "2026-10-23T19:26:24.012Z",
+    "data": "{\"id\":\"fr-20261023-senat-lois\",\"sourceUrl\":\"https://www.senat.fr/dossiers-legislatifs/lois-promulguees.html\",\"checkedAt\":\"2026-10-23T19:26:24.012Z\",\"windowStart\":\"2026-10-18\",\"windowEnd\":\"2026-10-23\",\"status\":\"partial\",\"pages\":[\"https://www.senat.fr/dossiers-legislatifs/lois-promulguees.html\",\"https://www.senat.fr/dossier-legislatif/ppl25-446.html\"],\"recordIds\":[\"fr-senat-loi-2026-95\"],\"excluded\":[],\"allPagesChecked\":false,\"totalListed\":null,\"note\":\"已公布法律列表新增一项（第2026-95号法律，10月22日官方公报）。\"}"
+  },
+  {
+    "id": "fr-20261023-an-dossiers",
+    "source_url": "https://www.assemblee-nationale.fr/dyn/17/dossiers",
+    "checked_at": "2026-10-23T19:26:24.012Z",
+    "data": "{\"id\":\"fr-20261023-an-dossiers\",\"sourceUrl\":\"https://www.assemblee-nationale.fr/dyn/17/dossiers\",\"checkedAt\":\"2026-10-23T19:26:24.012Z\",\"windowStart\":\"2026-10-18\",\"windowEnd\":\"2026-10-23\",\"status\":\"partial\",\"pages\":[\"https://www.assemblee-nationale.fr/dyn/17/dossiers/PLFSS_2027\",\"https://www.assemblee-nationale.fr/dyn/17/dossiers/PLF_2027\"],\"recordIds\":[\"fr-an-ta358-plfss-2027-rejected\"],\"excluded\":[],\"allPagesChecked\":false,\"totalListed\":null,\"note\":\"只核对了社保融资法案和财政法案两个档案：社保融资法案10月23日被否决；财政法案第一部分仍在全会讨论。其他立法档案未扫描。\"}"
+  },
+  {
+    "id": "fr-20261023-amf",
+    "source_url": "https://www.amf-france.org/fr/actualites-publications/actualites",
+    "checked_at": "2026-10-23T19:26:24.012Z",
+    "data": "{\"id\":\"fr-20261023-amf\",\"sourceUrl\":\"https://www.amf-france.org/fr/actualites-publications/actualites\",\"checkedAt\":\"2026-10-23T19:26:24.012Z\",\"windowStart\":\"2026-10-15\",\"windowEnd\":\"2026-10-23\",\"status\":\"partial\",\"pages\":[\"https://www.amf-france.org/fr/actualites-publications/actualites\"],\"recordIds\":[],\"excluded\":[],\"allPagesChecked\":false,\"totalListed\":null,\"note\":\"新闻列表（渲染）最新条目为10月14日，此前已记录；10月15日后没有新条目。\"}"
+  },
+  {
+    "id": "fr-20261023-legifrance",
+    "source_url": "https://www.legifrance.gouv.fr/jorf/jo",
+    "checked_at": "2026-10-23T19:26:24.012Z",
+    "data": "{\"id\":\"fr-20261023-legifrance\",\"sourceUrl\":\"https://www.legifrance.gouv.fr/jorf/jo\",\"checkedAt\":\"2026-10-23T19:26:24.012Z\",\"windowStart\":\"2026-10-15\",\"windowEnd\":\"2026-10-23\",\"status\":\"blocked\",\"pages\":[\"https://www.legifrance.gouv.fr/jorf/jo\"],\"recordIds\":[],\"excluded\":[],\"allPagesChecked\":false,\"totalListed\":null,\"note\":\"官方公报页面返回HTTP 403，未能扫描。\"}"
+  },
+  {
+    "id": "gb-20261023-legislation-10-14",
+    "source_url": "https://www.legislation.gov.uk/new",
+    "checked_at": "2026-10-23T19:26:24.012Z",
+    "data": "{\"id\":\"gb-20261023-legislation-10-14\",\"sourceUrl\":\"https://www.legislation.gov.uk/new\",\"checkedAt\":\"2026-10-23T19:26:24.012Z\",\"windowStart\":\"2026-10-14\",\"windowEnd\":\"2026-10-14\",\"status\":\"partial\",\"pages\":[\"https://www.legislation.gov.uk/new/all/2026-10-14\"],\"recordIds\":[\"gb-leg-uksi-2026-1085\",\"gb-leg-uksi-2026-1081\",\"gb-leg-wsi-2026-121\"],\"excluded\":[],\"allPagesChecked\":false,\"totalListed\":null,\"note\":\"10月14日的新法规清单共3项，已全部登记。苏格兰分类页返回异常的短页面，无法确认当天是否有苏格兰法规，因此不标为完整。\"}"
+  },
+  {
+    "id": "gb-20261023-legislation-10-15",
+    "source_url": "https://www.legislation.gov.uk/new",
+    "checked_at": "2026-10-23T19:26:24.012Z",
+    "data": "{\"id\":\"gb-20261023-legislation-10-15\",\"sourceUrl\":\"https://www.legislation.gov.uk/new\",\"checkedAt\":\"2026-10-23T19:26:24.012Z\",\"windowStart\":\"2026-10-15\",\"windowEnd\":\"2026-10-15\",\"status\":\"partial\",\"pages\":[\"https://www.legislation.gov.uk/new/all/2026-10-15\"],\"recordIds\":[\"gb-leg-uksi-2026-1094\",\"gb-leg-uksi-2026-1093\",\"gb-leg-uksi-2026-1092\",\"gb-leg-uksi-2026-1089\",\"gb-leg-uksi-2026-1088\",\"gb-leg-uksi-2026-1087\",\"gb-leg-uksi-2026-1083\",\"gb-leg-uksi-2026-1082\",\"gb-leg-wsi-2026-122\",\"gb-leg-nisr-2026-178\"],\"excluded\":[],\"allPagesChecked\":false,\"totalListed\":null,\"note\":\"10月15日的新法规清单共10项，已全部登记。苏格兰分类页返回异常的短页面，无法确认当天是否有苏格兰法规，因此不标为完整。\"}"
+  },
+  {
+    "id": "gb-20261023-legislation-10-16",
+    "source_url": "https://www.legislation.gov.uk/new",
+    "checked_at": "2026-10-23T19:26:24.012Z",
+    "data": "{\"id\":\"gb-20261023-legislation-10-16\",\"sourceUrl\":\"https://www.legislation.gov.uk/new\",\"checkedAt\":\"2026-10-23T19:26:24.012Z\",\"windowStart\":\"2026-10-16\",\"windowEnd\":\"2026-10-16\",\"status\":\"partial\",\"pages\":[\"https://www.legislation.gov.uk/new/all/2026-10-16\"],\"recordIds\":[\"gb-leg-uksi-2026-1097\",\"gb-leg-uksi-2026-1096\",\"gb-leg-uksi-2026-1095\",\"gb-leg-uksi-2026-1091\",\"gb-leg-uksi-2026-1090\",\"gb-leg-uksi-2026-1084\",\"gb-leg-nisr-2026-179\"],\"excluded\":[],\"allPagesChecked\":false,\"totalListed\":null,\"note\":\"10月16日的新法规清单共7项，已全部登记。苏格兰分类页返回异常的短页面，无法确认当天是否有苏格兰法规，因此不标为完整。\"}"
+  },
+  {
+    "id": "gb-20261023-legislation-10-19",
+    "source_url": "https://www.legislation.gov.uk/new",
+    "checked_at": "2026-10-23T19:26:24.012Z",
+    "data": "{\"id\":\"gb-20261023-legislation-10-19\",\"sourceUrl\":\"https://www.legislation.gov.uk/new\",\"checkedAt\":\"2026-10-23T19:26:24.012Z\",\"windowStart\":\"2026-10-19\",\"windowEnd\":\"2026-10-19\",\"status\":\"partial\",\"pages\":[\"https://www.legislation.gov.uk/new/all/2026-10-19\"],\"recordIds\":[\"gb-leg-uksi-2026-1106\",\"gb-leg-uksi-2026-1105\",\"gb-leg-uksi-2026-1103\",\"gb-leg-uksi-2026-1098\",\"gb-leg-uksi-2026-1086\",\"gb-leg-uksi-2026-1074\",\"gb-leg-wsi-2026-127\",\"gb-leg-wsi-2026-126\",\"gb-leg-wsi-2026-125\",\"gb-leg-wsi-2026-124\",\"gb-leg-nisr-2026-180\"],\"excluded\":[],\"allPagesChecked\":false,\"totalListed\":null,\"note\":\"10月19日的新法规清单共11项，已全部登记。苏格兰分类页返回异常的短页面，无法确认当天是否有苏格兰法规，因此不标为完整。\"}"
+  },
+  {
+    "id": "gb-20261023-legislation-10-20",
+    "source_url": "https://www.legislation.gov.uk/new",
+    "checked_at": "2026-10-23T19:26:24.012Z",
+    "data": "{\"id\":\"gb-20261023-legislation-10-20\",\"sourceUrl\":\"https://www.legislation.gov.uk/new\",\"checkedAt\":\"2026-10-23T19:26:24.012Z\",\"windowStart\":\"2026-10-20\",\"windowEnd\":\"2026-10-20\",\"status\":\"partial\",\"pages\":[\"https://www.legislation.gov.uk/new/all/2026-10-20\"],\"recordIds\":[\"gb-leg-uksi-2026-1101\",\"gb-leg-uksi-2026-1100\",\"gb-leg-uksi-2026-1099\",\"gb-leg-uksi-2026-1058\",\"gb-leg-nisr-2026-181\"],\"excluded\":[],\"allPagesChecked\":false,\"totalListed\":null,\"note\":\"10月20日的新法规清单共5项，已全部登记。苏格兰分类页返回异常的短页面，无法确认当天是否有苏格兰法规，因此不标为完整。\"}"
+  },
+  {
+    "id": "gb-20261023-legislation-10-21",
+    "source_url": "https://www.legislation.gov.uk/new",
+    "checked_at": "2026-10-23T19:26:24.012Z",
+    "data": "{\"id\":\"gb-20261023-legislation-10-21\",\"sourceUrl\":\"https://www.legislation.gov.uk/new\",\"checkedAt\":\"2026-10-23T19:26:24.012Z\",\"windowStart\":\"2026-10-21\",\"windowEnd\":\"2026-10-21\",\"status\":\"partial\",\"pages\":[\"https://www.legislation.gov.uk/new/all/2026-10-21\"],\"recordIds\":[\"gb-leg-uksi-2026-1113\",\"gb-leg-uksi-2026-1112\",\"gb-leg-uksi-2026-1104\"],\"excluded\":[],\"allPagesChecked\":false,\"totalListed\":null,\"note\":\"10月21日的新法规清单共3项，已全部登记。苏格兰分类页返回异常的短页面，无法确认当天是否有苏格兰法规，因此不标为完整。\"}"
+  },
+  {
+    "id": "gb-20261023-legislation-10-22",
+    "source_url": "https://www.legislation.gov.uk/new",
+    "checked_at": "2026-10-23T19:26:24.012Z",
+    "data": "{\"id\":\"gb-20261023-legislation-10-22\",\"sourceUrl\":\"https://www.legislation.gov.uk/new\",\"checkedAt\":\"2026-10-23T19:26:24.012Z\",\"windowStart\":\"2026-10-22\",\"windowEnd\":\"2026-10-22\",\"status\":\"partial\",\"pages\":[\"https://www.legislation.gov.uk/new/all/2026-10-22\"],\"recordIds\":[\"gb-leg-uksi-2026-1117\",\"gb-leg-uksi-2026-1116\",\"gb-leg-uksi-2026-1115\",\"gb-leg-uksi-2026-1114\",\"gb-leg-uksi-2026-1110\",\"gb-leg-uksi-2026-1107\",\"gb-leg-uksi-2026-1102\",\"gb-leg-wsi-2026-128\",\"gb-leg-nisr-2026-183\",\"gb-leg-nisr-2026-182\"],\"excluded\":[],\"allPagesChecked\":false,\"totalListed\":null,\"note\":\"10月22日的新法规清单共10项，已全部登记。苏格兰分类页返回异常的短页面，无法确认当天是否有苏格兰法规，因此不标为完整。\"}"
+  },
+  {
+    "id": "gb-20261023-govuk",
+    "source_url": "https://www.gov.uk/",
+    "checked_at": "2026-10-23T19:26:24.012Z",
+    "data": "{\"id\":\"gb-20261023-govuk\",\"sourceUrl\":\"https://www.gov.uk/\",\"checkedAt\":\"2026-10-23T19:26:24.012Z\",\"windowStart\":\"2026-10-14\",\"windowEnd\":\"2026-10-23\",\"status\":\"partial\",\"pages\":[\"https://www.gov.uk/search/news-and-communications?organisations%5B%5D=hm-revenue-customs&order=updated-newest\",\"https://www.gov.uk/search/news-and-communications?order=updated-newest\"],\"recordIds\":[\"gb-hmrc-20261023-sa-100-days\"],\"excluded\":[],\"allPagesChecked\":false,\"totalListed\":null,\"note\":\"只核对了HMRC新闻：10月14日后新增一条提醒。GOV.UK综合新闻每天数十条，本轮未逐条清点。2026年预算案定于10月28日公布，尚未发布。\"}"
+  },
+  {
+    "id": "gb-20261023-bills",
+    "source_url": "https://bills.parliament.uk/",
+    "checked_at": "2026-10-23T19:26:24.012Z",
+    "data": "{\"id\":\"gb-20261023-bills\",\"sourceUrl\":\"https://bills.parliament.uk/\",\"checkedAt\":\"2026-10-23T19:26:24.012Z\",\"windowStart\":\"2026-10-14\",\"windowEnd\":\"2026-10-23\",\"status\":\"blocked\",\"pages\":[\"https://bills.parliament.uk/\"],\"recordIds\":[],\"excluded\":[],\"allPagesChecked\":false,\"totalListed\":null,\"note\":\"议会法案网站返回HTTP 403，未能扫描。\"}"
   }
 ]

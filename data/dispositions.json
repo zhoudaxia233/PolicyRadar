@@ -5166,6 +5166,156 @@
         }
       ],
       "appliesFromExport": "2026-10-23T18:23:05.829Z"
+    },
+    {
+      "id": "gb-leg-local-2026-10-23",
+      "reason": [
+        "只涉及特定地点、项目或机构的命令（临时禁飞区、港口修订、项目开发许可、地方选区划分、教会学校捐赠等），不对一般居民设定新规则。",
+        "Orders concerning a specific place, project or body (temporary flying restrictions, harbour revisions, development consents, local electoral arrangements, church school endowments); they set no new rules for residents generally."
+      ],
+      "basis": "Legislation.gov.uk new-legislation lists of 14–22 October 2026: emergency and helicopter flying restrictions and their revocations, the Port of Tyne harbour revision, two development consent orders, three Welsh county electoral arrangements orders and a Diocese of Leicester endowment order.",
+      "documents": [
+        {
+          "region": "GB",
+          "officialId": "S.I. 2026/1093"
+        },
+        {
+          "region": "GB",
+          "officialId": "S.I. 2026/1088"
+        },
+        {
+          "region": "GB",
+          "officialId": "S.I. 2026/1091"
+        },
+        {
+          "region": "GB",
+          "officialId": "S.I. 2026/1106"
+        },
+        {
+          "region": "GB",
+          "officialId": "S.I. 2026/1086"
+        },
+        {
+          "region": "GB",
+          "officialId": "S.I. 2026/1074"
+        },
+        {
+          "region": "GB-WLS",
+          "officialId": "W.S.I. 2026/127"
+        },
+        {
+          "region": "GB-WLS",
+          "officialId": "W.S.I. 2026/126"
+        },
+        {
+          "region": "GB-WLS",
+          "officialId": "W.S.I. 2026/125"
+        },
+        {
+          "region": "GB",
+          "officialId": "S.I. 2026/1100"
+        },
+        {
+          "region": "GB",
+          "officialId": "S.I. 2026/1058"
+        },
+        {
+          "region": "GB",
+          "officialId": "S.I. 2026/1113"
+        },
+        {
+          "region": "GB",
+          "officialId": "S.I. 2026/1112"
+        },
+        {
+          "region": "GB",
+          "officialId": "S.I. 2026/1114"
+        },
+        {
+          "region": "GB",
+          "officialId": "S.I. 2026/1102"
+        }
+      ],
+      "appliesFromExport": "2026-10-23T19:26:24.012Z"
+    },
+    {
+      "id": "gb-leg-technical-2026-10-23",
+      "reason": [
+        "技术性或行政性规定（统计报送、标准引用、海关归类说明、监管名单、建议等），主要约束行政机关或专业机构，不直接改变居民的权利、义务或费用。",
+        "Technical or administrative provisions (statistical reporting, references to standards, customs classification notes, supervisory lists, recommendations and similar); they mainly bind authorities or professional bodies and do not directly change residents’ rights, duties or costs."
+      ],
+      "basis": "The Scottish Administration (Offices) Order, a Scotland Act 1998 functions transfer amendment, and amendments to tribunal chambers and Upper Tribunal procedure rules.",
+      "documents": [
+        {
+          "region": "GB",
+          "officialId": "S.I. 2026/1083"
+        },
+        {
+          "region": "GB",
+          "officialId": "S.I. 2026/1097"
+        },
+        {
+          "region": "GB",
+          "officialId": "S.I. 2026/1095"
+        },
+        {
+          "region": "GB",
+          "officialId": "S.I. 2026/1084"
+        }
+      ],
+      "appliesFromExport": "2026-10-23T19:26:24.012Z"
+    },
+    {
+      "id": "gb-leg-appointment-2026-10-23",
+      "reason": [
+        "人事任命、选举或招聘公告，不改变规则。",
+        "Appointments, elections or recruitment notices; they change no rules."
+      ],
+      "basis": "The Inspectors of Education, Children’s Services and Skills (No. 3) Order appoints named inspectors.",
+      "documents": [
+        {
+          "region": "GB",
+          "officialId": "S.I. 2026/1087"
+        }
+      ],
+      "appliesFromExport": "2026-10-23T19:26:24.012Z"
+    },
+    {
+      "id": "gb-hmrc-reminders-2026-10-23",
+      "reason": [
+        "税务机关的宣传或提醒，不改变税务规则。",
+        "A tax authority’s promotion or reminder. It changes no tax rule."
+      ],
+      "basis": "HMRC news of 23 October 2026 reminds taxpayers that the Self Assessment deadline is 100 days away; it announces no change.",
+      "documents": [
+        {
+          "region": "GB",
+          "url": "https://www.gov.uk/government/news/self-assessment-deadline-incoming-100-days-to-go",
+          "title": "Self Assessment deadline incoming – 100 days to go"
+        }
+      ],
+      "appliesFromExport": "2026-10-23T19:26:24.012Z"
+    },
+    {
+      "id": "fr-sp-reminders-2026-10-23",
+      "reason": [
+        "提醒现行规则或介绍既有制度，不改变规则。",
+        "Reminders of current rules or descriptions of existing schemes; they change no rules."
+      ],
+      "basis": "Service Public articles of 20 October 2026 on the winter tyre and chain obligation in force since 2021 and on the existing carers’ old-age insurance.",
+      "documents": [
+        {
+          "region": "FR",
+          "url": "https://www.service-public.gouv.fr/particuliers/actualites/A14389",
+          "title": "Pneus hiver, chaînes : quelles sont vos obligations jusqu’au 31 mars 2027 ?"
+        },
+        {
+          "region": "FR",
+          "url": "https://www.service-public.gouv.fr/particuliers/actualites/A19097",
+          "title": "Aidants : dans quels cas l’accompagnement d’un proche compte pour la retraite ?"
+        }
+      ],
+      "appliesFromExport": "2026-10-23T19:26:24.012Z"
     }
   ]
 }

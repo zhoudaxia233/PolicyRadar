@@ -2422,5 +2422,95 @@
     "source_url": "https://eur-lex.europa.eu/oj/direct-access.html",
     "checked_at": "2026-10-21T19:01:56.751Z",
     "data": "{\"id\":\"eu-20261021-oj\",\"sourceUrl\":\"https://eur-lex.europa.eu/oj/direct-access.html\",\"checkedAt\":\"2026-10-21T19:01:56.751Z\",\"windowStart\":\"2026-10-17\",\"windowEnd\":\"2026-10-21\",\"status\":\"partial\",\"pages\":[\"https://publications.europa.eu/webapi/rdf/sparql\"],\"recordIds\":[],\"excluded\":[],\"allPagesChecked\":false,\"totalListed\":null,\"note\":\"EUR-Lex对自动访问返回空的HTTP 202；改用出版局公开SPARQL接口列出10月16—21日公布的文件，只核对了消费者相关事项（包括2欧元包裹处理费授权法规：截至10月21日未见公布），其余文件未录入。\"}"
+  },
+  {
+    "id": "de-20261023-recht-bund",
+    "source_url": "https://www.recht.bund.de/de/home/home_node.html",
+    "checked_at": "2026-10-23T18:23:05.829Z",
+    "data": "{\"id\":\"de-20261023-recht-bund\",\"sourceUrl\":\"https://www.recht.bund.de/de/home/home_node.html\",\"checkedAt\":\"2026-10-23T18:23:05.829Z\",\"windowStart\":\"2026-10-21\",\"windowEnd\":\"2026-10-23\",\"status\":\"partial\",\"pages\":[\"https://www.recht.bund.de/de/home/home_node.html\",\"https://www.recht.bund.de/bgbl/1/2026/314/VO.html\",\"https://www.recht.bund.de/bgbl/1/2026/315/VO.html\",\"https://www.recht.bund.de/bgbl/1/2026/316/VO.html\",\"https://www.recht.bund.de/bgbl/1/2026/317/VO.html\"],\"recordIds\":[\"de-20261023-bgbl-314\",\"de-20261023-bgbl-315\",\"de-20261023-bgbl-316\",\"de-20261023-bgbl-317\"],\"excluded\":[],\"allPagesChecked\":false,\"totalListed\":null,\"note\":\"首页列出10月22—23日公布的第一部分第314—317号，逐号核读原文；第313号及以前此前已记录。第二部分未扫描。首页列表不是完整的日目录，因此不标为完整。\"}"
+  },
+  {
+    "id": "de-20261023-kabinett",
+    "source_url": "https://www.bundesregierung.de/breg-de/bundesregierung/kabinettsthemen",
+    "checked_at": "2026-10-23T18:23:05.829Z",
+    "data": "{\"id\":\"de-20261023-kabinett\",\"sourceUrl\":\"https://www.bundesregierung.de/breg-de/bundesregierung/kabinettsthemen\",\"checkedAt\":\"2026-10-23T18:23:05.829Z\",\"windowStart\":\"2026-10-21\",\"windowEnd\":\"2026-10-23\",\"status\":\"partial\",\"pages\":[\"https://www.bundesregierung.de/breg-de/bundesregierung/bundeskanzleramt/kabinettssitzungen/bundeskabinett-ergebnisse\",\"https://www.bundesregierung.de/breg-de/bundesregierung/kabinettsthemen\",\"https://www.bundesregierung.de/breg-de/aktuelles\"],\"recordIds\":[],\"excluded\":[],\"allPagesChecked\":false,\"totalListed\":null,\"note\":\"内阁会议结果索引（渲染）截至10月23日最新仍为第62次会议（10月14日），第63次会议结果尚未公布；内阁议题页没有新条目（“早起步养老金”已记录）。\"}"
+  },
+  {
+    "id": "de-20261023-bt-textarchiv",
+    "source_url": "https://www.bundestag.de/dokumente/textarchiv",
+    "checked_at": "2026-10-23T18:23:05.829Z",
+    "data": "{\"id\":\"de-20261023-bt-textarchiv\",\"sourceUrl\":\"https://www.bundestag.de/dokumente/textarchiv\",\"checkedAt\":\"2026-10-23T18:23:05.829Z\",\"windowStart\":\"2026-10-21\",\"windowEnd\":\"2026-10-23\",\"status\":\"partial\",\"pages\":[\"https://www.bundestag.de/dokumente/textarchiv/2026\"],\"recordIds\":[],\"excluded\":[],\"allPagesChecked\":false,\"totalListed\":null,\"note\":\"2026年文字档案列表（渲染）没有新条目，最新仍为第45周预告；第43、44周没有会议。\"}"
+  },
+  {
+    "id": "de-20261023-bundesrat",
+    "source_url": "https://www.bundesrat.de/DE/plenum/plenum-node.html",
+    "checked_at": "2026-10-23T18:23:05.829Z",
+    "data": "{\"id\":\"de-20261023-bundesrat\",\"sourceUrl\":\"https://www.bundesrat.de/DE/plenum/plenum-node.html\",\"checkedAt\":\"2026-10-23T18:23:05.829Z\",\"windowStart\":\"2026-10-21\",\"windowEnd\":\"2026-10-23\",\"status\":\"partial\",\"pages\":[\"https://www.bundesrat.de/DE/plenum/plenum-node.html\",\"https://www.bundesrat.de/DE/plenum/to-plenum/to-plenum-node.html\"],\"recordIds\":[],\"excluded\":[],\"allPagesChecked\":false,\"totalListed\":null,\"note\":\"第1070次全会议程页仍返回404；当前议程仍为10月16日第1069次会议（已记录）。\"}"
+  },
+  {
+    "id": "de-20261023-bmas",
+    "source_url": "https://www.bmas.de/DE/Service/Presse/Pressemitteilungen/pressemitteilungen.html",
+    "checked_at": "2026-10-23T18:23:05.829Z",
+    "data": "{\"id\":\"de-20261023-bmas\",\"sourceUrl\":\"https://www.bmas.de/DE/Service/Presse/Pressemitteilungen/pressemitteilungen.html\",\"checkedAt\":\"2026-10-23T18:23:05.829Z\",\"windowStart\":\"2026-10-21\",\"windowEnd\":\"2026-10-23\",\"status\":\"partial\",\"pages\":[\"https://www.bmas.de/DE/Service/Presse/Pressemitteilungen/pressemitteilungen.html\"],\"recordIds\":[],\"excluded\":[],\"allPagesChecked\":false,\"totalListed\":null,\"note\":\"新闻列表第一页：10月13日之后没有新的新闻稿；“最新消息”页面未核对。\"}"
+  },
+  {
+    "id": "de-20261023-bmg",
+    "source_url": "https://www.bundesgesundheitsministerium.de/suche-pressemitteilungen",
+    "checked_at": "2026-10-23T18:23:05.829Z",
+    "data": "{\"id\":\"de-20261023-bmg\",\"sourceUrl\":\"https://www.bundesgesundheitsministerium.de/suche-pressemitteilungen\",\"checkedAt\":\"2026-10-23T18:23:05.829Z\",\"windowStart\":\"2026-10-21\",\"windowEnd\":\"2026-10-23\",\"status\":\"partial\",\"pages\":[\"https://www.bundesgesundheitsministerium.de/presse/pressemitteilungen\"],\"recordIds\":[],\"excluded\":[],\"allPagesChecked\":false,\"totalListed\":null,\"note\":\"新闻列表：10月15日之后没有新的新闻稿。\"}"
+  },
+  {
+    "id": "de-20261023-bmf",
+    "source_url": "https://www.bundesfinanzministerium.de/Web/DE/Service/Gesetze_Gesetzesvorhaben/Gesetze_Gesetzgebungsvorhaben.html",
+    "checked_at": "2026-10-23T18:23:05.829Z",
+    "data": "{\"id\":\"de-20261023-bmf\",\"sourceUrl\":\"https://www.bundesfinanzministerium.de/Web/DE/Service/Gesetze_Gesetzesvorhaben/Gesetze_Gesetzgebungsvorhaben.html\",\"checkedAt\":\"2026-10-23T18:23:05.829Z\",\"windowStart\":\"2026-10-21\",\"windowEnd\":\"2026-10-23\",\"status\":\"partial\",\"pages\":[\"https://www.bundesfinanzministerium.de/Web/DE/Service/Gesetze_Gesetzesvorhaben/Gesetze_Gesetzgebungsvorhaben.html\",\"https://www.bundesfinanzministerium.de/Web/DE/Presse/Pressemitteilungen/pressemitteilungen.html\"],\"recordIds\":[\"bmf-20261022-tax-estimate-171\"],\"excluded\":[],\"allPagesChecked\":false,\"totalListed\":null,\"note\":\"法律与法案目录最新条目为10月12日，没有新增；新闻列表：10月22日第171次税收预测已登记。\"}"
+  },
+  {
+    "id": "eu-oj-20261023-19",
+    "source_url": "https://eur-lex.europa.eu/oj/direct-access.html",
+    "checked_at": "2026-10-23T18:23:05.829Z",
+    "data": "{\"id\":\"eu-oj-20261023-19\",\"sourceUrl\":\"https://eur-lex.europa.eu/oj/direct-access.html\",\"checkedAt\":\"2026-10-23T18:23:05.829Z\",\"windowStart\":\"2026-10-19\",\"windowEnd\":\"2026-10-19\",\"status\":\"complete\",\"pages\":[\"https://eur-lex.europa.eu/oj/daily-view/L-series/default.html?ojDate=19102026\",\"https://eur-lex.europa.eu/oj/daily-view/C-series/default.html?ojDate=19102026\"],\"recordIds\":[\"eu-oj-l-202602304\",\"eu-oj-l-202602305\",\"eu-oj-l-202602298\",\"eu-oj-l-202602309\",\"eu-oj-l-202602328\",\"eu-oj-l-202602337\",\"eu-oj-l-202602325\",\"eu-oj-l-202602344\",\"eu-oj-l-202690883\",\"eu-oj-l-202690888\",\"eu-oj-l-202690892\",\"eu-oj-l-202690894\",\"eu-oj-l-202690895\",\"eu-oj-l-202690896\",\"eu-oj-l-202690897\",\"eu-oj-l-202690898\",\"eu-oj-l-202690899\",\"eu-oj-c-202605433\",\"eu-oj-c-202605443\",\"eu-oj-c-202605163\",\"eu-oj-c-202605202\",\"eu-oj-c-202605203\",\"eu-oj-c-202605204\",\"eu-oj-c-202605205\",\"eu-oj-c-202605206\",\"eu-oj-c-202605207\",\"eu-oj-c-202605208\",\"eu-oj-c-202605209\",\"eu-oj-c-202605210\",\"eu-oj-c-202605211\",\"eu-oj-c-202605212\",\"eu-oj-c-202605213\",\"eu-oj-c-202605214\",\"eu-oj-c-202605215\",\"eu-oj-c-202605216\",\"eu-oj-c-202605217\",\"eu-oj-c-202605218\",\"eu-oj-c-202605219\",\"eu-oj-c-202605220\",\"eu-oj-c-202605221\",\"eu-oj-c-202605222\",\"eu-oj-c-202605223\",\"eu-oj-c-202605224\",\"eu-oj-c-202605225\",\"eu-oj-c-202605226\",\"eu-oj-c-202605227\",\"eu-oj-c-202605228\",\"eu-oj-c-202605229\",\"eu-oj-c-202605230\",\"eu-oj-c-202605231\",\"eu-oj-c-202605232\",\"eu-oj-c-202605233\",\"eu-oj-c-202605234\",\"eu-oj-c-202605235\",\"eu-oj-c-202605236\",\"eu-oj-c-202605237\",\"eu-oj-c-202605238\",\"eu-oj-c-202605239\",\"eu-oj-c-202605240\",\"eu-oj-c-202605241\",\"eu-oj-c-202605242\",\"eu-oj-c-202605425\",\"eu-oj-c-202605426\",\"eu-oj-c-202605199\"],\"excluded\":[],\"allPagesChecked\":true,\"totalListed\":64,\"note\":\"10月19日公报L、C系列共64项，已逐项登记，并解读、并入已有事项或列为无需解读。\"}"
+  },
+  {
+    "id": "eu-oj-20261023-20",
+    "source_url": "https://eur-lex.europa.eu/oj/direct-access.html",
+    "checked_at": "2026-10-23T18:23:05.829Z",
+    "data": "{\"id\":\"eu-oj-20261023-20\",\"sourceUrl\":\"https://eur-lex.europa.eu/oj/direct-access.html\",\"checkedAt\":\"2026-10-23T18:23:05.829Z\",\"windowStart\":\"2026-10-20\",\"windowEnd\":\"2026-10-20\",\"status\":\"complete\",\"pages\":[\"https://eur-lex.europa.eu/oj/daily-view/L-series/default.html?ojDate=20102026\",\"https://eur-lex.europa.eu/oj/daily-view/C-series/default.html?ojDate=20102026\"],\"recordIds\":[\"eu-oj-l-202602322\",\"eu-oj-l-202602323\",\"eu-oj-l-202602311\",\"eu-oj-l-202602319\",\"eu-oj-l-202602334\",\"eu-oj-l-202602352\",\"eu-oj-l-202602267\",\"eu-oj-l-202602326\",\"eu-oj-l-202602297\",\"eu-oj-l-202602353\",\"eu-oj-l-202690893\",\"eu-oj-l-202690903\",\"eu-oj-c-202605094\",\"eu-oj-c-202605095\",\"eu-oj-c-202605096\",\"eu-oj-c-202605097\",\"eu-oj-c-202605098\",\"eu-oj-c-202605305\",\"eu-oj-c-202605435\",\"eu-oj-c-202605442\",\"eu-oj-c-202605444\",\"eu-oj-c-202605448\",\"eu-oj-c-202605099\",\"eu-oj-c-202605100\",\"eu-oj-c-202605101\",\"eu-oj-c-202605102\",\"eu-oj-c-202605103\",\"eu-oj-c-202605104\",\"eu-oj-c-202605105\",\"eu-oj-c-202605106\",\"eu-oj-c-202605107\",\"eu-oj-c-202605108\",\"eu-oj-c-202605109\",\"eu-oj-c-202605110\",\"eu-oj-c-202605111\",\"eu-oj-c-202605112\",\"eu-oj-c-202605445\",\"eu-oj-c-202605446\",\"eu-oj-c-202605457\",\"eu-oj-c-202605523\",\"eu-oj-c-202605164\",\"eu-oj-c-202605439\",\"eu-oj-c-202605440\",\"eu-oj-c-202605532\",\"eu-oj-c-202605436\",\"eu-oj-c-202605437\",\"eu-oj-c-202605438\"],\"excluded\":[],\"allPagesChecked\":true,\"totalListed\":47,\"note\":\"10月20日公报L、C系列共47项，已逐项登记，并解读、并入已有事项或列为无需解读。\"}"
+  },
+  {
+    "id": "eu-oj-20261023-21",
+    "source_url": "https://eur-lex.europa.eu/oj/direct-access.html",
+    "checked_at": "2026-10-23T18:23:05.829Z",
+    "data": "{\"id\":\"eu-oj-20261023-21\",\"sourceUrl\":\"https://eur-lex.europa.eu/oj/direct-access.html\",\"checkedAt\":\"2026-10-23T18:23:05.829Z\",\"windowStart\":\"2026-10-21\",\"windowEnd\":\"2026-10-21\",\"status\":\"complete\",\"pages\":[\"https://eur-lex.europa.eu/oj/daily-view/L-series/default.html?ojDate=21102026\",\"https://eur-lex.europa.eu/oj/daily-view/C-series/default.html?ojDate=21102026\"],\"recordIds\":[\"eu-oj-l-202602343\",\"eu-oj-l-202602310\",\"eu-oj-l-202602314\",\"eu-oj-l-202602336\",\"eu-oj-l-202602339\",\"eu-oj-l-202602355\",\"eu-oj-l-202602356\",\"eu-oj-l-202602357\",\"eu-oj-l-202602324\",\"eu-oj-l-202602306\",\"eu-oj-l-202690900\",\"eu-oj-l-202690902\",\"eu-oj-l-202690909\",\"eu-oj-c-202605447\",\"eu-oj-c-202605458\",\"eu-oj-c-202605526\",\"eu-oj-c-202605527\",\"eu-oj-c-202605528\",\"eu-oj-c-202605165\",\"eu-oj-c-202605428\",\"eu-oj-c-202605453\",\"eu-oj-c-202605454\",\"eu-oj-c-202605455\",\"eu-oj-c-202605456\",\"eu-oj-c-202605544\",\"eu-oj-c-202605283\",\"eu-oj-c-202605449\",\"eu-oj-c-202605450\",\"eu-oj-c-202605441\"],\"excluded\":[],\"allPagesChecked\":true,\"totalListed\":29,\"note\":\"10月21日公报L、C系列共29项，已逐项登记，并解读、并入已有事项或列为无需解读。\"}"
+  },
+  {
+    "id": "eu-oj-20261023-22",
+    "source_url": "https://eur-lex.europa.eu/oj/direct-access.html",
+    "checked_at": "2026-10-23T18:23:05.829Z",
+    "data": "{\"id\":\"eu-oj-20261023-22\",\"sourceUrl\":\"https://eur-lex.europa.eu/oj/direct-access.html\",\"checkedAt\":\"2026-10-23T18:23:05.829Z\",\"windowStart\":\"2026-10-22\",\"windowEnd\":\"2026-10-22\",\"status\":\"complete\",\"pages\":[\"https://eur-lex.europa.eu/oj/daily-view/L-series/default.html?ojDate=22102026\",\"https://eur-lex.europa.eu/oj/daily-view/C-series/default.html?ojDate=22102026\"],\"recordIds\":[\"eu-oj-l-202602350\",\"eu-oj-l-202602351\",\"eu-oj-l-202601770\",\"eu-oj-l-202602152\",\"eu-oj-l-202602327\",\"eu-oj-l-202602341\",\"eu-oj-l-202602354\",\"eu-oj-l-202602384\",\"eu-oj-l-202602349\",\"eu-oj-l-202602335\",\"eu-oj-l-202690901\",\"eu-oj-l-202690904\",\"eu-oj-l-202690905\",\"eu-oj-l-202690906\",\"eu-oj-l-202690908\",\"eu-oj-c-202605531\",\"eu-oj-c-202605399\",\"eu-oj-c-202605400\",\"eu-oj-c-202605401\",\"eu-oj-c-202605402\",\"eu-oj-c-202605403\",\"eu-oj-c-202605404\",\"eu-oj-c-202605405\",\"eu-oj-c-202605406\",\"eu-oj-c-202605166\",\"eu-oj-c-202605286\",\"eu-oj-c-202605451\",\"eu-oj-c-202605452\",\"eu-oj-c-202605524\",\"eu-oj-c-202605529\",\"eu-oj-c-202605530\",\"eu-oj-c-202690076\"],\"excluded\":[],\"allPagesChecked\":true,\"totalListed\":32,\"note\":\"10月22日公报L、C系列共32项，已逐项登记，并解读、并入已有事项或列为无需解读。\"}"
+  },
+  {
+    "id": "eu-oj-20261023-23",
+    "source_url": "https://eur-lex.europa.eu/oj/direct-access.html",
+    "checked_at": "2026-10-23T18:23:05.829Z",
+    "data": "{\"id\":\"eu-oj-20261023-23\",\"sourceUrl\":\"https://eur-lex.europa.eu/oj/direct-access.html\",\"checkedAt\":\"2026-10-23T18:23:05.829Z\",\"windowStart\":\"2026-10-23\",\"windowEnd\":\"2026-10-23\",\"status\":\"partial\",\"pages\":[\"https://eur-lex.europa.eu/oj/daily-view/L-series/default.html?ojDate=23102026\",\"https://eur-lex.europa.eu/oj/daily-view/C-series/default.html?ojDate=23102026\"],\"recordIds\":[\"eu-oj-l-202601763\",\"eu-oj-l-202602358\",\"eu-oj-l-202602338\",\"eu-oj-l-202602340\",\"eu-oj-l-202602342\",\"eu-oj-l-202602371\",\"eu-oj-l-202602388\",\"eu-oj-l-202602373\",\"eu-oj-l-202602329\",\"eu-oj-l-202690907\",\"eu-oj-l-202690910\",\"eu-oj-l-202690911\",\"eu-oj-l-202690912\",\"eu-oj-l-202690913\",\"eu-oj-l-202690914\",\"eu-oj-l-202690915\",\"eu-oj-l-202690916\",\"eu-oj-l-202690917\",\"eu-oj-l-202690918\",\"eu-oj-c-202605540\",\"eu-oj-c-202605550\",\"eu-oj-c-202605170\",\"eu-oj-c-202605546\",\"eu-oj-c-202605565\"],\"excluded\":[],\"allPagesChecked\":false,\"totalListed\":null,\"note\":\"10月23日为当天，目录可能仍会增加；已登记查看时列出的24项。\"}"
+  },
+  {
+    "id": "eu-20261023-oeil",
+    "source_url": "https://oeil.europarl.europa.eu/oeil/en",
+    "checked_at": "2026-10-23T18:23:05.829Z",
+    "data": "{\"id\":\"eu-20261023-oeil\",\"sourceUrl\":\"https://oeil.europarl.europa.eu/oeil/en\",\"checkedAt\":\"2026-10-23T18:23:05.829Z\",\"windowStart\":\"2026-10-20\",\"windowEnd\":\"2026-10-23\",\"status\":\"partial\",\"pages\":[\"https://oeil.europarl.europa.eu/oeil/en/procedure-file/pdf?reference=2023%2F0437%28COD%29\",\"https://oeil.europarl.europa.eu/oeil/en/procedure-file/pdf?reference=2025%2F0395%28COD%29\",\"https://oeil.europarl.europa.eu/oeil/en/procedure-file/pdf?reference=2025%2F0396%28COD%29\",\"https://oeil.europarl.europa.eu/oeil/en/procedure-file/pdf?reference=2025%2F0222%28COD%29\",\"https://www.europarl.europa.eu/news/en/press-room\"],\"recordIds\":[\"ep-20261020-ipr48256\",\"ep-20261022-ipr48265\",\"ep-20261022-ipr48321\",\"ep-20261022-ipr48248\",\"ep-20261021-ipr48255\",\"ep-20261021-ipr48257\",\"ep-20261021-ipr48258\",\"ep-20261021-ipr48259\",\"ep-20261021-ipr48260\",\"ep-20261022-ipr48263\",\"ep-20261022-ipr48264\",\"ep-20261022-ipr48266\",\"ep-20261022-ipr48267\",\"ep-20261022-ipr48283\",\"ep-20261023-ipr48287\"],\"excluded\":[],\"allPagesChecked\":false,\"totalListed\":null,\"note\":\"四个已跟踪程序的档案（10月23日版）已核对表决结果；欧洲议会新闻发布室（渲染）10月20—23日的15条新闻稿已全部登记。立法观察站其他程序未扫描。\"}"
+  },
+  {
+    "id": "eu-20261023-esma",
+    "source_url": "https://www.esma.europa.eu/press-news/esma-news",
+    "checked_at": "2026-10-23T18:23:05.829Z",
+    "data": "{\"id\":\"eu-20261023-esma\",\"sourceUrl\":\"https://www.esma.europa.eu/press-news/esma-news\",\"checkedAt\":\"2026-10-23T18:23:05.829Z\",\"windowStart\":\"2026-10-21\",\"windowEnd\":\"2026-10-23\",\"status\":\"partial\",\"pages\":[\"https://www.esma.europa.eu/press-news/esma-news\"],\"recordIds\":[\"esma-20261022-qa-streamlining\"],\"excluded\":[],\"allPagesChecked\":false,\"totalListed\":null,\"note\":\"新闻列表第一页：10月21日后新增一条（10月22日）。\"}"
+  },
+  {
+    "id": "eu-20261023-taxud",
+    "source_url": "https://taxation-customs.ec.europa.eu/news_en",
+    "checked_at": "2026-10-23T18:23:05.829Z",
+    "data": "{\"id\":\"eu-20261023-taxud\",\"sourceUrl\":\"https://taxation-customs.ec.europa.eu/news_en\",\"checkedAt\":\"2026-10-23T18:23:05.829Z\",\"windowStart\":\"2026-10-21\",\"windowEnd\":\"2026-10-23\",\"status\":\"partial\",\"pages\":[\"https://taxation-customs.ec.europa.eu/news_en\"],\"recordIds\":[\"taxud-20261022-counterfeit-report\"],\"excluded\":[],\"allPagesChecked\":false,\"totalListed\":null,\"note\":\"新闻列表第一页：10月9日后新增一条（10月22日）。\"}"
   }
 ]

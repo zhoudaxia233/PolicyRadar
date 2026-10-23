@@ -5253,6 +5253,101 @@
         }
       ],
       "appliesFromExport": "2026-10-21T17:58:19.854Z"
+    },
+    {
+      "id": "eu-union-handling-fee-2026",
+      "title": [
+        "欧盟网购包裹2欧元处理费：金额确定",
+        "EU EUR 2 handling fee on online-shopping parcels: amount set"
+      ],
+      "basis": "Delegated Regulation (EU) 2026/2152 sets the Union handling fee under Article 20 of Regulation (EU) 2026/2108; eu-low-value-parcels-2026 explains that fee alongside the EUR 3 duty and is keyed by Regulation (EU) 2026/382.",
+      "explanations": [
+        "eu-low-value-parcels-2026"
+      ],
+      "documents": [
+        {
+          "region": "EU",
+          "officialId": "OJ:L_202602152"
+        }
+      ],
+      "appliesFromExport": "2026-10-23T18:23:05.829Z"
+    },
+    {
+      "id": "eu-battery-removability-2027",
+      "title": [
+        "便携式电池可由用户更换：豁免和适用指南",
+        "User-replaceable portable batteries: exemptions and guidelines"
+      ],
+      "basis": "Delegated Regulation (EU) 2026/1770 replaces Article 11(2) of Regulation (EU) 2023/1542, and Commission Notice C/2026/5531 gives guidance on the same Article 11; both were published on 22 October 2026.",
+      "documents": [
+        {
+          "region": "EU",
+          "officialId": "OJ:L_202601770"
+        },
+        {
+          "region": "EU",
+          "officialId": "OJ:C_202605531"
+        }
+      ],
+      "appliesFromExport": "2026-10-23T18:23:05.829Z"
+    },
+    {
+      "id": "eu-solar-glass-china-duties-2026",
+      "title": [
+        "中国太阳能玻璃：反倾销税和反补贴税取消",
+        "Solar glass from China: anti-dumping and countervailing duties repealed"
+      ],
+      "basis": "Implementing Regulations (EU) 2026/2314 and 2026/2310 repeal, after expiry reviews, the anti-dumping and countervailing duties on the same product definition of solar glass from China, both adopted on 19 October 2026.",
+      "documents": [
+        {
+          "region": "EU",
+          "officialId": "OJ:L_202602314"
+        },
+        {
+          "region": "EU",
+          "officialId": "OJ:L_202602310"
+        }
+      ],
+      "appliesFromExport": "2026-10-23T18:23:05.829Z"
+    },
+    {
+      "id": "eu-epr-authorised-representative-2026",
+      "title": [
+        "生产者责任“授权代表”义务暂停：两项提案",
+        "Suspension of the EPR authorised-representative obligation: two proposals"
+      ],
+      "basis": "The Parliament press release of 20 October 2026 reports the positions on both 2025/0395(COD) (batteries and packaging regulation) and 2025/0396(COD) (waste directives), each explained separately.",
+      "explanations": [
+        "eu-epr-authorised-representative-suspension",
+        "eu-epr-waste-directives-suspension"
+      ],
+      "documents": [
+        {
+          "region": "EU",
+          "url": "https://www.europarl.europa.eu/news/en/press-room/20261018IPR48256/waste-meps-back-simplified-rules-for-small-businesses",
+          "title": "Waste: MEPs back simplified rules for small businesses"
+        }
+      ],
+      "appliesFromExport": "2026-10-23T18:23:05.829Z"
+    },
+    {
+      "id": "eu-methane-importer-delay-2026",
+      "title": [
+        "《甲烷条例》进口商义务推迟",
+        "Delay of Methane Regulation importer obligations"
+      ],
+      "basis": "The Parliament press release of 22 October 2026 reports its position on the Commission proposal (2026/0325(COD), IP/26/2119) explained in eu-methane-regulation-importer-delay-proposal, which is keyed by the Commission news URL.",
+      "explanations": [
+        "eu-methane-regulation-importer-delay-proposal"
+      ],
+      "documents": [
+        {
+          "region": "EU",
+          "url": "https://www.europarl.europa.eu/news/en/press-room/20261021IPR48321/methane-rules-parliament-backs-longer-delay-for-energy-importers-and-producers",
+          "title": "Methane rules: Parliament backs longer delay for energy importers and producers"
+        }
+      ],
+      "appliesFromExport": "2026-10-23T18:23:05.829Z"
     }
   ]
 }

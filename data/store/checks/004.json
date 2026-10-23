@@ -3349,37 +3349,280 @@
   },
   {
     "url": "https://oeil.europarl.europa.eu/oeil/en/procedure-file/pdf?reference=2023%2F0437%28COD%29",
-    "checked_at": "2026-10-21T18:57:02.638076Z",
-    "last_success_at": "2026-10-21T18:57:02.638076Z",
-    "hash": "97b26525c8a405b01369f02f0f4a1d68bddfec6d93aeba3d297b53fc2fc8aa03",
-    "snapshot_key": "sources/5b53713221544fdf821c7df6966e72e536e2500e52993af08c3c6f632d58eb76/97b26525c8a405b01369f02f0f4a1d68bddfec6d93aeba3d297b53fc2fc8aa03.pdf",
+    "checked_at": "2026-10-23T17:59:36.776Z",
+    "last_success_at": "2026-10-23T17:59:36.776Z",
+    "hash": "f373ed47e5c0278d0ad7c974ce938e56b59d9ed7700f0e44d63ac53475f7c0fa",
+    "snapshot_key": "sources/5b53713221544fdf821c7df6966e72e536e2500e52993af08c3c6f632d58eb76/f373ed47e5c0278d0ad7c974ce938e56b59d9ed7700f0e44d63ac53475f7c0fa.pdf",
     "changed": 0,
     "error": null
   },
   {
     "url": "https://oeil.europarl.europa.eu/oeil/en/procedure-file/pdf?reference=2025%2F0395%28COD%29",
-    "checked_at": "2026-10-21T18:59:52.417361Z",
-    "last_success_at": "2026-10-21T18:59:52.417361Z",
-    "hash": "ac20efc31055c47b484acd90f997e49e5f548f9a2732a3844db9fdde3ee86356",
-    "snapshot_key": "sources/1f9c3ecb6acdf7f2403d687892fc4bec175e559146b928f2aad3b364f1285fd1/ac20efc31055c47b484acd90f997e49e5f548f9a2732a3844db9fdde3ee86356.pdf",
+    "checked_at": "2026-10-23T17:59:38.819Z",
+    "last_success_at": "2026-10-23T17:59:38.819Z",
+    "hash": "ecb31a3e163fc7b692158fd55158ff0952d0e13787f2ddb551c222e139e77c2e",
+    "snapshot_key": "sources/1f9c3ecb6acdf7f2403d687892fc4bec175e559146b928f2aad3b364f1285fd1/ecb31a3e163fc7b692158fd55158ff0952d0e13787f2ddb551c222e139e77c2e.pdf",
     "changed": 0,
     "error": null
   },
   {
     "url": "https://oeil.europarl.europa.eu/oeil/en/procedure-file/pdf?reference=2025%2F0396%28COD%29",
-    "checked_at": "2026-10-21T18:59:52.959310Z",
-    "last_success_at": "2026-10-21T18:59:52.959310Z",
-    "hash": "e26dfd713deaee48f5b96cedb410e3e16aa46cf91ee2c6476d2b4ccbe687c856",
-    "snapshot_key": "sources/850372ac4280320c8b6d04983b7edd686b7e440d11c7ea1da19e002d4d2c6e9d/e26dfd713deaee48f5b96cedb410e3e16aa46cf91ee2c6476d2b4ccbe687c856.pdf",
+    "checked_at": "2026-10-23T17:59:39.155Z",
+    "last_success_at": "2026-10-23T17:59:39.155Z",
+    "hash": "ec61c9978efa5a0ac90054bf5351e363c4052e2c0262f915dfecf8d7e898452d",
+    "snapshot_key": "sources/850372ac4280320c8b6d04983b7edd686b7e440d11c7ea1da19e002d4d2c6e9d/ec61c9978efa5a0ac90054bf5351e363c4052e2c0262f915dfecf8d7e898452d.pdf",
     "changed": 0,
     "error": null
   },
   {
     "url": "https://oeil.europarl.europa.eu/oeil/en/procedure-file/pdf?reference=2025%2F0222%28COD%29",
-    "checked_at": "2026-10-21T18:59:53.508929Z",
-    "last_success_at": "2026-10-21T18:59:53.508929Z",
-    "hash": "d65959315fdb0381e64c7364bb0cd008d268bd93f2a096fbae7f9c679bc93b6b",
-    "snapshot_key": "sources/4bb853c89d4e310e78adc55d31ddc65d21dc87f147cb083c0d8e833734077577/d65959315fdb0381e64c7364bb0cd008d268bd93f2a096fbae7f9c679bc93b6b.pdf",
+    "checked_at": "2026-10-23T17:59:33.893Z",
+    "last_success_at": "2026-10-23T17:59:33.893Z",
+    "hash": "bc616668711bb5947fab94f49f414159551646b76b2f711c44d9dd57e23314b9",
+    "snapshot_key": "sources/4bb853c89d4e310e78adc55d31ddc65d21dc87f147cb083c0d8e833734077577/bc616668711bb5947fab94f49f414159551646b76b2f711c44d9dd57e23314b9.pdf",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://www.recht.bund.de/bgbl/1/2026/314/VO.html",
+    "checked_at": "2026-10-23T17:59:52.425Z",
+    "last_success_at": "2026-10-23T17:59:52.425Z",
+    "hash": "8170a37e89e8c7f5576c79c3c1d72ade833357dd2215aaf8ffbf9b3ad8884dc2",
+    "snapshot_key": "sources/32772ebd2e0b556bb32f2e962cfad2dda8508c2a01f2b2b4fecc7c1529a7a79d/8170a37e89e8c7f5576c79c3c1d72ade833357dd2215aaf8ffbf9b3ad8884dc2.html",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://www.recht.bund.de/bgbl/1/2026/314/regelungstext.pdf?__blob=publicationFile&v=1",
+    "checked_at": "2026-10-23T17:59:58.674Z",
+    "last_success_at": "2026-10-23T17:59:58.674Z",
+    "hash": "c15390daed12e6d614bd706d79f83aa74e0117b4318430ee43fd5a750f35d909",
+    "snapshot_key": "sources/f735f090b7155e359747710c146de6003e68c4605dd2d0bf4c9684ce6bfc728a/c15390daed12e6d614bd706d79f83aa74e0117b4318430ee43fd5a750f35d909.pdf",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://www.gesetze-im-internet.de/wistrg_1954/__3.html",
+    "checked_at": "2026-10-23T18:03:23.522Z",
+    "last_success_at": "2026-10-23T18:03:23.522Z",
+    "hash": "5fdf2db425d3af0a021e79344d540892b9de2f90114059a25b3867eb9e1ca99c",
+    "snapshot_key": "sources/c671b0056e3df55201783895e316987bf60f2ad41da7c0cfd4be3d9144279238/5fdf2db425d3af0a021e79344d540892b9de2f90114059a25b3867eb9e1ca99c.html",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://www.gesetze-im-internet.de/pangv_2022/__20.html",
+    "checked_at": "2026-10-23T18:03:12.768Z",
+    "last_success_at": "2026-10-23T18:03:12.768Z",
+    "hash": "5b9ac1e44ace00ea0633ab051e9ea6f629d14b6a88c0ffaa028aa23dd9aa0f63",
+    "snapshot_key": "sources/99f8accf24f5bde9f9c0314ec3566019d1a013e8bc96316570434c333e685dfe/5b9ac1e44ace00ea0633ab051e9ea6f629d14b6a88c0ffaa028aa23dd9aa0f63.html",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://www.recht.bund.de/bgbl/1/2026/315/VO.html",
+    "checked_at": "2026-10-23T17:59:52.547Z",
+    "last_success_at": "2026-10-23T17:59:52.547Z",
+    "hash": "21ec8339460df8f3e61e1511cd385c0af18aa05b9df545ddd8601e175b28a043",
+    "snapshot_key": "sources/b93e6b6e33e0b044f6bd3d847a306d9a89f5fee1fe77a82b9374f7efe77c87ee/21ec8339460df8f3e61e1511cd385c0af18aa05b9df545ddd8601e175b28a043.html",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://www.recht.bund.de/bgbl/1/2026/315/regelungstext.pdf?__blob=publicationFile&v=1",
+    "checked_at": "2026-10-23T17:59:58.812Z",
+    "last_success_at": "2026-10-23T17:59:58.812Z",
+    "hash": "ae295b1e29b31169a630273b858cbbc573eaa6de7fcd8dc442c1fd83945e3364",
+    "snapshot_key": "sources/e3274f7575148e8125ce45721ad5b948541bc85fd6f19494e6188ed3c15b2b27/ae295b1e29b31169a630273b858cbbc573eaa6de7fcd8dc442c1fd83945e3364.pdf",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://www.recht.bund.de/bgbl/1/2026/117/VO.html",
+    "checked_at": "2026-10-23T18:02:40.214Z",
+    "last_success_at": "2026-10-23T18:02:40.214Z",
+    "hash": "fd16ec7d45d206f1abcb652d3f67114b59a25a103d6e0d9e0022daab991a3b8d",
+    "snapshot_key": "sources/d100841c4686d2809f07a2a9d569b1eed34a4824ff50d1af2caa193d4ea1ec98/fd16ec7d45d206f1abcb652d3f67114b59a25a103d6e0d9e0022daab991a3b8d.html",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://www.recht.bund.de/bgbl/1/2026/117/regelungstext.pdf?__blob=publicationFile&v=1",
+    "checked_at": "2026-10-23T18:02:46.427Z",
+    "last_success_at": "2026-10-23T18:02:46.427Z",
+    "hash": "04cb5b60d101c6bd46e5c4c8b24338bfcc39014eee5c59c1ea38d905a4f190d9",
+    "snapshot_key": "sources/acf783d4ec89b1674baa49f314f88298e0456a431502db3d5e99cbe579387a28/04cb5b60d101c6bd46e5c4c8b24338bfcc39014eee5c59c1ea38d905a4f190d9.pdf",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://www.recht.bund.de/bgbl/1/2026/316/VO.html",
+    "checked_at": "2026-10-23T17:59:52.630Z",
+    "last_success_at": "2026-10-23T17:59:52.630Z",
+    "hash": "bc4dc86d96e429db94c30b6886f96303bf765634a9f6ed691aff2463c2547461",
+    "snapshot_key": "sources/cecd5da43f947b3ebda8924dc75c190dac53b212b3f3f14b95053f0d10f5c051/bc4dc86d96e429db94c30b6886f96303bf765634a9f6ed691aff2463c2547461.html",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://www.recht.bund.de/bgbl/1/2026/316/regelungstext.pdf?__blob=publicationFile&v=1",
+    "checked_at": "2026-10-23T17:59:58.980Z",
+    "last_success_at": "2026-10-23T17:59:58.980Z",
+    "hash": "7449ebe7e9e6598a16d9f2ed1e9d43776b493a2e096b6acb66b0671ec5818131",
+    "snapshot_key": "sources/405cd82f49ce3eba9984f7e5dacbf23ad94fd5d92867583b7cc28a8bfdac1948/7449ebe7e9e6598a16d9f2ed1e9d43776b493a2e096b6acb66b0671ec5818131.pdf",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://www.recht.bund.de/bgbl/1/2026/142/VO.html",
+    "checked_at": "2026-10-23T18:02:39.838Z",
+    "last_success_at": "2026-10-23T18:02:39.838Z",
+    "hash": "2ce4ea8887194b7d34b620c115b532d94aa1dac57c1cc43ff0ceee7900bc72b8",
+    "snapshot_key": "sources/44f76b20c3dada7afcb53905157f576186ce6f7de5f432b9d034c2da45872106/2ce4ea8887194b7d34b620c115b532d94aa1dac57c1cc43ff0ceee7900bc72b8.html",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://www.recht.bund.de/bgbl/1/2026/142/regelungstext.pdf?__blob=publicationFile&v=1",
+    "checked_at": "2026-10-23T18:02:46.279Z",
+    "last_success_at": "2026-10-23T18:02:46.279Z",
+    "hash": "5196ffc090fc60df8fa9a3b4bf39f547593f09c9c50a50f11502c5f78589db42",
+    "snapshot_key": "sources/d5ec5d43b10622db14e3161a3bb6baae13041e4f30b658e218157e4b1bc5f171/5196ffc090fc60df8fa9a3b4bf39f547593f09c9c50a50f11502c5f78589db42.pdf",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://www.recht.bund.de/bgbl/1/2026/317/VO.html",
+    "checked_at": "2026-10-23T17:59:52.806Z",
+    "last_success_at": "2026-10-23T17:59:52.806Z",
+    "hash": "86ff683d2cdb21a67acb4ecc905206dfa5cf17a2293aaeffd60b8a3b15aa98fe",
+    "snapshot_key": "sources/400e23b7fae2bb5f2caf5fb4a991d8229d636c954e1320e58355748b0e3344ec/86ff683d2cdb21a67acb4ecc905206dfa5cf17a2293aaeffd60b8a3b15aa98fe.html",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://www.recht.bund.de/bgbl/1/2026/317/regelungstext.pdf?__blob=publicationFile&v=1",
+    "checked_at": "2026-10-23T17:59:59.053Z",
+    "last_success_at": "2026-10-23T17:59:59.053Z",
+    "hash": "fedc59a0cd7085dab901ecaced29ad8408c68550230c1671bb2073c0e5d38e2c",
+    "snapshot_key": "sources/f2f9b4c56ad5499c6468e82ebf553897dc7f8ef54a1ed07cd647dc0bae6de4f4/fedc59a0cd7085dab901ecaced29ad8408c68550230c1671bb2073c0e5d38e2c.pdf",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://publications.europa.eu/resource/cellar/464be429-cdb1-11f1-8b4c-01aa75ed71a1.0006.03/DOC_1",
+    "checked_at": "2026-10-23T18:14:33.067Z",
+    "last_success_at": "2026-10-23T18:14:33.067Z",
+    "hash": "88e7ee73f7f1eab6fc44c8f05b94eb0091f98223ae38adabf583744785382197",
+    "snapshot_key": "sources/bd3af969992933eec3ae21fcf1fa05f3e50afd01e5182662c4b765a85da523b5/88e7ee73f7f1eab6fc44c8f05b94eb0091f98223ae38adabf583744785382197.html",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://publications.europa.eu/resource/cellar/e5b7ec1d-cdb0-11f1-8b4c-01aa75ed71a1.0006.03/DOC_1",
+    "checked_at": "2026-10-23T18:14:33.248Z",
+    "last_success_at": "2026-10-23T18:14:33.248Z",
+    "hash": "b02083c9bb3f3c4483e93e9aabc8db64220a675b7abc32a35b0bcbae1272715b",
+    "snapshot_key": "sources/3992a272851a7337aed45bc6f9ba2b0aa3e24ddbfb94dc17e13983be2e550ebe/b02083c9bb3f3c4483e93e9aabc8db64220a675b7abc32a35b0bcbae1272715b.html",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://publications.europa.eu/resource/cellar/c10911ee-cd2f-11f1-8b4c-01aa75ed71a1.0006.03/DOC_1",
+    "checked_at": "2026-10-23T18:14:33.360Z",
+    "last_success_at": "2026-10-23T18:14:33.360Z",
+    "hash": "6f1dcc26d39cc4caeb6695642722910c37d9291547687475f0b119255c14a6ce",
+    "snapshot_key": "sources/d220f8d622fda0ad195b6f4a03c52335b92eb4f5f8d0fb52b421e889b593a0fa/6f1dcc26d39cc4caeb6695642722910c37d9291547687475f0b119255c14a6ce.html",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://publications.europa.eu/resource/cellar/41f99a86-cd2f-11f1-8b4c-01aa75ed71a1.0006.03/DOC_1",
+    "checked_at": "2026-10-23T18:14:33.599Z",
+    "last_success_at": "2026-10-23T18:14:33.599Z",
+    "hash": "b665d7e169f7606c899436a892c26d3d15de49e54140b7a37c4ef46d656129dc",
+    "snapshot_key": "sources/923c837a199ed9f0cf9a3baad612985be20cec617bea821ffb973210de1278fe/b665d7e169f7606c899436a892c26d3d15de49e54140b7a37c4ef46d656129dc.html",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://publications.europa.eu/resource/cellar/ff23ec60-cd2e-11f1-8b4c-01aa75ed71a1.0006.03/DOC_1",
+    "checked_at": "2026-10-23T18:14:33.495Z",
+    "last_success_at": "2026-10-23T18:14:33.495Z",
+    "hash": "7118e837be43bde12b366d5e8f001a76bc7e978bf7868ca32a7596077fb96761",
+    "snapshot_key": "sources/f713670211a6e13a5184102271940e104e7d41a806cba971ba73aaeab1064c84/7118e837be43bde12b366d5e8f001a76bc7e978bf7868ca32a7596077fb96761.html",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://publications.europa.eu/resource/cellar/1cd21b2a-cc1f-11f1-8b4c-01aa75ed71a1.0006.03/DOC_1",
+    "checked_at": "2026-10-23T18:14:33.696Z",
+    "last_success_at": "2026-10-23T18:14:33.696Z",
+    "hash": "3d11a229e6e09be7c698bfb90a2faef143c39368e517288540bd301f84727970",
+    "snapshot_key": "sources/bc5a4a8abbe08b4dcf27cc00f08919df87bcb6a2e61c1615b7202f77756c9df6/3d11a229e6e09be7c698bfb90a2faef143c39368e517288540bd301f84727970.html",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://publications.europa.eu/resource/cellar/e5eeda9e-cdb0-11f1-8b4c-01aa75ed71a1.0006.03/DOC_1",
+    "checked_at": "2026-10-23T18:14:33.906Z",
+    "last_success_at": "2026-10-23T18:14:33.906Z",
+    "hash": "700552480e1714d324c9efda98339cf08801ea40545557f8b8bacf7908b7faba",
+    "snapshot_key": "sources/6acb8149e175b509944596068d99113df4de3eec7c592fd663939ca60532c622/700552480e1714d324c9efda98339cf08801ea40545557f8b8bacf7908b7faba.html",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://publications.europa.eu/resource/cellar/37a6ce83-cdb1-11f1-8b4c-01aa75ed71a1.0006.03/DOC_1",
+    "checked_at": "2026-10-23T18:14:34.015Z",
+    "last_success_at": "2026-10-23T18:14:34.015Z",
+    "hash": "6f3e2ed011cf075603ed420f55b64e7136cc9a99eb56e91250cd17be7ad1b400",
+    "snapshot_key": "sources/3a61bd7b324bb5d080189dc0e5b613690feddd44b20bca904a38bc57a8208af2/6f3e2ed011cf075603ed420f55b64e7136cc9a99eb56e91250cd17be7ad1b400.html",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://publications.europa.eu/resource/cellar/082f5e22-ce7a-11f1-9458-01aa75ed71a1.0006.03/DOC_1",
+    "checked_at": "2026-10-23T18:14:34.110Z",
+    "last_success_at": "2026-10-23T18:14:34.110Z",
+    "hash": "92e095362a71986c4522b431c43f2adbb5d852c904fe7553981f0661bace3dd3",
+    "snapshot_key": "sources/84c2bf788f4107167ec6e44fb3d20265e211941d16b99b5472bcd47380412dd4/92e095362a71986c4522b431c43f2adbb5d852c904fe7553981f0661bace3dd3.html",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://publications.europa.eu/resource/cellar/ed976e1c-cdf2-11f1-8b4c-01aa75ed71a1.0006.03/DOC_1",
+    "checked_at": "2026-10-23T18:14:32.816Z",
+    "last_success_at": "2026-10-23T18:14:32.816Z",
+    "hash": "529e2b6a505559d15fa59e6c9f77c6eae2bb390bcbfd17ca06465f8f6aeeb59d",
+    "snapshot_key": "sources/c0f54eb28e14a47e7bf6c95238e615e745cc11a25f7061cacc33f4fbfcc22ab8/529e2b6a505559d15fa59e6c9f77c6eae2bb390bcbfd17ca06465f8f6aeeb59d.html",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://www.europarl.europa.eu/news/en/press-room/20261018IPR48256/waste-meps-back-simplified-rules-for-small-businesses",
+    "checked_at": "2026-10-23T18:06:58.301Z",
+    "last_success_at": "2026-10-23T18:06:58.301Z",
+    "hash": "4dd5faa1be2d6614382058e146c9cd48cf1fc6d1e4e63b1d4683ed16d41bb1b3",
+    "snapshot_key": "sources/05f2faca1d5d52cdec7b4b2d9b728747c1e141297141bd4ff56355157da9d8db/4dd5faa1be2d6614382058e146c9cd48cf1fc6d1e4e63b1d4683ed16d41bb1b3.html",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://www.europarl.europa.eu/news/en/press-room/20261018IPR48265/a-better-equipped-erasmus-2028-2034-to-address-the-eu-s-strategic-challenges",
+    "checked_at": "2026-10-23T18:06:58.705Z",
+    "last_success_at": "2026-10-23T18:06:58.705Z",
+    "hash": "7c2a2bde50d185cb448b1163cdd5ea4acb8789a36c7ad2c48ac6c051e8ee5de2",
+    "snapshot_key": "sources/dc0a03ddcce11261fef9ac2ba8fed8ab6a05adcabc202c55999a63332f0a30d8/7c2a2bde50d185cb448b1163cdd5ea4acb8789a36c7ad2c48ac6c051e8ee5de2.html",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://www.europarl.europa.eu/news/en/press-room/20261021IPR48321/methane-rules-parliament-backs-longer-delay-for-energy-importers-and-producers",
+    "checked_at": "2026-10-23T18:06:58.947Z",
+    "last_success_at": "2026-10-23T18:06:58.947Z",
+    "hash": "63140bbfb9be7bd1a69d9f4030bc7b665289bca8cfc8a1e954f50dad802a22f0",
+    "snapshot_key": "sources/bc6a4acb0e840aec447b2790ebed34ef0a8a8106e91fc45b25ca4cca876d5620/63140bbfb9be7bd1a69d9f4030bc7b665289bca8cfc8a1e954f50dad802a22f0.html",
     "changed": 0,
     "error": null
   }

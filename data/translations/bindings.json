@@ -2437,8 +2437,8 @@
       ]
     },
     "fr-social-security-bill-2027": {
-      "hash": "500aa63f468bb354af09449866c21a7b8e9227b5ca6e7664f32d01631ddc4626",
-      "version": 2,
+      "version": 3,
+      "hash": "6d78432b87bfebd45739b1ddf70a9c34c3df8151f3845f3471780c9b6433fa91",
       "originalLanguage": "fr",
       "verbatim": [
         "法国国民议会",
@@ -7367,6 +7367,96 @@
     "eu-iraq-asset-freeze-delisting-2026-10": {
       "version": 1,
       "hash": "eb9a163ea9c530b2cfba78f1d4a1360ca9bcaca7c223787bf1eb78b62b67b587",
+      "originalLanguage": "en",
+      "verbatim": []
+    },
+    "fr-social-security-ceiling-2027": {
+      "version": 1,
+      "hash": "5039345eb10487c3f4f1f1a1e5b0fa5fdbe7e3b70cd851993edc46a29efeb9c1",
+      "originalLanguage": "fr",
+      "verbatim": []
+    },
+    "fr-aah-ass-cumulation-end-2026": {
+      "version": 1,
+      "hash": "55e202f7883e53f1a6b13c738efd858ae188327121d116e54269ec5e7baebea8",
+      "originalLanguage": "fr",
+      "verbatim": []
+    },
+    "fr-riot-damage-partial-activity-2026": {
+      "version": 1,
+      "hash": "3a302cf9ef1f6de669436134aa4dfd5ee7c5e5300de3cd2dda3d08bc73986c7d",
+      "originalLanguage": "fr",
+      "verbatim": []
+    },
+    "fr-decarb-flash-artisan-2026": {
+      "version": 1,
+      "hash": "156cf084cb24504a96156e5f568fca23aaad45e050af91d7b20b5b77cab17630",
+      "originalLanguage": "fr",
+      "verbatim": []
+    },
+    "fr-school-violence-questionnaire-2026": {
+      "version": 1,
+      "hash": "8e7d19ca7a629128430e57b56aa674d6fa0311077ac2228e0799ef2f3959b1a4",
+      "originalLanguage": "fr",
+      "verbatim": []
+    },
+    "fr-survivor-pension-prefilled-2026": {
+      "version": 1,
+      "hash": "e5aab4f63310ce0cab97742a3f0cab49317c7ffc357c129060aa8b20fbf4cb72",
+      "originalLanguage": "fr",
+      "verbatim": []
+    },
+    "fr-experimental-care-services-law-2026": {
+      "version": 1,
+      "hash": "84f3ec9637e4a7f01afef8187e6b882ec08db8114ed5cb955c9d21903285a716",
+      "originalLanguage": "fr",
+      "verbatim": []
+    },
+    "gb-trade-union-workplace-access-2026": {
+      "version": 1,
+      "hash": "ab93e0b5913b1f62466504885a38ef79ac412f7a06cb5adb0950971e5080801b",
+      "originalLanguage": "en",
+      "verbatim": []
+    },
+    "gb-industrial-action-detriment-2026": {
+      "version": 1,
+      "hash": "80c26e5e76a724f0e4feb42b1c41b6eacdf70a4b8e05cfc62b850dbb7c30649d",
+      "originalLanguage": "en",
+      "verbatim": []
+    },
+    "gb-paye-benefits-loans-accommodation-2027": {
+      "version": 1,
+      "hash": "10d291d5af091aee7a9f18dfcb241ed02ee1df8aed56f879c3a348c0748d7ed0",
+      "originalLanguage": "en",
+      "verbatim": []
+    },
+    "gb-empty-dwelling-orders-six-months-2026": {
+      "version": 1,
+      "hash": "e09420c7c66fe438007905c19e297fe15a80865b6ffba06c99522274e195b618",
+      "originalLanguage": "en",
+      "verbatim": []
+    },
+    "gb-nursery-milk-childminder-agencies-2026": {
+      "version": 1,
+      "hash": "22da4de182416e4657765025955d5029eef7b80bf481c19cb914fedf094b0588",
+      "originalLanguage": "en",
+      "verbatim": []
+    },
+    "gb-intimate-image-trusted-flagger-2026": {
+      "version": 1,
+      "hash": "96c1f46143d74ab94cba32330f4570c96d64e946dea5d07d4212cbf3754b5bae",
+      "originalLanguage": "en",
+      "verbatim": []
+    },
+    "gb-nir-abuse-redress-benefit-disregard-2026": {
+      "version": 1,
+      "hash": "04357a6cb0018289b1cc96658da3226a9aa751634e90af75cd81257736b3221b",
+      "originalLanguage": "en",
+      "verbatim": []
+    },
+    "gb-nir-child-funeral-fund-2026": {
+      "version": 1,
+      "hash": "7a0d57d1794a0041752d40cc2c07b8c00e0b5f22f3717a6c2d62a4298b6ef600",
       "originalLanguage": "en",
       "verbatim": []
     }
@@ -46740,6 +46830,366 @@
     },
     "taxud-20261022-counterfeit-report": {
       "hash": "5ba8f67a2fcbe11a6fabeb47eb557f32ef6aa07b4202486c3b89e406c5e0f908",
+      "verbatim": [],
+      "originalLanguage": "en",
+      "titleIsOriginal": true
+    },
+    "fr-sp-a15386-pass-2027": {
+      "hash": "8ce8d3c194adcb350323a57665865b1fcad886055b8800123f56eaf3efbe257c",
+      "verbatim": [],
+      "originalLanguage": "fr",
+      "titleIsOriginal": true
+    },
+    "fr-sp-a19095-aah-ass-2027": {
+      "hash": "995cf38cb9ec7a8fbfbd6f9f8bb4c4a9259531812a9906d5f8f74940213c2775",
+      "verbatim": [],
+      "originalLanguage": "fr",
+      "titleIsOriginal": true
+    },
+    "fr-sp-a19101-school-questionnaire": {
+      "hash": "aa3d56df77f2ccb8813f51a635a16e6c330631db863e64b2412d289de040538a",
+      "verbatim": [],
+      "originalLanguage": "fr",
+      "titleIsOriginal": true
+    },
+    "fr-sp-a19103-survivor-pension": {
+      "hash": "a2b2a0540b8bcf6027c009674aa3bc3e6383021e680be2a6aac0ba270d30df8a",
+      "verbatim": [],
+      "originalLanguage": "fr",
+      "titleIsOriginal": true
+    },
+    "fr-spe-a19104-riot-partial-activity": {
+      "hash": "d81f7fe25744d5baf8371f508526e97dae9028fdc918af9b95cbd528bf036d33",
+      "verbatim": [],
+      "originalLanguage": "fr",
+      "titleIsOriginal": true
+    },
+    "fr-spe-a19098-decarb-flash": {
+      "hash": "681711ef2db4a37847a27087d851a6acb98489b25b76f97196811f22dbf82348",
+      "verbatim": [],
+      "originalLanguage": "fr",
+      "titleIsOriginal": true
+    },
+    "fr-sp-a14389-winter-tyres": {
+      "hash": "92afa83e322de1f30560b933052e59eb85e22a54e7f8e1a5944444134b78f7de",
+      "verbatim": [],
+      "originalLanguage": "fr",
+      "titleIsOriginal": true
+    },
+    "fr-sp-a19097-carers-pension": {
+      "hash": "19d94e5a299d4c2b573ef5e616892f88a8c39925194b5369d4d73037ecf9ab16",
+      "verbatim": [],
+      "originalLanguage": "fr",
+      "titleIsOriginal": true
+    },
+    "fr-senat-loi-2026-95": {
+      "hash": "051b4eac9e8ef5a9b2fc76ff8fdad0506a20a3209999435c25b6a4253ee2bc81",
+      "verbatim": [],
+      "originalLanguage": "fr",
+      "titleIsOriginal": true
+    },
+    "fr-an-ta358-plfss-2027-rejected": {
+      "hash": "1b1f5dd41deb85435669e860e66943e10ea919927a151c8c27672d5e48d76e10",
+      "verbatim": [],
+      "originalLanguage": "fr",
+      "titleIsOriginal": true
+    },
+    "gb-leg-uksi-2026-1085": {
+      "hash": "0a0dbfdd53e79dccdb73b4c8712e8de5d4bddee5d6c761bf0e5bfdb721142065",
+      "verbatim": [],
+      "originalLanguage": "en",
+      "titleIsOriginal": true
+    },
+    "gb-leg-uksi-2026-1081": {
+      "hash": "2cf9f8050b5b298dbc90430d752d1e0022ec4636f1e2a1e4c991de0abf18be5c",
+      "verbatim": [],
+      "originalLanguage": "en",
+      "titleIsOriginal": true
+    },
+    "gb-leg-wsi-2026-121": {
+      "hash": "bf14b5f5a8e66eba064e794932815ed2ca22f33f4659bb93ec6d5374d7b77a65",
+      "verbatim": [],
+      "originalLanguage": "en",
+      "titleIsOriginal": true
+    },
+    "gb-leg-uksi-2026-1094": {
+      "hash": "89e80e3789178ecde9eb72466f4ab94c893d6047f498bb300264b4a075fde896",
+      "verbatim": [],
+      "originalLanguage": "en",
+      "titleIsOriginal": true
+    },
+    "gb-leg-uksi-2026-1093": {
+      "hash": "dee5e9f02e9ad3375f4e027ea529ac8dc8329e98e0d53be651deaed2f24a4c37",
+      "verbatim": [],
+      "originalLanguage": "en",
+      "titleIsOriginal": true
+    },
+    "gb-leg-uksi-2026-1092": {
+      "hash": "9a330ecbbaecf77ba2180e74e200d4c200bfb1adcb8c68553e3c8093fe5cf3c6",
+      "verbatim": [],
+      "originalLanguage": "en",
+      "titleIsOriginal": true
+    },
+    "gb-leg-uksi-2026-1089": {
+      "hash": "888e34652e75439a29e85f7a199465e03830d0c753d9fa8596f292cee861a672",
+      "verbatim": [],
+      "originalLanguage": "en",
+      "titleIsOriginal": true
+    },
+    "gb-leg-uksi-2026-1088": {
+      "hash": "d8b7a5a557e0bfcde5b89adae41769ab4bec61d76bdda6093b540922f93f084a",
+      "verbatim": [],
+      "originalLanguage": "en",
+      "titleIsOriginal": true
+    },
+    "gb-leg-uksi-2026-1087": {
+      "hash": "61232d1252de60c14b25d7b03169b9c03189c819b6ddba8c62da1b44cf0e23bc",
+      "verbatim": [],
+      "originalLanguage": "en",
+      "titleIsOriginal": true
+    },
+    "gb-leg-uksi-2026-1083": {
+      "hash": "2d1dfd18ae9edc2baf345cff0c1ea33e90ed0a40ab03d60737d8bdee72bf0357",
+      "verbatim": [],
+      "originalLanguage": "en",
+      "titleIsOriginal": true
+    },
+    "gb-leg-uksi-2026-1082": {
+      "hash": "e828598def03488dc57cac48aae1b810cbcd6d3e04a4f70eaf2be4211cfdc0a4",
+      "verbatim": [],
+      "originalLanguage": "en",
+      "titleIsOriginal": true
+    },
+    "gb-leg-wsi-2026-122": {
+      "hash": "fa15b4b8e6c44b4de2c1d371175e55cce70f9ef9dd94e2a81c20a232c34aec06",
+      "verbatim": [],
+      "originalLanguage": "en",
+      "titleIsOriginal": true
+    },
+    "gb-leg-nisr-2026-178": {
+      "hash": "46ddb61d35e4c09ab2a3d69907c3cb651a92dabc0f7d4a0361e5762e9778c9a2",
+      "verbatim": [],
+      "originalLanguage": "en",
+      "titleIsOriginal": true
+    },
+    "gb-leg-uksi-2026-1097": {
+      "hash": "679ca941ac9adcb218d58001ea22743dfec1f4639d2422c2eacb791a3bcd5d49",
+      "verbatim": [],
+      "originalLanguage": "en",
+      "titleIsOriginal": true
+    },
+    "gb-leg-uksi-2026-1096": {
+      "hash": "b87dcb9ecc4a7fdbf748ed600c16c2922a49f298f60d2c82fd4fba460d476011",
+      "verbatim": [],
+      "originalLanguage": "en",
+      "titleIsOriginal": true
+    },
+    "gb-leg-uksi-2026-1095": {
+      "hash": "ca407b9d199e3c0de40b3a70558b7d12819bc3535f6d5c0c04cbb5e98bc7d759",
+      "verbatim": [],
+      "originalLanguage": "en",
+      "titleIsOriginal": true
+    },
+    "gb-leg-uksi-2026-1091": {
+      "hash": "4f3374184766f730f1a239de91964d90467870fae9ff4af250d6fefebf82327b",
+      "verbatim": [],
+      "originalLanguage": "en",
+      "titleIsOriginal": true
+    },
+    "gb-leg-uksi-2026-1090": {
+      "hash": "5329bebd4798124e0246480e99ff63c8b7c8267581c77182ecf6f34aea388c3b",
+      "verbatim": [],
+      "originalLanguage": "en",
+      "titleIsOriginal": true
+    },
+    "gb-leg-uksi-2026-1084": {
+      "hash": "26f72aaf7501c49836bdbb5edab2b80625fb2d3fabfd0b5b777c1697b3ba92b9",
+      "verbatim": [],
+      "originalLanguage": "en",
+      "titleIsOriginal": true
+    },
+    "gb-leg-nisr-2026-179": {
+      "hash": "391a5d41ef59120474cdeabd054eabb6ccda3f54905701e354df50678d91bc1a",
+      "verbatim": [],
+      "originalLanguage": "en",
+      "titleIsOriginal": true
+    },
+    "gb-leg-uksi-2026-1106": {
+      "hash": "6ff68a8f4948ae6c7bf11d81a94c68a0f299fc97f8e624a320d5bb6743aa34f0",
+      "verbatim": [],
+      "originalLanguage": "en",
+      "titleIsOriginal": true
+    },
+    "gb-leg-uksi-2026-1105": {
+      "hash": "70a9970deed0acd9ce12c83f11990c1b79848ca2f3346e051cbbe173e1536fd6",
+      "verbatim": [],
+      "originalLanguage": "en",
+      "titleIsOriginal": true
+    },
+    "gb-leg-uksi-2026-1103": {
+      "hash": "0e07152b019afd259bddd7a15ac40efd1d2cc6b9f2a1e8198c0e9162599b1608",
+      "verbatim": [],
+      "originalLanguage": "en",
+      "titleIsOriginal": true
+    },
+    "gb-leg-uksi-2026-1098": {
+      "hash": "1cae444f5857b8ce38543897b4193094ee040db82aa694a54f5f2e13a2e53636",
+      "verbatim": [],
+      "originalLanguage": "en",
+      "titleIsOriginal": true
+    },
+    "gb-leg-uksi-2026-1086": {
+      "hash": "87d2f1ef659b232957877cb961b9db113d0eaf2fd53ad3f443c8913890512e20",
+      "verbatim": [],
+      "originalLanguage": "en",
+      "titleIsOriginal": true
+    },
+    "gb-leg-uksi-2026-1074": {
+      "hash": "1cb06cf2fea66636a9e8bb7eb5cb3704bc560cd391f8f0991b44700b58f65262",
+      "verbatim": [],
+      "originalLanguage": "en",
+      "titleIsOriginal": true
+    },
+    "gb-leg-wsi-2026-127": {
+      "hash": "2a5ea60766c25a8640b6ce5f545eb7f3d258a58f197ebd859dee5588d41f8c1e",
+      "verbatim": [],
+      "originalLanguage": "en",
+      "titleIsOriginal": true
+    },
+    "gb-leg-wsi-2026-126": {
+      "hash": "23b2f8df3dffbdf54fd8316718c647e3d464575893541e6bf6ae01a861b55f7d",
+      "verbatim": [],
+      "originalLanguage": "en",
+      "titleIsOriginal": true
+    },
+    "gb-leg-wsi-2026-125": {
+      "hash": "3a4f6e7c00e08a3e3731a09132267c063b70af2e6bcab9f3f435c9b741d6a5e1",
+      "verbatim": [],
+      "originalLanguage": "en",
+      "titleIsOriginal": true
+    },
+    "gb-leg-wsi-2026-124": {
+      "hash": "1a508e6f41e7f76ca4de7f32b436f6d3452b65d2ad336f12e4620c63f08a2d0e",
+      "verbatim": [],
+      "originalLanguage": "en",
+      "titleIsOriginal": true
+    },
+    "gb-leg-nisr-2026-180": {
+      "hash": "bc096c1cfbf3d37bc68939f954a52127f8c85a0c54381bab5f04fc7f56b8336e",
+      "verbatim": [],
+      "originalLanguage": "en",
+      "titleIsOriginal": true
+    },
+    "gb-leg-uksi-2026-1101": {
+      "hash": "8d7130578217e91bf97558b335cd18e75e2b07be8185361ca3e00ce05d5ec283",
+      "verbatim": [],
+      "originalLanguage": "en",
+      "titleIsOriginal": true
+    },
+    "gb-leg-uksi-2026-1100": {
+      "hash": "9819edf1c29b4bde209588c0d511ee375e5a0f5d30729e197c6ffc8ced88af26",
+      "verbatim": [],
+      "originalLanguage": "en",
+      "titleIsOriginal": true
+    },
+    "gb-leg-uksi-2026-1099": {
+      "hash": "b257b05431346e1ff81c4f36fe4175a209c70ce493768236be07ecc897df572a",
+      "verbatim": [],
+      "originalLanguage": "en",
+      "titleIsOriginal": true
+    },
+    "gb-leg-uksi-2026-1058": {
+      "hash": "8a18f80d956cdf0ac7407d31470dd15e01e935a3d64564e34e5f728164af77fd",
+      "verbatim": [],
+      "originalLanguage": "en",
+      "titleIsOriginal": true
+    },
+    "gb-leg-nisr-2026-181": {
+      "hash": "f8419b16cae216757e712fc9ffeb4ee8183d6506999b7a12a5b15029641b8175",
+      "verbatim": [],
+      "originalLanguage": "en",
+      "titleIsOriginal": true
+    },
+    "gb-leg-uksi-2026-1113": {
+      "hash": "78d5624f8b1a2660fcf5d4a9208f0318c70fd92b6407df2751375b48734f58d6",
+      "verbatim": [],
+      "originalLanguage": "en",
+      "titleIsOriginal": true
+    },
+    "gb-leg-uksi-2026-1112": {
+      "hash": "26070909279fbe19470fd4a90ddb0bb3d28b66add27e75f1086544f62c243130",
+      "verbatim": [],
+      "originalLanguage": "en",
+      "titleIsOriginal": true
+    },
+    "gb-leg-uksi-2026-1104": {
+      "hash": "8c845a4bf8752ddfebe6b1fc472ec7cf5d8e7bcfbd73cb0115bc1d6efbdff978",
+      "verbatim": [],
+      "originalLanguage": "en",
+      "titleIsOriginal": true
+    },
+    "gb-leg-uksi-2026-1117": {
+      "hash": "f84a2e0e7c0f515025edaeebed7d777dccf075f4d9f04055237e5d99e73f6d44",
+      "verbatim": [],
+      "originalLanguage": "en",
+      "titleIsOriginal": true
+    },
+    "gb-leg-uksi-2026-1116": {
+      "hash": "569986a87dc6fcefa513839b2cb9d546619127f1f7edbec133028f361d8002b5",
+      "verbatim": [],
+      "originalLanguage": "en",
+      "titleIsOriginal": true
+    },
+    "gb-leg-uksi-2026-1115": {
+      "hash": "dfb892e50fb4d12f7dd106394def0afec97a56403df56a63c312563b7a310d27",
+      "verbatim": [],
+      "originalLanguage": "en",
+      "titleIsOriginal": true
+    },
+    "gb-leg-uksi-2026-1114": {
+      "hash": "dccf8c394a8e35d8765cab446dad6cbcde783a78b435ee5d6e881248d54e355f",
+      "verbatim": [],
+      "originalLanguage": "en",
+      "titleIsOriginal": true
+    },
+    "gb-leg-uksi-2026-1110": {
+      "hash": "8d9d825ee824407b6e19137ddb981c426a058fbb88e39ae077acc02dba9b205f",
+      "verbatim": [],
+      "originalLanguage": "en",
+      "titleIsOriginal": true
+    },
+    "gb-leg-uksi-2026-1107": {
+      "hash": "050cd0ea972cacc67212e638d79f12ac29ddfe1e136f01919e20bdf57c060c59",
+      "verbatim": [],
+      "originalLanguage": "en",
+      "titleIsOriginal": true
+    },
+    "gb-leg-uksi-2026-1102": {
+      "hash": "5eba5985cb267b0b38f9fe451d1742c9efdaf64eafff28c2bf00a0bbe3112c72",
+      "verbatim": [],
+      "originalLanguage": "en",
+      "titleIsOriginal": true
+    },
+    "gb-leg-wsi-2026-128": {
+      "hash": "d7929fd1369adb3bcee8700b4d112ede86807dc0d65b1460610b5779dd67b655",
+      "verbatim": [],
+      "originalLanguage": "en",
+      "titleIsOriginal": true
+    },
+    "gb-leg-nisr-2026-183": {
+      "hash": "d3ac2119a0e3590729e87e14df1edc74b36f12452d0c1bd6e81ed234699ae21e",
+      "verbatim": [],
+      "originalLanguage": "en",
+      "titleIsOriginal": true
+    },
+    "gb-leg-nisr-2026-182": {
+      "hash": "597674c995a336f6c418020bd5dde559ceadfa2eb93b3ebc725be81fbc9153d8",
+      "verbatim": [],
+      "originalLanguage": "en",
+      "titleIsOriginal": true
+    },
+    "gb-hmrc-20261023-sa-100-days": {
+      "hash": "8959825aa1849975bfa8c2c944b8ff45e7cfa150dee48db50142f887dfc61b75",
       "verbatim": [],
       "originalLanguage": "en",
       "titleIsOriginal": true

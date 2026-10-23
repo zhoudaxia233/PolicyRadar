@@ -1,0 +1,1370 @@
+[
+ {
+  "name": "sp-part",
+  "url": "https://www.service-public.gouv.fr/particuliers/actualites",
+  "fetchedAt": "2026-10-23T19:11:18.721Z",
+  "status": 200,
+  "contentType": "text/html;charset=UTF-8",
+  "finalUrl": "https://www.service-public.gouv.fr/particuliers/actualites",
+  "sha256": "8e6656b8c36697af080328f137888367a15e00d4f4b38a132fef3de10428ea36",
+  "bytes": 70661
+ },
+ {
+  "name": "sp-ent",
+  "url": "https://entreprendre.service-public.gouv.fr/actualites",
+  "fetchedAt": "2026-10-23T19:11:18.907Z",
+  "status": 200,
+  "contentType": "text/html;charset=UTF-8",
+  "finalUrl": "https://entreprendre.service-public.gouv.fr/actualites",
+  "sha256": "37a9baf5d4784fc818e82f3542f01b77a72a3f1f77393988d3f4c643d5d17550",
+  "bytes": 94319
+ },
+ {
+  "name": "senat-lois",
+  "url": "https://www.senat.fr/dossiers-legislatifs/lois-promulguees.html",
+  "fetchedAt": "2026-10-23T19:11:19.119Z",
+  "status": 200,
+  "contentType": "text/html",
+  "finalUrl": "https://www.senat.fr/dossiers-legislatifs/lois-promulguees.html",
+  "sha256": "d2c6cf6962990ed9f45d62bba83a157c594ef7401030b3afa1b4c9ebcaf3067f",
+  "bytes": 137735
+ },
+ {
+  "name": "an-dossiers",
+  "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers",
+  "fetchedAt": "2026-10-23T19:11:19.298Z",
+  "status": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "finalUrl": "https://www.assemblee-nationale.fr/dyn/17/dossiers",
+  "sha256": "ba6cde3f6017f86ebfabfa5ec995c2c14842f8829299a8296227f86453c479bd",
+  "bytes": 268700
+ },
+ {
+  "name": "amf",
+  "url": "https://www.amf-france.org/fr/actualites-publications/actualites",
+  "fetchedAt": "2026-10-23T19:11:19.876Z",
+  "status": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "finalUrl": "https://www.amf-france.org/fr/actualites-publications/actualites",
+  "sha256": "0785f020915ded6fa248740d11379366ced5febf5f8303d3fe059a3bafcac281",
+  "bytes": 54149
+ },
+ {
+  "name": "legifrance-jo",
+  "url": "https://www.legifrance.gouv.fr/jorf/jo",
+  "fetchedAt": "2026-10-23T19:11:20.117Z",
+  "status": 403,
+  "contentType": "text/html; charset=UTF-8",
+  "finalUrl": "https://www.legifrance.gouv.fr/jorf/jo",
+  "sha256": "f7fa8d23641f047eea09c54cb6d48b7c8268505a17b32ab221476513bd29a14d",
+  "bytes": 5742
+ },
+ {
+  "name": "govuk-news",
+  "url": "https://www.gov.uk/search/news-and-communications?order=updated-newest",
+  "fetchedAt": "2026-10-23T19:11:20.278Z",
+  "status": 200,
+  "contentType": "text/html; charset=utf-8",
+  "finalUrl": "https://www.gov.uk/search/news-and-communications?order=updated-newest",
+  "sha256": "f12a39fe866763a84a813fa393483b58f822411f99d1fa1a44789ff602bf5716",
+  "bytes": 448388
+ },
+ {
+  "name": "govuk-policy",
+  "url": "https://www.gov.uk/search/policy-papers-and-consultations?order=updated-newest",
+  "fetchedAt": "2026-10-23T19:11:20.690Z",
+  "status": 200,
+  "contentType": "text/html; charset=utf-8",
+  "finalUrl": "https://www.gov.uk/search/policy-papers-and-consultations?order=updated-newest",
+  "sha256": "552cf098e8ad747288f5b438071321b00b5a2f3383d573e8c682e3a630209970",
+  "bytes": 780546
+ },
+ {
+  "name": "leg-new",
+  "url": "https://www.legislation.gov.uk/new",
+  "fetchedAt": "2026-10-23T19:11:20.954Z",
+  "status": 200,
+  "contentType": "text/html;charset=utf-8",
+  "finalUrl": "https://www.legislation.gov.uk/new",
+  "sha256": "3bbcf6faa49e5783d5cddeffbc73cde7a0b46030596b51548bc6811c2153579a",
+  "bytes": 20041
+ },
+ {
+  "name": "bills",
+  "url": "https://bills.parliament.uk/",
+  "fetchedAt": "2026-10-23T19:11:21.188Z",
+  "status": 403,
+  "contentType": "text/html; charset=UTF-8",
+  "finalUrl": "https://bills.parliament.uk/",
+  "sha256": "07870db2aed80c72341e9eaff76eb8b6418a822341bdb1ffef4cb596d8a4d62c",
+  "bytes": 5676
+ },
+ {
+  "name": "hmrc",
+  "url": "https://www.gov.uk/search/news-and-communications?organisations%5B%5D=hm-revenue-customs&order=updated-newest",
+  "fetchedAt": "2026-10-23T19:11:21.309Z",
+  "status": 200,
+  "contentType": "text/html; charset=utf-8",
+  "finalUrl": "https://www.gov.uk/search/news-and-communications?organisations%5B%5D=hm-revenue-customs&order=updated-newest",
+  "sha256": "5e00477e9a7e270c3fe0b660b07f2f47caeda10b307cb775acdfd34b8bd485ee",
+  "bytes": 449461
+ },
+ {
+  "name": "sp-A17480e",
+  "url": "https://entreprendre.service-public.gouv.fr/actualites/A17480",
+  "fetchedAt": "2026-10-23T19:11:47.638Z",
+  "status": 200,
+  "contentType": "text/html;charset=UTF-8",
+  "finalUrl": "https://entreprendre.service-public.gouv.fr/actualites/A17480",
+  "sha256": "2232bc7b7bce84b20944e36376241e5cc204e1ec82ad170ae4724b9d2e058a20",
+  "bytes": 91178
+ },
+ {
+  "name": "sp-A17731e",
+  "url": "https://entreprendre.service-public.gouv.fr/actualites/A17731",
+  "fetchedAt": "2026-10-23T19:11:47.825Z",
+  "status": 200,
+  "contentType": "text/html;charset=UTF-8",
+  "finalUrl": "https://entreprendre.service-public.gouv.fr/actualites/A17731",
+  "sha256": "169e82be57c52ae39ed80f675f67668e7a075337ab81cdc17c52e25ffda5019c",
+  "bytes": 93730
+ },
+ {
+  "name": "sp-A18907e",
+  "url": "https://entreprendre.service-public.gouv.fr/actualites/A18907",
+  "fetchedAt": "2026-10-23T19:11:47.904Z",
+  "status": 200,
+  "contentType": "text/html;charset=UTF-8",
+  "finalUrl": "https://entreprendre.service-public.gouv.fr/actualites/A18907",
+  "sha256": "26857b6c444df68a9de7fb69fe1f87a3664002756fba338d7dafd05686dc9415",
+  "bytes": 90583
+ },
+ {
+  "name": "sp-A19076e",
+  "url": "https://entreprendre.service-public.gouv.fr/actualites/A19076",
+  "fetchedAt": "2026-10-23T19:11:47.975Z",
+  "status": 200,
+  "contentType": "text/html;charset=UTF-8",
+  "finalUrl": "https://entreprendre.service-public.gouv.fr/actualites/A19076",
+  "sha256": "0980df02a900964b5dbc7a91a42b6d62936491eab69d9a041dbb8dfdd6c8a7d3",
+  "bytes": 92183
+ },
+ {
+  "name": "sp-A19077e",
+  "url": "https://entreprendre.service-public.gouv.fr/actualites/A19077",
+  "fetchedAt": "2026-10-23T19:11:48.065Z",
+  "status": 200,
+  "contentType": "text/html;charset=UTF-8",
+  "finalUrl": "https://entreprendre.service-public.gouv.fr/actualites/A19077",
+  "sha256": "4a41b1de5fa01b0dcc5d140aeb66299e6d55ed6317371074f2185371efa3ed0c",
+  "bytes": 91789
+ },
+ {
+  "name": "sp-A19082e",
+  "url": "https://entreprendre.service-public.gouv.fr/actualites/A19082",
+  "fetchedAt": "2026-10-23T19:11:48.145Z",
+  "status": 200,
+  "contentType": "text/html;charset=UTF-8",
+  "finalUrl": "https://entreprendre.service-public.gouv.fr/actualites/A19082",
+  "sha256": "67006b238d19ad3ce767425fc1c61ec7c88cb1cef8f1463693e775e7a94b7fd6",
+  "bytes": 90775
+ },
+ {
+  "name": "sp-A19087e",
+  "url": "https://entreprendre.service-public.gouv.fr/actualites/A19087",
+  "fetchedAt": "2026-10-23T19:11:48.225Z",
+  "status": 200,
+  "contentType": "text/html;charset=UTF-8",
+  "finalUrl": "https://entreprendre.service-public.gouv.fr/actualites/A19087",
+  "sha256": "8f27a061ca3ae333f9dadc0ad5b532ff703487611da832769c96e4f572959285",
+  "bytes": 90876
+ },
+ {
+  "name": "sp-A19090e",
+  "url": "https://entreprendre.service-public.gouv.fr/actualites/A19090",
+  "fetchedAt": "2026-10-23T19:11:48.307Z",
+  "status": 200,
+  "contentType": "text/html;charset=UTF-8",
+  "finalUrl": "https://entreprendre.service-public.gouv.fr/actualites/A19090",
+  "sha256": "ae435581514adebe93bc82d320f691fd8451fd0411e0edc3994b358366ebcd3d",
+  "bytes": 92103
+ },
+ {
+  "name": "sp-A19098e",
+  "url": "https://entreprendre.service-public.gouv.fr/actualites/A19098",
+  "fetchedAt": "2026-10-23T19:11:48.386Z",
+  "status": 200,
+  "contentType": "text/html;charset=UTF-8",
+  "finalUrl": "https://entreprendre.service-public.gouv.fr/actualites/A19098",
+  "sha256": "db27e93d1a3711ced7e13ee26d0d9dbe8927f853d4f17f5690e529393be4be30",
+  "bytes": 95055
+ },
+ {
+  "name": "sp-A19100e",
+  "url": "https://entreprendre.service-public.gouv.fr/actualites/A19100",
+  "fetchedAt": "2026-10-23T19:11:48.472Z",
+  "status": 200,
+  "contentType": "text/html;charset=UTF-8",
+  "finalUrl": "https://entreprendre.service-public.gouv.fr/actualites/A19100",
+  "sha256": "faf4d5fe197119471892e110b4c1d68a9bde69210feb983ebc6f32541351cae9",
+  "bytes": 90085
+ },
+ {
+  "name": "sp-A19104e",
+  "url": "https://entreprendre.service-public.gouv.fr/actualites/A19104",
+  "fetchedAt": "2026-10-23T19:11:48.559Z",
+  "status": 200,
+  "contentType": "text/html;charset=UTF-8",
+  "finalUrl": "https://entreprendre.service-public.gouv.fr/actualites/A19104",
+  "sha256": "78ceb2fe37b446ba4e66bfa9004cc5ea67c9c6cf1988b9c99199527846b156e2",
+  "bytes": 93944
+ },
+ {
+  "name": "sp-A14389",
+  "url": "https://www.service-public.gouv.fr/particuliers/actualites/A14389",
+  "fetchedAt": "2026-10-23T19:11:48.639Z",
+  "status": 200,
+  "contentType": "text/html;charset=UTF-8",
+  "finalUrl": "https://www.service-public.gouv.fr/particuliers/actualites/A14389",
+  "sha256": "5d50c75d76b09d908def15592a02e35e34f06f3c24d526ae888ef7492e82a652",
+  "bytes": 64110
+ },
+ {
+  "name": "sp-A15125",
+  "url": "https://www.service-public.gouv.fr/particuliers/actualites/A15125",
+  "fetchedAt": "2026-10-23T19:11:48.804Z",
+  "status": 200,
+  "contentType": "text/html;charset=UTF-8",
+  "finalUrl": "https://www.service-public.gouv.fr/particuliers/actualites/A15125",
+  "sha256": "bd644538ca72bf582c1627dd58870c355e22c5c7f05dd7f40070fa280babc501",
+  "bytes": 57745
+ },
+ {
+  "name": "sp-A15186",
+  "url": "https://www.service-public.gouv.fr/particuliers/actualites/A15186",
+  "fetchedAt": "2026-10-23T19:11:48.854Z",
+  "status": 200,
+  "contentType": "text/html;charset=UTF-8",
+  "finalUrl": "https://www.service-public.gouv.fr/particuliers/actualites/A15186",
+  "sha256": "1a54fae9092b058e96418814671fb3fba8a638ee402837801e53f8c3d73c428f",
+  "bytes": 63663
+ },
+ {
+  "name": "sp-A15263",
+  "url": "https://www.service-public.gouv.fr/particuliers/actualites/A15263",
+  "fetchedAt": "2026-10-23T19:11:48.914Z",
+  "status": 200,
+  "contentType": "text/html;charset=UTF-8",
+  "finalUrl": "https://www.service-public.gouv.fr/particuliers/actualites/A15263",
+  "sha256": "611a27636cf68b442a9ae2ed71190eb3872e9eef036b77104d7da491d8157993",
+  "bytes": 55369
+ },
+ {
+  "name": "sp-A15386",
+  "url": "https://www.service-public.gouv.fr/particuliers/actualites/A15386",
+  "fetchedAt": "2026-10-23T19:11:48.968Z",
+  "status": 200,
+  "contentType": "text/html;charset=UTF-8",
+  "finalUrl": "https://www.service-public.gouv.fr/particuliers/actualites/A15386",
+  "sha256": "ad155973b20ce1b5731e96645576e11d288348101c9ad1af59bad14075680799",
+  "bytes": 60369
+ },
+ {
+  "name": "sp-A17342",
+  "url": "https://www.service-public.gouv.fr/particuliers/actualites/A17342",
+  "fetchedAt": "2026-10-23T19:11:49.017Z",
+  "status": 200,
+  "contentType": "text/html;charset=UTF-8",
+  "finalUrl": "https://www.service-public.gouv.fr/particuliers/actualites/A17342",
+  "sha256": "540f596b72dc51215a73ad095f0f3c26d21a54b8c6a9d987e6e75367ecd938c6",
+  "bytes": 54913
+ },
+ {
+  "name": "sp-A17790",
+  "url": "https://www.service-public.gouv.fr/particuliers/actualites/A17790",
+  "fetchedAt": "2026-10-23T19:11:49.066Z",
+  "status": 200,
+  "contentType": "text/html;charset=UTF-8",
+  "finalUrl": "https://www.service-public.gouv.fr/particuliers/actualites/A17790",
+  "sha256": "bfe8014bf6ed09a9e0107d79a70d7f4b0525ef33d30e317a5f44e13b7fae769c",
+  "bytes": 58563
+ },
+ {
+  "name": "sp-A17956",
+  "url": "https://www.service-public.gouv.fr/particuliers/actualites/A17956",
+  "fetchedAt": "2026-10-23T19:11:49.114Z",
+  "status": 200,
+  "contentType": "text/html;charset=UTF-8",
+  "finalUrl": "https://www.service-public.gouv.fr/particuliers/actualites/A17956",
+  "sha256": "c35a20b5ee199111c179a76d52d323e351652a80d253b49124003beec94102b3",
+  "bytes": 60627
+ },
+ {
+  "name": "sp-A18466",
+  "url": "https://www.service-public.gouv.fr/particuliers/actualites/A18466",
+  "fetchedAt": "2026-10-23T19:11:49.164Z",
+  "status": 200,
+  "contentType": "text/html;charset=UTF-8",
+  "finalUrl": "https://www.service-public.gouv.fr/particuliers/actualites/A18466",
+  "sha256": "ba2e211ba8887222882d2d64b7ee5d9c53565e77453590bee4dc2f4fa30b0669",
+  "bytes": 61900
+ },
+ {
+  "name": "sp-A18903",
+  "url": "https://www.service-public.gouv.fr/particuliers/actualites/A18903",
+  "fetchedAt": "2026-10-23T19:11:49.214Z",
+  "status": 200,
+  "contentType": "text/html;charset=UTF-8",
+  "finalUrl": "https://www.service-public.gouv.fr/particuliers/actualites/A18903",
+  "sha256": "6880ca981d7cacfc3fd734d48cb601f4e4fdd4737ef71c626f7f5f475f35527d",
+  "bytes": 72228
+ },
+ {
+  "name": "sp-A19067",
+  "url": "https://www.service-public.gouv.fr/particuliers/actualites/A19067",
+  "fetchedAt": "2026-10-23T19:11:49.295Z",
+  "status": 200,
+  "contentType": "text/html;charset=UTF-8",
+  "finalUrl": "https://www.service-public.gouv.fr/particuliers/actualites/A19067",
+  "sha256": "0b1c51a528ea2aa53216d71f24faa2d4a17d42f40d87df583a230b10ba4bd23d",
+  "bytes": 61645
+ },
+ {
+  "name": "sp-A19069",
+  "url": "https://www.service-public.gouv.fr/particuliers/actualites/A19069",
+  "fetchedAt": "2026-10-23T19:11:49.345Z",
+  "status": 200,
+  "contentType": "text/html;charset=UTF-8",
+  "finalUrl": "https://www.service-public.gouv.fr/particuliers/actualites/A19069",
+  "sha256": "e358bffad332bfb0275a5a835379e60df9246c7114652ed9810da80da33ffa72",
+  "bytes": 58901
+ },
+ {
+  "name": "sp-A19080",
+  "url": "https://www.service-public.gouv.fr/particuliers/actualites/A19080",
+  "fetchedAt": "2026-10-23T19:11:49.400Z",
+  "status": 200,
+  "contentType": "text/html;charset=UTF-8",
+  "finalUrl": "https://www.service-public.gouv.fr/particuliers/actualites/A19080",
+  "sha256": "616d08568f2462f46960ecb687574a3b9b4c7b6a270a2270a630473ad01a83c0",
+  "bytes": 60430
+ },
+ {
+  "name": "sp-A19081",
+  "url": "https://www.service-public.gouv.fr/particuliers/actualites/A19081",
+  "fetchedAt": "2026-10-23T19:11:49.476Z",
+  "status": 200,
+  "contentType": "text/html;charset=UTF-8",
+  "finalUrl": "https://www.service-public.gouv.fr/particuliers/actualites/A19081",
+  "sha256": "a53569fddd604a4ec84b3953f3f9a33e9e4082b2df140c679722add60d0fc4ae",
+  "bytes": 57410
+ },
+ {
+  "name": "sp-A19091",
+  "url": "https://www.service-public.gouv.fr/particuliers/actualites/A19091",
+  "fetchedAt": "2026-10-23T19:11:49.568Z",
+  "status": 200,
+  "contentType": "text/html;charset=UTF-8",
+  "finalUrl": "https://www.service-public.gouv.fr/particuliers/actualites/A19091",
+  "sha256": "9b0e0ba70c609f98acfd74c79f0e8c16fc96184d69ec0bba7ebe32501c5e5038",
+  "bytes": 64646
+ },
+ {
+  "name": "sp-A19092",
+  "url": "https://www.service-public.gouv.fr/particuliers/actualites/A19092",
+  "fetchedAt": "2026-10-23T19:11:49.666Z",
+  "status": 200,
+  "contentType": "text/html;charset=UTF-8",
+  "finalUrl": "https://www.service-public.gouv.fr/particuliers/actualites/A19092",
+  "sha256": "a5a3dcc9ba0b327c55268ac646501d4b6b2fe92c1d7071ec7e63759a79996946",
+  "bytes": 55977
+ },
+ {
+  "name": "sp-A19093",
+  "url": "https://www.service-public.gouv.fr/particuliers/actualites/A19093",
+  "fetchedAt": "2026-10-23T19:11:49.723Z",
+  "status": 200,
+  "contentType": "text/html;charset=UTF-8",
+  "finalUrl": "https://www.service-public.gouv.fr/particuliers/actualites/A19093",
+  "sha256": "b9a532c7040b72002909b7896f5489a9dfe10d49a8b6cce2c7b7c9260da14c19",
+  "bytes": 57569
+ },
+ {
+  "name": "sp-A19094",
+  "url": "https://www.service-public.gouv.fr/particuliers/actualites/A19094",
+  "fetchedAt": "2026-10-23T19:11:49.791Z",
+  "status": 200,
+  "contentType": "text/html;charset=UTF-8",
+  "finalUrl": "https://www.service-public.gouv.fr/particuliers/actualites/A19094",
+  "sha256": "3751df086f0d8009272c6a840c6a2624a71d61f10401f47f535240cfaedc92d1",
+  "bytes": 60013
+ },
+ {
+  "name": "sp-A19095",
+  "url": "https://www.service-public.gouv.fr/particuliers/actualites/A19095",
+  "fetchedAt": "2026-10-23T19:11:49.862Z",
+  "status": 200,
+  "contentType": "text/html;charset=UTF-8",
+  "finalUrl": "https://www.service-public.gouv.fr/particuliers/actualites/A19095",
+  "sha256": "de903fc914af55796380ec4b266128c20740b48ab7e36547892c415a310a73a3",
+  "bytes": 57530
+ },
+ {
+  "name": "sp-A19096",
+  "url": "https://www.service-public.gouv.fr/particuliers/actualites/A19096",
+  "fetchedAt": "2026-10-23T19:11:49.934Z",
+  "status": 200,
+  "contentType": "text/html;charset=UTF-8",
+  "finalUrl": "https://www.service-public.gouv.fr/particuliers/actualites/A19096",
+  "sha256": "6637a9a1d453162b0fca0b9ea6eaac01a6a740f3d61b29546a3e4afcd1b879fd",
+  "bytes": 56844
+ },
+ {
+  "name": "sp-A19097",
+  "url": "https://www.service-public.gouv.fr/particuliers/actualites/A19097",
+  "fetchedAt": "2026-10-23T19:11:50.009Z",
+  "status": 200,
+  "contentType": "text/html;charset=UTF-8",
+  "finalUrl": "https://www.service-public.gouv.fr/particuliers/actualites/A19097",
+  "sha256": "db4a551333f52a06bb843427ceee7fc679c1112bdeb59cf8f6fb72f066e7bad8",
+  "bytes": 61979
+ },
+ {
+  "name": "sp-A19101",
+  "url": "https://www.service-public.gouv.fr/particuliers/actualites/A19101",
+  "fetchedAt": "2026-10-23T19:11:50.126Z",
+  "status": 200,
+  "contentType": "text/html;charset=UTF-8",
+  "finalUrl": "https://www.service-public.gouv.fr/particuliers/actualites/A19101",
+  "sha256": "ca59a79bccd93ae809d62b9c6aea1cf2462b6a4027fb8dc3dce8bedd520d39f7",
+  "bytes": 61969
+ },
+ {
+  "name": "sp-A19103",
+  "url": "https://www.service-public.gouv.fr/particuliers/actualites/A19103",
+  "fetchedAt": "2026-10-23T19:11:50.232Z",
+  "status": 200,
+  "contentType": "text/html;charset=UTF-8",
+  "finalUrl": "https://www.service-public.gouv.fr/particuliers/actualites/A19103",
+  "sha256": "3445d60cea10d58bc2d52b2d1341bfb99d3fcc087032e69d1d69478d41f73e16",
+  "bytes": 64820
+ },
+ {
+  "name": "senat-446",
+  "url": "https://www.senat.fr/dossier-legislatif/ppl25-446.html",
+  "fetchedAt": "2026-10-23T19:13:24.365Z",
+  "status": 200,
+  "contentType": "text/html",
+  "finalUrl": "https://www.senat.fr/dossier-legislatif/ppl25-446.html",
+  "sha256": "979475ae57afe6555d288b8af8cf0f093f0d59460cae79239d6f2aebea4b2409",
+  "bytes": 118883
+ },
+ {
+  "name": "senat-446-clair",
+  "url": "https://www.senat.fr/travaux-parlementaires/textes-legislatifs/la-loi-en-clair/proposition-de-loi-visant-a-assouplir-la-procedure-dautorisation-des-etablissements-et-services-medico-sociaux-a-caractere-experimental.html",
+  "fetchedAt": "2026-10-23T19:13:31.219Z",
+  "status": 200,
+  "contentType": "text/html; charset=utf-8",
+  "finalUrl": "https://www.senat.fr/travaux-parlementaires/textes-legislatifs/la-loi-en-clair/proposition-de-loi-visant-a-assouplir-la-procedure-dautorisation-des-etablissements-et-services-medico-sociaux-a-caractere-experimental.html",
+  "sha256": "c20b4d1a1a2dea0b5f2137dd209062c6556aa3ca59b8e6cb323f073a16c5a76e",
+  "bytes": 157366
+ },
+ {
+  "name": "an-plfss",
+  "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/PLFSS_2027",
+  "fetchedAt": "2026-10-23T19:13:47.885Z",
+  "status": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "finalUrl": "https://www.assemblee-nationale.fr/dyn/17/dossiers/PLFSS_2027",
+  "sha256": "64ede3a4eed36e608687b7f7574c6b36dff53669c9a57aa3ad07916b18c0b580",
+  "bytes": 121852
+ },
+ {
+  "name": "an-plf",
+  "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/PLF_2027",
+  "fetchedAt": "2026-10-23T19:13:48.138Z",
+  "status": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "finalUrl": "https://www.assemblee-nationale.fr/dyn/17/dossiers/PLF_2027",
+  "sha256": "14926ae63095512347019fe6d7fc11c8d6d0839f29a942b9dbd754cb8badad33",
+  "bytes": 222131
+ },
+ {
+  "name": "an-ta358",
+  "url": "https://www.assemblee-nationale.fr/dyn/17/textes/l17t0358_texte-adopte-seance",
+  "fetchedAt": "2026-10-23T19:14:04.069Z",
+  "status": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "finalUrl": "https://www.assemblee-nationale.fr/dyn/17/textes/l17t0358_texte-adopte-seance",
+  "sha256": "d0fafeb621d820fa99ddc4c7aa54f214f414b695a772cc5df3a80e838e79c00a",
+  "bytes": 77696
+ },
+ {
+  "name": "senat-plfss",
+  "url": "https://www.senat.fr/dossier-legislatif/plfss2027.html",
+  "fetchedAt": "2026-10-23T19:14:04.569Z",
+  "status": 200,
+  "contentType": "text/html",
+  "finalUrl": "https://www.senat.fr/dossier-legislatif/plfss2027.html",
+  "sha256": "b449c86c1efc8f1fdc43a8d8b6f67ab9107a18a4e0890cc2c1fe01e425adf16c",
+  "bytes": 112496
+ },
+ {
+  "name": "const-471",
+  "url": "https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/texte-integral-de-la-constitution-du-4-octobre-1958-en-vigueur",
+  "fetchedAt": "2026-10-23T19:14:04.737Z",
+  "status": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "finalUrl": "https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/texte-integral-de-la-constitution-du-4-octobre-1958-en-vigueur",
+  "sha256": "55fe753b5f96be189330eaf30120ea69209ef37c8c79f5d2b463fc6f3b2554d4",
+  "bytes": 138074
+ },
+ {
+  "name": "leg-1014",
+  "url": "https://www.legislation.gov.uk/new/2026-10-14",
+  "fetchedAt": "2026-10-23T19:15:05.195Z",
+  "status": 200,
+  "contentType": "text/html;charset=utf-8",
+  "finalUrl": "https://www.legislation.gov.uk/new/2026-10-14",
+  "sha256": "44f75709b06d264c53cda22f960e40a1a5df403b7572505bf8fa6939f22fd9ed",
+  "bytes": 19691
+ },
+ {
+  "name": "leg-1015",
+  "url": "https://www.legislation.gov.uk/new/2026-10-15",
+  "fetchedAt": "2026-10-23T19:15:05.470Z",
+  "status": 200,
+  "contentType": "text/html;charset=utf-8",
+  "finalUrl": "https://www.legislation.gov.uk/new/2026-10-15",
+  "sha256": "a0b9aaabf2db95d8f44d5246dd6a5ec754c67471c48789a285cc38828e8786a0",
+  "bytes": 20161
+ },
+ {
+  "name": "leg-1016",
+  "url": "https://www.legislation.gov.uk/new/2026-10-16",
+  "fetchedAt": "2026-10-23T19:15:05.674Z",
+  "status": 200,
+  "contentType": "text/html;charset=utf-8",
+  "finalUrl": "https://www.legislation.gov.uk/new/2026-10-16",
+  "sha256": "b66f3de32ce787318b92e617430f50364f715c7cbc684c841000f77eb8747da6",
+  "bytes": 20160
+ },
+ {
+  "name": "leg-1019",
+  "url": "https://www.legislation.gov.uk/new/2026-10-19",
+  "fetchedAt": "2026-10-23T19:15:05.907Z",
+  "status": 200,
+  "contentType": "text/html;charset=utf-8",
+  "finalUrl": "https://www.legislation.gov.uk/new/2026-10-19",
+  "sha256": "25fe1cf52e9e5c885a1f6fa42f700aae585a4f59226ab593399cf5110c871195",
+  "bytes": 20161
+ },
+ {
+  "name": "leg-1020",
+  "url": "https://www.legislation.gov.uk/new/2026-10-20",
+  "fetchedAt": "2026-10-23T19:15:06.166Z",
+  "status": 200,
+  "contentType": "text/html;charset=utf-8",
+  "finalUrl": "https://www.legislation.gov.uk/new/2026-10-20",
+  "sha256": "8d567da992b4d123bef350ea9f6e2ad0db667c93555ca337aa774ccdbdea4b8c",
+  "bytes": 19709
+ },
+ {
+  "name": "leg-1021",
+  "url": "https://www.legislation.gov.uk/new/2026-10-21",
+  "fetchedAt": "2026-10-23T19:15:07.002Z",
+  "status": 200,
+  "contentType": "text/html;charset=utf-8",
+  "finalUrl": "https://www.legislation.gov.uk/new/2026-10-21",
+  "sha256": "6c8204b0ca6dc9717fd8a0dbb744c7b7994078c2e40e09768c7f06054ef42f2d",
+  "bytes": 19481
+ },
+ {
+  "name": "leg-1022",
+  "url": "https://www.legislation.gov.uk/new/2026-10-22",
+  "fetchedAt": "2026-10-23T19:15:07.270Z",
+  "status": 200,
+  "contentType": "text/html;charset=utf-8",
+  "finalUrl": "https://www.legislation.gov.uk/new/2026-10-22",
+  "sha256": "f411fe27768851bf2405de5e3c59d2cfe4dbfbbd70f2bd4ce136b83ca4bc4ed2",
+  "bytes": 20161
+ },
+ {
+  "name": "leg-new-all-2026-10-14",
+  "url": "https://www.legislation.gov.uk/new/all/2026-10-14",
+  "fetchedAt": "2026-10-23T19:15:27.352Z",
+  "status": 200,
+  "contentType": "text/html;charset=utf-8",
+  "finalUrl": "https://www.legislation.gov.uk/new/all/2026-10-14",
+  "sha256": "5ee3c5eec25286144963e56f648296d7c51882e104347513ce2680b208f92927",
+  "bytes": 21109
+ },
+ {
+  "name": "leg-new-all-2026-10-15",
+  "url": "https://www.legislation.gov.uk/new/all/2026-10-15",
+  "fetchedAt": "2026-10-23T19:15:27.629Z",
+  "status": 200,
+  "contentType": "text/html;charset=utf-8",
+  "finalUrl": "https://www.legislation.gov.uk/new/all/2026-10-15",
+  "sha256": "30c0b02fbf299c10eb1c383acb25179fc9849583dab33a9783228ec397c57faf",
+  "bytes": 23548
+ },
+ {
+  "name": "leg-new-all-2026-10-16",
+  "url": "https://www.legislation.gov.uk/new/all/2026-10-16",
+  "fetchedAt": "2026-10-23T19:15:28.205Z",
+  "status": 200,
+  "contentType": "text/html;charset=utf-8",
+  "finalUrl": "https://www.legislation.gov.uk/new/all/2026-10-16",
+  "sha256": "7bd02c9d2310072cc3115e91a0d91f33de986f24bce615e640ecd50d62f0b776",
+  "bytes": 22276
+ },
+ {
+  "name": "leg-new-all-2026-10-19",
+  "url": "https://www.legislation.gov.uk/new/all/2026-10-19",
+  "fetchedAt": "2026-10-23T19:15:28.601Z",
+  "status": 200,
+  "contentType": "text/html;charset=utf-8",
+  "finalUrl": "https://www.legislation.gov.uk/new/all/2026-10-19",
+  "sha256": "31753955b1dbeb3112d3db6ac1c8365dc22b3203e0844550fddfd7aea9115b91",
+  "bytes": 23963
+ },
+ {
+  "name": "leg-new-all-2026-10-20",
+  "url": "https://www.legislation.gov.uk/new/all/2026-10-20",
+  "fetchedAt": "2026-10-23T19:15:29.090Z",
+  "status": 200,
+  "contentType": "text/html;charset=utf-8",
+  "finalUrl": "https://www.legislation.gov.uk/new/all/2026-10-20",
+  "sha256": "133ad84079b8aa0b89bf224979484647da356f427563e1e48763cf83c359c21f",
+  "bytes": 20648
+ },
+ {
+  "name": "leg-new-all-2026-10-21",
+  "url": "https://www.legislation.gov.uk/new/all/2026-10-21",
+  "fetchedAt": "2026-10-23T19:15:29.311Z",
+  "status": 200,
+  "contentType": "text/html;charset=utf-8",
+  "finalUrl": "https://www.legislation.gov.uk/new/all/2026-10-21",
+  "sha256": "695cfa68b21cbca5dd79b86ef6029d8f81cf8978b7faee3655ffee71c2ab1515",
+  "bytes": 20232
+ },
+ {
+  "name": "leg-new-all-2026-10-22",
+  "url": "https://www.legislation.gov.uk/new/all/2026-10-22",
+  "fetchedAt": "2026-10-23T19:15:29.547Z",
+  "status": 200,
+  "contentType": "text/html;charset=utf-8",
+  "finalUrl": "https://www.legislation.gov.uk/new/all/2026-10-22",
+  "sha256": "c14d1229aef8cfe2ea85ecb7ed26988d2a3c36c59c9eccd4cf19cd296d7bd7b1",
+  "bytes": 22835
+ },
+ {
+  "name": "leg-new-ni-2026-10-14",
+  "url": "https://www.legislation.gov.uk/new/ni/2026-10-14",
+  "fetchedAt": "2026-10-23T19:15:29.845Z",
+  "status": 200,
+  "contentType": "text/html;charset=utf-8",
+  "finalUrl": "https://www.legislation.gov.uk/new/ni/2026-10-14",
+  "sha256": "29f5b16a68d7493173f141085b0c1bd6010d82c698496286b537d667e4a1e2cc",
+  "bytes": 18727
+ },
+ {
+  "name": "leg-new-ni-2026-10-15",
+  "url": "https://www.legislation.gov.uk/new/ni/2026-10-15",
+  "fetchedAt": "2026-10-23T19:15:30.011Z",
+  "status": 200,
+  "contentType": "text/html;charset=utf-8",
+  "finalUrl": "https://www.legislation.gov.uk/new/ni/2026-10-15",
+  "sha256": "a05a60aeae98c5262b367473c95bf396adcc8ebbc22a2dfa676ef2dc9b3b72e5",
+  "bytes": 19182
+ },
+ {
+  "name": "leg-new-ni-2026-10-16",
+  "url": "https://www.legislation.gov.uk/new/ni/2026-10-16",
+  "fetchedAt": "2026-10-23T19:15:30.177Z",
+  "status": 200,
+  "contentType": "text/html;charset=utf-8",
+  "finalUrl": "https://www.legislation.gov.uk/new/ni/2026-10-16",
+  "sha256": "64f3ae742d19314ce196aede461b9bd7a7ada3e43d2dbfc648f59ad499e413f5",
+  "bytes": 19238
+ },
+ {
+  "name": "leg-new-ni-2026-10-19",
+  "url": "https://www.legislation.gov.uk/new/ni/2026-10-19",
+  "fetchedAt": "2026-10-23T19:15:30.309Z",
+  "status": 200,
+  "contentType": "text/html;charset=utf-8",
+  "finalUrl": "https://www.legislation.gov.uk/new/ni/2026-10-19",
+  "sha256": "33c2c1e6967ed482b0edfe3ae0e848dcb91cd1f890002fae7132fb71f4a087ac",
+  "bytes": 19217
+ },
+ {
+  "name": "leg-new-ni-2026-10-20",
+  "url": "https://www.legislation.gov.uk/new/ni/2026-10-20",
+  "fetchedAt": "2026-10-23T19:15:30.482Z",
+  "status": 200,
+  "contentType": "text/html;charset=utf-8",
+  "finalUrl": "https://www.legislation.gov.uk/new/ni/2026-10-20",
+  "sha256": "2b08dd939cf2dc49bb4decf45f16c1c58338334081424d12d728ea646a0ef3a6",
+  "bytes": 19273
+ },
+ {
+  "name": "leg-new-ni-2026-10-21",
+  "url": "https://www.legislation.gov.uk/new/ni/2026-10-21",
+  "fetchedAt": "2026-10-23T19:15:30.608Z",
+  "status": 200,
+  "contentType": "text/html;charset=utf-8",
+  "finalUrl": "https://www.legislation.gov.uk/new/ni/2026-10-21",
+  "sha256": "b81a35bd4e658d905794068674acef00250741665b2a64a34977143f5e9b7753",
+  "bytes": 18727
+ },
+ {
+  "name": "leg-new-ni-2026-10-22",
+  "url": "https://www.legislation.gov.uk/new/ni/2026-10-22",
+  "fetchedAt": "2026-10-23T19:15:30.742Z",
+  "status": 200,
+  "contentType": "text/html;charset=utf-8",
+  "finalUrl": "https://www.legislation.gov.uk/new/ni/2026-10-22",
+  "sha256": "7669da5f88378ae034648835aa2f77218c5e00a4a27b96f6a8f6a95c0f081026",
+  "bytes": 19611
+ },
+ {
+  "name": "leg-new-nisr-2026-10-15",
+  "url": "https://www.legislation.gov.uk/new/nisr/2026-10-15",
+  "fetchedAt": "2026-10-23T19:15:30.889Z",
+  "status": 200,
+  "contentType": "text/html;charset=utf-8",
+  "finalUrl": "https://www.legislation.gov.uk/new/nisr/2026-10-15",
+  "sha256": "2699afd6931e4212aa6476b05d8b0919ec5aa830fc9910110c5fb97a463168b4",
+  "bytes": 19177
+ },
+ {
+  "name": "leg-new-nisr-2026-10-16",
+  "url": "https://www.legislation.gov.uk/new/nisr/2026-10-16",
+  "fetchedAt": "2026-10-23T19:15:31.066Z",
+  "status": 200,
+  "contentType": "text/html;charset=utf-8",
+  "finalUrl": "https://www.legislation.gov.uk/new/nisr/2026-10-16",
+  "sha256": "635e49b9a759a25d33a4ff66b7983346536fe00f76231bb3399e3c6e31d0ff41",
+  "bytes": 19233
+ },
+ {
+  "name": "leg-new-nisr-2026-10-19",
+  "url": "https://www.legislation.gov.uk/new/nisr/2026-10-19",
+  "fetchedAt": "2026-10-23T19:15:31.237Z",
+  "status": 200,
+  "contentType": "text/html;charset=utf-8",
+  "finalUrl": "https://www.legislation.gov.uk/new/nisr/2026-10-19",
+  "sha256": "84ca49accb5a65c067ccb8b71708d616efbf6936e3825db737fc4b807b602c42",
+  "bytes": 19212
+ },
+ {
+  "name": "leg-new-nisr-2026-10-20",
+  "url": "https://www.legislation.gov.uk/new/nisr/2026-10-20",
+  "fetchedAt": "2026-10-23T19:15:31.359Z",
+  "status": 200,
+  "contentType": "text/html;charset=utf-8",
+  "finalUrl": "https://www.legislation.gov.uk/new/nisr/2026-10-20",
+  "sha256": "cc34564a01aa805e549521a186c3e63d907e38e98188218b26e3f8733e85293f",
+  "bytes": 19268
+ },
+ {
+  "name": "leg-new-nisr-2026-10-22",
+  "url": "https://www.legislation.gov.uk/new/nisr/2026-10-22",
+  "fetchedAt": "2026-10-23T19:15:31.499Z",
+  "status": 200,
+  "contentType": "text/html;charset=utf-8",
+  "finalUrl": "https://www.legislation.gov.uk/new/nisr/2026-10-22",
+  "sha256": "d77b65018f43cdf5c0b5543c8e86d9512b1311f9e794ab3255eb05ba80f6fafd",
+  "bytes": 19606
+ },
+ {
+  "name": "leg-new-scotland-2026-10-14",
+  "url": "https://www.legislation.gov.uk/new/scotland/2026-10-14",
+  "fetchedAt": "2026-10-23T19:15:31.636Z",
+  "status": 200,
+  "contentType": "text/html;charset=utf-8",
+  "finalUrl": "https://www.legislation.gov.uk/new/scotland/2026-10-14",
+  "sha256": "0b30986fb37b651afc1aa318f2f2467198fb06d63197a5ad1499732c09f08a36",
+  "bytes": 18741
+ },
+ {
+  "name": "leg-new-scotland-2026-10-15",
+  "url": "https://www.legislation.gov.uk/new/scotland/2026-10-15",
+  "fetchedAt": "2026-10-23T19:15:31.752Z",
+  "status": 200,
+  "contentType": "text/html;charset=utf-8",
+  "finalUrl": "https://www.legislation.gov.uk/new/scotland/2026-10-15",
+  "sha256": "1764b29b068a232a08f1688c52d196e2ac6518fec34b6574ecd6d38f13e89838",
+  "bytes": 18741
+ },
+ {
+  "name": "leg-new-scotland-2026-10-16",
+  "url": "https://www.legislation.gov.uk/new/scotland/2026-10-16",
+  "fetchedAt": "2026-10-23T19:15:31.894Z",
+  "status": 200,
+  "contentType": "text/html;charset=utf-8",
+  "finalUrl": "https://www.legislation.gov.uk/new/scotland/2026-10-16",
+  "sha256": "08082c4f3e1c25532467502ed59a0e1e0d297edd3eaeff3bb1d126c04d887001",
+  "bytes": 18741
+ },
+ {
+  "name": "leg-new-scotland-2026-10-19",
+  "url": "https://www.legislation.gov.uk/new/scotland/2026-10-19",
+  "fetchedAt": "2026-10-23T19:15:32.084Z",
+  "status": 200,
+  "contentType": "text/html;charset=utf-8",
+  "finalUrl": "https://www.legislation.gov.uk/new/scotland/2026-10-19",
+  "sha256": "b01ceab6d68f891309c43f36038022337521c815d83c8872624725e9293aeb60",
+  "bytes": 18741
+ },
+ {
+  "name": "leg-new-scotland-2026-10-20",
+  "url": "https://www.legislation.gov.uk/new/scotland/2026-10-20",
+  "fetchedAt": "2026-10-23T19:15:32.358Z",
+  "status": 200,
+  "contentType": "text/html;charset=utf-8",
+  "finalUrl": "https://www.legislation.gov.uk/new/scotland/2026-10-20",
+  "sha256": "939a21ff1c7ad3d95d7b538871767370d18a7a8d0d1ca80c836364a78db4e64a",
+  "bytes": 18741
+ },
+ {
+  "name": "leg-new-scotland-2026-10-21",
+  "url": "https://www.legislation.gov.uk/new/scotland/2026-10-21",
+  "fetchedAt": "2026-10-23T19:15:32.526Z",
+  "status": 200,
+  "contentType": "text/html;charset=utf-8",
+  "finalUrl": "https://www.legislation.gov.uk/new/scotland/2026-10-21",
+  "sha256": "27b549484a6ef360ad5ab493057192d87fed56703669df17f79c44eb7c421bf6",
+  "bytes": 18741
+ },
+ {
+  "name": "leg-new-scotland-2026-10-22",
+  "url": "https://www.legislation.gov.uk/new/scotland/2026-10-22",
+  "fetchedAt": "2026-10-23T19:15:32.691Z",
+  "status": 200,
+  "contentType": "text/html;charset=utf-8",
+  "finalUrl": "https://www.legislation.gov.uk/new/scotland/2026-10-22",
+  "sha256": "f0e05095ec2a7eb5c07e7f5b09a830cc1dee271f6141e16124f793213352f893",
+  "bytes": 18741
+ },
+ {
+  "name": "leg-new-uk-2026-10-14",
+  "url": "https://www.legislation.gov.uk/new/uk/2026-10-14",
+  "fetchedAt": "2026-10-23T19:15:32.833Z",
+  "status": 200,
+  "contentType": "text/html;charset=utf-8",
+  "finalUrl": "https://www.legislation.gov.uk/new/uk/2026-10-14",
+  "sha256": "dded18130a0dd7d027aaeae30b66e3ba0d200e2f91bdddc701e643c9af0c40ec",
+  "bytes": 20261
+ },
+ {
+  "name": "leg-new-uk-2026-10-15",
+  "url": "https://www.legislation.gov.uk/new/uk/2026-10-15",
+  "fetchedAt": "2026-10-23T19:15:33.000Z",
+  "status": 200,
+  "contentType": "text/html;charset=utf-8",
+  "finalUrl": "https://www.legislation.gov.uk/new/uk/2026-10-15",
+  "sha256": "7d731153dfacf6601b0fe6aada7f993171d9c26f35056c77b1bf1a0a0f7966e6",
+  "bytes": 21789
+ },
+ {
+  "name": "leg-new-uk-2026-10-16",
+  "url": "https://www.legislation.gov.uk/new/uk/2026-10-16",
+  "fetchedAt": "2026-10-23T19:15:33.218Z",
+  "status": 200,
+  "contentType": "text/html;charset=utf-8",
+  "finalUrl": "https://www.legislation.gov.uk/new/uk/2026-10-16",
+  "sha256": "da10cf3d1db243f063e24e00f4ada3f6c5f6388161a46a5be7a67e5150a68e82",
+  "bytes": 21014
+ },
+ {
+  "name": "leg-new-uk-2026-10-19",
+  "url": "https://www.legislation.gov.uk/new/uk/2026-10-19",
+  "fetchedAt": "2026-10-23T19:15:33.568Z",
+  "status": 200,
+  "contentType": "text/html;charset=utf-8",
+  "finalUrl": "https://www.legislation.gov.uk/new/uk/2026-10-19",
+  "sha256": "669eca41c04dc95fcad99cbcdf9b0295ad423b2675d37abf7c2bdaba8876d023",
+  "bytes": 21100
+ },
+ {
+  "name": "leg-new-uk-2026-10-20",
+  "url": "https://www.legislation.gov.uk/new/uk/2026-10-20",
+  "fetchedAt": "2026-10-23T19:15:33.801Z",
+  "status": 200,
+  "contentType": "text/html;charset=utf-8",
+  "finalUrl": "https://www.legislation.gov.uk/new/uk/2026-10-20",
+  "sha256": "9bce51fb7bd19b756428e66922454faacd56818b1894464f6786ac1a22868e21",
+  "bytes": 19908
+ },
+ {
+  "name": "leg-new-uk-2026-10-21",
+  "url": "https://www.legislation.gov.uk/new/uk/2026-10-21",
+  "fetchedAt": "2026-10-23T19:15:33.980Z",
+  "status": 200,
+  "contentType": "text/html;charset=utf-8",
+  "finalUrl": "https://www.legislation.gov.uk/new/uk/2026-10-21",
+  "sha256": "17d60738f6f1963fb6b64bdc877358a303a3b17a7eeb3e4c31a1cdaa46237f00",
+  "bytes": 20133
+ },
+ {
+  "name": "leg-new-uk-2026-10-22",
+  "url": "https://www.legislation.gov.uk/new/uk/2026-10-22",
+  "fetchedAt": "2026-10-23T19:15:34.153Z",
+  "status": 200,
+  "contentType": "text/html;charset=utf-8",
+  "finalUrl": "https://www.legislation.gov.uk/new/uk/2026-10-22",
+  "sha256": "f4760c2ce1474b87214e4f917059c3a168c535fd9922cf0bc67dd6906a61f2ee",
+  "bytes": 20991
+ },
+ {
+  "name": "leg-new-ukpga-2026-10-21",
+  "url": "https://www.legislation.gov.uk/new/ukpga/2026-10-21",
+  "fetchedAt": "2026-10-23T19:15:34.406Z",
+  "status": 200,
+  "contentType": "text/html;charset=utf-8",
+  "finalUrl": "https://www.legislation.gov.uk/new/ukpga/2026-10-21",
+  "sha256": "5b72a58cf23cefd7cc9709ab884d1d97f8d9cfbd4384631ee9ee4b07cd09d9f9",
+  "bytes": 19190
+ },
+ {
+  "name": "leg-new-uksi-2026-10-14",
+  "url": "https://www.legislation.gov.uk/new/uksi/2026-10-14",
+  "fetchedAt": "2026-10-23T19:15:34.543Z",
+  "status": 200,
+  "contentType": "text/html;charset=utf-8",
+  "finalUrl": "https://www.legislation.gov.uk/new/uksi/2026-10-14",
+  "sha256": "4b7008344e268e866d3a8b143f7778bdaa34bf63ffcf3701e3252cc5d4965545",
+  "bytes": 20248
+ },
+ {
+  "name": "leg-new-uksi-2026-10-15",
+  "url": "https://www.legislation.gov.uk/new/uksi/2026-10-15",
+  "fetchedAt": "2026-10-23T19:15:34.778Z",
+  "status": 200,
+  "contentType": "text/html;charset=utf-8",
+  "finalUrl": "https://www.legislation.gov.uk/new/uksi/2026-10-15",
+  "sha256": "4c2d11d6373e92d2ab2b61ebf8dd6338e0149234f069c472a7fbf862ce1a80d7",
+  "bytes": 21776
+ },
+ {
+  "name": "leg-new-uksi-2026-10-16",
+  "url": "https://www.legislation.gov.uk/new/uksi/2026-10-16",
+  "fetchedAt": "2026-10-23T19:15:35.034Z",
+  "status": 200,
+  "contentType": "text/html;charset=utf-8",
+  "finalUrl": "https://www.legislation.gov.uk/new/uksi/2026-10-16",
+  "sha256": "c49d477341c954e7b9805dab8c68d8336a907dd2d0790495e8dfa72148d2a234",
+  "bytes": 21001
+ },
+ {
+  "name": "leg-new-uksi-2026-10-19",
+  "url": "https://www.legislation.gov.uk/new/uksi/2026-10-19",
+  "fetchedAt": "2026-10-23T19:15:35.375Z",
+  "status": 200,
+  "contentType": "text/html;charset=utf-8",
+  "finalUrl": "https://www.legislation.gov.uk/new/uksi/2026-10-19",
+  "sha256": "2f07e7a6255569b08da76e9360e38cd55d73323feaf7a54706247317ea1f3e0c",
+  "bytes": 21087
+ },
+ {
+  "name": "leg-new-uksi-2026-10-20",
+  "url": "https://www.legislation.gov.uk/new/uksi/2026-10-20",
+  "fetchedAt": "2026-10-23T19:15:35.581Z",
+  "status": 200,
+  "contentType": "text/html;charset=utf-8",
+  "finalUrl": "https://www.legislation.gov.uk/new/uksi/2026-10-20",
+  "sha256": "48e50512971d3e24d23759f770b979b4759e305b98ca3e99fd9d0416231a3aef",
+  "bytes": 19895
+ },
+ {
+  "name": "leg-new-uksi-2026-10-21",
+  "url": "https://www.legislation.gov.uk/new/uksi/2026-10-21",
+  "fetchedAt": "2026-10-23T19:15:35.787Z",
+  "status": 200,
+  "contentType": "text/html;charset=utf-8",
+  "finalUrl": "https://www.legislation.gov.uk/new/uksi/2026-10-21",
+  "sha256": "95a5aeba0cb579e9fdfef11b7962477f85c40ad8018587d3e43de22d8cb18579",
+  "bytes": 19614
+ },
+ {
+  "name": "leg-new-uksi-2026-10-22",
+  "url": "https://www.legislation.gov.uk/new/uksi/2026-10-22",
+  "fetchedAt": "2026-10-23T19:15:36.014Z",
+  "status": 200,
+  "contentType": "text/html;charset=utf-8",
+  "finalUrl": "https://www.legislation.gov.uk/new/uksi/2026-10-22",
+  "sha256": "290ec684240f91123c967409a509afabc61b79ca65677632d8e7d384f76115a5",
+  "bytes": 20978
+ },
+ {
+  "name": "leg-new-wales-2026-10-14",
+  "url": "https://www.legislation.gov.uk/new/wales/2026-10-14",
+  "fetchedAt": "2026-10-23T19:15:36.230Z",
+  "status": 200,
+  "contentType": "text/html;charset=utf-8",
+  "finalUrl": "https://www.legislation.gov.uk/new/wales/2026-10-14",
+  "sha256": "be8f650a2afffe4e613955f756570d616a9a2f1b90e975bfe35e5aef4c90862f",
+  "bytes": 19403
+ },
+ {
+  "name": "leg-new-wales-2026-10-15",
+  "url": "https://www.legislation.gov.uk/new/wales/2026-10-15",
+  "fetchedAt": "2026-10-23T19:15:36.366Z",
+  "status": 200,
+  "contentType": "text/html;charset=utf-8",
+  "finalUrl": "https://www.legislation.gov.uk/new/wales/2026-10-15",
+  "sha256": "981d107e1b2fdce07ef09068bc33eb2d5f38a7a65387ee7bae49defdb57d46ad",
+  "bytes": 19764
+ },
+ {
+  "name": "leg-new-wales-2026-10-16",
+  "url": "https://www.legislation.gov.uk/new/wales/2026-10-16",
+  "fetchedAt": "2026-10-23T19:15:36.485Z",
+  "status": 200,
+  "contentType": "text/html;charset=utf-8",
+  "finalUrl": "https://www.legislation.gov.uk/new/wales/2026-10-16",
+  "sha256": "9e4b3f0dcfe6c2e1e19ba39c7aaa8740c9326ac1d2018f3f9bdf66b884bbae28",
+  "bytes": 19211
+ },
+ {
+  "name": "leg-new-wales-2026-10-19",
+  "url": "https://www.legislation.gov.uk/new/wales/2026-10-19",
+  "fetchedAt": "2026-10-23T19:15:36.614Z",
+  "status": 200,
+  "contentType": "text/html;charset=utf-8",
+  "finalUrl": "https://www.legislation.gov.uk/new/wales/2026-10-19",
+  "sha256": "f134a3a3853da9f79cc3feab630cf83e1fd677c48fd53b71e05a911fa5e64af3",
+  "bytes": 20833
+ },
+ {
+  "name": "leg-new-wales-2026-10-20",
+  "url": "https://www.legislation.gov.uk/new/wales/2026-10-20",
+  "fetchedAt": "2026-10-23T19:15:36.786Z",
+  "status": 200,
+  "contentType": "text/html;charset=utf-8",
+  "finalUrl": "https://www.legislation.gov.uk/new/wales/2026-10-20",
+  "sha256": "8ce4f7fce2c4ced5ed6cd5ea8a1feb6d8227f22d5f0e01dd643e47d78bcded1e",
+  "bytes": 18738
+ },
+ {
+  "name": "leg-new-wales-2026-10-21",
+  "url": "https://www.legislation.gov.uk/new/wales/2026-10-21",
+  "fetchedAt": "2026-10-23T19:15:36.959Z",
+  "status": 200,
+  "contentType": "text/html;charset=utf-8",
+  "finalUrl": "https://www.legislation.gov.uk/new/wales/2026-10-21",
+  "sha256": "3a0a04fd1770ff891c9962167d3b870349924ac7b6591799d49336d1e1de5c05",
+  "bytes": 18738
+ },
+ {
+  "name": "leg-new-wales-2026-10-22",
+  "url": "https://www.legislation.gov.uk/new/wales/2026-10-22",
+  "fetchedAt": "2026-10-23T19:15:37.150Z",
+  "status": 200,
+  "contentType": "text/html;charset=utf-8",
+  "finalUrl": "https://www.legislation.gov.uk/new/wales/2026-10-22",
+  "sha256": "1cefbe11c78510463ad2bae7caa38cd2f41431a1dfcf83da8cab4f58c0636199",
+  "bytes": 19420
+ },
+ {
+  "name": "leg-new-wsi-2026-10-14",
+  "url": "https://www.legislation.gov.uk/new/wsi/2026-10-14",
+  "fetchedAt": "2026-10-23T19:15:37.318Z",
+  "status": 200,
+  "contentType": "text/html;charset=utf-8",
+  "finalUrl": "https://www.legislation.gov.uk/new/wsi/2026-10-14",
+  "sha256": "133f9e2604ae840be964394cde366e98142ad41a7a80faf8e3ec3c8856afec2e",
+  "bytes": 19386
+ },
+ {
+  "name": "leg-new-wsi-2026-10-15",
+  "url": "https://www.legislation.gov.uk/new/wsi/2026-10-15",
+  "fetchedAt": "2026-10-23T19:15:37.478Z",
+  "status": 200,
+  "contentType": "text/html;charset=utf-8",
+  "finalUrl": "https://www.legislation.gov.uk/new/wsi/2026-10-15",
+  "sha256": "cece53cdf56bd10f6205f64bf9f6185bcf11a40b6364c3db6004b8855c7fd4de",
+  "bytes": 19747
+ },
+ {
+  "name": "leg-new-wsi-2026-10-16",
+  "url": "https://www.legislation.gov.uk/new/wsi/2026-10-16",
+  "fetchedAt": "2026-10-23T19:15:37.625Z",
+  "status": 200,
+  "contentType": "text/html;charset=utf-8",
+  "finalUrl": "https://www.legislation.gov.uk/new/wsi/2026-10-16",
+  "sha256": "ce797c8f451ed1a825c2d5276e0255ed1eb7ffb50cbca1af64395b3fc645aa0d",
+  "bytes": 19194
+ },
+ {
+  "name": "leg-new-wsi-2026-10-19",
+  "url": "https://www.legislation.gov.uk/new/wsi/2026-10-19",
+  "fetchedAt": "2026-10-23T19:15:37.769Z",
+  "status": 200,
+  "contentType": "text/html;charset=utf-8",
+  "finalUrl": "https://www.legislation.gov.uk/new/wsi/2026-10-19",
+  "sha256": "d01326c7498e674604b2311dc2cf9ecb22dc9e195394ed5b6143e2882677dd9a",
+  "bytes": 20816
+ },
+ {
+  "name": "leg-new-wsi-2026-10-22",
+  "url": "https://www.legislation.gov.uk/new/wsi/2026-10-22",
+  "fetchedAt": "2026-10-23T19:15:37.957Z",
+  "status": 200,
+  "contentType": "text/html;charset=utf-8",
+  "finalUrl": "https://www.legislation.gov.uk/new/wsi/2026-10-22",
+  "sha256": "a0c25a0ee646d7fcc7bea1db267507b605529978e7f3c4fa0221a4a38d951480",
+  "bytes": 19403
+ },
+ {
+  "name": "si-uksi-2026-1101",
+  "url": "https://www.legislation.gov.uk/uksi/2026/1101/made",
+  "fetchedAt": "2026-10-23T19:16:30.697Z",
+  "status": 200,
+  "contentType": "text/html;charset=utf-8",
+  "finalUrl": "https://www.legislation.gov.uk/uksi/2026/1101/made",
+  "sha256": "3faeafbd63ffa30e1fd3e746d90e16f627742f2990d33f5d1ab4a991111708bb",
+  "bytes": 74576
+ },
+ {
+  "name": "si-uksi-2026-1103",
+  "url": "https://www.legislation.gov.uk/uksi/2026/1103/made",
+  "fetchedAt": "2026-10-23T19:16:31.361Z",
+  "status": 200,
+  "contentType": "text/html;charset=utf-8",
+  "finalUrl": "https://www.legislation.gov.uk/uksi/2026/1103/made",
+  "sha256": "2d57d443b438d1a33e1534893be32833d0f38af1bae766c36cee74f4bea2ae01",
+  "bytes": 32498
+ },
+ {
+  "name": "si-uksi-2026-1099",
+  "url": "https://www.legislation.gov.uk/uksi/2026/1099/made",
+  "fetchedAt": "2026-10-23T19:16:31.787Z",
+  "status": 200,
+  "contentType": "text/html;charset=utf-8",
+  "finalUrl": "https://www.legislation.gov.uk/uksi/2026/1099/made",
+  "sha256": "4f9d04df65dc33186645e11dd0f8921ef789b3a3f045722319f43cfa22c4f21a",
+  "bytes": 31781
+ },
+ {
+  "name": "si-uksi-2026-1104",
+  "url": "https://www.legislation.gov.uk/uksi/2026/1104/made",
+  "fetchedAt": "2026-10-23T19:16:32.468Z",
+  "status": 200,
+  "contentType": "text/html;charset=utf-8",
+  "finalUrl": "https://www.legislation.gov.uk/uksi/2026/1104/made",
+  "sha256": "5465f7c026ca9abb989fbf725f6df6d0d2175248626e3f0f637654e553de2e6b",
+  "bytes": 34191
+ },
+ {
+  "name": "si-uksi-2026-1096",
+  "url": "https://www.legislation.gov.uk/uksi/2026/1096/made",
+  "fetchedAt": "2026-10-23T19:16:32.849Z",
+  "status": 200,
+  "contentType": "text/html;charset=utf-8",
+  "finalUrl": "https://www.legislation.gov.uk/uksi/2026/1096/made",
+  "sha256": "e0e9c6b8a165a9b5e25e3b5624f2ac2dd9a73f83207af1d203b4e24172fe6e64",
+  "bytes": 34606
+ },
+ {
+  "name": "si-uksi-2026-1082",
+  "url": "https://www.legislation.gov.uk/uksi/2026/1082/made",
+  "fetchedAt": "2026-10-23T19:16:33.260Z",
+  "status": 200,
+  "contentType": "text/html;charset=utf-8",
+  "finalUrl": "https://www.legislation.gov.uk/uksi/2026/1082/made",
+  "sha256": "6c8b44b4cc849cad9fe1a2087e03a96d85c1031f786b3d96336ffeb9b6e32e8b",
+  "bytes": 44353
+ },
+ {
+  "name": "si-uksi-2026-1094",
+  "url": "https://www.legislation.gov.uk/uksi/2026/1094/made",
+  "fetchedAt": "2026-10-23T19:16:33.482Z",
+  "status": 200,
+  "contentType": "text/html;charset=utf-8",
+  "finalUrl": "https://www.legislation.gov.uk/uksi/2026/1094/made",
+  "sha256": "1957847b53ffb69845a30804badd694f9d237ee76af546c7a05f01cda16918ae",
+  "bytes": 93186
+ },
+ {
+  "name": "si-uksi-2026-1092",
+  "url": "https://www.legislation.gov.uk/uksi/2026/1092/made",
+  "fetchedAt": "2026-10-23T19:16:34.292Z",
+  "status": 200,
+  "contentType": "text/html;charset=utf-8",
+  "finalUrl": "https://www.legislation.gov.uk/uksi/2026/1092/made",
+  "sha256": "72f227f0717104920fe3c6a29316380f5dc4a9b3d01ed6e7e0d30877f0f6446e",
+  "bytes": 56319
+ },
+ {
+  "name": "si-uksi-2026-1085",
+  "url": "https://www.legislation.gov.uk/uksi/2026/1085/made",
+  "fetchedAt": "2026-10-23T19:16:34.741Z",
+  "status": 200,
+  "contentType": "text/html;charset=utf-8",
+  "finalUrl": "https://www.legislation.gov.uk/uksi/2026/1085/made",
+  "sha256": "37e3de3d56b36ed639ad23e816cdeea8905854beeae4966d6e8c9b942540718f",
+  "bytes": 35287
+ },
+ {
+  "name": "si-uksi-2026-1107",
+  "url": "https://www.legislation.gov.uk/uksi/2026/1107/made",
+  "fetchedAt": "2026-10-23T19:16:35.199Z",
+  "status": 200,
+  "contentType": "text/html;charset=utf-8",
+  "finalUrl": "https://www.legislation.gov.uk/uksi/2026/1107/made",
+  "sha256": "d21c5b8fd10974e2cf6c3ed2fd6234572b54331744bf81fa24130b69e429c69f",
+  "bytes": 30405
+ },
+ {
+  "name": "si-nisr-2026-181",
+  "url": "https://www.legislation.gov.uk/nisr/2026/181/made",
+  "fetchedAt": "2026-10-23T19:16:35.641Z",
+  "status": 200,
+  "contentType": "text/html;charset=utf-8",
+  "finalUrl": "https://www.legislation.gov.uk/nisr/2026/181/made",
+  "sha256": "5a67a1083e4b57a7da72e05c7a2ca70b31ea699519a73482391dba38207337a9",
+  "bytes": 93818
+ },
+ {
+  "name": "si-nisr-2026-182",
+  "url": "https://www.legislation.gov.uk/nisr/2026/182/made",
+  "fetchedAt": "2026-10-23T19:16:36.261Z",
+  "status": 200,
+  "contentType": "text/html;charset=utf-8",
+  "finalUrl": "https://www.legislation.gov.uk/nisr/2026/182/made",
+  "sha256": "128d45f4e143852f200cd27054b03f0c52dd5b00e64c870da39389986bb8d69b",
+  "bytes": 30581
+ },
+ {
+  "name": "si-wsi-2026-124",
+  "url": "https://www.legislation.gov.uk/wsi/2026/124/made",
+  "fetchedAt": "2026-10-23T19:16:36.685Z",
+  "status": 200,
+  "contentType": "text/html;charset=utf-8",
+  "finalUrl": "https://www.legislation.gov.uk/wsi/2026/124/made",
+  "sha256": "a2186ed1f1229f9ee78762a57381f0e5962edf1abc5366bee4cf415ce4459ba6",
+  "bytes": 47327
+ },
+ {
+  "name": "pdf-uksi-1101",
+  "url": "https://www.legislation.gov.uk/uksi/2026/1101/pdfs/uksi_20261101_en.pdf",
+  "fetchedAt": "2026-10-23T19:16:59.429Z",
+  "status": 200,
+  "contentType": "application/pdf",
+  "finalUrl": "https://www.legislation.gov.uk/uksi/2026/1101/pdfs/uksi_20261101_en.pdf",
+  "sha256": "623870e86063e8cbaab62121eef1525f6d63a4de60d0ebd1b6ebf5caa0595c12",
+  "bytes": 261061
+ },
+ {
+  "name": "pdf-uksi-1099",
+  "url": "https://www.legislation.gov.uk/uksi/2026/1099/pdfs/uksi_20261099_en.pdf",
+  "fetchedAt": "2026-10-23T19:16:59.567Z",
+  "status": 200,
+  "contentType": "application/pdf",
+  "finalUrl": "https://www.legislation.gov.uk/uksi/2026/1099/pdfs/uksi_20261099_en.pdf",
+  "sha256": "eac83f885a49d8bfa874684f1bb034321b927a57df770e59159ad3ae668e546d",
+  "bytes": 183400
+ },
+ {
+  "name": "pdf-uksi-1096",
+  "url": "https://www.legislation.gov.uk/uksi/2026/1096/pdfs/uksi_20261096_en.pdf",
+  "fetchedAt": "2026-10-23T19:16:59.739Z",
+  "status": 200,
+  "contentType": "application/pdf",
+  "finalUrl": "https://www.legislation.gov.uk/uksi/2026/1096/pdfs/uksi_20261096_en.pdf",
+  "sha256": "f330ae4160e7f10d6e4e6ef93eb88b532f0db0d856cfb3b176d181b0b8ebf36e",
+  "bytes": 190562
+ },
+ {
+  "name": "pdf-uksi-1082",
+  "url": "https://www.legislation.gov.uk/uksi/2026/1082/pdfs/uksi_20261082_en.pdf",
+  "fetchedAt": "2026-10-23T19:16:59.767Z",
+  "status": 200,
+  "contentType": "application/pdf",
+  "finalUrl": "https://www.legislation.gov.uk/uksi/2026/1082/pdfs/uksi_20261082_en.pdf",
+  "sha256": "1426898af1cbe0274e1096b866682927e5a28afea78a7d5f0d6e6f36dc25934d",
+  "bytes": 203602
+ },
+ {
+  "name": "pdf-uksi-1094",
+  "url": "https://www.legislation.gov.uk/uksi/2026/1094/pdfs/uksi_20261094_en.pdf",
+  "fetchedAt": "2026-10-23T19:16:59.800Z",
+  "status": 200,
+  "contentType": "application/pdf",
+  "finalUrl": "https://www.legislation.gov.uk/uksi/2026/1094/pdfs/uksi_20261094_en.pdf",
+  "sha256": "6ddd94bb33238b11d3bb80cee1a8485b966b158b660a3719e4be754f3c4b03da",
+  "bytes": 273167
+ },
+ {
+  "name": "pdf-uksi-1092",
+  "url": "https://www.legislation.gov.uk/uksi/2026/1092/pdfs/uksi_20261092_en.pdf",
+  "fetchedAt": "2026-10-23T19:16:59.834Z",
+  "status": 200,
+  "contentType": "application/pdf",
+  "finalUrl": "https://www.legislation.gov.uk/uksi/2026/1092/pdfs/uksi_20261092_en.pdf",
+  "sha256": "5c9df69b525f62487b85ae0479e57d043ffeab0cef3a179a1c06547f8bad617a",
+  "bytes": 213924
+ },
+ {
+  "name": "pdf-uksi-1085",
+  "url": "https://www.legislation.gov.uk/uksi/2026/1085/pdfs/uksi_20261085_en.pdf",
+  "fetchedAt": "2026-10-23T19:16:59.929Z",
+  "status": 200,
+  "contentType": "application/pdf",
+  "finalUrl": "https://www.legislation.gov.uk/uksi/2026/1085/pdfs/uksi_20261085_en.pdf",
+  "sha256": "ba4bf377a7c1691210c18b7ab774a34f817187523bc7f8011cdbb8d21168dbab",
+  "bytes": 193140
+ },
+ {
+  "name": "pdf-uksi-1107",
+  "url": "https://www.legislation.gov.uk/uksi/2026/1107/pdfs/uksi_20261107_en.pdf",
+  "fetchedAt": "2026-10-23T19:16:59.963Z",
+  "status": 200,
+  "contentType": "application/pdf",
+  "finalUrl": "https://www.legislation.gov.uk/uksi/2026/1107/pdfs/uksi_20261107_en.pdf",
+  "sha256": "f3f9ceabcb58b9be423a9c8ec637e8f3515e59a4289625746eec3fbd4fc27e89",
+  "bytes": 179842
+ },
+ {
+  "name": "pdf-nisr-181",
+  "url": "https://www.legislation.gov.uk/nisr/2026/181/pdfs/nisr_20260181_en.pdf",
+  "fetchedAt": "2026-10-23T19:17:00.313Z",
+  "status": 200,
+  "contentType": "application/pdf",
+  "finalUrl": "https://www.legislation.gov.uk/nisr/2026/181/pdfs/nisr_20260181_en.pdf",
+  "sha256": "306a94d8a330de80bb1be9f42fe984a62482022eebbde0709d94143f226a5cb9",
+  "bytes": 226918
+ },
+ {
+  "name": "pdf-nisr-182",
+  "url": "https://www.legislation.gov.uk/nisr/2026/182/pdfs/nisr_20260182_en.pdf",
+  "fetchedAt": "2026-10-23T19:17:00.480Z",
+  "status": 200,
+  "contentType": "application/pdf",
+  "finalUrl": "https://www.legislation.gov.uk/nisr/2026/182/pdfs/nisr_20260182_en.pdf",
+  "sha256": "e6d612448f578259dd1e3f17f86e57a1b1f9748ccf44331eb98e52939327e6d3",
+  "bytes": 31348
+ },
+ {
+  "name": "pdf-wsi-124",
+  "url": "https://www.legislation.gov.uk/wsi/2026/124/pdfs/wsi_20260124_en.pdf",
+  "fetchedAt": "2026-10-23T19:17:00.591Z",
+  "status": 404,
+  "contentType": "text/html;charset=utf-8",
+  "finalUrl": "https://www.legislation.gov.uk/wsi/2026/124/pdfs/wsi_20260124_en.pdf",
+  "sha256": "ed5b7c895f8ea3f73874581626328b9339cdb83ad71588f56c778d553e4ffafe",
+  "bytes": 12293
+ },
+ {
+  "name": "amf-rendered",
+  "url": "https://www.amf-france.org/fr/actualites-publications/actualites",
+  "rendered": true,
+  "sha256": "a5dfb5f40fea4965b578b83698f0f4a8976b4a7697d4e6c62910533de93828c1",
+  "bytes": 96082,
+  "note": "Latest item 14 October."
+ }
+]

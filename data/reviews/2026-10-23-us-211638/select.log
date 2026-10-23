@@ -1,0 +1,7 @@
+
+> policy-radar@0.1.0 data:select
+> node --experimental-strip-types scripts/select-export.mjs
+
+(node:1136) ExperimentalWarning: Type Stripping is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+{"selected":"data/store","comparedWith":"data/store","policies":924,"revisions":1115,"scans":2492}

@@ -1,0 +1,1988 @@
+{
+ "fetches": [
+  {
+   "name": "wh1",
+   "url": "https://www.whitehouse.gov/presidential-actions/",
+   "fetchedAt": "2026-10-23T20:32:14.000Z",
+   "status": 200,
+   "contentType": "text/html; charset=UTF-8",
+   "finalUrl": "https://www.whitehouse.gov/presidential-actions/",
+   "sha256": "63797a99eb5e6a7b51aefa306e805d5398fdf46d118aba820e7c549058d24bec",
+   "bytes": 264571
+  },
+  {
+   "name": "wh2",
+   "url": "https://www.whitehouse.gov/presidential-actions/page/2/",
+   "fetchedAt": "2026-10-23T20:32:14.000Z",
+   "status": 200,
+   "contentType": "text/html; charset=UTF-8",
+   "finalUrl": "https://www.whitehouse.gov/presidential-actions/page/2/",
+   "sha256": "21e0d8aa4dd6ac29a57041091fe54d29040fd8b304017714a2110c947ebfad90",
+   "bytes": 264717
+  },
+  {
+   "name": "wh3",
+   "url": "https://www.whitehouse.gov/presidential-actions/page/3/",
+   "fetchedAt": "2026-10-23T20:32:15.000Z",
+   "status": 200,
+   "contentType": "text/html; charset=UTF-8",
+   "finalUrl": "https://www.whitehouse.gov/presidential-actions/page/3/",
+   "sha256": "c1a8a65b3a2ffdd1d3003c7e525f63dc5bc67a6b568d40f617f2f0c615ac5add",
+   "bytes": 265407
+  },
+  {
+   "name": "plaw",
+   "url": "https://www.govinfo.gov/app/collection/PLAW/",
+   "fetchedAt": "2026-10-23T20:32:15.000Z",
+   "status": 200,
+   "contentType": "text/html",
+   "finalUrl": "https://www.govinfo.gov/app/collection/PLAW/",
+   "sha256": "5eaab8c283492d3374ae75f219920078fa7959a4827177ad39dbfc28d036ae74",
+   "bytes": 1769
+  },
+  {
+   "name": "irs",
+   "url": "https://www.irs.gov/newsroom",
+   "fetchedAt": "2026-10-23T20:32:15.000Z",
+   "status": 200,
+   "contentType": "text/html; charset=UTF-8",
+   "finalUrl": "https://www.irs.gov/newsroom",
+   "sha256": "4e370644d6e79a3ff33115b31631e9b5d853545785a2b04057c283d306d7c758",
+   "bytes": 117008
+  },
+  {
+   "name": "irsnr",
+   "url": "https://www.irs.gov/newsroom/news-releases-for-current-month",
+   "fetchedAt": "2026-10-23T20:32:16.000Z",
+   "status": 200,
+   "contentType": "text/html; charset=UTF-8",
+   "finalUrl": "https://www.irs.gov/newsroom/news-releases-for-current-month",
+   "sha256": "0e543331e1fd5378450fb6b4ba14b5f151b433f12027fc7387e65e565f6e9a52",
+   "bytes": 103895
+  },
+  {
+   "name": "ssa",
+   "url": "https://www.ssa.gov/news/press/releases/",
+   "fetchedAt": "2026-10-23T20:32:17.000Z",
+   "status": 403,
+   "contentType": "text/html",
+   "finalUrl": "https://www.ssa.gov/news/press/releases/",
+   "sha256": "ad34751158108e3f619ad8ab75118f47bc550b1b702c8ad9be38a0055d132623",
+   "bytes": 397
+  },
+  {
+   "name": "ssacola",
+   "url": "https://www.ssa.gov/cola/",
+   "fetchedAt": "2026-10-23T20:32:17.000Z",
+   "status": 403,
+   "contentType": "text/html",
+   "finalUrl": "https://www.ssa.gov/cola/",
+   "sha256": "6d8eecd57c15e9e6e7cbd906a576d67f4a9626706f02b9022f6d575542178ae4",
+   "bytes": 374
+  },
+  {
+   "name": "congress",
+   "url": "https://www.congress.gov/",
+   "fetchedAt": "2026-10-23T20:32:17.000Z",
+   "status": 403,
+   "contentType": "text/html; charset=UTF-8",
+   "finalUrl": "https://www.congress.gov/",
+   "sha256": "fef82f4baefbc0bd89a98376272aea9236c47e810327fc09684ea68ed18c326d",
+   "bytes": 5716
+  },
+  {
+   "name": "ecfr",
+   "url": "https://www.ecfr.gov/",
+   "fetchedAt": "2026-10-23T20:32:17.000Z",
+   "status": 200,
+   "contentType": "text/html; charset=utf-8",
+   "finalUrl": "https://www.ecfr.gov/",
+   "sha256": "6969843c31ba0806dcb3a0ada0ac7bd5cb5150021bd6b18ea5df1071e7940d0e",
+   "bytes": 69844
+  },
+  {
+   "name": "uscode",
+   "url": "https://uscode.house.gov/",
+   "fetchedAt": "2026-10-23T20:32:18.000Z",
+   "status": 200,
+   "contentType": "text/html",
+   "finalUrl": "https://uscode.house.gov/",
+   "sha256": "baae1de627fc39f9d2b5a97470a33f13601513e0e8765e2f6f416594e611172b",
+   "bytes": 270
+  },
+  {
+   "name": "govinfo-plaw-api",
+   "url": "https://api.govinfo.gov/collections/PLAW/2026-09-01T00:00:00Z?pageSize=100&offsetMark=*",
+   "fetchedAt": "2026-10-23T20:32:38.000Z",
+   "status": 200,
+   "contentType": "application/json",
+   "finalUrl": "https://api.govinfo.gov/collections/PLAW/2026-09-01T00:00:00Z?pageSize=100&offsetMark=*",
+   "sha256": "f3b6a871561586b2bb0a2c33f605a4aa91bbff8f3b5b7830388dc221eb846f9a",
+   "bytes": 9437
+  },
+  {
+   "name": "congress-laws-api",
+   "url": "https://api.congress.gov/v3/law/119?format=json&limit=50",
+   "fetchedAt": "2026-10-23T20:32:39.000Z",
+   "status": 200,
+   "contentType": "application/json",
+   "finalUrl": "https://api.congress.gov/v3/law/119?format=json&limit=50",
+   "sha256": "8a247ef6de5ca78a674a5c352bfc2c83decbf5394a3a9b6414c22989a74c409b",
+   "bytes": 36972
+  },
+  {
+   "name": "fr-2026-21706",
+   "url": "https://www.govinfo.gov/content/pkg/FR-2026-10-23/pdf/2026-21706.pdf",
+   "fetchedAt": "2026-10-23T20:33:53.000Z",
+   "status": 200,
+   "contentType": "application/pdf",
+   "finalUrl": "https://www.govinfo.gov/content/pkg/FR-2026-10-23/pdf/2026-21706.pdf",
+   "sha256": "3ac37341e003fb21c3382ab577c4172ecd076dca93dc9bd7aafe2a4fa242b147",
+   "bytes": 1081638
+  },
+  {
+   "name": "fr-2026-21056",
+   "url": "https://www.govinfo.gov/content/pkg/FR-2026-10-15/pdf/2026-21056.pdf",
+   "fetchedAt": "2026-10-23T20:33:55.000Z",
+   "status": 200,
+   "contentType": "application/pdf",
+   "finalUrl": "https://www.govinfo.gov/content/pkg/FR-2026-10-15/pdf/2026-21056.pdf",
+   "sha256": "ad0dfc6975b2da0e58c9bacbda0e982e886ab484f0d885645f8ad7d5fbcee612",
+   "bytes": 296889
+  },
+  {
+   "name": "fr-2026-21675",
+   "url": "https://www.govinfo.gov/content/pkg/FR-2026-10-23/pdf/2026-21675.pdf",
+   "fetchedAt": "2026-10-23T20:33:56.000Z",
+   "status": 200,
+   "contentType": "application/pdf",
+   "finalUrl": "https://www.govinfo.gov/content/pkg/FR-2026-10-23/pdf/2026-21675.pdf",
+   "sha256": "b09ef99b2549bebb43f65f07607dfaa997b1b1180721c13c49ccc3a5df01ca8e",
+   "bytes": 346919
+  },
+  {
+   "name": "fr-2026-21600",
+   "url": "https://www.govinfo.gov/content/pkg/FR-2026-10-22/pdf/2026-21600.pdf",
+   "fetchedAt": "2026-10-23T20:33:57.000Z",
+   "status": 200,
+   "contentType": "application/pdf",
+   "finalUrl": "https://www.govinfo.gov/content/pkg/FR-2026-10-22/pdf/2026-21600.pdf",
+   "sha256": "2a9c34d4a680781cdda67a6786b63f7a0bde03378a525f5b92d456ae2639c102",
+   "bytes": 222668
+  },
+  {
+   "name": "fr-2026-20955",
+   "url": "https://www.govinfo.gov/content/pkg/FR-2026-10-14/pdf/2026-20955.pdf",
+   "fetchedAt": "2026-10-23T20:33:57.000Z",
+   "status": 200,
+   "contentType": "application/pdf",
+   "finalUrl": "https://www.govinfo.gov/content/pkg/FR-2026-10-14/pdf/2026-20955.pdf",
+   "sha256": "1d9882d3b02fae24a0f3f509b3f2eb099efc2a62358e59dbb2305cc97ab4ab8a",
+   "bytes": 2662461
+  },
+  {
+   "name": "fr-2026-20956",
+   "url": "https://www.govinfo.gov/content/pkg/FR-2026-10-14/pdf/2026-20956.pdf",
+   "fetchedAt": "2026-10-23T20:34:02.000Z",
+   "status": 200,
+   "contentType": "application/pdf",
+   "finalUrl": "https://www.govinfo.gov/content/pkg/FR-2026-10-14/pdf/2026-20956.pdf",
+   "sha256": "4c757f0a8350af3e5c68d792c23876cf5663ca042e50b8a9e89c33bdfcbc7a09",
+   "bytes": 346920
+  },
+  {
+   "name": "fr-2026-20941",
+   "url": "https://www.govinfo.gov/content/pkg/FR-2026-10-14/pdf/2026-20941.pdf",
+   "fetchedAt": "2026-10-23T20:34:03.000Z",
+   "status": 200,
+   "contentType": "application/pdf",
+   "finalUrl": "https://www.govinfo.gov/content/pkg/FR-2026-10-14/pdf/2026-20941.pdf",
+   "sha256": "a99add44d1891df1a6024b5f820d4b3106cced0b75831a1ea6ce3f6af0a9ac97",
+   "bytes": 369680
+  },
+  {
+   "name": "fr-2026-20790",
+   "url": "https://www.govinfo.gov/content/pkg/FR-2026-10-09/pdf/2026-20790.pdf",
+   "fetchedAt": "2026-10-23T20:34:03.000Z",
+   "status": 200,
+   "contentType": "application/pdf",
+   "finalUrl": "https://www.govinfo.gov/content/pkg/FR-2026-10-09/pdf/2026-20790.pdf",
+   "sha256": "a04313658dcd979abd10ce19f50ab8c596312d289ddcf48895047ea642b8af5a",
+   "bytes": 186111
+  },
+  {
+   "name": "fr-2026-21658",
+   "url": "https://www.govinfo.gov/content/pkg/FR-2026-10-23/pdf/2026-21658.pdf",
+   "fetchedAt": "2026-10-23T20:34:04.000Z",
+   "status": 200,
+   "contentType": "application/pdf",
+   "finalUrl": "https://www.govinfo.gov/content/pkg/FR-2026-10-23/pdf/2026-21658.pdf",
+   "sha256": "c0c4bd89f1f492a09518422e72ebe57213533f115a7ac43135dad0535d2d766c",
+   "bytes": 930094
+  },
+  {
+   "name": "fr-2026-21319",
+   "url": "https://www.govinfo.gov/content/pkg/FR-2026-10-19/pdf/2026-21319.pdf",
+   "fetchedAt": "2026-10-23T20:34:06.000Z",
+   "status": 200,
+   "contentType": "application/pdf",
+   "finalUrl": "https://www.govinfo.gov/content/pkg/FR-2026-10-19/pdf/2026-21319.pdf",
+   "sha256": "266e93decb2fe0596bb968cd7dcdd66154775cd7576dee91ba7840cf72701bc5",
+   "bytes": 322034
+  },
+  {
+   "name": "fr-2026-21320",
+   "url": "https://www.govinfo.gov/content/pkg/FR-2026-10-19/pdf/2026-21320.pdf",
+   "fetchedAt": "2026-10-23T20:34:06.000Z",
+   "status": 200,
+   "contentType": "application/pdf",
+   "finalUrl": "https://www.govinfo.gov/content/pkg/FR-2026-10-19/pdf/2026-21320.pdf",
+   "sha256": "3a729bd99e08535dc953c1c490dadd6208d97dff7be98e0279679449800e3849",
+   "bytes": 285198
+  },
+  {
+   "name": "fr-2026-21104",
+   "url": "https://www.govinfo.gov/content/pkg/FR-2026-10-15/pdf/2026-21104.pdf",
+   "fetchedAt": "2026-10-23T20:34:07.000Z",
+   "status": 200,
+   "contentType": "application/pdf",
+   "finalUrl": "https://www.govinfo.gov/content/pkg/FR-2026-10-15/pdf/2026-21104.pdf",
+   "sha256": "fa00f03af9a7421c09460cf9b34277faf7a7d22535ffaa4c0c70cac7b2621f56",
+   "bytes": 253555
+  },
+  {
+   "name": "fr-2026-21376",
+   "url": "https://www.govinfo.gov/content/pkg/FR-2026-10-19/pdf/2026-21376.pdf",
+   "fetchedAt": "2026-10-23T20:34:08.000Z",
+   "status": 200,
+   "contentType": "application/pdf",
+   "finalUrl": "https://www.govinfo.gov/content/pkg/FR-2026-10-19/pdf/2026-21376.pdf",
+   "sha256": "d9b280b2e06d4f8431b6397a58a0ad5926de4cd8039210674aa1d4d8aba45311",
+   "bytes": 295363
+  },
+  {
+   "name": "fr-2026-21377",
+   "url": "https://www.govinfo.gov/content/pkg/FR-2026-10-19/pdf/2026-21377.pdf",
+   "fetchedAt": "2026-10-23T20:34:09.000Z",
+   "status": 200,
+   "contentType": "application/pdf",
+   "finalUrl": "https://www.govinfo.gov/content/pkg/FR-2026-10-19/pdf/2026-21377.pdf",
+   "sha256": "d1dff0dd430ed6ae3a806be445d73aebd8266ac0cca42aebf1bac18a84ed96eb",
+   "bytes": 331274
+  },
+  {
+   "name": "fr-2026-21420",
+   "url": "https://www.govinfo.gov/content/pkg/FR-2026-10-20/pdf/2026-21420.pdf",
+   "fetchedAt": "2026-10-23T20:34:09.000Z",
+   "status": 200,
+   "contentType": "application/pdf",
+   "finalUrl": "https://www.govinfo.gov/content/pkg/FR-2026-10-20/pdf/2026-21420.pdf",
+   "sha256": "107c702c326710b692e2ddbb2ca4f805321c5f70b751177b397991bc3c847342",
+   "bytes": 1384084
+  },
+  {
+   "name": "fr-2026-20848",
+   "url": "https://www.govinfo.gov/content/pkg/FR-2026-10-13/pdf/2026-20848.pdf",
+   "fetchedAt": "2026-10-23T20:34:12.000Z",
+   "status": 200,
+   "contentType": "application/pdf",
+   "finalUrl": "https://www.govinfo.gov/content/pkg/FR-2026-10-13/pdf/2026-20848.pdf",
+   "sha256": "c1518614cb8ca442833d2ebced5f6ff3b7af63664547aa5993544329c6a17693",
+   "bytes": 417314
+  },
+  {
+   "name": "fr-2026-21058",
+   "url": "https://www.govinfo.gov/content/pkg/FR-2026-10-15/pdf/2026-21058.pdf",
+   "fetchedAt": "2026-10-23T20:34:13.000Z",
+   "status": 200,
+   "contentType": "application/pdf",
+   "finalUrl": "https://www.govinfo.gov/content/pkg/FR-2026-10-15/pdf/2026-21058.pdf",
+   "sha256": "b3b1debcfd5a7c3a7c83f3731a53bfe3cf35ed743f3e18fec3ef4c0a1bc7205c",
+   "bytes": 186758
+  },
+  {
+   "name": "fr-2026-21024",
+   "url": "https://www.govinfo.gov/content/pkg/FR-2026-10-14/pdf/2026-21024.pdf",
+   "fetchedAt": "2026-10-23T20:34:13.000Z",
+   "status": 200,
+   "contentType": "application/pdf",
+   "finalUrl": "https://www.govinfo.gov/content/pkg/FR-2026-10-14/pdf/2026-21024.pdf",
+   "sha256": "f1c6cb43d8bd5efe466a50d1ccbc855de084ee60fd7ee8b2eab2cfe742b30d0f",
+   "bytes": 450595
+  },
+  {
+   "name": "fr-2026-21666",
+   "url": "https://www.govinfo.gov/content/pkg/FR-2026-10-22/pdf/2026-21666.pdf",
+   "fetchedAt": "2026-10-23T20:34:14.000Z",
+   "status": 200,
+   "contentType": "application/pdf",
+   "finalUrl": "https://www.govinfo.gov/content/pkg/FR-2026-10-22/pdf/2026-21666.pdf",
+   "sha256": "f3e6e50b0a224065cc5851205a25a7f0f76b19b401ac9be385a3609042f51afa",
+   "bytes": 241223
+  },
+  {
+   "name": "fr-2026-21599",
+   "url": "https://www.govinfo.gov/content/pkg/FR-2026-10-21/pdf/2026-21599.pdf",
+   "fetchedAt": "2026-10-23T20:34:15.000Z",
+   "status": 200,
+   "contentType": "application/pdf",
+   "finalUrl": "https://www.govinfo.gov/content/pkg/FR-2026-10-21/pdf/2026-21599.pdf",
+   "sha256": "1b905a56aff471c75c3a76732476a3d80aa2769e24682b46ef7f082da57868b8",
+   "bytes": 195679
+  },
+  {
+   "name": "fr-2026-21267",
+   "url": "https://www.govinfo.gov/content/pkg/FR-2026-10-19/pdf/2026-21267.pdf",
+   "fetchedAt": "2026-10-23T20:34:16.000Z",
+   "status": 200,
+   "contentType": "application/pdf",
+   "finalUrl": "https://www.govinfo.gov/content/pkg/FR-2026-10-19/pdf/2026-21267.pdf",
+   "sha256": "fcfd0b57dc06dcaf336c1963c4a1e44cf934b23bc0924c01b196453738530865",
+   "bytes": 220432
+  },
+  {
+   "name": "fr-2026-20982",
+   "url": "https://www.govinfo.gov/content/pkg/FR-2026-10-14/pdf/2026-20982.pdf",
+   "fetchedAt": "2026-10-23T20:34:16.000Z",
+   "status": 200,
+   "contentType": "application/pdf",
+   "finalUrl": "https://www.govinfo.gov/content/pkg/FR-2026-10-14/pdf/2026-20982.pdf",
+   "sha256": "80a707d86e1b1fb26e5366cfec1b08f814f68d8ca6b733cd62908b3634ae1628",
+   "bytes": 310885
+  },
+  {
+   "name": "fr-2026-20964",
+   "url": "https://www.govinfo.gov/content/pkg/FR-2026-10-14/pdf/2026-20964.pdf",
+   "fetchedAt": "2026-10-23T20:34:17.000Z",
+   "status": 200,
+   "contentType": "application/pdf",
+   "finalUrl": "https://www.govinfo.gov/content/pkg/FR-2026-10-14/pdf/2026-20964.pdf",
+   "sha256": "eab16a83fc2ccfb7cf579cecc4cc6afc7701012161da4e039a9a3c0fcc4596ec",
+   "bytes": 274923
+  },
+  {
+   "name": "fr-2026-21155",
+   "url": "https://www.govinfo.gov/content/pkg/FR-2026-10-16/pdf/2026-21155.pdf",
+   "fetchedAt": "2026-10-23T20:34:18.000Z",
+   "status": 200,
+   "contentType": "application/pdf",
+   "finalUrl": "https://www.govinfo.gov/content/pkg/FR-2026-10-16/pdf/2026-21155.pdf",
+   "sha256": "d121ec4318fb79ba615869f56be141436d0365640bb85131ead3156113e8ad50",
+   "bytes": 309322
+  },
+  {
+   "name": "fr-2026-20888",
+   "url": "https://www.govinfo.gov/content/pkg/FR-2026-10-13/pdf/2026-20888.pdf",
+   "fetchedAt": "2026-10-23T20:34:19.000Z",
+   "status": 200,
+   "contentType": "application/pdf",
+   "finalUrl": "https://www.govinfo.gov/content/pkg/FR-2026-10-13/pdf/2026-20888.pdf",
+   "sha256": "062c91c2dd2a648d57f20dcc5580ebdf19b6191bd78011559510374a33be253d",
+   "bytes": 506722
+  },
+  {
+   "name": "fr-2026-20884",
+   "url": "https://www.govinfo.gov/content/pkg/FR-2026-10-13/pdf/2026-20884.pdf",
+   "fetchedAt": "2026-10-23T20:34:20.000Z",
+   "status": 200,
+   "contentType": "application/pdf",
+   "finalUrl": "https://www.govinfo.gov/content/pkg/FR-2026-10-13/pdf/2026-20884.pdf",
+   "sha256": "79751170b5fe6363b2b014788c7bc283f4dddd447aa16c0817f6273de4a29661",
+   "bytes": 437084
+  },
+  {
+   "name": "fr-2026-21061",
+   "url": "https://www.govinfo.gov/content/pkg/FR-2026-10-14/pdf/2026-21061.pdf",
+   "fetchedAt": "2026-10-23T20:34:21.000Z",
+   "status": 200,
+   "contentType": "application/pdf",
+   "finalUrl": "https://www.govinfo.gov/content/pkg/FR-2026-10-14/pdf/2026-21061.pdf",
+   "sha256": "959b2409db3d26ca08a0ede4d271f4ee0e7a7a9c7c4cb13f4996eea43f320ba9",
+   "bytes": 191337
+  },
+  {
+   "name": "frapi-stablecoin",
+   "url": "https://www.federalregister.gov/api/v1/documents.json?per_page=100&conditions[term]=stablecoin&conditions[publication_date][gte]=2026-07-01&fields[]=document_number&fields[]=title&fields[]=publication_date&fields[]=type&fields[]=agencies&fields[]=effective_on&order=newest",
+   "fetchedAt": "2026-10-23T20:34:49.000Z",
+   "status": 200,
+   "contentType": "application/json; charset=utf-8",
+   "finalUrl": "https://www.federalregister.gov/api/v1/documents.json?per_page=100&conditions[term]=stablecoin&conditions[publication_date][gte]=2026-07-01&fields[]=document_number&fields[]=title&fields[]=publication_date&fields[]=type&fields[]=agencies&fields[]=effective_on&order=newest",
+   "sha256": "64adc849bbe5017d5931b3e88df8b2d573bfea1b212d4eaba69ce71026e00b9f",
+   "bytes": 16741
+  },
+  {
+   "name": "wh-housing",
+   "url": "https://www.whitehouse.gov/presidential-actions/2026/10/decreasing-housing-costs-for-the-american-people/",
+   "fetchedAt": "2026-10-23T20:35:58.000Z",
+   "status": 200,
+   "contentType": "text/html; charset=UTF-8",
+   "finalUrl": "https://www.whitehouse.gov/presidential-actions/2026/10/decreasing-housing-costs-for-the-american-people/",
+   "sha256": "67aea3f5bc5e956bdfdd4807dfdfe924ed64c2924013765eaeed9709b3d8e096",
+   "bytes": 309362
+  },
+  {
+   "name": "wh-wind",
+   "url": "https://www.whitehouse.gov/presidential-actions/2026/10/adjusting-imports-of-wind-turbines-and-their-parts-and-components-into-the-united-states/",
+   "fetchedAt": "2026-10-23T20:35:58.000Z",
+   "status": 200,
+   "contentType": "text/html; charset=UTF-8",
+   "finalUrl": "https://www.whitehouse.gov/presidential-actions/2026/10/adjusting-imports-of-wind-turbines-and-their-parts-and-components-into-the-united-states/",
+   "sha256": "9ecfc0a15430f015823f0f375d75e47106428ed3ce92d79032c310a4a9f15222",
+   "bytes": 315276
+  },
+  {
+   "name": "wh-canada",
+   "url": "https://www.whitehouse.gov/presidential-actions/2026/10/further-modifying-the-scope-of-products-of-canada-subject-to-the-additional-duties-imposed-to-offset-canadian-discrimination-against-the-commerce-of-the-united-states-with-respect-to-motor-vehicles/",
+   "fetchedAt": "2026-10-23T20:35:58.000Z",
+   "status": 200,
+   "contentType": "text/html; charset=UTF-8",
+   "finalUrl": "https://www.whitehouse.gov/presidential-actions/2026/10/further-modifying-the-scope-of-products-of-canada-subject-to-the-additional-duties-imposed-to-offset-canadian-discrimination-against-the-commerce-of-the-united-states-with-respect-to-motor-vehicles/",
+   "sha256": "44f5f8b4c32d0030972778d3a44ea85746eeb646dcc4492424e33d4f6aee3f57",
+   "bytes": 318729
+  },
+  {
+   "name": "wh-dpa",
+   "url": "https://www.whitehouse.gov/presidential-actions/2026/10/presidential-determination-pursuant-to-section-303-of-the-defense-production-act-of-1950-as-amended-on-domestic-petroleum-production-refining-and-logistics-capacity-c139/",
+   "fetchedAt": "2026-10-23T20:35:58.000Z",
+   "status": 200,
+   "contentType": "text/html; charset=UTF-8",
+   "finalUrl": "https://www.whitehouse.gov/presidential-actions/2026/10/presidential-determination-pursuant-to-section-303-of-the-defense-production-act-of-1950-as-amended-on-domestic-petroleum-production-refining-and-logistics-capacity-c139/",
+   "sha256": "598b55a93a3350ad40b9cf784e94b64cc52d57e8aaf6649ae818f8dd53e5ead1",
+   "bytes": 298547
+  },
+  {
+   "name": "wh-seafood",
+   "url": "https://www.whitehouse.gov/presidential-actions/2026/10/national-seafood-month-2026/",
+   "fetchedAt": "2026-10-23T20:35:58.000Z",
+   "status": 200,
+   "contentType": "text/html; charset=UTF-8",
+   "finalUrl": "https://www.whitehouse.gov/presidential-actions/2026/10/national-seafood-month-2026/",
+   "sha256": "7a39f814abcfd0c6e27c6504315d5b8196341547a8e0d27acb8cc782a77335e3",
+   "bytes": 302724
+  },
+  {
+   "name": "wh-women",
+   "url": "https://www.whitehouse.gov/presidential-actions/2026/10/advancing-womens-health-to-improve-outcomes-in-all-phases-of-life/",
+   "fetchedAt": "2026-10-23T20:35:59.000Z",
+   "status": 200,
+   "contentType": "text/html; charset=UTF-8",
+   "finalUrl": "https://www.whitehouse.gov/presidential-actions/2026/10/advancing-womens-health-to-improve-outcomes-in-all-phases-of-life/",
+   "sha256": "67b02a2cb41d99e8337cd9ffb9ab9636236d5296dd456c60716b0c7fa7cdd762",
+   "bytes": 343402
+  },
+  {
+   "name": "wh-graham",
+   "url": "https://www.whitehouse.gov/presidential-actions/2026/10/implementing-the-lindsey-o-graham-sanctioning-russia-and-iran-act-of-2026/",
+   "fetchedAt": "2026-10-23T20:35:59.000Z",
+   "status": 200,
+   "contentType": "text/html; charset=UTF-8",
+   "finalUrl": "https://www.whitehouse.gov/presidential-actions/2026/10/implementing-the-lindsey-o-graham-sanctioning-russia-and-iran-act-of-2026/",
+   "sha256": "1b7a3e570475e888716f3c45c6641bf4e584495d166683c3e034d757438bf37b",
+   "bytes": 315640
+  },
+  {
+   "name": "plaw-101",
+   "url": "https://www.govinfo.gov/content/pkg/PLAW-119publ101/pdf/PLAW-119publ101.pdf",
+   "fetchedAt": "2026-10-23T20:35:59.000Z",
+   "status": 200,
+   "contentType": "application/pdf",
+   "finalUrl": "https://www.govinfo.gov/content/pkg/PLAW-119publ101/pdf/PLAW-119publ101.pdf",
+   "sha256": "f55fdd237f72348ac755f9a220b64a0cd08eb428ec75b4d6df6221aaee9d5a28",
+   "bytes": 542978
+  },
+  {
+   "name": "plaw-111",
+   "url": "https://www.govinfo.gov/content/pkg/PLAW-119publ111/pdf/PLAW-119publ111.pdf",
+   "fetchedAt": "2026-10-23T20:36:00.000Z",
+   "status": 200,
+   "contentType": "application/pdf",
+   "finalUrl": "https://www.govinfo.gov/content/pkg/PLAW-119publ111/pdf/PLAW-119publ111.pdf",
+   "sha256": "49ac8c667cd9e443eb2fd64f7655c42fc68e7ad0c594cb5e233a520539abe4cc",
+   "bytes": 278902
+  },
+  {
+   "name": "plaw-119",
+   "url": "https://www.govinfo.gov/content/pkg/PLAW-119publ119/pdf/PLAW-119publ119.pdf",
+   "fetchedAt": "2026-10-23T20:36:01.000Z",
+   "status": 200,
+   "contentType": "application/pdf",
+   "finalUrl": "https://www.govinfo.gov/content/pkg/PLAW-119publ119/pdf/PLAW-119publ119.pdf",
+   "sha256": "3585aa8e926057e85126fbb8a126ec9a195aaf5e8358f3b03b3207a830f0109f",
+   "bytes": 201883
+  },
+  {
+   "name": "plaw-120",
+   "url": "https://www.govinfo.gov/content/pkg/PLAW-119publ120/pdf/PLAW-119publ120.pdf",
+   "fetchedAt": "2026-10-23T20:36:01.000Z",
+   "status": 200,
+   "contentType": "application/pdf",
+   "finalUrl": "https://www.govinfo.gov/content/pkg/PLAW-119publ120/pdf/PLAW-119publ120.pdf",
+   "sha256": "c2db85d0df8f68f5a4275ffeeca48a9df793410e0ccbc80a859d33703faeae23",
+   "bytes": 202297
+  },
+  {
+   "name": "plaw-121",
+   "url": "https://www.govinfo.gov/content/pkg/PLAW-119publ121/pdf/PLAW-119publ121.pdf",
+   "fetchedAt": "2026-10-23T20:36:02.000Z",
+   "status": 200,
+   "contentType": "application/pdf",
+   "finalUrl": "https://www.govinfo.gov/content/pkg/PLAW-119publ121/pdf/PLAW-119publ121.pdf",
+   "sha256": "b3ae927a13c6c36b946b0e33fdcbd3d1449c71bb4f83203b468079f139403853",
+   "bytes": 202900
+  },
+  {
+   "name": "plaw-122",
+   "url": "https://www.govinfo.gov/content/pkg/PLAW-119publ122/pdf/PLAW-119publ122.pdf",
+   "fetchedAt": "2026-10-23T20:36:03.000Z",
+   "status": 200,
+   "contentType": "application/pdf",
+   "finalUrl": "https://www.govinfo.gov/content/pkg/PLAW-119publ122/pdf/PLAW-119publ122.pdf",
+   "sha256": "dbde962c6aed27d1ac7a0c686f190cfc0616072c93350526e45c827725fcf017",
+   "bytes": 204883
+  },
+  {
+   "name": "plaw-123",
+   "url": "https://www.govinfo.gov/content/pkg/PLAW-119publ123/pdf/PLAW-119publ123.pdf",
+   "fetchedAt": "2026-10-23T20:36:03.000Z",
+   "status": 200,
+   "contentType": "application/pdf",
+   "finalUrl": "https://www.govinfo.gov/content/pkg/PLAW-119publ123/pdf/PLAW-119publ123.pdf",
+   "sha256": "896f644d2f3697fdac2deb216136067a41eb8bec9fae25cec913b09df9c58ec7",
+   "bytes": 203093
+  },
+  {
+   "name": "plaw-124",
+   "url": "https://www.govinfo.gov/content/pkg/PLAW-119publ124/pdf/PLAW-119publ124.pdf",
+   "fetchedAt": "2026-10-23T20:36:04.000Z",
+   "status": 200,
+   "contentType": "application/pdf",
+   "finalUrl": "https://www.govinfo.gov/content/pkg/PLAW-119publ124/pdf/PLAW-119publ124.pdf",
+   "sha256": "87edbeff7d974203aedf8f8b68b332904fb2beb9d3771a68236bdaf86de6fee2",
+   "bytes": 201642
+  },
+  {
+   "name": "plaw-125",
+   "url": "https://www.govinfo.gov/content/pkg/PLAW-119publ125/pdf/PLAW-119publ125.pdf",
+   "fetchedAt": "2026-10-23T20:36:04.000Z",
+   "status": 200,
+   "contentType": "text/html",
+   "finalUrl": "https://www.govinfo.gov/error",
+   "sha256": "ab214ce9f7a706cc4ee93703502f950222090c2547e47fafd75a299545919743",
+   "bytes": 44172
+  },
+  {
+   "name": "plaw-126",
+   "url": "https://www.govinfo.gov/content/pkg/PLAW-119publ126/pdf/PLAW-119publ126.pdf",
+   "fetchedAt": "2026-10-23T20:36:05.000Z",
+   "status": 200,
+   "contentType": "text/html",
+   "finalUrl": "https://www.govinfo.gov/error",
+   "sha256": "ab214ce9f7a706cc4ee93703502f950222090c2547e47fafd75a299545919743",
+   "bytes": 44172
+  },
+  {
+   "name": "plaw-127",
+   "url": "https://www.govinfo.gov/content/pkg/PLAW-119publ127/pdf/PLAW-119publ127.pdf",
+   "fetchedAt": "2026-10-23T20:36:05.000Z",
+   "status": 200,
+   "contentType": "text/html",
+   "finalUrl": "https://www.govinfo.gov/error",
+   "sha256": "ab214ce9f7a706cc4ee93703502f950222090c2547e47fafd75a299545919743",
+   "bytes": 44172
+  },
+  {
+   "name": "plaw-128",
+   "url": "https://www.govinfo.gov/content/pkg/PLAW-119publ128/pdf/PLAW-119publ128.pdf",
+   "fetchedAt": "2026-10-23T20:36:06.000Z",
+   "status": 200,
+   "contentType": "text/html",
+   "finalUrl": "https://www.govinfo.gov/error",
+   "sha256": "ab214ce9f7a706cc4ee93703502f950222090c2547e47fafd75a299545919743",
+   "bytes": 44172
+  },
+  {
+   "name": "plaw-129",
+   "url": "https://www.govinfo.gov/content/pkg/PLAW-119publ129/pdf/PLAW-119publ129.pdf",
+   "fetchedAt": "2026-10-23T20:36:06.000Z",
+   "status": 200,
+   "contentType": "text/html",
+   "finalUrl": "https://www.govinfo.gov/error",
+   "sha256": "ab214ce9f7a706cc4ee93703502f950222090c2547e47fafd75a299545919743",
+   "bytes": 44172
+  },
+  {
+   "name": "plaw-130",
+   "url": "https://www.govinfo.gov/content/pkg/PLAW-119publ130/pdf/PLAW-119publ130.pdf",
+   "fetchedAt": "2026-10-23T20:36:07.000Z",
+   "status": 200,
+   "contentType": "text/html",
+   "finalUrl": "https://www.govinfo.gov/error",
+   "sha256": "ab214ce9f7a706cc4ee93703502f950222090c2547e47fafd75a299545919743",
+   "bytes": 44172
+  },
+  {
+   "name": "plaw-131",
+   "url": "https://www.govinfo.gov/content/pkg/PLAW-119publ131/pdf/PLAW-119publ131.pdf",
+   "fetchedAt": "2026-10-23T20:36:07.000Z",
+   "status": 200,
+   "contentType": "text/html",
+   "finalUrl": "https://www.govinfo.gov/error",
+   "sha256": "ab214ce9f7a706cc4ee93703502f950222090c2547e47fafd75a299545919743",
+   "bytes": 44172
+  },
+  {
+   "name": "plaw-132",
+   "url": "https://www.govinfo.gov/content/pkg/PLAW-119publ132/pdf/PLAW-119publ132.pdf",
+   "fetchedAt": "2026-10-23T20:36:08.000Z",
+   "status": 200,
+   "contentType": "text/html",
+   "finalUrl": "https://www.govinfo.gov/error",
+   "sha256": "ab214ce9f7a706cc4ee93703502f950222090c2547e47fafd75a299545919743",
+   "bytes": 44172
+  },
+  {
+   "name": "plaw-133",
+   "url": "https://www.govinfo.gov/content/pkg/PLAW-119publ133/pdf/PLAW-119publ133.pdf",
+   "fetchedAt": "2026-10-23T20:36:08.000Z",
+   "status": 200,
+   "contentType": "text/html",
+   "finalUrl": "https://www.govinfo.gov/error",
+   "sha256": "ab214ce9f7a706cc4ee93703502f950222090c2547e47fafd75a299545919743",
+   "bytes": 44172
+  },
+  {
+   "name": "plaw-134",
+   "url": "https://www.govinfo.gov/content/pkg/PLAW-119publ134/pdf/PLAW-119publ134.pdf",
+   "fetchedAt": "2026-10-23T20:36:09.000Z",
+   "status": 200,
+   "contentType": "text/html",
+   "finalUrl": "https://www.govinfo.gov/error",
+   "sha256": "ab214ce9f7a706cc4ee93703502f950222090c2547e47fafd75a299545919743",
+   "bytes": 44172
+  },
+  {
+   "name": "bill-hr227",
+   "url": "https://www.govinfo.gov/content/pkg/BILLS-119hr227enr/pdf/BILLS-119hr227enr.pdf",
+   "fetchedAt": "2026-10-23T20:36:18.000Z",
+   "status": 200,
+   "contentType": "application/pdf",
+   "finalUrl": "https://www.govinfo.gov/content/pkg/BILLS-119hr227enr/pdf/BILLS-119hr227enr.pdf",
+   "sha256": "87449fc5ccaf093b784bb61204d332582cb8b77e819328e014529c7efbbd1e52",
+   "bytes": 124123
+  },
+  {
+   "name": "bill-hr837",
+   "url": "https://www.govinfo.gov/content/pkg/BILLS-119hr837enr/pdf/BILLS-119hr837enr.pdf",
+   "fetchedAt": "2026-10-23T20:36:19.000Z",
+   "status": 200,
+   "contentType": "application/pdf",
+   "finalUrl": "https://www.govinfo.gov/content/pkg/BILLS-119hr837enr/pdf/BILLS-119hr837enr.pdf",
+   "sha256": "4d91416d6d395a48a0a0dd47f9b96cf0e8aee6a701a0b140a1d2b797ffe8259a",
+   "bytes": 124940
+  },
+  {
+   "name": "bill-hr1721",
+   "url": "https://www.govinfo.gov/content/pkg/BILLS-119hr1721enr/pdf/BILLS-119hr1721enr.pdf",
+   "fetchedAt": "2026-10-23T20:36:19.000Z",
+   "status": 200,
+   "contentType": "application/pdf",
+   "finalUrl": "https://www.govinfo.gov/content/pkg/BILLS-119hr1721enr/pdf/BILLS-119hr1721enr.pdf",
+   "sha256": "29972d6713d229f565bbf5939e31e76c5eaa5450be9150659c811317a11fdf73",
+   "bytes": 123091
+  },
+  {
+   "name": "bill-hr2388",
+   "url": "https://www.govinfo.gov/content/pkg/BILLS-119hr2388enr/pdf/BILLS-119hr2388enr.pdf",
+   "fetchedAt": "2026-10-23T20:36:20.000Z",
+   "status": 200,
+   "contentType": "application/pdf",
+   "finalUrl": "https://www.govinfo.gov/content/pkg/BILLS-119hr2388enr/pdf/BILLS-119hr2388enr.pdf",
+   "sha256": "0f18adadce0d52ce620d9014386db90f43e461dc76f166e113f43da2d42edeea",
+   "bytes": 125829
+  },
+  {
+   "name": "bill-hr2481",
+   "url": "https://www.govinfo.gov/content/pkg/BILLS-119hr2481enr/pdf/BILLS-119hr2481enr.pdf",
+   "fetchedAt": "2026-10-23T20:36:20.000Z",
+   "status": 200,
+   "contentType": "application/pdf",
+   "finalUrl": "https://www.govinfo.gov/content/pkg/BILLS-119hr2481enr/pdf/BILLS-119hr2481enr.pdf",
+   "sha256": "1bd9d0289a302a30ca854d6b3caca93b14708ee386a2ca436de7e6159900ba40",
+   "bytes": 130117
+  },
+  {
+   "name": "bill-hr3620",
+   "url": "https://www.govinfo.gov/content/pkg/BILLS-119hr3620enr/pdf/BILLS-119hr3620enr.pdf",
+   "fetchedAt": "2026-10-23T20:36:21.000Z",
+   "status": 200,
+   "contentType": "application/pdf",
+   "finalUrl": "https://www.govinfo.gov/content/pkg/BILLS-119hr3620enr/pdf/BILLS-119hr3620enr.pdf",
+   "sha256": "094efcf8a70da0352adefa19ef909f29d33fe88a182aff75f802babbc928d88c",
+   "bytes": 125832
+  },
+  {
+   "name": "bill-hr4307",
+   "url": "https://www.govinfo.gov/content/pkg/BILLS-119hr4307enr/pdf/BILLS-119hr4307enr.pdf",
+   "fetchedAt": "2026-10-23T20:36:21.000Z",
+   "status": 200,
+   "contentType": "application/pdf",
+   "finalUrl": "https://www.govinfo.gov/content/pkg/BILLS-119hr4307enr/pdf/BILLS-119hr4307enr.pdf",
+   "sha256": "ed00692538e8e5faff9f62efc665eaabacce2d6932dfc15cb32cc49518f70e1c",
+   "bytes": 124387
+  },
+  {
+   "name": "bill-hr4467",
+   "url": "https://www.govinfo.gov/content/pkg/BILLS-119hr4467enr/pdf/BILLS-119hr4467enr.pdf",
+   "fetchedAt": "2026-10-23T20:36:22.000Z",
+   "status": 200,
+   "contentType": "application/pdf",
+   "finalUrl": "https://www.govinfo.gov/content/pkg/BILLS-119hr4467enr/pdf/BILLS-119hr4467enr.pdf",
+   "sha256": "0a519fb0247096065e8dc78e1b455ecaba85c303f4eba67cf22d99ed265bfd90",
+   "bytes": 123944
+  },
+  {
+   "name": "bill-hr6380",
+   "url": "https://www.govinfo.gov/content/pkg/BILLS-119hr6380enr/pdf/BILLS-119hr6380enr.pdf",
+   "fetchedAt": "2026-10-23T20:36:22.000Z",
+   "status": 200,
+   "contentType": "application/pdf",
+   "finalUrl": "https://www.govinfo.gov/content/pkg/BILLS-119hr6380enr/pdf/BILLS-119hr6380enr.pdf",
+   "sha256": "8bacda5eb296a96ee259a05b85710f92945c4994c00f5358dce666312ae1e11b",
+   "bytes": 124658
+  },
+  {
+   "name": "bill-hr7831",
+   "url": "https://www.govinfo.gov/content/pkg/BILLS-119hr7831enr/pdf/BILLS-119hr7831enr.pdf",
+   "fetchedAt": "2026-10-23T20:36:23.000Z",
+   "status": 200,
+   "contentType": "application/pdf",
+   "finalUrl": "https://www.govinfo.gov/content/pkg/BILLS-119hr7831enr/pdf/BILLS-119hr7831enr.pdf",
+   "sha256": "7d07fd4ab9ec67b5053efd36660f773a78e6cae5a0cc5e6bc00a619050a01b2f",
+   "bytes": 121122
+  },
+  {
+   "name": "gov-AZ",
+   "url": "https://azgovernor.gov/news-releases",
+   "fetchedAt": "2026-10-23T20:37:34.000Z",
+   "status": 403,
+   "contentType": "text/html; charset=UTF-8",
+   "finalUrl": "https://azgovernor.gov/news-releases",
+   "sha256": "d91f9bcfefd64c56406bc408e733740b730dde7020f96a795ec48d41487514e1",
+   "bytes": 5688
+  },
+  {
+   "name": "gov-AK",
+   "url": "https://gov.alaska.gov/newsroom/",
+   "fetchedAt": "2026-10-23T20:37:34.000Z",
+   "status": 403,
+   "contentType": "text/html",
+   "finalUrl": "https://gov.alaska.gov/newsroom/",
+   "sha256": "7befebed28e4c00eb650a8d17fa25b759dc427f3429bdd0e1a453a46a36f2da4",
+   "bytes": 986
+  },
+  {
+   "name": "gov-SC",
+   "url": "https://governor.sc.gov/news",
+   "fetchedAt": "2026-10-23T20:37:34.000Z",
+   "status": 403,
+   "contentType": "text/html",
+   "finalUrl": "https://governor.sc.gov/news",
+   "sha256": "d98062941939dc5d6b77a68dddbc94af0772bab989201e784f0cdefa1d030138",
+   "bytes": 986
+  },
+  {
+   "name": "gov-MI",
+   "url": "https://www.michigan.gov/whitmer/news/press-releases",
+   "fetchedAt": "2026-10-23T20:37:34.000Z",
+   "status": 403,
+   "contentType": "text/html",
+   "finalUrl": "https://www.michigan.gov/whitmer/news/press-releases",
+   "sha256": "895f47996c40ac917b85025579799806477433e88d3758f1fa7524c7bd775a90",
+   "bytes": 409
+  },
+  {
+   "name": "gov-RI",
+   "url": "https://governor.ri.gov/press-releases",
+   "fetchedAt": "2026-10-23T20:37:34.000Z",
+   "status": 403,
+   "contentType": "text/html; charset=UTF-8",
+   "finalUrl": "https://governor.ri.gov/press-releases",
+   "sha256": "7dabd046afae4c81f0ebfcb3bd7fec194b57f5d4642d5938a9e000c8a1b90995",
+   "bytes": 5494
+  },
+  {
+   "name": "gov-AL",
+   "url": "https://governor.alabama.gov/newsroom/",
+   "fetchedAt": "2026-10-23T20:37:34.000Z",
+   "status": 200,
+   "contentType": "text/html; charset=UTF-8",
+   "finalUrl": "https://governor.alabama.gov/newsroom/",
+   "sha256": "729b555b9be345e0ca139c468a638ca2859b0adb2422cdb59a3ba761cbccd900",
+   "bytes": 173496
+  },
+  {
+   "name": "gov-HI",
+   "url": "https://governor.hawaii.gov/category/newsroom/",
+   "fetchedAt": "2026-10-23T20:37:34.000Z",
+   "status": 200,
+   "contentType": "text/html; charset=UTF-8",
+   "finalUrl": "https://governor.hawaii.gov/category/newsroom/",
+   "sha256": "5e1ac31a6c1793ef6bf5a3eaafa896f930844835df62907be7ae6f7615fc9783",
+   "bytes": 82424
+  },
+  {
+   "name": "gov-IA",
+   "url": "https://governor.iowa.gov/press-releases",
+   "fetchedAt": "2026-10-23T20:37:34.000Z",
+   "status": 404,
+   "contentType": "text/html; charset=utf-8",
+   "finalUrl": "https://governor.iowa.gov/press-releases",
+   "sha256": "d021b14358efe28fec55f421ce89f98eed8d0ff2f45f7f6d73efdd844046894e",
+   "bytes": 145117
+  },
+  {
+   "name": "gov-CA",
+   "url": "https://www.gov.ca.gov/newsroom/",
+   "fetchedAt": "2026-10-23T20:37:34.000Z",
+   "status": 200,
+   "contentType": "text/html; charset=UTF-8",
+   "finalUrl": "https://www.gov.ca.gov/newsroom/",
+   "sha256": "e2e65527b1ac6067b878dce54104a78a5d322a6638c04fb57839dcad64167d15",
+   "bytes": 292982
+  },
+  {
+   "name": "gov-WV",
+   "url": "https://governor.wv.gov/news",
+   "fetchedAt": "2026-10-23T20:37:34.000Z",
+   "status": 200,
+   "contentType": "text/html; charset=utf-8",
+   "finalUrl": "https://governor.wv.gov/news",
+   "sha256": "30592e36c557c08ee57dca5533820fac8ecb8d971fecda5306f4be663f9e4284",
+   "bytes": 48895
+  },
+  {
+   "name": "gov-NY",
+   "url": "https://www.governor.ny.gov/news",
+   "fetchedAt": "2026-10-23T20:37:34.000Z",
+   "status": 403,
+   "contentType": "text/html; charset=UTF-8",
+   "finalUrl": "https://www.governor.ny.gov/news",
+   "sha256": "1d5f2abc63b6ef7d3e70e15d3ac922be7150a6f9bc324ca12e21801adaebbbe8",
+   "bytes": 5688
+  },
+  {
+   "name": "gov-DC",
+   "url": "https://mayor.dc.gov/newsroom",
+   "fetchedAt": "2026-10-23T20:37:34.000Z",
+   "status": 200,
+   "contentType": "text/html; charset=UTF-8",
+   "finalUrl": "https://mayor.dc.gov/newsroom",
+   "sha256": "41b9e0f2dfb559c2424f70c20d937ef66c8b8c68bc89a882a7a731a542d5a1d5",
+   "bytes": 94111
+  },
+  {
+   "name": "gov-KS",
+   "url": "https://www.governor.ks.gov/newsroom",
+   "fetchedAt": "2026-10-23T20:37:34.000Z",
+   "status": 403,
+   "contentType": "text/html",
+   "finalUrl": "https://www.governor.ks.gov/newsroom",
+   "sha256": "d142f36395dbfbec6707c7c23d2a6ac9bab05d7dbb1b4893786536f12ae8c8ba",
+   "bytes": 421
+  },
+  {
+   "name": "gov-UT",
+   "url": "https://governor.utah.gov/news/",
+   "fetchedAt": "2026-10-23T20:37:34.000Z",
+   "status": 200,
+   "contentType": "text/html; charset=UTF-8",
+   "finalUrl": "https://governor.utah.gov/news/",
+   "sha256": "9b35dabbf6dd2adcc87786a5ca2beae9b11bcf3e7d35431407c6a9c3797beb3f",
+   "bytes": 97648
+  },
+  {
+   "name": "gov-FL",
+   "url": "https://www.flgov.com/eog/news/press",
+   "fetchedAt": "2026-10-23T20:37:34.000Z",
+   "status": 200,
+   "contentType": "text/html; charset=UTF-8",
+   "finalUrl": "https://www.flgov.com/eog/news/press",
+   "sha256": "360a767fc5194a19173604ac86c390ad27ef019fa5a3e45e44095bd0479b819c",
+   "bytes": 49939
+  },
+  {
+   "name": "gov-MA",
+   "url": "https://www.mass.gov/orgs/office-of-the-governor/news",
+   "fetchedAt": "2026-10-23T20:37:34.000Z",
+   "status": 403,
+   "contentType": "text/html",
+   "finalUrl": "https://www.mass.gov/orgs/office-of-the-governor/news",
+   "sha256": "09d8a2eab65573f6ea473f9e10e8e4b2ad82b122a651f2f1523ba4ceeece9e40",
+   "bytes": 14062
+  },
+  {
+   "name": "gov-NE",
+   "url": "https://governor.nebraska.gov/press-releases",
+   "fetchedAt": "2026-10-23T20:37:34.000Z",
+   "status": 200,
+   "contentType": "text/html; charset=UTF-8",
+   "finalUrl": "https://governor.nebraska.gov/press-releases",
+   "sha256": "1db82b709b4e2ca8103ff079a48e9f240196f4d0e9d733ca8b1126f4c312cf5b",
+   "bytes": 37156
+  },
+  {
+   "name": "gov-NH",
+   "url": "https://www.governor.nh.gov/news-and-media",
+   "fetchedAt": "2026-10-23T20:37:34.000Z",
+   "status": 403,
+   "contentType": "text/html",
+   "finalUrl": "https://www.governor.nh.gov/news-and-media",
+   "sha256": "f823d4d127aaf716cb21ad986360643f566e8e20e2579bb36d990147895bb92b",
+   "bytes": 399
+  },
+  {
+   "name": "gov-TN",
+   "url": "https://www.tn.gov/governor/news.html",
+   "fetchedAt": "2026-10-23T20:37:34.000Z",
+   "status": 403,
+   "contentType": "text/html",
+   "finalUrl": "https://www.tn.gov/governor/news.html",
+   "sha256": "8b73b6ccd7091d6d9d23adaab2baae3c4abf6de06df8efdd03215ee9376fa035",
+   "bytes": 520
+  },
+  {
+   "name": "gov-OK",
+   "url": "https://oklahoma.gov/governor/newsroom.html",
+   "fetchedAt": "2026-10-23T20:37:34.000Z",
+   "status": 200,
+   "contentType": "text/html;charset=utf-8",
+   "finalUrl": "https://oklahoma.gov/governor/newsroom/newsroom.html",
+   "sha256": "2c41ebf4333c6a178b04b7441efd89a5ec6d7db26fe39b52a31ec139b4b959dc",
+   "bytes": 83004
+  },
+  {
+   "name": "gov-WA",
+   "url": "https://governor.wa.gov/news/news-releases",
+   "fetchedAt": "2026-10-23T20:37:34.000Z",
+   "status": 200,
+   "contentType": "text/html; charset=utf-8",
+   "finalUrl": "https://governor.wa.gov/news/news-releases",
+   "sha256": "f6bd85700ce018b39abe1340c000989e04c3622d0475672a9ccfee7f65fc6f9f",
+   "bytes": 85017
+  },
+  {
+   "name": "gov-GA",
+   "url": "https://gov.georgia.gov/press-releases",
+   "fetchedAt": "2026-10-23T20:37:34.000Z",
+   "status": 200,
+   "contentType": "text/html; charset=UTF-8",
+   "finalUrl": "https://gov.georgia.gov/press-releases",
+   "sha256": "93184d8cb86c365d16931beecd407b3b1ef0ee2cb067c9b243eb904e255d3a30",
+   "bytes": 118720
+  },
+  {
+   "name": "gov-NV",
+   "url": "https://gov.nv.gov/Newsroom/PRs/",
+   "fetchedAt": "2026-10-23T20:37:34.000Z",
+   "status": 404,
+   "contentType": "text/html; charset=utf-8",
+   "finalUrl": "https://www.gov.nv.gov/Newsroom/PRs/",
+   "sha256": "5640f451b62f4e2eabcac9507fa07dedb9922764cf99e7466ad68fe2ad4cc411",
+   "bytes": 39380
+  },
+  {
+   "name": "gov-CO",
+   "url": "https://www.colorado.gov/governor/news",
+   "fetchedAt": "2026-10-23T20:37:34.000Z",
+   "status": 403,
+   "contentType": "text/html; charset=UTF-8",
+   "finalUrl": "https://www.colorado.gov/governor/news",
+   "sha256": "eb250e2183f8f6ce0e65cf659c6270a5c6eebab11bcdf1f3fbfcdbeb08d778e9",
+   "bytes": 919
+  },
+  {
+   "name": "gov-ME",
+   "url": "https://www.maine.gov/governor/mills/news",
+   "fetchedAt": "2026-10-23T20:37:34.000Z",
+   "status": 404,
+   "contentType": "text/html; charset=UTF-8",
+   "finalUrl": "https://www.maine.gov/governor/mills/news",
+   "sha256": "9a61a31c475a3c016fb902a7c67095022c62b74715fd748edaa6c4fa9123b5d3",
+   "bytes": 20331
+  },
+  {
+   "name": "gov-NC",
+   "url": "https://governor.nc.gov/news/press-releases",
+   "fetchedAt": "2026-10-23T20:37:34.000Z",
+   "status": 200,
+   "contentType": "text/html; charset=UTF-8",
+   "finalUrl": "https://governor.nc.gov/news/press-releases",
+   "sha256": "42c59ccd931a34d81462b0ace15fe57ca8326cf8343b2fe37099edbda908c9ac",
+   "bytes": 59129
+  },
+  {
+   "name": "gov-AR",
+   "url": "https://governor.arkansas.gov/news/",
+   "fetchedAt": "2026-10-23T20:37:34.000Z",
+   "status": 200,
+   "contentType": "text/html; charset=UTF-8",
+   "finalUrl": "https://governor.arkansas.gov/newsroom/",
+   "sha256": "ab27f1c0d8e9260c7d0e08297665d240863ade512af8ec21c2894fa724c8cc0d",
+   "bytes": 121347
+  },
+  {
+   "name": "gov-LA",
+   "url": "https://gov.louisiana.gov/news/",
+   "fetchedAt": "2026-10-23T20:37:34.000Z",
+   "status": 200,
+   "contentType": "text/html;charset=UTF-8",
+   "finalUrl": "https://gov.louisiana.gov/news/",
+   "sha256": "e3b9f818e5c4c0251c01d71f4fea0bdf397a0cd59d98ed3fc0b886cf5c9c3ae2",
+   "bytes": 31081
+  },
+  {
+   "name": "gov-IL",
+   "url": "https://www.illinois.gov/news.html",
+   "fetchedAt": "2026-10-23T20:37:34.000Z",
+   "status": 200,
+   "contentType": "text/html;charset=utf-8",
+   "finalUrl": "https://www.illinois.gov/search-results.html?contentType=news",
+   "sha256": "b2360505b5ad46af2462ce23a4946643bc09aee775e86ccb9d0da3feb4ea7fa9",
+   "bytes": 66785
+  },
+  {
+   "name": "gov-VA",
+   "url": "https://www.governor.virginia.gov/newsroom/news-releases/",
+   "fetchedAt": "2026-10-23T20:37:34.000Z",
+   "status": 200,
+   "contentType": "text/html; charset=UTF-8",
+   "finalUrl": "https://www.governor.virginia.gov/newsroom/news-releases/",
+   "sha256": "6cf06478c867c6ad1af0aa5b0fec7fa7c56772a999b66cca7f46fb4251202cd3",
+   "bytes": 19555
+  },
+  {
+   "name": "gov-MD",
+   "url": "https://governor.maryland.gov/news/press/Pages/default.aspx",
+   "fetchedAt": "2026-10-23T20:37:34.000Z",
+   "status": 200,
+   "contentType": "text/html; charset=utf-8",
+   "finalUrl": "https://governor.maryland.gov/news/press-releases",
+   "sha256": "0c88b84c4433febc61f6fb274dd7d4fff0b717bfd65e892fff32dfbd56e3eb8e",
+   "bytes": 206270
+  },
+  {
+   "name": "gov-IN",
+   "url": "https://www.in.gov/gov/newsroom/",
+   "fetchedAt": "2026-10-23T20:37:34.000Z",
+   "status": 200,
+   "contentType": "text/html;charset=UTF-8",
+   "finalUrl": "https://www.in.gov/gov/newsroom/",
+   "sha256": "4be12b6ca7265784d25df656193d82fdd9cafc8d2a9bfaba0d9dcbb848ae71d4",
+   "bytes": 51108
+  },
+  {
+   "name": "gov-WI",
+   "url": "https://evers.wi.gov/Pages/Newsroom.aspx",
+   "fetchedAt": "2026-10-23T20:37:34.000Z",
+   "status": 401,
+   "contentType": "text/plain; charset=utf-8",
+   "finalUrl": "https://evers.wi.gov/Pages/Newsroom.aspx",
+   "sha256": "123b263cbdff912e77daea63a3c0c1c68639a59e3bb021bf3f40b7b17d35ce7a",
+   "bytes": 16
+  },
+  {
+   "name": "gov-ND",
+   "url": "https://www.governor.nd.gov/news",
+   "fetchedAt": "2026-10-23T20:37:34.000Z",
+   "status": 200,
+   "contentType": "text/html; charset=utf-8",
+   "finalUrl": "https://www.governor.nd.gov/news",
+   "sha256": "536bb2b49d51ba383dec90a0d004d54e7b53c5fff2e36b8353f3159c7ac89329",
+   "bytes": 83623
+  },
+  {
+   "name": "gov-WY",
+   "url": "https://governor.wyo.gov/media/news-releases",
+   "fetchedAt": "2026-10-23T20:37:34.000Z",
+   "status": 200,
+   "contentType": "text/html",
+   "finalUrl": "https://governor.wyo.gov/media/news-releases",
+   "sha256": "d0fa0da3de937e6086255e6039e8416055aa5d53d4bcfdb1520ac3b612e0e1b7",
+   "bytes": 907
+  },
+  {
+   "name": "gov-PA",
+   "url": "https://www.pa.gov/governor/newsroom",
+   "fetchedAt": "2026-10-23T20:37:34.000Z",
+   "status": 200,
+   "contentType": "text/html;charset=utf-8",
+   "finalUrl": "https://www.pa.gov/governor/newsroom",
+   "sha256": "4f390fbe9151fe3ab20aa95d985257f8b048e8723696c6d1b7642ab37f8532f3",
+   "bytes": 222393
+  },
+  {
+   "name": "gov-MN",
+   "url": "https://mn.gov/governor/newsroom/press-releases/",
+   "fetchedAt": "2026-10-23T20:37:34.000Z",
+   "status": 200,
+   "contentType": "text/html; charset=UTF-8",
+   "finalUrl": "http://validate.perfdrive.com/d5bd5333eafe8b0ccd6023ba818d1aa6/?ssa=b8eb5b32-5f3c-4f58-aa0f-b9cc1aa54ac6&ssb=99598215733&ssc=https%3A%2F%2Fmn.gov%2Fgovernor%2Fnewsroom%2Fpress-releases%2F&ssi=0b0e55d5-bf56-4ae7-be60-cf6d96d391d7&ssk=support@shieldsquare.com&ssm=49277556544448178104803974002693&ssn=9898176353a0f13d1aac73a9bc1ec1c7dae413e6e7ae-8769-40eb-a1df85&sso=c8647496-70e86928f0cc8f6fa67b587d31147a9d46b8c0b34d1134c9&ssp=25164686421792748867179275320146604&ssq=05684198785523661072287855425847939836617&ssr=OTEuNjMuMTE2LjE0NA==&sst=Mozilla/5.0+(Macintosh;+Intel+Mac+OS+X+14_0)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/130.0.0.0+Safari/537.36&ssu=&ssv=&ssw=&ssx=W10=",
+   "sha256": "5800ac165bff409b8a09afbcb660ee5d062ec6ef19f24116e5fc9792cb81adfe",
+   "bytes": 21621
+  },
+  {
+   "name": "gov-VT",
+   "url": "https://governor.vermont.gov/press-releases",
+   "fetchedAt": "2026-10-23T20:37:34.000Z",
+   "status": 404,
+   "contentType": "text/html; charset=UTF-8",
+   "finalUrl": "https://governor.vermont.gov/press-releases",
+   "sha256": "8e2edcd36b9a513034a2748e70c036c4d686d7273fcf1d9deeef04274e1d517e",
+   "bytes": 27470
+  },
+  {
+   "name": "gov-NM",
+   "url": "https://www.governor.nm.gov/news-releases/",
+   "fetchedAt": "2026-10-23T20:37:34.000Z",
+   "status": 404,
+   "contentType": "text/html",
+   "finalUrl": "https://www.governor.nm.gov/news-releases/",
+   "sha256": "b080cc29abcb42945ccbf0f7602cfb6d6854641261836c8f123e052f68eea166",
+   "bytes": 33329
+  },
+  {
+   "name": "gov-KY",
+   "url": "https://governor.ky.gov/news",
+   "fetchedAt": "2026-10-23T20:37:34.000Z",
+   "status": 403,
+   "contentType": "text/html",
+   "finalUrl": "https://governor.ky.gov/news",
+   "sha256": "92fbb9594d6e35b2d5fe4dfb241a05f71782818fc10018c525933dcd698c739d",
+   "bytes": 1484
+  },
+  {
+   "name": "gov-MT",
+   "url": "https://news.mt.gov/Governors-Office/",
+   "fetchedAt": "2026-10-23T20:37:34.000Z",
+   "status": 200,
+   "contentType": "text/html",
+   "finalUrl": "https://news.mt.gov/Governors-Office/",
+   "sha256": "75c365c85d3c6f05c404d5d1e0b352d171d90b539ce1fe3f903e0c62dc1ee79d",
+   "bytes": 23979
+  },
+  {
+   "name": "gov-DE",
+   "url": "https://news.delaware.gov/",
+   "fetchedAt": "2026-10-23T20:37:34.000Z",
+   "status": 200,
+   "contentType": "text/html; charset=UTF-8",
+   "finalUrl": "https://news.delaware.gov/",
+   "sha256": "309c5a3065087a852533a567632024ba56dc834f850d268889b4d7fa5601a81c",
+   "bytes": 132409
+  },
+  {
+   "name": "gov-SD",
+   "url": "https://news.sd.gov/",
+   "fetchedAt": "2026-10-23T20:37:34.000Z",
+   "status": 200,
+   "contentType": "text/html;charset=UTF-8",
+   "finalUrl": "https://news.sd.gov/news",
+   "sha256": "1fca71dcd3f10ebbb84ec9d156dbde22d1aa00f1f3d3b5ebb569222409c47f66",
+   "bytes": 974407
+  },
+  {
+   "name": "gov-TX",
+   "url": "https://gov.texas.gov/news",
+   "fetchedAt": "2026-10-23T20:37:34.000Z",
+   "status": 0,
+   "contentType": "",
+   "finalUrl": "https://gov.texas.gov/news",
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "bytes": 0
+  },
+  {
+   "name": "gov-OR",
+   "url": "https://apps.oregon.gov/oregon-newsroom/OR/GOV/Posts",
+   "fetchedAt": "2026-10-23T20:37:34.000Z",
+   "status": 0,
+   "contentType": "",
+   "finalUrl": "https://apps.oregon.gov/oregon-newsroom/OR/GOV/Posts",
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "bytes": 0
+  },
+  {
+   "name": "gov-CT",
+   "url": "https://portal.ct.gov/governor/news/press-releases",
+   "fetchedAt": "2026-10-23T20:37:34.000Z",
+   "status": 200,
+   "contentType": "text/html; charset=utf-8",
+   "finalUrl": "https://portal.ct.gov/governor/news/press-releases",
+   "sha256": "a1cb5a67113824fa9eb0b11219cdc62eb8bef4b2fe7fda40eb1f571711c99c0d",
+   "bytes": 91364
+  },
+  {
+   "name": "gov-MS",
+   "url": "https://governorreeves.ms.gov/news/",
+   "fetchedAt": "2026-10-23T20:37:34.000Z",
+   "status": 200,
+   "contentType": "text/html; charset=UTF-8",
+   "finalUrl": "https://governorreeves.ms.gov/newsroom/",
+   "sha256": "9604ad24d95c40f3e8cff56e95dae80f9cf6fe8dac2804cc980ab3a72d5a136c",
+   "bytes": 113434
+  },
+  {
+   "name": "gov-OH",
+   "url": "https://governor.ohio.gov/media/news-and-media",
+   "fetchedAt": "2026-10-23T20:37:34.000Z",
+   "status": 200,
+   "contentType": "text/html; charset=UTF-8",
+   "finalUrl": "https://governor.ohio.gov/media/news-and-media",
+   "sha256": "5027818ecf0c97725c2a26d841326c4dc1e445db31d37dfe3e3f468fff9ab18e",
+   "bytes": 398193
+  },
+  {
+   "name": "gov-ID",
+   "url": "https://gov.idaho.gov/pressrelease/",
+   "fetchedAt": "2026-10-23T20:37:34.000Z",
+   "status": 200,
+   "contentType": "text/html; charset=UTF-8",
+   "finalUrl": "https://gov.idaho.gov/pressrelease/",
+   "sha256": "813368361115fe705efb88d619669d9a9fc7c2f379033c2c47240ccb50c739b3",
+   "bytes": 105427
+  },
+  {
+   "name": "gov-NJ",
+   "url": "https://nj.gov/governor/news/",
+   "fetchedAt": "2026-10-23T20:37:34.000Z",
+   "status": 404,
+   "contentType": "text/html",
+   "finalUrl": "https://nj.gov/governor/news/",
+   "sha256": "f8cc1276c97e0fcd2fd15e8a54ef581548b0d4d99bdbc56427f65f5940eb090a",
+   "bytes": 11443
+  },
+  {
+   "name": "gov-MO",
+   "url": "https://governor.mo.gov/press-releases",
+   "fetchedAt": "2026-10-23T20:37:34.000Z",
+   "status": 200,
+   "contentType": "text/html; charset=UTF-8",
+   "finalUrl": "https://governor.mo.gov/media/press-releases",
+   "sha256": "2ac8c3e1f1eba306e7f73801f3ad57028e2cc5ba9dbac5907ede617f14b0bb8f",
+   "bytes": 51215
+  },
+  {
+   "name": "gov-TX2",
+   "url": "https://gov.texas.gov/news",
+   "fetchedAt": "2026-10-23T20:37:52.000Z",
+   "status": 0,
+   "contentType": "",
+   "finalUrl": "https://gov.texas.gov/news",
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "bytes": 0
+  },
+  {
+   "name": "gov-IA2",
+   "url": "https://governor.iowa.gov/",
+   "fetchedAt": "2026-10-23T20:37:52.000Z",
+   "status": 200,
+   "contentType": "text/html; charset=utf-8",
+   "finalUrl": "https://governor.iowa.gov/",
+   "sha256": "f85f52af080f318f2ae0b8aff6bbfb3eb1cb7500a093b84ded4622aab0934a95",
+   "bytes": 149450
+  },
+  {
+   "name": "gov-ME2",
+   "url": "https://www.maine.gov/governor/mills/news/press-releases",
+   "fetchedAt": "2026-10-23T20:37:52.000Z",
+   "status": 404,
+   "contentType": "text/html; charset=UTF-8",
+   "finalUrl": "https://www.maine.gov/governor/mills/news/press-releases",
+   "sha256": "e6bfcf5f0c0d24a2501fdb6c570a10f15fd8d748857becc6cf6c448190083ae9",
+   "bytes": 20147
+  },
+  {
+   "name": "gov-NJ2",
+   "url": "https://www.nj.gov/governor/news/news/approved/",
+   "fetchedAt": "2026-10-23T20:37:52.000Z",
+   "status": 404,
+   "contentType": "text/html",
+   "finalUrl": "https://www.nj.gov/governor/news/news/approved/",
+   "sha256": "5ee24da5a2e43050b7b7c67e1839fddcd4e3a4bd09002b1c72401b2d785edee8",
+   "bytes": 11443
+  },
+  {
+   "name": "gov-WI2",
+   "url": "https://evers.wi.gov/Pages/Newsroom.aspx",
+   "fetchedAt": "2026-10-23T20:37:52.000Z",
+   "status": 401,
+   "contentType": "text/plain; charset=utf-8",
+   "finalUrl": "https://evers.wi.gov/Pages/Newsroom.aspx",
+   "sha256": "123b263cbdff912e77daea63a3c0c1c68639a59e3bb021bf3f40b7b17d35ce7a",
+   "bytes": 16
+  },
+  {
+   "name": "gov-WY2",
+   "url": "https://governor.wyo.gov/news-releases",
+   "fetchedAt": "2026-10-23T20:37:52.000Z",
+   "status": 200,
+   "contentType": "text/html",
+   "finalUrl": "https://governor.wyo.gov/news-releases",
+   "sha256": "d0fa0da3de937e6086255e6039e8416055aa5d53d4bcfdb1520ac3b612e0e1b7",
+   "bytes": 907
+  },
+  {
+   "name": "gov-VT2",
+   "url": "https://governor.vermont.gov/press-release",
+   "fetchedAt": "2026-10-23T20:37:52.000Z",
+   "status": 404,
+   "contentType": "text/html; charset=UTF-8",
+   "finalUrl": "https://governor.vermont.gov/press-release",
+   "sha256": "698641a9a7f80f5169aa431f61aa6b4effa1b31cb8358294e447e3a985126502",
+   "bytes": 27469
+  },
+  {
+   "name": "gov-NV2",
+   "url": "https://gov.nv.gov/Newsroom/",
+   "fetchedAt": "2026-10-23T20:37:52.000Z",
+   "status": 200,
+   "contentType": "text/html; charset=utf-8",
+   "finalUrl": "https://www.gov.nv.gov/press-releases/",
+   "sha256": "4c0c3003ba5ec06ed9d44a4bdec4fe7f7a4f5d26995b470236c3f9693b98e116",
+   "bytes": 54302
+  },
+  {
+   "name": "gov-NM2",
+   "url": "https://www.governor.nm.gov/newsroom/",
+   "fetchedAt": "2026-10-23T20:37:52.000Z",
+   "status": 200,
+   "contentType": "text/html",
+   "finalUrl": "https://www.governor.nm.gov/newsroom/",
+   "sha256": "511b6b3f198be28be2ab04989cb060313c50cfc945447e5d5800b63738381e22",
+   "bytes": 3407327
+  },
+  {
+   "name": "gov-OR2",
+   "url": "https://www.oregon.gov/gov/news/pages/default.aspx",
+   "fetchedAt": "2026-10-23T20:37:52.000Z",
+   "status": 0,
+   "contentType": "",
+   "finalUrl": "https://www.oregon.gov/gov/news/pages/default.aspx",
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "bytes": 0
+  },
+  {
+   "name": "gov-ME3",
+   "url": "https://www.maine.gov/governor/mills/newsroom",
+   "fetchedAt": "2026-10-23T20:39:12.000Z",
+   "status": 200,
+   "contentType": "text/html; charset=UTF-8",
+   "finalUrl": "https://www.maine.gov/governor/mills/newsroom",
+   "sha256": "1fefe3d67ea583425df3a1e1eb3f3f4d1fb58c81d4b8d243a3efed78bee016b4",
+   "bytes": 52426
+  },
+  {
+   "name": "gov-NV3",
+   "url": "https://gov.nv.gov/press-releases/",
+   "fetchedAt": "2026-10-23T20:39:12.000Z",
+   "status": 200,
+   "contentType": "text/html; charset=utf-8",
+   "finalUrl": "https://www.gov.nv.gov/press-releases/",
+   "sha256": "ec5a9dbdfc76dd17fea3a15e4acf581420af7968173475f1728f175cd818e81b",
+   "bytes": 54301
+  },
+  {
+   "name": "gov-IA3",
+   "url": "https://governor.iowa.gov/newsroom",
+   "fetchedAt": "2026-10-23T20:39:12.000Z",
+   "status": 200,
+   "contentType": "text/html; charset=utf-8",
+   "finalUrl": "https://governor.iowa.gov/newsroom",
+   "sha256": "ea65c9de236bbd22bf25760c416500c8956c0671f769ac4104d4da86b6eb2194",
+   "bytes": 164942
+  },
+  {
+   "name": "gov-ND2",
+   "url": "https://www.governor.nd.gov/news",
+   "fetchedAt": "2026-10-23T20:39:12.000Z",
+   "status": 200,
+   "contentType": "text/html; charset=utf-8",
+   "finalUrl": "https://www.governor.nd.gov/news",
+   "sha256": "536bb2b49d51ba383dec90a0d004d54e7b53c5fff2e36b8353f3159c7ac89329",
+   "bytes": 83623
+  },
+  {
+   "name": "gov-VT3",
+   "url": "https://governor.vermont.gov/press_releases",
+   "fetchedAt": "2026-10-23T20:39:12.000Z",
+   "status": 200,
+   "contentType": "text/html; charset=UTF-8",
+   "finalUrl": "https://governor.vermont.gov/press_releases",
+   "sha256": "3b2a638c9ed0b12c144f10a7ed1d8e688a2a1ff5bbce54267d04a67372077d5d",
+   "bytes": 45954
+  },
+  {
+   "name": "irs-125",
+   "url": "https://www.irs.gov/newsroom/temporary-reporting-and-recordkeeping-relief-for-certain-fuel-uses",
+   "fetchedAt": "2026-10-23T20:48:34.000Z",
+   "status": 200,
+   "contentType": "text/html; charset=UTF-8",
+   "finalUrl": "https://www.irs.gov/newsroom/temporary-reporting-and-recordkeeping-relief-for-certain-fuel-uses",
+   "sha256": "002b455a7682182f86049c069c7225df01889e160da3fa5475cd42787bbd6845",
+   "bytes": 99662
+  },
+  {
+   "name": "irs-126",
+   "url": "https://www.irs.gov/newsroom/treasury-irs-update-retirement-plan-correction-program-and-establish-correction-program-for-individual-retirement-accounts",
+   "fetchedAt": "2026-10-23T20:48:35.000Z",
+   "status": 200,
+   "contentType": "text/html; charset=UTF-8",
+   "finalUrl": "https://www.irs.gov/newsroom/treasury-irs-update-retirement-plan-correction-program-and-establish-correction-program-for-individual-retirement-accounts",
+   "sha256": "fc1a285969d65d4e3ffc93ab62a876a7f65e6c24dc1a570a3129412e55b05db4",
+   "bytes": 102525
+  },
+  {
+   "name": "irs-127",
+   "url": "https://www.irs.gov/newsroom/irs-reminder-take-steps-now-to-protect-tax-information",
+   "fetchedAt": "2026-10-23T20:48:36.000Z",
+   "status": 200,
+   "contentType": "text/html; charset=UTF-8",
+   "finalUrl": "https://www.irs.gov/newsroom/irs-reminder-take-steps-now-to-protect-tax-information",
+   "sha256": "7fcd24cbae9a65e72da41083f676b1f3779d488b9a4df3fa5aa1e48fc7b1e301",
+   "bytes": 100212
+  },
+  {
+   "name": "irs-128",
+   "url": "https://www.irs.gov/newsroom/irs-reminder-year-round-tax-planning-can-make-filing-easier",
+   "fetchedAt": "2026-10-23T20:48:37.000Z",
+   "status": 200,
+   "contentType": "text/html; charset=UTF-8",
+   "finalUrl": "https://www.irs.gov/newsroom/irs-reminder-year-round-tax-planning-can-make-filing-easier",
+   "sha256": "e3e2f893ccb611d75c1a3d50a7e42202cf3f4e4e7c97e471bde45894a9b07be8",
+   "bytes": 104400
+  },
+  {
+   "name": "cg-hr3633-actions",
+   "url": "https://api.congress.gov/v3/bill/119/hr/3633/actions?format=json&limit=20",
+   "fetchedAt": "2026-10-23T20:48:38.000Z",
+   "status": 200,
+   "contentType": "application/json",
+   "finalUrl": "https://api.congress.gov/v3/bill/119/hr/3633/actions?format=json&limit=20",
+   "sha256": "d29f0a19113a851d4145113fe3995ba498cc14c0cb6b64128bd9b9d3c5469961",
+   "bytes": 10741
+  },
+  {
+   "name": "st-MA-151",
+   "url": "https://www.mass.gov/news/governor-healey-announces-move-in-mass-initiative-to-expand-affordable-homeownership-opportunities",
+   "fetchedAt": "2026-10-23T20:52:55.000Z",
+   "status": 403,
+   "contentType": "text/html",
+   "finalUrl": "https://www.mass.gov/news/governor-healey-announces-move-in-mass-initiative-to-expand-affordable-homeownership-opportunities",
+   "sha256": "d1f8e3ab3639bf2aa9c79bb85f94b268309039862769c09cedda9aa6ed55a1e5",
+   "bytes": 14059
+  },
+  {
+   "name": "st-MA-153",
+   "url": "https://www.mass.gov/news/governor-healey-kicks-off-2027-health-connector-open-enrollment-encourages-residents-to-get-covered",
+   "fetchedAt": "2026-10-23T20:52:55.000Z",
+   "status": 403,
+   "contentType": "text/html",
+   "finalUrl": "https://www.mass.gov/news/governor-healey-kicks-off-2027-health-connector-open-enrollment-encourages-residents-to-get-covered",
+   "sha256": "64787f6d90c2a56f201e58f8a6feb184a56b60961ebe09e2e9aef9026d379572",
+   "bytes": 14059
+  },
+  {
+   "name": "st-WV-247",
+   "url": "https://governor.wv.gov/article/governor-morrisey-announces-disaster-unemployment-assistance-fayette-harrison-and-kanawha",
+   "fetchedAt": "2026-10-23T20:52:55.000Z",
+   "status": 200,
+   "contentType": "text/html; charset=utf-8",
+   "finalUrl": "https://governor.wv.gov/article/governor-morrisey-announces-disaster-unemployment-assistance-fayette-harrison-and-kanawha",
+   "sha256": "d00f91d9dab8a7ee1b02202c2fa3f4e0e47761436e165772e6e72fc52a4082c0",
+   "bytes": 33004
+  },
+  {
+   "name": "st-AR-14",
+   "url": "https://governor.arkansas.gov/news_post/sanders-announces-344-regulatory-changes-to-cut-red-tape/",
+   "fetchedAt": "2026-10-23T20:52:55.000Z",
+   "status": 200,
+   "contentType": "text/html; charset=UTF-8",
+   "finalUrl": "https://governor.arkansas.gov/news_post/sanders-announces-344-regulatory-changes-to-cut-red-tape/",
+   "sha256": "d0c4df3aded75a84c30870e87720f748bdc75d40d66f6cefc179ea08139a9457",
+   "bytes": 111085
+  },
+  {
+   "name": "st-IA-133",
+   "url": "https://governor.iowa.gov/press-release/2026-10-10/harvest-proclamation",
+   "fetchedAt": "2026-10-23T20:52:55.000Z",
+   "status": 200,
+   "contentType": "text/html; charset=utf-8",
+   "finalUrl": "https://governor.iowa.gov/press-release/2026-10-10/harvest-proclamation",
+   "sha256": "fbe08cfc4eb45e07fa83310b0afe30499d439608e8f8788d2ddbce4168fa3ddf",
+   "bytes": 146518
+  },
+  {
+   "name": "st-WV-250",
+   "url": "https://governor.wv.gov/article/governor-morrisey-declares-state-emergency-provide-diesel-fuel-relief-west-virginia",
+   "fetchedAt": "2026-10-23T20:52:55.000Z",
+   "status": 200,
+   "contentType": "text/html; charset=utf-8",
+   "finalUrl": "https://governor.wv.gov/article/governor-morrisey-declares-state-emergency-provide-diesel-fuel-relief-west-virginia",
+   "sha256": "2f9ac7d3e2d40f9cd6cd9993b1f7b748ad9186bab5fd728cb26171c7db884629",
+   "bytes": 33412
+  },
+  {
+   "name": "st-NE-199",
+   "url": "https://governor.nebraska.gov/gov-pillen-issues-executive-order-meet-fuel-supply-demands",
+   "fetchedAt": "2026-10-23T20:52:55.000Z",
+   "status": 200,
+   "contentType": "text/html; charset=UTF-8",
+   "finalUrl": "https://governor.nebraska.gov/gov-pillen-issues-executive-order-meet-fuel-supply-demands",
+   "sha256": "10a403c7b8e0be832e03bd3bbce57e27303e0a67c796d073d41585565bd85d48",
+   "bytes": 32048
+  },
+  {
+   "name": "st-NV-203",
+   "url": "https://gov.nv.gov/press-releases/governor-lombardo-announces-suspension-of-red-dyed-diesel-enforcement/",
+   "fetchedAt": "2026-10-23T20:52:55.000Z",
+   "status": 200,
+   "contentType": "text/html; charset=utf-8",
+   "finalUrl": "https://www.gov.nv.gov/press-releases/governor-lombardo-announces-suspension-of-red-dyed-diesel-enforcement/",
+   "sha256": "3dd60b7fde4fa2c308a0c82b13309ff75c3514274062dd8388d1ee628391d2d1",
+   "bytes": 42824
+  },
+  {
+   "name": "st-VA-223",
+   "url": "https://www.governor.virginia.gov//newsroom/news-releases/2026/october-releases/name-1127275-en.html",
+   "fetchedAt": "2026-10-23T20:52:55.000Z",
+   "status": 200,
+   "contentType": "text/html; charset=UTF-8",
+   "finalUrl": "https://www.governor.virginia.gov//newsroom/news-releases/2026/october-releases/name-1127275-en.html",
+   "sha256": "74db48f606afebabde7acdf3b43f32907d736b23d51124aa21a3c4bf72677b82",
+   "bytes": 27670
+  },
+  {
+   "name": "st-VA-227",
+   "url": "https://www.governor.virginia.gov//newsroom/news-releases/2026/october-releases/name-1127551-en.html",
+   "fetchedAt": "2026-10-23T20:52:55.000Z",
+   "status": 200,
+   "contentType": "text/html; charset=UTF-8",
+   "finalUrl": "https://www.governor.virginia.gov//newsroom/news-releases/2026/october-releases/name-1127551-en.html",
+   "sha256": "89b3a84a01c972ddef5f7fdb164fe1f5293f7725a81e8aed8b508a16f652d3b0",
+   "bytes": 25105
+  },
+  {
+   "name": "st-MO-171",
+   "url": "https://governor.mo.gov/press-releases/archive/governor-kehoe-expands-executive-order-providing-transportation-cost-relief",
+   "fetchedAt": "2026-10-23T20:52:55.000Z",
+   "status": 200,
+   "contentType": "text/html; charset=UTF-8",
+   "finalUrl": "https://governor.mo.gov/press-releases/archive/governor-kehoe-expands-executive-order-providing-transportation-cost-relief",
+   "sha256": "63eeb10951bb3f3c9b7f47234cff93d043246e9f595b3a5e158f97284f343515",
+   "bytes": 33972
+  },
+  {
+   "name": "st-VA-225",
+   "url": "https://www.governor.virginia.gov//newsroom/news-releases/2026/october-releases/name-1127359-en.html",
+   "fetchedAt": "2026-10-23T20:52:55.000Z",
+   "status": 200,
+   "contentType": "text/html; charset=UTF-8",
+   "finalUrl": "https://www.governor.virginia.gov//newsroom/news-releases/2026/october-releases/name-1127359-en.html",
+   "sha256": "4720095db6cc4c7843e1e69c1a2161d1dab45e1c9b0e1590da58ff323200644e",
+   "bytes": 30971
+  },
+  {
+   "name": "st-FL-113",
+   "url": "https://www.flgov.com/eog/news/press/2026/governor-ron-desantis-hosts-miami-roundtable-support-amendment-3-property-tax",
+   "fetchedAt": "2026-10-23T20:52:55.000Z",
+   "status": 200,
+   "contentType": "text/html; charset=UTF-8",
+   "finalUrl": "https://www.flgov.com/eog/news/press/2026/governor-ron-desantis-hosts-miami-roundtable-support-amendment-3-property-tax",
+   "sha256": "c78ddd7c6a1b84920f91a186a3d62e3905f3fe5fd13cad69ebfb96e2456a7576",
+   "bytes": 32869
+  },
+  {
+   "name": "st-MD-161",
+   "url": "https://governor.maryland.gov/news/press-releases/maryland-reduces-benefit-theft-71-following-rollout-fraud-resistant-chip-and-tap-ebt-cards",
+   "fetchedAt": "2026-10-23T20:52:55.000Z",
+   "status": 200,
+   "contentType": "text/html; charset=utf-8",
+   "finalUrl": "https://governor.maryland.gov/news/press-releases/maryland-reduces-benefit-theft-71-following-rollout-fraud-resistant-chip-and-tap-ebt-cards",
+   "sha256": "0fd63ba67f4fcf9815c8e317d0c3e0da17ae0ee321f8451e4d2123d23ac465c2",
+   "bytes": 75976
+  },
+  {
+   "name": "st-MO-174",
+   "url": "https://governor.mo.gov/press-releases/archive/governor-kehoe-announces-operation-show-me-money",
+   "fetchedAt": "2026-10-23T20:52:55.000Z",
+   "status": 200,
+   "contentType": "text/html; charset=UTF-8",
+   "finalUrl": "https://governor.mo.gov/press-releases/archive/governor-kehoe-announces-operation-show-me-money",
+   "sha256": "ed8bafa5eda645219b2e3fe6569165260d347786ef85e33209f31d510965f5c8",
+   "bytes": 39294
+  },
+  {
+   "name": "st-CT-23",
+   "url": "https://portal.ct.gov/governor/news/press-releases/2026/10-2026/governor-lamont-releases-state-aid-for-home-heating-assistance",
+   "fetchedAt": "2026-10-23T20:52:55.000Z",
+   "status": 200,
+   "contentType": "text/html; charset=utf-8",
+   "finalUrl": "https://portal.ct.gov/governor/news/press-releases/2026/10-2026/governor-lamont-releases-state-aid-for-home-heating-assistance",
+   "sha256": "96f439d113d8717d8b404ca26b36d98d5f0b7dbc4657eae82e4b3542211aea8a",
+   "bytes": 75207
+  },
+  {
+   "name": "st-DE-44",
+   "url": "https://news.delaware.gov/2026/10/12/possible-refunds-for-certain-2026-aca-marketplace-enrollees/",
+   "fetchedAt": "2026-10-23T20:52:55.000Z",
+   "status": 200,
+   "contentType": "text/html; charset=UTF-8",
+   "finalUrl": "https://news.delaware.gov/2026/10/12/possible-refunds-for-certain-2026-aca-marketplace-enrollees/",
+   "sha256": "fece2d767e123cb072b101c527df3dfdb9fa2643d4204d1f3c7465da1e8ff4cd",
+   "bytes": 123401
+  },
+  {
+   "name": "st-ID-143",
+   "url": "https://gov.idaho.gov/pressrelease/gov-little-signs-executive-order-to-cut-red-tape-for-idaho-farmers-and-ranchers-during-harvest/",
+   "fetchedAt": "2026-10-23T20:52:55.000Z",
+   "status": 200,
+   "contentType": "text/html; charset=UTF-8",
+   "finalUrl": "https://gov.idaho.gov/pressrelease/gov-little-signs-executive-order-to-cut-red-tape-for-idaho-farmers-and-ranchers-during-harvest/",
+   "sha256": "57774ab58e97b2857a6d326e282cab851d7fc3491dd81d4b120ede8afe33e7b8",
+   "bytes": 89244
+  },
+  {
+   "name": "st-VA-223",
+   "url": "https://www.governor.virginia.gov/newsroom/news-releases/2026/october-releases/name-1127275-en.html",
+   "fetchedAt": "2026-10-23T20:53:07.000Z",
+   "status": 200,
+   "contentType": "text/html; charset=UTF-8",
+   "finalUrl": "https://www.governor.virginia.gov/newsroom/news-releases/2026/october-releases/name-1127275-en.html",
+   "sha256": "74db48f606afebabde7acdf3b43f32907d736b23d51124aa21a3c4bf72677b82",
+   "bytes": 27670
+  },
+  {
+   "name": "st-VA-225",
+   "url": "https://www.governor.virginia.gov/newsroom/news-releases/2026/october-releases/name-1127359-en.html",
+   "fetchedAt": "2026-10-23T20:53:08.000Z",
+   "status": 200,
+   "contentType": "text/html; charset=UTF-8",
+   "finalUrl": "https://www.governor.virginia.gov/newsroom/news-releases/2026/october-releases/name-1127359-en.html",
+   "sha256": "4720095db6cc4c7843e1e69c1a2161d1dab45e1c9b0e1590da58ff323200644e",
+   "bytes": 30971
+  },
+  {
+   "name": "st-VA-227",
+   "url": "https://www.governor.virginia.gov/newsroom/news-releases/2026/october-releases/name-1127551-en.html",
+   "fetchedAt": "2026-10-23T20:53:08.000Z",
+   "status": 200,
+   "contentType": "text/html; charset=UTF-8",
+   "finalUrl": "https://www.governor.virginia.gov/newsroom/news-releases/2026/october-releases/name-1127551-en.html",
+   "sha256": "89b3a84a01c972ddef5f7fdb164fe1f5293f7725a81e8aed8b508a16f652d3b0",
+   "bytes": 25105
+  },
+  {
+   "name": "fl-dos-amend",
+   "url": "https://dos.fl.gov/elections/laws-rules/constitutional-amendments/",
+   "fetchedAt": "2026-10-23T20:53:38.000Z",
+   "status": 403,
+   "contentType": "text/html; charset=UTF-8",
+   "finalUrl": "https://dos.fl.gov/elections/laws-rules/constitutional-amendments/",
+   "sha256": "286bffad409d01aedda99d08509c08cb8b96ddca658968e58dd2a70b42550f7d",
+   "bytes": 5850
+  },
+  {
+   "name": "fl-dos-init",
+   "url": "https://initiativepetitions.elections.myflorida.com/InitiativeList.aspx?year=2026",
+   "fetchedAt": "2026-10-23T20:53:38.000Z",
+   "status": 403,
+   "contentType": "text/html; charset=UTF-8",
+   "finalUrl": "https://initiativepetitions.dos.fl.gov/?year=2026",
+   "sha256": "53dc3127a813bbe46c6d8c841e61e9dbba61402a7930d1e23cbf8e2f1b86da59",
+   "bytes": 5775
+  },
+  {
+   "name": "fl-dos-2026",
+   "url": "https://dos.fl.gov/elections/data-statistics/elections-data/2026-constitutional-amendments/",
+   "fetchedAt": "2026-10-23T20:53:39.000Z",
+   "status": 403,
+   "contentType": "text/html; charset=UTF-8",
+   "finalUrl": "https://dos.fl.gov/elections/data-statistics/elections-data/2026-constitutional-amendments/",
+   "sha256": "c2291721a3644e0d21e62aea4bb1bd6399d72854ef8116e4a60bb764bc83ce2f",
+   "bytes": 5947
+  },
+  {
+   "name": "plaw-103",
+   "url": "https://www.govinfo.gov/content/pkg/PLAW-119publ103/pdf/PLAW-119publ103.pdf",
+   "fetchedAt": "2026-10-23T20:56:52.000Z",
+   "status": 200,
+   "contentType": "application/pdf",
+   "finalUrl": "https://www.govinfo.gov/content/pkg/PLAW-119publ103/pdf/PLAW-119publ103.pdf",
+   "sha256": "eea262811e91d7e34affa574074043ac6d87104347b2e414b7bb636b11696df2",
+   "bytes": 249578
+  },
+  {
+   "name": "plaw-108",
+   "url": "https://www.govinfo.gov/content/pkg/PLAW-119publ108/pdf/PLAW-119publ108.pdf",
+   "fetchedAt": "2026-10-23T20:56:53.000Z",
+   "status": 200,
+   "contentType": "application/pdf",
+   "finalUrl": "https://www.govinfo.gov/content/pkg/PLAW-119publ108/pdf/PLAW-119publ108.pdf",
+   "sha256": "13c996de48335d303da5cd73bb5b7d9a536639b27c732fcf6e1eeb222dd18e00",
+   "bytes": 205958
+  },
+  {
+   "name": "wh-mfg",
+   "url": "https://www.whitehouse.gov/presidential-actions/2026/10/national-manufacturing-day-2026/",
+   "fetchedAt": "2026-10-23T21:08:50.000Z",
+   "status": 200,
+   "contentType": "text/html; charset=UTF-8",
+   "finalUrl": "https://www.whitehouse.gov/presidential-actions/2026/10/national-manufacturing-day-2026/",
+   "sha256": "e2adeaf6aeb4e4f909e50c7deeec5ececdd3b67a9b1b93acb62b37cf71408fb2",
+   "bytes": 302245
+  },
+  {
+   "name": "wh-cook",
+   "url": "https://www.whitehouse.gov/presidential-actions/2026/10/establishment-of-a-committee-of-inquiry-to-investigate-allegations-of-false-statements-by-lisa-denell-cook/",
+   "fetchedAt": "2026-10-23T21:08:50.000Z",
+   "status": 200,
+   "contentType": "text/html; charset=UTF-8",
+   "finalUrl": "https://www.whitehouse.gov/presidential-actions/2026/10/establishment-of-a-committee-of-inquiry-to-investigate-allegations-of-false-statements-by-lisa-denell-cook/",
+   "sha256": "0576cc82a0da958d66e31347c651f8ed343d179c5b91aa249358fc8ed33ed8be",
+   "bytes": 294952
+  },
+  {
+   "name": "wh-energy",
+   "url": "https://www.whitehouse.gov/presidential-actions/2026/10/national-energy-dominance-month-2026/",
+   "fetchedAt": "2026-10-23T21:08:50.000Z",
+   "status": 200,
+   "contentType": "text/html; charset=UTF-8",
+   "finalUrl": "https://www.whitehouse.gov/presidential-actions/2026/10/national-energy-dominance-month-2026/",
+   "sha256": "f1c4126e6c8c74a32c5b272cc2ce88d72a00bcddc05d64b5591a51f7cf56394a",
+   "bytes": 303255
+  },
+  {
+   "name": "wh-columbus",
+   "url": "https://www.whitehouse.gov/presidential-actions/2026/10/columbus-day-2026/",
+   "fetchedAt": "2026-10-23T21:08:50.000Z",
+   "status": 200,
+   "contentType": "text/html; charset=UTF-8",
+   "finalUrl": "https://www.whitehouse.gov/presidential-actions/2026/10/columbus-day-2026/",
+   "sha256": "0be58476de50cd813f963b5502bc5775b69ba203e1c324c4d6049efded91481a",
+   "bytes": 303683
+  },
+  {
+   "name": "wh-diesel",
+   "url": "https://www.whitehouse.gov/presidential-actions/2026/10/emergency-tax-relief-on-diesel-fuel/",
+   "fetchedAt": "2026-10-23T21:08:50.000Z",
+   "status": 200,
+   "contentType": "text/html; charset=UTF-8",
+   "finalUrl": "https://www.whitehouse.gov/presidential-actions/2026/10/emergency-tax-relief-on-diesel-fuel/",
+   "sha256": "d4256ae32f59005689539a735bcd6d6edb4ff5b7497328965c0464a38dd92f51",
+   "bytes": 308753
+  }
+ ],
+ "renders": [
+  {
+   "name": "render-AK",
+   "url": "https://gov.alaska.gov/newsroom/",
+   "kind": "rendered DOM (discovery only, not server bytes)",
+   "sha256": "bbd4bc2eaa21e1e24722c33497c00e94c205c26e4557bc4c1ae1cab634df5396",
+   "bytes": 992
+  },
+  {
+   "name": "render-AZ",
+   "url": "https://azgovernor.gov/news-releases",
+   "kind": "rendered DOM (discovery only, not server bytes)",
+   "sha256": "09a98e6ed57545482315ed2de7eeae2be08e815af149683bf18b241c252d8879",
+   "bytes": 28798
+  },
+  {
+   "name": "render-AZ2",
+   "url": "https://azgovernor.gov/news-releases",
+   "kind": "rendered DOM (discovery only, not server bytes)",
+   "sha256": "7b2d93e4dd98b49f3a37211da11a6884bd918e8f30241c6c075543d72908cee5",
+   "bytes": 28777
+  },
+  {
+   "name": "render-CO",
+   "url": "https://www.colorado.gov/governor/news",
+   "kind": "rendered DOM (discovery only, not server bytes)",
+   "sha256": "ea764c283ab0ceef4b623aead3bf0f250643e73d0f8fff0f3b5659eb7c6ab90f",
+   "bytes": 925
+  },
+  {
+   "name": "render-IL",
+   "url": "https://www.illinois.gov/news.html",
+   "kind": "rendered DOM (discovery only, not server bytes)",
+   "sha256": "1f550a98110c0eecdd30fbded896d1be27a4ffd2976e8d3511ab2c0b7267a8d0",
+   "bytes": 184530
+  },
+  {
+   "name": "render-IN",
+   "url": "https://www.in.gov/gov/newsroom/",
+   "kind": "rendered DOM (discovery only, not server bytes)",
+   "sha256": "d0a313e1bf5c5a72b41913515c33adf9fa4fd375f2725074de6c5ec339a90827",
+   "bytes": 163891
+  },
+  {
+   "name": "render-KS",
+   "url": "https://www.governor.ks.gov/newsroom",
+   "kind": "rendered DOM (discovery only, not server bytes)",
+   "sha256": "663f72b1f999c861019800c25dcba4421fe6fd43ba02975e5b8a4e9c56031436",
+   "bytes": 318
+  },
+  {
+   "name": "render-KY",
+   "url": "https://governor.ky.gov/news",
+   "kind": "rendered DOM (discovery only, not server bytes)",
+   "sha256": "8d4da1806bf1bb4704b3aaf888dd9c060fe9ffe0fe5cb389868e16ae6660af0a",
+   "bytes": 1481
+  },
+  {
+   "name": "render-LA",
+   "url": "https://gov.louisiana.gov/news/",
+   "kind": "rendered DOM (discovery only, not server bytes)",
+   "sha256": "61130f835c116f25bc1fcc594ac4177163c024d0c238d32f0a266c0e8444b1a0",
+   "bytes": 46286
+  },
+  {
+   "name": "render-MA",
+   "url": "https://www.mass.gov/orgs/office-of-the-governor/news",
+   "kind": "rendered DOM (discovery only, not server bytes)",
+   "sha256": "f4dcc501d6729b041a5286a81e12d5d047696268bd7f7c1f4c650588de9701f9",
+   "bytes": 226532
+  },
+  {
+   "name": "render-ME",
+   "url": "https://www.maine.gov/governor/mills/news",
+   "kind": "rendered DOM (discovery only, not server bytes)",
+   "sha256": "79779ee2625d2b71e80f9465f89f5226454321862a461db0aea35bf240d509b5",
+   "bytes": 925
+  },
+  {
+   "name": "render-MI",
+   "url": "https://www.michigan.gov/whitmer/news/press-releases",
+   "kind": "rendered DOM (discovery only, not server bytes)",
+   "sha256": "cb3527a29c9272a64cbb3927993ea8bd81a4affe6be144bc47ceb6172fd156ba",
+   "bytes": 322
+  },
+  {
+   "name": "render-MN",
+   "url": "https://mn.gov/governor/newsroom/press-releases/",
+   "kind": "rendered DOM (discovery only, not server bytes)",
+   "sha256": "87d4dfd4ab0b77e9042979be7eb6db705314025db9e8be6aa24927344f935345",
+   "bytes": 25354
+  },
+  {
+   "name": "render-NH",
+   "url": "https://www.governor.nh.gov/news-and-media",
+   "kind": "rendered DOM (discovery only, not server bytes)",
+   "sha256": "76f3897bcb678107a7752a21753e8b95900fbab8d33c8b29010cbc65da60d419",
+   "bytes": 312
+  },
+  {
+   "name": "render-NJ",
+   "url": "https://www.nj.gov/governor/news/",
+   "kind": "rendered DOM (discovery only, not server bytes)",
+   "sha256": "b7b649242e0532278ace6c8d893cbbf893492f92a86c44b957f51114ba8edecc",
+   "bytes": 30250
+  },
+  {
+   "name": "render-NY",
+   "url": "https://www.governor.ny.gov/news",
+   "kind": "rendered DOM (discovery only, not server bytes)",
+   "sha256": "e05c6b50623fc91e3fbbb6c02ec74d75be9e93faf2f2634720c81bd19fb68768",
+   "bytes": 4267
+  },
+  {
+   "name": "render-OH",
+   "url": "https://governor.ohio.gov/media/news-and-media",
+   "kind": "rendered DOM (discovery only, not server bytes)",
+   "sha256": "a31e92dd7fbd9a6a4a55922aa5caf678fa8e5380c939fd575f9f8139ccb128d6",
+   "bytes": 5499
+  },
+  {
+   "name": "render-OK",
+   "url": "https://oklahoma.gov/governor/newsroom.html",
+   "kind": "rendered DOM (discovery only, not server bytes)",
+   "sha256": "876f6d5395f083d87aaf65b8e0a015e6f8d365e69dd0d846c762dda916fa3415",
+   "bytes": 190188
+  },
+  {
+   "name": "render-PA",
+   "url": "https://www.pa.gov/governor/newsroom",
+   "kind": "rendered DOM (discovery only, not server bytes)",
+   "sha256": "6685c90c28c3734a664c474e0a41c6d7838a83bd836f9ea41268bf2cd6f43104",
+   "bytes": 249264
+  },
+  {
+   "name": "render-RI",
+   "url": "https://governor.ri.gov/press-releases",
+   "kind": "rendered DOM (discovery only, not server bytes)",
+   "sha256": "1fa1169d8cbc44b0d389cd5ca8fcae3e8e59e53eee1cc8e5f327530731e5da4a",
+   "bytes": 5417
+  },
+  {
+   "name": "render-SC",
+   "url": "https://governor.sc.gov/news",
+   "kind": "rendered DOM (discovery only, not server bytes)",
+   "sha256": "6715e8a9d5440295865b538cf5d8b18c3fb0790b7176809c1c3b00a8d1c8d849",
+   "bytes": 992
+  },
+  {
+   "name": "render-SD",
+   "url": "https://news.sd.gov/",
+   "kind": "rendered DOM (discovery only, not server bytes)",
+   "sha256": "1696d5a0981091a56cd7c56ad1a7d99db14144fa922e41798bff7973b2051a4e",
+   "bytes": 1081734
+  },
+  {
+   "name": "render-VA",
+   "url": "https://www.governor.virginia.gov/newsroom/news-releases/",
+   "kind": "rendered DOM (discovery only, not server bytes)",
+   "sha256": "31d6faba237d111dcc9d8d1157f401b28a3793649592cdcad1f59ac110faedbe",
+   "bytes": 289457
+  },
+  {
+   "name": "render-VT",
+   "url": "https://governor.vermont.gov/press-releases",
+   "kind": "rendered DOM (discovery only, not server bytes)",
+   "sha256": "1d5e705248c737cdfc8d85fd076bc57211290c8c6fe39c02f87ff9c9afc11de5",
+   "bytes": 925
+  },
+  {
+   "name": "render-WV",
+   "url": "https://governor.wv.gov/news",
+   "kind": "rendered DOM (discovery only, not server bytes)",
+   "sha256": "3e9e0c864caf2ce97b278a0982e6b2bf218694fed2bc6cab3efa23d4a6914fcb",
+   "bytes": 51748
+  },
+  {
+   "name": "render-WY",
+   "url": "https://governor.wyo.gov/media/news-releases",
+   "kind": "rendered DOM (discovery only, not server bytes)",
+   "sha256": "ee01db03976217d7e0bec29be448ba41914eba46bec4058574dd484b4eece4fc",
+   "bytes": 94615
+  },
+  {
+   "name": "render-TN",
+   "kind": "render failed (no output)"
+  },
+  {
+   "name": "render-WI",
+   "kind": "render failed (no output)"
+  },
+  {
+   "name": "render-TX",
+   "kind": "render failed (no output)"
+  },
+  {
+   "name": "render-OR",
+   "kind": "render failed (no output)"
+  },
+  {
+   "name": "render-MT",
+   "kind": "render failed (no output)"
+  }
+ ]
+}

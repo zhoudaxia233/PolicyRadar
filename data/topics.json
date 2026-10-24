@@ -4515,7 +4515,7 @@
         "美国GENIUS稳定币法：财政部实施规则",
         "United States: GENIUS Act stablecoin implementing rules from Treasury"
       ],
-      "basis": "Both Federal Register documents state that they implement the GENIUS Act (Public Law 119-27): FR Doc. 2026-16796 proposes rules under section 3, and FR Doc. 2026-19966 adopts interim procedures under section 4(c). Grouping does not mean the Act is in force or that other agencies' rules are final.",
+      "basis": "Both Federal Register documents state that they implement the GENIUS Act (Public Law 119-27): FR Doc. 2026-16796 proposes rules under section 3, and FR Doc. 2026-19966 adopts interim procedures under section 4(c). Grouping does not mean the Act is in force or that other agencies' rules are final. FR Doc. 2026-21706 is the Comptroller of the Currency’s final rule implementing the same Act; its effective-date discussion states that the Act takes effect on 18 January 2027. The explanation us-genius-act-stablecoin-implementation, keyed to Public Law 119-27, explains these implementing rules.",
       "documents": [
         {
           "region": "US",
@@ -4524,9 +4524,20 @@
         {
           "region": "US",
           "officialId": "FR Doc. 2026-19966"
+        },
+        {
+          "region": "US",
+          "officialId": "FR Doc. 2026-21706",
+          "appliesFromExport": "2026-10-23T21:16:38.594Z"
         }
       ],
-      "appliesFromExport": "2026-10-14T19:10:01.848Z"
+      "appliesFromExport": "2026-10-14T19:10:01.848Z",
+      "explanations": [
+        {
+          "id": "us-genius-act-stablecoin-implementation",
+          "appliesFromExport": "2026-10-23T21:16:38.594Z"
+        }
+      ]
     },
     {
       "id": "eu-misp-crypto-supervision-council",
@@ -5111,7 +5122,7 @@
         "美国柴油税收紧急救济",
         "US diesel emergency tax relief"
       ],
-      "basis": "IRS news release IR-2026-122 states that it responds to the President’s 5 October 2026 executive order \"Emergency Tax Relief on Diesel Fuel\", which the existing explanation is keyed to.",
+      "basis": "IRS news release IR-2026-122 states that it responds to the President’s 5 October 2026 executive order \"Emergency Tax Relief on Diesel Fuel\", which the existing explanation is keyed to. IR-2026-125 grants reporting and record-keeping relief for section 4041(a) liability from taxable uses of dyed diesel between 1 October 2026 and 1 January 2027, the same period and fuel as the IR-2026-122 penalty relief.",
       "documents": [
         {
           "region": "US",
@@ -5121,6 +5132,11 @@
         {
           "region": "US",
           "officialId": "IR-2026-122"
+        },
+        {
+          "region": "US",
+          "officialId": "IR-2026-125",
+          "appliesFromExport": "2026-10-23T21:16:38.594Z"
         }
       ],
       "appliesFromExport": "2026-10-20T21:02:08.810Z"
@@ -5367,6 +5383,64 @@
         }
       ],
       "appliesFromExport": "2026-10-23T19:26:24.012Z"
+    },
+    {
+      "id": "us-premium-tax-credit-2027",
+      "title": [
+        "美国医保保费税收抵免2027年起限缩：新闻稿与拟议规则",
+        "US premium tax credit restrictions from 2027: news release and proposed rules"
+      ],
+      "basis": "IRS news release IR-2026-121 announces the proposed regulations that the Federal Register published the next day as FR Doc. 2026-21056 (REG-101576-26), implementing the One Big Beautiful Bill Act changes to section 36B. Both records concern the same proposal; its stage stays pending.",
+      "documents": [
+        {
+          "region": "US",
+          "officialId": "IR-2026-121"
+        },
+        {
+          "region": "US",
+          "officialId": "FR Doc. 2026-21056"
+        }
+      ],
+      "appliesFromExport": "2026-10-23T21:16:38.594Z"
+    },
+    {
+      "id": "us-graham-sanctions-act-2026",
+      "title": [
+        "美国《格雷厄姆制裁俄罗斯和伊朗法》：法律与落实及豁免行政令",
+        "US Graham Russia and Iran sanctions act: the law and the implementing order with waivers"
+      ],
+      "basis": "The White House order of 16 October 2026 states that it implements the Lindsey O. Graham Sanctioning Russia and Iran Act of 2026 (Public Law 119-111, signed 18 September 2026) and waives, under section 115 of that Act, its duties and listed sanctions provisions.",
+      "documents": [
+        {
+          "region": "US",
+          "officialId": "Public Law 119-111"
+        },
+        {
+          "region": "US",
+          "url": "https://www.whitehouse.gov/presidential-actions/2026/10/implementing-the-lindsey-o-graham-sanctioning-russia-and-iran-act-of-2026/",
+          "title": "Implementing the Lindsey O. Graham Sanctioning Russia and Iran Act of 2026"
+        }
+      ],
+      "appliesFromExport": "2026-10-23T21:16:38.594Z"
+    },
+    {
+      "id": "us-cftc-swap-definition-2026-10",
+      "title": [
+        "美国期货委员会“掉期”定义：排除博彩产品与纳入事件合约",
+        "US CFTC swap definition: excluding gambling products and including event contracts"
+      ],
+      "basis": "Published together on 19 October 2026, FR Doc. 2026-21376 (interim final rule excluding casino-style gambling products) and FR Doc. 2026-21377 (proposal to include event contracts) both further define the term “swap” in 17 CFR part 1 and each refers to the event contract jurisdiction debate. They keep separate stages: adopted interim rule and pending proposal.",
+      "documents": [
+        {
+          "region": "US",
+          "officialId": "FR Doc. 2026-21376"
+        },
+        {
+          "region": "US",
+          "officialId": "FR Doc. 2026-21377"
+        }
+      ],
+      "appliesFromExport": "2026-10-23T21:16:38.594Z"
     }
   ]
 }

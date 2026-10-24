@@ -5316,6 +5316,138 @@
         }
       ],
       "appliesFromExport": "2026-10-23T19:26:24.012Z"
+    },
+    {
+      "id": "us-wh-commemorations-2026-10",
+      "reason": [
+        "纪念性公告，不改变规则。",
+        "Commemorative proclamations; they change no rules."
+      ],
+      "basis": "White House proclamations of National Manufacturing Day (2 October), Columbus Day and National Energy Dominance Month (7 October) and National Seafood Month (22 October) 2026 were read; each only proclaims an observance.",
+      "documents": [
+        {
+          "region": "US",
+          "url": "https://www.whitehouse.gov/presidential-actions/2026/10/national-manufacturing-day-2026/",
+          "title": "National Manufacturing Day, 2026"
+        },
+        {
+          "region": "US",
+          "url": "https://www.whitehouse.gov/presidential-actions/2026/10/columbus-day-2026/",
+          "title": "Columbus Day, 2026"
+        },
+        {
+          "region": "US",
+          "url": "https://www.whitehouse.gov/presidential-actions/2026/10/national-energy-dominance-month-2026/",
+          "title": "National Energy Dominance Month, 2026"
+        },
+        {
+          "region": "US",
+          "url": "https://www.whitehouse.gov/presidential-actions/2026/10/national-seafood-month-2026/",
+          "title": "National Seafood Month, 2026"
+        }
+      ],
+      "appliesFromExport": "2026-10-23T21:16:38.594Z"
+    },
+    {
+      "id": "us-irs-reminders-2026-10-22",
+      "reason": [
+        "税务机关的提醒，不改变税务规则。",
+        "Reminders from the tax authority; they change no tax rule."
+      ],
+      "basis": "IR-2026-127 (protect tax information, IP PIN) and IR-2026-128 (year-round tax planning) were read; neither announces a change to tax law, rates, deadlines or procedures.",
+      "documents": [
+        {
+          "region": "US",
+          "officialId": "IR-2026-127"
+        },
+        {
+          "region": "US",
+          "officialId": "IR-2026-128"
+        }
+      ],
+      "appliesFromExport": "2026-10-23T21:16:38.594Z"
+    },
+    {
+      "id": "us-presidential-emergency-continuations-2026-10",
+      "reason": [
+        "只把已有的国家紧急状态延续一年，相关措施不变。",
+        "Only continue existing national emergencies for another year; the measures stay the same."
+      ],
+      "basis": "Presidential notices published in the Federal Register on 19 October 2026 continue the national emergencies concerning the Democratic Republic of the Congo, Sudan and significant narcotics traffickers centred in Colombia for one year without changing the measures taken under them.",
+      "documents": [
+        {
+          "region": "US",
+          "officialId": "FR Doc. 2026-21432"
+        },
+        {
+          "region": "US",
+          "officialId": "FR Doc. 2026-21431"
+        },
+        {
+          "region": "US",
+          "officialId": "FR Doc. 2026-21430"
+        }
+      ],
+      "appliesFromExport": "2026-10-23T21:16:38.594Z"
+    },
+    {
+      "id": "us-laws-designations-land-2026-09-10",
+      "reason": [
+        "命名、纪念设施或向特定对象转让、确定特定土地的法律，不设一般性规则。",
+        "Laws naming places, concerning memorials, or transferring or settling specific land for named parties; they set no general rules."
+      ],
+      "basis": "Public Laws 119-104, 119-105, 119-107, 119-114, 119-115, 119-117, 119-122, 119-126, 119-128, 119-130, 119-132 and 119-133 were identified from their official titles (and, for 119-122, 119-126, 119-128, 119-130, 119-132 and 119-133, also from the opening sections of their texts): monument location, removal of restrictions on one parcel, memorial authorisation extension, a specific Indian land dispute settlement, a park affiliated area, a renaming, a specific tribal water settlement amendment, land conveyances to named parties, a park boundary change and a monument redesignated as a national park.",
+      "documents": [
+        {
+          "region": "US",
+          "officialId": "Public Law 119-104"
+        },
+        {
+          "region": "US",
+          "officialId": "Public Law 119-105"
+        },
+        {
+          "region": "US",
+          "officialId": "Public Law 119-107"
+        },
+        {
+          "region": "US",
+          "officialId": "Public Law 119-114"
+        },
+        {
+          "region": "US",
+          "officialId": "Public Law 119-115"
+        },
+        {
+          "region": "US",
+          "officialId": "Public Law 119-117"
+        },
+        {
+          "region": "US",
+          "officialId": "Public Law 119-122"
+        },
+        {
+          "region": "US",
+          "officialId": "Public Law 119-126"
+        },
+        {
+          "region": "US",
+          "officialId": "Public Law 119-128"
+        },
+        {
+          "region": "US",
+          "officialId": "Public Law 119-130"
+        },
+        {
+          "region": "US",
+          "officialId": "Public Law 119-132"
+        },
+        {
+          "region": "US",
+          "officialId": "Public Law 119-133"
+        }
+      ],
+      "appliesFromExport": "2026-10-23T21:16:38.594Z"
     }
   ]
 }

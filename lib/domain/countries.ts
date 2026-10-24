@@ -1,6 +1,7 @@
 export const countries = [
   {
     "id": "DE",
+    "tier": "full",
     "name": "德国",
     "en": "Germany",
     "national": "联邦",
@@ -10,6 +11,7 @@ export const countries = [
   },
   {
     "id": "FR",
+    "tier": "national",
     "name": "法国",
     "en": "France",
     "national": "全国层面",
@@ -19,6 +21,7 @@ export const countries = [
   },
   {
     "id": "NL",
+    "tier": "national",
     "name": "荷兰",
     "en": "Netherlands",
     "national": "全国层面",
@@ -28,6 +31,7 @@ export const countries = [
   },
   {
     "id": "CH",
+    "tier": "national",
     "name": "瑞士",
     "en": "Switzerland",
     "national": "联邦",
@@ -37,6 +41,7 @@ export const countries = [
   },
   {
     "id": "IT",
+    "tier": "national",
     "name": "意大利",
     "en": "Italy",
     "national": "全国层面",
@@ -46,6 +51,7 @@ export const countries = [
   },
   {
     "id": "EU",
+    "tier": "full",
     "name": "欧盟",
     "en": "European Union",
     "national": "欧盟层面",
@@ -55,6 +61,7 @@ export const countries = [
   },
   {
     "id": "GB",
+    "tier": "national",
     "name": "英国",
     "en": "United Kingdom",
     "national": "全国层面",
@@ -64,6 +71,7 @@ export const countries = [
   },
   {
     "id": "ES",
+    "tier": "national",
     "name": "西班牙",
     "en": "Spain",
     "national": "全国层面",
@@ -73,6 +81,7 @@ export const countries = [
   },
   {
     "id": "US",
+    "tier": "national",
     "name": "美国",
     "en": "United States",
     "national": "联邦",

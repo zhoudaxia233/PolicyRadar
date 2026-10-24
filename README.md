@@ -20,6 +20,8 @@ A static website with browser-side search and filters. No login, database or app
 - Spain: national level, 17 autonomous communities and two autonomous cities; 40 government/gazette channels registered and the 2026 minimum wage backfilled. Historical scans remain incomplete; parliaments and other local bodies are not independently connected.
 - United Kingdom: national level and England, Scotland, Wales and Northern Ireland; nine shared or devolved official channels, historical catalogue discoveries and selected reviewed explanations. Territorial extent is checked per measure. Local authorities, Crown Dependencies and Overseas Territories are not separately connected; historical scans remain incomplete.
 
+Since 24 October 2026, Germany and the EU are updated in full. The other countries are updated at the national level only, on request; their regional records are kept as they were at their last update.
+
 Coverage is incomplete; the site shows review dates, scan gaps and unverified discoveries. Explanations are editorial summaries, not official legal text. Original sources remain available, and pending proposals are distinguished from adopted measures.
 
 ## Run locally

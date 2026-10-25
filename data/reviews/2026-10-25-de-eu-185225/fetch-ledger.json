@@ -1,0 +1,290 @@
+[
+ {
+  "name": "bgbl",
+  "url": "https://www.recht.bund.de/de/home/home_node.html",
+  "fetchedAt": "2026-10-25T18:52:25.375Z",
+  "status": 200,
+  "contentType": "text/html;charset=utf-8",
+  "finalUrl": "https://www.recht.bund.de/de/home/home_node.html",
+  "sha256": "7d4226397fd981986964f72f3fc306001abf1ee432f9995f8a0315e329b99bdc",
+  "bytes": 38718,
+  "ext": "html"
+ },
+ {
+  "name": "bmas",
+  "url": "https://www.bmas.de/DE/Service/Presse/Pressemitteilungen/pressemitteilungen.html",
+  "fetchedAt": "2026-10-25T18:52:25.493Z",
+  "status": 200,
+  "contentType": "text/html;charset=utf-8",
+  "finalUrl": "https://www.bmas.de/DE/Service/Presse/Pressemitteilungen/pressemitteilungen.html",
+  "sha256": "692dadfd5d6352a941f870589e3360a509e96d2cd21afad623c3d8e12ad2ce38",
+  "bytes": 544278,
+  "ext": "html"
+ },
+ {
+  "name": "bmg",
+  "url": "https://www.bundesgesundheitsministerium.de/suche-pressemitteilungen",
+  "fetchedAt": "2026-10-25T18:52:25.866Z",
+  "status": 200,
+  "contentType": "text/html; charset=utf-8",
+  "finalUrl": "https://www.bundesgesundheitsministerium.de/suche-pressemitteilungen",
+  "sha256": "0754f2b26539b585bb89d70186b2e5e1e2f708e200cbaafdee8eee6c39c07f1f",
+  "bytes": 430890,
+  "ext": "html"
+ },
+ {
+  "name": "bmf",
+  "url": "https://www.bundesfinanzministerium.de/Web/DE/Service/Gesetze_Gesetzesvorhaben/Gesetze_Gesetzgebungsvorhaben.html",
+  "fetchedAt": "2026-10-25T18:52:28.122Z",
+  "status": 200,
+  "contentType": "text/html;charset=utf-8",
+  "finalUrl": "https://www.bundesfinanzministerium.de/Web/DE/Service/Gesetze_Gesetzesvorhaben/Gesetze_Gesetzgebungsvorhaben.html",
+  "sha256": "1f23a3a89c032756ce82da7a2e8a53a8caaa3ea819f95fcba2e6fa45ae0445fe",
+  "bytes": 212547,
+  "ext": "html"
+ },
+ {
+  "name": "bmf-presse",
+  "url": "https://www.bundesfinanzministerium.de/Web/DE/Presse/Pressemitteilungen/pressemitteilungen.html",
+  "fetchedAt": "2026-10-25T18:52:28.227Z",
+  "status": 200,
+  "contentType": "text/html;charset=utf-8",
+  "finalUrl": "https://www.bundesfinanzministerium.de/Web/DE/Presse/Pressemitteilungen/pressemitteilungen.html",
+  "sha256": "730a01fa13191213db69341a9690e9fca7ccb4f79d2e1954ee591515e2cd6143",
+  "bytes": 208387,
+  "ext": "html"
+ },
+ {
+  "name": "breg-kabinett",
+  "url": "https://www.bundesregierung.de/breg-de/bundesregierung/kabinettsthemen",
+  "fetchedAt": "2026-10-25T18:52:28.273Z",
+  "status": 200,
+  "contentType": "text/html;charset=UTF-8",
+  "finalUrl": "https://www.bundesregierung.de/breg-de/bundesregierung/kabinettsthemen",
+  "sha256": "9aff9cd2597020b76de1106943448d2e265da8eb17f2f4f9fb29c22a342b3bdb",
+  "bytes": 136240,
+  "ext": "html"
+ },
+ {
+  "name": "bundesrat",
+  "url": "https://www.bundesrat.de/DE/plenum/plenum-node.html",
+  "fetchedAt": "2026-10-25T18:52:28.351Z",
+  "status": 200,
+  "contentType": "text/html;charset=utf-8",
+  "finalUrl": "https://www.bundesrat.de/DE/plenum/plenum-node.html",
+  "sha256": "24560aff841de06a980eeb7ab38289ce04958bdc672c412536c514f03428a1a4",
+  "bytes": 33321,
+  "ext": "html"
+ },
+ {
+  "name": "taxud",
+  "url": "https://taxation-customs.ec.europa.eu/news_en",
+  "fetchedAt": "2026-10-25T18:52:28.588Z",
+  "status": 200,
+  "contentType": "text/html; charset=utf-8",
+  "finalUrl": "https://taxation-customs.ec.europa.eu/news_en",
+  "sha256": "9239ded56721e408ca37d8d831191297d63afb34ddd1c3fb706168ba83a31d5c",
+  "bytes": 123512,
+  "ext": "html"
+ },
+ {
+  "name": "pfhxa-text",
+  "url": "https://publications.europa.eu/resource/cellar/c50bce2f-76e8-11ef-bbbe-01aa75ed71a1.0006.03/DOC_1",
+  "fetchedAt": "2026-10-25T18:52:28.680Z",
+  "status": 200,
+  "contentType": "application/xhtml+xml;charset=UTF-8",
+  "finalUrl": "https://publications.europa.eu/resource/cellar/c50bce2f-76e8-11ef-bbbe-01aa75ed71a1.0006.03/DOC_1",
+  "sha256": "f26fddde0b0a042ecf58c57599ba5365e8b0c17646b0fcdb57edf61d4eb6a324",
+  "bytes": 75255,
+  "ext": "html"
+ },
+ {
+  "name": "discovereu-portal",
+  "url": "https://youth.europa.eu/discovereu_en",
+  "fetchedAt": "2026-10-25T18:52:28.936Z",
+  "status": 200,
+  "contentType": "text/html; charset=utf-8",
+  "finalUrl": "https://youth.europa.eu/discovereu_en",
+  "sha256": "77e3e2d227abd771db0c77e0d506dd290b0bc628371c96491185e2547c97f201",
+  "bytes": 38175,
+  "ext": "html"
+ },
+ {
+  "name": "discovereu-news",
+  "url": "https://commission.europa.eu/news-and-media/news/turning-18-apply-free-discovereu-travel-pass-2026-10-01_en",
+  "fetchedAt": "2026-10-25T18:52:29.015Z",
+  "status": 200,
+  "contentType": "text/html; charset=utf-8",
+  "finalUrl": "https://commission.europa.eu/news-and-media/news/turning-18-apply-free-discovereu-travel-pass-2026-10-01_en",
+  "sha256": "b4464d1e670b289ea2e2b0682ac0f48cb8e4587d054c0d625945093ee9df2e87",
+  "bytes": 157817,
+  "ext": "html"
+ },
+ {
+  "name": "bw-press",
+  "url": "https://www.baden-wuerttemberg.de/de/service/presse/pressemitteilung/pid/antragstellung-auf-futtermittelhilfe-2026-laeuft-an-1",
+  "fetchedAt": "2026-10-25T18:52:29.102Z",
+  "status": 200,
+  "contentType": "text/html; charset=utf-8",
+  "finalUrl": "https://www.baden-wuerttemberg.de/de/service/presse/pressemitteilung/pid/antragstellung-auf-futtermittelhilfe-2026-laeuft-an-1",
+  "sha256": "8a5f02c6f67f6525bc526fecb5004917eef332191cc17a9f8b838af20cb67452",
+  "bytes": 657535,
+  "ext": "html"
+ },
+ {
+  "name": "bw-portal",
+  "url": "https://foerderung.landwirtschaft-bw.de/,Lde/Startseite/Foerderwegweiser/Futtermittelhilfe",
+  "fetchedAt": "2026-10-25T18:52:31.909Z",
+  "status": 200,
+  "contentType": "text/html;charset=UTF-8",
+  "finalUrl": "https://foerderung.landwirtschaft-bw.de/,Lde/Startseite/Foerderwegweiser/Futtermittelhilfe",
+  "sha256": "6e43e3dd9828b3d37a33ba87d719e0cbf57d5ee3be0cb735a19e48ff87f7aa78",
+  "bytes": 61131,
+  "ext": "html"
+ },
+ {
+  "name": "bw-vwv",
+  "url": "https://foerderung.landwirtschaft-bw.de/site/pbs-bw-rebrush2024/get/documents_E1802391896/MLR.LEL/PB5Documents/mlr/Foerderwegweiser/Futtermittelhilfe/VwV%20Futtermittelhilfe.pdf",
+  "fetchedAt": "2026-10-25T18:52:32.024Z",
+  "status": 200,
+  "contentType": "application/pdf",
+  "finalUrl": "https://foerderung.landwirtschaft-bw.de/site/pbs-bw-rebrush2024/get/documents_E1802391896/MLR.LEL/PB5Documents/mlr/Foerderwegweiser/Futtermittelhilfe/VwV%20Futtermittelhilfe.pdf",
+  "sha256": "924d49f996ccfbf48f8a3698e3724977f795d64344e467f0c4de3d73397b2724",
+  "bytes": 104222,
+  "ext": "pdf"
+ },
+ {
+  "name": "bmg-presse",
+  "url": "https://www.bundesgesundheitsministerium.de/presse/pressemitteilungen.html",
+  "fetchedAt": "2026-10-25T18:53:11.616Z",
+  "status": 200,
+  "contentType": "text/html; charset=utf-8",
+  "finalUrl": "https://www.bundesgesundheitsministerium.de/presse/pressemitteilungen",
+  "sha256": "0769f3e5bfc29c72b478ae2f40c6e226e333b09252710a122a8d4b321f0fe10e",
+  "bytes": 442163,
+  "ext": "html"
+ },
+ {
+  "name": "bw-forms",
+  "url": "https://foerderung.landwirtschaft-bw.de/,Lde/Startseite/Foerderwegweiser/Foerder-+und+Zahlungsantraege_+Unterlagen+zur+Futtermittelhilfe",
+  "fetchedAt": "2026-10-25T18:54:10.689Z",
+  "status": 200,
+  "contentType": "text/html;charset=UTF-8",
+  "finalUrl": "https://foerderung.landwirtschaft-bw.de/,Lde/Startseite/Foerderwegweiser/Foerder-+und+Zahlungsantraege_+Unterlagen+zur+Futtermittelhilfe",
+  "sha256": "cff9ce788a98ce12e85df0bfe98b354f074caf61fe5229bebb65271aacaae9c0",
+  "bytes": 55269,
+  "ext": "html"
+ },
+ {
+  "name": "render-kabinett-ergebnisse",
+  "url": "https://www.bundesregierung.de/breg-de/bundesregierung/bundeskanzleramt/kabinettssitzungen/bundeskabinett-ergebnisse",
+  "rendered": true,
+  "sha256": "2941eb747a56c951ef6ffc77ee518cf900216900e374fb570a60d4e7f29c4ae1",
+  "bytes": 1020906,
+  "note": "Rendered with npm run data:render as discovery evidence; not archived as server bytes."
+ },
+ {
+  "name": "render-breg-aktuelles",
+  "url": "https://www.bundesregierung.de/breg-de/aktuelles",
+  "rendered": true,
+  "sha256": "d7b6b87b13d01f3fd7f6a7e1c0e9cc6a4ffce19b03df8b41dde86f49f065e889",
+  "bytes": 1032132,
+  "note": "Rendered with npm run data:render as discovery evidence; not archived as server bytes."
+ },
+ {
+  "name": "render-bmg-suche",
+  "url": "https://www.bundesgesundheitsministerium.de/suche-pressemitteilungen",
+  "rendered": true,
+  "sha256": "b5166af4a52a18b26eb824d3a2e0b9acff488b5f93a273abb2510916f4125655",
+  "bytes": 444502,
+  "note": "Rendered search page shows no result list; the press list page was used instead."
+ },
+ {
+  "name": "render-oj-direct",
+  "url": "https://eur-lex.europa.eu/oj/direct-access.html",
+  "rendered": true,
+  "sha256": "168fa3675d40da35a00c057e371fb6838197639121a72beaeb9967be05c81dd1",
+  "bytes": 112929,
+  "note": "Lists the issues of 19–23 October; no issue dated 24 October."
+ },
+ {
+  "name": "render-oj-L-17",
+  "url": "https://eur-lex.europa.eu/oj/daily-view/L-series/default.html?ojDate=17102026",
+  "rendered": true,
+  "sha256": "bec94af10f20a63b81d868866fc92052fba9dd19a66acd794257cca91c4ce8ce",
+  "bytes": 113633,
+  "note": "Requested 17 October; the view shows the 16 October issue (no issue on 17 October)."
+ },
+ {
+  "name": "render-oj-C-17",
+  "url": "https://eur-lex.europa.eu/oj/daily-view/C-series/default.html?ojDate=17102026",
+  "rendered": true,
+  "sha256": "750b02ae1cbf90f3ab487d3f803573640f69c6f4805bfcc61ca14f92bf442801",
+  "bytes": 124449,
+  "note": "Requested 17 October; the view shows the 16 October issue (no issue on 17 October)."
+ },
+ {
+  "name": "render-oj-L-18",
+  "url": "https://eur-lex.europa.eu/oj/daily-view/L-series/default.html?ojDate=18102026",
+  "rendered": true,
+  "sha256": "2a0089800e93e7cd4715d81369be106fcdbd2c48f9e0dc31d58be8cfc65e77e1",
+  "bytes": 113729,
+  "note": "Requested 18 October; the view shows the 16 October issue (no issue on 18 October)."
+ },
+ {
+  "name": "render-oj-C-18",
+  "url": "https://eur-lex.europa.eu/oj/daily-view/C-series/default.html?ojDate=18102026",
+  "rendered": true,
+  "sha256": "006d69b78cd4667dd284e11a9b6d57671663c1b5b1292fba05fd8ebd58c27fe4",
+  "bytes": 124452,
+  "note": "Requested 18 October; the view shows the 16 October issue (no issue on 18 October)."
+ },
+ {
+  "name": "render-oj-L-23",
+  "url": "https://eur-lex.europa.eu/oj/daily-view/L-series/default.html?ojDate=23102026",
+  "rendered": true,
+  "sha256": "9ea5c34645f84d649a1e13ac4c1292e701cb84ae21923c2344d004a71812a755",
+  "bytes": 115784,
+  "note": "19 L-series items, all already in intake."
+ },
+ {
+  "name": "render-oj-C-23",
+  "url": "https://eur-lex.europa.eu/oj/daily-view/C-series/default.html?ojDate=23102026",
+  "rendered": true,
+  "sha256": "cc190ce6277e30212989a5227b4a90186836be1117cda90c6a7f0ae716fcfc3c",
+  "bytes": 108139,
+  "note": "5 C-series items, all already in intake."
+ },
+ {
+  "name": "render-oj-L-24",
+  "url": "https://eur-lex.europa.eu/oj/daily-view/L-series/default.html?ojDate=24102026",
+  "rendered": true,
+  "sha256": "4f98be345ee412210158a5144932fa059f18ab5eadfc01d02ede6bd9c2c37aac",
+  "bytes": 115687,
+  "note": "Requested 24 October; the view shows the 23 October issue (no issue on 24 October)."
+ },
+ {
+  "name": "render-oj-C-24",
+  "url": "https://eur-lex.europa.eu/oj/daily-view/C-series/default.html?ojDate=24102026",
+  "rendered": true,
+  "sha256": "877cb9d4641c41ad7291ed97ae62b8e7c3e6ff20a319f8b8510cd6915c0bd883",
+  "bytes": 108231,
+  "note": "Requested 24 October; the view shows the 23 October issue (no issue on 24 October)."
+ },
+ {
+  "name": "render-esma",
+  "url": "https://www.esma.europa.eu/press-news/esma-news",
+  "rendered": true,
+  "sha256": "3e23638f5d1a3bcd8fe3789794d1cb5411d6e162d3792fd4e3bee92a7e73955a",
+  "bytes": 104758,
+  "note": "Rendered with npm run data:render as discovery evidence; not archived as server bytes."
+ },
+ {
+  "name": "render-ep-press",
+  "url": "https://www.europarl.europa.eu/news/en/press-room",
+  "rendered": true,
+  "sha256": "65c4c2a3c89b1c46c7cb1d7972402ad6b1ac7e3e80e351dd6d7b81533c368c3a",
+  "bytes": 212120,
+  "note": "Rendered with npm run data:render as discovery evidence; not archived as server bytes."
+ }
+]

@@ -379,10 +379,10 @@
   },
   {
     "url": "https://www.baden-wuerttemberg.de/de/service/presse/pressemitteilung/pid/antragstellung-auf-futtermittelhilfe-2026-laeuft-an-1",
-    "checked_at": "2026-10-15T08:31:45.175859Z",
-    "last_success_at": "2026-10-15T08:31:45.175859Z",
-    "hash": "d7c5d4c47098ddc115c73bcc44355297fefd5ade043bd934895520b2b7c36749",
-    "snapshot_key": "sources/06f4dea734d49de4cf061170ddd7cb9f26cfb3c9129cc671c50d8c33bedfa5da/d7c5d4c47098ddc115c73bcc44355297fefd5ade043bd934895520b2b7c36749.html",
+    "checked_at": "2026-10-25T18:52:29.102Z",
+    "last_success_at": "2026-10-25T18:52:29.102Z",
+    "hash": "8a5f02c6f67f6525bc526fecb5004917eef332191cc17a9f8b838af20cb67452",
+    "snapshot_key": "sources/06f4dea734d49de4cf061170ddd7cb9f26cfb3c9129cc671c50d8c33bedfa5da/8a5f02c6f67f6525bc526fecb5004917eef332191cc17a9f8b838af20cb67452.html",
     "changed": 0,
     "error": null
   },
@@ -4136,6 +4136,78 @@
     "last_success_at": "2026-10-23T20:48:34.000Z",
     "hash": "002b455a7682182f86049c069c7225df01889e160da3fa5475cd42787bbd6845",
     "snapshot_key": "sources/459b6525967039c8b35ac32765d297ed906fd89c5f456c05be0f8f92cdda6996/002b455a7682182f86049c069c7225df01889e160da3fa5475cd42787bbd6845.html",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://www.bundesfinanzministerium.de/Web/DE/Presse/Pressemitteilungen/pressemitteilungen.html",
+    "checked_at": "2026-10-25T18:52:28.227Z",
+    "last_success_at": "2026-10-25T18:52:28.227Z",
+    "hash": "730a01fa13191213db69341a9690e9fca7ccb4f79d2e1954ee591515e2cd6143",
+    "snapshot_key": "sources/d4c1f524a63308d415d64ec6ff6871313742a00b924a4c500aafdcdb488357ba/730a01fa13191213db69341a9690e9fca7ccb4f79d2e1954ee591515e2cd6143.html",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://taxation-customs.ec.europa.eu/news_en",
+    "checked_at": "2026-10-25T18:52:28.588Z",
+    "last_success_at": "2026-10-25T18:52:28.588Z",
+    "hash": "9239ded56721e408ca37d8d831191297d63afb34ddd1c3fb706168ba83a31d5c",
+    "snapshot_key": "sources/b085ff1513ef8a30bc8972d50f784b23efd62b6649adfb53d8edb9ca9fcaa332/9239ded56721e408ca37d8d831191297d63afb34ddd1c3fb706168ba83a31d5c.html",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://publications.europa.eu/resource/cellar/c50bce2f-76e8-11ef-bbbe-01aa75ed71a1.0006.03/DOC_1",
+    "checked_at": "2026-10-25T18:52:28.680Z",
+    "last_success_at": "2026-10-25T18:52:28.680Z",
+    "hash": "f26fddde0b0a042ecf58c57599ba5365e8b0c17646b0fcdb57edf61d4eb6a324",
+    "snapshot_key": "sources/63eb5a08615ee22b300ad0d1df808ca26da1110740daf1215b4ec108b2a4f4f2/f26fddde0b0a042ecf58c57599ba5365e8b0c17646b0fcdb57edf61d4eb6a324.html",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://youth.europa.eu/discovereu_en",
+    "checked_at": "2026-10-25T18:52:28.936Z",
+    "last_success_at": "2026-10-25T18:52:28.936Z",
+    "hash": "77e3e2d227abd771db0c77e0d506dd290b0bc628371c96491185e2547c97f201",
+    "snapshot_key": "sources/191dc7bd5fc0edc002bbf6a9e60004bd5c4d6296270f16408cb72a650028f40f/77e3e2d227abd771db0c77e0d506dd290b0bc628371c96491185e2547c97f201.html",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://foerderung.landwirtschaft-bw.de/,Lde/Startseite/Foerderwegweiser/Futtermittelhilfe",
+    "checked_at": "2026-10-25T18:52:31.909Z",
+    "last_success_at": "2026-10-25T18:52:31.909Z",
+    "hash": "6e43e3dd9828b3d37a33ba87d719e0cbf57d5ee3be0cb735a19e48ff87f7aa78",
+    "snapshot_key": "sources/c50ac9617737e7215104bf30d98272b0e4db5e06699749b0315c7a3640fc3185/6e43e3dd9828b3d37a33ba87d719e0cbf57d5ee3be0cb735a19e48ff87f7aa78.html",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://foerderung.landwirtschaft-bw.de/site/pbs-bw-rebrush2024/get/documents_E1802391896/MLR.LEL/PB5Documents/mlr/Foerderwegweiser/Futtermittelhilfe/VwV%20Futtermittelhilfe.pdf",
+    "checked_at": "2026-10-25T18:52:32.024Z",
+    "last_success_at": "2026-10-25T18:52:32.024Z",
+    "hash": "924d49f996ccfbf48f8a3698e3724977f795d64344e467f0c4de3d73397b2724",
+    "snapshot_key": "sources/11e5dc3078e8b4240c5ed500302a04d12ce14224680bb889eb021b92970eda33/924d49f996ccfbf48f8a3698e3724977f795d64344e467f0c4de3d73397b2724.pdf",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://www.bundesgesundheitsministerium.de/presse/pressemitteilungen.html",
+    "checked_at": "2026-10-25T18:53:11.616Z",
+    "last_success_at": "2026-10-25T18:53:11.616Z",
+    "hash": "0769f3e5bfc29c72b478ae2f40c6e226e333b09252710a122a8d4b321f0fe10e",
+    "snapshot_key": "sources/cd38aa51f2e1f596dd0cfe129ee8d364baffd359793b79e000cc17685d2528b4/0769f3e5bfc29c72b478ae2f40c6e226e333b09252710a122a8d4b321f0fe10e.html",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://foerderung.landwirtschaft-bw.de/,Lde/Startseite/Foerderwegweiser/Foerder-+und+Zahlungsantraege_+Unterlagen+zur+Futtermittelhilfe",
+    "checked_at": "2026-10-25T18:54:10.689Z",
+    "last_success_at": "2026-10-25T18:54:10.689Z",
+    "hash": "cff9ce788a98ce12e85df0bfe98b354f074caf61fe5229bebb65271aacaae9c0",
+    "snapshot_key": "sources/91b9a58201a723993fb90b2ed59c40484266510431e46501ff8f7241035e3d12/cff9ce788a98ce12e85df0bfe98b354f074caf61fe5229bebb65271aacaae9c0.html",
     "changed": 0,
     "error": null
   }

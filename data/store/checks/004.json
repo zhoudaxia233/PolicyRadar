@@ -4141,19 +4141,19 @@
   },
   {
     "url": "https://www.bundesfinanzministerium.de/Web/DE/Presse/Pressemitteilungen/pressemitteilungen.html",
-    "checked_at": "2026-10-25T18:52:28.227Z",
-    "last_success_at": "2026-10-25T18:52:28.227Z",
-    "hash": "730a01fa13191213db69341a9690e9fca7ccb4f79d2e1954ee591515e2cd6143",
-    "snapshot_key": "sources/d4c1f524a63308d415d64ec6ff6871313742a00b924a4c500aafdcdb488357ba/730a01fa13191213db69341a9690e9fca7ccb4f79d2e1954ee591515e2cd6143.html",
+    "checked_at": "2026-10-26T20:01:27.813Z",
+    "last_success_at": "2026-10-26T20:01:27.813Z",
+    "hash": "94263c12e1f1c69c3e2028c5271d9c4fd6cb67c58c43b7967474be6f0f62a77a",
+    "snapshot_key": "sources/d4c1f524a63308d415d64ec6ff6871313742a00b924a4c500aafdcdb488357ba/94263c12e1f1c69c3e2028c5271d9c4fd6cb67c58c43b7967474be6f0f62a77a.html",
     "changed": 0,
     "error": null
   },
   {
     "url": "https://taxation-customs.ec.europa.eu/news_en",
-    "checked_at": "2026-10-25T18:52:28.588Z",
-    "last_success_at": "2026-10-25T18:52:28.588Z",
-    "hash": "9239ded56721e408ca37d8d831191297d63afb34ddd1c3fb706168ba83a31d5c",
-    "snapshot_key": "sources/b085ff1513ef8a30bc8972d50f784b23efd62b6649adfb53d8edb9ca9fcaa332/9239ded56721e408ca37d8d831191297d63afb34ddd1c3fb706168ba83a31d5c.html",
+    "checked_at": "2026-10-26T20:01:28.999Z",
+    "last_success_at": "2026-10-26T20:01:28.999Z",
+    "hash": "586e26ffa6bc309050bbe12a6bfbbdaa1456024a9b21e6af27d89094fe3304d7",
+    "snapshot_key": "sources/b085ff1513ef8a30bc8972d50f784b23efd62b6649adfb53d8edb9ca9fcaa332/586e26ffa6bc309050bbe12a6bfbbdaa1456024a9b21e6af27d89094fe3304d7.html",
     "changed": 0,
     "error": null
   },
@@ -4208,6 +4208,1077 @@
     "last_success_at": "2026-10-25T18:54:10.689Z",
     "hash": "cff9ce788a98ce12e85df0bfe98b354f074caf61fe5229bebb65271aacaae9c0",
     "snapshot_key": "sources/91b9a58201a723993fb90b2ed59c40484266510431e46501ff8f7241035e3d12/cff9ce788a98ce12e85df0bfe98b354f074caf61fe5229bebb65271aacaae9c0.html",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://www.recht.bund.de/bgbl/1/2026/318/VO.html",
+    "checked_at": "2026-10-26T19:57:19.468Z",
+    "last_success_at": null,
+    "hash": null,
+    "snapshot_key": null,
+    "changed": 0,
+    "error": "HTTP 404"
+  },
+  {
+    "url": "https://www.recht.bund.de/bgbl/1/2026/319/VO.html",
+    "checked_at": "2026-10-26T19:57:19.615Z",
+    "last_success_at": null,
+    "hash": null,
+    "snapshot_key": null,
+    "changed": 0,
+    "error": "HTTP 404"
+  },
+  {
+    "url": "https://www.recht.bund.de/bgbl/1/2026/320/VO.html",
+    "checked_at": "2026-10-26T19:57:19.782Z",
+    "last_success_at": null,
+    "hash": null,
+    "snapshot_key": null,
+    "changed": 0,
+    "error": "HTTP 404"
+  },
+  {
+    "url": "https://www.recht.bund.de/bgbl/1/2026/321/VO.html",
+    "checked_at": "2026-10-26T19:57:19.935Z",
+    "last_success_at": null,
+    "hash": null,
+    "snapshot_key": null,
+    "changed": 0,
+    "error": "HTTP 404"
+  },
+  {
+    "url": "https://www.recht.bund.de/bgbl/1/2026/281/VO.html",
+    "checked_at": "2026-10-26T19:57:20.083Z",
+    "last_success_at": "2026-10-26T19:57:20.083Z",
+    "hash": "875e47da8eb9010e9b3a7521872ecc94031529f67e216c878c563ddebe281c5f",
+    "snapshot_key": "sources/68d5187ec7991d6654629471ef23190a3371c78f87a8b20c8ef0bf8eb06b4d3f/875e47da8eb9010e9b3a7521872ecc94031529f67e216c878c563ddebe281c5f.html",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://www.recht.bund.de/de/bundesgesetzblatt/bgbl-1/bgbl-1_node.html",
+    "checked_at": "2026-10-26T19:57:34.191Z",
+    "last_success_at": "2026-10-26T19:57:34.191Z",
+    "hash": "51c9c3fc65985bc63a0e4c6f00ff3c88a0766d6e9f94ebd08c88e6f12f81649d",
+    "snapshot_key": "sources/68d1928195bcb623189cc3c1e5bb9306998658197909f0798cb46c990559325c/51c9c3fc65985bc63a0e4c6f00ff3c88a0766d6e9f94ebd08c88e6f12f81649d.html",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://www.recht.bund.de/bgbl/1/2026/240/VO.html",
+    "checked_at": "2026-10-26T19:57:43.129Z",
+    "last_success_at": "2026-10-26T19:57:43.129Z",
+    "hash": "9f63c7be8d210799af52f9f20c797abd249b6585365fa663e44fb8fef9ea7c1a",
+    "snapshot_key": "sources/e1d139bf17374d20387331c59fce60424fdfa17c078e21283ed7a31f707d0f7b/9f63c7be8d210799af52f9f20c797abd249b6585365fa663e44fb8fef9ea7c1a.html",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://www.recht.bund.de/bgbl/1/2026/241/VO.html",
+    "checked_at": "2026-10-26T19:57:43.413Z",
+    "last_success_at": "2026-10-26T19:57:43.413Z",
+    "hash": "3cfde6bf246ed28d284637316e85422a2c04310567fc86918ae97c60dd1a7fd4",
+    "snapshot_key": "sources/9f2a4711f84424ce2bb0a1fc330777666a5e41a8cb2c5cf0f27b325c10bdbe09/3cfde6bf246ed28d284637316e85422a2c04310567fc86918ae97c60dd1a7fd4.html",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://www.recht.bund.de/bgbl/1/2026/242/VO.html",
+    "checked_at": "2026-10-26T19:57:43.696Z",
+    "last_success_at": "2026-10-26T19:57:43.696Z",
+    "hash": "b419534000843533e0964c1e1a04912ea6bcb77ef1c1b4315cdfe35bafae5f98",
+    "snapshot_key": "sources/4d5982e09add49b54c0cc0d3dddf6a2fd5773f8af1ac56b7746d702be4a05cf3/b419534000843533e0964c1e1a04912ea6bcb77ef1c1b4315cdfe35bafae5f98.html",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://www.recht.bund.de/bgbl/1/2026/243/VO.html",
+    "checked_at": "2026-10-26T19:57:43.985Z",
+    "last_success_at": "2026-10-26T19:57:43.985Z",
+    "hash": "fd7fb11145b6b60e606c10a74210cbf8d3b98759b1f79266845c1d2febddb111",
+    "snapshot_key": "sources/cc014d8da195f842a35e93faad3d328a5e707af14e6deb9f2fc57f860e404d0b/fd7fb11145b6b60e606c10a74210cbf8d3b98759b1f79266845c1d2febddb111.html",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://www.recht.bund.de/bgbl/1/2026/244/VO.html",
+    "checked_at": "2026-10-26T19:57:44.283Z",
+    "last_success_at": "2026-10-26T19:57:44.283Z",
+    "hash": "217a916562d7977dd9e21bdde30e09dabc724fff7ce5d16083030f9581047123",
+    "snapshot_key": "sources/920a964829bf020eab49dac27757aa460169bc133242d0bc6c05109ecb13dcb0/217a916562d7977dd9e21bdde30e09dabc724fff7ce5d16083030f9581047123.html",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://www.recht.bund.de/bgbl/1/2026/245/VO.html",
+    "checked_at": "2026-10-26T19:57:44.665Z",
+    "last_success_at": "2026-10-26T19:57:44.665Z",
+    "hash": "a23fa37f2913a3208b1feac356833f6a6a7f79d9c6f0645c51e9ecc61a24f437",
+    "snapshot_key": "sources/84c1ab3dd89694215a483a3c4051848c5c86c43f7e90c84ae470dc55513323b0/a23fa37f2913a3208b1feac356833f6a6a7f79d9c6f0645c51e9ecc61a24f437.html",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://www.recht.bund.de/bgbl/1/2026/246/VO.html",
+    "checked_at": "2026-10-26T19:57:44.822Z",
+    "last_success_at": "2026-10-26T19:57:44.822Z",
+    "hash": "d493bbc6693f8505f69be44da476f73db84c35279488db89c5225dd3f79fca07",
+    "snapshot_key": "sources/5d2f32785a84c7c99b958db681be13fafd90b105a872f3594cf0ac7b68d3f9af/d493bbc6693f8505f69be44da476f73db84c35279488db89c5225dd3f79fca07.html",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://www.recht.bund.de/bgbl/1/2026/247/VO.html",
+    "checked_at": "2026-10-26T19:57:45.175Z",
+    "last_success_at": "2026-10-26T19:57:45.175Z",
+    "hash": "bb38f56e1be6fa08c2de051b69d5726f52a11532d36ee9e69ec99ee2a2baaeb1",
+    "snapshot_key": "sources/3e46687838e962ac2db67f8f9d873ade0d6bb8b6628acea91b8ed3a9a2a00781/bb38f56e1be6fa08c2de051b69d5726f52a11532d36ee9e69ec99ee2a2baaeb1.html",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://www.recht.bund.de/bgbl/1/2026/248/VO.html",
+    "checked_at": "2026-10-26T19:57:45.447Z",
+    "last_success_at": "2026-10-26T19:57:45.447Z",
+    "hash": "a62a914d56dd9eeca06552f53ea4b1397f4ff1e28f888c8977b69417a2d8b2be",
+    "snapshot_key": "sources/1b66fe04203af5c66dcbc79be07356b3fb56863acb7532b97e21146c1a10122e/a62a914d56dd9eeca06552f53ea4b1397f4ff1e28f888c8977b69417a2d8b2be.html",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://www.recht.bund.de/bgbl/1/2026/249/VO.html",
+    "checked_at": "2026-10-26T19:57:45.726Z",
+    "last_success_at": "2026-10-26T19:57:45.726Z",
+    "hash": "6b105802f08c48eb49bd2d2f99e3a45656b1fab3a3b13b04b1269252a80bf6a9",
+    "snapshot_key": "sources/250d0564ab6ec228b815ecb63d02a5a26f63c83b69d6a94141b2df061c17c8b9/6b105802f08c48eb49bd2d2f99e3a45656b1fab3a3b13b04b1269252a80bf6a9.html",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://www.recht.bund.de/bgbl/1/2026/250/VO.html",
+    "checked_at": "2026-10-26T19:57:46.088Z",
+    "last_success_at": "2026-10-26T19:57:46.088Z",
+    "hash": "de3ba78f15070be7340b13b7c88b29f9f15697e0feb4a48d7077190295043afb",
+    "snapshot_key": "sources/78eb087020492142b2851b44ac8883b9520e5f8183e9de9bdabbac4ba9016e57/de3ba78f15070be7340b13b7c88b29f9f15697e0feb4a48d7077190295043afb.html",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://www.recht.bund.de/bgbl/1/2026/251/VO.html",
+    "checked_at": "2026-10-26T19:57:46.491Z",
+    "last_success_at": "2026-10-26T19:57:46.491Z",
+    "hash": "ce81d94a0327b27f180b7a7fa21f31515eff20e468409a56067451197f8a0fe0",
+    "snapshot_key": "sources/52cca5a3881d0d3246cd0ed45895daf9b1b622b917788d1889b967e9dc885b74/ce81d94a0327b27f180b7a7fa21f31515eff20e468409a56067451197f8a0fe0.html",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://www.recht.bund.de/bgbl/1/2026/252/VO.html",
+    "checked_at": "2026-10-26T19:57:46.833Z",
+    "last_success_at": "2026-10-26T19:57:46.833Z",
+    "hash": "da5c3c61600bd9f706562203eaae3fe38106a9b84eb472586229386e9ee38e79",
+    "snapshot_key": "sources/dd0cda70a5654a0de777fef4ffe8d8e54bcf93c8d834aa768cd1cee0d715b72c/da5c3c61600bd9f706562203eaae3fe38106a9b84eb472586229386e9ee38e79.html",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://www.recht.bund.de/bgbl/1/2026/253/VO.html",
+    "checked_at": "2026-10-26T19:57:47.175Z",
+    "last_success_at": "2026-10-26T19:57:47.175Z",
+    "hash": "3353f79d8a451a76afa3370a123c6995e9f606fadc44a453b555aabf84595bec",
+    "snapshot_key": "sources/cedcfd47b1b35ed1d55ea5706fab8ae4cbb0a097c5b6c8e98b3f3137afb6d289/3353f79d8a451a76afa3370a123c6995e9f606fadc44a453b555aabf84595bec.html",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://www.recht.bund.de/bgbl/1/2026/254/VO.html",
+    "checked_at": "2026-10-26T19:57:47.516Z",
+    "last_success_at": "2026-10-26T19:57:47.516Z",
+    "hash": "41ebdfbf4266ad9e921bd0f83b7e5c2b3ae22957f073bcea14a47975e2ab0e1a",
+    "snapshot_key": "sources/6e3cecfde6fde6a852ca90a1ed4d5d30492edf32ad3e7df8691306560603beb2/41ebdfbf4266ad9e921bd0f83b7e5c2b3ae22957f073bcea14a47975e2ab0e1a.html",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://www.recht.bund.de/bgbl/1/2026/255/VO.html",
+    "checked_at": "2026-10-26T19:57:47.917Z",
+    "last_success_at": "2026-10-26T19:57:47.917Z",
+    "hash": "b3513b3eb09213a70e2d29a26cdde97a4f61a2372223fcf5d670050b45fab340",
+    "snapshot_key": "sources/7820a19e54b298c2171e234c491588ca5241a2decea56f7221e90a6918701cb1/b3513b3eb09213a70e2d29a26cdde97a4f61a2372223fcf5d670050b45fab340.html",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://www.recht.bund.de/bgbl/1/2026/256/VO.html",
+    "checked_at": "2026-10-26T19:57:48.218Z",
+    "last_success_at": "2026-10-26T19:57:48.218Z",
+    "hash": "61882496f2abdd8db21ea4cadbfd9251baf488d671398988ccfcce37ac8231fa",
+    "snapshot_key": "sources/e8f73d0cdf14552d9bff7372eaae824cad49f22129a15140bf1110d762bda597/61882496f2abdd8db21ea4cadbfd9251baf488d671398988ccfcce37ac8231fa.html",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://www.recht.bund.de/bgbl/1/2026/257/VO.html",
+    "checked_at": "2026-10-26T19:57:48.505Z",
+    "last_success_at": "2026-10-26T19:57:48.505Z",
+    "hash": "1e7dd0024bff1b75ef3743de3fb3ea3da3842b1a39655d170e52e2e4268b736b",
+    "snapshot_key": "sources/743f69c97398a2e0baac38d234e1bc9d2f24f2b01b04bfb55b0af69eb781183b/1e7dd0024bff1b75ef3743de3fb3ea3da3842b1a39655d170e52e2e4268b736b.html",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://www.recht.bund.de/bgbl/1/2026/258/VO.html",
+    "checked_at": "2026-10-26T19:57:48.839Z",
+    "last_success_at": "2026-10-26T19:57:48.839Z",
+    "hash": "825aa0773f8587a73090d63d76f1b42d9befa368af75cd2a373b309aba8505ba",
+    "snapshot_key": "sources/4cc5a57c6c8d821abc9afed2dbb294c2a79edeac9fa8409d94d899b2c5103283/825aa0773f8587a73090d63d76f1b42d9befa368af75cd2a373b309aba8505ba.html",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://www.recht.bund.de/bgbl/1/2026/259/VO.html",
+    "checked_at": "2026-10-26T19:57:49.149Z",
+    "last_success_at": "2026-10-26T19:57:49.149Z",
+    "hash": "36cee6fae8d02ea6bb3302245a43fbed23446a89c69e6462293bb79a63007163",
+    "snapshot_key": "sources/e0b633ebf5f8bc9ab96e3e466dfbca472ec0b91c18754e46662d9f0419818e91/36cee6fae8d02ea6bb3302245a43fbed23446a89c69e6462293bb79a63007163.html",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://www.recht.bund.de/bgbl/1/2026/260/VO.html",
+    "checked_at": "2026-10-26T19:57:49.438Z",
+    "last_success_at": "2026-10-26T19:57:49.438Z",
+    "hash": "eaf2da0d813e6e13d22b5a62b6cbf53cf5bca1f1420d6939178b9f28ff91a3e9",
+    "snapshot_key": "sources/f9777ef3b7436721bf7801d5855fe530a7645cef407798ea044a984a4518b6a2/eaf2da0d813e6e13d22b5a62b6cbf53cf5bca1f1420d6939178b9f28ff91a3e9.html",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://www.recht.bund.de/bgbl/1/2026/261/VO.html",
+    "checked_at": "2026-10-26T19:57:49.755Z",
+    "last_success_at": "2026-10-26T19:57:49.755Z",
+    "hash": "1227897ddad809ef5c19aec7440b97e0b168b501271cbe2baaf97d781878ef5e",
+    "snapshot_key": "sources/15604a903b7301d2a37a2360eba82b7b92bff3becd24b34bd815b72d8352be43/1227897ddad809ef5c19aec7440b97e0b168b501271cbe2baaf97d781878ef5e.html",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://www.recht.bund.de/bgbl/1/2026/262/VO.html",
+    "checked_at": "2026-10-26T19:57:50.336Z",
+    "last_success_at": "2026-10-26T19:57:50.336Z",
+    "hash": "4b11478104303088b3eb5e33b7e8aa4e06bc6c97c47a4ab32157ee5e101169f4",
+    "snapshot_key": "sources/3210c009c85af6dcd44d0cea9cf865bfb02cc59548db926bc87ac66f39531925/4b11478104303088b3eb5e33b7e8aa4e06bc6c97c47a4ab32157ee5e101169f4.html",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://www.recht.bund.de/bgbl/1/2026/263/VO.html",
+    "checked_at": "2026-10-26T19:57:50.713Z",
+    "last_success_at": "2026-10-26T19:57:50.713Z",
+    "hash": "e3e97dde3390d6e3c469ff5da085fd4f9978e64ce8d2e559b1afa3daa24ea0a8",
+    "snapshot_key": "sources/7c42d965cf310365ac27c61dd9c9400ac830f280cf21ace7b33051493dd8d5a1/e3e97dde3390d6e3c469ff5da085fd4f9978e64ce8d2e559b1afa3daa24ea0a8.html",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://www.recht.bund.de/bgbl/1/2026/264/VO.html",
+    "checked_at": "2026-10-26T19:57:50.861Z",
+    "last_success_at": "2026-10-26T19:57:50.861Z",
+    "hash": "2337c5d2ccc3554ccacd83157f730c7c7540fbe487804f84f32e4bec819858f6",
+    "snapshot_key": "sources/2223797132b5fdbd26ec9deb18f7457a96764c908beac96602e76a4e67c8d6ae/2337c5d2ccc3554ccacd83157f730c7c7540fbe487804f84f32e4bec819858f6.html",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://www.recht.bund.de/bgbl/1/2026/265/VO.html",
+    "checked_at": "2026-10-26T19:57:51.136Z",
+    "last_success_at": "2026-10-26T19:57:51.136Z",
+    "hash": "aa6959d35ad58d4ed5ec35641149bd9bbd3292d2368f079b15ad85ccd567577d",
+    "snapshot_key": "sources/2527a34d87de9dbabb730db83cfffd987fcf0de0810ffdeffb1226c20f709a10/aa6959d35ad58d4ed5ec35641149bd9bbd3292d2368f079b15ad85ccd567577d.html",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://www.recht.bund.de/bgbl/1/2026/266/VO.html",
+    "checked_at": "2026-10-26T19:57:51.422Z",
+    "last_success_at": "2026-10-26T19:57:51.422Z",
+    "hash": "d44a2012913fa28e77aa2b6a179dab82153de35583fdd871c0ff2cc29f7df4df",
+    "snapshot_key": "sources/1c7cbd9fe0b69081afc55e58f95dcfeffc588a776bdffe44132243ce93d1cb0f/d44a2012913fa28e77aa2b6a179dab82153de35583fdd871c0ff2cc29f7df4df.html",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://www.recht.bund.de/bgbl/1/2026/267/VO.html",
+    "checked_at": "2026-10-26T19:57:51.564Z",
+    "last_success_at": "2026-10-26T19:57:51.564Z",
+    "hash": "3d898a245231ba75fbcdf1d27874e493acdaff6333aeeabaaab4f99d08d92711",
+    "snapshot_key": "sources/6a4cdc65dd76f6f0efb318bab48d170d29c6d307fdacad99c5328b2228d183a5/3d898a245231ba75fbcdf1d27874e493acdaff6333aeeabaaab4f99d08d92711.html",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://www.recht.bund.de/bgbl/1/2026/268/VO.html",
+    "checked_at": "2026-10-26T19:57:51.697Z",
+    "last_success_at": "2026-10-26T19:57:51.697Z",
+    "hash": "47f925abb6c427be51c59cf230e4e3c3ac4d1861c1c73905c20f3453e8c7a370",
+    "snapshot_key": "sources/90900d5b375378ebc55bd20daf22333ecb84e1ddd13b1f17e7d2224f32aab3ee/47f925abb6c427be51c59cf230e4e3c3ac4d1861c1c73905c20f3453e8c7a370.html",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://www.recht.bund.de/bgbl/1/2026/269/VO.html",
+    "checked_at": "2026-10-26T19:57:51.978Z",
+    "last_success_at": "2026-10-26T19:57:51.978Z",
+    "hash": "13ef670a64b27174f19b367156e0b67c91b24a7a6df0647dcb4920bde336e1e5",
+    "snapshot_key": "sources/5d6aee457a57a2065be4483caa2282ec852c4318c192e09eb4f9ee5ba1d8c86c/13ef670a64b27174f19b367156e0b67c91b24a7a6df0647dcb4920bde336e1e5.html",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://www.recht.bund.de/bgbl/1/2026/270/VO.html",
+    "checked_at": "2026-10-26T19:57:52.114Z",
+    "last_success_at": "2026-10-26T19:57:52.114Z",
+    "hash": "6a77f9b0f68606faa103b95c99ce79fa611546c5762746eff271548143a5baa4",
+    "snapshot_key": "sources/7fbd698ab8243e3c20452a8d347a699a9a8c41146a6468cd8065fc34edda2128/6a77f9b0f68606faa103b95c99ce79fa611546c5762746eff271548143a5baa4.html",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://www.recht.bund.de/bgbl/1/2026/271/VO.html",
+    "checked_at": "2026-10-26T19:57:52.253Z",
+    "last_success_at": "2026-10-26T19:57:52.253Z",
+    "hash": "e584453a5b5ec5f0984db0f05359bcf7ed211283cca5fdbe22e0cbecda069224",
+    "snapshot_key": "sources/bf8f74c6028a10cfe9ca398100f3351f86ce2a6c9b4e595dca471d8872b17b7a/e584453a5b5ec5f0984db0f05359bcf7ed211283cca5fdbe22e0cbecda069224.html",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://www.recht.bund.de/bgbl/1/2026/272/VO.html",
+    "checked_at": "2026-10-26T19:57:52.538Z",
+    "last_success_at": "2026-10-26T19:57:52.538Z",
+    "hash": "3ee9424be8921b94e968d07256fc60e46421e43871d2ce1cc057f71ac85dd6ae",
+    "snapshot_key": "sources/6be41ea744b2a4eb1f005c7181e85d1fc488214c81e76dd06020452ffc55af4f/3ee9424be8921b94e968d07256fc60e46421e43871d2ce1cc057f71ac85dd6ae.html",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://www.recht.bund.de/bgbl/1/2026/273/VO.html",
+    "checked_at": "2026-10-26T19:57:52.822Z",
+    "last_success_at": "2026-10-26T19:57:52.822Z",
+    "hash": "11f165084b7cf333a698cd34cb39fd4641810a956fa107e0ee87a71791d89f26",
+    "snapshot_key": "sources/98d4f4caaed62ccf9f51b6d972193fbc86c94469dd350ee214a37d435cc3e5e1/11f165084b7cf333a698cd34cb39fd4641810a956fa107e0ee87a71791d89f26.html",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://www.recht.bund.de/bgbl/1/2026/274/VO.html",
+    "checked_at": "2026-10-26T19:57:53.101Z",
+    "last_success_at": "2026-10-26T19:57:53.101Z",
+    "hash": "8e5f50a69c1700ba0188c2b53358f661455f11950cb2e1552b80f4cf408d1af2",
+    "snapshot_key": "sources/0309fa227c24bf51e29c6ddffb90fe8006216d776c6399a1a4aeb12ec067bbc9/8e5f50a69c1700ba0188c2b53358f661455f11950cb2e1552b80f4cf408d1af2.html",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://www.recht.bund.de/bgbl/1/2026/275/VO.html",
+    "checked_at": "2026-10-26T19:57:53.389Z",
+    "last_success_at": "2026-10-26T19:57:53.389Z",
+    "hash": "7bd9a3310a95c10398df1c0a897c1f9eb8927a8eaaea03ee280b968ed869878a",
+    "snapshot_key": "sources/de2320cdfc67437312a32d156c426ef9b94e5beb23fe24ba7272878c42eb8656/7bd9a3310a95c10398df1c0a897c1f9eb8927a8eaaea03ee280b968ed869878a.html",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://www.recht.bund.de/bgbl/1/2026/276/VO.html",
+    "checked_at": "2026-10-26T19:57:53.532Z",
+    "last_success_at": "2026-10-26T19:57:53.532Z",
+    "hash": "98b5670fef790893544fdb85e4e365e362afa0bf6da0661669f1405b4e6fd86a",
+    "snapshot_key": "sources/826df872470e08339909588d6116c6dcc43ef817368146fed7bb7beee10ef456/98b5670fef790893544fdb85e4e365e362afa0bf6da0661669f1405b4e6fd86a.html",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://www.recht.bund.de/bgbl/1/2026/277/VO.html",
+    "checked_at": "2026-10-26T19:57:53.676Z",
+    "last_success_at": "2026-10-26T19:57:53.676Z",
+    "hash": "987fb5bbfdf526b34c5e15ac53cd09bbc706d45eaa4b1bd2c88101cbfc838647",
+    "snapshot_key": "sources/a94274402079f69926f3a989031604b19a1c45c795ee04846ae1b54e5446b40b/987fb5bbfdf526b34c5e15ac53cd09bbc706d45eaa4b1bd2c88101cbfc838647.html",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://www.recht.bund.de/bgbl/1/2026/278/VO.html",
+    "checked_at": "2026-10-26T19:57:53.968Z",
+    "last_success_at": "2026-10-26T19:57:53.968Z",
+    "hash": "cf2ffcb3eb81dae9ae7b1264c4b324c489d25c96b0f111aa86201f1a9b895941",
+    "snapshot_key": "sources/262a779a996d648e29d632866109f36ecfa06ae9c191f4afa5832154330eb234/cf2ffcb3eb81dae9ae7b1264c4b324c489d25c96b0f111aa86201f1a9b895941.html",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://www.recht.bund.de/bgbl/1/2026/279/VO.html",
+    "checked_at": "2026-10-26T19:57:54.105Z",
+    "last_success_at": "2026-10-26T19:57:54.105Z",
+    "hash": "52ad28aa190a81764f338746a23137619a89d7d9e4875e2e5926bc319cafe9e5",
+    "snapshot_key": "sources/d27514f251fab461289aeb563573ccedf5fa924bbbeb190bf2d507fadb5f2213/52ad28aa190a81764f338746a23137619a89d7d9e4875e2e5926bc319cafe9e5.html",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://www.recht.bund.de/bgbl/1/2026/280/VO.html",
+    "checked_at": "2026-10-26T19:57:54.243Z",
+    "last_success_at": "2026-10-26T19:57:54.243Z",
+    "hash": "9703bed8fb47124aa9a067e48bfc10af6076909a75e38b54c31fb014a38b3004",
+    "snapshot_key": "sources/c5ace98f669e6b52dcc6facf30757cc4c41df5b5f0dacca36c8bde93a572019e/9703bed8fb47124aa9a067e48bfc10af6076909a75e38b54c31fb014a38b3004.html",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://www.recht.bund.de/bgbl/1/2026/243/regelungstext.pdf?__blob=publicationFile&v=1",
+    "checked_at": "2026-10-26T19:58:23.074Z",
+    "last_success_at": "2026-10-26T19:58:23.074Z",
+    "hash": "081af2ca933fc573f84f903fa09b242efb509a440c7744e262c3c0908e9b8e72",
+    "snapshot_key": "sources/257934f7981fd9e822cbc0797a149d14b856fa63c4c51d94679167da03205ef0/081af2ca933fc573f84f903fa09b242efb509a440c7744e262c3c0908e9b8e72.pdf",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://www.recht.bund.de/bgbl/1/2026/244/regelungstext.pdf?__blob=publicationFile&v=1",
+    "checked_at": "2026-10-26T19:58:23.270Z",
+    "last_success_at": "2026-10-26T19:58:23.270Z",
+    "hash": "de981c7c6981937dd16be3a161496825f25f50f75055f09d58e6df2747ae013e",
+    "snapshot_key": "sources/614df33696dc840619001f44632e6a2d924e15faa99df12834151c639bff9cc3/de981c7c6981937dd16be3a161496825f25f50f75055f09d58e6df2747ae013e.pdf",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://www.recht.bund.de/bgbl/1/2026/245/regelungstext.pdf?__blob=publicationFile&v=1",
+    "checked_at": "2026-10-26T19:58:23.442Z",
+    "last_success_at": "2026-10-26T19:58:23.442Z",
+    "hash": "728bb17e5508a4f6626003b906aa1ed0403f51a65bee592519637e1d6d96eb27",
+    "snapshot_key": "sources/17753a37f39d5b2e761df3708fd7b8d918c1e09dad395b65828ffe79f7aaeac9/728bb17e5508a4f6626003b906aa1ed0403f51a65bee592519637e1d6d96eb27.pdf",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://www.recht.bund.de/bgbl/1/2026/246/regelungstext.pdf?__blob=publicationFile&v=1",
+    "checked_at": "2026-10-26T19:58:23.612Z",
+    "last_success_at": "2026-10-26T19:58:23.612Z",
+    "hash": "6e21a432a38f6039a5fba9aa0759cfb5cdc150feec6fe2f573ab380c75cb3ddf",
+    "snapshot_key": "sources/8719ce7387b26710c32508d7417d98951389e844b6e3fdcffe669e43dcb4e67a/6e21a432a38f6039a5fba9aa0759cfb5cdc150feec6fe2f573ab380c75cb3ddf.pdf",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://www.recht.bund.de/bgbl/1/2026/247/regelungstext.pdf?__blob=publicationFile&v=1",
+    "checked_at": "2026-10-26T19:58:23.814Z",
+    "last_success_at": "2026-10-26T19:58:23.814Z",
+    "hash": "1bce1b2cc30047c2efb750c20e1f6551b0cee6f83528f6961f5c0e6f2decb8e5",
+    "snapshot_key": "sources/442c03178c61876db36952191e3cd1b58c0c1d97efee584fd660f86b6952ede5/1bce1b2cc30047c2efb750c20e1f6551b0cee6f83528f6961f5c0e6f2decb8e5.pdf",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://www.recht.bund.de/bgbl/1/2026/248/regelungstext.pdf?__blob=publicationFile&v=1",
+    "checked_at": "2026-10-26T19:58:24.023Z",
+    "last_success_at": "2026-10-26T19:58:24.023Z",
+    "hash": "41b744ff9148ed57da143f0786fe7d971a7a79a787f60ef2cb529ad6df381417",
+    "snapshot_key": "sources/20b6e9b596570126e871f40703fefddc160eecb6de009a5f16b9e1764afc8761/41b744ff9148ed57da143f0786fe7d971a7a79a787f60ef2cb529ad6df381417.pdf",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://www.recht.bund.de/bgbl/1/2026/249/regelungstext.pdf?__blob=publicationFile&v=1",
+    "checked_at": "2026-10-26T19:58:24.248Z",
+    "last_success_at": "2026-10-26T19:58:24.248Z",
+    "hash": "72a8bea8f3b111e4c0a0aa72133e074605240402b7f5538d18dc8d7cd018aaf1",
+    "snapshot_key": "sources/40efd65338af42af16efc582c31ccf710a08080bc42f0849a53859db4177278e/72a8bea8f3b111e4c0a0aa72133e074605240402b7f5538d18dc8d7cd018aaf1.pdf",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://www.recht.bund.de/bgbl/1/2026/250/regelungstext.pdf?__blob=publicationFile&v=1",
+    "checked_at": "2026-10-26T19:58:24.439Z",
+    "last_success_at": "2026-10-26T19:58:24.439Z",
+    "hash": "d3b5e42c40c8eeaf3ef0f83e56fb9e816c5c9952fa9968a28ee0d3507d20eef0",
+    "snapshot_key": "sources/218ae1e1aec835455a941b4f295cd33b5f8cf897d3d4ab135e897069de6c5d36/d3b5e42c40c8eeaf3ef0f83e56fb9e816c5c9952fa9968a28ee0d3507d20eef0.pdf",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://www.recht.bund.de/bgbl/1/2026/251/regelungstext.pdf?__blob=publicationFile&v=1",
+    "checked_at": "2026-10-26T19:58:24.642Z",
+    "last_success_at": "2026-10-26T19:58:24.642Z",
+    "hash": "e0c054676ced200b4cafdcd895fdebf475c56022ad2baef21168245624ccebce",
+    "snapshot_key": "sources/be115f365acb44354247188eca18b7ccc46ad582f9ac0e5361d8e5a13f9d25b7/e0c054676ced200b4cafdcd895fdebf475c56022ad2baef21168245624ccebce.pdf",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://www.recht.bund.de/bgbl/1/2026/252/regelungstext.pdf?__blob=publicationFile&v=1",
+    "checked_at": "2026-10-26T19:58:24.858Z",
+    "last_success_at": "2026-10-26T19:58:24.858Z",
+    "hash": "9f63891bbbf2ba2f2b41a3ae25ace48ab9c24acae261ed85a59a0fbea916d881",
+    "snapshot_key": "sources/0c79722bb394324a145134a00473ac17509e24d1ea3f1c28651b8e92b1d50bfc/9f63891bbbf2ba2f2b41a3ae25ace48ab9c24acae261ed85a59a0fbea916d881.pdf",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://www.recht.bund.de/bgbl/1/2026/253/regelungstext.pdf?__blob=publicationFile&v=1",
+    "checked_at": "2026-10-26T19:58:25.081Z",
+    "last_success_at": "2026-10-26T19:58:25.081Z",
+    "hash": "d7f8f4c6435e59f93b2d0c293e52557badb7aae671aaedf44a18ec77ee15fe2b",
+    "snapshot_key": "sources/0b64a95621a97ba9c2bc97acf47ffc1251e72d04dff2e48257a672752c5071b4/d7f8f4c6435e59f93b2d0c293e52557badb7aae671aaedf44a18ec77ee15fe2b.pdf",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://www.recht.bund.de/bgbl/1/2026/254/regelungstext.pdf?__blob=publicationFile&v=1",
+    "checked_at": "2026-10-26T19:58:25.298Z",
+    "last_success_at": "2026-10-26T19:58:25.298Z",
+    "hash": "d27f0b0f6c9fe9ddd6e6ebcfcc0f8a9cca48e44327739d88d3062c1ee7804dde",
+    "snapshot_key": "sources/6de1bd931dafd49a7f480109b5ae634a3158358c58cb4845b92d9d3af519e06a/d27f0b0f6c9fe9ddd6e6ebcfcc0f8a9cca48e44327739d88d3062c1ee7804dde.pdf",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://www.recht.bund.de/bgbl/1/2026/255/regelungstext.pdf?__blob=publicationFile&v=1",
+    "checked_at": "2026-10-26T19:58:25.501Z",
+    "last_success_at": "2026-10-26T19:58:25.501Z",
+    "hash": "dc08c003dd8b29bd70b30c763625bbabd8e4a527b77e3cdb51567dbd8aa33170",
+    "snapshot_key": "sources/cfc59bb5a858745940e7bf13f6d51d55967cbd54be6c37efe73adff47210b032/dc08c003dd8b29bd70b30c763625bbabd8e4a527b77e3cdb51567dbd8aa33170.pdf",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://www.recht.bund.de/bgbl/1/2026/256/regelungstext.pdf?__blob=publicationFile&v=1",
+    "checked_at": "2026-10-26T19:58:25.713Z",
+    "last_success_at": "2026-10-26T19:58:25.713Z",
+    "hash": "6718b671e644c18f20b53851a7b954cd0ed7b014b0dee220633031b7289aa596",
+    "snapshot_key": "sources/bd9548d90e13dbdd1d6fa43b3244788b1c0b317407c0f83617aae67412630439/6718b671e644c18f20b53851a7b954cd0ed7b014b0dee220633031b7289aa596.pdf",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://www.recht.bund.de/bgbl/1/2026/257/regelungstext.pdf?__blob=publicationFile&v=1",
+    "checked_at": "2026-10-26T19:58:25.934Z",
+    "last_success_at": "2026-10-26T19:58:25.934Z",
+    "hash": "3fe60ae78f528af787a6891cd41ef823b9faf6e80b0a8c1163234fafe40bc129",
+    "snapshot_key": "sources/3461d8ca960a9a81d0d18d086036164c650471ab00fca2d47a7a3b68f0bb2b7b/3fe60ae78f528af787a6891cd41ef823b9faf6e80b0a8c1163234fafe40bc129.pdf",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://www.recht.bund.de/bgbl/1/2026/258/regelungstext.pdf?__blob=publicationFile&v=1",
+    "checked_at": "2026-10-26T19:58:26.139Z",
+    "last_success_at": "2026-10-26T19:58:26.139Z",
+    "hash": "08e034403098348969ddc3c14b6136261032465cf399950f1152cca25150b64b",
+    "snapshot_key": "sources/32c1270bd520b033f11e093dc709b7df6058aa778fa262d0f6d5c34fcb54b29a/08e034403098348969ddc3c14b6136261032465cf399950f1152cca25150b64b.pdf",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://www.recht.bund.de/bgbl/1/2026/259/regelungstext.pdf?__blob=publicationFile&v=1",
+    "checked_at": "2026-10-26T19:58:26.357Z",
+    "last_success_at": "2026-10-26T19:58:26.357Z",
+    "hash": "087e398a74f9683c62e5bbbac7fa2a32a850d43e427367ed7867b2351567532e",
+    "snapshot_key": "sources/e0e32ccd08b7a558d8fb7ad42078fd1084cbb0f87e5678d6a38f41c63f5c0e83/087e398a74f9683c62e5bbbac7fa2a32a850d43e427367ed7867b2351567532e.pdf",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://www.recht.bund.de/bgbl/1/2026/260/regelungstext.pdf?__blob=publicationFile&v=1",
+    "checked_at": "2026-10-26T19:58:26.584Z",
+    "last_success_at": "2026-10-26T19:58:26.584Z",
+    "hash": "a03799f63aa6d1ae69c2ed0f02991755a7260adf4ea9b6ee73d068adc8c1e3f6",
+    "snapshot_key": "sources/71a5d5eebea73d9d8a1b0e81e1d534fdda8ca1dfcc1186ef9b95b177fef75f74/a03799f63aa6d1ae69c2ed0f02991755a7260adf4ea9b6ee73d068adc8c1e3f6.pdf",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://www.recht.bund.de/bgbl/1/2026/261/regelungstext.pdf?__blob=publicationFile&v=1",
+    "checked_at": "2026-10-26T19:58:26.820Z",
+    "last_success_at": "2026-10-26T19:58:26.820Z",
+    "hash": "d89a7539b8ab55dc2f99ecb5352310f91c23b6bcaf55bf8142e5ff52b6688f1d",
+    "snapshot_key": "sources/acf9634b9259e252c0ff565f16a1cd3dfc6447220d3a96d7fb7ada7e9df8cf33/d89a7539b8ab55dc2f99ecb5352310f91c23b6bcaf55bf8142e5ff52b6688f1d.pdf",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://www.recht.bund.de/bgbl/1/2026/262/regelungstext.pdf?__blob=publicationFile&v=1",
+    "checked_at": "2026-10-26T19:58:27.068Z",
+    "last_success_at": "2026-10-26T19:58:27.068Z",
+    "hash": "a853dd0b5bb749ff1e2c7b59b1f5b363e75505968db112bd2f19449c8fd40b55",
+    "snapshot_key": "sources/89fbbe9ccbc57200be5aabd3ae043278de0241117959d28e778c691709b13df1/a853dd0b5bb749ff1e2c7b59b1f5b363e75505968db112bd2f19449c8fd40b55.pdf",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://www.recht.bund.de/bgbl/1/2026/263/regelungstext.pdf?__blob=publicationFile&v=1",
+    "checked_at": "2026-10-26T19:58:27.264Z",
+    "last_success_at": "2026-10-26T19:58:27.264Z",
+    "hash": "b6ae201a6a049a22a370da941bcab7e34a860dc560d01d679a942c3dce04d925",
+    "snapshot_key": "sources/fb105316bccf95f220bde42b0e7a516249ffbe4e6b2d30fb9667b39c3a2c478c/b6ae201a6a049a22a370da941bcab7e34a860dc560d01d679a942c3dce04d925.pdf",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://www.recht.bund.de/bgbl/1/2026/264/regelungstext.pdf?__blob=publicationFile&v=1",
+    "checked_at": "2026-10-26T19:58:27.487Z",
+    "last_success_at": "2026-10-26T19:58:27.487Z",
+    "hash": "17c5f8979ac006bd67224333d4852f2558d2f9f0dee8c3c3878d0a7052fc5950",
+    "snapshot_key": "sources/02f7f3c8c440c1d19c235d26b36ee3b0e36d84124117dbebe4fa76cb125df6b7/17c5f8979ac006bd67224333d4852f2558d2f9f0dee8c3c3878d0a7052fc5950.pdf",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://www.recht.bund.de/bgbl/1/2026/265/regelungstext.pdf?__blob=publicationFile&v=1",
+    "checked_at": "2026-10-26T19:58:27.704Z",
+    "last_success_at": "2026-10-26T19:58:27.704Z",
+    "hash": "5a2df20dbfc38c2e4e27f84883627bc6c019e6076876e23f38009d620afb682f",
+    "snapshot_key": "sources/644dd9acb6d0e3757227d69ca4d22dfdcaeb20efe717369ac69aac245e5c602a/5a2df20dbfc38c2e4e27f84883627bc6c019e6076876e23f38009d620afb682f.pdf",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://www.recht.bund.de/bgbl/1/2026/266/regelungstext.pdf?__blob=publicationFile&v=1",
+    "checked_at": "2026-10-26T19:58:27.906Z",
+    "last_success_at": "2026-10-26T19:58:27.906Z",
+    "hash": "99c86dd3373dcd6364c4a59013cfece17c20238dc6a61ab1efdba04825754da0",
+    "snapshot_key": "sources/2c0d7e750132500d48ed0f51244261fab3893617f836fb5013de8655c4310c2b/99c86dd3373dcd6364c4a59013cfece17c20238dc6a61ab1efdba04825754da0.pdf",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://www.recht.bund.de/bgbl/1/2026/267/regelungstext.pdf?__blob=publicationFile&v=1",
+    "checked_at": "2026-10-26T19:58:28.154Z",
+    "last_success_at": "2026-10-26T19:58:28.154Z",
+    "hash": "370a37e7a2953dd94cbe55af20314816ea9719cd2b85a8f68641ed6232cd15f4",
+    "snapshot_key": "sources/8ec456b5c2c977c8ded4cbf659a6f1479ff451c16050972f989bddbc13ee44f9/370a37e7a2953dd94cbe55af20314816ea9719cd2b85a8f68641ed6232cd15f4.pdf",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://www.recht.bund.de/bgbl/1/2026/268/regelungstext.pdf?__blob=publicationFile&v=1",
+    "checked_at": "2026-10-26T19:58:28.342Z",
+    "last_success_at": "2026-10-26T19:58:28.342Z",
+    "hash": "480604c178b61d5f2cb5abd1ea4f24a7dfa7fdfbaac7a5b8d27016b628754fe6",
+    "snapshot_key": "sources/5e31156062eea688a4d9490dd151fdda46e8186e185ef4aa8efac137cb1554fa/480604c178b61d5f2cb5abd1ea4f24a7dfa7fdfbaac7a5b8d27016b628754fe6.pdf",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://www.recht.bund.de/bgbl/1/2026/269/regelungstext.pdf?__blob=publicationFile&v=1",
+    "checked_at": "2026-10-26T19:58:28.577Z",
+    "last_success_at": "2026-10-26T19:58:28.577Z",
+    "hash": "65bb5243b47a2470c14945c939d4f978af09e0453b60409c3fdb9ebacc0b935c",
+    "snapshot_key": "sources/f54635d61407b83a2a279db81b4d2975c3bb9cf803c038c89f9abee867beae91/65bb5243b47a2470c14945c939d4f978af09e0453b60409c3fdb9ebacc0b935c.pdf",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://www.recht.bund.de/bgbl/1/2026/270/regelungstext.pdf?__blob=publicationFile&v=1",
+    "checked_at": "2026-10-26T19:58:28.825Z",
+    "last_success_at": "2026-10-26T19:58:28.825Z",
+    "hash": "8a0c3c63fa2582abed22fba549ac555a6d4a12ca186daacb0777ea32864cb946",
+    "snapshot_key": "sources/f54de30ef8f09c8641ba9b0f7f84c4106d03ce599c39465541b7aaf68606665a/8a0c3c63fa2582abed22fba549ac555a6d4a12ca186daacb0777ea32864cb946.pdf",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://www.recht.bund.de/bgbl/1/2026/271/regelungstext.pdf?__blob=publicationFile&v=1",
+    "checked_at": "2026-10-26T19:58:29.038Z",
+    "last_success_at": "2026-10-26T19:58:29.038Z",
+    "hash": "5d1bb32375e3917d901e5bc0934c8bbd1f2bac730f021437501127f0be43f4d1",
+    "snapshot_key": "sources/107812ba89fc5a36dc815eaeacfeb9c96b5631c8c46cb8f0c3aea0e28eb5835b/5d1bb32375e3917d901e5bc0934c8bbd1f2bac730f021437501127f0be43f4d1.pdf",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://www.recht.bund.de/bgbl/1/2026/272/regelungstext.pdf?__blob=publicationFile&v=1",
+    "checked_at": "2026-10-26T19:58:29.266Z",
+    "last_success_at": "2026-10-26T19:58:29.266Z",
+    "hash": "a67c7690de5dd855d63aa1bf9e0169ff7170c975b275ead430c13cbaff918c92",
+    "snapshot_key": "sources/513190ee64d8cb531bb0eb132f725d070aeed57a8fa80d57d97bc532e304b9f2/a67c7690de5dd855d63aa1bf9e0169ff7170c975b275ead430c13cbaff918c92.pdf",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://www.recht.bund.de/bgbl/1/2026/273/regelungstext.pdf?__blob=publicationFile&v=1",
+    "checked_at": "2026-10-26T19:58:29.490Z",
+    "last_success_at": "2026-10-26T19:58:29.490Z",
+    "hash": "3ac182a4f360bb21d8d50455a08c0fa77ded8690dab1da0c2915204ba009613f",
+    "snapshot_key": "sources/cb5903f71e2a1de5cf551e56cd59366e59e876365357c55b5d44808e163f2c84/3ac182a4f360bb21d8d50455a08c0fa77ded8690dab1da0c2915204ba009613f.pdf",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://www.recht.bund.de/bgbl/1/2026/274/regelungstext.pdf?__blob=publicationFile&v=1",
+    "checked_at": "2026-10-26T19:58:29.743Z",
+    "last_success_at": "2026-10-26T19:58:29.743Z",
+    "hash": "4f74248905e9cb2fcea5e4600bcb50ca3868373dceddae9fa2ab41de630dcc60",
+    "snapshot_key": "sources/5fce1ff17e2327a2f1bf3be8e752b0bddac022bd1bc9b13b54f8c7e9ca0dbd97/4f74248905e9cb2fcea5e4600bcb50ca3868373dceddae9fa2ab41de630dcc60.pdf",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://www.recht.bund.de/bgbl/1/2026/275/regelungstext.pdf?__blob=publicationFile&v=1",
+    "checked_at": "2026-10-26T19:58:29.972Z",
+    "last_success_at": "2026-10-26T19:58:29.972Z",
+    "hash": "071111b7ef88b1b59b56a1a462dbf45497ade657b2b06c9acbb8e065d0ffba10",
+    "snapshot_key": "sources/4f1f6adfb1fddb314a6a98d84135ce7f6561f6729460c03401bbbd4a8a70a5f2/071111b7ef88b1b59b56a1a462dbf45497ade657b2b06c9acbb8e065d0ffba10.pdf",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://www.recht.bund.de/bgbl/1/2026/276/regelungstext.pdf?__blob=publicationFile&v=1",
+    "checked_at": "2026-10-26T19:58:30.300Z",
+    "last_success_at": "2026-10-26T19:58:30.300Z",
+    "hash": "f3145c36ac3cdddf0a1b49e9ddda53d9fadcc2c14f08fb3fabf3331b5f391f38",
+    "snapshot_key": "sources/54ba7db5275b91beb5aa376bd374b1c6b39a6c7607989c5c1d61c84e81496509/f3145c36ac3cdddf0a1b49e9ddda53d9fadcc2c14f08fb3fabf3331b5f391f38.pdf",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://www.recht.bund.de/bgbl/1/2026/277/regelungstext.pdf?__blob=publicationFile&v=1",
+    "checked_at": "2026-10-26T19:58:30.483Z",
+    "last_success_at": "2026-10-26T19:58:30.483Z",
+    "hash": "e03b4f72591181e850178c1be479da3ef1086a28724e4ff2631ff38cf42c037d",
+    "snapshot_key": "sources/dfc05982d04398c7e81a883f60c2cf16d3217a735052178f68fea4b9692dc498/e03b4f72591181e850178c1be479da3ef1086a28724e4ff2631ff38cf42c037d.pdf",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://www.recht.bund.de/bgbl/1/2026/278/regelungstext.pdf?__blob=publicationFile&v=1",
+    "checked_at": "2026-10-26T19:58:30.729Z",
+    "last_success_at": "2026-10-26T19:58:30.729Z",
+    "hash": "906a33a8c3e2c177eb4063209335b6f82cf25461c8262f3aad4638105758677b",
+    "snapshot_key": "sources/9675186649f0a1a363e69a462a23c6d519fd6a99c85a3a1816b5ad351a405f3f/906a33a8c3e2c177eb4063209335b6f82cf25461c8262f3aad4638105758677b.pdf",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://www.recht.bund.de/bgbl/1/2026/279/regelungstext.pdf?__blob=publicationFile&v=1",
+    "checked_at": "2026-10-26T19:58:30.946Z",
+    "last_success_at": "2026-10-26T19:58:30.946Z",
+    "hash": "320777fa804fd51f05b86fe767432e65f098a1dc806406b18419f2c010f7e994",
+    "snapshot_key": "sources/719fe988aca96d105f9858a35c35c5ac0cc7431e56e2a0afd744e245c721ffc3/320777fa804fd51f05b86fe767432e65f098a1dc806406b18419f2c010f7e994.pdf",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://www.recht.bund.de/bgbl/1/2026/280/regelungstext.pdf?__blob=publicationFile&v=1",
+    "checked_at": "2026-10-26T19:58:31.183Z",
+    "last_success_at": "2026-10-26T19:58:31.183Z",
+    "hash": "e4216081093e55b244035e86e038c19da3d5dc5c23593927b5360514f942e834",
+    "snapshot_key": "sources/49737cc8ebb5c0f7f8e1cd5f8bbb738c988a503c467c8f0a8d9132c005f4ae0f/e4216081093e55b244035e86e038c19da3d5dc5c23593927b5360514f942e834.pdf",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://www.recht.bund.de/bgbl/1/2026/281/regelungstext.pdf?__blob=publicationFile&v=1",
+    "checked_at": "2026-10-26T19:58:31.492Z",
+    "last_success_at": "2026-10-26T19:58:31.492Z",
+    "hash": "c0d19e858b1f56794f15d53cf556c5b9cfacb58f08c12cd7fd75be86d1b9cda0",
+    "snapshot_key": "sources/a6104d4cc9ac84e1d224d487c49c82ceade1260e9911dd792624bf5d2c5bd031/c0d19e858b1f56794f15d53cf556c5b9cfacb58f08c12cd7fd75be86d1b9cda0.pdf",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://www.gesetze-im-internet.de/apobetro_1987/__23.html",
+    "checked_at": "2026-10-26T20:00:18.776Z",
+    "last_success_at": "2026-10-26T20:00:18.776Z",
+    "hash": "749f25898923e6a1bfc01ad3933b5a4c1f7de95dc20b7d78ef7e5bfb7509e749",
+    "snapshot_key": "sources/92fb18ca457f6ac2cc73edc9d55d19ba379f8d8504357cbea18f7568ade1de29/749f25898923e6a1bfc01ad3933b5a4c1f7de95dc20b7d78ef7e5bfb7509e749.html",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://www.gesetze-im-internet.de/amg_1976/__48a.html",
+    "checked_at": "2026-10-26T20:00:18.915Z",
+    "last_success_at": "2026-10-26T20:00:18.915Z",
+    "hash": "5a9f389301246dcbfffac1a95f1ad0e022e1d6967383f44547edb94614d3d280",
+    "snapshot_key": "sources/5f292135a7f50f01c4c84d62353496d6276787397cf06c0dd7d96795dc2a769d/5a9f389301246dcbfffac1a95f1ad0e022e1d6967383f44547edb94614d3d280.html",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://www.gesetze-im-internet.de/amg_1976/__48b.html",
+    "checked_at": "2026-10-26T20:00:19.033Z",
+    "last_success_at": "2026-10-26T20:00:19.033Z",
+    "hash": "08282cf8cd0f4ba7ba44ffc79f958e1f335eae4630427b7acfd19114189cd67c",
+    "snapshot_key": "sources/40e3608124cc7c96dfed7a6816efc0497acc3b3c79075065bbeee0c37e42c4c4/08282cf8cd0f4ba7ba44ffc79f958e1f335eae4630427b7acfd19114189cd67c.html",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://www.gesetze-im-internet.de/apobetro_1987/__17.html",
+    "checked_at": "2026-10-26T20:00:19.149Z",
+    "last_success_at": "2026-10-26T20:00:19.149Z",
+    "hash": "20369e4dbcfeabb3967e4864d1fa6f25c54aba9986b73beb9571cbcf46857bb0",
+    "snapshot_key": "sources/4e9ea84d23f139d5d6a66adf51ceeeea2a96075595330c87b5374085d506e559/20369e4dbcfeabb3967e4864d1fa6f25c54aba9986b73beb9571cbcf46857bb0.html",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://www.bundesrat.de/SharedDocs/TO/1070/tagesordnung-1070.html",
+    "checked_at": "2026-10-26T20:01:28.618Z",
+    "last_success_at": null,
+    "hash": null,
+    "snapshot_key": null,
+    "changed": 0,
+    "error": "HTTP 404"
+  },
+  {
+    "url": "https://www.esma.europa.eu/press-news/esma-news",
+    "checked_at": "2026-10-26T20:01:28.760Z",
+    "last_success_at": "2026-10-26T20:01:28.760Z",
+    "hash": "5869a9925a049cbd34295f3caa5cd3c421809c1a13dc04db96f5d0eae9916e92",
+    "snapshot_key": "sources/ff7660a8a4b39083fed37c291e0e609dc2e4805f560b3acc761b1a2b876b0726/5869a9925a049cbd34295f3caa5cd3c421809c1a13dc04db96f5d0eae9916e92.html",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://publications.europa.eu/resource/cellar/36a5b97b-b879-11f1-81de-01aa75ed71a1.0006.03/DOC_1",
+    "checked_at": "2026-10-26T20:06:43.354Z",
+    "last_success_at": "2026-10-26T20:06:43.354Z",
+    "hash": "4b158151502649f0327f40a01b838b70cbfc314584aeb346d6d43e7b475bdbae",
+    "snapshot_key": "sources/35471d16c9038dbb18c774c58c610e5b11ef974db2407cad68c9f01a0d49ec7a/4b158151502649f0327f40a01b838b70cbfc314584aeb346d6d43e7b475bdbae.html",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://publications.europa.eu/resource/cellar/956e58c0-b805-11f1-81de-01aa75ed71a1.0006.03/DOC_1",
+    "checked_at": "2026-10-26T20:06:43.846Z",
+    "last_success_at": "2026-10-26T20:06:43.846Z",
+    "hash": "6d9fc12a74b43725763d183f9233de2beec3467279b51ea8fae9eadb43a54912",
+    "snapshot_key": "sources/67e5355a3cea0b4a97a41870cc5ccbbc5cd5bfbf5518253f4775bea611ee70aa/6d9fc12a74b43725763d183f9233de2beec3467279b51ea8fae9eadb43a54912.html",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://publications.europa.eu/resource/cellar/9b55e1e2-b805-11f1-81de-01aa75ed71a1.0006.03/DOC_1",
+    "checked_at": "2026-10-26T20:06:44.335Z",
+    "last_success_at": "2026-10-26T20:06:44.335Z",
+    "hash": "74b2c85a47c0e23e88e3ffa7c66196395ad5af36974a0aa4d617ec6ddcdb421d",
+    "snapshot_key": "sources/5a2428752356dd1a757e0fecec27d900f42347298b1dfb25d62158a5971b99f5/74b2c85a47c0e23e88e3ffa7c66196395ad5af36974a0aa4d617ec6ddcdb421d.html",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://publications.europa.eu/resource/cellar/2c6554b9-bb1d-11f1-81de-01aa75ed71a1.0006.03/DOC_1",
+    "checked_at": "2026-10-26T20:06:44.804Z",
+    "last_success_at": "2026-10-26T20:06:44.804Z",
+    "hash": "6166c034ec5b1a89063037dd4c95a22fa7a53475d6df2451dfa8f2ba7963480d",
+    "snapshot_key": "sources/d80370c123627111103bbabb291c0e6e98aad4537ad11de27123f4946b57ab4b/6166c034ec5b1a89063037dd4c95a22fa7a53475d6df2451dfa8f2ba7963480d.html",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://publications.europa.eu/resource/cellar/3a9c182b-bb1d-11f1-81de-01aa75ed71a1.0006.03/DOC_1",
+    "checked_at": "2026-10-26T20:06:45.288Z",
+    "last_success_at": "2026-10-26T20:06:45.288Z",
+    "hash": "ad20c8167c51541a9fbc7a3b798256440798336a21aa84de03be77787362fd45",
+    "snapshot_key": "sources/18ae56ddbf98141646055c05b2565f208eb7e1c9a1f0c73c8ac4d44cb529a34b/ad20c8167c51541a9fbc7a3b798256440798336a21aa84de03be77787362fd45.html",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://publications.europa.eu/resource/cellar/158aa745-bb1d-11f1-81de-01aa75ed71a1.0006.03/DOC_1",
+    "checked_at": "2026-10-26T20:06:45.756Z",
+    "last_success_at": "2026-10-26T20:06:45.756Z",
+    "hash": "8f594eda6528891131931276f33ddf16b045d2bf4067f93237ea13b6a6a86f34",
+    "snapshot_key": "sources/f3bafe829589e23fd8ea89be7d484357b66b65750bbe1e35194d834b4844cc41/8f594eda6528891131931276f33ddf16b045d2bf4067f93237ea13b6a6a86f34.html",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://publications.europa.eu/resource/cellar/1d158027-bb1d-11f1-81de-01aa75ed71a1.0006.03/DOC_1",
+    "checked_at": "2026-10-26T20:06:46.200Z",
+    "last_success_at": "2026-10-26T20:06:46.200Z",
+    "hash": "0cb62295d6bb9bac439729455efe6f0ef94d58517c2a8a388473e6fbd4efa942",
+    "snapshot_key": "sources/98ff080576a50fc04d86d15a932aa099dd8103b83b4f4e35f9e8ffc5fc5ebc7c/0cb62295d6bb9bac439729455efe6f0ef94d58517c2a8a388473e6fbd4efa942.html",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://publications.europa.eu/resource/cellar/48ba5a36-d0e0-11f1-9458-01aa75ed71a1.0006.03/DOC_1",
+    "checked_at": "2026-10-26T20:06:46.660Z",
+    "last_success_at": "2026-10-26T20:06:46.660Z",
+    "hash": "5188a5abb26c16ebf5c962db34fe0d8486c622820ad7bc1092a72c4b64bc81c0",
+    "snapshot_key": "sources/ad4abc8fd82ff460c709183b9774b74f10d8150cb9128f296396b434ace6ca06/5188a5abb26c16ebf5c962db34fe0d8486c622820ad7bc1092a72c4b64bc81c0.html",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://publications.europa.eu/resource/cellar/f3a139f6-d0df-11f1-9458-01aa75ed71a1.0006.03/DOC_1",
+    "checked_at": "2026-10-26T20:06:47.121Z",
+    "last_success_at": "2026-10-26T20:06:47.121Z",
+    "hash": "76998c03b78efb6c435f776f4e24959e8f79501d5f250fc30b8cb0c6c708621c",
+    "snapshot_key": "sources/ee0c5733b24386ef653d334974cc2956fb2f83dfd1b840bd18e1bcdc4bb6d115/76998c03b78efb6c435f776f4e24959e8f79501d5f250fc30b8cb0c6c708621c.html",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://publications.europa.eu/resource/cellar/58017162-b7b1-11f1-81de-01aa75ed71a1.0006.03/DOC_1",
+    "checked_at": "2026-10-26T20:06:47.616Z",
+    "last_success_at": "2026-10-26T20:06:47.616Z",
+    "hash": "09a949647b5e6c92c3ead8ef74f39ab09867b42bd630ffa16828852df52d5b3c",
+    "snapshot_key": "sources/397a209292bee4199bfffa5a7b10d0f217e031376418c0e3c046fa1c5b017a0d/09a949647b5e6c92c3ead8ef74f39ab09867b42bd630ffa16828852df52d5b3c.html",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://publications.europa.eu/resource/cellar/ca281f5b-b7b0-11f1-81de-01aa75ed71a1.0006.03/DOC_1",
+    "checked_at": "2026-10-26T20:06:48.100Z",
+    "last_success_at": "2026-10-26T20:06:48.100Z",
+    "hash": "8a1122ee102f95428facda82e01445b5e11bee42c77475cf0c7561398ec6bed6",
+    "snapshot_key": "sources/2efbf34abd5a84850c8615103582f6547d80a20576d56bfe655aef91ccfc92d4/8a1122ee102f95428facda82e01445b5e11bee42c77475cf0c7561398ec6bed6.html",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://publications.europa.eu/resource/cellar/fd7a58e3-bad5-11f1-81de-01aa75ed71a1.0006.03/DOC_1",
+    "checked_at": "2026-10-26T20:06:48.601Z",
+    "last_success_at": "2026-10-26T20:06:48.601Z",
+    "hash": "983b9c1e48a98b4e038ec0b28e10c7fc61635c82f17eac5a1eaa7bfb7fe93201",
+    "snapshot_key": "sources/fc1aecdc0c90174f653ba247deeb2131a042676a49cedf45aff2e5a3c75c742e/983b9c1e48a98b4e038ec0b28e10c7fc61635c82f17eac5a1eaa7bfb7fe93201.html",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://www.gesetze-im-internet.de/stvg/__8.html",
+    "checked_at": "2026-10-26T20:07:54.874Z",
+    "last_success_at": "2026-10-26T20:07:54.874Z",
+    "hash": "4dd00abe98f0d26ce9183817fbb7ca2712755f28f1b13e0b9eb75b63d72b01e3",
+    "snapshot_key": "sources/6592d046e3491c1b7f59b6f7788e8de912319fe04e91409581954a787907e669/4dd00abe98f0d26ce9183817fbb7ca2712755f28f1b13e0b9eb75b63d72b01e3.html",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://www.gesetze-im-internet.de/winterbeschv/__3.html",
+    "checked_at": "2026-10-26T20:07:55.009Z",
+    "last_success_at": "2026-10-26T20:07:55.009Z",
+    "hash": "ce402e57fb78e4b68221a5b6df99d8c5ecd8230816197cea69db91baefff1e74",
+    "snapshot_key": "sources/5f90868fcdd0987b865d1a3925f5501a75ff2f585f4832aacd0fc38ee1c74e54/ce402e57fb78e4b68221a5b6df99d8c5ecd8230816197cea69db91baefff1e74.html",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://www.gesetze-im-internet.de/winterbeschv/__3a.html",
+    "checked_at": "2026-10-26T20:07:55.129Z",
+    "last_success_at": "2026-10-26T20:07:55.129Z",
+    "hash": "c10d90ee622e0c153025be7aa1d8c5d0ad346784dc5a1bb626abc3cb1899ab67",
+    "snapshot_key": "sources/d7db5b021ca881d32193251d3689375c9275a3f5812185bee25ac3d68f49cc00/c10d90ee622e0c153025be7aa1d8c5d0ad346784dc5a1bb626abc3cb1899ab67.html",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://www.gesetze-im-internet.de/bimschv_35/anhang_3.html",
+    "checked_at": "2026-10-26T20:07:55.248Z",
+    "last_success_at": "2026-10-26T20:07:55.248Z",
+    "hash": "a0f04d312408e99d2f2ff5e0d6fe89f8486c7f7298b7648b4e9839d4dff69a2e",
+    "snapshot_key": "sources/9970ffd2bf5cd7d05d420e95c5f254f495da141861272395eed3535f8645d809/a0f04d312408e99d2f2ff5e0d6fe89f8486c7f7298b7648b4e9839d4dff69a2e.html",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://www.gesetze-im-internet.de/grestg_1983/__18.html",
+    "checked_at": "2026-10-26T20:07:55.365Z",
+    "last_success_at": "2026-10-26T20:07:55.365Z",
+    "hash": "d809a17b6e56310bd506049c0891bb8c7f16238292435ee06198b37bf68c0536",
+    "snapshot_key": "sources/c98522f1b4ebdbe96042de1e7802df6bb87c7834de9da26d3c3ad84969fc8a37/d809a17b6e56310bd506049c0891bb8c7f16238292435ee06198b37bf68c0536.html",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://www.gesetze-im-internet.de/grestg_1983/__22a.html",
+    "checked_at": "2026-10-26T20:07:55.479Z",
+    "last_success_at": "2026-10-26T20:07:55.479Z",
+    "hash": "f4ed6f10e5de2fd08ed3416c88d1ceebb320c8966276dbea72c79d601043c71f",
+    "snapshot_key": "sources/9ddac8ee6a6d86049e1d482302ff7ecb1395e5ccfeccde341ea1787cd4e86116/f4ed6f10e5de2fd08ed3416c88d1ceebb320c8966276dbea72c79d601043c71f.html",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://www.gesetze-im-internet.de/rsvprophv/__1.html",
+    "checked_at": "2026-10-26T20:07:55.595Z",
+    "last_success_at": null,
+    "hash": null,
+    "snapshot_key": null,
+    "changed": 0,
+    "error": "HTTP 404"
+  },
+  {
+    "url": "https://www.gesetze-im-internet.de/rsvprophv/index.html",
+    "checked_at": "2026-10-26T20:08:07.449Z",
+    "last_success_at": null,
+    "hash": null,
+    "snapshot_key": null,
+    "changed": 0,
+    "error": "HTTP 404"
+  },
+  {
+    "url": "https://www.gesetze-im-internet.de/rsv-prophylaxev/index.html",
+    "checked_at": "2026-10-26T20:08:07.563Z",
+    "last_success_at": null,
+    "hash": null,
+    "snapshot_key": null,
+    "changed": 0,
+    "error": "HTTP 404"
+  },
+  {
+    "url": "https://www.gesetze-im-internet.de/grestg_1983/__23.html",
+    "checked_at": "2026-10-26T20:08:07.674Z",
+    "last_success_at": "2026-10-26T20:08:07.674Z",
+    "hash": "127b4461398fab9d17317ffb7aa43ce32c0a08da926c51e415f7e04872acda16",
+    "snapshot_key": "sources/49a31c482e4b23bc91e59751b0687256d622421b3e613e2e7bd2403f1a2018aa/127b4461398fab9d17317ffb7aa43ce32c0a08da926c51e415f7e04872acda16.html",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://www.recht.bund.de/bgbl/1/2025/303/regelungstext.pdf?__blob=publicationFile&v=1",
+    "checked_at": "2026-10-26T20:08:07.786Z",
+    "last_success_at": "2026-10-26T20:08:07.786Z",
+    "hash": "a35f995f84f36361e019333d9058c41ddfa7f4193ae96179ae55c1d35fd3eddc",
+    "snapshot_key": "sources/423c03415af4552ca80f5ba6961eb669875066c02c3ba7023f76f0469c4a002b/a35f995f84f36361e019333d9058c41ddfa7f4193ae96179ae55c1d35fd3eddc.pdf",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://www.recht.bund.de/bgbl/1/2024/278/regelungstext.pdf?__blob=publicationFile&v=1",
+    "checked_at": "2026-10-26T20:08:16.416Z",
+    "last_success_at": "2026-10-26T20:08:16.416Z",
+    "hash": "14991925a329bd00a0c11bb286585ef1dd2f1706f2039777cdca23ec68c57c91",
+    "snapshot_key": "sources/0aa58ae251a1ceacb5ea0bc42a05d42466efa7265b43626daf1f3579e6d196ef/14991925a329bd00a0c11bb286585ef1dd2f1706f2039777cdca23ec68c57c91.pdf",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://www.gesetze-im-internet.de/gg/art_54.html",
+    "checked_at": "2026-10-26T20:13:58.349Z",
+    "last_success_at": "2026-10-26T20:13:58.349Z",
+    "hash": "64d350416a59e8e3f97f5529859856673265a64bd2660e7b61489686a6ed45c4",
+    "snapshot_key": "sources/3e34a005b4ee0ecbfdbcaa42efe6040629fba25b7bd16f74cbbe3f12fbe2a478/64d350416a59e8e3f97f5529859856673265a64bd2660e7b61489686a6ed45c4.html",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://taxation-customs.ec.europa.eu/news/deployment-ncts-phase-6-next-step-modernization-customs-and-transit-procedures-2026-10-26_en",
+    "checked_at": "2026-10-26T20:18:39.384Z",
+    "last_success_at": "2026-10-26T20:18:39.384Z",
+    "hash": "8404e6a4cfad1aa4a18afcf869ef69b89bbe584619606a29ed8417f26603605e",
+    "snapshot_key": "sources/90c9ff5f49a89c77d52a9b66729b4eeb94e98c1eef9eb72884d7a9c055e99e4a/8404e6a4cfad1aa4a18afcf869ef69b89bbe584619606a29ed8417f26603605e.html",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://www.bundesfinanzministerium.de/Content/DE/Gesetzestexte/Gesetze_Gesetzesvorhaben/Abteilungen/Abteilung_IV/21_Legislaturperiode/2026-10-21-9-Aend-CbCRAusdV/0-Verordnung.html",
+    "checked_at": "2026-10-26T20:19:42.332Z",
+    "last_success_at": "2026-10-26T20:19:42.332Z",
+    "hash": "7bc5d2d1dda8aad79bf622b349ec2d4f7ac7ebb437c9790e1a904b319baafcfe",
+    "snapshot_key": "sources/60fe674054ef38c3a959969c394880bc3b15386e6f48ebb59a35c747a520164f/7bc5d2d1dda8aad79bf622b349ec2d4f7ac7ebb437c9790e1a904b319baafcfe.html",
     "changed": 0,
     "error": null
   }

@@ -5441,6 +5441,101 @@
         }
       ],
       "appliesFromExport": "2026-10-23T21:16:38.594Z"
+    },
+    {
+      "id": "eu-russia-destabilisation-listing-2026-09-24-acts",
+      "title": [
+        "俄罗斯破坏稳定活动制裁：9月24日新增1人",
+        "Russia destabilising activities sanctions: one person added on 24 September"
+      ],
+      "basis": "The Council decision OJ:L_202602164 and the regulation OJ:L_202602165 implement the same listing under one sanctions regime and were adopted together; the regulation gives effect to the decision.",
+      "documents": [
+        {
+          "region": "EU",
+          "officialId": "OJ:L_202602164"
+        },
+        {
+          "region": "EU",
+          "officialId": "OJ:L_202602165"
+        }
+      ],
+      "appliesFromExport": "2026-10-26T20:22:18.483Z"
+    },
+    {
+      "id": "eu-ukraine-children-listing-2026-09-28-acts",
+      "title": [
+        "乌克兰领土完整制裁：9月28日因转移儿童新增10人17个实体",
+        "Ukraine integrity sanctions: 10 people and 17 entities added on 28 September over the transfer of children"
+      ],
+      "basis": "The Council decision OJ:L_202602185 and the regulation OJ:L_202602184 implement the same listing under one sanctions regime and were adopted together; the regulation gives effect to the decision.",
+      "documents": [
+        {
+          "region": "EU",
+          "officialId": "OJ:L_202602185"
+        },
+        {
+          "region": "EU",
+          "officialId": "OJ:L_202602184"
+        }
+      ],
+      "appliesFromExport": "2026-10-26T20:22:18.483Z"
+    },
+    {
+      "id": "eu-russia-repression-listing-2026-09-28-acts",
+      "title": [
+        "俄罗斯国内局势制裁：9月28日新增10人",
+        "Situation in Russia sanctions: 10 people added on 28 September"
+      ],
+      "basis": "The Council decision OJ:L_202602192 and the regulation OJ:L_202602193 implement the same listing under one sanctions regime and were adopted together; the regulation gives effect to the decision.",
+      "documents": [
+        {
+          "region": "EU",
+          "officialId": "OJ:L_202602192"
+        },
+        {
+          "region": "EU",
+          "officialId": "OJ:L_202602193"
+        }
+      ],
+      "appliesFromExport": "2026-10-26T20:22:18.483Z"
+    },
+    {
+      "id": "eu-switzerland-pnr-agreement-2026-acts",
+      "title": [
+        "欧盟—瑞士航空旅客订座记录（PNR）协定",
+        "EU–Switzerland Passenger Name Record (PNR) agreement"
+      ],
+      "basis": "Council Decision (EU) 2026/2360 approves the agreement whose text is published as OJ:L_202602361 on the same day; its footnote 5 cites that publication.",
+      "documents": [
+        {
+          "region": "EU",
+          "officialId": "OJ:L_202602360"
+        },
+        {
+          "region": "EU",
+          "officialId": "OJ:L_202602361"
+        }
+      ],
+      "appliesFromExport": "2026-10-26T20:22:18.483Z"
+    },
+    {
+      "id": "de-deutsche-post-successor-2026",
+      "title": [
+        "德国邮政拆分：两项邮政条例9月1日生效",
+        "Deutsche Post restructuring: two postal regulations in force since 1 September"
+      ],
+      "basis": "Both notices state that the respective regulation of 23 April 2026 (BGBl. 2026 I Nos. 113 and 114) entered into force on 1 September 2026, when the hive-down of the P&P business to Deutsche Post AG neu was entered in the commercial register.",
+      "documents": [
+        {
+          "region": "DE",
+          "officialId": "BGBl. 2026 I Nr. 254"
+        },
+        {
+          "region": "DE",
+          "officialId": "BGBl. 2026 I Nr. 255"
+        }
+      ],
+      "appliesFromExport": "2026-10-26T20:22:18.483Z"
     }
   ]
 }

@@ -1,0 +1,59 @@
+{
+  "checkedAt": "2026-10-28T21:19:11.403Z",
+  "scope": "GB",
+  "channels": 3,
+  "incompleteChannels": 3,
+  "gaps": [
+    {
+      "sourceUrl": "https://www.gov.uk/",
+      "region": "GB",
+      "title": "英国政府政策入口",
+      "windowStart": "2026-10-21",
+      "windowEnd": "2026-10-27",
+      "missingDays": [
+        "2026-10-21",
+        "2026-10-22",
+        "2026-10-23",
+        "2026-10-24",
+        "2026-10-25",
+        "2026-10-26",
+        "2026-10-27"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://bills.parliament.uk/",
+      "region": "GB",
+      "title": "英国议会法案",
+      "windowStart": "2026-10-21",
+      "windowEnd": "2026-10-27",
+      "missingDays": [
+        "2026-10-21",
+        "2026-10-22",
+        "2026-10-23",
+        "2026-10-24",
+        "2026-10-25",
+        "2026-10-26",
+        "2026-10-27"
+      ],
+      "latestScan": "blocked"
+    },
+    {
+      "sourceUrl": "https://www.legislation.gov.uk/new",
+      "region": "GB",
+      "title": "英国最新法律法规",
+      "windowStart": "2026-10-21",
+      "windowEnd": "2026-10-27",
+      "missingDays": [
+        "2026-10-21",
+        "2026-10-22",
+        "2026-10-23",
+        "2026-10-24",
+        "2026-10-25",
+        "2026-10-26",
+        "2026-10-27"
+      ],
+      "latestScan": "partial"
+    }
+  ]
+}

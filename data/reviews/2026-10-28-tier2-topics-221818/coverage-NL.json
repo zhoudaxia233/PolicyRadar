@@ -1,0 +1,110 @@
+{
+  "checkedAt": "2026-10-28T21:19:12.503Z",
+  "scope": "NL",
+  "channels": 6,
+  "incompleteChannels": 6,
+  "gaps": [
+    {
+      "sourceUrl": "https://www.rijksoverheid.nl/actueel/nieuws",
+      "region": "NL",
+      "title": "荷兰政府政策公告",
+      "windowStart": "2026-10-21",
+      "windowEnd": "2026-10-27",
+      "missingDays": [
+        "2026-10-21",
+        "2026-10-22",
+        "2026-10-23",
+        "2026-10-24",
+        "2026-10-25",
+        "2026-10-26",
+        "2026-10-27"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://zoek.officielebekendmakingen.nl/",
+      "region": "NL",
+      "title": "荷兰官方公报与议会文件",
+      "windowStart": "2026-10-21",
+      "windowEnd": "2026-10-27",
+      "missingDays": [
+        "2026-10-21",
+        "2026-10-22",
+        "2026-10-23",
+        "2026-10-24",
+        "2026-10-25",
+        "2026-10-26",
+        "2026-10-27"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://wetten.overheid.nl/",
+      "region": "NL",
+      "title": "荷兰现行国家法规",
+      "windowStart": "2026-10-21",
+      "windowEnd": "2026-10-27",
+      "missingDays": [
+        "2026-10-21",
+        "2026-10-22",
+        "2026-10-23",
+        "2026-10-24",
+        "2026-10-25",
+        "2026-10-26",
+        "2026-10-27"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://lokaleregelgeving.overheid.nl/",
+      "region": "NL",
+      "title": "荷兰地方现行法规",
+      "windowStart": "2026-10-21",
+      "windowEnd": "2026-10-27",
+      "missingDays": [
+        "2026-10-21",
+        "2026-10-22",
+        "2026-10-23",
+        "2026-10-24",
+        "2026-10-25",
+        "2026-10-26",
+        "2026-10-27"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.tweedekamer.nl/kamerstukken/wetsvoorstellen",
+      "region": "NL",
+      "title": "荷兰众议院法案",
+      "windowStart": "2026-10-21",
+      "windowEnd": "2026-10-27",
+      "missingDays": [
+        "2026-10-21",
+        "2026-10-22",
+        "2026-10-23",
+        "2026-10-24",
+        "2026-10-25",
+        "2026-10-26",
+        "2026-10-27"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.eerstekamer.nl/wetsvoorstellen_2",
+      "region": "NL",
+      "title": "荷兰参议院法案",
+      "windowStart": "2026-10-21",
+      "windowEnd": "2026-10-27",
+      "missingDays": [
+        "2026-10-21",
+        "2026-10-22",
+        "2026-10-23",
+        "2026-10-24",
+        "2026-10-25",
+        "2026-10-26",
+        "2026-10-27"
+      ],
+      "latestScan": "partial"
+    }
+  ]
+}

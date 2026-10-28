@@ -2058,11 +2058,12 @@
       ]
     },
     "it-work-entry-applications-2027": {
-      "version": 1,
-      "hash": "c9ecd87ff07f7016fb8e5dd19883efa2ca73fb6d9ddb70e58703ac730f0f0250",
+      "version": 2,
+      "hash": "2a12da914ed120add7785a0ab32a773b232fb9cac8fb6501ac082bf210e3874a",
       "originalLanguage": "it",
       "verbatim": [
-        "Ministero del Lavoro e delle Politiche Sociali"
+        "Ministero del Lavoro e delle Politiche Sociali",
+        "Presidenza del Consiglio dei Ministri"
       ]
     },
     "it-elder-care-plan-2025-2027": {
@@ -2428,8 +2429,8 @@
       "verbatim": []
     },
     "fr-finance-bill-2027": {
-      "hash": "ae8ed8129f654ad985ba7ab56cba3d3d6a6e308513a85efa1b38f76b46b2932f",
-      "version": 3,
+      "version": 4,
+      "hash": "88e627ad0ff584737da849b0a2a6f0f49977d28c407c97a0b69a5ef53b641791",
       "originalLanguage": "fr",
       "verbatim": [
         "法国国民议会",
@@ -4225,8 +4226,8 @@
       ]
     },
     "fr-property-tax-deadlines-2026": {
-      "hash": "2c6b3561e6ca6d877911deacc0605a1363102e286a5a06b98209161510ed55e2",
-      "version": 1,
+      "version": 2,
+      "hash": "b4976b6cd08b594ceb9ec4fd0047090f6885ab716069dc39274af48ce2392fc5",
       "originalLanguage": "fr",
       "verbatim": [
         "Service Public / DILA",
@@ -5772,12 +5773,13 @@
       ]
     },
     "gb-defi-loans-pools-cgt-2027": {
-      "version": 1,
-      "hash": "5e1f85c560978b12ea5b3f212eee73fe8fa25b2da61e325900ec8ac098e1db50",
+      "version": 2,
+      "hash": "4a65561cf49fdfb191f50f4898d4962096cdc246d1a6c060ca4a816e3babb7ab",
       "originalLanguage": "en",
       "verbatim": [
         "HM Revenue & Customs",
-        "GOV.UK"
+        "GOV.UK",
+        "HM Treasury"
       ]
     },
     "us-clarity-act-market-structure": {
@@ -5885,8 +5887,8 @@
       ]
     },
     "fr-payroll-tax-october-deadline-2026": {
-      "hash": "462b78b797362e22ea6bb967ce33c1b7cb03ebc5f6dd47b75b6cc7e621e53acd",
-      "version": 1,
+      "version": 2,
+      "hash": "c9a3b7160a12655eb344ca25235276fe2717aee45b49e01b70ecbc59f6e3e36b",
       "originalLanguage": "fr",
       "verbatim": [
         "entreprendre.service-public.gouv.fr"
@@ -6937,11 +6939,12 @@
       ]
     },
     "ch-efta-malaysia-referendum-2026": {
-      "hash": "1607e741b3ae45a5b50874a7e97edb611bf1c5b418914159d038510b48e6e38c",
-      "version": 1,
+      "version": 2,
+      "hash": "b9ff97fa15ad640b33ef1df76c9f876b547f3171b9513175001e202396594c2e",
       "originalLanguage": "de",
       "verbatim": [
-        "Bundeskanzlei BK"
+        "Bundeskanzlei BK",
+        "Der Bundesrat"
       ]
     },
     "ch-platforms-law-youth-protection-2026": {
@@ -7177,8 +7180,8 @@
       "verbatim": []
     },
     "nl-tax-plan-2027": {
-      "hash": "152c673a5179ae189026956cbb68eead5aaf64176276d2ccdde4725a8e51a6af",
-      "version": 1,
+      "version": 2,
+      "hash": "d250c451d22be1edd5a02936925fb077bfab5a2d839f231d9475985853d43537",
       "originalLanguage": "nl",
       "verbatim": []
     },
@@ -7890,6 +7893,93 @@
       "originalLanguage": "en",
       "verbatim": [
         "Publications Office of the European Union"
+      ]
+    },
+    "gb-household-energy-support-2027": {
+      "version": 1,
+      "hash": "169b4f2e3c79fc7a35aa0a292e76aeedda2f68c46e9692bbf2095a3267dca090",
+      "originalLanguage": "en",
+      "verbatim": [
+        "HM Treasury",
+        "HM Revenue & Customs"
+      ]
+    },
+    "gb-minimum-wage-april-2027": {
+      "version": 1,
+      "hash": "4eb27f2051576020474608c3e32e6345bad74961f05c888d48c6423ed17bdfa1",
+      "originalLanguage": "en",
+      "verbatim": [
+        "HM Treasury",
+        "HM Revenue & Customs"
+      ]
+    },
+    "gb-pension-tax-allowance-2027": {
+      "version": 1,
+      "hash": "083997b185bab3468a1d80a8c1e4c23a3649efb26991ba6d577195a7032c768d",
+      "originalLanguage": "en",
+      "verbatim": [
+        "HM Treasury",
+        "HM Revenue & Customs"
+      ]
+    },
+    "gb-isa-changes-budget-2026": {
+      "version": 1,
+      "hash": "3c1d313939b74c3cd97d3314cb2821eaae1292966bae6de702263c873c8d04ac",
+      "originalLanguage": "en",
+      "verbatim": [
+        "HM Treasury",
+        "HM Revenue & Customs"
+      ]
+    },
+    "gb-trading-allowance-3000-2027": {
+      "version": 1,
+      "hash": "eb493814ac1521233dc6c1f6ce004841246746796c150177e707d4553fa971a4",
+      "originalLanguage": "en",
+      "verbatim": [
+        "HM Treasury",
+        "HM Revenue & Customs"
+      ]
+    },
+    "gb-stablecoins-tax-2027": {
+      "version": 1,
+      "hash": "0ce2a35c3adb01ed2063543eeae3db82ea176c974f544a34b96aeab1f1dd7bf4",
+      "originalLanguage": "en",
+      "verbatim": [
+        "HM Treasury",
+        "HM Revenue & Customs"
+      ]
+    },
+    "gb-state-pension-triple-lock-2030": {
+      "version": 1,
+      "hash": "9d5fbbce04da7d28687fe950fb10247522811d30f1dadd8e7bdf04c6c664984e",
+      "originalLanguage": "en",
+      "verbatim": [
+        "HM Treasury",
+        "HM Revenue & Customs"
+      ]
+    },
+    "it-budget-bill-2027": {
+      "version": 1,
+      "hash": "93097ae67de09e35f68bf295a38effa53cf7133c8f08011d7e37a9d6f77f2695",
+      "originalLanguage": "it",
+      "verbatim": [
+        "Presidenza del Consiglio dei Ministri"
+      ]
+    },
+    "ch-bvg-side-income-partial-withdrawal-2026": {
+      "version": 1,
+      "hash": "b2c17c3bf2d8d8cbdf868323be7fabb6b5e3450a6ac2b67aa90a6265e5515869",
+      "originalLanguage": "de",
+      "verbatim": [
+        "Der Bundesrat"
+      ]
+    },
+    "ch-votes-2027-02-28": {
+      "version": 1,
+      "hash": "9c1630c86de11e60f49a891c95c3a9a89a5f63c6ff42fe811dfbcb28eaab426b",
+      "originalLanguage": "de",
+      "verbatim": [
+        "Der Bundesrat"
       ]
     }
   },
@@ -51228,6 +51318,72 @@
     },
     "eu-oj-c-202605641": {
       "hash": "1d2c18ba4edae23cd27eae1b8fd16688fe04828d53dea1c18da50232cf1be7e8",
+      "verbatim": [],
+      "originalLanguage": "en",
+      "titleIsOriginal": true
+    },
+    "gb-20261028-household-energy-support-2027": {
+      "hash": "bd140eef788547d2fd8a760b826a0a800418b3cbc4978062078eee6ea2c1c823",
+      "verbatim": [],
+      "originalLanguage": "en",
+      "titleIsOriginal": true
+    },
+    "gb-20261028-minimum-wage-april-2027": {
+      "hash": "993824904d78bd7d80e7a99b5f33ca68dceac986c9a53bfff5226cd186326ce5",
+      "verbatim": [],
+      "originalLanguage": "en",
+      "titleIsOriginal": true
+    },
+    "gb-20261028-pension-tax-allowance-2027": {
+      "hash": "9aed94099bd0c3dccd3ce386c8a1e7d1739e5efeb3bfa911918b9e25194b046f",
+      "verbatim": [],
+      "originalLanguage": "en",
+      "titleIsOriginal": true
+    },
+    "gb-20261028-isa-changes-budget-2026": {
+      "hash": "480b16c13e5cb1219d375e0a915f4d9a26ece9544582706e93f3cb20a5fab77b",
+      "verbatim": [],
+      "originalLanguage": "en",
+      "titleIsOriginal": true
+    },
+    "gb-20261028-trading-allowance-3000-2027": {
+      "hash": "c83a15dd0b2bee7f93a1232b475629392e8d4acbdd40222e8ded50a04aca9683",
+      "verbatim": [],
+      "originalLanguage": "en",
+      "titleIsOriginal": true
+    },
+    "gb-20261028-stablecoins-tax-2027": {
+      "hash": "525cfa648daf2bed2076cb36a67bff2a5c3e3d2b3b22e8f5e5d68fea34f78245",
+      "verbatim": [],
+      "originalLanguage": "en",
+      "titleIsOriginal": true
+    },
+    "gb-20261028-state-pension-triple-lock-2030": {
+      "hash": "9dc7b87c9e7c18c4c26de6676024f902fd349c3219b2179a0a62ea1a3ea1e861",
+      "verbatim": [],
+      "originalLanguage": "en",
+      "titleIsOriginal": true
+    },
+    "it-20261028-budget-bill-2027": {
+      "hash": "a046c301a2a3f452840de5937bdb7ce5177c6c2c1e90846553581ccef7bd60ef",
+      "verbatim": [],
+      "originalLanguage": "it",
+      "titleIsOriginal": true
+    },
+    "ch-20261028-bvg-side-income-partial-withdrawal-2026": {
+      "hash": "5059d888da6fac0c954756e35bfa137896b48f5407e9de3055f3d8092f6054f5",
+      "verbatim": [],
+      "originalLanguage": "de",
+      "titleIsOriginal": true
+    },
+    "ch-20261028-votes-2027-02-28": {
+      "hash": "d4f4d78a8413c980f4797e7ae27080d5801a3a841c3718a9e219fd160f4a1ac1",
+      "verbatim": [],
+      "originalLanguage": "de",
+      "titleIsOriginal": true
+    },
+    "gb-20261028-hvcts-response": {
+      "hash": "268f8bc833c7b9fc8c13621728e33ee5fd9f144dc1244a8189298a7f7c0f0886",
       "verbatim": [],
       "originalLanguage": "en",
       "titleIsOriginal": true

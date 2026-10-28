@@ -33,6 +33,17 @@ explains; they change no stored data.
    country's last review time, so a reader can see when its data stopped.
    Recent-coverage gaps on frozen channels are expected and are not to be closed.
 
+### Owner's standing topics (28 October 2026)
+
+When the owner asks for a tier-2 round on "the topics I'm interested in" (or
+similar) without naming topics, use these, set on 2026-10-28: taxes, social
+contributions and benefits, pensions, housing, residence and migration, and
+cryptoassets. A topic round checks each tier-2 country's national channels for
+these topics, explains verified matters, and revisits elapsed or approaching
+dates in existing explanations on these topics. Its scans stay `partial`, and
+the review notes name what was not recorded. Topics the owner names in the
+request replace this list for that round.
+
 Only an explicit owner instruction moves a country or level between tiers. The
 regional review sections later in this document apply only when the owner
 unfreezes that level.

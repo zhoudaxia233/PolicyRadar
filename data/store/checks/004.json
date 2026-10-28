@@ -190,19 +190,19 @@
   },
   {
     "url": "https://www.gov.uk/government/publications/cryptoasset-loans-and-liquidity-pools",
-    "checked_at": "2026-10-14T18:59:02.196Z",
-    "last_success_at": "2026-10-14T18:59:02.196Z",
-    "hash": "e558acb8aff4b35d65abcdb4322103951d0f339fd553221161965c64b42f68ef",
-    "snapshot_key": "sources/8d7ed127199e34fa02b23fe77ac3f25973f4d6006521b97342851635a5da553c/e558acb8aff4b35d65abcdb4322103951d0f339fd553221161965c64b42f68ef.html",
+    "checked_at": "2026-10-28T21:10:01.512Z",
+    "last_success_at": "2026-10-28T21:10:01.512Z",
+    "hash": "40fd83f1b54ff098ff45ef13b9006c354b8df7f71628775cf79db082484949d6",
+    "snapshot_key": "sources/8d7ed127199e34fa02b23fe77ac3f25973f4d6006521b97342851635a5da553c/40fd83f1b54ff098ff45ef13b9006c354b8df7f71628775cf79db082484949d6.html",
     "changed": 0,
     "error": null
   },
   {
     "url": "https://www.gov.uk/government/publications/cryptoasset-loans-and-liquidity-pools/tax-treatment-of-cryptoasset-loans-and-liquidity-pools",
-    "checked_at": "2026-10-14T18:59:09.108Z",
-    "last_success_at": "2026-10-14T18:59:09.108Z",
-    "hash": "f123e5b04d04c22592da88324b5ce29abffda32141f5295f566940cf922a3835",
-    "snapshot_key": "sources/aa15ccc5db3b36a3d7404e59205c67be7e3cf08c16702ff7679489bff8ff04e3/f123e5b04d04c22592da88324b5ce29abffda32141f5295f566940cf922a3835.html",
+    "checked_at": "2026-10-28T21:10:18.967Z",
+    "last_success_at": "2026-10-28T21:10:18.967Z",
+    "hash": "ad73d3294edd54e342ec1828474ee1dbbfe2ab003088f83d9c4608231b09f932",
+    "snapshot_key": "sources/aa15ccc5db3b36a3d7404e59205c67be7e3cf08c16702ff7679489bff8ff04e3/ad73d3294edd54e342ec1828474ee1dbbfe2ab003088f83d9c4608231b09f932.html",
     "changed": 0,
     "error": null
   },
@@ -3781,10 +3781,10 @@
   },
   {
     "url": "https://www.senat.fr/dossier-legislatif/plfss2027.html",
-    "checked_at": "2026-10-23T19:14:04.569Z",
-    "last_success_at": "2026-10-23T19:14:04.569Z",
-    "hash": "b449c86c1efc8f1fdc43a8d8b6f67ab9107a18a4e0890cc2c1fe01e425adf16c",
-    "snapshot_key": "sources/88b7e31f83e905d5974524206f12ffb42404274fcfebcdb80abfdcba1fd6c7db/b449c86c1efc8f1fdc43a8d8b6f67ab9107a18a4e0890cc2c1fe01e425adf16c.html",
+    "checked_at": "2026-10-28T21:11:13.934Z",
+    "last_success_at": "2026-10-28T21:11:13.934Z",
+    "hash": "466420cd835830d9e277eb3d0c91f2ff45aca1b6d1b7350fdd4542dc0192b690",
+    "snapshot_key": "sources/88b7e31f83e905d5974524206f12ffb42404274fcfebcdb80abfdcba1fd6c7db/466420cd835830d9e277eb3d0c91f2ff45aca1b6d1b7350fdd4542dc0192b690.html",
     "changed": 0,
     "error": null
   },
@@ -5585,6 +5585,213 @@
     "last_success_at": "2026-10-28T20:35:13.989Z",
     "hash": "b5c8d6e9ec8889ac199bee511a1be8dccb7318a6cf62e1ddd7c8740dbbed0ae9",
     "snapshot_key": "sources/e6ccbd9c249b6d8e23c003482db7ce1451a482f94ad8903576ad5d0b858668c9/b5c8d6e9ec8889ac199bee511a1be8dccb7318a6cf62e1ddd7c8740dbbed0ae9.pdf",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://www.gov.uk/government/speeches/budget-2026-speech",
+    "checked_at": "2026-10-28T21:09:14.747Z",
+    "last_success_at": "2026-10-28T21:09:14.747Z",
+    "hash": "19d3a10a1ff6cecf25a3837368096e5d6aab7a2bd2a28803ab482b126dd75f06",
+    "snapshot_key": "sources/7cb90c614993c3f2e1cc37fff7fe8b6db3ee4df5d37566b5f268619cef996361/19d3a10a1ff6cecf25a3837368096e5d6aab7a2bd2a28803ab482b126dd75f06.html",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://www.gov.uk/government/publications/budget-2026-document/budget-2026-html",
+    "checked_at": "2026-10-28T21:09:42.824Z",
+    "last_success_at": "2026-10-28T21:09:42.824Z",
+    "hash": "d7b41779958147a7cd3a1ebaa399f9d6af3bae25bbe649b3ffeb453185ea916e",
+    "snapshot_key": "sources/d8bcc87ade20b6ebfcd6693b6a98345c20909544e02d05dcd07bb809ad106f01/d7b41779958147a7cd3a1ebaa399f9d6af3bae25bbe649b3ffeb453185ea916e.html",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://www.gov.uk/government/publications/tax-treatment-of-stablecoins",
+    "checked_at": "2026-10-28T21:10:01.045Z",
+    "last_success_at": "2026-10-28T21:10:01.045Z",
+    "hash": "694da616e1ef4a0bf5d0ca29dadc14b9cfde68c5a7b9c6d145e809b2c9668283",
+    "snapshot_key": "sources/02f26e07de7f43202a476de2f028ee446a2d5e07e049022ab11cfc14e5037691/694da616e1ef4a0bf5d0ca29dadc14b9cfde68c5a7b9c6d145e809b2c9668283.html",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://www.gov.uk/government/publications/tax-treatment-of-stablecoins/taxation-of-stablecoins",
+    "checked_at": "2026-10-28T21:10:08.473Z",
+    "last_success_at": "2026-10-28T21:10:08.473Z",
+    "hash": "2ce5e0c7772450a700717f445b7c2c8f99a20dfde716ac72b209ebe1c410e5a6",
+    "snapshot_key": "sources/4529a38e69dab0778d9faab1696d6ceb2e2c5445b8a85d2db90b9528ed3fc60d/2ce5e0c7772450a700717f445b7c2c8f99a20dfde716ac72b209ebe1c410e5a6.html",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://www.gov.uk/government/publications/lifetime-isa-withdrawal-charge",
+    "checked_at": "2026-10-28T21:10:41.067Z",
+    "last_success_at": "2026-10-28T21:10:41.067Z",
+    "hash": "0ddcbbbe42bcc857d246cdaf04a73be67b121d469bb4510ee018c783b15451e4",
+    "snapshot_key": "sources/e0c7969ff1642c84bc3123ef74eed7faddc27f0f3691a2e0a1e3d572b480306d/0ddcbbbe42bcc857d246cdaf04a73be67b121d469bb4510ee018c783b15451e4.html",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://www.gov.uk/government/publications/lifetime-isa-withdrawal-charge/reduce-lifetime-isa-withdrawal-charge-for-properties-over-the-property-price-cap",
+    "checked_at": "2026-10-28T21:10:47.587Z",
+    "last_success_at": "2026-10-28T21:10:47.587Z",
+    "hash": "10acb7783113f42aaa9be4b4a1264b4e57c19f1847c58480fc3563d2f3f94922",
+    "snapshot_key": "sources/b725e0fddd876a18ea71942a2fe5290dd5f8bcf6327319fd3b0509dfca7d1f18/10acb7783113f42aaa9be4b4a1264b4e57c19f1847c58480fc3563d2f3f94922.html",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://www.gov.uk/government/publications/income-tax-increasing-the-trading-allowance",
+    "checked_at": "2026-10-28T21:10:48.112Z",
+    "last_success_at": "2026-10-28T21:10:48.112Z",
+    "hash": "a173c30702322d0fd6be8e94167408c28908358e65cb52931d1c4b5fcf5e6efc",
+    "snapshot_key": "sources/c44d0e6d9ca63b3a3ffeb7a63dc25bcddf73de50ea98bbdd6a340d8b2db976ba/a173c30702322d0fd6be8e94167408c28908358e65cb52931d1c4b5fcf5e6efc.html",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://www.gov.uk/government/publications/pension-tax-allowance-explainer/pension-tax-allowance-explainer",
+    "checked_at": "2026-10-28T21:10:56.579Z",
+    "last_success_at": "2026-10-28T21:10:56.579Z",
+    "hash": "170807740bca90d7f3cfd814a4567b52e28983403d53cd7d4fea742b2c61db0e",
+    "snapshot_key": "sources/48973a17f70d1911f20d839106c50b4d6ad61acd031d2278ec991aa518af4441/170807740bca90d7f3cfd814a4567b52e28983403d53cd7d4fea742b2c61db0e.html",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://www.gov.uk/government/publications/income-tax-increasing-the-trading-allowance/increasing-the-trading-allowance",
+    "checked_at": "2026-10-28T21:10:56.848Z",
+    "last_success_at": "2026-10-28T21:10:56.848Z",
+    "hash": "d9986abeadd7022eec13932baaa7abbc04b3bc7714d9990a097918f973423139",
+    "snapshot_key": "sources/e92b8ba2932a89e4cff8c3452dda056c4d086813d10ae1ef9a0bf728dd727699/d9986abeadd7022eec13932baaa7abbc04b3bc7714d9990a097918f973423139.html",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://www.gov.uk/government/publications/pension-tax-allowance-explainer",
+    "checked_at": "2026-10-28T21:10:57.033Z",
+    "last_success_at": "2026-10-28T21:10:57.033Z",
+    "hash": "b339c707538116b572e2f3319853b6f3572c2195f11c994ed18b6050d3fdbf93",
+    "snapshot_key": "sources/88542e3a7c6b4a4c4469ceee0af8b805f9f1bf2aff961b3f2f89e9ae49406fcc/b339c707538116b572e2f3319853b6f3572c2195f11c994ed18b6050d3fdbf93.html",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://www2.assemblee-nationale.fr/documents/liste/(type)/ta",
+    "checked_at": "2026-10-28T21:11:28.081Z",
+    "last_success_at": "2026-10-28T21:11:28.081Z",
+    "hash": "bdff3d4c93bbabb6597bb647e92cf11bbdeb003bd7bfa94344f56141c9afee07",
+    "snapshot_key": "sources/7e5cd872a8f069307cc9444871808aa041c568937e858b5758cc0ae162554801/bdff3d4c93bbabb6597bb647e92cf11bbdeb003bd7bfa94344f56141c9afee07.html",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://www.irs.gov/newsroom/news-releases-for-current-month",
+    "checked_at": "2026-10-28T21:11:45.150Z",
+    "last_success_at": "2026-10-28T21:11:45.150Z",
+    "hash": "10a0065d3499edb2c5a03dfb034d45f10d7bc47bdb77d65562f12004664caf07",
+    "snapshot_key": "sources/e28156fd93b79e12c63d1611b81a34a878cad047b1c0a67d6c4865a5e24c6192/10a0065d3499edb2c5a03dfb034d45f10d7bc47bdb77d65562f12004664caf07.html",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://www.tweedekamer.nl/debat_en_vergadering/plenaire_vergaderingen/details/activiteit?id=2026A06617",
+    "checked_at": "2026-10-28T21:12:09.770Z",
+    "last_success_at": "2026-10-28T21:12:09.770Z",
+    "hash": "3519940f47a131bd502ec1a630d60ec01dd8dc3033b76b75121978fa3c60b2f0",
+    "snapshot_key": "sources/cc2d0f8356a0a9b84ca03d1cf089df9c125851427e90b0cb3a7f018c37eacdfb/3519940f47a131bd502ec1a630d60ec01dd8dc3033b76b75121978fa3c60b2f0.html",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://www.tweedekamer.nl/debat_en_vergadering/plenaire_vergaderingen/details/activiteit?id=2026A07681",
+    "checked_at": "2026-10-28T21:12:11.238Z",
+    "last_success_at": "2026-10-28T21:12:11.238Z",
+    "hash": "6a20866bd697d90e0b4747545c90feb9cbd514001a8a99f4d9ec3eaacae36c89",
+    "snapshot_key": "sources/1829f57ae904d0f7cd05e548edbe23f5cefd42698eeedcc0a1a7c6b7a09c1539/6a20866bd697d90e0b4747545c90feb9cbd514001a8a99f4d9ec3eaacae36c89.html",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://www.governo.it/it/comunicati-stampa-cdm",
+    "checked_at": "2026-10-28T21:12:26.685Z",
+    "last_success_at": null,
+    "hash": null,
+    "snapshot_key": null,
+    "changed": 0,
+    "error": "HTTP 404"
+  },
+  {
+    "url": "https://www.governo.it/it/notizie-chigi",
+    "checked_at": "2026-10-28T21:12:48.402Z",
+    "last_success_at": "2026-10-28T21:12:48.402Z",
+    "hash": "f1178d8d0b091fc1486f9041b099b7b6dbf3e8405e54fc2273c808417876b4fc",
+    "snapshot_key": "sources/edbffe50c04c9fbb40a767f278413386b13ffa159c22f8307986db634dedd301/f1178d8d0b091fc1486f9041b099b7b6dbf3e8405e54fc2273c808417876b4fc.html",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://www.governo.it/it/articolo/consiglio-dei-ministri-n-195/32964",
+    "checked_at": "2026-10-28T21:12:57.610Z",
+    "last_success_at": "2026-10-28T21:12:57.610Z",
+    "hash": "fd6e601a17e091b6863b806e2151dfb5a51637505f5d15147f1af15b6e184d0a",
+    "snapshot_key": "sources/5a8395fb20ad4f1ace544ca36747752202088f50bb6a97fb21525b1f307b868a/fd6e601a17e091b6863b806e2151dfb5a51637505f5d15147f1af15b6e184d0a.html",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://www.governo.it/it/articolo/comunicato-stampa-del-consiglio-dei-ministri-n-195/32973",
+    "checked_at": "2026-10-28T21:13:04.207Z",
+    "last_success_at": "2026-10-28T21:13:04.207Z",
+    "hash": "0ef2eee4353e9d6be81db4c030422b5750503d589233d71c1e9bb9a57364f337",
+    "snapshot_key": "sources/1781dac667cbb54aa72177d26d99fc9a627a7f5b64529a1331a146f666f02b61/0ef2eee4353e9d6be81db4c030422b5750503d589233d71c1e9bb9a57364f337.html",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://www.lamoncloa.gob.es/consejodeministros/referencias/Paginas/2026/20261027-referencia-rueda-de-prensa-ministros.aspx",
+    "checked_at": "2026-10-28T21:13:17.655Z",
+    "last_success_at": "2026-10-28T21:13:17.655Z",
+    "hash": "09052f4926821604caa7c5143f8149062241552cb3498d983424607722bf3cab",
+    "snapshot_key": "sources/452818956f26ecbdd822fa956952f777cabbd59009bc5a308b35487fd1bf31a9/09052f4926821604caa7c5143f8149062241552cb3498d983424607722bf3cab.html",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://www.lamoncloa.gob.es/consejodeministros/referencias/Paginas/2026/20261020-referencia-rueda-de-prensa-ministros-aspx.aspx",
+    "checked_at": "2026-10-28T21:13:18.563Z",
+    "last_success_at": "2026-10-28T21:13:18.563Z",
+    "hash": "c13214f07580a31c32d6d851262171c0e5b14aa4c85effe51639b5075f8a6a13",
+    "snapshot_key": "sources/3683bdab738a685893df0127fd34d3927003390863208b9a6c91e41a04d7179b/c13214f07580a31c32d6d851262171c0e5b14aa4c85effe51639b5075f8a6a13.html",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://www.efd.admin.ch/de/newnsb",
+    "checked_at": "2026-10-28T21:13:30.272Z",
+    "last_success_at": "2026-10-28T21:13:30.272Z",
+    "hash": "b769687b5907a9457abb01c6ed4bba13d98ec0e77cfc8b7fb0296101f96f93ee",
+    "snapshot_key": "sources/dbbf750c477d11332d3670b82e19733e2ab5fe4240ff4f4043a12b439f4e7eac/b769687b5907a9457abb01c6ed4bba13d98ec0e77cfc8b7fb0296101f96f93ee.html",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://www.news.admin.ch/de/newnsb/AH2IBsh23FWX",
+    "checked_at": "2026-10-28T21:13:53.374Z",
+    "last_success_at": "2026-10-28T21:13:53.374Z",
+    "hash": "1d2cb07414fac3e78cb94d5410c57dd1b4d00d6029c568c6e25012bff0dff4ec",
+    "snapshot_key": "sources/7020ddf0e3657fbce6aff42c9f6f0bfb41f7ef6a87f527e13b8a00248d7143ed/1d2cb07414fac3e78cb94d5410c57dd1b4d00d6029c568c6e25012bff0dff4ec.html",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://www.news.admin.ch/de/newnsb/jySr77K8EibE",
+    "checked_at": "2026-10-28T21:13:53.875Z",
+    "last_success_at": "2026-10-28T21:13:53.875Z",
+    "hash": "16177a050676e890b300adaabd87154c252b66ad6a43e711271601756dd9c6a2",
+    "snapshot_key": "sources/bf381a01e11b6479efe23bfc7c86329b0e06176a7f6b062154353f9b24487b8c/16177a050676e890b300adaabd87154c252b66ad6a43e711271601756dd9c6a2.html",
     "changed": 0,
     "error": null
   }

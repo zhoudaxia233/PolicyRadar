@@ -3033,11 +3033,12 @@
   },
   {
     "url": "https://www.news.admin.ch/de",
-    "checked_at": "2026-10-15T09:11:38.388Z",
-    "last_success_at": null,
-    "error": "HTTP Error 403: Forbidden",
+    "checked_at": "2026-10-28T21:13:29.906Z",
+    "last_success_at": "2026-10-28T21:13:29.906Z",
+    "hash": "f5c62f8a999f7b860b0a60cbbc8e3a1c5f89939f910e67f2a6014aab52396fb5",
+    "snapshot_key": "sources/741c37592e636430794179064982a6c48ab3b8b429117676e1f5d163091655a7/f5c62f8a999f7b860b0a60cbbc8e3a1c5f89939f910e67f2a6014aab52396fb5.html",
     "changed": 0,
-    "snapshot_key": null
+    "error": null
   },
   {
     "url": "https://www.nw.ch/",
@@ -5877,10 +5878,10 @@
   },
   {
     "url": "https://www.lavoro.gov.it/notizie/pagine/decreto-flussi-2027-pubblicata-la-circolare-con-le-indicazioni-operative",
-    "checked_at": "2026-10-06T20:25:19.706245Z",
-    "last_success_at": "2026-10-06T20:25:19.706245Z",
-    "hash": "ff833efa19163cf15d252c0ef4e6b57bcf31cab1accd78935303e92bb85af91c",
-    "snapshot_key": "sources/0d93493da9808183c0d36a6c8160621d280c12048f12e72d0b3505b98072a2f5/ff833efa19163cf15d252c0ef4e6b57bcf31cab1accd78935303e92bb85af91c.html",
+    "checked_at": "2026-10-28T21:12:39.758Z",
+    "last_success_at": "2026-10-28T21:12:39.758Z",
+    "hash": "360784b54562cc22019d9c0225fe12f0442b878e180c5d6f31ce1258def0d334",
+    "snapshot_key": "sources/0d93493da9808183c0d36a6c8160621d280c12048f12e72d0b3505b98072a2f5/360784b54562cc22019d9c0225fe12f0442b878e180c5d6f31ce1258def0d334.html",
     "changed": 0,
     "error": null
   },

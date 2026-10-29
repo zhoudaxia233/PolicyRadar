@@ -49,12 +49,12 @@
       "version": 3
     },
     "de-fuel-relief-2026": {
-      "hash": "a116039564a8386801540d59633e26982f4c921f504838f66ff4394978026e8e",
+      "version": 4,
+      "hash": "a2d68feedf279bedece4f5879b4cd915302065d715dbce503916151745754373",
       "originalLanguage": "de",
       "verbatim": [
         "Bundesregierung"
-      ],
-      "version": 3
+      ]
     },
     "he-rent-protection-proposal-2026": {
       "hash": "417fc660ee9c313c0401a93f3ec57077a2608d215bfdf356ff1186b2987b3d16",
@@ -7980,6 +7980,118 @@
       "originalLanguage": "de",
       "verbatim": [
         "Der Bundesrat"
+      ]
+    },
+    "de-insurance-recovery-resolution-2026": {
+      "version": 1,
+      "hash": "95be42237b6a87be561971a02fb91c89dcd72d5193909daed4b36d487f989cb7",
+      "originalLanguage": "de",
+      "verbatim": [
+        "Bundesgesetzblatt"
+      ]
+    },
+    "de-mv-water-law-deviation-2026": {
+      "version": 1,
+      "hash": "b8468d857d0561178ad97ceda9ddfc75bab5e4b304004d8833aedc9ea09426cb",
+      "originalLanguage": "de",
+      "verbatim": [
+        "Bundesgesetzblatt"
+      ]
+    },
+    "de-high-seas-co2-export-2026": {
+      "version": 1,
+      "hash": "b5d218b2f55ffb76d8179e5bfc4bf34f876d11360d45c2d26ce06673c926c8e0",
+      "originalLanguage": "de",
+      "verbatim": [
+        "Bundesgesetzblatt"
+      ]
+    },
+    "de-deutsche-post-successor-2026": {
+      "version": 1,
+      "hash": "26623501890fbee338eca40a73cf76085734cd871a757ba782d5428786daeb1e",
+      "originalLanguage": "de",
+      "verbatim": [
+        "Bundesgesetzblatt"
+      ]
+    },
+    "de-defence-ministry-fees-2026": {
+      "version": 1,
+      "hash": "aa7e79de2ca8061bd917443482c7b6f23423b94f309b4e4a554f7ddb5f839ad3",
+      "originalLanguage": "de",
+      "verbatim": [
+        "Bundesgesetzblatt"
+      ]
+    },
+    "de-epa-medication-interoperability-2026": {
+      "version": 1,
+      "hash": "bab42ccdf274ee32b4cdbec7ccbf09b7bc081f8abf4a97b88eaa7ed66d3e8aa9",
+      "originalLanguage": "de",
+      "verbatim": [
+        "Bundesgesetzblatt"
+      ]
+    },
+    "de-dora-audit-reports-2026": {
+      "version": 1,
+      "hash": "5af62e0de146c5900862f37981c036cd29315286fff0ab2d1f0dda0230a1f7a1",
+      "originalLanguage": "de",
+      "verbatim": [
+        "Bundesgesetzblatt"
+      ]
+    },
+    "de-shipping-bureaucracy-reduction-2026": {
+      "version": 1,
+      "hash": "edfa75b62b2553e235efc3d88ef861d92fffead2a796b4ca535f0deaa7502b74",
+      "originalLanguage": "de",
+      "verbatim": [
+        "Bundesgesetzblatt"
+      ]
+    },
+    "de-construction-procurement-vob-2026": {
+      "version": 1,
+      "hash": "60313871ac7d9b5575acef5f32b7cc281dc0f4cee63787a11788956f7be91d28",
+      "originalLanguage": "de",
+      "verbatim": [
+        "Bundesgesetzblatt"
+      ]
+    },
+    "de-eutb-funding-rules-2026": {
+      "version": 1,
+      "hash": "5d1a21e6900111ca07c8df37d9807a43e029b572930a3da670080621ad61d9e8",
+      "originalLanguage": "de",
+      "verbatim": [
+        "Bundesgesetzblatt"
+      ]
+    },
+    "de-bachelor-professional-law-2026": {
+      "version": 1,
+      "hash": "e66c7c5216f0637b9e8c6b4c379848000cd4a9a91dc90f45002d6629a85a78cb",
+      "originalLanguage": "de",
+      "verbatim": [
+        "Bundesgesetzblatt"
+      ]
+    },
+    "de-insolvency-specialist-exam-2026": {
+      "version": 1,
+      "hash": "cce91b3dd9475a5b7c0f1b9e278994737f99a6dd03b61624ee453110f371b51f",
+      "originalLanguage": "de",
+      "verbatim": [
+        "Bundesgesetzblatt"
+      ]
+    },
+    "de-legal-it-marketing-specialist-exam-2026": {
+      "version": 1,
+      "hash": "0a5f429110102529d3069b0c0b2abfc3e2850c96c36b2a3dc7767e64df6cd701",
+      "originalLanguage": "de",
+      "verbatim": [
+        "Bundesgesetzblatt"
+      ]
+    },
+    "de-wine-monitoring-regulation-2026": {
+      "version": 1,
+      "hash": "537bdd74775d65ffcb698d88ba8ccbcb1300b0bd61bbb9b5fc5d1dbc2a3b07ad",
+      "originalLanguage": "de",
+      "verbatim": [
+        "Bundesgesetzblatt"
       ]
     }
   },
@@ -51386,6 +51498,96 @@
       "hash": "268f8bc833c7b9fc8c13621728e33ee5fd9f144dc1244a8189298a7f7c0f0886",
       "verbatim": [],
       "originalLanguage": "en",
+      "titleIsOriginal": true
+    },
+    "de-20261026-bgbl-275-explained": {
+      "hash": "76dad3abd39491130ff73e4ff0b8fe61e2462724578ec66a0f3149186434b68d",
+      "verbatim": [],
+      "originalLanguage": "de",
+      "titleIsOriginal": true
+    },
+    "de-20261026-bgbl-280-explained": {
+      "hash": "b8111009020336d7016512d4976dd569b972bb0d3aa7e2b35d23c1019563e645",
+      "verbatim": [],
+      "originalLanguage": "de",
+      "titleIsOriginal": true
+    },
+    "de-20261026-bgbl-274-explained": {
+      "hash": "60e11c23e73983201f25796caa18c30015c761dab55d751c51cbe7a2f5b65b43",
+      "verbatim": [],
+      "originalLanguage": "de",
+      "titleIsOriginal": true
+    },
+    "de-20261026-bgbl-268-explained": {
+      "hash": "17c3baacf7a2f0b3544ae759bebf0e30dd9e25d7d849f4e0ce659275752e4fea",
+      "verbatim": [],
+      "originalLanguage": "de",
+      "titleIsOriginal": true
+    },
+    "de-20261026-bgbl-259-explained": {
+      "hash": "11c22e7fe3822e723e5fa85ce9be72d260639ec95793046592a79c35144ff533",
+      "verbatim": [],
+      "originalLanguage": "de",
+      "titleIsOriginal": true
+    },
+    "de-20261026-bgbl-256-explained": {
+      "hash": "abb430679d31f48a240c940e94563ba62b0a5c07aa14fd6aede09c2fff8d32d0",
+      "verbatim": [],
+      "originalLanguage": "de",
+      "titleIsOriginal": true
+    },
+    "de-20261026-bgbl-257-explained": {
+      "hash": "38a338a156a5b6663b5f4af034f2294f666669ccb0945b943229c4eb9f10394c",
+      "verbatim": [],
+      "originalLanguage": "de",
+      "titleIsOriginal": true
+    },
+    "de-20261026-bgbl-254-explained": {
+      "hash": "7235562dff2e58935d85df91c26f5d635447cb07e93bc9118dc295a850176523",
+      "verbatim": [],
+      "originalLanguage": "de",
+      "titleIsOriginal": true
+    },
+    "de-20261026-bgbl-255-explained": {
+      "hash": "7bb637bef5bdf6e2055f4b391986951dfcf63850024b13f3bf8d1f4e8dc60fc8",
+      "verbatim": [],
+      "originalLanguage": "de",
+      "titleIsOriginal": true
+    },
+    "de-20261026-bgbl-250-explained": {
+      "hash": "e3a27e9b1f9d2dbd41790739e3c26182755497dd1c8f5ef87a8e657b3466f1f3",
+      "verbatim": [],
+      "originalLanguage": "de",
+      "titleIsOriginal": true
+    },
+    "de-20261026-bgbl-247-explained": {
+      "hash": "4503a781fc610ebfc149f712783e49c44cf747be6255a3eacd66169152dc5ea9",
+      "verbatim": [],
+      "originalLanguage": "de",
+      "titleIsOriginal": true
+    },
+    "de-20261026-bgbl-244-explained": {
+      "hash": "f4c58e7592d4e8292e5814810970d12867f3915c222719af05e0c069d504583b",
+      "verbatim": [],
+      "originalLanguage": "de",
+      "titleIsOriginal": true
+    },
+    "de-20261026-bgbl-245-explained": {
+      "hash": "8468a83bd6378ea35cb96c06d1a7ae5553b3f3c6f071db8a328c2a76dd265d82",
+      "verbatim": [],
+      "originalLanguage": "de",
+      "titleIsOriginal": true
+    },
+    "de-20261026-bgbl-246-explained": {
+      "hash": "eaf3a312afad715ed3d5c9ce19876d1346acb48e49dc35c1f308e87e57cc8c38",
+      "verbatim": [],
+      "originalLanguage": "de",
+      "titleIsOriginal": true
+    },
+    "de-20261026-bgbl-243-explained": {
+      "hash": "8f140fc3d94a712b561edc8f177098428544582a5377faec5f50405391909bdb",
+      "verbatim": [],
+      "originalLanguage": "de",
       "titleIsOriginal": true
     }
   }

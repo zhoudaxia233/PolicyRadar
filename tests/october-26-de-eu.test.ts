@@ -21,12 +21,18 @@ const explained=(r:any)=>data.policies.some(p=>explainsRecord(p,r))||topics.some
 test('every Part I gazette issue of September is recorded once, with Part II left open',()=>{
  const s=scan('de-20261026-bgbl-2026-09');
  assert.equal(s.status,'partial');assert.equal(s.recordIds.length,39);
- const numbers=s.recordIds.map((id:string)=>data.intake.records.find(r=>r.id===id)!.officialId);
+ // A scanned record may since have been superseded by a corrected row; follow it to the current one.
+ const supersededBy=new Map<string,string>(store.tables.intake.map((r:any)=>JSON.parse(r.data)).filter((d:any)=>d.supersedes).map((d:any)=>[d.supersedes,d.id]));
+ const current=(id:string)=>{while(supersededBy.has(id))id=supersededBy.get(id)!;return data.intake.records.find(r=>r.id===id)!;};
+ const numbers=s.recordIds.map((id:string)=>current(id).officialId);
  assert.deepEqual(numbers,Array.from({length:39},(_,i)=>`BGBl. 2026 I Nr. ${243+i}`));
- for(const r of data.intake.records.filter(r=>s.recordIds.includes(r.id)))assert(r.date>='2026-09-01'&&r.date<='2026-09-30',r.id);
- // 16 issues stay awaiting explanation rather than being dismissed without review.
- const awaiting=data.intake.records.filter(r=>s.recordIds.includes(r.id)&&!explained(r)&&!dismissed.has(r.id)).map(r=>+r.officialId!.split(' ').at(-1)!);
- assert.deepEqual(awaiting,[243,244,245,246,247,250,254,255,256,257,259,268,274,275,280]);
+ const records:ReturnType<typeof current>[]=s.recordIds.map(current);
+ for(const r of records)assert(r.date>='2026-09-01'&&r.date<='2026-09-30',r.id);
+ // The 15 issues left awaiting explanation on 26 October were explained on 28 October, not dismissed.
+ const backlog=[243,244,245,246,247,250,254,255,256,257,259,268,274,275,280];
+ const later=records.filter(r=>backlog.includes(+r.officialId!.split(' ').at(-1)!));
+ assert.equal(later.length,15);
+ assert.deepEqual(later.filter(r=>!explained(r)||dismissed.has(r.id)).map(r=>r.id),[]);
 });
 
 test('e-scooter keeper liability applies only to accidents from 1 October',()=>{

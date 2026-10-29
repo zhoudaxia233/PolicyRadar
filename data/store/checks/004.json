@@ -5794,5 +5794,59 @@
     "snapshot_key": "sources/bf381a01e11b6479efe23bfc7c86329b0e06176a7f6b062154353f9b24487b8c/16177a050676e890b300adaabd87154c252b66ad6a43e711271601756dd9c6a2.html",
     "changed": 0,
     "error": null
+  },
+  {
+    "url": "https://www.recht.bund.de/bgbl/1/2026/70/VO.html",
+    "checked_at": "2026-10-28T22:35:05.546Z",
+    "last_success_at": "2026-10-28T22:35:05.546Z",
+    "hash": "327f66655bb4aaf3911c8e3a9d508f292b24bdcc3af1b943204f826e989339ab",
+    "snapshot_key": "sources/403186ccaffcefd2d4ae66d02976912c93fa4c7e62f74dca3cc896df713b4fff/327f66655bb4aaf3911c8e3a9d508f292b24bdcc3af1b943204f826e989339ab.html",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://www.recht.bund.de/bgbl/1/2026/70/regelungstext.pdf?__blob=publicationFile&v=1",
+    "checked_at": "2026-10-28T22:35:05.811Z",
+    "last_success_at": "2026-10-28T22:35:05.811Z",
+    "hash": "630bc88a7e46e58b357d2a60816e8184cbbe45108c2f506166b6509267843d99",
+    "snapshot_key": "sources/bcdfeb168bb98250f56bd5bde8694bd0247be9afe3e6aa1054d72e78d116d25a/630bc88a7e46e58b357d2a60816e8184cbbe45108c2f506166b6509267843d99.pdf",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://www.recht.bund.de/bgbl/1/2026/113/VO.html",
+    "checked_at": "2026-10-28T22:35:05.941Z",
+    "last_success_at": "2026-10-28T22:35:05.941Z",
+    "hash": "4294a36cbe8ce44332cfef61667f4796d848a3f71999a6927f2282e4294a1ae0",
+    "snapshot_key": "sources/88d320747c1fb47d6832357018c9535d9c84ca3dbcbafbf9df44eeb1c259a0ad/4294a36cbe8ce44332cfef61667f4796d848a3f71999a6927f2282e4294a1ae0.html",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://www.recht.bund.de/bgbl/1/2026/113/regelungstext.pdf?__blob=publicationFile&v=1",
+    "checked_at": "2026-10-28T22:35:06.110Z",
+    "last_success_at": "2026-10-28T22:35:06.110Z",
+    "hash": "c296854a3468c922de62e969ff7cb6c5237db643bd518a3de294ecb52a31a9b0",
+    "snapshot_key": "sources/be9d52dd8444992676a08c7f5bce52b6947a595d526b1c79bab6c68cb0505a76/c296854a3468c922de62e969ff7cb6c5237db643bd518a3de294ecb52a31a9b0.pdf",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://www.recht.bund.de/bgbl/1/2026/114/VO.html",
+    "checked_at": "2026-10-28T22:35:06.158Z",
+    "last_success_at": "2026-10-28T22:35:06.158Z",
+    "hash": "d58ebbdd6f95a2b24c7d25f440a2af1d018248f027bdbbb448d57e5ff31f73a3",
+    "snapshot_key": "sources/27a12f2a87b73fa7566cb896904b0ee1b1ac8f67f7de922893a63e343b2a75b2/d58ebbdd6f95a2b24c7d25f440a2af1d018248f027bdbbb448d57e5ff31f73a3.html",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://www.recht.bund.de/bgbl/1/2026/114/regelungstext.pdf?__blob=publicationFile&v=1",
+    "checked_at": "2026-10-28T22:35:06.182Z",
+    "last_success_at": "2026-10-28T22:35:06.182Z",
+    "hash": "380f817e7580d2fca433c1abe7db51a3404aa73fff36e4718d579c73c52ba1eb",
+    "snapshot_key": "sources/174225848824f96860d95ac07575eefc098139c389cd29500bf2e559231b41f7/380f817e7580d2fca433c1abe7db51a3404aa73fff36e4718d579c73c52ba1eb.pdf",
+    "changed": 0,
+    "error": null
   }
 ]

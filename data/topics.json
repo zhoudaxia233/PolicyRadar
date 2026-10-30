@@ -583,6 +583,11 @@
         {
           "region": "GB",
           "officialId": "S.I. 2026/421"
+        },
+        {
+          "region": "GB",
+          "officialId": "S.I. 2026/325",
+          "appliesFromExport": "2026-10-30T22:34:49.053Z"
         }
       ]
     },
@@ -5908,6 +5913,62 @@
         }
       ],
       "appliesFromExport": "2026-10-30T17:11:49.248Z"
+    },
+    {
+      "id": "es-rent-stability-2026",
+      "title": [
+        "西班牙租约稳定法令",
+        "Spain’s tenancy stability decree-laws"
+      ],
+      "basis": "Decree-law 28/2026 has the same title as decree-law 27/2026, and its preamble says it follows the repeal of 27/2026.",
+      "documents": [
+        {
+          "region": "ES",
+          "officialId": "BOE-A-2026-20822"
+        },
+        {
+          "region": "ES",
+          "officialId": "BOE-A-2026-20385"
+        }
+      ],
+      "appliesFromExport": "2026-10-30T22:34:49.053Z"
+    },
+    {
+      "id": "es-rdl-25-validation-2026",
+      "title": [
+        "第25号法令的确认",
+        "Validation of decree-law 25/2026"
+      ],
+      "basis": "BOE-A-2026-21788 publishes the validation of Royal Decree-law 25/2026 by name.",
+      "documents": [
+        {
+          "region": "ES",
+          "officialId": "BOE-A-2026-21788"
+        }
+      ],
+      "appliesFromExport": "2026-10-30T22:34:49.053Z",
+      "explanations": [
+        "es-rdl-25-2026-casp-aml"
+      ]
+    },
+    {
+      "id": "gb-two-child-limit-2026",
+      "title": [
+        "取消两孩上限",
+        "Removing the two-child limit"
+      ],
+      "basis": "S.I. 2026/316 is named as consequential on removing the two-child limit.",
+      "documents": [
+        {
+          "region": "GB",
+          "officialId": "UKPGA 2026/13"
+        },
+        {
+          "region": "GB",
+          "officialId": "S.I. 2026/316"
+        }
+      ],
+      "appliesFromExport": "2026-10-30T22:34:49.053Z"
     }
   ]
 }

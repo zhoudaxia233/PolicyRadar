@@ -259,7 +259,9 @@
     "组织治理": "government",
     "关税": "tax",
     "武器管制": "foreign",
-    "海外军事部署": "foreign"
+    "海外军事部署": "foreign",
+    "社会福利": "social",
+    "加密资产": "finance"
   },
   "policies": {
     "bb-kita-income-relief-permanent": "social",

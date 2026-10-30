@@ -1,0 +1,43 @@
+{
+  "checkedAt": "2026-10-30T22:39:53.215Z",
+  "asOfDay": "2026-10-31",
+  "scope": "ES",
+  "channels": 2,
+  "incompleteChannels": 2,
+  "gaps": [
+    {
+      "sourceUrl": "https://www.boe.es/diario_boe/",
+      "region": "ES",
+      "title": "西班牙国家公报",
+      "windowStart": "2026-10-24",
+      "windowEnd": "2026-10-30",
+      "missingDays": [
+        "2026-10-24",
+        "2026-10-25",
+        "2026-10-26",
+        "2026-10-27",
+        "2026-10-28",
+        "2026-10-29",
+        "2026-10-30"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.lamoncloa.gob.es/consejodeministros/referencias/paginas/index.aspx",
+      "region": "ES",
+      "title": "西班牙内阁会议公告",
+      "windowStart": "2026-10-24",
+      "windowEnd": "2026-10-30",
+      "missingDays": [
+        "2026-10-24",
+        "2026-10-25",
+        "2026-10-26",
+        "2026-10-27",
+        "2026-10-28",
+        "2026-10-29",
+        "2026-10-30"
+      ],
+      "latestScan": "partial"
+    }
+  ]
+}

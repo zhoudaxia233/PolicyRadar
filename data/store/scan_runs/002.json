@@ -3706,5 +3706,77 @@
     "source_url": "https://mil.brandenburg.de/mil/de/",
     "checked_at": "2026-10-30T17:11:49.248Z",
     "data": "{\"id\":\"de-20261030-state-52\",\"sourceUrl\":\"https://mil.brandenburg.de/mil/de/\",\"checkedAt\":\"2026-10-30T17:11:49.248Z\",\"windowStart\":\"2026-10-23\",\"windowEnd\":\"2026-10-30\",\"status\":\"partial\",\"pages\":[\"https://mil.brandenburg.de/mil/de/\"],\"recordIds\":[],\"excluded\":[],\"allPagesChecked\":false,\"totalListed\":null,\"note\":\"本轮按税务、社保、养老金、住房、移民和加密资产关键词看了列表页中10月23—30日的条目，没有逐条核对，也没有翻页。\"}"
+  },
+  {
+    "id": "all-20261030-boe",
+    "source_url": "https://www.boe.es/diario_boe/",
+    "checked_at": "2026-10-30T22:34:49.053Z",
+    "data": "{\"id\":\"all-20261030-boe\",\"sourceUrl\":\"https://www.boe.es/diario_boe/\",\"checkedAt\":\"2026-10-30T22:34:49.053Z\",\"windowStart\":\"2026-10-07\",\"windowEnd\":\"2026-10-30\",\"status\":\"partial\",\"pages\":[\"https://www.boe.es/boe/dias/2026/10/07/\",\"https://www.boe.es/boe/dias/2026/10/30/\"],\"recordIds\":[\"es-boe-20261030-20822\",\"es-boe-20261030-20823\",\"es-boe-20261030-20824\",\"es-boe-20261030-20825\",\"es-boe-20261030-20908\",\"es-boe-20261030-20909\",\"es-boe-20261030-20910\",\"es-boe-20261030-20911\",\"es-boe-20261030-20912\",\"es-boe-20261030-20913\",\"es-boe-20261030-20914\",\"es-boe-20261030-20915\",\"es-boe-20261030-20916\",\"es-boe-20261030-20917\",\"es-boe-20261030-20976\",\"es-boe-20261030-20977\",\"es-boe-20261030-20978\",\"es-boe-20261030-20979\",\"es-boe-20261030-20980\",\"es-boe-20261030-21097\",\"es-boe-20261030-21098\",\"es-boe-20261030-21099\",\"es-boe-20261030-21100\",\"es-boe-20261030-21251\",\"es-boe-20261030-21252\",\"es-boe-20261030-21253\",\"es-boe-20261030-21254\",\"es-boe-20261030-21317\",\"es-boe-20261030-21318\",\"es-boe-20261030-21319\",\"es-boe-20261030-21445\",\"es-boe-20261030-21446\",\"es-boe-20261030-21447\",\"es-boe-20261030-21448\",\"es-boe-20261030-21449\",\"es-boe-20261030-21450\",\"es-boe-20261030-21451\",\"es-boe-20261030-21452\",\"es-boe-20261030-21453\",\"es-boe-20261030-21454\",\"es-boe-20261030-21455\",\"es-boe-20261030-21525\",\"es-boe-20261030-21526\",\"es-boe-20261030-21527\",\"es-boe-20261030-21528\",\"es-boe-20261030-21619\",\"es-boe-20261030-21620\",\"es-boe-20261030-21621\",\"es-boe-20261030-21622\",\"es-boe-20261030-21623\",\"es-boe-20261030-21668\",\"es-boe-20261030-21669\",\"es-boe-20261030-21787\",\"es-boe-20261030-21788\",\"es-boe-20261030-21789\",\"es-boe-20261030-21790\",\"es-boe-20261030-21791\",\"es-boe-20261030-21872\",\"es-boe-20261030-21873\",\"es-boe-20261030-21874\",\"es-boe-20261030-21875\",\"es-boe-20261030-21876\",\"es-boe-20261030-21944\",\"es-boe-20261030-21945\",\"es-boe-20261030-21946\",\"es-boe-20261030-21947\",\"es-boe-20261030-21948\",\"es-boe-20261030-21949\",\"es-boe-20261030-21950\",\"es-boe-20261030-21951\",\"es-boe-20261030-21952\",\"es-boe-20261030-21953\",\"es-boe-20261030-21954\",\"es-boe-20261030-21955\",\"es-boe-20261030-21956\",\"es-boe-20261030-22079\",\"es-boe-20261030-22080\",\"es-boe-20261030-22081\",\"es-boe-20261030-22082\",\"es-boe-20261030-22083\",\"es-boe-20261030-22229\",\"es-boe-20261030-22608\",\"es-boe-20261030-22609\",\"es-boe-20261030-22610\",\"es-boe-20261030-22611\",\"es-boe-20261030-22612\",\"es-boe-20261030-22613\",\"es-boe-20261030-22614\",\"es-boe-20261030-22615\",\"es-boe-20261030-22616\",\"es-boe-20261030-22617\",\"es-boe-20261030-22618\",\"es-boe-20261030-22619\",\"es-boe-20261030-22620\",\"es-boe-20261030-22716\",\"es-boe-20261030-22717\",\"es-boe-20261030-22718\",\"es-boe-20261030-22719\",\"es-boe-20261030-22720\"],\"excluded\":[],\"allPagesChecked\":false,\"totalListed\":null,\"note\":\"逐日读取10月7—30日公报目录第一部分并登记；10月26、27日该部分为空。其他部分未登记。\"}"
+  },
+  {
+    "id": "all-20261030-moncloa",
+    "source_url": "https://www.lamoncloa.gob.es/consejodeministros/referencias/paginas/index.aspx",
+    "checked_at": "2026-10-30T22:34:49.053Z",
+    "data": "{\"id\":\"all-20261030-moncloa\",\"sourceUrl\":\"https://www.lamoncloa.gob.es/consejodeministros/referencias/paginas/index.aspx\",\"checkedAt\":\"2026-10-30T22:34:49.053Z\",\"windowStart\":\"2026-10-28\",\"windowEnd\":\"2026-10-30\",\"status\":\"partial\",\"pages\":[\"https://www.lamoncloa.gob.es/consejodeministros/referencias/paginas/index.aspx\"],\"recordIds\":[],\"excluded\":[],\"allPagesChecked\":false,\"totalListed\":null,\"note\":\"只打开了索引页，未读内阁通报。\"}"
+  },
+  {
+    "id": "all-20261030-ukleg",
+    "source_url": "https://www.legislation.gov.uk/new",
+    "checked_at": "2026-10-30T22:34:49.053Z",
+    "data": "{\"id\":\"all-20261030-ukleg\",\"sourceUrl\":\"https://www.legislation.gov.uk/new\",\"checkedAt\":\"2026-10-30T22:34:49.053Z\",\"windowStart\":\"2026-09-18\",\"windowEnd\":\"2026-10-30\",\"status\":\"partial\",\"pages\":[\"https://www.legislation.gov.uk/uksi/2026/data.feed\"],\"recordIds\":[\"gb-20261030-uksi-1108\",\"gb-20261030-uksi-1109\",\"gb-20261030-uksi-1111\",\"gb-20261030-uksi-1118\",\"gb-20261030-uksi-1119\",\"gb-20261030-uksi-1120\",\"gb-20261030-uksi-1121\",\"gb-20261030-uksi-1122\",\"gb-20261030-uksi-1123\",\"gb-20261030-uksi-1124\",\"gb-20261030-uksi-1125\",\"gb-20261030-uksi-1126\",\"gb-20261030-uksi-1127\",\"gb-20261030-uksi-1128\",\"gb-20261030-uksi-1129\",\"gb-20261030-uksi-1130\",\"gb-20261030-uksi-1131\",\"gb-20261030-uksi-1132\",\"gb-20261030-uksi-1133\",\"gb-20261030-uksi-1134\",\"gb-20261030-uksi-1135\",\"gb-20261030-uksi-1136\",\"gb-20261030-uksi-1137\",\"gb-20261030-uksi-1138\",\"gb-20261030-uksi-1139\",\"gb-20261030-uksi-1140\",\"gb-20261030-uksi-1141\",\"gb-20261030-uksi-1142\",\"gb-20261030-uksi-1143\",\"gb-20261030-uksi-1146\"],\"excluded\":[],\"allPagesChecked\":false,\"totalListed\":null,\"note\":\"从法规订阅源登记尚未记录的条例，未核对全部页。\"}"
+  },
+  {
+    "id": "all-20261030-gov",
+    "source_url": "https://www.gov.uk/",
+    "checked_at": "2026-10-30T22:34:49.053Z",
+    "data": "{\"id\":\"all-20261030-gov\",\"sourceUrl\":\"https://www.gov.uk/\",\"checkedAt\":\"2026-10-30T22:34:49.053Z\",\"windowStart\":\"2026-10-27\",\"windowEnd\":\"2026-10-30\",\"status\":\"partial\",\"pages\":[\"https://www.gov.uk/api/search.json\"],\"recordIds\":[\"gb-20261030-property-savings-tiin\",\"gb-20261030-badr-tiin\",\"gb-20261030-refugee-sponsors\"],\"excluded\":[],\"allPagesChecked\":false,\"totalListed\":null,\"note\":\"按财政部、税务局、就业养老金部、内政部、住房部看了最新发布；预算当天其余税务文件和统计未登记。\"}"
+  },
+  {
+    "id": "all-20261030-frsp",
+    "source_url": "https://www.service-public.gouv.fr/particuliers/actualites",
+    "checked_at": "2026-10-30T22:34:49.053Z",
+    "data": "{\"id\":\"all-20261030-frsp\",\"sourceUrl\":\"https://www.service-public.gouv.fr/particuliers/actualites\",\"checkedAt\":\"2026-10-30T22:34:49.053Z\",\"windowStart\":\"2026-10-26\",\"windowEnd\":\"2026-10-30\",\"status\":\"partial\",\"pages\":[\"https://www.service-public.gouv.fr/particuliers/actualites/A17785\"],\"recordIds\":[\"fr-20261030-agirc-arrco\"],\"excluded\":[],\"allPagesChecked\":false,\"totalListed\":null,\"note\":\"读了11月变化清单；清单中只解读了补充养老金，其他条目已有解读或未读。\"}"
+  },
+  {
+    "id": "all-20261030-nltk",
+    "source_url": "https://www.tweedekamer.nl/kamerstukken/wetsvoorstellen",
+    "checked_at": "2026-10-30T22:34:49.053Z",
+    "data": "{\"id\":\"all-20261030-nltk\",\"sourceUrl\":\"https://www.tweedekamer.nl/kamerstukken/wetsvoorstellen\",\"checkedAt\":\"2026-10-30T22:34:49.053Z\",\"windowStart\":\"2026-10-28\",\"windowEnd\":\"2026-10-30\",\"status\":\"partial\",\"pages\":[\"https://www.tweedekamer.nl/kamerstukken/wetsvoorstellen\"],\"recordIds\":[],\"excluded\":[],\"allPagesChecked\":false,\"totalListed\":null,\"note\":\"读了七项法案页和三份说明书；新闻页只返回外壳，未读到列表。\"}"
+  },
+  {
+    "id": "all-20261030-ch",
+    "source_url": "https://www.news.admin.ch/de",
+    "checked_at": "2026-10-30T22:34:49.053Z",
+    "data": "{\"id\":\"all-20261030-ch\",\"sourceUrl\":\"https://www.news.admin.ch/de\",\"checkedAt\":\"2026-10-30T22:34:49.053Z\",\"windowStart\":\"2026-10-28\",\"windowEnd\":\"2026-10-30\",\"status\":\"partial\",\"pages\":[\"https://www.news.admin.ch/de/newnsb\"],\"recordIds\":[],\"excluded\":[],\"allPagesChecked\":false,\"totalListed\":null,\"note\":\"渲染后读了10月29—30日标题，没有税务、养老金、住房、移民或加密主题的新措施。其中塔利班制裁清单更新未登记。\"}"
+  },
+  {
+    "id": "all-20261030-it",
+    "source_url": "https://www.governo.it/",
+    "checked_at": "2026-10-30T22:34:49.053Z",
+    "data": "{\"id\":\"all-20261030-it\",\"sourceUrl\":\"https://www.governo.it/\",\"checkedAt\":\"2026-10-30T22:34:49.053Z\",\"windowStart\":\"2026-10-28\",\"windowEnd\":\"2026-10-30\",\"status\":\"partial\",\"pages\":[\"https://www.governo.it/it/notizie-chigi\"],\"recordIds\":[],\"excluded\":[],\"allPagesChecked\":false,\"totalListed\":null,\"note\":\"读了总理府新闻到10月30日，没有新的相关措施；预算法案文本未读。\"}"
+  },
+  {
+    "id": "all-20261030-usfr",
+    "source_url": "https://www.govinfo.gov/app/collection/FR",
+    "checked_at": "2026-10-30T22:34:49.053Z",
+    "data": "{\"id\":\"all-20261030-usfr\",\"sourceUrl\":\"https://www.govinfo.gov/app/collection/FR\",\"checkedAt\":\"2026-10-30T22:34:49.053Z\",\"windowStart\":\"2026-10-26\",\"windowEnd\":\"2026-10-30\",\"status\":\"partial\",\"pages\":[\"https://www.federalregister.gov/api/v1/documents.json\"],\"recordIds\":[],\"excluded\":[],\"allPagesChecked\":false,\"totalListed\":null,\"note\":\"读了10月26—30日规则、拟议规则和总统文件的标题，未登记；住房行政令和风电、加拿大关税已有解读。\"}"
+  },
+  {
+    "id": "all-20261030-irs",
+    "source_url": "https://www.irs.gov/newsroom",
+    "checked_at": "2026-10-30T22:34:49.053Z",
+    "data": "{\"id\":\"all-20261030-irs\",\"sourceUrl\":\"https://www.irs.gov/newsroom\",\"checkedAt\":\"2026-10-30T22:34:49.053Z\",\"windowStart\":\"2026-10-23\",\"windowEnd\":\"2026-10-30\",\"status\":\"partial\",\"pages\":[\"https://www.irs.gov/newsroom/news-releases-for-current-month\"],\"recordIds\":[],\"excluded\":[],\"allPagesChecked\":false,\"totalListed\":null,\"note\":\"最新仍为10月23日的IR-2026-128；2027年通胀调整尚未发布。\"}"
+  },
+  {
+    "id": "all-20261030-de",
+    "source_url": "https://www.bundesfinanzministerium.de/Web/DE/Service/Gesetze_Gesetzesvorhaben/Gesetze_Gesetzgebungsvorhaben.html",
+    "checked_at": "2026-10-30T22:34:49.053Z",
+    "data": "{\"id\":\"all-20261030-de\",\"sourceUrl\":\"https://www.bundesfinanzministerium.de/Web/DE/Service/Gesetze_Gesetzesvorhaben/Gesetze_Gesetzgebungsvorhaben.html\",\"checkedAt\":\"2026-10-30T22:34:49.053Z\",\"windowStart\":\"2026-10-30\",\"windowEnd\":\"2026-10-30\",\"status\":\"partial\",\"pages\":[\"https://www.bundesfinanzministerium.de/Web/DE/Service/Gesetze_Gesetzesvorhaben/Gesetze_Gesetzgebungsvorhaben.html\"],\"recordIds\":[],\"excluded\":[],\"allPagesChecked\":false,\"totalListed\":null,\"note\":\"17时后复查，没有新条目；联邦法律公报第一部分第327号仍为404。\"}"
+  },
+  {
+    "id": "all-20261030-esma",
+    "source_url": "https://www.esma.europa.eu/press-news/esma-news",
+    "checked_at": "2026-10-30T22:34:49.053Z",
+    "data": "{\"id\":\"all-20261030-esma\",\"sourceUrl\":\"https://www.esma.europa.eu/press-news/esma-news\",\"checkedAt\":\"2026-10-30T22:34:49.053Z\",\"windowStart\":\"2026-10-29\",\"windowEnd\":\"2026-10-30\",\"status\":\"partial\",\"pages\":[\"https://www.esma.europa.eu/press-news/esma-news\"],\"recordIds\":[],\"excluded\":[],\"allPagesChecked\":false,\"totalListed\":null,\"note\":\"17时后复查，没有新条目。官方公报本轮未重新核对。\"}"
   }
 ]

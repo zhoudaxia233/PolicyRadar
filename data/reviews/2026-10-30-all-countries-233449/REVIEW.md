@@ -7,7 +7,7 @@ Owner request: update every country, push when done, clear as many records await
 | Change | Count |
 |---|---|
 | New explanations | 16: ES 3, GB 7, NL 3, US 1, FR 1, DE 1 |
-| Revised explanations | 8: es-rdl-25 v1 → v2 (validated); seven elapsed dates cleared |
+| Revised explanations | 9: es-rdl-25 v1 → v2 (validated); eight elapsed dates cleared (FR 4, NL 3, IT 1) |
 | New intake rows | 133: 99 BOE section I, 30 UK SIs (to S.I. 2026/1146), 4 announcements |
 | New scan rows | 12, all partial |
 | New topic groups | 3, plus 1 document added to the Renters' Rights group |

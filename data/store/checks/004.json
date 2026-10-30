@@ -5302,30 +5302,30 @@
   },
   {
     "url": "https://www.recht.bund.de/bgbl/1/2026/324/VO.html",
-    "checked_at": "2026-10-28T20:24:10.057Z",
-    "last_success_at": null,
-    "hash": null,
-    "snapshot_key": null,
+    "checked_at": "2026-10-30T16:50:53.058Z",
+    "last_success_at": "2026-10-30T16:50:53.058Z",
+    "hash": "e63b4c400ba90edb5f95153e6ec044aba4de6d7a7519f94177c2420c50318e9d",
+    "snapshot_key": "sources/a4cc308fc30319157c93873f41c0d4c594071b93125216b8f8dfacd11633adfc/e63b4c400ba90edb5f95153e6ec044aba4de6d7a7519f94177c2420c50318e9d.html",
     "changed": 0,
-    "error": "HTTP 404"
+    "error": null
   },
   {
     "url": "https://www.recht.bund.de/bgbl/1/2026/325/VO.html",
-    "checked_at": "2026-10-28T20:24:10.194Z",
-    "last_success_at": null,
-    "hash": null,
-    "snapshot_key": null,
+    "checked_at": "2026-10-30T16:50:53.058Z",
+    "last_success_at": "2026-10-30T16:50:53.058Z",
+    "hash": "6f53dff7c29b1461d6c87a06b416c53a6209b45b51d8d88da2cae28083bc52cb",
+    "snapshot_key": "sources/1c9795fd9a92cf4e24f71f05be607772e928fb0aa44e39fafb0b059243d0f866/6f53dff7c29b1461d6c87a06b416c53a6209b45b51d8d88da2cae28083bc52cb.html",
     "changed": 0,
-    "error": "HTTP 404"
+    "error": null
   },
   {
     "url": "https://www.recht.bund.de/bgbl/1/2026/326/VO.html",
-    "checked_at": "2026-10-28T20:24:10.331Z",
-    "last_success_at": null,
-    "hash": null,
-    "snapshot_key": null,
+    "checked_at": "2026-10-30T16:50:53.059Z",
+    "last_success_at": "2026-10-30T16:50:53.059Z",
+    "hash": "2b3ed8ed02563b1b8b94b5ae99f0294678796744dfcb33dce791b3b78d1fd873",
+    "snapshot_key": "sources/09511021d5b977ae893823c6905948bf337fd0c1d7436264df683f8438990b57/2b3ed8ed02563b1b8b94b5ae99f0294678796744dfcb33dce791b3b78d1fd873.html",
     "changed": 0,
-    "error": "HTTP 404"
+    "error": null
   },
   {
     "url": "https://www.recht.bund.de/bgbl/2/2026/236/VO.html",
@@ -5846,6 +5846,159 @@
     "last_success_at": "2026-10-28T22:35:06.182Z",
     "hash": "380f817e7580d2fca433c1abe7db51a3404aa73fff36e4718d579c73c52ba1eb",
     "snapshot_key": "sources/174225848824f96860d95ac07575eefc098139c389cd29500bf2e559231b41f7/380f817e7580d2fca433c1abe7db51a3404aa73fff36e4718d579c73c52ba1eb.pdf",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://www.recht.bund.de/bgbl/1/2026/324/regelungstext.pdf?__blob=publicationFile&v=1",
+    "checked_at": "2026-10-30T16:51:15.724Z",
+    "last_success_at": "2026-10-30T16:51:15.724Z",
+    "hash": "555846f8a2cde71d6897d5113c532c655638a63137e43c03aa194a687419125f",
+    "snapshot_key": "sources/820c8a4b244b72573cf18b61454e8e8d2bca7263a61732dcfa4d697255a7232e/555846f8a2cde71d6897d5113c532c655638a63137e43c03aa194a687419125f.pdf",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://www.recht.bund.de/bgbl/1/2026/325/regelungstext.pdf?__blob=publicationFile&v=1",
+    "checked_at": "2026-10-30T16:51:15.752Z",
+    "last_success_at": "2026-10-30T16:51:15.752Z",
+    "hash": "8dc583694229b1af8d7fe6335461c2bdd1e584a15b0abcd00d4c8b35db648cb2",
+    "snapshot_key": "sources/db121c68cb63ae1d65fffc9f416fc4496655d8788562d56764ad6e842c0a96ff/8dc583694229b1af8d7fe6335461c2bdd1e584a15b0abcd00d4c8b35db648cb2.pdf",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://www.recht.bund.de/bgbl/1/2026/326/regelungstext.pdf?__blob=publicationFile&v=1",
+    "checked_at": "2026-10-30T16:51:15.752Z",
+    "last_success_at": "2026-10-30T16:51:15.752Z",
+    "hash": "28ae5c34a7be6f348ed324b933e3203d00c13e7e7810626bf60cd79d37a9bc7f",
+    "snapshot_key": "sources/87c1e338f4221ac0f815c96eebed1e8c386d4979da071c1a02dde5521238c7e1/28ae5c34a7be6f348ed324b933e3203d00c13e7e7810626bf60cd79d37a9bc7f.pdf",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://wirtschaft.hessen.de/sites/wirtschaft.hessen.de/files/2026-09/2026_gewos_hessen_angespannte_wohnungsmaerkte_ergebnisbericht_final_0.pdf",
+    "checked_at": "2026-10-30T16:56:40.108Z",
+    "last_success_at": "2026-10-30T16:56:40.108Z",
+    "hash": "2bc41bf06b6464545a5c6684563fe950e447dec8640b79545b125c0ad4884107",
+    "snapshot_key": "sources/462acb82d752a7e2f03ac3e58050d1c11a8c0ce64941f09be49a981376b0aedf/2bc41bf06b6464545a5c6684563fe950e447dec8640b79545b125c0ad4884107.pdf",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://www.bundesgesundheitsministerium.de/presse/pressemitteilungen/zusatzbeitragssatz-gkv-2027-festgelegt",
+    "checked_at": "2026-10-30T16:52:57.584Z",
+    "last_success_at": "2026-10-30T16:52:57.584Z",
+    "hash": "de152437a5ce22c3dcfcca517c396957f88dd0c1beefea5794bb7b33200767cd",
+    "snapshot_key": "sources/11a82e7e03616f3f4468846396c3fa216f28a24948952704e23ba2487270bef6/de152437a5ce22c3dcfcca517c396957f88dd0c1beefea5794bb7b33200767cd.html",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://www.bundesfinanzministerium.de/Content/DE/Gesetzestexte/Gesetze_Gesetzesvorhaben/Abteilungen/Abteilung_VII/21_Legislaturperiode/2026-10-28-E6EUGWRL/0-Gesetz.html",
+    "checked_at": "2026-10-30T16:52:00.151Z",
+    "last_success_at": "2026-10-30T16:52:00.151Z",
+    "hash": "f2006e7236660fd91bf0efbee57c2e7fc522d9fc087f04c3f9ff3afd227d442b",
+    "snapshot_key": "sources/41674b8764f4310ca7ded3a3b84ebbf61d546c4ba59503a9e45c92a5d4af87a1/f2006e7236660fd91bf0efbee57c2e7fc522d9fc087f04c3f9ff3afd227d442b.html",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://www.bundesfinanzministerium.de/Content/DE/Gesetzestexte/Gesetze_Gesetzesvorhaben/Abteilungen/Abteilung_VII/21_Legislaturperiode/2026-10-28-E6EUGWRL/1-Referentenentwurf.pdf?__blob=publicationFile&v=3",
+    "checked_at": "2026-10-30T16:53:09.822Z",
+    "last_success_at": "2026-10-30T16:53:09.822Z",
+    "hash": "7bf2b6f430abd7b89ffcb2cd908e57130b6e8dc37f311f0d7d3bd5bb9a3e1f5c",
+    "snapshot_key": "sources/2fbced2b5217f1518d07fcd52cec9d4e97ce3c2c815e76541d0f9666c0e9f596/7bf2b6f430abd7b89ffcb2cd908e57130b6e8dc37f311f0d7d3bd5bb9a3e1f5c.pdf",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://www.bundesfinanzministerium.de/Content/DE/Gesetzestexte/Gesetze_Gesetzesvorhaben/Abteilungen/Abteilung_VII/21_Legislaturperiode/2026-10-28-E6EUGWRL/Stellungnahme-00-anschreiben.pdf?__blob=publicationFile&v=3",
+    "checked_at": "2026-10-30T16:53:51.797Z",
+    "last_success_at": "2026-10-30T16:53:51.797Z",
+    "hash": "5a5808f85c61401143c4fa565774f45eb4800a8d96df3bdd5ffebeca85e2db9b",
+    "snapshot_key": "sources/26bf0818344eb5b738ed9c327f4a448f247a0b132b0ccaf513dcb32dd98621f6/5a5808f85c61401143c4fa565774f45eb4800a8d96df3bdd5ffebeca85e2db9b.pdf",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://www.gesetze-im-internet.de/gwg_2017/__16a.html",
+    "checked_at": "2026-10-30T17:01:14.355Z",
+    "last_success_at": "2026-10-30T17:01:14.355Z",
+    "hash": "f50731c9a5cbd4ec6eeecbb13103a3bba986f02962c0bb3f501b5fa112df5f53",
+    "snapshot_key": "sources/dda597a37907feefa3c99dd568642dabbc2b8c0ecd7b84196d39a96a028eef10/f50731c9a5cbd4ec6eeecbb13103a3bba986f02962c0bb3f501b5fa112df5f53.html",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://www.bundesfinanzministerium.de/Content/DE/Pressemitteilungen/Finanzpolitik/2026/09/2026-09-23-digitale-belege-und-digitale-kassen.html",
+    "checked_at": "2026-10-30T16:57:52.082Z",
+    "last_success_at": "2026-10-30T16:57:52.082Z",
+    "hash": "cc1d464a5035ad5ddd67d247351a7ad35a4f4d151f23db7c81ee4a095d881761",
+    "snapshot_key": "sources/5386013b21ce7a908984bc5c2da82f25c83c69a35593a0fe50f1714d298212fe/cc1d464a5035ad5ddd67d247351a7ad35a4f4d151f23db7c81ee4a095d881761.html",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://www.bundestag.de/resource/blob/473452/Tagesordnung-komplett.pdf",
+    "checked_at": "2026-10-30T16:53:09.803Z",
+    "last_success_at": "2026-10-30T16:53:09.803Z",
+    "hash": "b3bc8cdb7f6b6135cd714aad150bc0ee11c560ba127fcaa5392ba11831e12ec6",
+    "snapshot_key": "sources/891580b397a6639ad9a5459598da93d9f0c0c173d49b59ff4fbd4937e995936e/b3bc8cdb7f6b6135cd714aad150bc0ee11c560ba127fcaa5392ba11831e12ec6.pdf",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://verkuendung.hessen.de/uebersicht-der-gesetz-und-verordnungsblaetter-fuer-das-land-hessen-gvbl/gvbl-2026-nr00063",
+    "checked_at": "2026-10-30T16:56:49.711Z",
+    "last_success_at": "2026-10-30T16:56:49.711Z",
+    "hash": "f3a212728b9e0c752a17cde76e4fa398f82eee500a33b8bce784dd7cc96043eb",
+    "snapshot_key": "sources/cb767fd886e67cf2a3d0e632f8155864f11155b77292344bee139909ffeaa3bb/f3a212728b9e0c752a17cde76e4fa398f82eee500a33b8bce784dd7cc96043eb.html",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://verkuendung.hessen.de/sites/verkuendung.hessen.de/files/veroeffentlichungsplattform_plugin/published/1531/GVBl_2026_Nr_63_Regelungstext.pdf",
+    "checked_at": "2026-10-30T16:56:59.644Z",
+    "last_success_at": "2026-10-30T16:56:59.644Z",
+    "hash": "bf6a518f1ad836a4999d00b4edb5d32513d316519803ae1c2b1b2eeefcecf384",
+    "snapshot_key": "sources/910a737ec9b6340fb5846354033f23ac39f5879ffccf766151e00c6e8f438c00/bf6a518f1ad836a4999d00b4edb5d32513d316519803ae1c2b1b2eeefcecf384.pdf",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://publications.europa.eu/resource/cellar/bfe63ece-d339-11f1-9458-01aa75ed71a1.0006.03/DOC_1",
+    "checked_at": "2026-10-30T16:59:52.042Z",
+    "last_success_at": "2026-10-30T16:59:52.042Z",
+    "hash": "df52a665635815b1203941cf6f7c3a83212e35da3a31dfaf8d94aef42a6d0f6c",
+    "snapshot_key": "sources/1fa9f29853b43410c6409bb183af238bdb531d02a4c7bfb61873247f5f2f07d3/df52a665635815b1203941cf6f7c3a83212e35da3a31dfaf8d94aef42a6d0f6c.html",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://publications.europa.eu/resource/cellar/5cc94331-d403-11f1-9458-01aa75ed71a1.0006.03/DOC_1",
+    "checked_at": "2026-10-30T16:59:52.019Z",
+    "last_success_at": "2026-10-30T16:59:52.019Z",
+    "hash": "66c3fe18ebc98531171cc6f227b7003c19fa0260754dcce4dccfe814ede70cbb",
+    "snapshot_key": "sources/bf7383eade1f92163beadf8ac7cb8c82e480b840db049a927810fbc7ae5bc281/66c3fe18ebc98531171cc6f227b7003c19fa0260754dcce4dccfe814ede70cbb.html",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://publications.europa.eu/resource/cellar/b3db5c06-d339-11f1-9458-01aa75ed71a1.0006.03/DOC_1",
+    "checked_at": "2026-10-30T16:59:52.043Z",
+    "last_success_at": "2026-10-30T16:59:52.043Z",
+    "hash": "4ad0b017fa9e50ddf4d205237c07a8624ce38b3e22d093097451681d1a6b5e47",
+    "snapshot_key": "sources/adc53cdada45a06b4df005c23310c272ca3c376374b72efbd0129fa44a39e305/4ad0b017fa9e50ddf4d205237c07a8624ce38b3e22d093097451681d1a6b5e47.html",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://publications.europa.eu/resource/cellar/7f0c63c8-ae8f-11f0-89c6-01aa75ed71a1.0001.03/DOC_2",
+    "checked_at": "2026-10-30T17:09:06.026Z",
+    "last_success_at": "2026-10-30T17:09:06.026Z",
+    "hash": "4ffcf6ea3f5f1167292575f9cc24d02a6fbde52dda575a1090ddd154af6383a0",
+    "snapshot_key": "sources/dd8bac48d41fbc9077a2f3abc4d28f4b20a3c0c0ed7dae7315f6f97172b021af/4ffcf6ea3f5f1167292575f9cc24d02a6fbde52dda575a1090ddd154af6383a0.html",
     "changed": 0,
     "error": null
   }

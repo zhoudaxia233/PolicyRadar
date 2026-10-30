@@ -5332,6 +5332,11 @@
         {
           "region": "EU",
           "officialId": "OJ:L_202602152"
+        },
+        {
+          "region": "EU",
+          "officialId": "OJ:L_202602403",
+          "appliesFromExport": "2026-10-30T17:11:49.248Z"
         }
       ],
       "appliesFromExport": "2026-10-23T18:23:05.829Z"
@@ -5795,6 +5800,114 @@
         }
       ],
       "appliesFromExport": "2026-10-28T22:41:46.310Z"
+    },
+    {
+      "id": "de-benefits-in-kind-values-2027",
+      "title": [
+        "2027年社保实物计费价值",
+        "2027 social-insurance values for benefits in kind"
+      ],
+      "basis": "BGBl. 2026 I No. 324 is the published Seventeenth Regulation amending the Social Insurance Remuneration Regulation, whose draft BR-Drs. 503/26 is explained in de-benefits-in-kind-values-2027; both carry the same title.",
+      "documents": [
+        {
+          "region": "DE",
+          "officialId": "BR-Drs. 503/26"
+        },
+        {
+          "region": "DE",
+          "officialId": "BGBl. 2026 I Nr. 324"
+        }
+      ],
+      "appliesFromExport": "2026-10-30T17:11:49.248Z"
+    },
+    {
+      "id": "de-foreign-health-qualifications-2026",
+      "title": [
+        "加快外国医疗职业资格认可",
+        "Faster recognition of foreign health qualifications"
+      ],
+      "basis": "BGBl. 2026 I No. 326 is the published regulation of the same title whose draft BR-Drs. 504/26 is explained in de-foreign-health-qualifications-2026.",
+      "documents": [
+        {
+          "region": "DE",
+          "officialId": "BR-Drs. 504/26"
+        },
+        {
+          "region": "DE",
+          "officialId": "BGBl. 2026 I Nr. 326"
+        }
+      ],
+      "appliesFromExport": "2026-10-30T17:11:49.248Z"
+    },
+    {
+      "id": "he-rent-protection-2026-plan",
+      "title": [
+        "黑森租户保护条例到期与重新制定",
+        "Hessen Tenant Protection Ordinance: expiry and replacement"
+      ],
+      "basis": "The ministry page on the Tenant Protection Ordinance describes the planned replacement of the ordinance explained in he-rent-protection-2025.",
+      "explanations": [
+        "he-rent-protection-2025"
+      ],
+      "documents": [
+        {
+          "region": "DE-HE",
+          "url": "https://wirtschaft.hessen.de/wohnen-und-bauen/wohnungsrecht/mieterschutzverordnung",
+          "title": "Geplante Neufassung der Mieterschutzverordnung"
+        }
+      ],
+      "appliesFromExport": "2026-10-30T17:11:49.248Z"
+    },
+    {
+      "id": "de-ukraine-tax-treaty-2026",
+      "title": [
+        "德国与乌克兰新税收协定",
+        "New Germany-Ukraine tax treaty"
+      ],
+      "basis": "Bundestag document 21/8245 is the ratification bill for the treaty of 19 May 2026 explained in de-ukraine-tax-treaty-2026 (BR-Drs. 510/26).",
+      "explanations": [
+        "de-ukraine-tax-treaty-2026"
+      ],
+      "documents": [
+        {
+          "region": "DE",
+          "officialId": "BT-Drs. 21/8245"
+        }
+      ],
+      "appliesFromExport": "2026-10-30T17:11:49.248Z"
+    },
+    {
+      "id": "de-albania-tax-protocol-2026",
+      "title": [
+        "德国与阿尔巴尼亚税收协定议定书",
+        "Germany-Albania tax treaty protocol"
+      ],
+      "basis": "Bundestag document 21/8244 is the ratification bill for the protocol of 9 June 2026 explained in de-albania-tax-protocol-2026 (BR-Drs. 511/26).",
+      "explanations": [
+        "de-albania-tax-protocol-2026"
+      ],
+      "documents": [
+        {
+          "region": "DE",
+          "officialId": "BT-Drs. 21/8244"
+        }
+      ],
+      "appliesFromExport": "2026-10-30T17:11:49.248Z"
+    },
+    {
+      "id": "de-cash-register-digital-receipts-2028",
+      "title": [
+        "数字小票和电子收银草案",
+        "Digital receipts and electronic tills bill"
+      ],
+      "basis": "The finance ministry release of 23 September announces the cabinet bill whose first reading is item 28 of the Bundestag agenda for 6 November; the titles match.",
+      "documents": [
+        {
+          "region": "DE",
+          "officialId": "Zweites Kassengesetz (Kabinett 2026-09-23)"
+        }
+      ],
+      "appliesFromExport": "2026-10-30T17:11:49.248Z"
     }
   ]
 }

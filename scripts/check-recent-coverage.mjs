@@ -11,10 +11,10 @@ const data=readExport(selected);
 // Use the maintained registry, so channels absent from old exports remain gaps.
 const registry=registrySchema.parse(JSON.parse(await readFile('data/discovery-registry.json','utf8')));
 if(region&&!registry.some(s=>s.region===region))throw Error('Unknown monitoring region');
-const today=berlinDate();
-const sources=discoveryForYear(Number(today.slice(0,4)),registry).filter(s=>!region||s.region===region);
-const rows=recentCoverage(sources,data.tables.scan_runs.map(r=>JSON.parse(r.data)),today);
+const now=new Date();
+const sources=discoveryForYear(Number(berlinDate(now).slice(0,4)),registry).filter(s=>!region||s.region===region);
+const rows=recentCoverage(sources,data.tables.scan_runs.map(r=>JSON.parse(r.data)),now);
 const gaps=rows.filter(r=>r.missingDays.length);
-console.log(JSON.stringify({checkedAt:new Date().toISOString(),scope:region??'all',channels:rows.length,incompleteChannels:gaps.length,gaps},null,2));
+console.log(JSON.stringify({checkedAt:now.toISOString(),scope:region??'all',channels:rows.length,incompleteChannels:gaps.length,gaps},null,2));
 // Operational alarm, not a publication veto: preserve useful partial updates.
 if(gaps.length)process.exitCode=2;

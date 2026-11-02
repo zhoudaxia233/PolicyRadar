@@ -3778,5 +3778,425 @@
     "source_url": "https://www.esma.europa.eu/press-news/esma-news",
     "checked_at": "2026-10-30T22:34:49.053Z",
     "data": "{\"id\":\"all-20261030-esma\",\"sourceUrl\":\"https://www.esma.europa.eu/press-news/esma-news\",\"checkedAt\":\"2026-10-30T22:34:49.053Z\",\"windowStart\":\"2026-10-29\",\"windowEnd\":\"2026-10-30\",\"status\":\"partial\",\"pages\":[\"https://www.esma.europa.eu/press-news/esma-news\"],\"recordIds\":[],\"excluded\":[],\"allPagesChecked\":false,\"totalListed\":null,\"note\":\"17时后复查，没有新条目。官方公报本轮未重新核对。\"}"
+  },
+  {
+    "id": "de-20261102-bgbl-1022",
+    "source_url": "https://www.recht.bund.de/de/home/home_node.html",
+    "checked_at": "2026-11-02T21:27:52.633Z",
+    "data": "{\"allPagesChecked\":false,\"totalListed\":null,\"excluded\":[],\"id\":\"de-20261102-bgbl-1022\",\"sourceUrl\":\"https://www.recht.bund.de/de/home/home_node.html\",\"windowStart\":\"2026-10-22\",\"windowEnd\":\"2026-10-22\",\"status\":\"partial\",\"pages\":[\"https://www.recht.bund.de/bgbl/2/2026/234/VO.html\",\"https://www.recht.bund.de/bgbl/2/2026/235/VO.html\"],\"recordIds\":[\"de-20261102-bgbl2-234\",\"de-20261102-bgbl2-235\"],\"note\":\"核对第二部分期号时发现10月22日第234、235期此前未登记，本轮补登；10月22日其余期次没有重新核对。\",\"checkedAt\":\"2026-11-02T21:27:52.633Z\"}"
+  },
+  {
+    "id": "de-20261102-bgbl-1026-1029",
+    "source_url": "https://www.recht.bund.de/de/home/home_node.html",
+    "checked_at": "2026-11-02T21:27:52.633Z",
+    "data": "{\"allPagesChecked\":true,\"totalListed\":12,\"excluded\":[],\"id\":\"de-20261102-bgbl-1026-1029\",\"sourceUrl\":\"https://www.recht.bund.de/de/home/home_node.html\",\"windowStart\":\"2026-10-26\",\"windowEnd\":\"2026-10-29\",\"status\":\"complete\",\"pages\":[\"https://www.recht.bund.de/de/home/home_node.html\",\"https://www.recht.bund.de/bgbl/2/2026/235/VO.html\"],\"recordIds\":[\"de-20261028-bgbl-318\",\"de-20261028-bgbl-319\",\"de-20261028-bgbl-320\",\"de-20261028-bgbl-321\",\"de-20261028-bgbl-322\",\"de-20261028-bgbl-323\",\"de-20261030-bgbl-324\",\"de-20261030-bgbl-325\",\"de-20261028-bgbl-2-236\",\"de-20261028-bgbl-2-237\",\"de-20261028-bgbl-2-238\",\"de-20261028-bgbl-2-239\"],\"note\":\"按期号连续性闭合：第一部分第317期为10月23日、第318至322期为10月27日、第323期为10月28日、第324和325期为10月29日、第326期为10月30日；第二部分第235期为10月22日、第236至239期为10月28日，第240期返回404。10月26日没有发布。12期均已登记。\",\"checkedAt\":\"2026-11-02T21:27:52.633Z\"}"
+  },
+  {
+    "id": "de-20261102-bgbl-1030-1101",
+    "source_url": "https://www.recht.bund.de/de/home/home_node.html",
+    "checked_at": "2026-11-02T21:27:52.633Z",
+    "data": "{\"allPagesChecked\":true,\"totalListed\":1,\"excluded\":[],\"id\":\"de-20261102-bgbl-1030-1101\",\"sourceUrl\":\"https://www.recht.bund.de/de/home/home_node.html\",\"windowStart\":\"2026-10-30\",\"windowEnd\":\"2026-11-01\",\"status\":\"complete\",\"pages\":[\"https://www.recht.bund.de/de/home/home_node.html\"],\"recordIds\":[\"de-20261030-bgbl-326\"],\"note\":\"首页按日期列出最新各期：10月30日只有第一部分第326期（已登记），10月31日和11月1日没有发布；第二部分最新仍是第239期（10月28日）。\",\"checkedAt\":\"2026-11-02T21:27:52.633Z\"}"
+  },
+  {
+    "id": "de-20261102-bgbl-1102",
+    "source_url": "https://www.recht.bund.de/de/home/home_node.html",
+    "checked_at": "2026-11-02T21:27:52.633Z",
+    "data": "{\"allPagesChecked\":false,\"totalListed\":null,\"excluded\":[],\"id\":\"de-20261102-bgbl-1102\",\"sourceUrl\":\"https://www.recht.bund.de/de/home/home_node.html\",\"windowStart\":\"2026-11-02\",\"windowEnd\":\"2026-11-02\",\"status\":\"partial\",\"pages\":[\"https://www.recht.bund.de/de/home/home_node.html\",\"https://www.recht.bund.de/bgbl/1/2026/327/VO.html\"],\"recordIds\":[\"de-20261102-bgbl-327\"],\"note\":\"今天（未结束）：第一部分第327期是对第260期的更正；第328期返回404。\",\"checkedAt\":\"2026-11-02T21:27:52.633Z\"}"
+  },
+  {
+    "id": "de-20261102-bundestag-agenda",
+    "source_url": "https://www.bundestag.de/dokumente/parlamentsdokumentation",
+    "checked_at": "2026-11-02T21:27:52.633Z",
+    "data": "{\"allPagesChecked\":false,\"totalListed\":null,\"excluded\":[],\"id\":\"de-20261102-bundestag-agenda\",\"sourceUrl\":\"https://www.bundestag.de/dokumente/parlamentsdokumentation\",\"windowStart\":\"2026-10-30\",\"windowEnd\":\"2026-11-02\",\"status\":\"partial\",\"pages\":[\"https://www.bundestag.de/resource/blob/473452/Tagesordnung-komplett.pdf\",\"https://dserver.bundestag.de/btd/21/086/2108637.pdf\"],\"recordIds\":[],\"note\":\"第104—106次会议议程11月2日13:45版与10月30日版逐项比对：新增与本人关注领域相关的只有AfD税务动议21/8637（10月15日印发，已另行登记）；其余新增是卫生、刑法、驾校和动物保护等议题，删去一项强迫婚姻动议。\",\"checkedAt\":\"2026-11-02T21:27:52.633Z\"}"
+  },
+  {
+    "id": "de-20261102-textarchiv",
+    "source_url": "https://www.bundestag.de/dokumente/textarchiv",
+    "checked_at": "2026-11-02T21:27:52.633Z",
+    "data": "{\"allPagesChecked\":false,\"totalListed\":null,\"excluded\":[],\"id\":\"de-20261102-textarchiv\",\"sourceUrl\":\"https://www.bundestag.de/dokumente/textarchiv\",\"windowStart\":\"2026-10-30\",\"windowEnd\":\"2026-11-02\",\"status\":\"partial\",\"pages\":[\"https://www.bundestag.de/dokumente/textarchiv\"],\"recordIds\":[],\"note\":\"本周无全会；文本档案首页没有新的第45周预告页。\",\"checkedAt\":\"2026-11-02T21:27:52.633Z\"}"
+  },
+  {
+    "id": "de-20261102-cabinet",
+    "source_url": "https://www.bundesregierung.de/breg-de/bundesregierung/kabinettsthemen",
+    "checked_at": "2026-11-02T21:27:52.633Z",
+    "data": "{\"allPagesChecked\":false,\"totalListed\":null,\"excluded\":[],\"id\":\"de-20261102-cabinet\",\"sourceUrl\":\"https://www.bundesregierung.de/breg-de/bundesregierung/kabinettsthemen\",\"windowStart\":\"2026-10-30\",\"windowEnd\":\"2026-11-02\",\"status\":\"partial\",\"pages\":[\"https://www.bundesregierung.de/breg-de/bundesregierung/kabinettsthemen\"],\"recordIds\":[],\"note\":\"10月30日至11月2日没有内阁会议；结果页最新仍是10月28日第63次会议。\",\"checkedAt\":\"2026-11-02T21:27:52.633Z\"}"
+  },
+  {
+    "id": "de-20261102-bundesrat",
+    "source_url": "https://www.bundesrat.de/DE/plenum/plenum-node.html",
+    "checked_at": "2026-11-02T21:27:52.633Z",
+    "data": "{\"allPagesChecked\":false,\"totalListed\":null,\"excluded\":[],\"id\":\"de-20261102-bundesrat\",\"sourceUrl\":\"https://www.bundesrat.de/DE/plenum/plenum-node.html\",\"windowStart\":\"2026-10-30\",\"windowEnd\":\"2026-11-02\",\"status\":\"partial\",\"pages\":[\"https://www.bundesrat.de/DE/plenum/plenum-node.html\",\"https://www.bundesrat.de/DE/plenum/to-plenum/to-plenum-node.html\"],\"recordIds\":[],\"note\":\"下一次全会议程仍未公布。\",\"checkedAt\":\"2026-11-02T21:27:52.633Z\"}"
+  },
+  {
+    "id": "de-20261102-bmf",
+    "source_url": "https://www.bundesfinanzministerium.de/Web/DE/Service/Gesetze_Gesetzesvorhaben/Gesetze_Gesetzgebungsvorhaben.html",
+    "checked_at": "2026-11-02T21:27:52.633Z",
+    "data": "{\"allPagesChecked\":false,\"totalListed\":null,\"excluded\":[{\"url\":\"https://www.bundesfinanzministerium.de/Content/DE/Downloads/BMF_Schreiben/Steuerarten/Umsatzsteuer/Umsatzsteuer-Umrechnungskurse/2026-11-02-umsatzsteuer-umrechnungskurse-2026.html\",\"reason\":\"每月公布的增值税外币折算汇率，只是参考数据。\"}],\"id\":\"de-20261102-bmf\",\"sourceUrl\":\"https://www.bundesfinanzministerium.de/Web/DE/Service/Gesetze_Gesetzesvorhaben/Gesetze_Gesetzgebungsvorhaben.html\",\"windowStart\":\"2026-10-30\",\"windowEnd\":\"2026-11-02\",\"status\":\"partial\",\"pages\":[\"https://www.bundesfinanzministerium.de/Web/DE/Service/Gesetze_Gesetzesvorhaben/Gesetze_Gesetzgebungsvorhaben.html\",\"https://www.bundesfinanzministerium.de/Web/DE/Presse/Pressemitteilungen/pressemitteilungen.html\"],\"recordIds\":[],\"note\":\"新闻稿最新仍是10月22日；法律目录没有新条目。\",\"checkedAt\":\"2026-11-02T21:27:52.633Z\"}"
+  },
+  {
+    "id": "de-20261102-bmas",
+    "source_url": "https://www.bmas.de/DE/Service/Presse/Pressemitteilungen/pressemitteilungen.html",
+    "checked_at": "2026-11-02T21:27:52.633Z",
+    "data": "{\"allPagesChecked\":false,\"totalListed\":null,\"excluded\":[{\"url\":\"https://www.bmas.de/DE/Service/Presse/Aktuelles/aktuelles.html\",\"reason\":\"10月30日月度就业数据和11月2日暴力受害者补偿宣传活动：不改变规则。\"}],\"id\":\"de-20261102-bmas\",\"sourceUrl\":\"https://www.bmas.de/DE/Service/Presse/Pressemitteilungen/pressemitteilungen.html\",\"windowStart\":\"2026-10-30\",\"windowEnd\":\"2026-11-02\",\"status\":\"partial\",\"pages\":[\"https://www.bmas.de/DE/Service/Presse/Pressemitteilungen/pressemitteilungen.html\",\"https://www.bmas.de/DE/Service/Presse/Aktuelles/aktuelles.html\"],\"recordIds\":[],\"note\":\"没有新的法规或草案。\",\"checkedAt\":\"2026-11-02T21:27:52.633Z\"}"
+  },
+  {
+    "id": "de-20261102-bmg",
+    "source_url": "https://www.bundesgesundheitsministerium.de/suche-pressemitteilungen",
+    "checked_at": "2026-11-02T21:27:52.633Z",
+    "data": "{\"allPagesChecked\":false,\"totalListed\":null,\"excluded\":[],\"id\":\"de-20261102-bmg\",\"sourceUrl\":\"https://www.bundesgesundheitsministerium.de/suche-pressemitteilungen\",\"windowStart\":\"2026-10-30\",\"windowEnd\":\"2026-11-02\",\"status\":\"partial\",\"pages\":[\"https://www.bundesgesundheitsministerium.de/presse/pressemitteilungen\"],\"recordIds\":[],\"note\":\"10月30日只有2027年平均附加费率（已解读）。\",\"checkedAt\":\"2026-11-02T21:27:52.633Z\"}"
+  },
+  {
+    "id": "eu-oj-20261102-1030",
+    "source_url": "https://eur-lex.europa.eu/oj/direct-access.html",
+    "checked_at": "2026-11-02T21:27:52.633Z",
+    "data": "{\"allPagesChecked\":true,\"totalListed\":40,\"excluded\":[],\"id\":\"eu-oj-20261102-1030\",\"sourceUrl\":\"https://eur-lex.europa.eu/oj/direct-access.html\",\"windowStart\":\"2026-10-30\",\"windowEnd\":\"2026-10-30\",\"status\":\"complete\",\"pages\":[\"https://eur-lex.europa.eu/oj/daily-view/L-series/default.html?ojDate=30102026\",\"https://eur-lex.europa.eu/oj/daily-view/C-series/default.html?ojDate=30102026\"],\"recordIds\":[\"eu-oj-l-202602450\",\"eu-oj-l-202601829\",\"eu-oj-l-202602399\",\"eu-oj-l-202602400\",\"eu-oj-l-202602408\",\"eu-oj-l-202602163\",\"eu-oj-l-202602391\",\"eu-oj-l-202602393\",\"eu-oj-l-202602396\",\"eu-oj-l-202602449\",\"eu-oj-l-202602458\",\"eu-oj-l-202602471\",\"eu-oj-l-202602472\",\"eu-oj-l-202602410\",\"eu-oj-l-202602407\",\"eu-oj-l-202690926\",\"eu-oj-l-202690931\",\"eu-oj-l-202690939\",\"eu-oj-c-202605766\",\"eu-oj-c-202605633\",\"eu-oj-c-202605765\",\"eu-oj-c-202605776\",\"eu-oj-c-202605777\",\"eu-oj-c-202605768\",\"eu-oj-c-202605172\",\"eu-oj-c-202605266\",\"eu-oj-c-202605178\",\"eu-oj-c-202605771\",\"eu-oj-c-202605632\",\"eu-oj-c-202605041\",\"eu-oj-c-202605249\",\"eu-oj-c-202605785\",\"eu-oj-c-202605786\",\"eu-oj-c-202605566\",\"eu-oj-c-202605780\",\"eu-oj-c-202605716\",\"eu-oj-c-202605722\",\"eu-oj-c-202605763\",\"eu-oj-c-202605718\",\"eu-oj-c-202605719\"],\"note\":\"10月30日公报最终为L系列18项、C系列22项，与上次登记的40项一致，现已闭合。\",\"checkedAt\":\"2026-11-02T21:27:52.633Z\"}"
+  },
+  {
+    "id": "eu-oj-20261102-1031-1102",
+    "source_url": "https://eur-lex.europa.eu/oj/direct-access.html",
+    "checked_at": "2026-11-02T21:27:52.633Z",
+    "data": "{\"allPagesChecked\":false,\"totalListed\":null,\"excluded\":[],\"id\":\"eu-oj-20261102-1031-1102\",\"sourceUrl\":\"https://eur-lex.europa.eu/oj/direct-access.html\",\"windowStart\":\"2026-10-31\",\"windowEnd\":\"2026-11-02\",\"status\":\"partial\",\"pages\":[\"https://eur-lex.europa.eu/oj/daily-view/L-series/default.html?ojDate=02112026\",\"https://eur-lex.europa.eu/oj/daily-view/C-series/default.html?ojDate=02112026\"],\"recordIds\":[],\"note\":\"请求10月31日至11月2日的日视图，页面都显示10月30日一期，未见更新的公报；没有据此把这几天标为完整。\",\"checkedAt\":\"2026-11-02T21:27:52.633Z\"}"
+  },
+  {
+    "id": "eu-20261102-esma",
+    "source_url": "https://www.esma.europa.eu/press-news/esma-news",
+    "checked_at": "2026-11-02T21:27:52.633Z",
+    "data": "{\"allPagesChecked\":false,\"totalListed\":null,\"excluded\":[],\"id\":\"eu-20261102-esma\",\"sourceUrl\":\"https://www.esma.europa.eu/press-news/esma-news\",\"windowStart\":\"2026-10-30\",\"windowEnd\":\"2026-11-02\",\"status\":\"partial\",\"pages\":[\"https://www.esma.europa.eu/press-news/esma-news\"],\"recordIds\":[],\"note\":\"最新仍是10月29日。\",\"checkedAt\":\"2026-11-02T21:27:52.633Z\"}"
+  },
+  {
+    "id": "eu-20261102-taxud",
+    "source_url": "https://taxation-customs.ec.europa.eu/news_en",
+    "checked_at": "2026-11-02T21:27:52.633Z",
+    "data": "{\"allPagesChecked\":false,\"totalListed\":null,\"excluded\":[],\"id\":\"eu-20261102-taxud\",\"sourceUrl\":\"https://taxation-customs.ec.europa.eu/news_en\",\"windowStart\":\"2026-10-30\",\"windowEnd\":\"2026-11-02\",\"status\":\"partial\",\"pages\":[\"https://taxation-customs.ec.europa.eu/news_en\"],\"recordIds\":[],\"note\":\"只有10月30日2027年版《组合命名法》（已处理）。\",\"checkedAt\":\"2026-11-02T21:27:52.633Z\"}"
+  },
+  {
+    "id": "eu-20261102-commission",
+    "source_url": "https://commission.europa.eu/law/law-making-process_en",
+    "checked_at": "2026-11-02T21:27:52.633Z",
+    "data": "{\"allPagesChecked\":false,\"totalListed\":null,\"excluded\":[],\"id\":\"eu-20261102-commission\",\"sourceUrl\":\"https://commission.europa.eu/law/law-making-process_en\",\"windowStart\":\"2026-10-27\",\"windowEnd\":\"2026-11-02\",\"status\":\"partial\",\"pages\":[\"https://home-affairs.ec.europa.eu/news_en\",\"https://home-affairs.ec.europa.eu/news/commission-proposes-stronger-frontex-more-resources-greater-role-returns-and-effective-crisis-2026-10-27_en\"],\"recordIds\":[\"eu-20261027-com-2026-1030\",\"eu-20261027-com-2026-1037\"],\"note\":\"移民与内政总司新闻：10月27日Frontex和遣返数字化两项提案此前漏登，本轮补登；其余是培训、研究和活动消息。\",\"checkedAt\":\"2026-11-02T21:27:52.633Z\"}"
+  },
+  {
+    "id": "eu-20261102-council",
+    "source_url": "https://www.consilium.europa.eu/en/documents-publications/public-register/",
+    "checked_at": "2026-11-02T21:27:52.633Z",
+    "data": "{\"allPagesChecked\":false,\"totalListed\":null,\"excluded\":[],\"id\":\"eu-20261102-council\",\"sourceUrl\":\"https://www.consilium.europa.eu/en/documents-publications/public-register/\",\"windowStart\":\"2026-10-30\",\"windowEnd\":\"2026-11-02\",\"status\":\"blocked\",\"pages\":[],\"recordIds\":[],\"note\":\"理事会登记册对自动访问返回403，本轮未读。\",\"checkedAt\":\"2026-11-02T21:27:52.633Z\"}"
+  },
+  {
+    "id": "de-20261102-state-29-1029",
+    "source_url": "https://www.regierung-mv.de/Aktuell/",
+    "checked_at": "2026-11-02T21:27:52.633Z",
+    "data": "{\"allPagesChecked\":false,\"totalListed\":null,\"excluded\":[],\"id\":\"de-20261102-state-29-1029\",\"sourceUrl\":\"https://www.regierung-mv.de/Aktuell/\",\"windowStart\":\"2026-10-29\",\"windowEnd\":\"2026-10-29\",\"status\":\"partial\",\"pages\":[\"https://www.regierung-mv.de/Aktuell/\"],\"recordIds\":[\"mv-20261029-elterngeld-reaction\"],\"note\":\"上一轮漏看的10月29日条目：社会部长关于父母津贴的新闻稿，已登记待查。\",\"checkedAt\":\"2026-11-02T21:27:52.633Z\"}"
+  },
+  {
+    "id": "de-20261102-state-05",
+    "source_url": "https://verkuendung.hessen.de/",
+    "checked_at": "2026-11-02T21:27:52.633Z",
+    "data": "{\"allPagesChecked\":false,\"totalListed\":null,\"excluded\":[],\"id\":\"de-20261102-state-05\",\"sourceUrl\":\"https://verkuendung.hessen.de/\",\"windowStart\":\"2026-10-30\",\"windowEnd\":\"2026-11-02\",\"status\":\"partial\",\"pages\":[\"https://verkuendung.hessen.de/\"],\"recordIds\":[],\"note\":\"按税务、社保、养老金、住房、移民和加密资产关键词看了列表页中10月30日至11月2日的条目，没有逐条核对，也没有翻页。\",\"checkedAt\":\"2026-11-02T21:27:52.633Z\"}"
+  },
+  {
+    "id": "de-20261102-state-01",
+    "source_url": "https://recht.nrw.de/",
+    "checked_at": "2026-11-02T21:27:52.633Z",
+    "data": "{\"allPagesChecked\":false,\"totalListed\":null,\"excluded\":[],\"id\":\"de-20261102-state-01\",\"sourceUrl\":\"https://recht.nrw.de/\",\"windowStart\":\"2026-10-30\",\"windowEnd\":\"2026-11-02\",\"status\":\"partial\",\"pages\":[\"https://recht.nrw.de/\"],\"recordIds\":[],\"note\":\"按税务、社保、养老金、住房、移民和加密资产关键词看了列表页中10月30日至11月2日的条目，没有逐条核对，也没有翻页。\",\"checkedAt\":\"2026-11-02T21:27:52.633Z\"}"
+  },
+  {
+    "id": "de-20261102-state-17",
+    "source_url": "https://www.landtag.sachsen-anhalt.de/",
+    "checked_at": "2026-11-02T21:27:52.633Z",
+    "data": "{\"allPagesChecked\":false,\"totalListed\":null,\"excluded\":[],\"id\":\"de-20261102-state-17\",\"sourceUrl\":\"https://www.landtag.sachsen-anhalt.de/\",\"windowStart\":\"2026-10-30\",\"windowEnd\":\"2026-11-02\",\"status\":\"partial\",\"pages\":[\"https://www.landtag.sachsen-anhalt.de/\"],\"recordIds\":[],\"note\":\"按税务、社保、养老金、住房、移民和加密资产关键词看了列表页中10月30日至11月2日的条目，没有逐条核对，也没有翻页。\",\"checkedAt\":\"2026-11-02T21:27:52.633Z\"}"
+  },
+  {
+    "id": "de-20261102-state-03",
+    "source_url": "https://www.amtsblatt.saarland.de/jportal/portal/page/fpverksl.psml",
+    "checked_at": "2026-11-02T21:27:52.633Z",
+    "data": "{\"allPagesChecked\":false,\"totalListed\":null,\"excluded\":[],\"id\":\"de-20261102-state-03\",\"sourceUrl\":\"https://www.amtsblatt.saarland.de/jportal/portal/page/fpverksl.psml\",\"windowStart\":\"2026-10-30\",\"windowEnd\":\"2026-11-02\",\"status\":\"partial\",\"pages\":[\"https://www.amtsblatt.saarland.de/jportal/portal/page/fpverksl.psml\"],\"recordIds\":[],\"note\":\"按税务、社保、养老金、住房、移民和加密资产关键词看了列表页中10月30日至11月2日的条目，没有逐条核对，也没有翻页。\",\"checkedAt\":\"2026-11-02T21:27:52.633Z\"}"
+  },
+  {
+    "id": "de-20261102-state-02",
+    "source_url": "https://verkuendung.rlp.de/de/",
+    "checked_at": "2026-11-02T21:27:52.633Z",
+    "data": "{\"allPagesChecked\":false,\"totalListed\":null,\"excluded\":[],\"id\":\"de-20261102-state-02\",\"sourceUrl\":\"https://verkuendung.rlp.de/de/\",\"windowStart\":\"2026-10-30\",\"windowEnd\":\"2026-11-02\",\"status\":\"partial\",\"pages\":[\"https://verkuendung.rlp.de/de/\"],\"recordIds\":[],\"note\":\"按税务、社保、养老金、住房、移民和加密资产关键词看了列表页中10月30日至11月2日的条目，没有逐条核对，也没有翻页。\",\"checkedAt\":\"2026-11-02T21:27:52.633Z\"}"
+  },
+  {
+    "id": "de-20261102-state-06",
+    "source_url": "https://www.verkuendung-bayern.de/",
+    "checked_at": "2026-11-02T21:27:52.633Z",
+    "data": "{\"allPagesChecked\":false,\"totalListed\":null,\"excluded\":[],\"id\":\"de-20261102-state-06\",\"sourceUrl\":\"https://www.verkuendung-bayern.de/\",\"windowStart\":\"2026-10-30\",\"windowEnd\":\"2026-11-02\",\"status\":\"partial\",\"pages\":[\"https://www.verkuendung-bayern.de/\"],\"recordIds\":[],\"note\":\"按税务、社保、养老金、住房、移民和加密资产关键词看了列表页中10月30日至11月2日的条目，没有逐条核对，也没有翻页。\",\"checkedAt\":\"2026-11-02T21:27:52.633Z\"}"
+  },
+  {
+    "id": "de-20261102-state-15",
+    "source_url": "https://www.revosax.sachsen.de/",
+    "checked_at": "2026-11-02T21:27:52.633Z",
+    "data": "{\"allPagesChecked\":false,\"totalListed\":null,\"excluded\":[],\"id\":\"de-20261102-state-15\",\"sourceUrl\":\"https://www.revosax.sachsen.de/\",\"windowStart\":\"2026-10-30\",\"windowEnd\":\"2026-11-02\",\"status\":\"partial\",\"pages\":[\"https://www.revosax.sachsen.de/\"],\"recordIds\":[],\"note\":\"按税务、社保、养老金、住房、移民和加密资产关键词看了列表页中10月30日至11月2日的条目，没有逐条核对，也没有翻页。\",\"checkedAt\":\"2026-11-02T21:27:52.633Z\"}"
+  },
+  {
+    "id": "de-20261102-state-19",
+    "source_url": "https://www.thueringer-landtag.de/dokumente/parlamentsdokumentation/",
+    "checked_at": "2026-11-02T21:27:52.633Z",
+    "data": "{\"allPagesChecked\":false,\"totalListed\":null,\"excluded\":[],\"id\":\"de-20261102-state-19\",\"sourceUrl\":\"https://www.thueringer-landtag.de/dokumente/parlamentsdokumentation/\",\"windowStart\":\"2026-10-30\",\"windowEnd\":\"2026-11-02\",\"status\":\"partial\",\"pages\":[\"https://www.thueringer-landtag.de/dokumente/parlamentsdokumentation/\"],\"recordIds\":[],\"note\":\"按税务、社保、养老金、住房、移民和加密资产关键词看了列表页中10月30日至11月2日的条目，没有逐条核对，也没有翻页。\",\"checkedAt\":\"2026-11-02T21:27:52.633Z\"}"
+  },
+  {
+    "id": "de-20261102-state-18",
+    "source_url": "https://www.thueringer-landtag.de/plenum/neue-gesetze-im-landtag/",
+    "checked_at": "2026-11-02T21:27:52.633Z",
+    "data": "{\"allPagesChecked\":false,\"totalListed\":null,\"excluded\":[],\"id\":\"de-20261102-state-18\",\"sourceUrl\":\"https://www.thueringer-landtag.de/plenum/neue-gesetze-im-landtag/\",\"windowStart\":\"2026-10-30\",\"windowEnd\":\"2026-11-02\",\"status\":\"partial\",\"pages\":[\"https://www.thueringer-landtag.de/plenum/neue-gesetze-im-landtag/\"],\"recordIds\":[],\"note\":\"按税务、社保、养老金、住房、移民和加密资产关键词看了列表页中10月30日至11月2日的条目，没有逐条核对，也没有翻页。\",\"checkedAt\":\"2026-11-02T21:27:52.633Z\"}"
+  },
+  {
+    "id": "de-20261102-state-36",
+    "source_url": "https://www.landtag.sachsen-anhalt.de/archiv",
+    "checked_at": "2026-11-02T21:27:52.633Z",
+    "data": "{\"allPagesChecked\":false,\"totalListed\":null,\"excluded\":[],\"id\":\"de-20261102-state-36\",\"sourceUrl\":\"https://www.landtag.sachsen-anhalt.de/archiv\",\"windowStart\":\"2026-10-30\",\"windowEnd\":\"2026-11-02\",\"status\":\"partial\",\"pages\":[\"https://www.landtag.sachsen-anhalt.de/archiv\"],\"recordIds\":[],\"note\":\"按税务、社保、养老金、住房、移民和加密资产关键词看了列表页中10月30日至11月2日的条目，没有逐条核对，也没有翻页。\",\"checkedAt\":\"2026-11-02T21:27:52.633Z\"}"
+  },
+  {
+    "id": "de-20261102-state-28",
+    "source_url": "https://www.landtag-mv.de/plenum-und-ausschuesse/plenum/vergangene-plenarsitzungen",
+    "checked_at": "2026-11-02T21:27:52.633Z",
+    "data": "{\"allPagesChecked\":false,\"totalListed\":null,\"excluded\":[],\"id\":\"de-20261102-state-28\",\"sourceUrl\":\"https://www.landtag-mv.de/plenum-und-ausschuesse/plenum/vergangene-plenarsitzungen\",\"windowStart\":\"2026-10-30\",\"windowEnd\":\"2026-11-02\",\"status\":\"blocked\",\"pages\":[],\"recordIds\":[],\"note\":\"本轮请求失败或只返回空页面，没有读到列表。\",\"checkedAt\":\"2026-11-02T21:27:52.633Z\"}"
+  },
+  {
+    "id": "de-20261102-state-30",
+    "source_url": "https://pardok.parlament-berlin.de/portala/start.tt.html",
+    "checked_at": "2026-11-02T21:27:52.633Z",
+    "data": "{\"allPagesChecked\":false,\"totalListed\":null,\"excluded\":[],\"id\":\"de-20261102-state-30\",\"sourceUrl\":\"https://pardok.parlament-berlin.de/portala/start.tt.html\",\"windowStart\":\"2026-10-30\",\"windowEnd\":\"2026-11-02\",\"status\":\"blocked\",\"pages\":[],\"recordIds\":[],\"note\":\"本轮请求失败或只返回空页面，没有读到列表。\",\"checkedAt\":\"2026-11-02T21:27:52.633Z\"}"
+  },
+  {
+    "id": "de-20261102-state-38",
+    "source_url": "https://www.thueringer-landtag.de/plenum/protokolle/",
+    "checked_at": "2026-11-02T21:27:52.633Z",
+    "data": "{\"allPagesChecked\":false,\"totalListed\":null,\"excluded\":[],\"id\":\"de-20261102-state-38\",\"sourceUrl\":\"https://www.thueringer-landtag.de/plenum/protokolle/\",\"windowStart\":\"2026-10-30\",\"windowEnd\":\"2026-11-02\",\"status\":\"partial\",\"pages\":[\"https://www.thueringer-landtag.de/plenum/protokolle/\"],\"recordIds\":[],\"note\":\"按税务、社保、养老金、住房、移民和加密资产关键词看了列表页中10月30日至11月2日的条目，没有逐条核对，也没有翻页。\",\"checkedAt\":\"2026-11-02T21:27:52.633Z\"}"
+  },
+  {
+    "id": "de-20261102-state-13",
+    "source_url": "https://bravors.brandenburg.de/de/veroeffentlichungsblaetter_chronologisch/2026",
+    "checked_at": "2026-11-02T21:27:52.633Z",
+    "data": "{\"allPagesChecked\":false,\"totalListed\":null,\"excluded\":[],\"id\":\"de-20261102-state-13\",\"sourceUrl\":\"https://bravors.brandenburg.de/de/veroeffentlichungsblaetter_chronologisch/2026\",\"windowStart\":\"2026-10-30\",\"windowEnd\":\"2026-11-02\",\"status\":\"partial\",\"pages\":[\"https://bravors.brandenburg.de/de/veroeffentlichungsblaetter_chronologisch/2026\"],\"recordIds\":[],\"note\":\"按税务、社保、养老金、住房、移民和加密资产关键词看了列表页中10月30日至11月2日的条目，没有逐条核对，也没有翻页。\",\"checkedAt\":\"2026-11-02T21:27:52.633Z\"}"
+  },
+  {
+    "id": "de-20261102-state-39",
+    "source_url": "https://thueringen.de/medienservice/medieninformationen",
+    "checked_at": "2026-11-02T21:27:52.633Z",
+    "data": "{\"allPagesChecked\":false,\"totalListed\":null,\"excluded\":[],\"id\":\"de-20261102-state-39\",\"sourceUrl\":\"https://thueringen.de/medienservice/medieninformationen\",\"windowStart\":\"2026-10-30\",\"windowEnd\":\"2026-11-02\",\"status\":\"partial\",\"pages\":[\"https://thueringen.de/medienservice/medieninformationen\"],\"recordIds\":[],\"note\":\"按税务、社保、养老金、住房、移民和加密资产关键词看了列表页中10月30日至11月2日的条目，没有逐条核对，也没有翻页。\",\"checkedAt\":\"2026-11-02T21:27:52.633Z\"}"
+  },
+  {
+    "id": "de-20261102-state-16",
+    "source_url": "https://www.landtag.sachsen-anhalt.de/dokumente/aktuelle-dokumente",
+    "checked_at": "2026-11-02T21:27:52.633Z",
+    "data": "{\"allPagesChecked\":false,\"totalListed\":null,\"excluded\":[],\"id\":\"de-20261102-state-16\",\"sourceUrl\":\"https://www.landtag.sachsen-anhalt.de/dokumente/aktuelle-dokumente\",\"windowStart\":\"2026-10-30\",\"windowEnd\":\"2026-11-02\",\"status\":\"blocked\",\"pages\":[],\"recordIds\":[],\"note\":\"本轮请求失败或只返回空页面，没有读到列表。\",\"checkedAt\":\"2026-11-02T21:27:52.633Z\"}"
+  },
+  {
+    "id": "de-20261102-state-20",
+    "source_url": "https://www.landtag.ltsh.de/infothek/wahl20/plenum/beschlusspro_seite/",
+    "checked_at": "2026-11-02T21:27:52.633Z",
+    "data": "{\"allPagesChecked\":false,\"totalListed\":null,\"excluded\":[],\"id\":\"de-20261102-state-20\",\"sourceUrl\":\"https://www.landtag.ltsh.de/infothek/wahl20/plenum/beschlusspro_seite/\",\"windowStart\":\"2026-10-30\",\"windowEnd\":\"2026-11-02\",\"status\":\"partial\",\"pages\":[\"https://www.landtag.ltsh.de/infothek/wahl20/plenum/beschlusspro_seite/\"],\"recordIds\":[],\"note\":\"按税务、社保、养老金、住房、移民和加密资产关键词看了列表页中10月30日至11月2日的条目，没有逐条核对，也没有翻页。\",\"checkedAt\":\"2026-11-02T21:27:52.633Z\"}"
+  },
+  {
+    "id": "de-20261102-state-26",
+    "source_url": "https://www.landtag-niedersachsen.de/dokumentensuche/",
+    "checked_at": "2026-11-02T21:27:52.633Z",
+    "data": "{\"allPagesChecked\":false,\"totalListed\":null,\"excluded\":[],\"id\":\"de-20261102-state-26\",\"sourceUrl\":\"https://www.landtag-niedersachsen.de/dokumentensuche/\",\"windowStart\":\"2026-10-30\",\"windowEnd\":\"2026-11-02\",\"status\":\"partial\",\"pages\":[\"https://www.landtag-niedersachsen.de/dokumentensuche/\"],\"recordIds\":[],\"note\":\"按税务、社保、养老金、住房、移民和加密资产关键词看了列表页中10月30日至11月2日的条目，没有逐条核对，也没有翻页。\",\"checkedAt\":\"2026-11-02T21:27:52.633Z\"}"
+  },
+  {
+    "id": "de-20261102-state-04",
+    "source_url": "https://www.baden-wuerttemberg.de/de/service/gesetze-und-verordnungen/gesetzblatt",
+    "checked_at": "2026-11-02T21:27:52.633Z",
+    "data": "{\"allPagesChecked\":false,\"totalListed\":null,\"excluded\":[],\"id\":\"de-20261102-state-04\",\"sourceUrl\":\"https://www.baden-wuerttemberg.de/de/service/gesetze-und-verordnungen/gesetzblatt\",\"windowStart\":\"2026-10-30\",\"windowEnd\":\"2026-11-02\",\"status\":\"partial\",\"pages\":[\"https://www.baden-wuerttemberg.de/de/service/gesetze-und-verordnungen/gesetzblatt\"],\"recordIds\":[],\"note\":\"按税务、社保、养老金、住房、移民和加密资产关键词看了列表页中10月30日至11月2日的条目，没有逐条核对，也没有翻页。\",\"checkedAt\":\"2026-11-02T21:27:52.633Z\"}"
+  },
+  {
+    "id": "de-20261102-state-46",
+    "source_url": "https://www.landtag-bw.de/de/aktuelles/beschluesse",
+    "checked_at": "2026-11-02T21:27:52.633Z",
+    "data": "{\"allPagesChecked\":false,\"totalListed\":null,\"excluded\":[],\"id\":\"de-20261102-state-46\",\"sourceUrl\":\"https://www.landtag-bw.de/de/aktuelles/beschluesse\",\"windowStart\":\"2026-10-30\",\"windowEnd\":\"2026-11-02\",\"status\":\"partial\",\"pages\":[\"https://www.landtag-bw.de/de/aktuelles/beschluesse\"],\"recordIds\":[],\"note\":\"按税务、社保、养老金、住房、移民和加密资产关键词看了列表页中10月30日至11月2日的条目，没有逐条核对，也没有翻页。\",\"checkedAt\":\"2026-11-02T21:27:52.633Z\"}"
+  },
+  {
+    "id": "de-20261102-state-41",
+    "source_url": "https://www.land.nrw/pressemitteilungen",
+    "checked_at": "2026-11-02T21:27:52.633Z",
+    "data": "{\"allPagesChecked\":false,\"totalListed\":null,\"excluded\":[],\"id\":\"de-20261102-state-41\",\"sourceUrl\":\"https://www.land.nrw/pressemitteilungen\",\"windowStart\":\"2026-10-30\",\"windowEnd\":\"2026-11-02\",\"status\":\"partial\",\"pages\":[\"https://www.land.nrw/pressemitteilungen\"],\"recordIds\":[],\"note\":\"按税务、社保、养老金、住房、移民和加密资产关键词看了列表页中10月30日至11月2日的条目，没有逐条核对，也没有翻页。\",\"checkedAt\":\"2026-11-02T21:27:52.633Z\"}"
+  },
+  {
+    "id": "de-20261102-state-31",
+    "source_url": "https://www.berlin.de/rbmskzl/aktuelles/pressemitteilungen/",
+    "checked_at": "2026-11-02T21:27:52.633Z",
+    "data": "{\"allPagesChecked\":false,\"totalListed\":null,\"excluded\":[],\"id\":\"de-20261102-state-31\",\"sourceUrl\":\"https://www.berlin.de/rbmskzl/aktuelles/pressemitteilungen/\",\"windowStart\":\"2026-10-30\",\"windowEnd\":\"2026-11-02\",\"status\":\"partial\",\"pages\":[\"https://www.berlin.de/rbmskzl/aktuelles/pressemitteilungen/\"],\"recordIds\":[],\"note\":\"按税务、社保、养老金、住房、移民和加密资产关键词看了列表页中10月30日至11月2日的条目，没有逐条核对，也没有翻页。\",\"checkedAt\":\"2026-11-02T21:27:52.633Z\"}"
+  },
+  {
+    "id": "de-20261102-state-12",
+    "source_url": "https://www.berlin.de/sen/justiz/service/gesetze-und-verordnungen/2026/",
+    "checked_at": "2026-11-02T21:27:52.633Z",
+    "data": "{\"allPagesChecked\":false,\"totalListed\":null,\"excluded\":[],\"id\":\"de-20261102-state-12\",\"sourceUrl\":\"https://www.berlin.de/sen/justiz/service/gesetze-und-verordnungen/2026/\",\"windowStart\":\"2026-10-30\",\"windowEnd\":\"2026-11-02\",\"status\":\"partial\",\"pages\":[\"https://www.berlin.de/sen/justiz/service/gesetze-und-verordnungen/2026/\"],\"recordIds\":[],\"note\":\"按税务、社保、养老金、住房、移民和加密资产关键词看了列表页中10月30日至11月2日的条目，没有逐条核对，也没有翻页。\",\"checkedAt\":\"2026-11-02T21:27:52.633Z\"}"
+  },
+  {
+    "id": "de-20261102-state-52",
+    "source_url": "https://mil.brandenburg.de/mil/de/",
+    "checked_at": "2026-11-02T21:27:52.633Z",
+    "data": "{\"allPagesChecked\":false,\"totalListed\":null,\"excluded\":[],\"id\":\"de-20261102-state-52\",\"sourceUrl\":\"https://mil.brandenburg.de/mil/de/\",\"windowStart\":\"2026-10-30\",\"windowEnd\":\"2026-11-02\",\"status\":\"partial\",\"pages\":[\"https://mil.brandenburg.de/mil/de/\"],\"recordIds\":[],\"note\":\"按税务、社保、养老金、住房、移民和加密资产关键词看了列表页中10月30日至11月2日的条目，没有逐条核对，也没有翻页。\",\"checkedAt\":\"2026-11-02T21:27:52.633Z\"}"
+  },
+  {
+    "id": "de-20261102-state-10",
+    "source_url": "https://www.niedersachsen.de/politik_staat/gesetze_verordnungen_und_sonstige_vorschriften/aktuelle_verkundungsblatter/download-verkuendungsblaetter-108794.html",
+    "checked_at": "2026-11-02T21:27:52.633Z",
+    "data": "{\"allPagesChecked\":false,\"totalListed\":null,\"excluded\":[],\"id\":\"de-20261102-state-10\",\"sourceUrl\":\"https://www.niedersachsen.de/politik_staat/gesetze_verordnungen_und_sonstige_vorschriften/aktuelle_verkundungsblatter/download-verkuendungsblaetter-108794.html\",\"windowStart\":\"2026-10-30\",\"windowEnd\":\"2026-11-02\",\"status\":\"blocked\",\"pages\":[],\"recordIds\":[],\"note\":\"本轮请求失败或只返回空页面，没有读到列表。\",\"checkedAt\":\"2026-11-02T21:27:52.633Z\"}"
+  },
+  {
+    "id": "de-20261102-state-34",
+    "source_url": "https://www.landtag.sachsen.de/de/aktuelles/plenarsitzungen/index.cshtml",
+    "checked_at": "2026-11-02T21:27:52.633Z",
+    "data": "{\"allPagesChecked\":false,\"totalListed\":null,\"excluded\":[],\"id\":\"de-20261102-state-34\",\"sourceUrl\":\"https://www.landtag.sachsen.de/de/aktuelles/plenarsitzungen/index.cshtml\",\"windowStart\":\"2026-10-30\",\"windowEnd\":\"2026-11-02\",\"status\":\"partial\",\"pages\":[\"https://www.landtag.sachsen.de/de/aktuelles/plenarsitzungen/index.cshtml\"],\"recordIds\":[],\"note\":\"按税务、社保、养老金、住房、移民和加密资产关键词看了列表页中10月30日至11月2日的条目，没有逐条核对，也没有翻页。\",\"checkedAt\":\"2026-11-02T21:27:52.633Z\"}"
+  },
+  {
+    "id": "de-20261102-state-07",
+    "source_url": "https://verkuendungsportal.schleswig-holstein.de/home",
+    "checked_at": "2026-11-02T21:27:52.633Z",
+    "data": "{\"allPagesChecked\":false,\"totalListed\":null,\"excluded\":[],\"id\":\"de-20261102-state-07\",\"sourceUrl\":\"https://verkuendungsportal.schleswig-holstein.de/home\",\"windowStart\":\"2026-10-30\",\"windowEnd\":\"2026-11-02\",\"status\":\"partial\",\"pages\":[\"https://verkuendungsportal.schleswig-holstein.de/home\"],\"recordIds\":[],\"note\":\"按税务、社保、养老金、住房、移民和加密资产关键词看了列表页中10月30日至11月2日的条目，没有逐条核对，也没有翻页。\",\"checkedAt\":\"2026-11-02T21:27:52.633Z\"}"
+  },
+  {
+    "id": "de-20261102-state-37",
+    "source_url": "https://www.sachsen-anhalt.de/lj/politik-und-verwaltung/service/politik-aktuell/pressemitteilungen",
+    "checked_at": "2026-11-02T21:27:52.633Z",
+    "data": "{\"allPagesChecked\":false,\"totalListed\":null,\"excluded\":[],\"id\":\"de-20261102-state-37\",\"sourceUrl\":\"https://www.sachsen-anhalt.de/lj/politik-und-verwaltung/service/politik-aktuell/pressemitteilungen\",\"windowStart\":\"2026-10-30\",\"windowEnd\":\"2026-11-02\",\"status\":\"blocked\",\"pages\":[],\"recordIds\":[],\"note\":\"本轮请求失败或只返回空页面，没有读到列表。\",\"checkedAt\":\"2026-11-02T21:27:52.633Z\"}"
+  },
+  {
+    "id": "de-20261102-state-32",
+    "source_url": "https://www.landtag.brandenburg.de/de/parlament/plenum_und_gesetze/beschlossene_gesetze/beschlossene_gesetze_der_8._wahlperiode/39257",
+    "checked_at": "2026-11-02T21:27:52.633Z",
+    "data": "{\"allPagesChecked\":false,\"totalListed\":null,\"excluded\":[],\"id\":\"de-20261102-state-32\",\"sourceUrl\":\"https://www.landtag.brandenburg.de/de/parlament/plenum_und_gesetze/beschlossene_gesetze/beschlossene_gesetze_der_8._wahlperiode/39257\",\"windowStart\":\"2026-10-30\",\"windowEnd\":\"2026-11-02\",\"status\":\"partial\",\"pages\":[\"https://www.landtag.brandenburg.de/de/parlament/plenum_und_gesetze/beschlossene_gesetze/beschlossene_gesetze_der_8._wahlperiode/39257\"],\"recordIds\":[],\"note\":\"按税务、社保、养老金、住房、移民和加密资产关键词看了列表页中10月30日至11月2日的条目，没有逐条核对，也没有翻页。\",\"checkedAt\":\"2026-11-02T21:27:52.633Z\"}"
+  },
+  {
+    "id": "de-20261102-state-22",
+    "source_url": "https://www.hamburgische-buergerschaft.de/recherche-info/protokolle",
+    "checked_at": "2026-11-02T21:27:52.633Z",
+    "data": "{\"allPagesChecked\":false,\"totalListed\":null,\"excluded\":[],\"id\":\"de-20261102-state-22\",\"sourceUrl\":\"https://www.hamburgische-buergerschaft.de/recherche-info/protokolle\",\"windowStart\":\"2026-10-30\",\"windowEnd\":\"2026-11-02\",\"status\":\"partial\",\"pages\":[\"https://www.hamburgische-buergerschaft.de/recherche-info/protokolle\"],\"recordIds\":[],\"note\":\"按税务、社保、养老金、住房、移民和加密资产关键词看了列表页中10月30日至11月2日的条目，没有逐条核对，也没有翻页。\",\"checkedAt\":\"2026-11-02T21:27:52.633Z\"}"
+  },
+  {
+    "id": "de-20261102-state-24",
+    "source_url": "https://www.bremische-buergerschaft.de/index.php?id=480",
+    "checked_at": "2026-11-02T21:27:52.633Z",
+    "data": "{\"allPagesChecked\":false,\"totalListed\":null,\"excluded\":[],\"id\":\"de-20261102-state-24\",\"sourceUrl\":\"https://www.bremische-buergerschaft.de/index.php?id=480\",\"windowStart\":\"2026-10-30\",\"windowEnd\":\"2026-11-02\",\"status\":\"blocked\",\"pages\":[],\"recordIds\":[],\"note\":\"本轮请求失败或只返回空页面，没有读到列表。\",\"checkedAt\":\"2026-11-02T21:27:52.633Z\"}"
+  },
+  {
+    "id": "de-20261102-state-09",
+    "source_url": "https://www.gesetzblatt.bremen.de/",
+    "checked_at": "2026-11-02T21:27:52.633Z",
+    "data": "{\"allPagesChecked\":false,\"totalListed\":null,\"excluded\":[],\"id\":\"de-20261102-state-09\",\"sourceUrl\":\"https://www.gesetzblatt.bremen.de/\",\"windowStart\":\"2026-10-30\",\"windowEnd\":\"2026-11-02\",\"status\":\"partial\",\"pages\":[\"https://www.gesetzblatt.bremen.de/\"],\"recordIds\":[],\"note\":\"按税务、社保、养老金、住房、移民和加密资产关键词看了列表页中10月30日至11月2日的条目，没有逐条核对，也没有翻页。\",\"checkedAt\":\"2026-11-02T21:27:52.633Z\"}"
+  },
+  {
+    "id": "de-20261102-state-44",
+    "source_url": "https://www.landtag-saar.de/aktuelles/",
+    "checked_at": "2026-11-02T21:27:52.633Z",
+    "data": "{\"allPagesChecked\":false,\"totalListed\":null,\"excluded\":[],\"id\":\"de-20261102-state-44\",\"sourceUrl\":\"https://www.landtag-saar.de/aktuelles/\",\"windowStart\":\"2026-10-30\",\"windowEnd\":\"2026-11-02\",\"status\":\"partial\",\"pages\":[\"https://www.landtag-saar.de/aktuelles/\"],\"recordIds\":[],\"note\":\"按税务、社保、养老金、住房、移民和加密资产关键词看了列表页中10月30日至11月2日的条目，没有逐条核对，也没有翻页。\",\"checkedAt\":\"2026-11-02T21:27:52.633Z\"}"
+  },
+  {
+    "id": "de-20261102-state-43",
+    "source_url": "https://www.rlp.de/service/pressemitteilungen",
+    "checked_at": "2026-11-02T21:27:52.633Z",
+    "data": "{\"allPagesChecked\":false,\"totalListed\":null,\"excluded\":[],\"id\":\"de-20261102-state-43\",\"sourceUrl\":\"https://www.rlp.de/service/pressemitteilungen\",\"windowStart\":\"2026-10-30\",\"windowEnd\":\"2026-11-02\",\"status\":\"partial\",\"pages\":[\"https://www.rlp.de/service/pressemitteilungen\"],\"recordIds\":[],\"note\":\"按税务、社保、养老金、住房、移民和加密资产关键词看了列表页中10月30日至11月2日的条目，没有逐条核对，也没有翻页。\",\"checkedAt\":\"2026-11-02T21:27:52.633Z\"}"
+  },
+  {
+    "id": "de-20261102-state-23",
+    "source_url": "https://www.hamburg.de/politik-und-verwaltung/senat/presseservice-des-senats/pressemeldungen-des-senats",
+    "checked_at": "2026-11-02T21:27:52.633Z",
+    "data": "{\"allPagesChecked\":false,\"totalListed\":null,\"excluded\":[],\"id\":\"de-20261102-state-23\",\"sourceUrl\":\"https://www.hamburg.de/politik-und-verwaltung/senat/presseservice-des-senats/pressemeldungen-des-senats\",\"windowStart\":\"2026-10-30\",\"windowEnd\":\"2026-11-02\",\"status\":\"partial\",\"pages\":[\"https://www.hamburg.de/politik-und-verwaltung/senat/presseservice-des-senats/pressemeldungen-des-senats\"],\"recordIds\":[],\"note\":\"按税务、社保、养老金、住房、移民和加密资产关键词看了列表页中10月30日至11月2日的条目，没有逐条核对，也没有翻页。\",\"checkedAt\":\"2026-11-02T21:27:52.633Z\"}"
+  },
+  {
+    "id": "de-20261102-state-33",
+    "source_url": "https://landesregierung-brandenburg.de/",
+    "checked_at": "2026-11-02T21:27:52.633Z",
+    "data": "{\"allPagesChecked\":false,\"totalListed\":null,\"excluded\":[],\"id\":\"de-20261102-state-33\",\"sourceUrl\":\"https://landesregierung-brandenburg.de/\",\"windowStart\":\"2026-10-30\",\"windowEnd\":\"2026-11-02\",\"status\":\"partial\",\"pages\":[\"https://landesregierung-brandenburg.de/\"],\"recordIds\":[],\"note\":\"按税务、社保、养老金、住房、移民和加密资产关键词看了列表页中10月30日至11月2日的条目，没有逐条核对，也没有翻页。\",\"checkedAt\":\"2026-11-02T21:27:52.633Z\"}"
+  },
+  {
+    "id": "de-20261102-state-21",
+    "source_url": "https://www.schleswig-holstein.de/DE/landesportal/presse/pressemitteilungen",
+    "checked_at": "2026-11-02T21:27:52.633Z",
+    "data": "{\"allPagesChecked\":false,\"totalListed\":null,\"excluded\":[],\"id\":\"de-20261102-state-21\",\"sourceUrl\":\"https://www.schleswig-holstein.de/DE/landesportal/presse/pressemitteilungen\",\"windowStart\":\"2026-10-30\",\"windowEnd\":\"2026-11-02\",\"status\":\"partial\",\"pages\":[\"https://www.schleswig-holstein.de/DE/landesportal/presse/pressemitteilungen\"],\"recordIds\":[],\"note\":\"按税务、社保、养老金、住房、移民和加密资产关键词看了列表页中10月30日至11月2日的条目，没有逐条核对，也没有翻页。\",\"checkedAt\":\"2026-11-02T21:27:52.633Z\"}"
+  },
+  {
+    "id": "de-20261102-state-27",
+    "source_url": "https://www.niedersachsen.de/startseite/service/presse/presseinformationen/",
+    "checked_at": "2026-11-02T21:27:52.633Z",
+    "data": "{\"allPagesChecked\":false,\"totalListed\":null,\"excluded\":[],\"id\":\"de-20261102-state-27\",\"sourceUrl\":\"https://www.niedersachsen.de/startseite/service/presse/presseinformationen/\",\"windowStart\":\"2026-10-30\",\"windowEnd\":\"2026-11-02\",\"status\":\"partial\",\"pages\":[\"https://www.niedersachsen.de/startseite/service/presse/presseinformationen/\"],\"recordIds\":[],\"note\":\"按税务、社保、养老金、住房、移民和加密资产关键词看了列表页中10月30日至11月2日的条目，没有逐条核对，也没有翻页。\",\"checkedAt\":\"2026-11-02T21:27:52.633Z\"}"
+  },
+  {
+    "id": "de-20261102-state-08",
+    "source_url": "https://www.hamburg.de/politik-und-verwaltung/behoerden/bjv/veroeffentlichungen",
+    "checked_at": "2026-11-02T21:27:52.633Z",
+    "data": "{\"allPagesChecked\":false,\"totalListed\":null,\"excluded\":[],\"id\":\"de-20261102-state-08\",\"sourceUrl\":\"https://www.hamburg.de/politik-und-verwaltung/behoerden/bjv/veroeffentlichungen\",\"windowStart\":\"2026-10-30\",\"windowEnd\":\"2026-11-02\",\"status\":\"partial\",\"pages\":[\"https://www.hamburg.de/politik-und-verwaltung/behoerden/bjv/veroeffentlichungen\"],\"recordIds\":[],\"note\":\"按税务、社保、养老金、住房、移民和加密资产关键词看了列表页中10月30日至11月2日的条目，没有逐条核对，也没有翻页。\",\"checkedAt\":\"2026-11-02T21:27:52.633Z\"}"
+  },
+  {
+    "id": "de-20261102-state-40",
+    "source_url": "https://www.landtag.nrw.de/cms/render/live/de/sites/landtag-r20/home/dokumente/dokumentensuche/ubersichtsseite-reden--protoko-1/protokolle-18-wahlperiode-2022-2.html?ausschuss=Plenum",
+    "checked_at": "2026-11-02T21:27:52.633Z",
+    "data": "{\"allPagesChecked\":false,\"totalListed\":null,\"excluded\":[],\"id\":\"de-20261102-state-40\",\"sourceUrl\":\"https://www.landtag.nrw.de/cms/render/live/de/sites/landtag-r20/home/dokumente/dokumentensuche/ubersichtsseite-reden--protoko-1/protokolle-18-wahlperiode-2022-2.html?ausschuss=Plenum\",\"windowStart\":\"2026-10-30\",\"windowEnd\":\"2026-11-02\",\"status\":\"partial\",\"pages\":[\"https://www.landtag.nrw.de/cms/render/live/de/sites/landtag-r20/home/dokumente/dokumentensuche/ubersichtsseite-reden--protoko-1/protokolle-18-wahlperiode-2022-2.html?ausschuss=Plenum\"],\"recordIds\":[],\"note\":\"按税务、社保、养老金、住房、移民和加密资产关键词看了列表页中10月30日至11月2日的条目，没有逐条核对，也没有翻页。\",\"checkedAt\":\"2026-11-02T21:27:52.633Z\"}"
+  },
+  {
+    "id": "de-20261102-state-25",
+    "source_url": "https://www.senatspressestelle.bremen.de/pressemitteilungen-1464",
+    "checked_at": "2026-11-02T21:27:52.633Z",
+    "data": "{\"allPagesChecked\":false,\"totalListed\":null,\"excluded\":[],\"id\":\"de-20261102-state-25\",\"sourceUrl\":\"https://www.senatspressestelle.bremen.de/pressemitteilungen-1464\",\"windowStart\":\"2026-10-30\",\"windowEnd\":\"2026-11-02\",\"status\":\"partial\",\"pages\":[\"https://www.senatspressestelle.bremen.de/pressemitteilungen-1464\"],\"recordIds\":[],\"note\":\"按税务、社保、养老金、住房、移民和加密资产关键词看了列表页中10月30日至11月2日的条目，没有逐条核对，也没有翻页。\",\"checkedAt\":\"2026-11-02T21:27:52.633Z\"}"
+  },
+  {
+    "id": "de-20261102-state-50",
+    "source_url": "https://www.bayern.landtag.de/parlament/dokumente/drucksachen/?anzahl_treffer=20&beschluss=zustimmung&dknr=&dlh=BeschlosseneGesetze19&dokumentenart=Drucksache&dokumentenart=Drucksache&erfassungsdatum%5Bend%5D=&erfassungsdatum%5Bstart%5D=&ist_basisdokument=off&q=&sort=date&suchverhalten=AND&suchvorgangsart%5B%5D=Gesetze%5C%5CGesetzentwurf&suchvorgangsart%5B%5D=Gesetze%5C%5CHaushaltsgesetz,+Nachtragshaushaltsgesetz&wahlperiodeid%5B%5D=19",
+    "checked_at": "2026-11-02T21:27:52.633Z",
+    "data": "{\"allPagesChecked\":false,\"totalListed\":null,\"excluded\":[],\"id\":\"de-20261102-state-50\",\"sourceUrl\":\"https://www.bayern.landtag.de/parlament/dokumente/drucksachen/?anzahl_treffer=20&beschluss=zustimmung&dknr=&dlh=BeschlosseneGesetze19&dokumentenart=Drucksache&dokumentenart=Drucksache&erfassungsdatum%5Bend%5D=&erfassungsdatum%5Bstart%5D=&ist_basisdokument=off&q=&sort=date&suchverhalten=AND&suchvorgangsart%5B%5D=Gesetze%5C%5CGesetzentwurf&suchvorgangsart%5B%5D=Gesetze%5C%5CHaushaltsgesetz,+Nachtragshaushaltsgesetz&wahlperiodeid%5B%5D=19\",\"windowStart\":\"2026-10-30\",\"windowEnd\":\"2026-11-02\",\"status\":\"partial\",\"pages\":[\"https://www.bayern.landtag.de/parlament/dokumente/drucksachen/?anzahl_treffer=20&beschluss=zustimmung&dknr=&dlh=BeschlosseneGesetze19&dokumentenart=Drucksache&dokumentenart=Drucksache&erfassungsdatum%5Bend%5D=&erfassungsdatum%5Bstart%5D=&ist_basisdokument=off&q=&sort=date&suchverhalten=AND&suchvorgangsart%5B%5D=Gesetze%5C%5CGesetzentwurf&suchvorgangsart%5B%5D=Gesetze%5C%5CHaushaltsgesetz,+Nachtragshaushaltsgesetz&wahlperiodeid%5B%5D=19\"],\"recordIds\":[],\"note\":\"按税务、社保、养老金、住房、移民和加密资产关键词看了列表页中10月30日至11月2日的条目，没有逐条核对，也没有翻页。\",\"checkedAt\":\"2026-11-02T21:27:52.633Z\"}"
+  },
+  {
+    "id": "de-20261102-state-45",
+    "source_url": "https://www.saarland.de/DE/presse-informationen/medienservice/medieninfos",
+    "checked_at": "2026-11-02T21:27:52.633Z",
+    "data": "{\"allPagesChecked\":false,\"totalListed\":null,\"excluded\":[],\"id\":\"de-20261102-state-45\",\"sourceUrl\":\"https://www.saarland.de/DE/presse-informationen/medienservice/medieninfos\",\"windowStart\":\"2026-10-30\",\"windowEnd\":\"2026-11-02\",\"status\":\"partial\",\"pages\":[\"https://www.saarland.de/DE/presse-informationen/medienservice/medieninfos\"],\"recordIds\":[],\"note\":\"按税务、社保、养老金、住房、移民和加密资产关键词看了列表页中10月30日至11月2日的条目，没有逐条核对，也没有翻页。\",\"checkedAt\":\"2026-11-02T21:27:52.633Z\"}"
+  },
+  {
+    "id": "de-20261102-state-51",
+    "source_url": "https://www.bayern.de/presse/pressemitteilungen/",
+    "checked_at": "2026-11-02T21:27:52.633Z",
+    "data": "{\"allPagesChecked\":false,\"totalListed\":null,\"excluded\":[],\"id\":\"de-20261102-state-51\",\"sourceUrl\":\"https://www.bayern.de/presse/pressemitteilungen/\",\"windowStart\":\"2026-10-30\",\"windowEnd\":\"2026-11-02\",\"status\":\"partial\",\"pages\":[\"https://www.bayern.de/presse/pressemitteilungen/\"],\"recordIds\":[],\"note\":\"按税务、社保、养老金、住房、移民和加密资产关键词看了列表页中10月30日至11月2日的条目，没有逐条核对，也没有翻页。\",\"checkedAt\":\"2026-11-02T21:27:52.633Z\"}"
+  },
+  {
+    "id": "de-20261102-state-47",
+    "source_url": "https://www.baden-wuerttemberg.de/de/service/presse/pressemitteilungen",
+    "checked_at": "2026-11-02T21:27:52.633Z",
+    "data": "{\"allPagesChecked\":false,\"totalListed\":null,\"excluded\":[],\"id\":\"de-20261102-state-47\",\"sourceUrl\":\"https://www.baden-wuerttemberg.de/de/service/presse/pressemitteilungen\",\"windowStart\":\"2026-10-30\",\"windowEnd\":\"2026-11-02\",\"status\":\"partial\",\"pages\":[\"https://www.baden-wuerttemberg.de/de/service/presse/pressemitteilungen\"],\"recordIds\":[],\"note\":\"按税务、社保、养老金、住房、移民和加密资产关键词看了列表页中10月30日至11月2日的条目，没有逐条核对，也没有翻页。\",\"checkedAt\":\"2026-11-02T21:27:52.633Z\"}"
+  },
+  {
+    "id": "de-20261102-state-42",
+    "source_url": "https://opal.rlp.de/portal/dokumente.tt.html",
+    "checked_at": "2026-11-02T21:27:52.633Z",
+    "data": "{\"allPagesChecked\":false,\"totalListed\":null,\"excluded\":[],\"id\":\"de-20261102-state-42\",\"sourceUrl\":\"https://opal.rlp.de/portal/dokumente.tt.html\",\"windowStart\":\"2026-10-30\",\"windowEnd\":\"2026-11-02\",\"status\":\"partial\",\"pages\":[\"https://opal.rlp.de/portal/dokumente.tt.html\"],\"recordIds\":[],\"note\":\"按税务、社保、养老金、住房、移民和加密资产关键词看了列表页中10月30日至11月2日的条目，没有逐条核对，也没有翻页。\",\"checkedAt\":\"2026-11-02T21:27:52.633Z\"}"
+  },
+  {
+    "id": "de-20261102-state-11",
+    "source_url": "https://www.regierung-mv.de/Landesregierung/jm/service_justizministerium/verkuendungsblaetter/gesetz-verordnungsblaetter",
+    "checked_at": "2026-11-02T21:27:52.633Z",
+    "data": "{\"allPagesChecked\":false,\"totalListed\":null,\"excluded\":[],\"id\":\"de-20261102-state-11\",\"sourceUrl\":\"https://www.regierung-mv.de/Landesregierung/jm/service_justizministerium/verkuendungsblaetter/gesetz-verordnungsblaetter\",\"windowStart\":\"2026-10-30\",\"windowEnd\":\"2026-11-02\",\"status\":\"partial\",\"pages\":[\"https://www.regierung-mv.de/Landesregierung/jm/service_justizministerium/verkuendungsblaetter/gesetz-verordnungsblaetter\"],\"recordIds\":[],\"note\":\"按税务、社保、养老金、住房、移民和加密资产关键词看了列表页中10月30日至11月2日的条目，没有逐条核对，也没有翻页。\",\"checkedAt\":\"2026-11-02T21:27:52.633Z\"}"
+  },
+  {
+    "id": "de-20261102-state-29",
+    "source_url": "https://www.regierung-mv.de/Aktuell/",
+    "checked_at": "2026-11-02T21:27:52.633Z",
+    "data": "{\"allPagesChecked\":false,\"totalListed\":null,\"excluded\":[],\"id\":\"de-20261102-state-29\",\"sourceUrl\":\"https://www.regierung-mv.de/Aktuell/\",\"windowStart\":\"2026-10-30\",\"windowEnd\":\"2026-11-02\",\"status\":\"partial\",\"pages\":[\"https://www.regierung-mv.de/Aktuell/\"],\"recordIds\":[],\"note\":\"按税务、社保、养老金、住房、移民和加密资产关键词看了列表页中10月30日至11月2日的条目，没有逐条核对，也没有翻页。\",\"checkedAt\":\"2026-11-02T21:27:52.633Z\"}"
+  },
+  {
+    "id": "de-20261102-state-49",
+    "source_url": "https://hessen.de/presse",
+    "checked_at": "2026-11-02T21:27:52.633Z",
+    "data": "{\"allPagesChecked\":false,\"totalListed\":null,\"excluded\":[],\"id\":\"de-20261102-state-49\",\"sourceUrl\":\"https://hessen.de/presse\",\"windowStart\":\"2026-10-30\",\"windowEnd\":\"2026-11-02\",\"status\":\"partial\",\"pages\":[\"https://hessen.de/presse\"],\"recordIds\":[],\"note\":\"按税务、社保、养老金、住房、移民和加密资产关键词看了列表页中10月30日至11月2日的条目，没有逐条核对，也没有翻页。\",\"checkedAt\":\"2026-11-02T21:27:52.633Z\"}"
+  },
+  {
+    "id": "de-20261102-state-14",
+    "source_url": "https://www.medienservice.sachsen.de/",
+    "checked_at": "2026-11-02T21:27:52.633Z",
+    "data": "{\"allPagesChecked\":false,\"totalListed\":null,\"excluded\":[],\"id\":\"de-20261102-state-14\",\"sourceUrl\":\"https://www.medienservice.sachsen.de/\",\"windowStart\":\"2026-10-30\",\"windowEnd\":\"2026-11-02\",\"status\":\"partial\",\"pages\":[\"https://www.medienservice.sachsen.de/\"],\"recordIds\":[],\"note\":\"按税务、社保、养老金、住房、移民和加密资产关键词看了列表页中10月30日至11月2日的条目，没有逐条核对，也没有翻页。\",\"checkedAt\":\"2026-11-02T21:27:52.633Z\"}"
+  },
+  {
+    "id": "de-20261102-state-35",
+    "source_url": "https://www.medienservice.sachsen.de/medien/",
+    "checked_at": "2026-11-02T21:27:52.633Z",
+    "data": "{\"allPagesChecked\":false,\"totalListed\":null,\"excluded\":[],\"id\":\"de-20261102-state-35\",\"sourceUrl\":\"https://www.medienservice.sachsen.de/medien/\",\"windowStart\":\"2026-10-30\",\"windowEnd\":\"2026-11-02\",\"status\":\"partial\",\"pages\":[\"https://www.medienservice.sachsen.de/medien/\"],\"recordIds\":[],\"note\":\"按税务、社保、养老金、住房、移民和加密资产关键词看了列表页中10月30日至11月2日的条目，没有逐条核对，也没有翻页。\",\"checkedAt\":\"2026-11-02T21:27:52.633Z\"}"
+  },
+  {
+    "id": "de-20261102-state-48",
+    "source_url": "https://starweb.hessen.de/portal/browse.tt.html?action=link&searchgeneric1-parsed=%28WP%3D21+AND+SGEBES%3DANNAHME%29+NOT+NOWEB%3DX&type=generic1",
+    "checked_at": "2026-11-02T21:27:52.633Z",
+    "data": "{\"allPagesChecked\":false,\"totalListed\":null,\"excluded\":[],\"id\":\"de-20261102-state-48\",\"sourceUrl\":\"https://starweb.hessen.de/portal/browse.tt.html?action=link&searchgeneric1-parsed=%28WP%3D21+AND+SGEBES%3DANNAHME%29+NOT+NOWEB%3DX&type=generic1\",\"windowStart\":\"2026-10-30\",\"windowEnd\":\"2026-11-02\",\"status\":\"partial\",\"pages\":[\"https://starweb.hessen.de/portal/browse.tt.html?action=link&searchgeneric1-parsed=%28WP%3D21+AND+SGEBES%3DANNAHME%29+NOT+NOWEB%3DX&type=generic1\"],\"recordIds\":[],\"note\":\"按税务、社保、养老金、住房、移民和加密资产关键词看了列表页中10月30日至11月2日的条目，没有逐条核对，也没有翻页。\",\"checkedAt\":\"2026-11-02T21:27:52.633Z\"}"
   }
 ]

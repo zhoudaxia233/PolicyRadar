@@ -8237,6 +8237,53 @@
       "hash": "b50a94b61c3e6b1cea936fffcd49f2f8715128008596b9d60f679ef849926d91",
       "originalLanguage": "de",
       "verbatim": []
+    },
+    "de-budget-accompanying-act-2027": {
+      "version": 1,
+      "hash": "948dd8c9153a62ad236c86fd82dedcb2869aadaecc497e5d1de0e30b7332db58",
+      "originalLanguage": "de",
+      "verbatim": [
+        "Bundesregierung",
+        "Bundesministerium der Justiz"
+      ]
+    },
+    "de-afd-minor-taxes-motion-2026": {
+      "version": 1,
+      "hash": "a6dcc9d6828b9f2e55f1e281535abc482249651635188fbd2f5c0baea3741aa2",
+      "originalLanguage": "de",
+      "verbatim": []
+    },
+    "eu-frontex-return-proposals-2026": {
+      "version": 1,
+      "hash": "66dd42a00bc5e6f08194af72bf0c05048bdb8afb043656fdb658e3c19671aa5b",
+      "originalLanguage": "en",
+      "verbatim": [
+        "European Commission"
+      ]
+    },
+    "eu-pet-spunbond-china-ad-2026": {
+      "version": 1,
+      "hash": "cbbc51e7a34b7458d86d7b8f2b7103ce629313760715d988d959c0abcaaf9dd4",
+      "originalLanguage": "en",
+      "verbatim": [
+        "Publications Office of the European Union"
+      ]
+    },
+    "eu-hybrid-vehicles-safeguard-2026": {
+      "version": 1,
+      "hash": "c4a478d5a8bd85f51705c50f82a2c2a55655bb4cce5bef27a1ee5f695a4918b7",
+      "originalLanguage": "en",
+      "verbatim": [
+        "Publications Office of the European Union"
+      ]
+    },
+    "rp-social-rent-tiers-2026": {
+      "version": 1,
+      "hash": "e9a0ee15ead56d6bfb7ca7cbaee854410eba328e44e6fac166d3648701f1ab54",
+      "originalLanguage": "de",
+      "verbatim": [
+        "Staatskanzlei Rheinland-Pfalz"
+      ]
     }
   },
   "intake": {
@@ -53142,6 +53189,48 @@
       "hash": "52b36f1519205d0bda91ed0d1f6fbfa48eef7e5bb67583397ad6a2a66c766083",
       "verbatim": [],
       "originalLanguage": "en",
+      "titleIsOriginal": true
+    },
+    "de-20261102-bgbl-327": {
+      "hash": "5a7ab762959e2abb3595e51292c39f063bcac9f507e633ece3ceb08bb571a898",
+      "verbatim": [],
+      "originalLanguage": "de",
+      "titleIsOriginal": true
+    },
+    "de-20261102-bt-8637": {
+      "hash": "f94f245198cc4de2fc03912836f6676e1a498958da133a84c9297df156964878",
+      "verbatim": [],
+      "originalLanguage": "de",
+      "titleIsOriginal": true
+    },
+    "eu-20261027-com-2026-1030": {
+      "hash": "49780b36d3724f4f8f5a446b4439c8682fdbbb74190fa4465c5cea816845e51b",
+      "verbatim": [],
+      "originalLanguage": "en",
+      "titleIsOriginal": true
+    },
+    "eu-20261027-com-2026-1037": {
+      "hash": "54acf78cedf8fd815a876ac6ab691729ccb1b2be40a583f9e7a23d2e0638b156",
+      "verbatim": [],
+      "originalLanguage": "en",
+      "titleIsOriginal": true
+    },
+    "mv-20261029-elterngeld-reaction": {
+      "hash": "a0c6f94b19e860e520c101cc951852ee4ab807331dcdea9ce51d532fdc142b62",
+      "verbatim": [],
+      "originalLanguage": "de",
+      "titleIsOriginal": true
+    },
+    "de-20261102-bgbl2-234": {
+      "hash": "1c7b0bae2f598eaa830220fcfd878d7a4612ce04df6b0959887e0d376fdfef10",
+      "verbatim": [],
+      "originalLanguage": "de",
+      "titleIsOriginal": true
+    },
+    "de-20261102-bgbl2-235": {
+      "hash": "b2c0d6bf045a825de94c517756b9e295fb6b69d767722b25575b5a83554e95e7",
+      "verbatim": [],
+      "originalLanguage": "de",
       "titleIsOriginal": true
     }
   }

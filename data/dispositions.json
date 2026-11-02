@@ -11084,6 +11084,164 @@
         }
       ],
       "appliesFromExport": "2026-10-30T22:34:49.053Z"
+    },
+    {
+      "id": "de-bgbl-corrigendum-2026-11",
+      "reason": [
+        "更正通知：只修正某一语言版本或已公布文本中的错误，不产生新规则；被更正的法规本身照常适用。",
+        "Corrigenda: they correct errors in one language version or in a published text and create no new rules; the corrected act applies as before."
+      ],
+      "appliesFromExport": "2026-11-02T21:27:52.633Z",
+      "basis": "BGBl. 2026 I Nr. 327 corrects the order in No. 260 delegating civil-service powers from the housing ministry to its federal office.",
+      "documents": [
+        {
+          "region": "DE",
+          "officialId": "BGBl. 2026 I Nr. 327"
+        }
+      ]
+    },
+    {
+      "id": "de-treaty-notices-2026-10-22",
+      "reason": [
+        "条约适用范围公告：只更新哪些国家已加入或批准某项国际条约，德国国内规则不因此改变。",
+        "A notice on a treaty’s scope: it only updates which states have joined or ratified an international treaty. Rules in Germany do not change."
+      ],
+      "appliesFromExport": "2026-11-02T21:27:52.633Z",
+      "basis": "BGBl. 2026 II Nr. 234 announces the entry into force of the BBNJ agreement; Nr. 235 records supplementary declarations by Thailand and Cyprus to Annex A of the Convention on Mutual Administrative Assistance in Tax Matters. Neither changes German rules.",
+      "documents": [
+        {
+          "region": "DE",
+          "officialId": "BGBl. 2026 II Nr. 234"
+        },
+        {
+          "region": "DE",
+          "officialId": "BGBl. 2026 II Nr. 235"
+        }
+      ]
+    },
+    {
+      "id": "de-cabinet-budgets-2026-10",
+      "reason": [
+        "预算计划：规定联邦或某个公共机构可以花多少钱，本身不改变任何税率、缴费或福利规则。",
+        "A budget plan: it sets how much the federation or a public body may spend and changes no tax, contribution or benefit rule by itself."
+      ],
+      "appliesFromExport": "2026-11-02T21:27:52.633Z",
+      "basis": "Cabinet results of 14 and 28 October: item 1-01 of the 62nd meeting is the government reply to the Bundesrat on the 2027 Budget Act (BR-Drs. 450/26); item 1-13 of the 63rd meeting approves the 2027 budget plan of Deutsche Rentenversicherung Bund. Tax and benefit changes for 2027 are in the separate budget accompanying bill, which is explained.",
+      "documents": [
+        {
+          "region": "DE",
+          "url": "https://www.bundesregierung.de/breg-de/aktuelles/bundeskabinett-ergebnisse-2456684#top1-01",
+          "title": "Entwurf eines Gesetzes über die Feststellung des Bundeshaushaltsplans für das Haushaltsjahr 2027 (Haushaltsgesetz 2027 - HG 2027) und zum Finanzplan des Bundes 2026 bis 2030; hier: Entwurf einer Gegenäußerung der Bundesregierung zur Stellungnahme des Bundesrates (BR-Drs. 450/26 – Beschluss)"
+        },
+        {
+          "region": "DE",
+          "url": "https://www.bundesregierung.de/breg-de/bundesregierung/bundeskanzleramt/kabinettssitzungen/bundeskabinett-ergebnisse-2458340#top1-13",
+          "title": "Haushaltsplan der Deutschen Rentenversicherung Bund für das Haushaltsjahr 2027"
+        }
+      ]
+    },
+    {
+      "id": "de-cabinet-strategy-2026-10",
+      "reason": [
+        "政府战略或行动计划：说明打算做什么，本身不设定有约束力的规则；具体措施要另行立法或决定。",
+        "A government strategy or action plan: it states intentions and sets no binding rule by itself; specific measures need separate laws or decisions."
+      ],
+      "appliesFromExport": "2026-11-02T21:27:52.633Z",
+      "basis": "Cabinet adopted the national action plan for climate-friendly shipping on 14 October as a plan, not as a law or regulation.",
+      "documents": [
+        {
+          "region": "DE",
+          "url": "https://www.bundesregierung.de/breg-de/aktuelles/klimafreundliche-schifffahrt-2457038",
+          "title": "Nationaler Aktionsplan klimafreundliche Schifffahrt"
+        }
+      ]
+    },
+    {
+      "id": "de-cabinet-admin-rule-2026-10",
+      "reason": [
+        "只约束主管部门的行政规定：说明在现有铁路设施施工时如何保护墙蜥和沙蜥，对居民没有直接规则。",
+        "An administrative rule binding only the authorities: it explains how to protect wall and sand lizards during construction on existing railway infrastructure and sets no direct rules for residents."
+      ],
+      "appliesFromExport": "2026-11-02T21:27:52.633Z",
+      "basis": "Cabinet item 1-03 of the 62nd meeting: the government accepts the Bundesrat amendments to the second general administrative provision on lizard protection for rail construction (BR-Drs. 435/26).",
+      "documents": [
+        {
+          "region": "DE",
+          "url": "https://www.bundesregierung.de/breg-de/aktuelles/bundeskabinett-ergebnisse-2456684#top1-03",
+          "title": "Zweite Allgemeine Verwaltungsvorschrift zur Durchführung des Bundesnaturschutzgesetzes zum Artenschutz von Zaun- und Mauereidechse bei Baumaßnahmen an bestehender Schieneninfrastruktur (EidechsenschutzSchieneVwV); hier: Entwurf eines Beschlusses der Bundesregierung zu den Änderungsmaßgaben des Bundesrates (BR-Drs. 435/26 – Beschluss)"
+        }
+      ]
+    },
+    {
+      "id": "de-bt-motions-2026-11",
+      "reason": [
+        "议会动议：要求政府采取行动，即使通过也不直接改变法律。",
+        "A parliamentary motion: it asks the government to act and does not change the law by itself even if adopted."
+      ],
+      "appliesFromExport": "2026-11-02T21:27:52.633Z",
+      "basis": "Bundestag text-archive previews for week 45: a motion on protecting the International Criminal Court from sanctions (21/8562) and a motion on swimming skills; neither is a bill.",
+      "documents": [
+        {
+          "region": "DE",
+          "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw45-de-voelkerstrafrecht-1225078",
+          "title": "Völkerstrafrecht verteidigen – Internationalen Strafgerichtshof vor Sanktionen schützen"
+        },
+        {
+          "region": "DE",
+          "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw45-de-ueberweisungen-1154782",
+          "title": "Schwimmen können, Wasser erleben, Leben schützen – Schwimmfähigkeit und Schwimmkultur in Deutschland stärken"
+        }
+      ]
+    },
+    {
+      "id": "he-procedure-and-vetting-2026-10",
+      "reason": [
+        "只规定行政程序或涉密岗位人员的安全审查：涉及规划机关如何制定州发展规划，或在涉密、防破坏敏感岗位工作的人如何接受审查，不改变居民的一般权利义务。",
+        "Only administrative procedure or security vetting: how planning authorities prepare the state development plan, or how people in classified or sabotage-sensitive posts are vetted. General rights and duties of residents are unchanged."
+      ],
+      "appliesFromExport": "2026-11-02T21:27:52.633Z",
+      "basis": "GVBl. Hessen 2026 Nr. 68 amends the State Planning Act (electronic participation, terminology, cost rules for planning procedures). Nr. 69 re-enacts the Security Vetting and Classified Information Act from 1 January 2027 for persons in security-sensitive posts.",
+      "documents": [
+        {
+          "region": "DE-HE",
+          "officialId": "GVBl. Hessen 2026 Nr. 68"
+        },
+        {
+          "region": "DE-HE",
+          "officialId": "GVBl. Hessen 2026 Nr. 69"
+        }
+      ]
+    },
+    {
+      "id": "he-curricula-references-2026",
+      "reason": [
+        "只更新引用：把核心课程的引用版本从2011年改为2026年，并更新教育部名称和网址；课程内容另行公布，本站未核读。",
+        "Only updates references: the cited editions of the core curricula change from 2011 to 2026, and the ministry’s name and web address are updated. The curricula themselves are published separately and have not been read here."
+      ],
+      "appliesFromExport": "2026-11-02T21:27:52.633Z",
+      "basis": "GVBl. Hessen 2026 Nr. 65, Article 1: replaces “2011” with “2026” in the curriculum references and the ministry name; in force from 1 August 2026.",
+      "documents": [
+        {
+          "region": "DE-HE",
+          "officialId": "GVBl. Hessen 2026 Nr. 65"
+        }
+      ]
+    },
+    {
+      "id": "eu-esma-draft-rts-2026-10",
+      "reason": [
+        "监管机构提交给欧盟委员会的技术标准草案：只涉及金融市场机构，委员会采纳前不生效。",
+        "Draft technical standards submitted by a supervisor to the Commission: they concern financial-market firms only and do not apply until the Commission adopts them."
+      ],
+      "appliesFromExport": "2026-11-02T21:27:52.633Z",
+      "basis": "ESMA news of 20 October: final report with draft regulatory technical standards on post-trade risk reduction services under EMIR 3, submitted to the Commission for endorsement.",
+      "documents": [
+        {
+          "region": "EU",
+          "url": "https://www.esma.europa.eu/press-news/esma-news/esma-specifies-requirements-facilitate-safe-use-post-trade-risk-reduction",
+          "title": "ESMA specifies requirements to facilitate safe use of post-trade risk reduction services"
+        }
+      ]
     }
   ]
 }

@@ -42,7 +42,8 @@ test('the anti-money-laundering act and the cash-register bill stay pending, wit
  const a=revision('de-aml-act-2027',1);assert.equal(a.phase,'pending');assert.equal(a.effectiveDate,null);assert.equal(a.nextDate,'2026-12-16');
  assert.match(a.limits,/1万欧元上限来自欧盟条例/);assert.match(a.before,/第16a条/);
  const k=revision('de-cash-register-digital-receipts-2028',1);assert.equal(k.nextDate,'2026-11-06');assert.match(k.after,/1\.2万欧元/);
- assert.equal(topics.find(x=>x.id==='de-cash-register-digital-receipts-2028')!.recordIds.length,2);
+ // The group may gain later documents (the Bundestag printed paper on 3 November); the original two stay in it.
+ assert(topics.find(x=>x.id==='de-cash-register-digital-receipts-2028')!.recordIds.length>=2);
 });
 
 test('Hessen fast-track responsibility moves in two steps and keeps earlier applications',()=>{

@@ -53,7 +53,9 @@ test('sanctions renewals expire again unless extended, and the ETS2 decision set
 });
 
 test('elapsed dates advance only to the next published milestone',()=>{
- const b=latest('de-bremen-social-services-closures-2026');keepsEvents('de-bremen-social-services-closures-2026');assert.equal(b.nextDate,'2026-11-02');
+ // Version 3 is the 28 October revision; later rounds may advance the date again.
+ const b=revision('de-bremen-social-services-closures-2026',3);assert.equal(b.nextDate,'2026-11-02');
+ for(const e of revision('de-bremen-social-services-closures-2026',2).events)assert.deepEqual(b.events.find(x=>x.id===e.id),e);
  const n=latest('de-backlog-20261015-37');keepsEvents('de-backlog-20261015-37');assert.equal(n.nextDate,null);assert.match(n.statusNote!,/没有核实展示期后是否有人起诉/);
 });
 

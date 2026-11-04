@@ -74,6 +74,11 @@
           "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw45-de-pflegeneuordnungsgesetz-1225076",
           "title": "Pflegeneuordnungsgesetz",
           "appliesFromExport": "2026-10-21T17:58:19.854Z"
+        },
+        {
+          "region": "DE",
+          "officialId": "BT-Drs. 21/8869",
+          "appliesFromExport": "2026-11-04T21:13:22.816Z"
         }
       ],
       "appliesFromExport": "2026-10-10T15:05:47.913Z"
@@ -2559,6 +2564,12 @@
           "region": "DE",
           "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-de-wohngeldgesetz-1217564",
           "title": "Vereinfachung und Fortentwicklung des Wohngeldgesetzes"
+        },
+        {
+          "region": "DE",
+          "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw45-pa-wohnen-1224418",
+          "title": "Sachverständige üben starke Kritik an Wohngeldkürzung",
+          "appliesFromExport": "2026-11-04T21:13:22.816Z"
         }
       ],
       "appliesFromExport": "2026-10-10T10:23:41.797Z"
@@ -5910,6 +5921,11 @@
         {
           "region": "DE",
           "officialId": "Zweites Kassengesetz (Kabinett 2026-09-23)"
+        },
+        {
+          "region": "DE",
+          "officialId": "BT-Drs. 21/8867",
+          "appliesFromExport": "2026-11-04T21:13:22.816Z"
         }
       ],
       "appliesFromExport": "2026-10-30T17:11:49.248Z"
@@ -6032,6 +6048,49 @@
         }
       ],
       "appliesFromExport": "2026-11-02T21:27:52.633Z"
+    },
+    {
+      "id": "gb-earned-settlement-2026",
+      "title": [
+        "英国定居新规",
+        "UK earned settlement"
+      ],
+      "basis": "The Home Office news of 2 November announces the earned-settlement model “set out before Parliament today” and links the consultation outcome page, which publishes the government response document.",
+      "documents": [
+        {
+          "region": "GB",
+          "url": "https://www.gov.uk/government/news/home-secretary-unveils-new-rules-for-migrants-settling-in-the-uk",
+          "title": "Home Secretary unveils new rules for migrants settling in the UK"
+        },
+        {
+          "region": "GB",
+          "url": "https://assets.publishing.service.gov.uk/media/6ae90b0e5b14ba0182a272a4/A_Fairer_Pathway_to_Settlement_-_Government_response_to_the_consultation.pdf",
+          "title": "A Fairer Pathway to Settlement: Government response to the consultation"
+        }
+      ],
+      "appliesFromExport": "2026-11-04T21:13:22.816Z"
+    },
+    {
+      "id": "nl-box3-novelle-2026",
+      "title": [
+        "荷兰box 3实际收益法及其修订法案",
+        "Dutch box 3 actual-return act and its amending bill"
+      ],
+      "basis": "The amending bill 37053 states in Article I that it amends the Wet werkelijk rendement box 3 bill (Kamerstukken 36748) if enacted; the 30 September letter EK 37.020 / 36.748 B announced this amending bill.",
+      "documents": [
+        {
+          "region": "NL",
+          "officialId": "EK 37.020 / 36.748, B"
+        },
+        {
+          "region": "NL",
+          "officialId": "Kamerstuk 37053"
+        }
+      ],
+      "explanations": [
+        "nl-box3-actual-return-crypto"
+      ],
+      "appliesFromExport": "2026-11-04T21:13:22.816Z"
     }
   ]
 }

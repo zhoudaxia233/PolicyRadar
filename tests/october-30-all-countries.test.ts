@@ -27,7 +27,8 @@ test('every new explanation has a matching record, a current translation and an 
 });
 
 test('Spanish decree-laws keep their stages apart',()=>{
- const rent=policy('es-rent-renewal-compensation-2026');
+ // Pinned to this round's version: the confirmation deadline later elapsed and was cleared.
+ const rent=revision('es-rent-renewal-compensation-2026',1);
  assert.equal(rent.effectiveDate,'2026-11-15');
  assert.equal(rent.nextKind,'deadline');
  assert.match(rent.statusNote!,/仍须国会/);

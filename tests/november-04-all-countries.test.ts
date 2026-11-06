@@ -65,7 +65,8 @@ test('UK and Swiss proposals stay proposals',()=>{
 
 test('elapsed dates are cleared or advanced without claiming the step happened',()=>{
  for(const id of ['de-bgbl-2026-302-evpg-regulation-expiry','fr-construction-diesel-aid-october-2026','fr-micro-turnover-october-deadline-2026','ch-climate-public-sector-2026','ch-customs-end-use-relief-nov-2026','ch-jet-fuel-stock-release-2026','rp-teacher-trainee-cap-geography-2026','fr-gas-benchmark-october-2026','ch-respiratory-vaccination-2026','de-annual-tax-act-2026','nl-vacancy-enforcement-bill-202610']){
-  const v=store.tables.policies.find((p:any)=>p.id===id).version,p=revision(id,v),old=revision(id,v-1);
+  // Pinned to the revision written by this round; later rounds may advance the same card with evidence.
+  const v=Number(store.tables.revisions.find((r:any)=>r.policy_id===id&&r.recorded_at==='2026-11-04T21:13:22.816Z').version),p=revision(id,v),old=revision(id,v-1);
   assert.equal(p.nextDate,null,id);assert.match(p.limits,/的日期已过，本轮没有核实是否按期进行/,id);assert.equal(p.verifiedAt,old.verifiedAt,id);
  }
  assert.equal(revision('rp-teacher-trainee-cap-geography-2026',2).status,'adopted');

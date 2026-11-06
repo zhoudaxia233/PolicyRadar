@@ -1,0 +1,127 @@
+{
+  "checkedAt": "2026-11-06T09:46:10.167Z",
+  "scope": "US",
+  "channels": 7,
+  "incompleteChannels": 7,
+  "gaps": [
+    {
+      "sourceUrl": "https://www.whitehouse.gov/presidential-actions/",
+      "region": "US",
+      "title": "美国：总统文件",
+      "windowStart": "2026-10-30",
+      "windowEnd": "2026-11-05",
+      "missingDays": [
+        "2026-10-30",
+        "2026-10-31",
+        "2026-11-01",
+        "2026-11-02",
+        "2026-11-03",
+        "2026-11-04",
+        "2026-11-05"
+      ],
+      "latestScan": "complete"
+    },
+    {
+      "sourceUrl": "https://www.congress.gov/",
+      "region": "US",
+      "title": "美国：国会立法与进展",
+      "windowStart": "2026-10-30",
+      "windowEnd": "2026-11-05",
+      "missingDays": [
+        "2026-10-30",
+        "2026-10-31",
+        "2026-11-01",
+        "2026-11-02",
+        "2026-11-03",
+        "2026-11-04",
+        "2026-11-05"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.govinfo.gov/app/collection/PLAW/",
+      "region": "US",
+      "title": "美国：公法与私法",
+      "windowStart": "2026-10-30",
+      "windowEnd": "2026-11-05",
+      "missingDays": [
+        "2026-10-30",
+        "2026-10-31",
+        "2026-11-01",
+        "2026-11-02",
+        "2026-11-03",
+        "2026-11-04",
+        "2026-11-05"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.govinfo.gov/app/collection/FR",
+      "region": "US",
+      "title": "美国：联邦公报",
+      "windowStart": "2026-10-30",
+      "windowEnd": "2026-11-05",
+      "missingDays": [
+        "2026-10-30",
+        "2026-10-31",
+        "2026-11-01",
+        "2026-11-02",
+        "2026-11-03",
+        "2026-11-04",
+        "2026-11-05"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://uscode.house.gov/",
+      "region": "US",
+      "title": "美国：美国法典",
+      "windowStart": "2026-10-30",
+      "windowEnd": "2026-11-05",
+      "missingDays": [
+        "2026-10-30",
+        "2026-10-31",
+        "2026-11-01",
+        "2026-11-02",
+        "2026-11-03",
+        "2026-11-04",
+        "2026-11-05"
+      ],
+      "latestScan": "blocked"
+    },
+    {
+      "sourceUrl": "https://www.ecfr.gov/",
+      "region": "US",
+      "title": "美国：联邦规章汇编",
+      "windowStart": "2026-10-30",
+      "windowEnd": "2026-11-05",
+      "missingDays": [
+        "2026-10-30",
+        "2026-10-31",
+        "2026-11-01",
+        "2026-11-02",
+        "2026-11-03",
+        "2026-11-04",
+        "2026-11-05"
+      ],
+      "latestScan": "blocked"
+    },
+    {
+      "sourceUrl": "https://www.irs.gov/newsroom",
+      "region": "US",
+      "title": "美国：税务局新闻与实施说明",
+      "windowStart": "2026-10-30",
+      "windowEnd": "2026-11-05",
+      "missingDays": [
+        "2026-10-30",
+        "2026-10-31",
+        "2026-11-01",
+        "2026-11-02",
+        "2026-11-03",
+        "2026-11-04",
+        "2026-11-05"
+      ],
+      "latestScan": "partial"
+    }
+  ]
+}

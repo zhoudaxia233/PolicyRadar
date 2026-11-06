@@ -803,5 +803,684 @@
     "hash": "a49d3fc8a24a7809106021972620af8a358644f036657b0cca980effb12afe34",
     "fetched_at": "2026-11-04T21:09:40.806Z",
     "content_type": "text/html; charset=utf-8"
+  },
+  {
+    "key": "sources/1ec213e49b016a21041fb2e9ec9e8d3e92d2a939a83d21be1661820c394f1850/91f67dea04e3ebd9eb095383ddf2a179514717016cc897cc54c2b28afab09a1e.html",
+    "url": "https://www.recht.bund.de/bgbl/1/2026/330/VO.html",
+    "hash": "91f67dea04e3ebd9eb095383ddf2a179514717016cc897cc54c2b28afab09a1e",
+    "fetched_at": "2026-11-06T09:13:03.534Z",
+    "content_type": "text/html;charset=utf-8"
+  },
+  {
+    "key": "sources/1bf679195ec2a58eb50bbad1a3a44e9b3b4aab6bb13bc59b83e6672beaba376d/4ef89f363044a2e6f15b4f3d87527ba3dc9fbf6e2b552c7e1bfbf544bf48712a.html",
+    "url": "https://www.recht.bund.de/bgbl/1/2026/329/VO.html",
+    "hash": "4ef89f363044a2e6f15b4f3d87527ba3dc9fbf6e2b552c7e1bfbf544bf48712a",
+    "fetched_at": "2026-11-06T09:13:03.533Z",
+    "content_type": "text/html;charset=utf-8"
+  },
+  {
+    "key": "sources/17ebf36e46915008a5fea079cf83ba03c4777f85f11ec9024fcbd6d85d888369/1b19a353c661fff3aafcfe1a79fbbef015de6cb0cc173c6d69a4f1f794e18fe9.html",
+    "url": "https://www.recht.bund.de/bgbl/1/2026/328/VO.html",
+    "hash": "1b19a353c661fff3aafcfe1a79fbbef015de6cb0cc173c6d69a4f1f794e18fe9",
+    "fetched_at": "2026-11-06T09:13:03.511Z",
+    "content_type": "text/html;charset=utf-8"
+  },
+  {
+    "key": "sources/2f876dbab6f7c173f0cc280ed456671f7db81a8c451e344df4f154bb55b93eb8/3dfef88c15eb35e403685be12980b6004ab2be170311307b83dd3d689d1383aa.html",
+    "url": "https://www.recht.bund.de/bgbl/2/2026/258/VO.html",
+    "hash": "3dfef88c15eb35e403685be12980b6004ab2be170311307b83dd3d689d1383aa",
+    "fetched_at": "2026-11-06T09:13:03.732Z",
+    "content_type": "text/html;charset=utf-8"
+  },
+  {
+    "key": "sources/ef1910d54a4d95294f7226dbd90f83a5d9c744a54a90f429bc09a028e6bdf4c7/92d2e0e73b3780bd887d64ca481446f405819f295bd24106d974653b85a8a8d5.html",
+    "url": "https://www.recht.bund.de/bgbl/2/2026/257/VO.html",
+    "hash": "92d2e0e73b3780bd887d64ca481446f405819f295bd24106d974653b85a8a8d5",
+    "fetched_at": "2026-11-06T09:13:03.732Z",
+    "content_type": "text/html;charset=utf-8"
+  },
+  {
+    "key": "sources/db8adfe590d27008005f40ff6f3e09df9b0100fda473bdfacb89a08c2869755b/d825e491b733d034582e78789584f5f35f69fee7e127ea8fb97cf34cca556326.html",
+    "url": "https://www.recht.bund.de/bgbl/2/2026/259/VO.html",
+    "hash": "d825e491b733d034582e78789584f5f35f69fee7e127ea8fb97cf34cca556326",
+    "fetched_at": "2026-11-06T09:13:03.732Z",
+    "content_type": "text/html;charset=utf-8"
+  },
+  {
+    "key": "sources/091ea40a6cf3e9227dbf261d19e31f66e5d914f351c36404e89f41832807accb/b7baedd051a5027eaf27f54dcf475b677ece1e92d68890d08a7c529521ad1c2d.html",
+    "url": "https://www.recht.bund.de/bgbl/2/2026/261/VO.html",
+    "hash": "b7baedd051a5027eaf27f54dcf475b677ece1e92d68890d08a7c529521ad1c2d",
+    "fetched_at": "2026-11-06T09:13:03.823Z",
+    "content_type": "text/html;charset=utf-8"
+  },
+  {
+    "key": "sources/d49b641456143e701d0c00bb35af978515b9e7bcb23414107a118b4266fabaa2/1b635d41899b53939c28a8deb0e36bb5811d89fab9e4a1fe05f166067f585184.html",
+    "url": "https://www.recht.bund.de/bgbl/2/2026/260/VO.html",
+    "hash": "1b635d41899b53939c28a8deb0e36bb5811d89fab9e4a1fe05f166067f585184",
+    "fetched_at": "2026-11-06T09:13:03.823Z",
+    "content_type": "text/html;charset=utf-8"
+  },
+  {
+    "key": "sources/9fe089a39ec28857b7f310a09678c612ad9b5e5f605a6e4c8ceb1ffb288996de/2a81c2b9fb7fe94b6e382adc7e4a52b79c25aba61ce048b6b2c1c3ada45aacec.html",
+    "url": "https://www.bmas.de/DE/Service/Presse/Pressemitteilungen/pressemitteilungen.html",
+    "hash": "2a81c2b9fb7fe94b6e382adc7e4a52b79c25aba61ce048b6b2c1c3ada45aacec",
+    "fetched_at": "2026-11-06T09:13:47.417Z",
+    "content_type": "text/html;charset=utf-8"
+  },
+  {
+    "key": "sources/894c74e18a53aaf73318eeb9d491d7c4fdada008ca00206327ca761e90bbf227/78727e3368cead18977d2dd9c7e71f18d698f2ddece784743a729b87464790e6.html",
+    "url": "https://www.bundestag.de/dokumente/textarchiv",
+    "hash": "78727e3368cead18977d2dd9c7e71f18d698f2ddece784743a729b87464790e6",
+    "fetched_at": "2026-11-06T09:13:47.832Z",
+    "content_type": "text/html;charset=UTF-8"
+  },
+  {
+    "key": "sources/874787f99ff764ffae37bd1ce2b68834eb5e8081d151faf30a782a492957e9a7/189bbe39164350c4f648385a87580769d6601c7b3baea48b9e6d89c49b5c4d8a.html",
+    "url": "https://www.bundesgesundheitsministerium.de/suche-pressemitteilungen",
+    "hash": "189bbe39164350c4f648385a87580769d6601c7b3baea48b9e6d89c49b5c4d8a",
+    "fetched_at": "2026-11-06T09:13:47.828Z",
+    "content_type": "text/html; charset=utf-8"
+  },
+  {
+    "key": "sources/f116a1e4d1b07df9d00024533058e8aee12f77ed1739da1dd1d39addb223e3c5/7cf339480dd31996d5e5ab27274a0324618decc047e87434197505bd6adfb066.html",
+    "url": "https://www.bundesregierung.de/breg-de/bundesregierung/kabinettsthemen",
+    "hash": "7cf339480dd31996d5e5ab27274a0324618decc047e87434197505bd6adfb066",
+    "fetched_at": "2026-11-06T09:13:51.650Z",
+    "content_type": "text/html;charset=UTF-8"
+  },
+  {
+    "key": "sources/941378d5db0c9d7c841e6ae6f0b133bc4a3a469fad9a125df7a09168b5d78256/e10ce7baad46469c14cee27aa4cf19be8901d7b6985e276d7890cf94d24f45c8.html",
+    "url": "https://www.bundestag.de/ajax/filterlist/de/dokumente/textarchiv/454772-454772?limit=20&noFilterSet=true&offset=0",
+    "hash": "e10ce7baad46469c14cee27aa4cf19be8901d7b6985e276d7890cf94d24f45c8",
+    "fetched_at": "2026-11-06T09:15:09.843Z",
+    "content_type": "text/html;charset=UTF-8"
+  },
+  {
+    "key": "sources/40638c172d6f6a0ec578eeb5b8775e5ce4da10a1aa55534b71bb6276f76b5a86/69417ace394a1a882a8d6cbc8e03e71a86a546d99ae2256011720e5314162f95.html",
+    "url": "https://www.bundestag.de/ajax/filterlist/de/dokumente/textarchiv/454772-454772?limit=20&noFilterSet=true&offset=20",
+    "hash": "69417ace394a1a882a8d6cbc8e03e71a86a546d99ae2256011720e5314162f95",
+    "fetched_at": "2026-11-06T09:15:10.049Z",
+    "content_type": "text/html;charset=UTF-8"
+  },
+  {
+    "key": "sources/0119ddb29000d47520463107ce5d6ade2c8d4d13ca29a033afea668cc7519e52/0ea6f5184e3fd69ed152f92b061e765885d8dd54a9beab0dd630910b9c46a492.html",
+    "url": "https://www.bundestag.de/ajax/filterlist/de/dokumente/textarchiv/454772-454772?limit=20&noFilterSet=true&offset=40",
+    "hash": "0ea6f5184e3fd69ed152f92b061e765885d8dd54a9beab0dd630910b9c46a492",
+    "fetched_at": "2026-11-06T09:15:10.298Z",
+    "content_type": "text/html;charset=UTF-8"
+  },
+  {
+    "key": "sources/f3bdc565fe14ac3effbb009012d5b59bb77f6905e3ffdc9ce664c8dc9452ba01/991c26a23a351f846633bc38d9cf465ba4bf6dcd871ebd692efd48912729a92f.html",
+    "url": "https://www.bundestag.de/ajax/filterlist/de/dokumente/textarchiv/454772-454772?limit=20&noFilterSet=true&offset=60",
+    "hash": "991c26a23a351f846633bc38d9cf465ba4bf6dcd871ebd692efd48912729a92f",
+    "fetched_at": "2026-11-06T09:15:10.470Z",
+    "content_type": "text/html;charset=UTF-8"
+  },
+  {
+    "key": "sources/523f16d46795825027e38dd149c44bcb07879eaf7f9a722aa9f0e7bf6c3defd9/00d5f933cc0acacaf2a8dddb53164389ee7137f92f7a62c5e7e65461fec34358.html",
+    "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw45-de-pflegeneuordnungsgesetz-1225076",
+    "hash": "00d5f933cc0acacaf2a8dddb53164389ee7137f92f7a62c5e7e65461fec34358",
+    "fetched_at": "2026-11-06T09:16:31.661Z",
+    "content_type": "text/html;charset=UTF-8"
+  },
+  {
+    "key": "sources/b4478ff435034bf7baeac09d2444c53c797f038d39352f9dabf3c71262e5a106/4ba144170bdb7d21cec8ffe9b3fd6d2339ea28b1f5ef26983243a83abbf57ce0.html",
+    "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw45-de-doppelbesteuerung-ukraine-1225096",
+    "hash": "4ba144170bdb7d21cec8ffe9b3fd6d2339ea28b1f5ef26983243a83abbf57ce0",
+    "fetched_at": "2026-11-06T09:16:31.640Z",
+    "content_type": "text/html;charset=UTF-8"
+  },
+  {
+    "key": "sources/d65b1d074bac5aa68f25a2dacb6ea1b05dbda3888e8daa62265c4a87f03cc5e9/b2445fe38981380be5beeb9e8a591feff41e89090140612d60bc51384aa34ecc.html",
+    "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw45-de-abschliessende-beratungen-1154774",
+    "hash": "b2445fe38981380be5beeb9e8a591feff41e89090140612d60bc51384aa34ecc",
+    "fetched_at": "2026-11-06T09:16:31.660Z",
+    "content_type": "text/html;charset=UTF-8"
+  },
+  {
+    "key": "sources/91b39b577ff4391f91f272573289a7b7021da5f2668db1ffb13e47f1481d3d1c/e081f439a49612166978aa9467cbf88daed1f4dcf234c95fe3c2339163dfcf92.html",
+    "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw45-de-krankenkassen-1230920",
+    "hash": "e081f439a49612166978aa9467cbf88daed1f4dcf234c95fe3c2339163dfcf92",
+    "fetched_at": "2026-11-06T09:16:32.318Z",
+    "content_type": "text/html;charset=UTF-8"
+  },
+  {
+    "key": "sources/d54429834d67485c4a5023bd303ab1cf6dc372bd94b25a56fffbbac0972f99b9/b1f802d7ed9c274acb782364532de7740e7d4bf591714b5feab337c0ac25ff98.html",
+    "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw45-de-finanzausgleichgesetz-1230294",
+    "hash": "b1f802d7ed9c274acb782364532de7740e7d4bf591714b5feab337c0ac25ff98",
+    "fetched_at": "2026-11-06T09:16:32.317Z",
+    "content_type": "text/html;charset=UTF-8"
+  },
+  {
+    "key": "sources/1a29ded2a85f5993c06fd014fdcfff653fa8f2ab5342cb922c69dda2a9c9c74d/c47c0e196378d1f445e0b6d8fdb4ec3ad12f86a3ea273bbf736c274323dfd7df.html",
+    "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw45-pa-finanzen-est-1225814",
+    "hash": "c47c0e196378d1f445e0b6d8fdb4ec3ad12f86a3ea273bbf736c274323dfd7df",
+    "fetched_at": "2026-11-06T09:16:32.319Z",
+    "content_type": "text/html;charset=UTF-8"
+  },
+  {
+    "key": "sources/3d168ef71ae229210d9dafa9cde3637cd0d62da0f1eb6345946f3daa5d3fbb70/5478932e3dfbc050267e14aa1577654f1e773fd1f7c4379fbfb6f3c17bf16806.html",
+    "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw45-pa-wirtschaft-energie-1229372",
+    "hash": "5478932e3dfbc050267e14aa1577654f1e773fd1f7c4379fbfb6f3c17bf16806",
+    "fetched_at": "2026-11-06T09:16:33.157Z",
+    "content_type": "text/html;charset=UTF-8"
+  },
+  {
+    "key": "sources/89305c110deb43c4c238430e423c7d90b7c57250007a09b1395f1d97fdf31d07/b8dc8aa89ba0a3e6108c1f6f3755592cc44bd9ecbde1faa0004a0e5fb6b59c88.html",
+    "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw45-pa-finanzen-jahressteuer-1225846",
+    "hash": "b8dc8aa89ba0a3e6108c1f6f3755592cc44bd9ecbde1faa0004a0e5fb6b59c88",
+    "fetched_at": "2026-11-06T09:16:33.155Z",
+    "content_type": "text/html;charset=UTF-8"
+  },
+  {
+    "key": "sources/ab61e0940bfb482d72c9bf54a90dbf9a494a2c928155e5575a1c455cae70cbc2/bea30c0e045ba3664638f725d83bb43ddec40cef9fb5a57f955ea4ff6aa61fe4.html",
+    "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw45-pa-arbeit-erwerbsminderung-1229352",
+    "hash": "bea30c0e045ba3664638f725d83bb43ddec40cef9fb5a57f955ea4ff6aa61fe4",
+    "fetched_at": "2026-11-06T09:16:33.157Z",
+    "content_type": "text/html;charset=UTF-8"
+  },
+  {
+    "key": "sources/b6011101e98b3500b7c3c15fe83c87feea57739d2bbef2f28c32b89bd182b80a/f6b867169ff117603351eebe26d7d8afec483bfce0c1b0aa9ddc0248266426a6.html",
+    "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw45-pa-bildung-1225652",
+    "hash": "f6b867169ff117603351eebe26d7d8afec483bfce0c1b0aa9ddc0248266426a6",
+    "fetched_at": "2026-11-06T09:16:33.960Z",
+    "content_type": "text/html;charset=UTF-8"
+  },
+  {
+    "key": "sources/5fb0317fb1f2ac87caa4d8362393c34bae37d5d5c04d2192e5324fcca5abb5fa/7aa300952bd3c5166b02cccfae51be896e418b11feab7a7a0965ebedb54f418c.html",
+    "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw45-de-wohnungslosigkeit-1225098",
+    "hash": "7aa300952bd3c5166b02cccfae51be896e418b11feab7a7a0965ebedb54f418c",
+    "fetched_at": "2026-11-06T09:16:33.958Z",
+    "content_type": "text/html;charset=UTF-8"
+  },
+  {
+    "key": "sources/04e043f278055fe0fae8e22161f0e881ed18c79d23693e86a81791ff1ef6065a/56e0589762b534d15ce0b25a8da6f9d3c96e972a583c6960627a265508f2981b.html",
+    "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw45-de-ueberweisungen-1154782",
+    "hash": "56e0589762b534d15ce0b25a8da6f9d3c96e972a583c6960627a265508f2981b",
+    "fetched_at": "2026-11-06T09:16:33.960Z",
+    "content_type": "text/html;charset=UTF-8"
+  },
+  {
+    "key": "sources/480995bb0a82147e8341af60bbc9d21b7d3b1f6637400cfbda590c228efbcaed/3bec949bf0916983946745354b1dc6c30e38232ac049cdb861319bac0cde1637.html",
+    "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw45-de-tabaksteuer-1230602",
+    "hash": "3bec949bf0916983946745354b1dc6c30e38232ac049cdb861319bac0cde1637",
+    "fetched_at": "2026-11-06T09:16:34.117Z",
+    "content_type": "text/html;charset=UTF-8"
+  },
+  {
+    "key": "sources/6bf53aa7b2fb9b0933321af8ac81ccab58c9d115b078f6f7a4f11e16eae03549/d1e1efaa7dde273195d6aafce9dc526daaa35a802135e63d67a9f74b51d125e4.html",
+    "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw45-de-kassenaufzeichnungen-1225122",
+    "hash": "d1e1efaa7dde273195d6aafce9dc526daaa35a802135e63d67a9f74b51d125e4",
+    "fetched_at": "2026-11-06T09:16:34.116Z",
+    "content_type": "text/html;charset=UTF-8"
+  },
+  {
+    "key": "sources/8f398f3d946a13279beb581146d7814f7130dd0ce9a138cd57a346debe130205/2519e399fc66b31420dc7a162b698da3ae4b5e626285f5a3497c19d8601f7ce6.html",
+    "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw45-de-fachkraefteeinwanderung-1225072",
+    "hash": "2519e399fc66b31420dc7a162b698da3ae4b5e626285f5a3497c19d8601f7ce6",
+    "fetched_at": "2026-11-06T09:16:34.117Z",
+    "content_type": "text/html;charset=UTF-8"
+  },
+  {
+    "key": "sources/c749eb4fe41360953ff6ffc38d864f3485b43585855078bddf09471a7d39ddd3/f00572108f2d0af8dfa75524b833ff40e90ead5ed7c329c4ae6c1a9f46b90731.html",
+    "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw45-de-fahrlehrergesetz-1230606",
+    "hash": "f00572108f2d0af8dfa75524b833ff40e90ead5ed7c329c4ae6c1a9f46b90731",
+    "fetched_at": "2026-11-06T09:18:35.001Z",
+    "content_type": "text/html;charset=UTF-8"
+  },
+  {
+    "key": "sources/6d14c558250197f8c1847215c60deb1005acb17ac8c573a64a61cbc8a1574821/193d060a02071dbe44a1e66b4ea8bc8cdcaa68db239ecb0f8fbb79ee4cfe0fa1.html",
+    "url": "https://www.bundesregierung.de/breg-de/bundesregierung/bundeskanzleramt/kabinett-startet-reform-fahrschulausbildung-2431088",
+    "hash": "193d060a02071dbe44a1e66b4ea8bc8cdcaa68db239ecb0f8fbb79ee4cfe0fa1",
+    "fetched_at": "2026-11-06T09:18:35.044Z",
+    "content_type": "text/html;charset=UTF-8"
+  },
+  {
+    "key": "sources/1976bf9ecf836826debd0a325369e51a6a6382e40fa0f40b30c5fcd00a373953/3a5cd899eead777915c964936e49253b90c93bb35e04c1282db89191caa69a0a.html",
+    "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw45-de-elektro-fahrzeuge-1225082",
+    "hash": "3a5cd899eead777915c964936e49253b90c93bb35e04c1282db89191caa69a0a",
+    "fetched_at": "2026-11-06T09:18:35.045Z",
+    "content_type": "text/html;charset=UTF-8"
+  },
+  {
+    "key": "sources/8ce0a0d224671d127b87ab9e65d3ef0dafc5c1b5f2fc3614721a23c5c8882802/8e426a28d4f454a9017e6e1fa4bc973d9e484bad8b8e3d4215e816f34c262e75.pdf",
+    "url": "https://dserver.bundestag.de/btd/21/089/2108979.pdf",
+    "hash": "8e426a28d4f454a9017e6e1fa4bc973d9e484bad8b8e3d4215e816f34c262e75",
+    "fetched_at": "2026-11-06T09:18:53.573Z",
+    "content_type": "application/pdf"
+  },
+  {
+    "key": "sources/be985b3d4ddb36773545121d71a0193b81134faefcb54e49cb998f1495ab6ba3/29a2318a70d187b3d5767054a1a1ba47b1050300f1c710eee8d59ae7c6cf08ba.pdf",
+    "url": "https://dserver.bundestag.de/btd/21/089/2108946.pdf",
+    "hash": "29a2318a70d187b3d5767054a1a1ba47b1050300f1c710eee8d59ae7c6cf08ba",
+    "fetched_at": "2026-11-06T09:18:53.623Z",
+    "content_type": "application/pdf"
+  },
+  {
+    "key": "sources/ff7660a8a4b39083fed37c291e0e609dc2e4805f560b3acc761b1a2b876b0726/7b4da9fb83d5643f55aa0def54ea430703f47b5e78f9ada2b51a4e7e49ed136f.html",
+    "url": "https://www.esma.europa.eu/press-news/esma-news",
+    "hash": "7b4da9fb83d5643f55aa0def54ea430703f47b5e78f9ada2b51a4e7e49ed136f",
+    "fetched_at": "2026-11-06T09:20:52.000Z",
+    "content_type": "text/html; charset=utf-8"
+  },
+  {
+    "key": "sources/b085ff1513ef8a30bc8972d50f784b23efd62b6649adfb53d8edb9ca9fcaa332/02c0b2336df67bbfcf253308672eaa2bcebaf99c667d0e0c46f2a398173599eb.html",
+    "url": "https://taxation-customs.ec.europa.eu/news_en",
+    "hash": "02c0b2336df67bbfcf253308672eaa2bcebaf99c667d0e0c46f2a398173599eb",
+    "fetched_at": "2026-11-06T09:20:52.034Z",
+    "content_type": "text/html; charset=utf-8"
+  },
+  {
+    "key": "sources/04e7677e6bfcdc612c940460156b3ad8b0a417ba1d5b1f5b0114de5c53f8a832/1156d93bd2d077cdf0c01afda5f9c62e108e02e4e363e7ad4e298e0d97a11840.html",
+    "url": "https://recht.nrw.de/",
+    "hash": "1156d93bd2d077cdf0c01afda5f9c62e108e02e4e363e7ad4e298e0d97a11840",
+    "fetched_at": "2026-11-06T09:21:24.113Z",
+    "content_type": "text/html; charset=UTF-8"
+  },
+  {
+    "key": "sources/e2ff6058b6fd8ea405d40678307f10bf607ec91c51a97fb84262b1fe2d2c68bc/9f268d70824472c898f57070d83b7a048e11c51503ed3174ca9b9d038a319ef1.html",
+    "url": "https://www.amtsblatt.saarland.de/jportal/portal/page/fpverksl.psml",
+    "hash": "9f268d70824472c898f57070d83b7a048e11c51503ed3174ca9b9d038a319ef1",
+    "fetched_at": "2026-11-06T09:21:24.132Z",
+    "content_type": "text/html;charset=UTF-8"
+  },
+  {
+    "key": "sources/4f90056c234f18e09d5c102f1c43afbbd398c5df0a10eccf34f5d719c7e81583/cfb54cb4e00c778182b752f1169fbc0d3f50c13e9757b0d83ac302a97a05be0a.html",
+    "url": "https://verkuendung.rlp.de/de/",
+    "hash": "cfb54cb4e00c778182b752f1169fbc0d3f50c13e9757b0d83ac302a97a05be0a",
+    "fetched_at": "2026-11-06T09:21:24.131Z",
+    "content_type": "text/html; charset=utf-8"
+  },
+  {
+    "key": "sources/05b98c891f94b65daae45b36d2740baa58777399050b78ce74554bdb99126f53/7a929653f969ce5fbbbfb229ddf37bbbd63166780224e8ae3e9850892cbe4b30.html",
+    "url": "https://www.baden-wuerttemberg.de/de/service/gesetze-und-verordnungen/gesetzblatt",
+    "hash": "7a929653f969ce5fbbbfb229ddf37bbbd63166780224e8ae3e9850892cbe4b30",
+    "fetched_at": "2026-11-06T09:21:24.400Z",
+    "content_type": "text/html; charset=utf-8"
+  },
+  {
+    "key": "sources/894dc7838bf410442adf2b0b4de71473b8e9ad98c8ecf7d0e141fb9976d9fcc0/fd21dc4bdbe1a9e5616c46d385daa9c1cbc58ccffa913458a0b6201a2bb67b04.html",
+    "url": "https://verkuendungsportal.schleswig-holstein.de/home",
+    "hash": "fd21dc4bdbe1a9e5616c46d385daa9c1cbc58ccffa913458a0b6201a2bb67b04",
+    "fetched_at": "2026-11-06T09:21:24.912Z",
+    "content_type": "text/html;charset=UTF-8"
+  },
+  {
+    "key": "sources/7d960f09f528fc852beae9dd67974fa6333659b3faf8d4b778d56589d319e230/0248e66f3b0427c0e8873ad7bde1613363e5f98ad6471bdaae3423e3e3c79ae8.html",
+    "url": "https://www.hamburg.de/politik-und-verwaltung/behoerden/bjv/veroeffentlichungen",
+    "hash": "0248e66f3b0427c0e8873ad7bde1613363e5f98ad6471bdaae3423e3e3c79ae8",
+    "fetched_at": "2026-11-06T09:21:24.914Z",
+    "content_type": "text/html;charset=UTF-8"
+  },
+  {
+    "key": "sources/9178de75d2a1df4f5e46cf27cd7c65f360677aeadcbb1c60d2c1434bb67c904e/ce4af48f51ef1c7f506d9a6a3a94caab6ea30e5f1232b06d11cb6731c3ed9816.html",
+    "url": "https://www.regierung-mv.de/Landesregierung/jm/service_justizministerium/verkuendungsblaetter/gesetz-verordnungsblaetter",
+    "hash": "ce4af48f51ef1c7f506d9a6a3a94caab6ea30e5f1232b06d11cb6731c3ed9816",
+    "fetched_at": "2026-11-06T09:21:25.556Z",
+    "content_type": "text/html; charset=utf-8"
+  },
+  {
+    "key": "sources/d68b21f558cac1a808aaddc2cffe5c6673cbf8fac90aa14fc00bdb0ae1c32680/ec2004fb89104cd2ff92971bdb7eb10d0b973d1d787372a96f4ed473dc8c2afd.html",
+    "url": "https://www.revosax.sachsen.de/",
+    "hash": "ec2004fb89104cd2ff92971bdb7eb10d0b973d1d787372a96f4ed473dc8c2afd",
+    "fetched_at": "2026-11-06T09:21:26.679Z",
+    "content_type": "text/html; charset=utf-8"
+  },
+  {
+    "key": "sources/3d61e6a4098c14180d5bb1670c5a279f186b4f16cd2de4af1b45b4e380b262ce/35ed8f11513fba836c1cc2e149d9fe1cb98cb7528e413cbcd756c933d7eacf2f.html",
+    "url": "https://www.medienservice.sachsen.de/",
+    "hash": "35ed8f11513fba836c1cc2e149d9fe1cb98cb7528e413cbcd756c933d7eacf2f",
+    "fetched_at": "2026-11-06T09:21:26.678Z",
+    "content_type": "text/html;charset=utf-8"
+  },
+  {
+    "key": "sources/09e377bc5958ea0da09cc56937a6e8082cf93a986ece35d76797ba6b1ebc5c91/8342c3e47534ce5032e020a8a3f50037478523936010a819556ed492ad6b293e.html",
+    "url": "https://www.landtag.sachsen-anhalt.de/",
+    "hash": "8342c3e47534ce5032e020a8a3f50037478523936010a819556ed492ad6b293e",
+    "fetched_at": "2026-11-06T09:21:27.639Z",
+    "content_type": "text/html; charset=utf-8"
+  },
+  {
+    "key": "sources/0765a2e935cb3baabca59694dd9500bb00922b49e164ba729b9f54e6bb817347/cc3df438a036156fcd747ac663da271d677a7047e259da2ba14ee039e7aa7fa9.html",
+    "url": "https://www.thueringer-landtag.de/plenum/neue-gesetze-im-landtag/",
+    "hash": "cc3df438a036156fcd747ac663da271d677a7047e259da2ba14ee039e7aa7fa9",
+    "fetched_at": "2026-11-06T09:21:27.640Z",
+    "content_type": "text/html; charset=utf-8"
+  },
+  {
+    "key": "sources/250db9aac605b492083fcba026b85c8e1a686705cffcb2b1b8697216a1d5a007/9320bae1196ea546baaf75cbd5a233f0d9ef33561a91bce817a888e1f6006ca0.html",
+    "url": "https://www.thueringer-landtag.de/dokumente/parlamentsdokumentation/",
+    "hash": "9320bae1196ea546baaf75cbd5a233f0d9ef33561a91bce817a888e1f6006ca0",
+    "fetched_at": "2026-11-06T09:21:27.964Z",
+    "content_type": "text/html; charset=utf-8"
+  },
+  {
+    "key": "sources/100abfbb9efd959abdb6a0cbf0bbbe484d5dec71f018e8f75ae77da67e2007c6/eee4756f3685770fc50a263d3951472bff6f57aa055bb9a1a7715c37ddc8eec6.html",
+    "url": "https://www.schleswig-holstein.de/DE/landesportal/presse/pressemitteilungen",
+    "hash": "eee4756f3685770fc50a263d3951472bff6f57aa055bb9a1a7715c37ddc8eec6",
+    "fetched_at": "2026-11-06T09:21:27.965Z",
+    "content_type": "text/html;charset=UTF-8"
+  },
+  {
+    "key": "sources/d328044fe5a9eab829d7743b249a7b0cc3cfd1b02cc3b8e694b0cb2b57f71f80/50bdeadebfcf8ce441675768beb7f2292680852238bdbad550f81a94a9ebecd2.html",
+    "url": "https://www.hamburg.de/politik-und-verwaltung/senat/presseservice-des-senats/pressemeldungen-des-senats",
+    "hash": "50bdeadebfcf8ce441675768beb7f2292680852238bdbad550f81a94a9ebecd2",
+    "fetched_at": "2026-11-06T09:21:28.879Z",
+    "content_type": "text/html;charset=UTF-8"
+  },
+  {
+    "key": "sources/ce1dccd70a6606a59cb83a19d365d2df6089388cb693d7421ba8769b8109cf1b/6a146cada4adf5cfd0f08912501fda4770b414198dcff62b7c2a045b41057009.html",
+    "url": "https://www.hamburgische-buergerschaft.de/recherche-info/protokolle",
+    "hash": "6a146cada4adf5cfd0f08912501fda4770b414198dcff62b7c2a045b41057009",
+    "fetched_at": "2026-11-06T09:21:28.877Z",
+    "content_type": "text/html;charset=UTF-8"
+  },
+  {
+    "key": "sources/3f29daf67476e1214da0468c66aa03dc0bff3a7857e8e5810d2d0be59ba2591a/626ad2b722454d818fa3aecf4027cedc3461430b3d24f66879819169b9758c5c.html",
+    "url": "https://www.landtag-niedersachsen.de/dokumentensuche/",
+    "hash": "626ad2b722454d818fa3aecf4027cedc3461430b3d24f66879819169b9758c5c",
+    "fetched_at": "2026-11-06T09:21:29.454Z",
+    "content_type": "text/html; charset=utf-8"
+  },
+  {
+    "key": "sources/418f578cbb9db66046120969317d759631dee79df64a09a6b684f541096ddd83/f790ec4e729a9269bdbe0f2bc506da30cf4bf6d9b3a07a53ee3cb2e89c627d94.html",
+    "url": "https://www.senatspressestelle.bremen.de/pressemitteilungen-1464",
+    "hash": "f790ec4e729a9269bdbe0f2bc506da30cf4bf6d9b3a07a53ee3cb2e89c627d94",
+    "fetched_at": "2026-11-06T09:21:29.452Z",
+    "content_type": "text/html; charset=utf-8"
+  },
+  {
+    "key": "sources/66e6755d4604401a31b4a94af713a9eeb359af17e50387f0c1f4bc0888dbf94a/86865d4c01e66af97a897ec8e095c1625e90151b695c95fab7ac6d36d9cd6c0d.html",
+    "url": "https://www.niedersachsen.de/startseite/service/presse/presseinformationen/",
+    "hash": "86865d4c01e66af97a897ec8e095c1625e90151b695c95fab7ac6d36d9cd6c0d",
+    "fetched_at": "2026-11-06T09:21:29.455Z",
+    "content_type": "text/html; charset=UTF-8"
+  },
+  {
+    "key": "sources/6e980ccadd265cae117614d4d746a0e4eb138d9d4e46be82e3dbc8c043b2d8f7/25cd2c890ea7da238c3c8054f698225f75bb9d1b5f19803740cd70904fecd128.html",
+    "url": "https://www.regierung-mv.de/Aktuell/",
+    "hash": "25cd2c890ea7da238c3c8054f698225f75bb9d1b5f19803740cd70904fecd128",
+    "fetched_at": "2026-11-06T09:21:30.942Z",
+    "content_type": "text/html; charset=utf-8"
+  },
+  {
+    "key": "sources/6b459f6f73194c9b7463818266fec5d1a398ee9a9e2d23934c493a7380031041/f2227fea1a03352ab7226badf86178dfe2f254622d8efb0a67784eba4ebedd33.html",
+    "url": "https://www.berlin.de/rbmskzl/aktuelles/pressemitteilungen/",
+    "hash": "f2227fea1a03352ab7226badf86178dfe2f254622d8efb0a67784eba4ebedd33",
+    "fetched_at": "2026-11-06T09:21:32.759Z",
+    "content_type": "text/html; charset=UTF-8"
+  },
+  {
+    "key": "sources/ed907b96b1e1c2857f9f566aa32de8641dede289b75f888ebd3282b8ac073177/5ec9e987594b14beb3cc88984f592614d3550e170ccceba5331d942ca49f8c24.html",
+    "url": "https://www.landtag.brandenburg.de/de/parlament/plenum_und_gesetze/beschlossene_gesetze/beschlossene_gesetze_der_8._wahlperiode/39257",
+    "hash": "5ec9e987594b14beb3cc88984f592614d3550e170ccceba5331d942ca49f8c24",
+    "fetched_at": "2026-11-06T09:21:32.760Z",
+    "content_type": "text/html; charset=utf-8"
+  },
+  {
+    "key": "sources/c13f2d7ea685594cb9d0f2f6abdc38686001df14ec69e145a79dcc32607275eb/e70aa355e31281c6cb5ffb959fb111992cef2a85ad1c237cea1cb1fd9e50bc88.html",
+    "url": "https://landesregierung-brandenburg.de/",
+    "hash": "e70aa355e31281c6cb5ffb959fb111992cef2a85ad1c237cea1cb1fd9e50bc88",
+    "fetched_at": "2026-11-06T09:21:32.760Z",
+    "content_type": "text/html; charset=UTF-8"
+  },
+  {
+    "key": "sources/0b60400dee996bf4428a319456ee426c7d4fc4e96b156ec6c6a789842cc23de6/f9e55cb2980ad50ed3ff1c1d7bdd28158c3657da8cc5881eca81863d79354d39.html",
+    "url": "https://www.landtag.sachsen.de/de/aktuelles/plenarsitzungen/index.cshtml",
+    "hash": "f9e55cb2980ad50ed3ff1c1d7bdd28158c3657da8cc5881eca81863d79354d39",
+    "fetched_at": "2026-11-06T09:21:33.131Z",
+    "content_type": "text/html; charset=utf-8"
+  },
+  {
+    "key": "sources/daf1f194601f939c5c5281cdeacf1e340e5b80a08a0c1b9dc20546e7388bff57/63ddc9adfe6dbc57bedc3dc27373821c7ad0ff26d695532c2245d29e306482f5.html",
+    "url": "https://www.medienservice.sachsen.de/medien/",
+    "hash": "63ddc9adfe6dbc57bedc3dc27373821c7ad0ff26d695532c2245d29e306482f5",
+    "fetched_at": "2026-11-06T09:21:33.132Z",
+    "content_type": "text/html;charset=utf-8"
+  },
+  {
+    "key": "sources/7ad2be0a5e43f27b2ea1835e3f80e25fc6ef382894e006c5b730b1b608e3b116/17aa8d43f6dd443ccffd08ecb35621164a6fd2614eed24b731ff55b428ecd352.html",
+    "url": "https://thueringen.de/medienservice/medieninformationen",
+    "hash": "17aa8d43f6dd443ccffd08ecb35621164a6fd2614eed24b731ff55b428ecd352",
+    "fetched_at": "2026-11-06T09:21:33.809Z",
+    "content_type": "text/html"
+  },
+  {
+    "key": "sources/780bc4c00e046c3bade3ceaca9aeab1a7ca44e008cc8a16f00fded8656c17f33/aef776990eeca2a8adef3a104b71ad0ae94fcffe2003977151057784e7438e78.html",
+    "url": "https://www.thueringer-landtag.de/plenum/protokolle/",
+    "hash": "aef776990eeca2a8adef3a104b71ad0ae94fcffe2003977151057784e7438e78",
+    "fetched_at": "2026-11-06T09:21:33.808Z",
+    "content_type": "text/html; charset=utf-8"
+  },
+  {
+    "key": "sources/b663edf2e338dddd9cd28963e3f669f0b4c7a8f3b2bb4a346aa2f2ddfcdfdf96/2bef5204c0f90c2feb479e082aae0619b3cb1a3fdf9ac57fa45ca3324c0766de.html",
+    "url": "https://opal.rlp.de/portal/dokumente.tt.html",
+    "hash": "2bef5204c0f90c2feb479e082aae0619b3cb1a3fdf9ac57fa45ca3324c0766de",
+    "fetched_at": "2026-11-06T09:21:34.094Z",
+    "content_type": "text/html"
+  },
+  {
+    "key": "sources/0748355ee924692201d8b3fbff2c6b985bef4b447ba74c7828824bbe2e395fc7/5bb75267d33de3fce38852a373650087d523ed50bf31024fa8c3f23102bac5fb.html",
+    "url": "https://www.rlp.de/service/pressemitteilungen",
+    "hash": "5bb75267d33de3fce38852a373650087d523ed50bf31024fa8c3f23102bac5fb",
+    "fetched_at": "2026-11-06T09:21:44.334Z",
+    "content_type": "text/html; charset=utf-8"
+  },
+  {
+    "key": "sources/bb67117134f85b1f4a18993417c021daa17259ee0d2b97be08bfb86d439eab8b/d493415d0452ff777213402104f2ee900683d7b880de3ac1db263bd887939e3b.html",
+    "url": "https://www.saarland.de/DE/presse-informationen/medienservice/medieninfos",
+    "hash": "d493415d0452ff777213402104f2ee900683d7b880de3ac1db263bd887939e3b",
+    "fetched_at": "2026-11-06T09:21:44.336Z",
+    "content_type": "text/html;charset=UTF-8"
+  },
+  {
+    "key": "sources/21c37fef0e80204fdbe4fe5add9b592254e57c5911b70228e9628bd5a71ac759/899daeb706219f56b73825f40fc5ebb87ceb2eb4582173058b9a586e875fef22.html",
+    "url": "https://www.landtag-bw.de/de/aktuelles/beschluesse",
+    "hash": "899daeb706219f56b73825f40fc5ebb87ceb2eb4582173058b9a586e875fef22",
+    "fetched_at": "2026-11-06T09:21:45.425Z",
+    "content_type": "text/html;charset=UTF-8"
+  },
+  {
+    "key": "sources/c8cd935c6b5c24b4364c0a65c85e49df72c81334d494ce5f420f63f941c1d42e/67421841817237db2efbd6111df2f09533e3263e79ca9ff1238adc23af127b04.html",
+    "url": "https://starweb.hessen.de/portal/browse.tt.html?action=link&searchgeneric1-parsed=%28WP%3D21+AND+SGEBES%3DANNAHME%29+NOT+NOWEB%3DX&type=generic1",
+    "hash": "67421841817237db2efbd6111df2f09533e3263e79ca9ff1238adc23af127b04",
+    "fetched_at": "2026-11-06T09:21:45.427Z",
+    "content_type": "text/html; charset=UTF-8"
+  },
+  {
+    "key": "sources/2e5b18ad458e1c9112646ead8016cd7b273443efd3a8fb666634ee727cb57d5c/af6dd0459bcac10e7a5d60ab143924dbd7c70d9b51ef0fdae7d1ccaee864c26e.html",
+    "url": "https://www.baden-wuerttemberg.de/de/service/presse/pressemitteilungen",
+    "hash": "af6dd0459bcac10e7a5d60ab143924dbd7c70d9b51ef0fdae7d1ccaee864c26e",
+    "fetched_at": "2026-11-06T09:21:45.427Z",
+    "content_type": "text/html; charset=utf-8"
+  },
+  {
+    "key": "sources/be0f79cef557cb01927fe177174c5585a45fce811bc73b0091bfee78a1fd64da/b4b89fe14ae2e93812d523defd5211ab871961d257c52aa530da590c20c13c1e.html",
+    "url": "https://hessen.de/presse",
+    "hash": "b4b89fe14ae2e93812d523defd5211ab871961d257c52aa530da590c20c13c1e",
+    "fetched_at": "2026-11-06T09:21:46.760Z",
+    "content_type": "text/html; charset=UTF-8"
+  },
+  {
+    "key": "sources/2ce190f02942f231de3890aa35d7c8f48a3154b3a97dbd12b0cc9b98eee254ac/6f6fea75ce54173c9af249817210935cc39f6b1bb45854ef2146110eca45e36b.html",
+    "url": "https://www.bayern.de/presse/pressemitteilungen/",
+    "hash": "6f6fea75ce54173c9af249817210935cc39f6b1bb45854ef2146110eca45e36b",
+    "fetched_at": "2026-11-06T09:21:46.761Z",
+    "content_type": "text/html; charset=UTF-8"
+  },
+  {
+    "key": "sources/56fcb4c20de58b5b0771247ce5731248463c2557625d673d7831ce3d52fc8052/1fdda2053a900cdedd8b5250107503eedfd4f5a4837eb02de9de7c60c993eae4.html",
+    "url": "https://www.bayern.landtag.de/parlament/dokumente/drucksachen/?anzahl_treffer=20&beschluss=zustimmung&dknr=&dlh=BeschlosseneGesetze19&dokumentenart=Drucksache&dokumentenart=Drucksache&erfassungsdatum%5Bend%5D=&erfassungsdatum%5Bstart%5D=&ist_basisdokument=off&q=&sort=date&suchverhalten=AND&suchvorgangsart%5B%5D=Gesetze%5C%5CGesetzentwurf&suchvorgangsart%5B%5D=Gesetze%5C%5CHaushaltsgesetz,+Nachtragshaushaltsgesetz&wahlperiodeid%5B%5D=19",
+    "hash": "1fdda2053a900cdedd8b5250107503eedfd4f5a4837eb02de9de7c60c993eae4",
+    "fetched_at": "2026-11-06T09:21:46.761Z",
+    "content_type": "text/html; charset=utf-8"
+  },
+  {
+    "key": "sources/c518855ddd9351ab8abd665a847dabf26344bf20c390aae5680a859a855b2266/3dad7b83b7467a3da50b7a96235da0bd7cb467d70836fb6cd40358e94950c154.html",
+    "url": "https://mil.brandenburg.de/mil/de/",
+    "hash": "3dad7b83b7467a3da50b7a96235da0bd7cb467d70836fb6cd40358e94950c154",
+    "fetched_at": "2026-11-06T09:21:47.930Z",
+    "content_type": "text/html; charset=utf-8"
+  },
+  {
+    "key": "sources/b5278d2c3f072763365d0185e7dd34e346317a0cacd6867334570e6eef702d48/cc79d6cb6000fc8632b8737e0d086c429fc6e812488d4614e4cfe5c62eaac441.html",
+    "url": "https://hessen.de/presse/land-will-angriffe-auf-einsatzkraefte-deutlich-haerter-bestrafen",
+    "hash": "cc79d6cb6000fc8632b8737e0d086c429fc6e812488d4614e4cfe5c62eaac441",
+    "fetched_at": "2026-11-06T09:22:35.283Z",
+    "content_type": "text/html; charset=UTF-8"
+  },
+  {
+    "key": "sources/c602d65d4f1e0c6ca244001651eab382ac51db05661babc6ae758716f73f818b/e2343526c0d4ead8c72a756de98045a751b24f35d6de65146009d2cc9980007a.html",
+    "url": "https://hessen.de/presse/3758-millionen-euro-fuer-2680-mietwohnungen-und-wohnplaetze",
+    "hash": "e2343526c0d4ead8c72a756de98045a751b24f35d6de65146009d2cc9980007a",
+    "fetched_at": "2026-11-06T09:22:35.264Z",
+    "content_type": "text/html; charset=UTF-8"
+  },
+  {
+    "key": "sources/f6dc49ab12d45214521092eedf047aca5cead7715ac25e4cdec1d747c7c36a5c/7bdc0a2af31b87486beb6b931bc68b0d819d2c65ca945f260bd7e7f4f0870366.html",
+    "url": "https://www.senatspressestelle.bremen.de/detail.php?gsid=bremen146.c.493205.de",
+    "hash": "7bdc0a2af31b87486beb6b931bc68b0d819d2c65ca945f260bd7e7f4f0870366",
+    "fetched_at": "2026-11-06T09:22:35.284Z",
+    "content_type": "text/html; charset=utf-8"
+  },
+  {
+    "key": "sources/13aff9f420414e48eccc26f969367fd3648f54b34784dd1cced50a353441e5d9/e4e90ae46a732a0188e67cc43b9034bffc288dddbbdd2ccc6b3fd43e420fe04a.html",
+    "url": "https://www.amtsblatt.saarland.de/jportal/portal/page/fpverksl.psml?nid=VB-SL-ABlI20261041-G&cmsuri=%2Fverkuendung%2Fde%2Fsaarland%2Fnachrichten%2Fzeigenachricht.jsp",
+    "hash": "e4e90ae46a732a0188e67cc43b9034bffc288dddbbdd2ccc6b3fd43e420fe04a",
+    "fetched_at": "2026-11-06T09:22:35.734Z",
+    "content_type": "text/html;charset=UTF-8"
+  },
+  {
+    "key": "sources/9173b1b3c4ff95d49a19f71760ea45a5cd2025ece4fec479ee1e282af14684a1/13470c1e08bab14d3a79151a2306a54ab7572eaec13fabfb325b53b472c1ed3a.html",
+    "url": "https://www.senatspressestelle.bremen.de/detail.php?gsid=bremen146.c.493154.de",
+    "hash": "13470c1e08bab14d3a79151a2306a54ab7572eaec13fabfb325b53b472c1ed3a",
+    "fetched_at": "2026-11-06T09:22:35.733Z",
+    "content_type": "text/html; charset=utf-8"
+  },
+  {
+    "key": "sources/86700f62becaaa3d3f8fab3e6af73468e10521166cd7db174c74333e9261bd3e/5dbdb39a7ab2203da281fe90ea565baa64290e1ad2bf65388da4acec5a86a8f9.html",
+    "url": "https://www.senatspressestelle.bremen.de/detail.php?gsid=bremen146.c.493146.de",
+    "hash": "5dbdb39a7ab2203da281fe90ea565baa64290e1ad2bf65388da4acec5a86a8f9",
+    "fetched_at": "2026-11-06T09:22:35.732Z",
+    "content_type": "text/html; charset=utf-8"
+  },
+  {
+    "key": "sources/fc857f50d317102e15dbc05c25cc3268a17ea91dd46b4353f9de7f943565323b/6a11fcf9506b4e6fbd23374d9f5e6ad04fc5e7dce9970798d7d9b71c698319cb.html",
+    "url": "https://www.hamburg.de/politik-und-verwaltung/behoerden/senatskanzlei/aktuelles/pressemeldungen/elektronische-wohnsitzanmeldung-1234656",
+    "hash": "6a11fcf9506b4e6fbd23374d9f5e6ad04fc5e7dce9970798d7d9b71c698319cb",
+    "fetched_at": "2026-11-06T09:22:36.488Z",
+    "content_type": "text/html;charset=UTF-8"
+  },
+  {
+    "key": "sources/3d37c2eccb85f7d819c87b1e0b47d688cf308f86153b0d45edb1f6756e307e5d/457e7817dd8200415d6a080814618caaa9d2952720620586f4450bfe82fc80de.html",
+    "url": "https://www.schleswig-holstein.de/DE/landesregierung/ministerien-behoerden/II/Presse/PI/2026/Gesundheit/261105_Sozialausschuss",
+    "hash": "457e7817dd8200415d6a080814618caaa9d2952720620586f4450bfe82fc80de",
+    "fetched_at": "2026-11-06T09:22:36.491Z",
+    "content_type": "text/html;charset=UTF-8"
+  },
+  {
+    "key": "sources/fe464fd82bcf6c50013a5b26c108495d119678563609914daa7240cf2a19ae62/a24516f9a40531a0eb1d46bca1072722c03b82834f9c46cbac8084df6f96b6b4.pdf",
+    "url": "https://www.amtsblatt.saarland.de/jportal/docs/news_anlage/sl/pdf/VerkBl/ABl/ads_43-2026_teil_I_signed.pdf",
+    "hash": "a24516f9a40531a0eb1d46bca1072722c03b82834f9c46cbac8084df6f96b6b4",
+    "fetched_at": "2026-11-06T09:23:10.511Z",
+    "content_type": "application/pdf"
+  },
+  {
+    "key": "sources/fc4acd3ca190ad15edc0062b2c500e05a2cc549db3c10a39c57eb1c6b3826881/bb3bea5b516d10f159d74af531dfa84ec90321c8826b5a5da7c1442f70324371.html",
+    "url": "https://www.congreso.es/es/notas-de-prensa",
+    "hash": "bb3bea5b516d10f159d74af531dfa84ec90321c8826b5a5da7c1442f70324371",
+    "fetched_at": "2026-11-06T09:24:40.652Z",
+    "content_type": "text/html;charset=UTF-8"
+  },
+  {
+    "key": "sources/a0d4da36be73f0400344284354a5fc6d15a77bb37e02b9e78f6b796aedd7bf4b/fdf101a64fc6429fe0eea837e32819161ff6712e5aac2931caa7bdc5d8f4f62a.html",
+    "url": "https://www.lamoncloa.gob.es/consejodeministros/referencias/paginas/index.aspx",
+    "hash": "fdf101a64fc6429fe0eea837e32819161ff6712e5aac2931caa7bdc5d8f4f62a",
+    "fetched_at": "2026-11-06T09:24:40.686Z",
+    "content_type": "text/html; charset=utf-8"
+  },
+  {
+    "key": "sources/8de9373a0436b1008a3278f9b4dc031a770cc1ca6a81959afe5633318debff9e/f9cd3a59d8739566acdb8be1b570dab273ff230585f3a89dcf74bbee70336ad8.html",
+    "url": "https://www.lamoncloa.gob.es/Paginas/index.aspx",
+    "hash": "f9cd3a59d8739566acdb8be1b570dab273ff230585f3a89dcf74bbee70336ad8",
+    "fetched_at": "2026-11-06T09:24:40.686Z",
+    "content_type": "text/html; charset=utf-8"
+  },
+  {
+    "key": "sources/9d9400ff8a074301ed4d62d153899fdb2f52f3601a866e4f142a48f30fdb475a/fd1a142dda2ee1acb4f6193462f7afb70e6acb78903f5dd98c4103fe4a7610dd.html",
+    "url": "https://www.service-public.gouv.fr/particuliers/actualites",
+    "hash": "fd1a142dda2ee1acb4f6193462f7afb70e6acb78903f5dd98c4103fe4a7610dd",
+    "fetched_at": "2026-11-06T09:25:41.595Z",
+    "content_type": "text/html;charset=UTF-8"
+  },
+  {
+    "key": "sources/98a5cb1d1e2601efbcbd81ad272da1f27bfa2db376ffbb0cf82ed3c0943d1c5b/1e34a8834a0ed9f4eabb20b22d43e51bdebfe5de6f659957918429ab2524e810.html",
+    "url": "https://entreprendre.service-public.gouv.fr/actualites",
+    "hash": "1e34a8834a0ed9f4eabb20b22d43e51bdebfe5de6f659957918429ab2524e810",
+    "fetched_at": "2026-11-06T09:25:41.617Z",
+    "content_type": "text/html;charset=UTF-8"
+  },
+  {
+    "key": "sources/e28156fd93b79e12c63d1611b81a34a878cad047b1c0a67d6c4865a5e24c6192/8b0c609c7088efe08cad168da53c8d2c2258c7f1bfdcbbd406145b86c4d91e66.html",
+    "url": "https://www.irs.gov/newsroom/news-releases-for-current-month",
+    "hash": "8b0c609c7088efe08cad168da53c8d2c2258c7f1bfdcbbd406145b86c4d91e66",
+    "fetched_at": "2026-11-06T09:25:41.617Z",
+    "content_type": "text/html; charset=UTF-8"
+  },
+  {
+    "key": "sources/99a26cae9d004cde84c9dbf2ce4ead8ba45effc15528a1a05f445822d6df9bf3/162a5a80df69c030ab50afea39b736c0a2736adcb3c14044dc1babe568500723.html",
+    "url": "https://www.service-public.gouv.fr/particuliers/actualites/A19121",
+    "hash": "162a5a80df69c030ab50afea39b736c0a2736adcb3c14044dc1babe568500723",
+    "fetched_at": "2026-11-06T09:26:30.750Z",
+    "content_type": "text/html;charset=UTF-8"
+  },
+  {
+    "key": "sources/cc05b324216d5915cf7aa7c5edf70759e469931e7b6450992243647e7f2ed08d/53211caf86a3129022358385554173980b2ed2a84a76def9e350c84c15519e64.html",
+    "url": "https://www.service-public.gouv.fr/particuliers/actualites/A19120",
+    "hash": "53211caf86a3129022358385554173980b2ed2a84a76def9e350c84c15519e64",
+    "fetched_at": "2026-11-06T09:26:30.733Z",
+    "content_type": "text/html;charset=UTF-8"
+  },
+  {
+    "key": "sources/27bce03df55dd4d25fd22a18a91d3e83de6f3842f690ec700916fda314ec6d97/8b57df828312ef993d21fe75a75ca6704677f37c567d767996849a7af12c5b52.html",
+    "url": "https://www.service-public.gouv.fr/particuliers/actualites/A19125",
+    "hash": "8b57df828312ef993d21fe75a75ca6704677f37c567d767996849a7af12c5b52",
+    "fetched_at": "2026-11-06T09:26:30.751Z",
+    "content_type": "text/html;charset=UTF-8"
+  },
+  {
+    "key": "sources/2155e53909ab44d3a954737238c2cf4e6b40896b6cc8f5466382043fa9f10b8d/2737973d134b3f2b1b430ff4ff4a7471ee46c6f0bbed380e857a52068c80fc78.html",
+    "url": "https://www.service-public.gouv.fr/particuliers/actualites/A19126",
+    "hash": "2737973d134b3f2b1b430ff4ff4a7471ee46c6f0bbed380e857a52068c80fc78",
+    "fetched_at": "2026-11-06T09:26:30.987Z",
+    "content_type": "text/html;charset=UTF-8"
+  },
+  {
+    "key": "sources/21045ab711a91faf5706b0cdb4f268d9106b01a32e7b3e5ab36481a520065e42/ac96f02ef5fe8d07e7bee17cf09659f08ab632ef70fe771fb2790b6371441512.html",
+    "url": "https://www.irs.gov/newsroom/irs-releases-tax-inflation-adjustments-for-tax-year-2027-taxpayers-continue-to-benefit-from-the-working-families-tax-cuts",
+    "hash": "ac96f02ef5fe8d07e7bee17cf09659f08ab632ef70fe771fb2790b6371441512",
+    "fetched_at": "2026-11-06T09:27:01.497Z",
+    "content_type": "text/html; charset=UTF-8"
+  },
+  {
+    "key": "sources/956b519976d6e80377df00d0df8a73d64e7a123b56f826d58f1c503c2d45034e/f8fb73e87889648b4455f41d122ef86e91c7a334b12075506af4126fe1705c6e.html",
+    "url": "https://www.news.admin.ch/de/newnsb/fgyFf33cwbXd",
+    "hash": "f8fb73e87889648b4455f41d122ef86e91c7a334b12075506af4126fe1705c6e",
+    "fetched_at": "2026-11-06T09:29:08.367Z",
+    "content_type": "text/html;charset=utf-8"
+  },
+  {
+    "key": "sources/2603115fc411199a85e2f2675aedd34c5db52b762138407a56a5290df99de145/67ea59871b939e9d1a4d317ad6a17d4dafd38858fe25e3d2ba98844713d82f43.html",
+    "url": "https://www.news.admin.ch/de/newnsb/9VDts7mKq7FF",
+    "hash": "67ea59871b939e9d1a4d317ad6a17d4dafd38858fe25e3d2ba98844713d82f43",
+    "fetched_at": "2026-11-06T09:29:08.348Z",
+    "content_type": "text/html;charset=utf-8"
+  },
+  {
+    "key": "sources/83fcb0c4b3ce613a650d5c2d9d322c5fe30ad4ea711b206fa2203b6167783b24/7d8db4132a6b9028a7ff892431ea85b7e945546a1337005293da7b0a00be5c79.html",
+    "url": "https://www.news.admin.ch/de/newnsb/atUVYepJrNP1",
+    "hash": "7d8db4132a6b9028a7ff892431ea85b7e945546a1337005293da7b0a00be5c79",
+    "fetched_at": "2026-11-06T09:29:08.368Z",
+    "content_type": "text/html;charset=utf-8"
   }
 ]

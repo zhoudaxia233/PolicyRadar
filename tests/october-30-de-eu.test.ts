@@ -52,7 +52,7 @@ test('Hessen fast-track responsibility moves in two steps and keeps earlier appl
 });
 
 test('tax treaties have a scheduled vote and no adopted status',()=>{
- for(const id of ['de-ukraine-tax-treaty-2026','de-albania-tax-protocol-2026']){const p=latest(id);keepsEvents(id);assert.equal(p.phase,'pending',id);assert.equal(p.nextDate,'2026-11-05',id);assert.equal(p.nextKind,'scheduled',id);}
+ for(const id of ['de-ukraine-tax-treaty-2026','de-albania-tax-protocol-2026']){const p=revision(id,3);keepsEvents(id);assert.equal(p.phase,'pending',id);assert.equal(p.nextDate,'2026-11-05',id);assert.equal(p.nextKind,'scheduled',id);}
 });
 
 test('withdrawing never-adopted proposals is not reported as ending the policy question',()=>{

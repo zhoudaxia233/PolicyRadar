@@ -42,7 +42,9 @@ test('the Annual Tax Act bill stays pending with an explicit interest example an
  assert.match(p.impact,/=18欧元/);assert.match(p.impact,/=36欧元/);
  // Children outside the EU/EEA remain subject to the reduction.
  assert.match(p.after,/欧洲经济区以外/);assert.match(p.limits,/内容尚未公开/);
- assert.deepEqual(topics.find(t=>t.id==='de-annual-tax-act-2026')!.recordIds.sort(),['kab62-top1-09','kab62-top1-10']);
+ // Later rounds may add hearing reports to the same matter; the two cabinet records stay in it.
+ const annual=topics.find(t=>t.id==='de-annual-tax-act-2026')!.recordIds;
+ for(const id of ['kab62-top1-09','kab62-top1-10'])assert(annual.includes(id),id);
 });
 
 test('PNOG gains its scheduled first reading without changing the bill stage',()=>{

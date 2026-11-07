@@ -75,8 +75,8 @@
       ]
     },
     "de-carf-agreement-2026": {
-      "version": 9,
-      "hash": "ea8685684739652717cd5f844650f46ece262c03b6398e5d524e5bcedcdcf93b",
+      "version": 10,
+      "hash": "2d37243525f0bd33789b373620de65c5f6a9bbcd446c1c5eb8e4080bc3a14604",
       "originalLanguage": "de",
       "verbatim": [
         "Deutscher Bundestag",
@@ -2302,12 +2302,12 @@
       ]
     },
     "de-social-insurance-ceilings-2027": {
-      "version": 2,
-      "hash": "0848473784d9df9ccdd9b6b6a2810f773655bddb79e8dfca66824b51a677eb2a",
+      "version": 3,
+      "hash": "55235f745a9d057c0bf6f67be29ef608dd8fb3f036ddb022bf5a3d9a531cfb64",
+      "originalLanguage": "de",
       "verbatim": [
         "BMAS"
-      ],
-      "originalLanguage": "de"
+      ]
     },
     "de-bmf-crypto-tax-reform-2027": {
       "version": 3,
@@ -2475,8 +2475,8 @@
       ]
     },
     "de-starter-pension-2027": {
-      "hash": "7ce4d99b7a8d7d8068a754f9bbcafe66d9b74d7cf2bce0cca5824f8e970588af",
-      "version": 3,
+      "version": 4,
+      "hash": "add766d4a8afdd9c41ec8ed7e01ebc45220ce32d745885be5b6720195056f536",
       "originalLanguage": "de",
       "verbatim": [
         "Deutscher Bundestag",
@@ -2484,8 +2484,8 @@
       ]
     },
     "de-co2-price-corridor-2027": {
-      "hash": "7ddd1c5d3d3971cfbb04f08770277e99108935e7e65257e84bf785aa11b83c9f",
-      "version": 3,
+      "version": 4,
+      "hash": "e20b41658e1f395f2cd038fd8cd8d435d55dca29390e7e23fd27bd295affbe9f",
       "originalLanguage": "de",
       "verbatim": [
         "Gesetze im Internet",
@@ -2494,8 +2494,8 @@
       ]
     },
     "de-emergency-care-reform-2026": {
-      "version": 2,
-      "hash": "dbc7de1edbab1d601649e19fd8511885bc5e295880a3d05b530645bb8cbb2fbf",
+      "version": 3,
+      "hash": "dbf57808da24412249431ba54a1a8b98b1086bd27d21e1713fc51cefcb4d2d31",
       "originalLanguage": "de",
       "verbatim": [
         "Deutscher Bundestag",
@@ -2532,8 +2532,8 @@
       ]
     },
     "de-kita-quality-act-2027": {
-      "hash": "616d46bbafb69c965e242f6f456fc5bf22f40d87a52845dce8aca10c5b26559b",
-      "version": 2,
+      "version": 3,
+      "hash": "d8c658f28830bf9e95bfd038e7d4bffae9bd16dd2b3781ffa52fd46e0c77cd48",
       "originalLanguage": "de",
       "verbatim": [
         "Deutscher Bundestag",
@@ -2557,8 +2557,8 @@
       ]
     },
     "de-care-insurance-reform-pnog": {
-      "version": 4,
-      "hash": "689fed8b6817c388fdc0447601cde721316b48c0d9b0aa2fb3f046dff24816a6",
+      "version": 5,
+      "hash": "1560e62ed652bbfffd59aef0bdaac66937d2839f27439e25eba96b821791cbf9",
       "originalLanguage": "de",
       "verbatim": [
         "Bundesministerium für Gesundheit",
@@ -2647,8 +2647,8 @@
       ]
     },
     "de-eudi-wallet-2026": {
-      "hash": "17f656e55c28be5d2de8de50b1005d8bba08d9fffe4652e3af7e9d62a7f2b26a",
-      "version": 2,
+      "version": 3,
+      "hash": "b8e1844107322c2f176be7fe794afa2163d7c8c297dcc714e60d87b6cc90a22f",
       "originalLanguage": "de",
       "verbatim": [
         "Deutscher Bundestag"
@@ -2697,8 +2697,8 @@
       ]
     },
     "de-tax-adviser-exam-2026": {
-      "version": 1,
-      "hash": "61ea1830ae7780b25e25ea9703a45c6da9805a95ff2d5ca99e432a2a54c9e64d",
+      "version": 2,
+      "hash": "09de63f493d615514a0f5daea3dce80b2901281b378a0db50187920719efc868",
       "originalLanguage": "de",
       "verbatim": [
         "Bundesministerium der Finanzen",
@@ -2861,8 +2861,8 @@
       ]
     },
     "de-customs-financial-crime-2026": {
-      "version": 1,
-      "hash": "fabc66fbcd387a916adb2aacb066c9135d38635b2441dee5b6a489c27b32120c",
+      "version": 2,
+      "hash": "9954f471bfd0f1e6c0556d6b7b10ebd07fd4d24f4fa695394e2466fe574e820c",
       "originalLanguage": "de",
       "verbatim": [
         "Deutscher Bundestag"
@@ -2941,8 +2941,8 @@
       ]
     },
     "de-academic-fixed-term-contracts-2026": {
-      "version": 1,
-      "hash": "cb69c3ce1140d6f868ab622a01c201bda6cab98274b94412f49cc59651347acf",
+      "version": 2,
+      "hash": "523f5d3624676d1ab98e46f22c53963ca12dd809615e45dab20404f39b9ef868",
       "originalLanguage": "de",
       "verbatim": [
         "Deutscher Bundestag"
@@ -6604,16 +6604,16 @@
       ]
     },
     "de-br-energy-price-relief-motion-2026": {
-      "hash": "65b54ad01ec5ba53fff16fc91a39c04cbbfe4021714d44a05ce5b530f83efebf",
-      "version": 1,
+      "version": 2,
+      "hash": "edb895ae0f6cc8a1db6ddd8dfa6cab62fe291e1cceac976c717e090f62c1845c",
       "originalLanguage": "de",
       "verbatim": [
         "Bundesrat"
       ]
     },
     "de-br-pension-trust-motion-2026": {
-      "hash": "a145b1d0e670454a8dccb07e8441d1c75d5a6fc5ec6547d60b5e4cd9edbb50ff",
-      "version": 1,
+      "version": 2,
+      "hash": "b0eac6927949df05e94cd6d8dc597ff3e232a9cec34999438b3ca62a2b984144",
       "originalLanguage": "de",
       "verbatim": [
         "Bundesrat"
@@ -8105,8 +8105,8 @@
       ]
     },
     "de-cash-register-digital-receipts-2028": {
-      "version": 1,
-      "hash": "a028349ee4075d06af2be51d177f6f9473a10fa804c623c35a1b22ac49904df1",
+      "version": 2,
+      "hash": "3fe4373c819cc267e81bc35c89da4ab4b63b068160f58ea333f84b19eab32ec1",
       "originalLanguage": "de",
       "verbatim": [
         "BMF"
@@ -8373,6 +8373,25 @@
       "originalLanguage": "de",
       "verbatim": [
         "Die Senatorin für Umwelt, Klima und Wissenschaft"
+      ]
+    },
+    "gb-hmrc-interest-rates-202611": {
+      "version": 1,
+      "hash": "def53a52c1ebf93ab8f96ae18bee1e62b50414a23f6b7e4e25a964e1da1eaa4e",
+      "originalLanguage": "en",
+      "verbatim": [
+        "HMRC interest rates update",
+        "HMRC interest rates update (6 November 2026)",
+        "HM Revenue & Customs"
+      ]
+    },
+    "fr-single-permit-decree-2026": {
+      "version": 1,
+      "hash": "25c789c80a50243de20543c41f1a74de5e9a5e38c935c377e880d71c30602a5b",
+      "originalLanguage": "fr",
+      "verbatim": [
+        "Décret n° 2026-1001",
+        "Direction de l’information légale et administrative"
       ]
     }
   },
@@ -54957,6 +54976,240 @@
     },
     "us-fr-2026-22506": {
       "hash": "b71e2955b5a728572eccf68b2607c1b8aecea8000943f7a0386bb4fe4e65d05f",
+      "verbatim": [],
+      "originalLanguage": "en",
+      "titleIsOriginal": true
+    },
+    "br-1070-top-3": {
+      "hash": "da95cae0629c0934dbfac17c28f6f8f4b6a454be76f75521e21f01157b22b161",
+      "verbatim": [],
+      "originalLanguage": "de",
+      "titleIsOriginal": true
+    },
+    "br-1070-top-4": {
+      "hash": "43128ec78984fe9ee566e6d5cb4874a2cb0078d57cecdcc064ec4d83a2a170a1",
+      "verbatim": [],
+      "originalLanguage": "de",
+      "titleIsOriginal": true
+    },
+    "br-1070-top-5": {
+      "hash": "8775590cef33a243b1e500bc67060baac00153e96a4786ceadf7040a11dbff59",
+      "verbatim": [],
+      "originalLanguage": "de",
+      "titleIsOriginal": true
+    },
+    "br-1070-top-9": {
+      "hash": "a90dbe9fe54bdc45ed2cc039eb0dfc7391001b3a47db573cb8ecbeb1b1632d05",
+      "verbatim": [],
+      "originalLanguage": "de",
+      "titleIsOriginal": true
+    },
+    "br-1070-top-13": {
+      "hash": "94459bbd02ed9a36d8e8422a8da143a05313d6de8523b8ce3cd564bd080fe8e8",
+      "verbatim": [],
+      "originalLanguage": "de",
+      "titleIsOriginal": true
+    },
+    "br-1070-top-14": {
+      "hash": "b18d762eea669a4d2341c5fb21dbd57fc43db35464feaa0a83c30493d7152e79",
+      "verbatim": [],
+      "originalLanguage": "de",
+      "titleIsOriginal": true
+    },
+    "br-1070-top-15": {
+      "hash": "6c416579ec13743b2064a9ea03d27aacad089b37007480bf54303697cd55221c",
+      "verbatim": [],
+      "originalLanguage": "de",
+      "titleIsOriginal": true
+    },
+    "br-1070-top-17": {
+      "hash": "dfdb2adec6f3b4f2b837521502cc72c9d5838114309c9962e9a4efbf1b2ac5dc",
+      "verbatim": [],
+      "originalLanguage": "de",
+      "titleIsOriginal": true
+    },
+    "br-1070-top-20": {
+      "hash": "20c3bbd2c9a8ba33a9f58a671092b80d76af4df6b3d5a1b99deca1ecc1ea658b",
+      "verbatim": [],
+      "originalLanguage": "de",
+      "titleIsOriginal": true
+    },
+    "br-1070-top-30": {
+      "hash": "73da40e706b18535fa64cd64f29b4537c96b9d21daa861aea8b85f1af392cefb",
+      "verbatim": [],
+      "originalLanguage": "de",
+      "titleIsOriginal": true
+    },
+    "br-1070-top-31": {
+      "hash": "0c1c75a7db8b7095f6f17ff5267e3aa75cabfbc85d775353af1d570b5786131d",
+      "verbatim": [],
+      "originalLanguage": "de",
+      "titleIsOriginal": true
+    },
+    "br-1070-top-32": {
+      "hash": "47a4209067813eb83cbc078ed41373a844443188668a4ff18fd5fc0517c4bf98",
+      "verbatim": [],
+      "originalLanguage": "de",
+      "titleIsOriginal": true
+    },
+    "br-1070-top-43": {
+      "hash": "f9df55e788a7077ce2de35532f6303d7b7ae0cd9d6245d736123d13b2b8864c3",
+      "verbatim": [],
+      "originalLanguage": "de",
+      "titleIsOriginal": true
+    },
+    "br-1070-top-45": {
+      "hash": "ceab4b67f7d370e6fac1e3be41845b4fe221c194be1197cc78013618da44a0f4",
+      "verbatim": [],
+      "originalLanguage": "de",
+      "titleIsOriginal": true
+    },
+    "br-1070-top-49": {
+      "hash": "73026dcaeb96109083ea408830dfc2d85c01e9afbee47b1acb4e058efccb0abb",
+      "verbatim": [],
+      "originalLanguage": "de",
+      "titleIsOriginal": true
+    },
+    "br-1070-top-53": {
+      "hash": "057ba5387188347854e5f41c8fe2f12584908b04fe71f5f3896bb9758e0e95fd",
+      "verbatim": [],
+      "originalLanguage": "de",
+      "titleIsOriginal": true
+    },
+    "br-1070-top-58": {
+      "hash": "77e79613daa442ec72ecfb93faaaa3239b0a89966f9ad034317ce9dcc7f297ad",
+      "verbatim": [],
+      "originalLanguage": "de",
+      "titleIsOriginal": true
+    },
+    "bt-kw45-cash-register-first-reading": {
+      "hash": "a220e890bd7eddc9e0c0f1621c508c2ab7b0291432e038cc826219bc6a87732b",
+      "verbatim": [],
+      "originalLanguage": "de",
+      "titleIsOriginal": true
+    },
+    "bt-kw45-autobahn-financing-first-reading": {
+      "hash": "9e431c9865e5610ce2b51a14bd82ee114a069884b447a6ddbfb7ef9025f70c36",
+      "verbatim": [],
+      "originalLanguage": "de",
+      "titleIsOriginal": true
+    },
+    "bt-kw46-kita-quality-vote": {
+      "hash": "68e14d5720faa0924a11cd0d7f3d80ee06ecfe51fd0eb11f2f0b6629248b2cb3",
+      "verbatim": [],
+      "originalLanguage": "de",
+      "titleIsOriginal": true
+    },
+    "bt-kw46-customs-financial-crime-vote": {
+      "hash": "79dd276a866a1965171c783e4ca8a56b9465889a664ebd0a0a52d399eebce7a8",
+      "verbatim": [],
+      "originalLanguage": "de",
+      "titleIsOriginal": true
+    },
+    "bt-kw46-academic-contracts-vote": {
+      "hash": "e23a66c49bc7dec3effaf62e87224f0d5e786d0bf635b896134ebda8fd349f97",
+      "verbatim": [],
+      "originalLanguage": "de",
+      "titleIsOriginal": true
+    },
+    "bt-kw46-building-code-upgrade-vote": {
+      "hash": "ea9b6a45dd2127ed6d6aa8ee4c06f3cc058bf7582b3745ad4ae5a868c0773695",
+      "verbatim": [],
+      "originalLanguage": "de",
+      "titleIsOriginal": true
+    },
+    "bt-kw46-mother-child-foundation-vote": {
+      "hash": "6564ab2d94a5c466ca3b2397ffc3a9114b35698f7f4040f050a55b7e3b9e17d6",
+      "verbatim": [],
+      "originalLanguage": "de",
+      "titleIsOriginal": true
+    },
+    "bt-kw46-left-maintenance-advance-motion": {
+      "hash": "04293af105e153f8aaaaeaabac86540ea59af67cc5ea727ca13aed1622f814d5",
+      "verbatim": [],
+      "originalLanguage": "de",
+      "titleIsOriginal": true
+    },
+    "bt-kw46-left-rent-cap-motion": {
+      "hash": "0fbdc12b421a8a6182b3e47176e962328e275a768df82669be9f282270d994cc",
+      "verbatim": [],
+      "originalLanguage": "de",
+      "titleIsOriginal": true
+    },
+    "bt-kw46-greens-wealth-tax-motion": {
+      "hash": "116bf554e06938866f5fe8f1dde70a6032adabd9766bb0d6d12d62dee5f64399",
+      "verbatim": [],
+      "originalLanguage": "de",
+      "titleIsOriginal": true
+    },
+    "bt-kw46-greens-heating-costs-motions": {
+      "hash": "2589175ad676326921f1287e1fbd86537b530c489c4f11df3af17cf92b449847",
+      "verbatim": [],
+      "originalLanguage": "de",
+      "titleIsOriginal": true
+    },
+    "bt-kw46-afd-eu-poverty-migration-motion": {
+      "hash": "b537cff91be8436b2d6af5e74600d47519f34f204c6c2f353d191631b838dc17",
+      "verbatim": [],
+      "originalLanguage": "de",
+      "titleIsOriginal": true
+    },
+    "bt-kw46-afd-refugee-status-motion": {
+      "hash": "c01365333e5ab331f85fdfd3e70252310081ac26320d8c166380dd796e9ef410",
+      "verbatim": [],
+      "originalLanguage": "de",
+      "titleIsOriginal": true
+    },
+    "gb-20261106-hmrc-interest-rates": {
+      "hash": "0701c4952f41a8b7a4fab71745ebf4d7421f5d8ad8be273e7723e730d3ad6f1a",
+      "verbatim": [],
+      "originalLanguage": "en",
+      "titleIsOriginal": true
+    },
+    "gb-20261106-uksi-1171": {
+      "hash": "50566a17bbbb86ffe59dedc14deb0bc373de9d3a21de73e0e4300dfb093e0721",
+      "verbatim": [],
+      "originalLanguage": "en",
+      "titleIsOriginal": true
+    },
+    "es-boe-a-2026-23341": {
+      "hash": "94bf1ac2db57beba7d1acddc3091bd1dd2a274f17687d3d6b0986fcdbba60f3c",
+      "verbatim": [],
+      "originalLanguage": "es",
+      "titleIsOriginal": true
+    },
+    "ch-20261106-estv-circular-37a": {
+      "hash": "40eca49cb978946d9dafd07538ac2df9a121c0b76a5afee1c63e47c94707e7e7",
+      "verbatim": [],
+      "originalLanguage": "de",
+      "titleIsOriginal": true
+    },
+    "ch-20261106-health-insurance-cost-monitoring": {
+      "hash": "3467cc4c1e58b5e8f7e6b7fa6b4823ed09a2207988fb99fe398267b80620da62",
+      "verbatim": [],
+      "originalLanguage": "de",
+      "titleIsOriginal": true
+    },
+    "fr-20261106-a19128": {
+      "hash": "61892f74a2e4f0a10577da5189962d5ffd534a5660f6213b8611c0389addd448",
+      "verbatim": [],
+      "originalLanguage": "fr",
+      "titleIsOriginal": true
+    },
+    "fr-20261104-a18805": {
+      "hash": "a2c79467d2419d6410179ae24aaf9e712793ff8ad97459dba01142b85ff2899b",
+      "verbatim": [],
+      "originalLanguage": "fr",
+      "titleIsOriginal": true
+    },
+    "us-fr-2026-22679": {
+      "hash": "2c47441c9edd6bceb5a45fca89e388ce59e994247344ac0dfc3fbe7f7e683285",
+      "verbatim": [],
+      "originalLanguage": "en",
+      "titleIsOriginal": true
+    },
+    "us-fr-2026-22739": {
+      "hash": "eb44a17e1c4b91c0c3d012aee12080d7ab747a8249d37eea43b0e64ca0538a75",
       "verbatim": [],
       "originalLanguage": "en",
       "titleIsOriginal": true

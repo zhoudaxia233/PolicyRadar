@@ -5116,5 +5116,461 @@
     "source_url": "https://www.govinfo.gov/app/collection/FR",
     "checked_at": "2026-11-06T09:42:45.132Z",
     "data": "{\"id\":\"all-20261106-usfr\",\"sourceUrl\":\"https://www.govinfo.gov/app/collection/FR\",\"checkedAt\":\"2026-11-06T09:42:45.132Z\",\"windowStart\":\"2026-11-04\",\"windowEnd\":\"2026-11-06\",\"status\":\"partial\",\"pages\":[\"https://www.federalregister.gov/api/v1/documents.json\"],\"recordIds\":[\"us-fr-2026-22506\"],\"excluded\":[],\"allPagesChecked\":false,\"totalListed\":null,\"note\":\"联邦公报11月4—6日的规则、拟议规则和总统文件按标题看过：登记Trump儿童储蓄账户可投资产品拟议规则；其余为医疗器械分类、环保州计划、海岸警卫队安全区等，未登记。\"}"
+  },
+  {
+    "id": "de-20261107-bgbl-1106",
+    "source_url": "https://www.recht.bund.de/de/home/home_node.html",
+    "checked_at": "2026-11-07T16:00:39.127Z",
+    "data": "{\"id\":\"de-20261107-bgbl-1106\",\"sourceUrl\":\"https://www.recht.bund.de/de/home/home_node.html\",\"checkedAt\":\"2026-11-07T16:00:39.127Z\",\"windowStart\":\"2026-11-06\",\"windowEnd\":\"2026-11-06\",\"status\":\"complete\",\"pages\":[\"https://www.recht.bund.de/bgbl/1/2026/328/VO.html\",\"https://www.recht.bund.de/bgbl/1/2026/329/VO.html\",\"https://www.recht.bund.de/bgbl/1/2026/330/VO.html\",\"https://www.recht.bund.de/bgbl/1/2026/331/VO.html\",\"https://www.recht.bund.de/bgbl/1/2026/332/VO.html\",\"https://www.recht.bund.de/bgbl/1/2026/333/VO.html\",\"https://www.recht.bund.de/bgbl/1/2026/334/VO.html\",\"https://www.recht.bund.de/bgbl/1/2026/335/VO.html\",\"https://www.recht.bund.de/bgbl/1/2026/336/VO.html\",\"https://www.recht.bund.de/bgbl/1/2026/337/VO.html\",\"https://www.recht.bund.de/bgbl/1/2026/338/VO.html\",\"https://www.recht.bund.de/bgbl/2/2026/260/VO.html\",\"https://www.recht.bund.de/bgbl/2/2026/261/VO.html\",\"https://www.recht.bund.de/bgbl/2/2026/262/VO.html\",\"https://www.recht.bund.de/bgbl/2/2026/263/VO.html\",\"https://www.recht.bund.de/bgbl/2/2026/264/VO.html\",\"https://www.recht.bund.de/bgbl/2/2026/265/VO.html\",\"https://www.recht.bund.de/bgbl/2/2026/266/VO.html\",\"https://www.recht.bund.de/bgbl/2/2026/267/VO.html\",\"https://www.recht.bund.de/bgbl/2/2026/268/VO.html\",\"https://www.recht.bund.de/bgbl/2/2026/269/VO.html\",\"https://www.recht.bund.de/bgbl/2/2026/270/VO.html\",\"https://www.recht.bund.de/bgbl/2/2026/271/VO.html\",\"https://www.recht.bund.de/bgbl/2/2026/272/VO.html\"],\"recordIds\":[\"de-20261106-bgbl1-328\",\"de-20261106-bgbl1-329\",\"de-20261106-bgbl1-330\"],\"excluded\":[],\"allPagesChecked\":true,\"totalListed\":3,\"note\":\"按期号连续性闭合：第一部分第328至330期为11月6日（上轮已登记），当天结束后第331至338期仍为404；第二部分第260、261期为11月5日，第262至272期为404，11月6日没有第二部分。期号按发布顺序连续编号，当天若有更晚的一期，现在应能读到第331期或第262期。\"}"
+  },
+  {
+    "id": "de-20261107-bgbl-1107",
+    "source_url": "https://www.recht.bund.de/de/home/home_node.html",
+    "checked_at": "2026-11-07T16:00:39.127Z",
+    "data": "{\"id\":\"de-20261107-bgbl-1107\",\"sourceUrl\":\"https://www.recht.bund.de/de/home/home_node.html\",\"checkedAt\":\"2026-11-07T16:00:39.127Z\",\"windowStart\":\"2026-11-07\",\"windowEnd\":\"2026-11-07\",\"status\":\"partial\",\"pages\":[\"https://www.recht.bund.de/bgbl/1/2026/331/VO.html\",\"https://www.recht.bund.de/bgbl/2/2026/262/VO.html\"],\"recordIds\":[],\"excluded\":[],\"allPagesChecked\":false,\"totalListed\":null,\"note\":\"今天（星期六，未结束）：没有新一期。\"}"
+  },
+  {
+    "id": "de-20261107-textarchiv",
+    "source_url": "https://www.bundestag.de/dokumente/textarchiv",
+    "checked_at": "2026-11-07T16:00:39.127Z",
+    "data": "{\"id\":\"de-20261107-textarchiv\",\"sourceUrl\":\"https://www.bundestag.de/dokumente/textarchiv\",\"checkedAt\":\"2026-11-07T16:00:39.127Z\",\"windowStart\":\"2026-11-06\",\"windowEnd\":\"2026-11-07\",\"status\":\"partial\",\"pages\":[\"https://www.bundestag.de/dokumente/textarchiv\",\"https://www.bundestag.de/ajax/filterlist/de/dokumente/textarchiv/454772-454772?limit=20&noFilterSet=true&offset=0\",\"https://www.bundestag.de/ajax/filterlist/de/dokumente/textarchiv/454772-454772?limit=20&noFilterSet=true&offset=20\"],\"recordIds\":[\"bt-kw45-cash-register-first-reading\",\"bt-kw45-autobahn-financing-first-reading\",\"bt-kw46-kita-quality-vote\",\"bt-kw46-customs-financial-crime-vote\",\"bt-kw46-academic-contracts-vote\",\"bt-kw46-building-code-upgrade-vote\",\"bt-kw46-mother-child-foundation-vote\",\"bt-kw46-left-maintenance-advance-motion\",\"bt-kw46-left-rent-cap-motion\",\"bt-kw46-greens-wealth-tax-motion\",\"bt-kw46-greens-heating-costs-motions\",\"bt-kw46-afd-eu-poverty-migration-motion\",\"bt-kw46-afd-refugee-status-motion\"],\"excluded\":[{\"url\":\"https://www.bundestag.de/dokumente/textarchiv/2026/kw46-de-mercosur-1231508\",\"reason\":\"表决预告；本站对此事项另有解读（de-eu-mercosur-ratification-2026），本轮关注主题之外，未更新。\"},{\"url\":\"https://www.bundestag.de/dokumente/textarchiv/2026/kw46-de-cybersicherheit-1231534\",\"reason\":\"表决预告；本站对此事项另有解读（de-cyber-defence-act-2026），本轮关注主题之外，未更新。\"},{\"url\":\"https://www.bundestag.de/dokumente/textarchiv/2026/kw46-de-strahlenschutzrecht-1231522\",\"reason\":\"表决预告；本站对此事项另有解读（de-radiation-protection-2026），本轮关注主题之外，未更新。\"},{\"url\":\"https://www.bundestag.de/dokumente/textarchiv/2026/kw46-de-buerokratieabbau-agrar-1231526\",\"reason\":\"表决预告；本站对此事项另有解读（de-agriculture-bureaucracy-2026），本轮关注主题之外，未更新。\"},{\"url\":\"https://www.bundestag.de/dokumente/textarchiv/2026/kw46-de-entwaldungsfreie-produkte-1231524\",\"reason\":\"表决预告；本站对此事项另有解读（de-deforestation-free-products-2026），本轮关注主题之外，未更新。\"},{\"url\":\"https://www.bundestag.de/dokumente/textarchiv/2026/kw46-de-betreuungsrecht-1231518\",\"reason\":\"表决预告；本站对此事项另有解读（de-guardianship-coercive-treatment-2026），本轮关注主题之外，未更新。\"},{\"url\":\"https://www.bundestag.de/dokumente/textarchiv/2026/kw46-de-nachrichtendienste-1231530\",\"reason\":\"表决预告；本站对此事项另有解读（de-intelligence-reform-august-2026），本轮关注主题之外，未更新。\"},{\"url\":\"https://www.bundestag.de/dokumente/textarchiv/2026/kw46-de-bundeswehr-infrastruktur-1231504\",\"reason\":\"表决预告；本站对此事项另有解读（de-bundeswehr-infrastructure-2026），本轮关注主题之外，未更新。\"},{\"url\":\"https://www.bundestag.de/dokumente/textarchiv/2026/kw46-de-fragestunde-1154798\",\"reason\":\"与关注主题无关的议程项目（外交、军事任务、刑事程序、文化、程序性事项等），未登记。\"},{\"url\":\"https://www.bundestag.de/dokumente/textarchiv/2026/kw46-de-ueberweisungen-1154800\",\"reason\":\"与关注主题无关的议程项目（外交、军事任务、刑事程序、文化、程序性事项等），未登记。\"},{\"url\":\"https://www.bundestag.de/dokumente/textarchiv/2026/kw46-de-regierungsbefragung-1154808\",\"reason\":\"与关注主题无关的议程项目（外交、军事任务、刑事程序、文化、程序性事项等），未登记。\"},{\"url\":\"https://www.bundestag.de/dokumente/textarchiv/2026/kw46-de-abschliessende-beratungen-1154820\",\"reason\":\"与关注主题无关的议程项目（外交、军事任务、刑事程序、文化、程序性事项等），未登记。\"},{\"url\":\"https://www.bundestag.de/dokumente/textarchiv/2026/kw46-pa-dfpv-1224432\",\"reason\":\"与关注主题无关的议程项目（外交、军事任务、刑事程序、文化、程序性事项等），未登记。\"},{\"url\":\"https://www.bundestag.de/dokumente/textarchiv/2026/kw46-sed-opferbeauftragte-1225534\",\"reason\":\"与关注主题无关的议程项目（外交、军事任务、刑事程序、文化、程序性事项等），未登记。\"},{\"url\":\"https://www.bundestag.de/dokumente/textarchiv/2026/kw46-de-vereinbarte-debatte-orange-day-1231482\",\"reason\":\"与关注主题无关的议程项目（外交、军事任务、刑事程序、文化、程序性事项等），未登记。\"},{\"url\":\"https://www.bundestag.de/dokumente/textarchiv/2026/kw46-de-deindustrialisierung-1231488\",\"reason\":\"与关注主题无关的议程项目（外交、军事任务、刑事程序、文化、程序性事项等），未登记。\"},{\"url\":\"https://www.bundestag.de/dokumente/textarchiv/2026/kw46-de-bundeswehr-eunavfor-med-irini-1231500\",\"reason\":\"与关注主题无关的议程项目（外交、军事任务、刑事程序、文化、程序性事项等），未登记。\"},{\"url\":\"https://www.bundestag.de/dokumente/textarchiv/2026/kw46-de-adoptivvermittlung-1231506\",\"reason\":\"与关注主题无关的议程项目（外交、军事任务、刑事程序、文化、程序性事项等），未登记。\"},{\"url\":\"https://www.bundestag.de/dokumente/textarchiv/2026/kw46-de-politische-bildung-1231514\",\"reason\":\"与关注主题无关的议程项目（外交、军事任务、刑事程序、文化、程序性事项等），未登记。\"},{\"url\":\"https://www.bundestag.de/dokumente/textarchiv/2026/kw46-de-rechtshilfe-strafsachen-1231516\",\"reason\":\"与关注主题无关的议程项目（外交、军事任务、刑事程序、文化、程序性事项等），未登记。\"},{\"url\":\"https://www.bundestag.de/dokumente/textarchiv/2026/kw46-de-hochschulrecht-1231528\",\"reason\":\"与关注主题无关的议程项目（外交、军事任务、刑事程序、文化、程序性事项等），未登记。\"},{\"url\":\"https://www.bundestag.de/dokumente/textarchiv/2026/kw46-de-ki-sicherheit-1231536\",\"reason\":\"与关注主题无关的议程项目（外交、军事任务、刑事程序、文化、程序性事项等），未登记。\"},{\"url\":\"https://www.bundestag.de/dokumente/textarchiv/2026/kw46-de-bundeswehr-sea-guardian-1231538\",\"reason\":\"与关注主题无关的议程项目（外交、军事任务、刑事程序、文化、程序性事项等），未登记。\"},{\"url\":\"https://www.bundestag.de/dokumente/textarchiv/2026/kw45-de-klimagerechtigkeit-1225116\",\"reason\":\"与关注主题无关的议程项目（外交、军事任务、刑事程序、文化、程序性事项等），未登记。\"},{\"url\":\"https://www.bundestag.de/dokumente/textarchiv/2026/kw45-de-buchhandel-1225120\",\"reason\":\"与关注主题无关的议程项目（外交、军事任务、刑事程序、文化、程序性事项等），未登记。\"},{\"url\":\"https://www.bundestag.de/dokumente/textarchiv/2026/kw45-de-aktuelle-stunde-protestbewegung-1230924\",\"reason\":\"与关注主题无关的议程项目（外交、军事任务、刑事程序、文化、程序性事项等），未登记。\"},{\"url\":\"https://www.bundestag.de/dokumente/textarchiv/2026/kw45-de-einspruch-ordnungsruf-1231608\",\"reason\":\"与关注主题无关的议程项目（外交、军事任务、刑事程序、文化、程序性事项等），未登记。\"}],\"allPagesChecked\":false,\"totalListed\":40,\"note\":\"文本档案最新40条按标题逐条看过（11月6日会议和第46周议程预告）：登记收银法和高速公路融资两项一读、5项法案表决预告和6项反对党动议；另有8项是本站已有解读事项的表决预告，本轮未更新这些解读；其余与关注主题无关。预告页面没有显示发布日期，记录日期为本站发现日期。\"}"
+  },
+  {
+    "id": "de-20261107-parl-docs",
+    "source_url": "https://www.bundestag.de/dokumente/parlamentsdokumentation",
+    "checked_at": "2026-11-07T16:00:39.127Z",
+    "data": "{\"id\":\"de-20261107-parl-docs\",\"sourceUrl\":\"https://www.bundestag.de/dokumente/parlamentsdokumentation\",\"checkedAt\":\"2026-11-07T16:00:39.127Z\",\"windowStart\":\"2026-11-06\",\"windowEnd\":\"2026-11-07\",\"status\":\"partial\",\"pages\":[\"https://www.bundestag.de/resource/blob/473452/Tagesordnung-komplett.pdf\"],\"recordIds\":[],\"excluded\":[],\"allPagesChecked\":false,\"totalListed\":null,\"note\":\"完整议程PDF仍为第104至106次会议（11月3日18:30版），第46周议程尚未以PDF形式发布；第46周表决日期取自文本档案预告。\"}"
+  },
+  {
+    "id": "de-20261107-cabinet",
+    "source_url": "https://www.bundesregierung.de/breg-de/bundesregierung/kabinettsthemen",
+    "checked_at": "2026-11-07T16:00:39.127Z",
+    "data": "{\"id\":\"de-20261107-cabinet\",\"sourceUrl\":\"https://www.bundesregierung.de/breg-de/bundesregierung/kabinettsthemen\",\"checkedAt\":\"2026-11-07T16:00:39.127Z\",\"windowStart\":\"2026-11-06\",\"windowEnd\":\"2026-11-07\",\"status\":\"partial\",\"pages\":[\"https://www.bundesregierung.de/breg-de/bundesregierung/bundeskanzleramt/kabinettssitzungen\"],\"recordIds\":[],\"excluded\":[],\"allPagesChecked\":false,\"totalListed\":null,\"note\":\"渲染的内阁列表：11月4日之后没有新的内阁决议；11月6日一条“联邦议院通过”新闻（刑法加重处罚秘密下药），与关注主题无关，未登记。\"}"
+  },
+  {
+    "id": "de-20261107-bundesrat",
+    "source_url": "https://www.bundesrat.de/DE/plenum/plenum-node.html",
+    "checked_at": "2026-11-07T16:00:39.127Z",
+    "data": "{\"id\":\"de-20261107-bundesrat\",\"sourceUrl\":\"https://www.bundesrat.de/DE/plenum/plenum-node.html\",\"checkedAt\":\"2026-11-07T16:00:39.127Z\",\"windowStart\":\"2026-11-03\",\"windowEnd\":\"2026-11-07\",\"status\":\"partial\",\"pages\":[\"https://www.bundesrat.de/DE/plenum/to-plenum/to-plenum-node.html\",\"https://www.bundesrat.de/SharedDocs/TO/1070/tagesordnung-1070.html\",\"https://www.bundesrat.de/SharedDocs/TO/1070/tops/3.html?view=render%5BStandardBody%5D\",\"https://www.bundesrat.de/SharedDocs/TO/1070/tops/4.html?view=render%5BStandardBody%5D\",\"https://www.bundesrat.de/SharedDocs/TO/1070/tops/5.html?view=render%5BStandardBody%5D\",\"https://www.bundesrat.de/SharedDocs/TO/1070/tops/9.html?view=render%5BStandardBody%5D\",\"https://www.bundesrat.de/SharedDocs/TO/1070/tops/13.html?view=render%5BStandardBody%5D\",\"https://www.bundesrat.de/SharedDocs/TO/1070/tops/14.html?view=render%5BStandardBody%5D\",\"https://www.bundesrat.de/SharedDocs/TO/1070/tops/15.html?view=render%5BStandardBody%5D\",\"https://www.bundesrat.de/SharedDocs/TO/1070/tops/17.html?view=render%5BStandardBody%5D\",\"https://www.bundesrat.de/SharedDocs/TO/1070/tops/20.html?view=render%5BStandardBody%5D\",\"https://www.bundesrat.de/SharedDocs/TO/1070/tops/30.html?view=render%5BStandardBody%5D\",\"https://www.bundesrat.de/SharedDocs/TO/1070/tops/31.html?view=render%5BStandardBody%5D\",\"https://www.bundesrat.de/SharedDocs/TO/1070/tops/32.html?view=render%5BStandardBody%5D\",\"https://www.bundesrat.de/SharedDocs/TO/1070/tops/43.html?view=render%5BStandardBody%5D\",\"https://www.bundesrat.de/SharedDocs/TO/1070/tops/45.html?view=render%5BStandardBody%5D\",\"https://www.bundesrat.de/SharedDocs/TO/1070/tops/49.html?view=render%5BStandardBody%5D\",\"https://www.bundesrat.de/SharedDocs/TO/1070/tops/53.html?view=render%5BStandardBody%5D\",\"https://www.bundesrat.de/SharedDocs/TO/1070/tops/58.html?view=render%5BStandardBody%5D\"],\"recordIds\":[\"br-1070-top-3\",\"br-1070-top-4\",\"br-1070-top-5\",\"br-1070-top-9\",\"br-1070-top-13\",\"br-1070-top-14\",\"br-1070-top-15\",\"br-1070-top-17\",\"br-1070-top-20\",\"br-1070-top-30\",\"br-1070-top-31\",\"br-1070-top-32\",\"br-1070-top-43\",\"br-1070-top-45\",\"br-1070-top-49\",\"br-1070-top-53\",\"br-1070-top-58\"],\"excluded\":[{\"url\":\"https://www.bundesrat.de/SharedDocs/TO/1070/tagesordnung-1070.html?topNr=2\",\"reason\":\"本站对此事项另有解读（de-cap-farm-simplification-2026），本轮关注主题之外，未更新。\"},{\"url\":\"https://www.bundesrat.de/SharedDocs/TO/1070/tagesordnung-1070.html?topNr=12\",\"reason\":\"本站对此事项另有解读（de-ukraine-claims-commission-2026），本轮关注主题之外，未更新。\"},{\"url\":\"https://www.bundesrat.de/SharedDocs/TO/1070/tagesordnung-1070.html?topNr=16\",\"reason\":\"本站对此事项另有解读（de-family-court-confidant-bill），本轮关注主题之外，未更新。\"},{\"url\":\"https://www.bundesrat.de/SharedDocs/TO/1070/tagesordnung-1070.html?topNr=34\",\"reason\":\"本站对此事项另有解读（de-domestic-violence-family-court-2026），本轮关注主题之外，未更新。\"},{\"url\":\"https://www.bundesrat.de/SharedDocs/TO/1070/tagesordnung-1070.html?topNr=35\",\"reason\":\"本站对此事项另有解读（de-digital-violence-bill-2026），本轮关注主题之外，未更新。\"},{\"url\":\"https://www.bundesrat.de/SharedDocs/TO/1070/tagesordnung-1070.html?topNr=37\",\"reason\":\"本站对此事项另有解读（de-autobahn-financing-2026），本轮关注主题之外，未更新。\"},{\"url\":\"https://www.bundesrat.de/SharedDocs/TO/1070/tagesordnung-1070.html?topNr=56\",\"reason\":\"本站对此事项另有解读（de-car-label-penalty-reference-2026），本轮关注主题之外，未更新。\"},{\"url\":\"https://www.bundesrat.de/SharedDocs/TO/1070/tagesordnung-1070.html?topNr=1\",\"reason\":\"与关注主题无关的议程项目（程序性事项、人事、刑事和司法程序、交通、环境技术规则、行业和欧盟技术提案等），未登记。\"},{\"url\":\"https://www.bundesrat.de/SharedDocs/TO/1070/tagesordnung-1070.html?topNr=6\",\"reason\":\"与关注主题无关的议程项目（程序性事项、人事、刑事和司法程序、交通、环境技术规则、行业和欧盟技术提案等），未登记。\"},{\"url\":\"https://www.bundesrat.de/SharedDocs/TO/1070/tagesordnung-1070.html?topNr=7\",\"reason\":\"与关注主题无关的议程项目（程序性事项、人事、刑事和司法程序、交通、环境技术规则、行业和欧盟技术提案等），未登记。\"},{\"url\":\"https://www.bundesrat.de/SharedDocs/TO/1070/tagesordnung-1070.html?topNr=8\",\"reason\":\"与关注主题无关的议程项目（程序性事项、人事、刑事和司法程序、交通、环境技术规则、行业和欧盟技术提案等），未登记。\"},{\"url\":\"https://www.bundesrat.de/SharedDocs/TO/1070/tagesordnung-1070.html?topNr=10\",\"reason\":\"与关注主题无关的议程项目（程序性事项、人事、刑事和司法程序、交通、环境技术规则、行业和欧盟技术提案等），未登记。\"},{\"url\":\"https://www.bundesrat.de/SharedDocs/TO/1070/tagesordnung-1070.html?topNr=11\",\"reason\":\"与关注主题无关的议程项目（程序性事项、人事、刑事和司法程序、交通、环境技术规则、行业和欧盟技术提案等），未登记。\"},{\"url\":\"https://www.bundesrat.de/SharedDocs/TO/1070/tagesordnung-1070.html?topNr=18\",\"reason\":\"与关注主题无关的议程项目（程序性事项、人事、刑事和司法程序、交通、环境技术规则、行业和欧盟技术提案等），未登记。\"},{\"url\":\"https://www.bundesrat.de/SharedDocs/TO/1070/tagesordnung-1070.html?topNr=19\",\"reason\":\"与关注主题无关的议程项目（程序性事项、人事、刑事和司法程序、交通、环境技术规则、行业和欧盟技术提案等），未登记。\"},{\"url\":\"https://www.bundesrat.de/SharedDocs/TO/1070/tagesordnung-1070.html?topNr=21\",\"reason\":\"与关注主题无关的议程项目（程序性事项、人事、刑事和司法程序、交通、环境技术规则、行业和欧盟技术提案等），未登记。\"},{\"url\":\"https://www.bundesrat.de/SharedDocs/TO/1070/tagesordnung-1070.html?topNr=22\",\"reason\":\"与关注主题无关的议程项目（程序性事项、人事、刑事和司法程序、交通、环境技术规则、行业和欧盟技术提案等），未登记。\"},{\"url\":\"https://www.bundesrat.de/SharedDocs/TO/1070/tagesordnung-1070.html?topNr=23\",\"reason\":\"与关注主题无关的议程项目（程序性事项、人事、刑事和司法程序、交通、环境技术规则、行业和欧盟技术提案等），未登记。\"},{\"url\":\"https://www.bundesrat.de/SharedDocs/TO/1070/tagesordnung-1070.html?topNr=24\",\"reason\":\"与关注主题无关的议程项目（程序性事项、人事、刑事和司法程序、交通、环境技术规则、行业和欧盟技术提案等），未登记。\"},{\"url\":\"https://www.bundesrat.de/SharedDocs/TO/1070/tagesordnung-1070.html?topNr=25\",\"reason\":\"与关注主题无关的议程项目（程序性事项、人事、刑事和司法程序、交通、环境技术规则、行业和欧盟技术提案等），未登记。\"},{\"url\":\"https://www.bundesrat.de/SharedDocs/TO/1070/tagesordnung-1070.html?topNr=26\",\"reason\":\"与关注主题无关的议程项目（程序性事项、人事、刑事和司法程序、交通、环境技术规则、行业和欧盟技术提案等），未登记。\"},{\"url\":\"https://www.bundesrat.de/SharedDocs/TO/1070/tagesordnung-1070.html?topNr=27\",\"reason\":\"与关注主题无关的议程项目（程序性事项、人事、刑事和司法程序、交通、环境技术规则、行业和欧盟技术提案等），未登记。\"},{\"url\":\"https://www.bundesrat.de/SharedDocs/TO/1070/tagesordnung-1070.html?topNr=28\",\"reason\":\"与关注主题无关的议程项目（程序性事项、人事、刑事和司法程序、交通、环境技术规则、行业和欧盟技术提案等），未登记。\"},{\"url\":\"https://www.bundesrat.de/SharedDocs/TO/1070/tagesordnung-1070.html?topNr=29\",\"reason\":\"与关注主题无关的议程项目（程序性事项、人事、刑事和司法程序、交通、环境技术规则、行业和欧盟技术提案等），未登记。\"},{\"url\":\"https://www.bundesrat.de/SharedDocs/TO/1070/tagesordnung-1070.html?topNr=33\",\"reason\":\"与关注主题无关的议程项目（程序性事项、人事、刑事和司法程序、交通、环境技术规则、行业和欧盟技术提案等），未登记。\"},{\"url\":\"https://www.bundesrat.de/SharedDocs/TO/1070/tagesordnung-1070.html?topNr=36\",\"reason\":\"与关注主题无关的议程项目（程序性事项、人事、刑事和司法程序、交通、环境技术规则、行业和欧盟技术提案等），未登记。\"},{\"url\":\"https://www.bundesrat.de/SharedDocs/TO/1070/tagesordnung-1070.html?topNr=38\",\"reason\":\"与关注主题无关的议程项目（程序性事项、人事、刑事和司法程序、交通、环境技术规则、行业和欧盟技术提案等），未登记。\"},{\"url\":\"https://www.bundesrat.de/SharedDocs/TO/1070/tagesordnung-1070.html?topNr=39\",\"reason\":\"与关注主题无关的议程项目（程序性事项、人事、刑事和司法程序、交通、环境技术规则、行业和欧盟技术提案等），未登记。\"},{\"url\":\"https://www.bundesrat.de/SharedDocs/TO/1070/tagesordnung-1070.html?topNr=40\",\"reason\":\"与关注主题无关的议程项目（程序性事项、人事、刑事和司法程序、交通、环境技术规则、行业和欧盟技术提案等），未登记。\"},{\"url\":\"https://www.bundesrat.de/SharedDocs/TO/1070/tagesordnung-1070.html?topNr=41\",\"reason\":\"与关注主题无关的议程项目（程序性事项、人事、刑事和司法程序、交通、环境技术规则、行业和欧盟技术提案等），未登记。\"},{\"url\":\"https://www.bundesrat.de/SharedDocs/TO/1070/tagesordnung-1070.html?topNr=42\",\"reason\":\"与关注主题无关的议程项目（程序性事项、人事、刑事和司法程序、交通、环境技术规则、行业和欧盟技术提案等），未登记。\"},{\"url\":\"https://www.bundesrat.de/SharedDocs/TO/1070/tagesordnung-1070.html?topNr=44\",\"reason\":\"与关注主题无关的议程项目（程序性事项、人事、刑事和司法程序、交通、环境技术规则、行业和欧盟技术提案等），未登记。\"},{\"url\":\"https://www.bundesrat.de/SharedDocs/TO/1070/tagesordnung-1070.html?topNr=46\",\"reason\":\"与关注主题无关的议程项目（程序性事项、人事、刑事和司法程序、交通、环境技术规则、行业和欧盟技术提案等），未登记。\"},{\"url\":\"https://www.bundesrat.de/SharedDocs/TO/1070/tagesordnung-1070.html?topNr=47\",\"reason\":\"与关注主题无关的议程项目（程序性事项、人事、刑事和司法程序、交通、环境技术规则、行业和欧盟技术提案等），未登记。\"},{\"url\":\"https://www.bundesrat.de/SharedDocs/TO/1070/tagesordnung-1070.html?topNr=48\",\"reason\":\"与关注主题无关的议程项目（程序性事项、人事、刑事和司法程序、交通、环境技术规则、行业和欧盟技术提案等），未登记。\"},{\"url\":\"https://www.bundesrat.de/SharedDocs/TO/1070/tagesordnung-1070.html?topNr=50\",\"reason\":\"与关注主题无关的议程项目（程序性事项、人事、刑事和司法程序、交通、环境技术规则、行业和欧盟技术提案等），未登记。\"},{\"url\":\"https://www.bundesrat.de/SharedDocs/TO/1070/tagesordnung-1070.html?topNr=51\",\"reason\":\"与关注主题无关的议程项目（程序性事项、人事、刑事和司法程序、交通、环境技术规则、行业和欧盟技术提案等），未登记。\"},{\"url\":\"https://www.bundesrat.de/SharedDocs/TO/1070/tagesordnung-1070.html?topNr=52\",\"reason\":\"与关注主题无关的议程项目（程序性事项、人事、刑事和司法程序、交通、环境技术规则、行业和欧盟技术提案等），未登记。\"},{\"url\":\"https://www.bundesrat.de/SharedDocs/TO/1070/tagesordnung-1070.html?topNr=54\",\"reason\":\"与关注主题无关的议程项目（程序性事项、人事、刑事和司法程序、交通、环境技术规则、行业和欧盟技术提案等），未登记。\"},{\"url\":\"https://www.bundesrat.de/SharedDocs/TO/1070/tagesordnung-1070.html?topNr=55\",\"reason\":\"与关注主题无关的议程项目（程序性事项、人事、刑事和司法程序、交通、环境技术规则、行业和欧盟技术提案等），未登记。\"},{\"url\":\"https://www.bundesrat.de/SharedDocs/TO/1070/tagesordnung-1070.html?topNr=57\",\"reason\":\"与关注主题无关的议程项目（程序性事项、人事、刑事和司法程序、交通、环境技术规则、行业和欧盟技术提案等），未登记。\"},{\"url\":\"https://www.bundesrat.de/SharedDocs/TO/1070/tagesordnung-1070.html?topNr=59\",\"reason\":\"与关注主题无关的议程项目（程序性事项、人事、刑事和司法程序、交通、环境技术规则、行业和欧盟技术提案等），未登记。\"},{\"url\":\"https://www.bundesrat.de/SharedDocs/TO/1070/tagesordnung-1070.html?topNr=60\",\"reason\":\"与关注主题无关的议程项目（程序性事项、人事、刑事和司法程序、交通、环境技术规则、行业和欧盟技术提案等），未登记。\"},{\"url\":\"https://www.bundesrat.de/SharedDocs/TO/1070/tagesordnung-1070.html?topNr=61\",\"reason\":\"与关注主题无关的议程项目（程序性事项、人事、刑事和司法程序、交通、环境技术规则、行业和欧盟技术提案等），未登记。\"},{\"url\":\"https://www.bundesrat.de/SharedDocs/TO/1070/tagesordnung-1070.html?topNr=62\",\"reason\":\"与关注主题无关的议程项目（程序性事项、人事、刑事和司法程序、交通、环境技术规则、行业和欧盟技术提案等），未登记。\"},{\"url\":\"https://www.bundesrat.de/SharedDocs/TO/1070/tagesordnung-1070.html?topNr=63\",\"reason\":\"与关注主题无关的议程项目（程序性事项、人事、刑事和司法程序、交通、环境技术规则、行业和欧盟技术提案等），未登记。\"},{\"url\":\"https://www.bundesrat.de/SharedDocs/TO/1070/tagesordnung-1070.html?topNr=64\",\"reason\":\"与关注主题无关的议程项目（程序性事项、人事、刑事和司法程序、交通、环境技术规则、行业和欧盟技术提案等），未登记。\"},{\"url\":\"https://www.bundesrat.de/SharedDocs/TO/1070/tagesordnung-1070.html?topNr=65\",\"reason\":\"与关注主题无关的议程项目（程序性事项、人事、刑事和司法程序、交通、环境技术规则、行业和欧盟技术提案等），未登记。\"}],\"allPagesChecked\":false,\"totalListed\":65,\"note\":\"11月20日第1070次全体会议议程草案（11月3日版，65项）逐项按标题看过：登记17项与关注主题有关的法律、草案、动议、条例和欧盟提案，并据此更新11项已有解读的下一步日期。上轮称议程“尚未公布”，实际上议程草案已于11月3日公布，上轮只看了全体会议页面。议程草案还没有列入联邦议院11月5—6日通过的法律；会议开始前议程还会补充。\"}"
+  },
+  {
+    "id": "de-20261107-bmf",
+    "source_url": "https://www.bundesfinanzministerium.de/Web/DE/Service/Gesetze_Gesetzesvorhaben/Gesetze_Gesetzgebungsvorhaben.html",
+    "checked_at": "2026-11-07T16:00:39.127Z",
+    "data": "{\"id\":\"de-20261107-bmf\",\"sourceUrl\":\"https://www.bundesfinanzministerium.de/Web/DE/Service/Gesetze_Gesetzesvorhaben/Gesetze_Gesetzgebungsvorhaben.html\",\"checkedAt\":\"2026-11-07T16:00:39.127Z\",\"windowStart\":\"2026-11-06\",\"windowEnd\":\"2026-11-07\",\"status\":\"partial\",\"pages\":[\"https://www.bundesfinanzministerium.de/Web/DE/Service/Gesetze_Gesetzesvorhaben/Gesetze_Gesetzgebungsvorhaben.html\",\"https://www.bundesfinanzministerium.de/Web/DE/Presse/Pressemitteilungen/pressemitteilungen.html\"],\"recordIds\":[],\"excluded\":[],\"allPagesChecked\":false,\"totalListed\":null,\"note\":\"没有新的新闻稿或立法项目。\"}"
+  },
+  {
+    "id": "de-20261107-bmas",
+    "source_url": "https://www.bmas.de/DE/Service/Presse/Pressemitteilungen/pressemitteilungen.html",
+    "checked_at": "2026-11-07T16:00:39.127Z",
+    "data": "{\"id\":\"de-20261107-bmas\",\"sourceUrl\":\"https://www.bmas.de/DE/Service/Presse/Pressemitteilungen/pressemitteilungen.html\",\"checkedAt\":\"2026-11-07T16:00:39.127Z\",\"windowStart\":\"2026-11-06\",\"windowEnd\":\"2026-11-07\",\"status\":\"partial\",\"pages\":[\"https://www.bmas.de/DE/Service/Presse/Pressemitteilungen/pressemitteilungen.html\"],\"recordIds\":[],\"excluded\":[],\"allPagesChecked\":false,\"totalListed\":null,\"note\":\"11月6日一条：经济部和劳动部与社会伙伴的行业对话建议，不是规则，未登记。\"}"
+  },
+  {
+    "id": "de-20261107-bmg",
+    "source_url": "https://www.bundesgesundheitsministerium.de/suche-pressemitteilungen",
+    "checked_at": "2026-11-07T16:00:39.127Z",
+    "data": "{\"id\":\"de-20261107-bmg\",\"sourceUrl\":\"https://www.bundesgesundheitsministerium.de/suche-pressemitteilungen\",\"checkedAt\":\"2026-11-07T16:00:39.127Z\",\"windowStart\":\"2026-11-06\",\"windowEnd\":\"2026-11-07\",\"status\":\"partial\",\"pages\":[\"https://www.bundesgesundheitsministerium.de/suche-pressemitteilungen\"],\"recordIds\":[],\"excluded\":[],\"allPagesChecked\":false,\"totalListed\":null,\"note\":\"直接请求和本地渲染都没有显示新闻列表，本轮未能核对。\"}"
+  },
+  {
+    "id": "de-20261107-state-01",
+    "source_url": "https://recht.nrw.de/",
+    "checked_at": "2026-11-07T16:00:39.127Z",
+    "data": "{\"id\":\"de-20261107-state-01\",\"sourceUrl\":\"https://recht.nrw.de/\",\"checkedAt\":\"2026-11-07T16:00:39.127Z\",\"windowStart\":\"2026-11-06\",\"windowEnd\":\"2026-11-07\",\"status\":\"partial\",\"pages\":[\"https://recht.nrw.de/\"],\"recordIds\":[],\"excluded\":[],\"allPagesChecked\":false,\"totalListed\":null,\"note\":\"列表级关键词检查11月6—7日：条目与关注主题无关或没有新条目，未登记。\"}"
+  },
+  {
+    "id": "de-20261107-state-02",
+    "source_url": "https://verkuendung.rlp.de/de/",
+    "checked_at": "2026-11-07T16:00:39.127Z",
+    "data": "{\"id\":\"de-20261107-state-02\",\"sourceUrl\":\"https://verkuendung.rlp.de/de/\",\"checkedAt\":\"2026-11-07T16:00:39.127Z\",\"windowStart\":\"2026-11-06\",\"windowEnd\":\"2026-11-07\",\"status\":\"partial\",\"pages\":[\"https://verkuendung.rlp.de/de/\"],\"recordIds\":[],\"excluded\":[],\"allPagesChecked\":false,\"totalListed\":null,\"note\":\"列表级关键词检查11月6—7日：条目与关注主题无关或没有新条目，未登记。\"}"
+  },
+  {
+    "id": "de-20261107-state-03",
+    "source_url": "https://www.amtsblatt.saarland.de/jportal/portal/page/fpverksl.psml",
+    "checked_at": "2026-11-07T16:00:39.127Z",
+    "data": "{\"id\":\"de-20261107-state-03\",\"sourceUrl\":\"https://www.amtsblatt.saarland.de/jportal/portal/page/fpverksl.psml\",\"checkedAt\":\"2026-11-07T16:00:39.127Z\",\"windowStart\":\"2026-11-06\",\"windowEnd\":\"2026-11-07\",\"status\":\"partial\",\"pages\":[\"https://www.amtsblatt.saarland.de/jportal/portal/page/fpverksl.psml\"],\"recordIds\":[],\"excluded\":[],\"allPagesChecked\":false,\"totalListed\":null,\"note\":\"列表级关键词检查11月6—7日：条目与关注主题无关或没有新条目，未登记。\"}"
+  },
+  {
+    "id": "de-20261107-state-04",
+    "source_url": "https://www.baden-wuerttemberg.de/de/service/gesetze-und-verordnungen/gesetzblatt",
+    "checked_at": "2026-11-07T16:00:39.127Z",
+    "data": "{\"id\":\"de-20261107-state-04\",\"sourceUrl\":\"https://www.baden-wuerttemberg.de/de/service/gesetze-und-verordnungen/gesetzblatt\",\"checkedAt\":\"2026-11-07T16:00:39.127Z\",\"windowStart\":\"2026-11-06\",\"windowEnd\":\"2026-11-07\",\"status\":\"partial\",\"pages\":[\"https://www.baden-wuerttemberg.de/de/service/gesetze-und-verordnungen/gesetzblatt\"],\"recordIds\":[],\"excluded\":[],\"allPagesChecked\":false,\"totalListed\":null,\"note\":\"列表级关键词检查11月6—7日：条目与关注主题无关或没有新条目，未登记。\"}"
+  },
+  {
+    "id": "de-20261107-state-05",
+    "source_url": "https://verkuendung.hessen.de/",
+    "checked_at": "2026-11-07T16:00:39.127Z",
+    "data": "{\"id\":\"de-20261107-state-05\",\"sourceUrl\":\"https://verkuendung.hessen.de/\",\"checkedAt\":\"2026-11-07T16:00:39.127Z\",\"windowStart\":\"2026-11-06\",\"windowEnd\":\"2026-11-07\",\"status\":\"partial\",\"pages\":[\"https://verkuendung.hessen.de/\"],\"recordIds\":[],\"excluded\":[],\"allPagesChecked\":false,\"totalListed\":null,\"note\":\"列表级关键词检查11月6—7日：条目与关注主题无关或没有新条目，未登记。\"}"
+  },
+  {
+    "id": "de-20261107-state-06",
+    "source_url": "https://www.verkuendung-bayern.de/",
+    "checked_at": "2026-11-07T16:00:39.127Z",
+    "data": "{\"id\":\"de-20261107-state-06\",\"sourceUrl\":\"https://www.verkuendung-bayern.de/\",\"checkedAt\":\"2026-11-07T16:00:39.127Z\",\"windowStart\":\"2026-11-06\",\"windowEnd\":\"2026-11-07\",\"status\":\"partial\",\"pages\":[\"https://www.verkuendung-bayern.de/\"],\"recordIds\":[],\"excluded\":[],\"allPagesChecked\":false,\"totalListed\":null,\"note\":\"列表级关键词检查11月6—7日：条目与关注主题无关或没有新条目，未登记。\"}"
+  },
+  {
+    "id": "de-20261107-state-07",
+    "source_url": "https://verkuendungsportal.schleswig-holstein.de/home",
+    "checked_at": "2026-11-07T16:00:39.127Z",
+    "data": "{\"id\":\"de-20261107-state-07\",\"sourceUrl\":\"https://verkuendungsportal.schleswig-holstein.de/home\",\"checkedAt\":\"2026-11-07T16:00:39.127Z\",\"windowStart\":\"2026-11-06\",\"windowEnd\":\"2026-11-07\",\"status\":\"partial\",\"pages\":[\"https://verkuendungsportal.schleswig-holstein.de/home\"],\"recordIds\":[],\"excluded\":[],\"allPagesChecked\":false,\"totalListed\":null,\"note\":\"列表级关键词检查11月6—7日：条目与关注主题无关或没有新条目，未登记。\"}"
+  },
+  {
+    "id": "de-20261107-state-08",
+    "source_url": "https://www.hamburg.de/politik-und-verwaltung/behoerden/bjv/veroeffentlichungen",
+    "checked_at": "2026-11-07T16:00:39.127Z",
+    "data": "{\"id\":\"de-20261107-state-08\",\"sourceUrl\":\"https://www.hamburg.de/politik-und-verwaltung/behoerden/bjv/veroeffentlichungen\",\"checkedAt\":\"2026-11-07T16:00:39.127Z\",\"windowStart\":\"2026-11-06\",\"windowEnd\":\"2026-11-07\",\"status\":\"partial\",\"pages\":[\"https://www.hamburg.de/politik-und-verwaltung/behoerden/bjv/veroeffentlichungen\"],\"recordIds\":[],\"excluded\":[],\"allPagesChecked\":false,\"totalListed\":null,\"note\":\"列表级关键词检查11月6—7日：条目与关注主题无关或没有新条目，未登记。\"}"
+  },
+  {
+    "id": "de-20261107-state-10",
+    "source_url": "https://www.niedersachsen.de/politik_staat/gesetze_verordnungen_und_sonstige_vorschriften/aktuelle_verkundungsblatter/download-verkuendungsblaetter-108794.html",
+    "checked_at": "2026-11-07T16:00:39.127Z",
+    "data": "{\"id\":\"de-20261107-state-10\",\"sourceUrl\":\"https://www.niedersachsen.de/politik_staat/gesetze_verordnungen_und_sonstige_vorschriften/aktuelle_verkundungsblatter/download-verkuendungsblaetter-108794.html\",\"checkedAt\":\"2026-11-07T16:00:39.127Z\",\"windowStart\":\"2026-11-06\",\"windowEnd\":\"2026-11-07\",\"status\":\"partial\",\"pages\":[\"https://www.niedersachsen.de/politik_staat/gesetze_verordnungen_und_sonstige_vorschriften/aktuelle_verkundungsblatter/download-verkuendungsblaetter-108794.html\"],\"recordIds\":[],\"excluded\":[],\"allPagesChecked\":false,\"totalListed\":null,\"note\":\"列表级关键词检查11月6—7日：条目与关注主题无关或没有新条目，未登记。\"}"
+  },
+  {
+    "id": "de-20261107-state-11",
+    "source_url": "https://www.regierung-mv.de/Landesregierung/jm/service_justizministerium/verkuendungsblaetter/gesetz-verordnungsblaetter",
+    "checked_at": "2026-11-07T16:00:39.127Z",
+    "data": "{\"id\":\"de-20261107-state-11\",\"sourceUrl\":\"https://www.regierung-mv.de/Landesregierung/jm/service_justizministerium/verkuendungsblaetter/gesetz-verordnungsblaetter\",\"checkedAt\":\"2026-11-07T16:00:39.127Z\",\"windowStart\":\"2026-11-06\",\"windowEnd\":\"2026-11-07\",\"status\":\"partial\",\"pages\":[\"https://www.regierung-mv.de/Landesregierung/jm/service_justizministerium/verkuendungsblaetter/gesetz-verordnungsblaetter\"],\"recordIds\":[],\"excluded\":[],\"allPagesChecked\":false,\"totalListed\":null,\"note\":\"列表级关键词检查11月6—7日：条目与关注主题无关或没有新条目，未登记。\"}"
+  },
+  {
+    "id": "de-20261107-state-12",
+    "source_url": "https://www.berlin.de/sen/justiz/service/gesetze-und-verordnungen/2026/",
+    "checked_at": "2026-11-07T16:00:39.127Z",
+    "data": "{\"id\":\"de-20261107-state-12\",\"sourceUrl\":\"https://www.berlin.de/sen/justiz/service/gesetze-und-verordnungen/2026/\",\"checkedAt\":\"2026-11-07T16:00:39.127Z\",\"windowStart\":\"2026-11-06\",\"windowEnd\":\"2026-11-07\",\"status\":\"partial\",\"pages\":[\"https://www.berlin.de/sen/justiz/service/gesetze-und-verordnungen/2026/\"],\"recordIds\":[],\"excluded\":[],\"allPagesChecked\":false,\"totalListed\":null,\"note\":\"列表级关键词检查11月6—7日：条目与关注主题无关或没有新条目，未登记。\"}"
+  },
+  {
+    "id": "de-20261107-state-13",
+    "source_url": "https://bravors.brandenburg.de/de/veroeffentlichungsblaetter_chronologisch/2026",
+    "checked_at": "2026-11-07T16:00:39.127Z",
+    "data": "{\"id\":\"de-20261107-state-13\",\"sourceUrl\":\"https://bravors.brandenburg.de/de/veroeffentlichungsblaetter_chronologisch/2026\",\"checkedAt\":\"2026-11-07T16:00:39.127Z\",\"windowStart\":\"2026-11-06\",\"windowEnd\":\"2026-11-07\",\"status\":\"partial\",\"pages\":[\"https://bravors.brandenburg.de/de/veroeffentlichungsblaetter_chronologisch/2026\"],\"recordIds\":[],\"excluded\":[],\"allPagesChecked\":false,\"totalListed\":null,\"note\":\"列表级关键词检查11月6—7日：条目与关注主题无关或没有新条目，未登记。\"}"
+  },
+  {
+    "id": "de-20261107-state-14",
+    "source_url": "https://www.medienservice.sachsen.de/",
+    "checked_at": "2026-11-07T16:00:39.127Z",
+    "data": "{\"id\":\"de-20261107-state-14\",\"sourceUrl\":\"https://www.medienservice.sachsen.de/\",\"checkedAt\":\"2026-11-07T16:00:39.127Z\",\"windowStart\":\"2026-11-06\",\"windowEnd\":\"2026-11-07\",\"status\":\"partial\",\"pages\":[\"https://www.medienservice.sachsen.de/\"],\"recordIds\":[],\"excluded\":[],\"allPagesChecked\":false,\"totalListed\":null,\"note\":\"列表级关键词检查11月6—7日：条目与关注主题无关或没有新条目，未登记。\"}"
+  },
+  {
+    "id": "de-20261107-state-15",
+    "source_url": "https://www.revosax.sachsen.de/",
+    "checked_at": "2026-11-07T16:00:39.127Z",
+    "data": "{\"id\":\"de-20261107-state-15\",\"sourceUrl\":\"https://www.revosax.sachsen.de/\",\"checkedAt\":\"2026-11-07T16:00:39.127Z\",\"windowStart\":\"2026-11-06\",\"windowEnd\":\"2026-11-07\",\"status\":\"partial\",\"pages\":[\"https://www.revosax.sachsen.de/\"],\"recordIds\":[],\"excluded\":[],\"allPagesChecked\":false,\"totalListed\":null,\"note\":\"列表级关键词检查11月6—7日：条目与关注主题无关或没有新条目，未登记。\"}"
+  },
+  {
+    "id": "de-20261107-state-16",
+    "source_url": "https://www.landtag.sachsen-anhalt.de/dokumente/aktuelle-dokumente",
+    "checked_at": "2026-11-07T16:00:39.127Z",
+    "data": "{\"id\":\"de-20261107-state-16\",\"sourceUrl\":\"https://www.landtag.sachsen-anhalt.de/dokumente/aktuelle-dokumente\",\"checkedAt\":\"2026-11-07T16:00:39.127Z\",\"windowStart\":\"2026-11-06\",\"windowEnd\":\"2026-11-07\",\"status\":\"blocked\",\"pages\":[\"https://www.landtag.sachsen-anhalt.de/dokumente/aktuelle-dokumente\"],\"recordIds\":[],\"excluded\":[],\"allPagesChecked\":false,\"totalListed\":null,\"note\":\"本轮请求失败（HTTP 404），未能核对11月6—7日。\"}"
+  },
+  {
+    "id": "de-20261107-state-17",
+    "source_url": "https://www.landtag.sachsen-anhalt.de/",
+    "checked_at": "2026-11-07T16:00:39.127Z",
+    "data": "{\"id\":\"de-20261107-state-17\",\"sourceUrl\":\"https://www.landtag.sachsen-anhalt.de/\",\"checkedAt\":\"2026-11-07T16:00:39.127Z\",\"windowStart\":\"2026-11-06\",\"windowEnd\":\"2026-11-07\",\"status\":\"partial\",\"pages\":[\"https://www.landtag.sachsen-anhalt.de/\"],\"recordIds\":[],\"excluded\":[],\"allPagesChecked\":false,\"totalListed\":null,\"note\":\"列表级关键词检查11月6—7日：条目与关注主题无关或没有新条目，未登记。\"}"
+  },
+  {
+    "id": "de-20261107-state-18",
+    "source_url": "https://www.thueringer-landtag.de/plenum/neue-gesetze-im-landtag/",
+    "checked_at": "2026-11-07T16:00:39.127Z",
+    "data": "{\"id\":\"de-20261107-state-18\",\"sourceUrl\":\"https://www.thueringer-landtag.de/plenum/neue-gesetze-im-landtag/\",\"checkedAt\":\"2026-11-07T16:00:39.127Z\",\"windowStart\":\"2026-11-06\",\"windowEnd\":\"2026-11-07\",\"status\":\"partial\",\"pages\":[\"https://www.thueringer-landtag.de/plenum/neue-gesetze-im-landtag/\"],\"recordIds\":[],\"excluded\":[],\"allPagesChecked\":false,\"totalListed\":null,\"note\":\"列表级关键词检查11月6—7日：条目与关注主题无关或没有新条目，未登记。\"}"
+  },
+  {
+    "id": "de-20261107-state-19",
+    "source_url": "https://www.thueringer-landtag.de/dokumente/parlamentsdokumentation/",
+    "checked_at": "2026-11-07T16:00:39.127Z",
+    "data": "{\"id\":\"de-20261107-state-19\",\"sourceUrl\":\"https://www.thueringer-landtag.de/dokumente/parlamentsdokumentation/\",\"checkedAt\":\"2026-11-07T16:00:39.127Z\",\"windowStart\":\"2026-11-06\",\"windowEnd\":\"2026-11-07\",\"status\":\"partial\",\"pages\":[\"https://www.thueringer-landtag.de/dokumente/parlamentsdokumentation/\"],\"recordIds\":[],\"excluded\":[],\"allPagesChecked\":false,\"totalListed\":null,\"note\":\"列表级关键词检查11月6—7日：条目与关注主题无关或没有新条目，未登记。\"}"
+  },
+  {
+    "id": "de-20261107-state-20",
+    "source_url": "https://www.landtag.ltsh.de/infothek/wahl20/plenum/beschlusspro_seite/",
+    "checked_at": "2026-11-07T16:00:39.127Z",
+    "data": "{\"id\":\"de-20261107-state-20\",\"sourceUrl\":\"https://www.landtag.ltsh.de/infothek/wahl20/plenum/beschlusspro_seite/\",\"checkedAt\":\"2026-11-07T16:00:39.127Z\",\"windowStart\":\"2026-11-06\",\"windowEnd\":\"2026-11-07\",\"status\":\"partial\",\"pages\":[\"https://www.landtag.ltsh.de/infothek/wahl20/plenum/beschlusspro_seite/\"],\"recordIds\":[],\"excluded\":[],\"allPagesChecked\":false,\"totalListed\":null,\"note\":\"列表级关键词检查11月6—7日：条目与关注主题无关或没有新条目，未登记。\"}"
+  },
+  {
+    "id": "de-20261107-state-21",
+    "source_url": "https://www.schleswig-holstein.de/DE/landesportal/presse/pressemitteilungen",
+    "checked_at": "2026-11-07T16:00:39.127Z",
+    "data": "{\"id\":\"de-20261107-state-21\",\"sourceUrl\":\"https://www.schleswig-holstein.de/DE/landesportal/presse/pressemitteilungen\",\"checkedAt\":\"2026-11-07T16:00:39.127Z\",\"windowStart\":\"2026-11-06\",\"windowEnd\":\"2026-11-07\",\"status\":\"partial\",\"pages\":[\"https://www.schleswig-holstein.de/DE/landesportal/presse/pressemitteilungen\"],\"recordIds\":[],\"excluded\":[],\"allPagesChecked\":false,\"totalListed\":null,\"note\":\"11月6—7日石荷州政府新闻按标题看过：检察院人事等，未登记。\"}"
+  },
+  {
+    "id": "de-20261107-state-22",
+    "source_url": "https://www.hamburgische-buergerschaft.de/recherche-info/protokolle",
+    "checked_at": "2026-11-07T16:00:39.127Z",
+    "data": "{\"id\":\"de-20261107-state-22\",\"sourceUrl\":\"https://www.hamburgische-buergerschaft.de/recherche-info/protokolle\",\"checkedAt\":\"2026-11-07T16:00:39.127Z\",\"windowStart\":\"2026-11-06\",\"windowEnd\":\"2026-11-07\",\"status\":\"partial\",\"pages\":[\"https://www.hamburgische-buergerschaft.de/recherche-info/protokolle\"],\"recordIds\":[],\"excluded\":[],\"allPagesChecked\":false,\"totalListed\":null,\"note\":\"列表级关键词检查11月6—7日：条目与关注主题无关或没有新条目，未登记。\"}"
+  },
+  {
+    "id": "de-20261107-state-23",
+    "source_url": "https://www.hamburg.de/politik-und-verwaltung/senat/presseservice-des-senats/pressemeldungen-des-senats",
+    "checked_at": "2026-11-07T16:00:39.127Z",
+    "data": "{\"id\":\"de-20261107-state-23\",\"sourceUrl\":\"https://www.hamburg.de/politik-und-verwaltung/senat/presseservice-des-senats/pressemeldungen-des-senats\",\"checkedAt\":\"2026-11-07T16:00:39.127Z\",\"windowStart\":\"2026-11-06\",\"windowEnd\":\"2026-11-07\",\"status\":\"partial\",\"pages\":[\"https://www.hamburg.de/politik-und-verwaltung/senat/presseservice-des-senats/pressemeldungen-des-senats\"],\"recordIds\":[],\"excluded\":[],\"allPagesChecked\":false,\"totalListed\":null,\"note\":\"11月6—7日汉堡市政府新闻按标题看过：修理日、民防等，未登记。\"}"
+  },
+  {
+    "id": "de-20261107-state-24",
+    "source_url": "https://www.bremische-buergerschaft.de/index.php?id=480",
+    "checked_at": "2026-11-07T16:00:39.127Z",
+    "data": "{\"id\":\"de-20261107-state-24\",\"sourceUrl\":\"https://www.bremische-buergerschaft.de/index.php?id=480\",\"checkedAt\":\"2026-11-07T16:00:39.127Z\",\"windowStart\":\"2026-11-06\",\"windowEnd\":\"2026-11-07\",\"status\":\"blocked\",\"pages\":[\"https://www.bremische-buergerschaft.de/index.php?id=480\"],\"recordIds\":[],\"excluded\":[],\"allPagesChecked\":false,\"totalListed\":null,\"note\":\"本轮请求失败（HTTP 404），未能核对11月6—7日。\"}"
+  },
+  {
+    "id": "de-20261107-state-25",
+    "source_url": "https://www.senatspressestelle.bremen.de/pressemitteilungen-1464",
+    "checked_at": "2026-11-07T16:00:39.127Z",
+    "data": "{\"id\":\"de-20261107-state-25\",\"sourceUrl\":\"https://www.senatspressestelle.bremen.de/pressemitteilungen-1464\",\"checkedAt\":\"2026-11-07T16:00:39.127Z\",\"windowStart\":\"2026-11-06\",\"windowEnd\":\"2026-11-07\",\"status\":\"partial\",\"pages\":[\"https://www.senatspressestelle.bremen.de/pressemitteilungen-1464\"],\"recordIds\":[],\"excluded\":[],\"allPagesChecked\":false,\"totalListed\":null,\"note\":\"11月6日不来梅市政府新闻按标题看过：暴雨防护进展报告（向环境委员会汇报现状，没有新规定）、纪念和青年活动等，未登记。\"}"
+  },
+  {
+    "id": "de-20261107-state-26",
+    "source_url": "https://www.landtag-niedersachsen.de/dokumentensuche/",
+    "checked_at": "2026-11-07T16:00:39.127Z",
+    "data": "{\"id\":\"de-20261107-state-26\",\"sourceUrl\":\"https://www.landtag-niedersachsen.de/dokumentensuche/\",\"checkedAt\":\"2026-11-07T16:00:39.127Z\",\"windowStart\":\"2026-11-06\",\"windowEnd\":\"2026-11-07\",\"status\":\"partial\",\"pages\":[\"https://www.landtag-niedersachsen.de/dokumentensuche/\"],\"recordIds\":[],\"excluded\":[],\"allPagesChecked\":false,\"totalListed\":null,\"note\":\"列表级关键词检查11月6—7日：条目与关注主题无关或没有新条目，未登记。\"}"
+  },
+  {
+    "id": "de-20261107-state-27",
+    "source_url": "https://www.niedersachsen.de/startseite/service/presse/presseinformationen/",
+    "checked_at": "2026-11-07T16:00:39.127Z",
+    "data": "{\"id\":\"de-20261107-state-27\",\"sourceUrl\":\"https://www.niedersachsen.de/startseite/service/presse/presseinformationen/\",\"checkedAt\":\"2026-11-07T16:00:39.127Z\",\"windowStart\":\"2026-11-06\",\"windowEnd\":\"2026-11-07\",\"status\":\"partial\",\"pages\":[\"https://www.niedersachsen.de/startseite/service/presse/presseinformationen/\"],\"recordIds\":[],\"excluded\":[],\"allPagesChecked\":false,\"totalListed\":null,\"note\":\"列表级关键词检查11月6—7日：条目与关注主题无关或没有新条目，未登记。\"}"
+  },
+  {
+    "id": "de-20261107-state-28",
+    "source_url": "https://www.landtag-mv.de/plenum-und-ausschuesse/plenum/vergangene-plenarsitzungen",
+    "checked_at": "2026-11-07T16:00:39.127Z",
+    "data": "{\"id\":\"de-20261107-state-28\",\"sourceUrl\":\"https://www.landtag-mv.de/plenum-und-ausschuesse/plenum/vergangene-plenarsitzungen\",\"checkedAt\":\"2026-11-07T16:00:39.127Z\",\"windowStart\":\"2026-11-06\",\"windowEnd\":\"2026-11-07\",\"status\":\"blocked\",\"pages\":[\"https://www.landtag-mv.de/plenum-und-ausschuesse/plenum/vergangene-plenarsitzungen\"],\"recordIds\":[],\"excluded\":[],\"allPagesChecked\":false,\"totalListed\":null,\"note\":\"本轮请求失败（HTTP 403），未能核对11月6—7日。\"}"
+  },
+  {
+    "id": "de-20261107-state-29",
+    "source_url": "https://www.regierung-mv.de/Aktuell/",
+    "checked_at": "2026-11-07T16:00:39.127Z",
+    "data": "{\"id\":\"de-20261107-state-29\",\"sourceUrl\":\"https://www.regierung-mv.de/Aktuell/\",\"checkedAt\":\"2026-11-07T16:00:39.127Z\",\"windowStart\":\"2026-11-06\",\"windowEnd\":\"2026-11-07\",\"status\":\"partial\",\"pages\":[\"https://www.regierung-mv.de/Aktuell/\"],\"recordIds\":[],\"excluded\":[],\"allPagesChecked\":false,\"totalListed\":null,\"note\":\"列表级关键词检查11月6—7日：条目与关注主题无关或没有新条目，未登记。\"}"
+  },
+  {
+    "id": "de-20261107-state-30",
+    "source_url": "https://pardok.parlament-berlin.de/portala/start.tt.html",
+    "checked_at": "2026-11-07T16:00:39.127Z",
+    "data": "{\"id\":\"de-20261107-state-30\",\"sourceUrl\":\"https://pardok.parlament-berlin.de/portala/start.tt.html\",\"checkedAt\":\"2026-11-07T16:00:39.127Z\",\"windowStart\":\"2026-11-06\",\"windowEnd\":\"2026-11-07\",\"status\":\"partial\",\"pages\":[\"https://pardok.parlament-berlin.de/portala/start.tt.html\"],\"recordIds\":[],\"excluded\":[],\"allPagesChecked\":false,\"totalListed\":null,\"note\":\"列表级关键词检查11月6—7日：条目与关注主题无关或没有新条目，未登记。\"}"
+  },
+  {
+    "id": "de-20261107-state-31",
+    "source_url": "https://www.berlin.de/rbmskzl/aktuelles/pressemitteilungen/",
+    "checked_at": "2026-11-07T16:00:39.127Z",
+    "data": "{\"id\":\"de-20261107-state-31\",\"sourceUrl\":\"https://www.berlin.de/rbmskzl/aktuelles/pressemitteilungen/\",\"checkedAt\":\"2026-11-07T16:00:39.127Z\",\"windowStart\":\"2026-11-06\",\"windowEnd\":\"2026-11-07\",\"status\":\"partial\",\"pages\":[\"https://www.berlin.de/rbmskzl/aktuelles/pressemitteilungen/\"],\"recordIds\":[],\"excluded\":[],\"allPagesChecked\":false,\"totalListed\":null,\"note\":\"列表级关键词检查11月6—7日：条目与关注主题无关或没有新条目，未登记。\"}"
+  },
+  {
+    "id": "de-20261107-state-32",
+    "source_url": "https://www.landtag.brandenburg.de/de/parlament/plenum_und_gesetze/beschlossene_gesetze/beschlossene_gesetze_der_8._wahlperiode/39257",
+    "checked_at": "2026-11-07T16:00:39.127Z",
+    "data": "{\"id\":\"de-20261107-state-32\",\"sourceUrl\":\"https://www.landtag.brandenburg.de/de/parlament/plenum_und_gesetze/beschlossene_gesetze/beschlossene_gesetze_der_8._wahlperiode/39257\",\"checkedAt\":\"2026-11-07T16:00:39.127Z\",\"windowStart\":\"2026-11-06\",\"windowEnd\":\"2026-11-07\",\"status\":\"partial\",\"pages\":[\"https://www.landtag.brandenburg.de/de/parlament/plenum_und_gesetze/beschlossene_gesetze/beschlossene_gesetze_der_8._wahlperiode/39257\"],\"recordIds\":[],\"excluded\":[],\"allPagesChecked\":false,\"totalListed\":null,\"note\":\"列表级关键词检查11月6—7日：条目与关注主题无关或没有新条目，未登记。\"}"
+  },
+  {
+    "id": "de-20261107-state-33",
+    "source_url": "https://landesregierung-brandenburg.de/",
+    "checked_at": "2026-11-07T16:00:39.127Z",
+    "data": "{\"id\":\"de-20261107-state-33\",\"sourceUrl\":\"https://landesregierung-brandenburg.de/\",\"checkedAt\":\"2026-11-07T16:00:39.127Z\",\"windowStart\":\"2026-11-06\",\"windowEnd\":\"2026-11-07\",\"status\":\"partial\",\"pages\":[\"https://landesregierung-brandenburg.de/\"],\"recordIds\":[],\"excluded\":[],\"allPagesChecked\":false,\"totalListed\":null,\"note\":\"列表级关键词检查11月6—7日：条目与关注主题无关或没有新条目，未登记。\"}"
+  },
+  {
+    "id": "de-20261107-state-34",
+    "source_url": "https://www.landtag.sachsen.de/de/aktuelles/plenarsitzungen/index.cshtml",
+    "checked_at": "2026-11-07T16:00:39.127Z",
+    "data": "{\"id\":\"de-20261107-state-34\",\"sourceUrl\":\"https://www.landtag.sachsen.de/de/aktuelles/plenarsitzungen/index.cshtml\",\"checkedAt\":\"2026-11-07T16:00:39.127Z\",\"windowStart\":\"2026-11-06\",\"windowEnd\":\"2026-11-07\",\"status\":\"partial\",\"pages\":[\"https://www.landtag.sachsen.de/de/aktuelles/plenarsitzungen/index.cshtml\"],\"recordIds\":[],\"excluded\":[],\"allPagesChecked\":false,\"totalListed\":null,\"note\":\"列表级关键词检查11月6—7日：条目与关注主题无关或没有新条目，未登记。\"}"
+  },
+  {
+    "id": "de-20261107-state-35",
+    "source_url": "https://www.medienservice.sachsen.de/medien/",
+    "checked_at": "2026-11-07T16:00:39.127Z",
+    "data": "{\"id\":\"de-20261107-state-35\",\"sourceUrl\":\"https://www.medienservice.sachsen.de/medien/\",\"checkedAt\":\"2026-11-07T16:00:39.127Z\",\"windowStart\":\"2026-11-06\",\"windowEnd\":\"2026-11-07\",\"status\":\"partial\",\"pages\":[\"https://www.medienservice.sachsen.de/medien/\"],\"recordIds\":[],\"excluded\":[],\"allPagesChecked\":false,\"totalListed\":null,\"note\":\"列表级关键词检查11月6—7日：条目与关注主题无关或没有新条目，未登记。\"}"
+  },
+  {
+    "id": "de-20261107-state-36",
+    "source_url": "https://www.landtag.sachsen-anhalt.de/archiv",
+    "checked_at": "2026-11-07T16:00:39.127Z",
+    "data": "{\"id\":\"de-20261107-state-36\",\"sourceUrl\":\"https://www.landtag.sachsen-anhalt.de/archiv\",\"checkedAt\":\"2026-11-07T16:00:39.127Z\",\"windowStart\":\"2026-11-06\",\"windowEnd\":\"2026-11-07\",\"status\":\"partial\",\"pages\":[\"https://www.landtag.sachsen-anhalt.de/archiv\"],\"recordIds\":[],\"excluded\":[],\"allPagesChecked\":false,\"totalListed\":null,\"note\":\"列表级关键词检查11月6—7日：条目与关注主题无关或没有新条目，未登记。\"}"
+  },
+  {
+    "id": "de-20261107-state-37",
+    "source_url": "https://www.sachsen-anhalt.de/lj/politik-und-verwaltung/service/politik-aktuell/pressemitteilungen",
+    "checked_at": "2026-11-07T16:00:39.127Z",
+    "data": "{\"id\":\"de-20261107-state-37\",\"sourceUrl\":\"https://www.sachsen-anhalt.de/lj/politik-und-verwaltung/service/politik-aktuell/pressemitteilungen\",\"checkedAt\":\"2026-11-07T16:00:39.127Z\",\"windowStart\":\"2026-11-06\",\"windowEnd\":\"2026-11-07\",\"status\":\"blocked\",\"pages\":[\"https://www.sachsen-anhalt.de/lj/politik-und-verwaltung/service/politik-aktuell/pressemitteilungen\"],\"recordIds\":[],\"excluded\":[],\"allPagesChecked\":false,\"totalListed\":null,\"note\":\"本轮请求失败（HTTP 404），未能核对11月6—7日。\"}"
+  },
+  {
+    "id": "de-20261107-state-38",
+    "source_url": "https://www.thueringer-landtag.de/plenum/protokolle/",
+    "checked_at": "2026-11-07T16:00:39.127Z",
+    "data": "{\"id\":\"de-20261107-state-38\",\"sourceUrl\":\"https://www.thueringer-landtag.de/plenum/protokolle/\",\"checkedAt\":\"2026-11-07T16:00:39.127Z\",\"windowStart\":\"2026-11-06\",\"windowEnd\":\"2026-11-07\",\"status\":\"partial\",\"pages\":[\"https://www.thueringer-landtag.de/plenum/protokolle/\"],\"recordIds\":[],\"excluded\":[],\"allPagesChecked\":false,\"totalListed\":null,\"note\":\"图林根州议会11月6日文件按标题看过：高校框架协议介绍、委员会材料和小质询，未登记。\"}"
+  },
+  {
+    "id": "de-20261107-state-39",
+    "source_url": "https://thueringen.de/medienservice/medieninformationen",
+    "checked_at": "2026-11-07T16:00:39.127Z",
+    "data": "{\"id\":\"de-20261107-state-39\",\"sourceUrl\":\"https://thueringen.de/medienservice/medieninformationen\",\"checkedAt\":\"2026-11-07T16:00:39.127Z\",\"windowStart\":\"2026-11-06\",\"windowEnd\":\"2026-11-07\",\"status\":\"partial\",\"pages\":[\"https://thueringen.de/medienservice/medieninformationen\"],\"recordIds\":[],\"excluded\":[],\"allPagesChecked\":false,\"totalListed\":null,\"note\":\"列表级关键词检查11月6—7日：条目与关注主题无关或没有新条目，未登记。\"}"
+  },
+  {
+    "id": "de-20261107-state-40",
+    "source_url": "https://www.landtag.nrw.de/cms/render/live/de/sites/landtag-r20/home/dokumente/dokumentensuche/ubersichtsseite-reden--protoko-1/protokolle-18-wahlperiode-2022-2.html?ausschuss=Plenum",
+    "checked_at": "2026-11-07T16:00:39.127Z",
+    "data": "{\"id\":\"de-20261107-state-40\",\"sourceUrl\":\"https://www.landtag.nrw.de/cms/render/live/de/sites/landtag-r20/home/dokumente/dokumentensuche/ubersichtsseite-reden--protoko-1/protokolle-18-wahlperiode-2022-2.html?ausschuss=Plenum\",\"checkedAt\":\"2026-11-07T16:00:39.127Z\",\"windowStart\":\"2026-11-06\",\"windowEnd\":\"2026-11-07\",\"status\":\"partial\",\"pages\":[\"https://www.landtag.nrw.de/cms/render/live/de/sites/landtag-r20/home/dokumente/dokumentensuche/ubersichtsseite-reden--protoko-1/protokolle-18-wahlperiode-2022-2.html?ausschuss=Plenum\"],\"recordIds\":[],\"excluded\":[],\"allPagesChecked\":false,\"totalListed\":null,\"note\":\"列表级关键词检查11月6—7日：条目与关注主题无关或没有新条目，未登记。\"}"
+  },
+  {
+    "id": "de-20261107-state-41",
+    "source_url": "https://www.land.nrw/pressemitteilungen",
+    "checked_at": "2026-11-07T16:00:39.127Z",
+    "data": "{\"id\":\"de-20261107-state-41\",\"sourceUrl\":\"https://www.land.nrw/pressemitteilungen\",\"checkedAt\":\"2026-11-07T16:00:39.127Z\",\"windowStart\":\"2026-11-06\",\"windowEnd\":\"2026-11-07\",\"status\":\"blocked\",\"pages\":[\"https://www.land.nrw/pressemitteilungen\"],\"recordIds\":[],\"excluded\":[],\"allPagesChecked\":false,\"totalListed\":null,\"note\":\"本轮请求失败（请求超时），未能核对11月6—7日。\"}"
+  },
+  {
+    "id": "de-20261107-state-42",
+    "source_url": "https://opal.rlp.de/portal/dokumente.tt.html",
+    "checked_at": "2026-11-07T16:00:39.127Z",
+    "data": "{\"id\":\"de-20261107-state-42\",\"sourceUrl\":\"https://opal.rlp.de/portal/dokumente.tt.html\",\"checkedAt\":\"2026-11-07T16:00:39.127Z\",\"windowStart\":\"2026-11-06\",\"windowEnd\":\"2026-11-07\",\"status\":\"partial\",\"pages\":[\"https://opal.rlp.de/portal/dokumente.tt.html\"],\"recordIds\":[],\"excluded\":[],\"allPagesChecked\":false,\"totalListed\":null,\"note\":\"莱法州议会11月6日文件按标题看过：小质询及答复，未登记。\"}"
+  },
+  {
+    "id": "de-20261107-state-43",
+    "source_url": "https://www.rlp.de/service/pressemitteilungen",
+    "checked_at": "2026-11-07T16:00:39.127Z",
+    "data": "{\"id\":\"de-20261107-state-43\",\"sourceUrl\":\"https://www.rlp.de/service/pressemitteilungen\",\"checkedAt\":\"2026-11-07T16:00:39.127Z\",\"windowStart\":\"2026-11-06\",\"windowEnd\":\"2026-11-07\",\"status\":\"partial\",\"pages\":[\"https://www.rlp.de/service/pressemitteilungen\"],\"recordIds\":[],\"excluded\":[],\"allPagesChecked\":false,\"totalListed\":null,\"note\":\"列表级关键词检查11月6—7日：条目与关注主题无关或没有新条目，未登记。\"}"
+  },
+  {
+    "id": "de-20261107-state-44",
+    "source_url": "https://www.landtag-saar.de/aktuelles/",
+    "checked_at": "2026-11-07T16:00:39.127Z",
+    "data": "{\"id\":\"de-20261107-state-44\",\"sourceUrl\":\"https://www.landtag-saar.de/aktuelles/\",\"checkedAt\":\"2026-11-07T16:00:39.127Z\",\"windowStart\":\"2026-11-06\",\"windowEnd\":\"2026-11-07\",\"status\":\"partial\",\"pages\":[\"https://www.landtag-saar.de/aktuelles/\"],\"recordIds\":[],\"excluded\":[],\"allPagesChecked\":false,\"totalListed\":null,\"note\":\"列表级关键词检查11月6—7日：条目与关注主题无关或没有新条目，未登记。\"}"
+  },
+  {
+    "id": "de-20261107-state-45",
+    "source_url": "https://www.saarland.de/DE/presse-informationen/medienservice/medieninfos",
+    "checked_at": "2026-11-07T16:00:39.127Z",
+    "data": "{\"id\":\"de-20261107-state-45\",\"sourceUrl\":\"https://www.saarland.de/DE/presse-informationen/medienservice/medieninfos\",\"checkedAt\":\"2026-11-07T16:00:39.127Z\",\"windowStart\":\"2026-11-06\",\"windowEnd\":\"2026-11-07\",\"status\":\"partial\",\"pages\":[\"https://www.saarland.de/DE/presse-informationen/medienservice/medieninfos\"],\"recordIds\":[],\"excluded\":[],\"allPagesChecked\":false,\"totalListed\":null,\"note\":\"萨尔州政府11月6日新闻按标题看过：人工智能、会展、学校项目和托育设施建设开工，未登记。\"}"
+  },
+  {
+    "id": "de-20261107-state-46",
+    "source_url": "https://www.landtag-bw.de/de/aktuelles/beschluesse",
+    "checked_at": "2026-11-07T16:00:39.127Z",
+    "data": "{\"id\":\"de-20261107-state-46\",\"sourceUrl\":\"https://www.landtag-bw.de/de/aktuelles/beschluesse\",\"checkedAt\":\"2026-11-07T16:00:39.127Z\",\"windowStart\":\"2026-11-06\",\"windowEnd\":\"2026-11-07\",\"status\":\"partial\",\"pages\":[\"https://www.landtag-bw.de/de/aktuelles/beschluesse\"],\"recordIds\":[],\"excluded\":[],\"allPagesChecked\":false,\"totalListed\":null,\"note\":\"列表级关键词检查11月6—7日：条目与关注主题无关或没有新条目，未登记。\"}"
+  },
+  {
+    "id": "de-20261107-state-47",
+    "source_url": "https://www.baden-wuerttemberg.de/de/service/presse/pressemitteilungen",
+    "checked_at": "2026-11-07T16:00:39.127Z",
+    "data": "{\"id\":\"de-20261107-state-47\",\"sourceUrl\":\"https://www.baden-wuerttemberg.de/de/service/presse/pressemitteilungen\",\"checkedAt\":\"2026-11-07T16:00:39.127Z\",\"windowStart\":\"2026-11-06\",\"windowEnd\":\"2026-11-07\",\"status\":\"partial\",\"pages\":[\"https://www.baden-wuerttemberg.de/de/service/presse/pressemitteilungen\"],\"recordIds\":[],\"excluded\":[],\"allPagesChecked\":false,\"totalListed\":null,\"note\":\"巴符州政府11月6日新闻按标题看过：移民女性导师项目周年、警报器资助、疫苗周等，未登记。\"}"
+  },
+  {
+    "id": "de-20261107-state-48",
+    "source_url": "https://starweb.hessen.de/portal/browse.tt.html?action=link&searchgeneric1-parsed=%28WP%3D21+AND+SGEBES%3DANNAHME%29+NOT+NOWEB%3DX&type=generic1",
+    "checked_at": "2026-11-07T16:00:39.127Z",
+    "data": "{\"id\":\"de-20261107-state-48\",\"sourceUrl\":\"https://starweb.hessen.de/portal/browse.tt.html?action=link&searchgeneric1-parsed=%28WP%3D21+AND+SGEBES%3DANNAHME%29+NOT+NOWEB%3DX&type=generic1\",\"checkedAt\":\"2026-11-07T16:00:39.127Z\",\"windowStart\":\"2026-11-06\",\"windowEnd\":\"2026-11-07\",\"status\":\"partial\",\"pages\":[\"https://starweb.hessen.de/portal/browse.tt.html?action=link&searchgeneric1-parsed=%28WP%3D21+AND+SGEBES%3DANNAHME%29+NOT+NOWEB%3DX&type=generic1\"],\"recordIds\":[],\"excluded\":[],\"allPagesChecked\":false,\"totalListed\":null,\"note\":\"列表级关键词检查11月6—7日：条目与关注主题无关或没有新条目，未登记。\"}"
+  },
+  {
+    "id": "de-20261107-state-49",
+    "source_url": "https://hessen.de/presse",
+    "checked_at": "2026-11-07T16:00:39.127Z",
+    "data": "{\"id\":\"de-20261107-state-49\",\"sourceUrl\":\"https://hessen.de/presse\",\"checkedAt\":\"2026-11-07T16:00:39.127Z\",\"windowStart\":\"2026-11-06\",\"windowEnd\":\"2026-11-07\",\"status\":\"partial\",\"pages\":[\"https://hessen.de/presse\"],\"recordIds\":[],\"excluded\":[],\"allPagesChecked\":false,\"totalListed\":null,\"note\":\"黑森州政府11月6日新闻按标题看过：向市镇发放的投资项目资助（Hessenkasse）、颁奖等，不改变个人权利或税负，未登记。\"}"
+  },
+  {
+    "id": "de-20261107-state-50",
+    "source_url": "https://www.bayern.landtag.de/parlament/dokumente/drucksachen/?anzahl_treffer=20&beschluss=zustimmung&dknr=&dlh=BeschlosseneGesetze19&dokumentenart=Drucksache&dokumentenart=Drucksache&erfassungsdatum%5Bend%5D=&erfassungsdatum%5Bstart%5D=&ist_basisdokument=off&q=&sort=date&suchverhalten=AND&suchvorgangsart%5B%5D=Gesetze%5C%5CGesetzentwurf&suchvorgangsart%5B%5D=Gesetze%5C%5CHaushaltsgesetz,+Nachtragshaushaltsgesetz&wahlperiodeid%5B%5D=19",
+    "checked_at": "2026-11-07T16:00:39.127Z",
+    "data": "{\"id\":\"de-20261107-state-50\",\"sourceUrl\":\"https://www.bayern.landtag.de/parlament/dokumente/drucksachen/?anzahl_treffer=20&beschluss=zustimmung&dknr=&dlh=BeschlosseneGesetze19&dokumentenart=Drucksache&dokumentenart=Drucksache&erfassungsdatum%5Bend%5D=&erfassungsdatum%5Bstart%5D=&ist_basisdokument=off&q=&sort=date&suchverhalten=AND&suchvorgangsart%5B%5D=Gesetze%5C%5CGesetzentwurf&suchvorgangsart%5B%5D=Gesetze%5C%5CHaushaltsgesetz,+Nachtragshaushaltsgesetz&wahlperiodeid%5B%5D=19\",\"checkedAt\":\"2026-11-07T16:00:39.127Z\",\"windowStart\":\"2026-11-06\",\"windowEnd\":\"2026-11-07\",\"status\":\"partial\",\"pages\":[\"https://www.bayern.landtag.de/parlament/dokumente/drucksachen/?anzahl_treffer=20&beschluss=zustimmung&dknr=&dlh=BeschlosseneGesetze19&dokumentenart=Drucksache&dokumentenart=Drucksache&erfassungsdatum%5Bend%5D=&erfassungsdatum%5Bstart%5D=&ist_basisdokument=off&q=&sort=date&suchverhalten=AND&suchvorgangsart%5B%5D=Gesetze%5C%5CGesetzentwurf&suchvorgangsart%5B%5D=Gesetze%5C%5CHaushaltsgesetz,+Nachtragshaushaltsgesetz&wahlperiodeid%5B%5D=19\"],\"recordIds\":[],\"excluded\":[],\"allPagesChecked\":false,\"totalListed\":null,\"note\":\"列表级关键词检查11月6—7日：条目与关注主题无关或没有新条目，未登记。\"}"
+  },
+  {
+    "id": "de-20261107-state-51",
+    "source_url": "https://www.bayern.de/presse/pressemitteilungen/",
+    "checked_at": "2026-11-07T16:00:39.127Z",
+    "data": "{\"id\":\"de-20261107-state-51\",\"sourceUrl\":\"https://www.bayern.de/presse/pressemitteilungen/\",\"checkedAt\":\"2026-11-07T16:00:39.127Z\",\"windowStart\":\"2026-11-06\",\"windowEnd\":\"2026-11-07\",\"status\":\"partial\",\"pages\":[\"https://www.bayern.de/presse/pressemitteilungen/\"],\"recordIds\":[],\"excluded\":[],\"allPagesChecked\":false,\"totalListed\":null,\"note\":\"列表级关键词检查11月6—7日：条目与关注主题无关或没有新条目，未登记。\"}"
+  },
+  {
+    "id": "de-20261107-state-52",
+    "source_url": "https://mil.brandenburg.de/mil/de/",
+    "checked_at": "2026-11-07T16:00:39.127Z",
+    "data": "{\"id\":\"de-20261107-state-52\",\"sourceUrl\":\"https://mil.brandenburg.de/mil/de/\",\"checkedAt\":\"2026-11-07T16:00:39.127Z\",\"windowStart\":\"2026-11-06\",\"windowEnd\":\"2026-11-07\",\"status\":\"partial\",\"pages\":[\"https://mil.brandenburg.de/mil/de/\"],\"recordIds\":[],\"excluded\":[],\"allPagesChecked\":false,\"totalListed\":null,\"note\":\"列表级关键词检查11月6—7日：条目与关注主题无关或没有新条目，未登记。\"}"
+  },
+  {
+    "id": "de-20261107-hb-gbl-1106",
+    "source_url": "https://www.gesetzblatt.bremen.de/",
+    "checked_at": "2026-11-07T16:00:39.127Z",
+    "data": "{\"id\":\"de-20261107-hb-gbl-1106\",\"sourceUrl\":\"https://www.gesetzblatt.bremen.de/\",\"checkedAt\":\"2026-11-07T16:00:39.127Z\",\"windowStart\":\"2026-11-06\",\"windowEnd\":\"2026-11-06\",\"status\":\"complete\",\"pages\":[\"https://www.gesetzblatt.bremen.de/\"],\"recordIds\":[],\"excluded\":[],\"allPagesChecked\":true,\"totalListed\":0,\"note\":\"不来梅公报按日期排列：最新一期仍是11月4日第110期，11月6日没有新一期。\"}"
+  },
+  {
+    "id": "de-20261107-hb-gbl-1107",
+    "source_url": "https://www.gesetzblatt.bremen.de/",
+    "checked_at": "2026-11-07T16:00:39.127Z",
+    "data": "{\"id\":\"de-20261107-hb-gbl-1107\",\"sourceUrl\":\"https://www.gesetzblatt.bremen.de/\",\"checkedAt\":\"2026-11-07T16:00:39.127Z\",\"windowStart\":\"2026-11-07\",\"windowEnd\":\"2026-11-07\",\"status\":\"partial\",\"pages\":[\"https://www.gesetzblatt.bremen.de/\"],\"recordIds\":[],\"excluded\":[],\"allPagesChecked\":false,\"totalListed\":null,\"note\":\"今天（未结束）：没有新一期。\"}"
+  },
+  {
+    "id": "eu-oj-20261107-1106",
+    "source_url": "https://eur-lex.europa.eu/oj/direct-access.html",
+    "checked_at": "2026-11-07T16:00:39.127Z",
+    "data": "{\"id\":\"eu-oj-20261107-1106\",\"sourceUrl\":\"https://eur-lex.europa.eu/oj/direct-access.html\",\"checkedAt\":\"2026-11-07T16:00:39.127Z\",\"windowStart\":\"2026-11-06\",\"windowEnd\":\"2026-11-06\",\"status\":\"complete\",\"pages\":[\"https://eur-lex.europa.eu/oj/daily-view/L-series/default.html?ojDate=06112026\",\"https://eur-lex.europa.eu/oj/daily-view/C-series/default.html?ojDate=06112026\"],\"recordIds\":[\"eu-oj-l-202602409\",\"eu-oj-l-202602467\",\"eu-oj-l-202602496\",\"eu-oj-l-202602468\",\"eu-oj-l-202602394\",\"eu-oj-l-202690948\",\"eu-oj-l-202690951\",\"eu-oj-l-202690953\",\"eu-oj-l-202690954\",\"eu-oj-c-202605593\",\"eu-oj-c-202605942\",\"eu-oj-c-202605948\",\"eu-oj-c-202605934\",\"eu-oj-c-202605935\",\"eu-oj-c-202605538\",\"eu-oj-c-202605944\",\"eu-oj-c-202605774\",\"eu-oj-c-202605775\",\"eu-oj-c-202605783\",\"eu-oj-c-202605941\",\"eu-oj-c-202605772\",\"eu-oj-c-202690078\"],\"excluded\":[],\"allPagesChecked\":true,\"totalListed\":22,\"note\":\"11月6日公报：渲染的L系列9项、C系列13项，与上轮登记的22项逐一对上，当天已结束。\"}"
+  },
+  {
+    "id": "eu-oj-20261107-1107",
+    "source_url": "https://eur-lex.europa.eu/oj/direct-access.html",
+    "checked_at": "2026-11-07T16:00:39.127Z",
+    "data": "{\"id\":\"eu-oj-20261107-1107\",\"sourceUrl\":\"https://eur-lex.europa.eu/oj/direct-access.html\",\"checkedAt\":\"2026-11-07T16:00:39.127Z\",\"windowStart\":\"2026-11-07\",\"windowEnd\":\"2026-11-07\",\"status\":\"partial\",\"pages\":[\"https://eur-lex.europa.eu/oj/daily-view/L-series/default.html?ojDate=07112026\",\"https://eur-lex.europa.eu/oj/daily-view/C-series/default.html?ojDate=07112026\"],\"recordIds\":[],\"excluded\":[],\"allPagesChecked\":false,\"totalListed\":null,\"note\":\"今天（星期六，未结束）：11月7日的日视图仍显示11月6日的内容，没有新的一期。\"}"
+  },
+  {
+    "id": "eu-20261107-esma",
+    "source_url": "https://www.esma.europa.eu/press-news/esma-news",
+    "checked_at": "2026-11-07T16:00:39.127Z",
+    "data": "{\"id\":\"eu-20261107-esma\",\"sourceUrl\":\"https://www.esma.europa.eu/press-news/esma-news\",\"checkedAt\":\"2026-11-07T16:00:39.127Z\",\"windowStart\":\"2026-11-06\",\"windowEnd\":\"2026-11-07\",\"status\":\"partial\",\"pages\":[\"https://www.esma.europa.eu/press-news/esma-news\"],\"recordIds\":[],\"excluded\":[],\"allPagesChecked\":false,\"totalListed\":null,\"note\":\"10月29日之后没有新消息。\"}"
+  },
+  {
+    "id": "eu-20261107-taxud",
+    "source_url": "https://taxation-customs.ec.europa.eu/news_en",
+    "checked_at": "2026-11-07T16:00:39.127Z",
+    "data": "{\"id\":\"eu-20261107-taxud\",\"sourceUrl\":\"https://taxation-customs.ec.europa.eu/news_en\",\"checkedAt\":\"2026-11-07T16:00:39.127Z\",\"windowStart\":\"2026-11-06\",\"windowEnd\":\"2026-11-07\",\"status\":\"partial\",\"pages\":[\"https://taxation-customs.ec.europa.eu/news_en\"],\"recordIds\":[],\"excluded\":[],\"allPagesChecked\":false,\"totalListed\":null,\"note\":\"11月6日的电力进口清关指南上轮已登记；之后没有新条目。\"}"
+  },
+  {
+    "id": "eu-20261107-council",
+    "source_url": "https://www.consilium.europa.eu/en/documents-publications/public-register/",
+    "checked_at": "2026-11-07T16:00:39.127Z",
+    "data": "{\"id\":\"eu-20261107-council\",\"sourceUrl\":\"https://www.consilium.europa.eu/en/documents-publications/public-register/\",\"checkedAt\":\"2026-11-07T16:00:39.127Z\",\"windowStart\":\"2026-11-06\",\"windowEnd\":\"2026-11-07\",\"status\":\"blocked\",\"pages\":[\"https://www.consilium.europa.eu/en/press/press-releases/\"],\"recordIds\":[],\"excluded\":[],\"allPagesChecked\":false,\"totalListed\":null,\"note\":\"理事会新闻页的渲染只得到访问检查页，未能核对。\"}"
+  },
+  {
+    "id": "all-20261107-gov",
+    "source_url": "https://www.gov.uk/",
+    "checked_at": "2026-11-07T16:00:39.127Z",
+    "data": "{\"id\":\"all-20261107-gov\",\"sourceUrl\":\"https://www.gov.uk/\",\"checkedAt\":\"2026-11-07T16:00:39.127Z\",\"windowStart\":\"2026-11-06\",\"windowEnd\":\"2026-11-07\",\"status\":\"partial\",\"pages\":[\"https://www.gov.uk/api/search.json\"],\"recordIds\":[\"gb-20261106-hmrc-interest-rates\"],\"excluded\":[{\"url\":\"https://www.gov.uk/government/publications/prohibition-of-promotion-of-certain-tax-avoidance-arrangements\",\"reason\":\"10月30日首发文件的更新（只改了一个罚款示例金额），不是新措施。\"},{\"url\":\"https://www.gov.uk/government/publications/income-tax-treatment-of-image-rights-payments-connected-to-employment\",\"reason\":\"10月28日首发文件的更新（增加指南草稿），只涉及形象权报酬，不是新措施。\"}],\"allPagesChecked\":false,\"totalListed\":null,\"note\":\"GOV.UK检索财政部、税务海关总署、就业和养老金部、内政部、住房部11月6—7日的发布：登记税务海关总署利率调整一条并解读；其余为手册、海关技术指南、统计、人事和旧文件更新，未登记。\"}"
+  },
+  {
+    "id": "all-20261107-ukleg",
+    "source_url": "https://www.legislation.gov.uk/new",
+    "checked_at": "2026-11-07T16:00:39.127Z",
+    "data": "{\"id\":\"all-20261107-ukleg\",\"sourceUrl\":\"https://www.legislation.gov.uk/new\",\"checkedAt\":\"2026-11-07T16:00:39.127Z\",\"windowStart\":\"2026-11-06\",\"windowEnd\":\"2026-11-07\",\"status\":\"partial\",\"pages\":[\"https://www.legislation.gov.uk/new/data.feed\"],\"recordIds\":[\"gb-20261106-uksi-1171\"],\"excluded\":[],\"allPagesChecked\":false,\"totalListed\":null,\"note\":\"新法规订阅源：11月6日全英范围只有S.I. 2026/1171（可再生能源义务豁免），已登记；另有两份更正单；北爱尔兰和威尔士法规属冻结范围，未登记。\"}"
+  },
+  {
+    "id": "all-20261107-boe",
+    "source_url": "https://www.boe.es/diario_boe/",
+    "checked_at": "2026-11-07T16:00:39.127Z",
+    "data": "{\"id\":\"all-20261107-boe\",\"sourceUrl\":\"https://www.boe.es/diario_boe/\",\"checkedAt\":\"2026-11-07T16:00:39.127Z\",\"windowStart\":\"2026-11-06\",\"windowEnd\":\"2026-11-07\",\"status\":\"partial\",\"pages\":[\"https://www.boe.es/datosabiertos/api/boe/sumario/20261106\",\"https://www.boe.es/datosabiertos/api/boe/sumario/20261107\",\"https://www.congreso.es/es/notas-de-prensa?p_p_id=notasprensa&p_p_lifecycle=0&p_p_state=normal&p_p_mode=view&_notasprensa_mvcPath=detalle&_notasprensa_notaId=52613\"],\"recordIds\":[\"es-boe-a-2026-23341\"],\"excluded\":[],\"allPagesChecked\":false,\"totalListed\":null,\"note\":\"公报第一部分：11月6日的11项上轮已看过；11月7日只有一项烟草零售价公告，已登记。另查了众议院新闻稿（不是本站登记的渠道）：常设委员会就王法令28/2026和29/2026的确认或废止开会，但新闻稿没有结果；11月6—7日公报中也没有确认公告。\"}"
+  },
+  {
+    "id": "all-20261107-nltk",
+    "source_url": "https://www.tweedekamer.nl/kamerstukken/wetsvoorstellen",
+    "checked_at": "2026-11-07T16:00:39.127Z",
+    "data": "{\"id\":\"all-20261107-nltk\",\"sourceUrl\":\"https://www.tweedekamer.nl/kamerstukken/wetsvoorstellen\",\"checkedAt\":\"2026-11-07T16:00:39.127Z\",\"windowStart\":\"2026-11-06\",\"windowEnd\":\"2026-11-07\",\"status\":\"partial\",\"pages\":[\"https://gegevensmagazijn.tweedekamer.nl/OData/v4/2.0/Zaak\"],\"recordIds\":[],\"excluded\":[],\"allPagesChecked\":false,\"totalListed\":null,\"note\":\"众议院OData：11月5日以后没有新的立法案件。\"}"
+  },
+  {
+    "id": "all-20261107-ch",
+    "source_url": "https://www.news.admin.ch/de",
+    "checked_at": "2026-11-07T16:00:39.127Z",
+    "data": "{\"id\":\"all-20261107-ch\",\"sourceUrl\":\"https://www.news.admin.ch/de\",\"checkedAt\":\"2026-11-07T16:00:39.127Z\",\"windowStart\":\"2026-11-06\",\"windowEnd\":\"2026-11-07\",\"status\":\"partial\",\"pages\":[\"https://www.news.admin.ch/de\"],\"recordIds\":[\"ch-20261106-estv-circular-37a\",\"ch-20261106-health-insurance-cost-monitoring\"],\"excluded\":[],\"allPagesChecked\":false,\"totalListed\":null,\"note\":\"渲染的联邦新闻列表：登记联邦税务局员工持股通函和医保费用监测两条；其余为讲话、外交、统计和活动，未登记。\"}"
+  },
+  {
+    "id": "all-20261107-frsp",
+    "source_url": "https://www.service-public.gouv.fr/particuliers/actualites",
+    "checked_at": "2026-11-07T16:00:39.127Z",
+    "data": "{\"id\":\"all-20261107-frsp\",\"sourceUrl\":\"https://www.service-public.gouv.fr/particuliers/actualites\",\"checkedAt\":\"2026-11-07T16:00:39.127Z\",\"windowStart\":\"2026-11-04\",\"windowEnd\":\"2026-11-07\",\"status\":\"partial\",\"pages\":[\"https://www.service-public.gouv.fr/particuliers/actualites\",\"https://entreprendre.service-public.gouv.fr/actualites\"],\"recordIds\":[\"fr-20261106-a19128\",\"fr-20261104-a18805\"],\"excluded\":[],\"allPagesChecked\":false,\"totalListed\":null,\"note\":\"登记11月6日外国人工作和居留新规一条并解读；补登11月4日新建建筑可编程温控器一条（上轮漏记）；11月6日另有公务员培训机构和学校假期两条，不在关注主题内，未登记；企业版没有新条目。\"}"
+  },
+  {
+    "id": "all-20261107-it",
+    "source_url": "https://www.governo.it/",
+    "checked_at": "2026-11-07T16:00:39.127Z",
+    "data": "{\"id\":\"all-20261107-it\",\"sourceUrl\":\"https://www.governo.it/\",\"checkedAt\":\"2026-11-07T16:00:39.127Z\",\"windowStart\":\"2026-11-06\",\"windowEnd\":\"2026-11-07\",\"status\":\"partial\",\"pages\":[\"https://www.governo.it/it/comunicati-stampa\"],\"recordIds\":[],\"excluded\":[],\"allPagesChecked\":false,\"totalListed\":null,\"note\":\"新闻稿页面的渲染返回“页面未找到”，本轮未能核对。\"}"
+  },
+  {
+    "id": "all-20261107-irs",
+    "source_url": "https://www.irs.gov/newsroom",
+    "checked_at": "2026-11-07T16:00:39.127Z",
+    "data": "{\"id\":\"all-20261107-irs\",\"sourceUrl\":\"https://www.irs.gov/newsroom\",\"checkedAt\":\"2026-11-07T16:00:39.127Z\",\"windowStart\":\"2026-11-06\",\"windowEnd\":\"2026-11-07\",\"status\":\"partial\",\"pages\":[\"https://www.irs.gov/newsroom/news-releases-for-current-month\"],\"recordIds\":[],\"excluded\":[{\"url\":\"https://www.irs.gov/newsroom/irs-expands-tax-pro-account-for-business-client-payments\",\"reason\":\"税务代理人账户的付款功能扩展，只涉及代理人服务，不是个人税收规则。\"}],\"allPagesChecked\":false,\"totalListed\":null,\"note\":\"11月6日只有IR-2026-134（税务代理人账户），未登记。\"}"
+  },
+  {
+    "id": "all-20261107-usfr",
+    "source_url": "https://www.govinfo.gov/app/collection/FR",
+    "checked_at": "2026-11-07T16:00:39.127Z",
+    "data": "{\"id\":\"all-20261107-usfr\",\"sourceUrl\":\"https://www.govinfo.gov/app/collection/FR\",\"checkedAt\":\"2026-11-07T16:00:39.127Z\",\"windowStart\":\"2026-11-06\",\"windowEnd\":\"2026-11-07\",\"status\":\"partial\",\"pages\":[\"https://www.federalregister.gov/api/v1/documents.json\"],\"recordIds\":[\"us-fr-2026-22679\",\"us-fr-2026-22739\"],\"excluded\":[],\"allPagesChecked\":false,\"totalListed\":null,\"note\":\"联邦公报11月6日的18项规则、拟议规则和总统文件按标题看过：登记WIC营养补助网上订购最终规则和Medicare门诊支付年度最终规则；其余为航空、海岸警卫队、渔业、药品管制、证券定义和总统公告等，未登记。\"}"
   }
 ]

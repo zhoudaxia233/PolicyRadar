@@ -12533,6 +12533,436 @@
           "officialId": "BOE-A-2026-23341"
         }
       ]
+    },
+    {
+      "id": "eu-oj-rates-20261109-10",
+      "reason": [
+        "每日汇率：数据发布，不是规则。",
+        "Daily exchange rates: data publications, not rules."
+      ],
+      "appliesFromExport": "2026-11-10T20:11:11.722Z",
+      "basis": "2 OJ C of 9 and 10 November, read by title.",
+      "documents": [
+        {
+          "region": "EU",
+          "officialId": "OJ:C_202605539"
+        },
+        {
+          "region": "EU",
+          "officialId": "OJ:C_202605567"
+        }
+      ]
+    },
+    {
+      "id": "eu-oj-court-20261109",
+      "reason": [
+        "欧盟法院判决、诉讼和初步裁决请求的公告：涉及个案当事方，不是新规则。",
+        "Notices of Court of Justice judgments, actions and preliminary references: they concern the parties to individual cases and are not new rules."
+      ],
+      "appliesFromExport": "2026-11-10T20:11:11.722Z",
+      "basis": "37 OJ C of 9 November, read by title. The notice of Case C-223/25 (Finanzamt Siegburg) is kept awaiting review.",
+      "documents": [
+        {
+          "region": "EU",
+          "officialId": "OJ:C_202605594"
+        },
+        {
+          "region": "EU",
+          "officialId": "OJ:C_202605595"
+        },
+        {
+          "region": "EU",
+          "officialId": "OJ:C_202605596"
+        },
+        {
+          "region": "EU",
+          "officialId": "OJ:C_202605597"
+        },
+        {
+          "region": "EU",
+          "officialId": "OJ:C_202605598"
+        },
+        {
+          "region": "EU",
+          "officialId": "OJ:C_202605599"
+        },
+        {
+          "region": "EU",
+          "officialId": "OJ:C_202605600"
+        },
+        {
+          "region": "EU",
+          "officialId": "OJ:C_202605602"
+        },
+        {
+          "region": "EU",
+          "officialId": "OJ:C_202605603"
+        },
+        {
+          "region": "EU",
+          "officialId": "OJ:C_202605604"
+        },
+        {
+          "region": "EU",
+          "officialId": "OJ:C_202605605"
+        },
+        {
+          "region": "EU",
+          "officialId": "OJ:C_202605606"
+        },
+        {
+          "region": "EU",
+          "officialId": "OJ:C_202605607"
+        },
+        {
+          "region": "EU",
+          "officialId": "OJ:C_202605608"
+        },
+        {
+          "region": "EU",
+          "officialId": "OJ:C_202605609"
+        },
+        {
+          "region": "EU",
+          "officialId": "OJ:C_202605610"
+        },
+        {
+          "region": "EU",
+          "officialId": "OJ:C_202605611"
+        },
+        {
+          "region": "EU",
+          "officialId": "OJ:C_202605612"
+        },
+        {
+          "region": "EU",
+          "officialId": "OJ:C_202605613"
+        },
+        {
+          "region": "EU",
+          "officialId": "OJ:C_202605614"
+        },
+        {
+          "region": "EU",
+          "officialId": "OJ:C_202605615"
+        },
+        {
+          "region": "EU",
+          "officialId": "OJ:C_202605616"
+        },
+        {
+          "region": "EU",
+          "officialId": "OJ:C_202605617"
+        },
+        {
+          "region": "EU",
+          "officialId": "OJ:C_202605618"
+        },
+        {
+          "region": "EU",
+          "officialId": "OJ:C_202605619"
+        },
+        {
+          "region": "EU",
+          "officialId": "OJ:C_202605620"
+        },
+        {
+          "region": "EU",
+          "officialId": "OJ:C_202605621"
+        },
+        {
+          "region": "EU",
+          "officialId": "OJ:C_202605622"
+        },
+        {
+          "region": "EU",
+          "officialId": "OJ:C_202605623"
+        },
+        {
+          "region": "EU",
+          "officialId": "OJ:C_202605624"
+        },
+        {
+          "region": "EU",
+          "officialId": "OJ:C_202605625"
+        },
+        {
+          "region": "EU",
+          "officialId": "OJ:C_202605626"
+        },
+        {
+          "region": "EU",
+          "officialId": "OJ:C_202605627"
+        },
+        {
+          "region": "EU",
+          "officialId": "OJ:C_202605628"
+        },
+        {
+          "region": "EU",
+          "officialId": "OJ:C_202605629"
+        },
+        {
+          "region": "EU",
+          "officialId": "OJ:C_202605630"
+        },
+        {
+          "region": "EU",
+          "officialId": "OJ:C_202605631"
+        }
+      ]
+    },
+    {
+      "id": "eu-oj-body-20261109",
+      "reason": [
+        "法院和机构的人事、分庭安排及招考通知修改：不为个人设定规则。",
+        "Court and institution staffing, chamber arrangements and an amended competition notice: they set no rules for individuals."
+      ],
+      "appliesFromExport": "2026-11-10T20:11:11.722Z",
+      "basis": "5 OJ C of 9 November, read by title.",
+      "documents": [
+        {
+          "region": "EU",
+          "officialId": "OJ:C_202605936"
+        },
+        {
+          "region": "EU",
+          "officialId": "OJ:C_202605937"
+        },
+        {
+          "region": "EU",
+          "officialId": "OJ:C_202605938"
+        },
+        {
+          "region": "EU",
+          "officialId": "OJ:C_202605939"
+        },
+        {
+          "region": "EU",
+          "officialId": "OJ:C_202605949"
+        }
+      ]
+    },
+    {
+      "id": "eu-oj-merger-20261109",
+      "reason": [
+        "个别企业合并通报：只涉及相关企业。",
+        "Individual merger notifications: they concern the undertakings involved only."
+      ],
+      "appliesFromExport": "2026-11-10T20:11:11.722Z",
+      "basis": "2 OJ C of 9 November, read by title.",
+      "documents": [
+        {
+          "region": "EU",
+          "officialId": "OJ:C_202605945"
+        },
+        {
+          "region": "EU",
+          "officialId": "OJ:C_202605946"
+        }
+      ]
+    },
+    {
+      "id": "eu-oj-gi-20261109-10",
+      "reason": [
+        "单个产品名称或地理标志的申请、修改、撤销或公众咨询：只涉及相关生产者。",
+        "Applications, amendments, cancellations or consultations for single product names or geographical indications: they concern the producers involved only."
+      ],
+      "appliesFromExport": "2026-11-10T20:11:11.722Z",
+      "basis": "4 OJ L and C of 9 and 10 November, read by title.",
+      "documents": [
+        {
+          "region": "EU",
+          "officialId": "OJ:L_202602476"
+        },
+        {
+          "region": "EU",
+          "officialId": "OJ:C_202605950"
+        },
+        {
+          "region": "EU",
+          "officialId": "OJ:C_202605951"
+        },
+        {
+          "region": "EU",
+          "officialId": "OJ:C_202605957"
+        }
+      ]
+    },
+    {
+      "id": "eu-oj-corr-20261109-10",
+      "reason": [
+        "勘误：不涉及英文版本，不改变规则。",
+        "Corrigenda that do not concern the English version and do not change the rules."
+      ],
+      "appliesFromExport": "2026-11-10T20:11:11.722Z",
+      "basis": "15 OJ L of 9 and 10 November, read by title.",
+      "documents": [
+        {
+          "region": "EU",
+          "officialId": "OJ:L_202690956"
+        },
+        {
+          "region": "EU",
+          "officialId": "OJ:L_202690949"
+        },
+        {
+          "region": "EU",
+          "officialId": "OJ:L_202690950"
+        },
+        {
+          "region": "EU",
+          "officialId": "OJ:L_202690952"
+        },
+        {
+          "region": "EU",
+          "officialId": "OJ:L_202690955"
+        },
+        {
+          "region": "EU",
+          "officialId": "OJ:L_202690960"
+        },
+        {
+          "region": "EU",
+          "officialId": "OJ:L_202690961"
+        },
+        {
+          "region": "EU",
+          "officialId": "OJ:L_202690963"
+        },
+        {
+          "region": "EU",
+          "officialId": "OJ:L_202690964"
+        },
+        {
+          "region": "EU",
+          "officialId": "OJ:L_202690967"
+        },
+        {
+          "region": "EU",
+          "officialId": "OJ:L_202690968"
+        },
+        {
+          "region": "EU",
+          "officialId": "OJ:L_202690969"
+        },
+        {
+          "region": "EU",
+          "officialId": "OJ:L_202690970"
+        },
+        {
+          "region": "EU",
+          "officialId": "OJ:L_202690971"
+        },
+        {
+          "region": "EU",
+          "officialId": "OJ:L_202690972"
+        }
+      ]
+    },
+    {
+      "id": "eu-oj-technical-20261109-10",
+      "reason": [
+        "单个杀生物产品授权、植物检疫程序、动物进口名单、协调标准和欧盟—瑞士统计合作附件：技术规则，不直接改变个人的权利、补助或税负。",
+        "A single biocidal product authorisation, plant health procedures, animal import lists, harmonised standards and an EU–Switzerland statistical annex: technical rules that do not directly change individuals’ rights, benefits or taxes."
+      ],
+      "appliesFromExport": "2026-11-10T20:11:11.722Z",
+      "basis": "7 OJ L of 9 and 10 November, read by title.",
+      "documents": [
+        {
+          "region": "EU",
+          "officialId": "OJ:L_202602474"
+        },
+        {
+          "region": "EU",
+          "officialId": "OJ:L_202601830"
+        },
+        {
+          "region": "EU",
+          "officialId": "OJ:L_202602523"
+        },
+        {
+          "region": "EU",
+          "officialId": "OJ:L_202602479"
+        },
+        {
+          "region": "EU",
+          "officialId": "OJ:L_202602480"
+        },
+        {
+          "region": "EU",
+          "officialId": "OJ:L_202602481"
+        },
+        {
+          "region": "EU",
+          "officialId": "OJ:L_202602477"
+        }
+      ]
+    },
+    {
+      "id": "de-bgbl-municipal-vat-keys-20261109",
+      "reason": [
+        "市镇之间增值税份额的分配系数：政府间财政安排，不改变个人税负。",
+        "Distribution keys for the municipalities’ share of VAT: an intergovernmental fiscal arrangement that does not change anyone’s tax."
+      ],
+      "appliesFromExport": "2026-11-10T20:11:11.722Z",
+      "basis": "BGBl. 2026 I Nr. 331, read by title and gazette metadata.",
+      "documents": [
+        {
+          "region": "DE",
+          "officialId": "BGBl. 2026 I Nr. 331"
+        }
+      ]
+    },
+    {
+      "id": "gb-uksi-flying-20261110",
+      "reason": [
+        "临时禁飞区：只涉及特定地点和时间。",
+        "Temporary flying restrictions: they concern specific places and times only."
+      ],
+      "appliesFromExport": "2026-11-10T20:11:11.722Z",
+      "basis": "S.I. 2026/1170 and 1176–1178, read by title on legislation.gov.uk.",
+      "documents": [
+        {
+          "region": "GB",
+          "officialId": "S.I. 2026/1170"
+        },
+        {
+          "region": "GB",
+          "officialId": "S.I. 2026/1176"
+        },
+        {
+          "region": "GB",
+          "officialId": "S.I. 2026/1177"
+        },
+        {
+          "region": "GB",
+          "officialId": "S.I. 2026/1178"
+        }
+      ]
+    },
+    {
+      "id": "es-boe-admin-20261109-10",
+      "reason": [
+        "预算结账操作、个案判决和危险品运输技术协议：行政或个案事项，不改变个人的权利、补助或税负。",
+        "Budget closing operations, an individual court judgment and a technical dangerous-goods transport agreement: administrative or individual matters that do not change individuals’ rights, benefits or taxes."
+      ],
+      "appliesFromExport": "2026-11-10T20:11:11.722Z",
+      "basis": "BOE-A-2026-23385, 23386 and 23528, read by title.",
+      "documents": [
+        {
+          "region": "ES",
+          "officialId": "BOE-A-2026-23385"
+        },
+        {
+          "region": "ES",
+          "officialId": "BOE-A-2026-23386"
+        },
+        {
+          "region": "ES",
+          "officialId": "BOE-A-2026-23528"
+        }
+      ]
     }
   ]
 }

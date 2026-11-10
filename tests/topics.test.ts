@@ -254,7 +254,9 @@ test('French monthly gas notices count once and preserve separate October and No
   assert.equal(result.progressGroups[0]?.id,'topic:fr-gas-benchmark-october-2026');
  }
  const group=topics.find(t=>t.id==='fr-gas-benchmark-october-2026')!;
- assert.equal(group.recordIds.length,3);
+ // The rolling A17956 page adds one record per monthly observation (December added on 10 November).
+ assert.equal(group.recordIds.length,4);
+ assert(group.recordIds.includes('fr-20261110-sp-a17956'));
  assert(group.recordIds.includes('fr-20261011-gas-benchmark'));
  assert(group.recordIds.includes('fr-20261013-gas-november'));
  assert(group.recordIds.includes('fr-20261013-sp-a17956'));

@@ -1,0 +1,56 @@
+[
+  {
+    "id": "all-20261110-gov",
+    "source_url": "https://www.gov.uk/",
+    "checked_at": "2026-11-10T20:11:11.722Z",
+    "data": "{\"id\":\"all-20261110-gov\",\"sourceUrl\":\"https://www.gov.uk/\",\"checkedAt\":\"2026-11-10T20:11:11.722Z\",\"windowStart\":\"2026-11-07\",\"windowEnd\":\"2026-11-10\",\"status\":\"partial\",\"pages\":[\"https://www.gov.uk/api/search.json\"],\"recordIds\":[\"gb-20261110-child-benefit-rates-2027\",\"gb-20261109-bik-payrolling-guidance\",\"gb-20261110-trust-pension-governance-response\",\"gb-20261110-older-people-housing-response\"],\"excluded\":[],\"allPagesChecked\":false,\"totalListed\":null,\"note\":\"GOV.UK搜索接口查询财政部、税务海关总署、就业与养老金部、内政部和住房部11月7—10日的发布：登记儿童福利2027/28暂定金额（已解读）、实物福利工资申报指南、信托型养老金治理咨询回应和老年人住房报告回应；其余为统计、内部手册章节、服务状态页和表格。\"}"
+  },
+  {
+    "id": "all-20261110-ukleg",
+    "source_url": "https://www.legislation.gov.uk/new",
+    "checked_at": "2026-11-10T20:11:11.722Z",
+    "data": "{\"id\":\"all-20261110-ukleg\",\"sourceUrl\":\"https://www.legislation.gov.uk/new\",\"checkedAt\":\"2026-11-10T20:11:11.722Z\",\"windowStart\":\"2026-11-07\",\"windowEnd\":\"2026-11-10\",\"status\":\"partial\",\"pages\":[\"https://www.legislation.gov.uk/new/data.feed\"],\"recordIds\":[\"gb-20261110-uksi-1165\",\"gb-20261110-uksi-1172\",\"gb-20261110-uksi-1170\",\"gb-20261110-uksi-1176\",\"gb-20261110-uksi-1177\",\"gb-20261110-uksi-1178\"],\"excluded\":[],\"allPagesChecked\":false,\"totalListed\":null,\"note\":\"新立法列表：登记全英国适用的S.I. 2026/1165、1170、1172和1176—1178；地方议会立法属冻结范围，未登记。\"}"
+  },
+  {
+    "id": "all-20261110-boe",
+    "source_url": "https://www.boe.es/diario_boe/",
+    "checked_at": "2026-11-10T20:11:11.722Z",
+    "data": "{\"id\":\"all-20261110-boe\",\"sourceUrl\":\"https://www.boe.es/diario_boe/\",\"checkedAt\":\"2026-11-10T20:11:11.722Z\",\"windowStart\":\"2026-11-07\",\"windowEnd\":\"2026-11-10\",\"status\":\"partial\",\"pages\":[\"https://www.boe.es/datosabiertos/api/boe/sumario/20261109\",\"https://www.boe.es/datosabiertos/api/boe/sumario/20261110\"],\"recordIds\":[\"es-boe-a-2026-23384\",\"es-boe-a-2026-23385\",\"es-boe-a-2026-23386\",\"es-boe-a-2026-23528\"],\"excluded\":[{\"url\":\"https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23387\",\"reason\":\"卡斯蒂利亚-拉曼恰自治区法律：自治区层面属冻结范围。\"},{\"url\":\"https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23388\",\"reason\":\"卡斯蒂利亚-拉曼恰自治区法律：自治区层面属冻结范围。\"},{\"url\":\"https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23389\",\"reason\":\"卡斯蒂利亚-拉曼恰自治区法律：自治区层面属冻结范围。\"},{\"url\":\"https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23390\",\"reason\":\"卡斯蒂利亚-拉曼恰自治区法律：自治区层面属冻结范围。\"},{\"url\":\"https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23529\",\"reason\":\"巴斯克自治区法律的勘误：自治区层面属冻结范围。\"}],\"allPagesChecked\":false,\"totalListed\":null,\"note\":\"公报第一部分：11月9日7项、11月10日2项。登记国家层面的4项（海外西班牙公民身份法实施细则等），其余为自治区法律，属冻结范围。11月8日（星期日）没有公报。王法令28/2026和29/2026的议会确认结果在这两天的公报中仍未出现。\"}"
+  },
+  {
+    "id": "all-20261110-nltk",
+    "source_url": "https://www.tweedekamer.nl/kamerstukken/wetsvoorstellen",
+    "checked_at": "2026-11-10T20:11:11.722Z",
+    "data": "{\"id\":\"all-20261110-nltk\",\"sourceUrl\":\"https://www.tweedekamer.nl/kamerstukken/wetsvoorstellen\",\"checkedAt\":\"2026-11-10T20:11:11.722Z\",\"windowStart\":\"2026-11-07\",\"windowEnd\":\"2026-11-10\",\"status\":\"partial\",\"pages\":[\"https://gegevensmagazijn.tweedekamer.nl/OData/v4/2.0/Zaak\"],\"recordIds\":[],\"excluded\":[],\"allPagesChecked\":false,\"totalListed\":null,\"note\":\"众议院OData：11月6日以后只有已登记案件的元数据更新（如2027税收方案、box 3修订案、欧盟单一许可指令实施法），没有新的立法案件。\"}"
+  },
+  {
+    "id": "all-20261110-ch",
+    "source_url": "https://www.news.admin.ch/de",
+    "checked_at": "2026-11-10T20:11:11.722Z",
+    "data": "{\"id\":\"all-20261110-ch\",\"sourceUrl\":\"https://www.news.admin.ch/de\",\"checkedAt\":\"2026-11-10T20:11:11.722Z\",\"windowStart\":\"2026-11-07\",\"windowEnd\":\"2026-11-10\",\"status\":\"partial\",\"pages\":[\"https://www.news.admin.ch/de\"],\"recordIds\":[],\"excluded\":[],\"allPagesChecked\":false,\"totalListed\":null,\"note\":\"渲染的联邦新闻列表（11月9—10日）：租赁纠纷调解统计、设计毒品列入管制、国债发行、产品警示和讲话等，与关注主题无关或不是规则，未登记。\"}"
+  },
+  {
+    "id": "all-20261110-frsp",
+    "source_url": "https://www.service-public.gouv.fr/particuliers/actualites",
+    "checked_at": "2026-11-10T20:11:11.722Z",
+    "data": "{\"id\":\"all-20261110-frsp\",\"sourceUrl\":\"https://www.service-public.gouv.fr/particuliers/actualites\",\"checkedAt\":\"2026-11-10T20:11:11.722Z\",\"windowStart\":\"2026-11-07\",\"windowEnd\":\"2026-11-10\",\"status\":\"partial\",\"pages\":[\"https://www.service-public.gouv.fr/particuliers/actualites\"],\"recordIds\":[\"fr-20261110-sp-a17956\",\"fr-20261110-sp-a18914\",\"fr-20261109-sp-a19131\"],\"excluded\":[],\"allPagesChecked\":false,\"totalListed\":null,\"note\":\"11月9—10日：登记12月燃气参考价（已更新解读）、2027年起边工作边领养老金新规则（已解读）和公职人员兼任寄养家庭助理。\"}"
+  },
+  {
+    "id": "all-20261110-it",
+    "source_url": "https://www.governo.it/",
+    "checked_at": "2026-11-10T20:11:11.722Z",
+    "data": "{\"id\":\"all-20261110-it\",\"sourceUrl\":\"https://www.governo.it/\",\"checkedAt\":\"2026-11-10T20:11:11.722Z\",\"windowStart\":\"2026-11-07\",\"windowEnd\":\"2026-11-10\",\"status\":\"partial\",\"pages\":[\"https://www.governo.it/it/comunicati-stampa\"],\"recordIds\":[],\"excluded\":[],\"allPagesChecked\":false,\"totalListed\":null,\"note\":\"新闻稿页面的渲染仍返回“页面未找到”，本轮未能核对。\"}"
+  },
+  {
+    "id": "all-20261110-irs",
+    "source_url": "https://www.irs.gov/newsroom",
+    "checked_at": "2026-11-10T20:11:11.722Z",
+    "data": "{\"id\":\"all-20261110-irs\",\"sourceUrl\":\"https://www.irs.gov/newsroom\",\"checkedAt\":\"2026-11-10T20:11:11.722Z\",\"windowStart\":\"2026-11-07\",\"windowEnd\":\"2026-11-10\",\"status\":\"partial\",\"pages\":[\"https://www.irs.gov/newsroom/news-releases-for-current-month\"],\"recordIds\":[\"us-irs-ir-2026-135\"],\"excluded\":[],\"allPagesChecked\":false,\"totalListed\":null,\"note\":\"11月10日IR-2026-135（不逐项扣除者的慈善捐款扣除提醒）已登记；11月5日的2027年通胀调整已有解读。\"}"
+  },
+  {
+    "id": "all-20261110-usfr",
+    "source_url": "https://www.govinfo.gov/app/collection/FR",
+    "checked_at": "2026-11-10T20:11:11.722Z",
+    "data": "{\"id\":\"all-20261110-usfr\",\"sourceUrl\":\"https://www.govinfo.gov/app/collection/FR\",\"checkedAt\":\"2026-11-10T20:11:11.722Z\",\"windowStart\":\"2026-11-07\",\"windowEnd\":\"2026-11-10\",\"status\":\"partial\",\"pages\":[\"https://www.federalregister.gov/api/v1/documents.json\"],\"recordIds\":[\"us-fr-2026-22944\",\"us-fr-2026-22936\",\"us-fr-2026-22903\",\"us-fr-2026-22962\",\"us-fr-2026-22859\",\"us-fr-2026-22809\",\"us-fr-2026-22792\",\"us-fr-2026-22743\",\"us-fr-2026-22750\",\"us-fr-2026-22812\",\"us-fr-2026-22772\"],\"excluded\":[],\"allPagesChecked\":false,\"totalListed\":null,\"note\":\"联邦公报11月9—10日的43项规则和拟议规则按标题看过：登记补充营养援助（SNAP）两项拟议规则、失业保险求职要求、加密交易所MEXC资金转移禁令、机会区信息申报、资金转账信息门槛、联邦医保药价谈判、医生收费表、居家护理费率、医疗机构行政要求和农村住房担保贷款；其余为航空适航指令、空域、渔业、环保和广播等，未登记。\"}"
+  }
+]

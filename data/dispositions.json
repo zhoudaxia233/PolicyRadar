@@ -12963,6 +12963,316 @@
           "officialId": "BOE-A-2026-23528"
         }
       ]
+    },
+    {
+      "id": "eu-oj-rates-20261111-12",
+      "reason": [
+        "每日汇率：数据发布，不是规则。",
+        "Daily exchange rates: data publications, not rules."
+      ],
+      "appliesFromExport": "2026-11-12T19:26:11.488Z",
+      "basis": "2 OJ C of 11 and 12 November, read by title.",
+      "documents": [
+        {
+          "region": "EU",
+          "officialId": "OJ:C_202605568"
+        },
+        {
+          "region": "EU",
+          "officialId": "OJ:C_202605569"
+        }
+      ]
+    },
+    {
+      "id": "eu-oj-merger-20261111-12",
+      "reason": [
+        "个别企业合并的通报或不反对决定：只涉及相关企业。",
+        "Notifications of or non-opposition to individual mergers: they concern the undertakings involved only."
+      ],
+      "appliesFromExport": "2026-11-12T19:26:11.488Z",
+      "basis": "7 OJ C of 11 and 12 November, read by title.",
+      "documents": [
+        {
+          "region": "EU",
+          "officialId": "OJ:C_202605953"
+        },
+        {
+          "region": "EU",
+          "officialId": "OJ:C_202605954"
+        },
+        {
+          "region": "EU",
+          "officialId": "OJ:C_202605955"
+        },
+        {
+          "region": "EU",
+          "officialId": "OJ:C_202605956"
+        },
+        {
+          "region": "EU",
+          "officialId": "OJ:C_202606016"
+        },
+        {
+          "region": "EU",
+          "officialId": "OJ:C_202606022"
+        },
+        {
+          "region": "EU",
+          "officialId": "OJ:C_202606030"
+        }
+      ]
+    },
+    {
+      "id": "eu-oj-gi-20261111-12",
+      "reason": [
+        "单个产品名称或地理标志的登记、驳回或规格修改：只涉及相关生产者。",
+        "Registration, rejection or specification amendments of single product names or geographical indications: they concern the producers involved only."
+      ],
+      "appliesFromExport": "2026-11-12T19:26:11.488Z",
+      "basis": "7 OJ L and C of 11 and 12 November, read by title.",
+      "documents": [
+        {
+          "region": "EU",
+          "officialId": "OJ:L_202602478"
+        },
+        {
+          "region": "EU",
+          "officialId": "OJ:L_202602513"
+        },
+        {
+          "region": "EU",
+          "officialId": "OJ:L_202602514"
+        },
+        {
+          "region": "EU",
+          "officialId": "OJ:L_202602515"
+        },
+        {
+          "region": "EU",
+          "officialId": "OJ:L_202602516"
+        },
+        {
+          "region": "EU",
+          "officialId": "OJ:L_202602492"
+        },
+        {
+          "region": "EU",
+          "officialId": "OJ:C_202606024"
+        }
+      ]
+    },
+    {
+      "id": "eu-oj-corr-20261111-12",
+      "reason": [
+        "勘误：不涉及英文版本，不改变规则。",
+        "Corrigenda that do not concern the English version and do not change the rules."
+      ],
+      "appliesFromExport": "2026-11-12T19:26:11.488Z",
+      "basis": "7 OJ L of 11 and 12 November, read by title.",
+      "documents": [
+        {
+          "region": "EU",
+          "officialId": "OJ:L_202690957"
+        },
+        {
+          "region": "EU",
+          "officialId": "OJ:L_202690958"
+        },
+        {
+          "region": "EU",
+          "officialId": "OJ:L_202690959"
+        },
+        {
+          "region": "EU",
+          "officialId": "OJ:L_202690962"
+        },
+        {
+          "region": "EU",
+          "officialId": "OJ:L_202690965"
+        },
+        {
+          "region": "EU",
+          "officialId": "OJ:L_202690976"
+        },
+        {
+          "region": "EU",
+          "officialId": "OJ:L_202690966"
+        }
+      ]
+    },
+    {
+      "id": "eu-oj-technical-20261111-12",
+      "reason": [
+        "含氟气体和哈龙的个别豁免、空气质量技术细则、持久性有机污染物限制、单个消毒剂授权和禽流感紧急措施：针对特定产品或行业的技术规则，不直接改变个人的权利、补助或税负。",
+        "Individual exemptions for fluorinated gases and halon, air-quality technical details, a persistent organic pollutant restriction, a single disinfectant authorisation and avian influenza emergency measures: technical rules for specific products or sectors that do not directly change individuals’ rights, benefits or taxes."
+      ],
+      "appliesFromExport": "2026-11-12T19:26:11.488Z",
+      "basis": "8 OJ L of 11 and 12 November, read by title.",
+      "documents": [
+        {
+          "region": "EU",
+          "officialId": "OJ:L_202602485"
+        },
+        {
+          "region": "EU",
+          "officialId": "OJ:L_202602486"
+        },
+        {
+          "region": "EU",
+          "officialId": "OJ:L_202602489"
+        },
+        {
+          "region": "EU",
+          "officialId": "OJ:L_202602491"
+        },
+        {
+          "region": "EU",
+          "officialId": "OJ:L_202602488"
+        },
+        {
+          "region": "EU",
+          "officialId": "OJ:L_202601972"
+        },
+        {
+          "region": "EU",
+          "officialId": "OJ:L_202602411"
+        },
+        {
+          "region": "EU",
+          "officialId": "OJ:L_202602528"
+        }
+      ]
+    },
+    {
+      "id": "eu-oj-trade-defence-20261111",
+      "reason": [
+        "对特定进口产品的临时反倾销税：只涉及相关进口商和生产商。",
+        "Provisional anti-dumping duties on specific imported products: they concern the importers and producers involved only."
+      ],
+      "appliesFromExport": "2026-11-12T19:26:11.488Z",
+      "basis": "2 OJ L of 11 November, read by title.",
+      "documents": [
+        {
+          "region": "EU",
+          "officialId": "OJ:L_202602497"
+        },
+        {
+          "region": "EU",
+          "officialId": "OJ:L_202602512"
+        }
+      ]
+    },
+    {
+      "id": "eu-oj-cfsp-20261111",
+      "reason": [
+        "共同外交与安全政策下的军事援助措施：不为个人设定规则。",
+        "Military assistance measures under the Common Foreign and Security Policy: they set no rules for individuals."
+      ],
+      "appliesFromExport": "2026-11-12T19:26:11.488Z",
+      "basis": "2 OJ L of 11 November, read by title.",
+      "documents": [
+        {
+          "region": "EU",
+          "officialId": "OJ:L_202602507"
+        },
+        {
+          "region": "EU",
+          "officialId": "OJ:L_202602508"
+        }
+      ]
+    },
+    {
+      "id": "eu-oj-body-20261111-12",
+      "reason": [
+        "机构任命、审计报告和成员国通报：不为个人设定规则。",
+        "Appointments, an audit report and a member state notification: they set no rules for individuals."
+      ],
+      "appliesFromExport": "2026-11-12T19:26:11.488Z",
+      "basis": "4 OJ L and C of 11 and 12 November, read by title.",
+      "documents": [
+        {
+          "region": "EU",
+          "officialId": "OJ:C_202606009"
+        },
+        {
+          "region": "EU",
+          "officialId": "OJ:C_202606014"
+        },
+        {
+          "region": "EU",
+          "officialId": "OJ:L_202602531"
+        },
+        {
+          "region": "EU",
+          "officialId": "OJ:C_202606026"
+        }
+      ]
+    },
+    {
+      "id": "de-bgbl2-docper-20261112",
+      "reason": [
+        "给予特定美国承包商豁免和优惠的德美协议公告：只涉及相关企业。",
+        "Notices of German–US agreements granting exemptions and benefits to specific US contractors: they concern the companies involved only."
+      ],
+      "appliesFromExport": "2026-11-12T19:26:11.488Z",
+      "basis": "BGBl. 2026 II Nr. 262–271, read by title and gazette metadata.",
+      "documents": [
+        {
+          "region": "DE",
+          "officialId": "BGBl. 2026 II Nr. 262"
+        },
+        {
+          "region": "DE",
+          "officialId": "BGBl. 2026 II Nr. 263"
+        },
+        {
+          "region": "DE",
+          "officialId": "BGBl. 2026 II Nr. 264"
+        },
+        {
+          "region": "DE",
+          "officialId": "BGBl. 2026 II Nr. 265"
+        },
+        {
+          "region": "DE",
+          "officialId": "BGBl. 2026 II Nr. 266"
+        },
+        {
+          "region": "DE",
+          "officialId": "BGBl. 2026 II Nr. 267"
+        },
+        {
+          "region": "DE",
+          "officialId": "BGBl. 2026 II Nr. 268"
+        },
+        {
+          "region": "DE",
+          "officialId": "BGBl. 2026 II Nr. 269"
+        },
+        {
+          "region": "DE",
+          "officialId": "BGBl. 2026 II Nr. 270"
+        },
+        {
+          "region": "DE",
+          "officialId": "BGBl. 2026 II Nr. 271"
+        }
+      ]
+    },
+    {
+      "id": "de-bgbl2-treaty-scope-20261112",
+      "reason": [
+        "条约适用范围公告：列出哪些国家已加入某项国际协定，不为个人设定新规则。",
+        "Notice of a treaty’s scope of application: it lists which states have joined an international agreement and sets no new rules for individuals."
+      ],
+      "appliesFromExport": "2026-11-12T19:26:11.488Z",
+      "basis": "BGBl. 2026 II Nr. 272, read by title and gazette metadata.",
+      "documents": [
+        {
+          "region": "DE",
+          "officialId": "BGBl. 2026 II Nr. 272"
+        }
+      ]
     }
   ]
 }

@@ -8,7 +8,8 @@ const data=readExport(process.env.POLICY_RADAR_EXPORT??JSON.parse(readFileSync('
 const policies=data.tables.policies.map((r:{data:string})=>JSON.parse(r.data));
 const by=(id:string)=>policies.find((p:{id:string})=>p.id===id);
 test('an expiry date does not make rent regulations temporary measures',()=>{
- const rent=policies.filter((p:{status:string;nextLabel:string})=>p.status==='已生效'&&/期限结束|有效期结束|条例到期/.test(p.nextLabel));
+ // A reviewed card moves from the legacy label to the status code; both forms are covered.
+ const rent=policies.filter((p:{status:string;nextLabel:string;nextKind?:string;effectiveDate:string|null})=>(p.status==='已生效'||(p.status==='adopted'&&p.nextKind==='expiry'&&!!p.effectiveDate&&p.effectiveDate<='2026-10-04'))&&/期限结束|有效期结束|条例到期|本版到期/.test(p.nextLabel));
  assert(rent.length>=7);
  for(const p of rent)assert.equal(lifecycle(p,'2026-10-04'),'已生效',p.id);
  assert.equal(lifecycle(by('he-rent-protection-2025'),'2026-10-04'),'已生效');

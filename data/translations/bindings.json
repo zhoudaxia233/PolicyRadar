@@ -8451,6 +8451,30 @@
         "Staatsministerium Baden-Württemberg",
         "Ministerium für Landesentwicklung und Wohnen Baden-Württemberg"
       ]
+    },
+    "gb-benefit-pension-rates-2027-28": {
+      "version": 1,
+      "hash": "3f2a4ded1f3cf48545fc66fff3af00752813d73fbe2401f60353dbb596a87475",
+      "originalLanguage": "en",
+      "verbatim": [
+        "Department for Work and Pensions"
+      ]
+    },
+    "es-single-parent-families-rdl-35-2026": {
+      "version": 1,
+      "hash": "dbef380573a488558249cbaa2ec97755fabca498ebd9521f9d42335716e13bda",
+      "originalLanguage": "es",
+      "verbatim": [
+        "Agencia Estatal Boletín Oficial del Estado"
+      ]
+    },
+    "us-retirement-plan-limits-2027": {
+      "version": 1,
+      "hash": "8d45817ee8c4c988bd183abf463f961e2b90334f58debb357a9a19bfc11329a4",
+      "originalLanguage": "en",
+      "verbatim": [
+        "Internal Revenue Service"
+      ]
     }
   },
   "intake": {
@@ -56560,6 +56584,120 @@
       "hash": "46df4d8b966fc780472bc5a346e48cecec51f853d1c5ce3839b24afd8e6ec209",
       "verbatim": [],
       "originalLanguage": "en",
+      "titleIsOriginal": true
+    },
+    "gb-20261111-benefit-pension-rates-2027": {
+      "hash": "3c7df10ad4673ca3a4a1108b881df6d0c381f62abc340cda1e70d3b1b07dff3b",
+      "verbatim": [],
+      "originalLanguage": "en",
+      "titleIsOriginal": true
+    },
+    "gb-20261112-tenant-fees-guidance": {
+      "hash": "e76342c7a859b94bdcf8aff507a77c0bfee91a8445818ef8752d9710179e9d40",
+      "verbatim": [],
+      "originalLanguage": "en",
+      "titleIsOriginal": true
+    },
+    "gb-20261111-service-charges": {
+      "hash": "14ce506e7a78fc3d303e7ba6f33c9086678eb17c0653a1a325b0d4c8bed317cc",
+      "verbatim": [],
+      "originalLanguage": "en",
+      "titleIsOriginal": true
+    },
+    "gb-20261112-nppf-response": {
+      "hash": "6d6db2553de1b9ea4f63d13687f29f31fa5b956c8240d142a28e705ac0379957",
+      "verbatim": [],
+      "originalLanguage": "en",
+      "titleIsOriginal": true
+    },
+    "gb-20261112-employee-share-schemes": {
+      "hash": "3224bd16dfbd6ed7cc978021ba128d91d83491c23e4e9338a98369c2db30d739",
+      "verbatim": [],
+      "originalLanguage": "en",
+      "titleIsOriginal": true
+    },
+    "gb-20261112-uksi-1175": {
+      "hash": "a5a6d8422d3c7773d6d147b08d099bba29772c3165df7f000b0117f4c7a82957",
+      "verbatim": [],
+      "originalLanguage": "en",
+      "titleIsOriginal": true
+    },
+    "gb-20261112-uksi-1181": {
+      "hash": "f98764b78ac95e89fb815921eeda695d2b8f944ed581ce8ce6ca8760b11ace2c",
+      "verbatim": [],
+      "originalLanguage": "en",
+      "titleIsOriginal": true
+    },
+    "es-boe-a-2026-23602": {
+      "hash": "7240ef4999b155c09ede00fc25feeba3c07b7096595fd9064e8df67992cb54c7",
+      "verbatim": [],
+      "originalLanguage": "es",
+      "titleIsOriginal": true
+    },
+    "es-boe-a-2026-23603": {
+      "hash": "6fb633440d047edbfca8cc2e553f9de809e4a0e810b7bf8ccdfd96f8186c2c55",
+      "verbatim": [],
+      "originalLanguage": "es",
+      "titleIsOriginal": true
+    },
+    "es-boe-a-2026-23604": {
+      "hash": "abde3c2b290a433307a8019cfe5688dc7883d547983e804f9075c6858600777b",
+      "verbatim": [],
+      "originalLanguage": "es",
+      "titleIsOriginal": true
+    },
+    "es-boe-a-2026-23605": {
+      "hash": "33de312a82dd788e58c564d4031a8fcac84515868c96741eb817bce227f53474",
+      "verbatim": [],
+      "originalLanguage": "es",
+      "titleIsOriginal": true
+    },
+    "es-boe-a-2026-23662": {
+      "hash": "dd5e1ab5367636f4ab316211a2f6fb2bda3506a690c8e201b089300daadd3f94",
+      "verbatim": [],
+      "originalLanguage": "es",
+      "titleIsOriginal": true
+    },
+    "us-irs-ir-2026-136": {
+      "hash": "2b4a6dbb516c1ef133910040d706f0d62b098cb0a3a7094ac4a78cf90eda18c9",
+      "verbatim": [],
+      "originalLanguage": "en",
+      "titleIsOriginal": true
+    },
+    "us-fr-2026-23032": {
+      "hash": "74006a13ee36b8a8b13505d35241480c3dcc4fe3ebb3862b0a792bed4963b6f2",
+      "verbatim": [],
+      "originalLanguage": "en",
+      "titleIsOriginal": true
+    },
+    "us-fr-2026-23003": {
+      "hash": "a6caecae8e7be428f91d0ccaa029410d81b070a67474adad15d4582b05ebc4b4",
+      "verbatim": [],
+      "originalLanguage": "en",
+      "titleIsOriginal": true
+    },
+    "ch-20261112-hearing-aid-flat-rates": {
+      "hash": "d6b6f2fa9d3975fadbb552acd8de26998119eb7808d9d76c1ca3f09c3f6733dd",
+      "verbatim": [],
+      "originalLanguage": "de",
+      "titleIsOriginal": true
+    },
+    "ch-20261112-familienzeit-initiative": {
+      "hash": "919db9d96229db589374da1a517dae000b49c0521570b499b20986b73fb48588",
+      "verbatim": [],
+      "originalLanguage": "de",
+      "titleIsOriginal": true
+    },
+    "nl-tk-2026z14598-blue-card-novelle": {
+      "hash": "9ce2cf82d580dbc5d7fd2a58a149869508bba3a696cd45f91446f4d604c15d6e",
+      "verbatim": [],
+      "originalLanguage": "nl",
+      "titleIsOriginal": true
+    },
+    "nl-tk-2026z22661-verzamelwet-szw-2027": {
+      "hash": "4c2d3dda2c9b521fadbebdd291cc2f4c4286949893f640463c64c967193ac5c0",
+      "verbatim": [],
+      "originalLanguage": "nl",
       "titleIsOriginal": true
     }
   }

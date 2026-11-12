@@ -1,0 +1,110 @@
+{
+  "checkedAt": "2026-11-12T19:51:33.451Z",
+  "scope": "FR",
+  "channels": 6,
+  "incompleteChannels": 6,
+  "gaps": [
+    {
+      "sourceUrl": "https://www.legifrance.gouv.fr/jorf/jo",
+      "region": "FR",
+      "title": "法国官方公报",
+      "windowStart": "2026-11-05",
+      "windowEnd": "2026-11-11",
+      "missingDays": [
+        "2026-11-05",
+        "2026-11-06",
+        "2026-11-07",
+        "2026-11-08",
+        "2026-11-09",
+        "2026-11-10",
+        "2026-11-11"
+      ],
+      "latestScan": "blocked"
+    },
+    {
+      "sourceUrl": "https://www.service-public.gouv.fr/particuliers/actualites",
+      "region": "FR",
+      "title": "法国公共服务：个人政策动态",
+      "windowStart": "2026-11-05",
+      "windowEnd": "2026-11-11",
+      "missingDays": [
+        "2026-11-05",
+        "2026-11-06",
+        "2026-11-07",
+        "2026-11-08",
+        "2026-11-09",
+        "2026-11-10",
+        "2026-11-11"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://entreprendre.service-public.gouv.fr/actualites",
+      "region": "FR",
+      "title": "法国公共服务：企业政策动态",
+      "windowStart": "2026-11-05",
+      "windowEnd": "2026-11-11",
+      "missingDays": [
+        "2026-11-05",
+        "2026-11-06",
+        "2026-11-07",
+        "2026-11-08",
+        "2026-11-09",
+        "2026-11-10",
+        "2026-11-11"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.assemblee-nationale.fr/dyn/17/dossiers",
+      "region": "FR",
+      "title": "法国国民议会立法进程",
+      "windowStart": "2026-11-05",
+      "windowEnd": "2026-11-11",
+      "missingDays": [
+        "2026-11-05",
+        "2026-11-06",
+        "2026-11-07",
+        "2026-11-08",
+        "2026-11-09",
+        "2026-11-10",
+        "2026-11-11"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.senat.fr/dossiers-legislatifs/lois-promulguees.html",
+      "region": "FR",
+      "title": "法国参议院已公布法律",
+      "windowStart": "2026-11-05",
+      "windowEnd": "2026-11-11",
+      "missingDays": [
+        "2026-11-05",
+        "2026-11-06",
+        "2026-11-07",
+        "2026-11-08",
+        "2026-11-09",
+        "2026-11-10",
+        "2026-11-11"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.amf-france.org/fr/actualites-publications/actualites",
+      "region": "FR",
+      "title": "法国金融市场管理局：新闻",
+      "windowStart": "2026-11-05",
+      "windowEnd": "2026-11-11",
+      "missingDays": [
+        "2026-11-05",
+        "2026-11-06",
+        "2026-11-07",
+        "2026-11-08",
+        "2026-11-09",
+        "2026-11-10",
+        "2026-11-11"
+      ],
+      "latestScan": "partial"
+    }
+  ]
+}

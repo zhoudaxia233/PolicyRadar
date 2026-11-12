@@ -5689,10 +5689,10 @@
   },
   {
     "url": "https://www.irs.gov/newsroom/news-releases-for-current-month",
-    "checked_at": "2026-11-10T19:47:19.245Z",
-    "last_success_at": "2026-11-10T19:47:19.245Z",
-    "hash": "d90e8c83a61a32ac86cf35cab4302624b5ec9d75c286bb2269783a1ae344c766",
-    "snapshot_key": "sources/e28156fd93b79e12c63d1611b81a34a878cad047b1c0a67d6c4865a5e24c6192/d90e8c83a61a32ac86cf35cab4302624b5ec9d75c286bb2269783a1ae344c766.html",
+    "checked_at": "2026-11-12T19:43:35.510Z",
+    "last_success_at": "2026-11-12T19:43:35.510Z",
+    "hash": "0902becf95dc89d86d5b0c533fc8e40bb49c5b2396916c4f4eed992d24bac054",
+    "snapshot_key": "sources/e28156fd93b79e12c63d1611b81a34a878cad047b1c0a67d6c4865a5e24c6192/0902becf95dc89d86d5b0c533fc8e40bb49c5b2396916c4f4eed992d24bac054.html",
     "changed": 0,
     "error": null
   },
@@ -6985,10 +6985,10 @@
   },
   {
     "url": "https://www.gov.uk/government/consultations/earned-settlement",
-    "checked_at": "2026-11-04T20:54:26.712Z",
-    "last_success_at": "2026-11-04T20:54:26.712Z",
-    "hash": "b0c755a89bbc998c6e81a845fa753ccaae76596dc0ca59842c4c43dcec092746",
-    "snapshot_key": "sources/b1a306d48d5b9a738ac7d1b701484f6f3f001476e18fbbea67a7a70e067dbfd5/b0c755a89bbc998c6e81a845fa753ccaae76596dc0ca59842c4c43dcec092746.html",
+    "checked_at": "2026-11-12T19:45:08.132Z",
+    "last_success_at": "2026-11-12T19:45:08.132Z",
+    "hash": "49a6985ee5061f49a65c9a9ec0ec8a112eec658f772bf27657945def05b94efa",
+    "snapshot_key": "sources/b1a306d48d5b9a738ac7d1b701484f6f3f001476e18fbbea67a7a70e067dbfd5/49a6985ee5061f49a65c9a9ec0ec8a112eec658f772bf27657945def05b94efa.html",
     "changed": 0,
     "error": null
   },
@@ -8735,6 +8735,51 @@
     "last_success_at": "2026-11-12T19:24:42.511Z",
     "hash": "14fe3124d2f942fad29136e36b89395fdfa6e001cb266da8211d779be177b6e8",
     "snapshot_key": "sources/b5dbfbbd6bac31cd6b40eba037e7788870db9751cc3a8b84139740bd342d8e0c/14fe3124d2f942fad29136e36b89395fdfa6e001cb266da8211d779be177b6e8.html",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23604",
+    "checked_at": "2026-11-12T19:45:08.133Z",
+    "last_success_at": "2026-11-12T19:45:08.133Z",
+    "hash": "faea1969451f3306fcb445c2a8d2db0ad25be81cc96fcee03466408b6e817778",
+    "snapshot_key": "sources/4a604724a5e8e559b9ab893960fb37e3509bde763837c237d87b794955f9c4cd/faea1969451f3306fcb445c2a8d2db0ad25be81cc96fcee03466408b6e817778.html",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://www.gov.uk/government/publications/benefit-and-pension-rates-2027-to-2028",
+    "checked_at": "2026-11-12T19:45:08.110Z",
+    "last_success_at": "2026-11-12T19:45:08.110Z",
+    "hash": "c475a2430035e10d45d9971d294d3fec864372bd78c1a4bfd31641231fc6c3ce",
+    "snapshot_key": "sources/ffaf96737923082fe0cb81aa13fc2e2116e275af195b4d2fc02f8f58e51f123c/c475a2430035e10d45d9971d294d3fec864372bd78c1a4bfd31641231fc6c3ce.html",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://www.irs.gov/newsroom/401k-limit-increases-to-25500-for-2027-ira-limit-remains-7500",
+    "checked_at": "2026-11-12T19:45:08.133Z",
+    "last_success_at": "2026-11-12T19:45:08.133Z",
+    "hash": "e39b7d3a8307a1258562916d12e7ec9b9a248a4847968a51cd7a6cc9f62848b5",
+    "snapshot_key": "sources/58210c82c0d4ed421d641c7461447d40e654ed0c7b2bc81ef0d61bbd30b93ff1/e39b7d3a8307a1258562916d12e7ec9b9a248a4847968a51cd7a6cc9f62848b5.html",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://www.gov.uk/government/publications/benefit-and-pension-rates-2027-to-2028/proposed-benefit-and-pension-rates-2027-to-2028",
+    "checked_at": "2026-11-12T19:45:14.648Z",
+    "last_success_at": "2026-11-12T19:45:14.648Z",
+    "hash": "6650d6358b2f473ffe93beecf95111c463364a12fa5bd4e8b1473f3fce6c8043",
+    "snapshot_key": "sources/3583da324cc55a541abfb53c2471feaf8049d40809f9b830d6617edc9afbf474/6650d6358b2f473ffe93beecf95111c463364a12fa5bd4e8b1473f3fce6c8043.html",
+    "changed": 0,
+    "error": null
+  },
+  {
+    "url": "https://www.gov.uk/government/consultations/earned-settlement/outcome/a-fairer-pathway-to-settlement-government-response-to-the-consultation",
+    "checked_at": "2026-11-12T19:45:14.667Z",
+    "last_success_at": "2026-11-12T19:45:14.667Z",
+    "hash": "5a8d01281352cd9691c290beb9b87b7613d631d4c6fb0e4b9cde9e3a0d59a4a8",
+    "snapshot_key": "sources/243e8118f933ea0b6c8aa2dde27647d56030557f4c983795f0cdeee675f5886d/5a8d01281352cd9691c290beb9b87b7613d631d4c6fb0e4b9cde9e3a0d59a4a8.html",
     "changed": 0,
     "error": null
   }

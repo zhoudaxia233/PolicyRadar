@@ -1,0 +1,53 @@
+[
+ {
+  "name": "sl-abl44",
+  "url": "https://www.amtsblatt.saarland.de/jportal/docs/news_anlage/sl/pdf/VerkBl/ABl/ads_44-2026_teil_I_signed.pdf",
+  "fetchedAt": "2026-11-16T22:31:20.152Z",
+  "status": 200,
+  "contentType": "application/pdf",
+  "finalUrl": "https://www.amtsblatt.saarland.de/jportal/docs/news_anlage/sl/pdf/VerkBl/ABl/ads_44-2026_teil_I_signed.pdf",
+  "sha256": "de0db1f3364b59a17dee5ee7c90fae26f0e855d0485709921faaf7dc0e292e6e",
+  "bytes": 1166562,
+  "ext": "pdf",
+  "snapshotKey": "sources/cba26044861252466cca35b9fb2e3cd4f885b9a4eb721a3456f69fc86e9b94b0/de0db1f3364b59a17dee5ee7c90fae26f0e855d0485709921faaf7dc0e292e6e.pdf",
+  "archived": true
+ },
+ {
+  "name": "sl-abl42-2025",
+  "url": "https://www.amtsblatt.saarland.de/jportal/docs/news_anlage/sl/pdf/VerkBl/ABl/ads_42-2025_teil_I_signed.pdf",
+  "fetchedAt": "2026-11-16T22:31:45.096Z",
+  "status": 404,
+  "contentType": "application/pdf",
+  "finalUrl": "https://www.amtsblatt.saarland.de/jportal/docs/news_anlage/sl/pdf/VerkBl/ABl/ads_42-2025_teil_I_signed.pdf",
+  "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "bytes": 0,
+  "ext": "pdf",
+  "error": "HTTP 404"
+ },
+ {
+  "name": "bb-mil-fees",
+  "url": "https://mil.brandenburg.de/mil/de/presse/detail/~16-11-2026-brandenburg-senkt-baugebuehren",
+  "fetchedAt": "2026-11-16T22:32:37.998Z",
+  "status": 200,
+  "contentType": "text/html; charset=utf-8",
+  "finalUrl": "https://mil.brandenburg.de/mil/de/presse/detail/~16-11-2026-brandenburg-senkt-baugebuehren",
+  "sha256": "a55abf53f3ebe039b62606e1d762cfb7117066f5e464d08b0a7d3d90f2002f2e",
+  "bytes": 74210,
+  "ext": "html",
+  "snapshotKey": "sources/296def12a4fdd10b74a7ed127ad9721916d9f4df3d604ed4c0efb806b597869a/a55abf53f3ebe039b62606e1d762cfb7117066f5e464d08b0a7d3d90f2002f2e.html",
+  "archived": true
+ },
+ {
+  "name": "bb-gvbl2-51",
+  "url": "https://bravors.brandenburg.de/fm/76/GVBl_II_51_2026.pdf",
+  "fetchedAt": "2026-11-16T22:32:46.615Z",
+  "status": 200,
+  "contentType": "application/pdf",
+  "finalUrl": "https://bravors.brandenburg.de/fm/76/GVBl_II_51_2026.pdf",
+  "sha256": "bb0584d6b28423a0777e8744fc7a0aeea02842348a9fb0b8db338c1eec7c68af",
+  "bytes": 587927,
+  "ext": "pdf",
+  "snapshotKey": "sources/51d70c828c3385356a04054263d74819c55a3fde333ae7536ea82464502e02d9/bb0584d6b28423a0777e8744fc7a0aeea02842348a9fb0b8db338c1eec7c68af.pdf",
+  "archived": true
+ }
+]

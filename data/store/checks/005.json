@@ -145,8 +145,8 @@
   },
   {
     "url": "https://mil.brandenburg.de/mil/de/presse/detail/~16-11-2026-brandenburg-senkt-baugebuehren",
-    "checked_at": "2026-11-16T21:34:37.823Z",
-    "last_success_at": "2026-11-16T21:34:37.823Z",
+    "checked_at": "2026-11-16T22:32:37.998Z",
+    "last_success_at": "2026-11-16T22:32:37.998Z",
     "hash": "a55abf53f3ebe039b62606e1d762cfb7117066f5e464d08b0a7d3d90f2002f2e",
     "snapshot_key": "sources/296def12a4fdd10b74a7ed127ad9721916d9f4df3d604ed4c0efb806b597869a/a55abf53f3ebe039b62606e1d762cfb7117066f5e464d08b0a7d3d90f2002f2e.html",
     "changed": 0,
@@ -199,8 +199,8 @@
   },
   {
     "url": "https://www.amtsblatt.saarland.de/jportal/docs/news_anlage/sl/pdf/VerkBl/ABl/ads_44-2026_teil_I_signed.pdf",
-    "checked_at": "2026-11-16T21:35:04.780Z",
-    "last_success_at": "2026-11-16T21:35:04.780Z",
+    "checked_at": "2026-11-16T22:31:20.152Z",
+    "last_success_at": "2026-11-16T22:31:20.152Z",
     "hash": "de0db1f3364b59a17dee5ee7c90fae26f0e855d0485709921faaf7dc0e292e6e",
     "snapshot_key": "sources/cba26044861252466cca35b9fb2e3cd4f885b9a4eb721a3456f69fc86e9b94b0/de0db1f3364b59a17dee5ee7c90fae26f0e855d0485709921faaf7dc0e292e6e.pdf",
     "changed": 0,
@@ -379,8 +379,8 @@
   },
   {
     "url": "https://bravors.brandenburg.de/fm/76/GVBl_II_51_2026.pdf",
-    "checked_at": "2026-11-16T21:37:32.097Z",
-    "last_success_at": "2026-11-16T21:37:32.097Z",
+    "checked_at": "2026-11-16T22:32:46.615Z",
+    "last_success_at": "2026-11-16T22:32:46.615Z",
     "hash": "bb0584d6b28423a0777e8744fc7a0aeea02842348a9fb0b8db338c1eec7c68af",
     "snapshot_key": "sources/51d70c828c3385356a04054263d74819c55a3fde333ae7536ea82464502e02d9/bb0584d6b28423a0777e8744fc7a0aeea02842348a9fb0b8db338c1eec7c68af.pdf",
     "changed": 0,
@@ -466,5 +466,14 @@
     "snapshot_key": "sources/821742c6b29b3734e508848d5c5c3bd5a629a4f9642f297810e0394817db960c/58c5f2ab0808271b9a671fc6171c8f3acd83185895ba4a1e32128b8185c4b32c.pdf",
     "changed": 0,
     "error": null
+  },
+  {
+    "url": "https://www.amtsblatt.saarland.de/jportal/docs/news_anlage/sl/pdf/VerkBl/ABl/ads_42-2025_teil_I_signed.pdf",
+    "checked_at": "2026-11-16T22:31:45.096Z",
+    "last_success_at": null,
+    "hash": null,
+    "snapshot_key": null,
+    "changed": 0,
+    "error": "HTTP 404"
   }
 ]

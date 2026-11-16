@@ -85,7 +85,8 @@ test('closed days are reconciled and the Bundesrat agenda is fully accounted for
 });
 
 test('unresolved Spanish decree-laws stay unresolved and an unregistered page is not recorded as intake',()=>{
- for(const id of ['es-rent-renewal-compensation-2026','es-housing-social-function-2026'])assert.equal(data.policyVersions[id],2,id);
+ // Version 2 is this round's state; the 12 November repeal and confirmation (16 November round) are later, source-backed updates.
+ for(const id of ['es-rent-renewal-compensation-2026','es-housing-social-function-2026']){const p=revision(id,2);assert.match(p.limits,/是否仍有效未核实/,id);assert(!p.events.some(e=>['closed','adopted'].includes(e.kind)&&e.date>'2026-11-06'),id);}
  assert(!data.intake.records.some(r=>r.url.startsWith('https://www.congreso.es/')));
 });
 

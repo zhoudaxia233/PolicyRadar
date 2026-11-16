@@ -44,8 +44,9 @@ test('a vote removed from the agenda keeps the bill pending and in committee',()
 });
 
 test('votes held after the check stay scheduled rather than guessed',()=>{
- for(const id of ['de-annual-tax-act-2026','de-grid-support-proposal-2027','de-academic-fixed-term-contracts-2026']){
-  const p=data.policies.find(x=>x.id===id)!;
+ // The revisions saved on 12 November; the results were recorded later (16 November round).
+ for(const [id,version] of [['de-annual-tax-act-2026',4],['de-grid-support-proposal-2027',5],['de-academic-fixed-term-contracts-2026',2]] as const){
+  const p=revision(id,version);
   assert.equal(p.phase,'pending',id);assert(!p.events.some(e=>e.kind==='adopted'&&e.date==='2026-11-12'),id);
  }
  assert.match(scan('de-20261112-textarchiv').note,/结果待下一轮核对/);

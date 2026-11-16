@@ -10,6 +10,7 @@ import {createLocalization} from '../lib/i18n/build.ts';
 const store=readExport('data/store') as any;
 const data=createStaticData(store);
 const latest=(id:string)=>{const v=store.tables.policies.find((p:any)=>p.id===id).version;return policySchema.parse(JSON.parse(store.tables.revisions.find((r:any)=>r.id===`${id}:${v}`).data));};
+const revisionAt=(id:string,v:number)=>policySchema.parse(JSON.parse(store.tables.revisions.find((r:any)=>r.id===`${id}:${v}`).data));
 const previous=(id:string)=>{const v=store.tables.policies.find((p:any)=>p.id===id).version;return policySchema.parse(JSON.parse(store.tables.revisions.find((r:any)=>r.id===`${id}:${v-1}`).data));};
 const newIds=['gb-household-energy-support-2027','gb-minimum-wage-april-2027','gb-pension-tax-allowance-2027','gb-isa-changes-budget-2026','gb-trading-allowance-3000-2027','gb-stablecoins-tax-2027','gb-state-pension-triple-lock-2030','it-budget-bill-2027','ch-bvg-side-income-partial-withdrawal-2026','ch-votes-2027-02-28'];
 
@@ -33,8 +34,9 @@ test('each new explanation is matched by its own official record',()=>{
 });
 
 test('elapsed dates are cleared or advanced without rewriting history',()=>{
- for(const id of ['fr-property-tax-deadlines-2026','fr-payroll-tax-october-deadline-2026','nl-tax-plan-2027']){const p=latest(id);assert.equal(p.nextDate,null,id);
-  for(const e of previous(id).events)assert.deepEqual(p.events.find(x=>x.id===e.id),e,id);}
+ // nl-tax-plan-2027 is checked at its 28 October version (v2); the House vote of 12 November later set a new next step.
+ for(const id of ['fr-property-tax-deadlines-2026','fr-payroll-tax-october-deadline-2026','nl-tax-plan-2027']){const p=id==='nl-tax-plan-2027'?revisionAt(id,2):latest(id);assert.equal(p.nextDate,null,id);
+  for(const e of (id==='nl-tax-plan-2027'?revisionAt(id,1):previous(id)).events)assert.deepEqual(p.events.find(x=>x.id===e.id),e,id);}
  assert.equal(latest('it-work-entry-applications-2027').nextDate,'2026-12-07');
  assert.equal(latest('ch-efta-malaysia-referendum-2026').nextDate,'2027-02-28');
  assert.equal(latest('fr-finance-bill-2027').phase,'pending');

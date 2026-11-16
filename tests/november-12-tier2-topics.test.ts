@@ -38,6 +38,6 @@ test('tier-2 scans stay partial, pages already explained are not re-explained, a
  for(const id of ['t2-20261112-gov','t2-20261112-boe','t2-20261112-nltk','t2-20261112-ch','t2-20261112-usfr'])assert.equal(scan(id).status,'partial',id);
  assert.equal(scan('t2-20261112-it').status,'blocked');
  assert(scan('t2-20261112-gov').excluded.some((x:any)=>x.url.includes('earned-settlement')&&/gb-earned-settlement-2026/.test(x.reason)));
- assert.equal(setting('lastReviewAt:IT')<'2026-11-12',true);
- for(const cc of ['GB','ES','US','FR','NL','CH'])assert.match(setting(`lastReviewAt:${cc}`),/^2026-11-12T/,cc);
+ // Later rounds advance the markers (Italy was reviewed through other national channels on 16 November).
+ for(const cc of ['GB','ES','US','FR','NL','CH'])assert(setting(`lastReviewAt:${cc}`)>='2026-11-12T',cc);
 });

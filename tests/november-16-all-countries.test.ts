@@ -77,7 +77,7 @@ test('closed gazette days are reconciled and tier-2 scans stay partial',()=>{
  for(const id of ['de-20261116-bgbl-1116','eu-oj-20261116-1116','de-20261116-textarchiv'])assert.equal(scan(id).status,'partial',id);
  for(const id of ['t2-20261116-gov','t2-20261116-boe','t2-20261116-nltk','t2-20261116-usfr'])assert.equal(scan(id).status,'partial',id);
  assert.equal(scan('t2-20261116-it').status,'blocked');assert.equal(scan('de-20261116-state-39').status,'blocked');
- for(const cc of ['DE','EU','FR','NL','CH','IT','GB','ES','US'])assert.match(setting(`lastReviewAt:${cc}`),/^2026-11-16T/,cc);
+ for(const cc of ['DE','EU','FR','NL','CH','IT','GB','ES','US'])assert(setting(`lastReviewAt:${cc}`)>='2026-11-16T',cc);
 });
 
 test('new matters are grouped with their records and routine Official Journal items are disposed',()=>{

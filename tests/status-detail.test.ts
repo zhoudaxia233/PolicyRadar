@@ -7,12 +7,14 @@ import {readExport} from '../lib/export-store.ts';
 const data=readExport(process.env.POLICY_RADAR_EXPORT??JSON.parse(readFileSync('data/current-export.json','utf8')).path);
 const policies=data.tables.policies.map((r:{data:string})=>JSON.parse(r.data));
 const by=(id:string)=>policies.find((p:{id:string})=>p.id===id);
+// The 2025 Hesse ordinance was replaced on 20 November 2026; check the version saved before that.
+const rev=(id:string,v:number)=>JSON.parse(data.tables.revisions.find((r:{policy_id:string;version:number})=>r.policy_id===id&&r.version===v).data);
 test('an expiry date does not make rent regulations temporary measures',()=>{
  // A reviewed card moves from the legacy label to the status code; both forms are covered.
  const rent=policies.filter((p:{status:string;nextLabel:string;nextKind?:string;effectiveDate:string|null})=>(p.status==='已生效'||(p.status==='adopted'&&p.nextKind==='expiry'&&!!p.effectiveDate&&p.effectiveDate<='2026-10-04'))&&/期限结束|有效期结束|条例到期|本版到期/.test(p.nextLabel));
  assert(rent.length>=7);
  for(const p of rent)assert.equal(lifecycle(p,'2026-10-04'),'已生效',p.id);
- assert.equal(lifecycle(by('he-rent-protection-2025'),'2026-10-04'),'已生效');
+ assert.equal(lifecycle(rev('he-rent-protection-2025',4),'2026-10-04'),'已生效');
 });
 test('announced applications stay distinct from legal commencement',()=>{
  for(const p of policies.filter((p:{status:string})=>p.status==='申请安排已公布'))assert.equal(lifecycle(p,'2026-10-04'),'申请安排已公布',p.id);

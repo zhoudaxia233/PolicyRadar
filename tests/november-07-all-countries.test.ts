@@ -34,7 +34,8 @@ test('a draft Bundesrat agenda schedules the next step without changing any stag
  // The crypto agreement is item 14; items 13 and 15 are different agreements.
  assert.match(revision('de-carf-agreement-2026',10).statusNote!,/629\/26/);
  assert(topics.find(t=>t.id==='de-crypto-information-exchange')!.recordIds.includes('br-1070-top-14'));
- assert(!topics.some(t=>t.recordIds.includes('br-1070-top-13')||t.recordIds.includes('br-1070-top-15')));
+ // Items 13 and 15 may form their own matters, never the crypto agreement's.
+ assert(!topics.find(t=>t.id==='de-crypto-information-exchange')!.recordIds.some(id=>['br-1070-top-13','br-1070-top-15'].includes(id)));
  // A committee recommendation is not a Bundesrat decision.
  assert.match(revision('de-co2-price-corridor-2027',4).statusNote!,/这只是建议/);
 });

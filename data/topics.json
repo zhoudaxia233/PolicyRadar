@@ -39,6 +39,11 @@
           "region": "DE",
           "officialId": "BR-Drs. 629/26",
           "appliesFromExport": "2026-11-07T16:00:39.127Z"
+        },
+        {
+          "region": "DE",
+          "officialId": "BR-Drs. 629/26(B)",
+          "appliesFromExport": "2026-11-21T06:08:31.000Z"
         }
       ]
     },
@@ -94,6 +99,11 @@
           "region": "DE",
           "officialId": "BR-Drs. 587/1/26",
           "appliesFromExport": "2026-11-10T20:11:11.722Z"
+        },
+        {
+          "region": "DE",
+          "officialId": "BR-Drs. 587/26(B)",
+          "appliesFromExport": "2026-11-21T06:08:31.000Z"
         }
       ],
       "appliesFromExport": "2026-10-10T15:05:47.913Z"
@@ -2176,6 +2186,11 @@
           "region": "DE",
           "officialId": "BR-Drs. 618/26",
           "appliesFromExport": "2026-11-07T16:00:39.127Z"
+        },
+        {
+          "region": "DE",
+          "officialId": "BR-Drs. 618/26(B)",
+          "appliesFromExport": "2026-11-21T06:08:31.000Z"
         }
       ],
       "appliesFromExport": "2026-10-09T16:51:41.086Z",
@@ -2295,6 +2310,11 @@
           "region": "DE",
           "officialId": "BR-Drs. 624/26",
           "appliesFromExport": "2026-11-07T16:00:39.127Z"
+        },
+        {
+          "region": "DE",
+          "officialId": "BR-Drs. 624/26(B)",
+          "appliesFromExport": "2026-11-21T06:08:31.000Z"
         }
       ],
       "appliesFromExport": "2026-10-09T16:51:41.086Z",
@@ -2333,6 +2353,11 @@
           "region": "DE",
           "officialId": "BR-Drs. 619/26",
           "appliesFromExport": "2026-11-07T16:00:39.127Z"
+        },
+        {
+          "region": "DE",
+          "officialId": "BR-Drs. 619/26(B)",
+          "appliesFromExport": "2026-11-21T06:08:31.000Z"
         }
       ],
       "appliesFromExport": "2026-10-09T16:51:41.086Z",
@@ -2531,6 +2556,11 @@
           "region": "DE",
           "officialId": "BR-Drs. 586/26",
           "appliesFromExport": "2026-11-07T16:00:39.127Z"
+        },
+        {
+          "region": "DE",
+          "officialId": "BR-Drs. 586/26(B)",
+          "appliesFromExport": "2026-11-21T06:08:31.000Z"
         }
       ],
       "appliesFromExport": "2026-10-09T20:20:19.903Z",
@@ -2665,6 +2695,11 @@
           "region": "DE",
           "officialId": "BR-Drs. 576/26",
           "appliesFromExport": "2026-11-07T16:00:39.127Z"
+        },
+        {
+          "region": "DE",
+          "officialId": "BR-Drs. 576/26(B)",
+          "appliesFromExport": "2026-11-21T06:08:31.000Z"
         }
       ],
       "appliesFromExport": "2026-10-10T15:01:36.539Z"
@@ -2699,6 +2734,11 @@
           "region": "DE",
           "officialId": "BR-Drs. 620/1/26",
           "appliesFromExport": "2026-11-10T20:11:11.722Z"
+        },
+        {
+          "region": "DE",
+          "officialId": "BR-Drs. 620/26(B)",
+          "appliesFromExport": "2026-11-21T06:08:31.000Z"
         }
       ],
       "appliesFromExport": "2026-10-10T15:05:47.913Z"
@@ -3116,6 +3156,11 @@
           "region": "DE",
           "officialId": "BR-Drs. 642/26",
           "appliesFromExport": "2026-11-10T20:11:11.722Z"
+        },
+        {
+          "region": "DE",
+          "officialId": "BR-Drs. 642/26(B)",
+          "appliesFromExport": "2026-11-21T06:08:31.000Z"
         }
       ],
       "appliesFromExport": "2026-10-10T15:13:06.107Z"
@@ -6094,15 +6139,30 @@
         "黑森租户保护条例到期与重新制定",
         "Hessen Tenant Protection Ordinance: expiry and replacement"
       ],
-      "basis": "The ministry page on the Tenant Protection Ordinance describes the planned replacement of the ordinance explained in he-rent-protection-2025.",
+      "basis": "The ministry page on the Tenant Protection Ordinance describes the planned replacement of the ordinance explained in he-rent-protection-2025. On 19 November 2026 the new ordinance was published as GVBl. Hessen 2026 Nr. 78 (with the ministry release of the same day); it replaces the ordinance explained in he-rent-protection-2025 and is explained in he-rent-protection-proposal-2026. The Vacancy Act amendment (GVBl. Nr. 79) is a separate act and is not included.",
       "explanations": [
-        "he-rent-protection-2025"
+        "he-rent-protection-2025",
+        {
+          "id": "he-rent-protection-proposal-2026",
+          "appliesFromExport": "2026-11-21T06:08:31.000Z"
+        }
       ],
       "documents": [
         {
           "region": "DE-HE",
           "url": "https://wirtschaft.hessen.de/wohnen-und-bauen/wohnungsrecht/mieterschutzverordnung",
           "title": "Geplante Neufassung der Mieterschutzverordnung"
+        },
+        {
+          "region": "DE-HE",
+          "officialId": "GVBl. Hessen 2026 Nr. 78",
+          "appliesFromExport": "2026-11-21T06:08:31.000Z"
+        },
+        {
+          "region": "DE-HE",
+          "url": "https://hessen.de/presse/mehr-sicherheit-fuer-mieterinnen-und-mieter-in-71-kommunen",
+          "title": "Mehr Sicherheit für Mieterinnen und Mieter in 71 Kommunen",
+          "appliesFromExport": "2026-11-21T06:08:31.000Z"
         }
       ],
       "appliesFromExport": "2026-10-30T17:11:49.248Z"
@@ -6132,6 +6192,11 @@
           "region": "DE",
           "officialId": "BR-Drs. 643/26",
           "appliesFromExport": "2026-11-10T20:11:11.722Z"
+        },
+        {
+          "region": "DE",
+          "officialId": "BR-Drs. 643/26(B)",
+          "appliesFromExport": "2026-11-21T06:08:31.000Z"
         }
       ],
       "appliesFromExport": "2026-10-30T17:11:49.248Z"
@@ -6161,6 +6226,11 @@
           "region": "DE",
           "officialId": "BR-Drs. 644/26",
           "appliesFromExport": "2026-11-10T20:11:11.722Z"
+        },
+        {
+          "region": "DE",
+          "officialId": "BR-Drs. 644/26(B)",
+          "appliesFromExport": "2026-11-21T06:08:31.000Z"
         }
       ],
       "appliesFromExport": "2026-10-30T17:11:49.248Z"
@@ -6191,6 +6261,11 @@
           "region": "DE",
           "officialId": "BR-Drs. 585/1/26",
           "appliesFromExport": "2026-11-10T20:11:11.722Z"
+        },
+        {
+          "region": "DE",
+          "officialId": "BR-Drs. 585/26(B)",
+          "appliesFromExport": "2026-11-21T06:08:31.000Z"
         }
       ],
       "appliesFromExport": "2026-10-30T17:11:49.248Z"
@@ -6898,6 +6973,518 @@
         }
       ],
       "appliesFromExport": "2026-11-16T22:34:47.551Z"
+    },
+    {
+      "id": "de-br-1069-top-48-matter",
+      "title": [
+        "联邦参议院决议：轻便摩托车和轻型四轮车限速提高",
+        "Bundesrat resolution: higher speed limit for mopeds and light quadricycles"
+      ],
+      "appliesFromExport": "2026-11-21T06:08:31.000Z",
+      "basis": "The Bundesrat agenda item and its 20 November 2026 decision record carry the same Drucksache number and title: the same document at two stages. Each keeps its own stage.",
+      "documents": [
+        {
+          "region": "DE",
+          "officialId": "BR-Drs. 594/26",
+          "appliesFromExport": "2026-11-21T06:08:31.000Z"
+        },
+        {
+          "region": "DE",
+          "officialId": "BR-Drs. 594/26(B)",
+          "appliesFromExport": "2026-11-21T06:08:31.000Z"
+        }
+      ]
+    },
+    {
+      "id": "de-br-1069-top-49-matter",
+      "title": [
+        "联邦参议院决议：设立自动驾驶示范区",
+        "Bundesrat resolution: model regions for autonomous driving"
+      ],
+      "appliesFromExport": "2026-11-21T06:08:31.000Z",
+      "basis": "The Bundesrat agenda item and its 20 November 2026 decision record carry the same Drucksache number and title: the same document at two stages. Each keeps its own stage.",
+      "documents": [
+        {
+          "region": "DE",
+          "officialId": "BR-Drs. 544/26",
+          "appliesFromExport": "2026-11-21T06:08:31.000Z"
+        },
+        {
+          "region": "DE",
+          "officialId": "BR-Drs. 544/26(B)",
+          "appliesFromExport": "2026-11-21T06:08:31.000Z"
+        }
+      ]
+    },
+    {
+      "id": "de-br-1069-top-55-matter",
+      "title": [
+        "联邦参议院决议：以色列参与欧盟科研框架计划",
+        "Bundesrat resolution: Israel’s association to the EU research framework programme"
+      ],
+      "appliesFromExport": "2026-11-21T06:08:31.000Z",
+      "basis": "The Bundesrat agenda item and its 20 November 2026 decision record carry the same Drucksache number and title: the same document at two stages. Each keeps its own stage.",
+      "documents": [
+        {
+          "region": "DE",
+          "officialId": "BR-Drs. 600/26",
+          "appliesFromExport": "2026-11-21T06:08:31.000Z"
+        },
+        {
+          "region": "DE",
+          "officialId": "BR-Drs. 600/26(B)",
+          "appliesFromExport": "2026-11-21T06:08:31.000Z"
+        }
+      ]
+    },
+    {
+      "id": "de-br-1069-top-56-matter",
+      "title": [
+        "联邦参议院决议：保护关键基础设施",
+        "Bundesrat resolution: protecting critical infrastructure"
+      ],
+      "appliesFromExport": "2026-11-21T06:08:31.000Z",
+      "basis": "The Bundesrat agenda item and its 20 November 2026 decision record carry the same Drucksache number and title: the same document at two stages. Each keeps its own stage.",
+      "documents": [
+        {
+          "region": "DE",
+          "officialId": "BR-Drs. 601/26",
+          "appliesFromExport": "2026-11-21T06:08:31.000Z"
+        },
+        {
+          "region": "DE",
+          "officialId": "BR-Drs. 601/26(B)",
+          "appliesFromExport": "2026-11-21T06:08:31.000Z"
+        }
+      ]
+    },
+    {
+      "id": "de-br-1070-top-13-matter",
+      "title": [
+        "批准数字平台收入信息自动交换多边协议",
+        "Ratifying the multilateral agreement on exchanging digital-platform income information"
+      ],
+      "appliesFromExport": "2026-11-21T06:08:31.000Z",
+      "basis": "The Bundesrat agenda item and its 20 November 2026 decision record carry the same Drucksache number and title: the same document at two stages. Each keeps its own stage.",
+      "documents": [
+        {
+          "region": "DE",
+          "officialId": "BR-Drs. 628/26",
+          "appliesFromExport": "2026-11-21T06:08:31.000Z"
+        },
+        {
+          "region": "DE",
+          "officialId": "BR-Drs. 628/26(B)",
+          "appliesFromExport": "2026-11-21T06:08:31.000Z"
+        }
+      ]
+    },
+    {
+      "id": "de-br-1070-top-15-matter",
+      "title": [
+        "批准金融账户信息自动交换补充协议",
+        "Ratifying the supplementary agreement on exchanging financial-account information"
+      ],
+      "appliesFromExport": "2026-11-21T06:08:31.000Z",
+      "basis": "The Bundesrat agenda item and its 20 November 2026 decision record carry the same Drucksache number and title: the same document at two stages. Each keeps its own stage.",
+      "documents": [
+        {
+          "region": "DE",
+          "officialId": "BR-Drs. 630/26",
+          "appliesFromExport": "2026-11-21T06:08:31.000Z"
+        },
+        {
+          "region": "DE",
+          "officialId": "BR-Drs. 630/26(B)",
+          "appliesFromExport": "2026-11-21T06:08:31.000Z"
+        }
+      ]
+    },
+    {
+      "id": "de-br-1070-top-45-matter",
+      "title": [
+        "欧盟提案：社会保障协调数字化",
+        "EU proposal: digitalising social-security coordination"
+      ],
+      "appliesFromExport": "2026-11-21T06:08:31.000Z",
+      "basis": "The Bundesrat agenda item and its 20 November 2026 decision record carry the same Drucksache number and title: the same document at two stages. Each keeps its own stage.",
+      "documents": [
+        {
+          "region": "DE",
+          "officialId": "BR-Drs. 545/26",
+          "appliesFromExport": "2026-11-21T06:08:31.000Z"
+        },
+        {
+          "region": "DE",
+          "officialId": "BR-Drs. 545/26(B)",
+          "appliesFromExport": "2026-11-21T06:08:31.000Z"
+        }
+      ]
+    },
+    {
+      "id": "de-br-1070-top-58-matter",
+      "title": [
+        "2027年工资税细则修订",
+        "2027 amendment of the wage-tax guidelines"
+      ],
+      "appliesFromExport": "2026-11-21T06:08:31.000Z",
+      "basis": "The Bundesrat agenda item and its 20 November 2026 decision record carry the same Drucksache number and title: the same document at two stages. Each keeps its own stage.",
+      "documents": [
+        {
+          "region": "DE",
+          "officialId": "BR-Drs. 549/26",
+          "appliesFromExport": "2026-11-21T06:08:31.000Z"
+        },
+        {
+          "region": "DE",
+          "officialId": "BR-Drs. 549/26(B)",
+          "appliesFromExport": "2026-11-21T06:08:31.000Z"
+        }
+      ]
+    },
+    {
+      "id": "de-br-1070-1110-top-19-matter",
+      "title": [
+        "植物保护法修改草案：联邦机关统一审批农药",
+        "Plant Protection Act amendment: central federal approval of pesticides"
+      ],
+      "appliesFromExport": "2026-11-21T06:08:31.000Z",
+      "basis": "The Bundesrat agenda item and its 20 November 2026 decision record carry the same Drucksache number and title: the same document at two stages. Each keeps its own stage.",
+      "documents": [
+        {
+          "region": "DE",
+          "officialId": "BR-Drs. 645/26",
+          "appliesFromExport": "2026-11-21T06:08:31.000Z"
+        },
+        {
+          "region": "DE",
+          "officialId": "BR-Drs. 645/26(B)",
+          "appliesFromExport": "2026-11-21T06:08:31.000Z"
+        }
+      ]
+    },
+    {
+      "id": "de-br-1070-1110-top-25-matter",
+      "title": [
+        "联邦参议院动议：禁止私人持有胡椒喷射枪",
+        "Bundesrat motion: banning private possession of pepper-spray guns"
+      ],
+      "appliesFromExport": "2026-11-21T06:08:31.000Z",
+      "basis": "The Bundesrat agenda item and its 20 November 2026 decision record carry the same Drucksache number and title: the same document at two stages. Each keeps its own stage.",
+      "documents": [
+        {
+          "region": "DE",
+          "officialId": "BR-Drs. 650/26",
+          "appliesFromExport": "2026-11-21T06:08:31.000Z"
+        },
+        {
+          "region": "DE",
+          "officialId": "BR-Drs. 650/26",
+          "appliesFromExport": "2026-11-21T06:08:31.000Z"
+        }
+      ]
+    },
+    {
+      "id": "de-br-1070-1110-top-31-matter",
+      "title": [
+        "联邦参议院动议：电动车补贴中保障欧洲本地生产",
+        "Bundesrat motion: securing European production in electric-vehicle subsidies"
+      ],
+      "appliesFromExport": "2026-11-21T06:08:31.000Z",
+      "basis": "The Bundesrat agenda item and its 20 November 2026 decision record carry the same Drucksache number and title: the same document at two stages. Each keeps its own stage.",
+      "documents": [
+        {
+          "region": "DE",
+          "officialId": "BR-Drs. 651/26",
+          "appliesFromExport": "2026-11-21T06:08:31.000Z"
+        },
+        {
+          "region": "DE",
+          "officialId": "BR-Drs. 651/26",
+          "appliesFromExport": "2026-11-21T06:08:31.000Z"
+        }
+      ]
+    },
+    {
+      "id": "de-br-658-26-self-employed-teachers-matter",
+      "title": [
+        "联邦参议院动议：保留自雇教师并免除兼职教学社保义务",
+        "Bundesrat motion: keeping self-employed teachers and exempting part-time teaching from social insurance"
+      ],
+      "appliesFromExport": "2026-11-21T06:08:31.000Z",
+      "basis": "The Bundesrat agenda item and its 20 November 2026 decision record carry the same Drucksache number and title: the same document at two stages. Each keeps its own stage.",
+      "documents": [
+        {
+          "region": "DE",
+          "officialId": "BR-Drs. 658/26",
+          "appliesFromExport": "2026-11-21T06:08:31.000Z"
+        },
+        {
+          "region": "DE",
+          "officialId": "BR-Drs. 658/26",
+          "appliesFromExport": "2026-11-21T06:08:31.000Z"
+        }
+      ]
+    },
+    {
+      "id": "ch-imputed-rent-ordinance-2026",
+      "title": [
+        "瑞士取消自住房估算租金：执行条例征求意见",
+        "Switzerland: consultation on the ordinance implementing the abolition of imputed rent"
+      ],
+      "appliesFromExport": "2026-11-21T06:08:31.000Z",
+      "basis": "The consultation record identifies the draft total revision of SR 642.116 explained in ch-imputed-rent-abolition-ordinance-2026.",
+      "documents": [
+        {
+          "region": "CH",
+          "officialId": "Vernehmlassung 2026/88 (SR 642.116)",
+          "appliesFromExport": "2026-11-21T06:08:31.000Z"
+        }
+      ],
+      "explanations": [
+        "ch-imputed-rent-abolition-ordinance-2026"
+      ]
+    },
+    {
+      "id": "de-child-law-reform-2027",
+      "title": [
+        "德国亲子法改革：政府草案",
+        "Germany: child law reform government bill"
+      ],
+      "appliesFromExport": "2026-11-21T06:08:31.000Z",
+      "basis": "The cabinet page of 18 November announces the government bill explained in de-child-law-reform-2027.",
+      "documents": [
+        {
+          "region": "DE",
+          "url": "https://www.bundesregierung.de/breg-de/bundesregierung/bundeskanzleramt/reform-kindschaftsrecht-2461272",
+          "title": "Gesetzentwurf zur Reform des Kindschaftsrechts",
+          "appliesFromExport": "2026-11-21T06:08:31.000Z"
+        }
+      ],
+      "explanations": [
+        "de-child-law-reform-2027"
+      ]
+    },
+    {
+      "id": "de-labour-law-package-2027",
+      "title": [
+        "德国劳动法修改：政府草案",
+        "Germany: labour law amendment government bill"
+      ],
+      "appliesFromExport": "2026-11-21T06:08:31.000Z",
+      "basis": "The cabinet page of 18 November announces the BMAS bill explained in de-labour-law-package-2027.",
+      "documents": [
+        {
+          "region": "DE",
+          "url": "https://www.bundesregierung.de/breg-de/bundesregierung/bundeskanzleramt/arbeitsrechtspaket-kabinett-2461564",
+          "title": "Gesetzentwurf zur Änderung bestimmter arbeitsrechtlicher Vorschriften und zum Schutz der Unternehmensmitbestimmung",
+          "appliesFromExport": "2026-11-21T06:08:31.000Z"
+        }
+      ],
+      "explanations": [
+        "de-labour-law-package-2027"
+      ]
+    },
+    {
+      "id": "de-maintenance-advance-reform-2029",
+      "title": [
+        "德国赡养费预付改革：政府草案",
+        "Germany: maintenance advance reform government bill"
+      ],
+      "appliesFromExport": "2026-11-21T06:08:31.000Z",
+      "basis": "The cabinet page of 18 November announces the bill explained in de-maintenance-advance-reform-2029. The Left motion rejected on 12 November is a separate proposal and is not included.",
+      "documents": [
+        {
+          "region": "DE",
+          "url": "https://www.bundesregierung.de/breg-de/bundesregierung/bundeskanzleramt/kabinett-unterhaltsvorschuss-2461538",
+          "title": "Gesetzentwurf zur Verbesserung des Unterhaltsrückgriffs nach dem Unterhaltsvorschussgesetz",
+          "appliesFromExport": "2026-11-21T06:08:31.000Z"
+        }
+      ],
+      "explanations": [
+        "de-maintenance-advance-reform-2029"
+      ]
+    },
+    {
+      "id": "de-st-kita-sibling-rule-2027",
+      "title": [
+        "萨安州多子女托育费减免到期后怎么办：四份草案和一项动议",
+        "Saxony-Anhalt: what happens when the Kita sibling rule expires — four bills and a motion"
+      ],
+      "appliesFromExport": "2026-11-21T06:08:31.000Z",
+      "basis": "All five Landtag documents expressly address the expiry of the sibling rule in § 13(4) KiFöG LSA on 31 December 2026. They are competing proposals with different end dates, not versions of one bill; each keeps its own sponsor and stage.",
+      "documents": [
+        {
+          "region": "DE-ST",
+          "officialId": "Landtag LSA Drs. 9/44",
+          "appliesFromExport": "2026-11-21T06:08:31.000Z"
+        },
+        {
+          "region": "DE-ST",
+          "officialId": "Landtag LSA Drs. 9/63",
+          "appliesFromExport": "2026-11-21T06:08:31.000Z"
+        },
+        {
+          "region": "DE-ST",
+          "officialId": "Landtag LSA Drs. 9/71",
+          "appliesFromExport": "2026-11-21T06:08:31.000Z"
+        },
+        {
+          "region": "DE-ST",
+          "officialId": "Landtag LSA Drs. 9/91",
+          "appliesFromExport": "2026-11-21T06:08:31.000Z"
+        },
+        {
+          "region": "DE-ST",
+          "officialId": "Landtag LSA Drs. 9/62",
+          "appliesFromExport": "2026-11-21T06:08:31.000Z"
+        }
+      ],
+      "explanations": [
+        "de-st-kita-sibling-rule-2027"
+      ]
+    },
+    {
+      "id": "de-th-civil-servant-pay-2026-2028",
+      "title": [
+        "图林根公务员薪酬调整2026—2028",
+        "Thuringia: civil-servant pay adjustment 2026–2028"
+      ],
+      "appliesFromExport": "2026-11-21T06:08:31.000Z",
+      "basis": "The Landtag record is the bill Drs. 8/3723 explained in de-th-civil-servant-pay-2026-2028.",
+      "documents": [
+        {
+          "region": "DE-TH",
+          "officialId": "Thüringer Landtag Drs. 8/3723",
+          "appliesFromExport": "2026-11-21T06:08:31.000Z"
+        }
+      ],
+      "explanations": [
+        "de-th-civil-servant-pay-2026-2028"
+      ]
+    },
+    {
+      "id": "es-irpf-smi-2027-deduction",
+      "title": [
+        "西班牙最低工资者个税扣除提高",
+        "Spain: higher income-tax deduction for minimum-wage earners"
+      ],
+      "appliesFromExport": "2026-11-21T06:08:31.000Z",
+      "basis": "BOE-A-2026-24120 is Royal Decree-law 38/2026 explained in es-irpf-smi-2027-deduction.",
+      "documents": [
+        {
+          "region": "ES",
+          "officialId": "BOE-A-2026-24120",
+          "appliesFromExport": "2026-11-21T06:08:31.000Z"
+        }
+      ],
+      "explanations": [
+        "es-irpf-smi-2027-deduction"
+      ]
+    },
+    {
+      "id": "es-minimum-wage-2027",
+      "title": [
+        "西班牙2027年最低工资",
+        "Spain: 2027 minimum wage"
+      ],
+      "appliesFromExport": "2026-11-21T06:08:31.000Z",
+      "basis": "BOE-A-2026-24189 is Royal Decree 1013/2026 explained in es-minimum-wage-2027.",
+      "documents": [
+        {
+          "region": "ES",
+          "officialId": "BOE-A-2026-24189",
+          "appliesFromExport": "2026-11-21T06:08:31.000Z"
+        }
+      ],
+      "explanations": [
+        "es-minimum-wage-2027"
+      ]
+    },
+    {
+      "id": "eu-lead-fishing-hunting-reach-2026",
+      "title": [
+        "欧盟渔具和狩猎铅弹含铅限制",
+        "EU restrictions on lead in fishing tackle and gunshot"
+      ],
+      "appliesFromExport": "2026-11-21T06:08:31.000Z",
+      "basis": "Regulation 2026/2501, its corrigendum and Regulation 2026/2530 each amend entry 63 of REACH Annex XVII on lead; the explanation covers both restrictions. Each act keeps its own dates.",
+      "documents": [
+        {
+          "region": "EU",
+          "officialId": "OJ:L_202602501"
+        },
+        {
+          "region": "EU",
+          "officialId": "OJ:L_202690986",
+          "appliesFromExport": "2026-11-21T06:08:31.000Z"
+        },
+        {
+          "region": "EU",
+          "officialId": "OJ:L_202602530",
+          "appliesFromExport": "2026-11-21T06:08:31.000Z"
+        }
+      ],
+      "explanations": [
+        "eu-lead-fishing-hunting-reach-2026"
+      ]
+    },
+    {
+      "id": "eu-uk-youth-experience-scheme",
+      "title": [
+        "欧英青年体验计划",
+        "EU–UK Youth Experience Scheme"
+      ],
+      "appliesFromExport": "2026-11-21T06:08:31.000Z",
+      "basis": "The Commission Q&A on the 2026 EU–UK Summit covers the Youth Experience Scheme explained in eu-uk-youth-experience-scheme; the Q&A also covers other summit outcomes.",
+      "documents": [
+        {
+          "region": "EU",
+          "officialId": "QANDA/26/2511",
+          "appliesFromExport": "2026-11-21T06:08:31.000Z"
+        }
+      ],
+      "explanations": [
+        "eu-uk-youth-experience-scheme"
+      ]
+    },
+    {
+      "id": "gb-commonhold-leasehold-reform-bill-2026",
+      "title": [
+        "英国共有产权和租赁产权改革法案",
+        "UK: Commonhold and Leasehold Reform Bill"
+      ],
+      "appliesFromExport": "2026-11-21T06:08:31.000Z",
+      "basis": "Bill 4331 is the bill explained in gb-commonhold-leasehold-reform-bill-2026.",
+      "documents": [
+        {
+          "region": "GB",
+          "officialId": "Bill 4331 (Session 2026-27)",
+          "appliesFromExport": "2026-11-21T06:08:31.000Z"
+        }
+      ],
+      "explanations": [
+        "gb-commonhold-leasehold-reform-bill-2026"
+      ]
+    },
+    {
+      "id": "gb-immigration-asylum-bill-2026",
+      "title": [
+        "英国移民和庇护法案",
+        "UK: Immigration and Asylum Bill"
+      ],
+      "appliesFromExport": "2026-11-21T06:08:31.000Z",
+      "basis": "Bill 4254 is the bill explained in gb-immigration-asylum-bill-2026.",
+      "documents": [
+        {
+          "region": "GB",
+          "officialId": "Bill 4254 (Session 2026-27)",
+          "appliesFromExport": "2026-11-21T06:08:31.000Z"
+        }
+      ],
+      "explanations": [
+        "gb-immigration-asylum-bill-2026"
+      ]
     }
   ]
 }

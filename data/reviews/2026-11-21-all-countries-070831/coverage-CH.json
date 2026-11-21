@@ -1,0 +1,76 @@
+{
+  "checkedAt": "2026-11-21T06:14:15.538Z",
+  "scope": "CH",
+  "channels": 4,
+  "incompleteChannels": 4,
+  "gaps": [
+    {
+      "sourceUrl": "https://www.news.admin.ch/de",
+      "region": "CH",
+      "title": "瑞士联邦政府公告",
+      "windowStart": "2026-11-14",
+      "windowEnd": "2026-11-20",
+      "missingDays": [
+        "2026-11-14",
+        "2026-11-15",
+        "2026-11-16",
+        "2026-11-17",
+        "2026-11-18",
+        "2026-11-19",
+        "2026-11-20"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.fedlex.admin.ch/de/oc",
+      "region": "CH",
+      "title": "瑞士联邦法律汇编",
+      "windowStart": "2026-11-14",
+      "windowEnd": "2026-11-20",
+      "missingDays": [
+        "2026-11-14",
+        "2026-11-15",
+        "2026-11-16",
+        "2026-11-17",
+        "2026-11-18",
+        "2026-11-19",
+        "2026-11-20"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.parlament.ch/de/ratsbetrieb/suche-curia-vista",
+      "region": "CH",
+      "title": "瑞士联邦议会事务",
+      "windowStart": "2026-11-14",
+      "windowEnd": "2026-11-20",
+      "missingDays": [
+        "2026-11-14",
+        "2026-11-15",
+        "2026-11-16",
+        "2026-11-17",
+        "2026-11-18",
+        "2026-11-19",
+        "2026-11-20"
+      ],
+      "latestScan": "partial"
+    },
+    {
+      "sourceUrl": "https://www.bk.admin.ch/de/volksabstimmungen",
+      "region": "CH",
+      "title": "瑞士联邦投票结果",
+      "windowStart": "2026-11-14",
+      "windowEnd": "2026-11-20",
+      "missingDays": [
+        "2026-11-14",
+        "2026-11-15",
+        "2026-11-16",
+        "2026-11-17",
+        "2026-11-18",
+        "2026-11-19",
+        "2026-11-20"
+      ],
+      "latestScan": "partial"
+    }
+  ]
+}

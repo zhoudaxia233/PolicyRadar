@@ -12,6 +12,7 @@ import {localizePolicy,policyTextFields} from '../lib/i18n/content.ts';
 import {selectListing,countrySourceUrls} from '../lib/domain/listing.ts';
 import {sourceSupportsRegion} from '../lib/domain/coverage.ts';
 import {readSnapshot} from '../lib/source-archive.ts';
+import {readExport} from '../lib/export-store.ts';
 const read=(p:string)=>JSON.parse(readFileSync(p,'utf8'));
 const before=read('data/exports/2026-10-07-crypto-committee-213603/policy-radar-export.json');
 const path='data/exports/2026-10-07-spain-200016/policy-radar-export.json';
@@ -56,8 +57,12 @@ test('Spain addition preserves history and isolates listings and source sets',()
 test('Spanish minimum wage keeps commencement distinct from retroactive effects with translated archived evidence',()=>{
  const p=data.policies.find(p=>p.id==='es-minimum-wage-2026')!;
  const l=createLocalization(data,read('data/translations/content.json'),read('data/translations/bindings.json'));
- assert.equal(l.policies[p.id],'current');assert.equal(p.effectiveDate,'2026-02-20');assert.equal(p.nextDate,'2026-12-31');assert.equal(p.nextKind,'expiry');
- for(const locale of ['en'] as const)assert(policyTextFields(localizePolicy(p,locale,l)).every(t=>!/[\u3400-\u9fff]/u.test(t)));
+ assert.equal(p.effectiveDate,'2026-02-20');assert.equal(p.nextDate,'2026-12-31');assert.equal(p.nextKind,'expiry');
+ // Bindings follow the selected store; a later revision (21 November: pointer to the 2027 decree) rebinds this card.
+ const current=createStaticData(readExport('data/store')),lc=createLocalization(current,read('data/translations/content.json'),read('data/translations/bindings.json'));
+ const cp=current.policies.find(p=>p.id==='es-minimum-wage-2026')!;
+ assert.equal(lc.policies[cp.id],'current');assert.equal(cp.effectiveDate,'2026-02-20');
+ for(const locale of ['en'] as const)assert(policyTextFields(localizePolicy(cp,locale,lc)).every(t=>!/[\u3400-\u9fff]/u.test(t)));
  for(const s of es)assert(l.messages[s.title]);assert(l.messages[data.status.settings['reviewNote:ES']]);
  const source=p.sources[0];
  const check=after.tables.checks.find((c:{url:string})=>c.url===source.url);assert.equal(check.error,null);

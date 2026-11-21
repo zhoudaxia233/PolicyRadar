@@ -92,3 +92,13 @@ test('this round is bound to reviewed English translations',()=>{
  for(const r of store.tables.policies.filter((r:any)=>r.updated_at.startsWith('2026-11-21')))assert.equal(l.policies[r.id],'current',r.id);
  for(const r of store.tables.intake.filter((r:any)=>r.discovered_at.startsWith('2026-11-21')))assert.equal(l.intake[r.id],'current',r.id);
 });
+
+test('the MV gazette channel follows the portal move without rewriting old scans',()=>{
+ const oldUrl='https://www.regierung-mv.de/Landesregierung/jm/service_justizministerium/verkuendungsblaetter/gesetz-verordnungsblaetter';
+ const newUrl='https://land-mv.de/landeregierung/jm/gesetz-verordnungsblaetter';
+ for(const registry of [JSON.parse(readFileSync('data/discovery-registry.json','utf8')),store.discoveryRegistry]){
+  const mv=registry.filter((d:any)=>d.region==='DE-MV'&&d.title==='梅前州法律及条例公报');
+  assert.deepEqual(mv.map((d:any)=>d.url),[newUrl]);
+ }
+ assert.equal(scan('de-20261120-st1-23').sourceUrl,oldUrl,'the blocked check of the old address stays in history');
+});

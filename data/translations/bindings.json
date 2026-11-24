@@ -57,12 +57,12 @@
       ]
     },
     "he-rent-protection-proposal-2026": {
-      "hash": "53d39aa11634d8fa8494d46db0cfc2045750fabc032a38fea63c12924c5f8d13",
+      "hash": "7d6608a94330b4f798beda507421594f6e0c41a018c1f23c55e5f23881ec8737",
       "originalLanguage": "de",
       "verbatim": [
         "Hessen Wirtschaft"
       ],
-      "version": 4
+      "version": 5
     },
     "de-crypto-holding-proposal": {
       "version": 9,
@@ -4005,12 +4005,12 @@
       ]
     },
     "he-cadastral-survey-fees-2026": {
-      "hash": "054f1e4d814b2082394e3beff819e396c639948a11ea2e5bec92579bc88ce7fc",
-      "version": 1,
+      "hash": "7fd33c1e704ef65bcffc4ec39ed4391f18f77027b5838a9a70570caa65c3a7a8",
       "originalLanguage": "de",
       "verbatim": [
         "Hessische Staatskanzlei"
-      ]
+      ],
+      "version": 2
     },
     "sh-foundation-accounts-2026": {
       "hash": "536eccda1a5049ce463d2776098467c20435c2e6566a93155983eea8dbd17fc7",
@@ -5820,15 +5820,14 @@
       ]
     },
     "de-sugary-drinks-tax-2027": {
-      "version": 3,
-      "hash": "91db9295ecfd64e6c8917045b373941489ac91c8ca7ccec4d86ad2e17fe4835b",
+      "hash": "ac09d39025adfeff78bc271686aa41bbeb0ea926a5886c3e7ce16fc2a878a14d",
       "originalLanguage": "de",
       "verbatim": [
         "Bundesministerium der Finanzen",
-        "www.bundesregierung.de",
-        "Niedersächsisches Ministerium für Soziales, Arbeit, Gesundheit und Gleichstellung",
-        "Bundesregierung"
-      ]
+        "Bundesregierung",
+        "Niedersächsisches Ministerium für Soziales, Arbeit, Gesundheit und Gleichstellung"
+      ],
+      "version": 4
     },
     "de-digital-child-protection-2026": {
       "hash": "fcdc61b26597d190507d295a99e80e7907000dd7bf91cd6d9a06f349dc61c2f1",
@@ -6735,12 +6734,13 @@
       ]
     },
     "eu-methane-regulation-importer-delay-proposal": {
-      "version": 2,
-      "hash": "5eecaadb896cb81227c86add9d78b9a3772beb8a6a7843288bfde87efda8d714",
+      "hash": "3c8fc672bcd08e53741a7be42e118c5863430bc1049e612454093766fd07c24d",
       "originalLanguage": "en",
       "verbatim": [
-        "European Commission"
-      ]
+        "European Commission (DG ENER)",
+        "European Parliament Legislative Observatory"
+      ],
+      "version": 3
     },
     "fr-rent-index-irl-2026q3": {
       "hash": "6e32fd0c39356b7b2bac122217506f4a61a058a4f0f2611db21189729f668513",
@@ -8251,13 +8251,13 @@
       "verbatim": []
     },
     "de-budget-accompanying-act-2027": {
-      "version": 2,
-      "hash": "073fd1acc37d1d7562d10cec5cac74c2d89f8ebb2d7f9bf79052048f3b109a8b",
+      "hash": "2527282c7e165fa91b186bda9e274c2ae0513378c3edf490e9211a8707cf79b9",
       "originalLanguage": "de",
       "verbatim": [
         "Bundesregierung",
         "Bundesministerium der Justiz"
-      ]
+      ],
+      "version": 3
     },
     "de-afd-minor-taxes-motion-2026": {
       "version": 2,
@@ -8627,6 +8627,69 @@
       "hash": "b5c5c6b1bc579787d1a8e5d40608f52d9c1d0763165d90e4199d1efc93fe0f8c",
       "originalLanguage": "en",
       "verbatim": [],
+      "version": 1
+    },
+    "de-standard-rates-freeze-2028": {
+      "hash": "b5cc99a4d18dffc6eb21959523519bcc27f8b804b36fe5507976d4f6f2ac12fc",
+      "originalLanguage": "de",
+      "verbatim": [
+        "Bundesministerium der Justiz"
+      ],
+      "version": 1
+    },
+    "de-consumer-credit-transposition-2026": {
+      "hash": "bf08f0241d2272ae1ab62aed7e1da908681f8e70d36d080bfffa974b8ed0f080",
+      "originalLanguage": "de",
+      "verbatim": [],
+      "version": 1
+    },
+    "eu-plastic-waste-export-ban-non-oecd-2026": {
+      "hash": "cd51fcf7f2578ef406aad86620ec13a345e94c5d489237c39312d18bac0ad701",
+      "originalLanguage": "en",
+      "verbatim": [
+        "EUR-Lex (Publications Office of the European Union)",
+        "European Commission (DG ENV)"
+      ],
+      "version": 1
+    },
+    "eu-indonesia-cepa-ipa-signed-2026": {
+      "hash": "5895efe3e680b2dc3ca4ad86a9844ec3f8c3b02cc2a1e93bd28f3a4801458412",
+      "originalLanguage": "en",
+      "verbatim": [
+        "European Commission (DG TRADE)"
+      ],
+      "version": 1
+    },
+    "he-tight-housing-market-201a-2027": {
+      "hash": "504dc922e8d70c222ffe9cbb1f29bcebbe97c9ccef8afa8e27a6785c727c526c",
+      "originalLanguage": "de",
+      "verbatim": [
+        "Bundesministerium der Justiz"
+      ],
+      "version": 1
+    },
+    "sh-anti-discrimination-act-2026": {
+      "hash": "203b303c74e4bc5c4c6edf539b3c1fe55d2c46f98980e24c985388ccc55de076",
+      "originalLanguage": "de",
+      "verbatim": [
+        "Schleswig-Holsteinischer Landtag",
+        "CDU, Bündnis 90/Die Grünen"
+      ],
+      "version": 1
+    },
+    "rp-foreign-school-certificates-recognition-2026": {
+      "hash": "f249995c7d83b485ed45127e9973fc4dd3ec3c33027c44e765ecadcb032c2af7",
+      "originalLanguage": "de",
+      "verbatim": [],
+      "version": 1
+    },
+    "sh-short-term-rental-registration-bill-2026": {
+      "hash": "e08e0403c6b2bb62d365f279e6b9b50ed5e531c464cfd07566e4cf16c7858225",
+      "originalLanguage": "de",
+      "verbatim": [
+        "Schleswig-Holsteinischer Landtag",
+        "CDU, Bündnis 90/Die Grünen"
+      ],
       "version": 1
     }
   },
@@ -60719,6 +60782,294 @@
     },
     "us-irs-ir-2026-141": {
       "hash": "37c55a54c985e3355a219fa2be70b0897c9b736be727169e0afade5161b59cc0",
+      "originalLanguage": "en",
+      "verbatim": [],
+      "titleIsOriginal": true
+    },
+    "bt-drs-21-9241-budget-accompanying-act-committee-report": {
+      "hash": "d34c57bcf0b9a8f32352a4abba20e9de11400a44c4faf8424bc68b46d3b72bfd",
+      "originalLanguage": "de",
+      "verbatim": [],
+      "titleIsOriginal": true
+    },
+    "bt-kw48-budget-accompanying-act-referral-back": {
+      "hash": "506c01b023536f1c16c753a01e80fced6fc81aed85d9564adce28f424f654b41",
+      "originalLanguage": "de",
+      "verbatim": [],
+      "titleIsOriginal": true
+    },
+    "bt-kw48-hearing-ai-migration-administration-act": {
+      "hash": "3f9305d9db2a3570873f866c847a8c7480e44edf986639964cb6cb02621136a0",
+      "originalLanguage": "de",
+      "verbatim": [],
+      "titleIsOriginal": true
+    },
+    "bt-kw48-hearing-autobahn-financing-act": {
+      "hash": "7d98b83493447cbcbd83a0e25984f52038d38058f657269ed67e3a17815abbdd",
+      "originalLanguage": "de",
+      "verbatim": [],
+      "titleIsOriginal": true
+    },
+    "de-bmf-20261123-buermog-draft": {
+      "hash": "d7fcd2b200c0a93c7f0729a2b346ace7f551644255fee9ca5179df4d1f905500",
+      "originalLanguage": "de",
+      "verbatim": [],
+      "titleIsOriginal": true
+    },
+    "br-671-26-glp-admin-regulation": {
+      "hash": "9f50f5212c1dbd4d3732a6c90d40c29b5ddb4c5d9ac4c748078d4902234ae4f7",
+      "originalLanguage": "de",
+      "verbatim": [],
+      "titleIsOriginal": true
+    },
+    "br-678-26-ets-voluntary-cancellation-notice": {
+      "hash": "ad5907350cb6726cc05fd6a05efa479dd4910049010ca3f4741af558f050799e",
+      "originalLanguage": "de",
+      "verbatim": [],
+      "titleIsOriginal": true
+    },
+    "de-20261120-consumer-credit-directive-in-force": {
+      "hash": "67ac0ce891126a8ec149620f24d407b288ea5498a0516e4d0b772567da28c814",
+      "originalLanguage": "de",
+      "verbatim": [],
+      "titleIsOriginal": true
+    },
+    "he-2026-gvbl-80": {
+      "hash": "7c4fe630dddaffbf097fe116726a41f2030d6085b559e7a4b508fc66d8c808d1",
+      "originalLanguage": "de",
+      "verbatim": [],
+      "titleIsOriginal": true
+    },
+    "he-2026-gvbl-81": {
+      "hash": "37177c0b3ef2cddbe7fb8d99bc2e71eab81600e2a0ba61791cec83f5f235bf71",
+      "originalLanguage": "de",
+      "verbatim": [],
+      "titleIsOriginal": true
+    },
+    "he-2026-gvbl-83": {
+      "hash": "b75d56d29a48e69c02cfc8db68549b0d030b68e80b3cde1909e24091bc31678c",
+      "originalLanguage": "de",
+      "verbatim": [],
+      "titleIsOriginal": true
+    },
+    "he-2026-gvbl-84": {
+      "hash": "3ef8228ef273e88f561aebd139a5f570f43affdc81c998c5f0072e0739f2f665",
+      "originalLanguage": "de",
+      "verbatim": [],
+      "titleIsOriginal": true
+    },
+    "he-2026-gvbl-85": {
+      "hash": "7c3b907ba0f9a42ebaeef930ad5b6b41b0813b75f39ffdf8dcd9e8de345e7aa5",
+      "originalLanguage": "de",
+      "verbatim": [],
+      "titleIsOriginal": true
+    },
+    "bb-2026-gvbl2-52": {
+      "hash": "91dc34ac4baee6e8e6dbf4dbe8cfaac6ed053dfe54614208cec3847de5c32630",
+      "originalLanguage": "de",
+      "verbatim": [],
+      "titleIsOriginal": true
+    },
+    "bb-2026-gvbl2-53": {
+      "hash": "afee981c0a7ee2732af3a6f689ba38d1057517fc8803dced2c3097d2f9be0cb4",
+      "originalLanguage": "de",
+      "verbatim": [],
+      "titleIsOriginal": true
+    },
+    "bw-20261119-health-strategy-2030": {
+      "hash": "5a6c1bfcd318bf1c49a538db2b43ea7b9c9ddb413ce5652e7e9467069ed5e025",
+      "originalLanguage": "de",
+      "verbatim": [],
+      "titleIsOriginal": true
+    },
+    "bw-20261120-district-student-councils-pilot": {
+      "hash": "99c2778b0359bec61f2e9a5da7e0f3da5aa342c2a7280b3900d3739e5e54e5bd",
+      "originalLanguage": "de",
+      "verbatim": [],
+      "titleIsOriginal": true
+    },
+    "bw-20261123-rail-timetable-2027": {
+      "hash": "c40fd6d0d99f32f9082fc2508f24724a8a358bddbc87d0a28511d30d70d19164",
+      "originalLanguage": "de",
+      "verbatim": [],
+      "titleIsOriginal": true
+    },
+    "by-20261119-police-onlinewache": {
+      "hash": "68109dfd880c3bf3de69f78b5dd2f898d7fcc2f361fb21347ef88ae260924f2b",
+      "originalLanguage": "de",
+      "verbatim": [],
+      "titleIsOriginal": true
+    },
+    "nw-20261123-mb-334-contract-nature-conservation-sanctions": {
+      "hash": "76c6fe0b86a26133a3e145a81212ee3d2226608ddc5783b9b46ee5916a1e5d23",
+      "originalLanguage": "de",
+      "verbatim": [],
+      "titleIsOriginal": true
+    },
+    "rp-20261123-sanz-44-foreign-school-certificates-recognition": {
+      "hash": "0090886d2c32b46f3fc8707b566c705b5e30d3a97af73ac47f5c790036d2a2fc",
+      "originalLanguage": "de",
+      "verbatim": [],
+      "titleIsOriginal": true
+    },
+    "rp-lt-drs-19-1078-gewalthilfe-implementation-motion": {
+      "hash": "bfdcda8f143639231be765df1a229f0952587da86f2a72573a676c5d8187bb6b",
+      "originalLanguage": "de",
+      "verbatim": [],
+      "titleIsOriginal": true
+    },
+    "rp-lt-drs-19-1083-municipal-volunteer-office-motion": {
+      "hash": "fb76a2ad2614ff8dce7de9d38da3b4e36ae3c6b106d51caa3eacf2f86d1d8685",
+      "originalLanguage": "de",
+      "verbatim": [],
+      "titleIsOriginal": true
+    },
+    "rp-lt-vorlage-19-497-lkompvo-wind-landscape-draft": {
+      "hash": "1fd0d7e18ac4bf14322c655cd9fcfeed5f886f74f5e49d04f2cde50b180a2082",
+      "originalLanguage": "de",
+      "verbatim": [],
+      "titleIsOriginal": true
+    },
+    "rp-lt-vorlage-19-501-hospital-plan-2027-2032": {
+      "hash": "e9a825f4438e18b56e35dfd254bc6660e09dedeea4f81eaa1c1f8f0527542dc4",
+      "originalLanguage": "de",
+      "verbatim": [],
+      "titleIsOriginal": true
+    },
+    "sl-20261123-vat-volunteer-events": {
+      "hash": "621185b47cd5d2ad270b1d7002f9d816d88de5562822645c3955053cdd360f7a",
+      "originalLanguage": "de",
+      "verbatim": [],
+      "titleIsOriginal": true
+    },
+    "sh-lt-drs-20-4529-ladg-adopted": {
+      "hash": "b7077e58a898a784c4f3f2749eff3bed80afb125cd5458f88b3d478a407ae8cd",
+      "originalLanguage": "de",
+      "verbatim": [],
+      "titleIsOriginal": true
+    },
+    "sh-lt-drs-20-4697-hospital-reform-adopted": {
+      "hash": "09605fb7bad2936b1e694708f6a4b34b158fa36d1b086ea825f89e91e5581cf1",
+      "originalLanguage": "de",
+      "verbatim": [],
+      "titleIsOriginal": true
+    },
+    "sh-lt-drs-20-4528-school-act-ganztag-adopted": {
+      "hash": "97d44a11b73d668609f5de784faaa5a8c5121b1ab606336bb66824f0e484f132",
+      "originalLanguage": "de",
+      "verbatim": [],
+      "titleIsOriginal": true
+    },
+    "sh-lt-drs-20-4763-nursing-assistant-training-adopted": {
+      "hash": "b72b71ef7dd7f374d00cd9126732c16d8a8c81435d565e6ef09a4fb5d3b866b9",
+      "originalLanguage": "de",
+      "verbatim": [],
+      "titleIsOriginal": true
+    },
+    "sh-lt-drs-20-5013-housing-protection-short-term-rental-bill": {
+      "hash": "43db032dabe0777396c2d6cfb7d51528dbbf468197aaf58973110174e374f148",
+      "originalLanguage": "de",
+      "verbatim": [],
+      "titleIsOriginal": true
+    },
+    "sh-lt-drs-20-5034-psychkg-amendment-first-reading": {
+      "hash": "f88e5b5403210892a6d71b7aa8d65a8f0fc0b581ad79f5faee9566a8f2047a0f",
+      "originalLanguage": "de",
+      "verbatim": [],
+      "titleIsOriginal": true
+    },
+    "sh-20261120-low-german-regular-school-subject-2029": {
+      "hash": "6ce78c37145fc188f4773db6ac7d7cc17186d779220f1a3ef8563ef3651d3053",
+      "originalLanguage": "de",
+      "verbatim": [],
+      "titleIsOriginal": true
+    },
+    "th-lt-drs-8-4727-return-counselling-motion": {
+      "hash": "9e6d737f60b9791f16d8a39d8d743f6ce2cca2b334212e4a778f8bba8d0089b1",
+      "originalLanguage": "de",
+      "verbatim": [],
+      "titleIsOriginal": true
+    },
+    "eu-oj-l-202602616": {
+      "hash": "11ea75b76d8df58be4b2f02ecb935c5167ac489f1a7b63ce312634505fb890a2",
+      "originalLanguage": "en",
+      "verbatim": [],
+      "titleIsOriginal": true
+    },
+    "eu-oj-l-202602605": {
+      "hash": "691dc2ff2b41782e4149f381f6b5778d4cb627b8290f7a002efa892f658b841c",
+      "originalLanguage": "en",
+      "verbatim": [],
+      "titleIsOriginal": true
+    },
+    "eu-oj-l-202602597": {
+      "hash": "667cddbffee4cccad584efd6ae04bdca7ad259652af673d8f7564e74d3d1c620",
+      "originalLanguage": "en",
+      "verbatim": [],
+      "titleIsOriginal": true
+    },
+    "eu-oj-l-202602579": {
+      "hash": "62cf45c30b99a352100a84d9b0dc332cfdeaabe8febd48f78d782e0b843ed057",
+      "originalLanguage": "en",
+      "verbatim": [],
+      "titleIsOriginal": true
+    },
+    "eu-oj-l-202602608": {
+      "hash": "4415d770762a0a3d765112da22997679b82f470033f5222e254376f27b877473",
+      "originalLanguage": "en",
+      "verbatim": [],
+      "titleIsOriginal": true
+    },
+    "eu-oj-l-202602609": {
+      "hash": "a0fb151979cdac46bbb045ef9ddb20fe9502dbbecaaf0f0984a534a02c07d4ec",
+      "originalLanguage": "en",
+      "verbatim": [],
+      "titleIsOriginal": true
+    },
+    "eu-oj-c-202606060": {
+      "hash": "4d03f744f7ff00e4828aede9bed1e01bee924573c7c1389bf4c0b8c67f41ab9c",
+      "originalLanguage": "en",
+      "verbatim": [],
+      "titleIsOriginal": true
+    },
+    "eu-oj-c-202606056": {
+      "hash": "471395a5ad6d8d807ff8d0a416ea243fb46c0e60806a8cc71f3a08d7a0c8e96c",
+      "originalLanguage": "en",
+      "verbatim": [],
+      "titleIsOriginal": true
+    },
+    "eu-20261119-methane-amendment-agreement": {
+      "hash": "2621dde40aac09ed1f36f29187a73f26d3fd80f0943acd350530bc6a538381d3",
+      "originalLanguage": "en",
+      "verbatim": [],
+      "titleIsOriginal": true
+    },
+    "eu-20261120-plastic-waste-export-ban": {
+      "hash": "31674e43f78b42a7edaddc62e02e5bee8bc2144efeb273fb773c8213201c1958",
+      "originalLanguage": "en",
+      "verbatim": [],
+      "titleIsOriginal": true
+    },
+    "eu-20261121-eu-indonesia-cepa-signed": {
+      "hash": "4b7a658a17252c14b49baae67e87b5516b2c15e76ff12e521c133ec3dc8d617e",
+      "originalLanguage": "en",
+      "verbatim": [],
+      "titleIsOriginal": true
+    },
+    "eu-20261117-de-energy-intensive-state-aid": {
+      "hash": "05b2ab39a29533184b3638d852737947d83b7492b7d2c09f1cdd3fad25b6b9ff",
+      "originalLanguage": "en",
+      "verbatim": [],
+      "titleIsOriginal": true
+    },
+    "ep-20261123-iorp-negotiation-mandate": {
+      "hash": "d762a944bad257193fa419d0334b7c168ac84159098eae5c238fec290532c304",
+      "originalLanguage": "en",
+      "verbatim": [],
+      "titleIsOriginal": true
+    },
+    "eu-20261118-com-2026-0637": {
+      "hash": "fc9be2365c519b16ecb57381107e3c9f01c228b95e7d937954d0729da92df81b",
       "originalLanguage": "en",
       "verbatim": [],
       "titleIsOriginal": true

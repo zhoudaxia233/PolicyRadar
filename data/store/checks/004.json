@@ -4141,19 +4141,19 @@
   },
   {
     "url": "https://www.bundesfinanzministerium.de/Web/DE/Presse/Pressemitteilungen/pressemitteilungen.html",
-    "checked_at": "2026-11-20T23:04:54.779Z",
-    "last_success_at": "2026-11-20T23:04:54.779Z",
+    "checked_at": "2026-11-23T20:50:53.995Z",
+    "last_success_at": "2026-11-23T20:50:53.995Z",
     "hash": "6c43128fe1870c2a51ee3891ba193224dbb6182fbe0223b08e5a0d9a45e8a320",
     "snapshot_key": "sources/d4c1f524a63308d415d64ec6ff6871313742a00b924a4c500aafdcdb488357ba/6c43128fe1870c2a51ee3891ba193224dbb6182fbe0223b08e5a0d9a45e8a320.html",
-    "changed": 1,
+    "changed": 0,
     "error": null
   },
   {
     "url": "https://taxation-customs.ec.europa.eu/news_en",
-    "checked_at": "2026-11-16T21:32:52.952Z",
-    "last_success_at": "2026-11-16T21:32:52.952Z",
-    "hash": "ba082be72cfc29cac642f8c2b5962603fd611d9d02eeb52f533fa7bc8be73600",
-    "snapshot_key": "sources/b085ff1513ef8a30bc8972d50f784b23efd62b6649adfb53d8edb9ca9fcaa332/ba082be72cfc29cac642f8c2b5962603fd611d9d02eeb52f533fa7bc8be73600.html",
+    "checked_at": "2026-11-23T20:52:33.232Z",
+    "last_success_at": "2026-11-23T20:52:33.232Z",
+    "hash": "728a249d96c9b749361bf9a686e6ebae5172846605abc9ab1cda3433ff805650",
+    "snapshot_key": "sources/b085ff1513ef8a30bc8972d50f784b23efd62b6649adfb53d8edb9ca9fcaa332/728a249d96c9b749361bf9a686e6ebae5172846605abc9ab1cda3433ff805650.html",
     "changed": 1,
     "error": null
   },
@@ -5032,10 +5032,10 @@
   },
   {
     "url": "https://www.esma.europa.eu/press-news/esma-news",
-    "checked_at": "2026-11-16T21:32:52.764Z",
-    "last_success_at": "2026-11-16T21:32:52.764Z",
-    "hash": "d27e3de7cb28674ea95b53ada01ed1f05286daaa4aafe6923f1f4e6e8df1c9bb",
-    "snapshot_key": "sources/ff7660a8a4b39083fed37c291e0e609dc2e4805f560b3acc761b1a2b876b0726/d27e3de7cb28674ea95b53ada01ed1f05286daaa4aafe6923f1f4e6e8df1c9bb.html",
+    "checked_at": "2026-11-23T20:52:33.234Z",
+    "last_success_at": "2026-11-23T20:52:33.234Z",
+    "hash": "96674aa8cf43b993503db5156fb76b9b8fe85d2497a98ec2d6ad1c13204cf56d",
+    "snapshot_key": "sources/ff7660a8a4b39083fed37c291e0e609dc2e4805f560b3acc761b1a2b876b0726/96674aa8cf43b993503db5156fb76b9b8fe85d2497a98ec2d6ad1c13204cf56d.html",
     "changed": 1,
     "error": null
   },
@@ -5878,8 +5878,8 @@
   },
   {
     "url": "https://wirtschaft.hessen.de/sites/wirtschaft.hessen.de/files/2026-09/2026_gewos_hessen_angespannte_wohnungsmaerkte_ergebnisbericht_final_0.pdf",
-    "checked_at": "2026-10-30T16:56:40.108Z",
-    "last_success_at": "2026-10-30T16:56:40.108Z",
+    "checked_at": "2026-11-24T09:47:23.742Z",
+    "last_success_at": "2026-11-24T09:47:23.742Z",
     "hash": "2bc41bf06b6464545a5c6684563fe950e447dec8640b79545b125c0ad4884107",
     "snapshot_key": "sources/462acb82d752a7e2f03ac3e58050d1c11a8c0ce64941f09be49a981376b0aedf/2bc41bf06b6464545a5c6684563fe950e447dec8640b79545b125c0ad4884107.pdf",
     "changed": 0,
@@ -5941,11 +5941,11 @@
   },
   {
     "url": "https://www.bundestag.de/resource/blob/473452/Tagesordnung-komplett.pdf",
-    "checked_at": "2026-11-20T23:07:11.880Z",
-    "last_success_at": "2026-11-20T23:07:11.880Z",
-    "hash": "c5751d9ce35e9b96f52536ee02165f094646aad5050509f246f315bb2879912d",
-    "snapshot_key": "sources/891580b397a6639ad9a5459598da93d9f0c0c173d49b59ff4fbd4937e995936e/c5751d9ce35e9b96f52536ee02165f094646aad5050509f246f315bb2879912d.pdf",
-    "changed": 1,
+    "checked_at": "2026-11-23T20:50:53.962Z",
+    "last_success_at": "2026-11-23T20:50:53.962Z",
+    "hash": "a69b70a5b0d94e2a9521f2d83351b751bd825cf05b127d639e02537c3182a81a",
+    "snapshot_key": "sources/891580b397a6639ad9a5459598da93d9f0c0c173d49b59ff4fbd4937e995936e/a69b70a5b0d94e2a9521f2d83351b751bd825cf05b127d639e02537c3182a81a.pdf",
+    "changed": 0,
     "error": null
   },
   {
@@ -8308,11 +8308,11 @@
   },
   {
     "url": "https://verkuendung.hessen.de/uebersicht-der-gesetz-und-verordnungsblaetter-fuer-das-land-hessen-gvbl",
-    "checked_at": "2026-11-20T23:11:47.329Z",
-    "last_success_at": "2026-11-20T23:11:47.329Z",
-    "hash": "12c6f7e42d1b6716ccae9a6314cea6f0a1184e8908f2c9803cde05d101bb4032",
-    "snapshot_key": "sources/7be69ed7ea8a187859ca3e0034fd5356c8cf971c50d94e88a9ec9b38ece72db2/12c6f7e42d1b6716ccae9a6314cea6f0a1184e8908f2c9803cde05d101bb4032.html",
-    "changed": 0,
+    "checked_at": "2026-11-23T20:48:09.098Z",
+    "last_success_at": "2026-11-23T20:48:09.098Z",
+    "hash": "f41b8d379b74a01ca192897782b2f7f1247ac39facbc9b4c580d19751e4187a3",
+    "snapshot_key": "sources/7be69ed7ea8a187859ca3e0034fd5356c8cf971c50d94e88a9ec9b38ece72db2/f41b8d379b74a01ca192897782b2f7f1247ac39facbc9b4c580d19751e4187a3.html",
+    "changed": 1,
     "error": null
   },
   {
@@ -8398,12 +8398,12 @@
   },
   {
     "url": "https://www.recht.bund.de/bgbl/1/2026/345/VO.html",
-    "checked_at": "2026-11-20T22:58:50.394Z",
+    "checked_at": "2026-11-23T20:50:08.584Z",
     "last_success_at": "2026-11-20T22:58:50.394Z",
     "hash": "6376116e06327f93e185b38bcce6a4baef5260e0795518039be4424e54932e40",
     "snapshot_key": "sources/4f610848576f3c80951354e14b26b8b86dc31ac4f6dcd53c71f905759b62222d/6376116e06327f93e185b38bcce6a4baef5260e0795518039be4424e54932e40.html",
     "changed": 0,
-    "error": null
+    "error": "HTTP 403"
   },
   {
     "url": "https://www.recht.bund.de/bgbl/1/2026/344/VO.html",
@@ -8821,21 +8821,21 @@
   },
   {
     "url": "https://www.recht.bund.de/bgbl/2/2026/279/VO.html",
-    "checked_at": "2026-11-16T21:31:11.983Z",
+    "checked_at": "2026-11-23T20:48:11.045Z",
     "last_success_at": null,
     "hash": null,
     "snapshot_key": null,
     "changed": 0,
-    "error": "HTTP 404"
+    "error": "fetch failed"
   },
   {
     "url": "https://www.recht.bund.de/bgbl/2/2026/280/VO.html",
-    "checked_at": "2026-11-16T21:31:12.179Z",
+    "checked_at": "2026-11-23T20:48:11.042Z",
     "last_success_at": null,
     "hash": null,
     "snapshot_key": null,
     "changed": 0,
-    "error": "HTTP 404"
+    "error": "fetch failed"
   },
   {
     "url": "https://www.recht.bund.de/bgbl/1/2026/337/regelungstext.pdf?__blob=publicationFile&v=1",
@@ -8920,8 +8920,8 @@
   },
   {
     "url": "https://recht.nrw.de/suche/vbl",
-    "checked_at": "2026-11-16T21:32:49.599Z",
-    "last_success_at": "2026-11-16T21:32:49.599Z",
+    "checked_at": "2026-11-23T20:48:03.173Z",
+    "last_success_at": "2026-11-23T20:48:03.173Z",
     "hash": "1d126dad2726ba1ed84b210c4d45d55a418e1f2d8dc588964c2896c89c63701f",
     "snapshot_key": "sources/342a8824f9dda36dc5f11753b10e01562d498eb7f6e1cc3b52ac14b111a3c1af/1d126dad2726ba1ed84b210c4d45d55a418e1f2d8dc588964c2896c89c63701f.html",
     "changed": 0,
@@ -8956,12 +8956,12 @@
   },
   {
     "url": "https://www.consilium.europa.eu/en/documents-publications/public-register/",
-    "checked_at": "2026-11-20T22:57:06.928Z",
+    "checked_at": "2026-11-23T20:52:33.238Z",
     "last_success_at": null,
     "hash": null,
     "snapshot_key": null,
     "changed": 0,
-    "error": "HTTP 403"
+    "error": "HTTP 403 (challenge/error page; not archived)"
   },
   {
     "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23754",

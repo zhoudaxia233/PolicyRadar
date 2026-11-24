@@ -3470,6 +3470,12 @@
           "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw45-de-autobahn-gesellschaft-1225118",
           "title": "Neue Finanzierungsgrundlage für die Autobahn GmbH",
           "appliesFromExport": "2026-11-07T16:00:39.127Z"
+        },
+        {
+          "region": "DE",
+          "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw48-pa-verkehr-1233478",
+          "title": "Anhörung zum Gesetzentwurf zur Änderung der Finanzierung der Infrastrukturgesellschaft für Autobahnen und andere Bundesfernstraßen",
+          "appliesFromExport": "2026-11-24T09:57:53.000Z"
         }
       ],
       "appliesFromExport": "2026-10-10T15:18:58.703Z"
@@ -5699,7 +5705,7 @@
         "《甲烷条例》进口商义务推迟",
         "Delay of Methane Regulation importer obligations"
       ],
-      "basis": "The Parliament press release of 22 October 2026 reports its position on the Commission proposal (2026/0325(COD), IP/26/2119) explained in eu-methane-regulation-importer-delay-proposal, which is keyed by the Commission news URL.",
+      "basis": "The Parliament press release of 22 October 2026 reports its position on the Commission proposal (2026/0325(COD), IP/26/2119) explained in eu-methane-regulation-importer-delay-proposal, which is keyed by the Commission news URL. The DG ENER news of 19 November reports the provisional agreement on the same procedure 2026/0325(COD).",
       "explanations": [
         "eu-methane-regulation-importer-delay-proposal"
       ],
@@ -5708,6 +5714,12 @@
           "region": "EU",
           "url": "https://www.europarl.europa.eu/news/en/press-room/20261021IPR48321/methane-rules-parliament-backs-longer-delay-for-energy-importers-and-producers",
           "title": "Methane rules: Parliament backs longer delay for energy importers and producers"
+        },
+        {
+          "region": "EU",
+          "url": "https://energy.ec.europa.eu/news/co-legislators-agree-targeted-amendment-methane-regulation-ensure-supply-security-amid-energy-crisis-2026-11-19_en",
+          "title": "Co-legislators agree on a targeted amendment to Methane Regulation to ensure supply security amid energy crisis",
+          "appliesFromExport": "2026-11-24T09:57:53.000Z"
         }
       ],
       "appliesFromExport": "2026-10-23T18:23:05.829Z"
@@ -6332,7 +6344,7 @@
         "德国2027年预算配套法草案",
         "Germany: 2027 budget accompanying bill"
       ],
-      "basis": "Cabinet item 1-02 of the 62nd meeting is the government reply to the Bundesrat opinion on this bill (BR-Drs. 442/26), which the explanation covers.",
+      "basis": "Cabinet item 1-02 of the 62nd meeting is the government reply to the Bundesrat opinion on this bill (BR-Drs. 442/26), which the explanation covers. The Budget Committee recommendation and report BT-Drs. 21/9241 and the Bundestag article of 23 November on referring the bill back to the committee concern the same bill (21/7860).",
       "explanations": [
         "de-budget-accompanying-act-2027"
       ],
@@ -6347,6 +6359,11 @@
           "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw46-pa-finanzen-1230868",
           "title": "Getränkehersteller protestieren gegen Steuererhöhungen",
           "appliesFromExport": "2026-11-10T20:11:11.722Z"
+        },
+        {
+          "region": "DE",
+          "officialId": "BT-Drs. 21/9241",
+          "appliesFromExport": "2026-11-24T09:57:53.000Z"
         }
       ],
       "appliesFromExport": "2026-11-02T21:27:52.633Z"
@@ -7484,6 +7501,105 @@
       ],
       "explanations": [
         "gb-immigration-asylum-bill-2026"
+      ]
+    },
+    {
+      "id": "de-consumer-credit-transposition-2026",
+      "title": [
+        "德国转化欧盟消费信贷指令",
+        "Germany: transposition of the EU Consumer Credit Directive"
+      ],
+      "appliesFromExport": "2026-11-24T09:57:53.000Z",
+      "basis": "The federal government page of 20 November is the source explained in de-consumer-credit-transposition-2026.",
+      "documents": [
+        {
+          "region": "DE",
+          "url": "https://www.bundesregierung.de/breg-de/bundesregierung/bundeskanzleramt/schutz-kreditvertraege-2382528",
+          "title": "Richtlinie über Verbraucherkreditverträge umgesetzt",
+          "appliesFromExport": "2026-11-24T09:57:53.000Z"
+        }
+      ],
+      "explanations": [
+        "de-consumer-credit-transposition-2026"
+      ]
+    },
+    {
+      "id": "eu-plastic-waste-export-ban-non-oecd-2026",
+      "title": [
+        "欧盟禁止向非经合组织国家出口塑料废物",
+        "EU ban on plastic waste exports to non-OECD countries"
+      ],
+      "appliesFromExport": "2026-11-24T09:57:53.000Z",
+      "basis": "The DG ENV news of 20 November reports the application from 21 November 2026 of Article 39(1)(d) of Regulation (EU) 2024/1157, explained in eu-plastic-waste-export-ban-non-oecd-2026.",
+      "documents": [
+        {
+          "region": "EU",
+          "officialId": "Regulation (EU) 2024/1157",
+          "appliesFromExport": "2026-11-24T09:57:53.000Z"
+        }
+      ],
+      "explanations": [
+        "eu-plastic-waste-export-ban-non-oecd-2026"
+      ]
+    },
+    {
+      "id": "eu-indonesia-cepa-ipa-signed-2026",
+      "title": [
+        "欧盟—印度尼西亚贸易和投资协定",
+        "EU–Indonesia trade and investment agreements"
+      ],
+      "appliesFromExport": "2026-11-24T09:57:53.000Z",
+      "basis": "The Commission page reports the signature of 21 November of the two agreements explained in eu-indonesia-cepa-ipa-signed-2026 (IP/26/2532).",
+      "documents": [
+        {
+          "region": "EU",
+          "url": "https://commission.europa.eu/topics/trade/eu-indonesia-trade-agreement_en",
+          "title": "EU and Indonesia sign trade and investment agreements",
+          "appliesFromExport": "2026-11-24T09:57:53.000Z"
+        }
+      ],
+      "explanations": [
+        "eu-indonesia-cepa-ipa-signed-2026"
+      ]
+    },
+    {
+      "id": "he-cadastral-survey-fees-2026",
+      "title": [
+        "黑森测量和地籍收费调整",
+        "Hesse: surveying and cadastre fee changes"
+      ],
+      "appliesFromExport": "2026-11-24T09:57:53.000Z",
+      "basis": "GVBl. Nr. 84 amends the same annex 2 of the economics ministry fee ordinance that GVBl. Nr. 67 rewrote; both take effect on 1 December 2026 and are explained in he-cadastral-survey-fees-2026.",
+      "documents": [
+        {
+          "region": "DE-HE",
+          "officialId": "GVBl. Hessen 2026 Nr. 67",
+          "appliesFromExport": "2026-11-24T09:57:53.000Z"
+        },
+        {
+          "region": "DE-HE",
+          "officialId": "GVBl. Hessen 2026 Nr. 84",
+          "appliesFromExport": "2026-11-24T09:57:53.000Z"
+        }
+      ]
+    },
+    {
+      "id": "rp-foreign-school-certificates-recognition-2026",
+      "title": [
+        "莱法州外国中学毕业证书一般性认可",
+        "Rhineland-Palatinate: general recognition of foreign school certificates"
+      ],
+      "appliesFromExport": "2026-11-24T09:57:53.000Z",
+      "basis": "Staatsanzeiger Nr. 44 contains the ADD general ruling explained in rp-foreign-school-certificates-recognition-2026.",
+      "documents": [
+        {
+          "region": "DE-RP",
+          "officialId": "Staatsanzeiger RLP 2026 Nr. 44",
+          "appliesFromExport": "2026-11-24T09:57:53.000Z"
+        }
+      ],
+      "explanations": [
+        "rp-foreign-school-certificates-recognition-2026"
       ]
     }
   ]

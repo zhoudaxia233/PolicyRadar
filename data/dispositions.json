@@ -14912,6 +14912,90 @@
           "officialId": "Amtsbl. Saarland I 2026 S. 1082"
         }
       ]
+    },
+    {
+      "id": "de-technical-20261123",
+      "reason": [
+        "针对特定行业、设施、产品或行政程序的技术性条例、行政规定和联邦参议院对此类文件的处理：不直接改变普通居民的权利义务。",
+        "Technical ordinances, administrative regulations and Bundesrat decisions on such documents for specific sectors, installations, products or procedures: they do not directly change ordinary residents’ rights or duties."
+      ],
+      "appliesFromExport": "2026-11-24T09:57:53.000Z",
+      "basis": "Each record was read: good laboratory practice inspection rules, a notice of voluntary cancellation of emission allowances for two closed power plants, the Hesse chambers-of-commerce implementing act, the Hesse publicly appointed surveyors act and the Brandenburg municipal budget and cash ordinance.",
+      "documents": [
+        {
+          "region": "DE",
+          "officialId": "BR-Drs. 671/26"
+        },
+        {
+          "region": "DE",
+          "officialId": "BR-Drs. 678/26"
+        },
+        {
+          "region": "DE-HE",
+          "officialId": "GVBl. Hessen 2026 Nr. 81"
+        },
+        {
+          "region": "DE-HE",
+          "officialId": "GVBl. Hessen 2026 Nr. 85"
+        },
+        {
+          "region": "DE-BB",
+          "officialId": "GVBl. Brandenburg II 2026 Nr. 52"
+        }
+      ]
+    },
+    {
+      "id": "eu-oj-trade-defence-20261123",
+      "reason": [
+        "对特定进口产品的反倾销或保障措施及其复审：只涉及相关进口商和生产商。",
+        "Anti-dumping or safeguard measures on specific imported products and their reviews: they concern only the importers and producers involved."
+      ],
+      "appliesFromExport": "2026-11-24T09:57:53.000Z",
+      "basis": "Official Journal of 23 November: termination of the Russian urea investigation, review of duties on Indonesian fatty acid, safeguard investigation into composite input materials.",
+      "documents": [
+        {
+          "region": "EU",
+          "officialId": "OJ:L_202602579"
+        },
+        {
+          "region": "EU",
+          "officialId": "OJ:C_202606056"
+        },
+        {
+          "region": "EU",
+          "officialId": "OJ:C_202606060"
+        }
+      ]
+    },
+    {
+      "id": "eu-oj-institutional-20261123",
+      "reason": [
+        "机构任命和欧盟在国际组织中的立场：不为个人设定规则。",
+        "Institutional appointments and EU positions in international bodies: they set no rules for individuals."
+      ],
+      "appliesFromExport": "2026-11-24T09:57:53.000Z",
+      "basis": "Official Journal of 23 November: EU position on Harmonized System nomenclature recommendations in the World Customs Organization.",
+      "documents": [
+        {
+          "region": "EU",
+          "officialId": "OJ:L_202602608"
+        }
+      ]
+    },
+    {
+      "id": "eu-oj-technical-20261123",
+      "reason": [
+        "针对特定产品、企业或成员国的技术规则。",
+        "Technical rules for specific products, businesses or member states."
+      ],
+      "appliesFromExport": "2026-11-24T09:57:53.000Z",
+      "basis": "Official Journal of 23 November: processing aids permitted in the fermentation of reduced-sugar fruit juice, a product-specific technical rule for producers.",
+      "documents": [
+        {
+          "region": "EU",
+          "officialId": "OJ:L_202602597"
+        }
+      ]
     }
   ]
 }
